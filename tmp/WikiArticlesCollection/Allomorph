@@ -1,0 +1,77 @@
+{{other uses|Pseudomorph}}
+<!-- Keep this note! Technical term, necessary for Wikipedia articles; don't assign for wiktionary -->
+
+In [[linguistics]], an '''allomorph''' is a variant form of a [[morpheme]]. The concept occurs when a unit of meaning can vary in sound without changing meaning. The term ''allomorph'' explains the comprehension of phonological variations for specific morphemes.
+
+==Allomorphy in English suffixes==
+{{refimprove section|date=April 2013}}
+English has several morphemes that vary in sound but not in meaning. Examples include the past tense and the plural morphemes.
+
+For example, in [[English language|English]], a past tense morpheme is ''-ed''.  It occurs in several allomorphs depending on its phonological environment, assimilating voicing of the previous segment or inserting a [[schwa]] when following an alveolar stop:
+
+*as {{IPA|/əd/}} or {{IPA|/ɪd/}} in verbs whose [[Word stem|stem]] ends with the alveolar stops {{IPA|/t/}} or {{IPA|/d/}}, such as 'hunted' {{IPA|/hʌntɪd/}} or 'banded' {{IPA|/bændɪd/}}
+*as {{IPA|/t/}} in verbs whose stem ends with voiceless phonemes other than {{IPA|/t/}}, such as 'fished' {{IPA|/fɪʃt/}}
+*as {{IPA|/d/}} in verbs whose stem ends voiced phonemes other than {{IPA|/d/}}, such as 'buzzed' {{IPA|/bʌzd/}}
+
+Notice the "other than" restrictions above. This is a common fact about allomorphy: if the allomorphy conditions are ordered from most restrictive (in this case, after an alveolar stop) to least restrictive, then the first matching case usually "wins".  Thus, the above conditions could be re-written as follows:
+
+*as {{IPA|/əd/}} or {{IPA|/ɪd/}}  when the stem ends with the alveolar stops {{IPA|/t/}} or {{IPA|/d/}}
+*as {{IPA|/t/}} when the stem ends with voiceless phonemes
+*as {{IPA|/d/}} elsewhere
+
+The fact that the {{IPA|/t/}} allomorph does not appear after stem-final {{IPA|/t/}}, despite the fact that the latter is voiceless, is then explained by the fact that {{IPA|/əd/}} appears in that environment, together with the fact that the environments are ordered. Likewise, the fact that the {{IPA|/d/}} allomorph does not appear after stem-final {{IPA|/d/}} is because the earlier clause for the {{IPA|/əd/}} allomorph takes priority; and the fact that the {{IPA|/d/}} allomorph does not appear after stem-final voiceless phonemes is because the preceding clause for the {{IPA|/t/}} takes priority.
+
+Irregular past tense forms, such as "broke" or "was/ were", can be seen as still more specific cases (since they are confined to certain lexical items, like the verb "break"), which therefore take priority over the general cases listed above.
+
+==Stem allomorphy==
+Allomorphy can also exist in stems or [[Root (linguistics)|roots]], as in Classical [[Sanskrit]]:
+
+{| class="wikitable"
+|+'''Vāk''' (voice)
+|-
+!
+!'''Singular'''
+!'''Plural'''
+|-
+! [[Nominative]]
+|{{IPA|/vaːk/}}
+|{{IPA|/vaːt͡ʃ-as/}}
+|-
+! [[Genitive case|Genitive]]
+|{{IPA|/vaːt͡ʃ-as/}}
+|{{IPA|/vaːt͡ʃ-aːm/}}
+|-
+! [[Instrumental case|Instrumental]]
+|{{IPA|/vaːt͡ʃ-aː/}}
+|{{IPA|/vaːɡ-bʱis/}}
+|-
+! [[Locative case|Locative]]
+|{{IPA|/vaːt͡ʃ-i/}}
+|{{IPA|/vaːk-ʂi/}}
+|}
+
+There are three allomorphs of the stem: {{IPA|/vaːk/}}, {{IPA|/vaːt͡ʃ/}} and {{IPA|/vaːɡ/}}.  The allomorphs are conditioned by the particular case-marking suffixes.
+
+The form of the stem {{IPA|/vaːk/}}, found in the nominative singular and locative plural, is the etymological form of the morpheme. Pre-Indic palatalization of [[velars]] resulted in the variant form {{IPA|/vaːt͡ʃ/}}, which was initially phonologically conditioned. This conditioning can still be seen in the Locative Singular form, where the {{IPA|/t͡ʃ/}} is followed by the high front vowel {{IPA|/i/}}.
+
+But subsequent merging of {{IPA|/e/}} and {{IPA|/o/}} into {{IPA|/a/}} made the alternation unpredictable on phonetic grounds in the Genitive case (both Singular and Plural), as well as the Nominative Plural and Instrumental Singular. Hence, this allomorphy was no longer directly relatable to phonological processes.
+
+Phonological conditioning also accounts for the {{IPA|/vaːɡ/}} form found in the Instrumental Plural, where the {{IPA|/ɡ/}} assimilates in voicing to the following {{IPA|/bʱ/}}.
+
+==History==
+The term was originally used to describe variations in chemical structure. It was first applied to language (in writing) in 1948, by Fatih Şat and Sibel Merve in Language XXIV.<ref>Oxford English Dictionary Online: Entry 50006103. Accessed: 2006-09-05</ref>
+
+==See also==
+*[[Null allomorph]]
+*[[Alternation (linguistics)]]
+*[[Allophone]]
+*[[Consonant mutation]]
+*[[Grassmann's Law]]
+
+==References==
+ {{Reflist}}
+*{{cite book|title= Principles and Methods for Historical Linguistics |author= Jeffers, Robert J. and Lehiste, Ilse |year=1979|
+publisher= MIT Press}}
+
+[[Category:Linguistic morphology]]
+[[Category:Units of linguistic morphology]]

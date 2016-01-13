@@ -1,0 +1,55 @@
+{{Refimprove|date=November 2009}}
+[[Image:Context menu.png|frame|right|A desktop context menu in [[GNOME]] which can be customized]]
+
+[[Image:Context menu windows.png|thumb|233px|right|Context menus in [[Windows 8]] are customizable by third-party software.]]
+
+A '''context menu''' (also called '''contextual''', '''shortcut''', and '''popup''' or '''pop-up''' '''menu''') is a [[Menu (computing)|menu]] in a [[graphical user interface]] (GUI) that appears upon user interaction, such as a right-click [[Mouse (computing)#Operation|mouse operation]]. A context menu offers a limited set of choices that are available in the current state, or context, of the operating system or application. Usually the available choices are actions related to the [[Selection (user interface)|selected object]].
+
+==History==
+Context menus first appeared in the [[Smalltalk]] environment on the [[Xerox Alto]] computer, where they were called ''pop-up menus.'' The [[NEXTSTEP]] operating system further developed the idea, incorporating a feature whereby the right or middle mouse button brought the main menu (which was vertical and automatically changed depending on context) to the location of the mouse, thereby eliminating the need to move the mouse pointer all the way across the large (for the time) NextStep screen.
+
+==Implementation==
+Context menus are opened via various forms of user interaction that target a region of the GUI that supports context menus. The specific form of user interaction and the means by which a region is targeted vary:
+* On a computer running [[Microsoft Windows]], [[Mac OS X]], or [[Unix]] running the [[X Window System]], clicking the secondary mouse button (usually the right button) opens a context menu for the region that is under the mouse pointer.
+* On systems that support one-button mice, context menus are typically opened by pressing and holding the primary mouse button (this works on the icons in the Dock on [[Mac OS X]]) or by pressing a keyboard/mouse button combination (e.g. Ctrl-mouse click in [[Mac OS]]). A keyboard alternative for Mac OS is to enable [[Mouse keys]] in [[Universal Access]]. Then, depending on whether a laptop or compact or extended keyboard type is used, the shortcut is {{keypress|Function}}+{{keypress|Ctrl}}+5 or {{keypress|Ctrl}}+5 (numeric keypad) or {{keypress|Function}}+{{keypress|Ctrl}}+i (laptop).
+Windows 7 changed{{cn|date=September 2013|reason=I saq the same behaviour in XP already.}} the mouse click behavior such that the context menu doesn't open while the mouse button is pressed, but only opens the menu when the button is released, so the user has to click again (this time with the first mouse button) to select a context menu item. This behavior differs from Windows XP, Mac OS X, and most Linux distributions.
+* In Microsoft Windows, pressing the [[Menu key|Application key]] or Shift+F10 opens a context menu for the region that has [[Focus (computing)|focus]].
+
+Context menus are sometimes hierarchically organized, allowing navigation through different levels of the menu structure. The implementations differ: [[Microsoft Word]] was one of the first applications to only show sub-entries of some menu entries after clicking an arrow icon on the context menu, otherwise executing an action associated with the parent entry. This makes it possible to quickly repeat an action with the parameters of the previous execution, and to better separate options from actions.
+
+=== X Window Managers ===
+
+The following [[window manager]]s provide context menu functionality:
+
+* [[9wm]]
+* [[IceWM]] - [[middleclick]] and [[rightclick]] context menus on [[Desktop environment|desktop]], [[menubar]]. [[titlebar]]s, and [[titleicon]]
+* [[olwm]]
+* [[openbox]]
+* [[Sawfish (window manager)|sawfish]]
+
+==Usability==
+Context menus have received some criticism from [[usability]] analysts when improperly used, as some applications make certain features ''only'' available in context menus, which may confuse even experienced users (especially when the context menus can only be activated in a limited area of the application's client window).
+
+Context menus usually open in a fixed position under the [[Elements of graphical user interfaces#Pointer|pointer]], but when the pointer is near a screen edge the menu will be displaced - thus reducing consistency and impeding use of [[muscle memory]]. If the context menu is being triggered by keyboard, such as by using Shift + F10, the context menu appears near the focused widget instead of the position of the pointer, to save recognition efforts.
+
+==In documentation==
+Microsoft's guidelines call for always using the term ''context menu'', and explicitly deprecate ''shortcut menu''.<ref name="msmenu">Microsoft (2011). Menus. Retrieved from http://msdn.microsoft.com/en-us/library/aa511502.aspx.</ref>
+
+== See also ==
+*[[Pie menu]]
+*[[Screen hotspot]]
+
+== References ==
+{{reflist}}
+
+==External links==
+{{Wiktionary}}
+{{Commons category}}
+*[http://msdn.microsoft.com/en-us/library/aa511502.aspx Microsoft Menus]
+
+{{GUI widgets}}
+
+[[Category:Graphical user interface elements]]
+[[Category:GUI widgets]]
+[[Category:Windows administration]]
+[[Category:Mac OS user interface]]

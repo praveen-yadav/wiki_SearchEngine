@@ -1,0 +1,291 @@
+{{no epoch}}
+{{Infobox spaceflight
+| name                  = Apollo 14
+| image                 = Apollo 14 Shepard.jpg
+| image_caption         = Alan Shepard plants an American flag on the Moon during Apollo 14
+| insignia              = Apollo_14-insignia.png
+
+| mission_type          = Manned lunar landing
+| operator              = [[NASA]]<ref name="Orloff">{{cite book |last=Orloff |first=Richard W. |title=Apollo by the Numbers: A Statistical Reference |url=http://history.nasa.gov/SP-4029/SP-4029.htm |accessdate=July 17, 2013 |series=NASA History Series |origyear=First published 2000 |year=2004 |month=September |work=NASA History Division, Office of Policy and Plans |publisher=[[NASA]] |location=Washington, D.C. |isbn=0-16-050631-X |lccn=00-061677 |id=NASA SP-2000-4029 |chapter=Table of Contents |chapterurl=http://history.nasa.gov/SP-4029/Apollo_00g_Table_of_Contents.htm|archiveurl=http://web.archive.org/web/20070823124845/http://history.nasa.gov/SP-4029/SP-4029.htm|archivedate=August 23, 2007}}</ref>
+| COSPAR_ID             = CSM: 1971-008A<br/>LM: 1971-008C
+| SATCAT                = CSM: 4900<br/>LM: 4905
+| mission_duration      = 9&nbsp;days, 1&nbsp;minutes, 58&nbsp;seconds
+
+| spacecraft            = [[Apollo Command/Service Module|Apollo CSM]]-110<br/>[[Apollo Lunar Module|Apollo LM]]-8
+| manufacturer          = CSM: [[Rockwell International|North American Rockwell]]<br/>LM: [[Grumman]]
+| launch_mass           = CSM: {{convert|29240|kg|lb}}<br/>LM: {{convert|15264|kg|lb}}
+| landing_mass          =
+
+| launch_date           = {{start-date|January 31, 1971, 21:03:02|timezone=yes}}&nbsp;UTC 
+| launch_rocket         = [[Saturn V]] SA-509
+| launch_site           = [[Kennedy Space Center|Kennedy]] [[Kennedy Space Center Launch Complex 39|LC-39A]]
+
+| landing_date          = {{end-date|February 9, 1971, 21:05:00|timezone=yes}}&nbsp;UTC 
+| landing_site          = South Pacific Ocean<br/>{{Coord|27|1|S|172|39|W|type:event|title=Apollo 14 splashdown}}
+
+| orbit_epoch           = 
+| orbit_reference       = [[selenocentric orbit|Selenocentric]]
+| orbit_periapsis       = {{convert|9.1|nmi|km|disp=flip|sp=us}}
+| orbit_apoapsis        = {{convert|58.8|nmi|km|disp=flip|sp=us}}
+| orbit_inclination     = 
+| orbit_period          = 120&nbsp;minutes
+| apsis                 = selene
+
+|interplanetary         = 
+ {{Infobox spaceflight/IP
+   |type                = orbiter
+   |object              = [[Moon|Lunar]]
+   |component           = [[Apollo Command/Service Module|Command/Service Module]]
+   |orbits              = 34
+   |arrival_date        = February 4, 1971, 06:59:42&nbsp;UTC
+   |departure_date      = February 7, 1971, 01:39:04&nbsp;UTC
+ }}
+ {{Infobox spaceflight/IP
+   |type                = lander
+   |object              = [[Moon|Lunar]]
+   |component           = [[Apollo Lunar Module|Lunar Module]]
+   |arrival_date        = February 5, 1971, 09:18:11&nbsp;UTC
+   |departure_date      = February 6, 1971, 18:48:42&nbsp;UTC
+   |location            = [[Fra Mauro formation|Fra Mauro]]<br/>{{Lunar coords and quad cat|3.6453|S|17.471361|W}}
+   |sample_mass         = {{convert|42.28|kg|lb}}
+   |surface_EVAs        = 2
+   |surface_EVA_time    = {{nowrap|Total: 9&nbsp;hours, 22&nbsp;minutes, 31&nbsp;seconds<br/>}}<small>First: 4&nbsp;hours, 47&nbsp;minutes, 50&nbsp;seconds<br/>Second&nbsp;&nbsp;&nbsp;04&nbsp;hours, 34&nbsp;minutes, 41&nbsp;seconds</small>
+  }}
+
+| docking               = 
+ {{Infobox spaceflight/Dock
+   | docking_target     = LM
+   | docking_type       = dock
+   | docking_date       = February 1, 1971, 01:57:58&nbsp;UTC
+   | undocking_date     = February 5, 1971, 04:50:43&nbsp;UTC
+   | time_docked        = 
+ }}
+ {{Infobox spaceflight/Dock
+   | docking_target     = LM Ascent Stage
+   | docking_type       = dock
+   | docking_date       = February 6, 1971, 20:35:52&nbsp;UTC
+   | undocking_date     = February 6, 1971, 22:48:00&nbsp;UTC
+   | time_docked        = 
+ }}
+
+| crew_size             = 3
+| crew_members          = [[Alan Shepard|Alan B. Shepard, Jr.]]<br/>[[Stuart Roosa|Stuart A. Roosa]]<br/>[[Edgar Mitchell|Edgar D. Mitchell]]
+| crew_callsign         = CSM: Kitty Hawk<br/>LM: Antares
+| crew_photo            = Apollo 14 crew.jpg
+| crew_photo_caption    = Left to right: Roosa, Shepard, Mitchell
+
+| previous_mission      = [[Apollo 13]]
+| next_mission          = [[Apollo 15]]
+| programme             = [[Apollo program|Project Apollo]]<br/><small>Manned missions</small>
+}}
+
+'''Apollo 14''' was the eighth manned mission in the [[United States]] [[Apollo program]], and the third to [[Moon landing|land]] on the [[Moon]]. It was the last of the "[[List of Apollo mission types|H missions]]," targeted landings with two-day stays on the Moon with two lunar [[Extra-vehicular activity|EVA]]s, or moonwalks.
+
+Commander [[Alan Shepard]], [[Apollo Command/Service Module#Command Module (CM)|Command Module Pilot]] [[Stuart Roosa]], and [[Apollo Lunar Module|Lunar Module Pilot]] [[Edgar Mitchell]] launched on their nine-day mission on January 31, 1971 at 4:04:02 pm local time after a 40 minute, 2 second delay due to launch site weather restrictions, the first such delay in the Apollo program.<ref>{{cite web |url=http://history.nasa.gov/afj/launchwindow/lw1.html |title=Apollo lunar landing launch window: The controlling factors and constraints |last=Wheeler |first=Robin |year=2009 |work=Apollo Flight Journal |publisher=NASA |accessdate=July 17, 2013|archiveurl=http://web.archive.org/web/20090402101131/http://history.nasa.gov/afj/launchwindow/lw1.html|archivedate=April 2, 2009}}</ref> Shepard and Mitchell made their lunar landing on February 5 in the [[Fra Mauro formation]]; this had originally been the target of the aborted [[Apollo 13]] mission. During the two lunar EVAs, {{convert|42|kg|lb}} of [[Moon rock]]s were collected and several surface experiments, including seismic studies, were performed. Shepard famously hit two [[golf ball]]s on the lunar surface with a makeshift club he had brought from [[Earth]]. Shepard and Mitchell spent about 33 hours on the Moon, with about 9½ hours on EVA.
+
+While Shepard and Mitchell were on the surface, Roosa remained in [[lunar orbit]] aboard the [[Apollo Command/Service Module|Command/Service Module]], performing scientific experiments and photographing the Moon. He took several hundred seeds on the mission, many of which were [[Germination|germinated]] on return, resulting in the so-called [[Moon tree]]s. Shepard, Roosa, and Mitchell landed in the [[Pacific Ocean]] on February 9.
+
+== Crew ==
+{{Spaceflight crew
+|terminology      = Astronaut
+|position1        = Commander
+|crew1_up         = [[Alan Shepard|Alan B. Shepard, Jr.]]
+|flights1_up      = Second and last
+|position2        = Command Module Pilot
+|crew2_up         = [[Stuart Roosa|Stuart A. Roosa]]
+|flights2_up      = Only
+|position3        = Lunar Module Pilot
+|crew3_up         = [[Edgar Mitchell|Edgar D. Mitchell]]
+|flights3_up      = Only
+}}
+
+Shepard was the oldest U.S. [[astronaut]] when he made his trip aboard Apollo 14.<ref>{{cite news |title=Apollo 14 Moon shot: Alan Shepard 'told he was too old' |first=Paul |last=Rincon |authorlink=Paul Rincon |url=http://www.bbc.co.uk/news/science-environment-12344613 |publisher=[[BBC News]] |location=London |date=February 3, 2011 |accessdate=February 3, 2011 |archiveurl=http://web.archive.org/web/20110204051501/http://www.bbc.co.uk/news/science-environment-12344613 |archivedate=February 4, 2011 <!--DASHBot-->| deadurl= no}}</ref><ref>{{cite web |url=http://www.upi.com/Audio/Year_in_Review/Events-of-1971/Apollo-14-and-15/12295509436546-9/ |title=1971 Year in Review: Apollo 14 and 15 |work=UPI.com |publisher=[[United Press International]] |year=1971 |accessdate=May 3, 2009}}</ref> He is the only astronaut from [[Project Mercury]] (the original [[Mercury Seven]] astronauts) to reach the Moon. Another of the original seven, [[Gordon Cooper]], had (as [[Apollo 10]]'s backup commander) tentatively been scheduled to command the mission, but according to author [[Andrew Chaikin]], his casual attitude toward training, along with problems with [[NASA]] hierarchy (reaching all the way back to the [[Mercury-Atlas 9]] flight), resulted in his removal.
+
+The mission was a personal triumph for Shepard, who had battled back from [[Ménière's disease]] which grounded him from 1964 to 1968. He and his crew were originally scheduled to fly on Apollo 13, but in 1969 NASA officials switched the scheduled crews for Apollos 13 and 14. This was done to allow Shepard more time to train for his flight, as he had been grounded for 4 years.<ref name="Chaikin2009">[[#Chaikin 2009|Chaikin 2009]]</ref>
+
+As of 2013, Mitchell is the only surviving member of the crew; Roosa died in 1994 from [[pancreatitis]] and Shepard in 1998 from [[leukemia]].
+
+=== Backup crew ===
+{{Spaceflight crew
+|terminology      = Astronaut
+|position1        = Commander
+|crew1_up         = [[Eugene Cernan|Eugene A. Cernan]]
+|position2        = Command Module Pilot
+|crew2_up         = [[Ronald Evans (astronaut)|Ronald E. Evans, Jr.]]
+|position3        = Lunar Module Pilot
+|crew3_up         = [[Joe Engle|Joe H. Engle]]
+|notes            = The backup crew (with [[Harrison Schmitt]] replacing Engle)<br> would become the prime crew of [[Apollo 17]].
+}}
+
+=== Support crew ===
+*[[Philip K. Chapman]]
+*[[Bruce McCandless II|Bruce McCandless, II]]
+*[[William R. Pogue]]
+*[[C. Gordon Fullerton]]
+
+=== Flight directors ===
+*Pete Frank, Orange team
+*[[Glynn Lunney]], Black team
+*Milton Windler, Maroon team
+*[[Gerald D. Griffin]], Gold team
+
+== Mission parameters ==
+
+*'''[[Mass]]:''' CSM 29,240&nbsp;kg; LM 15,264&nbsp;kg
+*'''[[Perigee]]:''' 183.2&nbsp;km
+*'''[[Apogee]]:''' 188.9&nbsp;km
+*'''[[Inclination]]:''' 31.12°
+*'''[[Orbital period|Period]]:''' 88.18 min
+
+*'''[[Perilune]]:''' 108.2&nbsp;km
+*'''[[Apolune]]:''' 314.1&nbsp;km
+*'''[[Inclination]]:''' °
+*'''[[Orbital period|Period]]:''' 120 min
+*'''Landing Site:''' [http://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html 3.64530° S – 17.47136° W] or<br /> 3° 38' 43.08" S – 17° 28' 16.90" W
+{{clear}}
+
+=== LM – CSM docking ===
+*'''Undocked''': February 5, 1971 – 04:50:43 UTC
+*'''Docked''': February 6, 1971 – 20:35:42 UTC
+
+=== EVAs ===
+
+; EVA 1 
+* '''Start''': February 5, 1971, 14:42:13 UTC 
+* ''Shepard '' – EVA 1
+*'''Stepped onto Moon''': 14:54 UTC
+*'''LM ingress''': 19:22 UTC
+
+* ''Mitchell'' – EVA 1
+*'''Stepped onto Moon''': 14:58 UTC
+*'''LM ingress''': 19:18 UTC
+
+*'''End''': February 5, 19:30:50 UTC
+**'''Duration''': 4 hours, 47 minutes, 50 seconds
+
+; EVA 2 
+* '''Start''': February 6, 1971, 08:11:15 UTC 
+* ''Shepard '' – EVA 2
+*'''Stepped onto Moon''': 08:16 UTC
+*'''LM ingress''': 12:38 UTC
+
+* ''Mitchell'' – EVA 2
+*'''Stepped onto Moon''': 08:23 UTC
+*'''LM ingress''': 12:28 UTC
+
+*'''End''': February 6, 12:45:56 UTC
+**'''Duration''': 4 hours, 34 minutes, 41 seconds
+
+== Mission highlights ==
+[[File:Apollo 14 Launch - GPN-2000-000633.jpg|thumb|Launch of Apollo 14]]
+
+===Launch and flight to lunar orbit===
+Apollo 14 launched during heavy cloud cover, and was quickly obscured by the clouds. However, NASA's long-range cameras, based 60 miles south in [[Vero Beach, Florida|Vero Beach]], had a clear shot of the remainder of the launch. Following the launch, the [[Launch Control Center]] at [[Kennedy Space Center]] was visited by [[Vice President of the United States|U.S. Vice President]] [[Spiro Agnew|Spiro T. Agnew]], [[Juan Carlos I of Spain|Prince Juan Carlos]] of [[Spain]], and his wife, [[Queen Sofía of Spain|Princess Sofía]].
+
+At the beginning of the mission, the [[Apollo Command/Service Module|CSM]] ''Kitty Hawk'' had difficulty achieving capture and docking with the [[Apollo Lunar Module|LM]] ''Antares''. Repeated attempts to dock went on for 1 hour and 42 minutes, until it was suggested that pilot Roosa hold ''Kitty Hawk'' against ''Antares'' using its thrusters, then the docking probe would be retracted out of the way, hopefully triggering the docking latches. This attempt was successful, and no further docking problems were encountered during the mission.
+
+===Lunar descent===
+After separating from the Command Module in lunar orbit, the LM ''Antares'' also had two serious problems. First, the LM computer began getting an ABORT signal from a faulty switch. NASA believed that the computer might be getting erroneous readings like this if a tiny ball of solder had shaken loose and was floating between the switch and the contact, closing the circuit. The immediate solution—tapping on the panel next to the switch—did work briefly, but the circuit soon closed again. If the problem recurred after the descent engine fired, the computer would think the signal was real and would initiate an auto-abort, causing the [[Apollo Lunar Module#Ascent stage|ascent stage]] to separate from the [[Apollo Lunar Module#Descent stage|descent stage]] and climb back into orbit. NASA and the software teams at the [[Massachusetts Institute of Technology]] scrambled to find a solution, and determined the fix would involve reprogramming the flight software to ignore the false signal. The [[patch (computing)|software modifications]] were transmitted to the crew via voice communication, and Mitchell manually entered the changes (amounting to over 80 keystrokes on the LM computer pad) just in time.
+
+A second problem occurred during the powered descent, when the LM radar altimeter failed to lock automatically onto the Moon's surface, depriving the navigation computer of vital information on the vehicle altitude and groundspeed. (This was not a result of the modifications to the ABORT command; rather, the post-mission report indicated it was an unrelated bug in the radar's operation.) After the astronauts cycled the landing radar breaker, the unit successfully acquired a signal near {{convert|18000|ft|m}}, again just in the nick of time. Shepard then manually landed the LM closer to its intended target than any of the other six Moon landing missions. Mitchell believes that Shepard would have continued with the landing attempt without the radar, using the LM inertial guidance system and visual cues. But a post-flight review of the descent data showed the inertial system alone would have been inadequate, and the astronauts probably would have been forced to abort the landing as they approached the surface.
+
+===Lunar surface operations===
+[[Image:a14-plaque.jpg|thumb|right|The [[Lunar plaque|plaque]] left on the Moon by Apollo 14]]
+Shepard and Mitchell named their landing site ''Fra Mauro Base'', and this designation is recognized by the [[International Astronomical Union]] (depicted in Latin on lunar maps as ''Statio Fra Mauro'').
+
+Shepard's first words, after stepping onto the lunar surface were, "And it's been a long way, but we're here." Unlike [[Neil Armstrong]] on [[Apollo 11]] and [[Pete Conrad]] on Apollo 12, Shepard had already stepped off the LM footpad and was a few yards (meters) away before he spoke.
+
+[[Image:Apollo 14 Shepard.jpg|thumb|left|Alan Shepard on lunar surface. Note the red stripes on his [[space suit]], to distinguish him from Edgar Mitchell]]
+Shepard's moonwalking suit was the first to utilize red stripes on the arms and legs and on the top of the lunar EVA sunshade "hood," so as to allow easy identification between the commander and LM pilot on the surface;<ref>{{cite journal |last=von Braun |first=Wernher |authorlink=Wernher von Braun |title=Space Suits—from Pressurized Prison to Mini-Spacecraft |year=1972 |month=July |journal=[[Popular Science]] |page=121 |url=http://books.google.com.au/books?id=WZ6okH8FCs4C&lpg=PA121&dq=space%20suits%20red%20bands&pg=PA121#v=onepage&q=space%20suits%20red%20bands&f=false |accessdate=July 17, 2013}}</ref> on the [[Apollo 12]] pictures, it had been almost impossible to distinguish between the two crewmen, causing a great deal of confusion. This feature was included on [[Jim Lovell]]'s Apollo 13 suit, however because no landing was made on that mission, Apollo 14 was the first to make use of it. This feature was used for the remaining Apollo missions, and for the EVAs of [[Space Shuttle]] flights afterwards, and it is still in use today on both the U.S. and Russian [[space suit]]s on the [[International Space Station]].
+
+After landing in the Fra Mauro formation—the destination for Apollo 13—Shepard and Mitchell took two moonwalks, adding new seismic studies<ref>Brzostowski and Brzostowski, pp 414-416</ref> to the by now familiar Apollo experiment package, and using the [[Modular Equipment Transporter]] (MET), a pull cart for carrying equipment and samples, referred to as a "lunar rickshaw." Roosa, meanwhile, took pictures from on board Command Module ''Kitty Hawk'' in lunar orbit.
+
+The second moonwalk, or EVA, was intended to reach the rim of the {{convert|1000|ft|m|adj=on}} wide Cone Crater. However, the two astronauts were not able to find the rim amid the rolling terrain of the crater's slopes. Later analysis, using the pictures that they took, determined that they had come within an estimated {{convert|65|ft|m}} of the crater's rim. Images from the [[Lunar Reconnaissance Orbiter]] (LRO) show the tracks of the astronauts and the MET come to within 30&nbsp;m of the rim.<ref>{{cite web |url=http://lroc.sese.asu.edu/news/index.php?/archives/91-Trail-of-Discovery-at-Fra-Mauro.html |title = Trail of Discovery at Fra Mauro |last=Lawrence |first=Samuel |date=August 19, 2009 |work=Featured Images |publisher=LROC News System |location=Tempe, Arizona}}</ref>
+[[Image:Apollo 14 golf.jpg|thumb|right|The lunar surface [[Apollo TV camera|television]] broadcast Alan Shepard taking a couple of [[Golf#Stroke mechanics|golf swings]] on the Moon]]
+
+Shepard and Mitchell deployed and activated various scientific instruments and experiments and collected almost {{convert|100|lb|kg}} of lunar samples for return to earth. Other Apollo 14 achievements included: the only use of MET; longest distance traversed by foot on the lunar surface; first use of shortened lunar orbit rendezvous techniques; and the first extensive orbital science period conducted during CSM solo operations.
+
+The astronauts also engaged in less serious activities on the Moon. Shepard smuggled on board a [[Golf club#Iron|six iron golf club head]] which he could attach to the handle of a lunar excavation tool, and two golf balls, and took several one-handed swings (due to the limited flexibility of the EVA suit). He exuberantly exclaimed that the second ball went "miles and miles and miles" in the low lunar [[gravity]], but later estimated the distance as {{convert|200|to|400|yd|sp=us}}. Mitchell then threw a lunar scoop handle as if it were a [[Javelin throw|javelin]].
+
+===Return, splashdown and quarantine===
+[[File:Apollo14 - Landung.jpg|thumb|250px|Apollo 14 landing]]
+On the way back to Earth, the crew conducted the first U.S. materials processing experiments in space.
+
+The Command Module ''Kitty Hawk'' splashed down in the South Pacific Ocean on February 9, 1971 at 21:05 [UTC], approximately {{convert|760|nmi|km}} south of [[American Samoa]]. After recovery by the ship [[USS New Orleans (LPH-11)|USS ''New Orleans'']], the crew was flown to [[Pago Pago International Airport]] in [[Tafuna, American Samoa|Tafuna]] for a reception before being flown on a [[Lockheed C-141 Starlifter|C-141]] cargo plane to [[Honolulu]]. The Apollo 14 astronauts were the last lunar explorers to be quarantined on their return from the Moon.
+
+Roosa, who worked in forestry in his youth, took several hundred tree seeds on the flight. These were germinated after the return to Earth, and widely distributed around the world as commemorative [[Moon tree]]s.<ref>{{Cite web| url=http://nssdc.gsfc.nasa.gov/planetary/lunar/moon_tree.html| title=The 'Moon Trees'| first=David R.| last=Williams| publisher=NASA| work=[[Goddard Space Flight Center]]| date=28 July 2009| accessdate=July 17, 2013}}</ref>
+{{clear}}
+
+== Mission insignia ==
+[[Image:RobbinsMedallionApollo14ByPhilKonstantin.jpg|thumb|left|Robbins Medallion flown on Apollo 14]]
+The oval insignia shows a gold NASA [[Astronaut Badge#NASA Astronaut Pins|Astronaut Pin]], given to U.S. astronauts upon completing their first space flight, traveling from the Earth to the Moon. A gold band around the edge includes the mission and astronaut names. The designer was Jean Beaulieu.
+
+The backup crew spoofed the patch with its own version, with revised artwork showing a [[Wile E. Coyote and The Road Runner|Wile E. Coyote]] cartoon character depicted as gray-bearded (for Shepard, who was 47 at the time of the mission and the oldest man on the Moon), pot-bellied (for Mitchell, who had a pudgy appearance) and red furred (for Roosa's red hair), still on the way to the Moon, while [[Wile E. Coyote and The Road Runner|Road Runner]] (for the backup crew) is already on the Moon, holding a U.S. flag and a flag labeled "1st Team."<ref>{{cite web |url=http://www.hq.nasa.gov/alsj/a14/a14beep-beep.html |title=Back-up-Crew Patch |year=2005 |editor1-last=Lotzmann |editor1-first=Ulrich |editor2-last=Jones |editor2-first=Eric M. |work=Apollo 14 Lunar Surface Journal |publisher=NASA |accessdate=July 17, 2013}} Image of backup crew patch.</ref> The flight name is replaced by "BEEP BEEP" and the backup crew's names are given. Several of these patches were hidden by the backup crew and found during the flight by the crew in notebooks and storage lockers in both the CSM ''Kitty Hawk'' and the LM ''Antares'' spacecraft, and one patch was even stored on the MET lunar hand cart.<ref>{{cite web |url=http://www.hq.nasa.gov/alsj/a14/a14-prelim1.html |title=Down the Ladder for EVA-1 |year=1995 |editor-last=Jones |editor-first=Eric M. |work=Apollo 14 Lunar Surface Journal |publisher=NASA |accessdate=July 17, 2013}}</ref>
+{{clear}}
+
+== Spacecraft location ==
+The Apollo 14 Command Module ''Kitty Hawk'' is on display at the [[Kennedy Space Center Visitor Complex#Apollo/Saturn V Center|Apollo/Saturn V Center]] building at the Kennedy Space Center after being on display at the [[Astronaut Hall of Fame]] near [[Titusville, Florida]], for several years.
+
+The ascent stage of Lunar Module ''Antares'' impacted the Moon on February 7, 1971 at 00:45:25.7 UT (February 6, 7:45 PM EST) {{Coord|3.42|S|19.67|W|globe:Moon_type:landmark|name=Apollo 14 LM ascent stage}}. ''Antares''' descent stage and the mission's other equipment remain at Fra Mauro at {{Coord|3.65|S|17.47|W|globe:Moon_type:landmark|name=Apollo 14 LM descent stage}}.
+
+Photographs taken in 2009 by the Lunar Reconnaissance Orbiter were released on July 17, and the Fra Mauro equipment was the most visible Apollo hardware at that time, owing to particularly good lighting conditions. In 2011, the LRO returned to the landing site at a lower altitude to take higher resolution photographs.<ref>{{cite web |url=http://www.nasa.gov/mission_pages/LRO/news/apollo-sites.html |title=NASA Spacecraft Images Offer Sharper Views of Apollo Landing Sites |last1=Neal-Jones |first1=Nancy |last2=Zubritsky |first2=Elizabeth |last3=Cole |first3=Steve |date=September 6, 2011 |editor-last=Garner |editor-first=Robert |publisher=NASA |id=Goddard Release No. 11-058 (co-issued as NASA HQ Release No. 11-289) |accessdate=July 17, 2013}}</ref>
+
+==Gallery==
+<gallery>
+File:Apollo 14 footage of the astronauts climbing down from the lunar lander and planting an American flag.ogv|Apollo 14 astronaut Alan Shepard sets foot on the Moon
+File:Ap14 flag.ogg|Shepard and Mitchell erect a [[Lunar Flag Assembly|US flag]] on the lunar surface
+File:LRO Apollo14 landing site 369228main ap14labeled 540.jpg|Apollo 14 landing site, photograph by [[Lunar Reconnaissance Orbiter|LRO]]
+File:Apollo14LRO2.png|Later photo of landing site taken by LRO
+</gallery>
+
+== See also ==
+{{Portal|Spaceflight}}
+* [[Extra-vehicular activity]]
+* [[Google Moon]]
+* [[List of man-made objects on the Moon]]
+* [[List of spacewalks and moonwalks 1965–1999]]
+* [[Moon tree]]
+* [[Splashdown (spacecraft landing)|Splashdown]]
+
+== References ==
+{{Include-NASA}}
+{{reflist|colwidth=30em}}
+
+== Bibliography ==
+{{Refbegin}}
+* Brzostowski, M.A., and Brzostowski, A.C., ''Archiving the Apollo active seismic data'', The Leading Edge, Society of Exploration Geophysicists, April, 2009.
+* {{cite book |last=Chaikin |first=Andrew |authorlink=Andrew Chaikin |title=[[A Man on the Moon]]: The Voyages of the Apollo Astronauts |origyear=Originally published 1994 |year=2009 |publisher=[[Michael Joseph (publisher)|Michael Joseph]] |location=London |isbn=978-0-14-104183-4 |oclc=310154550 |lccn=93048680 |ref=Chaikin 2009}}
+* {{Cite book |last=Lattimer |first=Dick |others=Foreword by [[James A. Michener]] |title=All We Did Was Fly to the Moon |edition=1st |series=History-alive series |volume=1 |year=1985 |publisher=Whispering Eagle Press |location=Alachua, FL |isbn=0-9611228-0-3 |ref=Lattimer}}
+{{Refend}}
+
+== External links ==
+{{commons|Apollo 14}}
+* [http://www.astronautix.com/flights/apollo14.htm "Apollo 14"] at Encyclopedia Astronautica
+* {{Wayback|url=http://astrogeology.usgs.gov/Projects/LunarAtlas/maps/images/AP14_traverseL.jpg|title=Apollo 14 Traverse Map|date=20060919032908}} – [[United States Geological Survey]] (USGS)
+* {{cite web |url=http://astrogeology.usgs.gov/Projects/LunarAtlas/maps/ |title=Apollo Mission Traverse Maps |publisher=USGS |archiveurl= http://web.archive.org/web/20060924151815/http://astrogeology.usgs.gov/Projects/LunarAtlas/maps/ |archivedate=September 24, 2006}} – Several maps showing routes of moonwalks
+* [http://www.lpi.usra.edu/lunar/missions/apollo/apollo_14/experiments/ Apollo 14 Science Experiments] at the [[Lunar and Planetary Institute]]
+
+'''NASA reports'''
+* [https://mira.hq.nasa.gov/history/ws/hdmshrc/all/main/DDD/17977.PDF Apollo 14 Press Kit] (PDF), NASA, Release No. 71-3K, January 21, 1971
+* [http://history.nasa.gov/apsr/apsr.htm "Apollo Program Summary Report"] (PDF), NASA, JSC-09423, April 1975
+* [http://www.hq.nasa.gov/office/pao/History/SP-4009/cover.htm ''The Apollo Spacecraft: A Chronology''] NASA, NASA SP-4009
+* [http://history.nasa.gov/SP-4012/vol3/table2.42.htm "Table 2-42. Apollo 14 Characteristics"] from NASA Historical Data Book: Volume III: Programs and Projects 1969–1978 by Linda Neuman Ezell, NASA History Series (1988)
+* [http://www.hq.nasa.gov/alsj/a14/a14AbortDiscrete.html "Masking the Abort Discrete"] – by Paul Fjeld at the [http://www.hq.nasa.gov/alsj/a14/a14j.html Apollo 14 Lunar Surface Journal]. NASA. Detailed technical article describing the ABORT signal problem and its solution
+* [http://www.jsc.nasa.gov/history/mission_trans/AS14_TEC.PDF "Apollo 14 Technical Air-to-Ground Voice Transcription"] (PDF) [[Lyndon B. Johnson Space Center|Manned Spacecraft Center]], NASA, February 1971
+* [http://nssdc.gsfc.nasa.gov/nmc/sc-query.html NSSDC Master Catalog] at NASA
+
+'''Multimedia'''
+*{{YouTube|id=rv6Cwzfj3yc|title=Apollo 14 "Mission to Fra Mauro" - NASA Space Program & Moon Landings Documentary}}
+* {{Wayback|url=http://www.life.com/gallery/25452/apollo-14-shepard-roosa-mitchell#index/0|title="Apollo 14: Shepard, Roosa, Mitchell"|date=20110504171049}} – slideshow by [[Life (magazine)|''Life'']] magazine
+* [http://hoohila.stanford.edu/commonwealth/programView.php?programID=1260 "The Apollo Astronauts"] – Interview with the Apollo 14 astronauts, March 31, 1971, from the [http://content.cdlib.org/view?docId=kt3g5032c1&brand=oac Commonwealth Club of California Records] at the [http://www.hoover.org/hila/ Hoover Institution Archives]
+* [http://www.maniacworld.com/Apollo-14-Lunar-Liftoff.htm "Apollo 14 Lunar Liftoff - Video"] at [http://www.maniacworld.com/ Maniac World]
+
+{{Apollo program| before=[[Apollo 13]]| after=[[Apollo 15]]}}
+{{Orbital launches in 1971}}
+
+[[Category:1971 in spaceflight]]
+[[Category:1971 in the United States]]
+[[Category:Apollo program]]
+[[Category:Manned missions to the Moon]]
+[[Category:Missions to the Moon]]
+[[Category:Sample return missions]]

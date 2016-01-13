@@ -1,0 +1,105 @@
+{{About|the unit of information}}
+{{Use dmy dates|date=July 2012}}
+{{Refimprove|date=August 2010}}
+{{Fundamental info units}}
+{{Computer architecture bit widths}}
+A '''bit''' is the [[Units of information|basic unit]] of [[information]] in [[computing]] and digital [[communication]]s. A bit can have only one of two [[value (computer science)|values]], and may therefore be physically implemented with a two-state device. The most common representation of these values are {{gaps|0|and|1}}. The term ''bit'' is a contraction of '''binary digit'''.
+
+The two values can also be interpreted as [[Truth value|logical values]] (true/false, yes/no), algebraic [[signed number|signs]] (+/&minus;), activation states (on/off), or any other two-valued attribute. The correspondence between these values and the physical states of the underlying [[Data storage device|storage]] or [[computing device|device]] is a matter of convention, and different assignments may be used even within the same device or [[computer program|program]]. The length of a binary number may be referred to as its [[bit-length]].
+
+In [[information theory]], one bit is typically defined as the uncertainty of a binary random variable that is 0 or 1 with equal probability,<ref>John B. Anderson, Rolf Johnnesson (2006) ''Understanding Information Transmission''.</ref> or the information that is gained when the value of such a variable becomes known.<ref>Simon Haykin (2006), ''Digital Communications''</ref>
+
+In [[quantum computing]], a ''quantum bit'' or [[qubit]] is a [[quantum mechanics|quantum system]] that can exist in [[quantum superposition|superposition]] of two bit values, ''true'' and ''false''. 
+
+The symbol for bit, as a unit of information, is either simply ''bit'' (recommended by the [[ISO/IEC 80000|ISO/IEC standard 80000-13 (2008)]]) or lowercase ''b'' (recommended by the [[IEEE 1541-2002|IEEE 1541 Standard (2002)]]). A group of eight bits is commonly called one [[byte]], but historically the size of the byte is not strictly defined.
+
+==History==
+The encoding of data by discrete symbols was used in [[Bacon's cipher]] (1626).
+
+The encoding of data by discrete bits was used in the [[punched card]]s invented by [[Basile Bouchon]] and [[Jean-Baptiste Falcon]] (1732), developed by [[Joseph Marie Jacquard]] (1804), and later adopted by [[Semen Korsakov]], [[Charles Babbage]], [[Hermann Hollerith]], and early computer manufacturers like [[IBM]]. Another variant of that idea was the perforated [[paper tape]]. In all those systems, the medium (card or tape) conceptually carried an array of hole positions; each position could be either punched through or not, thus carrying one bit of information. The encoding of text by bits was also used in [[Morse code]] (1844) and early digital communications machines such as [[teletype]]s and [[stock ticker machine]]s (1870).
+
+[[Ralph Hartley]] suggested the use of a logarithmic measure of information in 1928.<ref name="abramson">Norman Abramson (1963), ''Information theory and coding''. McGraw-Hill.</ref>  [[Claude E. Shannon]] first used the word '''''bit''''' in his seminal 1948 paper ''[[A Mathematical Theory of Communication]]''.
+<ref>{{cite journal|last=Shannon|first=Claude|title=A Mathematical Theory of Communication|journal=Bell Labs Technical Journal|url=http://cm.bell-labs.com/cm/ms/what/shannonday/shannon1948.pdf}}</ref>
+He attributed its origin to [[John W. Tukey]], who had written a Bell Labs memo on 9 January 1947 in which he contracted "binary digit" to simply "bit". Interestingly, [[Vannevar Bush]] had written in 1936 of "bits of information" that could be stored on the [[punched card]]s used in the mechanical computers of that time.<ref>{{cite journal|last=Bush|first=Vannevar|title=Instrumental analysis|journal=Bulletin of the American Mathematical Society|year=1936|volume=42|issue=10|pages=649–669|url=http://projecteuclid.org/euclid.bams/1183499313|doi=10.1090/S0002-9904-1936-06390-1}}</ref>  The first programmable computer built by [[Konrad Zuse]] used binary notation for numbers.
+
+==Physical representation{{anchor|representation}}==<!-- Warning: this heading is the target of a link in [[Flip-flop (electronics)]] -->
+A bit can be stored by a digital device or other physical system that exists in either of two possible distinct [[state (computer science)|states]]. These may be the two stable states of a [[Flip-flop (electronics)|flip-flop]], two positions of an [[electrical switch]], two distinct [[voltage]] or [[electric current|current]] levels allowed by a [[electrical circuit|circuit]], two distinct levels of [[Irradiance|light intensity]], two directions of [[magnetism|magnetization]] or [[electrical polarity|polarization]], the orientation of reversible double stranded [[DNA]], etc.
+
+Bits can be implemented in many forms. In most modern computing devices, a bit is usually represented by an [[electric]]al [[voltage]] or [[Electric current|current]] pulse, or by the electrical state of a [[flip-flop (electronics)|flip-flop circuit]]. 
+
+For devices using [[positive logic]], a digit value of 1 (or a logical value of true) is represented by a more positive voltage relative to the representation of 0. The specific voltages are different for different logic families and variations are permitted to allow for component aging and noise immunity. For example, in [[transistor–transistor logic]] (TTL) and compatible circuits, digit values 0 and 1 at the output of a device are represented by no higher than 0.4 volts and no lower than 2.6 volts, respectively; while TTL inputs are specified to recognize 0.8 volts or below as 0 and 2.2 volts or above as 1.
+
+===Transmission and processing===
+Bits are transmitted one at a time in [[serial transmission]], and multiple numbers of bits in [[parallel transmission]]. A [[bitwise operation]] optionally process bits one at a time. Data transfer rates are usually measured in decimal SI multiples of the unit [[bit per second]] (bit/s), such as kbit/s.
+
+===Storage===
+In the earliest non-electronic information processing devices, such as Jacquard's loom or Babbage's [[Analytical Engine]], a bit was often stored as the position of a mechanical lever or gear, or the presence or absence of a hole at a specific point of a [[Punched card|paper card]] or [[Punched tape|tape]]. The first electrical  devices for discrete logic (such as [[elevator]] and [[traffic light]] control circuits, [[telephone switches]], and Konrad Zuse's computer) represented bits as the states of [[electrical relay]]s which could be either "open" or "closed". When relays were replaced by [[vacuum tube]]s, starting in the 1940s, computer builders experimented with a variety of storage methods, such as pressure pulses traveling down a [[mercury delay line]], charges stored on the inside surface of a [[cathode-ray tube]], or opaque spots printed on [[optical disc|glass discs]] by [[photolithographic]] techniques.
+
+In the 1950s and 1960s, these methods were largely supplanted by [[magnetic storage]] devices such as [[magnetic core memory]], [[magnetic tape]]s, [[magnetic drum|drum]]s, and [[Disk storage|disk]]s, where a bit was represented by the polarity of [[magnetism|magnetization]] of a certain area of a [[ferromagnetic]] film, or by a change in polarity from one direction to the other. The same principle was later used in the [[magnetic bubble memory]] developed in the 1980s, and is still found in various [[magnetic strip]] items such as [[Rapid transit|metro]] tickets and some [[credit card]]s.
+
+In modern [[semiconductor memory]], such as [[dynamic random access memory]] or [[flash memory]], the two values of a bit may be represented by two levels of [[electric charge]] stored in a [[capacitor]]. In [[programmable logic array]]s and certain types of [[read-only memory]], a bit may be represented by the presence or absence of a conducting path at a certain point of a circuit. In [[optical disc]]s, a bit is encoded as the presence or absence of a microscopic pit on a reflective surface. In one-dimensional [[bar code]]s, bits are encoded as the thickness of alternating black and white lines.
+
+==Unit and symbol==
+The bit is not defined in the [[International System of Units]] (SI). However, the [[International Electrotechnical Commission]] issued standard [[IEC 60027]], which specifies that the symbol for binary digit should be ''bit'', and this should be used in all multiples, such as ''kbit'', for kilobit.<ref name="nist">National Institute of Standards and Technology (2008), ''Guide for the Use of the International System of Units''. [http://physics.nist.gov/cuu/pdf/sp811.pdf Online version.]</ref>  However, the lower-case letter b is widely used as well and was recommended by the [[IEEE 1541-2002|IEEE 1541 Standard (2002)]]. In contrast, the upper case letter B is the standard and customary symbol for byte.
+
+===Multiple bits===
+{{Quantities of bits}}
+Multiple bits may be expressed and represented in several ways. For convenience of representing commonly reoccurring groups of bits in information technology, several [[units of information]] have traditionally been used. The most common is the unit [[byte]], coined by [[Werner Buchholz]] in July 1956, which historically has been used to represent the number of bits used to encode a single [[character (computing)|character]] of text in a computer<ref name = Bemer1962>{{citation
+|url=http://archive.computerhistory.org/resources/text/IBM/Stretch/pdfs/Buchholz_102636426.pdf
+|title=Planning a Computer System – Project Stretch
+|first1 = RW
+|last1 = Bemer
+|first2 = Werner
+|last2 = Buchholz
+|editor-first = Werner
+|editor-last = Buchholz
+|year=1962
+|chapter = 4, Natural Data Units
+|format = PDF
+|pages= 39–40 }}</ref><ref>{{citation | first = RW | last = Bemer | title = A proposal for a generalized card code of 256 characters | journal = Communications of the ACM | volume = 2 | number = 9 | pages = 19–23 | year = 1959}}</ref> and for this reason it was used as the basic [[address space|addressable]] element in many [[computer architecture]]s. The trend in hardware design converged on the most common implementation of using eight bits per byte, as it is widely used today. However, because of the ambiguity of relying on the underlying hardware design, the unit [[Octet (computing)|octet]] was defined to explicitly denote a sequence of eight bits.
+
+Computers usually manipulate bits in groups of a fixed size, conventionally named "[[Word (computer architecture)|word]]s". Like the byte, the number of bits in a word also varies with the hardware design, and is typically between 8 and 80 bits, or even more in some specialized computers. In the 21st century, retail personal or server computers have a word size of 32 or 64 bits.
+
+The [[International System of Units]] defines a series of decimal prefixes for multiples of standardized units which are commonly also used with the bit and the byte. The prefixes [[kilo-|kilo]] (10<sup>3</sup>) through [[yotta-|yotta]] (10<sup>24</sup>) increment by multiples of 1000, and the corresponding units are the [[kilobit]] (kbit) through the [[yottabit]] (Ybit).
+
+A millibit is a rare, fractional unit of information equal to one thousandth of a bit.<ref>"The textural language machine: a system of associative electronic networks for efficient processing of neural language texts". Hilberg, W. ''Proceedings of the Twenty-Fourth Annual Hawaii International Conference on System Sciences'', 1991. Volume i, Issue , 8-11 Jan 1991 Page(s):219 - 228 vol.1.[http://ieeexplore.ieee.org/Xplore/login.jsp?url=/iel2/882/4721/00183889.pdf]</ref>
+
+==Information capacity and information compression==
+When the information ''capacity'' of a storage system or a communication channel is presented in bits or bits per second, this often refers to binary digits, which is a [[computer hardware]] capacity to store binary code (0 or 1, up or down, current or not, etc.). Information ''capacity'' of a storage system is only an upper bound to the actual ''quantity of information'' stored therein. If the two possible values of one bit of storage are not equally likely, that bit of storage will contain less than one bit of information. Indeed, if the value is completely predictable, then the reading of that value will provide no information at all (zero entropic bits, because no resolution of uncertainty and therefore no information). If a computer file that uses ''n'' bits of storage contains only ''m'' < ''n'' bits of information, then that information can in principle be encoded in about ''m'' bits, at least on the average. This principle is the basis of [[lossless data compression|data compression]] technology. Using an analogy, the hardware binary digits refer to the amount of storage space available (like the number of buckets available to store things), and the information content the filling, which comes in different levels of granularity (fine or coarse, that is, compressed or uncompressed information). When the granularity is finer (when information is more compressed), the same bucket can hold more.
+
+For example, it is estimated that the combined technological capacity of the world to store information provides 1,300 [[exabytes]] of hardware digits in 2007. However, when this storage space is filled and the corresponding content is optimally compressed, this only represents 295 [[exabytes]] of information.<ref name="HilbertLopez2011">[http://www.sciencemag.org/content/332/6025/60 "The World’s Technological Capacity to Store, Communicate, and Compute Information"], especially [http://www.sciencemag.org/content/suppl/2011/02/08/science.1200970.DC1/Hilbert-SOM.pdf Supporting online material], Martin Hilbert and Priscila López (2011), [[Science (journal)]], 332(6025), 60-65; free access to the article through here: martinhilbert.net/WorldInfoCapacity.html</ref> 
+When optimally compressed, the resulting carrying capacity approaches [[Shannon information]] or [[information entropy]].
+
+==Bit-based computing==
+Certain [[bitwise operation|bitwise]] computer [[central processing unit|processor]] instructions (such as ''bit set'') operate at the level of manipulating bits rather than manipulating data interpreted as an aggregate of bits.
+
+In the 1980s, when [[bitmap]]ped computer displays became popular, some computers provided specialized [[bitblt|bit block transfer]] ("bitblt" or "blit") instructions to set or copy the bits that corresponded to a given rectangular area on the screen.
+
+In most computers and programming languages, when a bit within a group of bits, such as a byte or word, is referred to, it is usually specified by a number from 0 upwards corresponding to its position within the byte or word. However, 0 can refer to either the [[most significant bit|most]] or [[least significant bit|least]] significant bit depending on the context.
+
+==Other information units==
+{{Main|Units of information}}
+Other units of information, sometimes used in information theory, include the ''natural digit'' also called a ''[[nat (information)|nat]]'' or ''nit'' and defined as [[logarithm|log]]<sub>2</sub>&nbsp;''e'' (≈ 1.443) bits, where ''e'' is the [[e (mathematical constant)|base of the natural logarithms]]; and the ''dit'', ''[[ban (information)|ban]]'', or ''hartley'', defined as log<sub>2</sub>&nbsp;10 (≈ 3.322) bits.<ref name="abramson"/> Conversely, one bit of information corresponds to about [[natural logarithm|ln]]&nbsp;2 (≈ 0.693) nats, or log<sub>10</sub>&nbsp;2 (≈ 0.301) hartleys. Some authors also define a '''binit''' as an arbitrary information unit equivalent to some fixed but unspecified number of bits.<ref>Amitabha Bhattacharya, ''Digital Communication''</ref>
+
+==See also==
+*[[Integer (computer science)]]
+*[[Primitive data type]]
+*[[Bitstream]]
+*[[Entropy (information theory)]]
+*[[Binary numeral system]]
+*[[Ternary numeral system]]
+*[[List of Tron characters#Bit|Bit (Tron character)]]
+
+==References==
+{{Reflist}}
+
+==External links==
+{{wiktionary}}
+* [http://www.bit-calculator.com Bit Calculator - Convert between bit, byte, kilobit, kilobyte, megabit, megabyte, gigabit, gigabyte]
+
+{{Data types}}
+
+[[Category:Binary arithmetic]]
+[[Category:Primitive types]]
+[[Category:Data types]]
+[[Category:Units of information]]

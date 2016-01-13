@@ -1,0 +1,179 @@
+{{mergefrom|AGM method|date=September 2012}}
+In [[mathematics]], the '''arithmetic–geometric mean (AGM)''' of two positive [[real number]]s {{math|''x''}} and {{math|''y''}} is defined as follows:
+
+First compute the [[arithmetic mean]] of {{math|''x''}} and {{math|''y''}} and call it {{math|''a''<sub>1</sub>}}. Next compute the [[geometric mean]] of {{math|''x''}} and {{math|''y''}} and call it {{math|''g''<sub>1</sub>}}; this is the [[square root]] of the product {{math|''xy''}}:
+
+:<math>\begin{align}
+ a_1 &= \frac{1}{2}(x + y)\\
+ g_1 &= \sqrt{xy}
+\end{align}</math>
+
+Then iterate this operation with {{math|''a''<sub>1</sub>}} taking the place of {{math|''x''}} and {{math|''g''<sub>1</sub>}} taking the place of {{math|''y''}}. In this way, two [[sequence]]s {{math|(''a''<sub>''n''</sub>)}} and {{math|(''g''<sub>''n''</sub>)}} are defined:
+
+:<math>\begin{align}
+ a_{n+1} &= \frac{1}{2}(a_n + g_n)\\
+ g_{n+1} &= \sqrt{a_n g_n}
+\end{align}</math>
+
+These two sequences [[limit of a sequence|converge]] to the same number, which is the '''arithmetic–geometric mean''' of {{math|''x''}} and {{math|''y''}}; it is denoted by {{math|''M''(''x'', ''y'')}}, or sometimes by {{math|agm(''x'', ''y'')}}.
+
+This can be used for algorithmic purposes as in the [[AGM method]].
+
+==Example==
+To find the arithmetic–geometric mean of {{math|''a''<sub>0</sub> {{=}} 24}} and {{math|''g''<sub>0</sub> {{=}} 6}}, first calculate their arithmetic mean and geometric mean, thus:
+
+:<math>\begin{align}
+ a_1 &= \frac{1}{2}(24 + 6) = 15\\
+ g_1 &= \sqrt{24 \times 6} = 12
+\end{align}</math>
+
+and then iterate as follows:
+
+:<math>\begin{align}
+ a_2 &= \frac{1}{2}(15 + 12) = 13.5\\
+ g_2 &= \sqrt{15 \times 12} = 13.41640786500\dots\\
+ \dots
+\end{align}</math>
+
+The first four iterations give the following values:
+
+:{| class="wikitable"
+|-
+! {{math|''n''}}
+! {{math|''a''<sub>''n''</sub>}}
+! {{math|''g''<sub>''n''</sub>}}
+|-
+| 0
+| 24
+| 6
+|-
+| 1
+| 15
+| 12
+|-
+| 2
+| 13.5
+| 13.41640786500…
+|-
+| 3
+| 13.45820393250…
+| 13.45813903099…
+|-
+| 4
+| 13.45817148175…
+| 13.45817148171…
+|}
+
+The arithmetic–geometric mean of 24 and 6 is the common limit of these two sequences, which is approximately 13.45817148173.<ref>[http://www.wolframalpha.com/input/?i=agm%2824%2C+6%29 agm(24, 6) at WolframAlpha]</ref>
+
+== History ==
+The first algorithm based on this sequence pair appeared in the works of [[Adrien-Marie Legendre|Legendre]]. Its properties were further analyzed by [[Gauss]].<ref name="BerggrenBorwein2004">{{cite book|editor=J.L. Berggren, Jonathan M. Borwein, Peter Borwein|title=Pi: A Source Book|url=http://books.google.com/books?id=QlbzjN_5pDoC&pg=PA481|year=2004|publisher=Springer|isbn=978-0-387-20571-7|page=481|chapter=The Arithmetic-Geometric Mean of Gauss|author=David A. Cox}} first published in ''[[L'Enseignement Mathématique]]'', t. 30 (1984), p. 275-330</ref>
+
+==Properties==
+The geometric mean of two positive numbers is never bigger than the arithmetic mean (see [[inequality of arithmetic and geometric means]]); as a consequence, {{math|(''g<sub>n</sub>'')}} is an increasing sequence, {{math|(''a<sub>n</sub>'')}} is a decreasing sequence, and {{math|''g<sub>n</sub>'' ≤ ''M''(''x'',&nbsp;''y'') ≤ ''a<sub>n</sub>''}}. These are strict inequalities if {{math|''x'' ≠ ''y''}}.
+
+{{math|''M''(''x'', ''y'')}} is thus a number between the geometric and arithmetic mean of {{math|''x''}} and {{math|''y''}}; in particular it is between {{math|''x''}} and {{math|''y''}}.
+
+If {{math|''r'' ≥ 0}}, then {{math|''M''(''rx'',''ry'') {{=}} ''r M''(''x'',''y'')}}.
+
+There is an integral-form expression for {{math|''M''(''x'',''y'')}}:
+
+:<math>\begin{align}M(x,y) &= \frac\pi2\bigg/\int_0^{\pi/2}\frac{d\theta}{\sqrt{x^2\cos^2\theta+y^2\sin^2\theta}}\\
+&=\frac{\pi}{4} (x + y) \bigg/ K\left( \frac{x - y}{x + y} \right)
+\end{align}</math>
+
+where {{math|''K''(''k'')}} is the [[elliptic integral|complete elliptic integral of the first kind]]:
+
+:<math>K(k) = \int_0^{\pi/2}\frac{d\theta}{\sqrt{1 - k^2\sin^2(\theta)}} </math>
+
+Indeed, since the arithmetic–geometric process converges so quickly, it provides an effective way to compute elliptic integrals via this formula. In engineering, it is used for instance in [[elliptic filter]] design.<ref name="Dimopoulos2011">{{cite book|author=Hercules G. Dimopoulos|title=Analog Electronic Filters: Theory, Design and Synthesis|url=http://books.google.com/books?id=6W1eX4QwtyYC&pg=PA147|year=2011|publisher=Springer|isbn=978-94-007-2189-0|pages=147–155}}</ref>
+
+== Related concepts ==
+The reciprocal of the arithmetic–geometric mean of 1 and the [[square root of 2]] is called [[Gauss's constant]], after [[Carl Friedrich Gauss]].
+
+:<math>\frac{1}{M(1, \sqrt{2})} = G = 0.8346268\dots</math>
+
+The [[geometric–harmonic mean]] can be calculated by an analogous method, using sequences of geometric and [[harmonic mean|harmonic]] means.  The arithmetic–harmonic mean can be similarly defined, but takes the same value as the [[geometric mean]].
+
+The modified arithmetic–geometric mean was introduced and defined by Semjon Adlaj on p.&nbsp;1094 of the September 2012 issue of the Notices of the AMS.<ref>Adlaj, S. ''An eloquent formula for the perimeter of an ellipse'', Notices of the AMS 59(8), pp. 1094–1099.</ref> It turned out to be useful for computing [[elliptic integral|complete elliptic integrals of the second kind]].
+
+==Proof of existence==
+From [[inequality of arithmetic and geometric means]] we can conclude that:
+
+:<math>g_n \leqslant a_n</math>
+
+and thus
+
+:<math>g_{n + 1} = \sqrt{g_n \cdot a_n} \geqslant \sqrt{g_n \cdot g_n} = g_n</math>
+
+that is, the sequence {{math|''g<sub>n</sub>''}} is nondecreasing. 
+
+Furthermore, it is easy to see that it is also bounded above by the larger of {{math|''x''}} and {{math|''y''}} (which follows from the fact that both arithmetic and geometric means of two numbers both lie between them).  Thus by the [[monotone convergence theorem]] the sequence is convergent, so there exists a {{math|''g''}} such that:
+
+:<math>\lim_{n\to \infty}g_n = g</math>
+
+However, we can also see that:
+
+:<math>a_n = \frac{g_{n + 1}^2}{g_n}</math>
+
+and so:
+
+:<math>\lim_{n\to \infty}a_n = \lim_{n\to \infty}\frac{g_{n + 1}^2}{g_{n}} = \frac{g^2}{g} = g</math>
+
+[[Q.E.D.]]
+
+==Proof of the integral-form expression==
+This proof is given by Gauss.<ref name="BerggrenBorwein2004" />
+Let
+
+:<math>I(x,y) = \int_0^{\pi/2}\frac{d\theta}{\sqrt{x^2\cos^2\theta+y^2\sin^2\theta}},</math>
+
+Changing the variable of integration to <math>\theta'</math>, where
+
+:<math> \sin\theta = \frac{2x\sin\theta'}{(x+y)+(x-y)\sin^2\theta'}, </math>
+
+gives
+
+:<math>
+\begin{align}
+I(x,y) &= \int_0^{\pi/2}\frac{d\theta'}{\sqrt{\bigl(\frac12(x+y)\bigr)^2\cos^2\theta'+\bigl(\sqrt{xy}\bigr)^2\sin^2\theta'}}\\
+       &= I\bigl(\tfrac12(x+y),\sqrt{xy}\bigr).
+\end{align}
+</math>
+
+Thus, we have
+
+:<math>
+\begin{align}
+I(x,y) &= I(a_1, g_1) = I(a_2, g_2) = \cdots\\
+  &= I\bigl(M(x,y),M(x,y)\bigr) = \pi/\bigr(2M(x,y)\bigl).
+\end{align}
+</math>
+The last equality comes from observing that <math>I(z,z) = \pi/(2z)</math>.
+Finally, we obtain the desired result
+
+:<math>M(x,y) = \pi/\bigl(2 I(x,y) \bigr). </math>
+
+==See also==
+* [[Generalized mean]]
+* [[Inequality of arithmetic and geometric means]]
+* [[Gauss–Legendre algorithm]]
+
+==External links==
+* [http://arithmeticgeometricmean.blogspot.de/ Arithmetic-Geometric Mean Calculator]
+* [http://planetmath.org/convergenceofarithmeticgeometricmean/ Proof of convergence rate in PlanetMath]
+
+==References==
+{{More footnotes|date=October 2008}}
+*{{cite journal|last = Adlaj|first = Semjon|title = An eloquent formula for the perimeter of an ellipse|journal = Notices of the AMS|volume = 59|issue = 8|pages = 1094–1099|date = September 2012|url = http://www.ams.org/notices/201208/rtx120801094p.pdf}}
+* [[Jonathan Borwein]], [[Peter Borwein]], ''Pi and the AGM. A study in analytic number theory and computational complexity.'' Reprint of the 1987 original. Canadian Mathematical Society Series of Monographs and Advanced Texts, 4. A Wiley-Interscience Publication. John Wiley & Sons, Inc., New York, 1998. xvi+414 pp.&nbsp;ISBN 0-471-31515-X  {{MR|1641658}}
+* [[Zoltán Daróczy]], [[Zsolt Páles]], ''Gauss-composition of means and the solution of the Matkowski–Suto problem.'' Publ. Math. Debrecen 61/1-2 (2002), 157–218.
+*{{SpringerEOM|author=M. Hazewinkel|title=Arithmetic–geometric mean process|urlname=a/a130280}}
+*{{mathworld|urlname=Arithmetic-GeometricMean|title=Arithmetic–Geometric mean}}
+<references />
+
+{{DEFAULTSORT:Arithmetic-Geometric Mean}}
+[[Category:Means]]
+[[Category:Special functions]]
+[[Category:Elliptic functions]]
+[[Category:Articles containing proofs]]

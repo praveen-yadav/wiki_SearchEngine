@@ -1,0 +1,351 @@
+{{about||mechanical precursors to the modern calculator|Mechanical calculator|other uses}}
+{{multiple issues|
+{{Refimprove|date=July 2008}}
+{{More footnotes|date=October 2009}}
+}}
+
+[[File:SHARP ELSIMATE EL-W221.jpg|thumb|An electronic pocket calculator with a [[Liquid crystal display|LCD]] [[seven-segment display]], that can perform arithmetic operations]]
+[[File:Casio-fx115ES-5564.jpg|thumb|A modern scientific calculator with a [[dot matrix]] LCD display]]
+
+An '''electronic calculator''' is a small, portable, often inexpensive electronic device used to perform both basic and complex operations of [[arithmetic]].
+
+The first [[Solid-state (electronics)|solid state]] electronic calculator was created in the 1960s, building on the extensive history of tools such as the [[abacus]], developed around 2000 BC, and the [[mechanical calculator]], developed in the 17th century. It was developed in parallel with the [[analog computer]]s of the day.
+
+Pocket sized devices became available in the 1970s, especially after the [[Intel 4004|invention of the microprocessor]] developed by [[Intel]] for the Japanese calculator company [[Busicom]].
+
+Modern electronic calculators vary from cheap, give-away, credit-card sized models to sturdy desktop models with built-in printers.  They became popular in the mid-1970s as [[integrated circuit]]s made their size and cost small.  By the end of that decade, calculator prices had reduced to a point where a basic calculator was affordable to most and they became common in schools.
+
+Computer operating systems as far back as [[Ancient UNIX Systems|early Unix]] have included interactive calculator programs such as [[dc (Unix)|dc]] and [[hoc (programming language)|hoc]], and calculator functions are included in almost all [[Personal digital assistant|PDA-type]] devices (save a few dedicated address book and dictionary devices).
+
+In addition to general purpose calculators, there are those designed for specific markets; for example, there are [[scientific calculator]]s which include [[trigonometry|trigonometric]] and [[statistics|statistical]] calculations. Some calculators even have the ability to do [[computer algebra]]. [[Graphing calculator]]s can be used to graph functions defined on the real line, or higher dimensional [[Euclidean space]].
+
+In 1986, calculators still represented an estimated 41% of the world's general-purpose hardware capacity to compute information. This diminished to less than 0.05% by 2007.<ref name="HilbertLopez2011">[http://www.sciencemag.org/content/332/6025/60 "The World’s Technological Capacity to Store, Communicate, and Compute Information"], Martin Hilbert and Priscila López (2011), [[Science (journal)]], 332(6025), 60-65; see also [http://www.martinhilbert.net/WorldInfoCapacity.html "free access to the study"].</ref>
+
+== Design ==
+[[File:CalculatorFractions-5550x.jpg|thumb|Scientific calculator displays of fractions and decimal equivalents]]
+
+Modern electronic calculators contain a [[Keyboard (computing)|keyboard]] with [[buttons]] for [[Numerical digit|digit]]s and arithmetical operations. Some even contain 00 and 000 buttons to make large numbers easier to enter. Most basic calculators assign only one digit or operation on each button. However, in more specific calculators, a button can perform multi-function working with [[key combination]] or current reckoning mode.
+
+Calculators usually have [[liquid crystal displays]] as output in place of historical [[vacuum fluorescent displays]]. See more details in [[#Technical improvements|technical improvements]]. [[Fractions]] such as {{math|{{frac|1|3}}}} are displayed as decimal [[approximations]], for example rounded to {{math|0.33333333}}. Also, some fractions such as {{math|{{frac|1|7}}}} which is {{math|0.14285714285714}} (to 14 [[significant figures]]) can be difficult to recognize in decimal form; as a result, many scientific calculators are able to work in [[vulgar fraction]]s or [[mixed number]]s.
+
+Calculators also have the ability to store numbers into [[memory]]. Basic types of these store only one number at a time. More specific types are able to store many numbers represented in [[variable (mathematics)|variable]]s. The variables can also be used for constructing formulae. Some models have the ability to extend memory capacity to store more numbers; the extended address is referred to as an [[array data structure|array]] index.
+
+Power sources of calculators are batteries, solar cells or electricity (for old models) turning on with a switch or button. Some models even have no turn-off button but they provide some way to put off, for example, leaving no operation for a moment, covering solar cell exposure, or closing their lid. Crank-powered calculators were also common in the early computer era.
+
+{| border="0"
+|+ '''Basic pocket calculator layout'''
+| valign="top" |
+{| class="wikitable"
+| MC || M+ || M- || MR
+|-
+| C || ± || ÷ || ×
+|-
+| 7 || 8 || 9 || -
+|-
+| 4 || 5 || 6 || +
+|-
+| 1 || 2 || 3
+| rowspan="2" | =
+|-
+| colspan="2" | 0 || .
+|}
+|
+{| border="0"
+|-
+| MC || Memory Clear
+|-
+| M+ || Memory Addition
+|-
+| M- || Memory Subtraction
+|-
+| MR || Memory Recall
+|-
+| C || '''C'''lear display (last entered number, whereas CE: '''C'''lear '''e'''verything, start all over again)
+|-
+| ± || Toggle positive/negative number
+|-
+| ÷ || Division
+|-
+| × || Multiplication
+|-
+| - || Subtraction
+|-
+| + || Addition
+|-
+| . || Decimal point
+|-
+| = || Result
+|}
+|}
+
+== Use in education ==
+In most countries, [[student]]s use calculators for schoolwork. There was some initial resistance to the idea out of fear that [[Elementary arithmetic|basic arithmetic skills]] would suffer. There remains disagreement about the importance of the ability to perform calculations "in the head", with some curricula restricting calculator use until a certain level of proficiency has been obtained, while others concentrate more on teaching [[Approximation|estimation]] techniques and problem-solving. Research suggests that inadequate guidance in the use of calculating tools can restrict the kind of mathematical thinking that students engage in.<ref>Thomas J. Bing, Edward F. Redish, [http://arxiv.org/abs/0712.1187 Symbolic Manipulators Affect Mathematical Mindsets], December 2007</ref> Others have argued{{by whom|date=December 2011}} that calculator use can even cause core mathematical skills to atrophy, or that such use can prevent understanding of advanced algebraic concepts.{{Citation needed|date=October 2010}} In December 2011 the [[United Kingdom|UK]]'s [[Department for Education|Minister of State for Schools]], [[Nick Gibb]], voiced concern that children can become "too dependent" on the use of calculators.<ref name="guardian subtracting calculators">{{cite news | url=http://www.guardian.co.uk/education/2011/dec/01/subtracting-calculators-adds-children-maths | title=Subtracting calculators adds to children's maths abilities, says minister | work=[[The Guardian]] | date=December 1, 2011 | accessdate=December 7, 2011 | author=Vasagar, Jeevan | location=London | author2=Shepherd, Jessica | quote=The use of calculators will be looked at as part of a national curriculum review, after the schools minister, Nick Gibb, expressed concern that children's mental and written arithmetic was suffering because of reliance on the devices. Gibb said: "Children can become too dependent on calculators if they use them at too young an age. They shouldn't be reaching for a gadget every time they need to do a simple sum. [...]"}}</ref> As a result, the use of calculators is to be included as part of a review of the [[National Curriculum (England, Wales and Northern Ireland)|National Curriculum]].<ref name="guardian subtracting calculators" /> Scratch papers are new alternatives when calculator sales decreased in 2007.
+
+== Internal workings ==
+In general, a basic electronic calculator consists of the following components:<ref>John Lewis, ''The Pocket Calculator Book''. (London: Usborne, 1982)</ref>
+* Power source ([[Battery (electricity)|battery]] or [[solar cell]])
+* [[Keypad]] - consists of keys used to input numbers and function commands (addition, multiplication, square-root, etc.)
+* Processor chip ([[microprocessor]]) contains:
+** Scanning unit - when a calculator is powered on, it scans the keypad waiting to pick up an electrical signal when a key is pressed.
+** [[Encoder]] unit - converts the numbers and functions into [[binary code]].
+** X [[Processor register|register]] and Y register - They are number stores where numbers are stored temporarily while doing calculations. All numbers go into the X register first. The number in the X register is shown on the display.
+** [[Status register|Flag register]] - The function for the calculation is stored here until the calculator needs it.
+** Permanent [[Memory (computers)|memory]] ([[Read only memory|ROM]]) - The instructions for in-built functions (arithmetic operations, square roots, percentages, trigonometry etc.) are stored here in binary form. These instructions are "programs" stored permanently and cannot be erased.
+** User memory ([[Random access memory|RAM]]) - The store where numbers can be stored by the user. User memory contents can be changed or erased by the user.
+** [[Arithmetic logic unit]] (ALU) - The ALU executes all arithmetic and logic instructions, and provides the results in binary coded form.
+** [[Decoder]] unit - converts binary code into "decimal" numbers which can be displayed on the display unit.
+* Display panel - displays input numbers, commands and results. Seven stripes (segments) are used to represent each digit in a basic calculator.
+[[File:Tischrechner Walther ETR2034S resized.jpg|thumb|An office calculating machine with a paper printer.]]
+
+=== Example ===
+A basic explanation as to how calculations are performed in a simple 4-function calculator:
+To perform the calculation 25&nbsp;+&nbsp;9, one presses keys in the following sequence on most calculators: {{key press|2}}&nbsp;{{key press|5}}&nbsp;{{key press|+}}&nbsp;{{key press|9}}&nbsp;{{key press|{{=}}}}.
+:* When {{key press|2}}&nbsp;{{key press|5}} is entered, it is picked up by the scanning unit, the number 25 is encoded and sent to the X register.
+:* Next, when the {{key press|+}} key is pressed, the "addition" instruction is also encoded and sent to the flag register.
+:* The second number 9 is encoded and sent to the X register. This "pushes" the first number (25) out into the Y register.
+:* When {{key press|{{=}}}} is pressed, a "message" from the flag register tells the permanent memory that the operation to be done is "addition".
+:* The numbers in the X and Y registers are then loaded into the ALU and the calculation is carried out following instructions from the permanent memory.
+:* The answer, 34 is sent back to the X register. From there it is converted by the decoder unit into a decimal number (usually [[binary-coded decimal]]), and then shown on the display panel.
+
+All other functions are usually carried out using repeated additions. Where calculators have additional functions such as square root, or trigonometric functions, software [[algorithm]]s are required to produce high precision results. Sometimes significant design effort is required to fit all the desired functions in the limited memory space available in the calculator chip, with acceptable calculation time.<ref>{{cite web|url=http://www.hpl.hp.com/hpjournal/72jun/jun72a2.pdf |title=David S. Cochran, '&#39;Algorithms and accuracy in the HP35'&#39;, '&#39;Hewlett Packard Journal'&#39;, June 1972 |format=PDF |date= |accessdate=2013-10-03}}</ref>
+
+== Calculators compared to computers ==
+{{Unreferenced section|date=March 2009}}
+
+The fundamental difference between a calculator and [[computer]] is that a computer can be [[Computer program|programmed]] in a way that allows the program to take different [[Branch on condition|branches according to intermediate results]], while calculators are pre-designed with specific functions such as addition, multiplication, and logarithms built in. The distinction is not clear-cut: some devices classed as programmable calculators have programming functionality, sometimes with support for programming languages such as [[RPL programming language|RPL]] or [[TI-BASIC]].
+
+Typically the user buys the least expensive model having a specific feature set, but does not care much about speed (since speed is constrained by how fast the user can press the buttons). Thus designers of calculators strive to minimize the number of logic elements on the chip, not the number of clock cycles needed to do a computation.
+
+For instance, instead of a hardware multiplier, a calculator might implement [[floating point]] mathematics with code in [[Read-only memory|ROM]], and compute trigonometric functions with the [[CORDIC]] algorithm because CORDIC does not require hardware floating-point. [[Bit serial]] logic designs are more common in calculators whereas [[bit parallel]] designs dominate general-purpose computers, because a bit serial design minimizes chip complexity, but takes many more clock cycles. (Again, the line blurs with high-end calculators, which use processor chips associated with computer and embedded systems design, particularly the [[Z80]], [[MC68000]], and [[ARM architecture|ARM]] architectures, as well as some custom designs specifically made for the calculator market.)
+
+== History ==
+
+=== Precursors to the electronic calculator ===
+{{main|Mechanical calculator}}
+The first known tool used to aid arithmetic calculations was the [[Abacus]], devised by Sumerians and Egyptians before 2000 BC.<ref>{{Harvcolnb|Ifrah|2001|p=11}}</ref> Except for the [[Antikythera mechanism]], an "out of the time" astronomical device, development of computing tools arrived in the beginning of the 17th century: [[Sector (instrument)|Geometric-military compass]] by [[Galileo Galilei|Galileo]], [[Logarithms]] and [[Napier Bones]] by [[John Napier|Napier]], [[slide rule]] by [[Edmund Gunter]].
+
+[[File:17th-century-mechanical-calculators.jpg|thumb|17th century mechanical calculators]]
+In 1642, the [[Renaissance]] saw the invention of the [[mechanical calculator]] by the famous intellectual [[Blaise Pascal]],<ref name=Felt-10>{{cite book|last=Felt|first=Dorr E.|title=Mechanical arithmetic, or The history of the counting machine|year=1916|publisher=Washington Institute|location=Chicago|page=10|url=http://www.archive.org/details/mechanicalarithm00feltrich}} [[Dorr E. Felt]]</ref> a device that will eventually perform all four arithmetic operations without relying on human intelligence.<ref>"Pascal and Leibnitz, in the seventeenth century, and Diderot at a later period, endeavored to construct a machine which might serve as a substitute for human intelligence in the combination of figures" [http://books.google.fr/books?id=Rf0IAAAAIAAJ&pg=PA100&dq=arithmometer&as_brr=1#v=onepage&q=arithmometer&f=false The Gentleman's magazine, Volume 202, p.100]</ref> [[Pascal's Calculator]] could add and subtract two numbers directly and multiply and divide by repetition.<ref>Pascal's invention of the [[calculating machine]], just three hundred years ago, was made while he was a youth of nineteen.  He was spurred to it by seeing the burden of arithmetical labor involved in his father's official work as supervisor of taxes at Rouen.  He conceived the idea of doing the work mechanically, and developed a design appropriate for this purpose ; showing herein the same combination of pure science and mechanical genius that characterized his whole life.  But it was one thing to conceive and design the machine, and another to get it made and put into use.  Here were needed those practical gifts that he displayed later in his inventions....<br>
+In a sense, Pascal's invention was premature, in that the mechanical arts in his time were not sufficiently advanced to enable his machine to be made at an economic price, with the accuracy and strength needed for reasonably long use.  This difficulty was not overcome until well on into the nineteenth century, by which time also a renewed stimulus to invention was given by the need for many kinds of calculation more intricate than those considered by Pascal. [[#NAT CHAP|S. Chapman, Magazine Nature]], pp.508,509 (1942)</ref>  He was followed by [[Gottfried Leibniz]] who spent forty years designing a four-operation mechanical calculator, inventing in the process his [[leibniz wheel]], but who couldn't design a fully operational machine.<ref>In 1893, the German calculating machine inventor Arthur Burkhardt was asked to put Leibniz machine in operating condition if possible.  His report was favorable except for the sequence in the carry {{cite book|last=Ginsburg|first=Jekuthiel|title=Scripta Mathematica|year=1933|publisher=Kessinger Publishing, LLC|isbn=978-0-7661-3835-3|page=149}}</ref>  There were also five unsuccessful attempts to design a calculating clock in the 17th century.<ref>see [[Mechanical_calculator#Calculating_clocks:_unsuccessful_mechanical_calculators]]</ref>
+
+[[File:Grant_mechanical_calculating_machine_1877.jpg|thumb|left|The Grant mechanical calculating machine, 1877]]The 18th century saw the arrival of some interesting improvements, first by [[Giovanni Poleni|Poleni]] with the first fully functional calculating clock and four-operation machine, but these machines were almost always ''one of the kind''. It was not until the 19th century and the [[Industrial Revolution]] that real developments began to occur.  Although machines capable of performing all four arithmetic functions existed prior to the 19th century, the refinement of manufacturing and fabrication processes during the eve of the industrial revolution made large scale production of more compact and modern units possible.  The [[Arithmometer]], invented in 1820 as a four-operation mechanical calculator, was released to production in 1851 as an adding machine and became the first commercially successful unit; forty years later, by 1890, about 2,500 arithmometers had been sold<ref>{{cite web|url=http://www.arithmometre.org/NumerosSerie/PageNumerosSeriePayen.html |title=(retrieved on 01/02/2012) |language={{fr icon}} |publisher=Arithmometre.org |date= |accessdate=2013-10-03}}</ref> plus a few hundreds more from two arithmometer clone makers (Burkhardt, Germany, 1878 and Layton, UK, 1883) and Felt and Tarrant, the only other competitor in true commercial production, had sold 100 [[comptometer]]s.<ref>{{cite book|last=Felt|first=Dorr E.|title=Mechanical arithmetic, or The history of the counting machine|publisher=Washington Institute|location=Chicago|page=4|year=1916|url=http://www.archive.org/details/mechanicalarithm00feltrich}}</ref>
+
+It wasn't until 1902 that the familiar push-button user interface was developed, with the introduction of the Dalton Adding Machine, developed by James L. Dalton in the [[United States]].
+
+The [[Curta calculator]] was developed in 1948 and, although costly, became popular for its portability. This purely mechanical hand-held device could do addition, subtraction, multiplication and division. By the early 1970s electronic pocket calculators ended manufacture of mechanical calculators, although the Curta remains a popular collectable item.
+
+=== Development of electronic calculators ===
+The first [[Mainframe computer|mainframe]] computers, using firstly [[vacuum tube]]s and later [[transistor]]s in the logic circuits, appeared in the 1940s and 1950s. This technology was to provide a stepping stone to the development of electronic calculators.
+
+The [[Casio|Casio Computer Company]], in [[Japan]], released the Model ''14-A'' calculator in 1957, which was the world's first all-electric (relatively) "compact" calculator. It did not use electronic logic but was based on [[relay]] technology, and was built into a desk.
+
+<!-- Deleted image removed: [[File:Casio 101E nixietube disp 1dv.jpg|thumb|Powered [[Nixie tube]] display inside an old 1960s Casio 101E desktop calculator]] -->
+[[File:LED DISP.JPG|thumb|right|Early calculator [[LED]] display from the 1970s]]
+
+In October 1961 the world's first ''all-electronic desktop'' calculator, the British [[Bell Punch]]/Sumlock Comptometer [[Sumlock ANITA calculator|ANITA]] ('''A''' '''N'''ew '''I'''nspiration '''T'''o '''A'''rithmetic/'''A'''ccounting) was announced.<ref>"Simple and Silent", ''Office Magazine'', December 1961, p1244</ref><ref>"'Anita' der erste tragbare elektonische Rechenautomat" [trans: "the first portable electronic computer"], ''Buromaschinen Mechaniker'', November 1961, p207</ref> This machine used [[vacuum tube]]s, cold-cathode tubes and [[Dekatron]]s in its circuits, with 12 cold-cathode [[Nixie tube|"Nixie"]] tubes for its display. Two models were displayed, the Mk VII for continental Europe and the Mk VIII for Britain and the rest of the world, both for delivery from early 1962. The Mk VII was a slightly earlier design with a more complicated mode of multiplication, and was soon dropped in favour of the simpler Mark VIII. The ANITA had a full keyboard, similar to mechanical [[comptometer]]s of the time, a feature that was unique to it and the later [[Sharp Corporation|Sharp]] CS-10A among electronic calculators. Bell Punch had been producing key-driven mechanical calculators of the comptometer type under the names "Plus" and "Sumlock", and had realised in the mid-1950s that the future of calculators lay in electronics. They employed the young graduate Norbert Kitz, who had worked on the early British [[Pilot ACE]] computer project, to lead the development. The [[Sumlock ANITA calculator|ANITA]] sold well since it was the only electronic desktop calculator available, and was silent and quick.
+
+The tube technology of the [[Sumlock ANITA calculator|ANITA]] was superseded in June 1963 by the U.S. manufactured [[Friden, Inc.|Friden]] EC-130, which had an all-transistor design, a stack of four 13-digit numbers displayed on a {{convert|5|in|cm|adj=on}} [[Cathode ray tube|CRT]], and introduced [[reverse Polish notation]] (RPN) to the calculator market for a price of $2200, which was about three times the cost of an electromechanical calculator of the time. Like Bell Punch, Friden was a manufacturer of mechanical calculators that had decided that the future lay in electronics. In 1964 more all-transistor electronic calculators were introduced: [[Sharp Corporation|Sharp]] introduced the [[CS-10A]], which weighed 25&nbsp;kg (55&nbsp;lb) and cost 500,000 yen (~US$2500), and Industria Macchine Elettroniche of Italy introduced the IME 84, to which several extra keyboard and display units could be connected so that several people could make use of it (but apparently not at the same time).
+
+There followed a series of electronic calculator models from these and other manufacturers, including Canon, Mathatronics, [[Olivetti]], SCM (Smith-Corona-Marchant), Sony, Toshiba, and Wang. The early calculators used hundreds of [[Bipolar junction transistor#Germanium transistors|germanium transistors]], which were cheaper than [[Transistor#Semiconductor material|silicon transistor]]s, on multiple circuit boards. Display types used were [[Cathode ray tube|CRT]], cold-cathode [[Nixie tube]]s, and [[filament lamp]]s. Memory technology was usually based on the [[delay line memory]] or the [[magnetic core memory]], though the Toshiba "Toscal" BC-1411 appears to have used an early form of [[dynamic RAM]] built from discrete components. Already there was a desire for smaller and less power-hungry machines.
+
+The [[Olivetti]] [[Programma 101]] was introduced in late 1965; it was a stored program machine which could read and write magnetic cards and displayed results on its built-in printer. Memory, implemented by an acoustic delay line, could be partitioned between program steps, constants, and data registers. Programming allowed conditional testing and programs could also be overlaid by reading from magnetic cards. It is regarded as the first personal computer produced by a company (that is, a desktop '''electronic calculating machine''' programmable by non-specialists for personal use). The [[Olivetti]] Programma 101 won many industrial design awards.
+
+[[File:Elka-22 (I197211).png|thumb|The Bulgarian [[ELKA 22]]]]
+Another calculator introduced in 1965 was [[People's Republic of Bulgaria|Bulgaria's]] [[ELKA#ELKA 6521|ELKA 6521]],<ref name="elka">[http://clockwiser.wordpress.com/2012/01/10/elka-hist/ The Bulgarian ELKA electronic calculators], ''Clockwiser''. Retrieved Oct 2013.</ref><ref>[http://clockwiser.files.wordpress.com/2012/01/elka6521.jpg ELKA 6521 (photo)].  Retrieved Oct 2013.</ref> developed by the Central Institute for Calculation Technologies and built at the Elektronika factory in [[Sofia]]. The name derives from '''''EL'''ektronen '''KA'''lkulator'', and it weighed around 8 kg. It is the first calculator in the world which includes the [[square root]] function. Later that same year were released the [[ELKA 22]] (with a luminescent display)<ref name="elka" /><ref>[http://clockwiser.files.wordpress.com/2012/01/elka22-2.jpg ELKA 22 (photo)]. Retrieved Oct 2013.</ref><ref>[http://rk86.com/frolov/elka22.htm ELKA 22, Bulgarian Calculator], ''[http://rk86.com/frolov/ Soviet digital calculators collection]''. Retrieved Oct 2013.</ref> and the ELKA 25, with an in-built printer. Several other models were developed until the first pocket model, the [[ELKA 101]], was released in 1974. The writing on it was in [[Roman script]], and it was exported to western countries. <ref name="elka" /><ref>[http://clockwiser.wordpress.com/2012/01/10/elka-101-135-series/ ELKA 100 series (photos)], [http://clockwiser.files.wordpress.com/2012/01/elka100-series.jpg (photo)], ''Clockwiser. Retrieved Oct 2013.</ref><ref>[http://www.vintagecalculators.com/html/elka_101.html ELKA 101 description], ''Vintage Calculators''. Retrieved Oct 2013.</ref>
+
+The ''[[Monroe Epic]]'' programmable calculator came on the market in 1967. A large, printing, desk-top unit, with an attached floor-standing logic tower, it could be programmed to perform many computer-like functions. However, the only ''branch'' instruction was an implied unconditional branch (GOTO) at the end of the operation stack, returning the program to its starting instruction. Thus, it was not possible to include any [[conditional branch]] (IF-THEN-ELSE) logic. During this era, the absence of the conditional branch was sometimes used to distinguish a programmable calculator from a computer.
+
+The first handheld calculator, a prototype called "Cal Tech", was developed by [[Texas Instruments]] in 1967. It could add, multiply, subtract, and divide, and its output device was a paper tape.<ref>[http://education.ti.com/educationportal/sites/US/nonProductSingle/about_press_release_news37.html Texas Instruments Celebrates the 35th Anniversary of Its Invention of the Calculator] [[Texas Instruments]] press release, 15 August 2002.</ref><ref>[http://www.npr.org/templates/story/story.php?storyId=14845433 Electronic Calculator Invented 40 Years Ago] All Things Considered, NPR, 30 September 2007. Audio interview with one of the inventors.</ref>
+
+=== 1970s to mid-1980s ===
+<!-- Deleted image removed: [[File:Casio as-a ckt1 1c.jpg|thumb|Internal circuit with twelve Nixie tube display elements inside a 1960s desktop calculator]] -->
+
+The electronic calculators of the mid-1960s were large and heavy desktop machines due to their use of hundreds of [[transistor]]s on several circuit boards with a large power consumption that required an AC power supply. There were great efforts to put the logic required for a calculator into fewer and fewer [[integrated circuits]] (chips) and calculator electronics was one of the leading edges of [[semiconductor]] development. U.S. semiconductor manufacturers led the world in Large Scale Integration (LSI) semiconductor development, squeezing more and more functions into individual integrated circuits. This led to alliances between Japanese calculator manufacturers and U.S. semiconductor companies: [[Canon (company)|Canon Inc.]] with [[Texas Instruments]], [[Sharp Corporation|Hayakawa Electric]] (later known as Sharp Corporation) with [[Rockwell International|North-American Rockwell Microelectronics]], [[Busicom]] with [[Mostek]] and [[Intel]], and [[General Instrument]] with [[Sanyo]].
+
+==== Pocket calculators ====
+{{redirect|Pocket calculator|the song|Computer World}}
+
+[[File:Calculator Adler 81S.jpg|thumb|Adler 81S pocket calculator with [[vacuum fluorescent display]] (VFD) from the mid-1970s]]
+[[File:Casio cm602.jpg|thumb|The Casio CM-602 Mini electronic calculator provided basic functions in the 1970s]]
+[[File:SinclairExecutive-01.jpg|thumb|the 1972 [[Sinclair Executive]] pocket calculator]]
+[[File:CasioFX20-inside.jpg|thumb|The interior of a Casio fx-20 scientific calculator from the mid-1970s, using a VFD. The processor integrated circuit (IC) is made by [[NEC]]. Discrete electronic components like [[capacitor]]s and [[resistor]]s and the IC are mounted on a [[printed circuit board]] (PCB)]]
+[[File:Sharp el-323 ic 1ae.jpg|thumb|The processor chip (integrated circuit package) inside a 1981 Sharp pocket calculator, marked SC6762 1•H. An LCD display is directly under the chip. This was a PCB-less design]]
+[[File:Casio fx-992VB interior both aa1.JPG|thumb|Inside a Casio scientific calculator from the late 1980s, showing the processor chip (small square, top-middle, left), keypad contacts (44 "circles" and matching contacts on a plastic sheet, left), the back of the LCD display (left side, top, marked 4L102E), and other components. The solar cell assembly is under the chip]]
+[[File:Citizen se-733 int 1ac.jpg|thumb|The interior of a newer (ca. 2000) pocket calculator. The processor chip (not visible) in the centre is covered with dark [[epoxy]]]]
+
+By 1970, a calculator could be made using just a few chips of low power consumption, allowing portable models powered from rechargeable batteries. The first portable calculators appeared in Japan in 1970, and were soon marketed around the world. These included the [[Sanyo]] ICC-0081 "Mini Calculator", the [[Canon (company)|Canon]] Pocketronic, and the [[Sharp Corporation|Sharp]] [[Sharp QT-8B|QT-8B]] "micro Compet". The Canon Pocketronic was a development of the "Cal-Tech" project which had been started at [[Texas Instruments]] in 1965 as a research project to produce a portable calculator. The Pocketronic has no traditional display; numerical output is on thermal paper tape. As a result of the "Cal-Tech" project, Texas Instruments was granted master patents on portable calculators.
+
+Sharp put in great efforts in size and power reduction and introduced in January 1971 the [[Sharp EL-8]], also marketed as the Facit 1111, which was close to being a pocket calculator. It weighed about 455 grams or one pound, had a vacuum fluorescent display, rechargeable [[NiCad]] batteries, and initially sold for $395.
+
+However, the efforts in [[integrated circuit development]] culminated in the introduction in early 1971 of the first "calculator on a chip", the MK6010 by [[Mostek]],<ref>"Single Chip Calculator Hits the Finish Line", ''Electronics's', February 1, 1971, p19</ref> followed by Texas Instruments later in the year. Although these early hand-held calculators were very expensive, these advances in electronics, together with developments in display technology (such as the [[vacuum fluorescent display]], [[LED]], and [[LCD]]), led within a few years to the cheap pocket calculator available to all.
+
+In 1971 [[Pico Electronics]].<ref>{{cite web|url=http://www.spingal.plus.com/micro |title=Microprocessor History |publisher=Spingal.plus.com |date= |accessdate=2011-07-19}}</ref> and [[General Instrument]] also introduced their first collaboration in ICs, a complete single chip calculator IC for the Monroe Royal Digital III calculator. Pico was a spinout by five GI design engineers whose vision was to create single chip calculator ICs. Pico and GI went on to have significant success in the burgeoning handheld calculator market.
+
+The first truly pocket-sized electronic calculator was the [[Busicom]] LE-120A "HANDY", which was marketed early in 1971.<ref>"The one-chip calculator is here, and it's only the beginning", Electronic Design, February 18, 1971, p34.</ref> Made in Japan, this was also the first calculator to use an [[LED]] display, the first hand-held calculator to use a single integrated circuit (then proclaimed as a "calculator on a chip"), the [[Mostek]] MK6010, and the first electronic calculator to run off replaceable batteries. Using four AA-size cells the LE-120A measures 4.9x2.8x0.9 in (124x72x24 mm).
+
+The first American-made pocket-sized calculator, the Bowmar 901B (popularly referred to as ''The Bowmar Brain''), measuring 5.2 × 3.0 × 1.5 in (131 × 77 × 37&nbsp;mm), came out in the Autumn of 1971, with four functions and an eight-digit red [[light-emitting diode|LED]] display, for $240, while in August 1972 the four-function [[Sinclair Executive]] became the first slimline pocket calculator measuring 5.4 × 2.2 × 0.35 in (138 × 56 × 9&nbsp;mm) and weighing 2.5&nbsp;oz (70g). It retailed for around $150 (£79). By the end of the decade, similar calculators were priced less than $10 (£5).
+
+The first Soviet-made pocket-sized calculator, the "Elektronika B3-04" was developed by the end of 1973 and sold at the beginning of 1974.
+
+One of the first low-cost calculators was the [[Sinclair Cambridge]], launched in August 1973. It retailed for £29.95, or £5 less in kit form. The Sinclair calculators were successful because they were far cheaper than the competition; however, their design was flawed and their accuracy in some functions was questionable. The scientific programmable models were particularly poor in this respect, with the programmability comings at a heavy price in [[Transcendental function]] accuracy.{{Or|date=May 2010}}
+
+Meanwhile [[Hewlett Packard|Hewlett Packard (HP)]] had been developing a pocket calculator. Launched in early 1972 it was unlike the other basic four-function pocket calculators then available in that it was the first pocket calculator with ''scientific'' functions that could replace a [[slide rule]]. The $395 [[HP-35]], along with nearly all later HP engineering calculators, used [[reverse Polish notation]] (RPN), also called postfix notation. A calculation like "8 plus 5" is, using RPN, performed by pressing "8", "Enter↑", "5", and "+"; instead of the algebraic [[infix notation]]: "8", "+", "5", "=".
+
+The first Soviet ''scientific'' pocket-sized calculator the "B3-18" was completed by the end of 1975.
+
+In 1973, [[Texas Instruments]] (TI) introduced the [[SR-10]], (''SR'' signifying [[slide rule]]) an ''algebraic entry'' pocket calculator using [[scientific notation]] for $150. Shortly after the SR-11 featured an additional key for entering [[Pi|"π"]]. It was followed the next year by the [[TI SR-50|SR-50]] which added log and trig functions to compete with the HP-35, and in 1977 the mass-marketed [[TI-30]] line which is still produced.
+
+In 1978 a new company, [[Calculated Industries]], came onto the scene, focusing on specific markets. Their first calculator, the Loan Arranger <ref>{{cite web|url=http://mathcs.albion.edu/~mbollman/CI/loanarranger2.htm |title=The Loan Arranger II |publisher=Mathcs.albion.edu |date= |accessdate=2011-07-19}}</ref> (1978) was a pocket calculator marketed to the Real Estate industry with preprogrammed functions to simplify the process of calculating payments and future values. In 1985, CI launched a calculator for the construction industry called the Construction Master <ref>{{cite web|url=http://mathcs.albion.edu/~mbollman/CI/CM.htm |title=Construction Master |publisher=Mathcs.albion.edu |date= |accessdate=2011-07-19}}</ref> which came preprogrammed with common construction calculations (such as angles, stairs, roofing math, pitch, rise, run, and feet-inch fraction conversions). This would be the first in a line of construction related calculators.
+
+==== Programmable calculators ====
+[[File:HP 65.jpg|thumb|The [[HP-65]], the first programmable pocket calculator (1974)]]
+{{Main|Programmable calculator}}
+
+The first desktop ''programmable calculators'' were produced in the mid-1960s by [[Mathatronics]] and [[Casio]] (AL-1000). These machines were, however, very heavy and expensive. The first programmable pocket calculator was the [[HP-65]], in 1974; it had a capacity of 100 instructions, and could store and retrieve programs with a built-in magnetic card reader. Two years later the [[HP-25C]] introduced ''[[HP Continuous memory|continuous memory]]'', i.e. programs and data were retained in [[CMOS]] memory during power-off. In 1979, HP released the first ''[[alphanumeric]]'', programmable, ''expandable'' calculator, the [[HP-41]]C. It could be expanded with [[random access memory|RAM]] (memory) and [[read-only memory|ROM]] (software) modules, as well as peripherals like [[bar code]] readers, [[microcassette]] and [[floppy disk]] drives, paper-roll [[thermal printer]]s, and miscellaneous communication interfaces ([[RS-232]], [[HP-IL]], [[HP-IB]]).
+
+The first Soviet programmable desktop calculator ISKRA 123, powered by the power grid, was released at the beginning of the 1970s. The first Soviet pocket battery-powered programmable calculator, [[Elektronika]] "[[B3-21]]", was developed by the end of 1977 and released at the beginning of 1978. The successor of B3-21, the [[Elektronika B3-34]] wasn't backward compatible with B3-21, even if it kept the [[reverse Polish notation]] (RPN). Thus B3-34 defined a new command set, which later was used in a series of later programmable Soviet calculators. Despite very limited capabilities (98 bytes of instruction memory and about 19 stack and addressable registers), people managed to write all kinds of programs for them, including [[adventure game]]s and libraries of calculus-related functions for engineers. Hundreds, perhaps thousands, of programs were written for these machines, from practical scientific and business software, which were used in real-life offices and labs, to fun games for children. The [[Elektronika MK-52]] calculator (using the extended B3-34 command set, and featuring internal [[EEPROM]] memory for storing programs and external interface for EEPROM cards and other periphery) was used in Soviet spacecraft program (for [[Soyuz TM-7]] flight) as a backup of the board computer.
+
+This series of calculators was also noted for a large number of highly counter-intuitive mysterious undocumented features, somewhat similar to "synthetic programming" of the American [[HP-41]], which were exploited by applying normal arithmetic operations to error messages, jumping to non-existent addresses and other techniques. A number of respected monthly publications, including the popular science magazine "[[Nauka i Zhizn|Наука и жизнь]]" ("Science and Life"), featured special columns, dedicated to optimization techniques for calculator programmers and updates on undocumented features for hackers, which grew into a whole esoteric science with many branches, known as "yeggogology" ("еггогология"). The error messages on those calculators appear as a Russian word "YEGGOG" ("ЕГГОГ") which, unsurprisingly, is translated to "Error".
+
+A similar hacker culture in the USA revolved around the [[HP-41]], which was also noted for a large number of undocumented features and was much more powerful than [[B3-34]].
+
+==== Technical improvements ====
+[[File:Solar-calculator.jpg|thumb|right|A calculator which runs on solar and battery power]]
+Through the 1970s the hand-held electronic calculator underwent rapid development. The red LED and blue/green [[vacuum fluorescent display]]s consumed a lot of power and the calculators either had a short battery life (often measured in hours, so rechargeable [[nickel-cadmium battery|nickel-cadmium batteries]] were common) or were large so that they could take larger, higher capacity batteries. In the early 1970s [[liquid crystal displays]] (LCDs) were in their infancy and there was a great deal of concern that they only had a short operating lifetime. Busicom introduced the Busicom ''LE-120A "HANDY"'' calculator, the first pocket-sized calculator and the first with an [[LED]] display, and announced the Busicom ''LC'' with LCD display. However, there were problems with this display and the calculator never went on sale. The first successful calculators with LCDs were manufactured by [[Rockwell International]] and sold from 1972 by other companies under such names as: Dataking ''LC-800'', Harden ''DT/12'', Ibico ''086'', Lloyds ''40'', Lloyds ''100'', Prismatic ''500'' (aka ''P500''), Rapid Data ''Rapidman 1208LC''. The LCDs were an early form using the ''Dynamic Scattering Mode DSM''  with the numbers appearing as bright against a dark background. To present a high-contrast display these models illuminated the LCD using a filament lamp and solid plastic light guide, which negated the low power consumption of the display. These models appear to have been sold only for a year or two.
+
+A more successful series of calculators using a reflective DSM-LCD was launched in 1972 by [[Sharp Inc]] with the Sharp ''EL-805'', which was a slim pocket calculator. This, and another few similar models, used Sharp's "COS" (Calculator On Substrate) technology. An extension of one glass plate needed for the Liquid Crystal Display was used as a substrate to mount the required chips based on a new hybrid technology. The "COS" technology may have been too expensive since it was only used in a few models before Sharp reverted to conventional circuit boards.
+
+In the mid-1970s the first calculators appeared with field-effect, ''Twisted Nematic TN''  LCDs with dark numerals against a grey background, though the early ones often had a yellow filter over them to cut out damaging [[ultraviolet]] rays. The advantage of LCDs is that they are passive light modulators reflecting light, which require much less power than light-emitting displays such as LEDs or VFDs. This led the way to the first credit-card-sized calculators, such as the [[Casio]] ''Mini Card LC-78'' of 1978, which could run for months of normal use on button cells.
+
+There were also improvements to the electronics inside the calculators. All of the logic functions of a calculator had been squeezed into the first "Calculator on a chip" [[integrated circuits]] in 1971, but this was leading edge technology of the time and yields were low and costs were high. Many calculators continued to use two or more [[integrated circuits]] (ICs), especially the scientific and the programmable ones, into the late 1970s.
+
+The power consumption of the integrated circuits was also reduced, especially with the introduction of [[CMOS]] technology. Appearing in the Sharp "EL-801" in 1972, the [[transistor]]s in the logic cells of CMOS ICs only used any appreciable power when they changed state. The [[LED]] and [[Vacuum fluorescent display|VFD]] displays often required additional driver transistors or ICs, whereas the LCD displays were more amenable to being driven directly by the calculator IC itself.
+
+With this low power consumption came the possibility of using [[solar cells]] as the power source, realised around 1978 by such calculators as the Royal ''Solar 1'', Sharp ''EL-8026'', and Teal ''Photon''.
+
+==== A pocket calculator for everyone ====
+At the beginning of the 1970s hand-held electronic calculators were very expensive, costing two or three weeks' wages, and so were a luxury item. The high price was due to their construction requiring many mechanical and electronic components which were expensive to produce, and production runs were not very large. Many companies saw that there were good profits to be made in the calculator business with the margin on these high prices. However, the cost of calculators fell as components and their production techniques improved, and the effect of economies of scale was felt.
+
+By 1976 the cost of the cheapest 4-function pocket calculator had dropped to a few dollars, about one 20th of the cost five years earlier. The consequences of this were that the pocket calculator was affordable, and that it was now difficult for the manufacturers to make a profit out of calculators, leading to many companies dropping out of the business or closing down altogether. The companies that survived making calculators tended to be those with high outputs of higher quality calculators, or producing high-specification scientific and programmable calculators.
+
+=== Mid-1980s to present ===
+The first calculator capable of symbolic computation was the [[HP-28]]C, released in 1987. It was able to, for example, solve quadratic equations symbolically. The first [[graphing calculator]] was the [[Casio]] [[Casio fx-7000G|FX-7000G]] released in 1985.
+
+The two leading manufacturers, HP and TI, released increasingly feature-laden calculators during the 1980s and 1990s. At the turn of the millennium, the line between a graphing calculator and a [[handheld computer]] was not always clear, as some very advanced calculators such as the [[TI-89]], the [[TI-92 series|Voyage 200]] and [[HP-49G]] could [[derivative|differentiate]] and [[integral|integrate]] [[function (mathematics)|function]]s, solve [[differential equation]]s, run [[word processing]] and [[Personal information manager|PIM]] software, and connect by wire or [[infrared|IR]] to other calculators/computers.
+
+The [[HP-12C|HP 12c]] financial calculator is still produced. It was introduced in 1981 and is still being made with few changes. The HP 12c featured the [[reverse Polish notation]] mode of data entry. In 2003 several new models were released, including an improved version of the HP 12c, the "HP 12c platinum edition" which added more memory, more built-in functions, and the addition of the algebraic mode of data entry.
+
+[[Calculated Industries]] competed with the [[HP-12C|HP 12c]] in the mortgage and real estate markets by differentiating the key labeling; changing the “I”, “PV”, “FV” to easier labeling terms such as "Int", "Term", "Pmt", and not using the [[reverse Polish notation]]. However, CI's more successful calculators involved a line of construction calculators, which evolved and expanded in the 1990s to present. According to Mark Bollman,<ref>{{cite web|author=Mark Bollman |url=http://mathcs.albion.edu/~mbollman/Calculators.html |title=Mark->'s Calculator Collection |publisher=Mathcs.albion.edu |date= |accessdate=2011-07-19}}</ref> a mathematics and calculator historian and associate professor of mathematics at Albion College, the "Construction Master is the first in a long and profitable line of CI construction calculators" which carried them through the 1980s, 1990s, and to the present.
+
+Personal computers often come with a calculator utility program that emulates the appearance and functionality of a calculator, using the [[graphical user interface]] to portray a calculator. One such example is [[Calculator (Windows)|Windows Calculator]]. Most [[personal data assistant]]s (PDA) and [[smartphone]]s also have such a feature.
+
+== Manufacturers ==
+These are some of the manufacturers which made a notable contribution to calculator development:<ref>{{cite web|url=http://www.vintagecalculators.com/html/calculator_companies.html |title="Calculator companies" |publisher=Vintagecalculators.com |date= |accessdate=2013-10-03}}</ref>
+{| cellpadding="15"
+|-
+|  style="width:30%; vertical-align:top;"|
+* '''APF''' - U.S.A.
+* '''Aurora''' - China
+* '''Bell Punch Company / ANITA''' - UK.
+* '''Bowmar''' - U.S.A.
+* '''Brunsviga''' - Germany
+* '''Burroughs''' - U.S.A.
+* '''Busicom''' - Japan.
+* '''Canon''' - Japan
+* '''Casio''' - Japan
+* '''Commodore / CBM''' - Canada/U.S.A.
+* '''Comptometer / Felt & Tarrant''' - U.S.A.
+* '''Compucorp''' - U.S.A.
+* '''Digitz''' - China
+* '''Elektronika''' - Lithuania
+* '''Facit''' - Sweden.
+* '''Felt & Tarrant''' - U.S.A. <small>→Comptometer.</small>
+* '''Friden''' - U.S.A.
+|  style="width:30%; vertical-align:top;"|
+* '''General Instrument''' - U.S.A.
+* '''Hewlett Packard''' - U.S.A.
+* '''Hitachi''' - Japan.
+* '''IME''' - Italy.
+* '''Litronix''' - U.S.A.
+* '''Lloyd's''' - U.S.A.
+* '''Marchant''' - U.S.A.
+* '''Monroe''' - U.S.A.
+* '''National Semiconductor''' - U.S.A.
+* '''Nippon Calculating Machine / NCM''' - Japan. <small>→Busicom.</small>
+* '''Novus''' - U.S.A. <small>→National Semiconductor.</small>
+* '''Odhner''' - Russia and Sweden.
+* '''Olivetti''' - Italy.
+* '''Rapid Data''' - Canada.
+* '''Rockwell''' - U.S.A.
+|  style="width:30%; vertical-align:top;"|
+* '''Sanyo''' - Japan.
+* '''Sharp''' - Japan.
+* '''Sinclair''' - UK.
+* '''Singer-Friden''' - U.S.A. <small>→Friden.</small>
+* '''Sumlock Anita''' - UK. <small>→Bell Punch Company / ANITA.</small>
+* '''Summit''' - U.S.A.
+* '''Teal''' - Japan and U.S.A.
+* '''Texas Instruments''' - U.S.A.
+* '''Toshiba''' - Japan.
+* '''Unicom''' - U.S.A. <small>→Rockwell.</small>
+* '''Victor''' - U.S.A.
+* '''Wang''' - U.S.A.
+|}
+
+=== Current major manufacturers ===
+* Aurora Office Equipment Company (China)
+* [[Canon Inc.|Canon Electronic Business Machines (HK) Co., Ltd. (Hong Kong)]]
+* Casio Computer Co., Ltd. (Japan)
+* [[Citizen Holdings|Citizen Systems Japan Co., Ltd.]] (Japan)
+* Hewlett-Packard Development Company, L.P. (U.S.A.)
+* Sharp Corporation (Japan)
+* Texas Instruments Inc. (U.S.A.)
+
+== See also ==
+{{portal|Computing}}
+* [[Beghilos]]
+* [[Comparison of Texas Instruments graphing calculators]]
+* [[Formula calculator]]
+* [[History of computing hardware]]
+* [[List of HP calculators]]
+* [[Software calculator]]
+
+== Notes ==
+{{Reflist|30em}}
+
+== References ==
+* {{Cite journal | volume = 103 | issue = 8 | pages = 633–639 | last = Hamrick | first = Kathy B.  | title = The History of the Hand-Held Electronic Calculator | journal = The American Mathematical Monthly | date = 1996-10 | doi = 10.2307/2974875 | publisher = The American Mathematical Monthly, Vol. 103, No. 8 | ref = harv | jstor = 2974875 }}
+* {{cite book|language=fr|title=Histoire des instruments et machines à calculer, trois siècles de mécanique pensante 1642-1942|first=Jean|last=Marguin|year=1994|publisher=Hermann|isbn=978-2-7056-6166-3|ref=MARG}}
+* {{cite book|ref=WILLIAMS|last=Williams|first=Michael R.|title=History of Computing Technology|publisher=IEEE Computer Society|location=Los Alamitos, California|year=1997|isbn=0-8186-7739-2}}
+* {{cite book|ref=IFRAHCOMPUTING|title=The Universal History of Computing|last=Ifrah|first=Georges|publisher=John Wiley & Sons, Inc.|year=2001|isbn=0-471-39671-0}}
+* {{cite journal| ref=NAT_CHAP| title=Blaise Pascal (1623-1662) Tercentenary of the calculating machine|author= Prof. S. Chapman| journal= Nature| volume= 150| date= October 31, 1942| pages = 508–509| location=London}}
+
+== Further reading ==
+* {{US patent|2668661}} – ''Complex computer'' – [[George Stibitz|G. R. Stibitz]], [[Bell Laboratories]], 1954 (filed 1941, refiled 1944), electromechanical (relay) device that could calculate complex numbers, record, and print results.
+* {{US patent|3819921}} – ''Miniature electronic calculator'' – [[Jack Kilby|J. S. Kilby]], [[Texas Instruments]], 1974 (originally filed 1967), handheld (3&nbsp;lb, 1.4&nbsp;kg) battery operated electronic device with thermal printer
+** The Japanese Patent Office granted a patent in June 1978 to Texas Instruments (TI) based on US patent 3819921, notwithstanding objections from 12 Japanese calculator manufacturers. This gave TI the right to claim royalties retroactively to the original publication of the Japanese patent application in August 1974. A TI spokesman said that it would actively seek what was due, either in cash or technology cross-licensing agreements. 19 other countries, including the United Kingdom, had already granted a similar patent to Texas Instruments. – ''New Scientist'', 17 August 1978 p455, and ''Practical Electronics'' (British publication), October 1978 p1094.
+* {{US patent|4001566}} – ''Floating Point Calculator With RAM Shift Register'' - 1977 (originally filed GB March 1971, US July 1971), very early single chip calculator claim.
+* {{US patent|5623433}} – ''Extended Numerical Keyboard with Structured Data-Entry Capability'' – [[Jaime Redin|J. H. Redin]], 1997 (originally filed 1996), Usage of Verbal Numerals as a way to enter a number.
+* [http://ep.espacenet.com European Patent Office Database] - Many patents about mechanical calculators are in classifications G06C15/04, G06C15/06, G06G3/02, G06G3/04
+* ^ ''Collectors Guide to Pocket Calculators''. by Guy Ball and Bruce Flamm, 1997, ISBN 1-888840-14-5 - includes an extensive history of early pocket calculators as well as highlights over 1500 different models from the early 1970s. Book still in print.
+
+== External links ==
+{{Commons category|Calculators}}
+* [http://www.ti.com/corp/docs/company/history/calc.shtml On TI's US Patent No. 3819921] – From TI's own website
+* [http://sharp-world.com/corporate/info/his/h_company/1994/ 30th Anniversary of the Calculator] – From Sharp's web presentation of its history; including a picture of the CS-10A desktop calculator
+* [http://www.oldcalculatormuseum.com The Old Calculator Web Museum] - Documents the technology of desktop calculators, mainly early electronics
+* [http://www.xnumber.com/xnumber/cmhistory.htm History of Mechanical Calculators]
+* [http://www.vintagecalculators.com/index.html Vintage Calculators Web Museum] - Shows the development from mechanical calculators to pocket electronic calculators
+* [http://www.hpmuseum.org The Museum of HP calculators] ([http://www.hpmuseum.org/prehp.htm slide rules/mech. section])
+* [http://www.spingal.plus.com/micro Microprocessor and single chip calculator history; foundations in Glenrothes, Scotland]
+* [http://www.jacques-laporte.org/HP%2035%20Saga.htm HP-35] - A thorough analysis of the HP-35 firmware including the Cordic algorithms and the bugs in the early ROM
+* [http://www.anita-calculators.info/ Bell Punch Company and the development of the Anita calculator] - The story of the first electronic desktop calculator
+
+{{Computer sizes}}
+
+[[Category:Calculators| ]]
+[[Category:Mathematical tools]]
+[[Category:Office equipment]]
+[[Category:American inventions]]
+
+{{Link GA|es}}

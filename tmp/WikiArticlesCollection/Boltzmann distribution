@@ -1,0 +1,73 @@
+{{Merge to|Maxwell–Boltzmann statistics|discuss=Talk:Boltzmann_distribution#Identical_to_Maxwell.E2.80.93Boltzmann_statistics.3F|date=September 2013}}
+<!-- EDITORS! Please see [[Wikipedia:WikiProject Probability#Standards]] for a discussion of standards used for probability distribution articles such as this one. {{Probability distribution|
+  name       =Boltzmann distribution|
+  type       =mass|
+  pdf_image  =|
+  cdf_image  =|
+  parameters =|
+  support    =|
+  pdf        =|
+  cdf        =|
+  mean       =|
+  median     =|
+  mode       =|
+  variance   =|
+  skewness   =|
+  kurtosis   =|
+  entropy    =|
+  mgf        =|
+  char       =|
+}}-->
+In [[chemistry]], [[physics]], and [[mathematics]], the '''Boltzmann distribution''' (also called the '''Gibbs Distribution'''<ref name ="landau">{{cite book | author=[[Lev Landau|Landau, Lev Davidovich]]; and [[Evgeny Lifshitz|Lifshitz, Evgeny Mikhailovich]] | title=Statistical Physics |volume=5 |series=Course of Theoretical Physics |edition=3 |origyear=1976 |year=1980 |place=Oxford |publisher=Pergamon Press|isbn=0-7506-3372-7}} Translated by J.B. Sykes and M.J. Kearsley. See section 28</ref>) is a certain [[distribution function]] or [[probability measure]] for the distribution of the states of a system. The distribution was discovered in the context of classical statistical mechanics by [[Josiah Willard Gibbs|J.W. Gibbs]] in 1901. It underpins the concept of the [[canonical ensemble]], providing the underlying distribution. A special case of the Boltzmann distribution, used for describing the velocities of particles of a gas, is the [[Maxwell–Boltzmann distribution]]. In more general mathematical settings, the Boltzmann distribution is also known as the [[Gibbs measure]]. In [[statistics]] and [[machine learning]] it is called a [[log-linear model]].
+
+==Definition==
+The Boltzmann distribution for the fractional  number of particles ''N''<sub>''i''</sub>&nbsp;/&nbsp;''N'' occupying a set of states ''i'' possessing energy ''E<sub>i</sub>'' is:
+
+:<math>{N_i \over N} = {g_i e^{-E_i/(k_BT)} \over Z(T)}</math>
+
+where <math>k_B</math> is the [[Boltzmann constant]], ''T'' is temperature (assumed to be a well-defined quantity), <math>g_i</math> is the degeneracy (meaning, the number of levels having energy <math>E_i</math>; sometimes, the more general 'states' are used instead of levels, to avoid using degeneracy in the equation), ''N'' is the total number of particles and ''Z''(''T'') is the [[partition function (statistical mechanics)|partition function]].
+
+:<math>N=\sum_i N_i,</math>
+
+:<math>Z(T)=\sum_i g_i e^{-E_i/(k_BT)}.</math>
+
+Alternatively, for a single system at a well-defined temperature, it gives the [[probability]] that the system is in the specified state. The Boltzmann distribution applies only to particles at a high enough temperature and low enough density that quantum  effects can be ignored, and the particles are obeying [[Maxwell–Boltzmann statistics]]. (See that article for a derivation of the Boltzmann distribution.)
+
+The Boltzmann distribution is often expressed in terms of β = 1/''kT'' where β is referred to as [[thermodynamic beta]].  The term <math>e^{-\beta E_i}</math> or <math>e^{-E_i/(kT)}</math>, which gives the (unnormalised) relative probability of a state, is called the [[Boltzmann factor]] and appears often in the study of physics and chemistry.
+
+When the energy is simply the [[kinetic energy]] of the particle
+
+:<math>E_i = \begin{matrix} \frac{1}{2} \end{matrix} mv^2,</math>
+
+then the distribution correctly gives the [[Maxwell–Boltzmann distribution]] of gas molecule speeds, previously predicted by [[James Clerk Maxwell|Maxwell]] in 1859.  The Boltzmann distribution is, however, much more general. For example, it also predicts the variation of the particle density in a gravitational field with height, if <math>E_i = \begin{matrix} \frac{1}{2} \end{matrix} mv^2 + mgh</math>.  In fact the distribution applies whenever quantum considerations can be ignored.
+
+In some cases, a continuum approximation can be used. If there are ''g''(''E'')&nbsp;''dE'' states with energy ''E'' to ''E''&nbsp;+&nbsp;''dE'', then the Boltzmann distribution predicts a probability distribution for the energy:
+
+:<math>p(E)\,dE = {g(E) e^{-\beta E} \over \int g(E') e^{-\beta E'}\,dE'}\, dE.</math>
+
+Then ''g''(''E'') is called the [[density of states]] if the energy spectrum is continuous.
+
+Classical particles with this energy distribution are said to obey [[Maxwell–Boltzmann statistics]].
+
+In the classical limit, i.e.  at large values of <math>E/(kT)</math> or at small [[density of states]] &mdash; when wave functions of particles practically do not overlap &mdash; both the [[Bose–Einstein statistics|Bose–Einstein]] or [[Fermi–Dirac statistics|Fermi–Dirac]] distribution become the Boltzmann distribution.
+
+== Derivation ==
+:See [[Maxwell–Boltzmann statistics]].
+
+==See also==
+* [[Boltzmann factor]]
+* [[Gibbs measure]]
+* [[Partition function (mathematics)]]
+* [[Log-linear model]]
+
+==References==
+{{reflist}}
+
+== External links ==
+*[http://theory.physics.manchester.ac.uk/~judith/stat_therm/node55.html Derivation of the distribution for microstates of a system]
+
+{{ProbDistributions|discrete-infinite}}
+
+{{DEFAULTSORT:Boltzmann Distribution}}
+[[Category:Particle distributions]]
+[[Category:Statistical mechanics]]

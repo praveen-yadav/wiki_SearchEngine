@@ -1,0 +1,120 @@
+{{Infobox scientist
+| name        = Brian Wilson Kernighan
+| image       =
+| image_size  = 
+| caption     = 
+|birth_date   = {{Birth date and age|1942|1|1|mf=yes}}<ref name="NYT 2002">{{cite news | title = To the Liberal Arts, He Adds Computer Science | url = http://www.nytimes.com/2002/10/31/technology/to-the-liberal-arts-he-adds-computer-science.html?pagewanted=all | work = [[The New York Times]] | first = Steve | last = Lohr | date = 31 October 2002 | quote = Mr. Kernighan, 60, is a renowned computer scientist}}</ref>
+| birth_place = [[Toronto]], [[Canada]]
+| death_date = 
+| death_place = 
+| residence = 
+| citizenship = [[Canada|Canadian]]
+| nationality = 
+| ethnicity = [[Canadian]]
+| field = [[Computer Science]]
+| work_institution = [[Princeton University]]
+| alma_mater = [[University of Toronto]]<br>[[Princeton University]]
+| doctoral_advisor = 
+| doctoral_students = 
+| known_for = [[Unix]], [[AWK]], [[AMPL]]<br>[[The C Programming Language (book)]]
+| author_abbreviation_bot = 
+| author_abbreviation_zoo = 
+| prizes = 
+| religion = 
+| footnotes = 
+}}
+
+'''Brian Wilson Kernighan''' ({{IPAc-en|ˈ|k|ɜr|n|ɨ|h|æ|n}}; born January 1, 1942)<ref name="NYT 2002"/> is a Canadian [[computer scientist]] who worked at [[Bell Labs]] alongside [[Unix]] creators [[Ken Thompson (programmer)|Ken Thompson]] and [[Dennis Ritchie]] and contributed to the development of [[Unix]]. He is also coauthor of the [[AWK (programming language)|AWK]] and [[AMPL]] [[programming language]]s. The 'K' of [[The C Programming Language (book)|K&R C]] and the 'K' in [[AWK (programming language)|AWK]] both stand for 'Kernighan'. Brian Kernighan is currently a Professor at the Computer Science Department of [[Princeton University]], where he is also the Undergraduate Department Representative.  
+
+Kernighan's name became widely known through co-authorship of the first book on the [[C (programming language)|C programming language]] with [[Dennis Ritchie]]. Kernighan affirmed that he had no part in the design of the C language ("it's entirely Dennis Ritchie's work").<ref name="LJ 2003">{{cite web |title=Interview with Brian Kernighan |url=http://www.linuxjournal.com/article/7035 |publisher =[[Linux Journal]] |first=Aleksey |last=Dolya |date=29 July 2003}}</ref> He authored many [[Unix]] programs, including [[ditroff]], and [[cron]] for [[Version 7 Unix]].
+
+In collaboration with Shen Lin he devised well-known [[heuristics]] for two [[NP-complete]] optimization problems: [[graph partitioning]] and the [[travelling salesman problem]]. (In a display of authorial equity, the former is usually called the ''[[Kernighan–Lin]]'' algorithm, while the latter is styled ''[[Lin–Kernighan]]''.)
+
+Kernighan was the software editor for [[Prentice Hall|Prentice Hall International]]. His "Software Tools" series spread the essence of 'C/Unix thinking' with makeovers for [[BASIC]], [[FORTRAN]], and [[Pascal (programming language)|Pascal]] - and most notably his '[[Ratfor]]' (rational FORTRAN) was put in the public domain.
+
+He has said that if stranded on an island with only one programming language it would have to be [[C (programming language)|C]].<ref>{{cite web |url=http://www-2.cs.cmu.edu/~mihaib/kernighan-interview/index.html |title=An Interview with Brian Kernighan |first=Mihai |last=Budiu |date=July, 2000}}</ref>
+
+Kernighan coined the term [[Unix]] in the 1970s. The original term he coined was Unics (for Uniplexed Information and Computing Service, a play on [[Multics]]), which was later changed to Unix.{{citation needed|date=October 2011}} Kernighan is also known as a coiner of the expression "'''What You See Is All You Get (WYSIAYG)'''", which is a sarcastic variant of the original "What You See Is What You Get" ([[WYSIWYG]]).{{citation needed|date=October 2011}}
+Kernighan's term is used to indicate that WYSIWYG systems might throw away information in a document that could be useful in other contexts.
+
+==Early life and education==
+Born in [[Toronto]], Kernighan attended the [[University of Toronto]] between 1960 and 1964, earning his [[Bachelor's degree]] in [[Engineering Physics]].<ref name="LJ 2003" /> He received his PhD in [[electrical engineering]] from [[Princeton University]], where he has held a professorship in the department of computer science since 2000.  Each fall he teaches a course called "Computers in Our World", which introduces the fundamentals of computing to non-majors.
+
+==Summary of achievements==
+* The [[AMPL]] programming language
+* The [[AWK (programming language)|AWK]] programming language, along with [[Al Aho]] and [[Peter J. Weinberger]], and its book ''[[The AWK Programming Language (book)|The AWK Programming Language]]''
+* [[ditroff]], or "device independent [[troff]]", which allowed troff to be used with any device
+* [[The Elements of Programming Style]], with [[P. J. Plauger]]
+* The first documented [[Hello, world]] program, in Kernighan's [http://cm.bell-labs.com/cm/cs/who/dmr/btut.html "A Tutorial Introduction to the Language B"] (1972)
+* [[Ratfor]]
+* [[Software Tools]], a book and set of tools for [[Ratfor]], cocreated in part with P. J. Plauger
+* [[Software Tools in Pascal]], a book and set of tools for [[Pascal (programming language)|Pascal]], with P. J. Plauger
+* [[The C Programming Language (book)|The C Programming Language]] along with C creator [[Dennis Ritchie]], the first book on C
+* The [[eqn]] typesetting language for [[troff]], along with [[Lorinda Cherry]]
+* The [[m4 (computer language)|m4]] macro processing language, with [[Dennis Ritchie]]
+* The [[pic language|pic]] typesetting language for [[troff]]
+* [[The Practice of Programming]], with [[Rob Pike]]
+* [[The Unix Programming Environment]], a tutorial book along with [[Rob Pike]]
+* [http://www.lysator.liu.se/c/bwk-on-pascal.html "Why Pascal is Not My Favorite Programming Language"], a popular criticism of [[Niklaus Wirth]]'s [[Pascal (programming language)|Pascal]]. Some parts of the criticism are obsolete due to ISO 7185 (Programming Languages - Pascal), the criticism was written before ISO 7185 was created. (AT&T Computing Science Technical Report #100)
+
+==Writings ==
+* ''[[The Elements of Programming Style (book)|The Elements of Programming Style]]'' (1974, 1978 with [[PJ Plauger]])
+* ''Software Tools'' (1976 with [[PJ Plauger]])
+* ''[[The C Programming Language (book)|The C Programming Language]]'' ('K&R') (1978, 1988 with [[Dennis M. Ritchie]])
+* ''Software Tools in Pascal'' (1981 with [[PJ Plauger]])
+* ''[[The Unix Programming Environment]]'' (1984 with [[Rob Pike]])
+* ''The AWK Programming Language'' (1988 with [[Al Aho]] and [[Peter J. Weinberger]])
+* ''[[The Practice of Programming]]'' (1999 with [[Rob Pike]])
+* ''AMPL: A Modeling Language for Mathematical Programming, 2nd Ed.'' (2003 with [[Robert Fourer]] and David Gay)
+* ''D is for Digital: What a well-informed person should know about computers and communications'' (2011)
+
+== References ==
+
+<references/>
+
+==External links==
+{{Wikiquote}}
+*[http://www.cs.princeton.edu/~bwk/ Brian Kernighan's home page at Princeton U.]
+*[http://cm.bell-labs.com/who/bwk/ Brian Kernighan's home page at Bell Labs]
+*[http://www.lysator.liu.se/c/bwk-on-pascal.html "Why Pascal is Not My Favorite Programming Language"] &ndash; By Brian Kernighan, AT&T Bell Labs, 2 April 1981
+*[http://www.harmonyatwork.in/blog/2009/10/leap-in-and-try-things/ "Leap In and Try Things" - Interview with Brian Kernighan] &ndash; on "Harmony at Work Blog", October 2009.
+*[http://www-2.cs.cmu.edu/~mihaib/kernighan-interview/index.html An Interview with Brian Kernighan] &ndash; By Mihai Budiu, for ''PC Report Romania'', August 2000
+* [http://web.archive.org/web/20090428163341/http://www.princeton.edu/~mike/unixhistory Transcript of an interview with Brian Kernighan] &ndash; Interview by [http://web.archive.org/web/20090528015718/http://www.princeton.edu/~mike/ Michael S. Mahoney]
+* [http://technetcast.ddj.com/tnc_play_stream.html?stream_id=25 Video] - TechNetCast At Bell Labs: Dennis Ritchie and Brian Kernighan (1999-05-14)
+*[http://www.princeton.edu/WebMedia/special/ Video (Princeton University, September 7, 2003)] - "Assembly for the Class of 2007: 'D is for Digital and Why It Matters'"
+* [http://doc.cat-v.org/inferno/4th_edition/limbo_language/descent A Descent into Limbo] by Brian Kernighan
+* [http://www.adeptis.ru/vinci/m_part6.html Photos of Brian Kernighan]
+* {{OL_author|id=OL946967A}}
+*[http://princetonstartuptv.com/post/49379235060/the-legendary-brian-kernighan-on-teaching-writing Video interview with Brian Kernighan for Princeton Startup TV]  (03.20.2012)
+*[http://brian.kernighan.usesthis.com/ The Setup, Brian Kernighan]
+
+{{Authority control |VIAF=108136058 |LCCN=n/50/44563 }}
+
+{{Persondata <!-- Metadata: see [[Wikipedia:Persondata]]. -->
+| NAME              = Kernighan, Brian
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = January 1, 1942
+| PLACE OF BIRTH    = [[Toronto]], [[Canada]]
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Kernighan, Brian}}
+[[Category:1942 births]]
+[[Category:Living people]]
+[[Category:Canadian computer scientists]]
+[[Category:Computer programmers]]
+[[Category:Inferno (operating system) people]]
+[[Category:Canadian people of Irish descent]]
+[[Category:People from Toronto]]
+[[Category:Plan 9 people]]
+[[Category:Princeton University alumni]]
+[[Category:Princeton University faculty]]
+[[Category:Programming language designers]]
+[[Category:Scientists at Bell Labs]]
+[[Category:Canadian technology writers]]
+[[Category:University of Toronto alumni]]
+[[Category:Unix people]]
+[[Category:C programming language]]
+[[Category:Google employees]]
+[[Category:Members of the United States National Academy of Engineering]]

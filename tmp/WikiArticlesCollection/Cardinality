@@ -1,0 +1,118 @@
+{{other uses}}
+In [[mathematics]], the '''cardinality''' of a [[set (mathematics)|set]] is a measure of the "number of [[Element (mathematics)|elements]] of the set". For example, the set A = {2, 4, 6} contains 3 elements, and therefore A has a cardinality of 3. There are two approaches to cardinality &ndash; one which compares sets directly using [[bijection]]s and [[injective function|injection]]s, and another which uses [[cardinal number]]s.<ref>{{MathWorld |title=Cardinal Number |id=CardinalNumber }}</ref>
+
+The cardinality of a set ''A'' is usually denoted |&thinsp;''A''&thinsp;|, with a [[vertical bar]] on each side; this is the same notation as [[absolute value]] and the meaning depends on [[Ambiguity|context]]. Alternatively, the cardinality of a set ''A'' may be denoted by n(''A''), <span style="border-top: 3px double black;">''A''</span>, card(''A''), or #&thinsp;''A''.
+
+==Comparing sets==
+
+=== Case 1: |&thinsp;''A''&thinsp;| = |&thinsp;''B''&thinsp;| ===
+:Two sets ''A'' and ''B'' have the same cardinality if there exists a [[bijection]], that is, an [[injective function|injective]] and [[surjection|surjective]] [[function (mathematics)|function]], from ''A'' to ''B''. Such sets are said to be ''equipotent'', ''equipollent'', or ''[[Equinumerosity|equinumerous]]''.
+
+:For example, the set ''E'' = {0, 2, 4, 6, ...} of [[non-negative]] [[even number]]s has the same cardinality as the set '''N''' = {0, 1, 2, 3, ...} of [[natural numbers]], since the function ''f''(''n'') = 2''n'' is a bijection from '''N''' to ''E''.
+
+=== Case 2: |&thinsp;''A''&thinsp;| ≥ |&thinsp;''B''&thinsp;| ===
+:''A'' has cardinality greater than or equal to the cardinality of ''B'' if there exists an injective function from ''B'' into ''A''.
+
+=== Case 3: |&thinsp;''A''&thinsp;| > |&thinsp;''B''&thinsp;| ===
+:''A'' has cardinality strictly greater than the cardinality of ''B'' if there is an injective function, but no bijective function, from ''B'' to ''A''.
+
+:For example, the set '''R''' of all [[real number]]s has cardinality strictly greater than the cardinality of the set '''N''' of all [[natural numbers]], because the inclusion map ''i'' : '''N''' → '''R''' is injective, but it can be shown that there does not exist a bijective function from '''N''' to '''R''' (see [[Cantor's diagonal argument]] or [[Cantor's first uncountability proof]]).
+
+==Cardinal numbers==
+{{main|Cardinal number}}
+
+Above, "cardinality" was defined functionally. That is, the "cardinality" of a set was not defined as a specific object itself. However, such an object can be defined as follows.
+
+The relation of having the same cardinality is called [[equinumerosity]], and this is an [[equivalence relation]] on the [[class (set theory)|class]] of all sets. The [[equivalence class]] of a set ''A'' under this relation then consists of all those sets which have the same cardinality as ''A''. There are two ways to define the "cardinality of a set":
+
+#The cardinality of a set ''A'' is defined as its equivalence class under equinumerosity.
+#A representative set is designated for each equivalence class. The most common choice is the [[Von Neumann cardinal assignment|initial ordinal in that class]]. This is usually taken as the definition of [[cardinal number]] in [[axiomatic set theory]].
+
+The cardinalities of the [[infinite set]]s are denoted
+:<math>\aleph_0 < \aleph_1 < \aleph_2 < \ldots . </math>
+For each <math>\alpha</math>, <math>\aleph_{\alpha + 1}</math> is the least cardinal number greater than <math>\aleph_\alpha</math>.
+
+The cardinality of the [[natural number]]s is denoted [[aleph number|aleph-null]] (<math>\aleph_0</math>), while the cardinality of the [[real number]]s is denoted by "<math>\mathfrak c</math>" (a lowercase [[fraktur (script)|fraktur script]] "c"), and is also referred to as the [[cardinality of the continuum]]. Cantor showed, using the [[Cantor's diagonal argument|diagonal argument]], that <math>{\mathfrak c} >\aleph_0</math>. We can show that <math>\mathfrak c = 2^{\aleph_0}</math>, this also being the cardinality of the set of all subsets of the natural numbers. The [[continuum hypothesis]] says that <math>\aleph_1 = 2^{\aleph_0}</math>, i.e. <math>2^{\aleph_0}</math> is the smallest cardinal number bigger than <math>\aleph_0</math>, i.e. there is no set whose cardinality is strictly between that of the integers and that of the real numbers. The continuum hypothesis still remains unresolved in an "absolute" sense.<ref>{{Citation|first=R|last=[[Roger Penrose|Penrose]]|title=The Road to Reality: A Complete guide to the Laws of the Universe|publisher=Vintage Books|year=2005|ISBN=0-09-944068-7}}</ref> [[Cardinality#Cardinality of the continuum|See below]] for more details on the cardinality of the continuum.
+
+== Finite, countable and uncountable sets ==
+If the [[axiom of choice]] holds, the [[trichotomy (mathematics)|law of trichotomy]] holds for cardinality. Thus we can make the following definitions:
+
+*Any set ''X'' with cardinality less than that of the [[natural number]]s, or |&thinsp;''X''&thinsp;| < |&thinsp;'''N'''&thinsp;|, is said to be a [[finite set]].
+*Any set ''X'' that has the same cardinality as the set of the natural numbers, or |&thinsp;''X''&thinsp;| = |&thinsp;'''N'''&thinsp;| = <math>\aleph_0</math>, is said to be a [[countable set|countably infinite]] set.
+*Any set ''X'' with cardinality greater than that of the natural numbers, or |&thinsp;''X''&thinsp;| > |&thinsp;'''N'''&thinsp;|, for example |&thinsp;'''R'''&thinsp;| = <math>\mathfrak c </math> > |&thinsp;'''N'''&thinsp;|, is said to be  [[uncountable set|uncountable]].
+
+== Infinite sets ==
+Our intuition gained from [[finite set]]s breaks down when dealing with [[infinite set]]s. In the late nineteenth century [[Georg Cantor]], [[Gottlob Frege]], [[Richard Dedekind]] and others rejected the view of Galileo (which derived from [[Euclid]]) that the whole cannot be the same size as the part. One example of this is [[Hilbert's paradox of the Grand Hotel]].
+
+The reason for this is that the various characterizations of what it means for set A to be larger than set B, or to be the same size as set B, which are all equivalent for finite sets, are no longer equivalent for infinite sets. Different characterizations can yield different results. For example, in the popular characterization of size chosen by Cantor, sometimes an infinite set A is larger (in that sense) than an infinite set B; while other characterizations{{Which|date=April 2009}} may yield that an infinite set A is always the same size as an infinite set B.
+
+For finite sets, counting is just forming a [[bijection]] (i.e., a one-to-one correspondence) between the set being counted and an initial segment of the positive integers. Thus there is no notion equivalent to ''counting'' for infinite sets. While counting gives a unique result when applied to a finite set, an infinite set may be placed into a one-to-one correspondence with many different [[ordinal numbers]] depending on how one chooses to "count" (order) it.
+
+Additionally, different characterizations of size, when extended to infinite sets, will break different "rules" which held for finite sets. Which rules are broken varies from characterization to characterization. For example, Cantor's characterization, while preserving the rule that sometimes one set is larger than another, breaks the rule that deleting an element makes the set smaller. Another characterization may preserve the rule that deleting an element makes the set smaller, but break another rule.{{Citation needed|date=April 2009}} Furthermore, some characterization may not "directly" break a rule, but it may not "directly" uphold it either, in the sense that whichever is the case depends upon a controversial axiom such as the axiom of choice or the continuum hypothesis. Thus there are three possibilities. Each characterization will break some rules, uphold some others, and may be indecisive about some others.
+
+If one extends to [[multiset]]s, further rules are broken (assuming Cantor's approach), which hold for finite multisets. If we have two multisets A and B, A not being larger than B and B not being larger than A does not necessarily imply A has the same size as B.{{Citation needed|date=April 2009}} This rule holds for multisets that are finite. Needless to say, the law of trichotomy is explicitly broken in this case, as opposed to the situation with sets, where it is equivalent to the axiom of choice.
+
+Dedekind simply defined an infinite set as one having the same size (in Cantor's sense) as at least one of its [[proper subset|proper]] parts; this notion of infinity is called [[Dedekind infinite]]. This definition only works in the presence of some form of the axiom of choice, however, so will not be considered to work by some mathematicians.
+
+Cantor introduced the above-mentioned cardinal numbers, and showed that (in Cantor's sense) some infinite sets are greater than others. The smallest infinite cardinality is that of the natural numbers (<math>\aleph_0</math>).
+
+=== Cardinality of the continuum ===
+{{main|Cardinality of the continuum}}
+
+One of Cantor's most important results was that the [[cardinality of the continuum]] (<math>\mathfrak{c}</math>) is greater than that of the natural numbers (<math>\aleph_0</math>); that is, there are more real numbers '''R''' than whole numbers '''N'''. Namely, Cantor showed that
+:<math>\mathfrak{c} = 2^{\aleph_0} > {\aleph_0}</math>
+:(see [[Cantor's diagonal argument]] or [[Cantor's first uncountability proof]]).
+
+The [[continuum hypothesis]] states that there is no [[cardinal number]] between the cardinality of the reals and the cardinality of the natural numbers, that is,
+:<math>\mathfrak{c} = \aleph_1 = \beth_1</math>
+:(see [[Beth number#Beth one|Beth one]]).
+However, this hypothesis can neither be proved nor disproved within the widely accepted [[ZFC]] [[axiomatic set theory]], if ZFC is consistent.
+
+Cardinal arithmetic can be used to show not only that the number of points in a [[real number line]] is equal to the number of points in any [[line segment|segment]] of that line, but that this is equal to the number of points on a plane and, indeed, in any finite-dimensional space. These results are highly counterintuitive, because they imply that there exist [[proper subset]]s and [[proper superset]]s of an infinite set ''S'' that have the same size as ''S'', although ''S'' contains elements that do not belong to its subsets, and the supersets of ''S'' contain elements that are not included in it.
+
+The first of these results is apparent by considering, for instance, the [[tangent function]], which provides a [[one-to-one correspondence]] between the [[Interval (mathematics)|interval]] (&minus;½π, ½π) and '''R''' (see also [[Hilbert's paradox of the Grand Hotel]]).
+
+The second result was first demonstrated by Cantor in 1878, but it became more apparent in 1890, when [[Giuseppe Peano]] introduced the [[space-filling curve]]s, curved lines that twist and turn enough to fill the whole of any square, or cube, or [[hypercube]], or finite-dimensional space. These curves are not a direct proof that a line has the same number of points as a finite-dimensional space, but they can be used to obtain [[Space-filling curve#Proof that a square and its side contain the same number of points|such a proof]].
+
+Cantor also showed that sets with cardinality strictly greater than <math>\mathfrak c</math> exist (see his [[Cantor's diagonal argument#General sets|generalized diagonal argument]] and [[Cantor's theorem|theorem]]). They include, for instance:
+
+:* the set of all subsets of '''R''', i.e., the [[power set]] of '''R''', written ''P''('''R''') or 2<sup>'''R'''</sup>
+:* the set '''R'''<sup>'''R'''</sup> of all functions from '''R''' to '''R'''
+
+Both have cardinality
+:<math>2^\mathfrak {c} = \beth_2 > \mathfrak c </math>
+:(see [[Beth number#Beth two|Beth two]]).
+
+The [[Cardinality of the continuum#Cardinal equalities|cardinal equalities]] <math>\mathfrak{c}^2 = \mathfrak{c},</math> <math>\mathfrak c^{\aleph_0} = \mathfrak c,</math> and <math>\mathfrak c ^{\mathfrak c} = 2^{\mathfrak c}</math> can be demonstrated using [[cardinal arithmetic]]:
+:<math>\mathfrak{c}^2 = \left(2^{\aleph_0}\right)^2 = 2^{2\times{\aleph_0}} = 2^{\aleph_0} = \mathfrak{c},</math>
+:<math>\mathfrak c^{\aleph_0} = \left(2^{\aleph_0}\right)^{\aleph_0} = 2^{{\aleph_0}\times{\aleph_0}} = 2^{\aleph_0} = \mathfrak{c},</math>
+:<math> \mathfrak c ^{\mathfrak c} = \left(2^{\aleph_0}\right)^{\mathfrak c} = 2^{\mathfrak c\times\aleph_0} = 2^{\mathfrak c}.</math>
+
+==Examples and properties==
+* If ''X'' = {''a'', ''b'', ''c''} and ''Y'' = {apples, oranges, peaches}, then |&thinsp;''X''&thinsp;| = |&thinsp;''Y''&thinsp;| because {(''a'', apples), (''b'', oranges), (''c'', peaches)} is a bijection between the sets ''X'' and ''Y''. The cardinality of each of ''X'' and ''Y'' is 3.
+* If |&thinsp;''X''&thinsp;| &lt; |&thinsp;''Y''&thinsp;|, then there exists ''Z'' such that |&thinsp;''X''&thinsp;| = |&thinsp;''Z''&thinsp;| and ''Z'' ⊆ ''Y''.
+*If |&thinsp;''X''&thinsp;| &le; |&thinsp;''Y''&thinsp;| and |&thinsp;''Y''&thinsp;| &le; |&thinsp;''X''&thinsp;|, then |&thinsp;''X''&thinsp;| = |&thinsp;''Y''&thinsp;|. This holds even for infinite cardinals, and is known as [[Cantor–Bernstein–Schroeder theorem]].
+* [[Cardinality of the continuum#Sets with cardinality of the continuum|Sets with cardinality of the continuum]]
+
+==Union and intersection==
+
+If ''A'' and ''B'' are ''disjoint'' sets, then
+:<math>\left\vert A \cup B \right\vert = \left\vert A \right\vert + \left\vert B \right\vert \,.</math>
+
+From this, one can show that in general the cardinalities of [[Union (set theory)|unions]] and  [[Intersection (set theory)|intersections]] are related by<ref>Applied Abstract Algebra, K.H. Kim, F.W. Roush, Ellis Horwood Series, 1983, ISBN 0-85312-612-7 (student edition), ISBN 0-85312-563-5 (library edition)</ref>
+:<math> \left\vert C \cup D \right\vert + \left\vert C \cap D \right\vert = \left\vert C \right\vert + \left\vert D \right\vert \,.</math>
+
+==See also==
+{{commons category}}
+* [[Aleph number]]
+* [[Beth number]]
+* [[Countable set]]
+* [[Ordinality]]
+
+==References==
+{{Reflist}}
+
+{{Set theory}}
+
+[[Category:Cardinal numbers| ]]
+[[Category:Basic concepts in infinite set theory]]

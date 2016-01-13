@@ -1,0 +1,253 @@
+[[File:Cisplatin-3D-balls.png|thumb|200px|<center>[[Cisplatin]], PtCl<sub>2</sub>(NH<sub>3</sub>)<sub>2</sub><br />A platinum atom with four [[ligand]]s</center>]]
+
+In [[chemistry]], a '''coordination complex''' or '''metal complex''', consists of an atom or ion (usually metallic), and a surrounding array of [[chemical bond|bound]] molecules or [[Anions#Anions_and_cations|anions]], that are in turn known as [[ligand]]s or complexing agents.<ref>{{GoldBookRef | title = complex | file = C01203}}</ref><ref>{{GoldBookRef | file = C01330 | title = coordination entity}}</ref>  Many metal-containing compounds (especially transition metals) consist of coordination complexes.<ref>{{Greenwood&Earnshaw2nd}}</ref>
+
+==Nomenclature and terminology==
+Coordination complexes are so pervasive that the structure and reactions are described in many ways, sometimes confusingly.  The atom within a ligand that is bonded to the central atom or ion is called the '''donor atom'''.  A typical complex is bound to several donor atoms, which can be the same or different. [[Ligand#Polydentate and polyhapto ligand motifs and nomenclature|Polydentate]] (multiple bonded) ligands consist of several donor atoms, several of which are bound to the central atom or ion. These complexes are called [[chelate complex]]es, the formation of such complexes is called chelation, complexation, and coordination.
+
+The central atom or ion, together with all ligands comprise the [[coordination sphere]].<ref>[http://www.chemistry-dictionary.com/definition/coordination+sphere.php chemistry-dictionary.com - Definition of coordination sphere]</ref><ref>[http://www.chem.purdue.edu/gchelp/cchem/whatis.html ''What Is A Coordination Compound?'']</ref>  The central atoms or ion and the donor atoms comprise the first coordination sphere.
+
+'''Coordination''' refers to the "coordinate covalent bonds" ([[dipolar bond]]s) between the ligands and the central atom. Originally, a complex implied a reversible association of [[molecule]]s, [[atom]]s, or [[ion]]s through such weak [[chemical bond]]s. As applied to coordination chemistry, this meaning has evolved. Some metal complexes are formed virtually irreversibly and many are bound together by bonds that are quite strong.<ref>{{Cite book|isbn=978-0-471-19957-1 |page=1355|last=Cotton|first=Frank Albert|coauthors=Geoffrey Wilkinson, Carlos A. Murillo|title=Advanced Inorganic Chemistry|year=1999}}</ref><ref>{{Cite book|isbn=978-0-13-841891-5 |page=642|last=Miessler|first=Gary L.|coauthors=Donald Arthur Tarr|title=Inorganic Chemistry|year=1999}}</ref>
+
+==History==
+{{main|Alfred Werner}}
+[[File:Hexol-2D-wedged.png|thumb|Structure of hexol]]
+Coordination complexes were known&nbsp;– although not understood in any sense&nbsp;– since the beginning of chemistry, e.g. [[Prussian blue]] and [[Copper(II) sulfate|copper vitriol]]. The key breakthrough occurred when [[Alfred Werner]] proposed in 1893 that Co(III) bears six [[ligands]] in an [[octahedral molecular geometry|octahedral geometry]]. His theory allows one to understand the difference between coordinated and ionic in a compound, for example chloride in the cobalt [[ammine]] chlorides and to explain many of the previously inexplicable isomers.
+
+In 1914, Werner resolved the first coordination complex, called [[hexol]], into optical isomers, overthrowing the theory that only carbon compounds could possess [[chirality (chemistry)|chirality]].
+
+==Structures==
+The ions or molecules surrounding the central atom are called [[ligand]]s. Ligands are generally bound to the central atom by a [[coordinate covalent bond]] (donating electrons from a [[lone pair|lone electron pair]] into an empty metal orbital), and are said to be '''coordinated''' to the atom. There are also organic ligands such as [[alkene]]s whose [[pi bonds]] can coordinate to empty metal orbitals. An example is [[ethene]] in the complex known as [[Zeise's salt]], K<sup>+</sup>[PtCl<sub>3</sub>(C<sub>2</sub>H<sub>4</sub>)]<sup>−</sup>.
+
+===Geometry===
+In coordination chemistry, a structure is first described by its [[coordination number]], the number of ligands attached to the metal (more specifically, the number of donor atoms). Usually one can count the ligands attached, but sometimes even the counting can become ambiguous. Coordination numbers are normally between two and nine, but large numbers of ligands are not uncommon for the lanthanides and actinides. The number of bonds depends on the size, charge, and [[electron configuration]] of the metal ion and the ligands. Metal ions may have more than one coordination number.
+
+Typically the chemistry of transition metal complexes is dominated by interactions between s and p [[molecular orbital]]s of the ligands and the d orbitals of the metal ions.  The s, p, and d orbitals of the metal can accommodate 18 electrons (see [[18-Electron rule]]). The maximum coordination number for a certain metal is thus related to the electronic configuration of the metal ion (to be more specific, the number of empty orbitals) and to the ratio of the size of the ligands and the metal ion. Large metals and small ligands lead to high coordination numbers, e.g. [Mo(CN)<sub>8</sub>]<sup>4−</sup>. Small metals with large ligands lead to low coordination numbers, e.g. Pt[P(CMe<sub>3</sub>)]<sub>2</sub>. Due to their large size, [[lanthanide]]s, [[actinide]]s, and early transition metals tend to have high coordination numbers.
+
+Different ligand structural arrangements result from the coordination number. Most structures follow the points-on-a-sphere pattern (or, as if the central atom were in the middle of a [[polyhedron]] where the corners of that shape are the locations of the ligands), where orbital overlap (between ligand and metal orbitals) and ligand-ligand repulsions tend to lead to certain regular geometries. The most observed geometries are listed below, but there are many cases that deviate from a regular geometry, e.g. due to the use of ligands of different types (which results in irregular bond lengths; the coordination atoms do not follow a points-on-a-sphere pattern), due to the size of ligands, or due to [[electronic effect]]s (see, e.g., [[Jahn–Teller distortion]]):
+
+*[[Linear molecular geometry|Linear]] for two-coordination
+*[[Trigonal planar]] for three-coordination
+*[[Tetrahedral molecular geometry|Tetrahedral]] or [[square planar]] for four-coordination
+*[[Trigonal bipyramid molecular geometry|Trigonal bipyramidal]] or [[Square pyramidal molecular geometry|square pyramid]]al for five-coordination
+*[[Octahedral molecular geometry|Octahedral]] (orthogonal) or [[prism (geometry)|trigonal prismatic]] for six-coordination
+*[[Pentagonal bipyramid]]al for seven-coordination
+*[[Square antiprism]]atic for eight-coordination
+*[[Triaugmented triangular prism|Tri-capped trigonal prismatic]] (Triaugmented triangular prism) for nine-coordination.
+
+Some exceptions and provisions should be noted:
+*The idealized descriptions of 5-, 7-, 8-, and 9- coordination are often indistinct geometrically from alternative structures with slightly different L–M–L (ligand–metal–ligand) angles. The classic example of this is the difference between square pyramidal and trigonal bipyramidal structures.
+*Due to special electronic effects such as (second-order) [[Jahn–Teller effect|Jahn–Teller]] stabilization, certain geometries are stabilized relative to the other possibilities, e.g. for some compounds the trigonal prismatic geometry is stabilized relative to octahedral structures for six-coordination.
+
+===Isomerism===
+The arrangement of the ligands is fixed for a given complex, but in some cases it is mutable by a reaction that forms another stable [[isomer]].
+
+There exist many kinds of [[isomerism]] in coordination complexes, just as in many other compounds.
+
+====Stereoisomerism====
+[[Stereoisomerism]] occurs with the same bonds in different orientations relative to one another. Stereoisomerism can be further classified into:
+
+=====Cis–trans isomerism and facial–meridional isomerism=====
+[[Cis–trans isomerism]] occurs in octahedral and [[square planar]] complexes (but not tetrahedral). When two ligands are mutually adjacent they are said to be '''cis''', when
+opposite each other, '''trans'''. When three identical ligands occupy one face of an octahedron, the isomer is said to be facial, or '''fac'''. In a ''fac'' isomer, any two  identical ligands are adjacent or ''cis'' to each other. If these three ligands and the metal ion are in one plane, the isomer is said to be meridional, or '''mer'''. A ''mer'' isomer can be considered as a combination of a ''trans'' and a ''cis'', since it contains both trans and cis pairs of identical ligands.
+
+<div align="center">
+<gallery widths="170">
+Image:Cis-dichlorotetraamminecobalt(III).png|''cis''-[CoCl<sub>2</sub>(NH<sub>3</sub>)<sub>4</sub>]<sup>+</sup>
+Image:Trans-dichlorotetraamminecobalt(III).png|''trans''-[CoCl<sub>2</sub>(NH<sub>3</sub>)<sub>4</sub>]<sup>+</sup>
+Image:Fac-trichlorotriamminecobalt(III).png|''fac''-[CoCl<sub>3</sub>(NH<sub>3</sub>)<sub>3</sub>]
+Image:Mer-trichlorotriamminecobalt(III).png|''mer''-[CoCl<sub>3</sub>(NH<sub>3</sub>)<sub>3</sub>]
+</gallery>
+</div>
+
+=====Optical isomerism=====
+[[Optical isomerism]] occurs when a molecule is not superimposable with its mirror image.  It is so called because the two isomers are each [[optically active]], that is, they rotate the plane of [[polarized light]] in opposite directions.  The symbol Λ (''[[lambda]]'') is used as a prefix to describe the left-handed propeller twist formed by three bidentate ligands, as shown.  Likewise, the symbol Δ (''[[delta (letter)|delta]]'') is used as a prefix for the right-handed propeller twist.<ref>{{Cite book|isbn=978-0-13-841891-5 |last=Miessler|first=Gary L.|coauthors=Donald Arthur Tarr|title=Inorganic Chemistry|year=1999|pages=315, 316|chapter=9}}</ref>
+
+<div align="center">
+<gallery widths="170">
+Image:Delta-tris(oxalato)ferrate(III)-3D-balls.png|Λ-[Fe(ox)<sub>3</sub>]<sup>3−</sup>
+Image:Lambda-tris(oxalato)ferrate(III)-3D-balls.png|Δ-[Fe(ox)<sub>3</sub>]<sup>3−</sup>
+Image:Delta-cis-dichlorobis(ethylenediamine)cobalt(III).png|[[cis-Dichlorobis(ethylenediamine)cobalt(III) chloride|Λ-''cis''-[CoCl<sub>2</sub>(en)<sub>2</sub>]<sup>+</sup>]]
+Image:Lambda-cis-dichlorobis(ethylenediamine)cobalt(III).png|Δ-''cis''-[CoCl<sub>2</sub>(en)<sub>2</sub>]<sup>+</sup>
+</gallery>
+</div>
+
+====Structural isomerism====
+[[Structural isomerism]] occurs when the bonds are themselves different. There are four types of structural isomerism: ionisation isomerism, solvate or hydrate isomerism, linkage isomerism and coordination isomerism.
+# '''Ionisation isomerism'''&nbsp;– the isomers give different ions in solution although they have the same composition. This type of isomerism occurs when the counter ion of the complex is also a potential ligand. For example pentaaminebromidocobalt(III)sulfate [Co(NH<sub>3</sub>)<sub>5</sub>Br]SO<sub>4</sub> is red violet and in solution gives a precipitate with barium chloride, confirming the presence of sulfate ion, while pentaaminesulfatecobalt(III)bromide [Co(NH<sub>3</sub>)<sub>5</sub>SO<sub>4</sub>]Br is red and tests negative for sulfate ion in solution, but instead gives a precipitate of AgBr with silver nitrate.
+# '''Solvate or hydrate isomerism'''&nbsp;– the isomers have the same composition but differ with respect to the number of solvent ligand molecules as well as the counter ion in the crystal lattice. For example [Cr(H<sub>2</sub>O)<sub>6</sub>]Cl<sub>3</sub> is violet colored, [Cr(H<sub>2</sub>O)<sub>5</sub>Cl]Cl<sub>2</sub>·H<sub>2</sub>O is blue-green, and [Cr(H<sub>2</sub>O)<sub>4</sub>Cl<sub>2</sub>]Cl·2H<sub>2</sub>O is dark green
+# '''[[Linkage isomer]]ism''' occurs with ambidentate ligands that can bind in more than one place.  For example, NO<sub>2</sub> is an ambidentate ligand: It can bind to a metal at either the N&nbsp;atom or an O&nbsp;atom.
+# '''Coordination isomerism'''&nbsp;– this occurs when both positive and negative ions of a salt are complex ions and the two isomers differ in the distribution of ligands between the cation and the anion. For example [Co(NH<sub>3</sub>)<sub>6</sub>][Cr(CN)<sub>6</sub>] and [Cr(NH<sub>3</sub>)<sub>6</sub>][Co(CN)<sub>6</sub>]
+
+==Electronic properties==
+Many of the properties of transition metal complexes are dictated by their electronic structures. The electronic structure can be described by a relatively ionic model that ascribes formal charges to the metals and ligands. This approach is the essence of [[crystal field theory]] (CFT).  Crystal field theory, introduced by [[Hans Bethe]] in 1929, gives a [[quantum mechanics|quantum mechanically]] based attempt at understanding complexes.  But crystal field theory treats all interactions in a complex as ionic and assumes that the ligands can be approximated by negative point charges.
+
+More sophisticated models embrace covalency, and this approach is described by [[ligand field theory]] (LFT) and [[Molecular orbital theory]] (MO). Ligand field theory, introduced in 1935 and built from molecular orbital theory, can handle a broader range of complexes and can explain complexes in which the interactions are [[covalent]]. The chemical applications of [[group theory]] can aid in the understanding of crystal or ligand field theory, by allowing simple, symmetry based solutions to the formal equations.
+
+Chemists tend to employ the simplest model required to predict the properties of interest; for this reason, CFT has been a favorite for the discussions when possible. MO and LF theories are more complicated, but provide a more realistic perspective.
+
+The electronic configuration of the complexes gives them some important properties:
+
+===Color of transition metal complexes===
+[[Image:Copper complex.jpg|frame|right|Synthesis of copper(II)-tetraphenylporphyrin, a metal complex, from [[tetraphenylporphyrin]] and [[copper(II) acetate monohydrate]].]]
+Transition metal complexes often have spectacular colors caused by electronic transitions by the absorption of light. For this reason they are often applied as [[Pigment#Physical_basis|pigments]]. Most transitions that are related to colored metal complexes are either '''d–d transitions''' or '''charge transfer bands'''.  In a d–d transition, an electron in a d&nbsp;orbital on the metal is excited by a photon to another d orbital of higher energy.  A charge transfer band entails promotion of an electron from a metal-based orbital into an empty ligand-based orbital ([[Charge transfer complex|Metal-to-Ligand Charge Transfer]] or MLCT).  The converse also occurs: excitation of an electron in a ligand-based orbital into an empty metal-based orbital ([[Charge transfer complex|Ligand to Metal Charge Transfer]] or LMCT).  These phenomena can be observed with the aid of electronic spectroscopy; also known as [[UV-Vis]].<ref>Harris, D., Bertolucci, M., ''Symmetry and Spectroscopy''. 1989 New York, Dover Publications</ref> For simple compounds with high symmetry, the d–d transitions can be assigned using [[Tanabe–Sugano diagram]]s.  These assignments are gaining increased support with [[computational chemistry]].
+
+{| class="wikitable"
+|+ Colours of Various Example Coordination Complexes
+|-
+! &nbsp;
+! Fe<sup>2+</sup>
+! Fe<sup>3+</sup>
+! Co<sup>2+</sup>
+! Cu<sup>2+</sup>
+! Al<sup>3+</sup>
+! Cr<sup>3+</sup>
+|-
+! Hydrated Ion
+| style="background: #CBE9AD;" | {{H:title|Hexaaquairon(2+) cation|[Fe(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup>|dotted=no}}<br/>Pale green<br/>{{H:title|Suspended in solution|Soln|dotted=no}}
+| style="background: #EAD558;" | {{H:title|Hexaaquairon(3+) cation|[Fe(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup>|dotted=no}}<br/>Yellow/brown<br/>{{H:title|Suspended in solution|Soln|dotted=no}}
+| style="background: #FF99CB;" | {{H:title|Hexaaquacobalt(2+) cation|[Co(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup>|dotted=no}}<br/>Pink<br/>{{H:title|Suspended in solution|Soln|dotted=no}}
+| style="background: #C7D9F1;" | {{H:title|Hexaaquacopper(2+) cation|[Cu(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup>|dotted=no}}<br/>Blue<br/>{{H:title|Suspended in solution|Soln|dotted=no}}
+| style="background: #F2F2F2;" | {{H:title|Hexaaquaaluminium(3+) cation|[Al(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup>|dotted=no}}<br/>Colourless<br/>{{H:title|Suspended in solution|Soln|dotted=no}}
+| style="background: #D7E3BD;" | {{H:title|Hexaaquachromium(3+) cation|[Cr(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup>|dotted=no}}<br/>Green<br/>{{H:title|Suspended in solution|Soln|dotted=no}}
+|-
+! OH<sup>−</sup>, dilute
+| style="background: #92D14F;" | {{H:title|Tetraaquadihydroxidoiron|[Fe(H<sub>2</sub>O)<sub>4</sub>(OH)<sub>2</sub>]|dotted=no}}<br/>Dark green<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #9B752A;" | {{H:title|Triaquatrihydroxidoiron|[Fe(H<sub>2</sub>O)<sub>3</sub>(OH)<sub>3</sub>]|dotted=no}}<br/>Brown<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #8AE5D6;" | {{H:title|Tetraaquadihydroxidocobalt|[Co(H<sub>2</sub>O)<sub>4</sub>(OH)<sub>2</sub>]|dotted=no}}<br/>Blue/green<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #8EB2E2;" | {{H:title|Tetraaquadihydroxidocopper|[Cu(H<sub>2</sub>O)<sub>4</sub>(OH)<sub>2</sub>]|dotted=no}}<br/>Blue<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #FFFFFF;" | {{H:title|Triaquatrihydroxidoaluminium|[Al(H<sub>2</sub>O)<sub>3</sub>(OH)<sub>3</sub>]|dotted=no}}<br/>White<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #76923D;" | {{H:title|Triaquatrihydroxidochromium|[Cr(H<sub>2</sub>O)<sub>3</sub>(OH)<sub>3</sub>]|dotted=no}}<br/>Green<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+|-
+! OH<sup>−</sup>, concentrated
+| style="background: #92D14F;" | {{H:title|Tetraaquadihydroxidoiron|[Fe(H<sub>2</sub>O)<sub>4</sub>(OH)<sub>2</sub>]|dotted=no}}<br/>Dark green<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #9B752A;" | {{H:title|Triaquatrihydroxidoiron|[Fe(H<sub>2</sub>O)<sub>3</sub>(OH)<sub>3</sub>]|dotted=no}}<br/>Brown<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #8AE5D6;" | {{H:title|Tetraaquadihydroxidocobalt|[Co(H<sub>2</sub>O)<sub>4</sub>(OH)<sub>2</sub>]|dotted=no}}<br/>Blue/green<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #8EB2E2;" | {{H:title|Tetraaquadihydroxidocopper|[Cu(H<sub>2</sub>O)<sub>4</sub>(OH)<sub>2</sub>]|dotted=no}}<br/>Blue<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #F2F2F2;" | {{H:title|Tetrahydroxidoaluminate(1−) anion|[Al(OH)<sub>4</sub>]<sup>−</sup>|dotted=no}}<br/>Colourless<br/>{{H:title|Suspended in solution|Soln|dotted=no}}
+| style="background: #C3D59B;" | {{H:title|Hexahydroxidochromate(3−) anion|[Cr(OH)<sub>6</sub>]<sup>3−</sup>|dotted=no}}<br/>Green<br/>{{H:title|Suspended in solution|Soln|dotted=no}}
+|-
+! NH<sub>3</sub>, dilute
+| style="background: #92D14F;" | {{H:title|Tetraaquadihydroxidoiron|[Fe(H<sub>2</sub>O)<sub>4</sub>(OH)<sub>2</sub>]|dotted=no}}<br/>Dark green<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #9B752A;" | {{H:title|Triaquatrihydroxidoiron|[Fe(H<sub>2</sub>O)<sub>3</sub>(OH)<sub>3</sub>]|dotted=no}}<br/>Brown<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #8AE5D6;" | {{H:title|Tetraaquadihydroxidocobalt|[Co(H<sub>2</sub>O)<sub>4</sub>(OH)<sub>2</sub>]|dotted=no}}<br/>Blue/green<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #8EB2E2;" | {{H:title|Tetraaquadihydroxidocopper|[Cu(H<sub>2</sub>O)<sub>4</sub>(OH)<sub>2</sub>]|dotted=no}}<br/>Blue<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #FFFFFF;" | {{H:title|Triaquatrihydroxidoaluminium|[Al(H<sub>2</sub>O)<sub>3</sub>(OH)<sub>3</sub>]|dotted=no}}<br/>White<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #76923D;" | {{H:title|Triaquatrihydroxidochromium|[Cr(H<sub>2</sub>O)<sub>3</sub>(OH)<sub>3</sub>]|dotted=no}}<br/>Green<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+|-
+! NH<sub>3</sub>, concentrated
+| style="background: #92D14F;" | {{H:title|Tetraaquadihydroxidoiron|[Fe(H<sub>2</sub>O)<sub>4</sub>(OH)<sub>2</sub>]|dotted=no}}<br/>Dark green<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #9B752A;" | {{H:title|Triaquatrihydroxidoiron|[Fe(H<sub>2</sub>O)<sub>3</sub>(OH)<sub>3</sub>]|dotted=no}}<br/>Brown<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #D3D359;" | {{H:title|Hexaamminecobalt(2+) cation|[Co(NH<sub>3</sub>)<sub>6</sub>]<sup>2+</sup>|dotted=no}}<br/>Straw coloured<br/>{{H:title|Suspended in solution|Soln|dotted=no}}
+| style="background: #548DD4;" | {{H:title|Tetraamminediaquacopper(2+) cation|[Cu(NH<sub>3</sub>)<sub>4</sub>(H<sub>2</sub>O)<sub>2</sub>]<sup>2+</sup>|dotted=no}}<br/>Deep blue<br/>{{H:title|Suspended in solution|Soln|dotted=no}}
+| style="background: #FFFFFF;" | {{H:title|Triaquatrihydroxidoaluminium|[Al(H<sub>2</sub>O)<sub>3</sub>(OH)<sub>3</sub>]|dotted=no}}<br/>White<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #C3D59B;" | {{H:title|hexaamminechromium(3+) cation|[Cr(NH<sub>3</sub>)<sub>6</sub>]<sup>3+</sup>|dotted=no}}<br/>Green<br/>{{H:title|Suspended in solution|Soln|dotted=no}}
+|-
+! CO<sub>3</sub><sup>2−</sup>
+| style="background: #92D14F;" | {{H:title|Iron(II) carbonate|FeCO<sub>3</sub>|dotted=no}}<br/>Dark green<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #9B752A;" | {{H:title|Triaquatrihydroxidoiron|[Fe(H<sub>2</sub>O)<sub>3</sub>(OH)<sub>3</sub>]|dotted=no}}<br/>Brown<br/>{{H:title|Precipitates from solution, releasing an effervescence of carbon dioxide|Ppt + bubbles|dotted=no}}
+| style="background: #FF99CB;"| {{H:title|Cobalt(II) carbonate|CoCO<sub>3</sub>|dotted=no}}<br/>Pink<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+| style="background: #8AE5D6;" | {{H:title|Copper(II) carbonate|CuCO<sub>3</sub>|dotted=no}}<br/>Blue/green<br/>{{H:title|Precipitates from solution|Ppt|dotted=no}}
+|}
+===Colors of Lanthanide complexes===
+Superficially [[lanthanide]] complexes are similar to those of the transition metals in that some are coloured. However for the common Ln<sup>3+</sup> ions (Ln = lanthanide) the colors are all pale, and hardly influenced by the nature of the ligand. The colors are due to 4f electron transitions. As the 4f orbitals in lanthanides are “buried” in the xenon core and shielded from the ligand by the 5s and 5p orbitals they are therefore not influenced by the ligands to any great extent leading to a much smaller [[crystal field theory|crystal field]] splitting than in the transition metals. The absorption spectra of an Ln<sup>3+</sup> ion approximates to that of the free ion where the electronic states are described by spin-orbit coupling (also called L-S coupling or Russell-Saunders coupling). This contrasts to the transition metals where the ground state is split by the crystal field. Absorptions for Ln<sup>3+</sup> are weak as electric dipole transitions are parity forbidden ([[Laporte Rule]] forbidden) but can gain intensity due to the effect of a low-symmetry ligand field or mixing with higher electronic states (e.g. d orbitals). Also absorption bands are extremely sharp which contrasts with those observed for transition metals which generally have broad bands.<ref name = "C&W6th">{{Cotton&Wilkinson6th}}</ref> <ref name=CottonSA2006>{{cite book |last=Cotton |first=Simon |year=2006 |title=Lanthanide and Actinide Chemistry|publisher= John Wiley & Sons Ltd}}</ref>
+
+===Magnetism===
+{{main|magnetochemistry}}
+Metal complexes that have unpaired electrons are [[magnetic]]. Considering only monometallic complexes, unpaired electrons arise because the complex has an odd number of electrons or because electron pairing is destabilized.  Thus, monomeric Ti(III) species have one "d-electron" and must be [[paramagnetism|(para)magnetic]], regardless of the geometry or the nature of the ligands.  Ti(II), with two d-electrons, forms some complexes that have two unpaired electrons and others with none. This effect is illustrated by the compounds TiX<sub>2</sub>[(CH<sub>3</sub>)<sub>2</sub>PCH<sub>2</sub>CH<sub>2</sub>P(CH<sub>3</sub>)<sub>2</sub>]<sub>2</sub>: when X&nbsp;=&nbsp;[[Chlorine|Cl]], the complex is paramagnetic ([[high spin|high-spin]] configuration), whereas when X&nbsp;=&nbsp;[[methyl group|CH<sub>3</sub>]], it is diamagnetic ([[low spin|low-spin]] configuration). It is important to realize that ligands provide an important means of adjusting the [[ground state]] properties.
+
+In bi- and polymetallic complexes, in which the individual centers have an odd number of electrons or that are high-spin, the situation is more complicated.  If there is interaction (either direct or through ligand) between the two (or more) metal centers, the electrons may couple ([[Antiferromagnetism|antiferromagnetic coupling]], resulting in a diamagnetic compound), or they may enhance each other ([[Ferromagnetism|ferromagnetic coupling]]).  When there is no interaction, the two (or more) individual metal centers behave as if in two separate molecules.
+
+===Reactivity===
+Complexes show a variety of possible reactivities:
+
+*Electron transfers
+*:A common reaction between coordination complexes involving ligands are [[Inner sphere electron transfer|inner]] and [[outer sphere electron transfer]]s. They are two different mechanisms of [[electron transfer]] [[redox]] reactions, largely defined by the late [[Henry Taube]]. In an inner sphere reaction, a ligand with two [[lone electron pair]]s acts as a ''[[bridging ligand]]'', a ligand to which both coordination centres can bond. Through this, electrons are transferred from one centre to another.
+*(Degenerate) [[ligand exchange]]
+*:One important indicator of reactivity is the rate of degenerate exchange of ligands.  For example, the rate of interchange of coordinate water in [M(H<sub>2</sub>O)<sub>6</sub>]<sup>''n''+</sup> complexes varies over 20 orders of magnitude.  Complexes where the ligands are released and rebound rapidly are classified as labile.  Such labile complexes can be quite stable thermodynamically.  Typical labile metal complexes either have low-charge (Na<sup>+</sup>), electrons in d-orbitals that are [[antibonding]] with respect to the ligands (Zn<sup>2+</sup>), or lack covalency (Ln<sup>3+</sup>, where Ln is any lanthanide).  The lability of a metal complex also depends on the high-spin vs. low-spin configurations when such is possible.  Thus, high-spin Fe(II) and Co(III) form labile complexes, whereas low-spin analogues are inert.  Cr(III) can exist only in the low-spin state (quartet), which is inert because of its high formal oxidation state, absence of electrons in orbitals that are M–L antibonding, plus some "ligand field stabilization" associated with the d<sup>3</sup> configuration.
+* Associative processes
+*:Complexes that have unfilled or half-filled orbitals often show the capability to react with substrates.  Most substrates have a singlet ground-state; that is, they have lone electron pairs (e.g., water, amines, ethers), so these substrates need an empty orbital to be able to react with a metal centre.  Some substrates (e.g., molecular oxygen) [[triplet oxygen|have a triplet ground state]], which results that metals with half-filled orbitals have a tendency to react with such substrates (it must be said that the [[dioxygen]] molecule also has lone pairs, so it is also capable to react as a 'normal' Lewis base).
+
+If the ligands around the metal are carefully chosen, the metal can aid in ([[stoichiometric]] or [[catalytic]]) transformations of molecules or be used as a sensor.
+
+==Classification==
+Metal complexes, also known as coordination compounds, include all metal compounds, aside from metal vapors, [[plasma (physics)|plasma]]s, and [[alloy]]s.  The study of "coordination chemistry" is the study of "inorganic chemistry" of all [[alkali metal|alkali]] and [[alkaline earth metal]]s, [[transition metal]]s, [[lanthanide]]s, [[actinides]], and [[metalloid]]s. Thus, coordination chemistry is the chemistry of the majority of the periodic table.  Metals and metal ions exist, in the condensed phases at least, only surrounded by ligands.
+
+The areas of coordination chemistry can be classified according to the nature of the ligands, in broad terms:
+*Classical (or "[[Alfred Werner|Werner]] Complexes"): Ligands in classical coordination chemistry bind to metals, almost exclusively, via their "[[lone pair]]s" of electrons residing on the main group atoms of the ligand. Typical ligands are H<sub>2</sub>O, NH<sub>3</sub>, [[chloride|Cl<sup>−</sup>]], [[Cyanide|CN<sup>−</sup>]], [[ethylenediamine|en]]
+:Examples: [Co([[EDTA]])]<sup>−</sup>, [[Cobalt(III) hexammine chloride|[Co(NH<sub>3</sub>)<sub>6</sub>]Cl<sub>3</sub>]], [[Potassium ferrioxalate|[Fe(C<sub>2</sub>O<sub>4</sub>)<sub>3</sub>]K<sub>3</sub>]]
+*Organometallic Chemistry:  Ligands are organic (alkenes, alkynes, alkyls) as well as "organic-like" ligands such as phosphines, hydride, and CO.
+:Example: [[Cyclopentadienyliron dicarbonyl dimer|(C<sub>5</sub>H<sub>5</sub>)Fe(CO)<sub>2</sub>CH<sub>3</sub>]]
+*Bioinorganic Chemistry: Ligands are those provided by nature, especially including the side chains of amino acids, and many [[cofactor (biochemistry)|cofactor]]s such as [[porphyrin]]s.
+:Example: [[hemoglobin]] contains [[heme]], a porphyrin complex of iron
+:Example: [[chlorophyll]] contains a porphyrin complex of magnesium
+:Many natural ligands are "classical"  especially including water.
+*Cluster Chemistry: Ligands are all of the above  also include other metals as ligands.
+: Example Ru<sub>3</sub>(CO)<sub>12</sub>
+
+*In some cases there are combinations of different fields:
+:Example: [[Iron-sulfur protein|[Fe<sub>4</sub>S<sub>4</sub>(Scysteinyl)<sub>4</sub>]<sup>2−</sup>]], in which a cluster is embedded in a biologically active species.
+
+[[Mineralogy]], [[materials science]], and [[solid state chemistry]]&nbsp;– as they apply to metal ions&nbsp;– are subsets of coordination chemistry in the sense that the metals are surrounded by ligands.  In many cases these ligands are oxides or sulfides, but the metals are coordinated nonetheless, and the principles and guidelines discussed below apply. In [[water of crystallization|hydrate]]s, at least some of the ligands are water molecules. It is true that the focus of mineralogy, materials science, and solid state chemistry differs from the usual focus of coordination or inorganic chemistry. The former are concerned primarily with polymeric structures, properties arising from a collective effects of many highly interconnected metals. In contrast, coordination chemistry focuses on reactivity and properties of complexes containing individual metal atoms or small ensembles of metal atoms.
+
+===Older classifications of isomerism===
+Traditional classifications of the kinds of isomer have become archaic with the advent of modern structural chemistry.  In the older literature, one encounters:
+
+*[[Ionisation isomerism]]  describes the possible isomers arising from the exchange between the outer sphere and inner sphere.  This classification relies on an archaic classification of the inner and outer sphere.  In this classification, the "outer sphere ligands," when ions in solution, may be switched with "inner sphere ligands" to produce an isomer.
+*[[Solvation isomerism]] occurs when an inner sphere ligand is replaced by a [[solvent]] molecule.  This classification is obsolete because it considers solvents as being distinct from other ligands.  Some of the problems are discussed under [[water of crystallization]].
+
+==Naming complexes==
+The basic procedure for naming a complex:
+# When naming a complex ion, the ligands are named before the metal ion.
+# Write the names of the ligands in the order,-neutral, negative, positive. If there are multiple ligands of the same charge type, they are named in alphabetical order. (Numerical prefixes do not affect the order.)
+#* Multiple occurring monodentate ligands receive a prefix according to the number of occurrences: ''di-'', ''tri-'', ''tetra-'', ''penta-'', or ''hexa''.  Polydentate ligands (e.g., ethylenediamine, oxalate) receive ''bis-'', ''tris-'', ''tetrakis-'', etc.
+#* Anions end in ''ido''.  This replaces the final 'e' when the anion ends with '-ate', e.g. ''sulfate'' becomes ''sulfato''. It replaces 'ide': ''cyanide'' becomes ''cyanido''.
+#* Neutral ligands are given their usual name, with some exceptions: NH<sub>3</sub> becomes ''[[ammine]]''; H<sub>2</sub>O becomes ''aqua'' or ''aquo''; CO becomes ''carbonyl''; NO becomes ''nitrosyl''.
+# Write the name of the central atom/ion.  If the complex is an anion, the central atom's name will end in ''-ate'', and its Latin name will be used if available (except for mercury).
+# If the central atom's oxidation state needs to be specified (when it is one of several possible, or zero), write it as a Roman numeral (or 0) in parentheses.
+# Name cation then anion as separate words (if applicable, as in last example)
+
+Examples:
+: [NiCl<sub>4</sub>]<sup>2−</sup> → tetrachloridonickelate(II) ion
+: [CuNH<sub>3</sub>Cl<sub>5</sub>]<sup>3−</sup> → amminepentachloridocuprate(II) ion
+: [Cd(en)<sub>2</sub>(CN)<sub>2</sub>] → dicyanidobis(ethylenediamine)cadmium(II)
+: [Co(NH<sub>3</sub>)<sub>5</sub>Cl]SO<sub>4</sub> → pentaamminechloridocobalt(III) sulfate
+
+The coordination number of ligands attached to more than one metal (bridging ligands) is indicated by a subscript to the Greek symbol μ placed before the ligand name. Thus the [[Dimer (chemistry)|dimer]] of [[aluminium trichloride]] is described by Al<sub>2</sub>Cl<sub>4</sub>(μ<sub>2</sub>-Cl)<sub>2</sub>.
+
+==Application of coordination compounds==
+# They are used in photography, i.e., AgBr forms a soluble complex with [[sodium thiosulfate]] in photography.
+# K[Ag(CN)<sub>2</sub>] is used for [[electroplating]] of silver, and K[Au(CN)<sub>2</sub>] is used for [[gold plating]].
+# Some ligands [[oxidation|oxidise]] Co<sup>2+</sup> to Co<sup>3+</sup> ion.
+# [[Ethylenediaminetetraacetic acid]] (EDTA) is used for estimation of Ca<sup>2+</sup> and Mg<sup>2+</sup> in [[hard water]].
+# Silver and gold are extracted by treating zinc with their cyanide complexes.
+
+==See also==
+{{commons category|Coordination compounds}}
+*[[IUPAC nomenclature of inorganic chemistry]]
+*[[Coordination geometry]]
+*[[Inclusion compound]]s
+*[[Organometallic chemistry]] deals with a special class of coordination compounds where organic fragments are bonded to a metal at least through one C&nbsp;atom.
+*[[Metallaprism]]
+*[[Coordination polymers]], in which coordination complexes are the repeating units.
+
+==External links==
+{{Wikibooks|A-level Chemistry/OCR (Salters)|Complexes}}
+*[http://www.chemistry.wustl.edu/~edudev/LabTutorials/naming_coord_comp.html Naming Coordination Compounds]
+*[http://www.wou.edu/las/physci/ch462/tmcolors.htm Transition Metal Complex Colors]
+
+==References==
+<references />
+*De Vito, D.; Weber, J. ; Merbach, A. E. “Calculated Volume and Energy Profiles for Water Exchange on t<sub>2g</sub> <sup>6</sup> Rhodium(III) and Iridium(III) Hexaaquaions: Conclusive Evidence for an I<sub>a</sub> Mechanism” Inorganic Chemistry, 2005, Volume 43, pages 858–863.
+*Zumdahl, Steven S.  Chemical Principles, Fifth Edition. New York: Houghton Mifflin, 2005. 943–946, 957.
+*Harris, D., Bertolucci, M., ''Symmetry and Spectroscopy''. 1989 New York, Dover Publications
+
+{{BranchesofChemistry}}
+
+{{DEFAULTSORT:Coordination Complex}}
+[[Category:Coordination compounds|*]]
+[[Category:Inorganic chemistry]]
+[[Category:Transition metals]]
+[[Category:Coordination chemistry]]
+
+{{Link GA|zh}}

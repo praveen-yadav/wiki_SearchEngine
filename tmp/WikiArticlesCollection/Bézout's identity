@@ -1,0 +1,98 @@
+'''Bézout's identity''' (also called '''Bezout's lemma''') is a theorem in the elementary [[number theory|theory of numbers]]: let ''a'' and ''b'' be [[integer]]s, not both zero, and let ''d'' be their [[greatest common divisor]]. Then there exist integers ''x'' and ''y'' such that
+: <math> ax+by=d </math>
+In addition, i) ''d'' is the smallest positive integer that can be written as 
+{{nowrap|''ax'' + ''by'',}}
+and ii) every integer of the form 
+{{nowrap|''ax'' + ''by'' }}
+is a multiple of ''d''. ''x'' and ''y'' are called '''Bézout coefficients''' for (''a'', ''b''); they are not unique. A pair of Bézout coefficients (in fact one of the two pairs such that <math>|x|<\left |\frac{b}{d}\right |</math> and <math>|y|<\left |\frac{a}{d}\right |</math>) can be computed by the [[extended Euclidean algorithm]].
+
+Bézout's lemma is true in any [[principal ideal domain]], but there are [[integral domain]]s in which it is not true.
+
+==History==
+
+[[French people|French]] [[mathematician]] [[Étienne Bézout]] (1730–1783) proved this identity for polynomials.<ref>Bézout, [http://books.google.fr/books?id=FoxbAAAAQAAJ&hl=en&pg=PP5#v=onepage&q&f=false ''Théorie générale des équations algébriques''] (Paris, France:  Ph.-D. Pierres, 1779).</ref> However, this statement for integers can be found already in the work of another French mathematician, [[Claude Gaspard Bachet de Méziriac]] (1581–1638).<ref>
+{{cite book | last=Tignol | first=Jean-Pierre | title=Galois' Theory of Algebraic Equations | publisher=World Scientific| location=Singapore | year=2001 | isbn=981-02-4541-6}}
+</ref><ref>
+{{cite book|author=Claude Gaspard Bachet (sieur de Méziriac)|title=Problèmes plaisants & délectables qui se font par les nombres|edition=2nd|location=Lyons, France|publisher=Pierre Rigaud & Associates|year=1624|pages= 18–33|url=http://www.bsb-muenchen-digital.de/~web/web1008/bsb10081407/images/index.html?digID=bsb10081407&pimage=38&v=100&nav=0&l=de}}  On these pages, Bachet proves (without equations) “Proposition XVIII.  Deux nombres premiers entre eux estant donnez, treuver le moindre multiple de chascun d’iceux, surpassant de l’unité un multiple de l’autre.”  (Given two numbers [which are] relatively prime, find the lowest multiple of each of them [such that] one multiple exceeds the other by unity (1).)  This problem (namely, ax - by = 1) is a special case of Bézout’s equation and was used by Bachet to solve the problems appearing on pages 199 ff.
+</ref><ref>
+See also: {{cite journal|date=February 2009|author=Maarten Bullynck|title=Modular arithmetic before C.F. Gauss: Systematizations and discussions on remainder problems in 18th-century Germany|doi=10.1016/j.hm.2008.08.009|journal=Historia Mathematica|volume=36|issue=1|pages=48–72|url=http://hal.inria.fr/docs/00/66/32/92/PDF/Gauss_Modular_Oct2008.pdf}}</ref>
+
+==Non-uniqueness of solutions==
+
+After one pair of Bézout coefficients (''x'', ''y'') has been computed (using [[extended Euclidean algorithm]] or some other algorithm), all pairs have the form
+:<math>\left(x+k\frac{b}{\gcd(a,b)},\ y-k\frac{a}{\gcd(a,b)}\right),</math>
+where {{math|''k''}} is an arbitrary integer and the fractions simplify to integers.
+
+Among these pairs of Bézout coefficients, exactly two of them satisfy 
+:<math> |x| < \left |\frac{b}{\gcd(a,b)}\right |\quad \text{and}\quad |y| < \left |\frac{a}{\gcd(a,b)}\right |.</math>
+This relies on a property of [[Euclidean division]]: given two integers ''c'' and ''d'', if ''d'' does not divide ''c'', there is exactly one pair {{math|(''q'',''r'')}} such that {{math|1=''c'' = ''dq'' + ''r''}} and {{math|1=0 < ''r'' < {{!}}''d''{{!}}}}, and another one such that {{math|1=''c'' = ''dq'' + ''r''}} and {{math|1=0 < -''r'' < {{!}}''d''{{!}}}}.
+
+Extended Euclidean algorithm always produces one of these two minimal pairs.
+
+===Example===
+
+Let ''a'' = 12 and ''b'' = 42, gcd(12, 42) = 6. Then we have the following Bézout's identities, with the Bézout coefficients written in red for the minimal pairs and in blue for the other ones.
+
+:<math>
+\begin{align}
+\vdots \\
+12 &\times \color{blue}{-10} & + \;\; 42  &\times \color{blue}{3} &= 6 \\
+12 &\times \color{red}{-3} & + \;\;42  &\times \color{red}{1} &= 6 \\
+12 &\times \color{red}{4}  & + \;\;42  &\times\color{red}{-1} &= 6 \\
+12 &\times \color{blue}{11} & + \;\;42  &\times \color{blue}{-3} &= 6 \\
+12 &\times \color{blue}{18} & + \;\;42  &\times \color{blue}{-5} &= 6 \\
+\vdots
+\end{align}
+</math>
+
+==Bézout's identity for several integers==
+
+Bézout's identity can be extended to more than two integers: if 
+:<math>\gcd(a_1, a_2, \ldots, a_n) = d</math> 
+
+then there are integers <math>x_1, x_2, \ldots, x_n</math> 
+
+such that
+
+:<math>d = a_1 x_1 + a_2 x_2 + \cdots + a_n x_n,</math>
+
+has the following properties
+# ''d'' is smallest positive integer of this form
+# every number of this form is a multiple of ''d''
+# ''d'' is a [[greatest common divisor]] of ''a''<sub>1</sub>, ..., ''a''<sub>''n''</sub>, meaning that every common divisor of ''a''<sub>1</sub>, ..., ''a''<sub>''n''</sub> divides ''d''
+
+==Bézout's identity for polynomials==
+{{main|Polynomial greatest common divisor#Bézout's identity and extended GCD algorithm}}
+Bézout's identity works for [[polynomial]] in one [[indeterminate (variable)|indeterminate]] over a [[field (mathematics)]] exactly in the same ways as for integers. In particular the Bézout's coefficients and the greatest common divisor may be computed with the [[Extended Euclidean algorithm]].
+
+As the common [[root of a polynomial|root]]s of two polynomials are the roots of their greatest common divisor, Bézout's identity and [[fundamental theorem of algebra]] imply the following result: ''Given two univariate polynomials f and g with coefficients in an field, there exist two polynomials a and b such that af'' + ''bg'' = 1 ''if and only if f and g have no common root in any [[algebraically closed field]] (commonly the field of [[complex number]]s)''.
+
+The generalization of this result to any number of polynomials and indeterminates is [[Hilbert's Nullstellensatz]].
+
+==Bézout's identity for principal ideal domains==
+As noted in the introduction, Bézout's identity works not only in the [[ring (algebra)|ring]] of integers, but also in any other [[principal ideal domain]] (PID).
+That is, if ''R'' is a PID, and ''a'' and ''b'' are elements of ''R'', and ''d'' is a greatest common divisor of ''a'' and ''b'',
+then there are elements ''x'' and ''y'' in ''R'' such that ''ax'' + ''by'' = ''d''. The reason: the [[ideal (ring theory)|ideal]] ''Ra''+''Rb'' is principal and indeed is equal to ''Rd''.
+An integral domain in which Bézout's identity holds is called a [[Bézout domain]].
+
+==Proof==
+Bézout's lemma is a consequence of the [[Euclidean division]] defining property, namely that the  division by a nonzero integer ''b'' has a [[remainder]] strictly less than |''b''|. The proof that follows may be adapted for any [[Euclidean domain]]. For given nonzero integers ''a'' and ''b'' there is a nonzero integer {{nowrap|''d'' {{=}} ''as'' + ''bt''}} of minimal absolute value among all those of the form ''ax'' + ''by'' with ''x'' and ''y'' integers; one can assume ''d'' &gt; 0 by changing the signs of both ''s'' and ''t'' if necessary. Now the remainder of dividing either ''a'' or ''b'' by ''d'' is also of the form ''ax'' + ''by'' since it is obtained by subtracting a multiple of {{nowrap|''d'' {{=}} ''as'' + ''bt''}} from ''a'' or ''b'', and on the other hand it has to be strictly smaller in absolute value than ''d''. This leaves 0 as only possibility for such a remainder, so ''d'' divides ''a'' and ''b'' exactly.
+If ''c'' is another common divisor of ''a'' and ''b'', then ''c'' also divides ''as'' + ''bt'' = ''d''. Since ''c'' divides ''d'' but is not equal to it, it must be less than ''d''. This means that ''d'' is the greatest common divisor of ''a'' and ''b''; this completes the proof.
+
+==See also==
+* [[AF+BG theorem]], an analogue of Bézout's identity for homogeneous polynomials in three indeterminates
+* [[Fundamental theorem of arithmetic]]
+* [[Euclid's lemma]]
+
+==Notes==
+{{Reflist}}
+
+==External links==
+* [http://wims.unice.fr/wims/wims.cgi?module=tool/arithmetic/bezout.en Online calculator] of Bézout's identity.
+* {{mathworld|urlname=BezoutsIdentity|title=Bezouts Identity}}
+
+
+{{DEFAULTSORT:Bezouts Identity}}
+[[Category:Diophantine equations]]
+[[Category:Lemmas]]
+[[Category:Articles containing proofs]]

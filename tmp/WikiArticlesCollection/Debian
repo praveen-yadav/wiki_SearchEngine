@@ -1,0 +1,661 @@
+{{Infobox OS
+| name               = Debian
+| logo               = [[File:Debian-OpenLogo.svg|Debian logo|50px]]
+| screenshot         = [[File:Debian.png|300px|Screenshot of Debian 7.0 ("Wheezy")]]
+| caption            = Debian 7.0 (Wheezy) with [[GNOME 3]]
+| developer          = Debian Project
+| family             = [[Unix-like]]
+| working_state      = Current
+| source_model       = [[Free software]]<ref>{{cite web|title=What Does Free Mean? or What do you mean by Free Software?|url=http://www.debian.org/intro/free|accessdate=1 July 2013}}</ref>
+| released           = {{Start date and age|1993|08|16|df=yes}}
+| frequently_updated = yes
+| language           = Multilingual (more than 73)<ref>{{cite web |url=http://lists.debian.org/debian-devel-announce/2013/05/msg00000.html |title=Debian Installer 7.0 RC3 release |accessdate=2013-05-02 |publisher=Debian |date= 2013-05-02}}</ref>
+| updatemodel        = [[Advanced Packaging Tool|APT]] (several front-ends available)
+| package_manager    = [[dpkg]]
+| supported_platforms = [[x86|i386]], [[x86-64|AMD64]], [[PowerPC]], [[SPARC]], [[ARM architecture|ARM]], [[MIPS architecture|MIPS]], [[IBM System z|S390]], [[IA-64]]
+| once_supported = [[DEC Alpha]], [[PA-RISC]], [[Motorola 68k]]
+| kernel_type        = [[monolithic kernel|Monolithic]]: [[Linux kernel|Linux]], [[Debian GNU/kFreeBSD|kFreeBSD]] (unstable: [[Microkernel|Micro]]: [[GNU Hurd|Hurd]])
+| userland           = [[GNU Core Utilities|GNU]]
+| ui                 = [[GNOME]]
+| license            = [[Free software]], mainly the [[GNU General Public License|GNU GPL]], and other licenses<ref>{{cite web|url=http://www.debian.org/legal/licenses/|title=License information|publisher=Debian|accessdate=2009-02-28}}</ref>
+| website            = {{URL|www.debian.org}}
+}}
+
+'''Debian''' ({{IPAc-en|ˈ|d|ɛ|b|i|ə|n}}) is an [[operating system]] composed of [[free and open source software|free]] software mostly carrying the [[GNU General Public License]].<ref>{{cite web | url = http://www.debian.org/intro/free | title = What Does Free Mean? or What do you mean by Free Software? | publisher = The Debian Project | work = official Debian site | accessdate = 2009-12-01}}</ref> The operating system is developed by an internet collaboration of volunteers aligned with ''The Debian Project''.
+
+Debian systems can use either the [[Linux kernel]] (known as the ''Debian GNU/Linux'' distribution), the [[FreeBSD]] kernel (known as the ''[[Debian GNU/kFreeBSD]]'' distribution) or, more recently, the [[GNU Hurd]] kernel (more precisely, the [[GNU Mach]] [[microkernel]] and its servers; known as the ''[[Debian GNU/Hurd]]'' distribution).<ref name="About Debian">{{cite web | url = http://www.debian.org/intro/about | title = About Debian | publisher = The Debian Project | work = official Debian site}}</ref>
+
+Debian GNU/Linux is one of the most popular [[Linux distribution]]s for personal and Internet [[Server (computing)|server]] machines.<ref>{{cite web|url=http://www.pcworld.com/article/247845/debian_linux_named_most_popular_distro_for_web_servers.html|title=Debian Linux Named Most Popular Distro for Web Servers|author=Katherine Noyes|publisher=[[PC World]]|date=2012-01-11|accessdate=2013-02-14}}</ref><ref>{{cite web|url=http://www.networkworld.com/community/why-debian-matters-more-than-ever|title=Why Debian matters more than ever|author=Joe Brockmeier|publisher=[[Network World]]|date=2011-07-02|accessdate=2013-02-14}}</ref><ref>{{cite web|url=http://www.linux-mag.com/id/7651/|title=The Five Distros That Changed Linux|author=Steven J. Vaughan-Nichols|publisher=[[Linux Magazine]]|date=2009-12-16|accessdate=2013-02-14}}</ref><ref>{{cite web | url = http://w3techs.com/technologies/details/os-linux/all/all | title = Usage Statistics and Market Share of Linux for Websites, October 2012 | publisher = W3Techs.com | accessdate=2012-10-13}}</ref> Debian is seen as a solid Linux, and as a consequence has been used as a base for other Linux distributions; Distrowatch lists 144 active Debian derivatives.<ref>[http://distrowatch.com/search.php?ostype=All&category=All&origin=All&basedon=Debian&notbasedon=None&desktop=All&architecture=All&status=Active Based on Debian, status active] Distrowatch</ref><ref>[https://wiki.debian.org/Derivatives Debian Derivatives] Debian wiki</ref> Debian has been [[Fork (software development)|forked]] many times, but is not affiliated with [[Debian family|its derivatives]].
+
+The vital role the Debian project plays in free software is demonstrated by its advancement of development and security patches relating to its strong participation in [[Common Vulnerabilities and Exposures|CVE]] compatibility efforts.<ref>{{cite web|title=Debian and CVE compatibility|url=http://www.debian.org/security/cve-compatibility|accessdate=16 April 2013}}</ref>
+
+== Features ==
+The Debian project released a new kernel as of Wheezy's release date: the Debian GNU/kFreeBSD kernel. Debian now supports two kernels, [[Linux]] and [[Debian GNU/kFreeBSD|kFreeBSD]], and offers other kernels as development works (GNU Hurd and NetBSD). This project's new kernel has recently come out of preview but still lacks the amount of software available as on Debian's Linux. The kernel is offered for Intel/AMD 32-bit and 64-bit architecture machines.<ref>{{cite web|title=Release Notes for Debian 7.0 (wheezy), 64-bit PC|url=http://www.debian.org/releases/wheezy/amd64/release-notes/|publisher=debian.org|accessdate=10 June 2013}}</ref> Wheezy is officially supported on ten machine architectures and also brought support for two new architectures: s390x and armhf.
+
+Debian is still primarily known as a [[Linux distribution]] with access to online repositories hosting over 37,500 software packages.<ref>{{cite web|title=Debian|url=http://www.debian.org/|accessdate=11 May 2013}}</ref> Debian officially hosts ''free'' software on its repositories but also allows non-free software to be installed. Debian includes popular programs such as [[LibreOffice]],<ref>{{cite web | url=http://www.debian.org/News/2011/20110623 | title=Debian Moves to LibreOffice | publisher=Debian |accessdate=2012-03-05}}</ref> [[Mozilla Corporation software rebranded by the Debian project|Iceweasel]] (a [[rebranding]] of [[Firefox]]), [[Evolution (software)|Evolution]] mail, CD/DVD writing programs, music and video players, image viewers and editors, and [[Portable Document Format|PDF]] viewers. The cost of developing all the packages included in Debian 5.0 ''lenny'' (323 million lines of code) using the [[COCOMO]] model, has been estimated to be about [[United States dollar|US$]] 8 billion.<ref>{{cite web | accessdate =2011-02-28 | url =http://gsyc.es/~frivas/paper.pdf | title =Measuring Lenny: the size of Debian 5.0 | publisher =libresoft}}{{dead link|date=July 2013}}</ref> [[Ohloh]] estimates that the [[codebase]] (68 million lines of code) using the same model, would cost about [[United States dollar|US$]] 1.2 billion to develop.<ref>{{cite web | accessdate =2013-07-03 | url =http://www.ohloh.net/p/debian| title =Debian GNU/Linux | publisher =Ohloh.net}}</ref>
+
+Debian offers 10 DVD and 69 CD images for download and installation, but only the first optical [[ISO image|iso]] image of any of its downloadable sets is sufficient. Debian requires the first installable image, but uses online repositories for additional software. Debian's basic installation requires only the first CD or DVD of its release in order to have a working desktop experience. The Wheezy release offers to install a variety of default Desktops from its DVD boot menu ([[GNOME]], [[KDE]], [[Xfce]], and [[LXDE]]) and allows visually-impaired people to use its installer. The new feature in Debian's latest installer of Wheezy for the visually-impaired supports a mode which is textual but performs audio output for each stage of installation. Debian offers different network installation methods for expert users. A minimal install of Debian is available via the 'netinstall' CD, whereby Debian is installed with just a base and later additional software can be downloaded from the internet.<ref>{{cite web | url=http://www.debian.org/distrib/netinst | title=Installing Debian GNU/Linux via the Internet | publisher=Debian | accessdate=2008-12-11}}</ref>
+
+Debian's new form of installation-from-USB has been supported since its sixth edition. Debian supports this capability inside its first iso-file of any of its install media sets (whether CD or DVD) and does not require the help of 'extraction tools' such as [[unetbootin]]. This new feature is called [[ISO image|Hybrid iso]] in which an .iso file is dumped to USB. Debian is one of the few Linux distributions offering this feature with its install iso media, and other distributions are starting to adopt alike.
+
+Other notable new features in Debian's latest release include: Multiarch, which allows 32-bit Linux software to run on 64-bit operating system installs;<ref>{{cite web|title=Multiarch, The Case For Multiarch|url=http://wiki.debian.org/Multiarch/TheCaseForMultiarch|publisher=Debian community|accessdate=11 June 2013}}</ref> improved multimedia support, reducing reliance on third-party repositories; compiled packages with hardened security flags; [[AppArmor]], which can protect a system against unknown vulnerabilities; and [[systemd]], which shipped as a technology preview.
+
+Debian's install-media is distributed via downloadable CD/DVD [[ISO image|images]] from its mirrored sites,<ref>{{cite web|title=Debian worldwide mirror sites|url=http://www.debian.org/mirror/list|publisher=debian.org|accessdate=6 June 2013}}</ref> [[BitTorrent (protocol)|BitTorrent]], [[jigdo]] and from optional retailers.<ref>{{cite web | url=http://www.debian.org/CD/ | title=Debian GNU/Linux on CDs | publisher=Debian | accessdate=2009-01-06}}</ref>
+
+=== Desktop environments ===
+Debian offers ''stable'' and ''testing'' CD images specifically built for [[GNOME]] (the default), [[KDE Plasma Workspaces]], [[Xfce]] and [[LXDE]].<ref>{{cite web | url = http://www.debian.org/News/2007/20070408 | title = Debian GNU/Linux 4.0 released | publisher = Debian | date = 2008-04-08 | accessdate = 2008-10-31}}</ref> Less common [[window manager]]s such as [[Enlightenment (window manager)|Enlightenment]], [[Openbox]], [[Fluxbox]], [[GNUstep]], [[IceWM]], [[Window Maker]] and others can also be installed. It was previously suggested that the default desktop environment of version 7.0 "Wheezy" may be switched to [[Xfce]], because GNOME 3 might not fit on the first CD of the set.<ref>{{cite web | url = http://www.phoronix.com/scan.php?page=news_item&px=MTE1NTk | author = Michael Larabel | title = Debian Now Defaults To Xfce Desktop | publisher = Phoronix Media | date = 2012-08-08 | accessdate = 2012-08-27}}</ref> The Debian Installer team announced that the first CD includes GNOME thanks to their efforts to minimize the amount of disc space GNOME takes up.<ref>{{cite web | url = http://lists.debian.org/debian-devel-announce/2012/10/msg00007.html | title = Debian Installer 7.0 Beta3 release}}</ref><ref>{{cite web | url = https://lists.debian.org/debian-devel/2012/09/msg00254.html | title = Re: CD1 without a network mirror isn't sufficient to install a full desktop environment}}</ref> In November 2013 it was announced that the desktop environment of version 8.0 "Jessie" would change to Xfce. Demand for Xfce will be evaluated and the default environment may switch back to GNOME again just before Jessie is frozen.<ref>http://anonscm.debian.org/gitweb/?p=tasksel/tasksel.git;a=commitdiff;h=dfca406eb694e0ac00ea04b12fc912237e01c9b5</ref><ref>http://news.softpedia.com/news/Debian-8-0-quot-Jessie-quot-Ditches-GNOME-and-Adopts-Xfce-397262.shtml</ref>
+
+[[MATE (desktop environment)|MATE]] and [[Cinnamon (user interface)|Cinnamon]] are not available in the official Debian package repositories.
+
+=== Blends ===
+A concept similar to Fedora spins is Debian blends.{{citation needed|date=August 2013}}
+
+=== Debian-Live ===
+A Debian-Live system is officially supported by the Debian project. A Debian-Live system can be booted from [[removable media]] (CDs, DVDs, USB thumb drive), and possibly from netboot images.<ref>{{cite web|title=Live install images|url=http://www.debian.org/CD/live/|publisher=debian.org|accessdate=11 June 2013}}</ref> Debian-Live allows a user to try a Debian desktop without actually installing it but with the penalty of no persistent storage and it would be running with degraded speed. Debian-Live comes tailored and made available as a variety of community ''prebuilds'', such as [[GNOME]], [[KDE Plasma Workspaces]], [[Xfce]], [[LXDE]], and [[rescue]] boot [[Desktop environment|environments]]. An option for permanently installing Debian on a [[hard disk]] is also made available from these boot environments. Personalized Debian-Live images can be built with the live-build tool,<ref>{{cite web | url = http://live.debian.net/devel/live-build/ | title = DebianLive/ live-build: Debian Wiki | publisher = Debian | accessdate = 2011-08-15}}</ref> in which images are generated for CD/DVD/USB drives and for netboot purposes. Live-magic is another tool used for personalizing Debian-Live images, along with the assistance of a [[Graphical user interface|graphical interface]].
+
+The official ''standard'' Debian-live images are available only for the i386 and amd64 related architectures as indicated from the website http://www.debian.org/CD/live/
+
+=== {{anchor|EMBEDDED}}Embedded systems ===
+Recent releases of Debian support an increasing number of [[ARM architecture|ARM]]-based [[network-attached storage|NAS]] devices. The cheap [[NSLU2]] was supported by Debian 4.0 and 5.0<ref>{{cite web|url=http://linuxgazette.net/161/brownss.html |title=Upgrading your Slug LG #161 |publisher=Linuxgazette.net |date= |accessdate=2011-07-27}}</ref> and can be upgraded to Debian 6.0 although there are problems with a 6.0 clean install.<ref>{{cite web|url=http://www.cyrius.com/debian/nslu2/install.html |title=Installing Debian on NSLU2 |publisher=Cyrius.com |date=2011-02-24 |accessdate=2011-07-27}}</ref> Debian 5.0 added support for the [[Buffalo network-attached storage series|Buffalo]] Kurobox Pro,<ref name="debian.org">{{cite web|url=http://www.debian.org/releases/lenny/arm/release-notes/ch-whats-new.en.html#newforarm |title=Chapter 2. What's new in Debian GNU/Linux 5.0 |publisher=Debian.org |date= |accessdate=2011-07-27}}</ref> and Debian 6.0 for the [[SheevaPlug]].<ref name="ReferenceA">{{cite web|url=http://www.debian.org/releases/squeeze/armel/release-notes/ch-whats-new.en.html#newforarm |title=Chapter 2. What's new in Debian GNU/Linux 6.0 |publisher=Debian.org |date= |accessdate=2011-07-27}}</ref>
+
+Other NAS devices supported by Debian, but perhaps not so widely used by home users, include GLAN Tank<ref>The GLAN Tank is a Japanese NAS device, described on Japanese Wikipedia [[:ja:GLAN Tank|GLAN Tank]] {{ja icon}}</ref> and Thecus N2100 as of Debian 4.0,<ref>{{cite web|url=http://www.debian.org/releases/etch/arm/release-notes/ch-whats-new.en.html |work=Release Notes for Debian GNU/Linux 4.0 ("etch"), ARM | title = What's new in Debian GNU/Linux 4.0 |publisher=Debian.org |date=2007-08-16 |accessdate=2011-07-27}}</ref> QNAP Turbo Station (TS-109, TS-209, TS-409) and HP mv2120 as of Debian 5.0,<ref name="debian.org"/> and QNAP Turbo NAS TS-11x, TS-21x and TS-41x, OpenRD, Lanner EM7210 and Intel SS4000-e as of Debian 6.0.<ref name="ReferenceA"/>
+
+==== Emdebian Grip ====
+The ''Emdebian Grip'' project &mdash; a small Debian-compatible installation &mdash; provides a more fine-grained control over package selection, size, dependencies and content, in order to enable creation of small and efficient Debian packages for use on resource-limited [[embedded system]]s.  Reduced installation size is one of the main benefits coming from the Emdebian Grip.<ref>{{cite web
+ | url = http://www.emdebian.org/grip/
+ | title = Emdebian Grip packages: A smaller Debian-compatible distro
+ | accessdate = 2013-10-16
+ | publisher = emdebian.org
+}}</ref>
+
+Emdebian Grip maintains as much compatibility as possible with Debian.  In essence, Emdebian Grip re-packs the <code>.deb</code> archives from Debian while removing unneeded files, such as manpages, info documents, documentation and unwanted translation files.  In other words, Emdebian Grip is a Debian distribution builder &mdash; the <code>emgrip</code> command (from the <code>emdebian-grip</code> package) processes a <code>.deb</code> package from any of the supported Debian architectures, and generates an equivalent Emdebian Grip package.  That way the binaries, maintainer scripts and dependencies of the original Debian packages are untouched, but the overall size and the installation footprint of the packages are reduced.<ref name="lwn-embedian">{{cite web
+ | url = https://lwn.net/Articles/327898/
+ | title = Emdebian Grip 1.0: The universal embedded operating system
+ | date = 2009-04-08 | accessdate = 2013-10-16
+ | publisher = [[LWN.net]]
+}}</ref>
+
+As the Emdebian Grip packages are not recompiled, they are completely [[binary compatible]] with Debian, so it is even possible to mix Emdebian and Debian packages &mdash; or to even migrate an existing Debian system to Emdebian Grip.<ref name="lwn-embedian" />
+
+=== Packages ===
+{{Infobox file format
+| name                   = Debian package
+| icon                   = 
+| logo                   = 
+| screenshot             = [[File:Application-x-deb.svg|64px]]
+| caption                = The [[GNOME]] icon for deb files
+| extension              = <tt>.deb</tt>
+| mime                   = application/x-deb
+| type code              = 
+| uniform type           = 
+| magic                  = 
+| owner                  = Debian
+| released               = 
+| latest release version = 
+| latest release date    = 
+| genre                  = [[Package management system]]
+| container for          = [[Software package (installation)|Software package]]
+| contained by           = 
+| extended from          = [[ar (Unix)|<tt>ar</tt> archive]]
+| extended to            = 
+| standard               = 
+| url                    = 
+}}
+
+==== Package management ====
+Debian's official standard for administering packages on its system is the apt toolset. Though for many years apt-get has been the defacto tool for administering packages on Debian, suggestions point to aptitude as better for interactive use as aptitude supports better search on package [[metadata]].<ref>{{cite web|title=Debian Reference, Ch 2: Debian Package Management|url=http://www.debian.org/doc/manuals/debian-reference/ch02.en.html#_literal_apt_get_literal_literal_apt_cache_literal_vs_literal_aptitude_literal|publisher=debian.org|accessdate=16 April 2013}}</ref>
+
+===== The dpkg database =====
+[[dpkg]] is the storage information center of installed packages and provides no configuration for accessing online repositories. The dpkg database is located at /var/lib/dpkg/available and contains the list of "installed" software on the current system.
+
+===== The dpkg command =====
+The ''dpkg'' command tool is used for the ''dpkg'' database without capability of accessing online repositories.<ref>{{cite web | url = http://wiki.debian.org/dpkg | title = Debian Wiki dpkg | publisher = Debian | accessdate = 2008-12-10}}</ref> The command can work with local .deb package files as well as information from the ''dpkg'' database.
+
+===== APT tools for online repositories =====
+An [[Advanced Packaging Tool|APT]] tool allows administration of an installed Debian system for retrieving and resolving package [[Coupling (computer programming)|dependencies]] from online [[Software repository|repositories]]. APT tools share dependency information(/etc/apt configuration files) and downloaded cache [[.deb]] files(/var/cache/apt/archives). APT tools depend on verifying what is installed in the ''dpkg'' database in order to determine missing packages for requested installs.
+
+*[[aptitude (software)|aptitude]] is a command tool and offers a [[Text-based user interface|TUI]] interface. This command's support is self-contained for full features of APT administration
+*[[apt-get]] and [[apt-cache]] are command tools of the standard [[Apt-get#Usage|APT]]-class toolset '''apt''' package. The package is called "apt" and supplies the command "apt-cache" as well as "apt-get". "apt-get" installs and removes packages. "apt-cache" is used for searching packages and displaying package information.
+
+{| style="float: right"
+|[[File:Debian-aptitude.png|thumb|Package installed with [[Aptitude (software)|aptitude]].]]
+|}
+
+====== The gdebi tool and other front-ends ======
+*[[gdebi]] is an APT which can be used in command-line and on the GUI. ''gdebi'' combines the functionality of the ''dpkg'' tool and APT package resolving with online repositories. The local [[.deb]] file in the [[GUI]] environment's [[file manager]] can be associated to be opened with ''gdebi'' providing a graphical experience of installing packages via [[double clicking]]. gdebi can also install a local .deb file via the command line alike the dpkg command, but with access to online repositories. If gdebi is requested to install a local .deb file that requires to install a dependency, it then searches the repositories as defined in the common APT configuration folder (/etc/apt) and performs to resolving and downloading missing packages.
+
+There are various front-ends for APT, both graphical and command-line based. Graphical applications include [[Ubuntu Software Center|Software Center]], [[Synaptic (software)|Synaptic]] and [[Apper]].
+
+=== Repositories ===
+[[File:Debian-cd-cover1.png|thumb|A Debian 4.0 "Etch" Box Cover<ref name="dvdcover">{{cite web | url = http://www.debian.org/CD/artwork/ | title = Artwork for Debian CDs | accessdate = 2009-01-11 | publisher = Debian}}</ref>]]
+The Debian Project offers three distributions, each with different characteristics. The distributions include packages which comply with the [[Debian Free Software Guidelines]] (DFSG), which are included inside the ''main'' repositories.<ref name="distributions">{{cite web | url = http://www.debian.org/doc/developers-reference/resources.html | title = Chapter 4. Resources for Debian Developers | accessdate = 2008-10-31 | publisher = Debian}}</ref> Debian also officially supports the optional [[Backporting|backports]] repository for the stable distribution.<ref>{{cite web|title=Backports service becoming official|url=http://www.debian.org/News/2010/20100905|publisher=The Debian Project}}</ref>
+
+==== Official ====
+* '''stable''', ''currently'' aliased '''''wheezy''''', is the current release that has stable and well-tested software. ''Stable'' is made by freezing ''testing'' for a few months where bugs are fixed to make the distribution as stable as possible; then the resulting system is released as ''stable''. It is updated only if major security or usability fixes are incorporated. After Debian 6.0, new releases will be made every two years.<ref name="two-year-cycle"/> ''Stable's'' CDs and DVDs can be found in the Debian website.<ref name="distributions" />
+* '''backports''': This repository provides more recent versions than ''stable'' for some software. It is mainly intended for users of ''stable'' who need a newer version of a particular package.
+* '''testing''', ''currently'' aliased '''''jessie''''', is what the next major release will be and is currently being tested. The packages included in this distribution have had some testing in ''unstable'' but they may not be completely fit for release yet. It contains more modern packages than ''stable'' but older than ''unstable''. This distribution is updated continually until it enters the "frozen" state. Security updates for ''testing'' distribution are provided by Debian testing security team. ''Testing's'' CDs and DVDs can be found on the Debian website.<ref name="distributions" />
+* '''unstable''', ''permanently'' aliased '''''sid''''', repository contains packages currently under development; it is updated continually. This repository is designed for Debian developers who participate in a project and need the latest libraries available, or for those who like to "live on the edge", so it will not be as stable as the other distributions. There are no official CDs/DVDs because it is rapidly changing and the project does not support it, although CD and DVD images of sid are built quarterly by [[aptosid]]. Additionally, the other two distributions can be upgraded to ''unstable''.<ref name="distributions" />
+:
+Depreciating repositories in Debian:
+* '''oldstable''', presently aliased '''''squeeze''''', is the prior ''stable'' release. It is supported until 1 year after a new ''stable'' is released. Debian recommends to update to the new ''stable'' once it has been released.<ref>{{cite web|title=Chapter 3 - Choosing a Debian distribution|url=http://www.debian.org/doc/manuals/debian-faq/ch-choosing.en.html#s3.1.9|publisher=Debian.org|accessdate=3 June 2013}}</ref>
+* '''snapshot''': The snapshot repositories provide older versions of other repositories. They may be used to install a specific older version of some software.
+:
+Other repository in Debian:
+* '''experimental''': is meant to be a temporary staging area of highly experimental software for developers. Even though it's documented as a 'distribution' branch from Debian's documentation, many dependency packages that fulfill experimental software are commonly resolved with the ''unstable'' branch. This branch of experimental software is not as documented as the other branches as it shouldn't even be referenced by advanced users.<ref>{{cite web|title=Chapter 6 - The Debian FTP archives|url=http://www.debian.org/doc/manuals/debian-faq/ch-ftparchives|publisher=Debian|accessdate=3 June 2013}}</ref>
+
+==== Non-free and Unofficial repositories ====
+The [[Debian Free Software Guidelines]] (DFSG) defines its distinctive meaning of the word "free" as in "[[free and open source software]]" (FOSS), although it is not endorsed by the [[Free Software Foundation]] or GNU foundation; reason being Debian's servers includes and supports a [[proprietary software|proprietary]] repository and documentation that recommends non-free software.<ref>{{cite web|title=Explaining Why We Don't Endorse Other Systems|url=http://www.gnu.org/distros/common-distros.html|publisher=www.gnu.org|accessdate=14 April 2013}}</ref><ref>{{cite web|title=About Debian: It's all free?|url=http://www.debian.org/intro/about#free|publisher=www.debian.org|accessdate=14 April 2013}}</ref> In accordance with its guidelines, a relatively small number of packages are excluded from the distributions' ''main'' repositories and included inside the ''non-free'' and ''contrib'' repositories. These two repositories are not officially part of Debian GNU/Linux. The Debian project offers its distribution without non-free repositories but can be adopted manually after initial setup.
+
+* '''non-free''': repositories include packages which do not comply with the DFSG (this does not usually include legally questionable packages, like [[libdvdcss]]).<ref name="distributions" />
+* '''contrib''': repositories include packages which do comply with the DFSG, but may fail other requirements. For instance, they may depend on packages which are in ''non-free'' or requires such for building them.<ref name="distributions" />
+:
+
+===== Third-party =====
+:These repositories are not part of the Debian Project, they are maintained by third party organizations. They contain packages that are either more modern than the ones found in ''stable'' or include packages that are not included in the Debian Project for a variety of reasons such as: e.g. possible patent infringement, binary-only/no sources, or special licenses that are too restrictive. Their use requires precise configuration of the priority of the repositories to be merged; otherwise these packages may not integrate correctly into the system, and may cause problems upgrading or conflicts between packages from different sources. The Debian Project discourages the use of these repositories as they are not part of the project.
+
+=== Hardware support ===
+
+==== Hardware requirements ====
+Debian has no hardware requirements beyond those of the [[Linux kernel]] and the [[GNU]] tool-sets ([[GNU Compiler Collection|gcc]], [[GNU Core Utilities|coreutils]], [[Bash (Unix shell)|bash]], etc.). Therefore, any architecture or platform to which these packages have been ported, and for which a Debian port exists, can run Debian.<ref name="hreqs2">{{cite web | url= http://www.debian.org/releases/stable/i386/ch02s01.html.en | title= 2.1. Supported Hardware Chapter 2. System Requirements | accessdate = 2008-11-02 | publisher = Debian}}</ref>
+
+Linux, and therefore Debian, supports the use of multiple processors in a system ([[symmetric multiprocessing]]). This does not inhibit support for single-processor systems.<ref name="hreqs2" />
+
+Debian's recommended system requirements differ depending on the level of installation, which corresponds to increased numbers of installed components:<ref name="hreqs1">{{cite web | url= http://www.debian.org/releases/stable/i386/ch03s04.html.en | title= Meeting Minimum Hardware Requirements | accessdate = 2008-10-31 | publisher = Debian}}</ref>
+
+{| class="wikitable" style="text-align:center;"
+|-
+!| Install desktop
+!| [[random-access memory|RAM]] minimum<ref name="hreqs1" />
+!| RAM recommended<ref name="hreqs1" />
+!| Hard drive space used<ref name="hreqs1" />
+|-
+| No
+| 64 [[megabyte|MB]]
+| 256 MB
+| 1 [[gigabyte|GB]]
+|-
+| Yes
+| 128 MB
+| 512 MB
+| 5 GB
+|}
+
+A 1&nbsp;GHz [[central processing unit|processor]] is the minimum recommended for desktop systems.<ref name="hreqs1" />
+
+The real minimum memory requirements are much less than the numbers listed in this table. Depending on the [[computer architecture|architecture]], it is possible to install Debian with as little as 20 [[megabyte|MB]] RAM for [[IBM System z|s390]] or 48 MB RAM for [[x86|i386]] and [[x86-64|AMD64]]. Similarly, disk space requirements, which depend on the packages to be installed, can also be reduced.<ref name="hreqs1" /> [http://www.emdebian.org/ Emdebian] (embedded Debian) improves installation to devices with minimal disk space, partially by removing documentation and installing only needed translations. In its Grip and Baked form it is binary compatible.
+
+It is possible to run [[graphical user interface]]s on older or low-end systems, but the installation of [[window manager]]s instead of [[desktop environment]]s is recommended, as desktop environments are more resource-intensive.<ref name="hreqs1" />
+
+Depending on the nature of the server, [[Random-access memory|RAM]] and disk space requirements can vary widely.<ref name="hreqs1" />
+
+==== Architecture ports ====
+<!-- [[File:Debian ports timeline.png|thumb|300px|Debian GNU/Linux ports timeline.]] -->
+Most software packages in the official Debian repositories are compiled for an abundance of available and older [[instruction set]]s.
+
+===== Stable ports =====
+As of the current stable release, the official ports are:<ref>{{cite web | url =http://www.debian.org/ports/ | accessdate =2009-02-15 | title =Debian Ports | publisher =Debian}}</ref>
+* <code>i386</code>: [[x86]] architecture designed for Intel/AMD 32-bit [[IBM PC compatible|PCs]]. Also compatible with but not recommended on Intel/AMD 64-bit [[IBM PC compatible|PCs]]<ref>{{cite web | url =http://www.debian.org/releases/stable/i386/ch02s01.html.en | accessdate =2008-10-11 | title =Supported Hardware | publisher =Debian}}</ref>
+* <code>amd64</code>: [[x86-64]] architecture designed for AMD/Intel 64-bit [[IBM PC compatible|PCs]]
+* <code>armel</code>: little-[[endianness|endian]] [[ARM architecture]] (''Instruction set ARMv'''4''''') on [[RiscPC]] and various embedded systems ([[EABI]])
+* <code>ia64</code>: [[Itanium|Intel Itanium]] (IA-64) architecture
+* <code>kfreebsd-i386</code>: Kernel of [[FreeBSD]] on [[x86]] architecture
+* <code>kfreebsd-amd64</code>: Kernel of FreeBSD on [[x86-64]] architecture
+* <code>mips</code>, <code>mipsel</code>: [[MIPS architecture]] (big-endian and little-endian)
+* <code>powerpc</code>: [[PowerPC]] architecture
+* <code>s390</code>: [[IBM ESA/390]] architecture and [[z/Architecture]]
+* <code>sparc</code>: Sun [[SPARC]] architecture on [[Sun-4|sun4u/v]] systems
+* <code>armhf</code>:<ref>{{cite web|url=http://wiki.debian.org/ArmHardFloatPort|title=Debian Wiki: armhf - Arm Hard Float Port}}</ref> [[ARM architecture|ARM]] (''Instruction set ARMv'''7''''') hard-float architecture requiring hardware with a [[floating-point unit]] (FPU)
+* <code>s390x</code>: [[IBM ESA/390]] architecture and [[z/Architecture]] with 64-bit userland
+
+===== Unstable ports =====
+In the current official ''unstable'' distribution there are following ports:
+* <code>hurd-i386</code>: [[GNU Hurd]] kernel on [[x86]] architecture
+
+===== Unofficial ports =====
+Unofficial ports are also available as part of the ''unstable'' distribution at [http://www.debian-ports.org/ http://www.debian-ports.org]:
+* <code>alpha</code>: [[DEC Alpha]] architecture
+* <code>hppa</code>: [[PA-RISC|HP PA-RISC]] architecture
+* <code>m68k</code>: [[Motorola 68000 family|Motorola 68k]] architecture on [[Amiga]], [[Atari ST|Atari]], [[Macintosh]] and various embedded [[VMEbus|VME]] systems
+* <code>powerpcspe</code>: [[PowerPC e500|PowerPCSPE]] architecture (binary-incompatible variant of the [[PowerPC]])
+* <code>ppc64</code>: [[Ppc64|PowerPC64]] architecture supporting 64-bit PowerPC CPUs with VMX
+* <code>sh4</code>: Hitachi [[SuperH]] architecture
+* <code>sparc64</code>: Sun [[SPARC]] architecture with 64-bit userland
+* <code>x32</code>: 32-bit userland for modern amd64 processors, incompatible with i386
+
+The <code>m68k</code> port was the second official one in Debian, and has been part of five stable Debian releases. Due to its failure to meet the release criteria, it was dropped before the release of ''etch'' but is in current status of being revived. The <code>arm</code> (OABI,<ref name="Wiki.debian.org"/> &lt;armv4t), <code>alpha</code> and <code>hppa</code> ports were dropped before the release of ''squeeze''.
+
+== Policies ==
+Debian is known for its serious manifesto social contract and policies.<ref name=socialcontract>[[Debian Social Contract]]</ref> Debian's policies and team efforts focus on [[Collaborative software development model|collaborative software development and testing processes]] and dedicates lengthy development time between unstable and stable release cycles. As a result of its strictly guarded policies, a new distribution release for Debian tends to occur every one to two years.<ref name="debfaq-def">{{cite web | url=http://www.debian.org/doc/manuals/debian-faq/ch-basic_defs.en.html#s-whatisdebian | title=The Debian GNU/Linux FAQ: Definitions and overview | publisher=Debian | accessdate=2008-05-12}}</ref> The strategy policies used by the Debian project for minimizing software bugs, albeit with longer release cycles, has allowed it to remain one of the most stable and secure Linux distributions.
+
+=== Organization ===
+[[File:Debian-organigram.svg|thumb|300px|Diagram of the organizational structure of the project]]
+
+The Debian Project is a volunteer organization with three foundational documents:
+* The [[Debian Social Contract]] defines a set of basic principles by which the project and its developers conduct affairs.<ref name="socialcontract"/>
+* The [[Debian Free Software Guidelines]] define the criteria for "free software" and thus what software is permissible in the distribution, as referenced in the Social Contract. These guidelines have also been adopted as the basis of the [[The Open Source Definition|Open Source Definition]]. Although it can be considered a separate document for all practical purposes, it formally is part of the Social Contract.<ref name="socialcontract" />
+* '''The Debian Constitution''' describes the organizational structure for formal decision-making within the Project, and enumerates the powers and responsibilities of the Debian Project Leader, the Debian Project Secretary, and the Debian Developers generally.<ref name="constitution">{{cite web|url=http://www.debian.org/devel|title=Constitution for the Debian Project (v1.4)|date=2011-10-07|accessdate=2012-12-29}}</ref>
+
+Debian is developed by over three thousand volunteers.<ref name="free kernel">{{cite web | url =http://www.debian.org/News/2010/20101215 | title =Debian 6.0 "Squeeze" to be released with completely free Linux Kernel | publisher =Debian | accessdate =2010-12-15}}</ref> Each of them sustains some niche in the project, be it package maintenance, [[software documentation]], maintaining the project infrastructure, [[quality assurance]], or release coordination. Package maintainers have jurisdiction over their own packages, although packages are increasingly co-maintained. Other tasks are usually handled by the domain of smaller, more collaborative groups of developers.
+
+Debian is supported by donations through several [[nonprofit organization]]s around the world. Most important of these is [[Software in the Public Interest]],<ref name="releases">{{cite web | url =http://www.debian.org/doc/manuals/project-history/ch-releases.en.html | title =A Brief History of Debian: Debian Releases | publisher =Debian | accessdate =2008-10-31}}</ref> the owner of the Debian trademark and [[umbrella organization]] for various other community free software projects.<ref>{{cite web | url=http://www.spi-inc.org/projects/spi-projects | archiveurl=http://web.archive.org/web/20100316235533/http://www.spi-inc.org/projects/spi-projects | archivedate=2010-03-16 | title=SPI Projects: Welcome to SPI (archived)| publisher=www.spi-inc.org | accessdate=2008-05-12}}</ref>
+
+The project maintains official [[mailing list]]s and conferences for communication and coordination between developers.<ref>{{cite web | url=http://www.debian.org/doc/manuals/debian-faq/ch-support.en.html#s12.2.1 | title=The Debian GNU/Linux FAQ: Getting support for Debian GNU/Linux | publisher=Debian | accessdate=2008-05-12}}</ref> For issues with single packages or domains, a public [[Software bug|bug]] tracking system is used by developers and end-users. Informally, [[Internet Relay Chat]] channels (primarily on the [[Open and Free Technology Community|OFTC]] and [[freenode]] networks) are used for communication among developers and users also.
+
+Together, the Developers may make binding general decisions by way of a General Resolution or election. All voting is conducted by [[Schulze method|Cloneproof Schwartz Sequential Dropping]], a [[Condorcet method]] of voting. A [[Debian Project Leader|Project Leader]] is elected once per year by a vote of the Developers; in April 2010, Stefano Zacchiroli was voted into this position, succeeding [[Steve McIntyre]]. The Debian Project Leader has several special powers, but they are far from absolute and rarely used. Under a General Resolution, the Developers may, among other things, recall the leader, reverse a decision by him or his delegates, and amend the constitution and other foundational documents.
+
+The Leader sometimes delegates authority to other developers in order for them to perform specialized tasks. Generally this means that a leader delegates someone to start a new group for a new task, and gradually a team gets formed that carries on doing the work and regularly expands or reduces their ranks as they think is best and as the circumstances allow.
+
+A role in Debian with a similar importance to the Project Leader's is that of a [[software release life cycle|Release]] Manager. Release Managers set goals for the next release, supervise the processes, and make the final decision as to when to release.<ref name="releasemanagers">{{cite web |url =http://www.debian.org/intro/organization |title =The Debian organization web page |accessdate =2008-11-01 |publisher =Debian}}</ref><ref>{{cite web |url =http://www.business.ualberta.ca/tcc/documents/TII_3_OMahoney_Ferraro_final.pdf |title =The Emergence of Governance in an Open Source Community |first =Siobhan |last =O'Mahony |coauthors =Fabrizio Ferraro |publisher =ualberta.ca |accessdate =2008-11-01 |date =2008-04 |archiveurl =http://web.archive.org/web/20080529081303/http://www.business.ualberta.ca/tcc/documents/TII_3_OMahoney_Ferraro_final.pdf |archivedate =2008-05-29}}</ref>
+
+=== Project leaders ===
+The Debian Project Leader (DPL) is the public face of the project and defines the current direction of the project.<ref>[http://www.debian.org/devel/leader What does a Debian Project Leader do] www.debian.org</ref> The project has had the following leaders:<ref>{{cite web |url =http://www.debian.org/doc/manuals/project-history/ch-leaders |title =A Brief History of Debian Chapter 2: Leadership |accessdate =2008-11-01 |publisher =Debian}}</ref>
+* [[Ian Murdock]] (August 1993 – March 1996), founder of the Debian Project
+* [[Bruce Perens]] (April 1996 – December 1997)
+* [[Ian Jackson]] (January 1998 – December 1998)
+* [[Wichert Akkerman]] (January 1999 – March 2001)
+* [[Ben Collins (programmer)|Ben Collins]] (April 2001 – April 2002)
+* [[Bdale Garbee]] (April 2002 – April 2003)
+* [[Martin Michlmayr]] (March 2003 – March 2005)
+* [[Branden Robinson]] (April 2005 – April 2006)
+* [[Anthony Towns]] (April 2006 – April 2007)
+* [[Sam Hocevar]] (April 2007 – April 2008)
+* [[Steve McIntyre]] (April 2008 – April 2010)
+* [[Stefano Zacchiroli]] (April 2010 – April 2013)
+* [[Lucas Nussbaum]] (April 2013 – present)<ref>{{cite web
+| url =https://lists.debian.org/debian-vote/2013/04/msg00027.html
+| author =Devotee
+| date =April 13, 2013
+| title =Results for Debian Project Leader 2013 Election
+}}</ref>
+
+A supplemental position, ''Debian Second in Charge'' (2IC), was created by Anthony Towns. [[Steve McIntyre]] held the position between April 2006 and April 2007. From April 2009 to April 2010 this position was held by Luk Claes. Stefano Zacchiroli abandoned this unofficial position when elected in April 2010.<ref>{{cite web |url =http://www.debian.org/vote/2010/platforms/zack |at=section 2.2.3 No DPL board |title =DPL Platform&nbsp;— Stefano Zacchiroli |date =2010-03-12 |publisher =Debian |quote=I do not believe in the utility of a DPL board, so I will not have one; nor I will have a second in charge (2IC).}}</ref>
+
+=== Release managers ===
+* Brian C. White (1997–1999)
+* Richard Braakman (1999–2000)
+* [[Anthony Towns]] (2000–2004)
+* Steve Langasek, Andreas Barth and Colin Watson (2004–2007)
+* Andreas Barth and Luk Claes (2007–2008)
+* Luk Claes and Marc Brockschmidt (2008–2009)
+* Luk Claes and Adeodato Simó (2009–2010)
+* Adam D. Barratt and Neil McGovern (2010–2013)<ref>{{cite web |url=http://lists.debian.org/debian-devel-announce/2010/08/msg00000.html |title=Bits from the (chilly) release team}}</ref>
+* Adam D. Barratt and Niels Thykier (2013–present)<ref>{{cite web |url=https://lists.debian.org/debian-devel-announce/2013/11/msg00007.html |title=Release sprint results - team changes, auto-rm and arch status}}</ref>
+
+Note that this list includes the active release managers; it does not include the release assistants (first introduced in 2003) and the retiring managers ("release wizards").<ref name="releasemanagers" />
+
+=== Developer recruitment, motivation, and resignation ===
+The Debian project has a steady influx of applicants wishing to become developers. These applicants must undergo an elaborate vetting process which establishes their identity, motivation, understanding of the project's goals (embodied in the [[Debian Social Contract|Social Contract]]), and technical competence.<ref>{{cite web |url = http://www.debian.org/devel/join/newmaint |title = Debian New Maintainers |publisher = Debian |accessdate = 2008-10-31}}</ref>
+
+Debian Developers join the Project for a number of reasons; some that have been cited in the past include:<ref>{{cite web |url = http://www.debian.org/devel/join/ |title = How You Can Join |publisher = Debian |accessdate = 2008-10-31}}</ref>
+* A desire to contribute back to the [[free-software community]] (practically all applicants are users of [[free software]])
+* A desire to see some specific software task accomplished (some view the Debian user community as a valuable testing or proving ground for new software)
+* A desire to make, or keep, free software competitive with [[proprietary software|proprietary alternatives]]
+* A desire to work closely with people who share some of their aptitudes, interests, and goals (there is a very strong sense of [[community]] within the Debian project which some applicants do not experience in their paid jobs)
+* A simple enjoyment of the iterative process of [[software development]] and maintenance
+
+Debian Developers may resign their positions at any time by orphaning the packages they were responsible for and sending a notice to the developers and the [[public key infrastructure|keyring]] maintainer (so that their upload authorization can be revoked).
+
+=== Development procedures ===
+Software packages in development are either uploaded to the project distribution named ''unstable'' (also known as ''sid''), or to the ''experimental'' repository. Software packages uploaded to ''unstable'' are normally versions stable enough to be released by the original [[upstream (software development)|upstream]] developer, but with the added Debian-specific packaging and other modifications introduced by Debian developers. These additions may be new and untested. Software not ready yet for the ''unstable'' distribution is typically placed in the ''experimental'' repository.<ref name="ftparchive">{{cite web |url = http://www.us.debian.org/doc/FAQ/ch-ftparchives |accessdate = 2007-05-24 |title = The Debian GNU/Linux FAQ Chapter 6: The Debian FTP archives |publisher = Debian}}</ref>
+
+After a version of a software package has remained in ''unstable'' for a certain length of time (depending on the urgency of the software's changes), that package is automatically migrated to the ''testing'' distribution. The package's migration to testing occurs only if no serious (''release-critical'') bugs in the package are reported and if other software needed for package functionality qualifies for inclusion in ''testing''.<ref name="ftparchive" />
+
+Since updates to Debian software packages between official releases do not contain new features, some choose to use the ''testing'' and ''unstable'' distributions for their newer packages. However, these distributions are less tested than ''stable'', and ''unstable'' does not receive timely security updates. In particular, incautious upgrades to working ''unstable'' packages can sometimes seriously break software functionality.<ref name="securityfaq">{{cite web |url = http://www.debian.org/security/faq |title = Debian security FAQ |date = 2007-02-28 |accessdate = 2008-10-21 |publisher = Debian}}</ref> Since September 9, 2005<ref>{{cite mailing list |url = http://lists.debian.org/debian-devel-announce/2005/09/msg00006.html |title = announcing the beginning of security support for testing |date = 2005-09-05 |accessdate = 2007-04-20 |mailinglist = debian-devel-announce |last = Hess |first = Joey}}</ref> the ''testing'' distribution's security updates have been provided by the ''testing'' security team.<ref>{{cite web |url = http://testing-security.debian.net |title = Debian testing security team |publisher = Debian |accessdate = 2008-10-31}}</ref>
+
+After the packages in ''testing'' have matured and the goals for the next release are met, the ''testing'' distribution becomes the next stable release. The timing of the release is decided by the Release Managers, and in the past the exact date was rarely announced earlier than a couple of weeks beforehand.<ref name="Simó">{{cite mailing list |last = Simó |first = Adeodato |title = Release update: deep freeze, planned dates, and remaining bugs |mailinglist = debian-devel-announce@lists.debian.org |date = 2009-02-01 |url = http://lists.debian.org/debian-devel-announce/2009/02/msg00000.html |accessdate = 2009-02-07}}</ref>
+
+=== Package maintenance ===
+[[File:Debian package cycle.svg|thumb|300px|Flowchart of the life cycle of a Debian package]]
+
+Each Debian software package has a maintainer who keeps track of releases by the "upstream" authors of the software and ensures that the package is compliant with Debian Policy, coheres with the rest of the distribution, and meets the standards of quality of Debian. In relations with users and other developers, the maintainer uses the bug tracking system to follow up on bug reports and fix bugs. Typically, there is only one maintainer for a single package, but, increasingly, small teams of developers "co-maintain" larger and more complex packages and groups of packages.<ref>{{cite web |url = http://www.debian.org/vote/2007/vote_003 |accessdate = 2008-12-13 |title = General Resolution: Endorse the concept of Debian Maintainers |publisher = Debian}}</ref>
+
+Periodically, a package maintainer makes a release of a package by uploading it to the "incoming" directory of the Debian package archive (or an "upload queue" which periodically batch-transmits packages to the incoming directory). Package uploads are automatically processed to ensure that they are well-formed (all the requisite files are in place) and that the package is [[digital signature|digitally signed]] by a Debian developer using [[OpenPGP]]-compatible software. All Debian developers have individual [[Public-key cryptography|cryptographic key pairs]].<ref>{{cite web |url = http://www.debian.org/doc/developers-reference/new-maintainer.html#registering |accessdate = 2010-10-09 |title = Debian Developer's Reference |publisher = Debian}}</ref> Packages are signed to be able to reject uploads from hostile outsiders to the project, and to permit accountability in the event that a package contains a serious [[Software bug|bug]], a violation of policy, or malicious code.
+
+If the package in incoming is found to be validly signed and well-formed, it is installed into the archive into an area called the "pool" and distributed every day to hundreds of [[mirror (computing)|mirrors]] worldwide. Initially, all package uploads accepted into the archive are only available in the "unstable" suite of packages, which contains the most up-to-date version of each package.
+
+However, new code is also untried code, and those packages are only distributed with clear disclaimers. For packages to become candidates for the next "stable" release of the Debian distribution, they first need to be included in the "testing" suite. For a package to be included in ''testing'':<ref>{{cite web |url = http://www.debian.org/doc/developers-reference/pkgs.html#testing |accessdate = 2008-10-31 |title = Debian Developer Reference |publisher = Debian}}</ref><ref>{{cite web |url = http://www.debian.org/devel/testing | accessdate = 2008-11-24 |title = Debian "testing" distribution |publisher = Debian}}</ref>
+* It must have been in ''unstable'' for the appropriate length of time (the exact duration depends on the "urgency" of the upload)
+* It must not have a greater number of "release-critical" bugs filed against it than the current version in testing. Release-critical bugs are those bugs which are considered serious enough that they make the package unsuitable for release.
+* It must be compiled for all release architectures the package claims to support (e.g.: the i386-specific package gmod can be included in "testing")
+* All of its dependencies must either be satisfiable by packages already in ''testing'', or be satisfiable by the group of packages which are going to be installed at the same time.
+* The operation of installing the package into ''testing'' must not break any packages currently in ''testing''.
+
+Thus, a release-critical bug in a package on which many packages depend, such as a shared library, may prevent many packages from entering the ''testing'' area, because that library is considered deficient.
+
+Periodically, the Release Manager publishes guidelines to the developers in order to ready the release, and in accordance with them eventually decides to make a release. This occurs when all important software is reasonably up-to-date in the release-candidate suite for all architectures for which a release is planned, and when any other goals set by the Release Manager have been met. At that time, all packages in the release-candidate suite ("testing") become part of the released suite ("stable").
+
+It is possible for a package, particularly an old, stable, and seldom-updated one, to belong to more than one suite at the same time. The suites are simply collections of pointers into the package "pool" mentioned above.
+
+=== Debian Security Announcement (DSA) ===
+The Debian Project, being free software, handles security policy through [[full disclosure|public disclosure]] rather than through [[security through obscurity]]. Many advisories are coordinated with other free software vendors (Debian is a member of [[vendor-sec]]) and are published the same day a vulnerability is made public. Debian has a security audit team that reviews the archive looking for new or unfixed security bugs. Debian also participates in security standardization efforts: the Debian security advisories are compatible with the [[Common Vulnerabilities and Exposures]] (CVE) dictionary, and Debian is represented in the Board of the [[Open Vulnerability and Assessment Language]] (OVAL) project.<ref>{{cite web |url = http://www.debian.org/security/ |accessdate = 2008-12-13 |title = Security Information |publisher = Debian}}</ref>
+
+The Debian Project offers extensive documentation and tools to [[hardening (computing)|harden]] a Debian installation both manually and automatically.<ref>{{cite web |url = http://www.debian.org/doc/user-manuals#securing |accessdate = 2008-12-13 |title = Securing Debian Manual |publisher = Debian}}</ref> [[Security-Enhanced Linux|SELinux]] (Security-Enhanced Linux) packages are installed by default though not enabled.<ref name=lennynew>{{cite web |url = http://www.debian.org/releases/stable/amd64/release-notes/ch-whats-new.en.html |title = Chapter 2. What's new in Debian GNU/Linux 5.0 |publisher = Debian |accessdate = 2009-02-18}}</ref> Debian provides an optional hardening wrapper but does not compile their packages by default using [[GNU Compiler Collection|gcc]] features such as [[Position-independent code|PIE]] and [[buffer overflow protection]] to harden their software, unlike [[Ubuntu (operating system)|Ubuntu]], [[Fedora (operating system)|Fedora]] and [[Hardened Gentoo]] among others.<ref>{{cite web | url = https://wiki.ubuntu.com/CompilerFlags | title = Ubuntu Wiki CompilerFlags | publisher = Ubuntu | accessdate = 2011-01-31}}</ref> These extra features greatly increase security at a performance cost of 1% in [[x86|32-bit]] and 0.01% in [[x86-64|64-bit]].<ref>{{cite web | url = http://d-sbd.alioth.debian.org/www/ | title = Debian Secure by Default | publisher = Debian: Secure by Default Project | accessdate = 2011-01-31}}</ref>
+
+It is a release goal for Debian 7.0 (''wheezy'') "to update as many packages as possible to use security hardening build flags via dpkg-buildflags. These flags enable various protections against security issues such as stack smashing, predictable locations of values in memory, etc."<ref name="Debian_Release_Goal">[http://wiki.debian.org/ReleaseGoals/SecurityHardeningBuildFlags Release Goal Security Hardening Build Flags]</ref>
+
+== History ==
+
+=== Releases ===
+[[File:Debian Installer graphical etch.png|thumb|[[Debian Installer]]]]
+
+{{As of|2013|05}}, the latest stable release is version 7, code name ''wheezy''. When a new version is released, the prior stable version becomes ''oldstable''. {{As of|2013|05}}, this is version 6.0, code name ''squeeze''.
+
+In addition, a stable release gets minor updates (called ''point releases''). The numbering scheme for the point releases up to Debian 4.0 was to include the letter ''r'' (for ''release'') after the main version number (e.g. 4.0) and then the number of the point release; for example, the latest point release of version 4.0 (''etch'') as of 8 December 2010 is 4.0r9.<ref>{{cite web | url = http://www.debian.org/News/2009/20090408 | accessdate = 2009-07-21 | date = 2009-04-08 | title = Debian GNU/Linux 4.0 updated | publisher = Debian}}</ref> From Debian 5.0 (''lenny''), the numbering scheme of point releases has been changed and conforms to the GNU version numbering standard; so, for example, the first point release of Debian 5.0 was 5.0.1 (instead of 5.0r1).<ref>{{cite mailing list | url = http://lists.debian.org/debian-devel-announce/2009/02/msg00003.html | first = Marc | last = Brockschmidt | accessdate = 2009-02-15 | date = 2009-02-15 | mailinglist = debian-devel-announce | title = Debian squeeze waiting for development | publisher = Debian}}</ref> The numbering scheme was once again changed for the first Debian 7 update, with the latter being assigned version 7.1{{Citation needed|date=July 2013}}.
+
+==== Security updates ====
+The Debian security team releases security updates for the latest stable major release, and for the prior stable release for one year.<ref name="securityfaq" /> Version 4.0 ''etch'' was released on 8 April 2007, and the security team supported version 3.1 ''Sarge'' until 21 March 2008. For most uses it is strongly recommended to run a system which receives security updates. The ''testing'' distribution also receives security updates, but not in as timely a manner as stable.<ref>{{cite web | url = http://secure-testing-master.debian.net/ | title = Debian testing security team | accessdate = 2008-10-31 | publisher = Debian}}</ref>
+
+==== Time-based development schedule ====
+For Debian 6.0 (''squeeze'') a new policy of time-based development freezes on a two-year cycle was announced. Time-based freezes are intended to allow the Debian Project to blend the predictability of time based releases with its policy of feature based releases. The new freeze policy aims to provide better predictability of releases for users of the Debian distribution, and to allow Debian developers to do better long-term planning. Debian developers expect that a two-year release cycle will give more time for disruptive changes, reducing inconveniences caused for users. Having predictable freezes was expected to reduce overall freeze time. The squeeze cycle was intended to be especially short to "get into the new cycle".<ref name="two-year-cycle">{{cite web |url = http://www.debian.org/News/2009/20090729 |title = Debian decides to adopt time-based release freezes |publisher = Debian |accessdate = 2009-09-12 |date = 2009-07-29}}</ref> However this short freeze cycle for squeeze was abandoned.<ref name="two-year-cycle-2">{{cite web |url = http://www.debian.org/News/2009/20090730 |title = Debian GNU/Linux 6.0 "Squeeze" release goals |publisher = Debian |accessdate = 2009-12-01 |date = 2009-07-30}}</ref>
+
+==== Debian release code names ====
+The code names of Debian releases are [[list of Toy Story characters|names of characters]] from the film ''[[Toy Story]]''. The unstable, development distribution is permanently nicknamed ''[[Sid (Toy Story)|sid]]'', after the emotionally unstable next-door neighbor boy who regularly destroyed toys.<ref name="ftparchive" /> The current release ''wheezy'' is named after the [[Wheezy|rubber toy penguin]] in ''[[Toy Story 2]]''.<ref name="wheezy-codename-devel-announcement">{{cite mailing list | url = http://lists.debian.org/debian-devel-announce/2010/09/msg00000.html | mailinglist = debian-devel-announce | title = Release Update: freeze guidelines, transitions, BSP, rc bug fixes | date = 2010-09-03 | accessdate = 2010-09-03}}
+</ref> The release after ''wheezy'' will be named ''jessie'', after the [[Jessie (Toy Story)|cowgirl]] in ''[[Toy Story 2]]'' and ''[[Toy Story 3]]''.<ref name="jessie-codename-devel-announcement">{{cite mailing list | url = https://lists.debian.org/debian-devel-announce/2012/07/msg00004.html | mailinglist = debian-devel-announce | title = Bits from the nippy Release Team | date = 2012-07-27 | accessdate = 2012-07-27}}
+</ref>
+
+=== Timeline ===
+Debian has made twelve major stable releases:<ref name="releases" />
+{{Version |t |show=11101}}
+[[TBA]] stands for ''to be announced''.
+
+{| class="wikitable"
+|-
+! Version
+! [[Code name|Code&nbsp;name]]
+! style="width:90px" | Release date
+! [[Debian#Architecture ports|Ports]]
+! Packages
+! Supported until
+! Notes
+|-
+| {{Version |o |1.1}}
+| ''buzz''
+| style="text-align:right;"| 1996-06-17
+| style="text-align:right;"| 1
+| style="text-align:right;"| 474
+| {{Version |o |1996-09}}<ref>{{Cite web|title=date of file packages|url=http://archive.debian.org/debian/dists/Debian-1.1/main/binary-i386/Packages.gz|postscript=<!-- Bot inserted parameter. Either remove it; or change its value to "." for the cite to end in a ".", as necessary. -->{{inconsistent citations}}}}</ref>
+| <code>dpkg</code>, [[Executable and Linkable Format|ELF]] transition, Linux&nbsp;2.0<ref name="releases" />
+|-
+| {{Version |o |1.2}}
+| ''rex''
+| style="text-align:right;"| 1996-12-12
+| style="text-align:right;"| 1
+| style="text-align:right;"| 848
+| {{Version |o |1996}}{{Citation needed|date=December 2009}}
+| -
+|-
+| {{Version |o |1.3}}
+| ''bo''
+| style="text-align:right;"| 1997-06-05
+| style="text-align:right;"| 1
+| style="text-align:right;"| 974
+| {{Version |o |1997}}{{Citation needed|date=December 2009}}
+| -
+|-
+| {{Version |o |2.0}}
+| ''hamm''
+| style="text-align:right;"| 1998-07-24
+| style="text-align:right;"| 2
+| style="text-align:right;"|≈&nbsp;1,500
+| {{Version |o |1998}}
+| [[GNU C Library|glibc]] transition, new architecture: <code>m68k</code><ref name="releases" />
+|-
+| {{Version |o |2.1}}
+| ''slink''
+| style="text-align:right;"| 1999-03-09
+| style="text-align:right;"| 4
+| style="text-align:right;"| ≈&nbsp;2,250
+| {{Version |o |2000-12}}
+| <code>APT</code>, new architectures: <code>alpha</code>, <code>sparc</code><ref name="releases" />
+|-
+| {{Version |o |2.2}}
+| ''potato''
+| style="text-align:right;"| 2000-08-15
+| style="text-align:right;"| 6
+| style="text-align:right;"| ≈&nbsp;3,900
+| {{Version |o |2003-04}}
+| New architectures: <code>arm</code>, <code>powerpc</code><ref name="22rel">{{cite mailing list
+| url = http://lists.debian.org/debian-announce/debian-announce-2000/msg00009.html
+| title = Debian GNU/Linux 2.2, the "Joel 'Espy' Klecker" release
+| mailinglist = debian-announce
+| date = 2000-08-15
+| last = Schulze
+| first = Martin}}</ref>
+|-
+| {{Version |o |3.0}}
+| ''woody''
+| style="text-align:right;"| 2002-07-19
+| style="text-align:right;"| 11
+| style="text-align:right;"| ≈&nbsp;8,500
+| {{Version |o |2006-08}}
+| New architectures: <code>hppa</code>, <code>ia64</code>, <code>mips</code>, <code>mipsel</code>, <code>s390</code><ref name="releases" />
+|-
+| {{Version |o |3.1}}
+| ''sarge''
+| style="text-align:right;"| 2005-06-06
+| style="text-align:right;"| 11
+| style="text-align:right;"| ≈&nbsp;15,400
+| {{Version |o | 2008-04}}<ref name="securityfaq" />
+| Modular installer, semi-official <code>amd64</code> support.
+|-
+| {{Version |o |4.0}}
+| ''etch''
+| style="text-align:right;"| 2007-04-08
+| style="text-align:right;"| 11
+| style="text-align:right;"| ≈&nbsp;18,000
+| {{Version |o |2010-02-15}}<ref name="wiki.debian.org-DebianEtch">{{cite web
+| url = http://wiki.debian.org/DebianEtch
+| title = Debian Wiki: Debian Releases > Debian Etch
+| accessdate = 2010-02-16
+| publisher = Debian}}</ref>
+| New architecture: <code>amd64</code>, dropped architecture: <code>m68k</code>.<ref name="40rel">{{cite mailing list
+| mailinglist = debian-announce
+| last = Schmehl
+| first = Alexander
+| url = http://lists.debian.org/debian-announce/debian-announce-2007/msg00002.html
+| title = Debian GNU/Linux 4.0 released
+| date = 2007-04-08}}</ref> Graphical installer, [[udev]] transition, modular [[X.Org Server|X.Org]] transition. Final update 4.0r9 was released 2010-05-22.<ref>{{cite web
+| title = Debian -- News -- Debian GNU/Linux 4.0 updated
+| publisher = Debian
+| url = http://www.debian.org/News/2010/20100522
+| accessdate = 2012-03-12}}</ref>
+|-
+| {{Version |o |5.0}}<ref>{{cite mailing list
+| url = http://lists.debian.org/debian-devel-announce/2008/03/msg00001.html
+| title = Release Update: Release numbering, goals, armel architecture, BSPs
+| mailinglist = debian-announce
+| date = 2008-03-02
+| first = Marc
+| last = Brockschmidt}}</ref>
+| ''lenny''<ref>{{cite mailing list
+| url = http://lists.debian.org/debian-devel-announce/2006/11/msg00004.html
+| title = testing d-i Release Candidate 1 and more release adjustments
+| mailinglist = debian-devel-announce
+| date = 2006-11-16
+| first = Steve
+| last = Langasek}}</ref>
+| style="text-align:right;"| 2009-02-15<ref name="Simó"/>
+| style="text-align:right;"| 12
+| style="text-align:right;"| ≈&nbsp;23,000<ref name="lenny released" />
+| {{Version |o |2012-02-06}}<ref>{{cite mailing list
+| url = http://lists.debian.org/debian-security-announce/2011/msg00238.html
+| title = &#91;SECURITY&#93; &#91;DSA 2360-1&#93; Two month advance notification for upcoming end-of-life for Debian oldstable
+| first = Moritz
+| last = Muehlenhoff
+| date = 2011-12-06
+| mailinglist = debian-security-announce}}</ref>
+| New architecture/binary ABI: <code>armel</code>.<ref>{{cite mailing list
+| url = http://lists.debian.org/debian-devel-announce/2008/06/msg00000.html
+| title = Release Update: arch status, major transitions finished, freeze coming up
+| first = Marc
+| last = Brockschmidt
+| date = 2008-06-02
+| mailinglist = debian-devel-announce}}</ref> [[SPARC]] 32-bit hardware support dropped.<ref>{{cite mailing list
+| url = http://lists.debian.org/debian-devel-announce/2007/07/msg00006.html
+| title = Retiring the sparc32 port
+| last = Smakov
+| first = Jurij
+| mailinglist = debian-devel-announce
+| date = 2007-07-18}}</ref> Full [[Asus Eee PC|Eee PC]] support.<ref>{{cite mailing list
+| url = http://lists.debian.org/debian-devel-announce/2008/08/msg00002.html
+| title = Bits from the Debian Eee PC team, summer 2008
+| mailinglist = debian-devel-announce
+| first = Ben
+| last = Armstrong
+| date = 2008-08-03}}</ref> Final update 5.0.10 was released 2012-03-10.<ref>{{cite web
+| title = Debian -- News -- Updated Debian 5.0: 5.0.10 released
+| publisher = Debian
+| url = http://www.debian.org/News/2012/20120310
+| date = 2012-03-10
+| accessdate = 2012-03-12}}</ref>
+|-
+| {{Version |co |6.0}}<ref name="squeezenotes">{{cite web
+| url = http://www.debian.org/releases/squeeze/releasenotes
+| title = Debian GNU/Linux 6.0: Release Notes
+| publisher = Debian}}</ref>
+| ''squeeze''<ref>{{cite mailing list
+| url = http://lists.debian.org/debian-devel-announce/2008/09/msg00000.html
+| title = Release Update: freeze guidelines, testing, BSP, rc bug fixes
+| mailinglist = debian-devel-announce
+| date = 2008-09-01
+| first = Luk
+| last = Claes
+| accessdate = 2008-10-31}}</ref>
+| style="text-align:right;"| 2011-02-06<ref name="squeeze released" />
+| style="text-align:right;"| 9+2{{Ref label|squeeze|A|A}}
+| style="text-align:right;"| ≈&nbsp;29,000<ref name="squeeze released" />
+| {{Version |co |TBA (expected 2014-05)}}
+| New architectures/kernels: <code>kfreebsd-i386</code>, <code>kfreebsd-amd64</code>, dropped architectures: <code>alpha</code>, <code>hppa</code>, OABI<ref name="Wiki.debian.org">[http://wiki.debian.org/ArmEabiPort#Terminology Wiki.debian.org]</ref> <code>arm</code>.<ref name="squeeze released"/> [[Embedded GLIBC|eglibc]] instead of [[GNU C Library|glibc]].<ref>{{cite web
+| url = http://blog.aurel32.net/?p=47
+| accessdate = 2009-05-21
+| title = Aurelien's weblog: Debian is switching to EGLIBC
+| publisher = Aurélien Jarno}}</ref> Dependency-based boot sequence, which allows for parallel init script processing.<ref>{{cite web|url=http://wiki.debian.org/LSBInitScripts/DependencyBasedBoot |title=LSBInitScripts/DependencyBasedBoot |publisher=Debian Wiki |date= |accessdate=2011-07-27}}</ref> Remove old libraries such as [[GTK+|GTK]]&nbsp;1.<ref>{{cite web|url=http://wiki.debian.org/ReleaseGoals/RemoveOldLibs |title=ReleaseGoals/RemoveOldLibs |publisher=Debian Wiki |date= |accessdate=2011-07-27}}</ref> Default Linux kernel purged of non-free firmware.<ref name="free kernel"/>
+|-
+| {{Version |c |7}}<ref name="wheezynotes">{{cite web
+| url = http://www.debian.org/releases/wheezy/releasenotes
+| title = Debian GNU/Linux 7.0: Release Notes
+| accessdate = 2013-05-04
+| publisher = Debian}}</ref>
+| ''wheezy''<ref name="wheezy-codename-devel-announcement"/>
+| style="text-align:right;"| 2013-05-04<ref name="http://www.debian.org/News/2013/20130504">{{cite web|url=http://www.debian.org/News/2013/20130504|title=Debian 7.0 Wheezy released|publisher=Debian|accessdate=2013-05-05}}</ref>
+| style="text-align:right;"| 11+2{{Ref label|wheezy|B|B}}
+| style="text-align:right;"| ≈&nbsp;37,000<ref name="http://www.debian.org/News/2013/20130504"/>
+| {{Version |c |TBA}}
+| New architectures: <code>armhf</code>­,<ref>{{cite web|url=http://wiki.debian.org/ArmHardFloatPort |title=ArmHardFloatPort - Debian Wiki |publisher=Wiki.debian.org |date=2012-08-20}}</ref> <code>s390x</code>.<ref>{{cite web|url=https://lists.debian.org/debian-devel-announce/2012/06/msg00003.html |title=Bit from the Release Team: armhf and s390x |publisher=debian.org |date=2012-06-07 |accessdate=2011-06-14}}</ref> Remove old libraries such as [[Qt (framework)|Qt]]&nbsp;3.<ref>{{cite web|url=http://ekaia.org/blog/2011/02/07/post-and-pre-release-fun/ |title=Ana’s blog » Blog Archive » post and pre-release fun |publisher=Ekaia.org |date=2011-02-07 |accessdate=2011-07-27}}</ref> Introduce multiarch support.<ref>{{cite web|title=Debian 7 Wheezy to introduce multiarch support|url=http://www.debian.org/News/2011/20110726b|work=Debian|accessdate=27 July 2011}}</ref>
+|-
+| {{Version |p |8}}<ref name="jessie-codename-devel-announcement"/>
+| ''jessie''<ref name="jessie-codename-devel-announcement"/>
+| style="text-align:right;"| TBA
+| style="text-align:right;"| TBA
+| style="text-align:right;"| TBA
+| {{Version |p |TBA}}
+| style="text-align:right;"| TBA
+|}
+:{{note label|squeeze|A|A}} 9 architectures with Linux kernel + 2 architectures with kernel of FreeBSD<ref name="squeeze released" />
+:{{note label|wheezy|B|B}} 11 architectures with Linux kernel + 2 architectures with kernel of FreeBSD
+
+{{Timeline Debian GNU/Linux}}
+
+Due to an incident involving a CD vendor who made an unofficial and broken release labeled ''1.0'', an official 1.0 release was never made.<ref name="releases" />
+
+=== 1993–1998 ===
+Debian was first announced on 16 August 1993 by [[Ian Murdock]], who initially called the system "the Debian Linux Release".<ref>{{cite web | url=http://www.debian.org/doc/manuals/project-history/ch-intro.en.html | title=A Brief History of Debian: Introduction: What is the Debian Project? | publisher=Debian | accessdate=2008-05-12}}</ref><ref>{{cite newsgroup | author = Ian A Murdock | title = New release under development; suggestions requested | url = https://groups.google.com/group/comp.os.linux.development/msg/a32d4e2ef3bcdcc6?dmode=source&output=gplain&noredirect | id = CBusDD.MIK@unix.portal.com | date = 1993-08-16 | newsgroup = comp.os.linux.development | accessdate = 2012-06-13}}</ref> The word "Debian" was formed as a [[portmanteau|combination]] of the first name of his then-girlfriend Debra Lynn and his own first name.<ref>{{cite book
+|last = Nixon
+|first = Robin
+|title = Ubuntu: Up and Running
+|page = 3
+|publisher = [[O'Reilly Media]]
+|year = 2010
+|isbn = 978-0-596-80484-8
+|url = http://books.google.com/books?id=badSTnfeOoAC
+}}</ref> Prior to Debian's release, the [[Softlanding Linux System]] (SLS) had been the first Linux distribution compiled from various software packages, and was a popular basis for other distributions in 1993-1994.<ref name="grassroots">{{cite web | title = Debian and the grass roots of Linux | url = http://www.itpro.co.uk/applications/features/135084/debian-and-the-grass-roots-of-linux.html | last = Hillesley | first = Richard | date = 2007-11-05 | accessdate = 2008-10-31}}{{dead link|date=July 2013}}</ref> The perceived poor maintenance and prevalence of [[software bug|bugs]] in SLS motivated Murdock to launch a new distribution.<ref>{{cite newsgroup|newsgroup=comp.oslinux.development| last = Murdock | first = Ian A | title = NNTP Subject: New release under development; suggestions requested | url = http://groups.google.com/group/comp.os.linux.development/msg/a32d4e2ef3bcdcc6 |id=CBusDD.MIK@unix.portal.com| date = 1993-08-16 | accessdate = 2007-08-17}}</ref>
+
+In 1993 Murdock also released the ''Debian Manifesto'', outlining his view for the new [[operating system]].<ref>{{cite web|title=Appendix A: The Debian Manifesto|url=http://www.debian.org/doc/manuals/project-history/ap-manifesto.en.html|publisher=Debian|accessdate=2008-08-13}}</ref> In it he called for the creation of a [[Linux distribution|distribution]] to be maintained in an open manner, in the spirit of Linux and GNU.
+
+The Debian Project grew slowly at first and released the first 0.9x versions in 1994 and 1995. During this time it was sponsored by the [[Free Software Foundation]]'s [[GNU Project]].<ref>{{cite web|url=http://www.debian.org/doc/manuals/project-history/ch-intro.en.html#s1.1 |work=A Brief History of Debian | title = What is the Debian Project? |publisher=Debian.org |date= |accessdate=2011-07-27}}</ref> The first ports to other, non-[[Intel 80386|i386]] architectures began in 1995, and the first 1.x version of Debian was released in 1996.
+
+In 1996, [[Bruce Perens]] replaced Ian Murdock as the project leader. Perens decided to create a [[social contract]] for Debian to guarantee the future freedom of the system's contents. He created a first draft, and edited suggestions from a month-long discussion on the Debian mailing lists into the [[Debian Social Contract]] and the [[Debian Free Software Guidelines]], defining fundamental commitments for the development of the distribution. He also initiated the creation of the legal [[umbrella organization]], [[Software in the Public Interest]].<ref name="releases" />
+Perens developed the project from 40 to 200 developers. He broke apart the "base system", the core packages of Debian, which had been maintained by Murdock alone, and distributed them to many maintainers. He led the conversion of the project from [[a.out]] to [[Executable and Linkable Format|ELF]]. He created the [[BusyBox]] program to make it possible to run a Debian installer on a single floppy, and wrote a new installer. Perens was also responsible for many policy and design elements of Debian that persist to this day.  Perens left the project in 1998.
+
+=== 1999–2004 ===
+The Project elected new leaders and made two more 2.x releases, each including more ports and packages. The [[Advanced Packaging Tool]] was deployed during this time and the first port to a non-Linux kernel, [[Debian GNU/Hurd]], was started. The first [[Linux distribution]]s based on Debian, namely [[Libranet]], [[Corel Linux]] and [[Stormix]]'s Storm Linux, were started in 1999.<ref name="releases" /> The 2.2 release in 2000 was dedicated to Joel Klecker, a developer who died of [[Duchenne muscular dystrophy]].<ref name="espy">{{cite web|url=http://www.debian.org/News/2000/20000815 |title=Debian GNU/Linux 2.2, the "Joel 'Espy' Klecker" release, is officially released |publisher=Debian.org |date=2000-08-15 |accessdate=2011-07-27}}</ref>
+
+In late 2000, the project made major changes to archive and release management, reorganizing software archive processes with new "package pools" and creating a testing distribution as an ongoing, relatively stable staging area for the next release. In the same year, developers began holding an annual conference called ''[[DebConf]]'' with talks and workshops for developers and technical users.<ref name="releases" />
+
+In July 2002, the Project released version 3.0, codenamed ''woody'', a stable release which would see relatively few updates until the following release.<ref name="releases" />
+
+=== 2005–present ===
+[[File:Debian Etch-ja.png|thumb|250px|Debian 4.0 "Etch" (2007)]]
+The 3.1 ''sarge'' release was made in June 2005. There were many major changes in this release, mostly due to the long time it took to freeze and release the distribution. Not only did this release update over 73% of the software shipped in the prior version, but it also included much more software than prior releases, almost doubling in size with over 9,000 new packages.<ref name=sargenew>{{cite web |url = http://www.debian.org/releases/sarge/i386/release-notes/ch-whats-new.en.html |title = Chapter 2 - What's new in Debian GNU/Linux 3.1 |publisher = Debian |accessdate = 2010-08-05}}</ref> A new installer replaced the aging boot-floppies installer with a modular design. This allowed advanced installations (with RAID, XFS and LVM support) including hardware detection, making installations easier for novice users. The installation system also boasted full internationalization support as the software was translated into almost forty languages. An installation manual and comprehensive release notes were released in ten and fifteen different languages respectively. This release included the efforts of the Debian-Edu/[[Skolelinux]], [[Debian-Med]] and Debian-Accessibility sub-projects which raised the number of packages that were educational, had a medical affiliation, and ones made for people with disabilities.<ref name="releases" />
+
+In 2006, as a result of a much-publicized dispute, [[Mozilla Corporation software rebranded by the Debian project|Mozilla software was rebranded in Debian]], with [[Firefox]] becoming Iceweasel, [[Mozilla Thunderbird|Thunderbird]] becoming Icedove, along with other Mozilla programs. The Mozilla Corporation stated that Debian may not use the Firefox trademark if it distributes Firefox with modifications which have not been approved by the Mozilla Corporation. Two prominent reasons that Debian modifies the Firefox software are to change the artwork and to provide security patches. [[Debian Free Software Guidelines]] consider Mozilla's artwork ''non-free''. Debian provides long term support for older versions of Firefox in the ''stable'' release, where Mozilla preferred that old versions not be supported but has since included Legacy versions of programs. These software programs developed largely by the Mozilla Corporation were [[rebranding|rebranded]] despite having only minor differences in the source code.<ref>{{cite web | url = http://www.linux.com/feature/57675 | publisher = linux.com | title = Behind the Debian and Mozilla dispute over use of Firefox | date = 2006-10-10 | first= Lisa | last= Hoover | accessdate = 2009-02-09}}</ref>
+
+Debian 4.0 (''etch'') was released April 8, 2007 for the same number of architectures as in ''sarge''. It included the AMD64 port but dropped support for [[Motorola 68000 family|m68k]]. The m68k port was, however, still available in the unstable distribution. There were approximately 18,200 binary packages maintained by more than 1,030 Debian developers.<ref name="releases" />
+
+[[File:Debian 6.0.2.1.png|thumb|250px|Debian 6.0 "Squeeze" (2011)]]
+
+Debian 5.0 (''lenny'') was released February 14, 2009 after 22 months of development. It includes more than 25,000 software packages. Support was added for Marvell's [[Orion (system-on-a-chip)|Orion]] platform and for netbooks such as the [[Asus Eee PC]], but support was dropped for 32-bit SPARC machines.<ref name="lenny released">{{cite web |url=http://www.debian.org/News/2009/20090214.en.html |title=Debian GNU/Linux 5.0 released |accessdate=2009-02-15 |publisher=Debian |date= 2009-02-14}}</ref> The release was dedicated to Thiemo Seufer, an active developer and member of the community who died in a car accident on December 26, 2008.<ref name="thiemo">{{cite web |url=http://www.debian.org/releases/stable/i386/release-notes/apc.en.html |title=Appendix C. Lenny dedicated to Thiemo Seufer |accessdate=2009-02-22 |publisher=Debian |date= 2009-02-14}}{{dead link|date=July 2013}}</ref>
+
+On September 5, 2010, Debian officially acquired the [[backporting|backports]] service, which provides more recent versions of some software for the stable release of Debian.<ref name="DBP">{{cite web|url=http://www.debian.org/News/2010/20100905|title= Debian -- News -- Backports service becoming official|accessdate= 13 September 2010}}</ref>
+
+Debian 6.0 (''squeeze'') was released February 6, 2011 after 24 months of development. For the first time, [[Debian GNU/kFreeBSD]] was introduced with this version as a technology preview.<ref name="squeeze released">{{cite web | title = Debian 6.0 "Squeeze" released | publisher = Debian -- News | url = http://www.debian.org/News/2011/20110205a | date = 2011-02-06 | accessdate = 2011-02-06}}</ref>
+
+Debian 7.0 (''wheezy'') was released May 4, 2013 after 26 months of development. This release attempted to allow more architectures to be supported.<ref name="wheezy released">{{cite web | title = Debian 7.0 "Wheezy" released | publisher = Debian -- News | url = http://www.debian.org/News/2013/20130504 | date = 2013-05-04 | accessdate = 2013-05-05}}</ref>
+
+== Reception ==
+Debian was ranked second only to [[Ubuntu (operating system)|Ubuntu]] (which is derived from Debian) for ''Most Used Linux Distribution'' for both personal and organizational use in a 2007 survey by ''SurveyMonkey.com''.<ref>{{cite web | title = 2007 Linux Desktop/Client Survey Results | url = http://www.surveymonkey.com/sr.aspx?sm=WE9PoU_2bO_2b9Incc1aPjQTMvqIHQ7sZ6Y5sA1yP920aDE_3d | publisher = surveymonkey.com | accessdate = 2008-11-02}}</ref> Debian won the 2007 poll on ''Server Distribution of the Year'' by ''[[LinuxQuestions.org]]''.<ref>{{cite web | title = 2007 LinuxQuestions.org Members Choice Awards | publisher = LinuxQuestions.org | url = http://www.linuxquestions.org/questions/2007-linuxquestions.org-members-choice-awards-79/server-distribution-of-the-year-610200/ | accessdate = 2008-11-02}}</ref>
+
+Both the Debian distribution and their website have won various awards from different organizations. Debian was awarded the 2004 Readers' Choice Award for ''Favorite Linux Distribution'' by the ''[[Linux Journal]]''.<ref>{{cite web | title = 2004 Readers' Choice Awards | url = http://www.linuxjournal.com/article/7724 | publisher = linuxjournal.com | date = 2004-11-01 | accessdate = 2008-11-02}}</ref> A total of fifteen other awards have been awarded throughout Debian's lifetime including ''Best Linux Distribution''.<ref>{{cite web | title = Awards | url = http://www.debian.org/misc/awards | publisher = Debian | accessdate = 2008-11-02}}</ref>
+
+Debian has also received negative assessments. In May 2008, a Debian Developer revealed his discovery that changes made in 2006 to the [[Random number generation|random number generator]] in the version of the [[OpenSSL]] package distributed with Debian and other Debian-based distributions such as [[Ubuntu (operating system)|Ubuntu]] or [[Knoppix]], made a variety of security keys vulnerable to a [[random number generator attack]].<ref>{{cite web | url = http://www.debian.org/security/2008/dsa-1571 | title = DSA-1571-1 openssl: predictable random number generator | accessdate = 2008-10-31 | publisher = Debian}}</ref><ref>{{cite web | url = http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-0166 | title = CVE-2008-0166 (under review) | accessdate = 2008-10-31 | publisher = mitre.org}}</ref> The security weakness was caused by changes made to the OpenSSL code by another Debian Developer in response to memory debugger warnings.<ref>{{cite web | url = http://cryptogon.com/?p=2635 | publisher = cryptogon.com | title = Debian OpenSSL Security Flaw | accessdate = 2008-10-31 | date = 2008-05-26}}</ref> The security hole was soon patched by Debian and others, but the complete resolution procedure was cumbersome for users because it involved regenerating all affected keys, and it drew criticism to Debian's practice of making Debian-specific changes to software.
+
+[[Richard Stallman]] and the [[Free Software Foundation]] (FSF) have criticized the Debian Project for providing the ''non-free'' repository, rather than excluding this type of software entirely,<ref name="fsf">{{cite web | url = http://www.gnu.org/philosophy/common-distros.html | title = Explaining Why We Don't Endorse Other Systems | accessdate = 2009-09-28 | publisher = Free Software Foundation}}</ref> an opinion also echoed by some in Debian including the then-Project Leader [[Wichert Akkerman]].<ref>{{cite mailing list | url = http://lists.debian.org/debian-vote/1999/06/msg00043.html | mailinglist = debian-devel | title = Moving contrib and non-free <nowiki>[out]</nowiki> of master.debian.org | first = [[Wichert Akkerman]] | date = 1999-06-21}}</ref> The internal dissent in the Debian Project regarding the ''non-free'' section has persisted, but the last time it came to a vote in 2006, a large majority decided to keep it.<ref name="nonfreeremovalvote">{{cite web | url = http://www.debian.org/vote/2004/vote_002 | title = General Resolution: Status of the non-free section | accessdate = 2009-09-28 | publisher = Debian}}</ref>
+
+During the release cycles of ''Woody'' and ''Sarge'', the Debian Project drew considerable criticism from the free software community because of the long time between ''stable'' releases.
+
+When in need of updated versions of software, it is possible to use Debian ''testing'' instead of ''stable'' as it usually contains more modern, though slightly less stable packages. Another alternative is to use Debian [[backporting|backports]], which are "recompiled packages from testing (mostly) and unstable (in a few cases only, e.g. security updates), so they will run without new libraries (wherever it is possible) on a stable Debian distribution".<ref>{{cite web | url = http://backports-master.debian.org | title = Debian Backports | publisher = Debian Project | accessdate = 2012-08-19}}</ref>
+
+== See also ==
+{{Portal|Free software|Linux}}
+* [[Comparison of Linux distributions]]
+* [[DCC Alliance]]
+* [[List of Linux distributions]]
+
+== References ==
+{{Reflist|colwidth=30em}}
+
+== Further reading ==
+* {{cite book | last = Hertzog | first = Raphaël | title = The Debian Administrator's Handbook | publisher = Lulu Press | year = 2012 | page = 495 | url = http://debian-handbook.info/browse/stable/ | isbn = 9791091414005}}
+* {{cite book | last = Krafft | first = Martin F. | title = The Debian System | publisher = No Starch Press | year = 2005 | location = U.S.A. | page = 608 | url = http://www.debiansystem.info | isbn = 1-59327-069-0}}
+* {{cite book | last = Mako Hill | first = Benjamin | authorlink = Benjamin Mako Hill | title = Debian GNU/Linux 3.1 Bible | publisher = John Wiley & Sons | year = 2005 | page = 672 | isbn = 0-7645-7644-5}}
+* {{cite book | last = Jurzik | first = Heike | title = Debian GNU / Linux | publisher = Galileo Press GmbH | year = 2005 | page = 630 | isbn = 3-89842-627-0}}
+* {{cite book | last = Schoblick | first = Robert | title = Debian / GNU Linux | publisher = BHV Verlag | year = 2005 | page = 767 | isbn = 3-8266-8151-7}}
+* {{cite book | last = Bellomo | first = Michael | title = Debian GNU/Linux for Dummies | publisher = Hungry Minds | year = 2000 | page = 324 | isbn = 0-7645-0713-3}}
+* {{cite book | last = McCarty | first = Bill | title = Learning Debian GNU/Linux | publisher = O'Reilly | year = 1999 | page = 360 | isbn = 1-56592-705-2}}
+* {{cite book | last = Goerzen | first = John | authorlink = John Goerzen | title = Debian Gnu/Linux: Guide to Installation and Usage | publisher = New Riders Pub | year = 1999 | page = 158 | isbn = 0-7357-0914-9}}
+* {{cite book | last = Scheetz | first = Dale | title = The Debian Linux User's Guide | publisher = Linux Press | year = 1998 | page = 268 | isbn = 0-9659575-1-9}}
+
+== External links ==
+{{sisterlinks |wikt=no |n=no |q=no |s=no |voy=no}}
+* {{Official website|http://www.debian.org|Official Debian website}}
+* {{Official website|http://live.debian.net|Official Debian Live website}}
+* {{Official website|http://wiki.debian.org|Official Debian wiki}}
+* {{Distrowatch|debian|NAME=Debian GNU/Linux}}
+
+{{Debian}}
+{{MATE}}
+{{Xfce}}
+{{LXDE}}
+{{Linux-distro}}
+
+[[Category:Debian| ]]
+[[Category:Debian-based distributions]]
+[[Category:1993 introductions]]
+[[Category:1993 software]]
+[[Category:X86-64 Linux distributions]]
+[[Category:Free software culture and documents]]
+[[Category:Cross-platform software]]
+[[Category:Debian Project leaders| ]]
+[[Category:Debian people| ]]
+
+{{Link FA|ar}}

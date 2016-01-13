@@ -1,0 +1,42 @@
+[[Image:12AE10CompactronTube.jpg|thumb|upright|12AE10 Compactron tube (a dual pentode), made by GE]]
+'''Compactrons''' are a type of [[vacuum tube|thermionic valve]], or  vacuum tube, which contain arrangements of [[diode]]s, [[triode]]s, or [[pentode]]s in multiple combination arrays, as well as high or low-[[voltage]] and power types.
+
+== History ==
+The '''Compactron''' is a 12-pin [[vacuum tube]] family introduced in 1961 by [[General Electric]] in [[Owensboro, Kentucky]] <ref>Electronic Design</ref> to compete with transistorized electronics during the [[Solid state (electronics)|solid state]] transition.<ref>junkbox</ref> [[Television]] sets were a primary application.
+
+Use was prevalent in televisions because transistors were slow to achieve the high power and frequency capabilities needed particularly in color television sets. The first portable color television, the General Electric [[Porta-Color]], was designed using 13 tubes, 10 of which were Compactrons. 
+
+Compactron's integrated valve design helped lower power consumption and heat generation (they were to tubes what [[integrated circuits]] were to [[transistors]]). Compactrons were also used in a few high end Hi-Fi stereos.<ref>junkbox</ref> No modern tube based Hi-Fi systems are known to use this tube type, as simpler and more readily available tubes have again filled this niche.
+
+== Notable features ==
+[[Image:Duodekar.JPG|thumb|right|The evacuation tip is in the center of the circular pin pattern.]]
+A distinguishing feature of most Compactrons is the placement of the [[evacuation tip]] on the bottom end, rather than the top end as was customary with "miniature" tubes, and a characteristic 3/4" diameter circle pin pattern.
+* Most Compactrons ranged in glass envelope diameter from 1{{fraction|1|8}}" to 2{{fraction|3|4}}" depending upon the internal configuration. Variations of the Compactron design were made by [[Osram Sylvania|Sylvania]] and by some Japanese firms.
+
+== Design variations ==
+Examples of Compactrons type types include:
+*6AG11 high-mu twin triode
+*6M11 twin triode - pentode
+*6K11 triple triode
+*6LF6 beam power tetrode with anode cap
+*8B10 twin triode - twin diode
+*12AE10 twin pentode
+*38HK7 pentode diode
+
+Due to their specific applications in television circuits, many different Compactron types were produced. Almost all were assigned using standard US tube numbers.
+
+== Technological obsolescence ==
+Integrated circuits (of the analogue and digital type) gradually took over all of the functions that the Compactron was designed for. "Hybrid" television sets produced in the early to mid-1970s made use of a combination of tubes (typically Compactrons), transistors, and integrated circuits in the same set. By the mid-1980s this type of tube was functionally obsolete. Compactrons simply don't exist in any TV sets designed after 1986. Other specialist uses of the tube declined in parallel with the television set manufacture. Manufacture of Compactrons ceased in the early 1990s. New old stock replacements for almost all Compactron types produced are easily found for sale on the Internet.
+
+==Notes==
+{{reflist}}
+
+== References ==
+{{Refbegin}}
+*<cite id=junkbox>{{cite web |url=http://www.junkbox.com/electronics/CompactronTubesIndex.shtml  |title=Compactron Tubes: A Junkbox Guide |publisher=Copperwood Media LLC. |first=Jeff |last=Duntemann |year=2008 |accessdate=2009-11-03}}</cite>
+*<cite id=Electronic Design>{{cite web |url=http://electronicdesign.com/Articles/Index.cfm?AD=1&ArticleID=4554 |title=Multi-Function Compactrons Promise Two-Tube Radio |publisher=Electronic Design |page=74 |date=July 20, 1960 |accessdate=2009-11-03}}</cite>
+{{refend}}
+
+{{Electronic component}}
+
+[[Category:Vacuum tubes]]

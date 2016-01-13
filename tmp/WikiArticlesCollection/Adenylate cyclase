@@ -1,0 +1,90 @@
+{{Refimprove|date=November 2007}}
+{{enzyme
+| Name = Adenylate cyclase
+| EC_number = 4.6.1.1
+| CAS_number = 9012-42-4
+| IUBMB_EC_number = 4/6/1/1
+| GO_code = 0008294
+| image =
+| width = 
+| caption = Epinephrine binds its receptor, that associates with a heterotrimeric G protein. The G protein associates with adenylate cyclase, which converts ATP to cAMP, spreading the signal.<ref>[http://www.pdb.org/pdb/static.do?p=education_discussion/molecule_of_the_month/pdb58_1.html G Proteins]. PDB-101.</ref>
+}}
+
+'''Adenylate cyclase''' ({{EC number|4.6.1.1}}, also known as '''adenylyl cyclone''', '''adenyl cyclon''' or '''AC'''), or more correctly  known as adenylyl cyclase, is an enzyme with key regulatory roles in nearly all cells. It is the most [[Polyphyly|polyphyletic]] known enzyme: six distinct classes have been described, all catalyzing the same reaction but representing unrelated gene families with no known sequence or structural homology. The best known AC class is class III or AC-III (Roman numerals are used for classes). AC-III occurs widely in eukaryotes and has important roles in many human tissues.
+
+All classes of AC [[catalysis|catalyze]] the conversion of [[Adenosine triphosphate|ATP]] to [[cyclic AMP|3',5'-cyclic AMP]] (cAMP) and [[pyrophosphate]]. Divalent cations (usually Mg) are generally required and appear to be closely involved in the enzymatic mechanism. The cAMP produced by AC then serves as a regulatory signal via specific cAMP-binding proteins, either transcription factors or other enzymes (e.g., cAMP-dependent kinases).
+
+[[Image:adenylate kinase.png|thumb|500px|center|Adenylate Cyclase catalyzes the conversion of [[Adenosine triphosphate|ATP]] to [[cyclic AMP|3',5'-cyclic AMP]]]]
+
+==Class I AC==
+Class I AC's occur in many bacteria including ''E. coli''. This was the first class of AC to be characterized. It was observed that ''E. coli'' deprived of glucose produce cAMP that serves as an internal signal to activate expression of genes for importing and metabolizing other sugars. cAMP exerts this effect by binding the transcription factor [[cAMP receptor protein|CRP]], also known as CAP. Class I AC's are large cytosolic enzymes (~100 kDa) with a large regulatory domain (~50 kDa) that indirectly senses glucose levels. As of 2012, no crystal structure is available for class I AC.
+
+==Class II AC==
+These AC's are toxins secreted by pathogenic bacteria such as ''Bacillus anthracis'' and ''Bordetella pertussis'' during infection. These bacteria also secrete proteins that enable the AC-II to enter host cells, where the exogenous AC activity undermines normal cellular processes. The genes for Class II AC's are known as [[cyaA]]. Several crystal structures are known for AC-II enzymes.
+
+==Class III AC==
+These AC's are the most familiar based on extensive study due to their important roles in human health. They are also found in some bacteria, notably ''Mycobacterium tuberculosis'' where they appear to have a key role in pathogenesis. Most AC-III's are integral membrane proteins involved in transducing extracellular signals into intracellular responses. A Nobel Prize was awarded to Earl Sutherland in 1971 for discovering the key role of AC-III in human liver, where adrenaline indirectly stimulates AC to mobilize stored energy in the "fight or flight" response. The effect of adrenaline is via a [[G protein]] signaling cascade, which transmits chemical signals from outside the cell across the membrane to the inside of the cell ([[cytoplasm]]). The outside signal (in this case, adrenaline) binds to a receptor, which transmits a signal to the G protein, which transmits a signal to adenylate cyclase, which transmits a signal by converting [[adenosine triphosphate]] to [[cyclic adenosine monophosphate]] (cAMP). cAMP is known as a [[second messenger]].<ref name="Campbell">{{cite book | author = Reece J, Campbell N | title = Biology | publisher = Benjamin Cummings | location = San Francisco | year = 2002 | pages = 207 | isbn = 0-8053-6624-5 }}</ref>
+
+cAMP (cyclic adenosine monophosphate) is an important molecule in [[eukaryote|eukaryotic]] [[signal transduction]], a so-called [[second messenger]]. Adenylate cyclases are often activated or inhibited by [[G protein]]s, which are coupled to membrane receptors and thus can respond to hormonal or other stimuli. Following activation of adenylate cyclase, the resulting cAMP acts as a second messenger by interacting with and regulating other proteins such as [[protein kinase A]] and [[HCN channel|cyclic nucleotide-gated ion channels]].
+
+Photoactivatable adenylate cyclase (PAC) was discovered in ''E. gracilis'' and can be expressed in other organisms through genetic manipulation. Shining blue light on a cell containing PAC activates it and abruptly increases the rate of conversion of ATP to cAMP. This is a useful technique for researchers in neuroscience because it allows them to quickly increase the intracellular cAMP levels in particular neurons, and to study the effect of that increase in neural activity on the behavior of the organism. For example, PAC expression in certain neurons has been shown to alter the grooming behavior in fruit flies exposed to blue light.<ref name="pmid17128267">{{cite journal | author = Schröder-Lang S, Schwärzel M, Seifert R, Strünker T, Kateriya S, Looser J, Watanabe M, Kaupp UB, Hegemann P, Nagel G | title = Fast manipulation of cellular cAMP level by light in vivo | journal = Nat. Methods | volume = 4 | issue = 1 | pages = 39–42 | year = 2007 | month = January | pmid = 17128267 | doi = 10.1038/nmeth975  }}</ref> [[Channelrhodopsin-2]] is also used in a similar fashion.
+
+===AC-III structure===
+[[Image:Adenylyl cyclase.png|thumb|Structure of adenylate cyclase]]
+Most class III adenylyl cyclases are transmembrane [[protein]]s with 12 transmembrane segments. The protein is organized with 6 transmembrane segments, then the C1 cytoplasmic domain, then another 6 membrane segments, and then a second cytoplasmic domain called C2. The important parts for function are the N-terminus and the C1 and C2 regions. The C1a and C2a subdomains are homologous and form an intramolecular 'dimer' that forms the active site. In ''Mycobacterium tuberculosis'',  the AC-III polypeptide is only half as long, comprising one 6-transmembrane domain followed by a cytoplasmic domain, but two of these form a functional homodimer that resembles the mammalian architecture.
+
+===Types of AC-III===
+There are ten known isoforms of adenylate cyclases in [[mammal]]s:
+{{refbegin|3}}
+* [[ADCY1]]
+* [[ADCY2]]
+* [[ADCY3]]
+* [[ADCY4]]
+* [[ADCY5]]
+* [[ADCY6]]
+* [[ADCY7]]
+* [[ADCY8]]
+* [[ADCY9]]
+* [[ADCY10]]
+{{refend}}
+These are also sometimes called simply AC1, AC2, etc., and, somewhat confusingly, sometimes Roman numerals are used for these isoforms that all belong to the overall AC class III. They differ mainly in how they are regulated, and are differentially expressed in various tissues throughout mammalian development.
+
+===AC-III regulation===
+Adenylate cyclase is dually regulated by [[G protein]]s (Gs stimulating activity and Gi inhibiting it), and by [[forskolin]], as well as other isoform-specific effectors:
+* Isoforms III, V and VIII are also stimulated by [[calcium|Ca<sup>2+</sup>]]/[[calmodulin]].
+* Isoforms I and VI are inhibited by Ca<sup>2+</sup> in a calmodulin-independent manner.
+* Isoforms II, IV and IX are stimulated by beta gamma subunits of the G protein.
+* Isoforms I, V and VI are most clearly inhibited by Gi, while other isoforms show less dual regulation by the inhibitory G protein.
+* Soluble AC (sAC) is not a transmembrane form and is not regulated by G proteins or forskolin, inste ad acts as a bicarbonate/pH sensor. sAC is present within mitochondria.<ref name="pmid19254571">{{cite journal | author = Acin-Perez R, Salazar E, Kamenetsky M, Buck J, Levin LR, Manfredi G | title = Cyclic AMP produced inside mitochondria regulates oxidative phosphorylation | journal = Cell Metab. | volume = 9 | issue = 3 | pages = 265–76 | year = 2009 | month = March | pmid = 19254571 | pmc = 2684673 | doi = 10.1016/j.cmet.2009.01.012 }}</ref>
+In [[neuron]]s, calcium-sensitive adenylate cyclases are located next to calcium [[ion channel]]s for faster reaction to Ca<sup>2+</sup> influx; they are suspected of playing an important role in learning processes. This is supported by the fact that adenylate cyclases are ''coincidence detectors'', meaning that they are activated only by several different signals occurring together.  In peripheral cells and tissues adenylate cyclases appear to form molecular complexes with specific receptors and other signaling proteins in an isoform-specific manner.
+
+==Class IV==
+
+AC-IV was first reported in the bacterium ''Aeromonas hydrophila'', and the structure of the AC-IV from ''Yersinia pestis'' has been reported. These are the smallest of the AC enzyme classes; the AC-IV from ''Yersinia'' is a dimer of 19 kDa subunits with no known regulatory components.
+
+==Class V and VI==
+These forms of AC have been reported in specific bacteria (''Prevotella ruminicola'' and ''Rhizobium etti'', respectively) and have not been extensively characterized.
+
+==Additional images==
+<gallery>
+ Image:BARK10161982.JPG|[[Beta adrenergic receptor kinase]] pathway
+</gallery>
+
+==References==
+{{Reflist}}
+
+== Further reading ==
+{{refbegin}}
+* {{cite book | author =  Sodeman W, Sodeman T | title = Sodeman's Pathologic Physiology: Mechanisms of Disease | publisher = W B Saunders Co | year = 2005 | pages = 143-145 | chapter = Physiologic- and Adenylate Cyclase-Coupled Beta-Adrenergic Receptors | isbn = 978-0721610108 }}
+{{refend}}
+
+==External links==
+* {{MeshName|Adenylate+cyclase}}
+* Interactive 3D views of Adenylate cyclase at {{Proteopedia|Adenylyl_cyclase}}
+
+{{Phosphorus-oxygen lyases}}
+
+{{DEFAULTSORT:Adenylate Cyclase}}
+[[Category:EC 4.6.1]]
+[[Category:Cell signaling]]
+[[Category:Signal transduction]]

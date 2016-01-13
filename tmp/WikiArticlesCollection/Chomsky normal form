@@ -1,0 +1,79 @@
+In [[formal language]] theory, a [[context-free grammar]] is said to be in '''Chomsky normal form''' if all of its production rules are of the form:
+: <math>A \rightarrow BC</math> or
+: <math>A \rightarrow \alpha</math> or
+: <math>S \rightarrow \varepsilon</math>
+where <math>A</math>, <math>B</math> and <math>C</math> are nonterminal symbols, α is a [[terminal symbol]] (a symbol that represents a constant value), <math>S</math> is the start symbol, and ε is the [[empty string]].  Also, neither <math>B</math> nor <math>C</math> may be the start symbol, and the third production rule can only appear if ε is in L(G), namely, the language produced by the Context-Free Grammar G.
+
+Every grammar in Chomsky normal form is [[context-free grammar|context-free]], and conversely, every context-free grammar can be transformed into an equivalent one which is in Chomsky normal form. Several algorithms for performing such a transformation are known. Transformations are described in most textbooks on automata theory, such as Hopcroft and Ullman, 1979.<ref>* John E. Hopcroft, Rajeev Motwani, and Jeffrey D. Ullman. ''Introduction to Automata Theory, Languages, and Computation'', 3rd Edition, Addison-Wesley, 2006. ISBN 0-321-45536-3 ''(see subsection 7.1.5, page 272.)''</ref> As pointed out by Lange and Leiß,<ref>[http://ddi.cs.uni-potsdam.de/InformaticaDidactica/LangeLeiss2009.pdf Lange, Martin and Leiß, Hans. ''To CNF or not to CNF? An Efficient Yet Presentable Version of the CYK Algorithm.'' Informatica Didactica 8, 2009.]</ref> the drawback of these transformations is that they can lead to an undesirable bloat in grammar size. The size of a grammar is the sum of the sizes of its production rules, where the size of a rule is one plus the length of its right-hand side. Using <math>|G|</math> to denote the size of the original grammar <math>G</math>, the size blow-up in the worst case may range from <math>|G|^2</math> to <math>2^{2 |G|}</math>, depending on the transformation algorithm used.
+
+==Alternative definition==
+Another way to define Chomsky normal form (e.g., Hopcroft and Ullman 1978,and Hopcroft et al. 2006) is:
+
+A [[formal grammar]] is in '''Chomsky reduced form''' if all of its production rules are of the form:
+: <math>A \rightarrow\, BC</math> or
+: <math>A \rightarrow\, \alpha</math>
+
+where <math>A</math>, <math>B</math> and <math>C</math> are nonterminal symbols, and α is a [[terminal symbol]].  When using this definition, <math>B</math> or <math>C</math> may be the start symbol.  Only those context-free grammars which do not generate the empty string can be transformed into Chomsky reduced form.
+
+==Converting a grammar to Chomsky Normal Form==
+# Introduce <math>S_0</math></dt>
+#: Introduce a new start variable, <math>S_0 </math> and a new rule <math>S_0 \rightarrow S</math> where <math>S </math> is the previous start variable.</dd>
+# Eliminate all ''<math>\varepsilon</math> rules''</dt>
+#: <math>\varepsilon</math> rules are rules of the form <math>A \rightarrow \varepsilon</math> where <math>A \not= S_0</math> and <math>A \in V</math> where <math>V</math> is the [[Context-free grammar|CFG]]'s variable alphabet.
+#: Remove every rule with <math>\varepsilon</math> on its right hand side (RHS).  For each rule with <math>A</math> in its RHS, add a set of new rules consisting of the different possible combinations of <math>A</math> replaced or not replaced with <math>\varepsilon</math>.  If a rule has <math>A</math> as a singleton on its RHS, add a new rule <math>R = A \rightarrow \varepsilon</math> '''unless''' <math>R</math> has already been removed through this process.  For example, examine the following grammar <math>G</math>:
+#:: <math>S \rightarrow AbA | B</math>
+#:: <math>B \rightarrow b | c</math>
+#:: <math>A \rightarrow \varepsilon</math>
+#:<math>G</math> has one <math>\varepsilon</math> rule.  When the <math>A \rightarrow \varepsilon</math> is removed, we get the following:
+#:: <math>S \rightarrow AbA | Ab | bA | b | B</math>
+#:: <math>B \rightarrow b | c</math>
+#:Notice that we have to account for all possibilities of <math>A \rightarrow \varepsilon</math> and so we actually end up adding 3 rules.
+# Eliminate all ''unit rules''
+#:<math>A \rightarrow B; A,B \in V</math>
+#:After all the <math>\varepsilon</math> rules have been removed, you can begin removing unit rules, or rules whose RHS contains one variable and no terminals (which is inconsistent with CNF).
+#:: To remove <math>A \rightarrow B</math>
+#:: <math>\forall B \rightarrow U</math>, where <math>U</math> is a string of variables and terminals, add rule <math>A \rightarrow U</math> unless this is a unit rule which has already been removed.</dd>
+# Clean up remaining rules that are not in Chomsky normal form.</dt>
+#: Replace <math>A \rightarrow u_1 u_2 \dotso u_k, k \ge 3, u_1 \in V \cup \Sigma</math> with <math>A \rightarrow u_1 A_1 , A_1 \rightarrow u_2 A_2 , \dotsc , A_{k-2} \rightarrow u_{k-1} u_k</math> where <math>A_i</math> are new variables.
+#: If <math>u_i \in \Sigma</math>, replace <math>u_i</math> in above rules with some new variable <math>V_i</math> and add rule <math>V_i \rightarrow u_i</math>.
+
+== See also ==
+*[[Backus-Naur form]]
+*[[CYK algorithm]]
+*[[Greibach normal form]]
+*[[Kuroda normal form]]
+*[[Noam Chomsky]]
+
+== Footnotes ==
+<references />
+
+== References ==
+* John E. Hopcroft and Jeffrey D. Ullman, ''Introduction to Automata Theory, Languages and Computation'', Addison-Wesley Publishing, Reading Massachusetts, 1979. ISBN 0-201-02988-X. ''(See chapter 4.)''
+* {{cite book
+ | authorlink = Michael Sipser
+ | author = Michael Sipser
+ | year = 1997
+ | title = Introduction to the Theory of Computation 
+ | publisher = PWS Publishing
+ | isbn = 0-534-94728-X
+ }} ''(Pages 98–101 of section 2.1: context-free grammars. Page 156.)''
+* {{cite book
+ | author = John Martin
+ | year = 2003
+ | title = Introduction to Languages and the Theory of Computation 
+ | publisher = McGraw Hill
+ | isbn = 0-07-232200-4
+ }} ''(Pages 237–240 of section 6.6: simplified forms and normal forms.)''
+* {{cite book
+ | authorlink = Michael A. Harrison
+ | author = Michael A. Harrison
+ | year = 1978
+ | title = Introduction to Formal Language Theory
+ | publisher = Addison-Wesley
+ | isbn = 978-0-201-02955-0
+ }} ''(Pages 103–106.)''
+* Cole, Richard.  ''Converting CFGs to CNF (Chomsky Normal Form)'', October 17, 2007. [http://cs.nyu.edu/courses/fall07/V22.0453-001/cnf.pdf (pdf)]
+* Sipser, Michael. ''Introduction to the Theory of Computation,'' 2nd edition.
+
+[[Category:Formal languages]]
+[[Category:Noam Chomsky]]

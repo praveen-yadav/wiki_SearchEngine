@@ -1,0 +1,552 @@
+{{Other uses}}
+{{Use dmy dates|date=May 2012}}
+{{Use British English|date=May 2012}}
+{{Chembox
+| Watchedfields = changed
+|  verifiedrevid = 464364488
+|  ImageFile1 = Ammonia-dimensions-from-Greenwood&Earnshaw-2D.png
+|   ImageSize1 = 200px
+|   ImageName1 = Stereo structural formula of ammonia
+|  ImageFileL1 = Ammonia-3D-balls-A.png
+|   ImageSizeL1 = 125px
+|   ImageNameL1 = Ball-and-stick model of the ammonia molecule
+|  ImageFileR1 = Ammonia-3D-vdW.png
+|   ImageSizeR1 = 125 px
+|   ImageNameR1 = Space-filling model of the ammonia molecule
+| IUPACName = Azane
+|  OtherNames = Hydrogen nitride<br />
+Trihydrogen nitride<br />
+Nitro-Sil
+| Section1 = {{Chembox Identifiers
+|  InChI = 1/H3N/h1H3
+| InChIKey = QGZKDVFQNNGYKY-UHFFFAOYAF
+| CASNo = 7664-41-7
+|   CASNo_Ref = {{cascite|correct|CAS}}
+|  PubChem = 222
+|   PubChem_Ref = {{Pubchemcite}}
+| ChEMBL_Ref = {{ebicite|correct|EBI}}
+| ChEMBL = 1160819
+|  ChemSpiderID = 217
+|   ChemSpiderID_Ref = {{chemspidercite|correct|chemspider}}
+|  UNII = 5138Q19F1X
+|   UNII_Ref = {{fdacite|correct|FDA}}
+|  EINECS = 231-635-3
+|  UNNumber = 1005
+|  KEGG_Ref = {{keggcite|correct|kegg}}
+| KEGG = D02916
+|  MeSHName = Ammonia
+|  ChEBI_Ref = {{ebicite|correct|EBI}}
+| ChEBI = 16134
+|  RTECS = BO0875000
+|  SMILES = N
+|  StdInChI_Ref = {{stdinchicite|correct|chemspider}}
+| StdInChI = 1S/H3N/h1H3
+|  StdInChIKey_Ref = {{stdinchicite|correct|chemspider}}
+| StdInChIKey = QGZKDVFQNNGYKY-UHFFFAOYSA-N
+|  Beilstein = 3587154
+|  Gmelin = 79
+|  3DMet = B00004}}
+| Section2 = {{Chembox Properties
+| Formula = NH<sub>3</sub>
+| MolarMass = 17.031 g/mol
+| Appearance = Colourless gas
+| Odor = strong pungent odor
+| Density = 0.86&nbsp;kg/m<sup>3</sup> (1.013 bar at boiling point)<br />0.73&nbsp;kg/m<sup>3</sup> (1.013 bar at 15&nbsp;°C)<br />681.9&nbsp;kg/m<sup>3</sup> at −33.3&nbsp;°C (liquid)<ref>{{cite book|url=http://books.google.com/?id=qPGzhL3Y50YC&pg=PA132|page=132|title=Systematic Inorganic Chemistry|author=Yost, Don M.|chapter=Ammonia and Liquid Ammonia Solutions|publisher=READ BOOKS|year=2007|isbn=1-4067-7302-6}}</ref><br />817&nbsp;kg/m<sup>3</sup> at −80&nbsp;°C (transparent solid)<ref>{{cite journal|doi=10.1080/00337577508240819|title=On crystalline character of transparent solid ammonia|year=1975|author=Blum, Alexander|journal=Radiation Effects and Defects in Solids|volume=24|issue=4|page=277}}</ref>
+| MeltingPtC = −77.73
+| BoilingPtC = −33.34
+| Solubility = 47% (0&nbsp;°C)<br />31% (25&nbsp;°C)<br />28% (50&nbsp;°C)<ref>{{cite book|url=http://books.google.com/?id=0fT4wfhF1AsC&pg=PA17|page=17|title=Handbook of inorganic compounds |author=Perry, Dale L.; Phillips, Sidney L.|publisher=CRC Press|year=1995|isbn=0-8493-8671-3}}</ref>
+| SolubleOther = soluble in [[chloroform]], [[ether]], [[ethanol]], [[methanol]]
+| Solvent =
+| pKa = 32.5 (−33&nbsp;°C),<ref>Perrin, D. D., ''Ionisation Constants of Inorganic Acids and Bases in Aqueous Solution''; 2nd Ed., Pergamon Press: Oxford, '''1982'''.</ref> 10.5 (DMSO)
+| pKb = 4.75
+| RefractIndex = 1.3327
+| Viscosity = 0.276 cP (-40 °C)
+| VaporPressure = 8573 h Pa
+}}
+| Section3 = {{Chembox Structure
+| MolShape = [[Trigonal pyramid (chemistry)|Trigonal pyramid]]
+| Dipole = 1.42 [[Debye|D]]
+}}
+| Section4 = {{Chembox Thermochemistry
+|   DeltaHf = −46&nbsp;kJ·mol<sup>−1</sup><ref name=b1>{{cite book| author = Zumdahl, Steven S.|title =Chemical Principles 6th Ed| publisher = Houghton Mifflin Company| year = 2009| isbn = 0-618-94690-X|page=A22}}</ref>
+|   Entropy = 193&nbsp;J·mol<sup>−1</sup>·K<sup>−1</sup><ref name=b1/>
+ }}
+| Section7 = {{Chembox Hazards
+|   GHSPictograms = {{GHSp|GHS04}}{{GHSp|GHS05}}{{GHSp|GHS06}}{{GHSp|GHS09}}<ref name="sigma">{{Sigma-Aldrich|id=294993|name=Ammonia|accessdate=2013-07-20}}</ref>
+|   HPhrases = {{H-phrases|221|280|314|331|400}}<ref name="sigma" />
+|   PPhrases = {{P-phrases|210|261|273|280|305+351+338|310}}<ref name="sigma" />
+| External MSDS = [http://www.inchem.org/documents/icsc/icsc/eics0414.htm ICSC 0414] (anhydrous)
+| EUIndex = 007-001-00-5 (anhydrous)<br />007-001-01-2 (solutions)
+| EUClass = {{Hazchem T}} {{Hazchem C}} {{Hazchem N}}
+| NFPA-H = 3
+| NFPA-F = 1
+| NFPA-R = 0
+| NFPA-O =
+| RPhrases = {{R10}}, {{R23}}, {{R34}}, {{R50}}
+| SPhrases = {{S1/2}}, {{S9}}, {{S16}}, {{S26}}, {{S36/37/39}}, {{S45}}, {{S61}}
+| FlashPt = flammable gas (''see text'')
+| Autoignition = 651&nbsp;°C
+| ExploLimits = 15–28%
+| PEL = 50 ppm (25 ppm [[ACGIH]]- TLV; 35 ppm [[STEL]])
+| LD50 = 0.015 mL/kg (human, oral)
+}}
+| Section8 = {{Chembox Related
+| OtherAnions =
+| OtherCations = [[Phosphine]]<br />[[Arsine]]<br />[[Stibine]]
+| OtherFunctn = [[Hydrazine]]<br />[[Hydrazoic acid]]
+| Function = nitrogen hydrides
+| OtherCpds = [[Ammonium hydroxide]]
+}}
+}}
+<!--THIS ARTICLE WAS STARTED IN BRITISH SPELLING. PLEASE KEEP PER WP:ENGVAR-->
+'''Ammonia''' or '''azane''' is a [[chemical compound|compound]] of [[nitrogen]] and [[hydrogen]] with the [[chemical formula|formula]] NH<sub>3</sub>. It is a colourless [[gas]] with a characteristic [[pungent]] [[odor|smell]]. Ammonia contributes significantly to the [[nutrition]]al needs of terrestrial organisms by serving as a precursor to [[food]] and [[fertilizer]]s. Ammonia, either directly or indirectly, is also a building-block for the synthesis of many [[pharmaceuticals]] and is used in many commercial cleaning products. Although in wide use, ammonia is both [[Caustic (substance)|caustic]] and [[hazard]]ous. The global industrial production of ammonia for 2012 is anticipated to be 198 million tonnes,<ref name="ceresana1">{{cite web|author=Ceresana |url=http://www.ceresana.com/en/market-studies/chemicals/ammonia/ceresana-market-study-ammonia.html |title=Market Study Ammonia |publisher=Ceresana |date= |accessdate=2012-11-07}}</ref> a 35% increase over the estimated 2006 global output of 146.5 million tonnes.<ref name=Ullmann>{{cite book|author=Max Appl |title=Ammonia, in Ullmann's Encyclopedia of Industrial Chemistry|year= 2006|publisher= Wiley-VCH|location= Weinheim|doi=10.1002/14356007.a02_143.pub2}}</ref>
+
+NH<sub>3</sub> boils at −33.34&nbsp;°C (−28.012&nbsp;°F) at a pressure of 1 atmosphere, so the liquid must be stored under high pressure or at low temperature. Household ammonia or [[ammonium hydroxide]] is a solution of NH<sub>3</sub> in water. The concentration of such solutions is measured in units of the [[Baumé scale]] ([[density]]), with 26 degrees baumé (about 30% (by weight) ammonia at 15.5&nbsp;°C) being the typical high-concentration commercial product.<ref name=LaRoche>{{cite web|url=http://www.airgasspecialtyproducts.com/UserFiles/laroche/PDF/AAPhysical.pdf |archiveurl=http://web.archive.org/web/20071127011850/http://www.airgasspecialtyproducts.com/UserFiles/laroche/PDF/AAPhysical.pdf |archivedate=2007-11-27 |title=Ammonium hydroxide physical properties}}</ref>
+
+==Natural occurrence==
+Ammonia is found in trace quantities in the atmosphere, being produced from the [[putrefaction]] (decay process) of nitrogenous animal and vegetable matter. Ammonia and ammonium salts are also found in small quantities in rainwater, whereas [[ammonium chloride]] (sal-ammoniac), and [[ammonium sulfate]] are found in volcanic districts; crystals of [[ammonium bicarbonate]] have been found in [[Patagonia]]n [[guano]]. The [[kidney]]s secrete NH<sub>3</sub> to neutralize excess acid.<ref>{{cite journal|pmid=10360635|year=1999|author=Kirschbaum, B; Sica, D; Anderson, F. P. |title=Urine electrolytes and the urine anion and osmolar gaps.|volume=133|issue=6|pages=597–604|issn=0022-2143|journal=The Journal of laboratory and clinical medicine|doi=10.1016/S0022-2143(99)90190-7}}</ref> Ammonium salts are found distributed through fertile soil and in seawater. Ammonia is also found throughout the [[Solar System]] on [[Pluto]], [[Jupiter]], [[Saturn]], [[Uranus]], and [[Neptune]]. Substances containing ammonia, or those that are similar to it, are called ''ammoniacal''.
+
+==Properties==
+Ammonia is a colourless [[gas]] with a characteristic pungent smell. It is [[lighter than air]], its density being 0.589 times that of [[Earth's atmosphere|air]]. It is easily liquefied due to the strong hydrogen bonding between molecules; the [[liquid]] boils at −33.3&nbsp;°C (-27.94 °F), and freezes at −77.7&nbsp;°C (-107.86 °F) to white crystals.{{sfn|Chisholm|1911}}
+
+Ammonia may be conveniently deodorized by reacting it with either sodium bicarbonate or acetic acid. Both of these reactions form an odorless ammonium salt.
+
+;Solid: The crystal symmetry is cubic, [[Pearson symbol]] cP16, [[space group]] P2<sub>1</sub>3 No.198, lattice constant 0.5125&nbsp;nm.<ref>{{cite journal|doi=10.1107/S0567739479001340|title=The crystal structure of deuteroammonia between 2 and 180 K by neutron powder profile refinement|year=1979|last1=Hewat|first1=A. W.|last2=Riekel|first2=C.|journal=Acta Crystallographica Section A|volume=35|issue=4|page=569|bibcode = 1979AcCrA..35..569H }}</ref>
+
+;Liquid: [[Liquid]] ammonia possesses strong [[ion]]ising powers reflecting its high [[Dielectric constant|ε]] of 22. Liquid ammonia has a very high [[Enthalpy of vaporization|standard enthalpy change of vaporization]] (23.35&nbsp;[[Joule|kJ]]/mol, ''cf.'' [[water (molecule)|water]] 40.65&nbsp;kJ/mol, methane 8.19&nbsp;kJ/mol, [[phosphine]] 14.6&nbsp;kJ/mol) and can therefore be used in laboratories in uninsulated vessels without additional refrigeration. See {{sectionlink|liquid ammonia as a solvent}}.
+
+;Solvent properties: Ammonia is [[miscible]] with water. In an aqueous solution, it can be expelled by boiling. The [[water|aqueous]] solution of ammonia is [[Base (chemistry)|basic]]. The maximum concentration of ammonia in water (a [[saturation (chemistry)|saturated]] solution) has a [[density]] of 0.880 g/cm<sup>3</sup> and is often known as '.880 ammonia'. Ammonia does not burn readily or sustain [[combustion]], except under narrow fuel-to-air mixtures of 15–25% air.
+
+;Combustion: When mixed with [[oxygen]], it burns with a pale yellowish-green flame. At high temperature and in the presence of a suitable catalyst, ammonia is decomposed into its constituent elements. Ignition occurs when [[chlorine]] is passed into ammonia, forming nitrogen and [[hydrogen chloride]]; if chlorine is present in excess, then the highly explosive [[nitrogen trichloride]] (NCl<sub>3</sub>) is also formed.
+
+===Structure===
+The ammonia molecule has a [[Trigonal pyramid (chemistry)|trigonal pyramidal]] shape as predicted by the [[valence shell electron pair repulsion theory]] (VSEPR theory) with an experimentally determined bond angle of 106.7°.<ref name="CRC 94th">CRC Handbook of Chemistry and Physics, 94th ed. http://www.hbcpnetbase.com. Page 9-26. Retrieved June 18, 2013.</ref> The central nitrogen atom has five outer electrons with an additional electron from each hydrogen atom. This gives a total of eight electrons, or four electron pairs that are arranged tetrahedrally. Three of these electron pairs are used as bond pairs, which leaves one lone pair of electrons. The lone pair of electrons repel more strongly than bond pairs, therefore the bond angle is not 109.5°, as expected for a regular tetrahedral arrangement, but is measured at 106.7°.<ref name="CRC 94th"/> The nitrogen atom in the molecule has a [[Lone pair|lone electron pair]], which makes ammonia a [[Base (chemistry)|base]], a proton acceptor. This shape gives the molecule a [[dipole]] moment and makes it [[Polar molecule|polar]]. The molecule's polarity and, especially, its ability to form [[hydrogen bonds]], makes ammonia highly miscible with [[Water (molecule)|water]]. Ammonia is moderately basic, a 1.0 M aqueous solution has a pH of 11.6 and if a strong acid is added to such a solution until the solution is neutral (pH = 7), 99.4% of the ammonia molecules are [[Protonation|protonated]]. Temperature and [[salinity]] also affect the proportion of NH<sub>4</sub><sup>+</sup>. The latter has the shape of a regular [[tetrahedron]] and is [[isoelectronic]] with [[methane]]. It has the highest [[specific heat capacity]] of any known substance.
+
+The ammonia molecule readily undergoes [[nitrogen inversion]] at room temperature; a useful analogy is an [[umbrella]] turning itself inside out in a strong wind. The energy barrier to this inversion is 24.7 kJ/mol, and the [[resonance frequency]] is 23.79 [[Hertz|GHz]], corresponding to [[microwave]] radiation of a [[wavelength]] of 1.260&nbsp;cm. The absorption at this frequency was the first [[Microwave spectroscopy|microwave spectrum]] to be observed.<ref name="Cleeton">{{cite journal|doi=10.1103/PhysRev.45.234|title=Electromagnetic Waves of {{convert|1.1|cm|0|abbr=on}}. Wave-Length and the Absorption Spectrum of Ammonia|year=1934|author=Cleeton, C. E.|journal=Physical Review|volume=45|issue=4|pages=234|first2=N. H.|last2=Williams|bibcode = 1934PhRv...45..234C }}</ref>
+
+=== Amphotericity ===
+One of the most characteristic properties of ammonia is its [[basicity]]. Ammonia is considered to be a weak base. It combines with [[acid]]s to form [[salt (chemistry)|salt]]s; thus with [[hydrochloric acid]] it forms [[ammonium chloride]] (sal-ammoniac); with [[nitric acid]], [[ammonium nitrate]], etc. However, perfectly dry ammonia will not combine with perfectly dry [[hydrogen chloride]]; moisture is necessary to bring about the reaction.<ref>{{cite journal|author=Baker, H. B. |year=1894|journal=J. Chem. Soc.|volume=65|page= 612}}</ref> As a demonstration experiment, opened bottles of concentrated ammonia and hydrochloric acid produce clouds of ammonium chloride, which seem to appear "out of nothing" as the salt forms where the two diffusing clouds of molecules meet, somewhere between the two bottles.
+:NH<sub>3</sub> + HCl → NH<sub>4</sub>Cl
+
+The salts produced by the action of ammonia on acids are known as the [[:Category:Ammonium compounds|ammonium salts]] and all contain the [[ammonium|ammonium ion]] (NH<sub>4</sub><sup>+</sup>).
+
+Although ammonia is well known as a weak base, it can also act as an extremely weak acid. It is a protic substance and is capable of formation of [[amide]]s (which contain the NH<sub>2</sub><sup>−</sup> ion). For example, [[lithium]] dissolves in liquid ammonia to give a solution of [[lithium amide]]:
+
+:2 Li + 2 NH<sub>3</sub> → 2 LiNH<sub>2</sub> + H<sub>2</sub>
+
+===Self-dissociation===
+Like water, ammonia undergoes [[molecular autoionisation]] to form its acid and base conjugates:
+:2 {{chem|NH|3}} (aq) {{eqm}} {{chem|NH|4|+}} (aq) + {{chem|NH|2|-}} (aq)
+At standard pressure and temperature, K=[{{chem|NH|4|+}}][{{chem|NH|2|-}}] = 10{{su|p=−30}}
+
+===Combustion===
+The combustion of ammonia to nitrogen and [[water]] is [[exothermic]]:
+: 4 NH<sub>3</sub> + 3 O<sub>2</sub> → 2 N<sub>2</sub> + 6 H<sub>2</sub>O (''g'') ([[Standard enthalpy of reaction|Δ''H''°<sub>r</sub>]] = −1267.20 kJ/mol)
+
+The [[standard enthalpy change of combustion]], Δ''H''°<sub>c</sub>, expressed per [[mole (unit)|mole]] of ammonia and with condensation of the water formed, is −382.81&nbsp;kJ/mol. Dinitrogen is the thermodynamic product of combustion: all [[nitrogen oxide]]s are unstable with respect to nitrogen and [[oxygen]], which is the principle behind the [[catalytic converter]]. However, nitrogen oxides can be formed as kinetic products in the presence of appropriate catalysts, a reaction of great industrial importance in the production of [[nitric acid]]:
+:4 NH<sub>3</sub> + 5 O<sub>2</sub> → 4 NO + 6 H<sub>2</sub>O
+
+A subsequent reaction leads to NO<sub>2</sub>
+
+:2 NO + O<sub>2</sub> → 2 NO<sub>2</sub>
+
+The combustion of ammonia in air is very difficult in the absence of a catalyst (such as [[platinum]] gauze), as the temperature of the flame is usually lower than the ignition temperature of the ammonia-air mixture. The flammable range of ammonia in air is 16–25%.<ref>{{Greenwood&Earnshaw1st|page=485}}</ref>
+
+===Formation of other compounds===
+In [[organic chemistry]], ammonia can act as a [[nucleophile]] in [[Nucleophilic substitution|substitution]] reactions. [[Amine]]s can be formed by the reaction of ammonia with [[alkyl halide]]s, although the resulting -NH<sub>2</sub> group is also nucleophilic and secondary and tertiary amines are often formed as byproducts. An excess of ammonia helps minimise multiple substitution, and neutralises the [[hydrogen halide]] formed. [[Methylamine]] is prepared commercially by the reaction of ammonia with [[chloromethane]], and the reaction of ammonia with 2-bromopropanoic acid has been used to prepare [[racemic]] [[alanine]] in 70% yield. [[Ethanolamine]] is prepared by a ring-opening reaction with [[ethylene oxide]]: the reaction is sometimes allowed to go further to produce [[diethanolamine]] and [[triethanolamine]].
+
+[[Amide]]s can be prepared by the reaction of ammonia with a number of [[carboxylic acid]] derivatives. [[Acyl chloride]]s are the most reactive, but the ammonia must be present in at least a twofold excess to neutralise the [[hydrogen chloride]] formed. [[Ester]]s and [[anhydride]]s also react with ammonia to form amides. Ammonium salts of carboxylic acids can be [[Dehydration|dehydrated]] to amides so long as there are no thermally sensitive groups present: temperatures of 150–200&nbsp;°C are required.
+
+The hydrogen in ammonia is capable of replacement by [[metal]]s, thus [[magnesium]] burns in the gas with the formation of [[magnesium nitride]] Mg<sub>3</sub>N<sub>2</sub>, and when the gas is passed over heated [[sodium]] or [[potassium]], sodamide, NaNH<sub>2</sub>, and potassamide, KNH<sub>2</sub>, are formed. Where necessary in [[IUPAC nomenclature|substitutive nomenclature]], [[IUPAC]] recommendations prefer the name "azane" to ammonia: hence [[chloramine]] would be named "chloroazane" in substitutive nomenclature, not "chloroammonia".
+
+Pentavalent ammonia is known as λ<sup>5</sup>-amine, or more commonly, ammonium hydride. This crystalline solid is only stable under high pressure, and decomposes back into trivalent ammonia and hydrogen gas at normal conditions. This substance was once investigated as a possible solid rocket fuel in 1966.<ref>{{cite news|url=http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=AD0373800|title=High pressure chemistry of hydrogenous fuels|author=Sterrett, K. F. ; Caron, A. P.|publisher=Northrop Space Labs|
+year=1966}}</ref>
+
+===Ammonia as a ligand===
+{{main|Metal ammine complex}}
+[[File:Tetraamminediaquacopper(II)-3D-balls.png|thumb|[[Ball-and-stick model]] of the tetraamminediaquacopper(II) cation, [Cu(NH<sub>3</sub>)<sub>4</sub>(H<sub>2</sub>O)<sub>2</sub>]<sup>2+</sup>]]
+Ammonia can act as a [[ligand]] in [[transition metal]] [[complex (chemistry)|complexes]]. It is a pure σ-donor, in the middle of the [[spectrochemical series]], and shows intermediate [[HSAB concept|hard-soft]] behaviour. For historical reasons, ammonia is named '''ammine''' in the nomenclature of [[coordination compound]]s. Some notable ammine complexes include tetraamminediaquacopper(II) ([Cu(NH<sub>3</sub>)<sub>4</sub>(H<sub>2</sub>O)<sub>2</sub>]<sup>2+</sup>), a dark blue complex formed by adding ammonia to solution of copper(II) salts. It is known as [[Schweizer's reagent]]. Diamminesilver(I) ([Ag(NH<sub>3</sub>)<sub>2</sub>]<sup>+</sup>) is the active species in [[Tollens' reagent]]. Formation of this complex can also help to distinguish between precipitates of the different silver halides: [[silver chloride]] (AgCl) is soluble in dilute (2M) ammonia solution, [[silver bromide]] (AgBr) is only soluble in concentrated ammonia solution, whereas [[silver iodide]] (AgI) is insoluble in aqueous ammonia.
+
+Ammine complexes of [[chromium]](III) were known in the late 19th century, and formed the basis of [[Alfred Werner]]'s revolutionary theory on the structure of coordination compounds. Werner noted only two isomers (''fac''- and ''mer''-) of the complex [CrCl<sub>3</sub>(NH<sub>3</sub>)<sub>3</sub>] could be formed, and concluded the ligands must be arranged around the metal ion at the [[wikt:vertex|vertices]] of an [[octahedron]]. This proposal has since been confirmed by [[X-ray crystallography]].
+
+An ammine ligand bound to a metal ion is markedly more acidic than a free ammonia molecule, although deprotonation in aqueous solution is still rare. One example is the [[Mercury(I) chloride|Calomel reaction]], where the resulting amidomercury(II) compound is highly insoluble.
+:Hg<sub>2</sub>Cl<sub>2</sub> + 2 NH<sub>3</sub> → Hg + HgCl(NH<sub>2</sub>) + NH<sub>4</sub><sup>+</sup> + Cl<sup>−</sup>
+
+==Detection and determination==
+''This section is about detection in the laboratory. For detection in astronomy, see chapter [[#In astronomy|In astronomy]].''
+
+Ammonia and ammonium salts can be readily detected, in very minute traces, by the addition of [[Nessler's solution]], which gives a distinct yellow colouration in the presence of the least trace of ammonia or ammonium salts. [[Sulfur sticks]] are burnt to detect small leaks in industrial ammonia refrigeration systems. Larger quantities can be detected by warming the salts with a caustic alkali or with [[calcium oxide|quicklime]], when the characteristic smell of ammonia will be at once apparent. The amount of ammonia in ammonium salts can be estimated quantitatively by distillation of the salts with [[sodium hydroxide|sodium]] or [[potassium hydroxide]], the ammonia evolved being absorbed in a known volume of standard [[sulfuric acid]] and the excess of acid then determined [[volumetric analysis|volumetrically]]; or the ammonia may be absorbed in [[hydrochloric acid]] and the ammonium chloride so formed precipitated as [[ammonium hexachloroplatinate]], (NH<sub>4</sub>)<sub>2</sub>PtCl<sub>6</sub>.
+
+===Ammoniacal nitrogen (NH<sub>3</sub>-N)===
+[[Ammoniacal nitrogen]] (NH<sub>3</sub>-N) is a measure commonly used for testing the quantity of [[ammonium]] ions, derived naturally from ammonia, and returned to ammonia via organic processes, in water or waste liquids. It is a measure used mainly for quantifying values in waste treatment and water purification systems, as well as a measure of the health of natural and man made water reserves. It is measured in units of mg/L ([[milligram]] per [[liter]]).
+
+==History==
+[[File:Ammoniak Reaktor BASF.jpg|thumb|This high-pressure reactor was built in 1921 by [[BASF]] in [[Ludwigshafen]] and was re-erected on the premises of the [[University of Karlsruhe]] in Germany.]]
+The Romans called the ammonium chloride deposits they collected from near the Temple of [[Amun]] ([[Greek language|Greek]] Ἄμμων ''Ammon'') in [[ancient Libya]] ''sal ammoniacus'' (salt of Amun) because of proximity to the nearby temple.<ref>{{cite web|title = Ammonia| work = h2g2 Eponyms|publisher = BBC.CO.UK|date = 11 January 2003|url = http://www.bbc.co.uk/dna/h2g2/alabaster/A632990| accessdate =8 November 2007| archiveurl= http://web.archive.org/web/20071102023049/http://www.bbc.co.uk/dna/h2g2/alabaster/A632990| archivedate= 2 November 2007 <!--DASHBot-->| deadurl= no}}</ref> Salts of ammonia have been known from very early times; thus the term ''Hammoniacus sal'' appears in the writings of [[Pliny the Elder|Pliny]],<ref>{{harvnb|Chisholm|1911}} cites Pliny ''Nat. Hist.'' xxxi. 39</ref> although it is not known whether the term is identical with the more modern ''sal-ammoniac'' ([[ammonium chloride]]).<ref name="Mineral Data">{{cite web|url=http://webmineral.com/data/Sal-ammoniac.shtml |title=Sal-ammoniac|publisher=Webmineral|accessdate=7 July 2009}}</ref>
+
+In the form of sal-ammoniac ''(nushadir)'' ammonia was important to the [[Alchemy and chemistry in Islam|Muslim alchemists]] as early as the 8th century, first mentioned by the Persian chemist [[Jābir ibn Hayyān]],<ref name="Haq1995">{{cite book|last=Haq|first=Syed Nomanul|title=Names, Natures and Things: The Alchemist Jabir Ibn Hayyan and His Kitab Al-Ahjar (Book of Stones)|url=http://books.google.com/?id=P-70YjP0nj8C|accessdate=22 June 2010|date=28 February 1995|publisher=Springer|isbn=978-0-7923-3254-1}}</ref> and to the European [[Alchemy|alchemists]] since the 13th century, being mentioned by [[Albertus Magnus]].{{sfn|Chisholm|1911}} It was also used by [[dye]]rs in the [[Middle Ages]] in the form of fermented [[urine]] to alter the colour of vegetable dyes. In the 15th century, [[Basilius Valentinus]] showed that ammonia could be obtained by the action of alkalis on sal-ammoniac. At a later period, when sal-ammoniac was obtained by distilling the hooves and horns of oxen and neutralizing the resulting carbonate with [[hydrochloric acid]], the name "spirit of hartshorn" was applied to ammonia.{{sfn|Chisholm|1911}}<ref>{{cite book|url=http://books.google.com/?id=kwQQaltqByAC&pg=PA72|page=72|title=Historical Studies in the Language of Chemistry|author=Maurice P. Crosland|publisher=Courier Dover Publications|year=2004|isbn=0-486-43802-3}}</ref>
+
+Gaseous ammonia was first isolated by [[Joseph Priestley]] in 1774 and was termed by him "alkaline air".<ref name="Alchemy" >{{cite book|author=Abraham, Lyndy|title=Marvell and alchemy|publisher=Aldershot Scolar |year=1990|isbn=0-85967-774-5}}</ref> Eleven years later in 1785, [[Claude Louis Berthollet]] ascertained its composition.{{sfn|Chisholm|1911}}
+
+The [[Haber-Bosch process]] to produce ammonia from the nitrogen in the air was developed by [[Fritz Haber]] and [[Carl Bosch]] in 1909 and patented in 1910. It was first used on an industrial scale in Germany during [[World War I]],<ref name=Ullmann/> following the allied blockade that cut off the supply of nitrates from [[Chile]]. The ammonia was used to produce explosives to sustain war efforts.<ref name="Conquering" >{{cite book|author=Smith, Roland|title=Conquering Chemistry|year=2001|isbn=0-07-470146-0|publisher=McGraw-Hill|location=Sydney}}</ref>
+
+Prior to the availability of cheap natural gas, hydrogen as a precursor to [[ammonia production]] was produced via the [[electrolysis]] of water or using the [[chloralkali process]].
+
+==Uses==
+
+===Fertilizer===
+Approximately 83% (as of 2004) of ammonia is used as fertilisers either as its salts, solutions or anhydrously. When applied to soil, it helps provide increased yields of crops such as maize and wheat.{{citation needed|date=April 2013}} 30% of agricultural nitrogen applied in the USA is in the form of anhydrous ammonia and worldwide 110 million tonnes are applied each year.<ref>{{cite news|url=http://www.washingtonpost.com/national/health-science/anhydrous-ammonia-fertilizer-abundant-important-hazardous/2013/04/18/c2d4c69c-a85a-11e2-a8e2-5b98cb59187f_story.html|title=Anhydrous ammonia fertilizer:  abundant, important, hazardous|publisher=Washington Post|author=David Brown|date=2013-14-18|accessdate=2013-04-23}}</ref>
+
+===Precursor to nitrogenous compounds===
+Ammonia is directly or indirectly the precursor to most nitrogen-containing compounds. Virtually all synthetic nitrogen compounds are derived from ammonia. An important derivative is [[nitric acid]]. This key material is generated via the [[Ostwald process]] by [[oxidation]] of ammonia with air over a [[platinum]] catalyst at 700–850&nbsp;°C, ~9 atm. [[Nitric oxide]] is an intermediate in this conversion:<ref>{{cite book|author=Holleman, A. F.; Wiberg, E. |title=Inorganic Chemistry|publisher=Academic Press|location= San Diego|year=2001|isbn=0-12-352651-5}}</ref>
+: NH<sub>3</sub> + 2 O<sub>2</sub> → HNO<sub>3</sub> + H<sub>2</sub>O
+Nitric acid is used for the production of [[fertilizer]]s, [[explosive]]s, and many organonitrogen compounds.
+
+===Cleaner===
+Household ammonia is a solution of NH<sub>3</sub> in water (i.e., [[ammonium hydroxide]]) used as a general purpose cleaner for many surfaces. Because ammonia results in a relatively streak-free shine, one of its most common uses is to clean glass, porcelain and stainless steel. It is also frequently used for cleaning ovens and soaking items to loosen baked-on grime. Household ammonia ranges in concentration by weight from 5 to 10% ammonia.
+
+===Fermentation===
+Solutions of ammonia ranging from 16% to 25% are used in the [[Industrial fermentation|fermentation]] industry as a source of nitrogen for microorganisms and to adjust pH during fermentation.
+
+===Antimicrobial agent for food products===
+As early as in 1895, it was known that ammonia was "strongly [[antiseptic]] ... it requires 1.4 grams per litre to preserve [[beef tea]]."<ref>{{cite book|url=http://www.archive.org/details/disinfectiondisi00rideuoft|title=Disinfection and Disinfectants: An Introduction to the Study of|author=Samuel Rideal|publisher=Charles Griffin and Company|place=London|year=1895|page=109}}</ref> In one study, anhydrous ammonia destroyed 99.999% of [[zoonotic bacteria]] in 3 types of [[compound feed|animal feed]], but not [[silage]].<ref>{{cite journal|doi=10.1016/j.ijfoodmicro.2007.11.040|title=Ammonia disinfection of animal feeds — Laboratory study|author=Tajkarimi, Mehrdad ''et al.''|journal=International Journal of Food Microbiology|volume=122|issue= 1–2|year=2008|pages=23–28|pmid=18155794|last2=Riemann|first2=H. P.|last3=Hajmeer|first3=M. N.|last4=Gomez|first4=E. L.|last5=Razavilar|first5=V.|last6=Cliver|first6=D. O.}}</ref>{{primary source-inline|date=July 2013}} Anhydrous ammonia is currently used commercially to reduce or eliminate [[microbial]] contamination of [[beef]].<ref>"[http://asae.frymulti.com/abstract.asp?aid=27245&t=2 Evaluation of Treatment Methods for Reducing Bacteria in Textured Beef]", Jensen, Jean L ''et al.'', [[American Society of Agricultural and Biological Engineers]] Annual Meeting 2009</ref><ref>''[http://haccpalliance.org/sub/Antimicrobial%20Interventions%20for%20Beef.pdf Reference Document: Antimicrobial Interventions for Beef]'', Dawna Winkler and Kerri B. Harris, Center for Food Safety, Department of Animal Science, [[Texas A&M University]], May 2009, page 12</ref>
+[[Pink slime]] (or lean finely textured beef in the beef industry) is made from fatty [[beef trimmings]] (about 50&ndash;70% fat) by removing the fat using heat and [[centrifugation]], then treating it with ammonia to kill ''[[Escherichia coli|E. coli]]''. The process was deemed effective and safe by the [[US Department of Agriculture]] based on a study (funded by a producer of pink slime) that found that the treatment reduces ''E. coli'' to undetectable levels.<ref>{{cite news | url = http://www.nytimes.com/2009/10/04/health/04meat.html | work=The New York Times | title=The Burger That Shattered Her Life | first=Michael | last=Moss | date=3 October 2009}}</ref> There have been safety concerns about the process as well as consumer complaints about the taste and smell of beef treated at optimal levels of ammonia.<ref>{{cite news | url = http://www.nytimes.com/2009/12/31/us/31meat.html | work=The New York Times | title=Safety of Beef Processing Method Is Questioned | first=Michael | last=Moss | date=31 December 2009}}</ref>  However, the level of ammonia in any final product has not come close to toxic levels to humans. 
+
+===Minor and emerging uses===
+
+====Refrigeration – R717====
+Because of ammonia's vaporization properties, it is a useful [[refrigerant]].<ref name=Ullmann/> It was commonly used prior to the popularisation of [[chlorofluorocarbon]]s (Freons). Anhydrous ammonia is widely used in industrial refrigeration applications and hockey rinks because of its high [[Energy conversion efficiency|energy efficiency]] and low cost. However, it suffers from the disadvantage of toxicity, which restricts its domestic and small scale use. Along with its use in modern [[vapor-compression refrigeration]] it was used in a mixture along with hydrogen and water in [[absorption refrigerator]]s. The [[Kalina cycle]], which is of growing importance to geothermal power plants, depends on the wide boiling range of the ammonia-water mixture.
+
+====For remediation of gaseous emissions====
+Ammonia is used to scrub SO<sub>2</sub> from the burning of fossil fuels, and the resulting product is converted to ammonium sulfate for use as fertilizer. Ammonia neutralizes the nitrogen oxides (NO<sub>x</sub>) pollutants emitted by diesel engines. This technology, called SCR ([[selective catalytic reduction]]), relies on a [[vanadia]]-based catalyst.<ref>{{cite web|accessdate=7 July 2009|url=http://www.businessweek.com/bwdaily/dnflash/content/mar2008/db20080321_748642_page_3.htm |title=Diesel: Greener Than You Think}}</ref><br />
+Ammonia may be used to mitigate gaseous spills of [[phosgene]].<ref>{{cite web | publisher = [[International Programme on Chemical Safety]] | title = Phosgene: Health and Safety Guide | year = 1998 | url = http://www.inchem.org/documents/hsg/hsg/hsg106.htm}}</ref>
+
+====As a fuel====
+[[File:AmmoniacalGasEngineStreetcarARWaud.jpeg|thumb|Ammoniacal Gas Engine [[Streetcars in New Orleans|Streetcar in New Orleans]] drawn by [[Alfred Waud]] in 1871.]]
+[[File:x-15.jpg|thumb|The [[X-15]] [[aircraft]] used ammonia as one component [[fuel]] of its [[rocket]] [[engine]] ]]
+Ammonia was used during [[World War II]] to power buses in Belgium, and in engine and solar energy applications prior to 1900. Liquid ammonia also fuelled the [[Reaction Motors XLR99]] rocket engine that powered the [[X-15]] hypersonic research aircraft. Although not as powerful as other fuels, it left no soot in the reusable rocket engine and its density approximately matches the density of the oxidizer, liquid oxygen, which simplified the aircraft's design.
+
+Ammonia has been proposed as a practical alternative to [[fossil fuel]] for [[internal combustion engines]].<ref name=c1>{{cite news|url=http://www.energy.iastate.edu/Renewable/ammonia/ammonia/2007/Olson2_NH3.pdf|title=Ammonia as a Transportation Fuel IV|date= 15–16 October 2007|publisher=Norm Olson – Iowa Energy Center}}</ref> The calorific value of ammonia is 22.5 MJ/kg (9690 [[BTU]]/lb), which is about half that of diesel. In a normal engine, in which the water vapour is not condensed, the calorific value of ammonia will be about 21% less than this figure.
+
+Ammonia cannot be easily or efficiently used in existing [[Otto cycle]] engines because of its very low [[octane rating]], although with only minor modifications to [[carburettor]]s/[[Fuel injection|injectors]] and a drastic reduction in [[compression ratio]], which would require new pistons, a gasoline engine could be made to work exclusively with ammonia, at a low fraction of its power output before conversion and much higher fuel consumption.{{citation needed|date=June 2013}}
+
+To meet these demands, significant capital would be required to increase present production levels. Although the second most produced chemical, the scale of ammonia production is a small fraction of world petroleum usage. It could be manufactured from renewable energy sources, as well as coal or nuclear power. It is, however, significantly less efficient than batteries.{{Citation needed|date=November 2010}} The 60 MW Rjukan dam in [[Telemark]], Norway produced ammonia via electrolysis of water for many years from 1913 producing fertilizer for much of Europe. If produced from coal, the CO<sub>2</sub> can be readily sequestered<ref name=c1/><ref>{{cite news|url=http://www.energy.iastate.edu/Renewable/ammonia/ammonia/ammoniaMtg07.htm |title=Iowa Energy Center, Renewable Energy and Energy Efficiency; Research, Education and Demonstration – Related Renewable Energy – Ammonia 2007}}</ref> (the combustion products are nitrogen and water). In 1981 a Canadian company converted a 1981 Chevrolet Impala to operate using ammonia as fuel.<ref>{{cite web|url=http://www.youtube.com/watch?v=L0hBAz6MxC4 |title=YouTube – Ammonia Powered Car}}</ref><ref>{{cite web|url=http://www.gregvezina.ca |title=Watch 'Ammonia Fuel'|accessdate=7 July 2009|publisher=Greg Vezina}}</ref>
+
+Ammonia engines or ammonia motors, using ammonia as a [[working fluid]], have been proposed and occasionally used.<ref>{{cite web |url=http://www.aqpl43.dsl.pipex.com/MUSEUM/POWER/ammonia/ammonia.htm |title=Ammonia Motors |date=1 October 2007 |publisher=aqpl43.dsl.pipex.com |accessdate=28 November 2010}}</ref> The principle is similar to that used in a [[fireless locomotive]], but with ammonia as the working fluid, instead of steam or compressed air. Ammonia engines were used experimentally in the 19th century by [[Goldsworthy Gurney]] in the UK and in [[streetcars in New Orleans]].
+
+====As a stimulant====
+[[File:Meth ammonia tank Otley iowa.JPG|thumb|Anti-[[methamphetamine|meth]] sign on tank of anhydrous ammonia, [[Otley, Iowa]]. Anhydrous ammonia is a common farm fertilizer that is also a critical ingredient in making methamphetamine. In 2005, Iowa state used grant money to give out thousands of locks to prevent criminals from getting into the tanks.<ref>{{Cite news|url=http://thegazette.com/2009/10/06/anhydrous-ammonia-tank-locks-have-flaws |title=Anhydrous ammonia tank locks have flaws|author=The Gazette Staff|newspaper=Cedar Rapids Gazette|date=6 Oct 2009}}</ref>]]Ammonia is commonly used in the illegal manufacture of [[methamphetamine]] through a [[Birch reduction]].<ref>{{cite web|url=http://www.illinoisattorneygeneral.gov/methnet/understandingmeth/basics.html |title=Illinois Attorney General &#124; Basic Understanding Of Meth |publisher=Illinoisattorneygeneral.gov |accessdate=21 May 2011}}</ref> The Birch method of making methamphetamine is dangerous because the alkali metal and liquid ammonia are both extremely reactive, and the temperature of liquid ammonia makes it susceptible to explosive boiling when reactants are added.
+
+====Textile====
+Liquid ammonia is used for treatment of cotton materials, giving properties like [[mercerisation]], using alkalis. In particular, it is used for prewashing of wool.<ref>{{Cite journal|last1=Włochowicz|first1=A.|last2=Stelmasiak|first2=E.|title=Change in thermal properties of wool after treatment with liquid ammonia|journal=Journal of Thermal Analysis and Calorimetry|volume=26|issue=1|year=1983|page=17|doi=10.1007/BF01914084}}</ref>
+
+====Lifting gas====
+At standard temperature and pressure, ammonia is less dense than atmosphere, and has approximately 60% of the lifting power of hydrogen or helium. Ammonia has sometimes been used to fill weather balloons as a [[lifting gas]]. Because of its relatively high boiling point (compared to helium and hydrogen), ammonia could potentially be refrigerated and liquefied aboard an [[airship]] to reduce lift and add ballast (and returned to a gas to add lift and reduce ballast).
+
+====Woodworking====
+{{see also|Ammonia fuming}}
+Ammonia has been used to darken quartersawn white oak in Arts & Crafts and Mission-style furniture. Ammonia fumes react with the natural tannins in the wood and cause it to change colours.<ref>{{cite web|url=http://www.woodweb.com/knowledge_base/Fuming_white_oak.html |title=Fuming white oak}}</ref>
+
+==Safety precautions==
+[[File:Ammiakoprovod NS.jpg|thumb|The world's longest ammonia [[pipeline transport|pipeline]], running from the [[TogliattiAzot]] plant in [[Russia]] to [[Odessa]] in [[Ukraine]].]]
+The U. S. [[Occupational Safety and Health Administration|Occupational Safety and Health Administration (OSHA)]] has set a 15-minute exposure limit for gaseous ammonia of 35 ppm by volume in the environmental air and an 8-hour exposure limit of 25 ppm by volume.<ref name=ToxFaqSheet>{{cite news|url=http://www.atsdr.cdc.gov/tfacts126.pdf |title=Toxic FAQ Sheet for Ammonia| publisher=[[Agency for Toxic Substances and Disease Registry]] (ATSDR)|date= September 2004}}</ref> NIOSH recently reduced the IDLH from 500 to 300 based on recent more conservative interpretations of original research in 1943. IDLH (Immediately Dangerous to Life and Health) is the level to which a healthy worker can be exposed for 30 minutes without suffering irreversible health effects. Other organizations have varying exposure levels. U.S. Navy Standards [U.S. Bureau of Ships 1962] maximum allowable concentrations (MACs):continuous exposure (60 days): 25 ppm / 1 hour: 400 ppm<ref>[http://www.cdc.gov/niosh/idlh/7664417.html Ammonia], IDLH Documentation</ref> Ammonia vapour has a sharp, irritating, pungent odour that acts as a warning of potentially dangerous exposure. The average odour threshold is 5 ppm, well below any danger or damage. Exposure to very high concentrations of gaseous ammonia can result in lung damage and death.<ref name=ToxFaqSheet/> Although ammonia is regulated in the United States as a non-flammable gas, it still meets the definition of a material that is toxic by inhalation and requires a hazardous safety permit when transported in quantities greater than 13,248 L (3,500 gallons).<ref>[http://www.fmcsa.dot.gov/safety-security/hazmat/hm-permitting.htm#one Hazardous Materials (HM) Safety Permits] from the website of the [[United States Department of Transportation]] (DOT)</ref>
+
+===Toxicity===
+The toxicity of ammonia solutions does not usually cause problems for humans and other mammals, as a specific mechanism exists to prevent its build-up in the bloodstream. Ammonia is converted to [[carbamoyl phosphate]] by the enzyme [[carbamoyl phosphate synthetase]], and then enters the [[urea cycle]] to be either incorporated into [[amino acid]]s or excreted in the urine {{Citation needed|date=March 2012}}. However, [[fish]] and [[amphibian]]s lack this mechanism, as they can usually eliminate ammonia from their bodies by direct excretion. Ammonia even at dilute concentrations is highly toxic to aquatic animals, and for this reason it is [[Directive 67/548/EEC|classified]] as ''dangerous for the environment''.
+
+===Storage information===
+Similar to [[propane]], [[anhydrous]] ammonia boils below room temperature when at atmospheric pressure. A storage vessel capable of 250 [[Pounds_per_square_inch|psi]] is suitable to contain the liquid.<ref>[http://ecfr.gpoaccess.gov/cgi/t/text/text-idx?c=ecfr;sid=3a1341f81fbe762466a07d33da2361fb;rgn=div8;view=text;node=29%3A5.1.1.1.8.8.33.11;idno=29;cc=ecfr Electronic Code of Federal Regulations:]. Ecfr.gpoaccess.gov. Retrieved on 22 December 2011.</ref> Ammonium compounds should never be allowed to come in contact with [[base (chemistry)|bases]] (unless in an intended and contained reaction), as dangerous quantities of ammonia gas could be released.
+
+===Household use===
+Solutions of ammonia (5–10% by weight) are used as household cleaners, particularly for glass. These solutions are irritating to the eyes and [[mucous membrane]]s (respiratory and digestive tracts), and to a lesser extent the skin. Caution should be used that the chemical is never mixed into any liquid containing bleach, as a poisonous gas may result. Mixing with [[chlorine]]-containing products or strong oxidants, such as household [[bleach]], can lead to hazardous compounds such as [[chloramine]]s.<ref>{{Cite journal|last =Rizk-Ouaini|first =Rosette|last2 =Ferriol, Michel; Gazet, Josette; Saugier-Cohen Adad, Marie Therese |title = Oxidation reaction of ammonia with sodium hypochlorite. Production and degradation reactions of chloramines|journal = Bulletin de la Societe Chimique de France|volume =4|page =512| year = 2006| doi = 10.1002/14356007.a02_143.pub2|isbn =3527306730}}</ref>
+
+===Laboratory use of ammonia solutions===
+[[Image:Hydrochloric acid ammonia.jpg|thumb|Hydrochloric acid sample releasing HCl fumes, which are reacting with ammonia fumes to produce a white smoke of ammonium chloride.]]
+The hazards of ammonia solutions depend on the concentration: "dilute" ammonia solutions are usually 5–10% by weight (<5.62&nbsp;mol/L); "concentrated" solutions are usually prepared at >25% by weight. A 25% (by weight) solution has a density of 0.907 g/cm<sup>3</sup>, and a solution that has a lower density will be more concentrated. The [[Directive 67/548/EEC|European Union classification]] of ammonia solutions is given in the table.
+
+<!-- EU Index no. 007-001-01-2 -->
+{| class="wikitable"
+|-
+! [[Concentration]]<br />by weight (w/w)
+! [[Molarity]]
+! [[Concentration]]<br />mass/volume (w/v)
+! Classification
+! [[List of R-phrases|R-Phrases]]
+|-
+| 5–10%
+| 2.87–5.62&nbsp;mol/L
+| 48.9–95.7 g/L
+| Irritant ('''Xi''')
+| {{R36/37/38}}
+|-
+| 10–25%
+| 5.62–13.29&nbsp;mol/L
+| 95.7–226.3 g/L
+| Corrosive ('''C''')
+| {{R34}}
+|-
+| >25%
+| >13.29&nbsp;mol/L
+| >226.3 g/L
+| Corrosive ('''C''')<br />Dangerous for<br />the environment ('''N''')
+| {{R34}}, {{R50}}
+|}
+
+:''[[List of S-phrases|S-Phrases]]: {{S1/2}}, {{S16}}, {{S36/37/39}}, {{S45}}, {{S61}}.''
+
+The ammonia vapour from concentrated ammonia solutions is severely irritating to the eyes and the respiratory tract, and these solutions should only be handled in a fume hood. Saturated ("0.880") solutions can develop a significant pressure inside a closed bottle in warm weather, and the bottle should be opened with care; this is not usually a problem for 25% ("0.900") solutions.
+
+Ammonia solutions should not be mixed with [[halogen]]s, as toxic and/or explosive products are formed. Prolonged contact of ammonia solutions with [[silver (element)|silver]], [[mercury (element)|mercury]] or [[iodide]] salts can also lead to explosive products: such mixtures are often formed in [[qualitative inorganic analysis]], and should be lightly acidified but not concentrated (<6% w/v) before disposal once the test is completed.
+
+===Laboratory use of anhydrous ammonia (gas or liquid)===
+<!-- EU index no. 007-001-00-5 -->
+<!-- R10, 23, 34, 50; S1/2, 9, 16, 26, 36/37/39, 45, 61 -->
+Anhydrous ammonia is classified as toxic ('''T''') and dangerous for the environment ('''N'''). The gas is flammable ([[autoignition temperature]]: 651&nbsp;°C) and can form explosive mixtures with air (16–25%). The [[permissible exposure limit]] (PEL) in the United States is 50&nbsp;[[Parts per million|ppm]] (35&nbsp;mg/m<sup>3</sup>), while the [[IDLH]] concentration is estimated at 300&nbsp;ppm. Repeated exposure to ammonia lowers the sensitivity to the smell of the gas: normally the odour is detectable at concentrations of less than 50&nbsp;ppm, but desensitised individuals may not detect it even at concentrations of 100&nbsp;ppm. Anhydrous ammonia corrodes [[copper (element)|copper]]- and [[zinc (element)|zinc]]-containing [[alloy]]s, and so [[brass]] fittings should not be used for handling the gas. Liquid ammonia can also attack [[rubber]] and certain plastics.
+
+Ammonia reacts violently with the halogens. [[Nitrogen triiodide]], a [[primary explosive|primary]] [[high explosive]], is formed when ammonia comes in contact with [[iodine]]. Ammonia causes the explosive [[polymerisation]] of [[ethylene oxide]]. It also forms explosive [[fulminating]] compounds with compounds of [[gold (element)|gold]], [[silver]], [[Mercury (element)|mercury]], [[germanium]] or [[tellurium]], and with [[stibine]]. Violent reactions have also been reported with [[acetaldehyde]], [[hypochlorite]] solutions, [[potassium ferricyanide]] and [[peroxide]]s.
+
+==Synthesis and production==
+{{See also|Haber-Bosch process}}
+''This section is about industrial synthesis. For synthesis in certain organisms, see section {{sectionlink|Biosynthesis}} below.''
+[[File:Production of ammonia.svg|thumb|300px|right|Production trend of ammonia between 1947 and 2007]]
+Because of its many uses, ammonia is one of the most highly produced inorganic chemicals. Dozens of [[chemical plant]]s worldwide produce ammonia. Consuming more than 1% of all man-made power, [[ammonia production]] is a significant component of the world energy budget.<ref name=Ullmann/> Market research reports total ammonia production in 2012 is 198 million tonnes and is predicted to increase by about 35 million tonnes by 2019.<ref name="ceresana1"/> [[China]] produced 28.4% of the worldwide production (increasingly from coal as part of [[urea]] synthesis)<ref>{{cite news|accessdate=7 July 2009|url=http://www.highbeam.com/doc/1G1-113564920.html|title=New coal-based ammonia and urea capacity.(China)|date=January 2004}}</ref> followed by [[India]] with 8.6%, [[Russia]] with 8.4%, and the [[United States]] with 8.2%.<ref name="usgs">{{cite web|accessdate=7 July 2009|url=http://minerals.usgs.gov/minerals/pubs/commodity/nitrogen/nitromcs05.pdf |title=United States Geological Survey publication}}</ref> About 80% or more of the ammonia produced is used for fertilizing agricultural crops.<ref name="usgs"/>
+
+Before the start of [[World War I]], most ammonia was obtained by the [[dry distillation]]<ref>{{cite news|accessdate=7 July 2009|url=http://nobelprize.org/chemistry/laureates/1918/press.html |title=Nobel Prize in Chemistry (1918) – Haber-Bosch process}}</ref> of nitrogenous vegetable and animal waste products, including [[camel]] [[manure|dung]], where it was [[distillation|distilled]] by the reduction of [[nitrous acid]] and [[nitrite]]s with hydrogen; in addition, it was produced by the distillation of [[coal]], and also by the decomposition of ammonium salts by [[alkaline]] hydroxides<ref>{{cite news|accessdate=7 July 2009|title=Chemistry of the Group 2 Elements – Be, Mg, Ca, Sr, Ba, Ra|url=http://www.bbc.co.uk/dna/h2g2/A1002934|publisher= BBC.co.uk}}</ref> such as [[calcium oxide|quicklime]], the salt most generally used being the chloride ([[ammonium chloride|sal-ammoniac]]) thus:
+
+:2 NH<sub>4</sub>Cl + 2 CaO → CaCl<sub>2</sub> + Ca(OH)<sub>2</sub> + 2 NH<sub>3</sub>
+
+Hydrogen for ammonia synthesis could also be produced economically by using the [[water gas]] reaction followed by the [[water gas shift]] reaction, produced by passing steam through red-hot [[coke (fuel)|coke]], to give a mixture of hydrogen and carbon dioxide gases, followed by removal of the carbon dioxide "washing" the gas mixture with water under pressure ({{convert|25|atm|kPa|lk=on}});<ref>{{cite book |last1=Parkes |first1=G. D. |last2=Mellor |first2=J. W. |title=Mellor's Modern Inorganic Chemistry |edition=New Edition, Revised and Rewritten |year=1939 |publisher=Longmans, Green and Co |location=London |pages=255–256 & 362}}</ref> or by using other sources like coal or coke gasification.
+
+Modern ammonia-producing plants depend on industrial [[hydrogen production]] to react with atmospheric nitrogen using a [[magnetite]] [[catalyst]] or over a promoted Fe catalyst under high pressure ({{convert|100|atm}}) and temperature (450&nbsp;°C) to form anhydrous liquid ammonia. This step is known as the ammonia synthesis loop (also referred to as the [[Haber–Bosch]] process):<ref>Shriver and Atkins. Inorganic Chemistry (Fifth Edition). W. H. Freeman and Company, New York, 2010, pp 383.</ref>
+
+:3 H<sub>2</sub> + N<sub>2</sub> → 2 NH<sub>3</sub>
+
+Hydrogen required for ammonia synthesis could also be produced economically using other sources like coal or coke gasification or less economically from the electrolysis of water into oxygen + hydrogen and other alternatives that are presently impractical for large scale.
+At one time, most of Europe's ammonia was produced from the Hydro plant at [[Vemork]], via the electrolysis route. Various renewable energy electricity sources are also potentially applicable.
+
+==Liquid ammonia as a solvent==
+{{See also|Inorganic nonaqueous solvent}}
+Liquid ammonia is the best-known and most widely studied nonaqueous ionising solvent. Its most conspicuous property is its ability to dissolve alkali metals to form highly coloured, electrically conductive solutions containing [[solvated electron]]s. Apart from these remarkable solutions, much of the chemistry in liquid ammonia can be classified by analogy with related reactions in aqueous solutions. Comparison of the physical properties of NH<sub>3</sub> with those of water shows NH<sub>3</sub> has the lower melting point, boiling point, density, [[viscosity]], [[dielectric constant]] and [[electrical conductivity]]; this is due at least in part to the weaker hydrogen bonding in NH<sub>3</sub> and because such bonding cannot form cross-linked networks, since each NH<sub>3</sub> molecule has only one lone-pair of electrons compared with two for each H<sub>2</sub>O molecule. The ionic self-[[dissociation constant]] of liquid NH<sub>3</sub> at −50&nbsp;°C is about 10<sup>−33</sup> mol<sup>2</sup>·l<sup>−2</sup>.
+
+===Solubility of salts===
+{|
+|-
+!
+! Solubility (g of salt per 100 g liquid NH<sub>3</sub>)
+|-
+| [[Ammonium acetate]]
+| 253.2
+|-
+| [[Ammonium nitrate]]
+| 389.6
+|-
+| [[Lithium nitrate]]
+| 243.7
+|-
+| [[Sodium nitrate]]
+| 97.6
+|-
+| [[Potassium nitrate]]
+| 10.4
+|-
+| [[Sodium fluoride]]
+| 0.35
+|-
+| [[Sodium chloride]]
+| 157.0
+|-
+| [[Sodium bromide]]
+| 138.0
+|-
+| [[Sodium iodide]]
+| 161.9
+|-
+| [[Sodium thiocyanate]]
+| 205.5
+|}
+
+Liquid ammonia is an ionising solvent, although less so than water, and dissolves a range of ionic compounds, including many [[nitrate]]s, [[nitrite]]s, [[cyanide]]s and [[thiocyanate]]s. Most ammonium salts are soluble and act as acids in liquid ammonia solutions. The solubility of [[halide]] salts increases from [[fluoride]] to [[iodide]]. A saturated solution of [[ammonium nitrate]] contains 0.83&nbsp;mol solute per mole of ammonia and has a [[vapour pressure]] of less than 1&nbsp;bar even at {{convert|25|C|0|abbr=on}}.
+
+===Solutions of metals===
+{{See also|Solvated electron}}
+Liquid ammonia will dissolve the [[alkali metal]]s and other [[Electronegativity|electropositive]] metals such as [[magnesium]], [[calcium]], [[strontium]], [[barium]], [[europium]] and [[ytterbium]]. At low concentrations (<0.06&nbsp;mol/l), deep blue solutions are formed: these contain metal cations and [[solvated electron]]s, free electrons that are surrounded by a cage of ammonia molecules.
+
+These solutions are very useful as strong reducing agents. At higher concentrations, the solutions are metallic in appearance and in electrical conductivity. At low temperatures, the two types of solution can coexist as [[Wiktionary:immiscible|immiscible]] phases.
+
+===Redox properties of liquid ammonia===
+{{See also|Redox}}
+{| cellpadding="5" style="text-align:center"
+|-
+!
+! [[Standard electrode potential|''E''°]] (V, ammonia)
+! [[Standard electrode potential|''E''°]] (V, water)
+|-
+| Li<sup>+</sup> + e<sup>−</sup> {{unicode|⇌}} Li
+| −2.24
+| −3.04
+|-
+| K<sup>+</sup> + e<sup>−</sup> {{unicode|⇌}} K
+| −1.98
+| −2.93
+|-
+| Na<sup>+</sup> + e<sup>−</sup> {{unicode|⇌}} Na
+| −1.85
+| −2.71
+|-
+| Zn<sup>2+</sup> + 2e<sup>−</sup> {{unicode|⇌}} Zn
+| −0.53
+| −0.76
+|-
+| NH<sub>4</sub><sup>+</sup> + e<sup>−</sup> {{unicode|⇌}} ½ H<sub>2</sub> + NH<sub>3</sub>
+| 0.00
+| —
+|-
+| Cu<sup>2+</sup> + 2e<sup>−</sup> {{unicode|⇌}} Cu
+| +0.43
+| +0.34
+|-
+| Ag<sup>+</sup> + e<sup>−</sup> {{unicode|⇌}} Ag
+| +0.83
+| +0.80
+|}
+
+The range of thermodynamic stability of liquid ammonia solutions is very narrow, as the potential for oxidation to dinitrogen, [[Standard electrode potential|''E''°]] (N<sub>2</sub> + 6NH<sub>4</sub><sup>+</sup> + 6e<sup>−</sup> {{unicode|⇌}} 8NH<sub>3</sub>), is only +0.04&nbsp;V. In practice, both oxidation to dinitrogen and reduction to dihydrogen are slow. This is particularly true of reducing solutions: the solutions of the alkali metals mentioned above are stable for several days, slowly decomposing to the [[Amide|metal amide]] and dihydrogen. Most studies involving liquid ammonia solutions are done in reducing conditions; although oxidation of liquid ammonia is usually slow, there is still a risk of explosion, particularly if transition metal ions are present as possible catalysts.
+
+==Ammonia's role in biological systems and human disease==
+[[File:Symptoms of hyperammonemia.svg|thumb|250px|Main symptoms of hyperammonemia (ammonia reaching toxic concentrations).<ref>{{cite news|url=http://emedicine.medscape.com/article/944996-overview |title=eMedicine Specialties > Metabolic Diseases > Hyperammonemia|author= Karl S. Roth, MD |accessdate=7 July 2009}}</ref>]]
+
+Ammonia is an important source of nitrogen for living systems. Although atmospheric nitrogen abounds (more than 75%), few living creatures are capable of using this nitrogen. Nitrogen is required for the synthesis of amino acids, which are the building blocks of [[protein]]. Some plants rely on ammonia and other nitrogenous wastes incorporated into the soil by decaying matter. Others, such as nitrogen-fixing [[legume]]s, benefit from [[symbiosis|symbiotic]] relationships with [[rhizobia]] that create ammonia from atmospheric nitrogen.<ref>{{cite web|author=Adjei, M. B.; Quesenberry, K. H. and Chamblis, C. G.|title=Nitrogen Fixation and Inoculation of Forage Legumes|url=http://edis.ifas.ufl.edu/AG152 |archiveurl=http://web.archive.org/web/20070520075000/http://edis.ifas.ufl.edu/AG152 |archivedate=2007-05-20 |publisher=University of Florida IFAS Extension|date=June 2002}}</ref>
+
+===Biosynthesis===
+In certain organisms, ammonia is produced from atmospheric nitrogen by [[enzyme]]s called [[nitrogenase]]s. The overall process is called [[nitrogen fixation]]. Although it is unlikely that biomimetic methods that are competitive with the [[Haber process]] will be developed, intense effort has been directed toward understanding the mechanism of biological nitrogen fixation. The scientific interest in this problem is motivated by the unusual structure of the active site of the enzyme, which consists of an Fe<sub>7</sub>MoS<sub>9</sub> ensemble.
+
+Ammonia is also a metabolic product of [[amino acid]] [[deamination]] catalyzed by enzymes such as [[Glutamate dehydrogenase 1#Function|glutamate dehydrogenase 1]]. Ammonia excretion is common in aquatic animals. In humans, it is quickly converted to [[urea]], which is much less toxic, particularly less [[#Basicity|basic]]. This urea is a major component of the dry weight of [[urine]]. Most reptiles, birds, insects, and snails excrete [[uric acid]] solely as nitrogenous waste.
+
+=== In physiology ===
+Ammonia also plays a role in both normal and abnormal animal [[physiology]]. It is biosynthesised through normal amino acid metabolism and is toxic in high concentrations.<ref>{{cite news|url=http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?sid=10323059 |title=PubChem Substance Summary|accessdate=7 July 2009}}</ref> The [[liver]] converts ammonia to urea through a series of reactions known as the [[urea cycle]]. Liver dysfunction, such as that seen in [[cirrhosis]], may lead to elevated amounts of ammonia in the blood ([[hyperammonemia]]). Likewise, defects in the enzymes responsible for the urea cycle, such as [[ornithine transcarbamylase]], lead to hyperammonemia. Hyperammonemia contributes to the confusion and [[coma]] of [[hepatic encephalopathy]], as well as the neurologic disease common in people with urea cycle defects and [[organic aciduria]]s.<ref>{{cite book|author=Zschocke, Johannes, and Georg Hoffman|title=Vademecum Metabolism|publisher= Friedrichsdorf, Germany: Milupa GmbH|year= 2004}}</ref>
+
+Ammonia is important for normal animal acid/base balance. After formation of ammonium from [[glutamine]], [[α-ketoglutarate]] may be degraded to produce two molecules of [[bicarbonate]], which are then available as buffers for dietary acids. Ammonium is excreted in the urine, resulting in net acid loss. Ammonia may itself diffuse across the renal tubules, combine with a hydrogen ion, and thus allow for further acid excretion.<ref>{{cite book|author=Rose, Burton, and Helmut Rennke|title=Renal Pathophysiology|location=Baltimore |publisher=Williams & Wilkins|year= 1994|isbn=0-683-07354-0}}</ref>
+
+===Excretion===
+{{Main|Excretion}}
+Ammonium ions are a [[toxic]] waste product of the [[metabolism]] in [[animal]]s. In fish and aquatic invertebrates, it is excreted directly into the water. In mammals, sharks, and amphibians, it is converted in the [[urea cycle]] to [[urea]], because it is less toxic and can be stored more efficiently. In birds, reptiles, and terrestrial snails, metabolic ammonium is converted into [[uric acid]], which is solid, and can therefore be excreted with minimal water loss.<ref>{{cite book |last=Campbell |first=Neil A. |authorlink=Neil Campbell (scientist) |coauthors=[[Jane Reece|Jane B. Reece]] |title=Biology |edition=6th |year=2002 |publisher=Pearson Education, Inc |location=San Francisco |isbn=0-8053-6624-5 |pages=937–938 |chapter=44}}</ref>
+{{Clear}}
+{{Wide image|Reference ranges for blood tests - by molarity.png|2000px|[[Reference ranges for blood tests]], comparing blood content of ammonia (shown in yellow near middle) with other constituents}}
+
+== In astronomy ==
+
+[[Image:Jupiter.jpg|thumb|right|Ammonia occurs in the [[celestial body atmosphere|atmospheres]] of the outer gas planets such as [[Jupiter]] (0.026% ammonia) and [[Saturn]] (0.012% ammonia).]]
+Ammonia has been detected in the atmospheres of the [[gas giant]] planets, including [[Jupiter]], along with other gases like methane, hydrogen, and [[helium]]. The interior of Saturn may include frozen crystals of ammonia.<ref>Edited by Kirk Munsell. Image page credit Lunar and Planetary Institute. NASA. "[http://solarsystem.nasa.gov/multimedia/display.cfm?IM_ID=166 NASA's Solar Exploration: Multimedia: Gallery: Gas Giant Interiors]". Retrieved 26 April 2006.</ref> It is naturally found on [[Deimos (moon)|Deimos]] and [[Phobos (moon)|Phobos]] – the two moons of Mars.
+
+===Interstellar space===
+Ammonia was first detected in interstellar space in 1968, based on [[microwave]] emissions from the direction of the [[Milky Way|galactic core]].<ref>{{cite journal|author=Cheung, A. C.; Rank, D. M.; Townes, C. H.; Thornton, D. D. and Welch, W. J.|year= 1968|title=Detection of NH<sub>3</sub> molecules in the interstellar medium by their microwave emission|journal=Phys. Rev. Lett.|volume=21|issue=25|page=1701|doi=10.1103/PhysRevLett.21.1701|bibcode=1968PhRvL..21.1701C}}</ref> This was the first [[polyatomic]] molecule to be so detected.
+The sensitivity of the molecule to a broad range of excitations and the ease with which it can be observed in a number of regions has made ammonia one of the most important molecules for studies of [[molecular cloud]]s.<ref name=ho>{{cite journal|author=Ho, P. T. P. and Townes, C. H.|year= 1983|title=Interstellar ammonia|bibcode=1983ARA&A..21..239H|journal=Ann. Rev. Astron. Astrophys.|volume= 21|issue=1|pages=239–70|doi=10.1146/annurev.aa.21.090183.001323}}</ref> The relative intensity of the ammonia lines can be used to measure the temperature of the emitting medium.
+
+The following isotopic species of ammonia have been detected:
+:NH<sub>3</sub>, <sup>15</sup>NH<sub>3</sub>, NH<sub>2</sub>[[Deuterium|D]], NHD<sub>2</sub>, and ND<sub>3</sub>
+The detection of triply [[deuterium|deuterated]] ammonia was considered a surprise as deuterium is relatively scarce. It is thought that the low-temperature conditions allow this molecule to survive and accumulate.<ref>{{cite journal|author=Millar, T. J.|title=Deuterium Fractionation in Interstellar Clouds|journal=Space Science Reviews|volume= 106|issue=1|pages=73–86|doi=10.1023/A:1024677318645|year=2003|bibcode = 2003SSRv..106...73M }}</ref>
+
+Since its interstellar discovery, NH<sub>3</sub> has proved to be an invaluable spectroscopic tool in the study of the interstellar medium. With a large number of transitions sensitive to a wide range of excitation conditions, NH<sub>3</sub> has been widely astronomically detected – its detection has been reported in hundreds of journal articles. Listed below is a sample of journal articles that highlights the range of detectors that have been used to identify ammonia.
+
+The study of interstellar ammonia has been important to a number of areas of research in the last few decades. Some of these are delineated below and primarily involve using ammonia as an interstellar thermometer.
+
+====Interstellar formation mechanisms====
+[[Image:Diamminesilver(I)-3D-balls.png|thumb|right|250px|Ball-and-stick model of the diamminesilver(I) cation, [Ag(NH<sub>3</sub>)<sub>2</sub>]<sup>+</sup>]]
+The interstellar abundance for ammonia has been measured for a variety of environments. The [NH<sub>3</sub>]/[H<sub>2</sub>] ratio has been estimated to range from 10<sup>−7</sup> in small dark clouds<ref>{{cite journal|author=Ungerechts, H., Walmsley, C. M., Winnewisser, G.|journal=Astron. Astrophys.|volume=88|page=259|year=1980|title=Ammonia and cyanoacetylene observations of the high-density core of L-183 (L-134-N)|url=http://cdsads.u-strasbg.fr/cgi-bin/nph-journal_query?volume=88&plate_select=NO&page=259&plate=&cover=&journal=A%2BA..|bibcode = 1980A&A....88..259U|last2=Walmsley|last3=Winnewisser }}</ref> up to 10<sup>−5</sup> in the dense core of the [[Orion Molecular Cloud Complex]].<ref>{{cite journal|author=Genzel, R.; Downes, D.; Ho, P. T. P.|year=1982|journal=Astrophysics Journal|volume=259|page=L103|doi=10.1086/183856|title=NH<sub>3</sub> in Orion-KL – A new interpretation|bibcode=1982ApJ...259L.103G}}</ref> Although a total of 18 total production routes have been proposed,<ref>{{cite web|url=http://udfa.net/|title=The UMIST data for Astrochemistry|accessdate=7 July 2009}}</ref> the principal formation mechanism for interstellar NH<sub>3</sub> is the reaction:
+
+: NH<sub>4</sub><sup>+</sup> + e<sup>−</sup> → NH<sub>3</sub> + H·
+
+The rate constant, ''k'', of this reaction depends on the temperature of the environment, with a value of 5.2×10<sup>−6</sup> at 10 K.<ref>{{cite journal|author=Vikor, L.|year=1999|journal=Astronomy and Astrophysics|volume=344|page=1027|url=http://cdsads.u-strasbg.fr/cgi-bin/nph-journal_query?volume=344&plate_select=NO&page=1027&plate=&cover=&journal=A%2BA..|title=Branching fractions of dissociative recombination of NH4+ and NH2+ molecular ions|bibcode = 1999A&A...344.1027V|last2=Al-Khalili|first2=A.|last3=Danared|first3=H.|last4=Djuric|first4=N.|last5=Dunn|first5=G. H.|last6=Larsson|first6=M.|last7=Le Padellec|first7=A.|last8=Rosaen|first8=S.|last9=Af Ugglas|first9=M.| displayauthors = 29 }}</ref> The rate constant was calculated from the formula ''k = a(T/300)<sup>B</sup>''. For the primary formation reaction, ''a''&nbsp;=&nbsp;1.05×10<sup>−6</sup> and ''B''&nbsp;=&nbsp;−0.47. Assuming an NH<sub>4</sub><sup>+</sup> abundance of 3×10<sup>−7</sup> and an electron abundance of 10<sup>−7</sup> typical of molecular clouds, the formation will proceed at a rate of 1.6×10<sup>−9</sup> cm<sup>−3</sup>s<sup>−1</sup> in a molecular cloud of total density 10<sup>5</sup> cm<sup>−3</sup>.<ref>{{cite journal|author=van Dishoeck, E. F.; and Black, J. H.|year=1986|journal=Astrophys. J. Suppl. Ser.|volume=62|pages=109–145|doi=10.1086/191135|title=Comprehensive models of diffuse interstellar clouds – Physical conditions and molecular abundances|bibcode=1986ApJS...62..109V}}</ref>
+
+All other proposed formation reactions have rate constants of between 2 and 13 orders of magnitude smaller, making their contribution to the abundance of ammonia relatively insignificant.<ref>{{cite web|url=http://astrochemistry.net |title=astrochemistry.net |publisher=astrochemistry.net |accessdate=21 May 2011}}</ref> As an example of the minor contribution other formation reactions play, the reaction:
+
+: H<sub>2</sub> + NH<sub>2</sub> → NH<sub>3</sub> + H
+
+has a rate constant of 2.2×10<sup>−15</sup>. Assuming H<sub>2</sub> densities of 10<sup>5</sup> and NH<sub>2</sub>/H<sub>2</sub> ratio of 10<sup>−7</sup>, this reaction proceeds at a rate of 2.2×10<sup>−12</sup>, more than 3 orders of magnitude slower than the primary reaction above.
+
+Some of the other possible formation reactions are:
+: H<sup>−</sup> + NH<sub>4</sub><sup>+</sup> → NH<sub>3</sub> + H<sub>2</sub>
+: PNH<sub>3</sub><sup>+</sup> + e<sup>−</sup> → P + NH<sub>3</sub>
+
+====Interstellar destruction mechanisms====
+There are 113 total proposed reactions leading to the destruction of NH<sub>3</sub>. Of these, 39 were tabulated in extensive tables of the chemistry among C, N, and O compounds.<ref>{{cite journal|bibcode=1980ApJS...43....1P|author=Prasad, S. S. and Huntress, W. T. |title=A model for gas phase chemistry in interstellar clouds|year=1980|journal=The Astrophysical Journal Supplement Series |volume=43|page=1 | doi=10.1086/190665}}</ref> A review of interstellar ammonia cites the following reactions as the principal dissociation mechanisms:<ref name=ho/>
+
+:(1) NH<sub>3</sub> + H<sub>3</sub><sup>+</sup> → NH<sub>4</sub><sup>+</sup> + H<sub>2</sub>
+:(2) NH<sub>3</sub> + HCO<sup>+</sup> → NH<sub>4</sub><sup>+</sup> + CO
+
+with rate constants of 4.39×10<sup>−9</sup><ref>{{cite journal|author=Lininger, W.; Albritton, D. L.; Fehsenfeld, F. C.; Schmeltekopf, A. L.; Ferguson, E. E.|journal= J. Chem. Phys.|volume=62|page=3549|year=1975|bibcode = 1975JChPh..62.3549L |doi = 10.1063/1.430946|title=Flow–drift tube measurements of kinetic energy dependences of some exothermic proton transfer rate constants|issue=9 }}</ref> and 2.2×10<sup>−9</sup>,<ref>{{cite journal|doi=10.1016/0009-2614(77)85326-8|title=Reactions of CH<sup>+</sup><sub>n</sub> IONS with ammonia at 300 K|year=1977|author=Smith, D.|journal=Chemical Physics Letters|volume=47|issue=1|page=145|first2=N. G.|last2=Adams|bibcode = 1977CPL....47..145S }}</ref> respectively. The above equations (1,2) run at a rate of 8.8×10<sup>−9</sup> and 4.4×10<sup>−13</sup>, respectively. These calculations assumed the given rate constants and abundances of [NH<sub>3</sub>]/[H<sub>2</sub>] = 10<sup>−5</sup>, [H<sub>3</sub><sup>+</sup>]/[H<sub>2</sub>] = 2×10<sup>−5</sup>, [HCO<sup>+</sup>]/[H<sub>2</sub>] = 2×10<sup>−9</sup>, and total densities of n = 10<sup>5</sup>, typical of cold, dense, molecular clouds.<ref>{{cite journal|author=Wooten, A.; Bozyan, E. P.; Garrett, D. B. |year=1980|journal=Astrophysical Journal|title=Detection of C<sub>2</sub>H in cold dark clouds|bibcode=1980ApJ...239..844W|volume=239|page=844|doi=10.1086/158168}}</ref> Clearly, between these two primary reactions, equation (1) is the dominant destruction reaction, with a rate ~10,000 times faster than equation (2). This is due to the relatively high abundance of H<sub>3</sub><sup>+</sup>.
+
+====Single antenna detections====
+Radio observations of NH<sub>3</sub> from the [[Effelsberg 100-m Radio Telescope]] reveal that the ammonia line is separated into two components – a background ridge and an unresolved core. The background corresponds well with the locations previously detected CO.<ref>{{cite journal|author=Wilson, T. L., Downes, D., Bieging, J. |year=1979|journal= AAp|volume= 71|page= 275 |bibcode=1979A&A....71..275W|title=Ammonia in Orion|last2=Downes|last3=Bieging}}</ref> The 25 m Chilbolton telescope in England detected radio signatures of ammonia in [[H II region]]s, HNH<sub>2</sub>O [[maser]]s, H-H objects, and other objects associated with star formation. A comparison of emission line widths indicates that turbulent or systematic velocities do not increase in the central cores of molecular clouds.<ref>{{cite journal|author=MacDonald, G. H., Little, L. T., Brown, A. T., Riley, P. W., Matheson, D. N., Felli, M. |year=1981|journal= MNRAS|volume= 195|page= 387 |bibcode=1981MNRAS.195..387M|title=Detection of new ammonia sources|last2=Little|last3=Brown|last4=Riley|last5=Matheson|last6=Felli}}</ref>
+
+Microwave radiation from ammonia was observed in several galactic objects including W3(OH), [[Orion (constellation)|Orion A]], W43, W51, and five sources in the galactic centre. The high detection rate indicates that this is a common molecule in the interstellar medium and that high-density regions are common in the galaxy.<ref>{{cite journal|author=Morris, M., Zuckerman, B., Palmer, P., Turner, B. E. |year=1973|journal= APJ|volume= 186|page= 501 |bibcode=1973ApJ...186..501M|doi=10.1086/152515|title=Interstellar ammonia}}</ref>
+
+====Interferometric studies====
+[[Very Large Array|VLA]] observations of NH<sub>3</sub> in seven regions with high-velocity gaseous outflows revealed condensations of less than 0.1 [[Parsec|pc]] in L1551, S140, and [[Cepheus (constellation)|Cepheus A]]. Three individual condensations were detected in Cepheus A, one of them with a highly elongated shape. They may play an important role in creating the bipolar outflow in the region.<ref>{{cite journal|author=Torrelles, J. M., Ho, P. T. P., Rodriguez, L. F., Canto, J. |year=1985|journal= APJ|volume= 288|page= 595 |bibcode=1985ApJ...288..595T|doi=10.1086/162825|title=VLA observations of ammonia and continuum in regions with high-velocity gaseous outflows}}</ref>
+
+Extragalactic ammonia was imaged using the VLA in [[IC 342]]. The hot gas has temperatures above 70 K, which was inferred from ammonia line ratios and appears to be closely associated with the innermost portions of the nuclear bar seen in CO.<ref>{{cite journal|author=Ho, P. T. P., Martin, R. N.,Turner, J. L., Jackson, J. M. |year=1990|journal= APJL|volume= 355|page= L19 |bibcode=1990ApJ...355L..19H|doi=10.1086/185728|title=VLA imaging of extragalactic ammonia – Hot gas in the nucleus of IC 342}}</ref> NH<sub>3</sub> was also monitored by VLA toward a sample of four galactic ultracompact HII regions: G9.62+0.19, G10.47+0.03, G29.96−0.02, and G31.41+0.31. Based upon temperature and density diagnostics, it is concluded that in general such clumps are likely to be the sites of massive star formation in an early evolutionary phase prior to the development of an ultracompact HII region.<ref>{{cite journal|author=Cesaroni, R., Churchwell, E., Hofner, P., Walmsley, C. M., Kurtz, S. |year=1994|journal= AAP|volume= 288|page= 903 |bibcode=1994A&A...288..903C|title=Hot ammonia toward compact HII regions|last2=Churchwell|last3=Hofner|last4=Walmsley|last5=Kurtz}}</ref>
+
+====Infrared detections====
+Absorption at 2.97 micrometres due to solid ammonia was recorded from interstellar grains in the [[Becklin-Neugebauer Object]] and probably in NGC 2264-IR as well. This detection helped explain the physical shape of previously poorly understood and related ice absorption lines.<ref>{{cite journal|author=Knacke, R. F., McCorkle, S., Puetter, R. C., Erickson, E. F., Kraetschmer, W. |year=1982|journal= APJ|volume= 260|page= 141|bibcode=1982ApJ...260..141K|doi=10.1086/160241|title=Observation of interstellar ammonia ice}}</ref>
+
+A spectrum of the disk of Jupiter was obtained from the [[Kuiper Airborne Observatory]], covering the 100 to 300&nbsp;cm<sup>−1</sup> spectral range. Analysis of the spectrum provides information on global mean properties of ammonia gas and an ammonia ice haze.<ref>{{cite journal|author=Orton, G. S., Aumann, H. H., Martonchik, J. V., Appleby, J. F. |year=1982|journal= Icarus|volume= 52|issue=1|page= 81 |bibcode=1982Icar...52...81O|doi=10.1016/0019-1035(82)90170-1|title=Airborne spectroscopy of Jupiter in the 100- to 300-cm>sup>−1</sup> region: Global properties of ammonia gas and ice haze}}</ref>
+
+A total of 149 dark cloud positions were surveyed for evidence of 'dense cores' by using the (J,K) = (1,1) rotating inversion line of NH<sub>3</sub>. In general, the cores are not spherically shaped, with aspect ratios ranging from 1.1 to 4.4. It is also found that cores with stars have broader lines than cores without stars.<ref>{{cite journal|author=Benson, P. J., Myers, P. |year=1989|journal= APJS|volume= 71|page= 89 |bibcode=1989ApJS...71...89B|doi=10.1086/191365|title=A survey for dense cores in dark clouds}}</ref>
+
+Ammonia has been detected in the [[Draco (constellation)|Draco Nebula]] and in one or possibly two molecular clouds, which are associated with the high-latitude galactic [[infrared cirrus]]. The finding is significant because they may represent the birthplaces for the Population I metallicity B-type stars in the galactic halo that could have been borne in the galactic disk.<ref>{{cite journal|author=Mebold, U., Heithausen, A., Reif, K.|year= 1987|journal= AAP|volume= 180|page= 213|bibcode=1987A&A...180..213M|title=Ammonia in the galactic halo and the infrared cirrus|last2=Heithausen|last3=Reif}}</ref>
+
+====Observations of nearby dark clouds====
+By balancing and stimulated emission with spontaneous emission, it is possible to construct a relation between [[excitation temperature]] and density. Moreover, since the transitional levels of ammonia can be approximated by a 2-level system at low temperatures, this calculation is fairly simple. This premise can be applied to dark clouds, regions suspected of having extremely low temperatures and possible sites for future star formation. Detections of ammonia in dark clouds show very narrow lines—indicative not only of low temperatures, but also of a low level of inner-cloud turbulence. Line ratio calculations provide a measurement of cloud temperature that is independent of previous CO observations. The ammonia observations were consistent with CO measurements of rotation temperatures of ~10 K. With this, densities can be determined, and have been calculated to range between 10<sup>4</sup> and 10<sup>5</sup> cm<sup>−3</sup> in dark clouds. Mapping of NH<sub>3</sub> gives typical clouds sizes of 0.1 [[Parsec|pc]] and masses near 1 solar mass. These cold, dense cores are the sites of future star formation.
+
+====UC HII regions====
+Ultra-compact HII regions are among the best tracers of high-mass star formation. The dense material surrounding UCHII regions is likely primarily molecular. Since a complete study of massive star formation necessarily involves the cloud from which the star formed, ammonia is an invaluable tool in understanding this surrounding molecular material. Since this molecular material can be spatially resolved, it is possible to constrain the heating/ionising sources, temperatures, masses, and sizes of the regions. Doppler-shifted velocity components allow for the separation of distinct regions of molecular gas that can trace outflows and hot cores originating from forming stars.
+
+====Extragalactic detection====
+Ammonia has been detected in external galaxies, and by simultaneously measuring several lines, it is possible to directly measure the gas temperature in these galaxies. Line ratios imply that gas temperatures are warm (~50 K), originating from dense clouds with sizes of tens of pc. This picture is consistent with the picture within our [[Milky Way]] galaxy—hot dense molecular cores form around newly forming stars embedded in larger clouds of molecular material on the scale of several hundred pc (giant molecular clouds; GMCs).
+
+==See also==
+*[[Ammonia (data page)]]
+*[[Ammonia fountain]]
+*[[Ammonia production]]
+*[[Forming gas]]
+*[[Haber process]]
+*[[Relative cost of electricity generated by different sources]]
+*[[Water purification]]
+
+==Notes==
+{{Reflist|30em}}
+
+==References==
+*{{cite web |title=Aqua Ammonia |url=http://www.airgasspecialtyproducts.com/Libraries/Aqua_Ammonia_Technical_Data_Manual/Physical_Properties.sflb.ashx |publisher=airgasspecialtyproducts.com |accessdate=28 November 2010| archiveurl= http://web.archive.org/web/20101119084300/http://airgasspecialtyproducts.com/Libraries/Aqua_Ammonia_Technical_Data_Manual/Physical_Properties.sflb.ashx| archivedate= 19 November 2010 <!--DASHBot-->| deadurl= no}}
+
+;Attribution
+*{{1911|title=Ammonia|url=http://www.1911encyclopedia.com/Ammonia}}
+
+==Further reading==
+*{{cite book|editor =Bretherick, L.|title=Hazards in the Chemical Laboratory|edition = 4th|location =London|publisher=Royal Society of Chemistry|year=1986|isbn=0-85186-489-9|oclc =16985764}}
+*{{Greenwood&Earnshaw2nd}}
+*{{Housecroft1st}}
+*{{RubberBible53rd}}
+
+==External links==
+{{Commons category}}
+*[http://www.inchem.org/documents/icsc/icsc/eics0414.htm International Chemical Safety Card 0414] (anhydrous ammonia), ilo.org.
+*[http://www.inchem.org/documents/icsc/icsc/eics0215.htm International Chemical Safety Card 0215] (aqueous solutions), ilo.org.
+*{{PubChemLink|222}}
+*{{cite web |url=http://www.inrs.fr/fichetox/ft16.html|title=Ammoniac et solutions aqueuses |publisher=Institut National de Recherche et de Sécurité}} {{fr icon}}
+*[http://www.ammoniaspills.org/ Emergency Response to Ammonia Fertilizer Releases (Spills)] for the Minnesota Department of Agriculture.ammoniaspills.org
+*[http://www.cdc.gov/niosh/topics/ammonia National Institute for Occupational Safety and Health – Ammonia Page], cdc.gov
+*[http://www.cdc.gov/niosh/npg/npgd0028.html NIOSH Pocket Guide to Chemical Hazards - Ammonia], cdc.gov
+
+[[Category:Bases]]
+[[Category:Household chemicals]]
+[[Category:Inorganic amines| ]]
+[[Category:Inorganic solvents]]
+[[Category:Nitrogen hydrides]]
+[[Category:Nitrogen metabolism]]
+[[Category:Refrigerants]]
+[[Category:Toxicology]]
+
+{{Link FA|de}}
+{{Link FA|hr}}
+{{Link FA|ko}}

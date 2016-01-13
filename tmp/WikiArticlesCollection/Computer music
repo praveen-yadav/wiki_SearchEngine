@@ -1,0 +1,168 @@
+{{Redirect|Computer Music|the magazine|Computer Music (magazine)}}
+{{refimprove|date=May 2008}}
+
+'''Computer music''' is the applications of [[computing technology]] in [[musical composition|music composition]]. It includes the theory and application of new and existing technologies and basic aspects of music, such as [[sound synthesis]], [[digital signal processing]], [[sound design]], sonic diffusion, [[acoustics]], and [[psychoacoustics]]. The field of computer music can trace its roots back to the origins of [[electronic music]], and the very first experiments and innovations with electronic instruments at the turn of the 20th century.
+
+More recently, with the advent of [[personal computing]], and the growth of [[home recording]], the term computer music is sometimes used to describe music that has been created using computing technology.
+
+==History==
+{{See also|Computer music programming languages}}
+Much of the work on computer music has drawn on the relationship between [[music theory]] and [[mathematics]].
+The world's first computer to play music was [[CSIRAC]] which was designed and built by [[Trevor Pearcey]] and Maston Beard. Mathematician Geoff Hill programmed the CSIRAC to play popular musical melodies from the very early 1950s. In 1951 it publicly played the "[[Colonel Bogey March]]"<ref>{{Cite journal| last = Doornbusch | first = Paul| title = The Music of CSIRAC | journal = Melbourne School of Engineering, Department of Computer Science and Software Engineering| url = http://www.csse.unimelb.edu.au/dept/about/csirac/music/introduction.html}}</ref> of which no known recordings exist.
+However, [[CSIRAC]] played standard repertoire and was not used to extend musical thinking or composition practice which is current computer-music practice.
+
+The oldest known recordings of computer generated music were played by the [[Ferranti Mark 1]] computer, a commercial version of the [[Manchester Small-Scale Experimental Machine|Baby]] Machine from the [[Victoria University of Manchester|University of Manchester]] in the autumn of 1951. The music program was written by [[Christopher Strachey]]. During a session recorded by the [[BBC]], the machine managed to work its way through "Baa Baa Black Sheep", "God Save the King" and part of "In the Mood".<ref>{{Cite journal| last = Fildes| first = Jonathan| title = 'Oldest' computer music unveiled | journal = News.bbc.co.uk| url = http://news.bbc.co.uk/2/hi/technology/7458479.stm| accessdate = 2008-06-17 | work=BBC News | date=June 17, 2008}}</ref>
+
+Two further major 1950s developments were the origins of digital sound synthesis by computer, and of algorithmic composition programs beyond rote playback. [[Max Mathews]] at Bell Laboratories developed the influential [[MUSIC-N|MUSIC I]] program and its descendents, further popularising computer music through a 1963 article in ''Science''.<ref>{{cite book |last=Bogdanov |first=Vladimir |date=2001 |title=All Music Guide to Electronica: The Definitive Guide to Electronic Music | publisher=Backbeat Books |page=320 |accessdate= 2013-11-10 }}</ref> Amongst other pioneers, the musical chemists [[Lejaren Hiller]] and Leonard Isaacson worked on a series of algorithmic composition experiments from 1956-9, manifested in the 1957 premiere of the ''Illiac Suite'' for string quartet.<ref>Lejaren Hiller and Leonard Isaacson, ''Experimental Music: Composition with an Electronic Computer'' (New York: McGraw-Hill, 1959; reprinted Westport, Conn.: Greenwood Press, 1979),{{Page needed|date=November 2010}}. ISBN 0-313-22158-8.</ref>
+
+In [[Japan]], experiments in computer music date back to 1962, when [[Keio University]] professor Sekine and [[Toshiba]] engineer Hayashi experimented with the [[:jp:TOSBAC|TOSBAC]] computer. This resulted in a piece entitled ''TOSBAC Suite'', influenced by the ''Illiac Suite''. Later Japanese computer music compositions include a piece by Kenjiro Ezaki presented during [[Osaka Expo '70]] and "Panoramic Sonore" (1974) by music critic Akimichi Takeda. Ezaki also published an article called "Contemporary Music and Computers" in 1970. Since then, Japanese research in computer music has largely been carried out for commercial purposes in [[popular music]], though some of the more serious Japanese musicians used large computer systems such as the ''[[Fairlight (company)|Fairlight]]'' in the 1970s.<ref name="shimazu104">{{cite journal|last=Shimazu|first=Takehito|title=The History of Electronic and Computer Music in Japan: Significant Composers and Their Works|journal=[[Leonardo Music Journal]]|year=1994|volume=4|pages=102–106 [104]|url=http://www.scribd.com/doc/93116556/The-History-of-Electronic-and-Experimental-Music-in-Japan|accessdate=9 July 2012|publisher=[[MIT Press]]}}</ref> 
+
+Early computer-music programs typically did not run in [[Real-time computing|real time]]. Programs would run for hours or days, on multi-million-dollar computers, to generate a few minutes of music.<ref>{{cite web|last=Cattermole|first=Tannith|title=Farseeing inventor pioneered computer music|url=http://www.gizmag.com/computer-music-pioneer-max-mathews/18530/|publisher=Gizmag|accessdate=28 October 2011|date=May 9, 2011}}<br>"In 1957 the MUSIC program allowed an IBM 704 mainframe computer to play a 17-second composition by Mathews. Back then computers were ponderous, so synthesis would take an hour."</ref><ref name=Sci11-63MaxMat>{{cite journal|last=Mathews|first=Max|title=The Digital Computer as a Musical Instrument|journal=Science|date=1 November 1963|volume=142|issue=3592|pages=553–557|doi=10.1126/science.142.3592.553|url=https://www.sciencemag.org/content/142/3592/553.short|accessdate=28 October 2011}}<br>"The generation of sound signals requires very high sampling rates.... A high speed machine such as the I.B.M. 7090 ... can compute only about 5000 numbers per second ... when generating a reasonably complex sound."</ref> One way around this was to use a 'hybrid system', most notably the [[Roland MC-8 Microcomposer]], where a [[microprocessor]]-based system controls an [[analog synthesizer]], released in 1978.<ref name="shimazu104"/> [[John Chowning]]'s work on [[FM synthesis]] from the 1960s to the 1970s allowed much more efficient digital synthesis,<ref>{{cite book|last=Dean|first=R. T.|title=The Oxford handbook of computer music|year=2009|publisher=Oxford University Press|isbn=0-19-533161-3|page=20}}</ref> eventually leading to the development of the affordable FM synthesis-based [[Yamaha DX7]] [[digital synthesizer]], released in 1983.<ref name="dean1">{{cite book|last=Dean|first=R. T.|title=The Oxford handbook of computer music|year=2009|publisher=Oxford University Press|isbn=0-19-533161-3|page=1}}</ref> In addition to the Yamaha DX7, the advent of inexpensive digital [[Microprocessor|chips]] and [[microcomputer]]s opened the door to real-time generation of computer music.<ref name="dean1"/> In the 1980s, Japanese [[personal computer]]s such as the [[NEC PC-8801|NEC PC-88]] came installed with FM synthesis [[sound chip]]s and featured [[audio programming language]]s such as [[Music Macro Language]] (MML) and [[MIDI]] interfaces, which were most often used to produce [[video game music]], or [[chiptune]]s.<ref name="shimazu104"/> By the early 1990s, the performance of microprocessor-based computers reached the point that real-time generation of computer music using more general programs and algorithms became possible.<ref name=RTDean2009>{{cite book|last=Dean|first=R. T.|title=The Oxford handbook of computer music|year=2009|publisher=Oxford University Press|isbn=0-19-533161-3|pages=4–5}}<br>"... by the 90s ... digital sound manipulation (using MSP or many other platforms) became widespread, fluent and stable."</ref>
+<blockquote>Interesting sounds must have a fluidity and changeability that allows them to remain fresh to the ear. In computer music this subtle ingredient is bought at a high computational cost, both in terms of the number of items requiring detail in a score and in the amount of interpretive work the instruments must produce to realize this detail in sound.<ref name=CRMM-Loy>Loy, D. Gareth, "Notes on the Implementation of MUSBOX...", in {{cite book|last=Roads|first=Curtis|title=The Music Machine: Selected Readings from Computer Music Journal|year=1992|publisher=MIT Press|isbn=0-262-68078-5|pages=344|author=D. Gareth Loy|authorlink=Notes on the implementation of MUSBOX...}}</ref> </blockquote>
+
+==Advances==
+Advances in computing power and software for manipulation of digital media have dramatically affected the way computer music is generated and performed. Current-generation micro-computers are powerful enough to perform very sophisticated audio synthesis using a wide variety of algorithms and approaches. Computer music systems and approaches are now ubiquitous, and so firmly embedded in the process of creating music that we hardly give them a second thought: computer-based synthesizers, digital mixers,  and effects units have become so commonplace that use of digital rather than analog technology to create and record music is the norm, rather than the exception.{{Citation needed|date=September 2012}}
+
+==Research==
+Despite the ubiquity of computer music in contemporary culture, there is considerable activity in the field of computer music, as researchers continue to pursue new and interesting computer-based synthesis, composition, and performance approaches. Throughout the world there are many organizations and institutions dedicated to the area of computer and electronic music study and research, including the [[International Computer Music Association|ICMA]] (International Computer Music Association), [[IRCAM]], GRAME, [[SEAMUS]] (Society for Electro Acoustic Music in the United States),  [[Canadian Electroacoustic Community|CEC]] (Canadian Electroacoustic Community), and a great number of institutions of higher learning around the world.
+
+==Computer-generated music==
+Computer-generated music is music [[musical composition|composed]] by, or with the extensive aid of, a computer. Although any music which uses computers in its composition or realisation is computer-generated to some extent, the use of computers is now so widespread (in the editing of pop songs, for instance) that the phrase computer-generated music is generally used to mean a kind of music which could not have been created ''without'' the use of computers.{{Citation needed|date=September 2012}}
+
+We can distinguish two groups of computer-generated music: music in which a computer generated the score, which could be performed by humans, and music which is both composed and performed by computers. There is a large genre of music that is organized, synthesized, and created on computers.{{Citation needed|date=September 2012}}
+
+===Music composed and performed by computers===
+{{Main|Algorithmic composition}}
+{{See also|Generative music|Evolutionary music|Genetic algorithm}}
+Later, composers such as [[Gottfried Michael Koenig]] had computers generate the sounds of the composition as well as the score. Koenig produced [[algorithmic composition]] programs which were a generalisation of his own [[serial composition]] practice.  This is not exactly similar to Xenakis' work as he used mathematical abstractions and examined how far he could explore these musically.  Koenig's software translated the calculation of mathematical equations into codes which represented musical notation.  This could be converted into musical notation by hand and then performed by human players. His programs Project 1 and Project 2 are examples of this kind of software. Later, he extended the same kind of principles into the realm of synthesis, enabling the computer to produce the sound directly. SSP is an example of a program which performs this kind of function. All of these programs were produced by Koenig at the [[Institute of Sonology]] in [[Utrecht]] in the 1970s.{{Citation needed|date=September 2012}}
+
+Procedures such as those used by Koenig and Xenakis are still in use today.{{Citation needed|date=September 2012}} Since the invention of the [[MIDI]] system in the early 1980s, for example, some people have worked on programs which map MIDI notes to an algorithm and then can either output sounds or music through the computer's [[sound card]] or write an [[audio file format|audio file]] for other programs to play.{{Citation needed|date=September 2012}}
+
+Some of these simple programs are based on [[fractal geometry]], and can map midi notes to specific [[fractal]]s, or fractal equations. Although such programs are widely available and are sometimes seen as clever toys for the non-musician, some professional musicians have given them attention also. The resulting 'music' can be more like noise, or can sound quite familiar and pleasant. As with much algorithmic music, and [[algorithmic art]] in general, more depends on the way in which the parameters are mapped to aspects of these equations than on the equations themselves. Thus, for example, the same equation can be made to produce both a lyrical and melodic piece of music in the style of the mid-nineteenth century, and a fantastically dissonant [[cacophony]] more reminiscent of the avant-garde music of the 1950s and 1960s.{{Citation needed|date=September 2012}}
+
+Other programs can map mathematical formulae and constants to produce sequences of notes. In this manner, an [[irrational number]] can give an infinite sequence of notes where each note is a digit in the decimal expression of that number. This sequence can in turn be a composition in itself, or simply the basis for further elaboration.{{Citation needed|date=September 2012}}
+
+Operations such as these, and even more elaborate operations can also be performed in computer music programming languages such as  [[Max/MSP]], [[SuperCollider]], [[Csound]], [[Pure Data]] (Pd), [[Keykit]], and [[ChucK]]. These programs now easily run on most personal computers, and are often capable of more complex functions than those which would have necessitated the most powerful mainframe computers several decades ago.{{Citation needed|date=September 2012}}
+
+There exist programs that generate "human-sounding" melodies by using a vast database of phrases. One example is [[Band-in-a-Box]], which is capable of creating [[jazz]], [[blues]] and [[Rock music|rock]] instrumental solos with almost no user interaction. Another is [[Impro-Visor]], which uses a [[stochastic context-free grammar]] to generate phrases and complete solos.{{Citation needed|date=September 2012}}
+
+Another 'cybernetic' approach to computer composition uses specialized hardware to detect external stimuli which are then mapped by the computer to realize the performance.  Examples of this style of computer music can be found in the middle-80's work of [[David Rokeby]] (Very Nervous System) where audience/performer motions are 'translated' to MIDI segments. Computer controlled music is also found in the performance pieces by the Canadian composer [[Udo Kasemets]] such as the Marce(ntennia)l Circus C(ag)elebrating Duchamp (1987), a realization of the [[Marcel Duchamp]] process piece ''Erratum Musical'' using an electric model train to collect a hopper-car of stones to be deposited on a drum wired to an Analog:Digital converter, mapping the stone impacts to a score display (performed in Toronto by pianist [[Gordon Monahan]] during the 1987 Duchamp Centennial), or his installations and performance works (e.g. Spectrascapes) based on his Geo(sono)scope (1986) 15x4-channel computer-controlled audio mixer. In these latter works, the computer generates sound-scapes from tape-loop sound samples, live shortwave or sine-wave generators.{{Citation needed|date=September 2012}}
+
+===Computer-generated scores for performance by human players===
+Many systems for generating musical scores actually existed well before the time of computers. One of these was [[Musikalisches Würfelspiel]] ''(Musical dice game''; 18th century), a system which used throws of the dice to randomly select measures from a large collection of small phrases. When patched together, these phrases combined to create musical pieces which could be performed by human players. Although these works were not actually composed with a computer in the modern sense, it uses a rudimentary form of the random combinatorial techniques sometimes used in computer-generated composition.{{Citation needed|date=September 2012}}
+
+The world's first digital computer music was generated in Australia by programmer Geoff Hill on the [[CSIRAC]] computer which was designed and built by Trevor Pearcey and Maston Beard, although it was only used to play standard tunes of the day. Subsequently, one of the first composers to write music with a computer was [[Iannis Xenakis]]. He wrote programs in the [[FORTRAN]] language that generated numeric data that he transcribed into scores to be played by traditional [[musical instrument]]s. An example is ''ST/48'' of 1962. Although Xenakis could well have composed this music by hand, the intensity of the calculations needed to transform probabilistic mathematics into musical notation was best left to the number-crunching power of the computer.{{Citation needed|date=September 2012}}
+
+Computers have also been used in an attempt to imitate the music of great composers of the past, such as [[Wolfgang Amadeus Mozart|Mozart]]. A present exponent of this technique is [[David Cope]]. He wrote computer programs that analyse works of other composers to produce new works in a similar style. He has used this program to great effect with composers such as Bach and Mozart (his program ''Experiments in Musical Intelligence'' is famous for creating "Mozart's 42nd Symphony"), and also within his own pieces, combining his own creations with that of the computer.{{Citation needed|date=September 2012}}
+
+[[Melomics]], a research group from the [[University of Málaga]], Spain, developed a computer composition cluster named [[Iamus (computer)|Iamus]], which composes complex, multi-instrument pieces for editing and performance.  Since its inception, [[Iamus (computer)|Iamus]] has composed a full album in 2012, appropriately named [[Iamus (album)|Iamus]], which [[New Scientist]] described as "The first major work composed by a computer and performed by a full orchestra."<ref>{{cite   journal | title= Computer composer honours Turing's centenary| journal= ''News Scientist''| date =5 July 2012| url =http://www.newscientist.com/article/mg21528724.300-computer-composer-honours-turings-centenary.html}}</ref>  The group has also developed an [[API]] for developers to utilize the technology, and makes its music available on its website.
+
+===Computer-Aided Algorithmic Composition===
+[[Image:GenSystemVenn.png|thumb|right|Diagram illustrating the position of CAAC in relation to other [[Generative music]] Systems]]Computer-Aided Algorithmic Composition (CAAC, pronounced "sea-ack") is the implementation and use of [[algorithmic composition]] techniques in software. This label is derived from the combination of two labels, each too vague for continued use. The label ''computer-aided composition'' lacks the specificity of using generative algorithms. Music produced with notation or sequencing software could easily be considered computer-aided composition. The label ''algorithmic composition'' is likewise too broad, particularly in that it does not specify the use of a computer. The term [[computer-aided]], rather than computer-assisted, is used in the same manner as [[Computer-Aided Design]].{{Citation needed|date=September 2012}}
+
+==Machine improvisation==
+{{See also|Machine learning|Machine listening|Artificial intelligence|Neural networks}}
+Machine improvisation uses computer algorithms to create [[improvisation]] on existing music materials. This is usually done by sophisticated recombination of musical phrases extracted from existing music, either live or pre-recorded. In order to achieve credible improvisation in particular style, machine improvisation uses [[machine learning]] and [[pattern matching]] algorithms to analyze existing musical examples. The resulting patterns are then used to create new variations "in the style" of the original music, developing a notion of stylistic reinjection.
+This is different from other improvisation methods with computers that use [[algorithmic composition]] to generate new music without performing analysis of existing music examples.{{Citation needed|date=September 2012}}
+
+===Statistical style modeling===
+Style modeling implies building a computational representation of the musical surface that captures important stylistic features from data.  Statistical approaches are used to capture the redundancies in terms of pattern dictionaries or repetitions, which are later recombined to generate new musical data. Style mixing can be realized by analysis of a database containing multiple musical examples in different styles.  Machine Improvisation builds upon a long musical tradition of statistical modeling that began with Hiller and Isaacson's ''Illiac Suite for String Quartet'' (1957) and Xenakis' uses of [[Markov chains]] and [[stochastic processes]].  Modern methods include the use of [[lossless data compression]] for incremental parsing,  [[prediction suffix tree]] and [[string searching]] by [[factor oracle]] algorithm (basically a ''factor oracle'' is a ﬁnite state automaton constructed in linear time and space in an incremental fashion<ref>Allauzen C., Crochemore M., Raﬃnot M., ''Factor oracle: a new structure for pattern matching; Proceedings of SOFSEM’99; Theory and Practice of Informatics.'' J. Pavelka, G. Tel and M. Bar- 
+tosek ed., Milovy, Lecture Notes in Computer Science 1725, pp 291-306, Springer-Verlag, Berlin, 
+1999. ISBN 3-540-66694-X.</ref>).
+
+===Uses of machine improvisation===
+Machine improvisation encourages musical creativity by providing automatic modeling and transformation structures for existing music.{{Citation needed|date=September 2012}} This creates a natural interface with the musician without need for coding musical algorithms. In live performance, the system re-injects  the musician's material in several different ways, allowing a semantics-level representation of the session and a smart recombination and transformation of this material in real-time. In offline version, machine improvisation can be used to achieve style mixing, an approach inspired by Vannevar Bush's [[memex]] imaginary machine.{{Citation needed|date=September 2012}}
+
+===Implementations===
+
+The first system implementing interactive machine improvisation by means of [[Markov models]] and style modeling techniques is the [http://www.csl.sony.fr/~pachet/ Continuator], developed by François Pachet at Sony CSL Paris in 2002<ref>Pachet, F., [http://www.csl.sony.fr/downloads/papers/uploads/pachet-02f.pdf The Continuator: Musical Interaction with Style]. In ICMA, editor,Proceedings of ICMC, pages 211-218, Göteborg, Sweden, September 2002. ICMA. Best paper award.</ref><ref>Pachet, F. [http://www.csl.sony.fr/downloads/papers/2002/pachet02b.pdf Playing with Virtual Musicians: the Continuator in practice]. IEEE Multimedia,9(3):77-82 2002.</ref> based on work on non-real time style modeling.<ref>G. Assayag, S. Dubnov, O. Delerue, "Guessing the Composer's Mind : Applying Universal Prediction to Musical Style", In Proceedings of International Computer Music Conference, Beijing, 1999.</ref><ref>S. Dubnov, G. Assayag, O. Lartillot, G. Bejerano, "Using Machine-Learning Methods for Musical Style Modeling", IEEE Computers, 36 (10), pp. 73-80, Oct. 2003.</ref>
+Matlab implementation of the Factor Oracle machine improvisation can be found as part of [[Computer Audition]] toolbox.
+
+OMax is a software environment developed in IRCAM. OMax uses [[OpenMusic]] and Max. It is based on researches on stylistic modeling carried out by Gerard Assayag and Shlomo Dubnov and on researches on improvisation with the computer by G. Assayag, M. Chemillier and G. Bloch (aka the'' OMax Brothers'') in the Ircam Music Representations group.{{Citation needed|date=September 2012}}
+
+===Musicians working with machine improvisation===
+Gerard Assayag (IRCAM, France),
+[[Jeremy Castro Baguyos|Jeremy Baguyos]] (University of Nebraska at Omaha, USA)
+Tim Blackwell (Goldsmiths College, Great Britain),
+George Bloch (Composer, France),
+Marc Chemiller (IRCAM/CNRS, France),
+Nick Collins (University of Sussex, UK),
+Shlomo Dubnov (Composer, Israel / USA),
+Mari Kimura ([[Juilliard]], New York City),
+George Lewis (Columbia University, New York City),
+Bernard Lubat (Pianist, France),
+François Pachet (Sony CSL, France),
+Joel Ryan ([[Institute of Sonology]], Netherlands),
+Michel Waisvisz (STEIM, Netherlands),
+David Wessel (CNMAT, California),
+Michael Young (Goldsmiths College, Great Britain),
+[[Pietro Grossi]] (CNUCE, Institute of the National Research Council, Pisa, Italy),
+Toby Gifford and Andrew Brown (Griffith University, Brisbane, Australia).
+Davis Salks (jazz composer, Hamburg, PA, USA)
+
+==Live coding==
+{{Main|Live coding}}
+Live coding<ref>{{cite doi|10.1017/S135577180300030X}}</ref> (sometimes known as 'interactive programming', 'on-the-fly programming',<ref>Wang G. & Cook P. (2004) [http://soundlab.cs.princeton.edu/publications/on-the-fly_nime2004.pdf "On-the-fly Programming: Using Code as an Expressive Musical Instrument"], In ''Proceedings of the 2004 International Conference on New Interfaces for Musical Expression (NIME)'' (New York: NIME, 2004).</ref> 'just in time programming') is the name given to the process of writing [[software]] in realtime as part of a [[performance]]. Recently it has been explored as a more rigorous alternative to laptop musicians who, live coders often feel, lack the charisma and pizzazz of [[musicians]] performing live.<ref>{{Cite journal| doi = 10.1080/0749446032000156919 | author = Collins, N. | year = 2003 | title = Generative Music and Laptop Performance | url =  | journal = Contemporary Music Review | volume = 22 | issue = 4 | pages = 67–79 }}</ref>
+
+Generally, this practice stages a more general approach: one of interactive programming, of writing (parts of) programs while they are interpreted. Traditionally most computer music programs have tended toward the old write/compile/run model which evolved when computers were much less powerful. This approach has locked out code-level innovation by people whose programming skills are more modest. Some programs have gradually integrated real-time controllers and gesturing (for example, [[MIDI]]-driven software synthesis and parameter control). Until recently, however, the musician/composer rarely had the capability of real-time modification of program code itself. This legacy distinction is somewhat erased by languages such as [[ChucK]], [[SuperCollider]], and [[Impromptu (programming environment)|Impromptu]].{{Citation needed|date=September 2012}}
+
+[[TOPLAP]], an ad-hoc conglomerate of artists interested in live coding was formed in 2004, and promotes the use, proliferation and exploration of a range of software, languages and techniques to implement live coding. This is a parallel and collaborative effort e.g. with research at the [[Princeton Sound Lab]], the  [[University of Cologne]], and the Computational Arts Research Group at [[Queensland University of Technology]].{{Citation needed|date=September 2012}}
+
+==See also==
+{{col-begin}}
+{{col-2}}
+* [[Acousmatic art]]
+* [[Chiptune]]
+* [[Comparison of audio synthesis environments]]
+* [[Csound]]
+* [[Digital audio workstation]]
+* [[Digital synthesizer]]
+* [[Electronic music]]
+* [[Emily Howell]]
+* [[Fast Fourier Transform]]
+* [[Human-computer interaction]]
+* [[Interactive music]]
+* [[Laptronica]]
+* [[Music information retrieval]]
+{{col-2}}
+* [[Music Macro Language]]
+* [[Music notation software]]
+* [[Music sequencer]]
+* [[New interfaces for musical expression]]
+* [[Physical modeling]]
+* [[Programming (music)]]
+* [[Sampling (music)]]
+* [[Sound and music computing|Sound and Music Computing]]
+
+* [[Sound synthesis]]
+* [[Tracker (music software)|Tracker]]
+* [[Video game music]]
+* [[Vocaloid]]
+{{col-end}}
+
+==References==
+{{reflist}}
+
+==Further reading==
+* Ariza, C. 2005. "Navigating the Landscape of Computer-Aided Algorithmic Composition Systems: A Definition, Seven Descriptors, and a Lexicon of Systems and Research." In ''Proceedings of the International Computer Music Conference''. San Francisco: International Computer Music Association. 765-772. Internet: http://www.flexatone.net/docs/nlcaacs.pdf
+* Ariza, C. 2005. ''An Open Design for Computer-Aided Algorithmic Music Composition: athenaCL''. Ph.D. Dissertation, New York University. Internet: http://www.flexatone.net/docs/odcaamca.pdf
+* Berg, P. 1996. "Abstracting the future: The Search for Musical Constructs" ''Computer Music Journal'' 20(3): 24-27.
+* {{Cite book|title=The Csound Book: Perspectives in Software Synthesis, Sound Design, Signal Processing, and Programming |editor=Boulanger, Richard|publisher=The MIT Press |date=March 6, 2000|pages=740|isbn=0-262-52261-6|url=http://csounds.com/shop/csound-book|accessdate=3 October 2009}}
+* [[Joel Chadabe|Chadabe, Joel]]. 1997. ''Electric Sound: The Past and Promise of Electronic Music''. Upper Saddle River, New Jersey: Prentice Hall.
+* Chowning, John. 1973. "The Synthesis of Complex Audio Spectra by Means of Frequency Modulation". ''Journal of the Audio Engineering Society'' 21, no. 7:526–34.
+* {{Cite book| last = Collins | first = Nick | title = Introduction to Computer Music | publisher = Wiley | location = Chichester | year = 2009 | isbn = 978-0-470-71455-3}}
+* {{Cite book|last=Dodge|first=Charles|coauthors=Jerse|others=Thomas A.|title=Computer Music: Synthesis, Composition and Performance|publisher=Schirmer Books|location=New York|year=1997|edition=2nd|pages=453|isbn=0-02-864682-7}}
+* Doornbusch, P. 2009. "A Chronology / History of Electronic and Computer Music and Related Events 1906 - 2011" http://www.doornbusch.net/chronology/
+* {{Cite book| last = Heifetz | first = Robin | title = On the Wires of Our Nerves | publisher = Bucknell University Press | location = Lewisburg Pa. | year = 1989 | isbn = 0-8387-5155-5 }}
+* {{Cite book| last = Manning | first = Peter | title = Electronic and Computer Music | edition=revised and expanded | publisher = Oxford University Press | location = Oxford Oxfordshire | year = 2004 | isbn = 0-19-517085-7 }}
+* Perry, Mark, and Thomas Margoni. 2010. "[http://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID1753242_code1383303.pdf?abstractid=1647584&mirid=1 From Music Tracks to Google Maps: Who Owns Computer-Generated Works?]". ''Computer Law and Security Review'' 26: 621–29.
+* {{Cite book| last = Roads | first = Curtis | title = The Computer Music Tutorial | publisher = MIT Press | location = Cambridge | year = 1994 | isbn = 0-262-68082-3 }}
+* Supper, M. 2001. "A Few Remarks on Algorithmic Composition." ''Computer Music Journal'' 25(1): 48-53.
+* {{Cite book| last = Xenakis | first = Iannis | title = Formalized Music: Thought and Mathematics in Composition | series = Harmonologia Series No. 6 | publisher = Pendragon Pr | location = Hillsdale, NY | year = 2001 | isbn = 1-57647-079-2 }}
+
+{{Computer music}}
+
+{{DEFAULTSORT:Computer Music}}
+[[Category:Musical techniques]]
+[[Category:Computer music software]]
+[[Category:Computer music]]

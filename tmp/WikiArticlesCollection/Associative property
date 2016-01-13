@@ -1,0 +1,274 @@
+{{About|associativity in mathematics|associativity in the central processor unit memory cache|CPU cache|associativity in programming languages|operator associativity}}
+{{Refimprove|date=June 2009|bot=yes}}
+{{Transformation rules}}
+
+In [[mathematics]], the '''associative property'''<ref>
+{{cite book
+|author=Thomas W. Hungerford
+|year=1974 |edition=1st
+|title=Algebra
+|page=24
+|publisher=[[Springer Science+Business Media|Springer]]
+|isbn=0387905189
+|quote=Definition 1.1 (i) a(bc) = (ab)c for all a, b, c in G.}}</ref> is a property of some [[binary operation]]s. In [[propositional logic]], '''associativity''' is a [[validity|valid]] [[rule of replacement]] for [[well-formed formula|expressions]] in [[Formal proof|logical proofs]].
+
+Within an expression containing two or more occurrences in a row of the same associative operator, the order in which the [[Operation (mathematics)|operations]] are performed does not matter as long as the sequence of the [[operand]]s is not changed. That is, rearranging the [[Bracket#Parentheses_%28_%29|parentheses]] in such an expression will not change its value. Consider, for instance, the following equations:
+
+:<math>(5+2)+1=5+(2+1)=8 \,</math>
+
+:<math>5\times(5\times3)=(5\times5)\times3=75 \,</math>
+
+Consider the first equation. Even though the parentheses were rearranged (the left side requires adding 5 and 2 first, then adding 1 to the result, whereas the right side requires adding 2 and 1 first, then 5), the value of the expression was not altered. Since this holds true when performing addition on any [[real number]]s, we say that "addition of real numbers is an associative operation."
+
+Associativity is not to be confused with [[commutativity]]. Commutativity justifies changing the order or sequence of the operands within an expression while associativity does not. For example,
+
+:<math>(5+2)+1=5+(2+1) \,</math>
+
+is an example of associativity because the parentheses were changed (and consequently the order of operations during evaluation) while the operands 5, 2, and 1 appeared in exactly the same order from left to right in the expression. In contrast,
+
+:<math>(5+2)+1=(2+5)+1 \,</math>
+
+is an example of commutativity, not associativity, because the operand sequence changed when the 2 and 5 switched places.
+
+Associative operations are abundant in mathematics; in fact, many [[algebraic structure]]s (such as [[semigroup (mathematics)|semigroups]] and [[category (mathematics)|categories]]) explicitly require their binary operations to be associative.
+
+However, many important and interesting operations are non-associative; some examples include [[subtraction]], [[exponentiation]] and the [[vector cross product]].
+
+== Definition ==
+Formally, a [[binary operation]] <math>*</math> on a [[Set (mathematics)|set]] ''S'' is called '''associative''' if it satisfies the '''associative law''':
+
+: <math>(x * y) * z=x * (y * z)\qquad\mbox{for all }x,y,z\in S.</math>
+Here, <math>*</math> is used to replace the symbol of the operation, which may be any symbol, and even the absence of symbol like for the [[multiplication]].
+
+: <math>(xy)z=x(yz) = xyz \qquad\mbox{for all }x,y,z\in S.</math>
+
+The associative law can also be expressed in functional notation thus: <math> f(f(x,y),z) = f(x,f(y,z))</math>.
+
+==Generalized associative law==
+If a binary operation is associative, repeated application of the operation produces the same result regardless how valid pairs of parenthesis are inserted in the expression.<ref>{{cite book |last=Durbin |first=John R. |title=Modern Algebra: an Introduction |year=1992 |publisher=Wiley |location=New York |isbn=0-471-51001-7 |page=78 |url=http://www.wiley.com/WileyCDA/WileyTitle/productCd-EHEP000258.html |edition=3rd |quote=If <math>a_1, a_2, \dots, a_n \,\, (n \ge 2)</math> are elements of a set with an associative operation, then the product <math>a_1 a_2 \dots a_n</math> is unambiguous; this is, the same element will be obtained regardless of how parentheses are inserted in the product}}</ref> This is called the '''generalized associative law'''. For instance, a product of four elements may be written in five possible ways:
+
+# ((ab)c)d
+# (ab)(cd)
+# (a(bc))d
+# a((bc)d)
+# a(b(cd))
+
+If the product operation is associative, the generalized associative law says that all these formulas will yield the same result, making the parenthesis unnecessary. Thus "the" product can be written unambiguously as
+
+:abcd.
+
+As the number of elements increases, the number of possible ways to insert parentheses grows quickly, but they remain unnecessary for disambiguation.
+
+==Examples==
+Some examples of associative operations include the following.
+
+* The [[string concatenation|concatenation]] of the three strings <code>"hello"</code>, <code>" "</code>, <code>"world"</code> can be computed by concatenating the first two strings (giving <code>"hello "</code>) and appending the third string (<code>"world"</code>), or by joining the second and third string (giving <code>" world"</code>) and concatenating the first string (<code>"hello"</code>) with the result. The two methods produce the same result; string concatenation is associative (but not commutative). 
+
+* In [[arithmetic]], [[addition]] and [[multiplication]] of [[real number]]s are associative; i.e.,
+:: <math>
+\left.
+\begin{matrix}
+(x+y)+z=x+(y+z)=x+y+z\quad
+\\
+(x\,y)z=x(y\,z)=x\,y\,z\qquad\qquad\qquad\quad\ \ \,
+\end{matrix}
+\right\}
+\mbox{for all }x,y,z\in\mathbb{R}.
+</math>
+:Because of associativity, the grouping parentheses can be omitted without ambiguity.
+
+* Addition and multiplication of [[complex number]]s and [[quaternion]]s is associative. Addition of [[octonion]]s is also associative, but multiplication of octonions is non-associative.
+
+* The [[greatest common divisor]] and [[least common multiple]] functions act associatively.
+:: <math>
+
+\left.
+\begin{matrix}
+\operatorname{gcd}(\operatorname{gcd}(x,y),z)=
+\operatorname{gcd}(x,\operatorname{gcd}(y,z))=
+\operatorname{gcd}(x,y,z)\ \quad
+\\
+\operatorname{lcm}(\operatorname{lcm}(x,y),z)=
+\operatorname{lcm}(x,\operatorname{lcm}(y,z))=
+\operatorname{lcm}(x,y,z)\quad
+\end{matrix}
+\right\}\mbox{ for all }x,y,z\in\mathbb{Z}.
+</math>
+* Taking the [[intersection (set theory)|intersection]] or the [[union (set theory)|union]] of [[Set (mathematics)|sets]]:
+:: <math>
+
+\left.
+\begin{matrix}
+(A\cap B)\cap C=A\cap(B\cap C)=A\cap B\cap C\quad
+\\
+(A\cup B)\cup C=A\cup(B\cup C)=A\cup B\cup C\quad
+\end{matrix}
+\right\}\mbox{for all sets }A,B,C.
+</math>
+
+* If ''M'' is some set and ''S'' denotes the set of all functions from ''M'' to ''M'', then the operation of [[functional composition]] on ''S'' is associative:
+
+:: <math>(f\circ g)\circ h=f\circ(g\circ h)=f\circ g\circ h\qquad\mbox{for all }f,g,h\in S.</math>
+
+* Slightly more generally, given four sets ''M'', ''N'', ''P'' and ''Q'', with ''h'': ''M'' to ''N'', ''g'': ''N'' to ''P'', and ''f'': ''P'' to ''Q'', then
+
+:: <math>(f\circ g)\circ h=f\circ(g\circ h)=f\circ g\circ h</math>
+
+: as before. In short, composition of maps is always associative.
+
+* Consider a set with three elements, A, B, and C. The following operation:
+
+:{| class="wikitable" style="text-align:center"
+|-
+! × !! A !! B !! C
+|-
+! A
+| A || A || A
+|-
+! B
+| A || B || C
+|-
+! C
+| A || A || A
+|-
+|}
+
+:is associative. Thus, for example, A(BC)=(AB)C = A. This mapping is not commutative.
+
+* Because [[Matrix (mathematics)|matrices]] represent [[Linear map|linear transformation]] functions, with [[matrix multiplication]] representing functional composition, one can immediately conclude that matrix multiplication is associative.
+
+== Propositional logic ==
+{{Transformation rules}}
+
+=== Rule of replacement ===
+In standard truth-functional propositional logic, ''association'',<ref>Moore and Parker</ref><ref>Copi and Cohen</ref> or ''associativity''<ref>Hurley</ref> are two [[validity|valid]] [[rule of replacement|rules of replacement]]. The rules allow one to move parentheses in [[well-formed formula|logical expressions]] in [[formal proof|logical proofs]]. The rules are:
+:<math>(P \or (Q \or R)) \Leftrightarrow ((P \or Q) \or R)</math>
+and
+:<math>(P \and (Q \and R)) \Leftrightarrow ((P \and Q) \and R),</math>
+where "<math>\Leftrightarrow</math>" is a [[metalogic]]al [[Symbol (formal)|symbol]] representing "can be replaced in a [[Formal proof|proof]] with."
+
+=== Truth functional connectives ===
+''Associativity'' is a property of some [[logical connective]]s of truth-functional [[propositional logic]]. The following [[logical equivalence]]s demonstrate that associativity is a property of particular connectives. The following are truth-functional [[tautology (logic)|tautologies]].
+
+'''Associativity of disjunction''':
+:<math>(P \or (Q \or R)) \leftrightarrow ((P \or Q) \or R)</math>
+:<math>((P \or Q) \or R) \leftrightarrow (P \or (Q \or R))</math>
+'''Associativity of conjunction''':
+:<math>((P \and Q) \and R) \leftrightarrow (P \and (Q \and R))</math>
+:<math>(P \and (Q \and R)) \leftrightarrow ((P \and Q) \and R)</math>
+'''Associativity of equivalence''':
+:<math>((P \leftrightarrow Q) \leftrightarrow R) \leftrightarrow (P \leftrightarrow (Q \leftrightarrow R))</math>
+:<math>(P \leftrightarrow (Q \leftrightarrow R)) \leftrightarrow ((P \leftrightarrow Q) \leftrightarrow R)</math>
+
+== Non-associativity ==
+A binary operation <math>*</math> on a set ''S'' that does not satisfy the associative law is called '''non-associative'''. Symbolically,
+
+:<math>(x*y)*z\ne x*(y*z)\qquad\mbox{for some }x,y,z\in S.</math>
+
+For such an operation the order of evaluation ''does'' matter. For example:
+
+* [[Subtraction]]
+:<math>
+(5-3)-2 \, \ne \, 5-(3-2)
+</math>
+* [[Division (mathematics)|Division]]
+:<math>
+(4/2)/2 \, \ne \, 4/(2/2)
+</math>
+* [[Exponentiation]]
+:<math>
+2^{(1^2)} \, \ne \, (2^1)^2
+</math>
+Also note that infinite sums are not generally associative, for example:
+:<math>
+(1-1)+(1-1)+(1-1)+(1-1)+(1-1)+(1-1)+\dots \, = \, 0
+</math>
+whereas
+:<math>
+1+(-1+1)+(-1+1)+(-1+1)+(-1+1)+(-1+1)+(-1+\dots \, = \, 1
+</math>
+
+The study of non-associative structures arises from reasons somewhat different from the mainstream of classical algebra. One area within [[non-associative algebra]] that has grown very large is that of [[Lie algebra]]s. There the associative law is replaced by the [[Jacobi identity]]. Lie algebras abstract the essential nature of [[infinitesimal transformation]]s, and have become ubiquitous in mathematics.
+
+There are other specific types of non-associative structures that have been studied in depth. They tend to come from some specific applications. Some of these arise in [[combinatorial mathematics]]. Other examples: [[Quasigroup]], [[Quasifield]], [[Nonassociative ring]].
+
+=== Notation for non-associative operations ===
+{{main|Operator associativity}}
+
+In general, parentheses must be used to indicate the [[order of operations|order of evaluation]] if a non-associative operation appears more than once in an expression. However, [[mathematician]]s agree on a particular order of evaluation for several common non-associative operations. This is simply a notational convention to avoid parentheses.
+
+A '''left-associative''' operation is a non-associative operation that is conventionally evaluated from left to right, i.e.,
+:<math>
+\left.
+\begin{matrix}
+x*y*z=(x*y)*z\qquad\qquad\quad\,
+\\
+w*x*y*z=((w*x)*y)*z\quad
+\\
+\mbox{etc.}\qquad\qquad\qquad\qquad\qquad\qquad\ \ \,
+\end{matrix}
+\right\}
+\mbox{for all }w,x,y,z\in S
+</math>
+while a '''right-associative''' operation is conventionally evaluated from right to left:
+:<math>
+\left.
+\begin{matrix}
+x*y*z=x*(y*z)\qquad\qquad\quad\,
+\\
+w*x*y*z=w*(x*(y*z))\quad
+\\
+\mbox{etc.}\qquad\qquad\qquad\qquad\qquad\qquad\ \ \,
+\end{matrix}
+\right\}
+\mbox{for all }w,x,y,z\in S
+</math>
+Both left-associative and right-associative operations occur. Left-associative operations include the following:
+
+*Subtraction and division of real numbers:
+::<math>x-y-z=(x-y)-z\qquad\mbox{for all }x,y,z\in\mathbb{R};</math>
+::<math>x/y/z=(x/y)/z\qquad\qquad\quad\mbox{for all }x,y,z\in\mathbb{R}\mbox{ with }y\ne0,z\ne0.</math>
+
+*Function application:
+::<math>(f \, x \, y) = ((f \, x) \, y)</math>
+:This notation can be motivated by the [[currying]] isomorphism.
+
+Right-associative operations include the following:
+
+*[[Exponentiation]] of real numbers:
+::<math>x^{y^z}=x^{(y^z)}.\,</math>
+
+:The reason exponentiation is right-associative is that a repeated left-associative exponentiation operation would be less useful. Multiple appearances could (and would) be rewritten with multiplication:
+
+::<math>(x^y)^z=x^{(yz)}.\,</math>
+
+*[[Function (mathematics)|Function definition]]
+::<math>\mathbb{Z} \rarr \mathbb{Z} \rarr \mathbb{Z} = \mathbb{Z} \rarr (\mathbb{Z} \rarr \mathbb{Z})</math>
+::<math>x \mapsto y \mapsto x - y = x \mapsto (y \mapsto x - y)</math>
+
+:Using right-associative notation for these operations can be motivated by the [[Curry-Howard correspondence]] and by the [[currying]] isomorphism.
+
+Non-associative operations for which no conventional evaluation order is defined include the following.
+
+*Taking the [[Cross product]] of three vectors:
+::<math>\vec a \times (\vec b \times \vec c) \neq (\vec a \times \vec b ) \times \vec c \qquad \mbox{ for some } \vec a,\vec b,\vec c \in \mathbb{R}^3</math>
+
+*Taking the pairwise [[average]] of real numbers:
+::<math>{(x+y)/2+z\over2}\ne{x+(y+z)/2\over2} \qquad \mbox{for all }x,y,z\in\mathbb{R} \mbox{ with }x\ne z.</math>
+*Taking the [[complement (set theory)|relative complement]] of sets <math>(A\backslash B)\backslash C</math> is not the same as <math>A\backslash (B\backslash C)</math>. (Compare [[material nonimplication]] in logic.)
+
+==See also==
+{{Wiktionary}}
+* [[Light's associativity test]]
+* A [[semigroup]] is a set with a closed associative binary operation.
+* [[Commutativity]] and [[distributivity]] are two other frequently discussed properties of binary operations.
+* [[Power associativity]], [[alternativity]] and [[N-ary associativity]] are weak forms of associativity.
+
+==References==
+{{reflist}}
+
+[[Category:Abstract algebra]]
+[[Category:Binary operations|*Associativity]]
+[[Category:Elementary algebra]]
+[[Category:Functional analysis]]
+[[Category:Rules of inference]]

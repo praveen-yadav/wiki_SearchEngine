@@ -1,0 +1,237 @@
+{{Refimprove|date=May 2009}}
+{{Distinguish|Algebraic data type}}
+In [[computer science]], an '''abstract data type''' ('''ADT''') is a [[mathematics|mathematical]] model for a certain class of [[data structure]]s that have similar behavior; or for certain [[data type]]s of one or more [[programming language]]s that have similar [[semantics]].  An abstract data type is defined indirectly, only by the operations that may be performed on it and by mathematical constraints on the effects (and possibly [[computational complexity|cost]]) of those operations.<ref name="liskov">[[Barbara Liskov]], Programming with Abstract Data Types, in Proceedings of the ACM SIGPLAN Symposium on Very High Level Languages, pp. 50--59, 1974, Santa Monica, California</ref>
+
+For example, an abstract [[Stack (abstract data type)|stack]] could be defined by three operations: <code>push</code>, that inserts some data item onto the structure, <code>pop</code>, that extracts an item from it (with the constraint that each pop always returns the most recently pushed item that has not been popped yet), and <code>peek</code>, that allows data on top of the structure to be examined without removal.  When [[analysis of algorithms|analyzing the efficiency]] of algorithms that use stacks, one may also specify that all operations take the same time no matter how many items have been pushed into the stack, and that the stack uses a constant amount of storage for each element.
+
+Abstract data types are purely theoretical entities, used (among other things) to simplify the description of abstract algorithms, to classify and evaluate data structures, and to formally describe the [[type system]]s of programming languages.  However, an ADT may be [[implementation|implemented]] by specific [[data type]]s or [[data structure]]s, in many ways and in many programming languages; or described in a [[formal specification language]].  ADTs are often implemented as [[modular programming|modules]]: the module's [[interface (computer science)|interface]] declares procedures that correspond to the ADT operations, sometimes with [[comment (computer programming)|comments]] that describe the constraints. This [[information hiding]] strategy allows the implementation of the module to be changed without disturbing the [[client (computing)|client]] programs.
+
+The term '''abstract data type''' can also be regarded as a generalised approach of a number of algebraic structures, such as lattices, groups, and rings.<ref>{{cite book | author=Rudolf Lidl | title=Abstract Algebra| publisher=Springer | year=2004 | isbn=81-8128-149-7}}, Chapter 7,section 40.</ref> This can be treated as part of the subject area of [[artificial intelligence]]. The notion of abstract data types is related to the concept of [[data abstraction]], important in [[object-oriented programming language|object-oriented programming]] and [[design by contract]] methodologies for [[software engineering|software development]] {{Citation needed|date=May 2009}}.
+
+==Defining an abstract data type (''ADT'')==
+An abstract data type is defined as a mathematical model of the data objects that make up a data type as well as the functions that operate on these objects.
+There are no standard conventions for defining them. A broad division may be drawn between "imperative" and "functional" definition styles.
+
+=== Imperative view ===
+In the "imperative" view, which is closer to the philosophy of [[imperative programming]] languages, an abstract data structure is conceived as an entity that is ''mutable'' — meaning that it may be in different ''states'' at different times. Some operations may change the state of the ADT; therefore, the order in which operations are evaluated is important, and the same operation on the same entities may have different effects if executed at different times — just like the instructions of a computer, or the commands and procedures of an imperative language. To underscore this view, it is customary to say that the operations are ''executed'' or ''applied'', rather than ''evaluated''.  The imperative style is often used when describing abstract algorithms. This is described by Donald E. Knuth and can be referenced from here [[The Art of Computer Programming]].
+
+==== Abstract variable ====
+Imperative ADT definitions often depend on the concept of an ''abstract variable'', which may be regarded as the simplest non-trivial ADT.  An abstract variable ''V'' is a mutable entity that admits two operations:
+*<code>store</code>(''V'',''x'') where ''x'' is a ''value'' of unspecified nature; and
+*<code>fetch</code>(''V''), that yields a value;
+with the constraint that
+*<code>fetch</code>(''V'') always returns the value ''x'' used in the most recent <code>store</code>(''V'',''x'') operation on the same variable ''V''.
+'''
+As in so many programming languages, the operation <code>store</code>(''V'',''x'') is often written ''V'' ← ''x'' (or some similar notation), and <code>fetch</code>(''V'') is implied whenever a variable ''V'' is used in a context where a value is required. Thus, for example, ''V'' ← ''V'' + 1 is commonly understood to be a shorthand for <code>store</code>(''V'',<code>fetch</code>(''V'') + 1).
+
+In this definition, it is implicitly assumed that storing a value into a variable ''U'' has no effect on the state of a distinct variable ''V''.  To make this assumption explicit, one could add the constraint that
+*if ''U'' and ''V'' are distinct variables, the sequence { <code>store</code>(''U'',''x''); <code>store</code>(''V'',''y'') } is equivalent to { <code>store</code>(''V'',''y''); <code>store</code>(''U'',''x'') }.
+
+More generally, ADT definitions often assume that any operation that changes the state of one ADT instance has no effect on the state of any other instance (including other instances of the same ADT) — unless the ADT axioms imply that the two instances are connected ([[Aliasing (computing)|aliased]]) in that sense.  For example, when extending the definition of abstract variable to include abstract [[record (computer science)|records]], the operation that selects a field from a record variable ''R'' must yield a variable ''V'' that is aliased to that part of ''R''.
+
+The definition of an abstract variable ''V'' may also restrict the stored values ''x'' to members of a specific set ''X'', called the ''range'' or ''type'' of ''V''.  As in programming languages, such restrictions may simplify the description and [[analysis of algorithms]], and improve their readability.
+
+Note that this definition does not imply anything about the result of evaluating <code>fetch</code>(''V'') when ''V'' is ''un-initialized'', that is, before performing any <code>store</code> operation on ''V''.  An algorithm that does so is usually considered invalid, because its effect is not defined.  (However, there are some important algorithms whose efficiency strongly depends on the assumption that such a <code>fetch</code> is legal, and returns some arbitrary value in the variable's range.{{Citation needed|date=May 2009}})
+
+==== Instance creation ====
+Some algorithms need to create new instances of some ADT (such as new variables, or new stacks).  To describe such algorithms, one usually includes in the ADT definition a <code>create</code>() operation that yields an instance of the ADT, usually with axioms equivalent to
+* the result of <code>create</code>() is distinct from any instance ''S'' in use by the algorithm.
+This axiom may be strengthened to exclude also partial aliasing with other instances.  On the other hand, this axiom still allows implementations of <code>create</code>() to yield a previously created instance that has become inaccessible to the program.
+
+==== Preconditions, postconditions, and invariants ====
+In imperative-style definitions, the axioms are often expressed by ''preconditions'', that specify when an operation may be executed; ''postconditions'', that relate the states of the ADT before and after the execution of each operation; and ''invariants'', that specify properties of the ADT that are ''not'' changed by the operations.
+
+==== Example: abstract stack (imperative) ====
+As another example, an imperative definition of an abstract stack could specify that the state of a stack ''S'' can be modified only by the operations
+*<code>push</code>(''S'',''x''), where ''x'' is some ''value'' of unspecified nature; and
+*<code>pop</code>(''S''), that yields a value as a result;
+with the constraint that
+*For any value ''x'' and any abstract variable ''V'', the sequence of operations { <code>push</code>(''S'',''x''); ''V'' ← <code>pop</code>(''S'') } is equivalent to { ''V'' ← ''x'' };
+
+Since the assignment { ''V'' ← ''x'' }, by definition, cannot change the state of ''S'', this condition implies that { ''V'' ← <code>pop</code>(''S'') } restores ''S'' to the state it had before the { <code>push</code>(''S'',''x'') }.  From this condition and from the properties of abstract variables, it follows, for example, that the sequence
+: { <code>push</code>(''S'',''x''); <code>push</code>(''S'',''y''); ''U'' ← <code>pop</code>(''S''); <code>push</code>(''S'',''z''); ''V'' ← <code>pop</code>(''S''); ''W'' ← <code>pop</code>(''S''); }
+where ''x'',''y'', and ''z'' are any values, and ''U'', ''V'', ''W'' are pairwise distinct variables, is equivalent to
+: { ''U'' ← ''y''; ''V'' ← ''z''; ''W'' ← ''x'' }
+
+Here it is implicitly assumed that operations on a stack instance do not modify the state of any other ADT instance, including other stacks; that is,
+*For any values ''x'',''y'', and any distinct stacks ''S'' and ''T'', the sequence { <code>push</code>(''S'',''x''); <code>push</code>(''T'',''y'') } is equivalent to { <code>push</code>(''T'',''y''); <code>push</code>(''S'',''x'') }.
+
+A stack ADT definition usually includes also a [[Boolean value|Boolean]]-valued function <code>empty</code>(''S'') and a <code>create</code>() operation that returns a stack instance, with axioms equivalent to
+* <code>create</code>() ≠ ''S'' for any stack ''S'' (a newly created stack is distinct from all previous stacks)
+* <code>empty</code>(<code>create</code>()) (a newly created stack is empty)
+* <code>not</code> <code>empty</code>(<code>push</code>(''S'',''x'')) (pushing something into a stack makes it non-empty)
+
+==== Single-instance style ====
+Sometimes an ADT is defined as if only one instance of it existed during the execution of the algorithm, and all operations were applied to that instance, which is not explicitly notated.  For example, the abstract stack above could have been defined with operations <code>push</code>(''x'') and <code>pop</code>(), that operate on "the" only existing stack.  ADT definitions in this style can be easily rewritten to admit multiple coexisting instances of the ADT, by adding an explicit instance parameter (like ''S'' in the previous example) to every operation that uses or modifies the implicit instance.
+
+On the other hand, some ADTs cannot be meaningfully defined without assuming multiple instances. This is the case when a single operation takes two distinct instances of the ADT as parameters. For an example, consider augmenting the definition of the stack ADT with an operation <code>compare</code>(''S'',''T'') that checks whether the stacks ''S'' and ''T'' contain the same items in the same order.
+
+=== Functional ADT definitions ===
+Another way to define an ADT, closer to the spirit of [[functional programming]], is to consider each state of the structure as a separate entity.  In this view, any operation that modifies the ADT is modeled as a [[function (mathematics)|mathematical function]] that takes the old state as an argument, and returns the new state as part of the result.  Unlike the "imperative" operations, these functions have no [[side effect (computer science)|side effect]]s. Therefore, the order in which they are evaluated is immaterial, and the same operation applied to the same arguments (including the same input states) will always return the same results (and output states).
+
+In the functional view, in particular, there is no way (or need) to define an "abstract variable" with the semantics of imperative variables (namely, with <code>fetch</code> and <code>store</code> operations).  Instead of storing values into variables, one passes them as arguments to functions.
+
+==== Example: abstract stack (functional) ====
+
+For example, a complete functional-style definition of a stack ADT could use the three operations:
+* <code>push</code>: takes a stack state and an arbitrary value, returns a stack state;
+* <code>top</code>: takes a stack state, returns a value;
+* <code>pop</code>: takes a stack state, returns a stack state;
+
+In a functional-style definition there is no need for a <code>create</code> operation. Indeed, there is no notion of "stack instance".  The stack states can be thought of as being potential states of a single stack structure, and two stack states that contain the same values in the same order are considered to be identical states.  This view actually mirrors the behavior of some concrete implementations, such as [[linked list]]s with [[hash cons]].
+
+Instead of <code>create</code>(), a functional definition of a stack ADT may assume the existence of a special stack state, the ''empty stack'', designated by a special symbol like Λ or "()"; or define a <code>bottom</code>() operation that takes no arguments and returns this special stack state. Note that the axioms imply that
+* <code>push</code>(Λ,''x'') ≠ Λ
+In a functional definition of a stack one does not need an <code>empty</code> predicate: instead, one can test whether a stack is empty by testing whether it is equal to Λ.
+
+Note that these axioms do not define the effect of <code>top</code>(''s'') or <code>pop</code>(''s''), unless ''s'' is a stack state returned by a <code>push</code>. Since <code>push</code> leaves the stack non-empty, those two operations are undefined (hence invalid) when ''s'' = Λ.  On the other hand, the axioms (and the lack of side effects) imply that <code>push</code>(''s'',''x'') = <code>push</code>(''t'',''y'') [[if and only if]] ''x'' = ''y'' and ''s'' = ''t''.
+
+As in some other branches of mathematics, it is customary to assume also that the stack states are only those whose existence can be proved from the axioms in a finite number of steps. In the stack ADT example above, this rule means that every stack is a ''finite'' sequence of values, that becomes the empty stack (Λ) after a finite number of <code>pop</code>s. By themselves, the axioms above do not exclude the existence of infinite stacks (that can be <code>pop</code>ed forever, each time yielding a different state) or circular stacks (that return to the same state after a finite number of <code>pop</code>s). In particular, they do not exclude states ''s'' such that <code>pop</code>(''s'') = ''s'' or <code>push</code>(''s'',''x'') = ''s'' for some ''x''. However, since one cannot obtain such stack states with the given operations, they are assumed "not to exist".
+
+== Advantages of abstract data typing ==
+{{Refimprove section|date=May 2011}}
+* Encapsulation
+[[Abstraction (computer science)|Abstraction]] provides a promise that any implementation of the ADT has certain properties and abilities; knowing these is all that is required to make use of an ADT object. The user does not need any technical knowledge of how the implementation works to use the ADT. In this way, the implementation may be complex but will be encapsulated in a simple interface when it is actually used.
+
+* Localization of change
+Code that uses an ADT object will not need to be edited if the implementation of the ADT is changed. Since any changes to the implementation must still comply with the interface, and since code using an ADT may only refer to properties and abilities specified in the interface, changes may be made to the implementation without requiring any changes in code where the ADT is used.
+
+*Flexibility
+Different implementations of an ADT, having all the same properties and abilities, are equivalent and may be used somewhat interchangeably in code that uses the ADT. This gives a great deal of flexibility when using ADT objects in different situations. For example, different implementations of an ADT may be more efficient in different situations; it is possible to use each in the situation where they are preferable, thus increasing overall efficiency.
+
+== Typical operations ==
+
+Some operations that are often specified for ADTs (possibly under other names) are
+
+* <code>compare</code>(''s'',''t''), that tests whether two structures are equivalent in some sense;
+* <code>hash</code>(''s''), that computes some standard [[hash function]] from the instance's state;
+* <code>print</code>(''s'') or <code>show</code>(''s''), that produces a human-readable representation of the structure's state.
+
+In imperative-style ADT definitions, one often finds also
+
+* <code>create</code>(), that yields a new instance of the ADT;
+* <code>initialize</code>(''s''), that prepares a newly created instance ''s'' for further operations, or resets it to some "initial state";
+* <code>copy</code>(''s'',''t''), that puts instance ''s'' in a state equivalent to that of ''t'';
+* <code>clone</code>(''t''), that performs ''s'' ← <code>new</code>(),  <code>copy</code>(''s'',''t''), and returns ''s'';
+* <code>free</code>(''s'') or <code>destroy</code>(''s''), that reclaims the memory and other resources used by ''s'';
+
+The <code>free</code> operation is not normally relevant or meaningful, since ADTs are theoretical entities that do not "use memory".  However, it may be necessary when one needs to analyze the storage used by an algorithm that uses the ADT. In that case one needs additional axioms that specify how much memory each ADT instance uses, as a function of its state, and how much of it is returned to the pool by <code>free</code>.
+
+== Examples ==
+Some common ADTs, which have proved useful in a great variety of applications, are
+<div style="-moz-column-count:4; column-count:4;">
+*[[Container (data structure)|Container]]
+*[[Deque]]
+*[[List (computing)|List]]
+*[[Associative array|Map]]
+*[[Multimap]]
+*[[Set (abstract data type)#Multiset|Multiset]]
+*[[Priority queue]]
+*[[Queue (data structure)|Queue]]
+*[[Set (abstract data type)|Set]]
+*[[Stack (data structure)|Stack]]
+*[[String (computer science)|String]]
+*[[Tree (computer science)|Tree]]
+*[[Graph (data structure)|Graph]]
+</div>
+
+Each of these ADTs may be defined in many ways and variants, not necessarily equivalent.  For example, a stack ADT may or may not have a <code>count</code> operation that tells how many items have been pushed and not yet popped. This choice makes a difference not only for its clients but also for the implementation.
+
+== Implementation ==
+Implementing an ADT means providing one [[subroutine|procedure or function]] for each abstract operation. The ADT instances are represented by some concrete [[data structure]] that is manipulated by those procedures, according to the ADT's specifications.
+
+Usually there are many ways to implement the same ADT, using several different concrete data structures.  Thus, for example, an abstract stack can be implemented by a [[linked list]] or by an [[Array data structure|array]].
+
+An ADT implementation is often packaged as one or more [[module (programming)|modules]], whose interface contains only the signature (number and types of the parameters and results) of the operations.  The implementation of the module — namely, the bodies of the procedures and the concrete data structure used — can then be hidden from most clients of the module.  This makes it possible to change the implementation without affecting the clients.
+
+When implementing an ADT, each instance (in imperative-style definitions) or each state (in functional-style definitions) is usually represented by a [[handle (computing)|handle]] of some sort.<ref>{{cite book | author=Robert Sedgewick | title=Algorithms in C | publisher=Addison/Wesley | year=1998 | isbn=0-201-31452-5}}, definition 4.4.</ref>
+
+Modern object-oriented languages, such as [[C++]] and [[Java programming language|Java]], support a form of abstract data types. When a class is used as a type, it is an abstract type that refers to a hidden representation. In this model an ADT is typically implemented as a [[class (computer science)|class]], and each instance of the ADT is an [[object (computer science)|object]] of that class.  The module's interface typically declares the constructors as ordinary procedures, and most of the other ADT operations as [[method (computer science)|methods]] of that class. However, such an approach does not easily encapsulate multiple representational variants found in an ADT. It also can undermine the extensibility of object-oriented programs.
+In a pure object-oriented program that uses interfaces as types, types refer to behaviors not representations.
+
+=== Example: implementation of the stack ADT ===
+<!-- This section should be moved to [[stack data structure]] or a new [[abstract stack]] article. -->
+As an example, here is an implementation of the stack ADT above in the C programming language.<!-- Replace <pre> by <source "lang=c"> after the color scheme has been fixed. The light green paentheses on gray background, in particular, are unreadable (and silly, IMHO). Text must always have substantial *lightness* (CIE Y) contrast. This complaint should be moved to the technical village pump or some such. -->
+
+''' Imperative-style interface '''
+
+An imperative-style interface might be:
+<source lang="cpp">
+typedef struct stack_Rep stack_Rep;        /* Type: instance representation (an opaque record). */
+typedef stack_Rep *stack_T;                /* Type: handle to a stack instance (an opaque pointer). */
+typedef void *stack_Item;                  /* Type: value that can be stored in stack (arbitrary address). */
+
+stack_T stack_create(void);                /* Create new stack instance, initially empty. */
+void stack_push(stack_T s, stack_Item e);  /* Add an item at the top of the stack. */
+stack_Item stack_pop(stack_T s);           /* Remove the top item from the stack and return it . */
+int stack_empty(stack_T ts);               /* Check whether stack is empty. */
+</source>
+
+This implementation could be used in the following manner:
+<source lang="cpp">
+#include <stack.h>            /* Include the stack interface. */
+stack_T t = stack_create();   /* Create a stack instance. */
+int foo = 17;                 /* An arbitrary datum. */
+stack_push(t, &foo);          /* Push the address of 'foo' onto the stack. */
+…
+void *e = stack_pop(t);       /* Get the top item and delete it from the stack. */
+if (stack_empty(t)) { … }     /* Do something if stack is empty. */
+…
+</source>
+
+This interface can be implemented in many ways. The implementation may be arbitrarily inefficient, since the formal definition of the ADT, above, does not specify how much space the stack may use, nor how long each operation should take.  It also does not specify whether the stack state ''t'' continues to exist after a call ''s'' ← <code>pop</code>(''t'').
+
+In practice the formal definition should specify that the space is proportional to the number of items pushed and not yet popped; and that every one of the operations above must finish in a constant amount of time, independently of that number. To comply with these additional specifications, the implementation could use a linked list, or an array (with dynamic resizing) together with two integers (an item count and the array size)
+
+==== Functional-style interface ====
+
+Functional-style ADT definitions are more appropriate for functional programming languages, and vice-versa.  However, one can provide a functional style interface even in an imperative language like C. For example:
+<source lang="cpp">
+typedef struct stack_Rep stack_Rep;          /* Type: stack state representation (an opaque record). */
+typedef stack_Rep *stack_T;                  /* Type: handle to a stack state (an opaque pointer). */
+typedef void *stack_Item;                    /* Type: item (arbitrary address). */
+
+stack_T stack_empty(void);                   /* Returns the empty stack state. */
+stack_T stack_push(stack_T s, stack_Item x); /* Adds x at the top of s, returns the resulting state. */
+stack_Item stack_top(stack_T s);             /* Returns the item currently at the top of s. */
+stack_T stack_pop(stack_T s);                /* Remove the top item from s, returns the resulting state. */
+</source>
+The main problem is that C lacks garbage collection, and this makes this style of programming impractical; moreover, memory allocation routines in C are slower than allocation in a typical garbage collector, thus the performance impact of so many allocations is even greater.
+
+===ADT libraries===
+Many modern programming languages, such as C++ and Java, come with standard libraries that implement several common ADTs, such as those listed above.
+
+===Built-in abstract data types===
+The specification of some programming languages is intentionally vague about the representation of certain [[built-in data type]]s, defining only the operations that can be done on them.  Therefore, those types can be viewed as "built-in ADTs".  Examples are the arrays in many scripting languages, such as [[Awk]], [[Lua (programming language)|Lua]], and [[Perl]], which can be regarded as an implementation of the Map or Table ADT.
+
+== See also ==
+* [[Initial algebra]]
+* [[Concept (generic programming)]]
+* [[Design by contract]]
+* [[Formal methods]]
+* [[Functional specification]]
+* [[Liskov substitution principle]]
+* [[Object-oriented programming]]
+* [[Type system]]
+* [[Type theory]]
+* [[Algebraic data type]]
+* [[Generalized algebraic data type]]
+
+== References ==
+{{Reflist}}
+
+== Further ==
+* {{cite journal|first1=John C.|last1=Mitchell|authorlink1=John C. Mitchell|first2=Gordon|last2=Plotkin|authorlink2=Gordon Plotkin|title=Abstract Types Have Existential Type|journal=ACM Transactions on Programming Languages and Systems|volume=10|issue=3|date=July 1988|url=http://theory.stanford.edu/~jcm/papers/mitch-plotkin-88.pdf}}
+
+== External links ==
+* [http://www.nist.gov/dads/HTML/abstractDataType.html Abstract data type] in [[NIST]] Dictionary of Algorithms and Data Structures
+* [[Walls and Mirrors]], the classic textbook
+{{Data structures}}
+{{Data types}}
+
+{{DEFAULTSORT:Abstract Data Type}}
+[[Category:Abstract data types| ]]
+[[Category:Data types]]
+[[Category:Type theory]]
+
+[[sv:Datatyp#Abstrakta typer]]

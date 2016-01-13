@@ -1,0 +1,128 @@
+{{Table Hanzi}}
+'''Chinese input methods''' are methods that allow a computer user to input [[Chinese characters]] with a standard [[ASCII]] keyboard. Most, if not all, Chinese [[input method]]s fall into one of two categories: phonetic readings or root shapes. Methods under the phonetic category usually are easier to learn but are less efficient, thus resulting in slower typing speeds because they typically require users to choose from a list of phonetically similar characters for input; whereas methods under the root shape category allow very precise and speedy input but have a difficult [[learning curve]] because they often require a thorough understanding of a character's strokes and composition.
+
+Other methods allow users to write characters directly onto touchscreens, such as those found on mobile phones and tablet computers.
+
+==History==
+[[Image:Large chinese keyboard.jpg|thumb|200px|right|An early experimental Chinese keyboard with many keys was developed by researchers of [[National Chiao Tung University]] in Taiwan, but it never came to the mainstream.]]
+Chinese input methods predate the computer. One of the early attempts was an electro-mechanical [[Chinese typewriter]] '''Ming kwai''' ({{zh|c=明快 |p=míngkuài |w=ming-k'uai}}) which was invented by [[Lin Yutang]], a prominent Chinese writer, in the 1940s.  It assigned thirty base shapes or strokes to different keys and adopted a new way of categorizing Chinese characters. But the typewriter was not produced commercially and Lin soon found himself deeply in debt.<ref>[http://203.68.20.65/science/content/1972/00110035/0018.htm 中文與計算機]</ref>
+
+Before the 1980s, Chinese publishers hired teams of workers and selected a few thousand type pieces from an enormous Chinese character set. Chinese government agencies entered characters using a long, complicated list of [[Chinese telegraph code]]s, which assigned different numbers to each character. During the early computer era, Chinese characters were categorized by their radicals or Pinyin romanization, but results were less than satisfactory.
+[[Image:Keyboard layout Cangjie.png|thumb|200px|A typical [[keyboard layout]] for the Cangjie method, which is based on [[keyboard layout#United States|United States keyboard layout]]]]
+[[Chu Bong-Foo]] invented a common input method in 1976 with his [[Cangjie input method]], which assigns different "roots" to each key on a standard computer keyboard. With this method, for example, the character 日 is assigned to the A key, and 月 is assigned to B. Typing them together will result in the character 明 ("bright").
+
+Despite its steeper learning curve, this method remains popular in Chinese communities that use [[traditional Chinese character]]s, such as [[Hong Kong]] and [[Taiwan]]; the method allows very precise input, thus allowing users to type more efficiently and quickly, provided they are familiar with the fairly complicated rules of the method. It was the first method that allowed users to enter more than a hundred Chinese characters per minute.
+
+All methods have their strengths and weaknesses. The [[pinyin method]] can be learned rapidly but its maximum input rate is limited. The ''[[Wubi method|Wubi]]'' takes longer to learn, but expert typists can enter text much more rapidly with it than with phonetic methods.
+
+Due to these complexities, there is no "standard" method.
+
+In mainland China, the [[Wubi method|wubi]] (shape-based) and pinyin methods such as [[Sogou Pinyin]] and [[Google Pinyin]] are the most popular; in [[Taiwan]], [[Boshiamy method|Boshiamy]], [[Cangjie method|Cangjie]], and [[Bopomofo|zhuyin]] predominate; and in [[Hong Kong]], the [[Cangjie method|Cangjie]] is most often taught in schools.
+
+Other methods include [[handwriting recognition]], [[Optical character recognition|OCR]] and [[Speech recognition|voice recognition]]. The computer itself must first be "trained" before the first or second of these methods are used; that is, the new user enters the system in a special "learning mode" so that the system can learn to identify his handwriting or speech patterns. The latter two methods are used less frequently than keyboard-based input methods and suffer from relatively high error rates, especially when used without proper "training", though higher error rates are an acceptable trade-off to many users.
+
+== Categories ==
+
+===Phonetic-based===
+{{See also|Pinyin input method}}
+The user enters pronunciations that are converted into relevant Chinese characters. The user must select the desired character from homophones, which are common in Chinese. Modern systems, such as [[Sogou Pinyin]] and [[Google Pinyin]], predict the desired characters based on context and user preferences. For example, if one enters the sounds ''jicheng'', the software will type 繼承 (to inherit), but if ''jichengche'' is entered,  計程車 (taxi) will appear.
+
+Various Chinese dialects complicate the system. Phonetic methods are based on standard [[pinyin]], [[Zhùyīn fúhào|Zhuyin]], and [[Jyutping]] in mainland China, Taiwan, and Hong Kong, respectively.
+
+While the phonetic system is easy to learn, choosing appropriate Chinese characters slows typing speed. Most users report a typing speed of fifty characters per minute, though some reach over one hundred per minute.<ref>[http://bbs.sogou.com/284579/goYBXy1sJXqFBAAAA.html users' Report on Pinyin Method], Sougou BBS</ref>
+
+=== Shape-based ===
+[[File:Typing chinese characters with Cangjie gedit383 Ubuntu1310 screencast.ogv|thumb|Typing [[Standard Chinese|Chinese]] with [[Cangjie input method|Cangjie]]]]
+* [[Cangjie input method]] (倉頡; 仓颉; Tsang-chieh)
+* [[Simplified Cangjie]] (簡易倉頡, known as 速成 or 'Quick' on Windows systems and 'Sucheng' on Mac OS X systems)
+* [[CKC Chinese Input System]] (縱橫輸入法)
+* [[Boshiamy method]] (嘸蝦米)
+* [[Dayi method]] (大易)
+* [[Array method]] (行列)
+* [[Four-Corner Method]] (四角碼; 四角码)
+* [[Oxis Chinese Character Finder]]
+* [[Q9 method]] (九方)
+* [[Shouwei method]] (首尾字型)
+* [[Stroke count method]] (筆畫; 笔画)
+* [[Stroke method]] (筆劃; 笔划)
+* [[Wubi method]] (五筆字型; 五笔字型)
+* [[Wubihua method]] (五筆畫; 五笔画)
+* [[Zheng code method]] (鄭碼; 郑码)
+* [[Shou-wei Hao-ma method]] (首尾號碼)
+* [[Knot DNA method]] (筆結碼)
+* [http://jadegazebo.com Jade Gazebo method] (玉明軒)
+
+=== Hybrid ===
+* [[Tze-loi method]] (子來; 子来)
+* [[Renzhi code method]] (認知碼; 认知码)
+* [[Cong Ming Da Zi]] (聪明打字, Released 2011)
+
+=== Examples of keyboard layouts ===
+
+<gallery>
+Image:Keyboard layout Zhuyin.svg|A typical [[keyboard layout]] for zhuyin on computers, which can be used as an input method
+Image:5strokes.jpg|The [[Wubi method|Wubi]] keyboard which is an input method
+Image:Keyboard layout Cangjie.png|A typical [[keyboard layout]] for Cangjie method, which is based on [[keyboard layout#US|United States keyboard layout]]. Note the non-standard use of Z as the collision key.
+Image:Keyboard layout Dayi.png|A typical [[keyboard layout]] for Dayi method
+Image:Keyboard layout Chinese Traditional.png|Chinese (traditional) keyboard layout, a US keyboard with Zhuyin, Cangjie and Dayi key labels, which can all be used to input Chinese characters into a computer
+</gallery>
+
+==Software==
+
+===Microsoft IME===
+See [[Microsoft Windows#Multilingual support: IMEs and LIPs|Microsoft IME]].
+
+===Sogou Pinyin===
+[[Sogou Pinyin]] is a popular Chinese Pinyin input method editor developed by Sogou, a Chinese search engine.
+It is also available on-line without installation, through a so-called "cloud input method".
+
+===Google Pinyin===
+Please refer to the term [[Google Pinyin]].
+
+==Notes==
+{{reflist}}
+
+== See also ==
+* [[List of input methods for UNIX platforms]]
+* [[List of CJK fonts]]
+* [[Japanese language and computers]]
+** [[Japanese input methods]]
+* [[Korean language and computers]]
+* [[Han unification]]
+* [[List of FEP software for Symbian S60]]
+* [[Character amnesia]]
+* [[Chinese character encoding]]s:
+** [[Big5]]
+** [[Guobiao code]] (GB)
+** [[Neima]] (內碼)
+** [[Unicode]]
+** [[Chinese telegraph code|Telegraph code]] (電報碼)
+
+== External links ==
+;Information
+* [http://www.slate.com/id/2136726/ What Does a Chinese Keyboard Look Like?], article by [[Slate.com]]
+* [http://www.b-t.asia/chinese/im.php Overview of Input Methods], by Sebastien Bruggeman.
+* [http://input.foruto.com 中文輸入法世界] Chinese input method news.
+
+;Tutorials
+*[http://www.microsoft.com/globaldev/handson/user/IME_Paper.mspx What is an Input Method Editor and how do I use it?], a Microsoft article about [[Windows XP]]'s Input Method Editor.
+*[http://www.microsoft.com/globaldev/handson/user/xpintlsupp.mspx Enabling International Support in Windows XP/Server 2003 Family], a Microsoft tutorial on how to install input methods on [[Windows XP]].
+*[http://www.typingchinese.com/Demo/Chinese_Input_DemoPageEn.htm Tutorial on typing Chinese using PinYin method - based on HanWJ Chinese Input Engine]
+*[http://www.andante.org/ime.html IME Tutorial], tutorial on how to use Microsoft Global IME for pre-[[Windows 2000]] systems.
+
+;Tools
+*[http://windows.microsoft.com/en-US/windows7/Set-up-Speech-Recognition Microsoft Voice Recognition]
+*[http://www.TypingChinese.com/ Typing Chinese Online with Optional Tone Input]
+*[http://www.cantoneseinput.com Online Cantonese Input]
+*[http://www.scim-im.org SCIM's homepage]
+*[http://howtowriteinchinese.com/chinese-input-method-software.html Chinese Input Method Software]
+*[http://inputking.com/ InputKing Online Input System], an online IME with multiple input methods, supporting both simplified and traditional characters.
+*[http://www.ee.cityu.edu.hk/~g6code/index_en.html G6 Chinese Input Method (preinstalled on some Android phones e.g. by HTC)]
+*[https://market.android.com/details?id=com.clevertexting.chinese 聪明打字 Cong Ming Da Zi], 2011, Android link. A pinyin based input system from Luna Ergonomics (CleverTexting). No printed keypad.
+*[http://www.njstar.com/cms/ NJStar Software Corp. (南极星 Nanjixing)]: Chinese, Japanese, and Korean language software solutions for use with Microsoft Windows operating systems. Solutions include keyboard & hand-written input tools, English translation tools, desktop publishing, and educational tools.
+*[http://www.chinese-ime.com Open-source Pinyin Chinese Input Method Editor]: A free and open-source [[JavaScript]] [[jQuery]] plugin for web developers to build the pinyin input-method functionality into their own websites, supporting input for both simplified and traditional characters. This is especially useful for webmasters of Chinese-learning websites.
+* [http://baron-werta666.narod.ru/CJKV_VBA/CJKV_VBA_IME_for_MS_Word_v3_0_EN.html CJKV Input Method Editors for MS Word] VBA macros for input Asian characters and for text conversion.
+
+{{DEFAULTSORT:Chinese Input Methods For Computers}}
+[[Category:Han character input|*]]
+[[Category:Chinese-language computing|Input methods]]

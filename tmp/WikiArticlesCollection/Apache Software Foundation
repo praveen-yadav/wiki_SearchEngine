@@ -1,0 +1,138 @@
+{{Infobox Non-profit
+| Non-profit_name   = Apache Software Foundation
+| Non-profit_logo   = [[File:ASF-logo.svg|225px]]
+| Non-profit_type   = [[501(c)#501(c)(3)|501(c)(3)]]
+| founded_date      = June 1999
+| founder           = [[Brian Behlendorf]], [[Ken Coar]], Mark Cox, [[Lars Eilebrecht]], [[Ralf S. Engelschall]], [[Roy T. Fielding]], [[Dean Gaudet]], [[Ben Hyde]], [[Jim Jagielski]], [[Alexei Kosut]], [[Martin Kraemer]], [[Ben Laurie]], [[Doug MacEachern]], [[Aram Mirzadeh]], [[Sameer Parekh]], [[Cliff Skolnick]], [[Marc Slemko]], [[William (Bill) Stoddard]], [[Paul Sutton 2|Paul Sutton]], [[Randy Terbush]], [[Dirk-Willem van Gulik]]
+| location          = [[Forest Hill, Maryland]], The USA 
+| origins           = 
+| key_people        = 
+| area_served       = 
+| product           =
+| focus             = [[Open source software]]
+| method            = [[Apache License]]
+| revenue           = 
+| endowment         = 
+| num_volunteers    = 
+| num_employees     = 
+| num_members       = 
+| subsib            = 
+| owner             = 
+| Non-profit_slogan = 
+| homepage          = [http://www.apache.org/ apache.org]
+| dissolved         = 
+| footnotes         = 
+}}
+The '''Apache Software Foundation''' {{IPAc-en|ə|ˈ|p|æ|tʃ|i:}} ('''ASF''') is an American non-profit corporation (classified as [[501(c)#501(c)(3)|501(c)(3)]] in the United States) to support Apache software projects, including the [[Apache HTTP Server]]. The ASF was formed from the Apache Group and incorporated in [[Delaware corporation|Delaware]], U.S., in June 1999.<ref name=incorporation>
+{{cite web
+| first       = Roy T.
+| last        = Fielding
+| title       = Certificate of Incorporation of the Apache Software Foundation
+| url         = http://www.apache.org/foundation/records/certificate.html
+| accessdate  = 2009-05-26
+| archiveurl= http://web.archive.org/web/20090531160220/http://apache.org/foundation/records/certificate.html| archivedate= 31 May 2009 <!--DASHBot-->| deadurl= no}}
+</ref><ref name=effDate>{{cite web
+| first       = Jim
+| last        = Jagielski
+| title       = The Apache Software Foundation Board of Directors Meeting Minutes 01 June 1999
+| url         = http://www.apache.org/foundation/records/minutes/1999/board_minutes_1999_06_01.txt
+| accessdate  = 2009-05-26
+}}</ref>
+
+The Apache Software Foundation is a decentralized community of developers. The software they produce is distributed under the terms of the [[Apache License]] and is therefore [[free and open source software]] (FOSS). The Apache projects are characterized by a collaborative, consensus-based development process and an open and pragmatic software license. Each project is managed by a self-selected team of technical experts who are active contributors to the project. The ASF is a [[meritocracy]], implying that membership of the foundation is granted only to volunteers who have actively contributed to Apache projects. The ASF is considered a second generation<ref>[[François Letellier]], see 'Third Generation Open Source'</ref> open-source organization, in that commercial support is provided without the risk of [[platform lock-in]].
+
+Among the ASF's objectives are: to provide legal protection<ref>''See'' the [[Volunteer Protection Act]] article.</ref> to volunteers working on Apache projects; to prevent the ''Apache'' brand name from being used by other organizations without permission.
+
+The ASF also holds several [http://www.apachecon.com/ ApacheCon] conferences each year, highlighting Apache projects, related technology, and encouraging Apache developers to gather together.
+
+==History==
+The history of the Apache Software Foundation is linked to the Apache HTTP Server, development beginning in February, 1995. A group of eight developers started working on enhancing the [[NCSA HTTPd]] daemon. They came to be known as the Apache Group. On March 25, 1999, the Apache Software Foundation was formed.<ref name=incorporation/> The first official meeting of the Apache Software Foundation was held on April 13, 1999, and by general consent that the initial membership list of the Apache Software Foundation, would be: [[Brian Behlendorf]], [[Ken Coar]], Miguel Gonzales, Mark Cox, Lars Eilebrecht, Ralf S. Engelschall, [[Roy Fielding|Roy T. Fielding]], Dean Gaudet, Ben Hyde, [[Jim Jagielski]], Alexei Kosut, Martin Kraemer, [[Ben Laurie]], Doug MacEachern, Aram Mirzadeh, [[Sameer Parekh]], Cliff Skolnick, Marc Slemko, William (Bill) Stoddard, Paul Sutton, Randy Terbush and Dirk-Willem van Gulik.<ref name=firstMeeting>{{cite web
+| first       = Ben
+| last        = Hyde
+| title       = The Apache Software Foundation Board of Directors Meeting Minutes 13 April 1999
+| url         = http://www.apache.org/foundation/records/minutes/1999/board_minutes_1999_04_13.txt
+| accessdate  = 2009-05-26
+}}</ref> After a series of additional meetings to elect board members and resolve other legal matters regarding incorporation, the effective incorporation date of the Apache Software Foundation was set to June 1, 1999.<ref name=effDate/>
+
+The name 'Apache' was chosen from respect for the Native American [[Apache]] Nation, well known for their superior skills in warfare strategy and their inexhaustible endurance. It also makes a pun on "a patchy web server"—a server made from a series of patches—but this was not its origin. The group of developers who released this new software soon started to call themselves the "Apache Group". {{citation needed|date=February 2013}}
+
+==Projects==
+{{See also|List of Apache Software Foundation Projects}}
+Apache divides its [[software development]] activities into separate semi-autonomous areas called "top-level projects" (formally known as a "Project Management Committee" in the bylaws<ref name=bylaws>
+{{cite web
+| title       = Bylaws of The Apache Software Foundation
+| url         = http://www.apache.org/foundation/bylaws.html
+| publisher = Apache Software Foundation
+| accessdate  = 2011-08-10
+| archiveurl= http://web.archive.org/web/20110725012133/http://apache.org/foundation/bylaws.html| archivedate= 25 July 2011 <!--DASHBot-->| deadurl= no}}
+</ref>), some of which have a number of sub-projects. Unlike some other organizations that host [[Free and Open Source Software|FOSS]] projects, before a project is hosted at Apache it has to be licensed to the ASF with a grant or contributor agreement.<ref name=licenses>
+{{cite web
+| title       = Licenses
+| url         = http://www.apache.org/licenses/#clas
+| publisher = Apache Software Foundation
+| accessdate  = 2011-08-10
+| archiveurl= http://web.archive.org/web/20110725011702/http://www.apache.org/licenses/| archivedate= 25 July 2011 <!--DASHBot-->| deadurl= no}}
+</ref> In this way, the ASF gains the necessary intellectual property rights for the development and distribution of all its projects.<ref>{{cite book|last= St. Amant|first=Kirk|coauthor=Brian Still|title=Handbook of research on open source software: technological, economic, and social perspectives|publisher=Idea Group Inc (IGI)|year=2007|pages=217–219|isbn=978-1-59140-999-1|url=http://books.google.co.uk/books?id=75KT6GdcWbYC&pg=PA218&dq=%22apache+foundation%22#v=onepage&q=%22apache%20foundation%22&f=false}}</ref>
+
+==Board of directors==
+The ASF board of directors has responsibility for overseeing the ASF's activities and acting as a central point of contact and communication for its projects. The board assigns corporate issues, assigning resources to projects, and manages corporate services, including funds and legal issues. It does not make technical decisions about individual projects; these are made by the individual Project Management Committees. The board is elected annually by members of the foundation and, after the May 2013 Annual Members Meeting, it consists of:<ref>{{cite book
+  | last = Weber
+  | first = Steve
+  | title = The success of open source
+  | publisher = Harvard University Press
+  | year = 2004
+  | location = 
+  | page = 187
+  | url = http://books.google.co.uk/books?id=ELieXMxR1h4C&pg=PA187&dq=%22apache+software+foundation%22+board+of+directors#v=onepage&q=%22apache%20software%20foundation%22%20board%20of%20directors&f=false
+  | isbn = 978-0-674-01292-9}}</ref><ref>{{cite web
+  | title = Board of Directors
+  | publisher = Apache Software Foundation
+  | year = 2013
+  | url = http://www.apache.org/foundation/board/
+  | accessdate = 2013-05-23 }}</ref><ref>{{cite web
+  | title = How the ASF works
+  | publisher = Apache Software Foundation
+  | year = 2010
+  | url = http://www.apache.org/foundation/how-it-works.html#structure
+  | accessdate = 08/04/10| archiveurl= http://web.archive.org/web/20100722185522/http://www.apache.org/foundation/how-it-works.html| archivedate= 22 July 2010 <!--DASHBot-->| deadurl= no}}</ref>
+
+* Shane Curcuru
+* [[Doug Cutting]]
+* Bertrand Delacretaz
+* [[Roy T. Fielding]]
+* [[Jim Jagielski]]
+* Chris Mattmann
+* Brett Porter (chairman)
+* [[Sam Ruby]]
+* [[Greg Stein]]
+
+==Financials==
+In the 2010–11 fiscal year, the Foundation took in $539,410, almost entirely from grants and contributions with $12,349 from two ApacheCons.  With no employees and 2,663 volunteers, it spent $270,846 on infrastructure, $92,364 on public relations, and $17,891 on two ApacheCons.<ref>{{cite web|url=http://www.apache.org/foundation/records/990-2010.pdf|date=2011-09-14|title=Apache Software Foundation IRS Form 990 for 2010|accessdate=2013-02-20}}</ref>
+
+==See also==
+* [[Apache Incubator]]
+* [[Apache Attic]]
+* [[Free Software Foundation]]
+* [[Open Software Foundation]]
+
+==Notes==
+{{reflist|2}}
+
+==Further reading==
+*''[[Wikinomics|Wikinomics: How Mass Collaboration Changes Everything]]'' (2006); [[Don Tapscott]], [[Anthony D. Williams (author)|Anthony D. Williams]].
+
+==External links==
+{{Commons category|Apache Software Foundation}}
+*[http://www.apache.org Apache Foundation Official website]
+*http://wiki.apache.org/general
+*http://wiki.apache.org/apachecon/FrontPage
+*[http://streaming.linux-magazin.de/en/archive_apachecon09.htm Free recordings of presentations from Apachecon09]
+
+{{Apache}}
+{{FOSS}}
+
+[[Category:Apache Software Foundation| ]]
+[[Category:Free and open-source software organizations]]
+[[Category:Companies established in 1999]]
+[[Category:Non-profit organizations based in Maryland]]
+[[Category:Free software project foundations]]

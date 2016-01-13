@@ -1,0 +1,115 @@
+[[Image:Diamagnetic graphite levitation.jpg|thumb|right|Levitating [[pyrolytic carbon]]]]
+
+'''Diamagnetic''' materials create a [[magnetic field]] in opposition to an externally applied magnetic field.  It is a quantum mechanical effect that occurs in all materials; where it is the only contribution to the magnetism the material is called a ''diamagnet''. Unlike a [[ferromagnet]], a diamagnet is not a permanent magnet. Its [[Permeability (electromagnetism)|magnetic permeability]] is less than μ<sub>0</sub> (the permeability of free space). In most materials diamagnetism is a weak effect, but a [[superconductivity|superconductor]] repels the magnetic field entirely, apart from a thin layer at the surface.
+
+Diamagnets were first discovered when [[Sebald Justinus Brugmans]] observed in 1778 that [[bismuth]] and [[antimony]] were repelled by magnetic fields. The term ''diamagnetism'' was coined by [[Michael Faraday]] in September 1845, when he realized that every material responded (in either a [[diamagnetic]] or [[paramagnetic]] way) to an applied magnetic field{{citation needed|date=March 2013}}.
+
+== Materials ==
+{|class="wikitable sortable"  style="float:right;"
+|+Notable diamagnetic materials<ref name="hyper">{{cite web|url=http://hyperphysics.phy-astr.gsu.edu/Hbase/tables/magprop.html|title=Magnetic Properties of Solids|last=Nave|first=Carl L.|work=Hyper Physics|accessdate=2008-11-09}}</ref>
+!Material!! χ<sub>v</sub> (&times; 10<sup>−5</sub>)
+|-
+|Superconductor
+| −10<sup>5</sup>
+|-
+|[[Pyrolytic carbon]]
+| −40.0
+|-
+|[[Bismuth]]    
+| −16.6
+|-
+|[[Mercury (element)|Mercury]]  
+| −2.9
+|-
+|[[Silver]] 
+| −2.6
+|-
+|[[Diamond|Carbon (diamond)]]  
+| −2.1
+|-
+|[[Lead]]   
+| −1.8
+|-
+|[[Graphite|Carbon (graphite)]]
+| −1.6
+|-
+|[[Copper]]
+| −1.0
+|-
+|[[Water]]   
+| −0.91
+|}
+Diamagnetism, to a greater or lesser degree, is a property of all materials and always makes a weak contribution to the material's response to a magnetic field. However, for materials that show some other form of magnetism (such as [[ferromagnetism]] or [[paramagnetism]]), the diamagnetic contribution becomes negligible. Substances that mostly display diamagnetic behaviour are termed diamagnetic materials, or diamagnets. Materials called diamagnetic are those that non-physicists generally think of as ''non-magnetic'', and include [[Water (properties)|water]], [[wood]], most organic compounds such as petroleum and some plastics, and many metals including [[copper]], particularly the heavy ones with many [[core electrons]], such as [[mercury (element)|mercury]], [[gold]] and [[bismuth]]. The magnetic susceptibility of various molecular fragments are called [[Pascal's constants]].
+
+Diamagnetic materials, like water, or water based materials, have a relative magnetic permeability that is less than or equal to 1, and therefore a [[magnetic susceptibility]] less than or equal to 0, since susceptibility is defined as {{nowrap|χ<sub>v</sub> {{=}} μ<sub>v</sub> − 1}}. This means that diamagnetic materials are repelled by magnetic fields. However, since diamagnetism is such a weak property its effects are not observable in everyday life. For example, the magnetic susceptibility of diamagnets such as water is {{nowrap|χ<sub>v</sub> {{=}} {{val|-9.05|e=-6}}}}. The most strongly diamagnetic material is [[bismuth]], {{nowrap|χ<sub>v</sub> {{=}} {{val|-1.66|e=-4}}}}, although [[pyrolytic carbon]] may have a susceptibility of  {{nowrap|χ<sub>v</sub> {{=}} {{val|-4.00|e=-4}}}} in one plane. Nevertheless, these values are orders of magnitudes smaller than the magnetism exhibited by paramagnets and ferromagnets. Note that because χ<sub>v</sub> is derived from the ratio of the internal magnetic field to the applied field, it is a dimensionless value.
+
+All conductors exhibit an effective diamagnetism when they experience a changing magnetic field. The [[Lorentz force]] on electrons causes them to circulate around forming [[eddy currents]]. The eddy currents then produce an induced magnetic field opposite the applied field, resisting the conductor's motion.
+
+===Superconductors===
+[[Image:EXPULSION.png|thumb|right|Transition from ordinary conductivity (left) to superconductivity (right). At the transition, the superconductor expels the magnetic field and then acts as a perfect diamagnet.]]
+[[Superconductors]] may be considered perfect diamagnets ({{nowrap|χ<sub>v</sub> {{=}} −1}}), since they expel all fields (except in a thin surface layer) due to the [[Meissner effect]].  However this effect is not due to eddy currents, as in ordinary diamagnetic materials (see the article on [[superconductivity]]).
+
+== Demonstrations ==
+
+=== Curving water surfaces ===
+If a powerful magnet (such as a [[supermagnet]]) is covered with a layer of water (that is thin compared to the diameter of the magnet) then the field of the magnet significantly repels the water. This causes a slight dimple in the water's surface that may be seen by its reflection.<ref>{{cite web|url=http://amasci.com/amateur/neodymium.html#water |title=Neodymium supermagnets: Some demonstrations&mdash;Diamagnetic water |last1=Beatty |first1=Bill |work=Science Hobbyist|year=2005|accessdate=September 2011}}</ref><ref>{{cite web|url=http://quit007.deviantart.com/gallery/23787987 |title=Diamagnetism Gallery |work=DeviantART |author=Quit007|year=2011|accessdate=September 2011}}</ref>
+
+=== Levitation ===<!-- This section is linked from [[Magnetic levitation]] -->
+{{main|Magnetic levitation#Diamagnetism}}
+[[Image:Frog diamagnetic levitation.jpg|thumb|A live frog levitates inside a 32 mm diameter vertical bore of a [[Bitter solenoid]] in a magnetic field of about 16 [[tesla (unit)|teslas]] at the Nijmegen High Field Magnet Laboratory.<ref>{{cite web|url=http://www.ru.nl/hfml/research/levitation/diamagnetic/ |title=The Frog That Learned to Fly |work=High Field Laboratory |publisher=[[Radboud University Nijmegen]] |year=2011 |accessdate=September 2011}}</ref> ]]
+
+Diamagnets may be levitated in stable equilibrium in a magnetic field, with no power consumption. [[Earnshaw's theorem]] seems to preclude the possibility of static magnetic levitation. However, Earnshaw's theorem only applies to objects with positive susceptibilities, such as ferromagnets (which have a permanent positive moment) and paramagnets (which induce a positive moment). These are attracted to field maxima, which do not exist in free space. Diamagnets (which induce a negative moment) are attracted to field minima, and there can be a field minimum in free space.
+
+A thin slice of [[pyrolytic graphite]], which is an unusually strong diamagnetic material, can be stably floated in a magnetic field, such as that from [[Rare-earth magnet|rare earth]] permanent magnets. This can be done with all components at room temperature, making a visually effective demonstration of diamagnetism.
+
+The [[Radboud University Nijmegen]], the [[Netherlands]], has conducted experiments where water and other substances were successfully levitated. Most spectacularly, a live frog (see figure) was levitated.<ref>{{cite web|url=http://www.ru.nl/hfml/research/levitation/diamagnetic/ |title=The Real Levitation |work=High Field Laboratory |publisher=[[Radboud University Nijmegen]] |year=2011 |accessdate=September 2011}}</ref> 
+
+In September 2009, NASA's Jet Propulsion Laboratory in Pasadena, California announced they had successfully levitated mice using a [[superconducting magnet]],<ref>{{cite journal|last=Liu|first=Yuanming|last2=Zhu|first2=Da-Ming|last3=Strayer|first3=Donald M.|last4=Israelsson|first4=Ulf E.|title=Magnetic levitation of large water droplets and mice|journal=[[Advances in Space Research]]|volume=45|issue=1|pages=208–213|year=2010|doi=10.1016/j.asr.2009.08.033|bibcode = 2010AdSpR..45..208L }}</ref> an important step forward since mice are closer biologically to humans than frogs.<ref>{{cite web |url=http://www.livescience.com/animals/090909-mouse-levitation.html |title=Mice levitated in lab |last1=Choi |first1=Charles Q. |work=Live Science |date=09-09-2009 |accessdate=September 2011}}</ref> They hope to perform experiments regarding the effects of microgravity on bone and muscle mass.
+
+Recent experiments studying the growth of protein crystals has led to a technique using powerful magnets to allow growth in ways that counteract Earth's gravity.<ref>{{cite web|last1=Kleiner |first1=Kurt |url=http://www.newscientist.com/article/dn12467-magnetic-gravity-trick-grows-perfect-crystals.html |title=Magnetic gravity trick grows perfect crystals |work=[[New Scientist]] |date=08-10-2007 |accessdate=September 2011}}</ref>
+
+A simple homemade device for demonstration can be constructed out of bismuth plates and a few permanent magnets that levitate a permanent magnet.<ref>{{cite web |url=http://web.archive.org/web/20080212011654/http://www.fieldlines.com/other/diamag1.html |title=Fun with diamagnetic levitation |publisher=ForceField |date=02-12-2008 |accessdate=September 2011}}</ref>
+
+== Theory ==
+The electrons in a material generally circulate in orbitals, with effectively zero resistance and act like current loops. Thus it might be imagined that diamagnetism effects in general would be very, very common, since any applied magnetic field would generate currents in these loops that would oppose the change, in a similar way to superconductors, which are essentially perfect diamagnets. However, since the electrons are rigidly held in orbitals by the charge of the protons and are further constrained by the [[Pauli exclusion principle]], many materials exhibit diamagnetism, they typically respond very little to the applied field.
+
+The [[Bohr–van Leeuwen theorem]] proves that there cannot be any diamagnetism or paramagnetism in a purely classical system. Yet the classical theory for Langevin diamagnetism gives the same prediction as the quantum theory.<ref name=Kittel>{{cite book  |last = Kittel |first = Charles |author-link=Charles Kittel |title = Introduction to Solid State Physics |publisher = [[John Wiley & Sons]] |edition = 6th |year = 1986  |pages= 299–302|isbn = 0-471-87474-4}}</ref> The classical theory is given below.
+
+=== Langevin diamagnetism ===
+
+The Langevin theory of diamagnetism applies to materials containing atoms with closed shells (see [[dielectrics]]). A field with intensity {{math|<var>B</var>}}, applied to an [[electron]] with charge {{math|<var>e</var>}} and mass {{math|<var>m</var>}}, gives rise to [[Larmor precession]] with frequency {{math|<var>&omega; {{=}} eB / 2m</var>}}. The number of revolutions per unit time is {{math|<var> &omega; / 2&pi;</var>}}, so the current for an atom with {{math|<var>Z</var>}} electrons is (in [[SI units]])<ref name=Kittel/> 
+
+:<math> I = -\frac{Ze^2B}{4 \pi m}.</math>
+
+The [[magnetic moment]] of a current loop is equal to the current times the area of the loop. Suppose the field is aligned with the {{math|<var>z</var>}} axis. The average loop area can be given as <math>\scriptstyle  \pi\left\langle\rho^2\right\rangle</math>, where <math>\scriptstyle \left\langle\rho^2\right\rangle</math> is the mean square distance of the [[electrons]] perpendicular to the {{math|<var>z</var>}} axis. The [[magnetic moment]] is therefore
+
+:<math> \mu = -\frac{Ze^2B}{4 m}\langle\rho^2\rangle.</math>
+
+If the distribution of charge is spherically symmetric, we can suppose that the distribution of {{math|<var>x,y,z</var>}} coordinates are [[independent and identically distributed]]. Then <math>\scriptstyle \left\langle x^2 \right\rangle \;=\; \left\langle y^2 \right\rangle \;=\; \left\langle z^2 \right\rangle \;=\; \frac{1}{3}\left\langle r^2 \right\rangle</math>, where <math>\scriptstyle \left\langle r^2 \right\rangle</math> is the mean square distance of the electrons from the nucleus. Therefore <math>\scriptstyle \left\langle \rho^2 \right\rangle \;=\; \left\langle x^2\right\rangle \;+\; \left\langle y^2 \right\rangle \;=\; \frac{2}{3}\left\langle r^2 \right\rangle</math>.  If <math>N</math> is the number of atoms per unit volume, the diamagnetic [[magnetic susceptibility|susceptibility]] in SI units is
+
+:<math>\chi = \frac{\mu_0 N \mu}{B} = -\frac{\mu_0 N Z e^2}{6 m}\langle r^2\rangle.</math>
+
+=== In metals ===
+The Langevin theory does not apply to [[metals]] because they have non-localized electrons. The theory for the diamagnetism of a free electron gas is called Landau diamagnetism, and instead considers the weak counter-acting field that forms when their trajectories are curved due to the [[Lorentz force]]. Landau diamagnetism, however, should be contrasted with [[Paramagnetism#Delocalization|Pauli paramagnetism]], an effect associated with the polarization of delocalized electrons' spins.<ref name="ntnu">{{cite web|url=http://phy.ntnu.edu.tw/~changmc/Teach/SS/SS_note/chap11.pdf|title=Diamagnetism and paramagnetism|work=NTNU lecture notes|last=Chang|first=M. C.|accessdate=2011-02-24}}</ref><ref>{{cite web |first=Nikos |last=Drakos |first2=Ross |last2=Moore |first3=Peter |last3=Young |title=Landau diamagnetism |url=http://physics.ucsc.edu/~peter/231/magnetic_field/node5.html |work=Electrons in a magnetic field |year=2002 |accessdate=27 November 2012}}</ref>
+
+== See also ==
+*[[Ferromagnetism]]
+*[[Magnetochemistry]]
+*[[Paramagnetism]]
+*[[Stochastic electrodynamics]]
+
+== References ==
+{{reflist}}
+
+== External links ==
+* [http://www.youtube.com/watch?v=8tFsrGRwOOM Video of a museum-style magnetic elevation train model that uses diamagnetism]
+* [http://www.ru.nl/hfml/research/levitation/diamagnetic/ Videos of frogs and other diamagnets levitated in a strong magnetic field]
+* [http://www.grand-illusions.com/images/articles/toyshop/diamagnetic_levitation_2/diamagnetic_levitation_2.wmv Video of levitating pyrolytic graphite]
+* [http://www.youtube.com/watch?v=ezXYE5iFM_o Diamagnetic Levitation (YouTube)]
+* [http://netti.nic.fi/~054028/images/LevitorMK1.0-1.mpg Video of a piece of neodymium magnet levitating between blocks of bismuth.]
+** [http://netti.nic.fi/~054028/ Website about this device, with images (in Finnish).]
+{{magnetic states}}
+
+[[Category:Electric and magnetic fields in matter]]
+[[Category:Magnetic levitation]]
+[[Category:Magnetism]]

@@ -1,0 +1,120 @@
+{{no footnotes|date=March 2013}}
+[[File:Bernoulli inequality.svg|right|thumb|An illustration of Bernoulli's inequality, with the graphs of <math>y=(1 + x)^r</math> and <math>y=1 + rx</math> shown in red and blue respectively. Here, <math>r=3.</math>]]
+In [[real analysis]], '''Bernoulli's inequality''' (named after [[Jacob Bernoulli]]) is an [[inequality (mathematics)|inequality]] that approximates [[exponentiation]]s of&nbsp;1&nbsp;+&nbsp;''x''.
+
+The inequality states that
+
+:<math>(1 + x)^r \geq 1 + rx\!</math>
+
+for every [[integer]] ''r''&nbsp;≥&nbsp;0 and every [[real number]] ''x''&nbsp;≥&nbsp;−1. If the exponent ''r'' is [[even number|even]], then the inequality is valid for ''all'' real numbers&nbsp;''x''. The strict version of the inequality reads
+
+:<math>(1 + x)^r > 1 + rx\!</math>
+
+for every integer ''r''&nbsp;≥&nbsp;2 and every real number ''x''&nbsp;≥&nbsp;−1 with ''x''&nbsp;≠&nbsp;0.
+
+Bernoulli's inequality is often used as the crucial step in the [[proof (math)|proof]] of other inequalities. It can itself be proved using [[mathematical induction]], as shown below.
+
+==Proof of the inequality==
+
+For ''r''&nbsp;=&nbsp;0,
+
+:<math>(1+x)^0 \ge 1+0x \, </math>
+
+is equivalent to 1&nbsp;≥&nbsp;1 which is true as required.
+
+Now suppose the statement is true for ''r''&nbsp;=&nbsp;''k'':
+
+:<math>(1+x)^k \ge 1+kx. \, </math>
+
+Then it follows that
+
+:<math>
+\begin{align}
+& {} \qquad (1+x)(1+x)^k \ge (1+x)(1+kx)\quad\text{(by hypothesis, since }(1+x)\ge 0) \\
+& \iff (1+x)^{k+1} \ge 1+kx+x+kx^2, \\
+& \iff (1+x)^{k+1} \ge 1+(k+1)x+kx^2.
+\end{align}
+</math>
+
+However, as 1&nbsp;+&nbsp;(''k''&nbsp;+&nbsp;1)''x''&nbsp;+&nbsp;''kx''<sup>2</sup>&nbsp;≥&nbsp;1&nbsp;+&nbsp;(''k''&nbsp;+&nbsp;1)''x'' (since ''kx''<sup>2</sup>&nbsp;≥&nbsp;0), it follows that (1&nbsp;+&nbsp;''x'')<sup>''k''&nbsp;+&nbsp;1</sup>&nbsp;≥&nbsp;1&nbsp;+&nbsp;(''k''&nbsp;+&nbsp;1)''x'', which means the statement is true for ''r''&nbsp;=&nbsp;''k''&nbsp;+&nbsp;1 as required.
+
+By induction we conclude the statement is true for all&nbsp;''r''&nbsp;≥&nbsp;0.
+
+==Generalization==
+
+The exponent ''r'' can be generalized to an arbitrary real number as follows: if ''x''&nbsp;>&nbsp;−1, then
+
+:<math>(1 + x)^r \geq 1 + rx\!</math>
+
+for ''r''&nbsp;≤&nbsp;0 or ''r''&nbsp;≥&nbsp;1, and
+
+:<math>(1 + x)^r \leq 1 + rx\!</math>
+
+for 0&nbsp;≤&nbsp;''r''&nbsp;≤&nbsp;1.
+
+This generalization can be proved by comparing [[derivative]]s.
+Again, the strict versions of these inequalities require ''x''&nbsp;≠&nbsp;0 and&nbsp;''r''&nbsp;≠&nbsp;0,&nbsp;1.
+
+== Related inequalities ==
+The following inequality estimates the ''r''-th power of 1 + ''x'' from the other side. For any real numbers ''x'',&nbsp;''r''&nbsp;>&nbsp;0, one has
+
+:<math>(1 + x)^r \le e^{rx},\!</math>
+
+where ''e'' = [[e (number)|2.718...]]. This may be proved using the inequality&nbsp;(1&nbsp;+&nbsp;1/''k'')<sup>''k''</sup>&nbsp;<&nbsp;''e''.
+
+==Alternate form==
+An alternate form of Bernoulli's inequality for  <math> t\geq 1 </math> and  <math> 0\le x\le 1 </math>  is:
+
+:<math> (1-x)^t \ge 1-xt. </math>
+
+This can be proved (for integer t) by using the formula for [[geometric series]]: (using y=1-x)
+
+:<math>t=1+1+\dots+1 \ge 1+y+y^2+\ldots+y^{t-1}=\frac{1-y^t}{1-y}</math>
+or equivalently <math>xt \ge 1-(1-x)^t. </math>
+
+==Proof for rational case==
+
+An "elementary" proof can be given using the fact that [[Inequality of arithmetic and geometric means|geometric mean of positive numbers is less than arithmetic mean]] 
+
+First assume <math>t=\frac{a}{b}\leq 1</math>
+
+By comparing [[Arithmetic mean|Arithmetic]] and [[Geometric mean]] of <math>b</math> numbers
+(<math> (1+x) </math> occurs <math> a </math> times):
+
+<math>1,1, \ldots, (1+x),(1+x),\ldots (1+x) </math>
+
+we get
+
+<math> (1+x)^{a/b} \leq \left(1+\frac{a}{b}x\right)</math>
+
+or equivalently
+
+<math> (1+x)^{t} \leq \left(1+t x\right)</math>
+
+This proves inequality for <math> t \leq 1</math> case.
+
+For <math> s \geq 1</math> case,
+let <math> z=\frac{a}{b}x</math> As <math>x\geq -1, z\geq -\frac{a}{b}</math>
+we get  with <math>s=\frac{1}{t}=\frac{b}{a}\geq 1</math>,
+
+<math> \left(1+ z \right)^{s}\geq 1+sz</math>
+
+This proves inequality for <math> s \geq 1</math> case.
+
+As these inequalities are true for all rational numbers <math> t \leq 1</math> and <math> s \geq 1</math>,
+they are also true for all real numbers. this is because, any real number can be
+approximated by rational numbers to arbitrary precision (this formally follows from the [[Construction of the real numbers|Cauchy construction of real numbers]]).
+
+==References==
+* {{cite book |last=Carothers |first=N. |title=Real Analysis |year=2000 |publisher=Cambridge University Press |location=Cambridge |isbn=978-0-521-49756-5 |page=9 }}
+* {{cite book |last=Bullen |first=P.S. |title=Handbook of Means and Their Inequalities |year=1987 |publisher=Springer |location=Berlin |isbn=978-1-4020-1522-9 |page=4 }}
+* {{cite book |last=Zaidman  |first=Samuel |title=Advanced Calculus |year=1997 |publisher=World Scientific Publishing Company |location=City |isbn=978-981-02-2704-3 |page=32 }}
+
+== External links ==
+* {{MathWorld |title= Bernoulli Inequality |urlname= BernoulliInequality}}
+* [http://demonstrations.wolfram.com/BernoulliInequality/ Bernoulli Inequality] by Chris Boucher, [[Wolfram Demonstrations Project]].
+* {{cite web|title=Introduction to Inequalities|url=http://www.mediafire.com/?1mw1tkgozzu |author=Arthur Lohwater|year=1982|publisher=Online e-book in PDF format}}
+* Sanjeev Saxena, [http://www.cse.iitk.ac.in/users/ssax/bernoulii-inequality.pdf  "A Simple Proof of Bernoulli's Inequality"],  [http://vixra.org/abs/1205.0068 viXra:1205.0068], May 2012
+
+{{DEFAULTSORT:Bernoulli's Inequality}}
+[[Category:Inequalities]]

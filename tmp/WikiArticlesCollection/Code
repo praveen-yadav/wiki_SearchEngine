@@ -1,0 +1,120 @@
+{{Redirect|Decoded|the television show|Brad Meltzer's Decoded|the Jay-Z memoir|Decoded (book)}}
+{{Redirects here|Encoding|other uses|Encoding (disambiguation)}}
+{{Other uses}}
+{{Refimprove|date=March 2010}}
+[[Image:International Morse Code.svg|right|thumb|290px|Morse code, a famous type of code]]
+A '''code''' is a rule for converting a piece of [[information]] (for example, a [[letter (alphabet)|letter]], [[word]], [[phrase]], or [[gesture]]) into another - usually [[data compression|shortened]] or [[covert]] - form or representation (one [[sign]] into another sign), not necessarily of the same type. 
+
+In [[communication]]s and [[information processing]], '''encoding''' is the process by which information from a [[communication source|source]] is converted into symbols to be communicated.  '''Decoding''' is the reverse process, converting these code symbols back into information understandable by a receiver.  
+
+One reason for coding is to enable communication in places where ordinary [[plain language]], spoken or written, is difficult or impossible. For example, semaphore, where the configuration of [[Flag semaphore|flags]] held by a signaller or the arms of a [[semaphore line|semaphore tower]] encodes parts of the message, typically individual letters and numbers. Another person standing a great distance away can interpret the flags and reproduce the words sent.
+
+== Theory ==
+{{main|Coding theory}}
+In [[information theory]] and [[computer science]], a code is usually considered as an [[algorithm]] which uniquely represents symbols from some source [[alphabet (computer science)|alphabet]], by ''encoded'' strings, which may be in some other target alphabet. An extension of the code for representing sequences of symbols over the source alphabet is obtained by concatenating the encoded strings.
+
+Before giving a mathematically precise definition, we give a brief example. The mapping 
+:<math>C = \{\, a\mapsto 0, b\mapsto 01, c\mapsto 011\,\}</math>
+is a code, whose source alphabet is the set <math>\{a,b,c\}</math> and whose target alphabet is the set <math>\{0,1\}</math>. Using the extension of the code, the encoded string 0011001011 can be grouped into codewords as 0 011 0 01 011, and these in turn can be decoded to the sequence of source symbols ''acabc''.
+
+Using terms from [[formal language theory]], the precise mathematical definition of this concept is as follows: Let S and T be two finite sets, called the source and target [[alphabet (computer science)|alphabets]], respectively. A '''code''' <math>C:\, S \to T^*</math> is a [[total function]] mapping each symbol from S to a [[String (computer science)|sequence of symbols]] over T, and the extension of <math>C</math> to a [[Homomorphism#Homomorphisms_and_e-free_homomorphisms_in_formal_language_theory|homomorphism]] of <math>S^*</math> into <math>T^*</math>, which naturally maps each sequence of source symbols to a sequence of target symbols, is referred to as its '''extension'''.
+
+=== Variable-length codes ===
+{{Main|Variable-length code}}
+In this section we consider codes, which encode each source (clear text) character by a [[code word]] from some dictionary, and [[concatenation]] of such code words give us an encoded string.
+Variable-length codes are especially useful when clear text characters have different probabilities; see also [[entropy encoding]].
+
+A ''prefix code'' is a code with the "prefix property": there is no valid [[code word]] in the system that is a [[prefix (computer science)|prefix]] (start) of any other valid code word in the set. [[Huffman coding]] is the most known algorithm for deriving prefix codes. Prefix codes are widely referred to as "Huffman codes", even when the code was not produced by a Huffman algorithm.
+Other examples of prefix codes are [[country calling codes]], the country and publisher parts of [[ISBN]]s, and the Secondary Synchronization Codes used in the [[UMTS]] [[W-CDMA]] 3G Wireless Standard.
+
+[[Kraft's inequality]] characterizes the sets of code word lengths that are possible in a prefix code. Virtually any uniquely decodable one-to-many code, not necessary a prefix one, must satisfy Kraft's inequality.
+
+=== Error-correcting codes ===
+{{Main|Error detection and correction}}
+{{see also|Block code}}
+Codes may also be used to represent data in a way more resistant
+to errors in transmission or storage. Such a "code" is
+called an [[Error detection and correction|error-correcting code]], and works by including carefully crafted redundancy with the stored (or transmitted) data. Examples include [[Hamming code]]s, [[Reed–Solomon]], [[Reed–Muller]], [[Walsh–Hadamard code|Walsh–Hadamard]], [[BCH code|Bose–Chaudhuri–Hochquenghem]], [[Turbo code|Turbo]], [[Golay code|Golay]], [[Goppa code|Goppa]], [[low-density parity-check code]]s, and [[space–time code]]s.
+Error detecting codes can be optimised to detect  ''burst errors'', or ''random errors''.
+
+== Examples ==
+
+=== Codes in communication used for brevity ===
+A cable code replaces words (e.g., ''ship'' or ''invoice'') with shorter words, allowing the same information to be sent with fewer [[character (computing)|characters]], more quickly, and most important, less expensively.
+
+Codes can be used for brevity. When telegraph messages were the state of the art in rapid long distance communication, elaborate systems of commercial codes that encoded complete phrases into single words (commonly five-letter groups) were developed, so that [[Telegraphy|telegraphers]] became conversant with such "words" as ''BYOXO'' ("Are you trying to weasel out of our deal?"), ''LIOUY'' ("Why do you not answer my question?"), ''BMULD'' ("You're a skunk!"), or ''AYYLU'' ("Not clearly coded, repeat more clearly."). [[Code word]]s were chosen for various reasons: [[length]], [[pronounceability]], etc. Meanings were chosen to fit perceived needs: commercial negotiations, military terms for military codes, diplomatic terms for diplomatic codes, any and all of the preceding for espionage codes. Codebooks and codebook publishers proliferated, including one run as a front for the American [[Black Chamber]] run by [[Herbert Yardley]] between the First and Second World Wars. The purpose of most of these codes was to save on cable costs. The use of data coding for [[data compression]] predates the computer era; an early example is the [[Telegraphy|telegraph]] [[Morse code]] where more-frequently used characters have shorter representations. Techniques such as [[Huffman coding]] are now used by computer-based [[algorithm]]s to compress large data files into a more compact form for storage or transmission.
+
+=== Character encodings ===
+{{Main|Character encoding}}
+Probably the most widely known data communications code so far (aka character representation) in use today is [[ASCII]]. In one or another (somewhat compatible) version, it is used by nearly all personal [[computer]]s, [[computer terminal|terminals]], [[computer printer|printers]], and other communication equipment. It represents 128 [[character (computing)|characters]] with seven-bit [[Binary numeral system|binary]] numbers&mdash;that is, as a string of seven 1s and 0s ([[bit]]s). In ASCII a lowercase "a" is always 1100001, an uppercase "A" always 1000001, and so on. There are many other encodings, which represent each character by a [[byte]] (usually referred as [[code page]]s), integer [[code point]] ([[Unicode]]) or a byte sequence ([[UTF-8]]).
+
+=== Genetic code ===
+{{Main|Genetic code}}
+[[Biology|Biological]] organisms contain genetic material that is used to control their function and development. This is [[DNA]] which contains units named [[genes]] that can produce [[proteins]] through a code ([[genetic code]]) in which a series of triplets ([[codon]]s) of four possible [[nucleotides]] are translated into one of twenty possible [[amino acids]].  A sequence of codons results in a corresponding sequence of amino acids that form a protein.
+
+===Gödel code===
+In [[mathematics]], a [[Gödel code]] was the basis for the proof of [[Gödel]]'s [[incompleteness theorem]]. Here, the idea was to map [[mathematical notation]] to a [[natural number]] (using a [[Gödel numbering]]).
+
+=== Other ===
+
+There are codes using colors, like [[traffic lights]], the [[Electronic color code|color code]] employed to mark the nominal value of the [[Resistor|electrical resistor]]s or that of the trashcans devoted to specific types of garbage (paper, glass, biological, etc.)
+
+In [[marketing]], [[coupon]] codes can be used for a financial discount or rebate when purchasing a product from an internet retailer. 
+
+In military environments, specific sounds with the [[cornet]] are used for different uses: to mark some moments of the day, to command the infantry in the battlefield, etc.
+
+Communication systems for sensory impairments, such as  [[sign language]] for deaf people and [[braille]] for blind people, are based on movement or tactile codes.
+
+[[Sheet music|Musical scores]] are the most common way to encode [[music]].
+
+Specific games, as [[chess]], have their own code systems to record the matches ([[chess notation]]).
+
+=== Cryptography ===
+In the [[history of cryptography]], codes were once common for ensuring the confidentiality of communications, although [[cipher]]s are now used instead. See [[code (cryptography)]].
+
+[[Secret code]]s intended to obscure the real messages, ranging from serious (mainly espionage in military, diplomatic, business, etc.) to trivial (romance, games) can be any kind of imaginative encoding: flowers, game cards, clothes, fans, hats, melodies, birds, etc., in which the sole requisite is the previous agreement of the meaning by both the sender and the receiver.
+
+== Other examples ==
+
+Other examples of encoding include:
+*Encoding (in [[cognition]]) is a basic perceptual process of interpreting incoming stimuli; technically speaking, it is a complex, multi-stage process of converting relatively objective sensory input (e.g., light, sound) into subjectively meaningful experience.
+*A [[content format]] is a specific encoding format for converting a specific type of [[data]] to [[information]].
+*Text encoding uses a [[markup language]] to tag the structure and other features of a text to facilitate processing by computers. (See also [[Text Encoding Initiative]].)
+*[[Semantics encoding]] of formal language A in formal language B is a method of representing all terms (e.g. programs or descriptions) of language A using language B.
+*[[Encoder|Electronic encoding]] transforms a signal into a code optimized for [[Transmission (telecommunications)|transmission]] or [[data storage device|storage]], generally done with a [[codec]].
+*[[Neural encoding]] is the way in which information is represented in [[neurons]].
+*[[Encoding (memory)|Memory encoding]] is the process of converting sensations into memories.
+*[[Television encoding]]: [[NTSC]], [[PAL]] and [[SECAM]]
+
+Other examples of decoding include:
+* [[Parsing|Decoding (Computer Science)]]
+* [[Decoding methods]], methods in communication theory for decoding codewords sent over a noisy channel
+* [[Digital signal processing]], the study of signals in a digital representation and the processing methods of these signals
+* [[Digital-to-analog converter]], the use of analog circuit for decoding operations
+* Word [[Phonics|decoding]], the use of [[phonics]] to decipher print patterns and translate them into the sounds of language
+
+==Codes and acronyms==
+[[Acronym]]s and abbreviations can be considered codes, and in a sense all [[language]]s and writing systems are codes for human thought. 
+
+[[International Air Transport Association airport code]]s are three-letter codes used to designate airports and used for [[bag tag]]s. [[Station code]]s are similarly used on railways, but are usually national, so the same code can be used for different stations if they are in different countries.
+
+Occasionally a code word achieves an independent existence (and meaning) while the original equivalent phrase is forgotten or at least no longer has the precise meaning attributed to the code word. For example, '30' was widely used in [[journalism]] to mean "end of story", and has been used in [[–30–|other contexts]] to signify "the end".<ref>Kogan, Hadass [http://www.ajr.org/Article.asp?id=4408 "So Why Not 29"] American Journalism Review. Retrieved 2012-07-03.</ref>
+<ref>{{cite web
+  | title = WESTERN UNION "92 CODE" & WOOD'S "TELEGRAPHIC NUMERALS"
+  | publisher = Signal Corps Association
+  | year = 1996
+  | url = http://www.civilwarsignals.org/pages/tele/wurules1866/92code.html
+  | accessdate = 2012-07-03 }}</ref>
+
+== See also ==
+{{Commonscat|Codes}}
+* [[Asemic writing]]
+* [[Equipment codes]]
+* [[Quantum error correction]]
+* [[Semiotics]]
+
+== References ==
+{{reflist}}
+
+[[Category:Encodings]]
+[[Category:Signal processing]]

@@ -1,0 +1,82 @@
+{{thermodynamics|cTopic=Processes and Cycles}}
+<!-- BEFORE EDITING THIS PAGE:
+     Note that there is a separate page on the Diesel *engine*.
+     If you are going to describe glow plugs, differences between fuels, use in
+     trucks etc, that is the place for your contribution. -->
+The '''Diesel cycle''' is the [[thermodynamic cycle]] which approximates the [[pressure]] and [[Volume (thermodynamics)|volume]] of the [[combustion chamber]] of the [[Diesel engine]], invented by [[Rudolph Diesel]] in 1897. It is assumed to have  constant pressure during the first part of the  "combustion" phase (<math>V_2</math> to <math>V_3</math> in the diagram, below). This is an idealized mathematical model: real physical Diesels do have an increase in pressure during this period, but it is less pronounced than in the Otto cycle.  The idealized [[Otto cycle]] of a  [[four-stroke cycle|gasoline engine]] approximates constant volume during that phase, generating more of a spike in a  [[p-V diagram]].
+
+== The Idealized Diesel Cycle ==
+[[Image:DieselCycle PV.svg|thumb|300px|left|p-V Diagram for the Ideal Diesel cycle. The cycle follows the numbers 1-4 in clockwise direction.]]
+
+The image on the left shows a p-V diagram for the ideal Diesel cycle; where <math>p</math> is [[pressure]] and <math>v</math> is [[specific volume]]. The ideal Diesel cycle follows the following four distinct processes (The color references refer to the color of the line on the diagram.):
+
+* Process 1 to 2 is [[isentropic]] compression of the fluid (blue)
+* Process 2 to 3 is [[Reversible process (thermodynamics)|reversible]] constant pressure heating (red)
+* Process 3 to 4 is isentropic expansion (yellow)
+* Process 4 to 1 is reversible constant volume cooling (green)<ref>Eastop & McConkey 1993, ''Applied Thermodynamics for Engineering Technologists'', Pearson Education Limited, Fifth Edition, p.137</ref>
+
+The Diesel is a heat engine: it converts [[heat]] into [[Work (thermodynamics)|work]]. The isentropic processes are impermeable to heat: heat flows into the loop through the left expanding isobaric process and some of it flows back out through the right depressurizing process, and the heat that remains does the work.
+
+* Work in (<math>W_{in}</math>) is done by the piston compressing the working fluid
+* Heat in (<math>Q_{in}</math>) is done by the [[combustion]] of the fuel
+* Work out (<math>W_{out}</math>) is done by the working fluid expanding on to the piston (this produces usable [[torque]])
+* Heat out (<math>Q_{out}</math>) is done by venting the air
+{{clear}}
+
+=== Maximum thermal efficiency ===
+The maximum thermal efficiency of a Diesel cycle is dependent on the compression ratio and the cut-off ratio. It has the following formula under cold [[Standard state|air standard]] analysis: 
+
+<math>\eta_{th}=1-\frac{1}{r^{\gamma-1}}\left ( \frac{\alpha^{\gamma}-1}{\gamma(\alpha-1)} \right )</math>
+
+where
+:<math>\eta_{th} </math> is [[thermal efficiency]]
+:<math>\alpha</math> is the cut-off ratio <math>\frac{V_3}{V_2}</math> (ratio between the end and start volume for the combustion phase)
+:{{math|r}} is the [[compression ratio]] <math>\frac{V_1}{V_2}</math>
+:<math>\gamma </math> is ratio of [[specific heat capacity|specific heats]] (C<sub>p</sub>/C<sub>v</sub>)<ref>[http://230nsc1.phy-astr.gsu.edu/hbase/thermo/diesel.html The Diesel Engine]</ref>
+
+The cut-off ratio can be expressed in terms of temperature as shown below:
+:<math>\frac{T_2}{T_1} ={\left(\frac{V_1}{V_2}\right)^{\gamma-1}} = r^{\gamma-1}</math>
+
+:<math> \displaystyle {T_2} ={T_1} r^{\gamma-1} </math>
+
+:<math>\frac{V_3}{V_2} = \frac{T_3}{T_2}</math>
+
+:<math>\alpha = \left(\frac{T_3}{T_1}\right)\left(\frac{1}{r^{\gamma-1}}\right)</math>
+
+<math>T_3</math> can be approximated to the flame temperature of the fuel used. The flame temperature can be approximated to the [[adiabatic flame temperature]] of the fuel with corresponding air-to-fuel ratio and compression pressure, <math>p_3</math>.
+<math>T_1</math> can be approximated to the inlet air temperature.
+
+This formula only gives the ideal thermal efficiency. The actual thermal efficiency will be significantly lower due to heat and friction losses. The formula is more complex than the Otto cycle (petrol/gasoline engine) relation that has the following formula;
+
+<math>\eta_{otto,th}=1-\frac{1}{r^{\gamma-1}}</math>
+
+The additional complexity for the Diesel formula comes around since the heat addition is at constant pressure and the heat rejection is at constant volume. The Otto cycle by comparison has both the heat addition and rejection at constant volume.
+
+Comparing the two formulae it can be seen that for a given compression ratio ({{math|r}}), the ideal Otto cycle will be more efficient. However, a [[Diesel engine]] will be more efficient overall since it will have the ability to operate at higher compression ratios.  If a petrol engine were to have the same compression ratio, then knocking (self-ignition) would occur and this would severely reduce the efficiency, whereas in a Diesel engine, the self ignition is the desired behavior.  Additionally, both of these cycles are only idealizations, and the actual behavior does not divide as clearly or sharply.  And the ideal Otto cycle formula stated above does not include throttling losses, which do not apply to Diesel engines.
+
+The '''Diesel cycle''' is a combustion process of a reciprocating [[internal combustion engine]]. In it, [[fuel]] is ignited by heat generated by compressing air in the combustion chamber, into which fuel is injected.  This is in contrast to igniting it with a [[spark plug]] as in the [[Otto cycle]] (four-stroke/petrol) engine. Diesel engines ([[heat engine]]s using the Diesel cycle) are used in [[automobile]]s, [[power generation]], [[Diesel-electric transmission|Diesel-electric]] [[locomotive]]s, and [[submarines]].
+
+== Applications ==
+===Diesel engines ===
+{{main|Diesel engine}}
+The Diesel engine has the lowest [[specific fuel consumption (shaft engine)|specific fuel consumption]] of any large internal combustion engine employing a single cycle, 0.26&nbsp;lb/hp.h (0.16&nbsp;kg/kWh) for very large marine engines (combined cycle power plants are more efficient, but employ two engines rather than one). Two-stroke Diesels with high pressure forced induction, particularly [[turbocharging]], make up a large percentage of the very largest Diesel engines.
+
+In [[North America]], Diesel engines are primarily used in large trucks, where the low-stress, high-efficiency cycle leads to much longer engine life and lower operational costs. These advantages also make the Diesel engine ideal for use in the heavy-haul railroad environment.
+
+=== Other internal combustion engines without spark plugs ===
+Many [[model airplane]]s use very simple "glow" and "Diesel" engines.  Glow engines use [[glow plug]]s.  "Diesel" model airplane engines have variable compression ratios.  Both types depend on special fuels (easily obtainable in such limited quantities) for their ignition timing.
+
+Some 19th-century or earlier experimental engines used external flames, exposed by valves, for ignition, but this becomes less attractive with increasing compression.  (It was the research of [[Nicolas Léonard Sadi Carnot]] that established the thermodynamic value of compression.)  A historical implication of this is that the Diesel engine would eventually have been invented without the aid of electricity.
+<br /> See the development of the  [[hot bulb engine]] and [[indirect injection]] for historical significance.
+
+== References ==
+<references/>
+
+== See also ==
+* [[Diesel engine]]
+* [[Hot bulb engine]]
+* [[Mixed/dual cycle]]
+{{Thermodynamic cycles|state=uncollapsed}}
+
+{{DEFAULTSORT:Diesel Cycle}}
+[[Category:Thermodynamic cycles]]

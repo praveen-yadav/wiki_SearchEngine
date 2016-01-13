@@ -1,0 +1,437 @@
+{{about|the computer|the Nerdcore group named after it|Commodore 64 (band)}}
+{{Infobox information appliance
+|image = [[File:Commodore-64-Computer.png|300px|Hardware]]
+|type = [[Home computer]]
+|introduced = 1982 (Winter [[Consumer Electronics Show|CES]])
+|releasedate = {{Start date|1982|08}}<ref name="woc1983">[http://www.pcmuseum.ca/Brochures/WOCProgram.pdf World of Commodore Brochure (1983)]</ref><ref name="computerhistory1982">[http://archive.computerhistory.org/resources/text/Commodore/Commodore.Commodore64.1982.102646264.pdf July 1982 Commodore brochure]</ref>
+|discontinued = April 1994
+|cpu = [[MOS Technology 6510]] <br/> @ {{nowrap|1.023 MHz}} ([[National Television System Committee|NTSC]] version)<br/> @ {{nowrap|0.985 MHz}} ([[Phase Alternating Line|PAL]] version)
+|graphics = [[MOS Technology VIC-II|VIC-II]] ({{nowrap|320 × 200}}, {{nowrap|16 colors}}, [[sprite (computer graphics)|sprites]], {{nowrap|[[raster interrupt]]}})
+|sound = [[MOS Technology SID|SID 6581]] ({{nowrap|3× [[electronic oscillator|osc]]}}, {{nowrap|4× [[waveform|wave]]}}, [[electronic filter|filter]], [[ADSR envelope|ADSR]], [[ring modulation|ring]])<!-- Tried to keep it short -->
+|connectivity = {{nowrap|2× [[MOS Technology 6526|CIA 6526]] [[joystick]]}}, [[#I/O ports and power supply|Power]], [[ROM cartridge]], [[RF modulator|RF]], [[S-Video|A/V]], {{nowrap|[[IEEE-488]] [[Commodore 1541|floppy]]-[[Commodore 1526|printer]]}}, {{nowrap|[[Commodore Datassette|digital tape]]}}, [[General Purpose Input/Output|GPIO]]/[[RS-232]]
+|memory = {{nowrap|64 [[kilobyte|kB]] [[random-access memory|RAM]]}} + {{nowrap|20 kB [[read-only memory|ROM]]}}
+|os = {{nowrap|Commodore [[KERNAL]]}}/<br/>{{nowrap|[[Commodore BASIC]] 2.0}}<br/>{{nowrap|[[GEOS (8-bit operating system)|GEOS]] (optionally)}}
+|unitssold = 12.5<ref name="PageTable">{{cite web|url=http://www.pagetable.com/?p=547|title=How many Commodore 64 computers were sold?|accessdate=2011-02-01}}</ref> – 17<ref name="Reimer1">{{cite web|url= http://www.jeremyreimer.com/total_share.html|title=Personal Computer Market Share: 1975–2004|last= Reimer|first=Jeremy|accessdate=2009-07-17}}</ref> million
+|price = [[United States dollar|US$]] 595 (today ${{Inflation|US|595|1982|r=2}})
+|predecessor = [[Commodore VIC-20]]
+|successor = [[Commodore 128]]
+}}
+
+The '''Commodore 64''', commonly called '''C64''', '''C=64''' (after the graphic logo on the case), occasionally '''CBM 64''' (for '''C'''ommodore '''B'''usiness '''M'''achines), or '''VIC-64''',<ref>[http://www.lemon64.com/museum/view.php?id=274&genre=manualcom VIC 64 Användarmanual]. Image of Swedish edition of the VIC 64 user's manual. Retrieved on 2007-03-12.</ref> is an [[8-bit]] [[home computer]] introduced in January 1982 by [[Commodore International]]. Due to changes in the computing industry since its release, it remains the highest selling computer of all time, and will most likely never be surpassed. This claim is disputed, because various changes were made to the "Commodore 64", making the CP/M plug in cartridge incompatible with all but some 1982 production models, as well as the computer being revamped and placed into a new case, then its name changed to Commodore 64C, indicating that there were at least 3 different models in this range of computers.<ref>http://ilesj.wordpress.com/2010/07/01/how-to-identify-c64-and-sid-model/</ref> In [[Finland]], the computer was so popular that the number of Commodore 64's sold in proportion to the population size was higher than anywhere else in the world.<ref>{{cite web | url=http://yle.fi/ohjelmat/1285543 | title=Yle: Ohjelmat| date=20 November 2011 | accessdate=15 July 2012}}</ref>
+
+Volume production started in early 1982, with machines being released on to the market in August at a price of {{nowrap|[[United States dollar|US$]] 595}}.<ref name="IEEE_Perry_C64" /><ref name="mayhem64_co_uk-c64design">{{cite web |title=MayhemUK Commodore 64 archive |url=http://www.mayhem64.co.uk/c64design.htm}} 090918 mayhem64.co.uk</ref> Preceded by the [[Commodore VIC-20]] and [[Commodore PET]], the C64 took its name from its {{nowrap|64 [[kilobyte]]s}} {{nowrap|(65,536 [[byte]]s)}} of RAM, and had favorable sound and graphical specifications when compared to contemporary systems such as the [[Apple II]], at a price that was well below the circa {{nowrap|US$1200}} demanded by Apple, but the same couldn't be said of the Tandy Color Computer, which was initially priced at $399.
+
+For a substantial period (1983–1986), the C64 dominated the market with between 30% and 40% share and 2 million units sold per year,<ref name="Reimer">{{cite web|url=http://arstechnica.com/articles/culture/total-share.ars/4|title=Total share: 30 years of personal computer market share figures|last=Reimer|first=Jeremy|publisher=Ars Technica|accessdate=2008-09-13}}</ref> outselling the [[IBM PC compatible]]s, [[Apple Inc.]] computers, and the [[Atari 8-bit family]] of computers. Sam Tramiel, a later Atari president and the son of Commodore's founder, said in a 1989 interview, "When I was at Commodore we were building {{nowrap|400,000}} C64s a month for a couple of years."<ref name="Start 1989">{{cite journal|last=Naman|first=Mard|title=From Atari's Oval Office An Exclusive Interview With Atari President Sam Tramiel|journal=STart|volume=4|issue=2|page=p. 16|publisher= Antic Publishing|location=San Francisco|date=September 1989|url=http://www.atarimagazines.com/startv4n2/ovaloffice.html|issn=}}</ref>
+
+Part of its success was because it was sold in retail stores instead of electronics stores. Commodore produced many of its parts [[Vertical integration|in-house to control supplies and cost]]. It is sometimes compared to the [[Ford Model T]] automobile for its role in bringing a new technology to middle-class households via creative mass-production.<ref name="Kahney">{{cite web|url= http://www.wired.com/culture/lifestyle/news/2003/09/60349|title=Grandiose Price for a Modest PC |last=Kahney|first=Leander|date=2003-09-09|publisher=CondéNet, Inc|accessdate=2008-09-13}}</ref>
+
+Approximately 10,000 commercial [[software]] titles were made for the Commodore 64 including development tools, office productivity applications, and games.<ref name="Impact">{{cite web|url=http://www.computerhistory.org/events/index.php?id=1193702785|title=Impact of the Commodore 64: A 25th Anniversary Celebration|publisher=Computer History Museum|accessdate=2008-09-13}}</ref> [[list of computer system emulators#Commodore 64|C64 emulators]] allow anyone with a modern computer, or a compatible [[video game console]], to run these programs today. The C64 is also credited with popularizing the computer [[demoscene]] and is still used today by some [[retrocomputing|computer hobbyists]].<ref name="use">{{cite web|last=Swenson|first=Reid C.|title=What is a Commodore Computer? A Look at the Incredible History and Legacy of the Commodore Home Computers|publisher=OldSoftware.Com|year=2007|url=http://www.oldsoftware.com/history.html| accessdate=2007-11-19}}</ref>
+
+==History==
+[[File:C64 startup animiert.gif|260px|left|thumb|The Commodore 64 startup screen]]
+
+In January 1981, [[MOS Technology]], Inc., Commodore's [[integrated circuit]] design subsidiary, initiated a project to design the graphic and audio chips for a next generation [[video game console]]. Design work for the chips, named [[MOS Technology VIC-II]] (graphics) and [[MOS Technology SID]] (audio), was completed in November 1981.<ref name="IEEE_Perry_C64">{{cite journal
+ | last1 = Perry
+ | first1 = Tekla S.
+ | authorlink1 =
+ | last2 = Wallich
+ | first2 = Paul
+ | authorlink2 =
+ | editor-last =
+ | editor-first =
+ | editor-link =
+ | date =
+ | year = 1985
+ | month = march
+ | title = Design case history: the Commodore 64
+ | trans_title =
+ | journal = IEEE Spectrum
+ | volume =
+ | issue =
+ | series =
+ | pages = 48–58
+ | location =
+ | publisher =
+ | language =
+ | arxiv =
+ | id =
+ | isbn =
+ | issn = 0018-9235
+ | oclc =
+ | pmid =
+ | pmc =
+ | bibcode =
+ | doi =
+ | accessdate = 2011-11-12
+ | url = http://spectrum.ieee.org/ns/pdfs/commodore64_mar1985.pdf
+ | archiveurl =
+ | archivedate =
+ | laysource =
+ | laysummary =
+ | laydate =
+ | quote =
+ | ref =
+ | separator =
+ | postscript =
+}}</ref>
+
+Commodore then began a game console project that would use the new chips—called the ''Ultimax'' or alternatively the ''[[Commodore MAX Machine]]'', engineered by Yash Terakura from Commodore Japan. This project was eventually cancelled after just a few machines were manufactured for the Japanese market.
+
+At the same time, Robert "Bob" Russell (system programmer and architect on the [[Commodore VIC-20|VIC-20]]) and Robert "Bob" Yannes (engineer of the SID) were critical of the current product line-up at Commodore, which was a continuation of the [[Commodore PET]] line aimed at business users. With the support of Al Charpentier (engineer of the VIC-II) and Charles Winterble (manager of MOS Technology), they proposed to Commodore CEO [[Jack Tramiel]] a true low-cost sequel to the VIC-20. Tramiel dictated that the machine should have {{nowrap|64 kB}} of [[random-access memory]] (RAM). Although {{nowrap|64 kB}} of [[dynamic random access memory]] (DRAM) cost over [[United States dollar|US$]]100 at the time, he knew that DRAM prices were falling, and would drop to an acceptable level before full production was reached. In November, Tramiel set a deadline for the first weekend of January, to coincide with the 1982 [[Consumer Electronics Show]] (CES).<ref name="IEEE_Perry_C64" />
+
+The product was [[code name]]d the VIC-40 as the successor to the popular [[VIC-20]]. The team that constructed it consisted of Bob Russell, Bob Yannes and David A. Ziembicki. The design, prototypes and some sample software were finished in time for the show, after the team had worked tirelessly over both [[Thanksgiving (United States)|Thanksgiving]] and [[Christmas]] weekends.
+
+The machine incorporated Commodore BASIC 2.0 in ROM. BASIC also served as the [[user interface]] [[shell (computing)|shell]] and was available immediately on startup at the <code>READY</code> prompt.
+
+When the product was to be presented, the VIC-40 product was renamed C64 to fit the then-current Commodore business products lineup which contained the ''P128'' and the ''B256'', both named by a letter and their respective total memory size (in KBytes).
+
+The C64 made an impressive debut at the January 1982 Winter [[Consumer Electronics Show]], as recalled by Production Engineer David A. Ziembicki: "All we saw at our booth were [[Atari]] people with their mouths dropping open, saying, 'How can you do that for $595?'" The answer, as it turned out, was [[vertical integration]]; thanks to Commodore's ownership of [[MOS Technology]]'s [[semiconductor device fabrication|semiconductor fabrication]] facilities, each C64 had an estimated production cost of only US$135.
+
+===Winning the market war===
+[[File:CBM64Cartridges.JPG|thumb|right|Game cartridges for [[Radar Rat Race]] and [[International Soccer]]]]
+
+The C64 faced a wide range of competing [[home computer]]s at its introduction in August 1982.<ref name="computerhistory1982"/> With a lower price and more flexible hardware, it quickly outsold many of its competitors. In the [[United States]] the greatest competitors were the [[Atari 8-bit family|Atari 8-bit]] 400 and 800, and the [[Apple II series|Apple II]]. The Atari 400 and 800 had been designed to accommodate previously stringent FCC emissions requirements and so were expensive to manufacture. The latest revision in the aging Apple II line, the Apple IIe, had higher resolution graphics modes than the C64.<ref name="5150a">{{cite web |url= http://www.old-computers.com/museum/computer.asp?st=1&c=274|title=PC – Model 5150|publisher=old-computers.com|accessdate=2008-09-13}}</ref><ref name="5150b">{{cite web|url=http://www.old-computers.com/museum/computer.asp?st=1&c=83|title=Apple IIe|publisher=old-computers.com|accessdate= 2008-09-13}}</ref> Upgrade capability for the Apple II was granted by internal expansion slots, while the C64 had only a single external [[ROM cartridge]] port for bus expansion. However, the Apple used its expansion slots for interfacing to common peripherals like disk drives, printers and modems; the C64 had a variety of ports integrated into its motherboard which were used for these purposes, usually leaving the cartridge port free.
+
+All four machines had similar standard memory configurations in the years 1982/83: 48K for the Apple II+<ref name="APPLEII+">{{cite web|url=http://www.old-computers.com/museum/computer.asp?st=1&c=571|title=Apple II+|publisher=old-computers.com|accessdate=2008-09-13}}</ref> (upgraded within months of C64's release to 64K with the Apple IIe) and 48K for the Atari 800.<ref name="Atari800">{{cite web|url=http://www.old-computers.com/museum/computer.asp?st=1&c=460|title= Atari 800|publisher=old-computers.com|accessdate=2008-09-13}}</ref> At upwards of US$1200,<ref>[http://apple2history.org/history/ah06.html Apple II History Chap 6]</ref> the Apple II was more than twice as expensive, while the Atari 800 cost US$899. One key to the C64's success was Commodore's aggressive marketing tactics, and they were quick to exploit the relative price/performance divisions between its competitors with a series of television commercials after the C64's launch in late 1982.<ref name="Commercials">{{cite web|url= http://www.commodorebillboard.de/Commercials/Commodore/english/CommodoreCommercialsEnglish.htm| title=Commodore Commercials|publisher=commodorebillboard.de|accessdate=2008-09-13}}</ref> The company also published detailed documentation to help developers,<ref name="gupta198306">{{cite news | url=https://archive.org/stream/1983-06-compute-magazine/Compute_Issue_037_1983_Jun#page/n135/mode/2up | title=Commodore 64 Programmer's Reference Guide | work=Compute! | date=1983-06 | accessdate=30 October 2013 | author=Gupta, Anu M. | pages=134 | type=review}}</ref> while Atari initially kept technical information secret.<ref name="tomczyk1984">{{cite book | title=The Home Computer Wars: An Insider's Account of Commodore and Jack Tramiel | publisher=Compute! Publications | author=Tomczyk, Michael S. | year=1984 | pages=110 | isbn=0942386787}}</ref> At a mid-1984 conference of game developers and experts at [[Origins Game Fair]], [[Dan Bunten]], [[Sid Meier]] ("the computer of choice right now"), and a representative of [[Avalon Hill]] all stated that they were developing games for the 64 first as the most promising market.<ref name="cgw198410">{{cite news | title=The CGW Computer Game Conference | work=Computer Gaming World | date=1984-10 | accessdate=31 October 2013 | pages=30 | type=panel discussion}}</ref> In April 1986 ''Computer Gaming World'' published a survey of 10 game publishers which found that they planned to release 43 Commodore 64 games that year, compared to 19 for Atari and 48 for Apple II,<ref name="cgw198604">{{cite news | title=Survey of Game Manufacturers | work=Computer Gaming World | date=1986-04 | accessdate=1 November 2013 | pages=32}}</ref> and that year [[Alan Miller (game designer)|Alan Miller]] stated that [[Accolade (game company)|Accolade]] developed first for the 64 because "it will sell the most on that system".<ref name="boosman198611">{{cite news | title=Designer Profiles / Alan Miller | work=Computer Gaming World | date=1986-11 | accessdate=1 November 2013 | author=Boosman, Frank | pages=6 | type=interview}}</ref>
+
+Commodore sold the C64 not only through its network of authorized dealers, but also through department stores, discount stores, toy stores and college bookstores. The C64 had a built-in [[RF modulator]] and thus could be plugged into a television set. This allowed it (like its predecessor, the VIC-20) to compete directly against video game consoles such as the [[Atari 2600]]. Like the Apple IIe, the C64 could also output baseband [[composite video]] and thus could be plugged into a specialized monitor for a sharper picture. Unlike the IIe, the C64's baseband NTSC output capability included separate luminance/chroma signal output equivalent to (and electrically compatible with) [[S-Video]], for connection to the [[Commodore 64 peripherals#Other peripherals|Commodore 1702]] monitor.
+
+Aggressive pricing of the C64 is considered to be a major catalyst in the [[North American video game crash of 1983]]. In January 1983, Commodore offered a US$100 [[rebate (marketing)|rebate]] in the United States on the purchase of a C64 to anyone trading in another video game console or computer.<ref name="PM Jun 1983">{{cite journal | last = Protecto Enterprise | title = Commodore computer advertisement | journal = Popular Mechanics | volume = 159 | issue = 6 | page = p. 140 | publisher = Hearst Magazines| date = June 1983| url = http://books.google.com/books?id=itUDAAAAMBAJ&pg=PA141 | issn = 0032-4558| quote = We pack with your computer a voucher good for $100 rebate from the factory when you send in your old Atari, Mattel, Coleco electronic game or computer …}}</ref> To take advantage of this rebate, some mail-order dealers and retailers offered a [[Timex Sinclair 1000]] for as little as US$10 with purchase of a C64, so the consumer could send the TS1000 to Commodore, collect the rebate, and pocket the difference; [[Timex Group USA|Timex Corporation]] departed the computer market within a year. Commodore's tactics soon led to a [[price war]] with the major [[home computer]] manufacturers. The success of the VIC-20 and C64 contributed significantly to the exit of [[Texas Instruments]] and other smaller competitors from the field. The price war with Texas Instruments was seen as a personal battle for Commodore president [[Jack Tramiel]]; TI's subsequent demise in the home computer industry in October 1983 was seen as revenge for TI's tactics in the [[calculator|electronic calculator]] market in the mid-1970s, when Commodore was almost bankrupted by TI.<ref>{{cite web|first=Jeremy|last=Remier|url=http://arstechnica.com/articles/culture/amiga-history-4-commodore-years.ars|title=A history of the Amiga, part 4: Enter Commodore|work= arstechnica.com|accessdate=2008-08-04}}</ref> ''Computer Gaming World'' stated in January 1985 that companies such as [[Epyx]] that survived the video game crash did so because they "jumped on the Commodore bandwagon early".<ref name="jacobs198501">{{cite news | title=An Agent Looks at the Software Industry | work=Computer Gaming World | date=1985-01 | accessdate=31 October 2013 | author=Jacobs, Bob | pages=18}}</ref>
+
+In 1984, Commodore released the [[Commodore Plus/4]]. It had a higher-color display, a newer implementation of [[Commodore BASIC]] (V3.5), and built-in software in what was positioned as an inexpensive business oriented system. However, it was incompatible with the C64, and [[Amstrad]] and other PC and [[CP/M]] clones rendered the limited business software and lack of compactness of the multiple-lead Plus/4 system of marginal value. The Plus/4 lacked hardware [[sprite (computer graphics)|sprite]] capability and lacked a [[MOS Technology SID|SID chip]], thus under-performing in two of the areas that had made the C64 successful. In [[Europe]], the primary competitors to the C64 were the British-built [[Sinclair ZX Spectrum]], [[BBC Micro]] computer and the [[Amstrad CPC]] 464. In the UK, the Spectrum had been released a few months ahead of the C64, and was selling for less than half the price. The Spectrum quickly became the market leader and Commodore had an uphill struggle against the Spectrum. The C64 debuted at £399 in early 1983, while the Spectrum cost £175. The C64 would later rival the Spectrum in popularity in the latter half of the 1980s, eventually outselling the Spectrum after 1985.
+
+By mid-1986 Commodore had sold 3.5 million 64s. Although the company reportedly attempted to discontinue the C64 more than once in favor of more expensive computers such as the 128, demand remained strong.<ref name="halfhilll198604">{{cite news | url=https://archive.org/stream/1986-04-compute-magazine/Compute_Issue_071_1986_Apr#page/n31/mode/2up | title=A Turning Point For Atari? | work=Compute! | date=1986-04 | accessdate=8 November 2013 | author=Halfhill, Tom R. | pages=30}}</ref><ref name="wagner198608">{{cite news | title=The Commodore Key | work=Computer Gaming World | date=1986-08 | accessdate=1 November 2013 | author=Wagner, Roy | pages=28}}</ref> That year Commodore introduced the 64C, a redesigned 64, which ''Compute!'' saw as evidence that—contrary to 64 owners' fears that the company would abandon them in favor of the Amiga and 128—"the 64 refuses to die".<ref name="compute198607">{{cite news | url=https://archive.org/stream/1986-07-compute-magazine/Compute_Issue_074_1986_Jul#page/n7/mode/2up | title=Editor's Notes | work=Compute! | date=1986-07 | accessdate=8 November 2013 | author=Lock, Robert; Halfhill, Tom R. | pages=6}}</ref> Its introduction also meant that Commodore raised the price of the 64 for the first time, which the magazine cited as the end of the home-computer price war.<ref name="leemon198702">{{cite news | url=https://archive.org/stream/1987-02-compute-magazine/Compute_Issue_081_1987_Feb#page/n25/mode/2up | title=Microfocus | work=Compute! | date=1987-02 | accessdate=9 November 2013 | author=Leemon, Sheldon | pages=24}}</ref> Software sales also remained strong; [[MicroProse]], for example, in 1987 cited the Commodore and IBM PC markets as its top priorities.<ref name="brooks198711">{{cite news | title=Titans of the Computer Gaming World / MicroProse | work=Computer Gaming World | date=1987-11 | accessdate=2 November 2013 | author=Brooks, M. Evan | pages=16}}</ref>
+
+By 1988, Commodore was still selling 1.5 million 64s worldwide,<ref>{{cite web|url=http://www.archive.org/details/CC517_commodore_64|date= 2007-07-24|title=Computer Chronicles: Interview with Commodore president with Max Toy|accessdate= 2007-07-24}}</ref> although Epyx CEO [[David Shannon Morse]] cautioned that "there are no new 64 buyers, or very few. It's a consistent group that's not growing ... it's going to shrink as part of our business".<ref name="compute198809">{{cite news | url=https://archive.org/stream/1988-09-compute-magazine/Compute_Issue_100_1988_Sep#page/n11/mode/2up | title=Epyx Grows with David Morse | work=Compute! | date=1988-09 | accessdate=10 November 2013 | author=Ferrell, Keith; Keizer, Gregg | pages=10}}</ref> One computer-gaming executive stated that the [[Nintendo Entertainment System]]'s enormous popularity—seven million sold that year, almost as many as the number of 64s sold in its first five years—had stopped the 64's growth, and [[Trip Hawkins]] stated that Nintendo was "the last hurrah of the 8-bit world".<ref name="ferrell198907">{{cite news | url=https://archive.org/stream/1989-07-compute-magazine/Compute_Issue_110_1989_Jul#page/n29/mode/2up | title=Just Kids' Play or Computer in Disguise? | work=Compute! | date=1989-07 | accessdate=11 November 2013 | author=Ferrell, Keith | pages=28}}</ref> 
+Although demand for the C64 dropped off in the US by 1990, it continued to be popular in the UK and other European countries. In the end, economics, not obsolescence, sealed the C64's fate. In March 1994, at [[CeBIT]] in [[Hanover]], Germany, Commodore announced that the C64 would be finally discontinued in 1995.<ref name="AFNS">Amiga Format News Special. "Commodore at CeBIT '94". Amiga Format, Issue 59, May 1994.</ref> Commodore stated that the C64's [[Commodore 1541|disk drive]] was more expensive to manufacture than the C64 itself.<ref name="AFNS"/> However, only one month later, in April 1994, the company filed for bankruptcy.
+
+===The C64 family===
+[[File:CommodoreMAX isolated.png|thumb|[[Commodore MAX Machine]]]]
+1982: Commodore released the [[Commodore MAX Machine]] in Japan. It is called the Ultimax in the US, and VC-10 in Germany. The MAX was intended to be a game console with limited computing capability, and was based on a very cut-down version of the hardware family later used in the C64. The MAX was discontinued months after its introduction, because of poor sales in Japan.
+
+1983 saw Commodore attempt to compete with the [[Apple II]]'s hold on the US education market with the [[Commodore Educator 64|Educator 64]],<ref name="zimmers">{{cite web|url= http://www.zimmers.net/cbmpics/ced64s.html|title=The Educator 64 & Commodore PET 64 (aka C=4064)| publisher=zimmers.net|accessdate=2008-09-13}}</ref> essentially a C64 and "greenscale" monochrome monitor in a PET case. Schools preferred the all-in-one metal construction of the PET over the standard C64's separate components, which could be easily damaged, vandalized or stolen.
+
+[[File:Sx-64 build crop.jpg|thumb|left|[[Commodore SX-64]]]]
+In 1984, Commodore released the [[Commodore SX-64|SX-64]], a portable version of the C64. The SX-64 has the distinction of being the first ''full-color'' [[portable computer]]. While earlier computers using this form factor only incorporated monochrome "green screen" displays, the base SX-64 unit featured a {{convert|5|in|mm|abbr=on}} color [[cathode ray tube]] (CRT) and an integrated [[Commodore 1541|1541]] floppy disk drive. The SX-64 did not have a cassette connector.
+
+Commodore, specifically two designers; Fred Bowen and [[Bil Herd]], were determined to avoid the problems of the [[Commodore Plus/4|Plus/4]]. They intended that the eventual successors to the C64—the [[Commodore 128]] and 128D computers (1985)—were to be good as, and fully compatible with the original. The successors had many improvements (such as a structured BASIC with graphics and sound commands, 80-column display ability, and full [[CP/M]] compatibility). The decision to make the [[Commodore 128]] [[plug compatible]] with the C64 was made quietly by Bowen and Herd, software and hardware designers respectively, without the knowledge or approval by the management in the post [[Jack Tramiel]] era. The designers were careful not to reveal their decision until the project was too far along to be challenged or changed and still make the impending Consumer Electronics Show (CES) show in Las Vegas. Upon learning that the C128 was designed to be compatible with the C64, Commodore's marketing department independently announced that the C128 would be 100% compatible with the C64, thereby raising the bar for C64 support.<ref name = "InfoWorld Jan 1985">{{cite journal | last = Mace | first = Scott| title = Commodore Shows New 128 | journal = InfoWorld | volume = 7 | issue = 4 | pages = pp. 19–20 | publisher = Popular Computing | location = Menlo Park, CA | date = January 28, 1985| url = http://books.google.com/books?id=6i4EAAAAMBAJ&pg=PA19| issn = 0199-6649}}</ref>
+
+[[File:C64c system.jpg|thumb|Commodore 64C with [[Commodore 1541|1541-II]] floppy disk drive and 1084S monitor displaying television-compatible [[S-video]]]]
+In 1986, Commodore released the Commodore 64C (C64C) computer, which was functionally identical to the original. The exterior design was remodeled in the sleeker style of the [[Commodore 128]].{{r|wagner198608}} The modifications to the C64 line were more than skin deep in the C64C with new versions of the SID, VIC and I/O chips being deployed—with the core voltage reduced from 12 V to 9 V. In the [[United States]], the C64C was often bundled with the third-party [[GEOS (8-bit operating system)|GEOS]] [[graphical user interface]] (GUI) based operating system. The [[Commodore 1541]] disk drive received a matching face-lift resulting in the 1541c. Later a smaller, sleeker 1541-II model was introduced along with the {{nowrap|800 kB}} 3.5-inch [[microfloppy]] [[Commodore 1581|1581]].
+
+[[File:C64GS-Console-Set.jpg|thumb|left|[[Commodore 64 Games System]] "C64GS"]]
+In 1990, the C64 was rereleased in the form of a game console, called the [[Commodore 64 Games System|C64 Games System]] (C64GS). A simple modification to the C64C's motherboard was made to orient the cartridge connector to a vertical position. This allowed cartridges to be inserted from above. A modified ROM replaced the BASIC interpreter with a boot screen to inform the user to insert a cartridge. Designed to compete with the Nintendo Entertainment System and the Sega Master System, it suffered from very low sales compared to its rivals. It was another commercial failure for Commodore, and it was never released outside of Europe.
+
+In 1990, an advanced successor to the C64, the [[Commodore 65]] (also known as the "C64DX"), was prototyped, but the project was canceled by Commodore's chairman [[Irving Gould]] in 1991. The C65's specifications were very good for an 8-bit computer, bringing specs comparable to the [[Apple IIgs]]. For example, it could display 256 colors on screen, while [[Amiga Original chipset|OCS]] based Amigas could only display 64 in [[Amiga Halfbrite mode|HalfBrite]] mode (32 colors and half-bright transformations). Although no specific reason was given for the C65's cancellation, it would have competed in the marketplace with Commodore's lower end Amigas and the [[Commodore CDTV]].
+
+===C64 clones===
+In the middle of 2004, after an absence from the marketplace of more than 10 years, PC manufacturer [[Tulip Computers]] BV (owners of the Commodore brand since 1997) announced the [[C64 Direct-to-TV]] (C64DTV), a [[joystick]]-based [[handheld TV game|TV game]] based on the C64 with 30 games built into ROM. Designed by [[Jeri Ellsworth]], a self-taught computer designer who had earlier designed the modern [[C-One]] C64 implementation, the C64DTV was similar in concept to other mini-consoles based on the [[Atari 2600]] and [[Intellivision]] which had gained modest success earlier in the decade. The product was advertised on [[QVC]] in the United States for the 2004 holiday season. Some users have installed [[Commodore 1541|1541]] floppy disk drives, hard drives, second joysticks and keyboards to these units, which give the DTV devices nearly all of the capabilities of a full Commodore 64. The DTV hardware is also used in the mini-console/game ''Hummer'', sold at [[RadioShack]] mid-2005.
+
+C64 enthusiasts still develop new hardware, including [[Ethernet]] cards,<ref name="Dunkels">{{cite web|url=http://www.dunkels.com/adam/tfe/|title=The Final Ethernet – C64 Ethernet Cartridge|last= Dunkels|first=Adam|accessdate=2008-09-13}}</ref> specially adapted [[hard disk]]s and [[flash memory|flash]] card interfaces ([[sd2iec]]).<ref name="sd2iec">{{cite web|url=http://www.c64-wiki.com/index.php/SD2IEC|title=SD2IEC on c64 wiki}}</ref>
+
+===Brand re-use===
+[[File:Commodore 64 Web-it PC (modified).jpg|thumb|The C64 "Web.it" Internet Computer]]
+{{see also|Commodore 64x}}
+In 1998, the C64 brand was reused for the "Web.it Internet Computer",<ref name='retroport'>{{cite web|title=C64, C128 - Teil 2 - Retroport|url=http://retroport.de/C64_C128_2.html|date=2013-06-14|accessdate=2013-06-16|publisher=retroport.de}}</ref><ref name='amigahist_webit'>{{cite web|title=Commodore 64: Web.It|url=http://www.amigahistory.co.uk/c64web.html|date=2007-06-10|accessdate=2013-06-16|publisher=amigahistory.co.uk}}</ref> a low-powered (even for the time) [[Internet appliance|Internet-oriented]], all-in-one [[x86]] PC running [[Windows 3.1x|Windows 3.1]]. Despite its "Commodore 64" nameplate, the "C64 Web.it" was not directly compatible with the original (except via included emulation software), nor did it share its appearance.
+
+PC clones branded as C64x sold by [[Commodore USA]], LLC, a company licensing the Commodore trademark,<ref>{{cite web|title=Iconic Commodore 64 All Set For Comeback|url=http://www.itproportal.com/2011/04/06/iconic-commodore-64-all-set-comeback/}}</ref><ref>{{cite web|title=Recreating the Legendary Commodore 64|url=http://www.commodoreusa.net/CUSA_C64.aspx}}</ref> began shipping in June 2011.<ref>{{cite web|url=http://www.engadget.com/2011/06/19/commodore-usa-begins-shipping-replica-c64s-next-week-fulfilling/|title=Commodore USA begins shipping replica C64s next week, fulfilling your beige breadbox dreams}}</ref><ref>{{cite web|url=http://www.commodoreusa.net/CUSA_FacilityVideo.aspx|title=Commodore USA site showing assembly and boxed units ready for shipping}}</ref> The C64x has a case resembling the original C64 computer, but- as with the "Web.it"- it is based on [[x86]] architecture and is not compatible with the Commodore 64 on either hardware or software level.
+
+===Virtual Console===
+Several Commodore 64 games were released on the [[Wii|Nintendo Wii's]] [[Virtual Console]] service in Europe and North America only. The games were removed from the service as of August 2013 for unknown reasons.
+
+==Software==
+{{Main|Commodore 64 software}}
+
+In 1982, the C64's graphics and sound capabilities were rivaled only by the [[Atari 8-bit family]], and appeared exceptional when compared with the widely publicised [[Atari VCS]] and [[Apple II]].
+
+The C64 is often credited with starting the computer subculture known as the [[demoscene]] (see [[Commodore 64 demos]]). It is still being actively used in the demoscene,<ref>{{cite web|url=http://www.lyonlabs.org/commodore/c4-2008/c4-2008.html |title=C=4 Expo 2008 |publisher=Lyonlabs.org |date= |accessdate=2013-04-22}}</ref> especially for music (its [[MOS Technology SID|sound chip]] even being used in special sound cards for PCs, and the [[Elektron SidStation]] synthesizer). Unfortunately, the differences between [[PAL]] and [[NTSC]] C64s caused compatibility problems between US/Canadian C64s and those from most other countries. The vast majority of demos run only on PAL machines.
+
+Even though other computers quickly caught up with it, the C64 remained a strong competitor to the later [[video game console]]s [[Nintendo Entertainment System]] and [[Sega Master System]], thanks in part to its by-then established software base, especially outside of North America, where it comprehensively outsold the NES.{{citation needed|date=January 2012}}
+
+===BASIC===
+{{Main|Commodore BASIC}}
+[[File:Simons Basic Splash Screen.gif|thumb|right|The Simons' BASIC start-up screen. Note the altered background and text colors (vs the ordinary C64 blue tones), and the {{nowrap|8 [[kilobyte|kB]]}} reduction of available BASIC program memory due to the [[address space]] used by the cartridge.]]
+
+As was common for home computers of the early 1980s, the C64 incorporated a ROM based version of the BASIC programming language. There was no ''operating system'' as such. The [[KERNAL]] was accessed via BASIC commands. The disk drive had its own [[microprocessor]], much like the [[Atari 800]]. This meant that no memory space had to be dedicated to run the drive, as remained the case with earlier systems such as the [[Apple II]].
+
+Commodore BASIC 2.0 was used instead of the more advanced BASIC 4.0 from the PET series, since its users were not expected to need the disk-oriented enhancements of BASIC 4.0. "The choice of BASIC 2.0 instead of 4.0 was made with some soul-searching, not just at random. The typical user of a C64 is not expected to need the direct disk commands as much as other extensions and the amount of memory to be committed to BASIC were to be limited. We chose to leave expansion space for color and sound extensions instead of the disk features. As a result, you will have to handle the disk in the more cumbersome manner of the 'old days'."<ref>C64 basic introduction, Pg. 65, Commodore Magazine, Aug 1982</ref>
+
+The version of BASIC was limited and did not include specific commands for sound or graphics manipulation, instead required users to use the "[[PEEK and POKE|POKE]]" commands to access the graphics and sound chip registers directly. To provide extended commands, including graphics and sound, Commodore produced two different cartridge-based extension to BASIC 2.0 — [[Simons' BASIC]] and [[Super Expander 64]].
+
+Other languages available for the C64 included [[Pascal (programming language)|Pascal]], [[Logo (programming language)|Logo]], [[Forth (programming language)|Forth]], and [[FORTRAN]]. Compiled versions of BASIC such as Petspeed 2 (from Commodore) and Turbo Lightning (Ocean Software) were also available. While the first generation of C64 software may have used one of these or even the standard BASIC, after 1983 most professionally produced programs were written in [[assembly language]], using a machine code monitor or an assembler. This maximised speed and minimised memory use.
+
+===Alternative operating systems===
+[[File:GeOS Commodore 64.gif|thumb|[[GEOS (8-bit operating system)|GEOS]] for the Commodore 64]]
+
+Many third party operating systems have been developed for the C64. As well as the original [[GEOS (8-bit operating system)|GEOS]], two third-party GEOS-compatible systems have been written: [[Wheels (operating system)|Wheels]] and [[GEOS megapatch]]. Both of these require hardware upgrades to the original C64. Several other operating systems are or have been available, including [[WiNGS OS]], the Unix-like [[LUnix]], operated from a command-line, and the embedded systems OS [[Contiki]], with full GUI. Other less well known OSes include ACE, Asterix, DOS/65 and [[GeckOS]].
+
+A version of [[CP/M]] was released, but this required the addition of an external Z80 processor to the expansion bus, so is not considered a true C64 OS. Furthermore, the Z80 processor was underclocked to be compatible with the C64's memory bus, so performance was poor compared to other CP/M implementations. C64 CP/M and C128 CP/M both suffered a lack of software: although most commercial CP/M software could run on these systems, software media was incompatible between platforms. The low usage of CP/M on Commodores meant that software houses saw no need to invest in mastering versions for the Commodore disk format.
+
+===Networking software===
+During the 1980s, the Commodore 64 was used to run many [[bulletin board system]]s using software packages such as [[Bizarre 64]], [[Blue Board]], C-Net, [[Color 64]], CMBBS, DMBBS and The Deadlock BBS Construction Set, often with [[sysop]]-made modifications. These boards sometimes were used to distribute [[cracked software]].
+
+There were also major commercial [[online services]], such as [[Compunet]] (UK), [[CompuServe]] (US – later bought by [[America Online]]), [[The Source (online service)|The Source]] (US) and [[Minitel]] (France) among many others. These services usually required custom software which was often bundled with a [[modem]] and included free online time as they were billed by the minute.
+
+[[Quantum Link]] (or Q-Link) was a US and Canadian online service for Commodore 64 and 128 personal computers that operated from November 5, 1985 to November 1, 1994. It was operated by [[Quantum Computer Services]] of Vienna, Virginia, which in October 1991 changed its name to [[America Online]], and continues to operate its [[AOL]] service for the [[IBM PC compatible]] and Apple [[Macintosh]] today. Q-Link was a modified version of the [[PlayNET]] system, which [[Control Video Corporation]] (CVC, later renamed Quantum Computer Services) licensed.
+
+===Online gaming===
+{{Main|History of massively multiplayer online games}}
+
+The original interactive game on the micro was [[MUD1|M.U.D]], the ''Multi User Dungeon'', a text based adventure-RPG program based on the original [[adventure game]] written by [[William Crowther]] for the [[DEC PDP-9]]. Written for [[British Telecom]] on [[Compunet]], the game was expanded to [[Compuserve]] in US. This text based adventure game allowed real time conversations and combats (in text) via the large commercial BBS.
+
+[[Don Daglow]] and the [[Stormfront Studios]] game design team began working with [[AOL]] on original online games in 1987, in both text-based and graphical formats. At the time AOL was a Commodore 64 only online service, known as [[Quantum Computer Services]], with just a few thousand subscribers, and was called [[Quantum Link]]. Online graphics in the late 1980s were severely restricted by the need to support modem data transfer rates as slow as 300 [[bits per second]] (bit/s). Early online games like [[Legends of Future Past]], [[Neverwinter Nights (AOL game)|Neverwinter Nights]], [[GemStone III]], [[Dragon's Gate]], and [[Federation]] relied heavily on proprietary services such as [[CompuServe]], [[America Online]], and [[GEnie]] for distribution, since [[NSFNET]] acceptable use policies limited commercial use of the Internet until 1995.
+
+The first graphical character-based interactive environment was ''[[Club Caribe]]''. First released as ''[[Habitat (video game)|Habitat]]'' in 1988, ''Club Caribe'' was introduced by [[LucasArts]] for [[Q-Link]] customers on their Commodore 64 computers. Users could interact with one another, chat and exchange items. Although the game's [[open world]] was very basic, its use of online avatars (already well-established off-line by [[Ultima (series)|Ultima]] and other games) and combination of chat and graphics was revolutionary.
+
+==Hardware==
+{{Repetition|date=April 2010}}
+
+===CPU and memory===
+{{Main|MOS Technology 6510}}
+
+The C64 uses an [[8-bit]] [[MOS Technology 6510]] [[microprocessor]]. This is a close derivative of the [[MOS Technology 6502|6502]] with an added 6-bit internal I/O port that in the C64 is used for two purposes: to bank-switch the machine's [[read-only memory]] (ROM) in and out of the processor's address space, and to operate the [[Commodore Datasette|datasette]] tape recorder.
+
+The C64 has {{nowrap|64 kB}} of [[random-access memory|RAM]], of which {{nowrap|38 kB}} are available to built-in [[Commodore BASIC]] 2.0 on startup.
+
+There is {{nowrap|20 kB}} of ROM, made up of the BASIC interpreter, the kernel, and the character ROM. As the processor could only address {{nowrap|64 kB}} at a time, the [[read-only memory|ROM]] was mapped into memory and only {{nowrap|38,911 bytes}} of RAM were available at startup.
+
+If a program did not use the BASIC interpreter, RAM could be mapped over the ROM locations. However, this meant the character ROM would not be available, and the RAM in its place was instead used for the character glyphs. Normally, this RAM was uninitialised, which would then result in nothing but random patterns appearing on the screen. This was solved by copying the character ROM into RAM. This had two benefits – the standard typeface could be rewritten, and character codes could be rewritten as picture elements.
+
+Most C64 games were written in this way, using low resolution, which required much less processor time and saved memory. Furthermore, picture elements could be reused, saving even more precious memory. The same technique was used in systems like the [[Nintendo Entertainment System|NES]].
+
+===Graphics===
+{{Main|MOS Technology VIC-II}}
+
+The [[Video Display Controller|graphics chip]], [[MOS Technology VIC-II|VIC-II]], features 16 colors, eight hardware [[sprite (computer graphics)|sprites]] per scanline (enabling up to 112 sprites per PAL screen), [[scrolling]] capabilities, and two bitmap graphics modes. The standard text mode features 40 columns, like most [[Commodore PET]] models; the built in character encoding is not standard [[ASCII]] but [[PETSCII]], an extended form of ASCII-1963.
+
+Most screen shots show borders around the screen, which is a feature of the VIC-II chip. By utilising interrupts to reset various hardware registers on precise timings it was possible to place graphics within the borders and thus utilise the full screen.<ref name="Ojala">{{cite web| url=http://www.antimon.org/dl/c64/code/opening.txt|title=Opening the Borders|last=Ojala|first=Pasi| accessdate=2008-09-13}}</ref>
+
+There were two low-resolution and two bitmapped modes.
+Multicolor bitmapped mode had an addressable screen of 160&nbsp;×&nbsp;200 pixels, with a maximum of four colors per 4&nbsp;×&nbsp;8 character block.
+High-resolution bitmapped mode had an addressable screen of 320&nbsp;×&nbsp;200 pixels, with a maximum of two colors per 8&nbsp;×&nbsp;8 character block.
+
+Multicolor low-resolution had a screen of 160&nbsp;×&nbsp;200 pixels, 40&nbsp;×&nbsp;25 addressable with four colors per 8&nbsp;×&nbsp;8 character block.
+
+High resolution "low resolution" had a screen of 320&nbsp;×&nbsp;200 pixels, 40&nbsp;×&nbsp;25 addressable with two colors per 8&nbsp;×&nbsp;8 character block.
+
+Most video games used Multicolor low-resolution.
+
+This allowed only block-by-block character animation due to the limited addressable space.
+
+This was not an issue however, as the video chip automated [[sprites (computer graphics)|sprites]] and vertical and horizontal scrolling pixel-by-pixel, and worked smoothly and quickly regardless of the video mode.
+
+Some animation (for instance, bullets) used character animation when sprites were not available.
+
+===Sound===
+{{Main|MOS Technology SID}}
+
+The [[MOS Technology SID|SID]] chip has three channels, each with its own [[ADSR envelope]] generator, [[ring modulation]] and filter capabilities. Bob Yannes developed the SID chip and later co-founded synthesizer company [[Ensoniq]]. Yannes criticized other contemporary computer sound chips as "primitive, obviously... designed by people who knew nothing about music". Often the game music became a hit of its own among C64 users. Well-known composers and programmers of game music on the C64 are [[Rob Hubbard]], [[David Whittaker (video game composer)|David Whittaker]], [[Chris Hülsbeck]], [[Ben Daglish]], [[Martin Galway]] and David Dunn among many others. Due to the chip's three channels, chords are played as [[arpeggio]]s, coining the C64's characteristic lively sound. It was also possible to continuously update the master volume with sampled data to enable the playback of 4-bit digitized audio. As of 2008, it became possible to play four channel 8-bit audio samples, 2 SID channels and still use filtering.{{citation needed|date=September 2012}}
+
+There are two versions of the SID chip, the 6581 and the 8580. The MOS Technology 6581 was used in the original "breadbox" C64s, the early versions of the C64C and the [[Commodore 128]]. The 6581 was replaced with the MOS Technology 8580 in 1987. The 6581 sound quality is a little crisper, and many Commodore 64 fans prefer its sound. The main difference between the 6581 and the 8580 is the supply voltage. The 6581 uses a {{nowrap|12 volt}} supply – the 8580, a {{nowrap|9 volt}} supply. A modification can be made to use the 6581 in a C64C board (which uses the {{nowrap|9 volt}} chip).
+
+The SID chip has a distinctive sound which has retained a following of devotees to such a degree, that a number of audio enthusiasts and companies have designed [[MOS Technology SID#Hardware reimplementations|SID-based products]] as add-ons for the C64, [[x86|x86 PCs]], and standalone or [[Musical Instrument Digital Interface|MIDI]] music devices such as the [[Elektron SidStation]]. These devices use chips taken from excess stock, or removed from used computers.
+
+In 2007, [[Timbaland]]'s extensive use of the [[SidStation]] led to the [[2007 Timbaland plagiarism controversy]] around his tracks "Block Party" and "[[Do It]]" (written for [[Nelly Furtado]]).
+
+===Hardware revisions===
+Cost reduction was the driving force behind the C64's motherboard revisions. Reducing manufacturing costs was vitally important to Commodore's survival during the price war and leaner years of the 16-bit era. The C64's original ([[NMOS logic|NMOS]] based) motherboard would go through two major redesigns, (and numerous sub-revisions) exchanging positions of the VIC-II, SID and [[programmable logic array|PLA]] chips. Initially, a large portion of the cost was eliminated by reducing the number of discrete components, such as diodes and resistors, which enabled the use of a smaller [[printed circuit board]].
+
+The case is made from [[Acrylonitrile butadiene styrene|ABS]] plastic which may become brown with time. This can be reversed by using the public domain chemical mix "[[Retr0bright]]".
+
+[[File:C64motherboard.jpg|thumb|right|350px|An early C64 motherboard (Rev A [[PAL]] 1982).]]
+[[File:C64Cmotherboard.jpg|thumb|right|350px|A C64C motherboard ("C64E" Rev B PAL 1992).]]
+
+====ICs====
+The VIC-II was manufactured with 5 [[micrometre|micrometer]] NMOS technology<ref name="IEEE_Perry_C64" /> and was clocked at either {{nowrap|17.73447 MHz}} (PAL) or {{nowrap|14.31818 MHz}} (NTSC). Internally, the clock was divided down to generate the dot clock (about 8&nbsp;MHz) and the [[two-phase clock|two-phase system clocks]] (about 1&nbsp;MHz; the exact pixel and system clock speeds are slightly different between NTSC and PAL machines). At such high clock rates, the chip generated a lot of heat, forcing MOS Technology to use a ceramic [[Dual in-line package|DIL package]] (called a "CERDIP"). The ceramic package was more expensive, but it dissipated heat more effectively than plastic.
+
+After a redesign in 1983, the VIC-II was encased in a plastic Dual Inline Package, which reduced costs substantially, but it did not totally eliminate the heat problem.<ref name="IEEE_Perry_C64" /> Without a ceramic package, the VIC-II required the use of a [[heat sink]]. To avoid extra cost, the metal [[radio frequency|RF]] [[electromagnetic shielding|shielding]] doubled as the heat sink for the VIC, although not all units shipped with this type of shielding. Most C64s in [[Europe]] shipped with a cardboard RF shield, coated with a layer of metal foil. The effectiveness of the cardboard was highly questionable, and worse still it acted as an insulator, blocking airflow which trapped heat generated by the SID, VIC, and PLA chips.
+
+The SID was manufactured using NMOS at 7 and in some areas 6 micrometers.<ref name="IEEE_Perry_C64" /> The prototype SID and some very early production models featured a ceramic Dual Inline Package, but unlike the VIC-II, these are extremely rare as the SID was encased in plastic when production started in early 1982.
+
+====Motherboard====
+In 1986, Commodore released the last revision to the classic C64 [[motherboard]]. It was otherwise identical to the 1984 design, except for the two 64 [[kilobit]] × 4 bit [[DRAM]] chips that replaced the original eight 64 kilobit × 1 bit ICs.
+
+After the release of the C64C, MOS Technology began to reconfigure the C64's chipset to use [[HMOS]] production technology. The main benefit of using HMOS was that it required less voltage to drive the IC, which consequently generates less heat. This enhanced the overall reliability of the SID and VIC-II. The new chipset was renumbered to 85xx to reflect the change to HMOS.
+
+In 1987, Commodore released C64Cs with a highly redesigned motherboard commonly known as a "short board". The new board used the new HMOS chipset, featuring a new 64-pin PLA chip. The new "SuperPLA", as it was dubbed, integrated many discrete components and [[transistor–transistor logic]] (TTL) chips. In the last revision of the C64C motherboard, the 2114 color RAM was integrated into the SuperPLA.
+
+===Power supply===
+[[Image:Commodore 64 - Joystickports, EinAus-Schalter, Poweranschluss.jpg|thumb|{{nowrap|Joystick ports}}, {{nowrap|power switch}}, {{nowrap|power inlet}}]]
+
+The C64 used an external [[power supply]], a [[Linear power supply|conventional transformer]] with multiple tappings (as opposed to [[Switched-mode power supply|switch mode]], the type now used on PC power supplies), encased in an epoxy resin gel which discouraged tampering but tended to increase the heat level during use.
+
+This saved space within the computer's case and allowed international versions to be more easily manufactured. The [[Commodore 1541|1541-II]] and [[Commodore 1581|1581]] disk drives, along with various third-party clones, also came with their own external power supply "bricks", as did most peripherals leading to a "spaghetti" of cables and the use of numerous double adapters by users. These power supplies were notorious for failing over time,<ref name = "Infoworld Nov 1983">{{Cite journal | last = Mace | first = Scott | title = Commodore 64: Many unhappy returns | journal = InfoWorld | volume = 5 | issue = 46 | page = p. 23 | publisher = Popular Computing Inc. | date = November 13, 1983 | url = http://books.google.com/books?id=wS8EAAAAMBAJ&pg=PA23 | issn = 0199-6649}}</ref> usually because of overheating.
+
+Commodore later changed the design, omitting the gel. The follow-on model, the Commodore 128, used a larger, much improved power supply that included a fuse.
+
+===Specifications===
+
+====Internal hardware====
+*Microprocessor CPU:
+**[[MOS Technology 6510|MOS Technology 6510/8500]] (the 6510/8500 is a modified [[MOS Technology 6502|6502]] with an integrated 6-bit I/O port)
+**Clock speed: {{nowrap|0.985 MHz ([[PAL]])}} or {{nowrap|1.023 MHz ([[NTSC]])}}
+*Video: [[MOS Technology VIC-II]] 6567/8562 (NTSC), 6569/8565 (PAL)
+**16 colors<!--to be listed-->
+**Text mode: 40×25 characters; 256 user-defined chars (8×8 [[pixel]]s, or 4×8 in multicolor mode); 4-bit color RAM defines foreground color
+**Bitmap modes: 320×200 (2 unique colors in each 8×8 pixel block),<ref name="Rautiainen">{{cite web| url=http://www.devili.iki.fi/Computers/Commodore/C64/Programmers_Reference/Chapter_3/page_123.html |title=Programmers_Reference|last=Rautiainen|first=Sami|accessdate=2011-03-23}}</ref> 160×200 (3 unique colors + 1 common color in each 4×8 block)<ref>{{cite web|url= http://www.devili.iki.fi/Computers/Commodore/C64/Programmers_Reference/Chapter_3/page_128.html|title= Programmers_Reference |last=Rautiainen |first=Sami|accessdate=2011-03-23}}</ref>
+**8 hardware [[sprite (computer graphics)|sprite]]s of 24×21 pixels (12×21 in multicolor mode)
+**Smooth scrolling, [[raster interrupt]]s
+*Sound: [[MOS Technology SID|MOS Technology 6581/8580 SID]]
+**3-channel [[synthesizer]] with programmable [[ADSR envelope]]
+**8 [[octave]]s
+**4 [[waveform]]s per audio channel: [[Triangle wave|triangle]], [[Sawtooth wave|sawtooth]], [[Square wave|variable pulse]], [[white noise|noise]]
+**[[Oscillator sync]]hronization, [[ring modulation]]
+**Programmable filter: [[high-pass filter|high pass]], [[low-pass filter|low pass]], [[band-pass filter|band pass]], [[Band-stop filter|notch filter]]
+*Input/Output: Two [[MOS Technology CIA|6526 Complex Interface Adapter]]s
+**16 bit parallel I/O
+**8 bit serial I/O
+**24-hours (AM/PM) Time of Day clock (TOD), with programmable [[alarm clock]]<ref>[http://www.6502.org/documents/datasheets/mos/mos_6526_cia.pdf MOS 6526 CIA datasheet (PDF format)]</ref>
+**16 bit interval timers
+*RAM:
+**64&nbsp;kB, of which 38&nbsp;kB (minus 1&nbsp;byte) were available for BASIC programs
+**512&nbsp;bytes color RAM (memory allocated for screen color data storage) <ref name="Rautiainen_Service_Manual">{{cite web| url=http://www.devili.iki.fi/Computers/Commodore/C64/Service_Manual/Page_08.html |title=Service_Manual: RAM Control Logic.|last=Rautiainen|first=Sami|accessdate=2011-03-13}}</ref>
+**Expandable to 320&nbsp;kB with [[Commodore REU|Commodore 1764]] 256&nbsp;kB [[Commodore REU|RAM Expansion Unit]] (REU); although only 64&nbsp;kB directly accessible; REU mostly intended for [[GEOS (8-bit operating system)|GEOS]]. REUs of 128&nbsp;kB and 512&nbsp;kB, originally designed for the C128, were also available, but required the user to buy a stronger power supply from some third party supplier; with the 1764 this was included. [[Creative Micro Designs]] also produced a 2&nbsp;[[megabyte|MB]] REU for the C64 and C128, called the 1750 XL. The technology actually supported up to 16&nbsp;MB, but 2&nbsp;MB was the biggest one officially made. Expansions of up to 16&nbsp;MB were also possible via the CMD [[SuperCPU]].
+*ROM:
+**{{nowrap|20 kB}} ({{nowrap|9 kB}} [[Commodore BASIC]] 2.0; {{nowrap|7 kB}} [[KERNAL]]<!-- the BASIC continues into the upper ROM chip-->; {{nowrap|4 kB}} character generator, providing two {{nowrap|2 kB}} character sets)
+
+====I/O ports and power supply====
+[[File:Commodore-64-Back.jpg|thumb|right|300px|Commodore 64 ports (from left: Joy1, Joy2, Power, [[ROM cartridge]], RF-adj, [[RF modulator|RF]], A/V, [[IEEE-488|488]], Tape, User)]]
+
+*I/O ports:<ref name="computermuseum_li-Commodore64-Back">{{cite web|title=empty|url= http://www.computermuseum.li/Testpage/Commodore64-Back.jpg}} 090505 computermuseum.li</ref>
+**[[ROM cartridge]] expansion slot (44-pin slot for [[edge connector]] with 6510 CPU address/data bus lines and control signals, as well as GND and voltage pins;<ref>[http://www.hardwarebook.info/C64_Cartridge_Expansion The Hardware Book]</ref> used for program modules and memory expansions, among others)
+**Integrated [[RF modulator]] antenna output via a [[RCA connector]]. The used channel could be adjusted from number 36 with the potentiometer to the left.
+**8-pin [[DIN connector]] containing [[composite video]] output, separate [[S-Video|Y/C]] outputs and sound input/output. Beware that this is the 270° (horseshoe) version of the plug, not the 360° circular version. Also note that some early C64 units use a 5-pin DIN connector that carries composite video and luminance signals, but lacks a chroma signal.<ref name="Carlsen">{{cite web|url =http://project64.c64.org/hw/avconnect.txt|title=C64 video port|last=Carlsen|first=Ray|accessdate= 2008-09-13}}</ref>
+**Serial bus (serial version of [[IEEE-488]], 6-pin DIN plug) for CBM printers and disk drives
+**[[Commodore PET|PET]]-type [[Commodore Datassette]] 300 [[baud]] tape interface (edge connector with digital cassette motor/read/write/key-sense signals, Ground and +5V DC lines. The cassette motor is controlled by a +5V DC signal from the 6502 CPU. The 9 V AC input is transformed into unregulated 6.36 V DC<ref name="zimmers_250469-rev_A-right">{{cite web|title=250469 rev.A right|url=http://www.zimmers.net/anonftp/pub/cbm/schematics/computers/c64/250469-rev.A-right.gif}} 100610 zimmers.net</ref> which is used to actually power the cassette motor.<ref name="zimmers_250469-rev_A-left">{{cite web|title=250469 rev.A left|url=http://www.zimmers.net/anonftp/pub/cbm/schematics/computers/c64/250469-rev.A-left.gif}} 100610 zimmers.net</ref>
+**User port (edge connector with [[Transistor-transistor logic|TTL]]-level signals, for modems and so on.; byte-parallel signals which can be used to drive third-party parallel printers, among other things, 17 logic signals, 7 Ground and voltage pins, including 9V AC)
+**2 × screwless [[D-subminiature|DE9M]] [[game controller]] ports (compatible with Atari 2600 controllers), each supporting five digital inputs and two analog inputs. Available peripherals included digital [[joystick]]s, analog [[paddle (game controller)|paddle]]s, a [[light pen]], the Commodore [[Commodore 1351|1351 mouse]], and graphics tablets such as the [[KoalaPad]].
+
+*Power supply:
+**5[[Volt|V]] [[Direct current|DC]] and 9V [[Alternating current|AC]] from an external "power brick", attached to a 7-pin female DIN-connector on the computer.<ref name="allpinouts_org-Commodore_C64_Power_Supply">{{cite web|title=Commodore C64 Power Supply Connector Pinout – AllPinouts|url=http://www.allpinouts.org/index.php/Commodore_C64_Power_Supply}} 090505 allpinouts.org</ref>
+
+The {{nowrap|9 volt AC}} is used to supply power via a [[charge pump]] to the [[MOS Technology SID|SID]] sound generator chip, provide {{nowrap|6.8V}} via a rectifier to the cassette motor, a "0" pulse for every positive half wave to the time-of-day (TOD) input on the CIA chips, and {{nowrap|9 volts AC}} directly to the user-port. Thus, as a minimum, a {{nowrap|12 V}} [[square wave]] is required. But a {{nowrap|9 V}} [[sine wave]] is preferred.<ref name="zimmers_net-250469-rev_A-left">{{cite web|title=Commodore-64 BN/E 250469 schematic|url=http://www.zimmers.net/anonftp/pub/cbm/schematics/computers/c64/250469-rev.A-left.gif}} 090519 zimmers.net</ref><ref name="zimmers_net-250469-rev_A-right">{{cite web |title=Commodore-64 BN/E 250469 schematic|url=http://www.zimmers.net/anonftp/pub/cbm/schematics/computers/c64/250469-rev.A-right.gif}} 090519 zimmers.net</ref>
+
+====Memory map====
+{| class="wikitable"
+|-
+! Address    || Size<br>&#91;kB&#93;
+!colspan=4| Description
+|-
+|align="right"| 0x0000 <!--0x7FFF-->
+|align="right"| 32.0
+|colspan=3|     RAM || <ref name="c64map">{{cite web|title=Commodore 64 memory map|url=http://sta.c64.org/cbm64mem.html|date=2013-02-04|accessdate=2013-06-16|publisher=sta.c64.org}}</ref>
+|-
+|align="right"| 0x8000 <!--0x9FFF-->
+|align="right"| 8.0
+|colspan=2|     RAM || [[ROM cartridge|Cartridge ROM]] || <ref name="c64map"/>
+|-
+|align="right"| 0xA000 <!--0xBFFF-->
+|align="right"| 8.0
+|colspan=2| RAM || [[Commodore BASIC|Basic]] ROM || <ref name="c64map"/>
+|-
+|align="right"| 0xC000<!--0x1FFF-->
+|align="right"| 4.0
+|colspan=3|     RAM || <ref name="c64map"/>
+|-
+|align="right"| 0xD000 <!--0xDFFF-->
+|align="right"| 4.0
+| RAM&nbsp; || &nbsp;[[Memory-mapped I/O|I/O]]&nbsp; || [[PETSCII|Character ROM]] || <ref name="c64map"/>
+|-
+|align="right"| 0xE000 <!--0xBFFF-->
+|align="right"| 8.0
+|colspan=2| RAM || [[KERNAL]] ROM || <ref name="c64map"/>
+|}
+
+Note that even if I/O chips like [[MOS Technology VIC-II|VIC-II]] only uses 64 positions in the memory address space, it will occupy 1024 addresses because some address bits are left undecoded.<ref name="c64map"/>
+
+====Peripherals====
+{{See also|Commodore 64 peripherals}}
+<gallery widths="160px" heights="120px" perrow="4">
+File:Commodore 1541 front cropped.jpg|[[Commodore 1541]] Floppy Drive, 1st model.
+File:Commodore 1541 white.jpg|Commodore 1541C Floppy Drive, 2nd model.
+File:C64-IMG 5372.jpg|Commodore 1541-II Floppy Drive, 3rd model.
+File:Commodore-Datassette.jpg|[[Commodore 1530]] Datasette
+File:Commodore Matrixdrucker MPS-802.jpg|Commodore MPS-802 [[Dot matrix printer]]
+File:CommodoreVICModem.jpg|Commodore VIC-Modem
+File:Commodore blockomaus.jpg|[[Commodore 1351|Commodore 1351 Mouse]]
+File:Commodore 1702 (made by JVC) front.jpg|Commodore 1702 video monitor
+</gallery>
+
+==Response==
+''[[BYTE]]'' in July 1983 stated that "the 64 retails for $595. At that price it promises to be one of the hottest contenders in the under-$1000 personal computer market". It described SID as "a true music synthesizer ... the quality of the sound has to be heard to be believed", while criticizing the use of Commodore BASIC 2.0, the slow disk access ("even slower than the [[Atari 810]] drive"), and Commodore's quality control.<ref name="wszola198307">{{cite news | url=http://archive.org/stream/byte-magazine-1983-07/1983_07_BYTE_08-07_Videotex#page/n231/mode/2up | title=Commodore 64 | work=BYTE | date=1983-07 | accessdate=20 October 2013 | author=Wszola, Stan | pages=232}}</ref>
+
+==See also==
+{{Portal|Computer Science|1980s}}
+*[[Commodore SX-64]] – Portable version
+*[[History of personal computers]]
+*[[Commodore 64 peripherals]]
+*[[List of Commodore 64 games]]
+*[[Commodore 64 demos]]
+*[[Commodore MAX Machine]] – the Commodore 64's predecessor
+*[[Commodore 128]] – the Commodore 64's descendant
+*[[C-One]] – Programmable FPGA clone
+*[[C64 Direct-to-TV]] – ASIC clone with 30 built in games
+*[[IDE64]] – P-ATA interface cartridge for the C64
+*[[SuperCPU]] - CPU upgrade for C64 and C128
+
+==Footnotes==
+{{Reflist|30em}}
+
+==References==
+{{refbegin}}
+*Angerhausen, M.; Becker, Dr. A.; Englisch, L.; Gerits, K. (1983, 84). ''The Anatomy of the Commodore 64''. Abacus Software (US ed.) / First Publishing Ltd. (UK ed.). ISBN 0-948015-00-4 (UK ed.). German original edition published by [[Data Becker]] GmbH & Co. KG, Düsseldorf.
+*Bagnall, Brian (2005). ''On the Edge: the Spectacular Rise and Fall of Commodore''. Variant Press. ISBN 0-9738649-0-7. See especially pp.&nbsp;224–260.
+*Commodore Business Machines, Inc., Computer Systems Division (1982). ''Commodore 64 Programmer's Reference Guide''. Self-published by CBM. ISBN 0-672-22056-3.
+*Tomczyk, Michael (1984). ''The Home Computer Wars: An Insider's Account of Commodore and Jack Tramiel''. [[COMPUTE!]] Publications, Inc. ISBN 0-942386-75-2.
+*Jeffries, Ron. "[http://www.atarimagazines.com/creative/v9n1/21_A_best_buy_for_83_Commo.php A best buy for '83: Commodore 64]". ''[[Creative Computing]]'', January 1983.
+*Amiga Format News Special. "Commodore at CeBIT '94". ''[[Amiga Format]]'', Issue 59, May 1994.
+*[[Computer Chronicles]]; "[http://www.archive.org/details/CC517_commodore_64 Commodore 64 – Interview with Commodore president Max Toy]", 1988.
+*The C-64 Scene Database; "[http://noname.c64.org/csdb/scener/?id=1591 – Kjell Nordbø artist page (bio/release history) at CSDb]".
+{{refend}}
+
+==External links==
+{{commons|Commodore 64}}
+<!--======================== {{No more links}} ============================
+    | PLEASE BE CAUTIOUS IN ADDING MORE LINKS TO THIS ARTICLE. Wikipedia |
+    | is not a collection of links nor should it be used for advertising. |
+    |                                                                     |
+    |           Excessive or inappropriate links WILL BE DELETED.         |
+    | See [[Wikipedia:External links]] & [[Wikipedia:Spam]] for details.  |
+    |                                                                     |
+    | If there are already plentiful links, please propose additions or   |
+    | replacements on this article's discussion page, or submit your link |
+    | to the relevant category at the Open Directory Project (dmoz.org)   |
+    | and link back to that category using the {{dmoz}} template.         |
+======================={{No more links}}=============================-->
+*[http://www.youtube.com/watch?v=verzp18Vhm4 Commodore 64: 8-Bit Legend] 12 minute video compilation of Commodore 64 nostalgia and history
+*[http://c64preservation.com C64 Preservation Project] Discusses preservation of classic software for the Commodore 64
+*{{dmoz|Computers/Systems/Commodore/Commodore_64/}}
+*[http://www.pc-history.org/comm.htm The History of the Commodore 64]
+*[http://www.c64.com C64.com] The home of Commodore 64 software and interviews with many game producers
+*[http://www.commodore.ca/products/c64/commodore_64.htm Commodore 64 history, manuals, and photos]
+*[http://codebase64.org Extensive collection of information on C64 programming]
+*[http://www.gamasutra.com/view/feature/1991/a_history_of_gaming_platforms_the_.php/ A History of Gaming Platforms: The Commodore 64] from October 2007
+*[http://www.vintage.org/special/2003/c64prototype/ Images of the C64 prototype] from 2003
+*[http://www.c64web.com/ A Commodore 64 Web Server Using Contiki v2.3]
+*[http://www.cbmlinks.com/ Commodore 8-bit web links Project 70 sites and counting]
+*[http://search.cbm8bit.com/ Commodore 64 Search Engine + Cloud]
+*"[http://www.cnn.com/2007/TECH/ptech/12/07/c64/index.html Commodore 64 still loved after all these years]", ''[[CNN]]''
+*"[http://blogs.guardian.co.uk/games/archives/2007/12/10/the_commordore_64_at_25_thank_you_for_the_music.html The Commodore 64 at 25: thank you for the music]", ''[[The Guardian]]''
+*[http://www.mos6502.com/?p=8266 Review of 5 different Commodore 64 models/motherboards], [http://www.mos6502.com MOS6502.com]
+*[http://www.commodorecomputerclub.com Commodore Computer Club] Discusses hardware, software, repairs and the scene for the Commodore 64
+*"[http://www.2d-x.com/commodore-64-chiptunes/ How to use the Commodore 64 for chiptunes]", ''[[2D-X]]''
+*{{Wayback | url=http://www.commodoremagazine.com/2010/04/64-variations.html | title=Variations on the Commodore 64 |date=20100504034815}}
+*[http://www.bbc.com/news/technology-19055707 Commodore 64 turns 30: What do today's kids make of it?], ''[[BBC]]''
+* [http://spectrum.ieee.org/ns/pdfs/commodore64_mar1985.pdf Design case history: the Commodore 64], IEEE Spectrum, March 1985
+
+{{CBM computers}}
+
+[[Category:Commodore 64|*]]
+[[Category:American inventions]]
+[[Category:CBM hardware|Comm5]]
+[[Category:6502-based home computers‎]]
+[[Category:Home computers]]<!-- Leave this, otherwise navigation is impossible for those who don't know what a 6502 is -->
+[[Category:Products introduced in 1982]]
+[[Category:Retrocomputing]]
+
+{{Link FA|de}}

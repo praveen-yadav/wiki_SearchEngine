@@ -1,0 +1,82 @@
+{{Refimprove|date=August 2012}}
+[[File:Checksum.svg|thumb|330px|right|Effect of a typical checksum function (the Unix <tt>[[cksum]]</tt> utility)]]
+
+A '''checksum''' or '''hash sum''' is a small-size [[wikt:datum|datum]] computed from an arbitrary block of [[Digital data|digital]] data for the purpose of [[error detection|detecting errors]] that may have been introduced during its [[telecommunication|transmission]] or [[computer storage|storage]].
+
+The actual [[algorithm|procedure]] that yields the checksum, given a data input is called a '''checksum function''' or '''[[checksum algorithm]]'''. Depending on its design goals, a good checksum algorithm will usually output a significantly different value even for small changes made to the input. This is especially the case of [[cryptographic hash function]]s. Due to this property they may be used to detect many data corruption errors and verify overall [[data integrity]]; If the computed checksum for the current data input matches the stored value of a previously computed checksum, there is a very high probability the data has not been accidentally altered or corrupted.
+
+Checksum functions are related to [[hash function]]s, [[fingerprint (computing)|fingerprint]]s, [[randomization function]]s, and [[cryptographic hash function]]s.  However, each of those concepts has different applications and therefore different design goals. By themselves, checksums are often used to verify [[data integrity]], but should not be relied upon to also verify data [[authentication]]. However they are used as cryptographic primitives in larger authentication algorithms. For cryptographic systems with these two specific design goals, see [[HMAC]].
+
+[[Check digit]]s and [[parity bit]]s are special cases of checksums, appropriate for small blocks of data (such as [[Social Security number]]s, [[bank account]] numbers, [[Word (data type)|computer word]]s, single [[byte]]s, etc.).  Some [[error-correcting code]]s are based on special checksums that not only detect common errors but also allow the original data to be recovered in certain cases.
+
+==Checksum algorithms==
+===Parity byte or parity word===
+The simplest checksum algorithm is the so-called [[longitudinal redundancy check|longitudinal parity check]], which breaks the data into "words" with a fixed number ''n'' of bits, and then computes the [[exclusive or]] of all those words.  The result is appended to the message as an extra word. To check the integrity of a message, the receiver computes the exclusive or of all its words, including the checksum; if the result is not a word with ''n'' zeros, the receiver knows that a transmission error occurred.
+
+With this checksum, any transmission error that flips a single bit of the message, or an odd number of bits, will be detected as an incorrect checksum.  However, an error that affects two bits will not be detected if those bits lie at the same position in two distinct words.  If the affected bits are independently chosen at random, the probability of a two-bit error being undetected is 1/''n''..
+
+===Modular sum===
+
+A variant of the previous algorithm is to add all the "words" as unsigned binary numbers, discarding any overflow bits, and append the [[two's complement]] of the total as the checksum.  To validate a message, the receiver adds all the words in the same manner, including the checksum; if the result is not a word full of zeros, an error must have occurred.  This variant too detects any single-bit error, but the probability that a two-bit error will go undetected is a little less than 1/''n''.
+This addition-based modular sum is used in [[J1708|SAE J1708]].<ref>{{cite web|url=http://www.kvaser.com/zh/about-can/related-protocols-and-standards/50.html |title=SAE J1708 |publisher=Kvaser.com |date= |accessdate=2012-08-13}}</ref>
+
+===Position-dependent checksums===
+
+The simple checksums described above fail to detect some common errors that affect many bits at once, such as changing the order of data words, or inserting or deleting words with all bits set to zero.  The checksum algorithms that are most used in practice, such as [[Fletcher's checksum]], [[Adler-32]], and [[cyclic redundancy check]]s (CRCs), address these weaknesses by considering not only the value of each word but also its position in the sequence. This feature generally increases the [[computational complexity|cost]] of computing the checksum.
+
+===General considerations===
+A single-bit transmission error then corresponds to a displacement from a valid corner (the correct message and checksum) to one of the ''m'' adjacent corners.  An error that affects ''k'' bits moves the message to a corner that is ''k'' steps removed from its correct corner.  The goal of a good checksum algorithm is to spread the valid corners as far from each other as possible, so as to increase the likelihood that "typical" transmission errors will end up in an invalid corner.
+
+==Checksum tools==
+* '''[http://compressme.net/ CHK Checksum Utility]''', An advanced checksum tool with CRC32, ED2K (eMule/eDonkey2000), MD5, SHA1, SHA1-Base32, SHA256, SHA384, SHA512 and WHIRLPOOL support
+* '''[http://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility/ MD5 & SHA Checksum Utility]'''A standalone freeware that can generate and verify MD5, & SHA-1 & SHA-256 hash from a file.
+* '''[http://www.ashkonsoftware.com/hashcalc.html Advanced Hash Calculator]''', hash calculator software for multiple files for [[Microsoft Windows|Windows]] that calculates [[CRC-32]], [[MD2 (cryptography)|MD2]], [[MD4]], [[MD5]], [[SHA-1]], [[SHA-256]], [[SHA-384]] and [[SHA-512]] checksums.
+* '''[[Bitser (software)|Bitser]]''', a free [[Microsoft Windows]] application that calculates [[MD5]], [[SHA-1]] and [[SHA-256]] sums for any given input file.
+* '''[http://corz.org/windows/software/checksum checksum]''', a fast file, folder and drive hashing application for [[Microsoft Windows|Windows]].
+* '''[http://www.digital-tronic.com/md5-file-hasher/ MD5 File Hasher for Windows (Digital Tronic)] ''', hash sum verification, monitoring, scheduled checks, detailed reporting for [[Microsoft Windows|Windows]].
+* '''[[cksum]]''', a [[Unix]] command that generates both a 32-bit CRC and a byte count for any given input file.
+* '''[http://support.microsoft.com/kb/841290 File Checksum Integrity Verifier (FCIV)]''', a command-prompt utility from [[Microsoft]] that computes and verifies MD5 or SHA-1 cryptographic hash values of files.
+* '''[http://www.richherrick.com/software/hash/index.html Hash Validation Tool (hash)]''', a command-prompt utility that will generate/validate several types of hash values for multiple files. 
+* '''[http://www.jonelo.de/java/jacksum/index.html Jacksum]''', a [[Java (software platform)|Java]] API, usable both through a GUI and a CLI, which incorporates many checksum implementations and allows to extend with as many as you need.
+* '''[http://rhash.anz.ru/ RHash]''', an open-source CLI tool and [[C (programming language)|C]] library which incorporates a large number of checksum implementations.
+* '''[http://code.google.com/p/jdigest/ jdigest]''', a [[Java (software platform)|Java]] GUI tool that generates and checks [[MD5]] and [[Secure Hash Algorithm (disambiguation)|SHA]] sums
+* '''[http://code.google.com/p/jcksum/ jcksum]''', a [[Java (software platform)|Java]] library, that can be used by developers in Java applications to calculate checksums using different algorithms.
+* '''[[md5sum]]''', a [[Unix]] command that generates an [[MD5]] sum
+* '''[[Parchive]]''', a [[crossplatform]] software that is capable of both verifying checksums and repairing errors when found.
+* '''[[Sum (Unix)|sum]]''', a [[Unix]] command (also ported to Win32) that generates order-independent sums; uses two different [[algorithm]]s for calculating, the [[SYSV checksum]] algorithm and the [[BSD checksum]] ([[Default (computer science)|default]]) algorithm.
+
+==See also==
+
+General topic
+* [[Bit rot]]
+* [[Check digit]]
+* [[Damm algorithm]]
+* [[File verification]]
+* [[Fletcher's checksum]]
+* [[Frame check sequence]]
+
+Error correction
+* [[Hamming code]]
+* [[IPv4 header checksum]]
+
+Hash functions
+* [[List of hash functions]]
+* [[Luhn algorithm]]
+* [[Parity bit]]
+* [[Rolling checksum]]
+* [[Verhoeff algorithm]]
+* [[ZFS]] — a file system that performs automatic file integrity checking using checksums
+
+==References==
+{{reflist}}
+
+==External links==
+{{wikibooks
+ |1= Algorithm Implementation
+ |2= Checksums
+}}
+*[http://www.netrino.com/Embedded-Systems/How-To/Additive-Checksums Additive Checksums (C)]
+*[http://securityfocus.eu/?page_id=949 iEncode Tool]
+* [http://www.digital-tronic.com/md5-file-hasher/md5-file-hasher MD5 File Hasher software]
+
+[[Category:Checksum algorithms|*]]

@@ -1,0 +1,76 @@
+{{redirect|Amorphous|amorphousness in computational systems|amorphous computing|amorphousness in science fiction|amorphous creature|amorphousness in set theory|amorphous set}}
+{{unsolved|physics|What is the nature of the [[glass transition]] between a fluid or regular solid and a glassy phase? What are the physical processes giving rise to the general properties of [[glass]]es?}}
+In [[condensed matter physics]], an '''amorphous''' (from the [[Greek language|Greek]] ''a'', without, ''morphé'', shape, form) or '''non-crystalline solid''' is a [[solid]] that lacks the [[long-range order]] characteristic of a [[crystal]].
+[[File:Bulk Metallic Glass Sample.jpg|thumb|Amorphous metals have low strength]]
+
+In some older books, the term has been used synonymously with [[glass]]. Nowadays, "amorphous solid" is considered to be the overarching concept, and glass the more special case: A glass is an amorphous solid that exhibits a [[glass transition]].<ref>J. Zarzycki: Les verres et l'état vitreux. Paris: Masson 1982. English translation available.</ref>
+
+Other types of amorphous solids include [[gel]]s, [[thin film]]s, and nanostructured materials.
+
+==Nanostructured materials==
+Even amorphous materials have some short-range order at the atomic length scale due to the nature of [[chemical bonding]] (see [[structure of liquids and glasses]] for more information on non-crystalline material structure). Furthermore, in very small [[crystal]]s a large fraction of the [[atom]]s are located at or near the surface of the crystal; relaxation of the surface and interfacial effects distort the atomic positions, decreasing the structural order. Even the most advanced structural characterization techniques, such as x-ray diffraction and transmission electron microscopy, have difficulty in distinguishing between amorphous and crystalline structures on these length scales.{{citation needed|date=April 2012}}
+
+== Amorphous thin films ==
+Amorphous phases are important constituents of [[thin film]]s, which are solid layers of a few [[Nanometre|nm]] to some tens of [[Micrometre|µm]] thickness deposited upon a substrate. So-called structure zone models were developed to describe the micro structure and ceramics of thin films as a function of the homologous temperature ''T<sub>h</sub>'' that is the ratio of deposition temperature over melting temperature.<ref name=MoDe1969>{{cite journal|author=B. A. Movchan and A. V. Demchishin|title= Study of the structure and properties of thick vacuum condensates of nickel, titanium, tungsten, aluminium oxide and zirconium dioxide|journal=Phys. Met. Metallogr.|volume=28|pages=83–90|year=1969}}</ref><ref name=Thor1974>{{cite journal|author=J.A. Thornton|title=Influence of apparatus geometry and deposition conditions on the structure and topography of thick sputtered coatings|journal=Journal of Vacuum Science and Technology|volume=11|pages=666–670|year=1974|doi=10.1116/1.1312732|bibcode=1974JVST...11..666T|issue=4}}</ref> According to these models, a necessary (but not sufficient) condition for the occurrence of amorphous phases is that ''T<sub>h</sub>'' has to be smaller than 0.3, that is the deposition temperature must be below 30% of the melting temperature. For higher values, the surface diffusion of deposited atomic species would allow for the formation of crystallites with long range atomic order.
+
+Regarding their applications, amorphous metallic layers played an important role in the discussion of a suspected [[superconductivity]] in amorphous metals.<ref name=Buck1961>{{cite conference|last=Buckel|first=W.|title=The influence of crystal bonds on film growth|booktitle=Elektrische en Magnetische Eigenschappen van dunne Metallaagies|place=Leuven, Belgium|year=1961}}</ref> Today, [[optical coating]]s made from [[Titanium dioxide|TiO<sub>2</sub>]], [[Silicon dioxide|SiO<sub>2</sub>]], [[Tantalum pentoxide|Ta<sub>2</sub>O<sub>5</sub>]] etc. and combinations of them in most cases consist of amorphous phases of these compounds. Much research is carried out into thin amorphous films as a gas separating [[Biological membrane|membrane]] layer.<ref name=Vos1998>{{cite journal|author=R.M. de Vos, H. Verweij|title=High-Selectivity, High-Flux Silica Membranes for Gas Separation| journal=Science|volume=279|pages=1710–1|year=1998|doi=10.1126/science.279.5357.1710|pmid=9497287|issue=5357|bibcode=1998Sci...279.1710D}}</ref> The technologically most important thin amorphous film is probably represented by few nm thin SiO<sub>2</sub> layers serving as isolator above the conducting channel of a metal-oxide semiconductor field-effect transistor ([[MOSFET]]). Also, hydrogenated [[amorphous silicon]], a-Si:H in short, is of technical significance for [[thin film solar cells]]. In case of a-Si:H the missing long-range order between silicon atoms is partly induced by the presence by hydrogen in the percent range.
+
+The occurrence of amorphous phases turned out as a phenomenon of particular interest for studying thin film growth. Remarkably, the growth of polycrystalline films is often used and preceded by an initial amorphous layer, the thickness of which may amount to only a few nm. The most investigated example is represented by thin multicrystalline silicon films, where such as the unoriented molecule. An initial amorphous layer was observed in many studies.<ref name=Birk2001>{{cite journal|author=M. Birkholz, B. Selle, W. Fuhs, S. Christiansen, H. P. Strunk, and R. Reich|title=Amorphous-crystalline phase transition during the growth of thin films: the case of microcrystalline silicon|journal=Phys. Rev. B|volume=64|pages=085402|year=2001|doi=10.1103/PhysRevB.64.085402|bibcode= 2001PhRvB..64h5402B|url=http://www.mariobirkholz.de/PRB2001.pdf|issue=8}}</ref> Wedge-shaped polycrystals were identified by [[transmission electron microscopy]] to grow out of the amorphous phase only after the latter has exceeded a certain thickness, the precise value of which depends on deposition temperature, background pressure and various other process parameters. The phenomenon has been interpreted in the framework of [[Polymorphism (materials science)#Ostwald's rule|Ostwald's rule]] of stages<ref name=Ostw1897>{{cite journal|author=W. Ostwald|title=Studien über die Umwandlung fester Körper|journal=Z. Phys. Chem.| volume=22|pages=289–330|year=1897}}</ref> that predicts the formation of phases to proceed with increasing condensation time towards increasing stability.<ref name="Buck1961"/><ref name="Birk2001"/> Experimental studies of the phenomenon require a clearly defined state of the substrate surface and its contaminant density etc., upon which the thin film is deposited.
+
+==References==
+{{reflist}}
+
+==Further reading==
+*{{cite book
+ |author=R. Zallen
+ |title=The Physics of Amorphous Solids
+ |publisher=Wiley Interscience
+ |year=1998
+ |isbn=
+}}
+*{{cite book
+ |author=S.R. Elliot
+ |title=The Physics of Amorphous Materials
+ |edition=2nd
+ |publisher=Longman
+ |year=1990
+ |isbn=
+}}
+*{{cite book
+ |author=N. Cusack
+ |title=The Physics of Structurally Disordered Matter: An Introduction
+ |publisher=IOP Publishing
+ |year=1987
+ |isbn=
+}}
+*{{cite book
+ |author=N.H. March, R.A. Street, M.P. Tosi, Eds.,
+ |title=Amorphous Solids and the Liquid State
+ |publisher=Springer
+ |year=1985
+ |isbn=
+}}
+*{{cite book
+ |author=D.A. Adler, B.B. Schwartz, M.C. Steele, Eds.
+ |title=Physical Properties of Amorphous Materials
+ |publisher=Springer
+ |year=1985
+ |isbn=
+}}
+*{{cite book
+ |author=A. Inoue, K. Hasimoto, Eds.
+ |title=Amorphous and Nanocrystalline Materials
+ |publisher=Springer
+ |year=1985
+ |isbn=
+}}
+
+==External links==
+* [http://www.elsevier.com/locate/jnoncrysol Journal of non-crystalline solids] (Elsevier)
+
+{{DEFAULTSORT:Amorphous Solid}}
+[[Category:Phases of matter]]
+[[Category:Amorphous solids| ]]
+[[Category:Unsolved problems in physics]]
+
+[[uk:Аморфні речовини]]

@@ -1,0 +1,144 @@
+{{Infobox writing system
+| name = Cirth
+| type = alphabet
+| languages = [[Khuzdul]], [[Sindarin]], [[Quenya]]
+| creator = [[J.R.R. Tolkien]]
+| iso15924 = Cirt
+}}
+
+The '''Cirth''' ({{IPA|[ˈkirθ]}}; "''[[Runic alphabet|Runes]]''") are the letters of a semi-[[artificial script]] which was invented by [[J. R. R. Tolkien]] for the [[constructed language]]s he devised and used in his works. The initial C in Cirth is pronounced as a K, never as an S. ''Cirth'' is plural and is written with a capital ''C'' when referring to the writing system—the runes themselves can be called ''cirth''. A single rune is a ''certh'' ({{IPA|[ˈkɛrθ]}}). The words ''cirth'' and ''certh'' are [[Sindarin]]; the corresponding [[Quenya]] words are ''certar'' ({{IPA|[ˈkɛrtɑr]}}) and ''certa'' ({{IPA|[ˈkɛrtɑ]}}).<ref>[http://www.tolkiengateway.net/wiki/Certh "Certh"] on Tolkien Gateway wiki. Accessed 2013-11-11.</ref> The Sindarin ''Certhas''  and ''Angerthas'' mean "runic alphabet" and "long rune-rows" respectively.<ref>[http://www.tolkiengateway.net/wiki/Certhas "Certhas"] on Tolkien Gateway wiki. Accessed 2013-11-11.</ref> <ref>[http://www.tolkiengateway.net/wiki/Angerthas "Angerthas"] on Tolkien Gateway wiki. Accessed 2013-11-11.</ref> 
+
+The runic alphabet used by the [[Dwarf (Middle-earth)|Dwarves]] of Middle-earth was adapted by J.R.R. Tolkien from real-life runes. In ''[[The Hobbit]]'', the [[Anglo-Saxon futhorc]] was used in the publication with few changes; in ''[[The Lord of the Rings]]'' a new system of runes, the Cirth, was devised.
+
+==Writing system==
+Since the Cirth are an alphabet, one rune generally stands for one sound ([[phoneme]]), and sounds that would be written with a [[Digraph (orthography)|digraph]] in English (such as "sh" and "th") are written with one rune.<ref>{{ME-ref|Solopova|p. 87}}</ref> Words are separated by a dot rather than a space, and double consonants are grouped together into one rune, the same as if it were a single consonant. Presumably this alphabet was meant to be used in conjunction with a Dwarvish language, but mostly it is used for transliterations.
+
+Many letters have shapes also found in the historical [[Runic alphabet|futhorc]] runes (used in ''[[The Hobbit]]''), but their sound values are dissimilar. Rather, the system of assignment of sound values is much more systematic in the Cirth than in the historical runes (e.g., voiced variants of a voiceless sound are expressed by an additional stroke). A similar system has been proposed for a few historical runes (e.g. ''p'' ᛈ  and ''w'' ᚹ as variants of ''b'' ᛒ), but is in any case much more obscure. There are a few identities between cirth and runic letters, ''i'' with runic ᛁ, ''k'' with Younger Futhark ᚴ  and ''ch'' with the Futhorc ᚳ; ''p'' is furthermore reminiscent of Latin P (runic ᚹ ''w'').
+
+Cirth are written according to a certain mode specifically adapted for a language, and the values of individual cirth may vary greatly according to the mode used. Three modes for Cirth are described in detail in Appendix E of ''The Lord of the Rings'', and others are known to exist or have been developed by enthusiasts.
+
+The Cirth are not yet part of the [[Unicode]] Standard. However the [[ConScript Unicode Registry]] has defined the {{U+|E080}} to U+E0FF range of the Unicode "Private Use Area" for Cirth.
+
+The inscriptions on the top of the title pages for ''The Lord of the Rings'' are written in Cirth.
+
+==Internal history==
+In the fictional history of [[Middle-earth]], the original '''''Certhas Daeron''''' was created by the [[Elf (Middle-earth)|elf]] [[Daeron]], the [[minstrel]] of king [[Thingol]] of [[Doriath]] and was later expanded into what was known as the '''''Angerthas Daeron'''''. Although the Cirth were later largely replaced by the [[Tengwar]] (which were enhanced and brought by [[Fëanor]]), they were adopted by Dwarves to write down their Khuzdul language ('''''Angerthas Moria''''' and '''''Angerthas [[Erebor]]''''') because their straight lines were better suited to carving than the curved strokes of the Tengwar. An example of Cirth writings is the inscription on [[Balin (Middle-earth)|Balin's]] tomb in [[Moria (Middle-earth)|Moria]]. Cirth was also adapted, in its older and simpler form, by various kinds of [[Man (Middle-earth)|Men]] and even [[Orc (Middle-earth)|Orcs]]. For example, it was used by the Men of Dale and the [[Rohan (Middle-earth)#People|Rohirrim]] and the Orcs of Moria.
+
+==Concept and creation==
+The division between the older Cirth of Daeron and their adaptation by Dwarves and Men has been interpreted as a parallel drawn by Tolkien to the development of the Futhorc to the Younger Futhark.<ref>{{cite book |title=Mittelerde: Tolkien und die germanische Mythologie |trans_title=Middle-earth: Tolkien and Germanic Mythology |first=Rudolf |last=Simek |language=German |authorlink=Rudolf Simek |pages=155–156 |publisher=C. H. Beck |year=2005 |isbn=3-4065-2837-6}}</ref> The original Elvish Cirth "as supposed products of a superior culture" are focused on logical arrangement and a close connection between form and value whereas the adaptations by mortal races introduced irregularities. Similar to the Germanic tribes who had no written literature and used only simple runes before their conversion to Christianity, the [[Sindar]] Elves of Beleriand with their Cirth were introduced to the more elaborate Tengwar of Fëanor when the [[Noldor]] Elves returned to Middle-earth from the lands of the divine Valar.<ref>{{cite conference  |booktitle=Semiotics Around the World: Synthesis in Diversity. Proceedings of the Fifth Congress of the International Association for Semiotic Studies, Berkeley, 1994 |editor-first=Irmengard |editor-last=Rauch |editor-link=Irmengard Rauch |editor2-first=Gerald F. |editor2-last=Carr |title=The semiotics of the writing systems of Tolkien's Middle-earth |first=Arden R. |last=Smith |authorlink=Arden R. Smith |pages=1239–1242 |volume=1 |publisher= [[Walter de Gruyter]] |year=1997 |isbn=3-1101-2223-5}}</ref>
+
+==Letters==
+The Angerthas Daeron consists of 60 letters: 
+
+{| cellpadding="4" cellspacing="0"  class="wikitable"
+|- align="center"
+| [[Image:Certh 1.svg|16px]] || p
+| [[Image:Certh 16.svg|16px]] || zh
+| [[Image:Certh 31.svg|16px]] || l
+| [[Image:Certh 46.svg|16px]] || e
+|- align="center"
+| [[Image:Certh 2.svg|16px]] || b
+| [[Image:Certh 17.svg|16px]] || nj–z
+| [[Image:Certh 32.svg|16px]] || lh
+| [[Image:Certh 47.svg|16px]] || ē
+|- align="center"
+| [[Image:Certh 3.svg|16px]] || f
+| [[Image:Certh 18.svg|16px]] || k
+| [[Image:Certh 33.svg|16px]] || ng–nd
+| [[Image:Certh 48.svg|16px]] || a
+|- align="center"
+| [[Image:Certh 4.svg|16px]] || v
+| [[Image:Certh 19.svg|16px]] || g
+| [[Image:Certh 34.svg|16px]] || s–h
+| [[Image:Certh 49.svg|16px]] || ā
+|- align="center"
+| [[Image:Certh 5.svg|16px]] || hw
+| [[Image:Certh 20.svg|16px]] || kh
+| [[Image:Certh 35.svg|16px]] || s–’ †
+| [[Image:Certh 50.svg|16px]] || o
+|- align="center"
+| [[Image:Certh 6.svg|16px]] || m
+| [[Image:Certh 21.svg|16px]] || gh
+| [[Image:Certh 36.svg|16px]] || z–ŋ
+| [[Image:Certh 51.svg|16px]] [[Image:Certh 51a.svg|16px]] || ō
+|- align="center"
+| [[Image:Certh 7.svg|16px]] || mh°, mb
+| [[Image:Certh 22.svg|16px]] || ŋ–n
+| [[Image:Certh 37.svg|16px]] || ng*
+| [[Image:Certh 52.svg|16px]] [[Image:Certh 52a.svg|16px]] || ö
+|- align="center"
+| [[Image:Certh 8.svg|16px]] || t
+| [[Image:Certh 23.svg|16px]] || kw
+| [[Image:Certh 38.svg|16px]] [[Image:Certh 38a.svg|16px]] || nd–nj
+| [[Image:Certh 53.svg|16px]] || n*
+|- align="center"
+| [[Image:Certh 9.svg|16px]] || d
+| [[Image:Certh 24.svg|16px]] || gw
+| [[Image:Certh 39.svg|16px]] || i, y°
+| [[Image:Certh 54.svg|16px]] || h–s
+|- align="center"
+| [[Image:Certh 10.svg|16px]] || th
+| [[Image:Certh 25.svg|16px]] || khw
+| [[Image:Certh 40.svg|16px]] || y*
+| [[Image:Certh 55.svg|16px]] [[Image:Certh 55a.svg|16px]] || *
+|- align="center"
+| [[Image:Certh 11.svg|16px]] || dh
+| [[Image:Certh 26.svg|16px]] || ghw, w
+| [[Image:Certh 41.svg|16px]] || hy*
+| [[Image:Certh 56.svg|16px]] [[Image:Certh 56a.svg|16px]] || *
+|- align="center"
+| [[Image:Certh 12.svg|16px]] || n–r
+| [[Image:Certh 27.svg|16px]] || ngw
+| [[Image:Certh 42.svg|16px]] || u
+| [[Image:Certh 57.svg|16px]] || ps*
+|- align="center"
+| [[Image:Certh 13.svg|16px]] || ch
+| [[Image:Certh 28.svg|16px]] || nw
+| [[Image:Certh 43.svg|16px]] || ū
+| [[Image:Certh 58.svg|16px]] || ts*
+|- align="center"
+| [[Image:Certh 14.svg|16px]] || j
+| [[Image:Certh 29.svg|16px]] || r–j
+| [[Image:Certh 44.svg|16px]] || w
+| [[Image:Certh 59.svg|16px]] || +h
+|- align="center"
+| [[Image:Certh 15.svg|16px]] || sh
+| [[Image:Certh 30.svg|16px]] || rh–zh
+| [[Image:Certh 45.svg|16px]] [[Image:Certh 45a.svg|16px]] || ü
+| [[Image:Certh 60.svg|16px]] || &
+|}
+
+This chart showing the runes shared by the ''Angerthas Daeron'' and ''Angerthas Moria'' is presented in Appendix E of ''[[The Return of the King]]''. Some of the ''cirth'' had different values for the [[Elvish languages (Middle-earth)|Elvish]] and [[Khuzdul|Dwarvish]] languages, and some were used in only one system or the other. Where two forms appear in the same cell they are simply variants or alternates, with no difference in sound. 
+
+* Where two values are given connected with a dash, the first is that of the older ''Angerthas'', the second that of the Dwarvish ''Angerthas Moria''. 
+* The ''ps'' and ''ts'' runes are not in general Dwarvish use but are confined to the mode of Erebor, which also modifies the values of numerous other ''cirth''.
+<nowiki>*</nowiki> Dwarvish use only<br>
+° Elvish use only<br>
+† The apostrophe marks "the clear or [[glottal stop|glottal]] beginning of a [Dwarvish] word with an initial vowel".
+
+==See also==
+{{Portal|Middle-earth}}
+*[[Tengwar]]
+*[[Sarati]]
+*[[Languages of Middle-earth]]
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://mirror.ctan.org/fonts/cirth/cirth.pdf Article on Tolkien's Cirthic runes]
+*[http://www.cirth.de Cirth.de - Explore the appearances of runes in Tolkien's work] (in German)
+*[http://ring-lord.tripod.com/cirth/index.htm Dan Smith's Cirth article] Information and font to download
+*[[b:History of Elven writing systems|History of Elven writing systems]]
+*[http://std.dkuug.dk/jtc1/sc2/wg2/docs/n1642/n1642.htm Official proposal to encode Cirth in Unicode]
+*[http://www.evertype.com/standards/csur/cirth.html Cirth proposal for ConScript Unicode Registry]
+*[http://derhobbit-film.de/rune_generator.shtml Generator for Cirth Runes and Tengwar]
+
+{{Languages of Middle-earth}}
+{{Middle-earth}}
+
+[[Category:Middle-earth writing systems]]
+[[Category:Alphabets]]
+[[Category:Runology]]
+
+[[fi:Luettelo Taru sormusten herrasta -kirjasarjan käsitteistä#Cirth]]

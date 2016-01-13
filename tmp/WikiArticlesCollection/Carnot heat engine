@@ -1,0 +1,70 @@
+[[File:Carnot-engine-1824.png|175px|thumb|right|[[Axis of rotation|Axial]] [[Cross section (geometry)|cross section]] of Carnot's heat engine. In this diagram, ''abcd'' is a cylindrical vessel, ''cd'' is a movable [[piston]], and ''A'' and ''B'' are constant–temperature bodies. The vessel may be placed in contact with either body or removed from both (as it is here).<ref>Figure&nbsp;1 in Carnot (1824, p. 17) and Carnot (1890, p. 63). In the diagram, the diameter of the vessel is large enough to bridge the space between the two bodies, but in the model, the vessel is never in contact with both bodies simultaneously. Also, the diagram shows an unlabeled axial rod attached to the outside of the piston.</ref> ]]
+A '''Carnot heat engine'''<ref>In French, Carnot uses ''machine à feu'', which Thurston translates as ''heat-engine'' or ''steam-engine''. In a footnote, Carnot distinguishes the steam-engine (''machine à vapeur'') from the heat-engine in general. (Carnot, 1824, p. 5 and Carnot, 1890, p. 43)</ref> is a hypothetical engine that operates on the reversible [[Carnot cycle]]. The basic model for this engine was developed by [[Nicolas Léonard Sadi Carnot]] in 1824.  The Carnot engine model was graphically expanded upon by [[Benoît Paul Émile Clapeyron]] in 1834 and mathematically elaborated upon by [[Rudolf Clausius]] in 1857 from which the concept of [[entropy]] emerged.
+
+Every single thermodynamic system exists in a particular [[thermodynamic state|state]]. A [[thermodynamic cycle]] occurs when a [[thermodynamic system|system]] is taken through a series of different states, and finally returned to its initial state. In the process of going through this cycle, the system may perform work on its surroundings, thereby acting as a [[heat engine]].
+
+A heat engine acts by transferring energy from a warm region to a cool region of space and, in the process, converting some of that energy to [[mechanical work]]. The cycle may also be reversed. The system may be worked upon by an external force, and in the process, it can transfer thermal energy from a cooler system to a warmer one, thereby acting as a [[refrigerator]] or [[heat pump]] rather than a heat engine.
+
+In the adjacent diagram, from Carnot's 1824 work, ''[[Reflections on the Motive Power of Fire]]'',<ref>[http://www.worldcat.org/search?q=ti%3AReflections+on+the+motive+power+of+fire+au%3Acarnot Sometimes translated as ''Reflections on the Motive Power of Fire'']</ref> there are "two bodies ''A'' and ''B'', kept each at a constant temperature, that of ''A'' being higher than that of ''B''.  These two bodies to which we can give, or from which we can remove the heat without causing their temperatures to vary, exercise the functions of two unlimited reservoirs of [[Caloric theory|caloric]].  We will call the first the [[furnace]] and the second the refrigerator.”<ref>English translation by Thurston (Carnot, 1890, p. 51-52).</ref> Carnot then explains how we can obtain [[motive power]], i.e., “work”, by carrying a certain quantity of heat from body ''A'' to body ''B''.
+
+== Modern diagram ==
+[[File:Carnot heat engine 2.svg|300px|thumb|right|Carnot engine diagram (modern) - where heat flows from a high temperature ''T<sub>H</sub>'' furnace through the fluid of the "working body" (working substance) and into the cold sink ''T<sub>C</sub>'', thus forcing the working substance to do [[mechanical work]] ''W'' on the surroundings, via cycles of contractions and expansions.]]
+
+The previous image shows the original piston-and-cylinder diagram used by Carnot in discussing his ideal engines.  The figure at right shows a block diagram of a generic heat engine, such as the Carnot engine.  In the diagram, the “working body” (system), a term introduced by Clausius in 1850, can be any fluid or vapor body through which [[heat]] ''Q'' can be introduced or transmitted to produce work.  Carnot had postulated that the fluid body could be any substance capable of expansion, such as vapor of water, vapor of alcohol, vapor of mercury, a permanent gas, or air, etc.  Although, in these early years, engines came in a number of configurations, typically ''Q<sub>H</sub>'' was supplied by a boiler, wherein water was boiled over a furnace; ''Q<sub>C</sub>'' was typically a stream of cold flowing water in the form of a [[Condenser (heat transfer)|condenser]] located on a separate part of the engine.  The output work ''W'' here is the movement of the piston as it is used to turn a crank-arm, which was then typically used to turn a pulley so to lift water out of flooded salt mines.  Carnot defined work as “weight lifted through a height”.
+
+<!-- Until this section text gets longer, please leave this space for the right-justified image -->
+
+<!-- Until this section text gets longer, please leave this space for the right-justified image -->
+
+== The Carnot engine ==
+{{main|Carnot Cycle}}
+
+The '''Carnot cycle''' when acting as a heat engine consists of the following steps:
+
+#'''Reversible [[isothermal]] expansion of the gas at the "hot" temperature, ''T''<sub>''H''</sub> (isothermal heat addition or absorption).''' During this step (1 to 2 on Figure 1, A to B in Figure 2) the gas is allowed to expand and it does work on the surroundings. The temperature of the gas does not change during the process, and thus the expansion is isothermic.  The gas expansion is propelled by absorption of heat energy Q<sub>1</sub> and of entropy <math>\Delta S=Q_1/T_H</math> from the high temperature reservoir.
+#'''[[Isentropic process|Isentropic]] ([[Reversible adiabatic process|reversible adiabatic]]) expansion of the gas (isentropic work output).''' For this step (2 to 3 on Figure 1, B to C in Figure 2) the piston and cylinder are assumed to be thermally insulated, thus they neither gain nor lose heat.  The gas continues to expand, doing work on the surroundings, and losing an equivalent amount of internal energy.  The gas expansion causes it to cool to the "cold" temperature, ''T''<sub>''C''</sub>. The entropy remains unchanged.
+#'''Reversible isothermal compression of the gas at the "cold" temperature, ''T''<sub>''C''</sub>. (isothermal heat rejection)''' (3 to 4 on Figure 1, C to D on Figure 2) Now the surroundings do work on the gas, causing an amount of heat energy Q<sub>2</sub> and of entropy <math>\Delta S=Q_2/T_C</math> to flow out of the gas to the low temperature reservoir. (This is the same amount of entropy absorbed in step 1.)
+#'''Isentropic compression of the gas (isentropic work input).''' (4 to 1 on Figure 1, D to A on Figure 2) Once again the piston and cylinder are assumed to be thermally insulated.  During this step, the surroundings do work on the gas, increasing its internal energy and compressing it, causing the temperature to rise to ''T''<sub>''H''</sub>.  The entropy remains unchanged.  At this point the gas is in the same state as at the start of step 1.
+
+== Carnot's theorem ==
+{{main|Carnot's theorem (thermodynamics)}}
+[[File:Real vs Carnot.png|500px|thumb|right|real ideal engines (left) compared to the Carnot cycle (right). The entropy of a real material changes with temperature. This change is indicated by the curve on a [[Temperature entropy diagram|T-S diagram]]. For this figure, the curve indicates a vapor-liquid equilibrium (''See [[Rankine cycle]]''). Irreversible systems and losses of heat (for example, due to friction) prevent the ideal from taking place at every step.]]
+
+'''Carnot's theorem''' is a formal statement of this fact: ''No engine operating between two heat reservoirs can be more efficient than a Carnot engine operating between the same reservoirs.''
+
+This maximum efficiency <math>\eta</math> is defined to be:
+:<math>\eta=\frac{W}{Q_H}=1-\frac{T_C}{T_H}
+\quad\quad\quad\quad\quad\quad\quad\quad\quad(1)</math>
+where
+: <math> W </math> is the work done by the system (energy exiting the system as work),
+: <math> Q_H </math> is the heat put into the system (heat energy entering the system),
+: <math> T_C </math> is the [[absolute temperature]] of the cold reservoir, and
+: <math> T_H </math> is the [[absolute temperature]] of the hot reservoir.
+
+A corollary to Carnot's theorem states that: ''All reversible engines operating between the same heat reservoirs are equally efficient.''
+
+In other words, maximum efficiency is achieved if and only if no new [[entropy]] is created in the cycle. Otherwise, since [[entropy]] is a [[state function]], the required dumping of heat into the environment to dispose of excess [[entropy]] leads to a reduction in efficiency. So Equation (1) gives the efficiency of any [[Reversible process (thermodynamics)|reversible]] [[heat engine]].
+
+The Coefficient of Performance (COP) of the heat engine is the reciprocal of its efficiency.
+
+== Efficiency of real heat engines ==
+Carnot realized that in reality it is not possible to build a [[Reversible process (thermodynamics)|thermodynamically reversible]] engine, so real heat engines are less efficient than indicated by Equation (1).  Nevertheless, Equation (1) is extremely useful for determining the maximum efficiency that could ever be expected for a given set of thermal reservoirs.
+
+Although '''Carnot's cycle''' is an idealisation, the expression
+of Carnot efficiency is still useful. Consider the [[average]] temperatures,
+
+:    <math>\langle T_H \rangle = \frac{1}{\Delta S} \int_{Q_{in}} TdS </math>
+
+:    <math>\langle T_C \rangle = \frac{1}{\Delta S} \int_{Q_{out}} TdS </math>
+
+at which heat is input and output, respectively.  Replace ''T<sub>H</sub>'' and ''T<sub>C</sub>'' in Equation (1) by <''T<sub>H</sub>''> and <''T<sub>C</sub>''> respectively.
+
+For the Carnot cycle, or an equivalent, <''T<sub>H</sub>''> is the highest temperature available and <''T<sub>C</sub>''> the lowest. For other less efficient cycles, <''T<sub>H</sub>''> will be lower than ''T<sub>H</sub>'', and <''T<sub>C</sub>''> will be higher than ''T<sub>C</sub>''. This can help illustrate, for example, why a [[Economizer|reheater]] or a [[regenerative heat exchanger|regenerator]] can improve the thermal efficiency of steam power plants — and why the efficiency of combined-cycle power plants (which incorporate gas turbines operating at even higher temperatures) exceeds that of conventional steam plants.
+
+According to the second theorem, "The efficiency of the Carnot engine is independent of the nature of the working substance".
+
+== References ==
+{{Reflist}}
+
+[[Category:Engines]]
+[[Category:Thermodynamic cycles]]

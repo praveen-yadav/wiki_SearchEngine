@@ -1,0 +1,159 @@
+{{software development process}}
+'''Computer programming''' (often shortened to '''programming''') is the comprehensive process that leads from an original formulation of a computing problem to executable programs. It involves activities such as analysis, understanding, and generically solving such problems resulting in an [[algorithm]], verification of requirements of the algorithm including its correctness and its resource consumption, implementation (or coding) of the algorithm in a target programming language, [[Software testing|testing]], [[debugging]], and maintaining the [[source code]], implementation of the build system and management of derived artefacts such as machine code of [[computer program]]s. The algorithm is often only represented in human-parseable form and reasoned about using logic. Source code is written in one or more [[programming language]]s (such as [[C++]], [[C Sharp (programming language)|C#]], [[Java (programming language)|Java]], [[Python (programming language)|Python]], [[Smalltalk]], [[JavaScript]], etc.). The purpose of programming is to find a sequence of instructions that will automate performing a specific task or solve a given problem. The process of programming thus often requires expertise in many different subjects, including knowledge of the application domain, specialized algorithms and [[logic|formal logic]].
+
+Within [[software engineering]], programming (the ''implementation'') is regarded as one phase in a [[software development process]].
+
+There is an on-going debate on the extent to which the writing of programs is an [[art]] form, a [[craft]], or an [[engineering]] discipline.<ref>{{cite journal |author=Paul Graham |year=2003 |url=http://www.paulgraham.com/hp.html |title=Hackers and Painters |accessdate=2006-08-22}}</ref> In general, good programming is considered to be the measured application of all three, with the goal of producing an efficient and evolvable software solution (the criteria for "efficient" and "evolvable" vary considerably). The discipline differs from many other technical professions in that [[programmer]]s, in general, do not need to be licensed or pass any standardized (or governmentally regulated) certification tests in order to call themselves "programmers" or even "software engineers." Because the discipline covers many areas, which may or may not include critical applications, it is debatable whether licensing is required for the profession as a whole.  In most cases, the discipline is self-governed by the entities which require the programming, and sometimes very strict environments are defined (e.g. [[United States Air Force]] use of [[AdaCore]] and security clearance). However, representing oneself as a "Professional Software Engineer" without a license from an accredited institution is [[Controversies over the term Engineer|illegal in many parts of the world]].
+
+Another on-going debate is the extent to which the programming language used in writing computer programs affects the form that the final program takes. This debate is analogous to that surrounding the [[Linguistic relativity|Sapir–Whorf hypothesis]]<ref>[[Kenneth E. Iverson]], the originator of the [[APL (programming language)|APL programming language]], believed that the Sapir–Whorf hypothesis applied to computer languages (without actually mentioning the hypothesis by name).  His [[Turing award]] lecture, "Notation as a tool of thought", was devoted to this theme, arguing that more powerful notations aided thinking about computer algorithms. Iverson K.E.,"[http://elliscave.com/APL_J/tool.pdf Notation as a tool of thought]", ''Communications of the ACM'', 23: 444-465 (August 1980).</ref> in [[linguistics]] and [[cognitive science]], which postulates that a particular spoken language's nature influences the habitual thought of its speakers. Different language patterns yield different patterns of [[thought]]. This idea challenges the possibility of representing the world perfectly with language, because it acknowledges that the mechanisms of any language condition the thoughts of its speaker community.
+
+==History==
+{{See also|History of programming languages}}
+[[File:Ada lovelace.jpg|thumb|right|[[Ada Lovelace]] created the first [[algorithm]] designed for processing by a computer and is usually recognized as history's first computer programmer.]]
+Ancient cultures had no conception of computing beyond simple [[arithmetic]].  The only mechanical device that existed for numerical computation at the beginning of human history was the [[abacus]], invented in [[Sumer]]ia circa 2500 BC.  Later, the [[Antikythera mechanism]], invented some time around 100 BC in [[ancient Greece]], is the first known mechanical calculator utilizing gears of various sizes and configuration to perform calculations,<ref>"[http://news.nationalgeographic.com/news/2006/11/061129-ancient-greece.html Ancient Greek Computer's Inner Workings Deciphered]". National Geographic News. November 29, 2006.</ref>  which tracked the [[metonic cycle]] still used in lunar-to-solar calendars, and which is consistent for calculating the dates of the [[Olympiad]]s.<ref>{{cite journal
+  | author=Freeth, Tony
+  | coauthors=Jones, Alexander; Steele, John M.; Bitsakis, Yanis
+  | journal=Nature
+  | volume=454
+  | pages=614–617
+  | date=July 31, 2008
+  | url=http://www.nature.com/nature/journal/v454/n7204/full/nature07130.html
+  | title=Calendars with Olympiad display and eclipse prediction on the Antikythera Mechanism
+  | doi=10.1038/nature07130
+  | pmid=18668103
+  | issue=7204
+  }}</ref> The [[Kurdish people|Kurdish]] medieval scientist [[Al-Jazari]] built programmable [[humanoid robot|automata]] in 1206 AD. One system employed in these devices was the use of pegs and [[cam]]s placed into a wooden drum at specific locations, which would sequentially trigger [[lever]]s that in turn operated [[percussion instrument]]s. The output of this device was a small drummer playing various rhythms and drum patterns.<ref>{{Cite journal|title=The Museum of Music: A History of Mechanical Instruments|first=Charles B.|last=Fowler|journal=Music Educators Journal|volume=54|issue=2|date=October 1967|pages=45–49|doi=10.2307/3391092|jstor=3391092|publisher=Music Educators Journal, Vol. 54, No. 2|postscript=<!--None-->}}</ref> The [[Jacquard loom]], which Joseph Marie Jacquard developed in 1801, uses a series of [[Card stock|pasteboard]] cards with holes punched in them. The hole pattern represented the pattern that the loom had to follow in weaving cloth. The loom could produce entirely different weaves using different sets of cards. [[Charles Babbage]] adopted the use of [[punched cards]] around 1830 to control his [[Analytical Engine]]. The first computer program was written for the Analytical Engine by mathematician [[Ada Lovelace]] to calculate a sequence of [[Bernoulli number]]s.<ref name="IEEE">{{cite doi|10.1109/MAHC.2003.1253887}}</ref>  The synthesis of numerical calculation, predetermined operation and output, along with a way to organize and input instructions in a manner relatively easy for humans to conceive and produce, led to the modern development of computer programming. Development of computer programming accelerated through the [[Industrial Revolution]].
+
+[[File:PunchCardDecks.agr.jpg|thumb|left|Data and instructions were once stored on external [[punched card]]s, which were kept in order and arranged in program decks.]]In the 1880s, [[Herman Hollerith]] invented the recording of data on a medium that could then be read by a machine.  Prior uses of machine readable media, above, had been for lists of instructions (not data) to drive [[Program (machine)|programmed machines]] such as Jacquard looms and [[Music roll|mechanized musical instruments]].  "After some initial trials with paper tape, he settled on [[punched card]]s..."<ref>{{cite web|url=http://www.columbia.edu/acis/history/hollerith.html |title=Columbia University Computing History - Herman Hollerith |publisher=Columbia.edu |date= |accessdate=2010-04-25}}</ref>  To process these punched cards, first known as "Hollerith cards" he invented the [[keypunch]], sorter, and [[Tabulating machine|tabulator]] [[unit record equipment|unit record machines]].<ref>[http://www.census.gov/history/www/innovations/technology/the_hollerith_tabulator.html U.S. Census Bureau: The Hollerith Machine]</ref> These inventions were the foundation of the data processing industry.  In 1896 he founded the ''[[Tabulating Machine Company]]'' (which later became the core of [[IBM]]). The addition of a [[plugboard|control panel]] (plugboard)<!-- see text in plugboard article, "control panel" is the application specific term for plugboards used in unit record applications --> to his 1906 Type I Tabulator allowed it to do different jobs without having to be physically rebuilt. By the late 1940s, there were several unit record calculators, such as the [[IBM 602]] and [[IBM 604]], whose control panels specified a sequence (list) of operations and thus were programmable machines.
+
+The invention of the [[von Neumann architecture]] allowed computer programs to be stored in [[computer memory]]. Early programs had to be painstakingly crafted using the instructions (elementary operations) of the particular machine, often in [[binary numeral system|binary]] notation. Every model of computer would likely use different instructions ([[machine language]]) to do the same task. Later, [[assembly language]]s were developed that let the programmer specify each instruction in a text format, entering abbreviations for each operation code instead of a number and specifying addresses in symbolic form (e.g., ADD X, TOTAL). Entering a program in assembly language is usually more convenient, faster, and less prone to human error than using machine language, but because an assembly language is little more than a different notation for a machine language, any two machines with different instruction sets also have different assembly languages.
+
+Some of the earliest computer programmers were women during World War II. According to Dr. [[Sadie Plant]], programming is essentially feminine—not simply because women, from Ada Lovelace to [[Grace Hopper]], were the first programmers, but because of the historical and theoretical ties between programming and what Freud called the quintessentially feminine invention of weaving, between female sexuality as mimicry and the mimicry grounding Turing's vision of computers as universal machines. Women, Plant argues, have not merely had a minor part to play in the emergence of digital machines...Theirs is not a subsidiary role which needs to be rescued for posterity, a small supplement whose inclusion would set the existing records straight...Hardware, software, wetware-before their beginnings and beyond their ends, women have been the simulators, assemblers, and programmers of the digital machines.<ref>Chun, Wendy. "On Software, or the Persistence of Visual Knowledge." Grey Room 18. Boston: 2004, pgs. 34-35</ref>
+
+[[File:IBM402plugboard.Shrigley.wireside.jpg|thumb|right|Wired control panel for an [[IBM 402 Accounting Machine]].]]In 1954, [[FORTRAN]] was invented; it was the first [[high-level language|high level programming language]] to have a functional implementation, as opposed to just a design on paper.<ref>{{cite web|author=12:10 p.m. ET |url=http://www.msnbc.msn.com/id/17704662/ |title=Fortran creator John Backus dies - Tech and gadgets- msnbc.com |publisher=MSNBC |date=2007-03-20 |accessdate=2010-04-25}}</ref><ref>{{cite web|url=http://www.math.grin.edu/~rebelsky/Courses/CS302/99S/Outlines/outline.02.html |title=CSC-302 99S : Class 02: A Brief History of Programming Languages |publisher=Math.grin.edu |date= |accessdate=2010-04-25}}</ref> (A high-level language is, in very general terms, any programming language that allows the programmer to write programs in terms that are more [[abstraction (computer science)|abstract]] than assembly language instructions, i.e. at a level of abstraction "higher" than that of an assembly language.)  It allowed programmers to specify calculations by entering a formula directly (e.g. {{nowrap|Y &#0061; X*2 + 5*X + 9}}). The program text, or ''source'', is converted into machine instructions using a special program called a [[compiler]], which translates the FORTRAN program into machine language.  In fact, the name FORTRAN stands for "Formula Translation".  Many other languages were developed, including some for commercial programming, such as [[COBOL]]. Programs were mostly still entered using punched cards or [[paper tape]]. (See [[computer programming in the punch card era]]). By the late 1960s, [[data storage device]]s and [[computer terminal]]s became inexpensive enough that programs could be created by typing directly into the computers. [[Text editor]]s were developed that allowed changes and corrections to be made much more easily than with punched cards. (Usually, an error in punching a card meant that the card had to be discarded and a new one punched to replace it.)
+
+As time has progressed, computers have made giant leaps in the area of processing power. This has brought about newer programming languages that are more abstracted from the underlying hardware.  Popular programming languages of the modern era include [[ActionScript]], C++, C#, [[Haskell (programming language)|Haskell]], [[HTML]] with [[PHP]], Java, JavaScript, [[Objective-C]], [[Perl]], Python, [[Ruby (programming language)|Ruby]], Smalltalk, [[SQL]], [[Visual Basic]], and dozens more.<ref><cite web|url=http://spectrum.ieee.org/at-work/tech-careers/the-top-10-programming-languages |author=Ritchie S. King |name=The Top 10 Programming Languages |accessdate=2012-11-26></ref> Although these high-level languages usually incur greater [[Computational overhead|overhead]], the increase in speed of modern computers has made the use of these languages much more practical than in the past. These increasingly abstracted languages typically are easier to learn and allow the programmer to develop applications much more efficiently and with less source code. However, high-level languages are still impractical for a few programs, such as those where low-level hardware control is necessary or where maximum processing speed is vital.  Computer programming has become a popular [[career]] in the developed world, particularly in the [[United States]], [[Europe]], and [[Japan]].  Due to the high labor cost of programmers in these countries, some forms of programming have been increasingly subject to [[offshore outsourcing]] (importing software and services from other countries, usually at a lower wage), making programming career decisions in developed countries more complicated, while increasing economic opportunities for programmers in less developed areas, particularly [[China]] and [[India]].
+{{-}}
+
+==Modern programming==
+{{One source|section|date=August 2010}}
+
+===Quality requirements===
+Whatever the approach to software development may be, the final program must satisfy some fundamental properties. The following properties are among the most relevant:
+*'''[[Reliability engineering#Software reliability|Reliability]]''': how often the results of a program are correct. This depends on conceptual correctness of algorithms, and minimization of programming mistakes, such as mistakes in resource management (e.g., [[buffer overflow]]s and [[race condition]]s) and logic errors (such as division by zero or [[off-by-one error]]s).
+*'''[[Robustness (computer science)|Robustness]]''': how well a program anticipates problems not due to programmer error? This includes situations such as incorrect, inappropriate or corrupt data, unavailability of needed resources such as memory, operating system services and network connections, and user error.
+*'''[[Usability]]''': the [[ergonomics]] of a program: the ease with which a person can use the program for its intended purpose or in some cases even unanticipated purposes. Such issues can make or break its success even regardless of other issues. This involves a wide range of textual, graphical and sometimes hardware elements that improve the clarity, intuitiveness, cohesiveness and completeness of a program's user interface.
+*'''[[Software portability|Portability]]''': the range of [[computer hardware]] and [[operating system]] platforms on which the source code of a program can be compiled/[[interpreter (computing)|interpreted]] and run. This depends on differences in the programming facilities provided by the different platforms, including hardware and operating system resources, expected behaviour of the hardware and operating system, and availability of platform specific compilers (and sometimes libraries) for the language of the source code.
+*'''[[Maintainability]]''': the ease with which a program can be modified by its present or future developers in order to make improvements or customizations, fix [[Software bug|bugs]] and [[Vulnerability (computing)|security holes]], or adapt it to new environments. Good practices during initial development make the difference in this regard. This quality may not be directly apparent to the end user but it can significantly affect the fate of a program over the long term.
+*'''[[Algorithmic efficiency|Efficiency]]'''/'''[[performance engineering|performance]]''': the amount of system resources a program consumes (processor time, memory space, slow devices such as disks, network bandwidth and to some extent even user interaction): the less, the better. This also includes correct disposal of some resources, such as cleaning up [[temporary file]]s and lack of [[memory leak]]s.
+
+===Readability of source code===
+In computer programming, [[readability]] refers to the ease with which a human reader can comprehend the purpose, control flow, and operation of source code. It affects the aspects of quality above, including portability, usability and most importantly maintainability.
+
+Readability is important because programmers spend the majority of their time reading, trying to understand and modifying existing source code, rather than writing new source code. Unreadable code often leads to bugs, inefficiencies, and [[Code duplication|duplicated code]]. A study<ref>James L. Elshoff , Michael Marcotty, [http://doi.acm.org/10.1145/358589.358596 Improving computer program readability to aid modification], Communications of the ACM, v.25 n.8, p.512-521, Aug 1982.</ref> found that a few simple readability transformations made code shorter and drastically reduced the time to understand it.
+
+Following a consistent [[programming style]] often helps readability. However, readability is more than just programming style. Many factors, having little or nothing to do with the ability of the computer to efficiently compile and execute the code, contribute to readability.<ref>{{cite web | url=http://docforge.com/wiki/Readability | title=Readability | author=Multiple (wiki) | work=Docforge | accessdate=2010-01-30 }}</ref> Some of these factors include:
+*Different [[indentation style]]s (whitespace)
+*[[Comment (computer programming)|Comments]]
+*[[decomposition (computer science)|Decomposition]]
+*[[Naming conventions (programming)|Naming conventions]] for objects (such as variables, classes, procedures, etc.)
+
+Various [[visual programming language]]s have also been developed with the intent to resolve readability concerns by adopting non-traditional approaches to code structure and display.
+
+===Algorithmic complexity===
+The academic field and the engineering practice of computer programming are both largely concerned with discovering and implementing the most efficient algorithms for a given class of problem. For this purpose, algorithms are classified into ''orders'' using so-called [[Big O notation]], which expresses resource use, such as execution time or memory consumption, in terms of the size of an input. Expert programmers are familiar with a variety of well-established algorithms and their respective complexities and use this knowledge to choose algorithms that are best suited to the circumstances.
+
+===Methodologies===
+The first step in most formal software development processes is requirements analysis, followed by testing to determine value modeling, implementation, and failure elimination (debugging).
+There exist a lot of differing approaches for each of those tasks. One approach popular for [[requirements analysis]] is [[Use Case]] analysis. Many programmers use forms of [[Agile software development]] where the various stages of formal software development are more integrated together into short cycles that take a few weeks rather than years. There are many approaches to the Software development process.
+
+Popular modeling techniques include Object-Oriented Analysis and Design ([[OOAD]]) and Model-Driven Architecture ([[Model-Driven Architecture|MDA]]). The Unified Modeling Language ([[Unified Modeling Language|UML]]) is a notation used for both the OOAD and MDA.
+
+A similar technique used for database design is Entity-Relationship Modeling ([[Entity-Relationship Model|ER Modeling]]).
+
+Implementation techniques include imperative languages ([[Object-oriented programming|object-oriented]] or [[procedural programming|procedural]]), [[functional programming|functional languages]], and [[logic programming|logic languages]].
+
+===Measuring language usage===
+It is very difficult to determine what are the most popular of modern programming languages. Some languages are very popular for particular kinds of applications (e.g., COBOL is still strong in the corporate data center{{citation needed|date=January 2012}}, often on large [[mainframe computer|mainframes]], [[Fortran (programming language)|FORTRAN]] in engineering applications, [[scripting language]]s in [[World Wide Web|Web]] development, and [[C (programming language)|C]] in [[embedded software|embedded applications]]), while some languages are regularly used to write many different kinds of applications. Also many applications use a mix of several languages in their construction and use.  New languages are generally designed around the syntax of a previous language with new functionality added (for example C++ adds object-orientedness to C, and Java adds memory management and [[bytecode]] to C++).
+
+Methods of [[measuring programming language popularity]] include: counting the number of job advertisements that mention the language,<ref>[http://www.computerweekly.com/Articles/2007/09/11/226631/sslcomputer-weekly-it-salary-survey-finance-boom-drives-it-job.htm Survey of Job advertisements mentioning a given language]</ref> the number of books sold and courses teaching the language (this overestimates the importance of newer languages), and estimates of the number of existing lines of code written in the language (this underestimates the number of users of business languages such as COBOL).
+
+===Debugging===
+[[File:H96566k.jpg|thumb|The [[Software bug|bug]] from 1947 which is at the origin of a popular (but incorrect) etymology for the common term for a software defect.]]
+Debugging is a very important task in the software development process since having defects in a program can have significant consequences for its users. Some languages are more prone to some kinds of faults because their specification does not require compilers to perform as much checking as other languages. Use of a [[static code analysis]] tool can help detect some possible problems.
+
+Debugging is often done with [[Integrated development environment|IDE]]s like [[Eclipse (software)|Eclipse]], [[Kdevelop]], [[NetBeans]], [[Code::Blocks]], and [[Visual Studio]]. Standalone debuggers like [[gdb]] are also used, and these often provide less of a visual environment, usually using a [[command line]].
+
+==Programming languages==
+{{Main|Programming language|List of programming languages}}
+
+Different programming languages support different styles of programming (called ''[[programming paradigm]]s''). The choice of language used is subject to many considerations, such as company policy, suitability to task, availability of third-party packages, or individual preference. Ideally, the programming language best suited for the task at hand will be selected. Trade-offs from this ideal involve finding enough programmers who know the language to build a team, the availability of compilers for that language, and the efficiency with which programs written in a given language execute. Languages form an approximate spectrum from "low-level" to "high-level"; "low-level" languages are typically more machine-oriented and faster to execute, whereas "high-level" languages are more abstract and easier to use but execute less quickly. It is usually easier to code in "high-level" languages than in "low-level" ones.
+
+[[Allen Downey]], in his book ''How To Think Like A Computer Scientist'', writes:
+
+:The details look different in different languages, but a few basic instructions appear in just about every language:
+:*'''Input''': Gather data from the keyboard, a file, or some other device.
+:*'''Output''': Display data on the screen or send data to a file or other device.
+:*'''Arithmetic''': Perform basic arithmetical operations like addition and multiplication.
+:*'''Conditional Execution''': Check for certain conditions and execute the appropriate sequence of statements.
+:*'''Repetition''': Perform some action repeatedly, usually with some variation.
+
+Many computer languages provide a mechanism to call functions provided by [[shared library|shared libraries]]. Provided the functions in a library follow the appropriate run time conventions (e.g., method of passing [[argument (computer science)|arguments]]), then these functions may be written in any other language.
+
+==Programmers==
+{{Main|Programmer}}
+{{See also|Software developer|Software engineer}}
+
+Computer programmers are those who write computer software. Their jobs usually involve:
+{{div col|colwidth=30em}}
+*Coding
+*Debugging
+*[[Documentation]]
+*[[System integration|Integration]]
+*[[Software maintenance|Maintenance]]
+*Requirements analysis
+*[[Software architecture]]
+*Software testing
+*[[Specification]]
+{{div col end}}
+
+==See also==
+{{Wikipedia books|Programming}}
+{{Portal|Computer Science|Computing|Computer networking|Computer programming}}
+
+{{Main|Outline of computer programming}}
+
+*[[ACCU (organisation)|ACCU]]
+*[[Association for Computing Machinery]]
+*[[Computer network]]ing
+*[[Computer science]]
+*[[Computing]]
+*[[Hello world program]]
+*[[Institution of Analysts and Programmers]]
+*[[System programming]]
+*''[[The Art of Computer Programming]]''
+
+==References==
+{{reflist|2}}
+
+==Further reading==
+* A.K. Hartmann, ''[http://www.worldscibooks.com/physics/6988.html Practical Guide to Computer Simulations]'', Singapore: [[World Scientific]] (2009)
+* A. Hunt, D. Thomas, and W. Cunningham, ''The Pragmatic Programmer. From Journeyman to Master'', Amsterdam: Addison-Wesley Longman (1999)
+* Brian W. Kernighan, ''The Practice of Programming'', Pearson (1999)
+* [[Gerald Weinberg|Weinberg, Gerald M.]], ''The Psychology of Computer Programming'', New York: Van Nostrand Reinhold
+
+==External links==
+{{Wikiversity|programming}}
+{{wikibooks|Computer Programming}}
+{{wikibooks|Windows Programming}}
+{{Wikiquote|Programming}}
+{{Library resources box|onlinebooks=yes}}
+<!--Please see this URL before adding external links here: http://meta.wikimedia.org/wiki/When_should_I_link_externally -->
+* {{dmoz|Computers/Software/Software_Engineering/|Software engineering}}
+*[http://code.wikia.com/wiki/Programmer%27s_Wiki Programming Wikia]
+
+{{Computer science}}
+{{Software engineering}}
+
+{{DEFAULTSORT:Computer Programming}}
+[[Category:Computer programming| ]]

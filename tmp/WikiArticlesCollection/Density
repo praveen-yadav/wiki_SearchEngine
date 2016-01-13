@@ -1,0 +1,365 @@
+{{about|mass density}}
+{{pp-move-indef}}
+{{Infobox physical quantity
+|bgcolour={default}
+|name        = Density
+|image       =
+|caption     =
+|unit        = kg/m<sup>3</sup>
+|symbols     = ''ρ''
+|derivations =
+}}
+[[File:Artsy density column.png|thumb|150px|A [[graduated cylinder]] containing various coloured liquids with different densities.]]
+
+The '''density''', or more precisely, the '''volumetric mass density''', of a substance is its [[mass]] per unit [[volume]]. The symbol most often used for density is '''''ρ''''' (the lower case Greek letter [[Rho (letter)|rho]]). Mathematically, density is defined as mass divided by volume:<ref>{{cite web | url=http://www.grc.nasa.gov/WWW/BGH/fluden.html | title =Gas Density Glenn research Center | author =''[[National Aeronautic and Space Administration|The National Aeronautic and Atmospheric Administration's]]'' ''[[Glenn Research Center]]'' | publisher =grc.nasa.gov}}</ref>
+
+:<math> \rho = \frac{m}{V},</math>
+
+where ''ρ'' is the density, ''m'' is the mass, and ''V'' is the volume. In some cases (for instance, in the United States oil and gas industry), density is loosely defined as its [[weight]] per unit [[volume]],<ref>{{cite web|url=http://oilgasglossary.com/density.html |title=Density definition in Oil Gas Glossary |publisher=Oilgasglossary.com |accessdate=2010-09-14}}</ref> although this is scientifically inaccurate – this quantity is more properly called [[specific weight]].
+
+Different materials usually have different densities, and density may be relevant to [[buoyancy]], purity and [[packaging]]. [[Osmium]] and [[iridium]] are the densest known '''''elements''''' at [[standard conditions for temperature and pressure]] but certain chemical compounds may be denser.
+
+To simplify comparisons of density across different systems of units, it is sometimes replaced by the [[dimensionless]] quantity "[[specific gravity]]" or "[[relative density]]", i.e. the ratio of the density of the material to that of a standard material, usually water. Thus a specific gravity less than one means that the substance floats in water.
+
+The density of a material varies with temperature and pressure. This variation is typically small for solids and liquids but much greater for gases. Increasing the pressure on an object decreases the volume of the object and thus increases its density. Increasing the temperature of a substance (with a few exceptions) decreases its density by increasing its volume. In most materials, heating the bottom of a fluid results in [[convection]] of the heat from the bottom to the top, due to the decrease in the density of the heated fluid. This causes it to rise relative to more dense unheated material.
+
+The reciprocal of the density of a substance is occasionally called its [[specific volume]], a term sometimes used in [[thermodynamics]]. Density is an [[intensive property]] in that increasing the amount of a substance does not increase its density; rather it increases its mass.
+
+== History ==
+In a well-known but probably apocryphal tale, [[Archimedes]] was given the task of determining whether [[Hiero II of Syracuse|King Hiero]]'s [[goldsmith]] was embezzling [[gold]] during the manufacture of a golden [[wreath]] dedicated to the gods and replacing it with another, cheaper [[alloy]].<ref>[http://www-personal.umich.edu/~lpt/archimedes.htm Archimedes, A Gold Thief and Buoyancy] – by Larry "Harris" Taylor, Ph.D.</ref> Archimedes knew that the irregularly shaped wreath could be crushed into a cube whose volume could be calculated easily and compared with the mass; but the king did not approve of this. Baffled, Archimedes is said to have taken an immersion bath and observed from the rise of the water upon entering that he could calculate the volume of the gold wreath through the [[Displacement (fluid)|displacement]] of the water. Upon this discovery, he leapt from his bath and ran naked through the streets shouting, "Eureka! Eureka!" (Εύρηκα! Greek "I have found it"). As a result, the term "[[Eureka (word)|eureka]]" entered common parlance and is used today to indicate a moment of enlightenment.
+
+The story first appeared in written form in [[Vitruvius]]' [[De architectura|books of architecture]], two centuries after it supposedly took place.<ref>[http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Vitruvius/9*.html Vitruvius on Architecture, Book IX], paragraphs 9–12, translated into English and [http://penelope.uchicago.edu/Thayer/L/Roman/Texts/Vitruvius/9*.html in the original Latin].</ref> Some scholars have doubted the accuracy of this tale, saying among other things that the method would have required precise measurements that would have been difficult to make at the time.<ref>{{cite journal|doi=10.1126/science.305.5688.1219e|title=EXHIBIT: The First Eureka Moment|year=2004|journal=Science|volume=305|issue=5688|pages=1219e }}</ref><ref>[http://www.sciam.com/article.cfm?articleID=5F1935E9-E7F2-99DF-3F1D1235AF1D2CD1 Fact or Fiction?: Archimedes Coined the Term "Eureka!" in the Bath], ''Scientific American'', December 2006.</ref>
+
+From the equation for density (''ρ'' = ''m'' / ''V''), mass density has units of mass divided by volume. As there are many units of mass and volume covering many different magnitudes there are a large number of units for mass density in use. The [[SI]] unit of [[kilogram]] per [[cubic metre]] (kg/m<sup>3</sup>) and the [[cgs]] unit of [[gram]] per [[cubic centimetre]] (g/cm<sup>3</sup>) are probably the most commonly used units for density. (The cubic centimeter can be alternately called a ''millilitre'' or a ''cc''.) {{nowrap|1,000&nbsp;kg/m<sup>3</sup>}} equals one g/cm<sup>3</sup>. In industry, other larger or smaller units of mass and or volume are often more practical and [[US customary units]] may be used. See below for a list of some of the most common units of density.
+
+== Measurement of density ==
+The density at all points of a [[Homogeneous (chemistry)|homogeneous]] object equals its total [[mass]] divided by its total volume. The mass is normally measured with a [[weighing scale|scale or balance]]; the volume may be measured directly (from the geometry of the object) or by the displacement of a fluid. To determine the density of a liquid or a gas, a [[hydrometer]] or [[dasymeter]] may be used, respectively. Similarly, [[hydrostatic weighing]] uses the displacement of water due to a submerged object to determine the density of the object.
+
+If the body is not homogeneous, then its density varies between different regions of the object. In that case the density around any given location is determined by calculating the density of a small volume around that location. In the limit of an infinitesimal volume the density of an inhomogeneous object at a point becomes: {{math|ρ('''r''') {{=}} dm/dV}}, where {{math|dV}} is an elementary volume at position {{math|r}}. The mass of the body then can be expressed as
+
+:<math>
+ m = \int_V \rho(\mathbf{r})\,dV.
+</math>
+
+The density of granular material can be ambiguous, depending on exactly how its volume is defined, and this may cause confusion in measurement. A common example is sand: if it is gently poured into a container, the density will be low; if the same sand is then compacted, it will occupy less volume and consequently exhibit a greater density. This is because sand, like all powders and granular solids, contains a lot of air space in between individual grains. The density of the material including the air spaces is the [[bulk density]], which differs significantly from the density of an individual grain of sand with no air included.
+
+== Changes of density ==
+{{Main|Compressibility|Thermal expansivity}}
+
+In general, density can be changed by changing either the [[pressure]] or the [[temperature]]. Increasing the pressure always increases the density of a material. Increasing the temperature generally decreases the density, but there are notable exceptions to this generalization. For example, the density of [[water]] increases between its melting point at 0&nbsp;°C and 4&nbsp;°C; similar behavior is observed in [[silicon]] at low temperatures.
+
+The effect of pressure and temperature on the densities of liquids and solids is small. The [[compressibility]] for a typical liquid or solid is 10<sup>−6</sup>&nbsp;[[bar (unit)|bar]]<sup>−1</sup> (1&nbsp;bar = 0.1&nbsp;MPa) and a typical [[thermal expansivity]] is 10<sup>−5</sup>&nbsp;[[Kelvin|K]]<sup>−1</sup>. This roughly translates into needing around ten thousand times atmospheric pressure to reduce the volume of a substance by one percent. (Although the pressures needed may be around a thousand times smaller for sandy soil and some clays.) A one percent expansion of volume typically requires a temperature increase on the order of thousands of degrees [[Celsius]].
+
+In contrast, the density of gases is strongly affected by pressure. The density of an [[ideal gas]] is
+
+:<math>
+ \rho = \frac {MP}{RT}, \,
+</math>
+
+where {{math|M}} is the [[molar mass]], {{math|P}} is the pressure, {{math|R}} is the [[Gas constant|universal gas constant]], and {{math|T}} is the [[absolute temperature]]. This means that the density of an ideal gas can be doubled by doubling the pressure, or by halving the absolute temperature.
+
+In the case of volumic thermal expansion at constant pressure and small intervals of temperature the temperature dependence of density is :
+:<math>\rho = \frac {{\rho_{T_0}}}{{(1 + \alpha \cdot \Delta T)}}</math>
+
+where <math>\rho_{T_0}</math> is the density at a reference temperature, <math>\alpha</math> is the thermal expansion coefficient of the material at temperatures close to <math>T_0</math>.
+
+== Density of solutions ==
+The density of a [[solution]] is the sum of [[mass concentration (chemistry)|mass (massic) concentrations]] of the components of that solution.
+
+Mass (massic) concentration of each given component ρ<sub>i</sub> in a solution sums to density of the solution.
+:<math>\rho = \sum_i \varrho_i \,</math>
+
+Expressed as a function of the densities of pure components of the mixture and their [[volume concentration|volume participation]], it reads:
+:<math>\rho = \sum_i  \rho_i \frac{V_i}{V}.\,</math>
+provided that there is no interaction between the components.
+
+== Densities ==
+=== Water ===
+{{See also|Water (molecule)#Density of water and ice|l1=Water density}}
+Density of water at 1 [[Atmosphere (unit)|atm]] pressure:
+
+{| class="wikitable"
+! Temp (°C) !! Density (kg/m<sup>3</sup>)
+|-
+| 100 || 958.4
+|-
+| 80  || 971.8
+|-
+| 60  || 983.2
+|-
+| 40  || 992.2
+|-
+| 30  || 995.6502
+|-
+| 25  || 997.0479
+|-
+| 22  || 997.7735
+|-
+| 20  || 998.2071
+|-
+| 15  || 999.1026
+|-
+| 10  || 999.7026
+|-
+| 4   || 999.9720
+|-
+| 0   || 999.8395
+|-
+| −10 || 998.117
+|-
+| −20 || 993.547
+|-
+| −30 || 983.854
+|-
+|colspan="2"| <small>The values below 0 °C refer to [[supercooling|supercooled]] water.</small>
+|}
+
+=== Air ===
+{{Main|Density of air}}
+[[File:Air density vs temperature.jpg|thumb|right|400px|Density ''vs.'' temperature]]
+Density of air at 1 atm pressure:
+
+{| class="wikitable" style="text-align:center; float:left;"
+|-
+! ''T'' (°C) !! ''ρ'' (kg/m<sup>3</sup>)
+|-
+| −25 || 1.423
+|-
+| −20 || 1.395
+|-
+| −15 || 1.368
+|-
+| −10 || 1.342
+|-
+| −5  || 1.316
+|-
+|  0  || 1.293
+|-
+|  5  || 1.269
+|-
+|  10 || 1.247
+|-
+|  15 || 1.225
+|-
+|  20 || 1.204
+|-
+|  25 || 1.184
+|-
+|  30 || 1.164
+|-
+|  35 || 1.146
+|}
+{{-}}
+
+=== Various materials ===
+{{Further|Orders of magnitude (density)}}
+
+Unless otherwise noted, all densities given are at [[standard conditions for temperature and pressure]], that is, {{convert|273.15|K|C|abbr=on|lk=in}} and {{convert|100|kPa|atm|3|abbr=on}}.
+
+{| class="wikitable sortable" style="text-align:center; float:left;"
+|-
+! Material                 !! ''ρ'' (kg/m<sup>3</sup>) !! Notes
+|-
+| [[Helium]]               || 0.179  ||
+|-
+| [[Aerographite]]         || 0.2    ||*<ref>[http://phys.org/news/2012-07-carbon-nanotube-struructure-aerographite-lightest.html New carbon nanotube struructure aerographite is lightest material champ]. Phys.org (2012-07-13). Retrieved on 2012-07-14.</ref><ref>[http://www.spiegel.de/wissenschaft/technik/aerographit-leichtestes-material-der-welt-entwickelt-a-843819.html Aerographit: Leichtestes Material der Welt entwickelt – SPIEGEL ONLINE]. Spiegel.de (2012-07-11). Retrieved on 2012-07-14.</ref>
+|-
+| [[Metallic microlattice]]|| 0.9    || *
+|-
+| [[Aerogel]]              || 1.0    || *
+|-
+| [[Air]]                  || 1.2    || At sea level
+|-
+| [[Tungsten hexafluoride]]|| 12.4   || One of the heaviest known gases under standard conditions
+|-
+| [[Liquid hydrogen]]      || 70     || At ~ -255&nbsp;°C
+|-
+| [[Styrofoam]]            || 75     || Approx.<ref name="madsci1">{{cite web|url=http://www.madsci.org/posts/archives/mar2000/954534602.Ph.r.html |title=Re: which is more {{sic|bou|yant|nolink=y}} styrofoam or cork |publisher=Madsci.org |date= |accessdate=2010-09-14}}</ref>
+|-
+| [[Cork (material)|Cork]] || 240    || Approx.<ref name="madsci1" />
+|-
+| [[Lithium]]              || 535    ||
+|-
+| [[Wood]]                 || 700    || Seasoned, typical<ref name=wood0>{{cite web |url=http://www.engineeringtoolbox.com/wood-density-d_40.html |title=Wood Densities |accessdate=October 15, 2012 |work=www.engineeringtoolbox.com}}</ref><ref name=wood1>{{cite web |title=Density of Wood |url=http://www.simetric.co.uk/si_wood.htm |accessdate=October 15, 2012 |work=www.simetric.co.uk}}</ref>
+|-
+| [[Potassium]]            || 860    ||  <ref name="crc2ed">CRC Press Handbook of tables for Applied Engineering Science, 2nd Edition, 1976, Table 1-59</ref>
+|-
+| [[Sodium]]               || 970    ||
+|-
+| [[Ice]]                  || 916.7  || At temperature <&nbsp;0&nbsp;°C<!-- Sourced from the "Ice" page -->
+|-
+| [[Water]] (fresh)        || 1,000  ||
+|-
+| [[Water]] (salt)         || 1,030  ||
+|-
+| [[Plastics]]             || 1,175  || Approx.; for [[polypropylene]] and [[PETE]]/[[PVC]]
+|-
+| [[Tetrachloroethene]]    || 1,622  ||
+|-
+| [[Magnesium]]            || 1,740  ||
+|-
+| [[Beryllium]]            || 1,850  ||
+|-
+| [[Glycerol]]             || 1,261  || <ref>[http://physics.nist.gov/cgi-bin/Star/compos.pl?matno=174 glycerol composition at]. Physics.nist.gov. Retrieved on 2012-07-14.</ref>
+|-
+| [[Silicon]]              || 2,330  ||
+|-
+| [[Aluminium]]            || 2,700  ||
+|-
+| [[Diiodomethane]]        || 3,325  || liquid at room temperature
+|-
+| [[Diamond]]              || 3,500  ||
+|-
+| [[Titanium]]             || 4,540  ||
+|-
+| [[Selenium]]             || 4,800  ||
+|-
+| [[Vanadium]]             || 6,100  ||
+|-
+| [[Antimony]]             || 6,690  ||
+|-
+| [[Zinc]]                 || 7,000  ||
+|-
+| [[Chromium]]             || 7,200  ||
+|-
+| [[Tin]]                  || 7,310  ||
+|-
+| [[Manganese]]            || 7,325  || Approx.
+|-
+| [[Iron]]                 || 7,870  ||
+|-
+| [[Niobium]]              || 8,570  ||
+|-
+| [[Cadmium]]              || 8,650  ||
+|-
+| [[Cobalt]]               || 8,900  ||
+|-
+| [[Nickel]]               || 8,900  ||
+|-
+| [[Copper]]               || 8,940  ||
+|-
+| [[Bismuth]]              || 9,750  ||
+|-
+| [[Molybdenum]]           || 10,220 ||
+|-
+| [[Silver]]               || 10,500 ||
+|-
+| [[Lead]]                 || 11,340 ||
+|-
+| [[Thorium]]              || 11,700 ||
+|-
+| [[Rhodium]]              || 12,410 ||
+|-
+| [[Mercury (element)|Mercury]] || 13,546 ||
+|-
+| [[Tantalum]]             || 16,600  ||
+|-
+| [[Uranium]]              || 18,800  ||
+|-
+| [[Tungsten]]             || 19,300  ||
+|-
+| [[Gold]]                 || 19,320  ||
+|-
+| [[Plutonium]]            || 19,840  ||
+|-
+| [[Platinum]]             || 21,450  ||
+|-
+| [[Iridium]]              || 22,420  ||
+|-
+| [[Osmium]]               || 22,570  ||
+|-
+|}
+{{-}}
+<nowiki>*</nowiki>Air excluded when calculating density
+
+=== Others ===
+{| class="wikitable sortable" style="text-align:center; float:left;"
+|-
+! Entity                 !! ''ρ'' (kg/m<sup>3</sup>) !! Notes
+|-
+| [[Interstellar medium]]  || {{val|1|e=-19}} || Assuming 90% H, 10% He; variable T
+|-
+| The [[Earth]]            || 5,515 || Mean density.<ref>{{citation |url=http://www.wolframalpha.com/input/?i=density+of+the+earth |title=Density of the Earth |publisher=wolframalpha.com}}</ref>
+|-
+| The [[inner core]] of the Earth || 13,000 || Approx., as listed in [[Earth]].<ref>{{citation |url=http://www.wolframalpha.com/input/?i=density+of+earth%27s+core |title=Density of Earth's core |publisher=wolframalpha.com}}</ref>
+|-
+| The core of the [[Sun]]  || 33,000–160,000 || Approx.<ref>{{citation |url=http://www.wolframalpha.com/input/?i=density+of+sun%27s+core |title=Density of the Sun's core |publisher=wolframalpha.com}}</ref>
+|-
+| [[Sagittarius A*|Super-massive black hole]] || {{val|9|e=5}} || Density of a 4.5-million-solar-mass black hole<br />[[Event horizon]] radius is 13.5 million km.
+|-
+| [[White dwarf]] star     || {{val|2.1|e=9}} || Approx.<ref name="osln">[http://www.astronomy.ohio-state.edu/~jaj/Ast162/lectures/notesWL22.pdf Extreme Stars: White Dwarfs & Neutron Stars], Jennifer Johnson, lecture notes, Astronomy 162, [[Ohio State University]]. Accessed: May 3, 2007.</ref>
+|-
+| [[Atomic nuclei]]        || {{val|2.3|e=17}} || Does not depend strongly on size of nucleus<ref>[http://hyperphysics.phy-astr.gsu.edu/HBASE/Nuclear/nucuni.html Nuclear Size and Density], HyperPhysics, Georgia State University. Accessed: June 26, 2009.</ref>
+|-
+| [[Neutron star]]         || {{val|1|e=18}} ||
+|-
+| Stellar-mass [[black hole]] || {{val|1|e=18}} || Density of a 4-solar-mass black hole<br /> [[Event horizon]] radius is 12&nbsp;km.
+|}
+{{-}}
+
+== Common units ==
+The [[SI]] unit for density is:
+* [[kilogram]]s per [[cubic meter]] (kg/m<sup>3</sup>)
+
+Litres and metric tons are not part of the SI, but are acceptable for use with it, leading to the following units:
+* [[kilogram]]s per [[liter]] (kg/L)
+* [[gram]]s per [[milliliter]] (g/mL)
+* [[metric ton]]s per cubic meter (t/m<sup>3</sup>)
+
+Densities using the following metric units all have exactly the same numerical value, one thousandth of the value in (kg/m<sup>3</sup>). Liquid [[water]] has a density of about 1&nbsp;kg/dm<sup>3</sup>, making any of these SI units numerically convenient to use as most [[solid]]s and [[liquid]]s have densities between 0.1 and 20&nbsp;kg/dm<sup>3</sup>.
+* kilograms per cubic decimetre (kg/dm<sup>3</sup>)
+* grams per cubic centimetre (g/cm<sup>3</sup>)
+** 1 gram/cm<sup>3</sup> = 1000&nbsp;kg/m<sup>3</sup>
+* megagrams (metric tons) per cubic metre (Mg/m<sup>3</sup>)
+
+In [[US customary units]] density can be stated in:
+* [[Avoirdupois ounce]]s per [[cubic inch]] (oz/cu&nbsp;in)
+* [[Pound (mass)|Avoirdupois pounds]] per cubic inch (lb/cu&nbsp;in)
+* pounds per [[cubic foot]] (lb/cu&nbsp;ft)
+* pounds per [[cubic yard]] (lb/cu&nbsp;yd)
+* pounds per [[US liquid gallon]] (lb/gal)
+* pounds per US [[bushel]] (lb/bu)
+* [[slug (mass)|slugs]] per cubic foot
+
+[[Imperial units]] differing from the above (as the Imperial gallon and bushel differ from the US units) in practice are rarely used, though found in older documents. The density of [[precious metal]]s could conceivably be based on [[Troy weight|Troy]] ounces and pounds, a possible cause of confusion.
+
+== See also ==
+<div style="-moz-column-count:3; column-count:3;">
+* [[List of elements by density]]
+* [[Charge density]]
+* [[Buoyancy]]
+* [[Bulk density]]
+* [[Dord]]
+* [[Energy density]]
+* [[Lighter than air]]
+* [[Number density]]
+* [[Orthobaric density]]
+* [[Specific weight]]
+* [[Spice (oceanography)]]
+* [[Standard temperature and pressure]]
+* [[Orders of magnitude (density)]]
+* [[Girolami method|Density prediction by the Girolami method]]
+</div>
+
+== References ==
+{{Reflist|40em}}
+
+== External links ==
+* [http://www.youtube.com/watch?v=eY-44iPSWIU Video: Density Experiment with Oil and Alcohol]
+* [http://www.youtube.com/watch?v=96NFH2Z7GSA Video: Density Experiment with Whiskey and Water]
+* [http://glassproperties.com/density/room-temperature/ Glass Density Calculation – Calculation of the density of glass at room temperature and of glass melts at 1000 – 1400°C]
+* [http://www.science.co.il/PTelements.asp?s=Density List of Elements of the Periodic Table – Sorted by Density]
+* [http://ddbonline.ddbst.de/DIPPR105DensityCalculation/DIPPR105CalculationCGI.exe Calculation of saturated liquid densities for some components]
+* [http://www.denichsoiltest.com/field/field-density-test.html Field density test]
+* [http://www.aim.env.uea.ac.uk/aim/density/density_eletrolyte.php On-line calculator for densities and partial molar volumes of aqueous solutions of some common electrolytes and their mixtures, at temperatures up to 323.15 K.]
+* [http://www.engineeringtoolbox.com/water-density-specific-weight-d_595.html Water – Density and specific weight]
+* [http://www.sengpielaudio.com/ConvDensi.htm Temperature dependence of the density of water – Conversions of density units]
+* [http://www.adamequipment.com/education/Documents/EdExp1.pdf A delicious density experiment]
+* [http://linkingweatherandclimate.com/ocean/waterdensitycalc.php Water density calculator] Water density for a given salinity and temperature.
+* [http://www.enggcyclopedia.com/welcome-to-enggcyclopedia/calculators/liquid-density Liquid density calculator] Select a liquid from the list and calculate density as a function of temperature.
+* [http://www.enggcyclopedia.com/welcome-to-enggcyclopedia/thermodynamics/gas-density Gas density calculator] Calculate density of a gas for as a function of temperature and pressure.
+* [http://www.jaredzone.info/2010/09/densities.html Densities of various materials.]
+* [http://amrita.olabs.co.in/?sub=1&brch=1&sim=2&cnt=9 Determination of Density of Solid], instructions for performing classroom experiment.
+
+[[Category:Density| ]]
+[[Category:Physical quantities]]

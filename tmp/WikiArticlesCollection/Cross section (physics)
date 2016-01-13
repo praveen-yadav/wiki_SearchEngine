@@ -1,0 +1,108 @@
+A '''cross section''' is the effective area that governs the probability of some scattering or absorption event. Together with particle density and path length, it can be used to predict the total scattering probability via the [[Beer–Lambert law]].
+
+In [[nuclear physics|nuclear]] and [[particle physics]], the concept of a '''cross section'''  is used to express the likelihood of interaction between particles.
+
+When particles in a beam are thrown against a foil made of a certain substance, the ''cross section'' <math>\sigma</math> is a hypothetical [[area]] measure around the target particles of the substance (usually its atoms) that represents a surface. If a particle of the beam crosses this surface, there will be some kind of interaction.
+
+The term is derived from the purely [[classical mechanics|classical]] picture of (a large number of) [[Point particle|point-like]] projectiles directed to an area that includes a solid target. Assuming that an interaction will occur (with 100% probability) if the projectile hits the solid, and not at all (0% probability) if it misses, the total interaction probability for the single projectile will be the ratio of the area of the section of the solid (the ''cross section'', represented by <math>\sigma</math>) to the total targeted area.
+
+This basic concept is then extended to the cases where the interaction probability in the targeted area assumes intermediate values - because the target itself is not homogeneous, or because the interaction is mediated by a non-uniform field. A particular case is [[scattering]].
+
+==Scattering==
+{{main|Scattering cross-section}}
+
+The '''scattering cross-section''', ''σ''<sub>scat</sub>, is a hypothetical area which describes the likelihood of light (or other radiation) being [[scattering|scattered]] by a particle.  In general, the scattering cross-section is different from the [[cross sectional area|geometrical cross-section]] of a particle, and it depends upon the [[wavelength]] of light and the [[permittivity]], shape and size of the particle.  The total amount of scattering in a sparse medium is determined by the product of the scattering cross-section and the number of particles present.  In terms of area, the ''total cross-section'' (σ) is the sum of the cross-sections due to [[absorption cross section|absorption]], [[scattering]] and [[luminescence]]
+:<math>\sigma = \sigma_\text{A} + \sigma_\text{S} + \sigma_\text{L}.\ </math>
+
+The total cross-section is related to the [[absorbance]] of the light intensity through [[Beer-Lambert|Beer-Lambert's law]], which says absorbance is proportional to concentration: <math>A_\lambda  = C \,\ell\, \sigma</math>, where ''C'' is the concentration as a number density, ''A''<sub>λ</sub> is the absorbance at a given [[wavelength]] ''λ'', and <math>\ell</math> is the [[path length]]. The extinction or [[absorbance]] of the radiation is the [[logarithm]] ([[Decadic logarithm|decadic]] or, more usually, [[Natural logarithm|natural]]) of the reciprocal of the [[transmittance]]:<ref>{{cite book|chapter=2. Spectrophotometry|isbn=81-219-2633-5|first=P.K.|last=Bajpai|title=Biological Instrumentation and Biology|url=http://books.google.com/?id=THq-cOPO8RQC&pg=PA14&dq=%22extinction+coefficient%22+transmittance+length+concentration}}</ref>
+:<math>A_\lambda = - \log \mathcal{T}.\ </math>
+
+==Nuclear physics==
+[[File:Cross-section-illustration-simple.svg|right]]
+{{Main|neutron cross section}}
+In [[nuclear physics]], it is convenient to express the probability of a particular event by a cross section. Statistically, the centers of the atoms in a thin foil can be considered as points evenly distributed over a plane. The center of an atomic projectile striking this plane has geometrically a definite probability of passing within a certain distance <math>r</math> of one of these points. In fact, if there are <math>n</math> atomic centers in an area <math>A</math> of the plane, this probability is <math>(n \pi r^2)/A</math>, which is simply the ratio of the aggregate area of circles of radius <math>r</math> drawn around the points to the whole area. If we think of the atoms as impenetrable steel discs and the impinging particle as a bullet of negligible diameter, this ratio is the probability that the bullet will strike a steel disc, i.e., that the atomic projectile will be stopped by the foil. If it is the fraction of impinging atoms getting through the foil which is measured, the result can still be expressed in terms of the equivalent stopping cross section of the atoms. This notion can be extended to any interaction between the impinging particle and the atoms in the target. For example, the probability that an [[alpha particle]] striking a [[beryllium]] target will produce a neutron can be expressed as the equivalent cross section of beryllium for this type of reaction.
+
+==Rate (particle physics)==
+
+{{main|Event (particle physics)}}
+{{for|the similar quantity in [[chemical kinetics]]|reaction rate}}
+
+In [[scattering theory]], [[particle physics]] and [[nuclear physics]], the '''rate''' at which a specific [[subatomic particle]] reaction occurs is a [[physical quantity]] measuring the number of reactions per unit time.
+
+===Partial cross section===
+
+For a particle beam (say of [[neutron]]s, [[pion]]s) incident on a target ([[liquid hydrogen]]), for each type of reaction in the scattering process labelled by an index ''r'' = 1, 2, 3..., it is calculated from:<ref name="Martin Shaw p 343 - 347">{{cite book|author=B.R. Martin, G. Shaw|year=2009|title=Particle Physics|edition=3rd|publisher=Manchester Physics Series, John Wiley & Sons|pages=343–347|isbn=978-0-470-03294-7|url=http://books.google.co.uk/books?id=7tsVcsm84rEC&pg=PT383&dq=Rate+and+cross+section+particle+physics&hl=en&sa=X&ei=pj2vUajEGsKc0wXRk4GgBg&ved=0CDEQ6AEwAA}}</ref>
+
+:<math>W_r = JN\sigma_r</math>
+
+where ''N'' is the number of target particles, illuminated by the beam containing ''n'' particles per unit volume in the beam ([[number density]] of particles) traveling with average [[velocity]] ''v'' in the [[rest frame]] of the target, and these two quantities combine into the [[flux]] of the beam ''J'' = ''nv''. The cross section of the reaction is ''σ<sub>r</sub>''. Since the beam flux has [[dimensional analysis|dimension]]s of [length]<sup>−2</sup>·[time]<sup>−1</sup> and ''σ<sub>r</sub>'' has dimensions of [length]<sup>2</sup> while ''N'' is a dimensionless number, the rate ''W'' has the dimensions of reciprocal time - which intuitively represents a [[frequency]] of recurring events.
+
+The above formula assumes the following:
+
+*the beam particles all have the same [[kinetic energy]], 
+*the number density of the beam particles is sufficiently low: allowing the interactions between the particles within the beam to be neglected,
+*the number density of target particles is sufficiently low: so that only one scattering event per particle occurs as soon as the beam is incident with the target, and multiple scattering events within the target can be neglected,
+*the [[matter wave|de Broglie wavelength]] of the beam is much smaller than the inter-particle separations within the target, so that [[diffraction]] effects through the target can be neglected,
+*the collision energy is sufficiently high allowing the [[binding energy|binding energies]] in the target particles to be neglected.
+
+These conditions are usually met in experiments, which allows for a very simple calculation of rate.
+
+Sometimes the rate per unit target particle, or '''rate density''', is more useful. For reaction ''r'':<ref>{{cite book|title=Radiation detection and measurement|edition=4th|publisher=Wiley|author=G.F. Knoll|page=55|year=2010|isbn=978-0-470-13148-0|url=http://books.google.co.uk/books?id=4vTJ7UDel5IC&printsec=frontcover&dq=radiation+detection+and+measurement&hl=en&sa=X&ei=kT6vUe_eKZK00QWdloCIBQ&sqi=2&ved=0CDcQ6AEwAA#v=onepage&q=radiation%20detection%20and%20measurement&f=false}}</ref>
+
+:<math>W_r/N = J\sigma_r</math>
+
+===Total cross section===
+
+The cross section ''σ<sub>r</sub>'' is specifically for ''one'' type of reaction, and is called the partial cross section. The total cross section, and corresponding total rate of the reaction, can be found by summing over the cross sections and rates for each reaction:<ref name="Martin Shaw p 343 - 347"/>
+
+:<math>W = \sum_r W_r = JN \sum_r \sigma_r = JN \sigma</math>
+
+===Differential cross section===
+
+In terms of the [[differential cross section]] ''dσ<sub>r</sub>''(''θ'', ''φ'') as a function of [[spherical polar coordinates|spherical polar angles]] ''θ'' and ''φ'' for reaction ''r'', the differential rate is:<ref name="Martin Shaw p 343 - 347"/>
+
+:<math>dW_r = JN d\sigma_r  = JN \frac{d\sigma_r}{d\Omega} d\Omega</math>
+
+where dΩ = ''d''(cos''θ'')''dφ'' is the [[solid angle]] element in the vicinity of the event with vertex at the point of scattering. Integrating over ''θ'' and ''φ'' returns the rate for reaction ''r'':
+
+:<math>W_r = JN \int_0^{2\pi} d\varphi \int_{-1}^{+1} d(\cos\theta) \frac{d\sigma_r}{d\Omega} </math>
+
+==See also==
+
+*[[Cross sectional area]]
+*[[Differential cross section]]
+*[[Luminosity (scattering theory)]]
+*[[Neutron cross section]]
+*[[Particle detector]]
+*[[Radar]]: The (monostatic) [[radar cross section]] is defined as 4 π times the [[radio]] differential cross section at 180 degrees.
+*[[Rutherford scattering]]
+*[[Scattering amplitude]]
+
+== References ==
+{{More footnotes|date=December 2009}}
+
+{{reflist}}
+
+* J.D.Bjorken, S.D.Drell, ''Relativistic Quantum Mechanics'', 1964
+* P.Roman, ''Introduction to Quantum Theory'', 1969
+* W.Greiner, J.Reinhardt, ''Quantum Electrodynamics'', 1994
+* R.G. Newton. ''Scattering Theory of Waves and Particles''. McGraw Hill, 1966.
+*{{cite book| author=R.C. Fernow|title=Introduction to Experimental Particle Physics|year=1989|edition=|publisher=Cambridge University Press|pages=|isbn=0-521-379-407|url=http://books.google.co.uk/books?id=WNhMzhm0SscC&pg=PA80&dq=Rate+and+cross+section+particle+physics&hl=en&sa=X&ei=pj2vUajEGsKc0wXRk4GgBg&ved=0CD4Q6AEwAg#v=onepage&q=Rate%20and%20cross%20section%20particle%20physics&f=false}}
+
+==External links==
+*[http://hyperphysics.phy-astr.gsu.edu/Hbase/nuclear/nucrea.html#c3 Nuclear Cross Section]
+*[http://hyperphysics.phy-astr.gsu.edu/Hbase/nuclear/crosec.html#c1 Scattering Cross Section]
+*[http://www-nds.iaea.org/ IAEA - Nuclear Data Services]
+*[http://www.nndc.bnl.gov/ BNL - National Nuclear Data Center]
+*[http://pdg.lbl.gov/ Particle Data Group - The Review of Particle Physics]
+*[http://www.iupac.org/goldbook/R05169.pdf IUPAC Goldbook - Definition: Reaction Cross Section]
+*[http://www.iupac.org/goldbook/C01161.pdf IUPAC Goldbook - Definition: Collision Cross Section]
+
+[[Category:Concepts in physics]]
+[[Category:Nuclear physics]]
+[[Category:Particle physics]]
+[[Category:Experimental particle physics]]
+[[Category:Scattering]]
+[[Category:Scattering theory]]
+[[Category:Dimensional analysis]]
+[[Category:Measurement]]

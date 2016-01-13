@@ -1,0 +1,286 @@
+{{Use dmy dates|date=September 2013}}
+[[File:Bose Einstein condensate.png|right|thumb|upright=1.20|Velocity-distribution data (3 views) for a gas of [[rubidium]] atoms, confirming the discovery of a new phase of matter, the Bose–Einstein condensate. {{j|Left: just}} before the appearance of a Bose–Einstein condensate. Center: just after the appearance of the condensate. {{j|Right: after}} further evaporation, leaving a sample of nearly pure condensate.]]
+A '''Bose–Einstein condensate (BEC)''' is a [[state of matter]] of a dilute gas of [[boson]]s cooled to [[temperature]]s very close to [[absolute zero]] (that is, very near {{val|0|u=K}} or {{val|-273.15|u=°C}}<ref>{{cite book | title=Thermodynamics | first1=C. P. | last1=Arora | publisher=Tata McGraw-Hill | year=2001 | isbn=0-07-462014-2 |page=43 | url=http://books.google.com/books?id=w8GhW3J8RHIC}}, [http://books.google.com/books?id=w8GhW3J8RHIC&pg=PA43 Table 2.4 page 43]</ref>).  Under such conditions, a large fraction of the bosons occupy the lowest [[quantum state]], at which point [[quantum]] effects become apparent on a [[macroscopic scale]]. These effects are called [[macroscopic quantum phenomena]].
+
+Although later experiments have revealed complex interactions, this state of matter was first predicted, generally, in papers by [[Satyendra Nath Bose]] and [[Albert Einstein]] in 1924–25. Bose first sent a paper to Einstein on the [[quantum statistics]] of light quanta (now called [[photon]]s). Einstein was impressed, translated the paper himself from English to German and submitted it for Bose to the ''[[Zeitschrift für Physik]]'', which published it. (The Einstein manuscript, once believed to be lost, was found in a library at [[Leiden University]] in 2005.<ref>{{cite web|url=http://www.lorentz.leidenuniv.nl/history/Einstein_archive/ |title=Leiden University Einstein archive |publisher=Lorentz.leidenuniv.nl |date=27 October 1920 |accessdate=23 March 2011}}</ref>). Einstein then extended Bose's ideas to material particles (or matter) in two other papers.<ref>{{cite book |first=Ronald W. |last=Clark |title=Einstein: The Life and Times |publisher=Avon Books |year=1971 |pages=408–409 |isbn=0-380-01159-X }}</ref> The result of the efforts of Bose and Einstein is the concept of a [[Bose gas]], governed by [[Bose–Einstein statistics]], which describes the statistical distribution of [[identical particles]] with [[integer]] [[spin (physics)|spin]], now known as [[bosons]]. Bosonic particles, which include the photon as well as atoms such as [[helium-4]] (<sup>4</sup>He), are allowed to share quantum states with each other. Einstein demonstrated that cooling bosonic atoms to a very low temperature would cause them to fall (or "condense") into the lowest accessible [[quantum state]], resulting in a new form of matter.
+
+In 1938 [[Fritz London]] proposed BEC as a mechanism for [[superfluidity]] in <sup>4</sup>He and [[superconductivity]].<ref>{{cite journal |first=F. |last=London |title=The λ-Phenomenon of Liquid Helium and the Bose–Einstein Degeneracy |journal=[[Nature (journal)|Nature]] |volume=141 |issue=3571 |pages=643–644 |year=1938 |doi=10.1038/141643a0 |bibcode = 1938Natur.141..643L }}</ref><ref>London, F. ''Superfluids'' Vol.I and II, (reprinted New York: Dover 1964)</ref>
+
+In 1995 the first gaseous condensate was produced by [[Eric Allin Cornell|Eric Cornell]] and [[Carl Wieman]] at the [[University of Colorado at Boulder]] [[National Institute of Standards and Technology|NIST]]–[[JILA]] lab, using a gas of [[rubidium]] atoms cooled to 170 [[kelvin|nanokelvin]] (nK) <ref>{{cite web|title = New State of Matter Seen Near Absolute Zero|url=http://physics.nist.gov/News/Update/950724.html|publisher=NIST}}</ref> ({{val|1.7|e=-7|u=K}}). For their achievements Cornell, Wieman, and [[Wolfgang Ketterle]] at [[MIT]] received the 2001 [[Nobel Prize in Physics]].<ref>{{cite web | last = Levi | first = Barbara Goss | title = Cornell, Ketterle, and Wieman Share Nobel Prize for Bose–Einstein Condensates | work = Search & Discovery | publisher = Physics Today online| year = 2001 | url = http://www.physicstoday.org/pt/vol-54/iss-12/p14.html | accessdate = 26 January 2008 |archiveurl =http://web.archive.org/web/20071024134547/http://www.physicstoday.org/pt/vol-54/iss-12/p14.html |archivedate = 24 October 2007}}</ref> In November 2010 the first photon BEC was observed.<ref>{{cite journal|doi=10.1038/nature09567|title=Bose–Einstein condensation of photons in an optical microcavity|year=2010|last1=Klaers|first1=Jan|last2=Schmitt|first2=Julian|last3=Vewinger|first3=Frank|last4=Weitz|first4=Martin|journal=Nature|volume=468|issue=7323|pages=545–548|pmid=21107426|bibcode = 2010Natur.468..545K |arxiv = 1007.4088 }}</ref> In 2012 the theory of the photon BEC was developed.<ref>{{cite journal |last=Sob'yanin |first=D. N. |year=2013 |title=Theory of Bose-Einstein condensation of light in a microcavity |journal=[[Bulletin of the Lebedev Physics Institute|Bull. Lebedev Phys. Inst.]] |volume=40 |issue=4 |pages=91-96 |arxiv=1308.4089 |bibcode=2013BLPI...40...91S |doi=10.3103/S1068335613040039}}</ref><ref>{{cite journal |last=Sob'yanin |first=Denis Nikolaevich |year=2013 |title=Bose-Einstein condensation of light: General theory |journal=[[Physical Review E|Phys. Rev. E]] |volume=88 |issue=2 |pages=022132 |arxiv=1308.4090 |pmid=24032800 |bibcode=2013PhRvE..88b2132S |doi=10.1103/PhysRevE.88.022132}}</ref>
+
+
+This transition to BEC occurs below a critical temperature, which for a uniform [[Three-dimensional space|three-dimensional]] gas consisting of non-interacting particles with no apparent internal degrees of freedom is given by:
+
+:<math>T_c=\left(\frac{n}{\zeta(3/2)}\right)^{2/3}\frac{2\pi \hbar^2}{ m k_B} \approx 3.3125 \ \frac{\hbar^2 n^{2/3}}{m k_B} </math>
+
+where:
+
+<dl><dd>
+{|cellspacing="0" cellpadding="0"
+|-
+| <math>\,T_c</math>
+| &nbsp;is&nbsp;
+| the critical temperature,
+|-
+| <math>\,n</math>
+| &nbsp;is&nbsp;
+| the [[Number density|particle density]],
+|-
+| <math>\,m</math>
+| &nbsp;is&nbsp;
+| the mass per boson,
+|-
+| <math>\hbar</math>
+| &nbsp;is&nbsp;
+| the reduced [[Planck constant]],
+|-
+| <math>\,k_B</math>
+| &nbsp;is&nbsp;
+| the [[Boltzmann constant]], and
+|-
+| <math>\,\zeta</math>
+| &nbsp;is&nbsp;
+| the [[Riemann zeta function]]; <math>\,\zeta(3/2)\approx 2.6124.</math> {{OEIS|id=A078434}}
+|}
+</dd></dl>
+
+== Einstein's argument ==
+
+Consider a collection of ''N'' noninteracting particles, which can each be in one of two [[quantum state]]s, <math>\scriptstyle|0\rangle</math> and <math>\scriptstyle|1\rangle</math>. If the two states are equal in energy, each different configuration is equally likely.
+
+If we can tell which particle is which, there are <math>2^N</math> different configurations, since each particle can be in <math>\scriptstyle|0\rangle</math> or <math>\scriptstyle|1\rangle</math> independently. In almost all of the configurations, about half the particles are in <math>\scriptstyle|0\rangle</math> and the other half in <math>\scriptstyle|1\rangle</math>. The balance is a statistical effect: the number of configurations is largest when the particles are divided equally.
+
+If the particles are indistinguishable, however, there are only ''N''+1 different configurations. If there are ''K'' particles in state <math>\scriptstyle|1\rangle</math>, there are {{j|''N − K''}} particles in state <math>\scriptstyle|0\rangle</math>. Whether any particular particle is in state <math>\scriptstyle|0\rangle</math> or in state <math>\scriptstyle|1\rangle</math> cannot be determined, so each value of ''K'' determines a unique quantum state for the whole system. If all these states are equally likely, there is no statistical spreading out; it is just as likely for all the particles to sit in <math>\scriptstyle|0\rangle</math> as for the particles to be split half and half.
+
+Suppose now that the energy of state <math>\scriptstyle|1\rangle</math> is slightly greater than the energy of state <math>\scriptstyle|0\rangle</math> by an amount ''E''. At temperature ''T'', a particle will have a lesser probability to be in state <math>\scriptstyle|1\rangle</math> by exp(−''E''/''kT''). In the distinguishable case, the particle distribution will be biased slightly towards state <math>\scriptstyle|0\rangle</math>, and the distribution will be slightly different from half-and-half. But in the indistinguishable case, since there is no statistical pressure toward equal numbers, the most-likely outcome is that most of the particles will collapse into state <math>\scriptstyle|0\rangle</math>.
+
+In the distinguishable case, for large ''N'', the fraction in state <math>\scriptstyle|0\rangle</math> can be computed. It is the same as flipping a coin with probability proportional to ''p''&nbsp;=&nbsp;exp(−''E''/''T'') to land tails. The probability to land heads is {{j|1/(1 + ''p'')}}, which is a smooth function of ''p'', and thus of the energy.
+
+In the indistinguishable case, each value of ''K'' is a single state, which has its own separate Boltzmann probability. So the probability distribution is exponential:
+
+:<math>\,
+P(K)= C e^{-KE/T} = C p^K.
+</math>
+
+For large ''N'', the normalization constant ''C'' is {{j|(1 − ''p'')}}. The expected total number of particles not in the lowest energy state, in the limit that <math>\scriptstyle N\rightarrow \infty</math>, is equal to <math>\scriptstyle \sum_{n>0} C n p^n=p/(1-p) </math>. It does not grow when ''N'' is large; it just approaches a constant. This will be a negligible fraction of the total number of particles. So a collection of enough Bose particles in thermal equilibrium will mostly be in the ground state, with only a few in any excited state, no matter how small the energy difference.
+
+Consider now a gas of particles, which can be in different momentum states labeled <math>\scriptstyle|k\rangle</math>. If the number of particles is less than the number of thermally accessible states, for high temperatures and low densities, the particles will all be in different states. In this limit, the gas is classical. As the density increases or the temperature decreases, the number of accessible states per particle becomes smaller, and at some point, more particles will be forced into a single state than the maximum allowed for that state by statistical weighting. From this point on, any extra particle added will go into the ground state.
+
+To calculate the transition temperature at any density, integrate, over all momentum states, the expression for maximum number of excited particles, {{j|''p''/(1 − ''p'')}}:
+
+:<math>\,
+ N = V \int {d^3k \over (2\pi)^3} {p(k)\over 1-p(k)} = V \int {d^3k \over (2\pi)^3} {1 \over e^{k^2\over 2mT}-1} </math>
+:<math>\,
+p(k)= e^{-k^2\over 2mT}.
+</math>
+
+When the integral is evaluated with the factors of ''k''<sub>''B''</sub>  and {{Unicode|ℏ}} restored by dimensional analysis, it gives the critical temperature formula of the preceding section. Therefore, this integral defines the critical temperature and particle number corresponding to the conditions of negligible [[chemical potential]].  In [[Bose–Einstein statistics]] distribution, μ is actually still nonzero for BEC'''s''; however, μ is less than the ground state energy. Except when specifically talking about the ground state, μ can consequently be approximated for most energy or momentum states as&nbsp;μ&nbsp;≈&nbsp;0.
+
+=== Gross–Pitaevskii equation ===
+{{Main|Gross–Pitaevskii equation}}
+
+The state of the BEC can be described by the wavefunction of the condensate <math>\psi(\vec{r})</math>. For a [[Schrödinger field|system of this nature]], <math>|\psi(\vec{r})|^2</math> is interpreted as the particle density, so the total number of atoms is <math>N=\int d\vec{r}|\psi(\vec{r})|^2</math>
+
+Provided essentially all atoms are in the condensate (that is, have condensed to the ground state), and treating the bosons using [[mean field theory]], the energy (E) associated with the state <math>\psi(\vec{r})</math> is:
+
+:<math>E=\int
+d\vec{r}\left[\frac{\hbar^2}{2m}|\nabla\psi(\vec{r})|^2+V(\vec{r})|\psi(\vec{r})|^2+\frac{1}{2}U_0|\psi(\vec{r})|^4\right]</math>
+
+Minimizing this energy with respect to infinitesimal variations in <math>\psi(\vec{r})</math>, and holding the number of atoms constant, yields the Gross–Pitaevski equation (GPE) (also a non-linear [[Schrödinger equation]]):
+
+:<math>i\hbar\frac{\partial \psi(\vec{r})}{\partial t} = \left(-\frac{\hbar^2\nabla^2}{2m}+V(\vec{r})+U_0|\psi(\vec{r})|^2\right)\psi(\vec{r})</math>
+
+where:
+
+<dl><dd>
+{|cellspacing="0" cellpadding="0"
+|-
+| <math>\,m</math>
+| &nbsp;is the mass of the bosons,
+|-
+| <math>\,V(\vec{r})</math>
+| &nbsp;is the external potential,
+|-
+| <math>\,U_0</math>
+| &nbsp;is representative of the inter-particle interactions.
+|}
+</dd></dl>
+
+The GPE provides a good description of the behavior of BEC's and is thus often applied for theoretical analysis.
+
+== Models beyond Gross–Pitaevskii ==
+The Gross–Pitaevskii model of BEC is the physical [[approximation]] valid for certain classes of BEC's only. By construction, [[Gross–Pitaevskii equation|GPE]] uses the following simplifications: it assumes that interactions between condensate particles are of the contact two-body type and also it neglects anomalous contributions to [[self-energy]].<ref>Beliaev, S. T. Zh. Eksp. Teor. Fiz. 34, 418–432 (1958); ibid. 433–446 [Soviet Phys. JETP 3,  299 (1957)].</ref> These assumptions are suitable mostly for the dilute three-dimensional condensates. If one relaxes any of these assumptions, the equation for the condensate [[wavefunction]] acquires the terms containing higher-order powers of the wavefunction. Moreover, for some physical systems the amount of such terms turns out to be infinite, therefore, the equation becomes essentially non-polynomial. The examples where this could happen are the Bose–Fermi composite condensates,<ref>{{cite doi|10.1103/PhysRevA.3.1067}}</ref><ref>{{cite doi|10.1103/PhysRevB.46.11749}}</ref><ref>{{cite doi| 10.1103/PhysRevLett.85.1146 }}</ref><ref>{{cite doi|10.1103/PhysRevA.69.043607}}</ref> effectively lower-dimensional condensates,<ref>{{cite journal |first=L. |last=Salasnich |first2=A. |last2=Parola |first3=L. |last3=Reatto |title=Effective wave equations for the dynamics of cigar-shaped and disk-shaped Bose condensates |journal=Phys. Rev. A |volume=65 |issue=4 |pages=043614 |year=2002 |doi=10.1103/PhysRevA.65.043614 |arxiv = cond-mat/0201395 |bibcode = 2002PhRvA..65d3614S }}</ref> and dense condensates and [[superfluid]] clusters and droplets.<ref>{{cite journal |first=A. V. |last=Avdeenkov |first2=K. G. |last2=Zloshchastiev |title=Quantum Bose liquids with logarithmic nonlinearity: Self-sustainability and emergence of spatial extent |journal=J. Phys. B: At. Mol. Opt. Phys. |volume=44 |year=2011 |pages=195303 |doi=10.1088/0953-4075/44/19/195303 |arxiv=1108.0847 |bibcode = 2011JPhB...44s5303A |issue=19 }}</ref>
+
+== Discovery ==
+
+In 1938, [[Pyotr Leonidovich Kapitsa|Pyotr Kapitsa]], [[John F. Allen|John Allen]] and [[Don Misener]] discovered that [[helium-4]] became a new kind of fluid, now known as a [[superfluid]], at temperatures less than 2.17 K (the [[lambda point]]). Superfluid helium has many unusual properties, including zero [[viscosity]] (the ability to flow without dissipating energy) and the existence of [[quantized vortex|quantized vortices]]. It was quickly believed that the superfluidity was due to partial Bose–Einstein condensation of the liquid. In fact, many of the properties of superfluid helium also appear in the gaseous Bose–Einstein condensates created by Cornell, Wieman and Ketterle (see below). [[Superfluid helium-4]] is a liquid rather than a gas, which means that the interactions between the atoms are relatively strong; the original theory of Bose–Einstein condensation must be heavily modified in order to describe it. Bose–Einstein condensation remains, however, fundamental to the superfluid properties of helium-4. Note that [[helium-3]], consisting of [[fermion]]s instead of [[boson]]s, also enters a [[superfluid]] phase at low temperature, which can be explained by the formation of bosonic [[Cooper pairs]] of two atoms each (see also [[fermionic condensate]]).
+
+The first "pure" Bose–Einstein condensate was created by [[Eric Cornell]], [[Carl Wieman]], and co-workers at [[JILA]] on 5 June 1995. They did this by cooling a dilute vapor consisting of approximately two thousand [[rubidium|rubidium-87]] atoms to below 170 nK using a combination of [[laser cooling]] (a technique that won its inventors [[Steven Chu]], [[Claude Cohen-Tannoudji]], and [[William D. Phillips]] the 1997 [[Nobel Prize in Physics]]) and [[magnetic evaporative cooling]]. About four months later, an independent effort led by [[Wolfgang Ketterle]] at [[Massachusetts Institute of Technology|MIT]] created a condensate made of [[sodium|sodium-23]]. Ketterle's condensate had about a hundred times more atoms, allowing him to obtain several important results such as the observation of [[quantum mechanics|quantum mechanical]] [[Interference (wave propagation)|interference]] between two different condensates. Cornell, Wieman and Ketterle won the 2001 [[Nobel Prize in Physics]] for their achievements.<ref name=nobel>{{cite web|url=http://nobelprize.org/nobel_prizes/physics/laureates/2001/cornellwieman-lecture.pdf |title=Eric A. Cornell and Carl E. Wieman&nbsp;— Nobel Lecture |format=PDF |publisher=nobelprize.org}}</ref>  A group led by Randall Hulet at Rice University announced the creation of a condensate of [[lithium]] atoms only one month following the JILA work.<ref>{{cite pmid|10060366}}</ref>  Lithium has attractive interactions which causes the condensate to be unstable and to collapse for all but a few atoms. Hulet and co-workers showed in a subsequent experiment that the condensate could be stabilized by the quantum pressure from trap confinement for up to about 1000 atoms.
+
+The Bose–Einstein condensation also applies to [[quasiparticles]] in solids. A [[magnon]] in an [[antiferromagnetism|antiferromagnet]] carries spin 1 and thus obeys Bose–Einstein statistics. The density of magnons is controlled by an external magnetic field, which plays the role of the magnon [[chemical potential]]. This technique provides access to a wide range of boson densities from the limit of a dilute Bose gas to that of a strongly interacting Bose liquid. A magnetic ordering observed at the point of condensation is the analog of superfluidity. In 1999 Bose condensation of magnons was demonstrated in the antiferromagnet [[Thallium|Tl]] [[Copper|Cu]] [[Chlorine|Cl]]<sub>3</sub>.<ref>{{cite journal | first=T.| last= Nikuni | title=Bose–Einstein Condensation of Dilute Magnons in TlCuCl<sub>3</sub>| journal = Physical Review Letters | volume=84 | year=1999 | doi=10.1103/PhysRevLett.84.5868 | last2=Oshikawa | first2=M. | last3=Oosawa | first3=A. | last4=Tanaka | first4=H. | pmid=10991075 | issue=25 | bibcode=2000PhRvL..84.5868N|arxiv = cond-mat/9908118 | pages=5868–71 }}</ref> The condensation was observed at temperatures as large as 14 K. Such a high transition temperature (relative to that of atomic gases) is due to the greater density achievable with magnons and the smaller mass (roughly equal to the mass of an electron). In 2006, condensation of magnons in [[ferromagnetism|ferromagnets]] was even shown at room temperature,<ref name=dem>{{cite journal | first= S.O. |last= Demokritov| title=Bose–Einstein condensation of quasi-equilibrium magnons at room temperature under pumping| journal = Nature|volume = 443 | pages = 430–433|year=2006 |doi=10.1038/nature05117 | pmid= 17006509 | last2= Demidov | first2= VE | last3= Dzyapko | first3= O | last4= Melkov | first4= GA | last5= Serga | first5= AA | last6= Hillebrands | first6= B | last7= Slavin | first7= AN | issue= 7110|bibcode = 2006Natur.443..430D }}</ref><ref>[http://www.uni-muenster.de/Physik.AP/Demokritov/en/Forschen/Forschungsschwerpunkte/mBECfnP.html ''Magnon Bose Einstein Condensation'' made simple]. Website of the "Westfählische Wilhelms Universität Münster" Prof.Demokritov. Retrieved 25 June 2012.</ref> where the authors used pumping techniques.
+
+== Velocity-distribution data graph ==
+
+In the image accompanying this article, the velocity-distribution data indicates the formation of a Bose–Einstein condensate out of a gas of [[rubidium]] atoms. The false colors indicate the number of atoms at each velocity, with red being the fewest and white being the most. The areas appearing white and light blue are at the lowest velocities. The peak is not infinitely narrow because of the [[uncertainty principle|Heisenberg uncertainty principle]]: since the atoms are trapped in a particular region of space, their velocity distribution necessarily possesses a certain minimum width. This width is given by the curvature of the magnetic trapping potential in the given direction. More tightly confined directions have bigger widths in the ballistic velocity distribution. This [[anisotropy]] of the peak on the right is a purely quantum-mechanical effect and does not exist in the thermal distribution on the left. This graph served as the cover design for the 1999 textbook ''Thermal Physics'' by Ralph Baierlein.<ref>{{cite book|url=http://books.google.com/?id=fqUU71spbZYC&printsec=frontcover|title=Thermal Physics|author=Baierlein, Ralph |publisher=Cambridge University Press|year=1999|isbn=0-521-65838-1}}</ref>
+
+== Vortices ==
+{{refimprove section|date=September 2011}}
+As in many other systems, [[vortices]] can exist in BECs. These can be created, for example, by 'stirring' the condensate with lasers, or rotating the confining trap. The vortex created will be a [[quantum vortex]]. These phenomena are allowed for by the non-linear <math>|\psi(\vec{r})|^2</math> term in the GPE. As the vortices must have quantized [[angular momentum]] the wavefunction may have the form <math>\psi(\vec{r})=\phi(\rho,z)e^{i\ell\theta}</math> where <math>\rho, z</math> and <math>\theta</math> are as in the [[cylindrical coordinate system]], and <math>\ell</math> is the angular number.  This is particularly likely for an axially symmetric (for instance, harmonic) confining potential, which is commonly used.  The notion is easily generalized.  To determine <math>\phi(\rho,z)</math>, the energy of <math>\psi(\vec{r})</math> must be minimized, according to the constraint <math>\psi(\vec{r})=\phi(\rho,z)e^{i\ell\theta}</math>. This is usually done computationally, however in a uniform medium the analytic form
+
+:<math>\phi=\frac{nx}{\sqrt{2+x^2}}</math>
+
+where:
+
+<dl><dd>
+{|cellspacing="0" cellpadding="0"
+|-
+| <math>\,n^2</math>
+| &nbsp;is&nbsp;
+| density far from the vortex,
+|-
+| <math>\,x = \frac{\rho}{\ell\xi},</math>
+|-
+| <math>\,\xi</math>
+| &nbsp;is&nbsp;
+| healing length of the condensate.
+|}
+</dd></dl>
+
+demonstrates the correct behavior, and is a good approximation.
+
+A singly charged vortex (<math>\ell=1</math>) is in the ground state, with its energy <math>\epsilon_v</math> given by
+
+:<math>\epsilon_v=\pi n
+\frac{\hbar^2}{m}\ln\left(1.464\frac{b}{\xi}\right)</math>
+
+where:
+
+<dl><dd>
+{|cellspacing="0" cellpadding="0"
+|-
+| <math>\,b</math>
+| &nbsp;is&nbsp;
+| the farthest distance from the vortex considered.
+|}
+</dd></dl>
+(To obtain an energy which is well defined it is necessary to include this boundary <math>b</math>.)
+
+For multiply charged vortices (<math>\ell >1</math>) the energy is approximated by
+
+:<math>\epsilon_v\approx \ell^2\pi n
+\frac{\hbar^2}{m}\ln\left(\frac{b}{\xi}\right)</math>
+
+which is greater than that of <math>\ell</math> singly charged vortices, indicating that these multiply charged vortices are unstable to decay. Research has, however, indicated they are metastable states, so may have relatively long lifetimes.
+
+Closely related to the creation of vortices in BECs is the generation of so-called dark [[soliton]]s in one-dimensional BECs. These topological objects feature a phase gradient across their nodal plane, which stabilizes their shape even in propagation and interaction. Although solitons carry no charge and are thus prone to decay, relatively long-lived dark solitons have been produced and studied extensively.<ref>{{cite journal|author=Becker, Christoph; Stellmer, Simon; Soltan-Panahi, Parvis; Dörscher, Sören; Baumert, Mathis; Richter, Eva-Maria; Kronjäger, Jochen; Bongs, Kai; Sengstock, Klaus| journal=Nature Physics| volume=4| year=2008| pages=496–501| doi=10.1038/nphys962| title=Oscillations and interactions of dark and dark–bright solitons in Bose–Einstein condensates | issue=6| bibcode = 2008NatPh...4..496B | arxiv = 0804.0544}}</ref>
+
+== Attractive interactions ==
+The experiments led by Randall Hulet at Rice University from 1995 through 2000 showed that lithium condensates with attractive interactions could stably exist, but only up to a certain critical atom number.  Beyond this critical number, the attraction overwhelmed the zero-point energy of the harmonic confining potential, causing the condensate to collapse in a burst reminiscent of a supernova explosion where an explosion is preceded by an implosion.  By quench cooling the gas of lithium atoms, they observed the condensate to first grow, and subsequently collapse when the critical number was exceeded.
+
+Further experimentation on attractive condensates was performed in 2000 by the [[JILA]] team, consisting of Cornell, Wieman and coworkers.  They originally used [[rubidium]]-87, an [[isotope]] whose atoms naturally repel each other, making a more stable condensate.  Their instrumentation now had better control over the condensate so experimentation was made on naturally ''attracting'' atoms of another rubidium isotope, rubidium-85 (having negative atom–atom [[scattering length]]). Through a process called [[Feshbach resonance]] involving a sweep of the magnetic field causing spin flip collisions, they lowered the characteristic, discrete energies at which the rubidium atoms bond into molecules, making their Rb-85 atoms repulsive and creating a stable condensate. The reversible flip from attraction to repulsion stems from quantum [[Interference (wave propagation)|interference]] among condensate atoms which behave as waves.
+
+When the JILA team raised the magnetic field strength still further, the condensate suddenly reverted to attraction, imploded and shrank beyond detection, and then exploded, expelling off about two-thirds of its 10,000 or so atoms. About half of the atoms in the condensate seemed to have disappeared from the experiment altogether, not being seen either in the cold remnant or the expanding gas cloud.<ref name=nobel/> [[Carl Wieman]] explained that under current atomic theory this characteristic of Bose–Einstein condensate could not be explained because the energy state of an atom near absolute zero should not be enough to cause an implosion; however, subsequent mean field theories have been proposed to explain it.  The atoms that seem to have disappeared almost certainly still exist in some form, just not in a form that could be accounted for in that experiment. Most likely they formed molecules consisting of two bonded rubidium atoms.<ref>{{cite journal | title=Pair condensates produced in bosenovae | author= van Putten, M.H.P.M. |  bibcode=2010PhLA..374.3346V | volume=374 | year=2010 | pages=3346 | journal=Physics Letters A | doi=10.1016/j.physleta.2010.06.020 | issue=33}}</ref> The energy gained by making this transition imparts a velocity sufficient for them to leave the trap without being detected.
+
+== Current research ==
+{{unsolved|physics|How do we rigorously prove the existence of Bose-Einstein condensates for general interacting systems?}}
+Compared to more commonly encountered states of matter, Bose–Einstein condensates are extremely fragile. The slightest interaction with the outside world can be enough to warm them past the condensation threshold, eliminating their interesting properties and forming a normal gas. {{Citation needed|date=April 2011}}
+
+Nevertheless, they have proven useful in exploring a wide range of questions in fundamental physics, and the years since the initial discoveries by the JILA and MIT groups have seen an explosion in experimental and theoretical activity. Examples include experiments that have demonstrated [[Interference (wave propagation)|interference]] between condensates due to [[wave–particle duality]],<ref>{{cite web|author=Gorlitz, Axel | url=http://cua.mit.edu/ketterle_group/Projects_1997/Interference/Interference_BEC.htm | title=Interference of Condensates (BEC@MIT) | publisher=Cua.mit.edu | accessdate=13 October 2009}}</ref> the study of [[superfluidity]] and quantized [[vortex|vortices]], the creation of bright matter wave [[soliton]]s from Bose condensates confined to one dimension, and the [[slow light|slowing of light]] pulses to very low speeds using [[electromagnetically induced transparency]].<ref>{{cite journal| author=Dutton, Zachary; Ginsberg, Naomi S.; Slowe, Christopher and Hau, Lene Vestergaard | url=http://www.europhysicsnews.org/articles/epn/pdf/2004/02/epn04201.pdf | title=The art of taming light: ultra-slow and stopped light| journal=Europhysics News| volume=35| issue=2| year=2004| page=33| doi=10.1051/epn:2004201| bibcode = 2004ENews..35...33D }}</ref> Vortices in Bose–Einstein condensates are also currently the subject of [[analogue gravity]] research, studying the possibility of modeling black holes and their related phenomena in such environments in the lab. Experimenters have also realized "[[optical lattice]]s", where the interference pattern from overlapping lasers provides a [[periodic potential]] for the condensate. These have been used to explore the transition between a superfluid and a [[Mott insulator]],<ref>{{cite web| url=http://qpt.physics.harvard.edu/qptsi.html | title=From Superfluid to Insulator: Bose–Einstein Condensate Undergoes a Quantum Phase Transition | publisher=Qpt.physics.harvard.edu | accessdate=13 October 2009}}</ref> and may be useful in studying Bose–Einstein condensation in fewer than three dimensions, for example the [[Tonks–Girardeau gas]].
+
+Bose–Einstein condensates composed of a wide range of [[isotope]]s have been produced.<ref>{{cite web| url=http://physicsworld.com/cws/article/print/2005/jun/01/ten-of-the-best-for-bec| title=Ten of the best for BEC | publisher=Physicsweb.org | date=1 June 2005 }}</ref>
+
+Related experiments in cooling [[fermions]] rather than [[bosons]] to extremely low temperatures have created [[degenerate matter|degenerate]] gases, where the atoms do not congregate in a single state due to the [[Pauli exclusion principle]]. To exhibit Bose–Einstein condensation, the fermions must "pair up" to form compound particles (e.g. [[molecules]] or [[BCS theory|Cooper pairs]]) that are bosons. The first [[molecule|molecular]] Bose–Einstein condensates were created in November 2003 by the groups of [[Rudolf Grimm]] at the [[University of Innsbruck]], [[Deborah S. Jin]] at the [[University of Colorado at Boulder]] and [[Wolfgang Ketterle]] at [[Massachusetts Institute of Technology|MIT]]. Jin quickly went on to create the first [[fermionic condensate]] composed of [[Cooper pair]]s.<ref>{{cite web| url=http://physicsworld.com/cws/article/news/2004/jan/28/fermionic-condensate-makes-its-debut|title=Fermionic condensate makes its debut| publisher=Physicsweb.org | date=28 January 2004 }}</ref>
+
+In 1999, Danish physicist [[Lene Hau]] led a team from [[Harvard University]] which succeeded in [[Slow light|slowing a beam of light]] to about 17 meters per second{{Clarify|date=January 2010|reason=group velocity and not actual velocity?}}. She was able to achieve this by using a superfluid.<ref>{{cite news | last = Cromie | first = William J. | title = Physicists Slow Speed of Light | publisher = The Harvard University Gazette | date = 18 February 1999 | url = http://news.harvard.edu/gazette/1999/02.18/light.html | accessdate = 26 January 2008 }}</ref> Hau and her associates at Harvard University have since successfully made a group of condensate atoms recoil from a "light pulse" such that they recorded the light's phase and amplitude, which was recovered by a second nearby condensate, by what they term "slow-light-mediated atomic matter-wave amplification" using Bose–Einstein condensates: details of the experiment are discussed in an article in the journal ''[[Nature (journal)|Nature]]'', 8 February 2007.<ref>{{cite pmid|17287804}}</ref>
+
+Researchers in the new field of [[atomtronics]] use the properties of Bose–Einstein condensates when manipulating groups of identical cold atoms using lasers.<ref>{{cite journal| url=http://www.sciencenews.org/view/generic/id/69786|title=Atomtronics may be the new electronics | journal=Science News Online| volume=157| date=12 February 2000| page=104| author=Weiss, P. | accessdate=12 February 2011| doi=10.2307/4012185| issue=7}}</ref> Further, Bose–Einstein condensates have been proposed by [[Emmanuel David Tannenbaum]] to be used in anti-[[stealth technology]].<ref>{{cite arXiv| last=Tannenbaum| first=Emmanuel David | title=Gravimetric Radar: Gravity-based detection of a point-mass moving in a static background| year=1970| eprint=1208.2377| class=physics.ins-det}}</ref>
+
+=== Isotopes ===
+{{refimprove section|date=July 2010}}
+The effect has mainly been observed on alkaline atoms which have nuclear properties particularly suitable for working with traps. As of 2012, using ultra-low temperatures of {{nowrap|10<sup>−7</sup> K}} or below, Bose–Einstein condensates had been obtained for a multitude of isotopes, mainly of [[alkali metal|alkaline]], [[alkaline earth metal|alkaline earth]],
+and [[Lanthanide|lanthanoid]] atoms ([[lithium|<sup>7</sup>Li]], [[sodium|<sup>23</sup>Na]], [[potassium|<sup>39</sup>K]], [[potassium|<sup>41</sup>K]], [[rubidium|<sup>85</sup>Rb]], <sup>87</sup>Rb, [[caesium|<sup>133</sup>Cs]], [[chromium|<sup>52</sup>Cr]], [[calcium|<sup>40</sup>Ca]], [[strontium|<sup>84</sup>Sr]], [[strontium|<sup>86</sup>Sr]], [[strontium|<sup>88</sup>Sr]],  [[ytterbium|<sup>174</sup>Yb]], [[dysprosium|<sup>164</sup>Dy]], and [[erbium|<sup>168</sup>Er]] ). Condensation research was finally successful even with hydrogen with the aid of special methods. In contrast, the superfluid state of the bosonic [[Helium|<sup>4</sup>He]] at temperatures below {{nowrap|2.17 K}} is not a good example of Bose–Einstein condensation, because the interaction between the <sup>4</sup>He bosons is too strong. Only 8% of the atoms are in the single-particle ground state near zero temperature, rather than the 100% expected of a true Bose–Einstein condensate.
+
+The [[spin-statistics theorem]] of [[Wolfgang Pauli]] states that half-integer spins (in units of <math style="vertical-align:-0%;">\scriptstyle \hbar</math>) lead to fermionic behavior, e.g., the [[Pauli exclusion principle]] forbidding that more than two electrons possess the same energy, whereas integer spins lead to bosonic behavior, e.g., condensation of identical bosonic particles in a common ground state.
+
+The [[boson]]ic, rather than [[fermion]]ic, behavior of some of these alkaline gases appears odd at first sight, because their nuclei have half-integer total spin.  The bosonic behavior arises from a subtle interplay of electronic and nuclear spins: at ultra-low temperatures and corresponding excitation energies, the half-integer total spin of the electronic shell and the half-integer total spin of the nucleus of the atom are coupled by a very weak [[hyperfine coupling|hyperfine interaction]].  The total spin of the atom, arising from this coupling, is an integer value leading to the bosonic ultra-low temperature behavior of the atom.  The chemistry of the systems at room temperature is determined by the electronic properties, which is essentially fermionic, since at room temperature, thermal excitations have typical energies much higher than the hyperfine values.
+
+== See also ==
+{{Portal|Physics}}
+{{colbegin|3}}
+*[[Atom laser]]
+*[[Atomic coherence]]
+*[[Bose–Einstein correlations]]
+*[[Bose–Einstein condensation: a network theory approach]]
+*[[Electromagnetically induced transparency]]
+*[[Fermionic condensate]]
+*[[Gas in a box]]
+*[[Gross–Pitaevskii equation]]
+*[[Macroscopic quantum phenomena]]
+*[[Macroscopic quantum self-trapping]]
+*[[Slow light]]
+*[[Superconductivity]]
+*[[Superfluid film]]
+*[[Superfluid helium-4]]
+*[[Supersolid]]
+*[[Tachyon condensation]]
+*[[Timeline of low-temperature technology]]
+*[[Transuranium element#Super-heavy atoms|Super-heavy atom]]
+*[[Wiener sausage]]
+{{colend}}
+
+== References ==
+{{Reflist|colwidth=30em}}
+
+== Further reading ==
+{{Refbegin|colwidth=60em}}
+*{{cite journal |last=Bose |first=S. N. |year=1924 |title=Plancks Gesetz und Lichtquantenhypothese |journal=Zeitschrift für Physik |volume=26 |page=178|doi=10.1007/BF01327326 |bibcode = 1924ZPhy...26..178B }}
+*{{cite journal |last=Einstein |first=A.|year=1925 |title=Quantentheorie des einatomigen idealen Gases |journal=Sitzungsberichte der Preussischen Akademie der Wissenschaften |volume=1 |page=3}},
+*{{cite journal |last=Landau |first=L. D. |year=1941 |title=The theory of Superfluity of Helium 111 |journal=J. Phys. USSR |volume=5 |pages=71–90}}
+*{{cite journal | author=[[Lev Landau|L. Landau]] | title=Theory of the Superfluidity of Helium II | journal=Physical Review | year=1941 | volume=60 | pages=356–358 | doi=10.1103/PhysRev.60.356 | issue=4 |bibcode = 1941PhRv...60..356L }}
+*{{cite journal | author=M.H. Anderson, J.R. Ensher, M.R. Matthews, C.E. Wieman, and E.A. Cornell | title=Observation of Bose–Einstein Condensation in a Dilute Atomic Vapor | journal=Science | year=1995 | volume=269 | pages=198–201 | jstor=2888436 | doi=10.1126/science.269.5221.198 | pmid=17789847 | issue=5221 |bibcode = 1995Sci...269..198A }}
+*{{cite journal | author= C. Barcelo, S. Liberati and M. Visser | title=Analogue gravity from Bose–Einstein condensates | journal=Classical and Quantum Gravity | year=2001 | volume=18 | pages=1137–1156 | doi=10.1088/0264-9381/18/6/312 | issue= 6|arxiv = gr-qc/0011026 |bibcode = 2001CQGra..18.1137B }}
+*{{cite journal | author= P.G. Kevrekidis, R. Carretero-Gonzlaez, D.J. Frantzeskakis and I.G. Kevrekidis | title=Vortices in Bose–Einstein Condensates: Some Recent Developments | journal=[[Modern Physics Letters B]] | year=2006 | volume=5|url=http://nlds.sdsu.edu/ | issue=33}}
+*{{cite journal | author=K.B. Davis, M.-O. Mewes, M.R. Andrews, N.J. van Druten, D.S. Durfee, D.M. Kurn, and W. Ketterle | title=Bose–Einstein condensation in a gas of sodium atoms | journal=Physical Review Letters | year=1995 | volume=75 | pages=3969–3973| doi=10.1103/PhysRevLett.75.3969 | pmid=10059782 | issue=22 | bibcode=1995PhRvL..75.3969D}}.
+*{{cite journal | author=D. S. Jin, J. R. Ensher, M. R. Matthews, C. E. Wieman, and E. A. Cornell | title=Collective Excitations of a Bose–Einstein Condensate in a Dilute Gas | journal=Physical Review Letters | year=1996 | volume=77 | pages=420–423 | doi=10.1103/PhysRevLett.77.420 | pmid=10062808 | issue=3 | bibcode=1996PhRvL..77..420J}}
+*{{cite journal | author=M. R. Andrews, C. G. Townsend, H.-J. Miesner, D. S. Durfee, D. M. Kurn, and W. Ketterle | title= Observation of interference between two Bose condensates  | doi = 10.1126/science.275.5300.637| journal=Science | year=1997 | volume=275 | pages=637–641 | pmid=9005843 | issue=5300 }}.
+*{{cite journal | author=Eric A. Cornell and Carl E. Wieman | title=The Bose–Einstein Condensate | journal=Scientific American | year=1998 | volume=278 |pages=40–45 | issue=3 | doi=10.1038/scientificamerican0398-40}}
+*{{cite journal | author=M. R. Matthews, B. P. Anderson, P. C. Haljan, D. S. Hall, C. E. Wieman, and E. A. Cornell | title=Vortices in a Bose–Einstein Condensate | journal=Physical Review Letters | year=1999 | volume=83 | pages=2498–2501 | doi=10.1103/PhysRevLett.83.2498 | issue=13 | bibcode=1999PhRvL..83.2498M|arxiv = cond-mat/9908209 }}
+*{{cite journal | author=E.A. Donley, N.R. Claussen, S.L. Cornish, J.L. Roberts, E.A. Cornell, and C.E. Wieman | title=Dynamics of collapsing and exploding Bose–Einstein condensates | journal=Nature | year=2001 | volume=412 | pages=295–299 | doi=10.1038/35085500 | pmid=11460153 | issue=6844|arxiv = cond-mat/0105019 |bibcode = 2001Natur.412..295D }}
+*{{cite journal | author=A. G. Truscott, K. E. Strecker, W. I. McAlexander, G. B. Partridge, and R. G. Hulet | title=Observation of Fermi Pressure in a Gas of Trapped Atoms  | doi = 10.1126/science.1059318| journal=Science | year=2001 | volume=291 | pages=2570–2572 |  pmid=11283362 | issue=5513 |bibcode = 2001Sci...291.2570T }}
+*{{cite journal | author=M. Greiner, O. Mandel, T. Esslinger, T. W. Hänsch, I. Bloch | title=Quantum phase transition from a superfluid to a Mott insulator in a gas of ultracold atoms | doi = 10.1038/415039a| journal=Nature | year=2002 | volume=415 | pages=39–44 | pmid=11780110 | issue=6867|bibcode = 2002Natur.415...39G }}.
+*{{cite journal | author=S. Jochim, M. Bartenstein, A. Altmeyer, G. Hendl, S. Riedl, C. Chin, J. Hecker Denschlag, and R. Grimm | title=Bose–Einstein Condensation of Molecules  | doi = 10.1126/science.1093280| journal=Science | year=2003 | volume=302 | pages=2101–2103 | pmid=14615548 | issue=5653 |bibcode = 2003Sci...302.2101J }}
+*{{cite journal | author=Markus Greiner, Cindy A. Regal and Deborah S. Jin | title=Emergence of a molecular Bose−Einstein condensate from a Fermi gas | journal=Nature | year=2003 | volume=426 | pages=537–540 | doi=10.1038/nature02199 | pmid=14647340 | issue=6966 |bibcode = 2003Natur.426..537G }}
+*{{cite journal | author=M. W. Zwierlein, C. A. Stan, C. H. Schunck, S. M. F. Raupach, S. Gupta, Z. Hadzibabic, and W. Ketterle | title=Observation of Bose–Einstein Condensation of Molecules  | doi = 10.1103/PhysRevLett.91.250401| journal=Physical Review Letters | year=2003 | volume=91 | page=250401 | url=  | bibcode=2003PhRvL..91y0401Z | pmid=14754098|arxiv = cond-mat/0311617 | issue=25 }}
+*{{cite journal | author=C. A. Regal, M. Greiner, and D. S. Jin | title=Observation of Resonance Condensation of Fermionic Atom Pairs | journal=Physical Review Letters | year=2004 | volume=92 | page=040403 | doi=10.1103/PhysRevLett.92.040403 | pmid=14995356 | issue=4 | bibcode=2004PhRvL..92d0403R|arxiv = cond-mat/0401554 }}
+*C. J. Pethick and H. Smith, ''Bose–Einstein Condensation in Dilute Gases'', Cambridge University Press, Cambridge, 2001.
+*Lev P. Pitaevskii and S. Stringari, ''Bose–Einstein Condensation'', Clarendon Press, Oxford, 2003.
+*Mackie M, Suominen KA, Javanainen J., "Mean-field theory of Feshbach-resonant interactions in 85Rb condensates." Phys Rev Lett. 2002 Oct 28;89(18):180403.
+{{Refend}}
+
+== External links ==
+*[http://www.iqoqi.at/bec2009 Bose–Einstein Condensation 2009 Conference] Bose–Einstein Condensation 2009 – Frontiers in Quantum Gases
+*[http://www.colorado.edu/physics/2000/bec/index.html BEC Homepage] General introduction to Bose–Einstein condensation
+*[http://nobelprize.org/physics/laureates/2001/index.html Nobel Prize in Physics 2001] – for the achievement of Bose–Einstein condensation in dilute gases of alkali atoms, and for early fundamental studies of the properties of the condensates
+*[http://www.physicstoday.org/pt/vol-54/iss-12/p14.html Physics Today: Cornell, Ketterle, and Wieman Share Nobel Prize for Bose–Einstein Condensates]
+*[http://jilawww.colorado.edu/bec/ Bose–Einstein Condensates at JILA]
+*[http://atomcool.rice.edu/ Atomcool at Rice University]
+*[http://cua.mit.edu/ketterle_group/home.htm Alkali Quantum Gases at MIT]
+*[http://www.physics.uq.edu.au/atomoptics/ Atom Optics at UQ]
+*[http://www.lorentz.leidenuniv.nl/history/Einstein_archive/ Einstein's manuscript on the Bose–Einstein condensate discovered at Leiden University]
+*[http://xstructure.inr.ac.ru/x-bin/theme3.py?level=2&index1=145786 Bose–Einstein condensate on arxiv.org]
+*[http://www.vigyanprasar.gov.in/dream/jan2002/article1.htm Bosons – The Birds That Flock and Sing Together]
+*[http://jilawww.colorado.edu/bec/BEC_for_everyone/ Easy BEC machine] – information on constructing a Bose–Einstein condensate machine.
+*[http://www.cosmosmagazine.com/features/online/2176/verging-absolute-zero Verging on absolute zero – Cosmos Online]
+*[http://mitworld.mit.edu/video/77/ Lecture by W Ketterle at MIT in 2001]
+*[http://bec.nist.gov/ Bose–Einstein Condensation at NIST] – [[NIST]] resource on BEC
+
+{{State of matter}}
+{{Einstein}}
+
+{{DEFAULTSORT:Bose-Einstein Condensate}}
+[[Category:Albert Einstein]]
+[[Category:Condensed matter physics]]
+[[Category:Exotic matter]]
+[[Category:Phases of matter]]
+
+[[ml:ബോസ്-ഐന്‍സ്റ്റൈന്‍ കണ്ടന്‍സേറ്റ്]]

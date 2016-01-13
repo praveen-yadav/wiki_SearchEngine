@@ -1,0 +1,1 @@
+#REDIRECT [[Alice#Acronyms]]{{R from alternative spelling}}

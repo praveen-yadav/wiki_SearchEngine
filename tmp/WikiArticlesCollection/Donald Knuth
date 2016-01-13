@@ -1,0 +1,233 @@
+{{Use mdy dates|date=September 2013}}
+{{Infobox scientist
+| name = Donald Ervin Knuth
+| image = KnuthAtOpenContentAlliance.jpg
+| image_size = 192px
+| caption = Donald Knuth at a reception for the [[Open Content Alliance]], October 25, 2005
+| birth_date = {{birth date and age|mf =yes|1938|1|10}}
+| birth_place = [[Milwaukee, Wisconsin]], US
+| residence = US
+| nationality = American
+| field = Mathematics<br />[[Computer science]]
+| work_institutions = [[Stanford University]]
+| alma_mater = [[Case Western Reserve University|Case Institute of Technology]]<br />[[California Institute of Technology]]
+| doctoral_advisor = [[Marshall Hall (mathematician)|Marshall Hall, Jr.]]
+| doctoral_students = [[Leonidas J. Guibas]]<br />[[Michael Fredman]]<br />[[Scott Kim]]<br />[[Vaughan Pratt]]<br />[[Robert Sedgewick (computer scientist)|Robert Sedgewick]]<br />[[Jeffrey Vitter]]<br />[[Andrei Broder]]
+| known_for = ''[[The Art of Computer Programming]]''<br />[[TeX|{{TeX}}]], [[METAFONT]]<br />[[Knuth–Morris–Pratt algorithm]]<br />[[Knuth–Bendix completion algorithm]]<br />[[MMIX]]<br />[[Robinson–Schensted–Knuth correspondence]]
+| prizes = [[Turing Award]] (1974)<br />[[National Medal of Science]] (1979)<br />[[John von Neumann Medal]] (1995)<br />[[Harvey Prize]] (1995)<br />[[Kyoto Prize]] (1996)
+| website = [http://www-cs-faculty.stanford.edu/~uno/ Donald E. Knuth]}}
+'''Donald Ervin Knuth''' ({{IPAc-en|k|ə|ˈ|n|uː|θ}}<ref>{{cite web | url = http://www-cs-faculty.stanford.edu/~knuth/faq.html |title= Frequently Asked Questions|last= Knuth|first= Donald Ervin | work = Home page | publisher =[[Stanford University]]|accessdate=November 2, 2010|quote =How do you pronounce your last name? Ka-NOOTH.}}</ref> {{respell|kə|NOOTH|'}}; born January 10, 1938) is an American [[computer science|computer scientist]], mathematician, and [[Professor Emeritus]] at [[Stanford University]].<ref>{{Citation | url = http://www-cs-faculty.stanford.edu/~knuth/ |title= Home page |last= Knuth|first= Donald Ervin | publisher = [[Stanford University]]}}.</ref>
+
+He is the author of the multi-volume work ''[[The Art of Computer Programming]]''.<ref>{{Citation | url = http://www-cs-faculty.stanford.edu/~uno/taocp.html | title = The Art of Computer Programming | publisher = Stanford University}}.</ref> Knuth has been called the "father" of the [[analysis of algorithms]]. He contributed to the development of the rigorous analysis of the computational complexity of algorithms and systematized formal mathematical techniques for it. In the process he also popularized the [[Big O notation|asymptotic notation]]. In addition to fundamental contributions in several branches of [[theoretical computer science]], Knuth is the creator of the [[TeX]] computer typesetting system, the related [[METAFONT]] font definition language and rendering system, and the [[Computer Modern]] family of typefaces.
+
+As a writer and scholar,<ref>{{Citation | url = http://www-cs-faculty.stanford.edu/~knuth/vita.html | last = Knuth | first = Donald Ervin | title = Curriculum vitæ | publisher = Stanford University}}.</ref> Knuth created the [[WEB]] and [[CWEB]] computer programming systems designed to encourage and facilitate [[literate programming]], and designed the [[MIX]]/[[MMIX]] [[instruction set|instruction set architectures]]. As a member of the academic and scientific community, Knuth is strongly opposed to the policy of granting [[software patent]]s.<ref>{{Citation | url = http://www.ams.org/notices/200203/fea-knuth.pdf | title = Professor Donald Knuth's Thinking Against Software Patents | year = 2002 | month = Mar | format = [[PDF]] | type = article |  journal = Notices | publisher = The American Mathematical Society}}.</ref> He has expressed his disagreement directly to both the [[United States Patent and Trademark Office]] and [[European Patent Organization]].<ref>{{Citation | url = http://www.groklaw.net/images/G308Knuth.pdf | last = Knuth | first = Donald Ervin | type = Letters | title = Against software patents | format = [[PDF]]}} to the patent offices in the USA and Europe.</ref>
+
+== Early life ==
+Knuth was born in [[Milwaukee]], [[Wisconsin]], where his father owned a small printing business and taught bookkeeping at [[Milwaukee Lutheran High School]], where he enrolled, earning achievement awards.  He applied his intelligence in unconventional ways, winning a contest when he was in eighth grade by finding over 4,500 words that could be formed from the letters in "Ziegler's Giant Bar"; the judges had only about 2,500 words on their master list. This won him a television set for his school and a candy bar for everyone in his class.<ref>{{Citation | year=1998 | title=Out of their minds: the lives and discoveries of 15 great computer scientists | first1=Dennis Elliott | last1 = Shasha | first2=Cathy A | last2 = Lazere | publisher=Springer | isbn =978-0-387-98269-4 | page= 90 | url= http://books.google.com/?id=-0tDZX3z-8UC&pg=PA90}}</ref>
+
+==Education==
+Knuth had a difficult time choosing physics over music as his major at [[Case Western Reserve University|Case Institute of Technology]] (now part of [[Case Western Reserve University]]). He also joined Beta Nu Chapter of the [[Theta Chi fraternity]]. While studying physics at the Case Institute of Technology, Knuth was introduced to the [[IBM 650]], one of the early [[mainframe computer|mainframes]]. After reading the computer's manual, Knuth decided to rewrite the assembly and compiler code for the machine used in his school, because he believed he could do it better.<ref name="Koshy2004">{{Citation| first =Thomas | last = Koshy|title= Discrete mathematics with applications |url=http://books.google.com/books?id=90KApidK5NwC&pg=PA244|accessdate=July 30, 2011|year= 2004 | publisher =Academic Press| isbn= 978-0-12-421180-3|page= 244}}</ref> In 1958, Knuth constructed a program based on the value of each player that could help his school basketball team win the league. This was so novel a proposition at the time that it got picked up and published by ''[[Newsweek]]'' and also covered by [[Walter Cronkite]] on the ''[[CBS Evening News]]''.<ref name= "Koshy2004"/> Knuth was one of the founding editors of the ''Engineering and Science Review'', which won a national award as best technical magazine in 1959.<ref name = "Beta Nu Chapter">{{Citation | url = http://thetachi.cwru.edu/history.php | title = The Tachi | contribution = History of Beta Nu Chapter | publisher = CWRU}}.</ref> He then switched from physics to mathematics, and in 1960 he received his bachelor of science degree, simultaneously being given a master of science degree by a special award of the faculty who considered his work exceptionally outstanding.<ref name = "Koshy2004" /><ref name = "Turing Award">{{Citation | url = http://amturing.acm.org/award_winners/knuth_1013846.cfm | title = A.M. Turing Award; Donald ("Don") Erwin Knuth  | publisher = [[Association for Computing Machinery|ACM]] | year = 1974}}.</ref>
+
+In 1963, he earned a PhD in mathematics (advisor: [[Marshall Hall (mathematician)|Marshall Hall]]) from the [[California Institute of Technology]],<ref>{{Citation | publisher = Caltech | year = 1963 | format = [[PDF]] | url = http://thesis.library.caltech.edu/2441/1/Knuth_de_1963.pdf | title = Finite Semifields and Projective Planes | first = Donald Ervin | last = Knuth | type = PhD dissertation}}.</ref> and began to work there as associate professor and began work on ''[[The Art of Computer Programming]]''. He had initially accepted a commission to write a book on compilers which would later become the multi-volume ''The Art of Computer Programming''. This work was originally planned to be a single book, and then planned as a six- and then seven-volume series. In 1968, just before he published the first volume, Knuth accepted a job working on problems for the National Security Agency ([[NSA]]) through their [[FFRDC]] the Institute for Defense Analyses ([[Institute for Defense Analyses|IDA]]) Communications Research Division situated at the time on the Princeton campus in the Von Neumann building as stated in his curriculum vitae. It seems likely Knuth left the position and joined the faculty of [[Stanford University]] because of his political beliefs and the volatile political climate on the campus at the time.
+
+== Writings ==
+
+=== ''The Art of Computer Programming'' (''TAOCP'') ===
+{{main |The Art of Computer Programming}}
+Computer science was then taking its first hesitant steps.  "It was a totally new field," Knuth recalls, "with no real identity. And the standard of available publications was not that high. A lot of the papers coming out were quite simply wrong. [...] So one of my motivations was to put straight a story that had been very badly told."
+
+After producing the third volume of his series in 1976, he expressed such frustration with the nascent state of the then newly developed electronic publishing tools (especially those that provided input to phototypesetters) that he took time out to work on typesetting and created the [[TeX]] and [[METAFONT]] tools.
+
+{{As of|2013}}, the first three volumes and part one of volume four of his series have been published.<ref>{{Cite web | last = Knuth | first = Donald Ervin | title = The Art of Computer Programming (TAOCP) | url = http://www-cs-faculty.stanford.edu/~knuth/taocp.html | accessdate = May 20, 2012}}</ref>
+
+=== Other works ===
+He is also the author of ''[[Surreal Numbers (book)|Surreal Numbers]]'',{{Sfn | Knuth | 1974}} a mathematical novelette on [[John Horton Conway|John Conway]]'s [[set theory]] construction of an alternate system of numbers. Instead of simply explaining the subject, the book seeks to show the development of the mathematics. Knuth wanted the book to prepare students for doing original, creative research.
+
+In 1995, Knuth wrote the foreword to the book ''A=B'' by [[Marko Petkovsek]], [[Herbert Wilf]] and [[Doron Zeilberger]].<ref>{{Citation | url = http://www.math.rutgers.edu/~zeilberg/DEK.html | title = DEK | last = Zeilberg | publisher = Rutgers}}.</ref> Knuth is also an occasional contributor of language puzzles to ''[[Word Ways: The Journal of Recreational Linguistics]]''.
+
+=== Religious beliefs and work ===
+In addition to his writings on computer science, Knuth, a [[Lutheranism|Lutheran]],{{Sfn | Platoni | 2006}} is also the author of ''3:16 Bible Texts Illuminated'',<ref>{{Citation | last = Knuth| first = Donald Ervin | title = 3:16 : Bible texts illuminated | year = 1991 | place = Madison, [[Wisconsin|WI]] | publisher = A-R Eds | isbn = 978-0-89579-252-5}}</ref> in which he examines the Bible by a process of [[systematic sampling]], namely an analysis of chapter 3, verse 16 of each book.  Each verse is accompanied by a rendering in calligraphic art, contributed by a group of calligraphers under the leadership of [[Hermann Zapf]].
+
+Subsequently he was invited to give a set of lectures on his {{Citation | title = 3:16}} project, resulting in another book, {{Citation | last = Teukolsky | first = Donald Ervin | title = Things a Computer Scientist Rarely Talks About | year = 2001 | isbn = 1‐57586‐327‐8 | place = Stanford, California, US | bibcode = 2002PhT....55d..81K | volume = 55 | pages = 81 | journal = Physics Today | doi = 10.1063/1.1480790 | first2 = Saul A. | issue = 4}}.
+
+== Health concerns ==
+In 2006, Knuth was diagnosed with [[prostate cancer]]. He underwent surgery in December that year and started "a little bit of radiation therapy... as a precaution but the prognosis looks pretty good", as he reported in his video autobiography.<ref name = cancer>{{cite web | url= http://www.webofstories.com/people/donald.knuth/85 | title = Donald Knuth: 85 – Coping with cancer | work= [[Web of Stories]] | month = April | year = 2006 | accessdate = May 2, 2012}}</ref>
+
+== Computer musings ==
+Knuth gives informal lectures a few times a year at [[Stanford University]], which he called Computer Musings. He was also a visiting professor at the Oxford University Computing Laboratory (now the [[Oxford University Department of Computer Science]]) in the United Kingdom and an Honorary Fellow of [[Magdalen College, Oxford|Magdalen College]].<ref>{{Cite web | title = Professor Donald Knuth | publisher = Magdalen College | url = http://www.magd.ox.ac.uk/whos-here/fellows-and-lecturers/fellows/knuthd | accessdate = December 6, 2010}}</ref>
+
+==Humor==
+Knuth is known for his "professional humor".
+[[File:knuth-check2.png|thumb|right|One of [[Knuth reward check|Knuth’s reward checks]]]]
+[[File:Jacob Appelbaum and Donald Knuth.jpg|thumb|right|"Nested [[parentheses|parens]]"—Donald Knuth and [[Jacob Appelbaum]] and Donald Knuth]]
+* He used to pay a [[finder's fee]] of $2.56 for any typographical errors or mistakes discovered in his books, because "256 pennies is one [[hexadecimal]] dollar", and $0.32 for "valuable suggestions". According to an article in the [[Massachusetts Institute of Technology]]'s ''Technology Review'', these [[Knuth reward check]]s are "among computerdom's most prized trophies". Knuth had to stop sending real checks in 2008 due to bank fraud, and instead now gives each error finder a "certificate of deposit" from a publicly listed balance in his fictitious "Bank of [[San Serriffe]]".<ref>{{Citation | url = http://www.technologyreview.com/featuredstory/400456 | title = Rewriting the Bible in 0s and 1s | journal = [[Technology Review]] | publisher = [[Massachusetts Institute of Technology]]}}.</ref>
+* He once warned a correspondent, "Beware of bugs in the above code; I have only proved it correct, not tried it."<ref>{{cite web | url = http://www-cs-faculty.stanford.edu/~knuth/faq.html | title = Frequently Asked Questions | last =Knuth|first=Donald Ervin |work= Home page|publisher=[[Stanford University]]|accessdate = November 2, 2010}}</ref>
+* The preface of ''[[Concrete Mathematics]]'' includes the following anecdote: "When Knuth taught [[Concrete Mathematics]] at Stanford for the first time, he explained the somewhat strange title by saying that it was his attempt to teach a math course that was hard instead of soft. He announced that, contrary to the expectations of some of his colleagues, he was not going to teach the Theory of [[Aggregate function|Aggregates]], nor Stone's Embedding Theorem, nor even the [[Stone–Čech compactification]] theorem. (Several students from the [[civil engineering]] department got up and quietly left the room.)"
+* Knuth published his first "scientific" article in a school magazine in 1957 under the title "[[Potrzebie]] System of Weights and Measures." In it, he defined the [[fundamental unit]] of [[length]] as the thickness of ''[[Mad (magazine)|Mad]]'' No. 26, and named the fundamental unit of [[force]] "whatmeworry." ''Mad'' published the article in issue No. 33 (June 1957).<ref>{{citation | last = Knuth | first = Donald Ervin | title = Potrzebie System of Weights & Measures | url = http://madcoversite.com/mad033.html| journal =Mad Magazine | month = June | year = 1957 | issue = 33}}.</ref>
+* Knuth's article about the computational complexity of songs, "[[The Complexity of Songs]]", was reprinted twice in computer science journals.
+* To demonstrate the concept, Knuth intentionally referred "Circular definition" and "Definition, circular" to each other in the index of ''[[The Art of Computer Programming]], Volume 1''.
+* At the TUG 2010 Conference,<ref>{{Citation | url = http://river-valley.tv/media/conferences/tug-2010/Don-Knuth/ | title = TUG | year = 2010 | contribution = Don Knuth | publisher = River valley TV | type = conference}}.</ref> Knuth announced an [[XML]]-based successor to TeX, titled "iTeX" ({{IPA-all|iː˨˩˦tɛks˧˥|pron}}, with a bell ringing), which would support features such as arbitrarily scaled irrational units, [[3D printing]], animation, and stereophonic sound.<ref>{{Citation | format = video | type = recording | last = Knuth | first = Donald Ervin | url = http://river-valley.tv/an-earthshaking-announcement/ | publisher = River Valley TV | title = An Earth‐shaking announcement}}.</ref><ref>{{Citation | last = Knuth | first = Donald Ervin | year = 2010 | journal = [[TUGboat]] | volume = 31 | title = An Earthshaking Announcement | pages = 121–24 | issue = 2 | issn = 0896-3207 | url = http://tug.org/TUGboat/tb31-2/tb98knut.pdf | format = [[PDF]]}}</ref>
+
+==Awards==
+In 1971, Knuth was the recipient of the first [[Association for Computing Machinery|ACM]] [[Grace Murray Hopper Award]]. He has received various other awards including the [[Turing Award]], the [[National Medal of Science]], the [[John von Neumann Medal]], and the [[Kyoto Prize]].
+
+In recognition of Knuth's contributions to the field of computer science, in 1990 he was awarded the one-of-a-kind academic title of ''Professor of The Art of Computer Programming'', which has since been revised to ''Professor [[Emeritus]] of The Art of Computer Programming''.
+
+Knuth was elected to the [[National Academy of Sciences]] in 1975. In 1992, he became an associate of the [[French Academy of Sciences]]. Also that year, he retired from regular research and teaching at [[Stanford University]] in order to finish ''[[The Art of Computer Programming]]''. In 2003 he was elected as a foreign member of the [[Royal Society]].
+
+Knuth was elected as a Fellow (first class of Fellows) of the [[Society for Industrial and Applied Mathematics]] in 2009 for his outstanding contributions to mathematics.<ref>{{Citation | url = http://fellows.siam.org/index.php?sort=year&value=2009 | title = Fellows | year = 2009 | publisher = Siam}}.</ref> He is a member of the [[Norwegian Academy of Science and Letters]].<ref>{{cite web|url= http://www.dnva.no/c26849/artikkel/vis.html?tid=40116 |title=Gruppe 1: Matematiske fag|publisher=[[Norwegian Academy of Science and Letters]] | language =Norwegian|accessdate=October 7, 2010}}</ref> In 2012 he became a fellow of the [[American Mathematical Society]].<ref>[http://www.ams.org/profession/fellows-list List of Fellows of the American Mathematical Society], retrieved 2013-01-27.</ref>
+
+Honors bestowed on Knuth include:
+* First [[Association for Computing Machinery|ACM]] [[Grace Murray Hopper Award]], 1971
+* [[Turing Award]], 1974
+* Josiah Willard Gibbs Lecturer, 1978<ref>[http://www.ams.org/meetings/lectures/meet-gibbs-lect Josiah Willard Gibbs Lectures]</ref><ref>{{cite journal|author=Knuth, Donald E.|title=Mathematical typography|year=1979|journal=Bull. Amer. Math. Soc. (N.S.)|volume=1|issue=2|pages=337–372|mr=520078}}</ref>
+* [[National Medal of Science]], 1979
+* [[Franklin Medal]], 1988
+* [[John von Neumann Medal]], 1995
+* Harvey Prize from the [[Technion – Israel Institute of Technology|Technion]], 1995<ref>{{Citation | title = Harvey | url = http://www.admin.technion.ac.il/harvey/1995-2.html | year = 1995 | publisher = Technion | place = [[Israel|IL]]}}.</ref>
+* [[Kyoto Prize]], 1996
+* Fellow of the [[Computer History Museum]], 1998
+* Katayanagi Prize, 2010<ref>{{Citation | url = http://www.cs.cmu.edu/~katayanagi/ | title = Katayanagi | publisher = CMU}}.</ref>
+* [[BBVA]] Foundation Frontiers of Knowledge Award, 2010<ref>{{Citation | url = http://www.fbbva.es/TLFU/tlfu/ing/microsites/premios/fronteras/galardonados/2010/informacion.jsp | contribution = Galardonados | language = Spanish | place = [[Spain|ES]] | publisher = FBBVA | year = 2010 | title = Fronteras}}.</ref>
+* [[Stanford University School of Engineering]] Hero Award, 2011<ref>{{Cite news|title= Stanford's Don Knuth, a pioneering hero of computer programming |work= Stanford Report | first = Andrew | last = Myers | date= June 1, 2001 | url= http://news.stanford.edu/news/2011/june/knuth-engineering-hero-060111.html |accessdate = June 27, 2011}}</ref>
+
+==Works==
+A short list of his works:<ref name = "books">{{Citation | type = list | url = http://www-cs-faculty.stanford.edu/~knuth/books.html | contribution = Books | publisher = Stanford | last = Knuth | first = Donald Ervin | title = Home page}}.</ref>
+
+===''The Art of Computer Programming''===
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = [[The Art of Computer Programming]] | volume = 1: Fundamental Algorithms | edition = 3rd | year = 1997 | publisher = Addison-Wesley Professional | isbn = 0-201-89683-4}}.
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = [[The Art of Computer Programming]] | volume = 2: Seminumerical Algorithms | edition = 3rd | year = 1997 | publisher = Addison-Wesley Professional | isbn = 0-201-89684-2}}.
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = [[The Art of Computer Programming]] | volume = 3: Sorting and Searching | edition = 2nd | year = 1998 | publisher = Addison-Wesley Professional | isbn = 0-201-89685-0}}.
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = [[The Art of Computer Programming]] | volume = 4A: Combinatorial Algorithms | year = 2011 | publisher = Addison-Wesley Professional | isbn = 0-201-03804-8}}.
+
+===''The Art of Computer Programming''===
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = [[MMIX]]—A RISC Computer for the New Millennium | volume = 1, Fascicle 1 | year = 2005 | isbn = 0-201-85392-2}}.
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = The Art of Computer Programming | volume = 4, Fascicle 0: Introduction to Combinatorial Algorithms and Boolean Functions | year = 2008 | isbn = 0-321-53496-4}}.
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = The Art of Computer Programming | volume = 4, Fascicle 1: Bitwise Tricks & Techniques; Binary Decision Diagrams | year = 2009 | isbn = 0-321-58050-8}}.
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = The Art of Computer Programming | volume = 4, Fascicle 2: Generating All Tuples and Permutations | year = 2005 | isbn = 0-201-85393-0}}.
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = The Art of Computer Programming | volume = 4, Fascicle 3: Generating All Combinations and Partitions | year = 2005 | isbn = 0-201-85394-9}}.
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = The Art of Computer Programming | volume = 4, Fascicle 4: Generating All Trees—History of Combinatorial Generation | year = 2006 | isbn = 0-321-33570-8}}.
+
+===''Computers & Typesetting''===
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = Computers & Typesetting | volume = A, The {{TeX}}book | place = Reading, [[Massachusetts|MA]] | publisher = Addison-Wesley | year = 1984 | isbn = 0-201-13447-0}}, x+483pp.
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = Computers & Typesetting | volume = B, {{TeX}}: The Program | place = Reading, [[Massachusetts|MA]] | publisher = Addison-Wesley | year = 1986 | isbn = 0-201-13437-3}}, xviii+600pp.
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = Computers & Typesetting | volume = C, The METAFONTbook | place = Reading, [[Massachusetts|MA]] | publisher = Addison-Wesley | year = 1986 | isbn = 0-201-13445-4}}, xii+361pp.
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = Computers & Typesetting | volume = D, METAFONT: The Program | place = Reading, [[Massachusetts|MA]] | publisher = Addison-Wesley | year = 1986 | isbn = 0-201-13438-1}}, xviii+566pp.
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = Computers & Typesetting | volume = E, Computer Modern Typefaces | place = Reading, [[Massachusetts|MA]] | publisher = Addison-Wesley | year = 1986}}, xvi+588pp.
+
+===Selected Papers===
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = [[Literate Programming]]<ref>{{Citation | url = http://www-cs-faculty.stanford.edu/~knuth/lp.html | contribution = Literate Programming | publisher = Stanford | last = Knuth | first = Donald Ervin | title = Home page}}.</ref> | place = Stanford, [[California|CA]] | publisher = [[Stanford University Centers and Institutes#Center for the Study of Language and Information|Center for the Study of Language and Information]]—CSLI | series = Lecture Notes | year = 1992 | isbn = 0-937073-80-6 | issue = 27}}.
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = Selected Papers on Computer Science<ref>{{Citation | url = http://www-cs-faculty.stanford.edu/~knuth/cs.html | contribution = Selected Papers on Computer Science | publisher = Stanford | last = Knuth | first = Donald Ervin | title = Home page}}.</ref> | place = Stanford, [[California|CA]] | publisher = Center for the Study of Language and Information—CSLI | series = Lecture Notes | year = 1996 | isbn = 1-881526-91-7 | issue = 59}}.
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = Digital Typography<ref>{{Citation | url = http://www-cs-faculty.stanford.edu/~knuth/dt.html | contribution = Digital Typography | publisher = Stanford | last = Knuth | first = Donald Ervin | title = Home page}}.</ref> | place = Stanford, [[California|CA]] | publisher = Center for the Study of Language and Information—CSLI | series = Lecture Notes | year = 1999 | isbn = 1-57586-010-4 | issue = 78}}.
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = Selected Papers on Analysis of Algorithms<ref>{{Citation | url = http://www-cs-faculty.stanford.edu/~knuth/aa.html | contribution = Selected Papers on Analysis of Algorithms | publisher = Stanford | last = Knuth | first = Donald Ervin | title = Home page}}.</ref> | place = Stanford, [[California|CA]] | publisher = Center for the Study of Language and Information—CSLI | series = Lecture Notes | year = 2000 | isbn = 1-57586-212-3 | issue = 102}}.
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = Selected Papers on Computer Languages<ref>{{Citation | url = http://www-cs-faculty.stanford.edu/~knuth/cl.html | contribution = Selected Papers on Computer Languages | publisher = Stanford | last = Knuth | first = Donald Ervin | title = Home page}}.</ref> | place = Stanford, [[California|CA]] | publisher = Center for the Study of Language and Information—CSLI | series = Lecture Notes | year = 2003 | isbn = 1-57586-381-2 | format = cloth | issue = 139}}, ISBN 1-57586-382-0 (paperback)
+# {{Citation | first = Donald E. | last = Knuth | author-mask = 3 | title = Selected Papers on Discrete Mathematics<ref>{{Citation | url = http://www-cs-faculty.stanford.edu/~knuth/dm.html | contribution = Selected Papers on Discrete Mathematics | publisher = Stanford | last = Knuth | first = Donald Ervin | title = Home page}}.</ref> | place = Stanford, [[California|CA]] | publisher = Center for the Study of Language and Information—CSLI | series = Lecture Notes | year = 2003 | isbn = 1-57586-249-2 | format = cloth | issue = 106}}, ISBN 1-57586-248-4 (paperback).
+# Donald E. Knuth, Selected Papers on Design of Algorithms<ref>{{Citation | url = http://www-cs-faculty.stanford.edu/~knuth/da.html | contribution = Selected Papers on Design of Algorithms | publisher = Stanford | last = Knuth | first = Donald Ervin | title = Home page}}.</ref> (Stanford, California: Center for the Study of Language and Information—CSLI Lecture Notes, no. 191), 2010. ISBN 1-57586-583-1 (cloth), ISBN 1-57586-582-3 (paperback)
+# Donald E. Knuth, Selected Papers on Fun and Games<ref>{{Citation | url = http://www-cs-faculty.stanford.edu/~knuth/fg.html | contribution = Selected Papers on Fun and Games | publisher = Stanford | last = Knuth | first = Donald Ervin | title = Home page}}.</ref> (Stanford, California: Center for the Study of Language and Information—CSLI Lecture Notes, no. 192), 2011. ISBN 978-1-57586-585-0 (cloth), ISBN 978-1-57586-584-3 (paperback)
+# Donald E. Knuth, Companion to the Papers of Donald Knuth<ref>[http://www-cs-faculty.stanford.edu/~knuth/cp.html "Companion to the Papers of Donald Knuth"]</ref> (Stanford, California: Center for the Study of Language and Information—CSLI Lecture Notes, no. 202), 2011. ISBN 978-1-57586-635-2 (cloth), ISBN 978-1-57586-634-5 (paperback)
+* {{Citation | last1= Graham | first1= Ronald L | authorlink1= Ronald L. Graham | last2= Knuth | first2 = Donald E. | last3=Patashnik| first3=Oren |authorlink3=Oren Patashnik| title=[[Concrete Mathematics|Concrete mathematics: A foundation for computer science]] | edition=Second | publisher=Addison-Wesley | location = Reading, MA | year=1994 | isbn=0-201-55802-5 | mr=1397498}}  xiv+657 pp.
+* {{Citation |last=Knuth|first = Donald Ervin |title=Surreal numbers: how two ex-students turned on to pure mathematics and found total happiness: a mathematical novelette|year=1974|publisher=Addison-Wesley|isbn = 978-0-201-03812-5}}<ref>{{Citation | url = http://www-cs-faculty.stanford.edu/~knuth/sn.html | contribution = Surreal numbers | publisher = Stanford | last = Knuth | first = Donald Ervin | title = Home page}}.</ref>
+* Donald E. Knuth, The Stanford GraphBase: A Platform for Combinatorial Computing (New York, ACM Press) 1993. second paperback printing 2009. ISBN 0-321-60632-9
+* Donald E. Knuth, 3:16 Bible Texts Illuminated (Madison, Wisconsin: A-R Editions), 1990. ISBN 0-89579-252-4
+* Donald E. Knuth, [[Things a Computer Scientist Rarely Talks About]] (Center for the Study of Language and Information—CSLI Lecture Notes no 136), 2001. ISBN 1-57586-326-X
+
+==See also==
+{{Colbegin}}
+* [[Asymptotic notation]]
+* [[Attribute grammar]]
+* [[Dancing Links]]
+* [[Knuth–Bendix completion algorithm]]
+* [[Knuth–Morris–Pratt algorithm]]
+* [[Knuth -yllion]]
+* [[Knuth Prize]]
+* [[Knuth shuffle]]
+* [[Knuth's up-arrow notation]]
+* [[Man or boy test]]
+* [[Robinson–Schensted–Knuth correspondence]]
+* [[The Complexity of Songs]]
+* [[Trabb Pardo–Knuth algorithm]]
+* [[List of science and religion scholars]]
+{{Colend}}
+
+== Gallery ==
+<center><gallery widths="125px" heights="125px"> <!-- perrow="6">-->
+File:Donald Knuth DSC00624.jpg|Donald Knuth, 4 March 2005
+File:Donald Knuth in front of statue St. Mesrop Mashtots (inventor of the Armenian, Georgian and Caucasian Albanian alphabets in the 4th century), Matenadaran, Yerevan, Armenia, June 2006, LA.jpg|Donald Knuth in front of statue St. [[Mesrob Mashtots|Mesrop Mashtots]], [[Matenadaran]], [[Yerevan]], [[Armenia]], 9 June 2006
+File:Shustek, Russell, Alcorn, Knuth, Wozniak, Mathews, Allen, CHM 2011 2.jpg|Shustek, Russell, Alcorn, Knuth, Wozniak, Mathews, Allen, CHM 2011
+File:Donald Knuth, Steve Wozniak, CHM 2011.jpg|Donald Knuth, [[Steve Wozniak]], CHM 2011
+</gallery></center>
+
+==References==
+{{Reflist |30em}}
+
+==Bibliography==
+* {{Citation | url = http://www-cs-faculty.stanford.edu/~knuth/ |title= Home page |last= Knuth|first= Donald Ervin | publisher =[[Stanford University]]}}.
+* {{Cite web | last = Knuth | first = Donald Ervin | title = The Art of Computer Programming (TAOCP) | url = http://www-cs-faculty.stanford.edu/~knuth/taocp.html | accessdate = May 20, 2012}}
+* {{Citation | url = http://www.stanfordalumni.org/news/magazine/2006/mayjun/features/knuth.html | title = Love at First Byte | first = Kara | last = Platoni | others = Archibald, Timothy photogr | publisher = Stanford Alumni | journal = Stanford Magazine | month = May/June | year = 2006}}.  A retrospective of Knuth’s life and work, with some rare, recent photos.
+
+==External links==
+{{Wikiquote}}
+{{Commons category|Donald Ervin Knuth}}
+* [http://www-cs-faculty.stanford.edu/~knuth/ Donald Knuth’s home page] at [[Stanford University]].
+* {{Citation | url = http://purl.umn.edu/107413 | type = oral history | format = interview | title = Donald E. Knuth | publisher = [[Charles Babbage Institute]], University of Minnesota}}. Knuth discusses software patenting, [[structured programming]], collaboration and his development of [[TeX]].
+* {{MathGenealogy |id =10416}}
+* {{MacTutor Biography|id =Knuth}}
+* {{worldcat id |lccn-n79-135509}}
+* {{Citation | url = http://scpd.stanford.edu/knuth/ | first = Donald Ervin | last = Knuth | publisher = Stanford | title = Lectures | type = Archive}}.
+* {{AcademicSearch|167694}}
+* {{DBLP|id=Knuth:Donald_E=}}
+
+{{Donald Knuth navbox}}
+{{Authority control |VIAF=7466303 |LCCN =n/79/135509}}
+{{Turing award}}
+{{Winners of the National Medal of Science |math-stat-comp}}
+{{Hopper winners}}
+{{free and open source typography}}
+{{madcontribs}}
+
+{{Persondata
+|NAME= Knuth, Donald Ervin
+|ALTERNATIVE NAMES=
+|SHORT DESCRIPTION= [[Computer science]]
+|DATE OF BIRTH= {{Birth date and age|mf =yes|1938|1|10}}
+|PLACE OF BIRTH= [[Milwaukee, Wisconsin]], US
+|DATE OF DEATH=
+|PLACE OF DEATH=
+}}
+{{DEFAULTSORT:Knuth, Donald Ervin}}
+[[Category:1938 births]]
+[[Category:Members of the United States National Academy of Sciences]]
+[[Category:Foreign Members of the Russian Academy of Sciences]]
+[[Category:20th-century mathematicians]]
+[[Category:American computer scientists]]
+[[Category:American mathematicians]]
+[[Category:American academics]]
+[[Category:American technology writers]]
+[[Category:California Institute of Technology alumni]]
+[[Category:Writers from California]]
+[[Category:Case Western Reserve University alumni]]
+[[Category:Combinatorialists]]
+[[Category:American computer programmers]]
+[[Category:Donald Knuth| ]]
+[[Category:Foreign Members of the Royal Society]]
+[[Category:Fellows of the Association for Computing Machinery]]
+[[Category:Free software programmers]]
+[[Category:Grace Murray Hopper Award laureates]]
+[[Category:Living people]]
+[[Category:National Medal of Science laureates]]
+[[Category:People from Milwaukee, Wisconsin]]
+[[Category:Stanford University School of Engineering faculty]]
+[[Category:Turing Award laureates]]
+[[Category:American typographers]]
+[[Category:Programming language designers]]
+[[Category:Members of the French Academy of Sciences]]
+[[Category:Fellows of the British Computer Society]]
+[[Category:American Lutherans]]
+[[Category:Fellows of Society for Industrial and Applied Mathematics]]
+[[Category:Members of Oxford University Department of Computer Science]]
+[[Category:Honorary Fellows of Magdalen College, Oxford]]
+[[Category:Members of the Norwegian Academy of Science and Letters]]
+[[Category:Fellows of the American Mathematical Society]]
+[[Category:Members of the United States National Academy of Engineering]]
+[[Category:Word Ways people]]
+[[Category:Guggenheim Fellows]]

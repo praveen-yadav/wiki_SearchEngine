@@ -1,0 +1,82 @@
+{{distinguish|Bitwise operation}}
+In [[mathematics]], a '''binary operation''' on a set is a calculation involving two elements of the set (called [[operands]]) and producing another element of the set (more formally, an [[Operation (mathematics)|operation]] whose [[arity]] is two, and whose two [[Domain_of_a_function|domains]] and one [[codomain]] are (subsets of) the same set).  Examples include the familiar [[elementary arithmetic]] operations of [[addition]], [[subtraction]], [[multiplication]] and [[division (mathematics)|division]].  Other examples are readily found in different areas of mathematics, such as [[vector addition]], [[matrix multiplication]] and [[Conjugation (group theory)|conjugation in groups]].
+
+==Terminology==
+More precisely, a binary operation on a non-empty [[Set (mathematics)|set]] ''S'' is a [[Map (mathematics)|map]] which sends elements of the [[Cartesian product]] ''S''&times;''S'' to ''S'':<ref>{{harvnb|Rotman|1973|loc=pg. 1}}</ref><ref>{{harvnb|Hardy|Walker|2002|loc=pg. 176, Definition 67}}</ref><ref>{{harvnb|Fraleigh|1976|loc= pg. 10}}</ref>
+:<math>\,f \colon S \times S \rightarrow S.</math>
+Because the result of performing the operation on a pair of elements of ''S'' is again an element of ''S'', the operation is called a '''closed''' binary operation on ''S'' (or sometimes expressed as having the property of [[closure (mathematics)|closure]]).<ref>{{harvnb|Hall|1959|loc=pg. 1}}</ref>  If ''f'' is not a [[Function (mathematics)|function]], but is instead a [[partial function]], it is called a '''partial binary operation'''.  For instance, division of [[real numbers]] is a partial binary operation, because one can't [[Division by zero|divide by zero]]: ''a''/0 is not defined for any real ''a''.  Note however that both in [[algebra]] and [[model theory]] the binary operations considered are defined on all of ''S'' × ''S''.
+
+Sometimes, especially in [[computer science]], the term is used for any [[binary function]].
+
+Binary operations are the keystone of algebraic structures studied in [[abstract algebra]]: they are essential in the definitions of [[group (mathematics)|groups]], [[monoid]]s, [[semigroup]]s, [[ring (algebra)|ring]]s, and more.  Most generally, a ''[[magma (algebra)|magma]]'' is a set together with some binary operation defined on it.
+
+== Properties and examples ==
+Typical examples of binary operations are the [[addition]] (+) and [[multiplication]] (&times;) of [[number]]s and [[matrix (mathematics)|matrices]] as well as [[composition of functions]] on a single set.
+For instance,
+* On the set of real numbers '''R''', f(''a'',''b'') = ''a'' + ''b'' is a binary operation since the sum of two real numbers is a real number.
+* On the set of natural numbers '''N''', f(''a'',''b'') = ''a'' + ''b'' is a binary operation since the sum of two natural numbers is a natural number.  This is a different binary operation than the previous one since the sets are different.
+* On the set M(2,2) of 2 &times; 2 matrices with real entries, f(''A'', ''B'') = ''A'' + ''B'' is a binary operation since the sum of two such matrices is another 2 &times; 2 matrix.
+* On the set M(2,2) of 2 &times; 2 matrices with real entries, f(''A'', ''B'') = ''AB'' is a binary operation since the product of two such matrices is another 2 &times; 2 matrix.
+* For a given set ''C'', let ''S'' be the set of all functions ''h'': ''C'' → ''C''.  On ''S'', f(''g'',''h'') = ''g'' <math>\circ </math> ''h'' = ''g''(''h''(''c'')), the composition of the two functions ''g'' and ''h'', is a binary operation since the composition of the two functions is another function on the set ''C'' (that is, a member of ''S'').
+
+Many binary operations of interest in both algebra and formal logic are [[commutative]], satisfying f(''a'',''b'') = f(''b'',''a'') for all elements ''a'' and ''b'' in ''S'', or [[associative]], satisfying f(f(''a'',''b''), ''c'') = f(''a'', f(''b'',''c'')) for all ''a'', ''b'' and ''c'' in ''S''.  Many also have [[identity element]]s and [[inverse element]]s.
+
+The first three examples above are commutative and all of the above examples are associative.  The [[example of a commutative non-associative magma|paper-scissors-rock]] binary operation is commutative but not associative.
+
+On the set of real numbers '''R''', [[subtraction]], that is, f(''a'',''b'') = ''a'' - ''b'', is a binary operation which is not commutative since, in general, ''a'' - ''b'' ≠ ''b'' - ''a''.  It is also not associative, since, in general, ''a'' - (''b'' - ''c'') ≠ (''a'' - ''b'') - ''c''; for instance, 1 - (2 - 3) = 2 but (1 - 2) - 3 = -4.
+
+On the set of natural numbers '''N''', the binary operation [[exponentiation]], f(''a'',''b'') = ''a''<sup>''b''</sup>, is not commutative since, in general, ''a''<sup>''b''</sup> ≠ ''b''<sup>''a''</sup> and is also not associative since f(f(''a'',''b''),''c'') ≠ f(''a'', f(''b'',''c'')).  For instance, with ''a'' = 2, ''b'' = 3 and ''c'' = 2, f(2<sup>3</sup>,2) = f(8,2) = 64, but f(2,3<sup>2</sup>) = f(2,9) = 512.  By changing the set '''N''' to the set of integers '''Z''', this binary operation becomes a partial binary operation since it is now undefined when ''a'' = 0 and ''b'' is any negative integer.  For either set, this operation has a ''right identity'' (which is 1) since f(''a'', 1) = ''a'' for all ''a'' in the set, which is not an ''identity'' (two sided identity) since f(1, ''b'') ≠ ''b'' in general.
+
+[[division (mathematics)|Division]] (/), a partial binary operation on the set of real or rational numbers, is not commutative or associative as well.  [[Tetration]](↑↑), as a binary operation on the natural numbers, is not commutative nor associative and has no identity element.
+
+==Notation==
+Binary operations are often written using [[infix notation]] such as ''a''*''b'', ''a'' + ''b'', ''a'''''·'''''b'' or (by [[wikt:juxtaposition|juxtaposition]] with no symbol) ''ab'' rather than by functional notation of the form ''f''(''a'', ''b'').  Powers are usually also written without operator, but with the second argument as [[superscript]].
+
+Binary operations sometimes use prefix or (probably more often) postfix notation, both of which dispense with parentheses.  They are also called, respectively, [[Polish notation]] and [[reverse Polish notation]].
+
+==Pair and tuple==
+A binary operation, ''ab'', depends on the [[ordered pair]] (''a, b'') and so (''ab'')''c'' (where the parentheses here mean first operate on the ordered pair (''a'', ''b'') and then operate on the result of that using the ordered pair ((''ab''), ''c'')) depends in general on the ordered pair ((''a'', ''b''), ''c'').  Thus, for the general, non-associative case, binary operations can be represented with [[binary tree]]s.
+
+However:
+*If the operation is associative, (''ab'')''c'' = ''a''(''bc''), then the value of (''ab'')''c'' depends only on the [[tuple]] (''a'', ''b'', ''c'').
+*If the operation is commutative, ''ab'' = ''ba'', then the value of (''ab'')''c'' depends only on { {''a'', ''b''}, ''c''}, where braces indicate  [[multiset]]s.
+*If the operation is both associative and commutative then the value of (''ab'')''c'' depends only on the multiset {''a'', ''b'', ''c''}.
+*If the operation is associative, commutative and [[idempotent]], ''aa'' = ''a'', then the value of (''ab'')''c''  depends only on the [[Set (mathematics)|set]] {''a'', ''b'', ''c''}.
+
+== Binary operations as ternary relations ==
+
+A binary operation ''f'' on a set ''S'' may be viewed as a ''ternary'' [[Finitary relation|relation]] on ''S'', that is, the set of triples (''a'', ''b'', ''f(a,b)'') in ''S'' × ''S'' × ''S'' for all ''a'' and ''b'' in ''S''.
+
+== External binary operations ==
+An '''[[external (mathematics)|external]] binary operation''' is a binary function from ''K'' &times; ''S'' to ''S''.  This differs from a binary operation in the strict sense in that ''K'' need not be ''S''; its elements come from ''outside''.
+
+An example of an [[external (mathematics)|external]] binary operation is [[scalar multiplication]] in [[linear algebra]].  Here ''K'' is a [[field (mathematics)|field]] and ''S'' is a [[vector space]] over that field.
+
+An [[external (mathematics)|external]] binary operation may alternatively be viewed as an [[group action|action]]; ''K'' is acting on ''S''.
+
+Note that the [[dot product]] of two vectors is not a binary operation, external or otherwise, as it maps from ''S''&times; ''S'' to ''K'', where ''K'' is a field and ''S'' is a vector space over ''K''.
+
+==See also==
+* [[Iterated binary operation]]
+* [[Operator (programming)]]
+* [[Ternary operation]]
+* [[Unary operation]]
+
+== Notes==
+{{reflist}}
+
+== References==
+
+* {{citation|last=Fraleigh|first=John B.|title=A First Course in Abstract Algebra|edition=2nd|publisher=Addison-Wesley|place=Reading|year=1976|isbn=0-201-01984-1}}
+
+* {{citation|last=Hall, Jr.|first= Marshall|title=The Theory of Groups|publisher=Macmillan|place=New York|year=1959}}
+
+* {{citation|last1=Hardy|first1=Darel W.|last2=Walker|first2=Carol L.|title=Applied Algebra: Codes, Ciphers and Discrete Algorithms|publisher=Prentice-Hall|place=Upper Saddle River, NJ|year=2003|isbn=0-13-067464-8}}
+
+* {{citation|last=Rotman|first=Joseph J.|title=The Theory of Groups: An Introduction|publisher=Allyn and Bacon|place=Boston|year=1973|edition=2nd}}
+
+== External links ==
+* {{MathWorld|title=Binary Operation|urlname=BinaryOperation}}
+
+{{DEFAULTSORT:Binary Operation}}
+[[Category:Binary operations| ]]

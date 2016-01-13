@@ -1,0 +1,194 @@
+'''CPU design''' is the [[design engineer]]ing task of creating a [[central processing unit]] (CPU), a component of [[computer hardware]]. It is a subfield of [[electronics engineering]] and [[computer engineering]].
+
+== Details ==
+{{Prose|section|date=May 2011}}
+CPU design focuses on these areas:
+# [[datapath]]s (such as [[Arithmetic logic unit|ALU]]s and [[Pipeline (computing)|pipelines]])
+# [[control unit]]: logic which controls the datapaths
+# Memory components such as register files, caches
+# Clock circuitry such as clock drivers, [[Phase-locked loop|PLLs]], [[clock distribution network]]s
+# Pad transceiver circuitry
+# Logic gate cell [[Library (electronics)|library]] which is used to implement the logic
+
+CPUs designed for high-performance markets might require custom designs for each of these items to achieve frequency, [[power consumption|power-dissipation]], and chip-area goals.
+
+CPUs designed for lower performance markets might lessen the implementation burden by:
+* Acquiring some of these items by purchasing them as  [[intellectual property]]
+* Use control logic implementation techniques ([[logic synthesis]] using CAD tools) to implement the other components - datapaths, register files, clocks
+
+Common logic styles used in CPU design include:
+* Unstructured random logic
+* [[Finite-state machine]]s
+* [[Microprogramming]] (common from 1965 to 1985)
+* [[Programmable logic array]] (common in the 1980s, no longer common)
+
+Device types used to implement the logic include:
+* [[Transistor-transistor logic]] [[Small Scale Integration]] logic chips - no longer used for CPUs
+* [[Programmable Array Logic]] and [[Programmable logic device]]s - no longer used for CPUs
+* [[Emitter-coupled logic]] (ECL) [[gate array]]s - no longer common
+* [[CMOS]] [[gate array]]s - no longer used for CPUs
+* [[CMOS]] [[Application-specific integrated circuit|ASIC]]s - what's commonly used today,{{when|date=January 2013}} they're so common that the term ASIC is not used for CPUs
+* [[Field-programmable gate array]]s (FPGA) - common for [[soft microprocessor]]s, and more or less required for [[reconfigurable computing]]
+
+A CPU design project generally has these major tasks:
+* Programmer-visible [[instruction set architecture]], which can be implemented by a variety of [[microarchitecture]]s
+* Architectural study and performance modeling in [[ANSI C]]/[[C++]] or [[SystemC]]{{clarify|date=January 2013}}
+* [[High-level synthesis]] (HLS) or [[register transfer level]] (RTL, e.g. logic) implementation
+* RTL verification
+* [[Circuit design]] of speed critical components (caches, registers, ALUs)
+* [[Logic synthesis]] or logic-gate-level design
+* [[Static timing analysis|Timing analysis]] to confirm that all logic and circuits will run at the specified operating frequency
+* Physical design including [[Floorplan (microelectronics)#Floorplanning|floorplanning]], [[place and route]] of logic gates
+* Checking that RTL, gate-level, transistor-level and physical-level representations are equivalent
+* Checks for [[signal integrity]], [[design rule checking|chip manufacturability]]
+
+Re-designing a CPU core to a smaller die-area helps achieve several of these goals.
+* Shrinking everything (a "[[photomask]] shrink"), resulting in the same number of transistors on a smaller die, improves performance (smaller transistors switch faster), reduces power (smaller wires have less [[parasitic capacitance]]) and reduces cost (more CPUs fit on the same wafer of silicon).
+* Releasing a CPU on the same size die, but with a smaller CPU core, keeps the cost about the same but allows higher levels of integration within one [[VLSI]] chip (additional cache, multiple CPUs, or other components), improving performance and reducing overall system cost.
+
+As with most complex electronic designs, the [[functional verification|logic verification]] effort (proving that the design does
+not have bugs) now dominates the project schedule of a CPU.
+
+Key CPU architectural innovations include [[index register]], [[CPU cache|cache]], [[virtual memory]], [[instruction pipelining]], [[superscalar]], [[Complex instruction set computer|CISC]], [[Reduced instruction set computer|RISC]], [[virtual machine]], [[emulator]]s, [[microprogram]], and [[Stack (data structure)|stack]].
+
+=== Micro-architectural concepts ===
+{{Main|Microarchitecture}}
+
+=== Research topics ===
+<!-- [[virtual memory]] moved to [[Computer architecture]] -->
+{{Main|History of general purpose CPUs#1990 to today: looking forward}}
+
+A variety of [[History of general purpose CPUs#1990 to today: looking forward|new CPU design ideas]] have been proposed,
+including [[reconfigurable logic]], [[clockless CPU]]s, [[computational RAM]], and [[optical computing]].
+
+===Performance analysis and benchmarking===
+{{Main| Computer performance}}
+Because there are too many programs to test a CPU's speed on all of them, [[benchmark (computing)|benchmark]]s were developed.
+The most famous benchmarks are the SPECint and [[SPECfp]] benchmarks developed by [[Standard Performance Evaluation Corporation]] and the [[ConsumerMark]] benchmark developed by the Embedded Microprocessor Benchmark Consortium [[EEMBC]].
+
+Some important measurements include:
+* [[Instructions per second]] - Most consumers pick a computer architecture (normally [[Intel]] [[IA32]] architecture) to be able to run a large base of pre-existing pre-compiled software.  Being relatively uninformed on computer benchmarks,  some of them pick a particular CPU based on operating frequency (see [[Megahertz Myth]]).
+* [[FLOPS]] - The number of floating point operations per second is often important in selecting computers for scientific computations.
+* [[Performance per watt]] - System designers building [[parallel computing|parallel computers]], such as [[Google search technology#Current hardware|Google]], pick CPUs based on their speed per watt of power, because the cost of powering the CPU outweighs the cost of the CPU itself. [http://www.eembc.org/benchmark/consumer.asp?HTYPE=SIM][http://archive.is/20120716063544/http://news.com.com/Power+could+cost+more+than+servers,+Google+warns/2100-1010_3-5988090.html]
+* Some system designers building parallel computers pick CPUs based on the speed per dollar.
+* System designers building [[real-time computing]] systems want to guarantee worst-case response. That is easier to do when the CPU has low [[interrupt latency]] and when it has deterministic response. ([[Digital signal processor|DSP]])
+* Computer programmers who program directly in assembly language want a CPU to support a full featured [[instruction set]].
+* Low power - For systems with limited power sources (e.g. solar, batteries, human power).
+* Small size or low weight - for portable embedded systems, systems for spacecraft.
+* Environmental impact - Minimizing environmental impact of computers during manufacturing and recycling as well during use.  Reducing waste, reducing hazardous materials.  (see [[Green computing]]).  <!-- ... Are there other measures of "goodness", "figures of merit", that I'm missing here? -->
+
+Some of these measures conflict.  In particular, many design techniques that make a CPU run faster make the "performance per watt", "performance per dollar", and "deterministic response" much worse, and vice versa.
+
+==Markets==
+{{Cleanup|section|date=December 2009}}
+Developing new, high-end CPUs is a very costly proposition. Both the logical complexity (needing very large logic design and logic verification teams and simulation farms with perhaps thousands of computers) and the high operating frequencies (needing large circuit design teams and access to the state-of-the-art fabrication process) account for the high cost of design for this type of chip. The design cost of a high-end CPU will be on the order of US $100 million. Since the design of such high-end chips nominally takes about five years to complete, to stay competitive a company has to fund at least two of these large design teams to release products at the rate of 2.5 years per product generation.
+
+As an example, the typical loaded cost for one computer engineer is often quoted to be $250,000 US dollars/year. This includes salary, benefits, CAD tools, computers, office space rent, etc. Assuming that 100 engineers are needed to design a CPU and the project takes 4 years. 
+
+Total cost = $250,000 / Engineer / Year x 100 engineers x 4 years = $100,000,000 USD. 
+
+The above amount is just an example. The design teams for modern day general purpose CPUs have several hundred team members.
+
+There are several different markets in which CPUs are used. Since each of these markets differ in their requirements for CPUs, the devices designed for one market are in most cases inappropriate for the other markets.
+
+===General purpose computing===
+The vast majority of revenues generated from CPU sales is for general purpose computing{{Citation needed|date=May 2010}}, that is, desktop, laptop, and server computers commonly used in businesses and homes. In this market, the Intel [[IA-32]] architecture dominates, with its rivals [[PowerPC]] and [[SPARC]] maintaining much smaller customer bases. Yearly, hundreds of millions of IA-32 architecture CPUs are used by this market.  A growing percentage of these processors are for mobile implementations such as netbooks and laptops.<ref>Kerr, Justin.  [http://www.maximumpc.com/article/news/amd_loses_market_share_mobile_cpu_sales_outsell_desktop_first_time "AMD Loses Market Share as Mobile CPU Sales Outsell Desktop for the First Time."]  Maximum PC.  Published 2010-10-26.</ref>
+
+Since these devices are used to run countless different types of programs, these CPU designs are not specifically targeted at one type of application or one function. The demands of being able to run a wide range of programs efficiently has made these CPU designs among the more advanced technically, along with some disadvantages of being relatively costly, and having high power consumption.
+
+====High-end processor economics====
+In 1984, most high-performance CPUs required four to five years to develop.<ref>
+"New system manages hundreds of transactions per second" article
+by Robert Horst and Sandra Metz, of Tandem Computers Inc.,
+"Electronics" magazine, 1984 April 19:
+"While most high-performance CPUs require four to five years to develop,
+The [[NonStop]] TXP processor took just 2+1/2 years --
+six months to develop a complete written specification,
+one year to construct a working prototype,
+and another year to reach volume production."
+</ref>
+
+===Scientific computing===
+{{Main|Supercomputer}}
+Scientific computing is a much smaller niche market (in revenue and units shipped).  It is used in government research labs and universities. Before 1990, CPU design was often done for this market, but mass market CPUs organized into large clusters have proven to be more affordable. The main remaining area of active hardware design and research for scientific computing is for high-speed data transmission systems to connect mass market CPUs.
+
+=== Embedded design ===
+As measured by units shipped, most CPUs are embedded in other machinery, such as telephones, clocks, appliances, vehicles, and infrastructure. Embedded processors sell in the volume of many billions of units per year, however, mostly at much lower price points than that of the general purpose processors.
+
+These single-function devices differ from the more familiar general-purpose CPUs in several ways:
+* Low cost is of utmost importance.
+* It is important to maintain a low power dissipation as embedded devices often have a limited battery life and it is often impractical to include cooling fans.
+* To give lower system cost, peripherals are integrated with the processor on the same silicon chip.
+* Keeping peripherals on-chip also reduces power consumption as external GPIO ports typically require buffering so that they can source or sink the relatively high current loads that are required to maintain a strong signal outside of the chip.
+** Many embedded applications have a limited amount of physical space for circuitry; keeping peripherals on-chip will reduce the space required for the circuit board.
+** The program and data memories are often integrated on the same chip. When the only allowed program memory is [[Read-only memory|ROM]], the device is known as a [[microcontroller]].
+* For many embedded applications, interrupt latency will be more critical than in some general-purpose processors.
+
+====Embedded processor economics====
+The embedded CPU family with the largest number of total units shipped is the [[8051]], averaging nearly a billion units per year.<ref>http://people.wallawalla.edu/~curt.nelson/engr355/lecture/8051_overview.pdf</ref>  The 8051 is widely used because it is very inexpensive.  The design time is now roughly zero, because it is widely available as commercial intellectual property.  It is now often embedded as a small part of a larger system on a chip.  The silicon cost of an 8051 is now as low as US$0.001, because some implementations use as few as 2,200 logic gates and take 0.0127 square millimeters of silicon.<ref>
+[http://www.keil.com/dd/docs/datashts/evatronix/t8051_ds.pdf Square millimeters per 8051, 0.013 in 45nm line-widths; see]</ref><ref>To figure dollars per square millimeter, see [http://www.overclockers.com/forums/showthread.php?t=550542], and note that an SOC component has no pin or packaging costs.</ref>
+
+As of 2009, more CPUs are produced using the [[ARM architecture]] instruction set than any other 32-bit instruction set.<ref>
+[http://www.extremetech.com/extreme/52180-arm-cores-climb-into-3g-territory "ARM Cores Climb Into 3G Territory"] by Mark Hachman, 2002.
+</ref><ref>
+[http://www.embedded.com/electronics-blogs/significant-bits/4024488/The-Two-Percent-Solution "The Two Percent Solution"] by Jim Turley 2002.
+</ref>
+The ARM architecture and the first ARM chip were designed in about one and a half years and 5 human years of work time.<ref>[http://web.archive.org/web/20090606152116/http://atterer.net/acorn/arm.html "ARM's way"] 1998</ref>
+
+The 32-bit [[Parallax Propeller]] microcontroller architecture and the first chip were designed by two people in about 10 human years of work time.<ref>[http://www.parallax.com/Portals/0/Downloads/docs/article/WhythePropellerWorks.pdf "Why the Propeller Works"] by [[Chip Gracey]]</ref>
+
+The 8-bit [[Atmel AVR|AVR architecture]] and first AVR microcontroller was conceived and designed by two students at the Norwegian Institute of Technology.
+
+The 8-bit 6502 architecture and the first [[MOS Technology 6502]] chip were designed in 13 months by a group of about 9 people.<ref>[http://silicongenesis.stanford.edu/transcripts/mensch.htm "Interview with William Mensch"]</ref>
+
+==== Research and educational CPU design ====
+
+The 32 bit [[Berkeley RISC]] I and RISC II architecture and the first chips were mostly designed by a series of students as part of a four quarter sequence of graduate courses.<ref>
+[http://www.eecs.berkeley.edu/Pubs/TechRpts/1982/CSD-82-106.pdf 'Design and Implementation of RISC I'] - original journal article by [[Carlo Sequin|C.E. Sequin]] and [[David A. Patterson (scientist)|D.A.Patterson]]
+</ref>
+This design became the basis of the commercial [[SPARC]] processor design.
+
+For about a decade, every student taking the 6.004 class at MIT was part of a team—each team had one semester to design and build a simple 8 bit CPU out of [[7400 series]] [[integrated circuit]]s.
+One team of 4 students designed and built a simple 32 bit CPU during that semester.
+<ref>
+[http://sub-zero.mit.edu/fbyte/hacks/vhs/ "the VHS"]
+</ref>
+
+Some undergraduate courses require a team of 2 to 5 students to design, implement, and test a simple CPU in a FPGA in a single 15 week semester.
+<ref>
+[http://www.fpgacpu.org/teaching.html "Teaching Computer Design with FPGAs"] by Jan Gray
+</ref>
+
+==== Soft microprocessor cores ====
+{{Main|Soft microprocessor}}
+For embedded systems, the highest performance levels are often not needed or desired due to the power consumption requirements. This allows for the use of processors which can be totally implemented by [[logic synthesis]] techniques. These synthesized processors can be implemented in a much shorter amount of time, giving quicker time-to-market.
+
+== References ==
+{{More footnotes|date=March 2009}}
+{{Reflist|2}}
+*{{cite book | first=Enoch| last=Hwang| year=2006| title=Digital Logic and Microprocessor Design with VHDL| publisher=Thomson| isbn=0-534-46593-5| url=http://faculty.lasierra.edu/~ehwang/digitaldesign| authorlink=Enoch Hwang}}
+*[http://www.gamezero.com/team-0/articles/math_magic/micro/index.html Processor Design: An Introduction]
+
+== See also ==
+
+{{wikibooks|Microprocessor Design}}
+{{Portal|Computer science}}
+* [[Central processing unit]]
+* [[History of general purpose CPUs]]
+* [[Microprocessor]]
+* [[Microarchitecture]]
+* [[Moore's law]]
+* [[Amdahl's law]]
+* [[System-on-a-chip]]
+* [[Reduced instruction set computer]]
+* [[Complex instruction set computer]]
+* [[Minimal instruction set computer]]
+* [[Electronic design automation]]
+* [[High-level synthesis]]
+
+{{Expert-subject|date=March 2012}}
+{{CPU technologies}}
+
+{{DEFAULTSORT:Cpu Design}}
+[[Category:Central processing unit]]
+[[Category:Computer engineering]]

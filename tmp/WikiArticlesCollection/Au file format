@@ -1,0 +1,92 @@
+{{no footnotes|date=January 2013}}
+{{Infobox file format
+| name = Au
+| icon =
+| logo =
+| screenshot =
+| caption =
+| extension = .au<br />.snd
+| mime = audio/basic
+| type code =
+| uniform type =
+| magic = .snd
+| owner = [[Sun Microsystems]]
+| type = [[Audio container]]
+| container for = [[Audio frequency|Audio]], most often [[µ-law]]
+| contained by =
+| extended from =
+| extended to =
+| standard =
+}}
+The '''Au file format''' is a simple [[audio file format]] introduced by [[Sun Microsystems]]. The format was common on [[NeXT]] systems and on early Web pages. Originally it was headerless, being simply 8-bit [[mu-law|µ-law]]-encoded data at an 8000&nbsp;Hz sample rate. Hardware from other vendors often used sample rates as high as 8192&nbsp;Hz, often integer factors of video clock signals. Newer files have a header that consists of six [[Signedness|unsigned]] [[32-bit]] words, an optional information chunk and then the data (in [[big endian]] format).
+
+Although the format now supports many [[digital audio|audio encoding]] formats, it remains associated with the [[mu-law|µ-law]] logarithmic encoding. This encoding was native to the [[SPARCstation 1]] hardware, where [[SunOS]] exposed the encoding to application programs through the /dev/audio interface. This encoding and interface became a [[de facto]] standard for [[Unix]] sound.
+
+==New format==
+All fields are stored in [[big-endian]] format, including the sample data.
+{{-}}
+{| class="wikitable" width="100%"
+! 32 bit word (unsigned)
+! field
+! Description/Content [[Hexadecimal]] numbers in [[C (programming language)|C]] notation
+|- valign = top
+| 0
+| [[Magic number (programming)|magic number]]
+| the value <tt>0x2e736e64</tt> (four ASCII characters ".snd")
+|- valign = top
+| 1 || data offset
+| the offset to the data in [[byte]]s, must be divisible by 8. The minimum valid number is 24 (decimal), since this is the header length (six 32-bit words) with no space reserved for extra information (the annotation field). The minimum valid number with an annotation field present is 32 (decimal).
+|- valign = top
+| 2 || data size
+| data size in bytes. If unknown, the value <tt>0xffffffff</tt> should be used.
+|- valign = top
+| 3 || encoding || Data encoding format:
+*1 = 8-bit [[G.711]] [[mu-law algorithm|µ-law]]
+*2 = 8-bit linear [[Pulse code modulation|PCM]]
+*3 = 16-bit linear [[Pulse code modulation|PCM]]
+*4 = 24-bit linear [[Pulse code modulation|PCM]]
+*5 = 32-bit linear [[Pulse code modulation|PCM]]
+*6 = 32-bit [[IEEE floating-point standard|IEEE floating point]]
+*7 = 64-bit [[IEEE floating-point standard|IEEE floating point]]
+*8 = Fragmented sample data
+*9 = DSP program
+*10 = 8-bit [[Fixed-point arithmetic|fixed point]]
+*11 = 16-bit [[Fixed-point arithmetic|fixed point]]
+*12 = 24-bit [[Fixed-point arithmetic|fixed point]]
+*13 = 32-bit [[Fixed-point arithmetic|fixed point]]
+*18 = 16-bit linear with emphasis
+*19 = 16-bit linear compressed
+*20 = 16-bit linear with emphasis and compression
+*21 = Music kit DSP commands
+*23 = 4-bit compressed using the [[G.726|ITU-T G.721]] [[ADPCM]] voice data encoding scheme
+*24 = [[G.722|ITU-T G.722]] [[Sub Band ADPCM|SB-ADPCM]]
+*25 = [[G.723|ITU-T G.723]] 3-bit [[ADPCM]]
+*26 = [[G.723|ITU-T G.723]] 5-bit [[ADPCM]]
+*27 = 8-bit [[G.711]] [[A-law algorithm|A-law]]
+|- valign = top
+| 4 || sample rate
+| the number of samples/second, e.g., 8000
+|- valign = top
+| 5 || channels
+| the number of interleaved channels, e.g., 1 for mono, 2 for stereo; more channels possible, but may not be supported by all readers.
+|}
+
+The type of encoding depends on the value of the "encoding" field (word 3 of the header). Formats 2 through 7 are uncompressed linear [[Pulse-code modulation|PCM]], therefore technically [[lossless]] (although not necessarily free of quantisation error, especially in 8-bit form). Formats 1 and 27 are [[μ-law algorithm|μ-law]] and [[A-law]], respectively, both [[companding]] logarithmic representations of PCM, and arguably lossy as they pack what would otherwise be almost 16 bits of dynamic range into 8 bits of encoded data, even though this is achieved by an altered dynamic response and no data is actually "thrown away". Formats 23 through 26 are ADPCM, which is an early form of lossy compression, usually but not always with 4 bits of encoded data per audio sample (for 4:1 efficiency with 16-bit input, or 2:1 with 8-bit; equivalent to e.g. encoding CD quality MP3 at a 352kbit rate using a low quality encoder). Several of the others are [[digital signal processing|DSP]] commands or data, designed to be processed by the [[NeXT]] [[Music Kit]] software.
+
+Note: PCM formats appear to be encoded as signed data (as opposed to than unsigned).
+
+Following the header structure is a variable-length annotation field.  The contents of this field are currently undefined, except that its length must be a non-zero multiple of eight bytes and it must be terminated with at least one null (zero) byte. The audio data segment begins on an eight-byte boundary immediately following the annotation field. Audio data is encoded in the format identified by the file header. The current implementation supports only a single audio data segment per file. The variable-length annotation field is currently ignored by most audio applications.
+
+== External links ==
+*[http://www.nch.com.au/acm/sample.au Sample .AU file]
+*[http://web.archive.org/web/20110514220509/http://www.opengroup.org/public/pubs/external/auformat.html Sun .au sound file format]
+*[http://www-mmsp.ece.mcgill.ca/Documents/AudioFormats/AU/AU.html Audio File Format Specifications]
+
+{{Compression formats}}
+
+{{DEFAULTSORT:Au File Format}}
+[[Category:Computer file formats]]
+[[Category:Container formats]]
+[[Category:Audio codecs]]
+
+{{Sound-tech-stub}}

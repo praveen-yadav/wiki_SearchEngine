@@ -1,0 +1,114 @@
+An '''audio file format''' is a [[file format]] for storing [[digital audio]] data on a [[computer]] system. This data can be stored uncompressed, or [[audio compression (data)|compressed]] to reduce the file size. It can be a raw [[bitstream]], but it is usually a [[container format (digital)|container format]] or an audio data format with defined storage layer.
+
+==Format types==
+It is important to distinguish between a [[file format]] and an [[audio codec]]. A codec performs the encoding and decoding of the raw audio data while the data itself is stored in a file with a specific audio file format. Although most audio file formats support only one type of audio data (created with an [[audio codec|audio coder]]), a multimedia container format (as [[Matroska]] or [[Audio Video Interleave|AVI]]) may support multiple types of audio and video data.
+
+There are three major groups of audio file formats:
+
+* Uncompressed audio formats, such as [[WAV]], [[AIFF]], [[Au file format|AU]] or [[raw audio format|raw]] header-less [[Pulse-code modulation|PCM]];
+* Formats with [[lossless data compression|lossless]] compression, such as [[Free Lossless Audio Codec|FLAC]], [[Monkey's Audio]] ([[filename extension]] APE), [[WavPack]] ([[filename extension]] WV), [[TTA (codec)|TTA]], [[ATRAC]] Advanced Lossless, [[Apple Lossless]] ([[filename extension]] m4a), [[MPEG-4 SLS]], [[MPEG-4 ALS]], [[MPEG-4 DST]], [[Windows_Media_Audio#Windows_Media_Audio_Lossless|Windows Media Audio Lossless (WMA Lossless)]], and [[Shorten (file format)|Shorten]] (SHN).
+* Formats with [[lossy data compression|lossy]] compression, such as [[MP3]], [[Vorbis]], [[Musepack]], [[Advanced Audio Coding|AAC]], [[ATRAC]] and [[Windows_Media_Audio#WIndows_Media_Audio_Lossy|Windows Media Audio Lossy (WMA lossy)]].
+
+===Uncompressed audio format===
+{{See also|Uncompressed video}}
+There is one major uncompressed audio format, [[Pulse-code modulation|PCM]], which is usually stored in a .wav file on [[Microsoft Windows|Windows]] or in a .aiff file on [[Mac OS]]. The AIFF format is based on the [[Interchange File Format]] (IFF). The WAV format is based on the [[RIFF (File format)|Resource Interchange File Format]] (RIFF), which is similar to IFF. WAV and AIFF are flexible file formats designed to store more or less any combination of sampling rates or bitrates. This makes them suitable file formats for storing and archiving an original recording.
+
+[[Broadcast Wave Format|BWF]] (Broadcast Wave Format) is a standard audio format created by the [[European Broadcasting Union]] as a successor to WAV. BWF allows [[metadata]] to be stored in the file. See ''[[Broadcast Wave Format|European Broadcasting Union: Specification of the Broadcast Wave Format]]'' (EBU Technical document 3285, July 1997). This is the primary recording format used in many professional audio workstations in the television and film industry. BWF files include a standardized [[timestamp]] reference which allows for easy synchronization with a separate picture element. Stand-alone, file based, multi-track recorders from Sound Devices,<ref>[http://www.sounddevices.com Sound Devices, LLC | Professional, Portable Audio Products<!-- Bot generated title -->]</ref> Zaxcom,<ref>[http://www.zaxcom.com Zaxcom<!-- Bot generated title -->]</ref> HHB Communications Ltd,<ref>[http://www.hhb.co.uk/ HHB | Essential Tools for Audio Professionals<!-- Bot generated title -->]</ref> [[Fostex]], Nagra, Aaton,<ref>http://aaton.com</ref> and [[TASCAM]] all use BWF as their preferred format.
+
+Uncompressed audio can also be stored in [[raw audio format]].
+
+===Lossless compressed audio format===
+A lossless compressed format stores data in less space by eliminating unnecessary data.
+
+Uncompressed audio formats encode both sound and silence with the same number of bits per unit of time. Encoding an uncompressed minute of absolute silence produces a file of the same size as encoding an uncompressed minute of music. In a lossless compressed format, however, the music would occupy a smaller portion of the file and the silence would take up almost no space at all.
+
+Lossless compression formats enable the original uncompressed data to be recreated exactly. They include the common<ref>[http://www.hydrogenaudio.org/forums/index.php?showtopic=60145 2008 ripping/encoding general poll - Hydrogenaudio Forums<!-- Bot generated title -->]{{Verify credibility|date=March 2011}}</ref> [[FLAC]], [[WavPack]], [[Monkey's Audio]], [[Apple Lossless|ALAC]] (Apple Lossless). They provide a compression ratio of about 2:1 (i.e. their files take up half the space of the originals). Development in lossless compression formats aims to reduce processing time while maintaining a good compression ratio.
+
+===Lossy compressed audio format===
+Lossy compression enables even greater reductions in file size by removing some of the data. Lossy compression typically achieves far greater compression than lossless compression by simplifying the complexities of the data.<ref name="Data">[http://web.ebscohost.com/ehost/detail?vid=4&hid=105&sid=6446f656-6968-4b11-9570-faba39949122%40sessionmgr114&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#db=tfh&AN=28833125 Lossy Data]{{dead link|date=November 2011}}<!--This is not [[WP:ROT]]. The link was dead when inserted.--></ref> This of course results in a reduction in audio quality, but a variety of techniques are used, mainly by exploiting [[psychoacoustics]], to remove the data that has least effect on perceived quality. The loss in data (and thus quality) may not always be easily perceived through casual listening. The popular [[MP3|MP3 format]] is probably the best-known example, but the [[Advanced Audio Coding|AAC format]] found on the iTunes Music Store is also common. Most formats offer a range of degrees of compression, generally measured in [[bit rate]]. The lower the rate, the smaller the file and the more significant the quality loss.
+
+==List of formats==
+{{see also|Comparison of audio formats|List of codecs}}
+
+{| class="wikitable sortable" border="1"
+|-
+! scope="col" | File Extension
+! scope="col" | Creation Company
+! scope="col" class="unsortable" | Description
+|-
+| [[3gp]] ||  || multimedia container format can contain proprietary formats as [[Adaptive Multi-Rate audio codec|AMR]], [[AMR-WB]] or [[AMR-WB+]], but also some open formats
+|-
+| [[ACT (audio format)|act]] ||  || ACT is a lossy ADPCM 8 kbit/s compressed audio format recorded by most Chinese MP3 and MP4 players with a recording function, and voice recorders
+|-
+| [[AIFF]] || [[Apple Inc.|Apple]] || standard audio file format used by Apple. It could be considered the Apple equivalent of [[wav]].
+|-
+| [[Advanced Audio Coding|aac]] ||   || the Advanced Audio Coding format is based on the [[MPEG-2]] and [[MPEG-4]] standards. aac files are usually [[ADTS]] or [[Advanced Audio Coding|ADIF]] containers.
+|-
+| [[Apple Lossless|ALAC]] || [[Apple Inc.|Apple]] || Apple Lossless compression, a lossless compression format from Apple.
+|-
+| [[Adaptive Multi-Rate|amr]] ||  || AMR-NB audio, used primarily for speech.
+|-
+| [[atrac]] (.wav) || [[Sony]] || the older style Sony ATRAC format. It always has a .wav file extension. To open these files, install the ATRAC3 drivers.
+|-
+| [[Au file format|Au]] || [[Sun Microsystems]] || the standard audio file format used by [[Sun Microsystems|Sun]], [[Unix]] and [[Java (Sun)|Java]]. The audio in au files can be [[Pulse-code modulation|PCM]] or compressed with the [[M-law|μ-law]], [[a-law]] or [[G729]] codecs.
+|-
+| [[Adaptive Multi-Rate Wideband|awb]] ||  || AMR-WB audio, used primarily for speech, same as the [[ITU-T]]'s G.722.2 specification.
+|-
+| [[Dct (File Format)|dct]] || [[NCH Software]] || A variable codec format designed for dictation. It has dictation header information and can be encrypted (as may be required by medical confidentiality laws). A proprietary format of NCH Software.
+|-
+| [[Digital Speech Standard|dss]] || [[Olympus Corporation|Olympus]] || dss files are an Olympus Corporation|Olympus]] proprietary format. It is a fairly old and poor codec. Gsm or mp3 are generally preferred where the recorder allows. It allows additional data to be held in the file header.
+|-
+| dvf || [[Sony]] || a Sony proprietary format for compressed voice files; commonly used by Sony dictation recorders.
+|-
+| [[FLAC|flac]] ||  || File format for the Free Lossless Audio Codec, a lossless compression codec.
+|-
+| [[GSM-FR|gsm]] ||  || designed for telephony use in Europe, gsm is a very practical format for telephone quality voice. It makes a good compromise between file size and quality. Note that wav files can also be encoded with the gsm codec.
+|-
+| [[iklax]] || [[iklax]] || An iKlax Media proprietary format, the iKlax format is a multi-track digital audio format allowing various actions on musical data, for instance on mixing and volumes arrangements.
+|-
+| IVS || 3D Solar UK Ltd || A proprietary version with [[Digital Rights Management]] developed by 3D Solar UK Ltd for use in music downloaded from their Tronme Music Store and interactive music and video player.
+|-
+| [[m4a]] ||  || An audio-only MPEG-4 file, used by Apple for unprotected music downloaded from their [[iTunes]] Music Store.
+|-
+| [[mp4|m4p]] ||  || A version of AAC with proprietary [[Digital Rights Management]] developed by Apple for use in music downloaded from their [[iTunes]] Music Store.
+|-
+| mmf || [[Samsung]] || a Samsung audio format that is used in ringtones.
+|-
+| [[mp3]] ||  || MPEG Layer III Audio. Is the most common sound file format used today.
+|-
+| [[Musepack|mpc]] ||  || Musepack or MPC (formerly known as MPEGplus, MPEG+ or MP+) is an open source lossy audio codec, specifically optimized for [[Transparency (data compression)|transparent]] compression of stereo audio at bitrates of 160&ndash;180 kbit/s.
+|-
+| msv || [[Sony]] || a Sony proprietary format for Memory Stick compressed voice files.
+|-
+| [[ogg]] || [[Xiph.Org Foundation]] || a free, open source container format supporting a variety of formats, the most popular of which is the audio format Vorbis. Vorbis offers compression similar to MP3 but is less popular.
+|-
+| [[Opus (audio format)|Opus]] ||  || a lossy audio compression format developed by the Internet Engineering Task Force (IETF) and made especially suitable for interactive real-time applications over the Internet. As an open format standardised through RFC 6716, a reference implementation is provided under the 3-clause BSD license.
+|-
+| [[RealAudio|ra & rm]] || [[RealNetworks]] || a [[RealAudio]] format designed for streaming audio over the Internet. The .ra format allows files to be stored in a self-contained fashion on a computer, with all of the audio data contained inside the file itself.
+|-
+| [[raw audio format|raw]] ||  || a raw file can contain audio in any format but is usually used with PCM audio data. It is rarely used except for technical tests.
+|-
+| [[TTA (codec)|TTA]] ||  || The True Audio, real-time lossless audio codec.
+|-
+| [[VOX (file format)|vox]] ||  || the vox format most commonly uses the Dialogic [[ADPCM]] (Adaptive Differential Pulse Code Modulation) codec. Similar to other ADPCM formats, it compresses to 4-bits. Vox format files are similar to wave files except that the vox files contain no information about the file itself so the codec sample rate and number of channels must first be specified in order to play a vox file.
+|-
+| [[wav]] ||  || standard audio file container format used mainly in [[Microsoft Windows|Windows]] PCs. Commonly used for storing uncompressed ([[Pulse-code modulation|PCM]]), CD-quality sound files, which means that they can be large in size—around 10&nbsp;MB per minute. Wave files can also contain data encoded with a variety of (lossy) codecs to reduce the file size (for example the GSM or MP3 formats). Wav files use a [[Resource Interchange File Format|RIFF]] structure.
+|-
+| [[Windows Media Audio|wma]] || [[Microsoft]] || Windows Media Audio format, created by Microsoft. Designed with [[Digital Rights Management]] (DRM) abilities for copy protection.
+|-
+| [[wavpack]] ||  || wv. format for wavpack file http://www.wavpack.com/flash/wavpack.htm
+
+|}
+
+== See also ==
+*[[Audio compression (data)]]
+*[[Comparison of audio formats]]
+*[[Comparison of container formats]]
+*[[Comparison of video codecs]]
+*[[Timeline of audio formats]]
+
+==References==
+{{reflist}}
+
+{{DEFAULTSORT:Audio File Format}}
+[[Category:Container formats]]

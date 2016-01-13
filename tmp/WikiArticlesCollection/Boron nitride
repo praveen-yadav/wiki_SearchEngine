@@ -1,0 +1,365 @@
+{{bots|deny=Citation bot}}
+{{Chembox
+| verifiedrevid = 476994982
+| ImageFile = Hbncrystals.jpg
+| ImageFile_Ref = {{chemboximage|correct|??}}
+| ImageSize = 140
+| ImageName = Magnified sample of crystalline hexagonal boron nitride
+| IUPACName = Boron nitride
+| Section1 = {{Chembox Identifiers
+| CASNo = 10043-11-5
+| CASNo_Ref = {{cascite|correct|??}}
+| PubChem = 66227
+| PubChem_Ref = {{Pubchemcite|correct|pubchem}}
+| ChemSpiderID = 59612
+| ChemSpiderID_Ref = {{chemspidercite|correct|chemspider}}
+| EINECS = 233-136-6
+| MeSHName = Elbor
+| ChEBI_Ref = {{ebicite|correct|EBI}}
+| ChEBI = 50883
+| RTECS = ED7800000
+| Gmelin = 216
+| SMILES = B#N
+| SMILES1 = 
+| SMILES2 = 
+| StdInChI = 1S/BN/c1-2
+| StdInChI_Ref = {{stdinchicite|correct|chemspider}}
+| InChI = 1S/B2N2/c1-3-2-4-1
+| InChI1 = 1S/B3N3/c1-4-2-6-3-5-1
+| InChI2 = 1/BN/c1-2
+| StdInChIKey = PZNSFCLAULLKQX-UHFFFAOYSA-N
+| StdInChIKey_Ref = {{stdinchicite|correct|chemspider}}
+| InChIKey = AMPXHBZZESCUCE-UHFFFAOYSA-N
+| InChIKey1 = WHDCVGLBMWOYDC-UHFFFAOYSA-N
+| InChIKey2 = PZNSFCLAULLKQX-UHFFFAOYAL
+}}
+| Section2 = {{Chembox Properties
+| B = 1
+| N = 1
+| ExactMass = 25.012379471 g/mol
+| Appearance = Colorless crystals
+| Density = 2.1 (hBN); 3.45 (cBN) g/cm<sup>3</sup>
+| MeltingPtC = 2973
+| Melting_notes = sublimates (cBN)
+| ElectronMobility = 200 cm<sup>2</sup>/(V·s) (cBN)
+| RefractIndex = 1.8 (hBN); 2.1 (cBN)
+| Solubility = insoluble
+}}
+| Section3 = {{Chembox Structure
+| CrystalStruct = [[Hexagonal crystal system|hexagonal]], [[Zincblende (crystal structure)|sphalerite]], [[Wurtzite (crystal structure)|wurtzite]]
+| Coordination =
+| MolShape =
+}}
+| Section4 = {{Chembox Thermochemistry
+| DeltaHf = -250.91 kJ mol<sup>−1</sup>
+| Entropy = 14.77 J K<sup>−1</sup> mol<sup>−1</sup>
+}}
+| Section5 = {{Chembox Hazards
+| EUClass = {{Hazchem Xi}}
+| NFPA-H = 0
+| NFPA-F = 0
+| NFPA-R = 0
+| RPhrases = {{R36/37}}
+| SPhrases = {{S26}}, {{S36}}
+}}
+| Section8 = {{Chembox Related
+| OtherCpds = [[Boron arsenide]]<br />
+[[Boron carbide]]<br />
+[[Boron phosphide]]<br />
+[[Boron trioxide]]
+}}
+}}
+
+'''Boron nitride''' is a [[chemical compound]] with [[chemical formula]] BN, consisting of equal numbers of [[boron]] and [[nitrogen]] atoms. BN is [[isoelectronic]] to a similarly structured [[carbon]] lattice and thus exists in various [[Polymorphism (materials science)|crystalline forms]]. The [[Hexagonal crystal system|hexagonal form]] corresponding to [[graphite]] is the most stable and softest among BN polymorphs, and is therefore used as a lubricant and an additive to cosmetic products. The cubic ([[Zincblende (crystal structure)#Zincblende structure|sphalerite structure]]) variety analogous to [[diamond]] is called c-BN.  Its hardness is inferior only to diamond, but its thermal and chemical stability is superior. The rare [[Wurtzite crystal structure|wurtzite]] BN modification is similar to [[lonsdaleite]] and may even be harder than the cubic form.
+
+Boron nitride is rarely found in nature, as dispersed micron-sized inclusions of [[qingsongite]] (c-BN) in chromium-rich rocks in [[Tibet]]. It is therefore produced synthetically from [[boric acid]] or [[boron trioxide]]. The initial product is amorphous BN powder, which is converted to crystalline h-BN by heating in nitrogen flow at temperatures above 1500&nbsp;°C. c-BN is made by [[Annealing (metallurgy)|annealing]] h-BN powder at higher temperatures, under pressures above 5 GPa. Contrary to diamond, larger c-BN pellets can be produced by fusing ([[sintering]]) relatively cheap c-BN powders. As a result, c-BN is widely used in mechanical applications.
+
+Because of excellent thermal and chemical stability, boron nitride ceramics are traditionally used as parts of high-temperature equipment. Boron nitride has a great potential in nanotechnology. Nanotubes of BN can be produced that have a structure similar to that of [[carbon nanotube]]s, i.e. graphene (or BN) sheets rolled on themselves, but the properties are very different: whereas carbon nanotubes can be metallic or semiconducting depending on the rolling direction and radius, a BN nanotube is an electrical insulator with a wide bandgap of ~5.5 eV (same as in diamond), which is almost independent of tube chirality and morphology. Similar to other BN forms, BN nanotubes are more thermally and chemically stable than carbon nanotubes which favors them for some applications.
+
+==Structure==
+Boron nitride has been produced in an amorphous (a-BN) and crystalline forms. The most stable crystalline form is the hexagonal one, also called h-BN, α-BN, or g-BN (graphitic BN). It has a layered structure similar to graphite. Within each layer, boron and nitrogen atoms are bound by strong [[covalent bond]]s, whereas the layers are held together by weak [[van der Waals force]]s. The interlayer "registry" of these sheets differs, however, from the pattern seen for graphite, because the atoms are eclipsed, with boron atoms lying over and above nitrogen atoms. This registry reflects the polarity of the B-N bonds. Still, h-BN and graphite are very close neighbors and even the BC<sub>6</sub>N hybrids have been synthesized where carbon substitutes for some B and N atoms.<ref>{{cite journal | author = M. Kawaguchi ''et al.'' | title = Electronic Structure and Intercalation Chemistry of Graphite-Like Layered Material with a Composition of BC6N | journal = Journal of Physics and Chemistry of Solids | volume = 69 | year = 2008 | page = 1171 | doi = 10.1016/j.jpcs.2007.10.076 |issue = 5–6 |bibcode = 2008JPCS...69.1171K }}</ref>
+
+As diamond is less stable than graphite, cubic BN is less stable than h-BN, but the conversion rate between those forms is negligible at room temperature (again like diamond). The cubic form has the sphalerite crystal structure, the same as that of diamond, and is also called β-BN or c-BN. The [[Wurtzite crystal structure|wurtzite]] BN form (w-BN) has the same structure as [[lonsdaleite]], a rare hexagonal polymorph of carbon. In both c-BN and w-BN boron and nitrogen atoms are grouped into [[tetrahedra]], but the angles between neighboring tetrahedra are different.<ref>{{cite book | author = M. S. Silberberg | title = Chemistry: The Molecular Nature of Matter and Change | edition = 5th | location = New York | publisher = McGraw-Hill | year = 2009 | page = 483 |isbn=0073048593}}</ref>
+
+{| style="margin:auto;"  class="wikitable"
+|<center>[[File:Boron-nitride-(hexagonal)-side-3D-balls.png|250px]]</center>||<center>[[File:Boron-nitride-(sphalerite)-3D-balls.png|200px]]</center>||<center>[[File:Boron-nitride-(wurtzite)-3D-balls.png|200px]]
+|-
+|<center>α-BN, hexagonal</center>||<center>β-BN, [[sphalerite]] structure</center>||<center>BN, [[Wurtzite crystal structure|wurtzite]] structure</center>
+|}
+
+==Properties==
+
+===Physical===
+{| class="wikitable" style="margin:0;"
+|+ Properties of amorphous and crystalline BN, graphite and diamond.<br /><small>Some properties of h-BN and graphite differ within the basal planes (║) and perpendicular to them (╧)</small>
+!Material
+!a-BN
+!h-BN
+!c-BN
+!w-BN
+!graphite
+!diamond
+|-
+!Density (g/cm<sup>3</sup>)
+|2.28
+|~2.1
+|3.45
+|3.49
+|~2.1
+|3.515
+|-
+![[Mohs hardness]]
+|
+|1–2
+|9.5–10
+|~10<ref>{{cite web|url=http://prl.aps.org/abstract/PRL/v102/i5/e055503 |title=Phys. Rev. Lett. 102, 055503 (2009): Harder than Diamond: Superior Indentation Strength of Wurtzite BN and Lonsdaleite |publisher=Prl.aps.org |date= |accessdate=2012-08-17}}</ref>
+|1–2
+|10
+|-
+![[Knoop hardness test|Knoop hardness]] (GPa)
+|10
+|
+|45
+|34
+|
+|100
+|-
+![[Bulk modulus]] (GPa)
+|100
+|36.5
+|400
+|400
+|34
+|440
+|-
+![[Thermal conductivity]] (W/m.K)
+|3
+|600║; 30 ┴
+|740
+|
+|200–2000║; 2–800┴
+|600–2000
+|-
+![[Thermal expansion]] (10<sup>−6</sup>/°C)
+|
+| −2.7║; 38┴
+|1.2
+|2.7
+| −1.5║; 25┴
+|0.8
+|-
+![[Bandgap]] (eV)
+|5.05
+|5.2
+|6.4
+|4.5–5.5
+|0
+|5.5
+|-
+![[Refractive index]]
+|1.7
+|1.8
+|2.1
+|2.05
+|
+|2.4
+|-
+![[Magnetic susceptibility]] (µemu/g)<ref>{{cite journal | author = T. P. Crane and B. P. Cowan | title = Magnetic Relaxation Properties of Helium-3 Adsorbed on Hexagonal Boron Nitride | journal = Physical Review B | volume = 62 | page = 11359 | year = 2000 | doi = 10.1103/PhysRevB.62.11359 | issue = 17 |bibcode = 2000PhRvB..6211359C }}</ref> 
+|
+| −0.48║; -17.3┴
+|
+|
+| −0.2..-2.7║; -20..-28┴
+| −1.6
+|}
+''Sources: amorphous BN,<ref>{{cite journal | doi = 10.1016/0022-3093(95)00748-2 | title = Properties of Amorphous Boron Nitride Thin Films | year = 1996 | author = R. Zedlitz | journal = Journal of Non-Crystalline Solids | volume = 198–200 | issue = Part 1 | page = 403 |bibcode = 1996JNCS..198..403Z }}</ref><ref>{{cite journal | doi = 10.1364/AO.32.000091 | pmid = 20802666 | title = Thermal Conductivities of Thin, Sputtered Optical Films | year = 1993 | author = C. H. Henager, Jr. | journal = Applied Optics | volume = 32 | issue = 1 | pages = 91–101 |bibcode = 1993ApOpt..32...91H }}</ref><ref>{{cite journal | doi = 10.1016/S0925-9635(98)00394-X | title = Microstructure and Mechanical Properties of Pulsed Laser Deposited Boron Nitride Films | year = 1999 | author = S. Weissmantel | journal = Diamond and Related Materials | volume = 8 | page = 377 | issue = 2–5 |bibcode = 1999DRM.....8..377W }}</ref> crystalline BN,<ref name=BN>{{cite book | title = Landolt-Börnstein – Group VIII Advanced Materials and Technologies: Powder Metallurgy Data. Refractory, Hard and Intermetallic Materials | chapter = 13.5 Properties of diamond and cubic boron nitride | volume = 2A2 | doi = 10.1007/b83029 | isbn = 978-3-540-42961-6 | pages = 118–139 | editor = P. Beiss ''et al.'' | author = G. Leichtfried ''et al.'' | year = 2002 | publisher = Springer | location = Berlin }}</ref><ref name=ioffe/> graphite,<ref>{{cite book | author = P. Delhaes | title = Graphite and Precursors | publisher = CRC Press | year = 2001 | isbn = 9056992287 }}</ref> diamond''.<ref name=ioffe>{{cite web | url = http://www.ioffe.ru/SVA/NSM/Semicond/BN/index.html | title = BN – Boron Nitride | work = Ioffe Database | publisher = FTI im. A. F. Ioffe, RAN | location = Sankt Peterburg }}</ref>
+{{clear}}
+The partly [[ionic bond|ionic]] structure of BN layers in h-BN reduces covalency and electrical conductivity, whereas the interlayer interaction increases resulting in higher hardness of h-BN relative to graphite. The reduced electron-delocalization in hexagonal-BN is also indicated by its absence of color and a large [[band gap]]. Very different bonding – strong covalent within the [[basal plane]]s (planes where boron and nitrogen atoms are covalently bonded) and weak between them – causes high [[anisotropy]] of most properties of h-BN.
+
+For example, the hardness, electrical and thermal conductivity are much higher within the planes than perpendicular to them. On the contrary, the properties of c-BN and w-BN are more homogeneous and isotropic.
+
+Those materials are extremely hard, with the hardness of bulk c-BN being slightly smaller and w-BN even higher than that of diamond.<ref>{{cite journal | author = Z. Pan ''et al.'' | title = Harder than Diamond: Superior Indentation Strength of Wurtzite BN and Lonsdaleite | journal = Physical Review Letters | volume = 102 | page = 055503 | year = 2009 | doi = 10.1103/PhysRevLett.102.055503 | pmid = 19257519 | bibcode = 2009PhRvL.102e5503P | issue = 5 }}</ref> Polycrystalline c-BN with grain sizes on the order of 10 nm is also reported to have [[Vickers hardness]] comparable or higher than diamond.<ref>{{cite journal|author=Yongjun Tian et al.|doi=10.1038/nature11728|title=Ultrahard nanotwinned cubic boron nitride|year=2013|journal=Nature|volume=493|issue=7432|pages=385–8|pmid=23325219}}
+</ref> Because of much better stability to heat and metals, c-BN surpasses diamond in mechanical applications.<ref name=dkg>{{cite journal | title = Hexagonal Boron Nitride (hBN) – Applications from Metallurgy to Cosmetics | url = http://www.esk.com/uploads/tx_userjspresseveroeff/PR_0712_CFI_12-2007_Hexagonales-BN_e_01.pdf | author = M. Engler | journal = Cfi/Ber. DKG | volume = 84 | year = 2007 | page = D25 | issn = 0173-9913 }}</ref> The thermal conductivity of BN is among the highest of all electric insulators (see table).
+
+Boron nitride can be doped p-type with Be and n-type with boron, sulfur, silicon or if co-doped with carbon and nitrogen.<ref name=BN/> Both hexagonal and cubic BN are wide-gap semiconductors with a band gap energy corresponding to the UV region. If voltage is applied to h-BN <ref>{{cite journal | author = Y. Kubota ''et al.'' | title = Deep Ultraviolet Light-Emitting Hexagonal Boron Nitride Synthesized at Atmospheric Pressure | doi = 10.1126/science.1144216 | journal = Science | pmid = 17702939 | volume = 317 | issue = 5840 | year = 2007 | page = 932 |bibcode = 2007Sci...317..932K }}</ref><ref name="taniguchi">{{cite journal | author = K. Watanabe, T. Taniguchi, H. Kanda | title = Direct-Bandgap Properties and Evidence for Ultraviolet Lasing of Hexagonal Boron Nitride Single Crystal | doi = 10.1038/nmat1134 | journal = Nature Materials | pmid = 15156198 | volume = 3 | issue = 6 | year = 2004 | page = 404 |bibcode = 2004NatMa...3..404W }}</ref> or c-BN,<ref>{{cite journal | author = T. Taniguchi ''et al.'' | title = Ultraviolet Light Emission from Self-Organized p–n Domains in Cubic Boron Nitride Bulk Single Crystals Grown Under High Pressure | doi = 10.1063/1.1524295 | journal = Applied Physics Letters | volume = 81 | year = 2002 | page = 4145 | issue = 22 |bibcode = 2002ApPhL..81.4145T }}</ref> then it emits UV light in the range 215–250&nbsp;nm and therefore can potentially be used as [[light emitting diodes]] (LEDs) or lasers.
+
+Little is known on melting behavior of boron nitride. It sublimates at 2973&nbsp;°C at normal pressure releasing nitrogen gas and boron, but melts at elevated pressure.<ref>{{cite journal | doi = 10.1021/j100814a515 | title = Sublimation and Decomposition Studies on Boron Nitride and Aluminum Nitride | year = 1962 | author = Lloyd H. Dreger ''et al.'' | journal = The Journal of Physical Chemistry | volume = 66 | page = 1556 | issue = 8 }}</ref><ref name=wentorf1957>{{cite journal | doi = 10.1063/1.1745964 | title = Cubic Form of Boron Nitride | year = 1957 | author= R. H. Wentorf | journal = The Journal of Chemical Physics | volume = 26 | issue = 4 | page = 956 | bibcode=1957JChPh..26..956W }}</ref>
+
+===Thermal stability===
+Hexagonal and cubic (and probably w-BN) BN show remarkable chemical and thermal stabilities. For example, h-BN is stable to decomposition at temperatures up to 1000&nbsp;°C in air, 1400&nbsp;°C in vacuum, and 2800&nbsp;°C in an inert atmosphere. The reactivity of h-BN and c-BN is relatively similar, and the data for c-BN are summarized in the table below. 
+{| class="wikitable" style="margin:10px;"
+|+ Reactivity of c-BN with solids<ref name=BN/>
+!Solid
+!Ambient
+!Action
+!Threshold T (°C)
+|-
+|Mo 
+|10<sup>−2</sup> Pa vacuum
+|reaction 
+|1360
+|-
+|Ni 
+|10<sup>−2</sup> Pa vacuum
+|[[wetting]]<ref>Here wetting refers to the ability of a molten metal to keep contact with solid BN</ref>
+|1360
+|-
+|Fe, Ni, Co 
+|argon 
+|react
+|1400–1500
+|-
+|Al 
+|10<sup>−2</sup> Pa vacuum 
+|wetting and reaction 
+|1050
+|-
+|Si
+|10<sup>−3</sup> Pa vacuum
+|wetting 
+|1500
+|-
+|Cu, Ag, Au, Ga, In, Ge, Sn 
+|10<sup>−3</sup> Pa vacuum
+|no wetting
+|1100
+|-
+|B 
+|
+|no wetting
+|2200
+|-
+|Al<sub>2</sub>O<sub>3</sub> + B<sub>2</sub>O<sub>3</sub> 
+|10<sup>−2</sup> Pa vacuum
+|no reaction 
+|1360
+|}
+{{clear}}
+
+Thermal stability of c-BN can be summarized as follows:<ref name=BN/>
+*In air or oxygen: B<sub>2</sub>O<sub>3</sub> protective layer prevents further oxidation to ~1300&nbsp;°C; no conversion to hexagonal form at 1400&nbsp;°C.
+*In nitrogen: some conversion to h-BN at 1525&nbsp;°C after 12 h.
+*In vacuum (10<sup>−5</sup> Pa): conversion to h-BN at 1550–1600&nbsp;°C.
+
+===Chemical stability===
+Boron nitride is insoluble in usual acids, but is soluble in alkaline molten salts and nitrides, such as [[Lithium hydroxide|LiOH]], [[Potassium hydroxide|KOH]], NaOH-Na<sub>2</sub>CO<sub>3</sub>, NaNO<sub>3</sub>, Li<sub>3</sub>N, Mg<sub>3</sub>N<sub>2</sub>, Sr<sub>3</sub>N<sub>2</sub>, Ba<sub>3</sub>N<sub>2</sub> or Li<sub>3</sub>BN<sub>2</sub>, which are therefore used to etch BN.<ref name=BN/>
+
+===Thermal conductivity===
+The theoretical thermal conductivity of hexagonal Boron nitride nanoribbons (BNNRs) can approach 1700–2000 W/(m·K), which has the same order of magnitude as the experimental measured value for [[graphene]], and can be comparable to the theoretical calculations for graphene nanoribbons.<ref>{{cite journal | author = J. H. Lan ''et al.'' | title = Thermal Transport in Hexagonal Boron Nitride Nanoribbons | doi = 10.1103/PhysRevB.79.115401 | journal = Physical Review B | volume = 79 | issue = 11 | year = 2009 | page = 115401 |bibcode = 2009PhRvB..79k5401L }}</ref><ref>{{cite journal | author = Jiuning Hu, Xiulin Ruan and Yong P. Chen | title = Thermal Conductivity and Thermal Rectification in Graphene Nanoribbons: A Molecular Dynamics Study | doi = 10.1021/nl901231s| journal = Nano Letters | volume = 9 | issue = 7 | year = 2009 | page = 2730 | pmid = 19499898 |arxiv = 1008.1300 |bibcode = 2009NanoL...9.2730H }}</ref> Moreover, the thermal transport in the BNNRs is anisotropic. The thermal conductivity of zigzag-edged BNNRs is about 20% larger than that of armchair-edged nanoribbons at room temperature.<ref>{{cite journal | author = Tao Ouyang, Yuanping Chen, Yuee Xie, Kaike Yang, Zhigang Bao and Jianxin Zhong | title = Thermal Transport in Hexagonal Boron Nitride Nanoribbons | doi = 10.1088/0957-4484/21/24/245701 | journal = Nanotechnology | volume = 21 | issue = 24 | year = 2010 | page = 245701 |bibcode = 2010Nanot..21x5701O }}</ref>
+
+==Synthesis==
+
+===Preparation and reactivity of hexagonal BN===
+Boron nitride has not been found in nature and therefore is produced synthetically. Hexagonal boron nitride is obtained by the reacting boron trioxide (B<sub>2</sub>O<sub>3</sub>) or boric acid (B(OH)<sub>3</sub>) with [[ammonia]] (NH<sub>3</sub>) or [[urea]] (CO(NH<sub>2</sub>)<sub>2</sub>) in a nitrogen atmosphere:<ref name=prod>{{cite journal | author = S. Rudolph | journal = American Ceramic Society Bulletin | volume = 79 | year = 2000 | page = 50 | url = http://www.a-m.de/deu/literatur/cb0600.html | title = Boron Nitride (BN) }}</ref>
+
+:B<sub>2</sub>O<sub>3</sub> + 2 NH<sub>3</sub> → 2 BN + 3 H<sub>2</sub>O (T = 900&nbsp;°C)
+:B(OH)<sub>3</sub> + NH<sub>3</sub> → BN + 3 H<sub>2</sub>O (T = 900&nbsp;°C)
+:B<sub>2</sub>O<sub>3</sub> + CO(NH<sub>2</sub>)<sub>2</sub> → 2 BN + CO<sub>2</sub> + 2 H<sub>2</sub>O (T > 1000&nbsp;°C)
+:B<sub>2</sub>O<sub>3</sub> + 3 CaB<sub>6</sub> + 10 N<sub>2</sub> → 20 BN + 3 CaO (T > 1500&nbsp;°C)
+
+The resulting disordered ([[amorphous]]) boron nitride contains 92–95% BN and 5–8% B<sub>2</sub>O<sub>3</sub>. The remaining B<sub>2</sub>O<sub>3</sub> can be evaporated in a second step at temperatures >1500&nbsp;°C in order to achieve BN concentration >98%. Such annealing also crystallizes BN, the size of the crystallites increasing with the annealing temperature.<ref name=dkg/><ref>{{cite web | url = http://hubacek.jp/bn/bn.htm | accessdate = 2009-06-06 | title = Synthesis of Boron Nitride from Oxide Precursors | archiveurl = http://web.archive.org/web/20071212115253/http://hubacek.jp/bn/bn.htm | archivedate = December 12, 2007 | deadurl=yes }}</ref>
+
+h-BN parts can be fabricated inexpensively by hot-pressing with subsequent machining. The parts are made from boron nitride powders adding boron oxide for better compressibility. Thin films of boron nitride can be obtained by [[chemical vapor deposition]] from [[boron trichloride]] and nitrogen precursors.<ref name=cvd>{{cite journal | title = Review of Advances in Cubic Boron Nitride Film Synthesis | author = P. B. Mirkarimi ''et al.'' | volume = 21 | year = 1997 | pages = 47–100 | doi = 10.1016/S0927-796X(97)00009-0 | journal = Materials Science and Engineering R Reports | issue = 2 }}</ref> Combustion of boron powder in nitrogen [[plasma (physics)|plasma]] at 5500&nbsp;°C yields [[Ultrafine particles|ultrafine]] boron nitride used for lubricants and [[toner]]s.<ref>{{cite journal | author = Robert T. Paine, Chaitanya K. Narula | title = Synthetic Routes to Boron Nitride | journal = Chemical Reviews | year = 1990 | volume = 90 | pages = 73–91 | doi= 10.1021/cr00099a004 }}</ref>
+
+Boron nitride reacts with [[iodine monofluoride|iodine fluoride]] in [[trichlorofluoromethane]] at −30&nbsp;°C to produce an extremely sensitive [[contact explosive]], NI<sub>3</sub>, in low yield.<ref>{{cite journal | author = I. Tornieporth-Oetting and T. Klapötke | journal = Angewandte Chemie International Edition | year = 1990 | volume = 29 | pages =677–679 | doi = 10.1002/anie.199006771 | title = Nitrogen Triiodide | issue = 6 }}</ref>
+Boron nitride reacts with nitrides of alkali metals and lanthanides to form [[nitridoborate]] compounds.<ref name = "Housecroft2d">{{cite book |last1=Housecroft |first1=Catherine E |last2=Sharpe|first2=Alan G| year=2005 |title=Inorganic Chemistry|edition=2d |publisher=Pearson education|pages=318|isbn=978-0-13-039913-7 }}</ref> For example:
+:Li<sub>3</sub>N + BN → Li<sub>3</sub>BN<sub>2</sub>
+
+===Intercalation of hexagonal BN===
+{{see also|Graphite intercalation compound}}
+[[Image:BN8Kstructure.jpg|150px|thumb|Structure of hexagonal boron nitride intercalated with potassium (B<sub>4</sub>N<sub>4</sub>K)]]
+
+Similar to graphite, various molecules, such as NH<sub>3</sub><ref>{{cite journal | author = V. L. Solozhenko ''et al.'' | journal = Physical Chemistry Chemical Physics | year = 2002 | page = 5386 | doi = 10.1039/b206005a | title = ''In situ'' Studies of Boron Nitride Crystallization from BN Solutions in Supercritical N–H Fluid at High Pressures and Temperatures | volume = 4 | issue = 21 |bibcode = 2002PCCP....4.5386S }}</ref> or alkali metals,<ref>{{cite journal | author = G. L. Doll ''et al.'' | title = Intercalation of Hexagonal Boron Nitride with Potassium | journal = Journal of Applied Physics | volume = 66 | page = 2554 | year = 1989 | doi = 10.1063/1.344219 | issue = 6 |bibcode = 1989JAP....66.2554D }}</ref> can be intercalated into hexagonal boron nitride, that is inserted between its layers. Both experiment and theory suggest the intercalation is much more difficult for BN than for graphite.<ref>{{cite journal | author = Bai-Qing Dai and Gui-Ling Zhang | journal = Materials Chemistry and Physics | volume = 78 | year = 2003 | page = 304 | doi = 10.1016/S0254-0584(02)00205-5 | title = A DFT Study of hBN Compared with Graphite in Forming Alkali Metal Intercalation Compounds | issue = 2 }}</ref>
+
+===Preparation of cubic BN===
+Synthesis of c-BN uses same methods as that of diamond: Cubic boron nitride is produced by treating hexagonal boron nitride at high pressure and temperature, much as [[synthetic diamond]] is produced from graphite. Direct conversion of hexagonal boron nitride to the cubic form has been observed at pressures between 5 and 18 GPa and temperatures between 1730 and 3230&nbsp;°C, that is similar parameters as for direct graphite-diamond conversion.<ref name=wentorf>{{cite journal | author = R. H. Wentorf, Jr. | authorlink = Robert H. Wentorf, Jr. | year = 1961 | month = March | title = Synthesis of the Cubic Form of Boron Nitride | journal = Journal of Chemical Physics | volume = 34 | issue = 3 | pages = 809–812 | doi = 10.1063/1.1731679 |bibcode = 1961JChPh..34..809W }}</ref> The addition of a small amount of boron oxide can lower the required pressure to 4–7 GPa and temperature to 1500&nbsp;°C. As in diamond synthesis, to further reduce the conversion pressures and temperatures, a catalyst is added, such as lithium, potassium, or magnesium, their nitrides, their fluoronitrides, water with ammonium compounds, or hydrazine.<ref name=vel>{{cite journal | doi = 10.1016/0921-5107(91)90121-B | title = Cubic Boron Nitride: Synthesis, Physicochemical Properties and Applications | author = L. Vel ''et al.'' | journal = Materials Science and Engineering: B | volume = 10 | year = 1991 | page = 149 | issue = 2 }}</ref><ref>{{cite journal | author = O. Fukunaga | title = Science and Technology in the Recent Development of Boron Nitride Materials | year = 2002 | journal = Journal of  Physics: Condensed Matter | volume = 14 | page = 10979 | doi = 10.1088/0953-8984/14/44/413 | issue = 44 |bibcode = 2002JPCM...1410979F }}</ref> Other industrial synthesis methods, again borrowed from diamond growth, use crystal growth in a temperature gradient, or explosive [[shock wave]]. The shock wave method is used to produce material called [[heterodiamond]], a superhard compound of boron, carbon, and nitrogen.<ref>{{cite journal | author = T. Komatsu ''et al.'' | title = Creation of Superhard B–C–N Heterodiamond Using an Advanced Shock Wave Compression Technology | journal = Journal of Materials Processing Technology | volume = 85 | year = 1999 | page = 69 | doi = 10.1016/S0924-0136(98)00263-5 }}</ref>
+
+Low-pressure deposition of thin films of cubic boron nitride is possible. As in diamond growth, the major problem is to suppress the growth of hexagonal phases (h-BN or graphite, respectively). Whereas in diamond growth this is achieved by adding hydrogen gas, [[boron trifluoride]] is used for c-BN. [[Ion beam deposition]], [[plasma-enhanced chemical vapor deposition]], [[pulsed laser deposition]], [[Sputter deposition|reactive sputtering]], and other [[physical vapor deposition]] methods are used as well.<ref name=cvd/>
+
+===Preparation of wurtzite BN===
+Wurtzite BN can be obtained via static high-pressure or dynamic shock methods.<ref>{{cite journal | title = Characterization of Wurtzite Type Boron Nitride Synthesized by Shock Compression | author = T. Soma ''et al.'' | journal = Materials Research Bulletin | volume = 9 | year = 1974 | page = 755 | doi = 10.1016/0025-5408(74)90110-X | issue = 6 }}</ref> The limits of its stability are not well defined. Both c-BN and w-BN are formed by compressing h-BN, but formation of w-BN occurs at much lower temperatures close to 1700&nbsp;°C.<ref name=vel/>
+
+===Production statistics===
+Whereas the production and consumption figures for the raw materials used for BN synthesis, namely boric acid and boron trioxide, are well known (see [[boron]]), the corresponding numbers for the boron nitride are not listed in statistical reports. An estimate for the 1999 world production is 300 to 350 metric tons. The major producers and consumers of BN are located in the United States, Japan, China and Germany. In 2000, prices varied from about $75/kg to $120/kg for standard industrial-quality h-BN and were about up to $200–$400/kg for high purity BN grades.<ref name=prod/>
+
+==Applications==
+
+===Hexagonal BN===
+[[Image:BNcrucible.jpg|thumb|right|Ceramic BN crucible]]
+Hexagonal BN is the most widely used polymorph. It is a good lubricant at both low and high temperatures (up to 900&nbsp;°C, even in an oxidizing atmosphere). h-BN lubricant is particularly useful when the electrical conductivity or chemical reactivity of graphite (alternative lubricant) would be problematic. Another advantage of h-BN over graphite is that its lubricity does not require water or gas molecules trapped between the layers. Therefore, h-BN lubricants can be used even in vacuum, e.g. in space applications. The lubricating properties of fine-grained h-BN are used in [[cosmetics]], [[paint]]s, [[dental cement]]s, and [[pencil]] leads.<ref name=b1>{{cite book | author = Jochen Greim, Karl A. Schwetz | chapter = Boron Carbide, Boron Nitride, and Metal Borides | title = Ullmann's Encyclopedia of Industrial Chemistry | publisher = Wiley-VCH | location = Weinheim | year = 2005 | doi = 10.1002/14356007.a04_295.pub2 }}</ref>
+
+Hexagonal BN was first used in cosmetics around 1940 in [[Japan]]. However, because of its high price, h-BN was soon abandoned for this application. Its use was revitalized in the late 1990s with the optimization h-BN production processes, and currently h-BN is used by nearly all leading producers of cosmetic products for [[Foundation (cosmetics)|foundations]], [[make-up]], [[eye shadow]]s, blushers, [[eye liner|kohl pencils]], [[lipstick]]s and other skincare products.<ref name=dkg/>
+
+Because of its excellent thermal and chemical stability, boron nitride ceramics are traditionally used as parts of high-temperature equipment. h-BN can be included in ceramics, alloys, resins, plastics, rubbers, and other materials, giving them self-lubricating properties. Such materials are suitable for construction of e.g. [[Bearing (mechanical)|bearings]] and in steelmaking.<ref name=dkg/> Plastics filled with BN have less thermal expansion as well as higher thermal conductivity and electrical resistivity. Due to its excellent dielectric and thermal properties, BN is used in electronics e.g. as a substrate for semiconductors, microwave-transparent windows, and as a structural material for seals.<ref>{{cite journal | author = R.F. Davis | title = III-V Nitrides for Electronic and Optoelectronic Applications | journal = Proceedings of the IEEE | year = 1991 | volume= 79 | pages = 702–712 | doi = 10.1109/5.90133 | issue= 5 }}</ref>
+
+Hexagonal BN is used in [[Xerography|xerographic process]] and [[laser printer]]s as a charge leakage barrier layer of the photo drum.<ref>{{cite book | author = L. B. Schein | title = Electrophotography and Development Physics | series = Springer Series in Electrophysics | volume = 14 |publisher = Springer-Verlag | location = Berlin | year = 1988 | isbn = 9780387189024 }}</ref> In the automotive industry, h-BN mixed with a binder (boron oxide) is used for sealing [[oxygen sensor]]s, which provide feedback for adjusting fuel flow. The binder utilizes the unique temperature stability and insulating properties of h-BN.<ref name=dkg/>
+
+Parts can be made of h-BN by [[hot pressing]]. [[Union Carbide Corporation]] produces three grades of BN. HBN, with boron oxide [[binder (material)|binder]], usable to 550–850&nbsp;°C in oxidizing atmosphere and up to 1600 °C in vacuum, but due to the boron oxide content is sensitive to water. HBR uses [[calcium borate]] binder and is usable at 1600&nbsp;°C. HBC grade uses no binder and can be used to 3000&nbsp;°C.<ref>{{cite book | author = Charles A. Harper | title = Handbook of Ceramics, Glasses and Diamonds | publisher = McGraw-Hill | year = 2001 | isbn = 007026712X }}</ref>
+
+===Cubic boron nitride===
+Cubic boron nitride (CBN or c-BN) is widely used as an [[abrasive]].<ref name="mprg">{{Cite book | author = Robert H. Todd, Dell K. Allen and Leo Alting | year = 1994 | title = Manufacturing Processes Reference Guide | publisher = Industrial Press Inc. | pages = 43–48 | url = http://books.google.com/?id=6x1smAf_PAcC | isbn = 0-8311-3049-0 }}</ref> Its usefulness arises from its insolubility in [[iron]], [[nickel]], and related [[alloy]]s at high temperatures, whereas diamond is soluble in these metals to give carbides. Polycrystalline c-BN (PCBN) abrasives are therefore used for machining steel, whereas diamond abrasives are preferred for aluminum alloys, ceramics, and stone. When in contact with oxygen at high temperatures, BN forms a passivation layer of boron oxide. Boron nitride binds well with metals, due to formation of interlayers of metal borides or nitrides. Materials with cubic boron nitride crystals are often used in the [[tool bit]]s of [[cutting tool]]s. For grinding applications, softer binders, e.g. resin, porous ceramics, and soft metals, are used. Ceramic binders can be used as well. Commercial products are known under names "[[Borazon]]" (by Diamond Innovations), and "Elbor" or "Cubonite" (by Russian vendors). Similar to diamond, the combination in c-BN of highest thermal conductivity and electrical resistivity is ideal for heat spreaders. Contrary to diamond, large c-BN pellets can be produced in a simple process (called sintering) of annealing c-BN powders in nitrogen flow at temperatures slightly below the BN decomposition temperature. This ability of c-BN and h-BN powders to fuse allows cheap production of large BN parts.<ref name=b1/>
+
+As cubic boron nitride consists of light atoms and is very robust chemically and mechanically, it is one of the popular materials for X-ray membranes: low mass results in small X-ray absorption, and good mechanical properties allow usage of thin membranes, thus further reducing the absorption.<ref>{{cite journal | author = M. A. El Khakani and M. Chaker | title = Physical Properties of the X-Ray Membrane Materials | journal = Journal of Vacuum Science and Technology B | volume = 11 | pages = 2930–2937 | year = 1993 | doi = 10.1116/1.586563 | issue = 6 |bibcode = 1993JVSTB..11.2930E }}</ref>
+
+===Amorphous boron nitride===
+Layers of amorphous boron nitride (a-BN) are used in some [[semiconductor device]]s, e.g. [[MISFET]]s. They can be prepared by chemical decomposition of [[trichloroborazine]] with [[caesium]], or by thermal chemical vapor deposition methods. Thermal CVD can be also used for deposition of h-BN layers, or at high temperatures, c-BN.<ref>{{cite journal | author = W. Schmolla | title = Positive Drift Effect of BN-InP Enhancement N-Channel MISFET | doi =10.1080/00207218508939000 | journal = International Journal of Electronics | volume = 58 | year = 1985 | page = 35 }}</ref>
+
+==Other forms of boron nitride==
+
+===Boron nitride nanomesh===
+[[Image:nanomesh 3D.jpg|thumb|right|Perspective view of nanomesh (structure ends at the back of the figure)]]
+[[Image:STMnm-2.JPG|thumb|left|BN nanomesh observed by [[scanning tunneling microscope]]. The center of each ring corresponds to the center of the pores]]
+
+{{main|Nanomesh}}
+[[nanomesh|Boron nitride nanomesh]] is a nanostructured two-dimensional material. It consists of a single BN layer, which forms by [[self-assembly]] a highly regular mesh after high-temperature exposure of a clean [[rhodium]]<ref name="corso04">{{cite journal | author = M. Corso ''et al.'' | title = Boron Nitride Nanomesh | journal = Science | volume = 303 | pages = 217–220 | doi = 10.1126/science.1091979 | year = 2004 | pmid = 14716010 | issue = 5655 |bibcode = 2004Sci...303..217C }}</ref> or [[ruthenium]]<ref name="goriachko07">{{cite journal | author = A. Goriachko ''et al.'' | title = Self-Assembly of a Hexagonal Boron Nitride Nanomesh on Ru(0001) | journal = Langmuir Letters | volume = 23 | issue = 6 | pages = 2928–2931 | doi = 10.1021/la062990t | pmid = 17286422 | year = 2007 }}</ref> surface to borazine under [[ultra-high vacuum]]. The nanomesh looks like an assembly of hexagonal pores. The distance between 2 pore centers is 3.2&nbsp;nm and the pore diameter is ~2&nbsp;nm.
+
+The boron nitride nanomesh is not only stable to decomposition under vacuum,<ref name="corso04"/> air<ref name="bunk07">{{cite journal | author = O. Bunk ''et al.'' | title = Surface X-Ray Diffraction Study of Boron-Nitride Nanomesh in Air | journal = Surface Science | volume = 601 | pages = L7–L10 | doi = 10.1016/j.susc.2006.11.018 | year = 2007 | issue = 2 |bibcode = 2007SurSc.601L...7B }}</ref> and some liquids,<ref name="berner07">{{cite journal | author = S. Berner ''et al.'' | title = Boron Nitride Nanomesh: Functionality from a Corrugated Monolayer | journal = Angewandte Chemie International Edition | volume = 46 | issue = 27 | pages = 5115–5119 | doi = 10.1002/anie.200700234 | pmid = 17538919 | year = 2007 }}</ref><ref name="widmer07">{{cite journal | author = R. Widmer ''et al.'' | title = Electrolytic ''in situ'' STM Investigation of h-BN-Nanomesh | journal = Electrochemical Communications | volume = 9 | pages = 2484–2488 | doi = 10.1016/j.elecom.2007.07.019 | year = 2007 | issue = 10 }}</ref> but also up to temperatures of 800&nbsp;°C.<ref name="corso04"/> In addition, it shows the extraordinary ability to trap [[molecule]]s<ref name="berner07"/> and metallic [[cluster (physics)|clusters]]<ref name="goriachko07"/> which have similar sizes to the nanomesh pores, forming a well-ordered array. These characteristics promise interesting applications of the nanomesh in areas like catalysis, [[surface functionalisation]], [[spintronics]], [[quantum computing]] and data storage media like [[hard drive]]s.<ref>{{cite web | url = http://www.nanomesh.ch/history.php | title = The Discovery of the Nanomesh for Everyone | accessdate = 2009-06-06 }}</ref>
+
+===Boron nitride nanotubes===
+{{see also|Carbon nanotube}}
+Boron nitride nanotubes were predicted in 1994<ref>{{cite journal | doi = 10.1103/PhysRevB.49.5081 | title = Theory of Graphitic Boron Nitride Nanotubes | year = 1994 | author = A. Rubio ''et al.'' | journal = Physical Review B | volume = 49 | page = 5081 | issue = 7 |bibcode = 1994PhRvB..49.5081R }}</ref> and experimentally discovered in 1995.<ref name="N.G. Chopra, R.J. Luyken 1995">{{cite journal | doi = 10.1126/science.269.5226.966 | title = Boron Nitride Nanotubes | year = 1995 | author = N. G. Chopra ''et al.'' | journal = Science | volume = 269 | pages = 966–7 | pmid = 17807732 | issue = 5226 |bibcode = 1995Sci...269..966C }}</ref> They can be imagined as a rolled up sheet of boron nitride. Structurally, it is a close analog of the carbon nanotube, namely a long cylinder with diameter of several to hundred nanometers and length of many micrometers, except carbon atoms are alternately substituted by nitrogen and boron atoms. However, the properties of BN nanotubes are very different: whereas carbon nanotubes can be metallic or semiconducting depending on the rolling direction and radius, a BN nanotube is an electrical insulator with a bandgap of ~5.5 eV, basically independent of tube chirality and morphology.<ref>{{cite journal | doi = 10.1209/0295-5075/28/5/007 | title = Stability and Band Gap Constancy of Boron Nitride Nanotubes | year = 1994 | author = X. Blase ''et al.'' | journal = Europhysics Letters (EPL) | volume = 28 | page = 335 | issue = 5 |bibcode = 1994EL.....28..335B }}</ref> In addition, a layered BN structure is much more thermally and chemically stable than a graphitic carbon structure.<ref>{{cite journal | url = http://www.glue.umd.edu/~cumings/PDF%20Publications/15.APL81han.pdf | doi = 10.1063/1.1498494 | title = Transformation of B<sub>x</sub>C<sub>y</sub>N<sub>z</sub> Nanotubes to Pure BN Nanotubes | year = 2002 | author = Wei-Qiang Han ''et al.'' | journal = Applied Physics Letters | volume = 81 | page = 1110 | issue = 6 |bibcode = 2002ApPhL..81.1110H }}</ref><ref name=golberg>{{cite journal | author = D. Golberg, Y. Bando, C.C. Tang, C.Y. Zhi | title = Boron Nitride Nanotubes | doi = 10.1002/adma.200700179 | journal = Advanced Materials | volume = 19 | year = 2007 | page = 2413 | issue = 18 }}</ref>
+ 
+All well-established techniques of carbon nanotube growth, such as arc-discharge,<ref name="N.G. Chopra, R.J. Luyken 1995"/><ref>{{cite journal | doi = 10.1016/S0009-2614(99)01277-4 | title = Mass-Production of Boron Nitride Double-Wall Nanotubes and Nanococoons | year = 2000 | author = J. Cumings | journal = Chemical Physics Letters | volume = 316 | page = 211 | bibcode = 2000CPL...316..211C | issue = 3–4 }}</ref> laser ablation<ref>{{cite journal | doi = 10.1063/1.116874 | title = Nanotubes in Boron Nitride Laser Heated at High Pressure | year = 1996 | author = D. Golberg ''et al.'' | journal = Applied Physics Letters | volume = 69 | page = 2045 | issue = 14 |bibcode = 1996ApPhL..69.2045G }}</ref><ref>{{cite journal | doi = 10.1063/1.121236 | title = Synthesis of Boron Nitride Nanotubes by Means of Excimer Laser Ablation at High Temperature | year = 1998 | author = D. P. Yu ''et al.'' | journal = Applied Physics Letters | volume = 72 | page = 1966 | issue = 16 |bibcode = 1998ApPhL..72.1966Y }}</ref> and chemical vapor deposition,<ref>{{cite journal | doi = 10.1016/j.ssc.2005.03.062 | title = Effective Precursor for High Yield Synthesis of Pure BN Nanotubes | year = 2005 | author = C. Zhi ''et al.'' | journal = Solid State Communications | volume = 135 | page = 67 |bibcode = 2005SSCom.135...67Z }}</ref> are used to synthesize BN nanotubes. BN nanotubes can also be produced by [[ball mill]]ing of amorphous boron, mixed with a catalyst: iron powder, under NH<sub>3</sub> atmosphere. Subsequent annealing at ~1100&nbsp;°C in nitrogen flow transforms most of the product into BN.<ref name=Au/><ref name=eu/>
+
+Electrical and field emission properties of such nanotubes can be tuned by doping with gold atoms via sputtering of gold on the nanotubes.<ref name=Au>{{cite journal | author = H. Chen ''et al.'' | title = Nano Au-Decorated Boron Nitride Nanotubes: Conductance Modification and Field-Emission Enhancement | journal = Applied Physics Letters | volume = 92 | page = 243105 | year = 2008 | doi = 10.1063/1.2943653 | url = http://wwwrsphysse.anu.edu.au/nanotube/pdf/aubnntapl08.pdf | archiveurl = http://web.archive.org/web/20110720132612/http://wwwrsphysse.anu.edu.au/nanotube/pdf/aubnntapl08.pdf | archivedate = 2011-07-20 | issue = 24 |bibcode = 2008ApPhL..92x3105C }}</ref><ref>{{cite journal | author = Y. Chen ''et al.'' | title = Au Doped BN Nanotubes with Tunable Conductivity | journal = Nano | volume = 2 | year = 2008 | page = 367 | doi = 10.1142/S1793292007000702 | issue = 6 }}</ref> Doping rare-earth atoms of [[europium]] turns a BN nanotube into a [[phosphor]] material emitting visible light under electron excitation.<ref name=eu>{{cite journal | author = H. Chen ''et al.'' | title = Eu-Doped Boron Nitride Nanotubes as a Nanometer-Sized Visible-Light Source | journal = Advanced Materials | year = 2007 | volume = 19 | page = 1845 | doi = 10.1002/adma.200700493 | url = http://wwwrsphysse.anu.edu.au/nanotube/pdf/Eu-BNNTs.pdf | archiveurl = http://web.archive.org/web/20110720132706/http://wwwrsphysse.anu.edu.au/nanotube/pdf/Eu-BNNTs.pdf | archivedate = 2011-07-20 | issue = 14 }}</ref> [[Quantum dot]]<nowiki/>s formed from 3-nanometer gold particles spaced across the nanotubes exhibit the properties of [[field-effect transistor]]s at room temperature.<ref>{{cite doi|10.1002/adma.201301339}}</ref>
+
+Like BN fibers, boron nitride nanotubes show promise for aerospace applications where integration of boron and in particular the light isotope of boron (<sup>10</sup>B) into structural materials improves their radiation-shielding properties; the improvement is due to strong neutron absorption by <sup>10</sup>B. Such <sup>10</sup>BN materials are of particular theoretical value as composite structural materials in future manned interplanetary spacecraft, where absorption-shielding from cosmic ray [[spallation]] neutrons is expected to be a particular asset in light construction materials.<ref>{{cite journal | author = J. Yu ''et al.'' | title = Isotopically Enriched 10BN Nanotubes | journal = Advanced Materials | volume = 18 | year = 2006 | url = http://www.rsphysse.anu.edu.au/nanotube/pdf/B10Nnanotubes.pdf | archiveurl = http://web.archive.org/web/20110717020530/http://www.rsphysse.anu.edu.au/nanotube/pdf/B10Nnanotubes.pdf | archivedate = 2011-07-17 | doi = 10.1002/adma.200600231 | page = 2157 | issue = 16 }}</ref>
+
+===Composites containing BN===
+Addition of boron nitride to [[silicon nitride]] ceramics improves the [[thermal shock]] resistance of the resulting material. For the same purpose, BN is added also to silicon nitride-[[alumina]] and [[titanium nitride]]-alumina ceramics. Other materials being reinforced with BN are, e.g., alumina and [[zirconia]], [[borosilicate glass]]es, [[glass ceramic]]s, [[vitreous enamel|enamels]], and composite ceramics with [[titanium boride]]-boron nitride and titanium boride-[[aluminium nitride]]-boron nitride and [[silicon carbide]]-boron nitride composition.<ref>{{cite book | title = Handbook of Composite Reinforcements | author = S. M. Lee | publisher = John Wiley and Sons | year = 1992 | isbn = 0471188611 }}</ref>
+
+==Health issues==
+Boron nitride (along with Si<sub>3</sub>N<sub>4</sub>, NbN, and BNC) is reported to show weak [[fibrogenic]] activity and cause [[pneumoconiosis]]. The maximum concentration recommended for nitrides of nonmetals is 10&nbsp;mg/m<sup>3</sup> for BN and 4 for AlN or ZrN.<ref name=BN/>
+
+==See also==
+{{colbegin|3}}
+*[[Beta carbon nitride]]
+*[[Boron suboxide]]
+*[[Superhard materials]]
+*[[Wide bandgap semiconductors]]
+*[[Graphene]]
+{{colend}}
+
+==Notes and references==
+{{Reflist|2}}
+
+==External links==
+*[http://www.nims.go.jp/synthesis/topics-e.html Synthesis and functionalization of BN nanotubes]
+*[http://www.npi.gov.au/database/substance-info/profiles/15.html National Pollutant Inventory: Boron and Compounds]
+*[http://ptcl.chem.ox.ac.uk/MSDS/BO/boron_nitride.html Materials Safety Data Sheet] at University of Oxford
+
+{{Boron compounds}}
+
+{{good article}}
+
+{{DEFAULTSORT:Boron Nitride}}
+[[Category:Boron compounds]]
+[[Category:Ceramic materials]]
+[[Category:Nitrides]]
+[[Category:III-V compounds]]
+[[Category:Non-petroleum based lubricants]]
+[[Category:Dry lubricants]]
+[[Category:Abrasives]]
+[[Category:Semiconductor materials]]
+[[Category:Superhard materials]]
+[[Category:Neutron poisons]]

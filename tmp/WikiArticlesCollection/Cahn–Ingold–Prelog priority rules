@@ -1,0 +1,111 @@
+<!--This article is in US English-->
+[[Image:CIP_priority_diagram.png|thumb|320px|right|An example of the prioritisation of structure within the CIP system. Priority is assigned according to the substitution of elements with higher atomic numbers, or other attached groups. In red is the substituent which determines the final priority.]]
+
+The '''Cahn–Ingold–Prelog priority rules''', '''CIP system''' or '''CIP conventions''' (after [[Robert Sidney Cahn]], [[Christopher Kelk Ingold]] and [[Vladimir Prelog]]) are a set of rules used in [[organic chemistry]] to name the [[stereoisomers]] of a molecule.<ref>J. March. ''Advanced Organic Chemistry'' 3Ed. ISBN 0-471-85472-7</ref><ref>[[IUPAC]] Rules for the Nomenclature of Organic Chemistry.  Section E, Stereochemistry (Recommendations 1974).  [http://www.iupac.org/publications/pac/1976/pdf/4501x0011.pdf]</ref> A molecule may contain any number of [[stereocenter]]s and any number of [[Covalent bond#Bond order|double bond]]s, and each gives rise to two possible configurations.  The purpose of the CIP system is to assign an [[Chirality (chemistry)#By configuration: R- and S-|R or S descriptor]] to each stereocenter and an [[Cis-trans isomerism#E/Z notation|E or Z descriptor]] to each double bond so that the configuration of the entire molecule can be specified uniquely by including the descriptors in its systematic name.
+
+The key article by the three authors setting out the CIP rules was published in 1966.<ref>The following two papers define the CIP system.  The papers provide a number of additional rules beyond the main points covered above, such as describing less common forms of stereoisomerism (such as chiral axes and planes), and resolving more difficult priority assignments. For example, note that the above rules fail to generate stereo descriptors for compounds such as (1''s'',2''s'',3''s'')-1,2,3-trichlorocyclopropane (in which all three chlorine atoms are on the same side of the ring).</ref><ref>{{Cite journal | author = [[Robert Sidney Cahn]]; [[Christopher Kelk Ingold]]; [[Vladimir Prelog]] 
+  | title = Specification of Molecular Chirality
+  | journal = [[Angewandte Chemie International Edition]] 
+  | volume = 5
+  | issue = 4
+  | pages = 385–415
+  | year = 1966
+  | doi = 10.1002/anie.196603851}}</ref><ref>{{cite journal | author = [[Vladimir Prelog]]; [[Günter Helmchen]]
+  | title = Basic Principles of the CIP-System and Proposals for a Revision
+  | journal = [[Angewandte Chemie International Edition]] 
+  | volume = 21
+  | issue = 8
+  | pages = 567–583
+  | year = 1982
+  | doi = 10.1002/anie.198205671}}</ref>
+
+The Cahn–Ingold–Prelog rules are distinctly different from those of other naming conventions, such as general [[IUPAC nomenclature]], since they are designed for the specific task of naming stereoisomers rather than the general classification and description of compounds.
+
+==Steps for naming==
+
+The steps for naming molecules using the CIP system are often presented as:
+
+# Identification of [[stereocenter]]s and [[Covalent bond#Bond order|double bond]]s
+# Assignment of priorities to the groups attached to each stereocenter or double-bonded atom
+# Assignment of R/S and E/Z descriptors
+
+===Assignment of priorities===
+
+[[Chirality (chemistry)#By configuration: R- and S-|R/S]] and E/Z descriptors are assigned by using a system for ranking priority of the groups attached to each stereocenter. This procedure, often known as ''the sequence rules'', is the heart of the CIP system. 
+
+1. Compare the atomic number (Z) of the atoms directly attached to the stereocenter; the group having the atom of higher atomic number receives higher priority. 
+
+2. If there is a tie, we must consider the atoms at distance 2 from the stereocenter—as a list is made for each group of the atoms bonded to the one directly attached to the stereocenter. Each list is arranged in order of decreasing atomic number. Then the lists are compared atom by atom; at the earliest difference, the group containing the atom of higher atomic number receives higher priority. 
+
+3. If there is still a tie, each atom in each of the two lists is replaced with a sub-list of the other atoms bonded to it (at distance 3 from the stereocenter), the sub-lists are arranged in decreasing order of atomic number, and the entire structure is again compared atom by atom. This process is repeated, each time with atoms one bond farther from the stereocenter, until the tie is broken.
+
+====Isotopes====
+
+If two groups differ only in [[isotope]]s, [[atomic mass]]es are used at each step to break ties in atomic number.
+
+====Double and triple bonds====
+
+If an atom ''A'' is double-bonded to an atom ''B'', ''A'' is treated as being singly bonded to two atoms: ''B'' and a '''ghost atom''' that has the same atomic number as ''B'' but is not attached to anything except ''A''. In turn, when ''B'' is replaced with a list of attached atoms, ''A'' itself is excluded in accordance with the general principle of not doubling back along a bond that has just been followed, but a ghost atom for ''A'' is included so that the double bond is properly represented from both ends.
+
+A triple bond is handled the same way except that ''A'' and ''B'' each carry two ghost atoms instead of one.
+
+It needs to be mentioned also that two substituents on an atom may, in rare cases, be geometrical isomers. Consider for example the compound (3''Z'',6''E'')-3,5,7-trimethylnona-3,6-diene. It soon becomes clear that the 5-carbon is chiral because it has four different substituents. Thus it is necessary to introduce the rule that the Z-isomer has higher priority than the E-isomer.
+
+====Cycles====
+
+To handle a molecule containing one or more cycles, one must first expand it into a tree (called a '''hierarchical digraph''' by the authors) by traversing bonds in all possible paths starting at the stereocenter. When the traversal encounters an atom through which the current path has already passed, a ghost atom is generated in order to keep the tree finite. A single atom of the original molecule may appear in many places (some as ghosts, some not) in the tree.
+
+=== Assigning descriptors ===
+
+==== Stereocenters: R/S ====
+[[File:CIP system example.svg|thumb|Two examples of stereocenters. The lowest substituent (number 4) is shown only by a wavy line, and is assumed to be behind the rest of the molecule. Both centers shown are S isomers.]]
+After the [[substituent]]s of a [[stereocenter]] have been assigned their priorities, the molecule is oriented in space so that the group with the lowest priority is pointed away from the observer. If the substituents are numbered from 1 (highest priority) to 4 (lowest priority), then the sense of rotation of a curve passing through 1, 2 and 3 distinguishes the [[stereoisomer]]s. A center with a clockwise sense of rotation is an ''R'' or ''rectus'' center and a center with a counterclockwise sense of rotation is an ''S'' or ''sinister'' center. The names are derived from the [[Latin]] for right and left, respectively.
+
+A practical method of determining whether an enantiomer is R or S is by using the [[right-hand rule]]: one wraps the molecule with the fingers in the direction 1→2→3. If the thumb points in the direction of the 4th substitutent, the enantiomer is R. Otherwise, it's S.
+
+[[File:(1R,2s,3S)-1,2,3-trichlorocyclopentane.svg|thumb|(1''R'',2''s'',3''S'')-1,2,3-trichlorocyclopentane]]
+It is possible in rare cases that two substituents on an atom differ only in their absolute configuration (''R'' or ''S''). If the relative priorities of these substituents need to be established, ''R'' takes priority over ''S''. When this happens, the descriptor of the stereocenter is a lowercase letter (''r'' or ''s'') instead of the uppercase letter normally used.<ref>{{GoldBookRef|title=pseudo-asymmetric carbon atom|file=P04921}}</ref>
+
+==== Double bonds: E/Z ====
+For alkenes and similar double bonded molecules, the same prioritizing process is followed for the substituents. In this case, it is the placing of the two highest priority substituents with respect to the double bond which matters. If both high priority substituents are on the same side of the double bond, i.e. in the [[cis configuration]], then the [[stereoisomer]] is assigned a ''Z'' or ''Zusammen configuration''. If, by contrast they are in a [[trans configuration]], then the stereoisomer is assigned an ''E'' or ''Entgegen configuration''. In this case the identifying letters are derived from [[German language|German]] for 'together' and 'in opposition to', respectively.
+
+=== Examples ===
+
+{| align="center" class="wikitable" width=800px
+|-
+!colspan="2"|R/S assignments for several compounds
+|-
+|bgcolor="#FFFFFF"| [[File:R-bromochlorofluoroiodomethane-2D.png|center|100px]]
+|bgcolor="#FFFFFF" valign=top| The hypothetical molecule [[bromochlorofluoroiodomethane]] shown in its R-configuration would be a very simple chiral compound. The priorities are assigned based on [[atomic number]] (''Z''): [[iodine]] (Z = 53) > [[bromine]] (Z = 35) > [[chlorine]] (Z = 17) > [[fluorine]] (Z = 9). Allowing fluorine (lowest priority) to point away from the viewer the rotation is clockwise hence the '''R'''-assignment.
+|-
+|bgcolor="#FFFFFF"| [[File:L-serine-skeletal.png|center|120px]]
+| bgcolor="#FFFFFF" valign="top" | In the assignment of [[L-serine]] highest priority is given to the [[nitrogen]] atom (Z = 7) in the amino group (NH<sub>2</sub>). Both the methylalcohol group (CH<sub>2</sub>OH ) and the carboxylic acid group (COOH) have carbon atoms (Z = 6) but priority is given to the latter because the carbon atom in the COOH group is connected to a second oxygen '''(Z=8)''' whereas in the CH<sub>2</sub>OH group [[carbon]] is connected to a [[hydrogen]] atom (Z=1). Lowest priority is given to the hydrogen atom and as this atom points away from the viewer the counterclockwise decrease in priority over the three remaining substituents completes the assignment as '''S'''.  
+|-
+|bgcolor="#FFFFFF"| [[File:S-Carvone.png|center|80px]]
+|bgcolor="#FFFFFF" valign=top| The stereocenter in [[Carvone|S-carvone]] is connected to one hydrogen atom (not shown, priority 4) and three carbon atoms. The isopropene group has priority 1 (carbon atoms only) and for the two remaining carbon atoms priority is decided with the carbon atoms two bonds removed from the stereocenter, one part of the [[ketone|keto]] group (O,O,C priority 2) and one part of an alkene (H,C,C priority 3). The resulting counterclockwise rotation results in a '''S''' .
+    
+|}
+
+== Multiple descriptors in one molecule ==
+
+If a compound has more than one stereocenter each center is denoted by either R or S.
+
+For example, [[ephedrine]] exists with both (1R,2S) and (1S,2R) configuration, known as [[enantiomer]]s. This compound also exists with a (1R,2R) and (1S,2S) configuration. The last two stereoisomers are not ephedrine, but [[pseudoephedrine]]. All isomers are 2-methylamino-1-phenyl-1-propanol in systematic nomenclature. Pseudoephedrine is chemically distinct from ephedrine with only the three dimensional configuration in space, as notated by the Cahn–Ingold–Prelog rules.
+
+=== Relative configuration ===
+
+The relative configuration of two [[stereoisomer]]s may be denoted by the descriptors R and S with an asterisk (*). "R*,R*" means two centers having identical configurations (R,R or S,S); "R*,S*" means two centers having opposite configurations (R,S or S,R). To begin, the lowest numbered (according to IUPAC systematic numbering) stereogenic center is given the R* descriptor.
+
+To designate two [[anomer]]s the relative stereodescriptors alpha (α) and beta (β) are used. In the α anomer the ''anomeric carbon'' and the ''reference atom'' do have opposite configurations (R,S or S,R), whereas in the β anomer they are the same (both R or both S).
+<ref>IUPAC Goldbook [http://goldbook.iupac.org/R05260.html ''relative configuration'']</ref>
+
+== Faces ==
+[[Image:RefaceAndSiFace.png|400px|thumb|right|[[Acetophenone]] and [[α-Phenylethanol]]]]
+Stereochemistry also plays a role assigning ''faces'' to trigonal molecules such as [[ketone]]s. A [[nucleophile]] in a [[nucleophilic addition]] can approach the [[carbonyl]] group from two opposite sides or faces. When an achiral nucleophile attacks [[acetone]], both faces are identical and there is only one reaction product. When the nucleophile attacks [[butanone]], the faces are not identical (''[[enantiotopic]]'') and a [[Racemic mixture|racemic product]] results. When the nucleophile is a [[chirality (chemistry)|chiral]] molecule [[diastereoisomer]]s are formed. When one face of a molecule is shielded by substituents or geometric constraints compared to the other face the faces are called [[diastereotopic]]. The same rules that determine the stereochemistry of a stereocenter (R or S) also apply when assigning the face of a molecular group. The faces are then called the '''re-faces''' and '''si-faces'''. In the example displayed on the right, the compound [[acetophenone]] is viewed from the re face. Hydride addition as in a reduction process from this side will form the S-enantiomer and attack from the opposite Si face will give the R-enantiomer.  However, one should note that adding a chemical group to the prochiral center from the '''re-face''' will not always lead to an S stereocenter, as the priority of the chemical group has to be taken into account. That is, the absolute stereochemistry of  the product is determined on its own and not by considering which face it was attacked from.  In the above mentioned example, if [[chloride]] ('''Cl-''') was added to the prochiral center from the '''re-face''', this would result in an R-enantiomer.
+
+== References ==
+{{Reflist}}
+
+{{DEFAULTSORT:Cahn-Ingold-Prelog Priority Rules}}
+[[Category:Chemical nomenclature]]
+[[Category:Stereochemistry]]

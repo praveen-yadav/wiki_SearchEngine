@@ -1,0 +1,121 @@
+{{Other uses2|Absolute Zero}}
+'''Absolute zero''' is the lowest [[temperature]] possible. More formally, it is the temperature at which [[entropy]] reaches its minimum value. The [[laws of thermodynamics]] state that absolute zero cannot be reached using only thermodynamic means. A system at absolute zero still possesses [[quantum mechanics|quantum mechanical]] [[zero-point energy]], the energy of its ground state. The [[kinetic energy]] of the ground state cannot be removed. However, in the classical interpretation, it is zero and the [[thermal energy]] of matter vanishes.{{citation needed|date=July 2012}}
+ 
+The zero point of any [[thermodynamic temperature]] scale, such as [[Kelvin]] or [[Rankine scale]], is set at absolute zero. By international agreement, absolute zero is defined as {{gaps|0|K}} on the [[Kelvin]] scale and as −273.15° on the [[Celsius]] scale.<ref name=sib2115>{{cite web|title=Unit of thermodynamic temperature (kelvin)|work=SI Brochure, 8th edition|pages=Section 2.1.1.5 |url=http://www1.bipm.org/en/si/si_brochure/chapter2/2-1/2-1-1/kelvin.html|publisher=Bureau International des Poids et Mesures|date=13 March 2010 1967}} '''Note''': The triple point of water is 0.01 °C, not 0 °C; thus 0 K is −273.15 °C, not −273.16 °C.</ref><ref name="arora">{{cite book|title=Thermodynamics|first1=C. P.|last1=Arora|publisher=Tata McGraw-Hill
+|year=2001|isbn=0-07-462014-2|page=Table 2.4 page 43|url=http://books.google.com/books?id=w8GhW3J8RHIC&pg=PA43}}
+</ref> This equates to −459.67° on the [[Fahrenheit]] scale<ref>{{Cite web |url=http://www.smithsonianmag.com/science-nature/absolute-zero-200801.html|last1=Zielinski|first1=Sarah|date=1 January 2008|title=Absolute Zero|publisher=Smithsonian Institution|accessdate=2012-01-26}}</ref> and 0 R on the [[Rankine scale]].<ref name="arora" /> Scientists have achieved temperatures extremely close to absolute zero, where matter exhibits [[Bose–Einstein condensate|quantum effects]] such as [[superconductivity]] and [[superfluidity]].
+
+[[File:CelsiusKelvin.svg|thumb|right|150px|Absolute Zero is defined to be −273.15°C, or 0 K.]]
+
+==Thermodynamics near absolute zero==
+At temperatures near 0&nbsp;K, nearly all molecular motion ceases and Δ''S''&nbsp;=&nbsp;0 for any [[adiabatic process]], where ''S'' is the [[entropy]].  In such a circumstance, pure substances can (ideally) form perfect [[crystal]]s as ''T'' → 0. [[Max Planck]]'s strong form of the [[third law of thermodynamics]] states the [[entropy]] of a perfect crystal vanishes at absolute zero. The original [[Walther Nernst|Nernst]] ''[[Nernst heat theorem|heat theorem]]'' makes the weaker and less controversial claim that the entropy change for any isothermal process approaches zero as ''T'' → 0:
+:<math> \lim_{T \to 0} \Delta S = 0 </math>
+
+The implication is that the entropy of a perfect crystal simply approaches a constant value.
+
+<blockquote>The [[Third Law of Thermodynamics|Nernst postulate]] identifies the [[isotherm]] T&nbsp;=&nbsp;0 as coincident with the [[adiabat]] S&nbsp;=&nbsp;0, although other isotherms and adiabats are distinct. As no two adiabats intersect, no other adiabat can [[Line-line intersection|intersect]] the T&nbsp;=&nbsp;0 isotherm. Consequently no adiabatic process initiated at nonzero temperature can lead to zero temperature.'' (≈&nbsp;Callen, pp.&nbsp;189–190)</blockquote>
+
+An even stronger assertion is that ''It is impossible by any procedure to reduce the temperature of a system to zero in a finite number of operations.'' (≈&nbsp;Guggenheim, p.&nbsp;157)
+
+A perfect crystal is one in which the internal [[lattice (group)|lattice]] structure extends uninterrupted in all directions. The perfect order can be represented by translational [[symmetry]] along three (not usually [[orthogonality|orthogonal]]) [[Cartesian coordinate system|axes]]. Every lattice element of the structure is in its proper place, whether it is a single atom or a molecular grouping. For [[chemical substance|substances]] which have two (or more) stable crystalline forms, such as diamond and [[graphite]] for [[carbon]], there is a kind of "chemical degeneracy". The question remains whether both can have zero entropy at ''T''&nbsp;=&nbsp;0 even though each is perfectly ordered.
+
+Perfect crystals never occur in practice; imperfections, and even entire amorphous materials, simply get "frozen in" at low temperatures, so transitions to more stable states do not occur.
+
+Using the [[Debye model]], the [[specific heat capacity|specific heat]] and entropy of a pure crystal are proportional to ''T''<sup>&nbsp;3</sup>, while the [[enthalpy]] and [[chemical potential]] are proportional to ''T''<sup>&nbsp;4</sup>. (Guggenheim, p.&nbsp;111) These quantities drop toward their ''T''&nbsp;=&nbsp;0 limiting values and approach with ''zero'' slopes. For the specific heats at least, the limiting value itself is definitely zero, as borne out by experiments to below 10&nbsp;K. Even the less detailed [[Einstein solid|Einstein model]] shows this curious drop in specific heats. In fact, all specific heats vanish at absolute zero, not just those of crystals. Likewise for the coefficient of [[thermal expansion]]. [[Maxwell relations|Maxwell's relations]] show that various other quantities also vanish. These [[phenomenon|phenomena]] were unanticipated.
+
+Since the relation between changes in [[Gibbs free energy]] (''G''), the enthalpy (''H'') and the entropy is
+
+:<math> \Delta G = \Delta H - T \Delta S \,</math>
+
+thus, as ''T'' decreases, Δ''G'' and Δ''H'' approach each other (so long as Δ''S'' is bounded). Experimentally, it is found that all spontaneous processes (including [[chemical reaction]]s) result in a decrease in ''G'' as they proceed toward [[thermodynamic equilibrium|equilibrium]]. If Δ''S'' and/or ''T'' are small, the condition Δ''G''&nbsp;<&nbsp;0 may imply that Δ''H''&nbsp;<&nbsp;0, which would indicate an [[exothermic]] reaction. However, this is not required; [[endothermic]] reactions can proceed spontaneously if the ''T''Δ''S'' term is large enough.
+
+Moreover, the slopes of the [[derivative]]s of Δ''G'' and Δ''H'' converge and are equal to zero at ''T''&nbsp;=&nbsp;0. This ensures that Δ''G'' and Δ''H'' are nearly the same over a considerable range of temperatures and justifies the approximate [[empiricism|empirical]] Principle of Thomsen and Berthelot, which states that ''the equilibrium state to which a system proceeds is the one which evolves the greatest amount of heat'', i.e. an actual process is the ''most exothermic one''. (Callen, pp.&nbsp;186–187)
+
+One model that estimates the properties of an [[electron]] gas at absolute zero in metals is the [[Fermi gas]]. The electrons, being [[Fermions]], have to be in different quantum states, which leads the electrons to get very high typical [[velocities]], even at absolute zero. The maximum energy that electrons can have at absolute zero is called the [[Fermi energy]]. The [[Fermi temperature]] is defined as this maximum energy divided by Boltzmann's constant, and is of the order of 80,000 K for typical electron densities found in metals. For temperatures significantly below the Fermi temperature, the electrons behave in almost the same way as at absolute zero. This explains the failure of the classical [[equipartition theorem]] for metals that eluded classical physicists in the late 19th century.
+
+==Relation with Bose–Einstein condensates==
+{{Main|Bose–Einstein condensate}}
+
+[[File:Bose Einstein condensate.png|left|thumb|250px|Velocity-distribution data of a gas of [[rubidium]] atoms at a temperature within a few billionths of a degree above absolute zero. Left: just before the appearance of a Bose–Einstein condensate. Center: just after the appearance of the condensate. Right: after further evaporation, leaving a sample of nearly pure condensate.]]
+A Bose–Einstein condensate (BEC) is a [[state of matter]] of a dilute gas of weakly interacting [[boson]]s confined in an external [[potential]] and cooled to temperatures very near absolute zero. Under such conditions, a large fraction of the bosons occupy the lowest [[quantum state]] of the external potential, at which point quantum effects become apparent on a [[macroscopic scale]].<ref>{{cite journal|journal=Nature|volume=412|pages=295–299|year=2001|title=Dynamics of collapsing and exploding Bose–Einstein condensates|pmid=11460153|issue=6844|doi=10.1038/35085500|arxiv = cond-mat/0105019 |bibcode = 2001Natur.412..295D|last1=Donley|first1=Elizabeth A.|last2=Claussen|first2=Neil R.|last3=Cornish|first3=Simon L.|last4=Roberts|first4=Jacob L.|last5=Cornell|first5=Eric A.|last6=Wieman|first6=Carl E.}}</ref>
+
+This state of matter was first predicted by [[Satyendra Nath Bose]] and [[Albert Einstein]] in 1924–25. Bose first sent a paper to Einstein on the [[quantum statistics]] of light quanta (now called [[photon]]s). Einstein was impressed, translated the paper himself from English to German and submitted it for Bose to the ''[[Zeitschrift für Physik]]'' which published it. Einstein then extended Bose's ideas to material particles (or matter) in two other papers.<ref>Clark, Ronald W. "Einstein: The Life and Times" (Avon Books, 1971) pp. 408–9 ISBN 0-380-01159-X</ref>
+
+Seventy years later, the first gaseous [[Bose–Einstein condensate|condensate]] was produced by [[Eric Allin Cornell|Eric Cornell]] and [[Carl Wieman]] in 1995 at the [[University of Colorado at Boulder]] [[National Institute of Standards and Technology|NIST]]-[[JILA]] lab, using a gas of [[rubidium]] atoms cooled to 170 [[kelvin|nanokelvin]] (nK)<ref>{{cite web|title = New State of Matter Seen Near Absolute Zero|url=http://physics.nist.gov/News/Update/950724.html|publisher=NIST}}</ref> ({{val|1.7|e=-7|u=K}}).<ref>{{cite web|last = Levi|first = Barbara Goss|title = Cornell, Ketterle, and Wieman Share Nobel Prize for Bose–Einstein Condensates|work = Search & Discovery|publisher = Physics Today online| year = 2001|url = http://www.physicstoday.org/pt/vol-54/iss-12/p14.html|accessdate =2008-01-26 |archiveurl = http://web.archive.org/web/20071024134547/http://www.physicstoday.org/pt/vol-54/iss-12/p14.html |archivedate =2007-10-24}}</ref>
+
+A record cold temperature of 450&nbsp;±80&nbsp;pK in a [[Bose–Einstein condensate]] (BEC) of sodium atoms was achieved in 2003 by researchers at [[Massachusetts Institute of Technology|MIT]].<ref>{{cite journal|url=http://www.dsf.unica.it/~michele/michele/picokelvin.pdf|title=Cooling Bose–Einstein Condensates Below 500 Picokelvin|doi=10.1126/science.1088827|volume=301|issue=5639|pages=1513–1515 |journal=Science|year=2003|last1=Leanhardt|first1=A. E.|pmid=12970559|last2=Pasquini|first2=TA|last3=Saba|first3=M|last4=Schirotzek|first4=A|last5=Shin|first5=Y|last6=Kielpinski|first6=D|last7=Pritchard|first7=DE|last8=Ketterle|first8=W|bibcode = 2003Sci...301.1513L }}</ref> It is noteworthy that this record's peak emittance [[black-body]] wavelength of 6,400 kilometers is roughly the radius of Earth.
+{{-}}
+
+==Absolute temperature scales==
+Absolute, or [[thermodynamic temperature|thermodynamic]], temperature is conventionally measured in [[kelvin]]s (Celsius-scaled increments) and in the [[Rankine scale]] ([[Fahrenheit]]-scaled increments) with increasing rarity. Absolute temperature measurement is uniquely determined by a multiplicative constant which specifies the size of the "degree", so the ''ratios'' of two absolute temperatures, ''T''<sub>2</sub>/''T''<sub>1</sub>, are the same in all scales. The most transparent definition of this standard comes from the [[Maxwell–Boltzmann distribution]]. It can also be found in [[Fermi–Dirac statistics]] (for particles of half-integer [[spin (physics)|spin]]) and [[Bose–Einstein statistics]] (for particles of integer spin). All of these define the relative numbers of particles in a system as decreasing [[exponential function]]s of energy (at the particle level) over ''kT'', with ''k'' representing the [[Boltzmann constant]] and ''T'' representing the temperature observed at the [[macroscopic]] level.<ref name="sib2115"/>
+
+==Negative temperatures==
+{{Main|Negative temperature}}
+
+Temperatures that are expressed as negative numbers on the familiar Celsius or [[Fahrenheit]] scales are simply colder than the zero points of those scales. Certain [[system (thermodynamics)|systems]] can achieve truly negative temperatures; that is, their [[thermodynamic temperature]] (expressed in kelvin) can be of a [[Negative number|negative]] quantity. A system with a truly negative temperature is not colder than absolute zero. Rather, a system with a negative temperature is hotter than ''any'' system with a positive temperature in the sense that if a negative-temperature system and a positive-temperature system come in contact, heat will flow from the negative- to the positive-temperature system.<ref name="Chase">{{cite web|last=Chase|first=Scott|title=Below Absolute Zero -What Does Negative Temperature Mean?|url=http://www.phys.ncku.edu.tw/mirrors/physicsfaq/ParticleAndNuclear/neg_temperature.html|work=The Physics and Relativity FAQ|accessdate=2010-07-02}}</ref>
+
+Most familiar systems cannot achieve negative temperatures because adding energy always increases their [[entropy]]. However, some systems have a maximum amount of energy that they can hold, and as they approach that maximum energy their entropy actually begins to decrease. Because temperature is defined by the relationship between energy and entropy, such a system's temperature becomes negative, even though energy is being added.<ref name="Chase"/> As a result, the Boltzmann factor for states of systems at negative temperature increases rather than decreases with increasing state energy. Therefore no complete system, i.e. including the electromagnetic modes, can have negative temperatures, since there is no highest energy state, so that the sum of the probabilities of the states would diverge for negative temperatures. However, for quasi-equilibrium systems (e.g. spins out of equilibrium with the electromagnetic field) this argument does not apply, and negative effective temperatures are attainable.
+
+On January 3, 2013, physicists announced that they had created a quantum gas made up of potassium atoms with a negative temperature in motional degrees of freedom for the first time.<ref>{{cite web|title=Quantum gas goes below absolute zero|url=http://www.nature.com/news/quantum-gas-goes-below-absolute-zero-1.12146|author=Merali, Zeeya |date=3 January 2013|work=Nature}}</ref>
+
+==History==
+[[File:Robert Boyle 0001.jpg|thumb|right|[[Robert Boyle]] pioneered the idea of an absolute zero.]]
+One of the first to discuss the possibility of an absolute minimal temperature was [[Robert Boyle]]. His 1665 ''New Experiments and Observations touching Cold'', articulated the dispute known as the ''primum frigidum''.<ref>{{cite book|url=http://books.google.com/books?id=8vRaAAAAMAAJ&pg=PA651|title=The Stanford Dictionary of Anglicised Words and Phrases|author=Stanford, John Frederick|year=1892 }}</ref> The concept was well known among naturalists of the time. Some contended an absolute minimum temperature occurred within earth (as one of the four so-called "elements"), others within water, others air, and some more recently within [[niter|nitre]]. But all of them seemed to agree that, "There is some body or other that is of its own nature supremely cold and by participation of which all other bodies obtain that quality."<ref>{{cite book|last=Boyle|first=Robert|title=New Experiments and Observations touching Cold|year=1665}}</ref>
+
+===Limit to the "degree of cold"===
+The question whether there is a limit to the degree of cold possible, and, if so, where the zero must be placed, was first addressed by the French physicist [[Guillaume Amontons]] in 1702, in connection with his improvements in the air [[thermometer]]. In his instrument, temperatures were indicated by the height at which a column of mercury was sustained by a certain mass of air, the volume, or "spring", of which varied with the heat to which it was exposed. Amontons therefore argued that the zero of his thermometer would be that temperature at which the spring of the air in it was reduced to nothing. On the scale he used, the boiling-point of water was marked at +73 and the melting-point of ice at 51, so that the zero of his scale was equivalent to about −240 on the Celsius scale.{{citation needed|date=November 2011}}
+
+This close approximation to the modern value of −273.15&nbsp;°C<ref name="sib2115"/> for the zero of the air-thermometer was further improved upon in 1779 by [[Johann Heinrich Lambert]], who observed that −270&nbsp;°C might be regarded as absolute cold.<ref>{{cite book|last=Lambert|first=Johann Heinrich|title=Pyrometrie|location=Berlin|year=1779|oclc=165756016}}</ref>
+
+Values of this order for the absolute zero were not, however, universally accepted about this period. [[Pierre-Simon Laplace]] and [[Antoine Lavoisier]], in their 1780 treatise on heat, arrived at values ranging from 1,500 to 3,000 below the freezing-point of water, and thought that in any case it must be at least 600 below. [[John Dalton]] in his ''Chemical Philosophy'' gave ten calculations of this value, and finally adopted −3000&nbsp;°C as the natural zero of temperature.
+
+===Lord Kelvin's work===
+After [[James Prescott Joule]] had determined the mechanical equivalent of heat, [[William Thomson, 1st Baron Kelvin|Lord Kelvin]] approached the question from an entirely different point of view, and in 1848 devised a scale of absolute temperature which was independent of the properties of any particular substance and was based solely on the fundamental [[laws of thermodynamics]]. It followed from the principles on which this scale was constructed that its zero was placed at −273.15&nbsp;°C, at almost precisely the same point as the zero of the air-thermometer.<ref>{{cite encyclopedia|url=http://www.1911encyclopedia.org/Cold|title=Cold|encyclopedia=Encyclopædia Britannica|edition=Eleventh|year=1911 |publisher=The LoveToKnow Wiki|accessdate=2008-02-11}}</ref>
+
+==Very low temperatures==
+[[File:Boomerang nebula.jpg|thumb|right|The rapid expansion of gases leaving the [[Boomerang Nebula]] causes the lowest observed temperature outside a laboratory.]]
+The average temperature of the universe today is approximately 2.73 kelvins, based on measurements of [[cosmic microwave background radiation]].<ref>{{cite web|url=http://www.abc.net.au/science/articles/2003/09/25/947116.htm |title=Coldest Place in the Universe 1 |author = Kruszelnicki, Karl S. |date=September 25, 2003 |publisher=Australian Broadcasting Corporation |accessdate=2012-09-24}}</ref><ref>{{cite web |url= http://www.straightdope.com/columns/read/2172/whats-the-temperature-of-space |title= What's the temperature of space? |date= August 3, 2004 |publisher=The Straight Dope |accessdate=2012-09-24}}</ref>
+
+Absolute zero cannot be achieved, although it is possible to reach temperatures close to it through the use of [[cryocoolers]], [[dilution refrigerator]]s, and nuclear adiabatic demagnetization. The use of [[laser cooling]] has produced temperatures less than a billionth of a kelvin.<ref>{{cite web|title=Cosmos Online – Verging on absolute zero|url=http://www.cosmosmagazine.com/features/online/2176/verging-absolute-zero|date=200-09-04|author=Catchpole, Heather}}</ref> At very low temperatures in the vicinity of absolute zero, matter exhibits many unusual properties, including [[superconductor|superconductivity]], [[superfluid]]ity, and [[Bose–Einstein condensate|Bose–Einstein condensation]]. To study such [[phenomenon|phenomena]], scientists have worked to obtain even lower temperatures.
+* The current world record was set in 1999 at 100 picokelvins (pK), or 0.000 000 000 1 of a kelvin, by cooling the nuclear spins in a piece of [[rhodium]] metal.<ref>{{cite web|url = http://ltl.tkk.fi/wiki/LTL/World_record_in_low_temperatures|title = World record in low temperatures|accessdate =2009-05-05| archiveurl= http://web.archive.org/web/20090618075820/http://ltl.tkk.fi/wiki/LTL/World_record_in_low_temperatures| archivedate=2009-06-18| deadurl= no}}</ref>
+* In November 2000, [[nuclear spin]] temperatures below 100&nbsp;pK were reported for an experiment at the [[Helsinki University of Technology]]'s Low Temperature Lab. However, this was the temperature of one particular [[Degrees of freedom (physics and chemistry)|degree of freedom]]{{spaced ndash}} a [[quantum]] property called nuclear spin{{spaced ndash}} not the overall average [[thermodynamic temperature]] for all possible degrees in freedom.<ref>{{cite book|last=Knuuttila |first=Tauno|url=http://www.hut.fi/Yksikot/Kirjasto/Diss/2000/isbn9512252147|title=Nuclear Magnetism and Superconductivity in Rhodium|location=Espoo, Finland|publisher=Helsinki University of Technology|year=2000|isbn=951-22-5208-2|accessdate=2008-02-11}}</ref><ref>{{cite press release|title=Low Temperature World Record|url=http://ltl.hut.fi/Low-Temp-Record.html|publisher=Low Temperature Laboratory, Teknillinen Korkeakoulu|date=8 December 2000|accessdate=2008-02-11| archiveurl= http://web.archive.org/web/20080218053521/http://ltl.hut.fi/Low-Temp-Record.html| archivedate=2008-02-18| deadurl= no}}</ref>
+* In February 2003, the [[Boomerang Nebula]] was observed to have been releasing gases at a speed of 500,000&nbsp;km/h (over 300,000&nbsp;mph) for the last 1,500 years. This has cooled it down to approximately 1&nbsp;K, as deduced by astronomical observation, which is the lowest natural temperature ever recorded.<ref>{{cite journal|last = Sahai|first = Raghvendra|coauthors = Nyman, Lars-Åke|year = 1997|title = The Boomerang Nebula: The Coldest Region of the Universe?|journal = The Astrophysical Journal|volume = 487|pages = L155–L159|doi = 10.1086/310897|bibcode=1997ApJ...487L.155S|issue = 2}}</ref>
+* In May 2005, the [[European Space Agency]] proposed research in space to achieve [[femto]]-kelvin temperatures.<ref>{{cite web|url=http://www.esf.org/publication/209/Obernai2005Finalcorrected.pdf|title=Scientific Perspectives for ESA’s Future Programme in Life and Physical sciences in Space|format=PDF|work=esf.org}}</ref>
+* In May 2006, the Institute of Quantum Optics at the [[University of Hanover]] gave details of technologies and benefits of femto-kelvin research in space.<ref>{{cite web|title=Atomic Quantum Sensors in Space|url=http://www.physics.ucla.edu/quantum_to_cosmos/q2c06/Ertmer.pdf|work=University of California, Los Angeles}}</ref>
+
+==See also==
+{{Portal|Physics}}
+{|
+| valign=top |
+* [[Absolute hot]]
+* [[Delisle scale]]{{nb5}} {{nb5}}
+* [[Heat]]
+* [[International Temperature Scale of 1990|ITS-90]]
+| valign=top |
+* [[Orders of magnitude (temperature)]]
+* [[Planck temperature]]
+* [[Thermodynamic temperature|Thermodynamic (absolute) temperature]]{{nb5}}
+* [[Triple point]]
+| valign=top |
+* [[Ultracold atom]]
+* [[Kinetic energy]]
+* [[Entropy]]
+|}
+
+==References==
+{{Reflist|35em}}
+
+==Further reading==
+* {{cite book|author=Herbert B. Callen|title=Thermodynamics|chapter=Chapter 10|location=New York|publisher=John Wiley & Sons|year=1960|oclc=535083|isbn=0-471-13035-4}}
+* {{cite book|author=Herbert B. Callen|title=Thermodynamics and an Introduction to Thermostatistics|edition=Second| location=New York|publisher=John Wiley & Sons|year=1985|isbn= 0-471-86256-8}}
+* {{cite book|author=E.A. Guggenheim|title=Thermodynamics: An Advanced Treatment for Chemists and Physicists|edition=Fifth|location=Amsterdam|publisher=North Holland Publishing|year=1967|oclc=324553|isbn=0-444-86951-4}}
+* {{cite book|author=George Stanley Rushbrooke|title=Introduction to Statistical Mechanics|location=Oxford|publisher=Clarendon Press|year=1949|oclc=531928}}
+
+==External links==
+* [http://www.pbs.org/wgbh/nova/zero/ "Absolute zero"]: a two part ''[[Nova (TV series)|NOVA]]'' episode [[List of NOVA episodes#Season 35: 2007–2008|originally aired January 2008]]
+* [http://www.pa.msu.edu/~sciencet/ask_st/012992.html "What is absolute zero?"] ''Lansing state journal''
+{{Use dmy dates|date=March 2012}}
+
+{{DEFAULTSORT:Absolute Zero}}
+[[Category:Cold]]
+[[Category:Temperature]]

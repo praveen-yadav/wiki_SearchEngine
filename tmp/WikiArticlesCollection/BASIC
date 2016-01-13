@@ -1,0 +1,285 @@
+{{About|the programming language|other uses|Basic (disambiguation)}}
+{{Infobox programming language
+| paradigm               = [[unstructured programming|unstructured]], later [[procedural programming|procedural]], later object-oriented
+| logo                   = [[File:AtariBasicExample.png|frameless]]
+| caption                = Screenshot of [[Atari BASIC]], an early BASIC language for small computers
+| generation             = [[3GL]]
+| year                   = {{start-date|1964}}
+| designer               = [[John George Kemeny]] and [[Thomas Eugene Kurtz]]
+| developer              =
+| latest release version =
+| latest release date    =
+| typing                 = 
+| implementations        = [[Apple BASIC]], [[Atari BASIC]], [[Sinclair BASIC]], [[Commodore BASIC]], [[Microsoft BASIC]], [[Liberty BASIC]], [[BBC BASIC]], [[TI-BASIC]], [[Visual Basic]]
+| dialects               =
+| influenced_by          = [[ALGOL 60]], [[Fortran|FORTRAN II]], [[JOSS]]
+| influenced             = [[COMAL]], [[Visual Basic]], [[Visual Basic .NET]], [[Realbasic]], [[GRASS (programming language)|GRASS]], [[AutoIt]], [[AutoHotkey]]
+}}
+
+'''BASIC''' (an [[acronym]] for '''Beginner's All-purpose Symbolic Instruction Code''') is a family of [[General-purpose programming language|general-purpose]], [[high-level programming language]]s whose design philosophy emphasizes ease of use.
+
+In 1964, [[John G. Kemeny]] and [[Thomas E. Kurtz]] designed the original BASIC language at [[Dartmouth College]] in New Hampshire. They wanted to enable students in fields other than science and mathematics to use computers. At the time, nearly all use of computers required writing custom software, which was something only [[scientist]]s and [[mathematician]]s tended to do.
+
+Versions of BASIC became widespread on [[microcomputer]]s in the mid-1970s and 1980s. Microcomputers usually shipped with BASIC, often in the machine's [[firmware]]. Having an easy-to-learn language on these early [[personal computer]]s allowed small business owners, professionals, hobbyists, and consultants to develop custom software on computers they could afford.
+
+BASIC remains popular in many [[dialect (computing)|dialect]]s and in new languages influenced by BASIC, such as Microsoft's [[Visual Basic]]. In 2006, 59% of developers for the [[.NET Framework]] used [[Visual Basic .NET]] as their only programming language.<ref>{{cite web
+|first=Steven |last=Vaughan-Nichols
+|url=http://www.linuxfordevices.com/c/a/News/Mono-brings-Visual-Basic-programs-to-Linux
+|title=Mono brings Visual Basic programs to Linux
+|archiveurl=http://archive.is/PUjx
+|archivedate=14 September 2012
+|work=LinuxDevices.com
+|publisher=Ziff Davis
+|date=20 February 2007}}</ref>
+
+==History==
+Before the mid-1960s, [[computer]]s were extremely expensive [[Mainframe computer|mainframe]] machines, usually requiring a dedicated computer room and air-conditioning, used by large organisations for scientific and commercial tasks. Users submitted jobs, on [[punched card]]s or similar media, to computer operators, and usually collected the output later. A simple [[batch processing]] arrangement ran only a single "job" at a time, one after another. During the 1960s faster and more affordable computers, still mainframes, became available, and [[time-sharing]]—a technique which allows multiple users or processes to share use of the [[CPU]] and memory—was developed. In such a system the [[operating system]] gives each of several processes time on the CPU, then pauses it and switches to another; each process behaves as if it had full use of the computer, although the time to complete its operation increases. Time-sharing was initially used to allow several batched processes to execute simultaneously.
+
+Time-sharing also allowed several independent users to interact with a computer, working on [[Computer terminal|terminals]] with keyboards and [[teletype]] printers, and later [[Computer monitor|display screens]]. Computers were fast enough to respond quickly to each user.
+
+The need to optimise interactive time-sharing, using [[command line interpreter]]s and [[programming language]]s, was an area of intense research during the 1960s and 1970s.
+
+===Origin===
+{{main|Dartmouth BASIC}}
+The original BASIC language was designed in 1964 by [[John George Kemeny|John Kemeny]] and [[Thomas Eugene Kurtz|Thomas Kurtz]]<ref>[http://cis-alumni.org/TKurtz.html Thomas E. Kurtz - History of Programming Languages]</ref> and implemented by a team of Dartmouth students under their direction. The [[acronym]] ''BASIC'' comes from the name of an unpublished paper by Thomas Kurtz.<ref>[http://www.catb.org/jargon/html/B/BASIC.html BASIC], [[The Jargon File]]</ref> BASIC was designed to allow students to write mainframe computer programs for the [[Dartmouth Time-Sharing System]]. It was intended specifically for less technical users who did not have or want the mathematical background previously expected. Being able to use a computer to support teaching and research was quite novel at the time.
+
+The language was based on [[Fortran|FORTRAN II]], with some influences from [[ALGOL 60]] and with additions to make it suitable for timesharing. Initially, BASIC concentrated on supporting straightforward mathematical work, with [[matrix (math)|matrix]] arithmetic support from its initial implementation as a batch language, and [[String (computer science)|character string]] functionality being added by 1965.
+
+The designers of the language decided to make the compiler available free of charge so that the language would become widespread. (In the 1960s software became a chargeable commodity; until then it was provided without charge as a service with the very expensive computers, usually available only to lease.) They also made it available to high schools in the [[Hanover, New Hampshire|Hanover]] area, and put a considerable amount of effort into promoting the language. In the following years, as other dialects of BASIC appeared, Kemeny and Kurtz's original BASIC dialect became known as ''[[Dartmouth BASIC]]''.
+
+===Spread on minicomputers===
+[[File:Pn-pravez-class-5.jpg|thumb|right|"Train Basic every day!"&nbsp;— reads a poster in Russian school. (ca. 1985-1986)]]
+Knowledge of the relatively simple BASIC became widespread for a computer language, and it was implemented by a number of manufacturers, becoming fairly popular on newer [[minicomputer]]s such as the [[Digital Equipment Corporation|DEC]] [[Programmed Data Processor|PDP]] series and the [[Data General Nova]]. The BASIC language was also central to the [[HP Time-Shared BASIC]] system in the late 1960s and early 1970s, where the language was implemented as an [[interpreter (computing)|interpreter]].  Also at this time it was ported into the [[Pick operating system]] where a compiler renders it into "pseudo" instruction code, able to be interpreted by a virtual machine.
+
+During this period a number of simple [[computer game]]s were written in BASIC, most notably Mike Mayfield's ''[[Star Trek (text game)|Star Trek]]''. A number of these were collected by DEC employee [[David H. Ahl]] and published in a newsletter he compiled. He later collected a number of these into book form, "101 BASIC Computer Games", which was first published in 1973.<ref>David H. Ahl, [http://www.atariarchives.org/basicgames/ "BASIC Computer Games"], p. XI</ref><ref>David H. Ahl, [http://books.google.ca/books?id=Ief0QwAACAAJ "101 BASIC Computer Games"], DEC, 1975</ref> During the same period, Ahl was involved in the creation of a small computer for education use, an early [[personal computer]]. When management refused to support the concept, Ahl left DEC in 1974 to found the seminal computer magazine, ''[[Creative Computing]]''. The book remained popular, and was re-published on several occasions.<ref>David H. Ahl, [http://books.google.ca/books?id=Cz4EAAAAMBAJ&pg=PA44 "Computer Games"], ''InfoWorld'', 11 May 1981, p. 44</ref>
+
+===Explosive growth: the home computer era===
+[[File:Msxbasic.png|thumb|[[MSX BASIC]] version 3.0]]
+The introduction of the first [[microcomputer]]s in the mid-1970s was the start of explosive growth for BASIC. It had the advantage that it was fairly well known to the young designers and computer hobbyists who took an interest in microcomputers.
+
+One of the first to appear was [[Tiny BASIC]], a simple BASIC variant designed by Dennis Allison at the urging of Bob Albrecht of the [[Homebrew Computer Club]]. He had seen BASIC on [[minicomputer]]s and felt it would be the perfect match for new machines like the [[Altair 8800|MITS Altair 8800]]. How to design and implement a stripped-down version of an [[interpreter (computer software)|interpreter]] for the BASIC language was covered in articles by Allison in the first three quarterly issues of the ''[[People's Computer Company]]'' newsletter published in 1975 and implementations with source code published in [[Dr. Dobb's Journal|Dr. Dobb's Journal of Tiny BASIC Calisthenics & Orthodontia: Running Light without Overbyte]]. Versions were written by [[Li-Chen Wang]] and Tom Pittman.<ref>[http://www.ittybittycomputers.com/IttyBitty/iNotes.html#TinyBasic "you had to pay $5 up front to get it..."], Tom Pittman's site</ref>
+
+In 1975 MITS released [[Altair BASIC]], developed by [[Bill Gates]] and [[Paul Allen]] as the company Micro-Soft,<ref>{{cite web | title = We have a BASIC | publisher = New Mexico Museum of Natural History and Science | url = http://startup.nmnaturalhistory.org/gallery/story.php?ii=20&sid=4 | accessdate = 2007-04-18}}</ref> which eventually grew into corporate giant [[Microsoft]]. The first Altair version was co-written by Gates, Allen, and [[Monte Davidoff]].
+
+When the [[Apple II family|Apple II]], [[PET 2001]] and [[TRS-80]] were all released in 1977, all three had BASIC as their primary programming language and operating environment. Upon boot a BASIC interpreter in [[immediate mode]] was presented, not the [[command line interface]] used later. [[Commodore Business Machines]] included a version of Micro-Soft BASIC. The Apple II and TRS-80 each had two versions of BASIC, a smaller introductory version introduced with the initial releases of the machines and a more advanced version developed as interest in the platforms increased. As new companies entered the field, additional versions were added that subtly changed the BASIC family. The [[Atari 8-bit family]] had their own [[Atari BASIC]] that was modified in order to fit on an 8 kB ROM cartridge. The [[BBC]] published [[BBC BASIC]], developed for them by [[Acorn Computers Ltd]], incorporating many extra structuring keywords and advanced floating-point operation features. Almost universally, [[home computer]]s of the 1980s had a [[read-only memory|ROM]]-resident BASIC interpreter, allowing the machines to boot directly into BASIC which therefore constituted a significant and visible part of the [[user interface]] of many home computers' rudimentary [[operating system]]s.<ref group=notes>Probably the only exception was the [[Jupiter Ace]], which instead used [[Forth (programming language)|Forth]].</ref>
+
+As the popularity of BASIC grew in this period, magazines (such as ''Creative Computing'' in the U.S.) published complete source code in BASIC for games, utilities, and other programs. Given BASIC's straightforward nature, it was a simple matter to [[Type-in program|type in the code]] from the magazine and execute the program. Different magazines were published featuring programs for specific computers, though some BASIC programs were considered universal and could be used in machines running any variant of BASIC (sometimes with minor adaptations). Many books of type-in programs were also available, and in particular, Ahl published versions of the original 101 BASIC games converted into the Microsoft dialect and published it from ''Creative Computing'' as "[[BASIC Computer Games]]". This book, and its sequels, provided hundreds of ready-to-go programs that could be easily converted to practically any BASIC-running platform.<ref>[http://www.atariarchives.org/basicgames Table of Contents: BASIC Computer Games<!-- Bot generated title -->]</ref><ref>[http://www.atariarchives.org/morebasicgames Table of Contents: More BASIC Computer Games]</ref><ref>[http://www.atariarchives.org/bigcomputergames Table of Contents: Big Computer Games]</ref> The book reached the stores in 1978, just as the [[home computer]] market was starting off, and it became the first million-selling computer book. Later packages, such as [[Learn to Program BASIC]] would also have gaming as an introductory focus.
+
+On the business-focused [[CP/M]] computers which soon became widespread in small business environments, [[Microsoft BASIC]] ([[MBASIC]]) was one of the leading applications.<ref name=oldcomputer>{{cite web|url=http://oldcomputers.net/osborne.html |title=Osborne 1|publisher=OldComputers.net|accessdate=21 May 2010| archiveurl= http://web.archive.org/web/20100620081243/http://oldcomputers.net/osborne.html| archivedate= 20 June 2010 <!--DASHBot-->| deadurl= no}}</ref>
+
+===IBM PC, and compatibles===
+[[File:IBM Cassette BASIC.png|thumb|[[IBM Cassette BASIC]] 1.10]]
+
+When IBM was designing the [[IBM PC]] they followed the paradigm of existing home-computers in wanting to have a built-in BASIC. They sourced this from Microsoft -  [[IBM Cassette BASIC]] - but Microsoft also produced several other versions of BASIC for [[MS-DOS]]/[[PC DOS]] including [[IBM Disk BASIC]] (BASIC D), [[IBM BASICA]] (BASIC A), [[Microsoft GW-BASIC interpreter|GW-BASIC]] (a BASICA-compatible version that did not need IBM's ROM) and [[QuickBASIC]], all typically bundled with the machine. In addition they produced the Microsoft BASIC Compiler aimed at professional programmers.
+
+Turbo [[Pascal (programming language)|Pascal]]-publisher [[Borland]] published [[Turbo Basic]] 1.0 in 1985 (successor versions are still being marketed by the original author under the name [[PowerBASIC]]). Microsoft wrote the windowing-based [[AmigaBASIC]] that was supplied with version 1.1 of the pre-emptive multitasking GUI Amiga computers (late 1985 / early 1986), although the product unusually did not bear any Microsoft marks.
+
+These languages introduced many extensions to the original home-computer BASIC, such as improved [[string manipulation]] and graphics support, access to the [[file system]] and additional [[data type]]s. More important were the facilities for [[structured programming]], including additional [[control structures]] and proper [[subroutine]]s supporting [[local variable]]s.
+
+However, by the latter half of the 1980s users were increasingly using applications written by others, rather than learning programming themselves, while professional programmers now had a wide range of more advanced languages available and BASIC tended to become the butt of derogatory comments such as [[Edsger W. Dijkstra|Dijkstra]]'s famous comment: "It is practically impossible to teach good programming to students that have had a prior exposure to BASIC: as potential programmers they are mentally mutilated beyond hope of regeneration."<ref>Edsger Dijkstra, [http://www.cs.virginia.edu/~evans/cs655/readings/ewd498.html "How do we tell truths that might hurt?"], 18 June 1975, from "Selected Writings on Computing: A Personal Perspective", Springer-Verlag, 1982</ref>
+
+===Visual Basic===
+BASIC's fortunes reversed once again with the introduction in 1991 of [[Visual Basic]] ("VB"), by Microsoft.  This was an evolutionary development of QuickBasic, and included constructs from other languages such as block structured control statements including With and For Each, parameterized subroutines, optional static typing, and more recently a full object oriented language.  But the language retains considerable links to its past, such as the Dim statement for declarations, Gosub/Return statements, and even line numbers which are still needed to report errors properly.
+
+An important driver for the development of Visual Basic was as the new macro language for [[Microsoft Excel|Excel]].
+
+Ironically, given the origin of BASIC as a "beginner's" language, and apparently even to the surprise of many at Microsoft who still initially marketed it as a language for hobbyists, the language had come into widespread use for small custom business applications shortly after the release of VB version 3.0, which is widely considered the first relatively stable version. While many advanced programmers still scoffed at its use, VB met the needs of small businesses efficiently wherever processing speed was less of a concern than ease of development. By that time, computers running Windows 3.1 had become fast enough that many business-related processes could be completed "in the blink of an eye" even using a "slow" language, as long as large amounts of data were not involved. Many small business owners found they could create their own small, yet useful applications in a few evenings to meet their own specialized needs. Eventually, during the lengthy lifetime of VB3, knowledge of Visual Basic had become a marketable job skill.
+
+Microsoft also produced [[VBScript]] in 1996 and [[Visual Basic .NET]] in 2001.  The latter has essentially the same power as [[C#]] and [[Java]] but with syntax that reflects the original Basic language.
+[[File:TriBasicExample.png|thumb|Three modern Basic variants: [[Mono (software)|Mono]] Basic, [[OpenOffice.org Basic]] and [[Gambas]]]]
+
+===Recent versions===
+Many BASIC dialects have also sprung up in the last few years, including the open source [[QB64]], [[Bywater BASIC]], [[Gambas]] and [[FreeBASIC]] - and the commercial  [[PureBasic]], [[Power BASIC]], [[RealBasic]], and [[True BASIC]] (the direct successor to Dartmouth BASIC from a company controlled by Kurtz).
+
+Several web-based simple BASIC interpreters also now exist, including [http://www.quitebasic.com/ Quite BASIC] and Microsoft's [[Microsoft Small Basic|Small Basic]] (educational software).
+
+Versions of BASIC have been showing up for use on smart phones and tablets. Apple [[App Store]] contains such implementations of BASIC programming language as [https://itunes.apple.com/us/app/smart-basic/id541447413?mt=8 smart BASIC], [http://itunes.apple.com/us/app/basic!/id362411238?mt=8 Basic!], [https://itunes.apple.com/us/app/hotpaw-basic/id295464266?mt=8 HotPaw Basic], [https://itunes.apple.com/us/app/basic-ii/id581692436?mt=8 BASIC-II], [https://itunes.apple.com/us/app/techbasic/id470781862?mt=8 techBASIC] and others. Android devices feature such implementations of BASIC as [https://play.google.com/store/apps/details?id=com.rfo.basic RFO BASIC ] and [https://play.google.com/store/apps/details?id=com.mintoris.basic Mintoris Basic].
+
+Applications for some mobile computers with proprietary OS ([[CipherLab]]) can be build with programming environment based on BASIC.
+
+===Nostalgia===
+The ubiquity of BASIC interpreters on personal computers was such that textbooks once included simple "Try It In BASIC" exercises that encouraged students to experiment with mathematical and computational concepts on classroom or home computers. Popular computer magazines of the day typically included [[type-in program]]s. Futurist and sci-fi writer [[David Brin]] mourned the loss of ubiquitous BASIC in a 2006 ''Salon'' article<ref>[http://www.salon.com/2006/09/14/basic_2/singleton/ Why Johnny Can't Code], By David Brin, Sept. 14, 2006, Salon Technology</ref> as have others who first used computers during this era. In turn, the article prompted Microsoft to develop and release [[Microsoft Small Basic|Small Basic]].<ref>[http://msdn.microsoft.com/en-us/beginner/hh182234.aspx Small Basic] Small Basic</ref>
+
+==Syntax==
+
+===Typical BASIC keywords===
+
+; Data manipulation:
+* LET: assigns a value (which may be the result of an [[expression (programming)|expression]]) to a variable.
+* DATA: holds a list of values which are assigned sequentially using the READ command.
+
+; Program flow control:
+* IF ... THEN ... ELSE: used to perform comparisons or make decisions.
+* FOR ... TO ... {STEP} ... NEXT: repeat a section of code a given number of times. A variable that acts as a counter is available within the [[Control flow#Loops|loop]].
+* WHILE ... WEND and REPEAT ... UNTIL: repeat a section of code while the specified condition is true. The condition may be evaluated before each iteration of the loop, or after.
+* DO ... LOOP {WHILE} or {UNTIL}: repeat a section of code Forever or While/Until the specified condition is true. The condition may be evaluated before each iteration of the loop, or after.
+* GOTO: jumps to a numbered or labelled line in the program.
+* GOSUB: jumps to a numbered or labelled line, executes the code it finds there, but upon encountering the RETURN Command, it jumps back to the line following the line from which the jump occurred. This is used to implement [[subroutine]]s.
+* ON ... GOTO/GOSUB: chooses where to jump based on the specified conditions. See [[Switch statement]] for other forms.
+* DEF FN: a pair of keywords introduced in the early 1960s to define functions. The original BASIC functions were modelled on FORTRAN single-line functions. BASIC functions were one expression with variable arguments, rather than [[subroutine]]s, with a syntax on the model of <code>DEF FND(x) = x*x</code> at the beginning of a program. Function names were restricted to FN+one letter.
+
+; Input and output:
+* PRINT: displays a message on the screen or other output device.
+* INPUT: asks the user to enter the value of a variable. The statement may include a prompt message.
+* TAB or AT: sets the position where the next character will be shown on the screen or printed on paper.
+
+; Miscellaneous:
+* REM: holds a programmer's comment or REMark; often used to give a title to the program and to help identify the purpose of a given section of code.
+* USR: transfers program control to a [[machine language]] subroutine, usually entered as an alphanumeric [[String (computer science)|string]] or in a list of DATA statements.
+* TRON: turns on a visual, screen representation of the flow of BASIC commands by displaying the number of each command line as it is run. The [[TRON command]], largely obsolete now, stood for, TRace ON. This meant that command line numbers were displayed as the program ran, so that the command lines could be traced. This command allowed easier [[debugging]] or correcting of command lines that caused problems in a program. Problems included a program terminating without providing a desired result, a program providing an obviously erroneous result, a program running in a non-terminating loop, or a program otherwise having a non-obvious error. (The command TRON has also entered popular culture with the name of the 1982 Disney movie, "TRON," with a subsequent movie, "TRON: Legacy," a television series, "TRON: Uprising," and two video games, "TRON: Legacy," and "TRON: Evolution." In each of these entertainments the TRON command is personified as a character that battles against evil elements in programs.)
+* TROFF: turns off the display of the number of each command line as command lines run after the command TRON has been used.
+
+===Data types and variables===
+Minimal versions of BASIC had only integer variables and one- or two-letter variable names, which minimised requirements of limited and expensive memory (RAM). More powerful versions had floating-point arithmetic, and variables could be labelled with names six or more characters long. There were some problems and restrictions in early implementations; for example, Applesoft allowed variable names to be several characters long, but only the first two were significant, thus it was possible to inadvertently write a program with variables "LOSS" and "LOAN", which would be treated as being the same; assigning a value to "LOAN" would silently overwrite the value intended as "LOSS". Keywords could not be used in variables in many early BASICs; "SCORE" would be interpreted as "SC" OR "E", where OR was a keyword.
+
+[[String (computer science)|String]] variables are usually distinguished in many microcomputer dialects by having $ suffixed to their name, and values are often identified as strings by being delimited by "double quotation marks".
+
+Arrays in BASIC could contain integers, floating point or string variables.
+
+Some dialects of BASIC supported [[matrix (mathematics)|matrices and matrix operations]], useful for the solution of sets of simultaneous linear algebraic equations. These dialects would directly support matrix operations such as assignment, addition, multiplication (of compatible matrix types), and evaluation of a determinant. Many microcomputer BASICs did not support this data type; matrix operations were still possible, but had to be programmed explicitly on array elements.
+
+===Examples===
+The original Dartmouth Basic was unusual in having a matrix keyword, MAT.<ref group=notes>From version 3 onwards.</ref> Although dropped by most later microprocessor derivatives it is used in this example from the 1968 manual<ref>[http://www.bitsavers.org/pdf/dartmouth/BASIC_4th_Edition_Jan68.pdf BASIC, 4th Edition, 1968], page 53</ref> which averages the numbers that are input:
+
+ <div class="gwbasic source-gwbasic">
+ <span class="nu0">5</span> <span class="kw1">LET</span> S <span class="sy0">=</span> <span class="nu0">0</span>
+ <span class="nu0">10</span> <span class="kw1">MAT INPUT</span> V
+ <span class="nu0">20</span> <span class="kw1">LET</span> N <span class="sy0">=</span> NUM
+ <span class="nu0">30</span> <span class="kw1">IF</span> N <span class="sy0">=</span> <span class="nu0">0</span> <span class="kw1">THEN</span> <span class="nu0">99</span>
+ <span class="nu0">40</span> <span class="kw1">FOR</span> I <span class="sy0">=</span> <span class="nu0">1</span> <span class="kw1">TO</span> N
+ <span class="nu0">45</span> <span class="kw1">LET</span> S <span class="sy0">=</span> S <span class="sy0">+</span> V<span class="br0">(</span>I<span class="br0">)</span>
+ <span class="nu0">50</span> <span class="kw1">NEXT</span> I
+ <span class="nu0">60</span> <span class="kw1">PRINT</span> S<span class="sy0">/</span>N
+ <span class="nu0">70</span> <span class="kw1">GO TO</span> <span class="nu0">5</span>
+ <span class="nu0">99</span> <span class="kw1">END</span>
+ </div>
+New BASIC programmers on a home computer might start with a simple program, perhaps using the language's PRINT statement to display a message on the screen; a well-known and often-replicated example is [[The C Programming Language|Kernighan and Ritchie]]'s [[Hello world program]]:
+
+<syntaxhighlight lang="gwBasic">
+10 PRINT "Hello, World!"
+140 END
+</syntaxhighlight>
+
+An [[infinite loop]] could be used to fill the display with the message.
+
+Most first-generation BASIC versions such as [[MSX BASIC]] and [[GW-BASIC]] supported simple data types, loop cycles and arrays. The following example is written for GW-BASIC, but will work in most versions of BASIC with minimal changes:
+
+<syntaxhighlight lang="gwBasic">
+10 INPUT "What is your name: ", U$
+20 PRINT "Hello "; U$
+30 INPUT "How many stars do you want: ", N
+40 S$ = ""
+50 FOR I = 1 TO N
+60 S$ = S$ + "*"
+70 NEXT I
+80 PRINT S$
+90 INPUT "Do you want more stars? ", A$
+100 IF LEN(A$) = 0 THEN GOTO 90
+110 A$ = LEFT$(A$, 1)
+120 IF A$ = "Y" OR A$ = "y" THEN GOTO 30
+130 PRINT "Goodbye "; U$
+140 END
+</syntaxhighlight>
+The resulting dialog might resemble:
+
+ What is your name: Mike
+ Hello Mike
+ How many stars do you want: 7
+ *******
+ Do you want more stars? yes
+ How many stars do you want: 3
+ ***
+ Do you want more stars? no
+ Goodbye Mike
+
+Second-generation BASICs (for example, [[True BASIC]], [[QuickBASIC]] and [[PowerBASIC]]) introduced a number of features into the language, primarily related to structured and procedure-oriented programming. Usually, [[line number]]ing is omitted from the language and replaced with [[label (computer science)|labels]] (for [[GOTO]]) and [[subroutine|procedures]] to encourage easier and more flexible design.<ref name="GBvsQB">{{cite web|url=http://support.microsoft.com/kb/73084|title=Differences Between GW-BASIC and QBasic|date=2003-05-12|accessdate=2008-06-28|author=}}</ref>
+
+<syntaxhighlight lang="QBasic">
+REM QuickBASIC example
+INPUT "What is your name: ", UserName$
+PRINT "Hello "; UserName$
+DO
+  INPUT "How many stars do you want: ", NumStars
+  Stars$ = STRING$(NumStars, "*")
+  PRINT Stars$
+  DO
+    INPUT "Do you want more stars? ", Answer$
+  LOOP UNTIL Answer$ <> ""
+  Answer$ = LEFT$(Answer$, 1)
+LOOP WHILE UCASE$(Answer$) = "Y"
+PRINT "Goodbye "; UserName$
+</syntaxhighlight>
+
+Third-generation BASIC dialects such as [[Visual Basic]], [[REALbasic]], [[StarOffice Basic]] and [[BlitzMax]] introduced features to support object-oriented and [[event-driven programming]] paradigm. Most built-in procedures and functions are now represented as ''methods'' of standard objects rather than ''operators''.
+
+The following example is in [[Visual Basic .NET]]:
+
+<!-- needs a better (event-driven?) example -->
+<syntaxhighlight lang="vbnet">
+Public Class StarsProgram
+    Public Shared Sub Main()
+        Dim UserName, Answer, stars As String, NumStars As Integer
+        Console.Write("What is your name: ")
+        UserName = Console.ReadLine()
+        Console.WriteLine("Hello {0}", UserName)
+        Do
+            Console.Write("How many stars do you want: ")
+            NumStars = CInt(Console.ReadLine())
+            stars = New String("*", NumStars)
+            Console.WriteLine(stars)
+            Do
+                Console.Write("Do you want more stars? ")
+                Answer = Console.ReadLine()
+            Loop Until Answer <> ""
+            Answer = Answer.Substring(0, 1)
+        Loop While Answer.ToUpper() = "Y"
+        Console.WriteLine("Goodbye {0}", UserName)
+    End Sub
+End Class
+</syntaxhighlight>
+
+==Standards==
+* ANSI/ISO/IEC Standard for Minimal BASIC:
+** ANSI X3.60-1978 "For minimal BASIC"
+** ISO/IEC 6373:1984 "Data Processing&nbsp;— Programming Languages&nbsp;— Minimal BASIC"
+* ANSI/ISO/IEC Standard for Full BASIC:
+** ANSI X3.113-1987 "Programming Languages Full BASIC"
+** INCITS/ISO/IEC 10279-1991 (R2005) "Information Technology - Programming Languages - Full BASIC"
+* ANSI/ISO/IEC Addendum Defining Modules:
+** ANSI X3.113 Interpretations-1992 "BASIC Technical Information Bulletin # 1 Interpretations of ANSI 03.113-1987"
+** ISO/IEC 10279:1991/ Amd 1:1994 "Modules and Single Character Input Enhancement"
+* [[Ecma International|ECMA]]-116 BASIC ''(withdrawn, similar to ANSI X3.113-1987)''
+
+==See also==
+
+* [[List of BASIC dialects]]
+
+==References==
+;Notes
+{{reflist|group=notes}}
+
+;Citations
+{{Reflist|colwidth=30em}}
+
+;Bibliography
+{{refbegin}}
+* {{cite book | publisher = Dartmouth College Computation Center | year = 1964 | url = http://www.bitsavers.org/pdf/dartmouth/BASIC_Oct64.pdf |format=PDF| title = A Manual for BASIC, the elementary algebraic language designed for use with the Dartmouth Time Sharing System }}
+* {{cite book | last = Lien | first = David A. | year = 1986 | title = The Basic Handbook: Encyclopedia of the BASIC Computer Language | edition = 3rd ed. | publisher = Compusoft Publishing | isbn = 0-932760-33-3 }}
+* {{cite book | last = Kemeny | first = John G. | coauthors = Kurtz, Thomas E. | year = 1985 | title = Back To BASIC: The History, Corruption, and Future of the Language | publisher = Addison-Wesley | pages = 141&nbsp;pp | isbn = 0-201-13433-0 }}
+* {{cite book | last = Sammet | first = Jean E. | title = Programming languages: History and fundamentals | publisher = Prentice-Hall | location = Englewood Cliffs, N.J. | year = 1969 }}
+* {{HOPL-lang|176|BASIC&nbsp;— Beginners All-purpose Symbolic Instruction Code}}
+{{refend}}
+
+==External links==
+{{Wikibooks|Programming:BASIC}}
+* {{dmoz|Computers/Programming/Languages/BASIC|BASIC}}
+<!-- Please do not add any links for specific implementations of BASIC here. Add them to ''[[List of BASIC dialects]]'' and ''[[List of BASIC dialects by platform]]'' instead -->
+
+{{BASIC}}
+
+{{DEFAULTSORT:Basic}}
+[[Category:Articles with example BASIC code]]
+[[Category:BASIC programming language family| ]]
+[[Category:Programming languages created in 1964]]
+[[Category:American inventions]]
+[[Category:Programming languages with an ISO standard]]

@@ -1,0 +1,208 @@
+[[File:CamelCase.svg|miniature|right|thumb|A [[bactrian camel|two humped camel]] which illustrates the idiom.]]
+'''CamelCase''' ('''camel case''') or '''medial capitals''' is the practice of writing compound words or phrases such that each word or abbreviation begins with a [[capitalization|capital letter]]. Camel case may start with a capital or, especially in [[programming language]]s, with a lowercase letter.<ref>{{cite web|title=Capitalization Styles|url=http://msdn.microsoft.com/en-us/library/x2dbyw72(v=vs.71).aspx|publisher=Microsoft|accessdate=12 September 2013}}</ref> Common examples are [[PowerPoint]] or [[iPhone]].
+
+== Variations and synonyms ==
+
+Although the first letter of a camel case compound word may or may not be capitalized, the term '''camel case''' generally implies lowercase first letter.<ref>{{cite web|title=Naming Conventions|url=http://docs.scala-lang.org/style/naming-conventions.html|publisher=Scala|accessdate=5 December 2012}}</ref><ref>{{cite web|title=Capitalization Styles|url=http://msdn.microsoft.com/en-us/library/x2dbyw72(v=vs.71).aspx|accessdate=5 December 2012}}</ref>  For clarity, this article calls the two alternatives '''upper camel case''' and '''lower camel case'''.  Some people and organizations use the term ''camel case'' only for lower camel case. Other synonyms include:
+
+{{col-begin}}{{col-break}}
+* '''BumpyCaps'''<ref name="semicolon">{{cite web | first=Brian | last=Hayes | url=http://www.americanscientist.org/issues/pub/the-semicolon-wars/2 | title=The Semicolon Wars | work=American Scientist Online: The Magazine of Sigma XI | publisher=The Scientific Research Society | date=July–August 2006 | at=art. pg. 2.}}</ref> or '''BumpyCase'''{{Citation needed|date=April 2009}}
+* '''camelBack''' (or camel-back) notation<ref>[http://www2.tech.purdue.edu/cit/Courses/CPT355/C_Sharp_Coding_Standards_and_Guidelines.asp C# Coding Standards and Guidelines] at [http://www2.tech.purdue.edu/cit/ Purdue University College of Technology]</ref>
+* '''CamelCaps'''<ref>{{Cite web|url=http://everything2.com/title/CamelCase |title=CamelCase@Everything2.com |publisher=Everything2.com |date= |accessdate=2010-06-04}}</ref>
+* '''CapitalizedWords''' or '''CapWords''' for upper camel case in [[Python (programming language)|Python]]<ref name="python">[http://www.python.org/peps/pep-0008.html Style Guide for Python Code] at [http://www.python.org www.python.org]</ref> {{nb5}}
+* '''compoundNames'''<ref name="compoundNames">{{cite web |  url=http://groups.google.com/group/alt.folklore.computers/browse_thread/thread/6099191f2c4e0984/21f332e5b813313e?#21f332e5b813313e | title=compoundName | work=discussion thread at [http://groups.google.com/group/alt.folklore.computers alt.folklore.computers] | date=29 March 1990}}</ref>
+* '''Embedded Caps''' (or Embedded Capitals)<ref>{{Cite web|url=http://issues.appfuse.org/browse/APF-1088 |title=[#APF-1088&#93; If class name has embedded capitals, AppGen code fails UI tests and generated hyperlinks are incorrect. – AppFuse JIRA |publisher=Issues.appfuse.org |date= |accessdate=2010-06-04}}</ref>
+* '''HumpBack''' (or hump-back) notation<ref>[http://www.shiningstar.net/articles/articles/standards/namingconventions.asp ASP Naming Conventions], by Nannette Thacker (05/01/1999)</ref>
+{{col-break}}
+* '''InterCaps''' or '''intercapping'''<ref>{{Cite book| last = Iverson | first = Cheryl, et al. (eds) | title = AMA Manual of Style | edition = 10th | publisher = Oxford University Press | location = Oxford, Oxfordshire | year = 2007 | isbn = 978-0-19-517633-9 }}</ref> (abbreviation of ''Internal Capitalization''<ref>{{cite web |url=http://wps.ablongman.com/long_hult_bnch_4/63/16207/4149058.cw/content/index.html |title=The Brief New Century Handbook – Rules for internal capitalization |publisher=Pearson Education |author=Christine A. Hult and Thomas N. Huckin}}</ref>)
+* '''mixedCase''' for lower camel case in Python<ref name="python"/>
+* '''nerdCaps'''<ref name="semicolon"/> or '''headlessCamelCase'''
+* '''[[Pascal (programming language)|Pascal]] case''' for upper camel case<ref>[http://blogs.msdn.com/brada/archive/2004/02/03/67024.aspx Brad Abrams : History around Pascal Casing and Camel Casing]</ref><ref>[http://c2.com/cgi/wiki?PascalCase Pascal Case]</ref><ref>[http://msdn2.microsoft.com/en-us/library/x2dbyw72(vs.71).aspx .NET Framework General Reference Capitalization Styles]</ref>
+* [[Smalltalk]] case
+* '''WikiWord'''<ref name="WikiWord used by [[TWiki]]">{{Cite web|url=http://twiki.org/cgi-bin/view/TWiki/WikiWord |title=WikiWord < TWiki < TWiki |publisher=Twiki.org |date= |accessdate=2010-06-04}}</ref> or '''WikiCase'''<ref name="WikiCase mentioned in [[WikiWikiWeb]]">{{Cite web|url=http://c2.com/cgi/wiki?WikiCase |title=Wiki Case |publisher=C2.com |date=8 February 2010 |accessdate=2010-06-04}}</ref> (especially in older [[wiki]]s)
+* '''wimpyCaps''' (in contrast to StudlyCaps)
+{{col-end}}
+
+[[StudlyCaps]] encompasses all such variations,<ref name="semicolon"/> and more, including even random mixed capitalization, as in ''MiXeD CaPitALiZaTioN'' (typically a stereotyped allusion to [[leet|online culture]]).
+
+Camel case is also distinct from [[title case]], which is traditionally used for book titles and headlines. Title case capitalizes most of the words yet retains the spaces between the words.<ref>[http://www.sitepoint.com/blogs/2005/03/15/title-case-in-php/ Title Case in PHP] at [[SitePoint]] Blogs</ref><ref>[http://wordtips.vitalnews.com/Pages/T1685_Intelligent_Title_Case.html WordTips: Intelligent Title Case]</ref><ref>[http://bloggingabout.net/blogs/jschreuder/archive/2006/11/14/How-to_3A00_-Change-casing-in-Text-to-TitleCase.aspx How to: Change casing in Text to TitleCase – Jan Schreuder on .Net]</ref> Camel case is also distinct from [[Tall Man lettering]], which uses capitals to emphasize the differences between similar-looking words.
+
+== History ==
+
+
+=== Chemical formulae ===
+The first systematic and widespread use of medial capitals for technical purposes was the notation for chemical formulae invented by the [[Swedish people|Swedish]] chemist [[Jöns Jakob Berzelius|Berzelius]] in 1813. To replace the multitude of naming and symbol conventions used by chemists until that time, he proposed to indicate each chemical element by a symbol of one or two letters, the first one being capitalized. The capitalization allowed formulae like 'NaCl' to be written without spaces and still be parsed without ambiguity.<ref>[[Jöns Jacob Berzelius]] (1813). ''Essay on the Cause of Chemical Proportions and on Some Circumstances Relating to Them: Together with a Short and Easy Method of Expressing Them''. ''[[Annals of Philosophy]] 2, 443-454, 3, 51-52; (1814) 93-106, 244-255, 353-364.</ref><ref>Henry M. Leicester & Herbert S. Klickstein, eds. 1952, ''A Source Book in Chemistry, 1400-1900'' (Cambridge, MA: Harvard)</ref>
+
+Berzelius's system remains in use to this day, augmented with three-letter symbols like '[[Ununtrium|Uut]]' for unnamed elements and abbreviations for some common substituents (especially in the field of organic chemistry, for instance '[[Ethyl group|Et]]' for 'ethyl-'). This has been further extended to describe the [[amino acid]] sequences of [[protein]]s and other similar domains.
+
+=== ''The King's English'' ===
+In their English style guide ''[[The King's English]]'', first published in 1906, [[Henry Watson Fowler|H. W. Fowler]] and [[Francis George Fowler|F. G. Fowler]] suggested that medial capitals could be used in triple [[compound word]]s where [[hyphen]]s would cause ambiguity—the examples they give are "KingMark-like" (as against "King Mark-like") and "Anglo-SouthAmerican" (as against "Anglo-South American").  However, they described the system as "too hopelessly contrary to use at present."<ref>
+{{Cite book
+|last1= Fowler
+|first1= Henry W.
+|authorlink1= Henry Watson Fowler
+|last2= Fowler
+|first2= Francis G.
+|authorlink2= Francis George Fowler
+|title= The King's English
+|url=http://www.bartleby.com/116/
+|accessdate=19 December 2009
+|publisher= [[Oxford University Press|Oxford]]
+|edition=2nd
+|year=1908
+|chapter=Chapter IV. Punctuation – Hyphens
+|chapterurl=http://www.bartleby.com/116/405.html}}
+</ref>
+
+=== Early use in trademarks ===
+Since the early 20th century, medial capitals have occasionally been used for [[corporation|corporate]] names and product [[trademark]]s, such as:
+* ''DryIce Corporation'' (1925) marketed the solid form of CO<sub>2</sub> as "Dry ice", thus leading to its common name.<ref name="About Dry ice">{{Cite book| title = The Trade-mark Reporter| publisher = [[International Trademark Association|United States Trademark Association]]| year = 1930| issue = v. 20| isbn = 1-59888-091-8}}</ref>
+* [[CinemaScope]] and [[VistaVision]], rival [[widescreen]] [[film|movie]] formats (1953)
+* [[ShopKo Stores, Inc.|ShopKo]] (1962)
+* ''MisterRogers'', the [[Canada|Canadian]] version of ''[[Mister Rogers' Neighborhood]]'' (1962)<ref>[http://imdb.com/title/tt0250165/ "MisteRogers" (1962)]</ref>
+* [[AstroTurf]] (1967)<!-- Trademark serial number 72286166 -->
+* [[ConAgra Foods, Inc.|ConAgra]], formerly Consolidated Mills (1971).
+
+=== Computer programming ===
+{{Original research|section|reason=no citations and internet search shows no original sources, only sources that got it from wikipedia|date=May 2011}}
+In the 1970s and 1980s, medial capitals were adopted as a standard or alternative [[identifier naming convention|naming convention]] for multi-word [[identifier]]s in several [[programming language]]s.  The origin of this convention has not yet been settled. However a 1954 conference proceedings<ref>[http://www.bitsavers.org/pdf/mit/summer_session_1954/Digital_Computers_Advanced_Coding_Techniques_Summer_1954.pdf "Resume of Session 8". Digital Computers: Advanced Coding Techniques. Summer Session 1954, Massachusetts Institute of Technology, page 8-6.]</ref> informally referred to IBM's [[Speedcoding]] system as "SpeedCo". [[Christopher Strachey]]'s paper on [[General purpose macro processor#Examples of general purpose macro processors|GPM]] (1965),<ref>{{cite journal | last = Strachey| first = Christopher | authorlink = Christopher Strachey | title = A General Purpose Macrogenerator| journal = Computer Journal| volume = 8 | issue = 3 | pages = 225–241|date = October 1965| doi = 10.1093/comjnl/8.3.225  }}</ref> shows a program that includes some medial capital identifiers, including "<tt>NextCh</tt>" and "<tt>WriteSymbol</tt>".
+
+==== Background: multi-word identifiers ====
+Computer [[Computer program|programmers]] often need to write descriptive (hence multi-word) [[identifier]]s, like "<tt>end of file</tt>" or "<tt>char table</tt>", in order to improve the readability of their code.  However, most popular programming languages forbid the use of spaces inside identifiers, since they are interpreted as [[delimiter]]s between [[Lexical analysis|tokens]].  The alternative of writing the words together as in "<tt>endoffile</tt>" or "<tt>chartable</tt>" is not satisfactory, since the word boundaries may be quite difficult to discern in the result or it may even be misleading (e.g. "<tt>chartable</tt>" may be used to mean that something can be displayed in a chart).
+
+Some early programming languages, notably [[Lisp (programming language)|Lisp]] (1958) and  [[COBOL]] (1959), addressed this problem by allowing a [[hyphen]] ("-") to be used between words of compound identifiers, as in "END-OF-FILE"—Lisp because it worked well with prefix notation; a Lisp parser would not treat a hyphen in the middle of a symbol as a subtraction operator; COBOL because its operators were English words.  However, this solution was not adequate for algebra-oriented languages such as [[FORTRAN]] (1955) and [[ALGOL 58|ALGOL]] (1958), which used the hyphen as an intuitively-obvious subtraction operator. (FORTRAN also restricted identifiers to six characters or fewer at the time, preventing multi-word identifiers except those made of very short words.) Since the common [[punched card]] character sets of the time had no lower-case letters and no other special character that would be adequate for the purpose, those early languages had to do without multi-word identifiers.
+
+It was only in the late 1960s that the widespread adoption of the [[ASCII]] character set made both lower case and the [[underscore]] character "<tt>_</tt>" universally available.  Some languages, notably [[C (programming language)|C]], promptly adopted underscores as word separators; and underscore-separated compounds like "<tt>end_of_file</tt>" are still prevalent in C programs and libraries. However, some languages and programmers chose to avoid underscores, among other reasons to prevent confusing them with whitespace, and adopted camel case instead.  Two accounts are commonly given for the origin of this convention.
+
+==== "Lazy Programmer" theory ====
+One theory for the origin of the camel case convention holds that C programmers and [[Hacker (programmer subculture)|hackers]] simply found it more convenient than the [[snake case]] style.
+
+The underscore key is inconveniently placed on American [[QWERTY]] keyboards. Furthermore, early compilers severely restricted the length of identifiers (e.g., to 8 or 14 letters) or silently truncated all identifiers to that length (for example, FORTRAN 77 limited identifiers to 6 characters; even in C99, characters after the first 31 could be ignored.<ref name="c99">{{cite book | url=http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1124.pdf | title=ISO/IEC 9899:1999 specification | at=p. 20, § 5.2.4.1 ''Translation limits''}}</ref> Finally, the small size of [[computer display]]s available in the 1970s (e.g.,&nbsp;80-character by 24-line [[VT52]] and similar terminals) encouraged the use of short identifiers. Some programmers opted to use camel case instead of [[underscore]]s to get legible compound names with fewer keystrokes and fewer characters.
+
+==== "Alto Keyboard" theory ====
+Another account claims that the camel case style first became popular at [[Xerox PARC]] around 1978, with the [[Mesa (programming language)|Mesa programming language]] developed for the [[Xerox Alto]] computer.  This machine lacked an underscore key and the hyphen and space characters were not permitted in identifiers, leaving camel case as the only viable scheme for readable multiword names. The PARC Mesa Language Manual (1979) included a coding standard with specific rules for Upper- and lowerCamelCase which was strictly followed by the Mesa libraries and the Alto operating system.
+
+The [[Smalltalk]] language, which was developed originally on the Alto and became quite popular in the early 1980s, may have been instrumental in spreading the style outside PARC. Camel case was also used by convention for many names in the [[PostScript]] page description language (invented by [[Adobe Systems]] founder and ex-PARC scientist [[John Warnock]]), as well as for the language itself.  A further boost was provided by [[Niklaus Wirth]] (the inventor of [[Pascal (programming language)|Pascal]]) who acquired a taste for camel case during a sabbatical at PARC and used it in [[Modula]], his next programming language.
+
+=== Spread to mainstream usage ===
+Whatever its origins within the computing world, the practice spread in the 1980s and 1990s, when the advent of the [[personal computer]] exposed hacker culture to the world.  Camel case then became fashionable for corporate [[trade name]]s, initially in technical fields; mainstream usage was well established by 1990:
+
+<!-- This is documentation of increasing commercial usage, not a complete list.  Two
+or three examples per year is plenty. -->
+* (1971) [[AeroVironment]]
+* (1976) [[InterCity 125]]
+* (1977) [[CompuServe]], [[UnitedHealth Group|UnitedHealthCare]] (now UnitedHealthcare).<ref>[http://www.unitedhealthgroup.com Unitedhealthgroup.com]</ref>
+* (1978) [[WordStar]]
+* (1979) [[MasterCard]], [[SportsCenter]], [[VisiCalc]]
+* (1980) [[EchoStar Communications Corporation|EchoStar]]
+* (1982) [[MicroProse]], [[WordPerfect]]
+* (1983) [[Novell NetWare|NetWare]]
+* (1984) [[BellSouth]], [[LaserJet]], [[MacWorks]], [[iDEN]]
+* (1985) [[Adobe PageMaker|PageMaker]], [[EastEnders]]
+* (1986) [[SpaceCamp]]
+* (1987) [[ClarisWorks]], [[HyperCard]], [[PowerPoint]]
+* (1990) [[HarperCollins Publishers|HarperCollins]], [[SeaTac, Washington|SeaTac]], iconic [[WorldWideWeb]]
+
+During the [[dot-com bubble]] of the late 1990s, the lowercase prefixes "e" (for "[[electronics|electronic]]") and "i" (for "[[Internet]]",<ref>{{Cite news|author=Farhad Manjoo |url=http://www.wired.com/science/discoveries/news/2002/04/52181 |title=Grads Want to Study on EMacs, Too |publisher=Wired.com |date= 30 April 2002|accessdate=2010-06-04}}</ref> "[[information]]", "[[intelligent]]", etc.) became quite common, giving rise to names like [[Apple Inc.|Apple]]'s [[iMac]] and the [[Zentyal|eBox]] software platform.
+
+In 1998, Dave Yost suggested that chemists use medial capitals to aid readability of long chemical names, e.g. write AmidoPhosphoRibosylTransferase instead of [[amidophosphoribosyltransferase]].<ref>[http://www.newscientist.com/article/mg15821399.900-feedback.html ''Feedback, 20 June 1998''] Vol 158 No 2139 [[New Scientist]] 20 June 1998</ref> This usage was still rare in 2012.
+
+The practice is sometimes used for abbreviated names of certain neighborhoods, e.g. New York City neighborhoods ''SoHo'' (''So''uth of ''Ho''uston Street) and ''TriBeCa'' (''Tri''angle ''Be''low ''Ca''nal Street) and San Francisco's ''SoMa'' (''So''uth of ''Ma''rket). Such usages erode quickly, so the neighborhoods are now rendered as ''Soho'', ''Tribeca'', and ''Soma''.
+
+Internal capitalization has also been used for other technical codes like [[HeLa]] (1983).
+
+=== History of the name "camel case" ===
+The original name of the practice, used in [[media studies]], [[grammar]]s and the ''[[Oxford English Dictionary]]'', was "medial capitals". The fancier names such as "InterCaps", "CamelCase" and variations thereof are relatively recent and seem more common in computer-related communities.
+
+The earliest known occurrence of the term "InterCaps" on Usenet is in an April 1990 post to the group <tt>alt.folklore.computers</tt> by Avi Rappoport,<ref name="compoundNames" /> with "BiCapitalization" appearing slightly later in a 1991 post  by [[Eric S. Raymond]] to the same group.<ref>{{Cite web|url=http://groups.google.com/group/misc.misc/msg/f5f25b79cd9026bd |title=The jargon file version 2.5.1 29 January 1991 follows in 15 parts – misc.misc &#124; Google Groups |publisher=Groups.google.com |date= |accessdate=2009-05-23}}</ref> The earliest use of the name "CamelCase" occurs in 1995, in a post by [[Newton Love]].<ref>{{Cite web|author=Newton Love &nbsp; View profile &nbsp; &nbsp;More options |url=http://groups.google.com/group/comp.os.os2.advocacy/msg/ab3c8107c6e150fa |title=I'm happy again! – comp.os.os2.advocacy &#124; Google Groups |publisher=Groups.google.com |date= |accessdate=2009-05-23}}</ref> "''With the advent of programming languages having these sorts of constructs, the humpiness of the style made me call it HumpyCase at first, before I settled on CamelCase. I had been calling it CamelCase for years,''" said Love, "''The citation above was just the first time I had used the name on USENET.''"<ref>[http://sluug.org/~newt/ Newton Love]</ref>
+
+The name "CamelCase" is not related to the "Camel Book" (''[[Programming Perl]]''), which uses all-lowercase identifiers with [[underscore]]s in its sample code.  However in [[Perl]] programming CamelCase is also commonly used.
+
+== Current usage in computing ==
+
+=== Programming and coding ===
+The use of medial caps for compound identifiers is recommended by the [[coding style]] guidelines of many organizations or software projects.  For some languages (such as [[Mesa (programming language)|Mesa]], [[Pascal (programming language)|Pascal]], [[Modula]], [[Java (programming language)|Java]] and [[Microsoft]]'s [[Microsoft .NET|.NET]]) this practice is recommended by the language developers or by authoritative manuals and has therefore become part of the language's "culture". 
+
+Style guidelines often distinguish between upper and lower camel case, typically specifying which variety should be used for specific kinds of entities: [[variable (computer science)|variable]]s, [[field (computer science)|record fields]], [[method (computer science)|method]]s, [[procedure (computer science)|procedures]], [[type (computer science)|types]], etc. These rules are sometimes supported by [[static code analysis|static analysis]] tools that check source code for adherence.
+
+The original [[Hungarian notation]] for programming, for example, specifies that a lowercase abbreviation for the "usage type" (not data type) should prefix all variable names, with the remainder of the name in upper camel case; as such it is a form of lower camel case.
+
+Programming identifiers often need to contain [[acronyms and initialisms]] which are already in upper case, such as "old HTML file". By analogy with the title case rules, the natural camel case rendering would have the abbreviation all in upper case, namely "oldHTMLFile".  However, this approach is problematic when two acronyms occur together (e.g., "parse DBM XML" would become "parseDBMXML") or when the standard mandates lower camel case but the name begins with an abbreviation (e.g. "SQL server" would become "sQLServer").  For this reason, some programmers prefer to treat abbreviations as if they were lower case words and write "oldHtmlFile", "parseDbmXml" or "sqlServer".
+
+=== Wiki link markup ===
+Camel case is used in some [[wikitext|wiki markup languages]] for terms that should be automatically linked to other [[wiki]] pages. This convention was originally used in [[Ward Cunningham]]'s original [[wiki software]], [[WikiWikiWeb]], and can be activated in most other wikis. Some wiki engines such as [[TiddlyWiki]], [[Trac]] and [[PMWiki]] make use of it in the default settings, but usually also provide a  configuration mechanism or [[Plug-in (computing)|plugin]] to disable it. [[Wikipedia]] formerly used camel case linking as well, but switched to explicit link markup using [[square brackets]] and many other wiki sites have done the same. Some wikis that do not use camel case linking may still use the camel case as a naming convention, such as [[AboutUs]].
+
+=== Other uses ===
+The [[National Information Exchange Model|NIEM]] registry requires that [[Extensible Markup Language|XML]] data elements use upper camel case and XML attributes use lower camel case.
+
+Most popular [[shell (computing)|command-line interfaces]] and [[shell script|scripting]] languages cannot easily handle file names that contain embedded spaces (usually requiring the name to be put in quotes).  Therefore, users of those systems often resort to camel case (or underscores, hyphens and other "safe" characters) for compound file names like <tt>MyJobResume.pdf</tt>.
+
+[[Microblogging]] and [[social networking]] sites that limit the number of characters in a message (most famously [[Twitter]], where the 140-character limit can be quite restrictive in languages that rely on alphabets, including English) are potential outlets for medial capitals. Using CamelCase between words reduces the number of spaces, and thus the number of characters, in a given message, allowing more content to fit into the limited space.
+
+== Current usage in natural languages ==
+Camel case has been used in languages other than English for a variety of purposes, including the ones below:
+
+=== Orthographic markings ===
+Camel case is sometimes used in the transcription of certain scripts, to differentiate letters or markings.  An example is the rendering of [[Standard Tibetan|Tibetan]] proper names like ''rLobsang'': the "r" here stands for a prefix glyph in the original script that functions as [[tone (linguistics)|tone]] marker rather than a normal letter.  Another example is ''tsIurku'', a Latin transcription of the [[Chechen language|Chechen]] term for the capping stone of the characteristic [[Vainakh medieval towers|Medieval defensive towers]] of [[Chechenia]] and [[Ingushetia]]; the capital letter "I" here denoting a [[phoneme]] distinct from the one transcribed as "i".
+
+=== Inflection prefixes ===
+Camel case may also be used when writing proper names in languages that inflect words by attaching prefixes to them.  In some of those languages, the custom is to leave the prefix in lower case and capitalize the root.
+
+This convention is used in [[Irish orthography]] as well as [[Scottish Gaelic alphabet|Scots Gaelic orthography]]; e.g., {{lang|ga|''i nGaillimh''}} ("in [[Galway]]"), from {{lang|ga|''Gaillimh''}} ("Galway");  {{lang|ga|''an tAlbanach''}} ("the Scottish person"), from {{lang|ga|''Albanach''}} ("Scottish person"); {{lang|ga|''go hÉireann''}} ("to [[Ireland]]"), from {{lang|ga|''Éire''}} ("Ireland).
+
+Similarly, in transliteration of the [[Hebrew language]], ''haIvri'' means "the Hebrew person" and ''biYerushalayim'' means "in Jerusalem".
+
+This convention is also used by several [[Bantu languages]] (e.g., ''kiSwahili'' = "[[Swahili language]]", ''isiZulu''  = "[[Zulu language]]") and several indigenous [[languages of Mexico]] (e.g. [[Nahuatl languages|Nahuatl]], [[Totonacan languages|Totonacan]], [[Mixe–Zoque languages|Mixe–Zoque]] and some [[Oto-Manguean languages|Oto-Manguean]] languages).
+
+=== In abbreviations and acronyms ===
+Abbreviations of some academic qualifications are sometimes presented in camel case without punctuation, e.g. [[Doctor of Philosophy|PhD]] or [[Bachelor of Science|BSc]].
+
+In French, camel case acronyms such as [[Oulipo|OuLiPo]] (1960) were favored for a time as alternatives to initialisms.
+
+Camel case is often used to transliterate initialisms into alphabets  where two letters may be required to represent a single character of the original alphabet, e.g., [[DShK]] from [[Cyrillic]] ДШК. <!-- Need a real example for the following: In [[Japan]], Camel case is sometimes used when transliterating [[Hiragana]] or [[Katakana]] product names or initialisms into Roman alphabet. -->
+
+=== Honorifics within compound words ===
+In several languages, including English, [[pronoun]]s and [[possessive]]s may be capitalized to indicate respect, e.g., when referring to the reader of a formal letter or to [[God]].  In some of those languages, the capitalization is customarily retained even when those words occur within compound words or [[enclitic|suffixed to a verb]].  For example, in Italian one would write {{lang|it|''porgendoLe distinti saluti''}} ("offering to You respectful salutations") or {{lang|it|''adorarLo''}} ("adore Him").
+
+=== Other uses ===
+In German, many nouns carry a [[grammatical gender]]—which, for roles or job titles, is felt usually as masculine. Since the [[feminist movement]] of the 1980s, some writers and publishers have been using the feminine title suffixes ''-in'' ([[grammatical number|singular]]) and ''-innen'' (plural) to emphasize the inclusion of females; but written with a capital 'I', to indicate that males are not excluded.  Example: {{lang|de|''MitarbeiterInnen''}} ("co-workers, <nowiki>male or</nowiki> female") instead of {{lang|de|''Mitarbeiter''}} ("co-workers", masculine grammatical gender) or {{lang|de|''Mitarbeiterinnen''}} ("female co-workers").  This use is analogous to the use of [[parentheses]] in English, for example in the phrase "congress(wo)man."
+
+In German, the names to statutes are abbreviated using embedded capitals, e.g. StGB (Strafgesetzbuch) for criminal code, PatG (Patentgesetz) for Patent Act or the very common GmbH (Gesellschaft mit beschränkter Haftung) for Company with Limited Liability.
+
+== Criticism ==
+CamelCase has been criticised as negatively impacting readability due to the removing of spaces and upcasing of every word.<ref>{{cite web|url=http://www.nytimes.com/2009/11/29/magazine/29FOB-onlanguage-t.html?_r=2&ref=magazine&|publisher=New York Times|title=Against Camel Case|author=Caleb Crain|date=23 November 2009}}</ref> One [[natural language]] study found that replacing spaces between words with letters or digits made it harder to recognise individual words, which resulted in increased reading times.<ref>{{cite journal|url=http://www1.psych.purdue.edu/~rsteinma/Bob-FOR%20CV/Epelboim%20et%20al%201997%20Fillers%20in%20Reading.pdf|authors=J. Epelboim, J. Booth, R. Ashkenazy, and A. Taleghani R. steinmans|title=Fillers and spaces in text: The importance of word recognition during reading|journal=Vision Research, 37(20)|year=1997}}</ref> However, a study that specifically compared under_score style and  CamelCase found that camel case identifiers could be recognised with higher accuracy among both programmers and non-programmers, and that programmers already trained in CamelCase were able to recognise CamelCase identifiers faster than underscored identifiers.<ref>{{cite paper|title=To CamelCase or Under_score|authors=Dave Binkley and Marcia Davis and Dawn Lawrie and Christopher Morrell|url=http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.158.9499&rep=rep1&type=pdf|publisher=IEEE|pages=158–167|journal=IEEE 17th International Conference on Program Comprehension, 2009. ICPC '09.|year=2009|quote=The experiment builds on past work of others who study how readers of natural language perform such tasks. Results indicate that camel casing leads to higher accuracy among all subjects regardless of training, and those trained in camel casing are able to recognize identifiers in the camel case style faster than identifiers in the underscore style.}}</ref> 
+
+Use of CamelCase can conflict with the regular use of uppercase letters for [[all caps]] acronyms e.g. to represent a concept like "the [[Transmission Control Protocol|TCP]] [[Internet Protocol|IP]] [[Network socket|socket]] [[Identifier|ID]]" the writer must choose to either retain the capitalisation of the acronyms ("TCPIPSocketID"), which harms readability, or to retain capitalisation of only the first letter ("TcpIpSocketId"), which makes it harder to recognise that a given word is intended as an acronym.<ref>{{cite paper|title=To CamelCase or Under_score|authors=Dave Binkley and Marcia Davis and Dawn Lawrie and Christopher Morrell|url=http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.158.9499&rep=rep1&type=pdf|publisher=IEEE|pages=158–167|journal=IEEE 17th International Conference on Program Comprehension, 2009. ICPC '09.|year=2009|quote=In terms of camel-cased identifiers, this has a greater impact on identifiers that include short words and especially acronyms. For example, consider the acronym ID found in the identifier kIOuterIIDPath. Because of the run of uppercase letters, the task of reading kIOuterIIDPath, in particular the identification of the word ID, is more difficult.}}</ref> An alternative is to follow any instance of acronymic capitalization with a re-initialization of lower case camel, as TCPIPsocketID.  This has the effect of enforcing the lower camel case standard.
+
+== See also ==
+*[[All caps]]
+*[[Capitalization]]
+*[[Caps lock]]
+*[[Letter case]]
+*[[Roman cursive]]
+*[[Roman square capitals]]
+*[[Sentence case]]
+*[[Shift key]]
+*[[Small caps]]
+* [[Snake case|snake_case]]
+*[[StudlyCaps]]
+*[[Unicase]]
+
+== References ==
+{{Reflist|30em}}
+
+== External links ==
+* [http://c2.com/cgi/wiki?CamelCase Examples and history of CamelCase], also [http://c2.com/cgi/wiki?WordsSmashedTogetherLikeSo WordsSmashedTogetherLikeSo]
+* [http://msdn2.microsoft.com/en-us/library/x2dbyw72(vs.71).aspx .NET Framework General Reference Capitalization Styles]
+* [http://www.theslot.com/webnames.html What's in a nAME(cq)?], by Bill Walsh, at The Slot
+* [http://www.microsoft.com/typography/ctfonts/WordRecognition.aspx The Science of Word Recognition], by Kevin Larson, Advanced Reading Technology, Microsoft Corporation
+* [http://xml.coverpages.org/camelCase.html OASIS Cover Pages: CamelCase for Naming XML-Related Components]
+* [http://titlecase.com Convert text to CamelCase, Title Case, Uppercase and lowercase]
+
+{{Typography terms}}
+
+{{DEFAULTSORT:Camelcase}}
+[[Category:Typography]]
+[[Category:Naming conventions]]
+
+{{Use dmy dates|date=June 2013}}

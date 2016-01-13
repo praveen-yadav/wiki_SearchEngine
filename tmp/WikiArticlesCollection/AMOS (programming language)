@@ -1,0 +1,73 @@
+{{refimprove|date=June 2011}}
+{{Infobox programming language
+| name                   = AMOS
+| logo                   = 
+| paradigm               = [[Imperative programming|Imperative]], [[Procedural programming|Procedural]]
+| year                   = 1990
+| designer               = 
+| developer              = [[François Lionet]] and [[Constantin Sotiropoulos]]
+| latest_release_version = 
+| latest_release_date    = 
+| latest_test_version    = 
+| latest_test_date       = 
+| typing                 = Static
+| implementations        = 
+| dialects               = AMOS, Easy AMOS, AMOS Professional
+| influenced_by          = [[STOS BASIC]]
+| influenced             =
+| operating_system       = [[AmigaOS]]
+| license                = [[BSD licenses|BSD style license]]
+| website                = [http://www.clickteam.com/eng/downloadcenter.php?i=58 AMOS and STOS]{{dead link|date=March 2012}}
+}}
+
+'''AMOS BASIC''' is a dialect of the [[BASIC]] [[programming language]] implemented on the [[Amiga]] computer. AMOS BASIC was published by [[Europress Software]] and originally written by [[François Lionet]] with [[Constantin Sotiropoulos]].
+
+== History ==
+AMOS is a descendant of [[STOS BASIC]] for the [[Atari ST]]. AMOS BASIC was first produced in 1990. 
+
+AMOS competed on the Amiga platform with Acid Software's [[Blitz BASIC]]. Both BASICs differed from other dialects on different platforms, in that they allowed the easy creation of fairly demanding multimedia software, with full structured code and many high-level functions to load images, animations, sounds and display them in various ways.
+
+The original AMOS version was [[interpreter (computing)|interpreted]] which, whilst working fine, suffered the same disadvantage of any language being run interpretively. By all accounts, AMOS was extremely fast among interpreted languages. The language was fast enough that an extension called AMOS 3D could produce playable 3D games even on plain 7&nbsp;MHz Amigas. Later, an AMOS [[compiler]] was developed that further increased speed.
+
+AMOS could also include inline Assembly Language.<ref>[http://archive.org/stream/1990-lionet-francois-amos-the-creator-user-guide/1990-lionet-francois-amos-the-creator-user-guide_djvu.txt The Creator], by Frangois Lionet, 1990, ''"AMOS Basic includes special facilities which allow you to combine assembly language routines with your Basic programs."''</ref>
+
+To simplify animation of sprites, AMOS included the AMOS Animation Language (AMAL), a compiled sprite scripting language which runs independently of the main AMOS BASIC program.<ref>http://grove.ufl.edu/~cwarner/computers.html</ref> It was also possible to control screen and "rainbow" effects using AMAL scripts. AMAL scripts in effect created CopperLists, small routines executed by the Amiga's Agnus chip.
+
+After the original version of AMOS, Europress released a compiler ('''AMOS Compiler'''), and two other versions of the language: '''Easy AMOS''', a simpler version for beginners, and '''AMOS Professional''', a more advanced version with added features, such as a better [[Integrated development environment|IDE]], [[ARexx]] support, a new [[user interface|UI]] API and new [[control flow|flow control constructs]]. Neither of these new versions was significantly more popular than the original AMOS.{{Citation needed|date=January 2012|reason=For example, from my experience it was way more popular. References to sales figures or alike would be nice.}}
+
+AMOS was mostly used to make multimedia software, [[video game]]s (platformers and graphical adventures) and educational software.
+
+The language was mildly successful within the Amiga community. Its ease of use made it especially attractive to beginners.
+
+Perhaps AMOS BASIC's biggest disadvantage, stemming from it Atari ST lineage, was its incompatibility with the Amiga's [[AmigaOS|operating system]] functions and interfaces. Instead, AMOS BASIC controlled the computer directly, which caused programs written in it to have a non-standard user interface, and also caused compatibility problems with newer versions of the operating system.
+
+Today the language has declined in popularity along with the Amiga computer for which it was written. Despite this, a small community of enthusiasts are still using it. The [[source code]] to AMOS has since been released under a [[BSD licenses|BSD style license]] by [[Clickteam]] - a company that includes the original programmer.
+
+==Software using AMOS BASIC==
+* [[Miggybyte]]
+* [[Scorched Tanks]]
+* Games by [[Vulcan Software]], amongst which the [[Valhalla: Before the War|Valhalla]] trilogy
+* [[Amiga]] version of [[Ultimate Domain]] (called [[Genesia (game)|Genesia]]) by [[Microïds]]
+
+==See also==
+*[[BASIC programming language]] &mdash; For the Beginner's All-purpose Symbolic Instruction Code family of programming languages.
+*[[UAE (emulator)|UAE]] (Amiga emulator compatible with AMOS and AMOS games, now works without a Kickstart ROM image)
+
+==References==
+<references/>
+
+==External links==
+*[http://www.clickteam.co.uk/downloadcenter.php?i=58 Source code for AMOS and STOS (68000 ASM)]
+*[http://amos.pspuae.com/ The AMOS Factory] (An AMOS support/community site)
+*[http://www.amigacoding.com Amigacoding website] (contains in-depth info and references for AMOS)
+*[http://www.back2roots.org/Tools/Dev/ Back to the Roots] (Contains full AMOS downloads for Amiga or an emulator)
+*[http://sdlbasic.sourceforge.net/ sdlBasic] &mdash; a multiplatform Basic interpreter, multiplaform and open-source, using SDL libraries, very inspired by AMOS.
+*[http://sourceforge.net/projects/mattathias/ Mattathias BASIC] (Open source AMOS compiler, early alpha)
+*[http://www.triumphoverchallenges.com/stos-and-amos-game-creators/ History of STOS and AMOS] &mdash; how they came to be published in the UK
+{{AmigaOS}}
+{{BASIC}}
+
+{{DEFAULTSORT:Amos (Programming Language)}}
+[[Category:BASIC programming language family]]
+[[Category:Video game development software]]
+[[Category:Amiga development software]]

@@ -1,0 +1,96 @@
+{{About|the programming language standard|the paper size|Paper size#ANSI paper sizes}}
+{{Refimprove|date=July 2010}}
+'''ANSI C''' refers to the family of successive standards published by the [[American National Standards Institute]] (ANSI) for the [[C (programming language)|C programming language]]. Software developers writing in C are encouraged to conform to the standards, as doing so aids [[porting|portability]] between compilers.
+
+==History and outlook==
+
+The first standard for C was published by ANSI. Although this document was subsequently adopted by [[International Organization for Standardization]] (ISO) and subsequent revisions published by ISO have been adopted by ANSI, the name ANSI C (rather than ISO C) is still more widely used. While some software developers use the term '''ISO C''', others are standards body–neutral and use '''Standard C'''.
+
+===C89 and C90===
+In 1983, the American National Standards Institute formed a committee, X3J11, to establish a standard specification of C. After a long and arduous process, the standard was completed in 1989 and ratified as ANSI X3.159-1989 "Programming Language C." This version of the language is often referred to as "ANSI C", or sometimes "C89" (to distinguish it from C99).
+
+The same standard was ratified by the International Organization for Standardization as ISO/IEC 9899:1990, with only formatting changes,<ref>{{cite web|url=http://gcc.gnu.org/onlinedocs/gcc/Standards.html|title=Standards - Using the GNU Compiler Collection (GCC)|accessdate=2012-06-24}}</ref> which is sometimes referred to as C90. Therefore, the terms "C89" and "C90" refer to essentially the same language.
+
+ISO also published an amendment in 1994, referred to as AMD1, introducing minor changes to the language and the library.<ref>{{cite web|url=http://www.lysator.liu.se/c/na1.html|title=A brief description of Normative Addendum 1|accessdate=2013-09-12}}</ref>
+
+This standard has been withdrawn by both INCITS<ref name="ref1" /> and ISO/IEC.<ref>{{cite web|url=http://www.iso.org/iso/iso_catalogue/catalogue_ics/catalogue_detail_ics.htm?csnumber=17782|title=ISO/IEC 9899:1990 - Programming Languages -- C|accessdate=2012-06-24}}</ref>
+
+===C99===
+{{Main|C99}}
+In March 2000, ANSI adopted the ISO/IEC 9899:1999 standard. This standard is commonly referred to as C99.
+
+This standard has been withdrawn by ISO/IEC in favour of C11,<ref>{{cite web|url=http://www.iso.org/iso/iso_catalogue/catalogue_ics/catalogue_detail_ics.htm?csnumber=29237|title=ISO/IEC 9899:1999 - Programming Languages -- C|accessdate=2012-06-24}}</ref> but is still approved by INCITS.{{Citation needed|date=March 2012}}
+
+===C11===
+{{Main|C11_(C_standard_revision)|l1=C11}}
+"C11" is the new [[Open standard|standard]] for the [[C (programming language)|C programming language]].
+
+==Support from major compilers==
+{{Unreferenced section|date=June 2011}}
+ANSI C is now supported by almost all the widely used compilers. Most of the C code being written nowadays is based on ANSI C. Any program written ''only'' in standard C and without any hardware dependent assumptions is virtually guaranteed to compile correctly on any [[system platform|platform]] with a conforming C implementation.  Without such precautions, most programs may compile only on a certain platform or with a particular compiler, due, for example, to the use of non-standard libraries, such as [[Graphical user interface|GUI]] libraries, or to the reliance on compiler- or platform-specific attributes such as the exact size of certain data types and byte [[endianness]].
+
+===Compliance detectability===
+To mitigate the differences between [[K&R C]] and the ANSI C standard, the <code>__STDC__</code> ("standard c") macro can be used to split code into ANSI and K&R sections.
+<syntaxhighlight lang="c">
+ #if __STDC__
+ extern int getopt(int, char * const *, const char *);
+ #else
+ extern int getopt();
+ #endif
+</syntaxhighlight>
+
+It's better to use "<code>#if __STDC__</code>" as above rather than "<code>#ifdef __STDC__</code>" because some implementation may set <code>__STDC__</code> to zero to indicate non-ANSI compliance. "<code>#if</code>" will treat any identifiers that couldn't be replaced by a macro as zero (<code>0</code>). Thus even if the macro "<code>__STDC__</code>" is not defined to signify non-ANSI compliance, "<code>#if</code>" will work as shown.
+
+In the above example, a prototype is used in a function declaration for ANSI compliant implementations, while an obsolescent non-prototype declaration is used otherwise. Those are still ANSI-compliant as of C99</ref></ref>
+
+==Compilers supporting ANSI C==
+* [[Amsterdam Compiler Kit]] (C K&R and C89/90)
+* [[ARM Holdings|ARM]] RealView
+* [[Clang]], using [[LLVM]] backend
+* [[GNU Compiler Collection|GCC]] (C89/90, a lot of C99, half of C11)
+* [[Intel C++ Compiler|Intel's ICC]]
+* [[LabWindows/CVI]]
+* [[LCC (compiler)|LCC]]
+* [[OpenWatcom]] (C89/90 and some C99)
+* [[Visual C++|Microsoft Visual C++]] (C90. A few features of C99)
+
+==References==
+<references>
+<ref name="ref1">http://www.techstreet.com/cgi-bin/detail?doc_no=incits_iso_iec%7C9899;product_id=232462</ref>
+</references>
+
+==External links==
+* [http://www.open-std.org/jtc1/sc22/wg14/ ISO C working group]
+* [http://flash-gordon.me.uk/ansi.c.txt ''Draft ANSI C Standard'' (ANSI X3J11/88-090)] (May 13, 1988), [http://groups.google.com/group/comp.lang.c/msg/20b174b18cdd919d?hl=en Third Public Review]
+* [https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BxVCLS4f8Sg5NWZmM2NjZWEtYmExMS00Y2EzLWE3ZTMtNzFmYjYwYzBiOTIw&hl=en_US ''Draft ANSI C Rationale'' (ANSI X3J11/88-151)] (Nov 18, 1988)
+* [https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B-3PfyBhOSOxOTdjYmM1N2ItMmE0ZC00OGE3LTllODUtZDNkMDMzYWU3NDlk&hl=en_US ''C Information Bulletin #1'' (ANSI X3J11/93-007)] (May 27, 1992)
+* [http://www.quut.com/c/ANSI-C-grammar-y.html ANSI C Yacc grammar]
+** [http://www.lysator.liu.se/c/ANSI-C-grammar-l.html ANSI C grammar, Lex specification]
+* {{Cite book
+ |first=Axel-Tobias
+ |last=Schreiner
+ |authorlink=Axel-Tobias Schreiner
+ |year=Hanser
+ |title=Object oriented programming with ANSI-C
+ |publisher=Hanser
+ |isbn=3-446-17426-5
+ |id={{hdl|1850/8544}}
+}}
+* {{Cite web
+   |url=http://webstore.ansi.org/RecordDetail.aspx?sku=ISO%2FIEC+9899%3A1999
+   |title=ISO/IEC 9899:1999 Programming Languages -- C
+   |publisher=American National Standards Institute
+}}
+* {{Cite web
+   |url=http://publicaa.ansi.org/sites/apdl/Documents/Standards%20Action/2005%20PDFs/SAV3648.pdf
+   |title=ANSI Standards Action Vol. 36, #48
+   |publisher=American National Standards Institute
+   |date=2005-12-02
+}}
+
+{{CProLang}}
+
+{{DEFAULTSORT:Ansi C}}
+[[Category:C programming language]]
+[[Category:Programming language standards]]
+[[Category:ANSI standards]]

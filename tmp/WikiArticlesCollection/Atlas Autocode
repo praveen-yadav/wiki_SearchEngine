@@ -1,0 +1,35 @@
+'''Atlas Autocode''' (AA)<ref name="AA">R.A. Brooker and J.S. Rohl,  [http://compsoc.nuigalway.ie/~bfoley/edhist/CU-Rep-1-AA/CU-Rep-1-AA.html ''Atlas Autocode Reference Manual''],  University of Manchester Computer Science Department, 1965. ([http://history.dcs.ed.ac.uk/archive/scans/atlas_autocode_manual/ Original Scans])</ref><ref name="AA_ED">P.D. Schofoeld and M.R. Osbourne, [http://history.dcs.ed.ac.uk/archive/docs/CU-Rep-1-AA.pdf ''Programming in Atlas Autocode''],  Computer Unit Report No.1, University of Edinburgh, 1965.  ([http://history.dcs.ed.ac.uk/archive/docs/CU-Rep-1-AA.pdf Original scan])</ref> was a [[programming language]] developed around 1965 at [[Manchester University]] for the [[Atlas Computer]]. It was developed by [[Tony Brooker]] and Derrick Morris as a variant of the [[ALGOL]] [[programming language]], removing some Algol features such as "[[Call_by_name#Call_by_name|passing parameters by name]]" (which in Algol 60 means passing the address of a short subroutine to recalculate the parameter each time it was mentioned). It featured explicitly typed variables, subroutines, and functions. The AA compiler generated range-checking for array accesses, and allowed an array to have dimensions that were determined at run-time (i.e. you could declare an array as <code><u>integer</u> <u>array</u> Thing (i:j)</code>, where <code>i</code> and <code>j</code> were calculated values).
+
+==Features==
+[[Machine code]] could be included within the high-level AA routines either to make an inner loop more efficient or to effect some operation which could not easily be done otherwise.<ref name="AA" />
+
+Atlas Autocode included a <code><u>complex</u></code> data type<ref name="AA" /> which would support [[complex number]]s, partly because of pressure from the [[electrical engineering]] department, as complex numbers are used to represent the behavior of [[alternating current]]. The square root of -1 was represented by <code><u>i</u></code>, which was treated as a fixed complex constant = ''i''. 
+
+The <code><u>complex</u></code> data type was dropped when Atlas Autocode later morphed into the [[Edinburgh IMP]] programming language.  (Imp was an extension of AA and was notable for being used to write the [[Edinburgh Multiple Access System|EMAS]] [[operating system]].)
+
+Atlas Autocode's second-greatest claim to fame (after being the progenitor of Imp and EMAS) was that it had many of the features of the original "[[Compiler-compiler|Compiler Compiler]]".  A variant of the AA compiler included run-time support for a top-down [[recursive descent parser]].  The style of parser used in the Compiler Compiler was in use continuously at Edinburgh from the 60's until almost the turn of the millennium.
+
+Other [[Autocode]]s were developed for the [[Titan (computer)|Titan computer]], a prototype Atlas 2 at Cambridge, and the [[Ferranti]] Mercury.
+
+==Syntax==
+Atlas Autocode's syntax was largely similar to Algol, though it was influenced by the output device which the author had available, a [[Friden, Inc.|Friden Flexowriter]].  Consequently it allowed symbols like "½" for ".5" and the superscript <sup>2</sup> for "to the power of 2".  The flexowriter supported overstriking and therefore AA did as well - up to three characters could be overstruck as a single symbol.  For example the character set had no "↑" symbol, so exponentiation was an overstrike of "|" and "*".  The aforementioned underlining of keywords could also be done using overstriking.  The language is described in detail in the [http://history.dcs.ed.ac.uk/archive/docs/atlasautocode.html Atlas Autocode Reference Manual].
+
+Other Flexowriter characters that were found a use in Atlas Autocode were: <code>α</code> in floating-point numbers, ''e.g.'', <code>3.56α-7</code> for modern <code>3.56e-7</code> ; <code>β</code> to mean "the second half of an Atlas memory [[Word (data type)|word]]"; <code>π</code> for the mathematical constant [[pi]].
+
+When AA was ported to the [[English Electric KDF9]] computer, the character set was changed to [[International Organization for Standardization|ISO]] and that compiler has been recovered from an old paper tape by the [http://history.dcs.ed.ac.uk/ Edinburgh Computer History Project] and is available online, as is a high-quality scan of the original Edinburgh version of the Atlas Autocode manual.<ref name="AA_ED" />
+
+Keywords in AA were distinguishable from other text by being underlined, which was implemented via overstrike in the flexowriter (compare to bold in Algol). There were also two [[Stropping (syntax)|stropping]] regimes. First, there was an "uppercasedelimiters" mode where all uppercase letters (outside strings) were treated as underlined lowercase. Second, in some versions (but not in the original Atlas version), it was possible to strop keywords by placing a "<code>%</code>" sign in front of them, for example the keyword <code><u>endofprogramme</u></code> could be typed as <code>%end %of %programme</code> or <code>%endofprogramme</code>. This significantly reduced typing, due to only needing one character, rather than overstriking the whole keyword. As in Algol, there were no [[reserved word]]s in the language as keywords were identified by underlining (or stropping), not by recognising reserved character sequences. In the statement <code><u>if</u> token=if <u>then</u> <u>result</u> = token</code>, there is both a keyword <code><u>if</u></code> and a variable named <code>if</code>.
+
+As in Algol, AA allowed spaces in variable names, such as <code><u>integer</u> previous value</code>. Spaces were not significant and were removed prior to parsing in a trivial pre-lexing stage called "[[line reconstruction]]". What the compiler would see in the above example would be "<code><u>if</u>token=if<u>thenresult</u>=token</code>". Spaces were possible due partly to keywords being distinguished in other ways, and partly because the source was processed by a [[scannerless parser]], without a separate lexing phase, which allowed the lexical syntax to be context-sensitive.
+
+The syntax for expressions let the multiplication operator be omitted, e.g. <code>3a</code> was treated as <code>3*a</code>, and <code>a(i+j)</code> was treated as <code>a*(i+j)</code> if <code>a</code> was not an array. In ambiguous usages, the longest possible name was taken ([[maximal munch]]), for example <code>ab</code> was not treated as <code>a*b</code>, whether or not <code>a</code> and <code>b</code> had been declared.
+
+==References==
+{{Reflist}}
+
+== External links ==
+{{More footnotes|date=September 2009}}
+* [http://history.dcs.ed.ac.uk/archive/docs/atlasautocode.html Atlas Autocode Reference Manual]
+* [http://compsoc.nuigalway.ie/~bfoley/edhist/CU-Rep-1-AA/CU-Rep-1-AA.html Programming In Atlas Autocode] - Edinburgh University Computer Unit Report #1 (1965).  ([http://history.dcs.ed.ac.uk/archive/docs/CU-Rep-1-AA.pdf Original scan])
+
+[[Category:Structured programming languages]]

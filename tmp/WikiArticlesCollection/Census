@@ -1,0 +1,158 @@
+[[File:Volkstelling 1925 Census.jpg|300px|thumb|Census taker visits a family living in a [[Mobile home|caravan]], [[Netherlands]] 1925]]
+A '''census''' is the procedure of systematically acquiring and recording [[information]] about the members of a given [[population]]. It is a regularly occurring and official count of a particular population.<ref>{{cite book
+ | last = Sullivan
+ | first = Arthur
+ | authorlink = Arthur O' Sullivan
+ | coauthors = Steven M. Sheffrin
+ | title = Economics: Principles in action
+ | publisher = Pearson Prentice Hall
+ | year = 2003
+ | location = Upper Saddle River, New Jersey 07458
+ | page = 334
+ | url = http://www.pearsonschool.com/index.cfm?locator=PSZ3R9&PMDbSiteId=2781&PMDbSolutionId=6724&PMDbCategoryId=&PMDbProgramId=12881&level=4
+ | doi =
+ | id =
+ | isbn = 0-13-063085-3}}</ref> The term is used mostly in connection with [[Population and housing censuses by country|national population and housing censuses]]; other common censuses include agriculture, business, and traffic censuses. The [[United Nations]] defines the essential features of population and housing censuses as "individual enumeration, universality within a defined territory, simultaneity and defined periodicity", and recommends that population censuses be taken at least every 10 years. United Nations recommendations also cover census topics to be collected, official definitions, classifications and other useful information to coordinate international practice.<ref>United Nations (2008). [http://unstats.un.org/unsd/demographic/sources/census/docs/P&R_Rev2.pdf Principles and Recommendations for Population and Housing Censuses]. Statistical Papers: Series M No. 67/Rev.2. p8. ISBN 978-92-1-161505-0.</ref><ref>{{cite web|url=http://www.unece.org/fileadmin/DAM/stats/publications/CES_2010_Census_Recommendations_English.pdf |title=CES 2010 Census Recommendations |publisher= |date= |accessdate=2013-11-19}}</ref>
+
+The word is of [[latin language|Latin]] origin; during the [[Roman Republic]], the census was a list that kept track of all adult males fit for military service. The modern census is essential to international comparisons of any kind of statistics and censuses collect data on many attributes of the population, not just how many people there are, although population estimates remain an important function of the census.
+
+The census can be contrasted with [[sampling (statistics)|sampling]] in which information is obtained only from a subset of a population, sometimes as an [[intercensal estimate]]. Census data are commonly used for research, business [[marketing]], and planning, as well as a baseline for sampling surveys. Census counts are necessary to adjust samples to be representative of a population by weighting them as is common in [[opinion poll]]ing. Similarly, [[stratified sampling|stratification]] requires knowledge of the relative sizes of different population strata which are derived from census enumerations. In some countries, census data are used to apportion electoral representation (sometimes controversially – e.g., ''[[Utah v. Evans]]'').
+
+==Sampling==
+A census is often construed as the opposite of a sample as everyone is surveyed rather than a fraction. However, population census relies on a [[sampling frame]] to count the population. This is the only way to be sure that everyone has been included as otherwise those not responding would not be followed up and individuals could be missed. The fundamental premise of a census is that the population is not known and a new estimate is to be made by the analysis of primary data.
+
+The use of a sampling frame is counterintuitive as it suggests that the population size is already known. However, a census is also used to collect attribute data on the individuals in the nation. This process of sampling marks the difference between historical census, which was a house to house process or the product of an imperial decree, and the modern statistical project.
+
+The sampling frame used by census is almost always an address register. Thus it is not known if there is anyone resident or how many people there are in each household. Depending on the mode of enumeration, a form is sent to the householder, an enumerator calls, or administrative records for the dwelling are accessed. As a preliminary to the dispatch of forms, census workers will check any address problems on the ground.
+
+While it may seem straightforward to use the postal service file for this purpose, this can be out of date and some dwellings may contain a number of independent households. A particular problem is what are termed 'communal establishments' which may be student residences, religious orders, homes for the elderly etc. As these are not easily enumerated by a single householder, they are often treated differently and visited by special teams of census workers to make sure they are classified appropriately.
+
+==Residence definitions==
+Individuals are normally counted within households and information is typically collected about the household structure and the housing. For this reason international documents refer to censuses of population and housing. Normally the census response is made by a household, indicating details of individuals resident there.
+
+An important aspect of census enumerations is determining which individuals can be counted from which cannot be counted. Broadly, three definitions can be used: ''de facto'' residence; ''de jure'' residence; and, permanent residence. This is important to consider individuals who have multiple or temporary addresses. Every person should be identified uniquely as resident in one place but where they happen to be on [[Census Day]], their ''de facto'' residence, may not be the best place to count them. Where an individual uses services may be more useful and this is at their usual, or ''de jure'', residence. An individual may be represented at a permanent address, perhaps a family home for students or long term migrants.
+
+It is necessary to have a precise definition of residence to decide whether visitors to a country should be included in the population count. This is becoming more important as students travel abroad for education for a period of several years. Other groups causing problems of enumeration are new born babies, refugees, people away on holiday, people moving home around census day, and people without a fixed address.
+
+People having second homes because of working in another part of the country or retaining a holiday cottage are difficult to fix at a particular address sometimes causing double counting or houses being mistakenly identified as vacant. Another problem is where people use a different address at different times e.g. students living at their place of education in term time but returning to a family home during vacations or children whose parents have separated who effectively have two family homes. Census enumeration has always been based on finding people where they live as there is no systematic alternative - any list you could use to find people is derived from census activities in the first place. Recent UN guidelines provide recommendation on enumerating such complex households.<ref>{{cite web|url=http://www.unece.org/emerging_forms_families_households.html |title=Measurement of emerging forms of families and households |publisher=UNECE |date= |accessdate=2012-12-12}}</ref>
+
+==Enumeration strategies==
+Historical censuses used crude enumeration assuming absolute accuracy. Modern approaches take into account the problems of overcount and undercount, and the coherence of census enumerations with other official sources of data.<ref>{{cite web|url=http://unstats.un.org/unsd/censuskb20/KnowledgebaseArticle10408.aspx |title=Census Quality Evaluation: considerations from an international perspective |publisher=Unstats.un.org |date= |accessdate=2012-02-19}}</ref> This reflects a realist approach to measurement, acknowledging that under any definition of residence there is a true value of the population but this can never be measured with complete accuracy. An important aspect of the census process is to evaluate the quality of the data.<ref>Leo Breiman (1994). "The 1991 Census Adjustment: Undercount or Bad Data?", ''[[Statistical Science]]'' '''9''' (4), pp.458-475.</ref>
+
+Many countries use a post-enumeration survey to adjust the raw census counts.<ref>World Population and Housing Census Programme (2010) [http://unstats.un.org/unsd/demographic/standmeth/handbooks/Manual_PESen.pdf Post Enumeration Surveys: Operational guidelines], United Nations Secretariat, Dept of Economic and Social Affairs, Statistics Division, Tech Report</ref> This works in a similar manner to [[capture-recapture]] estimation for animal populations. In census circles this method is called dual system enumeration (DSE). A sample of households are visited by interviewers who record the details of the household as at census day. These data are then matched to census records and the number of people missed can be estimated by considering the number missed in the census or survey but counted in the other. This way counts can be adjusted for non-response varying between different [[demographic]] groups. An explanation using a fishing analogy can be found in "Trout, Catfish and Roach..."<ref>Benton, P. [http://www.ons.gov.uk/ons/guide-method/census/2011/the-2011-census/census-coverage-survey/trout--catfish-and-roach.pdf Trout, Catfish and Roach: The beginner’s guide to census population estimates], [[Office for National Statistics]], UK</ref> which won an award from the [[Royal Statistical Society]] for excellence in [[official statistics]] in 2011.
+
+Triple system enumeration has been proposed as an improvement as it would allow evaluation of the statistical dependence of pairs of sources. However, as the matching process is the most difficult aspect of census estimation this has never been implemented for a national enumeration. It would also be difficult to identify three different sources that were sufficiently different to make the triple system effort worthwhile. The DSE approach has another weakness in that it assumes there is no person counted twice (over count). In ''de facto'' residence definitions this would not be a problem but in ''de jure'' definitions individuals risk being recorded on more than one form leading to double counting. A particular problem here are students who often have a term time and family address.
+
+Several countries have used a system which is known as short form/long form.<ref>[http://www.ons.gov.uk/ons/guide-method/census/2011/what-is-a-census/other-methods-of-census-taking/index.html Other methods of census taking], [[Office for National Statistics]], UK</ref> This is a [[Sampling (statistics)|sampling]] strategy which randomly chooses a proportion of people to send a more detailed questionnaire to (the long form). Everyone receives the short form questions. Thereby more data are collected but not imposing a burden on the whole population. This also reduces the burden on the statistical office. Indeed in the UK all residents were required to fill in the whole form but only a 10% sample were coded and analysed in detail, until 2001.<ref>{{cite web|url=http://www.ons.gov.uk/ons/guide-method/census/census-2001/about-census-2001/introduction/index.html |title=Introduction to Census 2001 |publisher=Ons.gov.uk |date=2001-04-29 |accessdate=2012-12-12}}</ref> New technology means that all data are now scanned and processed. Recently there has been [[Canada 2011 Census|controversy in Canada]] about the cessation of the long form with the head, [[Munir Sheikh]] resigning.<ref>{{cite web|author=The Canadian Press |url=http://www.680news.com/radio/680news/article/80353--text-of-munir-sheikh-s-resignation-statement |title=Text of Munir Sheikh's resignation statement |publisher=680News |date=2010-07-21 |accessdate=2012-02-19}}</ref>
+
+The use of alternative enumeration strategies is increasing<ref>{{cite web|url=http://www.ined.fr/en/publications/pop_soc/bdd/publication/1506/ |title=[INED&#93; Population and Societies |publisher=Ined.fr |date= |accessdate=2012-02-19}}</ref> but these are not so simple as many people assume. The Netherlands has been most advanced in adopting a census using administrative data. This allows a simulated census to be conducted by linking several different administrative databases at an agreed time. Data can be matched and an overall enumeration established accounting for where the different sources are discrepant. A validation survey is still conducted in a similar way to the post enumeration survey employed in a traditional census.
+
+Other countries which have a population register use this as a basis for all the census statistics needed by users. This is most common amongst Nordic countries but requires a large number of different registers to be combined including population, housing, employment and education. These registers are then combined and brought up to the standard of a statistical register by comparing the data in different sources and ensuring the quality is sufficient for official statistics to be produced.<ref>{{cite web|url=http://www.unece.org/fileadmin/DAM/stats/publications/Register_based_statistics_in_Nordic_countries.pdf |title=Register-based statistics in the Nordic countries |format=PDF |year=2007 |accessdate=2012-12-12}}</ref>
+
+A recent innovation is the French instigation of a rolling census programme with different regions enumerated each year such that the whole country is completely enumerated every 5 to 10 years.{{citation needed|date=August 2013}}
+
+In Europe, in connection with the 2010 census round, a large number of countries adopted alternative census methodologies, often based on the combination of data from registers, surveys and other sources.<ref>{{cite web|url=http://www1.unece.org/stat/platform/display/censuses/2010+Population+Census+Round |title=2010 Population Census Round - Confluence |publisher=.unece.org |date= |accessdate=2012-12-12}}</ref>
+
+==Technology==
+Censuses have evolved in their use of technology with the latest censuses, the 2010 round, using many new types of computing. In Brazil, handheld devices were used by enumerators to locate residences on the ground. In many countries, census returns could be made via the Internet as well as in paper form. DSE is facilitated by computer matching techniques which can be automated, such as [[propensity score matching]]. In the UK, all census formats are scanned and stored electronically before being destroyed, replacing the need for physical archives. The record linking to perform an administrative census would not be possible without large databases being stored on computer systems.
+
+New technology is not without problems in its introduction. The US census had intended to use the handheld computers but cost escalated and this was abandoned, with the contract being sold to Brazil. Online response is a good idea but one of the functions of census is to make sure everyone is counted accurately. A system which allowed people to enter their address without verification would be open to abuse. Therefore households have to be verified on the ground, typically by an enumerator visit or post out. Paper forms are still necessary for those without access to Internet connections. It is also plausible that the hidden nature of an administrative census means that users are not engaged with the importance of contributing their data to official statistics.
+
+==Uses of Census data==
+In the nineteenth century, the first censuses collected paper enumerations that had to be collated by hand so the statistical uses were very basic. The government owned the data and were able to publish statistics themselves on the state of the nation. Uses were to measure changes in the population and apportion representation. Population estimates could be compared to those of other countries.
+
+By the beginning of the twentieth century, censuses were recording households and some indications of their employment. In some countries, census archives are released for public examination after many decades, allowing genealogists to track the ancestry of interested people. Archives provide a substantial historical record which may challenge established notions of tradition. It is also possible to understand the societal history through job titles and arrangements for the destitute and sick.
+
+As governments assumed responsibility for schooling and welfare, large government departments made extensive use of census data. Actuarial estimates could be made to project populations and plan for provision in local government and regions. It was also possible for central government to allocate funding on the basis of census data.
+
+Even into the mid twentieth century, census data was only directly accessible to large government departments. However, computers meant that tabulations could be used directly by university researchers, large businesses and local government offices. They could use the detail of the data to answer new questions and add to local and specialist knowledge.
+
+Now, census data are published in a wide variety of formats to be accessible to business, all levels of governance, media, students and teachers, charities and researchers, and any citizen who is interested. Data can be represented visually or analysed in complex statistical models, to show the difference between certain areas, or to understand the association between different personal characteristics. Census data offer a unique insight into small areas and small demographic groups which sample data would be unable to capture with precision.
+
+==Privacy==
+Although the census provides a useful way of obtaining statistical information about a population, such information can sometimes lead to abuses, political or otherwise, made possible by the linking of individuals' identities to anonymous census data.<ref>[http://www.epic.org/privacy/census/ The Census and Privacy].</ref> This consideration is particularly important when individuals' census responses are made available in [[Microdata (statistics)|microdata]] form, but even aggregate-level data can result in privacy breaches when dealing with small areas and/or rare subpopulations.
+
+For instance, when reporting data from a large city, it might be appropriate to give the average income for black males aged between 50 and 60. However, doing this for a town that only has two black males in this age group would be a breach of privacy because either of those persons, knowing his own income and the reported average, could determine the other man's income.
+
+Typically, census data are processed to obscure such individual information. Some agencies do this by intentionally introducing small statistical errors to prevent the identification of individuals in marginal populations;<ref>{{cite web|url=http://www.abs.gov.au/websitedbs/D3110129.NSF/f61552cc746715bcca256eb000015277/2878e9589dd56b53ca257153007fe1f5!OpenDocument |title=Managing Confidentiality and Learning about SEIFA |publisher=Abs.gov.au |date=2006-04-18 |accessdate=2010-11-30}}</ref> others swap variables for similar respondents. Whatever measures have been taken to reduce the privacy risk in census data, new technology in the form of better electronic analysis of data poses increasing challenges to the protection of sensitive individual information. This known as statistical disclosure control.
+
+Another possibility is to present survey results by means of statistical models in the form of a multivariate distribution mixture.<ref>{{cite web |url=http://www.jos.nu/Articles/abstract.asp?article=264673 |title=Statistical Model of the 2001 Czech Census for Interactive Presentation |author=Grim J. |coauthors=Hora J., Somol P., Boček P., Pudil, P. |year=2010 |work=Journal of Official Statistics, vol. 26, no. 4 |pages=673–694 }}</ref> The statistical information in the form of [[Conditional probability distribution|conditional distributions]] ([[histogram]]s) can be derived interactively from the estimated [[Mixture distribution|mixture model]] without any further access to the original database. As the final product does not contain any protected microdata, the [http://ro.utia.cas.cz/census model based interactive software] can be distributed without any confidentiality concerns.
+
+Another method is simply to release no data at all, except very large scale data directly to the central government. Different release strategies between government have led to an international project ([[IPUMS]]) to co-ordinate access to microdata and corresponding metadata. Such projects also promote standardising metadata by projects such as [[SDMX]] so that best use can be made of the minimal data available.
+
+==Historical examples==
+
+===Egypt===
+[[Census in Egypt|Censuses in Egypt]] are said to have been taken during the early Pharaonic period in 3340 BCE and in 3056 BCE.{{Citation needed|date=July 2011}}
+
+===Ancient Greece===
+There are several accounts of ancient Greek and Mesopotamian city states carrying out censuses.<ref>{{Cite journal|title=
+Cecrops, King of Athens: the First (?) Recorded Population Census in History|first=Spyros|last=Missiakoulis|journal=International Statistical Review|volume=78|issue=3|pages=413–418|year=2010|doi=10.1111/j.1751-5823.2010.00124.x|url=http://onlinelibrary.wiley.com/doi/10.1111/j.1751-5823.2010.00124.x/pdf}}</ref> The question of which is first is clouded by very different approaches: counting only men, counting a pile of rocks etc. but such censuses took place 1600 BCE and earlier.
+
+===Ancient Israel===
+Censuses are mentioned in the [[Bible]]. God commands a [[flat tax]] to be paid with the census in {{bibleref|Exodus|30:11-16}} for the upkeep of the [[Tabernacle]]. The [[Book of Numbers]] is named after the counting of the Israelite population (in {{bibleref|Numbers|1-4}}) according to the house of the Fathers after the exodus from Egypt. A second census was taken while the Israelite were camped in the plains of [[Moab]], in {{bibleref|Numbers|26}}.
+
+King [[David]] performed a census that produced disastrous results (in {{Bibleverse|2|Samuel|24}} and {{Bibleverse|1|Chronicles|21}}).  His son, King [[Solomon]], had all of the foreigners in Israel counted in {{Bibleverse|2|Chronicles|2:17}}.
+
+The [[Gospel of Luke]] records [[Jesus]] being born during a census in {{bibleref|Luke|2}}.
+
+===China===
+In 2 CE during the [[Han Dynasty]], China held a census still considered by scholars to be quite accurate.<ref>{{cite web| url=http://factsanddetails.com/china.php?itemid=39&catid=2&subcatid=2| title= China - Facts and Details: Han Dynasty (206 B.C. - A.D. 220) | author=Jeffrey Hays}}</ref><ref name=Twitchett>Twitchett, D., Loewe, M., and Fairbank, J.K. ''Cambridge History of China: The Ch'in and Han Empires 221 B.C.-A.D. 220''. Cambridge University Press (1986), p. 240.</ref> The census is considered one of the world's earliest preserved censuses,<ref name="Hymes"/> and found 57.67&nbsp;million people registered in 12.36&nbsp;million households.<ref>Nishijima (1986), 595–596. {{full|date=November 2012}}</ref><ref>H. Yoon (1985). "An early Chinese idea of a dynamic environmental cycle", ''[[GeoJournal]]'' '''10''' (2), 211-212.</ref> The areas with the highest population densities were the [[Yellow River]] and [[Huai River]] valleys. [[Chengdu]] was the largest city in China, reaching a population of 282,147 people.<ref name="Hymes">{{cite book|author=Robert Hymes|editor=John Stewart Bowman|title=Columbia Chronologies of Asian History and Culture|year=2000|publisher=Columbia University Press|isbn=978-0-231-11004-4|page=12}}</ref> Another census dates to AD 144, when 49.73&nbsp;million people were recorded living in 9.94&nbsp;million households.
+
+===India===
+The oldest recorded census in India is thought to have occurred around 300 BCE during the reign of the Emperor [[Chandragupta Maurya]] under the leadership of  [[Kautilya]] or Chanakya.<ref>{{cite web| url=http://censusindia.gov.in/Data_Products/Library/Indian_perceptive_link/History_link/censushistory.htm| title=Census Commissioner of India - Historical Background | publisher=Govt. of India| quote=The records of census conducted appears from 300 BC.}}</ref>
+
+===Rome===
+{{see also|censor (ancient Rome)}}
+
+The word "census" originated in [[ancient Rome]] from the [[Latin]] word ''{{linktext|censere}}'' ("to estimate"). The census played a crucial role in the administration of the Roman Empire, as it was used to determine taxes. With few interruptions, it was usually carried out every five years.<ref>[[Walter Scheidel|Scheidel, Walter]] (2009) ''Rome and China: comparative perspectives on ancient world empires''. Oxford University Press, p. 28.</ref> It provided a register of citizens and their property from which their duties and privileges could be listed. It is said to have been instituted by the Roman king [[Servius Tullius]] in the 6th century BCE,<ref>[[Livy]] ''[[Ab urbe condita (book)|Ab urbe condita]]'' 1.42</ref> at which time the number of arms-bearing citizens was counted at around 80,000.<ref>[[Livy]] ''[[Ab urbe condita (book)|Ab urbe condita]]'' 1.42, citing [[Fabius Pictor]]</ref>
+
+===Rashidun and Umayyad Caliphates===
+In the [[Middle Ages]], the [[Caliphate]] began conducting regular censuses soon after its formation, beginning with the one ordered by the second [[Rashidun Caliphate|Rashidun]] [[caliph]], [[Umar]].<ref>{{Cite journal|title=Population Census and Land Surveys under the Umayyads (41–132/661–750)|first=Wadād|last=al-Qādī1|journal=Der Islam|volume=83|issue=2|pages=341–416|doi=10.1515/ISLAM.2006.015|date=July 2008|postscript=.}}</ref>
+
+===Medieval Europe===
+The [[Domesday Book]] was undertaken in 1086 CE by [[William I of England]] so that he could properly tax the land he had recently conquered in medieval Europe. In 1183 CE, a census was taken of the [[crusade]]r [[Kingdom of Jerusalem]], to ascertain the number of men and amount of money that could possibly be raised against an invasion by [[Saladin]], sultan of [[Egypt]] and [[Syria]].
+
+===Inca Empire===
+In the 15th century, the [[Inca Empire]] had a unique way to record census information. The Incas did not have any written language but recorded information collected during censuses and other numeric information as well as non-numeric data on [[quipus]], strings from [[llama]] or [[alpaca]] hair or cotton cords with numeric and other values encoded by knots in a [[base-10]] positional system.
+
+===Spanish empire===
+On May 25, 1577, [[Philip II of Spain|King Philip II of Spain]] ordered by royal cédula the preparation of a general description of Spain's holdings in the Indies. Instructions and a questionnaire, issued in 1577 by the Office of the Cronista Mayor, were distributed to local officials in the Viceroyalties of New Spain and Peru to direct the gathering of information. The questionnaire, composed of fifty items, was designed to elicit basic information about the nature of the land and the life of its peoples. The replies, known as "{{lang|es|relaciones geográficas}}," were written between 1579 and 1585 and were returned to the Cronista Mayor in Spain by the Council of the Indies.
+
+==Modern implementation==
+{{main|Population and housing censuses by country}}
+
+==See also==
+* [[IBM and the Holocaust]]
+* ''[[Liber Censuum]]''
+* [[Race and ethnicity in censuses]]
+* [[Social research]]
+
+==Notes==
+{{reflist|30em}}
+
+==References==
+* Alterman, Hyman, (1969). ''Counting People: The Census in History''. Harcourt, Brace & Company.
+* Bielenstein, Hans, (1978). "Wang Mang, the restoration of the Han dynasty, and Later Han." In ''The Cambridge History of China'', vol. 1, eds. Denis Twitchett and John K. Fairbank, p.&nbsp;223-90, Cambridge: Cambridge University Press.
+* Krüger, Stephen, (Fall 1991). "The Decennial Census", [http://wsulawreview.org/Volume19Articles.pdf 19 ''Western State University Law Review'' 1]; available at [http://heinonline.org/HOL/LandingPage?collection=journals&handle=hein.journals/wsulr19&div=6&id=&page= HeinOnline] {{subscription}}.
+* [http://www.statistics.gov.uk/cci/nugget.asp?id=297 Effects of UK 'Jedi' hoax on 2001 UK census from ONS].
+* [http://www.census.gov/Press-Release/www/releases/archives/miscellaneous/000507.html U.S. Census Press Release on 1930 Census].
+* [http://www.archives.gov/publications/prologue/spring_2002_soundex_projects.html U.S. Census Press Release on Soundex and WPA].
+
+==External links==
+{{Commons category|Census}}
+* [http://www.census.nationalarchives.ie/ Census of Ireland 1911].
+* [http://www.histpop.org Online Historical Population Reports Project (OHPR)].
+* [http://www.tesionline.com/intl/thesis.jsp?idt=8384 PR as a function of census management: comparative analysis of fifteen census experiences]
+
+{{Statistics|applications}}
+
+[[Category:Censuses]]
+[[Category:Genealogy]]
+[[Category:Population]]
+[[Category:Demography]]
+[[Category:Survey methodology]]
+[[Category:Sampling (statistics)]]
+[[Category:Latin words and phrases]]
+
+{{Link GA|eo}}

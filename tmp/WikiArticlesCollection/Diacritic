@@ -1,0 +1,302 @@
+{{For|the academic journal|Diacritics (journal)}}
+{{Diacritical marks|&#x00E1;|caption=Letter a with diacritic acute}}
+
+A '''diacritic''' {{IPAc-en|d|aɪ|.|ə|ˈ|k|r|ɪ|t|ɨ|k}} – also '''diacritical mark''', '''diacritical point''', '''diacritical sign''' from [[ancient Greek]] ''διά'' (''dia'', through) and ''κρίνω'' (''krinein'', to separate) – is a [[glyph]] added to a [[letter (alphabet)|letter]], or basic glyph. The term derives from the [[Greek language|Greek]] ''διακριτικός'' (''diakritikós'', "distinguishing"). ''Diacritic'' is primarily an [[adjective]], though sometimes used as a [[noun]], whereas ''diacritical'' is only ever an [[adjective]]. Some diacritical marks, such as the [[acute accent|acute]] (&thinsp;´&thinsp;) and [[grave accent|grave]] (&thinsp;`&thinsp;) are often called ''accents''. Diacritical marks may appear above or below a letter, or in some other position such as within the letter or between two letters.
+
+The main use of diacritical marks in the [[Latin-derived alphabet]] is to change the sound-value of the letter to which they are added. Examples from [[English language|English]] are the [[Diaeresis (diacritic)|diaereses]] in ''naïve'' and ''Noël'', which show that the vowel with the diaeresis mark is pronounced separately from the preceding [[vowel]]; the acute and grave accents, which can indicate that a final vowel is to be pronounced, as in ''[[saké]]'' and poetic ''breathèd'', and the [[cedilla]] under the "c" in the borrowed French word ''façade,'' which shows it is pronounced {{IPAslink|s}} rather than {{IPAslink|k}}. In other Latin alphabets, they may distinguish between [[homonym]]s, such as the [[French language|French]] ''là'' ("there") versus ''la'' ("the"), which are both pronounced {{IPA|[la]}}. In [[Gaelic type]], a dot over consonants indicates [[lenition]] of the consonant in question.
+
+In other [[Alphabet#Types|alphabetic systems]], diacritical marks may perform other functions. [[Vowel pointing (disambiguation)|Vowel pointing]] systems, namely the [[Arabic language|Arabic]] [[Arabic diacritics|harakat]] (&thinsp;ـَ,&nbsp;ـُ,&nbsp;ـُ,&nbsp;etc.) and the [[Hebrew language|Hebrew]] [[niqqud]] ({{as written|&thinsp;ַ, ֶ, ִ, ֹ , ֻ,}} etc.) systems, indicate sounds (vowels and tones) that are not conveyed by the basic alphabet. The [[Indic script|Indic]] [[virama]] (&thinsp;् etc.) and the Arabic [[Arabic_diacritics#Suk.C5.ABn|sukūn]] (&thinsp;ـْـ&thinsp;) mark the absence of a vowel. [[Cantillation mark]]s indicate [[Prosody (linguistics)|prosody]]. Other uses include the [[Early Cyrillic]] [[titlo]] (&thinsp;◌҃&thinsp;) and the Hebrew [[gershayim]] (&thinsp;״&thinsp;), which, respectively, mark [[abbreviation]]s or [[acronym]]s, and Greek diacritical marks, which showed that letters of the alphabet were being used as [[Greek numerals|numerals]].  In the [[Pinyin|Hanyu Pinyin]] official romanization system for Chinese, diacritics are used to mark the [[Standard Chinese phonology#Tones|tones]] of the syllables in which the marked vowels occur.
+
+In [[orthography]] and [[collation]], a letter modified by a diacritic may be treated either as a new, distinct letter or as a letter–diacritic combination. This varies from language to language, and may vary from case to case within a language.
+
+In some cases, letters are used as "in-line diacritics" in place of ancillary glyphs, because they modify the sound of the letter preceding them, as in the case of the "h" in English "sh" and "th".<ref>Henry Sweet (1877) A Handbook of Phonetics, p 174–175: "Even letters with accents and diacritics [...] being only cast for a few founts, act practically as new letters. [...] We may consider the h in sh and th simply as a diacritic written for convenience on a line with the letter it modifies."</ref>
+
+== Types ==
+Among the types of diacritic used in alphabets based on the [[Latin script]] are:
+* accents (so called because the acute, grave, and circumflex were originally used to indicate different types of [[pitch accent]]s in the [[polytonic transcription]] of [[Greek language|Greek]])
+**'''{{Unicode|◌́}}''' – [[acute accent|acute]] (Latin ''[[apex (diacritic)|apex]]'')
+**'''{{Unicode|◌̀}}''' – [[grave accent|grave]]
+**'''{{Unicode|◌̂}}''' – [[circumflex accent|circumflex]]
+**'''{{Unicode|◌̌}}''' – [[caron]], wedge (Czech ''háček'')
+**'''{{Unicode|◌̋}}''' – [[double acute accent|double acute]]
+**'''{{Unicode|◌̏}}''' – [[double grave accent|double grave]]
+* dots
+**'''{{Unicode|◌̇}}''' – [[Dot (diacritic)|overdot]] (Indic ''[[anusvara]]'')
+**'''{{Unicode|◌&#x323;}}''' – an [[Dot (diacritic)|underdot]] is used in [[Rheinische Dokumenta]] and in Indic and Arabic transcription 
+**{{Unicode|◌·◌}} – [[interpunct]]
+** [[tittle]], the superscript dot of the modern [[lowercase]] Latin ''i'' and ''j''
+**'''{{Unicode|◌̈}}''' – [[Diaeresis (diacritic)|diaeresis]] or [[umlaut (diacritic)|umlaut]]
+**'''{{Unicode|◌ː}}''' – [[colon (punctuation)|triangular colon]], used in the [[International Phonetic Alphabet|IPA]] to mark [[vowel length|long vowels]].
+* ring
+**'''{{Unicode|◌̊}}''' – [[ring (diacritic)|overring]]
+* vertical stroke
+** '''{{Unicode|◌̩}}''' – a subscript vertical stroke is used in [[International Phonetic Alphabet|IPA]] to mark syllabicity and in [[Rheinische Dokumenta]] to mark a [[schwa]]
+* macron or horizontal line
+**'''{{Unicode|◌̄}}''' – [[macron]]
+**'''{{Unicode|◌̱}}''' – [[combining macron below|underbar]]
+* overlays
+**'''{{Unicode|◌⃓}}''' – [[bar (diacritic)|vertical bar]] through the character
+**'''{{Unicode|◌̷}}''' – [[bar (diacritic)|slash]] through the character
+**'''{{Unicode|◌̵}}''' – [[bar (diacritic)|crossbar]] through the character
+* curves
+**'''{{Unicode|◌̆}}''' – [[breve]]
+**'''{{Unicode|◌͗}}''' – [[sicilicus]], a [[Palaeography|palaeographic]] diacritic similar to a caron or breve
+**'''{{Unicode|◌̃}}''' – [[tilde]]
+**'''{{Unicode|◌҃}}''' – [[titlo]]
+* superscript curls
+**'''{{Unicode|◌̓}}''' – [[apostrophe (punctuation)|apostrophe]]
+**'''{{Unicode|◌̉}} ''' – [[hook above|hoi]] (Vietnamese ''dấu hỏi'')
+**'''{{Unicode|◌̛}}''' – [[horn (diacritic)|horn]] (Vietnamese ''dấu móc'')
+* subscript curls
+**'''{{Unicode|◌̦}}''' – [[comma (punctuation)#Diacritical usage|undercomma]]
+**'''{{Unicode|◌̧}}''' – [[cedilla]]
+**'''{{Unicode|◌̡ ◌̢}}''' – [[hook (diacritic)|hook]], left or right, sometimes superscript
+**'''{{Unicode|◌̨}}''' – [[ogonek]]
+* double marks (over or under two base characters)
+** '''{{Unicode|◌͝◌}}''' – [[tie (typography)|double breve]]
+** '''{{Unicode|◌͡◌}}''' – [[tie (typography)|tie bar]] or top ligature
+** '''{{Unicode|◌᷍◌}}''' – double circumflex
+** '''{{Unicode|◌͞◌}}''' – longum
+** '''{{Unicode|◌͠◌}}''' – double tilde
+
+The tilde, dot, comma, [[titlo]], apostrophe, bar, and colon are sometimes diacritical marks, but also have other uses.
+
+Not all diacritics occur adjacent to the letter they modify. In the [[Wali language (Gur)|Wali language]] of Ghana, for example, an apostrophe indicates a change of vowel quality, but occurs at the beginning of the word, as in the dialects ''’Bulengee'' and ''’Dolimi''. Because of [[vowel harmony]], all vowels in a word are affected, so the scope of the diacritic is the entire word. In [[abugida]] scripts, like those used to write [[Hindi]] and [[Thai language|Thai]], diacritics indicate vowels, and may occur above, below, before, after, or around the consonant letter they modify.
+
+The tittle (dot) on the letter ''i'' of the Latin alphabet originated as a diacritic to clearly distinguish ''i'' from the [[Minim_(palaeography)|minim]]s (downstrokes) of adjacent letters. It first appeared in the 11th century in the sequence ''ii'' (as in ''ingeníí)'', then spread to ''i'' adjacent to ''m, n, u'', and finally to all lowercase ''i'''s. The ''j'', originally a variant of ''i'', inherited the tittle. The shape of the diacritic developed from initially resembling today's acute accent to a long flourish by the 15th century. With the advent of [[Roman type]] it was reduced to the round dot we have today.<ref>[[OED]]</ref>
+
+== Diacritics specific to non-Latin alphabets ==
+
+===Arabic===
+{{further|Arabic diacritics}}
+* (ئ ؤ إ أ and stand alone ء) ''{{unicode|[[hamza]]}}'': indicates a [[glottal stop]].
+* (ــًــٍــٌـ) ''{{unicode|tanwīn}}'' (تنوين) symbols: Serve a grammatical role in [[Arabic language|Arabic]]. The sign ـً is most commonly written in combination with [[Aleph|alif]], e.g. ـًا.
+* (ــّـ) ''{{unicode|[[shadda]]}}'': Gemination (doubling) of consonants.
+* (ٱ) ''{{unicode|waṣla}}'': Comes most commonly at the beginning of a word. Indicates a type of [[hamza]] that is pronounced only when the letter is read at the beginning of the talk.
+* (آ) ''{{unicode|madda}}'': A written replacement for a [[hamza]] that is followed by an alif, i.e. (ءا). Read as a glottal stop followed by a long {{IPA|/aː/}}, e.g. ءاداب، ءاية، قرءان، مرءاة are written out respectively as آداب، آية، قرآن، مرآة. This writing rule does not apply when the alif that follows a [[hamza]] is not a part of the stem of the word, e.g. نتوءات is not written out as نتوآت as the stem نتوء does not have an alif that follows its [[hamza]].
+* (ــٰـ) ''superscript alif'' (also "short" or "dagger alif": A replacement for an original alif that is dropped in the writing out of some rare words, e.g. لاكن is not written out with the original alif found in the word pronunciation, instead it is written out as لٰكن.
+* ''{{unicode|ḥarakāt}}'' (In Arabic: حركات also called تشكيل ''tashkīl''):
+** (ــَـ) ''{{unicode|fatḥa}}'' (a)
+** (ــِـ) ''{{unicode|kasra}}'' (i)
+** (ــُـ) ''{{unicode|ḍamma}}'' (u)
+** (ــْـ) ''{{unicode|sukūn}}'' (no vowel)
+* The ''{{unicode|ḥarakāt}}'' or vowel points serve two purposes:
+** They serve as a phonetic guide. They indicate the presence of short vowels ''{{unicode|(fatḥa, kasra, or ḍamma)}}'' or their absence ''{{unicode|(sukūn).}}''
+**At the last letter of a word, the vowel point reflects the [[inflection]] case or conjugation mood.
+*** For nouns, The ''{{unicode|ḍamma}}'' is for the nominative, ''{{unicode|fatḥa}}'' for the accusative, and ''{{unicode|kasra}}'' for the genitive.
+*** For verbs, the ''{{unicode|ḍamma}}'' is for the imperfective, ''{{unicode|fatḥa}}'' for the perfective, and the ''{{unicode|sukūn}}'' is for verbs in the imperative or [[jussive]] moods.
+* Vowel points or ''{{unicode|tashkīl}}'' should not be confused with consonant points or ''{{unicode|[[iʿjam]]}}'' (إعجام) – one, two or three dots written above or below a consonant to distinguish between letters of the same or similar [[Rasm|form]].
+
+===Chinese===
+{{further|Mandarin pinyin#Usage|Diacritic#Transliteration}}
+
+===Greek===
+{{further|Greek diacritics}}
+
+These diacritics are used in addition to the acute, grave, and circumflex accents and the diaeresis:
+* {{lang|grc|'''◌ͺ''' ('''ᾳ''')}} – [[iota subscript]]
+* {{lang|grc|'''῾◌'''}} – [[rough breathing]] (''spiritus asper''): aspiration
+* {{lang|grc|'''᾿◌'''}} – [[smooth breathing|smooth (or soft) breathing]] (''spiritus lenis''): lack of aspiration
+
+===Hebrew===
+{{further|Hebrew diacritics}}
+[[Image:Example of biblical Hebrew trope.svg|thumb|350px|right|'''Genesis 1:9 "And God said, Let the waters be collected".'''<br>'''Letters in black, <span style="color:#CC0000;">[[niqqud]] in red</span>, <span style="color:#0000CC;">[[cantillation]] in blue</span>''']]
+* [[Niqqud]]
+** '''{{Unicode| ּ}}''' – [[Dagesh]]
+** '''{{Unicode| ּ}}''' – [[Mappiq]]
+** '''{{Unicode| ֿ}}''' – [[Rafe]]
+** '''{{Unicode| ׁ}}''' – [[Shin dot]] (at top right corner)
+** '''{{Unicode| ׂ}}''' – [[Sin dot]] (at top left corner)
+** '''{{Unicode| ְ}}''' – [[Shva]]
+** '''{{Unicode| ֻ}}''' – [[Kubutz]]
+** '''{{Unicode|&#1465;◌}}''' – [[Holam]]
+** '''{{Unicode| ָ}}''' – [[Kamatz]]
+** '''{{Unicode| ַ}}''' – [[Patakh]]
+** '''{{Unicode| ֶ}}''' – [[Segol]]
+** '''{{Unicode| ֵ}}''' – [[Tzeire]]
+** '''{{Unicode| ִ}}''' – [[Hiriq]]
+* [[Cantillation]] marks do not generally render correctly; refer to [[Cantillation#Names and shapes of the ta'amim]] for a complete table together with instructions for how to maximize the possibility of viewing them in a web browser
+* Other
+** '''{{Unicode| ׳}}''' – [[Geresh]]
+** '''{{Unicode| ״}}''' – [[Gershayim]]
+
+===Korean===
+[[File:Hunmin jeong-eum.jpg|thumb|200px|[[Hunminjeongeum]], the Korean alphabet]]
+These diacritics, known as Bangjeom (방점;傍點), were used to mark pitch accents in [[Hangul]] for Middle Korean.  It is written to the left of a character in vertical writing and above a character in horizontal writing:&nbsp; <span
+style="font-size:12pt;font-family:Arial Unicode MS">〮, 〯</span> &nbsp; The Korean government officially revised the [[Revised Romanization of Korean|romanization of the Korean language]] in July, 2000 to eliminate diacritics.
+
+===Sanskrit and Indic===
+{{further|Brahmic scripts}}
+
+== Non-alphabetic scripts ==
+Some non-alphabetic scripts also employ symbols that function essentially as diacritics.
+* Non-pure [[abjad]]s (such as [[Hebrew language|Hebrew]] and [[Arabic language|Arabic]] script) and [[abugida]]s use diacritics for denoting [[vowel]]s. Hebrew and Arabic also indicate consonant doubling and change with diacritics; Hebrew and [[Devanagari]] use them for foreign sounds. Devanagari and related abugidas also use a diacritical mark called a ''[[virama]]'' to mark the absence of a vowel. In addition, Devanagari uses the moon-dot ''[[chandrabindu]]'' (''' ँ ''').
+* The Japanese ''[[hiragana]]'' and ''[[katakana]]'' [[syllabary|syllabaries]] use the [[dakuten|''dakuten'' (◌゛) and ''handakuten'' (◌゜)]] (in Japanese: 濁点 and 半濁点) symbols, also known as ''nigori'' (濁) or ''ten-ten'' (点々) and ''maru'' (丸), to indicate [[voiced consonant]]s or other phonetic changes.
+* [[Emoticons]] are commonly created with diacritic symbols, especially [[Japan]]ese emoticons on popular [[imageboards]].
+
+== Alphabetization or collation ==
+{{main|Collation}}
+Different languages use different rules to put diacritic characters in [[alphabet]]ical order. French treats letters with diacritical marks the same as the underlying letter for purposes of ordering and dictionaries.
+
+The [[Scandinavian languages]], by contrast, treat the characters with diacritics ''ä'', ''ö'' and ''å'' as new and separate letters of the alphabet, and sort them after ''z''. Usually ''ä'' is sorted as equal to ''æ'' (ash) and ''ö'' is sorted as equal to ''ø'' (o-slash). Also, ''aa'', when used as an alternative spelling to ''å'', is sorted as such. Other letters modified by diacritics are treated as variants of the underlying letter, with the exception that ''ü'' is frequently sorted as ''y''.
+
+Languages that treat accented letters as variants of the underlying letter usually alphabetize words with such symbols immediately after similar unmarked words. For instance, in German where two words differ only by an umlaut, the word without it is sorted first in German dictionaries (e.g. ''schon'' and then ''schön'', or ''fallen'' and then ''fällen''). However, when names are concerned (e.g. in phone books or in author catalogues in libraries), umlauts are often treated as combinations of the vowel with a suffixed ''e''; Austrian phone books now treat characters with umlauts as separate letters (immediately following the underlying vowel).
+
+In Spanish, the grapheme ''ñ'' is considered a new letter different from ''n'' and collated between ''n'' and ''o'', as it denotes a different sound from that of a plain ''n''. But the accented vowels ''á'', ''é'', ''í'', ''ó'', ''ú'' are not separated from the unaccented vowels ''a'', ''e'', ''i'', ''o'', ''u'', as the acute accent in Spanish only modifies [[stress (linguistics)|stress]] within the word or denotes a distinction between [[homonym]]s, and does not modify the sound of a letter.
+
+For a comprehensive list of the collating orders in various languages, see [[Collating sequence]].
+
+== Generation with computers ==
+Modern computer technology was developed mostly in English-speaking countries, so data formats, keyboard layouts, etc. were developed with a bias favoring English, a language with an alphabet without diacritical marks. This has led to fears internationally that the marks and accents may be made obsolete to facilitate the worldwide exchange of data.{{Citation needed|date=July 2007}}  Efforts have been made to create [[internationalized domain names]] that further extend the English alphabet (e.g., "pokémon.com").
+
+Depending on the [[keyboard layout]], which differs amongst countries, it is more or less easy to enter letters with diacritics on computers and typewriters. Some have their own keys; some are created by first pressing the key with the diacritic mark followed by the letter to place it on. Such a key is sometimes referred to as a [[dead key]], as it produces no output of its own but modifies the output of the key pressed after it.
+
+In modern Microsoft Windows and Linux operating systems, the keyboard layouts ''US International'' and ''UK International'' feature [[dead key]]s that allow one to type Latin letters with the acute, grave, circumflex, diæresis, tilde, and cedilla found in Western European languages (specifically, those combinations found in the [[ISO Latin-1]] character set) directly: ''"+e'' gives ''ë'', ''~+o'' gives ''õ'', etc. On [[Apple Macintosh]] computers, there are keyboard shortcuts for the most common diacritics; Option-''e'' followed by a vowel places an acute accent, Option-''u'' followed by a vowel gives an umlaut, option-''c'' gives a cedilla, etc. Diacritics can be [[Compose key|compose]]d in most [[X Window System]] keyboard layouts, as well as other operating systems, such as Microsoft Windows, using additional software.
+
+On computers, the availability of [[code page]]s determines whether one can use certain diacritics.  [[Unicode]] solves this problem by assigning every known character its own code; if this code is known, most modern computer systems provide a [[Unicode#Input methods|method to input it]]. With Unicode, it is also possible to [[Combining diacritical mark|combine diacritical marks]] with most characters.
+
+== Languages with letters containing diacritics ==
+The following languages have letters that contain diacritics that are considered independent letters distinct from those without diacritics.
+
+; Germanic
+:* [[Faroese alphabet|Faroese]] uses [[acute accent|acute]]s and other special letters. All are considered separate letters and have their own place in the alphabet: ''[[á]]'', ''[[í]]'', ''[[ó]]'', ''[[ú]]'', ''[[ý]]'', and ''ø''.
+:* [[Icelandic alphabet|Icelandic]] uses acutes and other special letters. All are considered separate letters, and have their own place in the alphabet: ''á'', ''[[é]]'', ''í'', ''ó'', ''ú'', ''ý'', and ''[[ö]]''.
+:* [[Danish alphabet|Danish]] and [[Norwegian language|Norwegian]] uses additional characters like the o-slash ''[[ø]]'' and the a-overring ''[[å]]''. These letters come after ''z'' and ''[[æ]]'' in the order ''ø, å''. Historically the ''å'' has developed from a ligature by writing a small superscript ''a'' over a lowercase ''a''; if an ''å'' character is unavailable, some Scandinavian languages allow the substitution of a doubled ''a''. The Scandinavian languages collate these letters after z, but have different [[collation]] standards.
+:* [[Swedish alphabet|Swedish]] uses a-diaeresis (''[[ä]]'') and o-diaeresis (''[[ö]]'') in the place of ash (''æ'') and slashed o (''[[ø]]'') in addition to the a-overring (''å''). Historically the diaeresis for the Swedish letters ''ä'' and ''ö'', like the [[German umlaut]], developed from a small Gothic ''e'' written above the letters. These letters are collated after ''z'', in the order ''å, ä, ö''.
+;Celtic
+:* [[Irish language|Irish]] uses acutes, called ''fadas'', to indicate vowel length. These are the following vowels ''á'', ''é'', ''í'', ''ó'', ''ú''.
+:* [[Welsh language|Welsh]] uses the [[circumflex]], [[Diaeresis (diacritic)|diaeresis]], acute, and [[grave accent|grave]] on its seven vowels ''a, e, i, o, u, w, y''.
+:* Following spelling reforms since the 1970s, [[Scottish Gaelic]] uses graves only, which can be used on any vowel (''[[à]], [[è]], [[ì]], [[ò]], [[ù]]''). Formerly acute accents could be used on ''á, ó'' and ''é'', which were used to indicate a specific vowel quality. With the elimination of these accents, the new orthography relies on the reader having prior knowledge of pronunciation of a given word.
+:* [[Manx language|Manx]] uses the single diacritic [[ç]] combined with h to give the digraph {{angle bracket|çh}} (pronounced {{IPA|/tʃ/}}) to mark the distinction between it and the digraph {{angle bracket|ch}} (pronounced {{IPA|/h/}} or {{IPA|/x/}}). Other diacritics used in Manx included â, ê, ï, etc. to mark the distinction between two similarly spelled words but with slightly differing pronunciation.
+:* Some orthographies of [[Cornish language|Cornish]] such as [[Kernowek Standard]] and [[Unified Cornish]] use diacritics, while others such as [[Kernewek Kemmyn]] and the [[Standard Written Form]] do not.
+; Romance
+:* In [[Asturian language|Asturian]], [[Galician language|Galician]] and [[Spanish alphabet|Spanish]], the character ''[[ñ]]'' is a letter and collated between ''n'' and ''o''.
+:* [[Asturian language|Asturian]] uses [[Ḷ]] ([[lower case]] [[ḷ]]), and [[Voiceless glottal fricative|Ḥ]] ([[lower case]] [[Voiceless glottal fricative|ḥ]])<ref>Academia de la Llingua Asturiana, ''Gramática de la Llingua Asturiana'', tercera edición, Oviedo: Academia de la Llingua Asturiana (2001), ISBN 84-8168-310-8, http://www.academiadelallingua.com/diccionariu/gramatica_llingua.pdf (page 16, section 1.2)</ref>
+:* [[Leonese language|Leonese]]: could use ''[[ñ]]'' or ''[[List of Latin digraphs#N|nn]]''.
+:* [[Romanian alphabet|Romanian]] uses a [[breve]] on the letter ''a'' (''[[ă]]'') to indicate the sound [[schwa]] {{IPA|/ə/}}, as well as a circumflex over the letters ''a'' (''[[â]]'') and ''i'' (''[[î]]'') for the sound {{IPA|/ɨ/}}. Romanian also writes a [[comma]] below the letters ''s'' (''{{unicode|[[ș]]}}'') and ''t'' (''{{unicode|[[ț]]}}'') to represent the sounds {{IPA|/ʃ/}} and {{IPA|/t͡s/}}, respectively. These characters are collated after their non-diacritic equivalent.
+; Slavic
+:* [[Bosnian alphabet|Bosnian]], [[Croatian alphabet|Croatian]], and [[Serbian language|Serbian]] Latin alphabet have the symbols ''[[č]]'', ''[[ć]]'', ''[[đ]]'', ''[[š]]'' and ''[[ž]]'', which are considered separate letters and are listed as such in dictionaries and other contexts in which words are listed according to alphabetical order. They also have one [[digraph (orthography)|digraph]] including a diacritic, ''[[dž]]'', which is also alphabetized independently, and follows ''[[d]]'' and precedes ''[[đ]]'' in the alphabetical order. The Serbian Cyrillic alphabet has no diacritics, instead it has a grapheme ([[glyph]]) for every letter of it's Latin counterpart (including Latin letters with diacritics and the digraphs dž, ''[[lj]]{{dn|date=August 2013}}'' and ''[[Nj (digraph)|nj]]'').
+:* The [[Czech alphabet]] contains 27 graphemes (letters) when written without diacritics and 42 graphemes when written including them. Czech uses the acute (á é í ó ú ý), caron ([[č]] [[ď]] [[ě]] [[ň]] [[ř]] [[š]] [[ť]] [[ž]]), and for one letter ([[ů]]) the ring.
+:* [[Polish alphabet|Polish]] has the following letters: ''[[ą]] [[ć]] [[ę]] [[ł]] [[ń]] [[ó]] [[ś]] [[ź]] [[ż]]''. These are considered to be separate letters, each of them is placed in alphabet right after its Latin counterpart (i.e. ''ą'' between ''a'' and ''b''), ''ź'' and ''ż'' are placed after ''z'' in this order.
+:* The [[Slovak alphabet]] uses the acute (á é í ó ú ý [[ĺ]] [[ŕ]]), caron (č ď ľ ň š ť ž), umlaut (ä) and circumflex accent (ô).
+:* The basic [[Slovene alphabet]] has the symbols ''[[č]]'', ''[[š]]'', and ''[[ž]]'', which are considered separate letters and are listed as such in dictionaries and other contexts in which words are listed according to alphabetical order. Letters with a [[caron]] are placed right after the letters as written without the diacritic. The letter ''đ'' may be used in non-transliterated foreign words, particularly names, and is placed after ''č'' and before ''d''.
+; Baltic
+:* [[Latvian alphabet|Latvian]] has the following letters: ''[[ā]] [[ē]] [[ī]] [[ū]] [[ŗ]] [[ļ]] [[ķ]] [[ņ]] [[ģ]] š ž č''.
+:* [[Lithuanian alphabet|Lithuanian]]. In general usage, where letters appear with the caron (''č, š'' and ''ž'') they are considered as separate letters from ''c, s'' or ''z'' and collated separately; letters with the [[ogonek]] (''[[ą]], [[ę]], [[į]]'' and ''[[ų]]''), the [[macron]] (''[[ū]]'') and the [[anunaasika|superdot]] (''[[ė]]'') are considered as separate letters as well, but not given a unique collation order.
+; Finno-Ugric
+:* [[Estonian alphabet|Estonian]] has a distinct letter ''[[õ]]'', which contains a tilde. Estonian "dotted vowels" ''ä'', ''ö'', ''ü'' are similar to German, but these are also distinct letters, not like German umlauted letters. All four have their own place in the alphabet, between ''w'' and ''x''. Carons in ''š'' or ''ž'' appear only in foreign proper names and [[loanwords]]. Also these are distinct letters, placed in the alphabet between ''s'' and ''t''.
+:* [[Finnish alphabet|Finnish]] uses dotted vowels (''ä'' and ''ö''). As in Swedish and Estonian, these are regarded as individual letters, rather than vowel + umlaut combinations (as happens in German). It also uses the characters ''å'', ''š'' and ''ž'' in foreign names and loanwords. In the Finnish and Swedish alphabets, ''å'', ''ä'' and ''ö'' collate as separate letters after ''z'', the others as variants of their base letter.
+:* [[Hungarian alphabet|Hungarian]] uses the umlaut, the acute and double acute accent (unique to Hungarian): ''ö ü'', ''á é í ó ú'' and ''ő ű''. The acute accent indicates the long form of a vowel (in case of ''i/í'', ''o/ó'', ''u/ú'') while the double acute performs the same function for ''ö'' and ''ü''. The acute accent can also indicate a different sound (more open, like in case of ''a/á'', ''e/é''). Both long and short forms of the vowels are listed separately in the [[Hungarian alphabet]] but members of the pairs ''a/á, e/é, i/í, o/ó, ö/[[ő]], u/ú'' and ''ü/[[ű]]'' are collated in dictionaries as the same letter.
+:* [[Livonian language|Livonian]] has the following letters: ''ā, ä, {{Unicode|[[ǟ]]}}, {{Unicode|[[ḑ]]}}, ē, ī, ļ, ņ, ō, {{Unicode|[[ȯ]]}}, {{Unicode|[[ȱ]]}}, [[õ]], {{Unicode|[[ȭ]]}}, ŗ, š, {{Unicode|ț}}, ū, ž''.
+; Turkic
+:* [[Azerbaijani alphabet|Azerbaijani]] includes the distinct Turkish alphabet letters [[Ç]], [[Ğ]], [[Dotted and dotless I|I, İ]], [[Ö]], [[Ş]] and [[Ü]].
+:* [[Crimean Tatar language|Crimean Tatar]] includes the distinct Turkish alphabet letters [[Ç]], [[Ğ]], I, İ, [[Ö]], [[Ş]] and [[Ü]].  Unlike Standard Turkish (but like [[Cypriot Turkish]]), Crimean Tatar also has the letter [[Ñ]].
+:* [[Gagauz alphabet|Gagauz]] includes the distinct Turkish alphabet letters [[Ç]], [[Ğ]], [[Dotted and dotless I|I, İ]], [[Ö]] and [[Ü]].  Unlike Turkish, Gagauz also has the letters [[Ä]], [[Ê]] [[Ș]] and [[Ț]].  [[Ș]] and [[Ț]] are derived from the [[Romanian alphabet]] for the same sounds. Sometime the Turkish [[Ş]] may be used instead of [[Ș]].
+:* [[Turkish alphabet|Turkish]] uses a ''G'' with a breve (''[[Ğ]]''), two letters with an umlaut (''[[Ö]]'' and ''[[Ü]]'', representing two rounded front vowels), two letters with a cedilla (''[[Ç]]'' and ''[[S-cedilla|Ş]]'', representing the affricate {{IPA|/tʃ/}} and the fricative {{IPA|/ʃ/}}), and also possesses a dotted capital ''İ'' (and a dotless lowercase ''ı'' representing a high unrounded back vowel). In Turkish each of these are separate letters, rather than versions of other letters, where dotted capital ''İ'' and lower case ''i'' are the same letter, as are dotless capital ''I'' and lowercase ''ı''. [[Typeface|Typographically]], ''Ç'' and ''Ş'' are often rendered with a subdot, as in ''{{Unicode|Ṣ}}''; when a hook is used, it tends to have more a comma shape than the usual cedilla.  The new Azerbaijani, Crimean Tatar, and Gagauz alphabets are based on the Turkish alphabet and its same diacriticized letters, with some additions.
+:* [[Turkmen alphabet|Turkmen]] includes the distinct Turkish alphabet letters [[Ç]], [[Ö]], [[Ş]] and [[Ü]]. In addition, Turkmen uses A with diaeresis (''[[Ä]]'') to represent {{IPA|/æ/}}, N with caron (''[[Ň]]'') to represent the [[velar nasal]] {{IPA|/ŋ/}}, Y with acute (''[[Ý]]'') to represent the [[palatal approximant]] {{IPA|/j/}}, and Z with caron (''[[Ž]]'') to represent {{IPA|/ʒ/}}.
+; Other
+:* [[Albanian alphabet|Albanian]] has two special letters [[Ç]] and [[Ё]] upper and lowercase. They are placed next to the most similar letters in the alphabet, c and e correspondingly.
+:* [[Esperanto alphabet|Esperanto]] has the symbols ''[[ŭ]]'', ''[[ĉ]], [[ĝ]], [[ĥ]], [[ĵ]]'' and ''[[ŝ]]'', which are included in the alphabet, and considered separate letters.
+:* Hawaiian uses the kahakô ([[macron]]) over vowels, although there is some disagreement over considering them as individual letters. The kahakô over a vowel can completely change the meaning of a word that is spelled the same but without the kahakô.
+:* [[Kurdish alphabet|Kurdish]] uses the symbols [[Ç]], [[Ê]], [[Î]], [[Ş]] and [[Û]] with other 26 standard Latin alphabet symbols.
+:* [[Maltese alphabet|Maltese]] uses a C, G, and Z with a dot over them (Ċ, Ġ, Ż), and also has an H with an extra horizontal bar. For uppercase H, the extra bar is written slightly above the usual bar. For lowercase H, the extra bar is written crossing the vertical, like a ''t'', and not touching the lower part ([[Ħ]], ħ). The above characters are considered separate letters. The letter 'c' without a dot has fallen out of use due to redundancy. 'Ċ' is pronounced like the English 'ch' and 'k' is used as a hard c as in 'cat'. 'Ż' is pronounced just like the English 'Z' as in 'Zebra',  while 'Z' is used to make the sound of 'ts' in English (like 'tsunami' or 'maths'). 'Ġ' is used as a hard 'G' like in 'geometry', while the 'G' sounds like a soft 'G' like in 'log'.  The digraph 'għ' (called ''għajn'' after the [[Arabic alphabet|Arabic]] letter name ''ʻayn'' for غ) is considered separate, and sometimes ordered after 'g', whilst in other volumes it is placed between 'n' and 'o' (the Latin letter 'o' originally evolved from the shape of [[Phoenician alphabet|Phoenician]] ''ʻayin'', which was traditionally collated after Phoenician ''nūn'').
+:* [[Vietnamese alphabet|Vietnamese]] uses the [[horn (diacritic)|horn diacritic]] for the letters ''ơ'' and ''ư''; the [[circumflex]] for the letters ''â'', ''ê'', and ''ô''; the [[breve]] for the letter ''ă''; and a bar through the letter ''đ''.
+:* [[Lakota language|Lakota]] alphabet uses the [[caron]] for the letters ''č'', ''ȟ'', ''ǧ'', ''š'', and ''ž''. It also uses the [[acute accent]] for stressed vowels á, é, í, ó, ú, áŋ, íŋ, úŋ.
+
+; [[Cyrillic alphabets]]
+:* [[Belarusian alphabet|Belarusian]] has a letter ''[[Short U (Cyrillic)|ў]]''.
+:* Belarusian, [[Bulgarian language#Alphabet|Bulgarian]], Russian and Ukrainian have the letter ''[[Short I|й]]''.
+:* Belarusian and [[Russian alphabet|Russian]] have the letter ''[[Yo (Cyrillic)|ё]]''. In Russian, this letter is usually replaced by ''[[Ye (Cyrillic)|е]]'', although it has a different pronunciation. The use of ''е'' instead of ''ё'' does not affect the pronunciation. ''Ё'' is always used in children's books and in dictionaries. A [[minimal pair]] is все (''vs'e'', "everybody" pl.) and всё (''vs'o'', "everything" n. sg.). In Belarusian the replacement by ''е'' is a mistake, in Russian, it is possible to use either ''е'' and ''ё'' in place of ''ё'' but the former is more common.
+:* The [[Cyrillic script|Cyrillic]] [[Ukrainian alphabet]] has the letters ''[[й]]'' and ''[[ї]]''. Ukrainian [[Latynka]] has many more.
+:* [[Macedonian language|Macedonian]] has the letters ''[[kje|ќ]]'' and ''[[gje|ѓ]]''.
+;* In Bulgarian the possessive pronoun ѝ (''ì'', "her") is spelled with a grave accent in order to distinguish it from the conjunction и (''i'', "and").
+:* The acute accent "&nbsp;́" above any vowel in Cyrillic alphabets is used in dictionaries, books for children and foreign learners to indicate the word stress, it also can be used for disambiguation of similarly spelled words with different lexical stresses.
+
+== Diacritics that do not produce new letters ==
+[[Image:Spanish orthography.jpg|300px|right|thumb|Blackboard used in class at [[Harvard University|Harvard]] shows students' efforts at placing the [[ü]] and [[acute accent]] diacritic used in [[Spanish orthography]].]]
+
+=== English ===
+{{main|English terms with diacritical marks}}
+[[English alphabet|English]] is one of the few European languages that does not have many words that contain diacritical marks. Exceptions are unassimilated foreign loanwords, including borrowings from [[French language|French]] and, increasingly, [[Spanish language|Spanish]]; however, the diacritic is also sometimes omitted from such words. Loanwords that frequently appear with the diacritic in English include ''café'', ''résumé'' or ''resumé'' (a usage that helps distinguish it from the verb ''resume''), ''soufflé'', and ''naïveté'' (see ''[[English terms with diacritical marks]]''). In older practice (and even among some orthographically conservative modern writers) one may see examples such as ''élite'' and ''rôle.''
+
+English speakers and writers once used the diaeresis more often than now in words such as ''coöperation'' (from Fr. ''coopération''), ''zoölogy'' (from Grk. ''zoologia''), and ''seeër'' (now more commonly ''see-er ''or simply'' seer''), but this practice has become far less common; ''[[The New Yorker]]'' magazine is one of the few major publications that still use it.
+
+A few English words can only be distinguished from others by a diacritic or modified letter, including ''[[Animé (oleo-resin)|animé]], [[exposé (disambiguation)|exposé]], [[lamé (disambiguation)|lamé]], [[maté (disambiguation)|maté]], [[öre]], [[øre]], [[pâté]], [[piqué]], [[rosé]]'', and ''[[soufflé]].''  The same is true of ''[[résumé]],'' alternately ''{{sic|hide=y|res|umé,}}'' but nevertheless it is sometimes spelled ''resume'' in the US, and ''[[saké]]'', which is more commonly spelled ''sake''.  In a few words, diacritics that did not exist in the original have been added for disambiguation, as in [[maté]] (from Sp. and Port. ''mate'') and [[Malé]] (from Dhivehi މާލެ).
+
+The acute and grave accents are occasionally used in poetry and lyrics: the acute to indicate stress overtly where it might be ambiguous (''rébel'' vs. ''rebél'') or nonstandard for metrical reasons (''caléndar''), the grave to indicate that an ordinarily silent or elided syllable is pronounced (''warnèd,'' ''parlìament'').
+
+In certain personal names such as ''[[Renée]]'' and ''[[Zoe (name)|Zoë]]'', often two spellings exist, and the preference will be known only to those close to the person themselves. Even when the name of a person is spelled with a diacritic, like Charlotte Brontë, this may be dropped in less careful sources such as webpages. They also appear in some worldwide company names and/or trademarks such as for instance [[Nestlé]] or [[Citroën]].
+
+===Other languages===
+The following languages have letter-diacritic combinations that are not considered independent letters.
+* [[Afrikaans]] uses a diaeresis to mark vowels that are pronounced separately and not as one would expect where they occur together, for example ''voel'' (to feel) as opposed to ''voël'' (bird). The circumflex is used in ''ê, î, ô'' and ''û'' generally to indicate long [[Close-mid vowel|close-mid]], as opposed to [[Open-mid vowel|open-mid]] vowels, for example in the words ''wêreld'' (world) and ''môre'' (morning, tomorrow). The acute accent is used to add emphasis in the same way as underlining or writing in bold or italics in English, for example ''Dit is jóú boek'' (It is '''your''' book). The grave accent is used to distinguish between words that are different only in placement of the stress, for example ''appel'' (apple) and ''appèl'' (appeal) and in a few cases where it makes no difference to the pronunciation but distinguishes between homophones. The two most usual cases of the latter are the in the sayings ''òf... òf'' (either... or) and ''nòg... nòg'' (neither... nor) to distinguish them from ''of'' (or) and ''nog'' (again, still).
+* [[Aymara language|Aymara]] uses a diacritical horn over ''p, q, t, k, ch''.
+* [[Bengali language|Bengali]] uses different sorts of diacritics, called ''matra'', of the elements in set of vowels called the ''shôrobôrno'', for instance, কা is the ''aakaar'' or আ-''kar'' of ক.
+* [[Catalan alphabet|Catalan]] has the following composite characters: ''à, ç, é, è, í, ï, ó, ò, ú, ü, l·l''. The acute and the grave indicate [[stress (linguistics)|stress]] and [[vowel height]], the cedilla marks the result of a historical [[palatalization]], the diaeresis indicates either a [[hiatus (linguistics)|hiatus]], or that the letter ''u'' is pronounced when the graphemes ''gü, qü'' are followed by ''e'' or ''i'', the [[interpunct]] (·) distinguishes the different values of ''ll/l·l''.
+* [[Czech alphabet|Czech]] has the acute ''á, é, í, ó, ú, ý,'' the caron ''č, ď, ě, ň, ř, š, ť, ž,'' and the overring (''kroužek'') ''ů''.
+* [[Dutch alphabet|Dutch]] uses the diaeresis. For example in ''ruïne'' it means that the ''u'' and the ''i'' are separately pronounced in their usual way, and not in the way that the combination ''ui'' is normally pronounced. Thus it works as a separation sign and not as an indication for an alternative version of the ''i''. Diacritics can be used for emphasis (''érg koud'' for ''very'' cold) or for disambiguation between a number of words that are spelled the same when context doesn't indicate the correct meaning (''één appel'' = one apple, ''een appel'' = an apple; ''vóórkomen'' = to occur, ''voorkómen'' = to prevent). Grave and acute accents are used on a very small number of words, mostly loanwords. The ç also appears in some loanwords.<ref>{{nl icon}} {{cite book|author=van Geloven, Sander|title=Diakritische tekens in het Nederlands|url=http://hellebaard.nl/publicaties/poster/poster-diakritische-tekens-in-het-nederlands-4-stuks/|location=Utrecht|publisher=Hellebaard|year=2012}}</ref>
+* [[Faroese alphabet|Faroese]]. Non-Faroese accented letters are not added to the Faroese alphabet. These include ''é'', ''ö'', ''ü'', ''å'' and recently also letters like ''š'', ''ł'', and ''ć''.
+*[[Filipino alphabet|Filipino]] has the following composite characters: ''á, à, â, é, è, ê, í, ì, î, ó, ò, ô, ú, ù, û''. The actual use of diacritics for Filipino, however, is rare, and is meant only to distinguish between [[homonym]]s with different stresses and meanings that either occur near each other in a text or to aid the reader in ascertaining its otherwise ambiguous meaning. Sometimes appears in [[Spanish language in the Philippines|Spanish]] [[List of Tagalog loanwords#Spanish|loanwords]] and [[Philippine name|names]] if Spanish orthography is observed.
+* [[Finnish alphabet|Finnish]]. Carons in ''š'' and ''ž'' appear only in foreign proper names and [[loanwords]], but may be substituted with ''sh'' or ''zh'' if and only if it is technically impossible to produce accented letters in the medium. Contrary to Estonian, ''š'' and ''ž'' are not considered distinct letters in Finnish.
+* [[French alphabet|French]] uses the grave (''accent grave''), the [[acute accent|acute]] (''accent aigu''), the [[circumflex]] (''accent circonflexe''), the [[cedilla]] (''cédille''), and the [[Diaeresis (diacritic)|diaeresis]] (''tréma'').
+* [[Galician language|Galician]] vowels can bear an acute (''á, é, í, ó, ú'') to indicate stress or difference between two otherwise same written words (''é'', '(he/she) is' vs. ''e'', 'and'), but the [[diaeresis (diacritic)|diaeresis]] (''trema'') is only used with ''ï'' and ''ü'' to show two separate vowel sounds in pronunciation. Only in foreign words may Galician use other diacritics such as ''ç'' (common during the Middle Ages), ''ê'', or ''à''.
+* [[German alphabet|German]] uses the three diaeresis (''Umlaut'') characters ''ä'', ''ö'' and ''ü''. These diacritics indicate vowel changes. For instance, the word ''Ofen'' {{IPA-de|ˈoːfən|}} "oven" has the plural ''Öfen'' {{IPA|[ˈøːfən]}}. The mark originated as a superscript ''e''; a handwritten [[Sütterlin]] ''e'' resembles two parallel vertical lines, like a diaeresis.
+* [[Hebrew alphabet|Hebrew]] has many various diacritic marks known as ''[[niqqud]]'' that are used above and below script to represent vowels. These must be distinguished from [[cantillation]], which are keys to pronunciation and syntax.
+* The [[International Phonetic Alphabet]] uses diacritic symbols and characters to indicate phonetic features or secondary articulations.
+* [[Irish alphabet|Irish]] uses the acute to indicate that a vowel is [[vowel length|long]]. It is known as ''síneadh fada'' "long sign" or simply ''fada'' "long" in Irish. Historically, an overdot was positioned above certain consonants to signify Séimhiú, however this has largely been replaced by the usage of the letter H, although this dot can still be seen in Gaelic Script.
+* [[Italian alphabet|Italian]] mainly has the [[acute accent|acute]] and the [[grave accent|grave]] (''à'', ''è''/''é'', ''ì'', ''ò''/''ó'', ''ù''), typically to indicate a stressed syllable that would not be stressed under the normal rules of pronunciation but sometimes also to distinguish between words that are otherwise spelled the same way (e.g. "e", and; "è", is). Despite its rare use, Italian orthography allows the circumflex (î) too, in two cases: it can be found in old literary context (roughly up to 19th century) to signal a syncope (fêro→fecero, they did), or in modern Italian to signal the contraction of ″-ii″ due to the plural ending -i whereas the root ends with another -i; e.g., [[Grammatical number|s.]] demonio, [[plural|p.]] demonii→demonî; in this case the circumflex also signals that the word intended is not demoni, plural of "demone" by shifting the accent (demònî, "devils"; dèmoni, "demons").
+* [[Lithuanian alphabet|Lithuanian]] uses the [[Acute accent|acute]], [[Grave accent|grave]] and [[tilde]] in dictionaries to indicate stress types in the language's [[pitch accent]] system.
+* [[Maltese alphabet|Maltese]] also uses the grave on its vowels to indicate stress at the end of a word with 2 syllables or more: lowercase letters - à, è, ì, ò, ù | capital letters - À, È, Ì, Ò, Ù
+* [[Occitan alphabet|Occitan]] has the following composite characters: ''á, à, ç, é, è, í, ï, ó, ò, ú, ü, n·h, s·h''. The acute and the grave indicate [[stress (linguistics)|stress]] and [[vowel height]], the cedilla marks the result of a historical [[palatalization]], the diaeresis indicates either a [[hiatus (linguistics)|hiatus]], or that the letter ''u'' is pronounced when the graphemes ''gü, qü'' are followed by ''e'' or ''i'', the [[interpunct]] (·) distinguishes the different values of ''nh/n·h'' and ''sh/s·h''.
+* [[Portuguese alphabet|Portuguese]] has the following composite characters: ''à, á, â, ã, ç, é, ê, í, ó, ô, õ, ú''. The acute and the circumflex indicate stress and vowel height, the grave indicates crasis, the tilde represents nasalization, and the cedilla marks the result of a historical palatalization.
+* Acutes are also used in [[Slavic language]] dictionaries and textbooks to indicate [[lexical stress]], placed over the vowel of the stressed syllable. This can also serve to disambiguate meaning (e.g., in Russian писа́ть (''pisáť'') means "to write", but пи́сать (''písať'') means "to piss"), or "бо́льшая часть" (the biggest part) vs "больша́я часть" (the big part).
+* [[Slovak alphabet|Slovak]] has the acute (á, é, í, ĺ, ó, ŕ, ú, ý), the caron (č, ď, dž, ľ, ň, š, ť, ž), the circumflex (only above ''o'' – ô) and the diaeresis (only above ''a'' – ä).
+* [[Spanish alphabet|Spanish]] uses the acute and the diaeresis. The acute is used on a vowel in a stressed syllable in words with irregular stress patterns. It can also be used to "break up" a [[diphthong]] as in ''tío'' (pronounced {{IPA|[ˈti.o]}}, rather than {{IPA|[ˈtjo]}} as it would be without the accent). Moreover, the acute can be used to distinguish words that otherwise are spelled alike, such as ''si'' ("if") and ''sí'' ("yes"), and also to distinguish interrogative and exclamatory pronouns from homophones with a different grammatical function, such as ''donde/¿dónde?'' ("where"/"where?") or ''como/¿cómo?'' ("as"/"how?"). The diaeresis is used only over ''u'' (''ü'') for it to be pronounced {{IPA|[w]}} in the combinations ''gue'' and ''gui,'' where ''u'' is normally silent, for example ''ambigüedad.'' In poetry, the diaeresis may be used on ''i'' and ''u'' as a way to force a hiatus.
+* [[Swedish alphabet|Swedish]] uses the [[acute accent|acute]] to show non-standard stress, for example in ''{{lang|sv|kafé}}'' (café) and ''{{lang|sv|resumé}}'' (résumé). This occasionally helps resolve ambiguities, such as ''ide'' (hibernation) versus ''idé'' (idea). In these words, the acute is not optional. Some proper names use non-standard diacritics, such as [[Carolina Klüft]] and [[Staël von Holstein]]. For foreign loanwords the original accents are strongly recommended, unless the word has been infused into the language, in which case they are optional. Hence ''crème fraîche'' but ''ampere''.
+* [[Tamil alphabet|Tamil]] does not have any diacritics in itself, but uses the [[Arabic numerals|Hindu numerals]] 2, 3 and 4 as diacritics to represent aspirated, voiced, and voiced-aspirated consonants when the [[Tamil script]] is used to write long passages in Sanskrit.
+* [[Thai alphabet|Thai]] has its [[Thai script#Diacritics|own system of diacritics]] derived from [[Indian numerals]], which denote different [[tone (linguistics)|tones]].
+* [[Vietnamese alphabet|Vietnamese]] uses the acute (''dấu sắc''), the grave (''dấu huyền''), the tilde (''dấu ngã''), the underdot (''dấu nặng'') and the hoi (''dấu hỏi'') on vowels as [[Tone (linguistics)|tone]] indicators.
+* [[Welsh alphabet|Welsh]] uses the circumflex, diaeresis, acute, and grave on its seven vowels ''a, e, i, o, u, w, y''. The most common is the circumflex (which it calls ''to bach'', meaning "little roof", or ''acen grom''  "crooked accent", or ''hirnod'' "long sign") to denote a long vowel, usually to disambiguate it from a similar word with a short vowel. The rarer grave accent has the opposite effect, shortening vowel sounds that would usually be pronounced long. The acute accent and diaeresis are also occasionally used, to denote stress and vowel separation respectively. The ''w''-circumflex and the ''y''-circumflex are among the most commonly accented characters in Welsh, but unusual in languages generally, and were until recently very hard to obtain in word-processed and HTML documents.
+
+== Transliteration ==
+Several languages that are not written with the Roman alphabet are [[transliteration|transliterated]], or romanized, using diacritics. Examples:
+* [[Arabic language|Arabic]] has several [[Arabic_romanization#Comparison_table|romanisation]]s, depending on the type of the application, region, intended audience, country, etc. many of them extensively use diacritics, e.g., some methods use an underdot for rendering [[emphatic consonant]]s ({{unicode|ṣ, ṭ, ḍ, ẓ, ḥ}}). The macron is often used to render long vowels. {{unicode|š}} is often used for {{IPA|/ʃ/}}, {{unicode|ġ}} for {{IPA|/ɣ/}}.
+* [[Chinese language|Chinese]] has several [[Romanization of Chinese|romanization]]s that use the umlaut, but only on ''u'' (''ü''). In [[Pinyin#Usage|Hanyu Pinyin]], the four [[Tone (linguistics)|tones]] of [[Standard Chinese|Mandarin Chinese]] are denoted by the macron (first tone), acute (second tone), caron (third tone) and grave (fourth tone) diacritics. Example: ''ā, á, ǎ, à''.
+* Romanized [[Japanese language|Japanese]] ([[Romaji]]) occasionally uses macrons to mark long vowels. The [[Hepburn romanization]] system uses [[macron]]s to mark [[long vowels]], and the [[Kunrei-shiki romanization|Kunrei-shiki]] and [[Nihon-shiki]] systems used a [[circumflex]].
+* [[Sanskrit]], as well as many of its descendants, like [[Hindi]] and [[Bengali language|Bengali]], uses a lossless [[transliteration|romanization]] system. This includes several letters with diacritical markings, such as the macron (ā, ī, ū), over- and underdots ({{unicode|ṛ, ḥ, ṃ, ṇ, ṣ, ṭ, ḍ}}) as well as a few others (ś, ñ).
+
+== See also ==
+* [[Alphabets derived from the Latin]]
+* [[Alt code]]
+* [[:Category:Specific letter-diacritic combinations]]
+* [[Collating sequence]]
+* [[Combining character]]
+* [[Compose key]]
+* [[English terms with diacritical marks]]
+* [[Heavy metal umlaut]]
+* [[ISO/IEC 8859]] 8-bit extended-Latin-alphabet European character encodings
+* [[Latin alphabet]]
+* [[List of Latin letters]]
+* [[List of U.S. cities with diacritics]]
+* [[Romanization]]
+* [[Wiktionary:Appendix:English words with diacritics]]
+
+== References ==
+{{Reflist}}<!--added above External links/Sources by script-assisted edit-->
+
+== External links ==
+* [http://urtd.net/projects/cod/ Context of Diacritics | A research project]
+* [http://diacritics.typo.cz/ Diacritics Project]
+* [http://www.unicode.org/ Unicode]
+* [http://www.phon.ucl.ac.uk/home/wells/dia/diacritics-revised.htm Orthographic diacritics and multilingual computing, by J. C. Wells]
+* [http://www.elisanet.fi/mlang/strip.html Notes on the use of the diacritics, by Markus Lång]
+* [http://www.tuxmagazine.com/node/1000044 Entering International Characters (in Linux, KDE)]
+* [http://www.adobe.com/type/pdfs/characcessmac.pdf Standard Character Set for Macintosh] PDF at Adobe.com
+*[http://www.starr.net/is/type/kbh.html Keyboard Help]—Learn how to create world language accent marks and other diacriticals on a computer
+
+{{Latin alphabet}}
+{{Typography terms}}
+
+[[Category:Diacritics|*]]
+[[Category:Punctuation]]
+[[Category:Typography]]

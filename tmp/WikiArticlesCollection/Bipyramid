@@ -1,0 +1,283 @@
+{{For|Dipyramid|mountain|Dipyramid (Alaska)}}
+{{no footnotes|date=March 2013}}
+{|class="wikitable" bgcolor="#ffffff" cellpadding="5" align="right" style="margin-left:10px" width="280"
+!bgcolor=#e7dcc3 colspan=2|Set of bipyramids
+|-
+|align=center colspan=2|[[File:Hexagonale bipiramide.png|200px|hexagonal bipyramid]]<br>(Example hexagonal form)
+|-
+|bgcolor=#e7dcc3|Coxeter diagram||{{CDD|node_f1|2|node_f1|n|node}}
+|-
+|bgcolor=#e7dcc3|[[Schläfli symbol]]||{ } + {n}
+|-
+|bgcolor=#e7dcc3|Faces||2''n'' [[triangle]]s
+|-
+|bgcolor=#e7dcc3|Edges||3''n''
+|-
+|bgcolor=#e7dcc3|Vertices||2 + ''n''
+|-
+|bgcolor=#e7dcc3|[[Face configuration]]||V4.4.''n''
+|-
+|bgcolor=#e7dcc3|[[List of spherical symmetry groups|Symmetry group]]||[[Dihedral symmetry in three dimensions|D<sub>''n''h</sub>]], [''n'',2], (*''n''22), order 4''n''
+|-
+|bgcolor=#e7dcc3|[[Point_groups_in_three_dimensions#Rotation_groups|Rotation group]]||D<sub>''n''</sub>, [''n'',2]<sup>+</sup>, (''n''22), order 2''n''
+|-
+|bgcolor=#e7dcc3|[[Dual polyhedron]]||[[Prism (geometry)|''n''-gonal prism]]
+|-
+|bgcolor=#e7dcc3|Properties||convex, [[face-transitive]]
+|-
+|bgcolor=#e7dcc3|[[Net (polyhedron)|Net]]||[[Image:Generalized bipyramid net.svg|150px|A ''n''-gonal bipyramid net, in this example a pentagonal bipyramid]]
+|}
+[[File:bipiramide5.jpg|thumb||A bipyramid made with [[drinking straw|straw]]s and [[elastic]]s. An extra axial straw is added which doesn't exist in the simple polyhedron]]
+An ''n''-gonal '''bipyramid''' or '''dipyramid''' is a [[polyhedron]] formed by joining an ''n''-gonal [[Pyramid (geometry)|pyramid]] and its [[mirror image]] base-to-base. 
+
+The referenced ''n''-gon in the name of the bipyramids is not an external face but an internal one, existing on the primary symmetry plane which connects the two pyramid halves.
+
+The [[face-transitive]] bipyramids are the [[dual polyhedra]] of the [[Prism (geometry)|uniform prisms]] and will generally have [[isosceles triangle]] faces.
+
+A bipyramid can be [[Perspective projection|projected]] on a sphere or [[globe]] as ''n'' equally spaced lines of [[longitude]] going from [[Geographical pole|pole]] to pole, and [[Bisection|bisected]] by a line around the [[equator]].
+
+Bipyramid [[face (geometry)|face]]s, projected as [[spherical triangle]]s, represent the fundamental domains in the [[List of spherical symmetry groups#Dihedral|dihedral symmetry]] D<sub>nh</sub>.
+
+==Volume==
+The [[volume]] of a bipyramid is <math>\scriptstyle{V =} \tfrac{2}{3} \scriptstyle{Bh}</math> where ''B'' is the area of the base and ''h'' the height from the base to the apex. This works for any location of the apex, provided that ''h'' is measured as the [[perpendicular]] distance from the [[plane (geometry)|plane]] which contains the base.
+
+The volume of a bipyramid whose base is a regular ''n''-sided [[polygon]] with side length ''s'' and whose height is ''h'' is therefore: 
+:<math>V = \frac{n}{6}hs^2 \cot\frac{\pi}{n}.</math>
+
+==Equilateral triangle bipyramids==
+Only three kinds of bipyramids can have all edges of the same length (which implies that all faces are [[equilateral triangle]]s, and thus the bipyramid is a [[deltahedron]]): the [[Triangular dipyramid|triangular]], tetragonal, and [[Pentagonal dipyramid|pentagonal]] bipyramids. The tetragonal bipyramid with identical edges, or [[regular octahedron]], counts among the [[Platonic solid]]s, while the triangular and pentagonal bipyramids with identical edges count among the [[Johnson solid]]s (J12 and J13).
+{|
+|- align="center" valign="bottom" 
+|[[Image:Triangular dipyramid.png|100px]]
+|[[Image:octahedron.svg|100px]]
+|[[Image:Pentagonal dipyramid.png|100px]]
+|- align="center" valign="top" 
+|[[Triangular bipyramid]]
+|Square bipyramid<BR>([[Octahedron]])
+|[[Pentagonal bipyramid]]
+|}
+
+== Kalidescopic symmetry ==
+If the base is regular and the line through the [[Apex (geometry)|apexes]] intersects the base at its center, the [[List of spherical symmetry groups|symmetry group]] of the ''n''-agonal bipyramid has [[Dihedral symmetry in three dimensions|dihedral symmetry]] D<sub>''n''h</sub> of order 4''n'', except in the case of a regular octahedron, which has the larger [[octahedral symmetry]] group O<sub>h</sub> of order 48, which has three versions of D<sub>4h</sub> as subgroups. The [[Point groups in three dimensions#Rotation groups|rotation group]] is D<sub>''n''</sub> of order 2''n'', except in the case of a regular octahedron, which has the larger symmetry group O of order 24, which has three versions of D<sub>4</sub> as subgroups.
+
+The digonal faces of a [[Spherical polyhedron|spherical]] ''2n''-bipyramid represents the fundamental domains of [[dihedral symmetry in three dimensions]]: D<sub>nh</sub>, [n,2], (*n22), order ''4n''. The reflection domains can be shown as alternately colored triangles as mirror images.
+
+{|class="wikitable"
+!D<sub>1h</sub>
+!D<sub>2h</sub>
+!D<sub>3h</sub>
+!D<sub>4h</sub>
+!D<sub>5h</sub>
+!D<sub>6h</sub>
+!...
+|-
+|[[Image:Spherical digonal bipyramid2.png|120px]]
+|[[Image:Spherical square bipyramid2.png|120px]]
+|[[Image:Spherical hexagonal bipyramid2.png|120px]]
+|[[Image:Spherical octagonal bipyramid2.png|120px]]
+|[[Image:Spherical decagonal bipyramid2.png|120px]]
+|[[Image:Spherical dodecagonal bipyramid2.png|120px]]
+|}
+
+==Forms==
+
+{{Bipyramids}}
+
+==Star bipyramids==
+Self-intersecting bipyramids exist with a [[star polygon]] central figure, defined by triangular faces connecting each polygon edge to these two points. A {p/q} bipyramid has [[Coxeter-Dynkin diagram]] {{CDD|node_f1|2|node_f1|p|rat|q|node}}.
+{| class=wikitable
+|- align=center
+![[Pentagrammic bipyramid|5/2]]
+!7/2
+!7/3
+!8/3
+!9/2
+!9/4
+!10/3
+!11/2
+!11/3
+!11/4
+!11/5
+!12/5
+|- align=center valign=top
+|[[Image:Pentagram Dipyramid.png|50px]]<BR>{{CDD|node_f1|2|node_f1|5|rat|2x|node}}
+|[[Image:7-2 dipyramid.png|60px]]<BR>{{CDD|node_f1|2|node_f1|7|rat|2x|node}}
+|[[Image:7-3 dipyramid.png|60px]]<BR>{{CDD|node_f1|2|node_f1|7|rat|3x|node}}
+|[[Image:8-3 dipyramid.png|60px]]<BR>{{CDD|node_f1|2|node_f1|8|rat|3x|node}}
+|[[Image:9-2 dipyramid.png|60px]]<BR>{{CDD|node_f1|2|node_f1|9|rat|2x|node}}
+|[[Image:9-4 dipyramid.png|60px]]<BR>{{CDD|node_f1|2|node_f1|9|rat|4|node}}
+|[[Image:10-3 dipyramid.png|60px]]<BR>{{CDD|node_f1|2|node_f1|10|rat|3x|node}}
+|[[Image:11-2 dipyramid.png|60px]]<BR>{{CDD|node_f1|2|node_f1|11|rat|2x|node}}
+|[[Image:11-3 dipyramid.png|60px]]<BR>{{CDD|node_f1|2|node_f1|11|rat|3x|node}}
+|[[Image:11-4 dipyramid.png|60px]]<BR>{{CDD|node_f1|2|node_f1|11|rat|4|node}}
+|[[Image:11-5 dipyramid.png|60px]]<BR>{{CDD|node_f1|2|node_f1|11|rat|5|node}}
+|[[Image:12-5 dipyramid.png|60px]]<BR>{{CDD|node_f1|2|node_f1|12|rat|5|node}}
+|}
+
+==Polychora with bipyramid cells==
+
+The [[Dual_polyhedron#Dual_polytopes_and_tessellations|dual]] of the [[Rectification (geometry)|rectification]] of each  [[convex regular polychoron]] is a [[cell-transitive]] [[polychoron]] with bipyramidal cells.  In the following, the apex vertex of the bipyramid is A and an equator vertex is E.  The distance between adjacent vertexes on the equator EE=1, the apex to equator edge is AE and the distance between the apexes is AA.  The bipyramid polychoron will have V<sub>A</sub> vertexes where the apexes of N<sub>A</sub> bipyramids meet.  It will have V<sub>E</sub> vertexes where the type E vertexes of N<sub>E</sub> bipyramids meet.  N<sub>AE</sub> bipyramids meet along each type AE edge. N<sub>EE</sub> bipyramids meet along each type EE edge.  C<sub>AE</sub> is the cosine of the dihedral angle along an AE edge.  C<sub>EE</sub> is the cosine of the [[dihedral angle]] along an EE edge.  As cells must fit around an edge, 
+N<sub>AA</sub> cos<sup>-1</sup>(C<sub>AA</sub>) ≤ 2&pi;, N<sub>AE</sub> cos<sup>-1</sup>(C<sub>AE</sub>) ≤ 2&pi;.
+
+{| class="wikitable"
+|-
+!colspan="9"| Polychoron Properties
+!colspan="6"| Bipyramid Properties
+
+|- align=center
+! 	Dual of
+!       [[Coxeter-Dynkin diagram|Coxeter<BR>diagram]]
+!	Cells
+!	V<sub>A</sub>
+!	V<sub>E</sub>
+!	N<sub>A</sub>
+!	N<sub>E</sub>
+!	N<sub>AE</sub>
+!	N<sub>EE</sub>
+!	Cell
+!       Coxeter<BR>diagram
+!	AA
+!	AE<sup>**</sup>
+!	C<sub>AE</sub>
+!	C<sub>EE</sub>
+|- align=center
+|	[[Rectified 5-cell]]
+|       {{CDD|node|3|node_f1|3|node|3|node}}
+|	10
+|	5
+|	5
+|	4
+|	6
+|	3
+|	3
+|	[[Triangular bipyramid]]
+|       {{CDD|node_f1|2|node_f1|3|node}}
+|	<math>\scriptstyle \frac{2}{3}</math>
+|	0.667
+|	<math>\scriptstyle - \frac{1}{7}</math>
+|	<math>\scriptstyle - \frac{1}{7}</math>
+|- align=center
+
+|	[[Rectified tesseract]]
+|       {{CDD|node|4|node_f1|3|node|3|node}}
+|	32
+|	16
+|	8
+|	4
+|	12
+|	3
+|	4
+|	[[Triangular bipyramid]]
+|       {{CDD|node_f1|2|node_f1|3|node}}
+|	<math>\scriptstyle  \frac{\sqrt{2}}{3}</math>
+|	0.624
+|	<math>\scriptstyle  - \frac{2}{5}</math>
+|	<math>\scriptstyle  \frac{1}{5} </math>
+|- align=center
+|	[[Rectified 24-cell]]
+|       {{CDD|node|3|node_f1|4|node|3|node}}
+|	96
+|	24
+|	24
+|	8
+|	12
+|	4
+|	3
+|	[[Triangular bipyramid]]
+|       {{CDD|node_f1|2|node_f1|3|node}}
+|	<math>\scriptstyle   \frac{2\sqrt{2}}{3}</math>
+|	0.745
+|	<math>\scriptstyle  \frac{1}{11}</math>
+|	<math>\scriptstyle  - \frac{5}{11}</math>
+|- align=center
+|	[[Rectified 120-cell]]
+|       {{CDD|node|5|node_f1|3|node|3|node}}
+|	1200
+|	600
+|	120
+|	4
+|	30
+|	3
+|	5
+|	[[Triangular bipyramid]]
+|       {{CDD|node_f1|2|node_f1|3|node}}
+|	<math>\scriptstyle   \frac{\sqrt{5} - 1 }{3}</math>
+|	0.613
+|	<math>\scriptstyle  - \frac{10+9\sqrt{5}}{61}</math>
+|	<math>\scriptstyle   \frac{12\sqrt{5} - 7}{61} </math>
+|- align=center
+|	[[24-cell|Rectified 16-cell]]
+|       {{CDD|node|3|node_f1|3|node|4|node}}
+|	24<sup>*</sup>
+|	8
+|	16
+|	6
+|	6
+|	3
+|	3
+|	[[Square bipyramid]]
+|       {{CDD|node_f1|2|node_f1|4|node}}
+|	<math>\scriptstyle \sqrt{2}</math>
+|	1
+|	<math>\scriptstyle - \frac{1}{3}</math>
+|	<math>\scriptstyle - \frac{1}{3}</math>
+|- align=center
+|	[[Rectified cubic honeycomb]]
+|       {{CDD|node|4|node_f1|3|node|4|node}}
+|	&infin;
+|	&infin;
+|	&infin;
+|	6
+|	12
+|	3
+|	4
+|	[[Square bipyramid]]
+|       {{CDD|node_f1|2|node_f1|4|node}}
+|	1
+|	0.866
+|	<math>\scriptstyle - \frac{1}{2}</math>
+|	0
+
+|- align=center
+
+|	[[Rectified 600-cell]]
+|       {{CDD|node|3|node_f1|3|node|5|node}}
+|	720
+|	120
+|	600
+|	12
+|	6
+|	3
+|	3
+|	[[Pentagonal bipyramid]]
+|       {{CDD|node_f1|2|node_f1|5|node}}
+|	<math>\scriptstyle   \frac{5+3\sqrt{5}}{5}</math>
+|	1.447
+|	<math>\scriptstyle  - \frac{11+4\sqrt{5}}{41}</math>
+|	<math>\scriptstyle   - \frac{11+4\sqrt{5}}{41}</math>
+|}
+<sup>*</sup>The rectified 16-cell is the regular 24-cell and vertices are all equivalent  &ndash; octahedra are regular bipyramids.
+<sup>**</sup>Given numerically due to more complex form.
+
+==Higher dimensions==
+In general, a ''bipyramid'' can be seen as an ''n''-[[polytope]] constructed with a (''n''−1)-polytope in a [[hyperplane]] with two points in opposite directions, equal distance perpendicular from the hyperplane. If the (''n''−1)-polytope is a regular polytope, it will have identical [[Pyramid (geometry)|pyramids]] [[Facet (geometry)|facets]].
+
+==See also==
+*[[Trapezohedron]]
+
+== References==
+* {{cite book | author= Anthony Pugh | year= 1976 | title= Polyhedra: A visual approach | publisher= University of California Press Berkeley | location= California | isbn= 0-520-03056-7  }} Chapter 4: Duals of the Archimedean polyhedra, prisma and antiprisms
+
+==External links==
+{{Commons category|Bipyramids}}
+*{{mathworld |urlname=Dipyramid |title=Dipyramid}}
+*{{GlossaryForHyperspace |anchor=Bipyramid |title=Bipyramid}}
+*[http://www.mathconsult.ch/showroom/unipoly/ The Uniform Polyhedra]
+*[http://www.georgehart.com/virtual-polyhedra/vp.html Virtual Reality Polyhedra] The Encyclopedia of Polyhedra
+**[[VRML]] models [http://www.georgehart.com/virtual-polyhedra/alphabetic-list.html (George Hart)] [http://www.georgehart.com/virtual-polyhedra/vrml/triangular_dipyramid.wrl <3>] [http://www.georgehart.com/virtual-polyhedra/vrml/octahedron.wrl <4>] [http://www.georgehart.com/virtual-polyhedra/vrml/pentagonal_dipyramid.wrl <5>] [http://www.georgehart.com/virtual-polyhedra/vrml/hexagonal_dipyramid.wrl <6>] [http://www.georgehart.com/virtual-polyhedra/vrml/heptagonal_dipyramid.wrl <7>] [http://www.georgehart.com/virtual-polyhedra/vrml/octagonal_dipyramid.wrl <8>] [http://www.georgehart.com/virtual-polyhedra/vrml/enneagonal_dipyramid.wrl <9>] [http://www.georgehart.com/virtual-polyhedra/vrml/decagonal_dipyramid.wrl <10>]
+***[http://www.georgehart.com/virtual-polyhedra/conway_notation.html Conway Notation for Polyhedra] Try: "dP'''n'''", where '''n''' = 3, 4, 5, 6, ... example "dP4" is an octahedron.
+
+{{Polyhedron navigator}}
+
+[[Category:Polyhedra]]
+[[Category:Pyramids and bipyramids| ]]

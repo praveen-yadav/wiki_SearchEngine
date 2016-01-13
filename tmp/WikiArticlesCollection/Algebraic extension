@@ -1,0 +1,51 @@
+{{refimprove|date=February 2013}}
+In [[abstract algebra]], a [[field extension]] ''L''/''K'' is called '''algebraic''' if every element of ''L'' is [[algebraic element|algebraic]] over ''K'', i.e. if every element of ''L'' is a [[root of a function|root]] of some non-zero [[polynomial]] with coefficients in ''K''. Field extensions that are not algebraic, i.e. which contain [[transcendental element]]s, are called '''transcendental'''.
+
+For example, the field extension '''R'''/'''Q''', that is the field of [[real number]]s as an extension of the field of [[rational number]]s, is transcendental, while the field extensions '''C'''/'''R''' and '''Q'''(√2)/'''Q''' are algebraic, where '''C''' is the field of [[complex number]]s.
+
+All transcendental extensions are of [[degree of a field extension|infinite degree]]. This in turn implies that all finite extensions are algebraic.<ref>See also Hazewinkel et al. (2004), p. 3.</ref> The converse is not true however: there are infinite extensions which are algebraic. For instance, the field of all [[algebraic number]]s is an infinite algebraic extension of the rational numbers.
+
+If ''a'' is algebraic over ''K'', then ''K''[''a''], the set of all polynomials in ''a'' with coefficients in ''K'', is not only a ring but a field: an algebraic extension of ''K'' which has finite degree over ''K''. In the special case where ''K'' = '''Q''' is the [[rational number|field of rational numbers]], '''Q'''[''a''] is an example of an [[algebraic number field]].
+
+A field with no nontrivial algebraic extensions is called [[algebraically closed field|algebraically closed]]. An example is the field of [[complex number]]s. Every field has an algebraic extension which is algebraically closed (called its [[algebraic closure]]), but proving this in general requires some form of the [[axiom of choice]].
+
+An extension ''L''/''K'' is algebraic [[if and only if]] every sub ''K''-algebra of ''L'' is a [[field (mathematics)|field]].
+
+==Generalizations==
+{{Main|Substructure}}
+[[Model theory]] generalizes the notion of algebraic extension to arbitrary theories: an embedding of ''M'' into ''N'' is called an '''algebraic extension''' if for every ''x'' in ''N'' there is a formula ''p'' with parameters in ''M'', such that ''p''(''x'') is true and the set
+
+:{''y'' in ''N'' | ''p''(''y'')}
+
+is finite. It turns out that applying this definition to the theory of fields gives the usual definition of algebraic extension. The [[Galois group]] of ''N'' over ''M'' can again be defined as the group of automorphisms, and it turns out that most of the theory of Galois groups can be developed for the general case.
+
+==Transcendental Facts==
+
+Here are some transcendental facts:
+
+* The natural base e is transcendental over <math>\mathbb{Q}</math>. [Hermite, 1873]
+
+* The number π is transcendental over <math>\mathbb{Q}</math>. [Lindemann, 1882]
+
+* It is not known whether e + π is transcendental over <math>\mathbb{Q}</math>.
+
+* "Almost all" real numbers are transcendental over <math>\mathbb{Q}</math>.
+
+== See also ==
+* [[Integral element]]
+* [[Lüroth's theorem]]
+* [[Galois extension]]
+* [[Separable extension]]
+* [[Normal extension]]
+
+== Notes ==
+<references/>
+
+==References==
+* Chap.V.1, p.&nbsp;223 of {{Lang Algebra|edition=3}}
+* P.J. McCarthy, ''Algebraic extensions of fields'', [[Dover Publications]], 1991, ISBN 0-486-66651-4.
+* [[Michiel Hazewinkel]], Nadiya Gubareni, Nadezhda Mikhaĭlovna Gubareni, Vladimir V. Kirichenko. ''Algebras, rings and modules''. Volume 1. 2004. Springer, 2004. ISBN 1-4020-2690-0
+
+{{DEFAULTSORT:Algebraic Extension}}
+[[Category:Field extensions]]
+[[Category:Abstract algebra]]

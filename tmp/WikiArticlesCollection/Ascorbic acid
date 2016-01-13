@@ -1,0 +1,202 @@
+{{About|the molecular aspects of ascorbic acid|information about its role in nutrition|Vitamin C}}
+{{chembox
+| Verifiedfields = changed
+| Watchedfields = changed
+| verifiedrevid = 477350783
+| Name = <small>L</small>-Ascorbic acid
+| ImageFile = L-Ascorbic acid.svg
+| ImageFile1 = Ascorbic-acid-from-xtal-1997-3D-balls.png
+| IUPACName = (5''R'')-[(1''S'')-1,2-dihydroxyethyl]-3,4-dihydroxyfuran-2(5''H'')-one
+|   OtherNames = Vitamin C
+| Section1 = {{Chembox Identifiers
+|   UNII_Ref = {{fdacite|correct|FDA}}
+| UNII = PQ6CK8PD0R
+| SMILES1 = C([C@@H]([C@@H]1C(=C(C(=O)O1)O)O)O)O
+| CASNo = 50-81-7
+| ChEMBL_Ref = {{ebicite|changed|EBI}}
+| ChEMBL = 196
+| CASNo_Ref = {{cascite|changed|??}}
+| EINECS = 200-066-2
+| ChemSpiderID_Ref = {{chemspidercite|changed|chemspider}}
+| ChemSpiderID = 10189562
+| PubChem = 5785
+| KEGG_Ref = {{keggcite|correct|kegg}}
+| KEGG = D00018
+| ChEBI_Ref = {{ebicite|changed|EBI}}
+| ChEBI = 29073
+| StdInChI_Ref = {{stdinchicite|changed|chemspider}}
+| StdInChI = 1S/C6H8O6/c7-1-2(8)5-3(9)4(10)6(11)12-5/h2,5,7-10H,1H2/t2-,5+/m0/s1
+| StdInChIKey_Ref = {{stdinchicite|changed|chemspider}}
+| StdInChIKey = CIWBSHSKHKDKBQ-JLAZNSOCSA-N
+| SMILES = OC=1C(OC(=O)C=1O)[C@@H](O)CO
+| ATCCode_prefix = A11
+| ATCCode_suffix = GA01
+| ATC_Supplemental = {{ATC|G01|AD03}}, {{ATC|S01|XA15}}
+ }}
+| Section2 = {{Chembox Properties
+|C=6|H=8|O=6
+|   Appearance = White or light yellow solid
+|   Density = 1.65 g/cm<sup>3</sup>
+|   MeltingPtCL = 190
+|   MeltingPtCH = 192
+|   Melting_notes = decomposes 
+|   Solubility = 330 g/L
+|   Solubility1 = 20 g/L
+|   Solvent1 = ethanol
+|   Solubility2 = 10 g/L
+|   Solvent2 = glycerol
+|   Solubility3 = 50 g/L
+|   Solvent3 = propylene glycol
+|   Solubility4 = insoluble in [[diethyl ether]], [[chloroform]], [[benzene]], [[petroleum ether]], [[oil]]s, [[fat]]s
+|   Solvent4 = other solvents
+|   pKa = 4.10 (first), 11.6 (second)
+  }}
+| Section3 = {{Chembox Hazards
+|   ExternalMSDS = [http://hazard.com/msds/mf/baker/baker/files/a7608.htm JT Baker]<br />[http://ptcl.chem.ox.ac.uk/MSDS/AS/ascorbic_acid.html Oxford University]
+|  NFPA-H = 1
+|  NFPA-F = 1
+|  NFPA-R = 0
+|   MainHazards =
+|   FlashPt =
+|   Autoignition =
+|   LD50 = 11.9 g/kg (oral, rat)<ref>{{cite web |url=http://physchem.ox.ac.uk/MSDS/AS/ascorbic_acid.html |title=Safety (MSDS) data for ascorbic acid |accessdate= 2007-02-21 |date= 2005-10-09 | publisher= [[Oxford University]] | archiveurl= http://web.archive.org/web/20070209221915/http://physchem.ox.ac.uk/MSDS/AS/ascorbic_acid.html| archivedate= 9 February 2007 <!--DASHBot-->| deadurl= no}}</ref>
+  }}
+}}
+'''Ascorbic acid''' is a naturally occurring [[organic compound]] with [[antioxidant]] properties. It is a white solid, but impure samples can appear yellowish.  It dissolves well in water to give mildly acidic solutions. Ascorbic acid is one form ("[[vitamer]]") of [[vitamin C]]. It was originally called L-hexuronic acid, but when it was found to have vitamin C activity in animals ("vitamin C" being defined as a vitamin activity, not then a specific substance), the suggestion was made to rename L-hexuronic acid. The new name for L-hexuronic acid is derived from ''a-'' (meaning "no") and ''scorbutus'' ([[scurvy]]), the disease caused by a deficiency of vitamin C.  Because it is derived from [[glucose]], many animals are able to produce it, but humans require it as part of their nutrition. Other vertebrates lacking the ability to produce ascorbic acid include other primates, guinea pigs, teleost fishes, bats, and birds, all of which require it as a dietary micronutrient (that is, a vitamin).<ref>{{cite pmid|21140195}}</ref>
+
+Chemically, there exists a D-ascorbic acid which does not occur in nature. It may be synthesized artificially. It has identical antioxidant properties to L-ascorbic acid, yet has far less vitamin C activity (although not quite zero).<ref>[http://ipac.kacst.edu.sa/eDoc/eBook/3761.pdf D vs. L ascorbate in natural products]. kacst.edu.sa. Retrieved on 2012-12-04.</ref> This fact is taken as evidence that the antioxidant properties of ascorbic acid are only a small part of its effective vitamin activity. Specifically, L-ascorbate is known to participate in many specific enzyme reactions which require the correct epimer (L-ascorbate and not D-ascorbate).
+
+==History==
+From the middle of the 18th century, it was noted that lemon juice could prevent sailors from getting [[scurvy]]. At first, it was supposed that the acid properties were responsible for this benefit; however, it soon became clear that other dietary acids, such as vinegar, had no such benefits. In 1907, two Norwegian physicians reported an essential disease-preventing compound in foods that was distinct from the one that prevented [[beriberi]]. These physicians were investigating dietary deficiency diseases using the new animal model of [[guinea pig]]s, which are susceptible to [[scurvy]]. The newly discovered food-factor was eventually called [[vitamin C]].
+
+From 1928 to 1932, the Hungarian research team led by [[Albert Szent-Györgyi]], as well as that of the [[United States|American]] researcher [[Charles Glen King]], identified the antiscorbutic factor as a particular single chemical substance. At the Mayo clinic, Szent-Györgyi had isolated the chemical hexuronic acid from animal adrenal glands.  He suspected it to be the antiscorbutic factor, but could not prove it without a biological assay. This assay was finally conducted at the University of Pittsburgh in the laboratory of King, which had been working on the problem for years, using guinea pigs. In late 1931, King's lab obtained adrenal hexuronic acid indirectly from Szent-Györgyi and using their animal model, proved that it is vitamin C, by early 1932.
+
+This was the last of the compound from animal sources, but, later that year, Szent-Györgyi's group discovered that [[paprika]] pepper, a common spice in the Hungarian diet, is a rich source of hexuronic acid. He sent some of the now-more-available chemical to [[Walter Norman Haworth]], a British sugar chemist.<ref>[http://profiles.nlm.nih.gov/WG/Views/Exhibit/narrative/szeged.html Story of Vitamin C's chemical discovery]. Profiles.nlm.nih.gov. Retrieved on 2012-12-04.</ref> In 1933, working with the then-Assistant Director of Research (later Sir) [[Edmund Hirst]] and their research teams, Haworth deduced the correct structure and optical-isomeric nature of vitamin C, and in 1934 reported the first synthesis of the vitamin.<ref>{{Cite book
+  | last = Davies
+  | first = Michael B.
+  | last2 = Austin
+  | first2 = John
+  | last3 = Partridge
+  | first3 = David A.
+  | title = Vitamin C: Its Chemistry and Biochemistry
+  | publisher = The Royal Society of Chemistry
+  | year = 1991
+  | page = 48
+  | isbn = 0-85186-333-7}}
+</ref> In honor of the compound's antiscorbutic properties, Haworth and Szent-Györgyi now proposed the new name of "a-scorbic acid" for the compound. It was named L-ascorbic acid by Haworth and Szent-Györgyi when its structure was finally proven by synthesis.<ref>{{citation | first1 = Joseph Louis | last1 = Svirbelf | first2 = Albert | last2 = Szent-Györgyi | authorlink2 = Albert Szent-Györgyi | url = http://profiles.nlm.nih.gov/WG/B/B/G/W/_/wgbbgw.pdf | title = The Chemical Nature Of Vitamin C | date = April 25, 1932}}. Part of the [[National Library of Medicine]] collection. Accessed January 2007</ref>
+
+In 1937, the [[Nobel Prize]] for chemistry was awarded to [[Norman Haworth]] for his work in determining the structure of ascorbic acid (shared with [[Paul Karrer]], who received his award for work on [[vitamin]]s), and the prize for Physiology or Medicine that year went to [[Albert Szent-Györgyi]] for his studies of the biological functions of L-ascorbic acid.
+The American physician [[Fred R. Klenner]] M.D. promoted vitamin C as a cure for many diseases in the 1950s by elevating the dosages greatly to as much as tens of grams vitamin C daily by injection. From 1967 on, Nobel prize winner [[Linus Pauling]] recommended high doses of ascorbic acid (he himself took 18&nbsp;grams daily) as a prevention against cold and cancer.
+The results of Klenner have been controversial as yet, since his investigations do not meet the modern methodologic standards.<ref>The American physician Thomas E Levy, M.D. J.D. wrote a critical review about Klenner's work, Curing the Incurable, LiveOn Books 2002, 3rd edition 2009, ISBN 0-9779520-2-9.</ref>
+
+==Acidity==
+:[[File:Ascorbate resonance.png|thumb|400px|left|Canonical structures for the ascorbate anion]]{{clear left}}
+Ascorbic acid is classed as a [[reductone]]. The ascorbate anion is stabilized by electron delocalization, as shown above in terms of resonance between two [[resonance (chemistry)|canonical form]]s. For this reason ascorbic acid is much more acidic than would be expected if the compound contained only isolated hydroxyl groups
+
+==Antioxidant mechanism ==
+[[file:Dehydroascorbic acid.png|thumb|left|130px|End-product of oxidation of ascorbic acid]]
+The ascorbate ion is the predominant species at typical biological pH values. It is a mild [[reducing agent]] and [[antioxidant]]. It is oxidized with loss of one electron to form a radical anion and then with loss of a second electron to form [[dehydroascorbic acid]]. It typically reacts with oxidants of the [[reactive oxygen species]], such as the [[hydroxyl radical]].  Such radicals are damaging to animals and plants at the molecular level due to their possible interaction with [[nucleic acid]]s, proteins, and lipids. Sometimes these radicals initiate chain reactions. Ascorbate can terminate these chain radical reactions by [[electron transfer]].  Ascorbic acid is special because it can transfer a single electron, owing to the resonance-stabilized nature of its own [[radical ion]] called, [[dehydroascorbate|semidehydroascorbate]]. The net reaction is:
+:RO • + C<sub>6</sub>H<sub>7</sub>O<sub>6</sub><sup>−</sup> → ROH + C<sub>6</sub>H<sub>6</sub>O<sub>6</sub><sup>• -</sup>
+The oxidized forms of ascorbate are relatively unreactive, and do not cause cellular damage.
+
+However, being a good electron donor, excess ascorbate in the presence of free metal ions can not only promote but also initiate free radical reactions, thus making it a potentially dangerous pro-oxidative compound in certain metabolic contexts.
+
+== Reactions ==
+:[[Image:Ascorbic diketone.png|thumb|left|400px|[[Nucleophile|Nucleophilic attack]] of ascorbic enol on proton to give 1,3-diketone]]{{clear left}}
+
+==Food chemistry==
+Ascorbic acid and its sodium, potassium, and calcium [[Salt (chemistry)|salt]]s are commonly used as [[antioxidant]] [[food additive]]s. These compounds are water-soluble and thus cannot protect [[fat]]s from oxidation: For this purpose, the fat-[[soluble]] [[ester]]s of ascorbic acid with long-chain [[fatty acid]]s (ascorbyl palmitate or ascorbyl stearate) can be used as food antioxidants. Eighty percent of the world's supply of ascorbic acid is produced in China.<ref>{{citation | newspaper = Washington Post | url = http://www.washingtonpost.com/wp-dyn/content/article/2007/05/19/AR2007051901273.html | title = Tainted Chinese Imports Common | date = May 20, 2007 | first=Rick | last=Weiss | accessdate=2010-04-25}}</ref>
+
+The relevant European food additive [[E number]]s are
+# E300 ascorbic acid (approved for use as a food additive in the EU,<ref name="food.gov.uk">UK Food Standards Agency: {{cite web |url=http://www.food.gov.uk/safereating/chemsafe/additivesbranch/enumberlist |title=Current EU approved additives and their E Numbers |accessdate=2011-10-27}}</ref> USA<ref name="fda.gov">US Food and Drug Administration: {{cite web |url=http://www.fda.gov/Food/FoodIngredientsPackaging/FoodAdditives/FoodAdditiveListings/ucm091048.htm |title=Listing of Food Additives Status Part I |accessdate=2011-10-27}}</ref> and Australia and New Zealand)<ref name="comlaw.gov.au">Australia New Zealand Food Standards Code{{cite web |url=http://www.comlaw.gov.au/Details/F2011C00827 |title=Standard 1.2.4 – Labelling of ingredients |accessdate=2011-10-27}}</ref>
+# E301 [[sodium ascorbate]] (approved for use as a food additive in the EU,<ref name="food.gov.uk"/> USA<ref>US Food and Drug Administration: {{cite web |url=http://www.fda.gov/Food/FoodIngredientsPackaging/FoodAdditives/ucm191033.htm#ftnT |title=Listing of Food Additives Status Part II |accessdate=2011-10-27}}</ref> and Australia and New Zealand)<ref name="comlaw.gov.au"/>
+# E302 [[calcium ascorbate]] (approved for use as a food additive in the EU,<ref name="food.gov.uk"/> USA<ref name="fda.gov"/> and Australia and New Zealand)<ref name="comlaw.gov.au"/>
+# E303 [[potassium ascorbate]]
+# E304 fatty acid esters of ascorbic acid (i) [[ascorbyl palmitate]] (ii) [[ascorbyl stearate]].
+
+It creates volatile compounds when mixed with [[glucose]] and [[amino acid]]s in 90 °C.<ref>{{cite journal | author = Seck, S.; Crouzet, J. | title = Formation of Volatile Compounds in Sugar-Phenylalanine and Ascorbic Acid-Phenylalanine Model Systems during Heat Treatment | journal = Journal of Food Science | year = 1981 | volume = 46 | issue = 3 | pages = 790–793 | doi = 10.1111/j.1365-2621.1981.tb15349.x }}</ref>
+
+It is a cofactor in [[tyrosine]] [[oxidation]].<ref>{{cite journal | author = Sealock, R. R.; Goodland, R. L.; Sumerwell, W. N.; Brierly, J. M. | title = The Role of Ascorbic Acid in the Oxidation of l-Tyrosine by Guinea Pig Liver Extracts | journal = Journal of Biological Chemistry | year = 1952 | volume = 196 | issue = 2 | pages = 761–767  | pmid = 12981016 | url = http://www.jbc.org/content/196/2/761.full.pdf }}</ref>
+
+==Niche, non-food uses==
+* Ascorbic acid is easily oxidized and so is used as a reductant in photographic developer solutions (among others) and as a [[preservative]].
+* In [[fluorescence microscope|fluorescence microscopy]] and related fluorescence-based techniques, ascorbic acid can be used as an [[antioxidant]] to increase fluorescent signal and chemically retard dye [[photobleaching]].<ref>{{cite journal | author = Widengren, J.; Chmyrov, A.; Eggeling, C.; Löfdahl, P.-Å.; Seidel, C. A. | year = 2007 | title = Strategies to Improve Photostabilities in Ultrasensitive Fluorescence Spectroscopy | journal = The Journal of Physical Chemistry A | volume = 111 | issue = 3 | pages = 429–440 | doi = 10.1021/jp0646325 | pmid = 17228891 }}</ref>
+* It is also commonly used to remove dissolved metal stains, such as iron, from fiberglass swimming pool surfaces.
+* In plastic manufacturing, ascorbic acid can be used to assemble molecular chains more quickly and with less waste than traditional synthesis methods.<ref>{{citation | title = Vitamin C, water have benefits for plastic manufacturing | url = http://reliableplant.com/article.asp?pagetitle=Vitamin%20C,%20water%20have%20benefits%20for%20plastic%20manufacturing&articleid=3133 | publisher = Reliable Plant Magazine | year = 2007 | accessdate = 2007-06-25 |archiveurl = http://web.archive.org/web/20070927230356/http://www.reliableplant.com/article.asp?pagetitle=Vitamin+C,+water+have+benefits+for+plastic+manufacturing&articleid=3133 <!-- Bot retrieved archive --> |archivedate = 2007-09-27}}</ref>
+* Heroin users are known to use ascorbic acid to convert heroin base to a water soluble salt, so that it can be injected.<ref>{{cite journal | author = Beynon, C. M.; McVeigh, J.; Chandler, M.; Wareing, M.; Bellis, M. A. | title = The Impact of Citrate Introduction at UK Syringe Exchange Programmes: A Retrospective Cohort Study in Cheshire and Merseyside, UK | journal = Harm Reduction Journal | year = 2007 | volume = 4 | issue = 1 | page = 21 | pmid = 18072971 | pmc = 2245922 | doi = 10.1186/1477-7517-4-21 }}</ref>
+* Incidentally, as justified by its reaction with iodine, it is used to negate the effects of iodine tablets in water purification. It reacts with the sterilized water removing the taste, color and smell of the iodine. This is why it is often sold as a second set of tablets in most sporting goods stores as Portable Aqua Neutralizing Tablets, along with the potassium iodide tablets.
+
+==Biosynthesis==
+{{Main|Vitamin C}}
+Ascorbic acid is found in plants and animals where it is produced from [[glucose]].<ref name="Stone">{{citation | url = http://www.seanet.com/~alexs/ascorbate/197x/stone-i-orthomol_psych-1972-v1-n2-3-p82.htm | title = The Natural History of Ascorbic Acid in the Evolution of Mammals and Primates | first = Irwin | last = Stone | year = 1972}}</ref> Animals must either produce it or digest it, otherwise a lack of vitamin C may cause scurvy which may eventually lead to death.  Reptiles and older orders of birds make ascorbic acid in their kidneys.  Recent orders of birds and most mammals make ascorbic acid in their liver where the enzyme [[L-gulonolactone oxidase]] is required to convert glucose to ascorbic acid.<ref name="Stone"/> Humans, some other primates, and guinea pigs are not able to make L-gulonolactone oxidase because of a genetic mutation and are therefore unable to make ascorbic acid.   Synthesis and signalling properties are still under investigation.<ref name="valpuesta">{{cite journal | title = Biosynthesis of L-Ascorbic Acid in Plants: New Pathways for an Old Antioxidant | author = Valpuesta, V.; Botella, M. A. | journal = Trends in Plant Science | year = 2004 | volume = 9 | issue = 12 | pages = 573–577 | pmid = 15564123 | doi = 10.1016/j.tplants.2004.10.002 | url = http://www.bmbq.uma.es/lbbv/index_archivos/pdf/Valpuesta%202004.pdf }}</ref>
+
+=== Animal ascorbic acid biosynthesis pathway ===
+The biosynthesis of ascorbic acid starts with the formation of UDP-glucuronic acid. UDP-glucuronic acid is formed when UDP-glucose undergoes two oxidations catalyzed by the enzyme UDP-glucose 6-dehydrogenase. UDP-glucose 6-dehydrogenase uses the co-factor NAD<sup>+</sup> as the electron acceptor. The transferase UDP-glucuronate pyrophosphorylase removes a [[Uridine monophosphate|UMP]] and [[glucuronokinase]], with the cofactor ADP, removes the final phosphate leading to D-glucuronic acid. The aldehyde group of this is reduced to a primary alcohol using the enzyme [[glucuronate reductase]] and the cofactor NADPH yielding L-gulonic acid. This is followed by lactone formation with the hydrolase [[gluconolactonase]] between the carbonyl on C1 and hydroxyl group on the C4. L-gulonolactone then reacts with oxygen, catalyzed by the enzyme [[L-gulonolactone oxidase]] (which is nonfunctional in humans and other primates) and the cofactor FAD+. This reaction produces 2-oxogulonolactone which spontaneously undergoes [[enolization]] to form ascorbic acid.<ref name="West Sussex 2009">{{cite book | author = Dewick, P. M. | title = Medicinal Natural Products: A Biosynthetic Approach | edition = 3rd | year = 2009 | isbn = 978-0470741672 | publisher = John Wiley and Sons | page = 493 }}</ref>
+
+=== Plant ascorbic acid biosynthesis pathway ===
+There are many different biosynthesis pathways for ascorbic acid in plants. Most of these pathways are derived from products found in glycolysis and other pathways. For example, one pathway goes through the plant cell wall polymers.<ref name="valpuesta"/> The Plant Ascorbic Acid Biosynthesis Pathway most principal seems to be L-galactose. L-galactose reacts with the enzyme  L-galactose dehydrogenase  where the lactone ring opens and forms again but with between the carbonyl on C1 and hydroxyl group on the C4  resulting in L-galactonolactone.<ref name="West Sussex 2009"/>  L-galactonolactone  then reacts with the mitochondrial ﬂavoenzyme L-galactonolactone dehydrogenase.<ref>{{cite journal | author = Leferink, N. G.; van den Berg, W. A.; van Berkel, W. J. | title = L-Galactono-γ-lactone Dehydrogenase from ''Arabidopsis thaliana'', a Flavoprotein Involved in Vitamin C Biosynthesis | journal = FEBS Journal | year = 2008 | volume = 275 | issue = 4 | pages = 713–726 | doi = 10.1111/j.1742-4658.2007.06233.x | url = http://onlinelibrary.wiley.com/doi/10.1111/j.1742-4658.2007.06233.x/pdf | format = PDF }}</ref> to produce ascorbic acid.<ref name="West Sussex 2009"/> An interesting fact about L-ascorbic acid is that it has shown to have a negative feedback on L-galactose dehydrogenase in spinach.<ref>{{cite journal | author = Mieda, T.; Yabuta, Y.; Rapolu, M.; Motoki, T.; Takeda, T.; Yoshimura, K.; Ishikawa, T.; Shigeoka, S. | title = Feedback Inhibition of Spinach L-Galactose Dehydrogenase by L-Ascorbate | journal = Plant and Cell Physiology | year = 2004 | volume = 45 | issue = 9 | pages = 1271–1279 | doi = 10.1093/pcp/pch152 | url = http://pcp.oxfordjournals.org/content/45/9/1271.full.pdf | pmid=15509850}}</ref>
+
+==Industrial preparation==
+Ascorbic acid is prepared industrially from [[glucose]] in a method based on the historical [[Reichstein process]].  In the first of a five-step process, glucose is catalytically [[hydrogenation|hydrogenated]] to [[sorbitol]], which is then [[oxidized]] by the [[microorganism]] ''[[Acetobacter]] suboxydans'' to [[sorbose]]. Only one of the six hydroxy groups is oxidized by this enzymatic reaction.  From this point, two routes are available.  Treatment of the product with [[acetone]] in the presence of an acid [[catalyst]] converts four of the remaining [[hydroxyl]] groups to [[acetal]]s. The unprotected hydroxyl group is oxidized to the carboxylic acid by reaction with the catalytic oxidant [[TEMPO]] (regenerated by [[sodium hypochlorite]] — [[bleach]]ing solution). (Historically, industrial preparation via the Reichstein process used [[potassium permanganate]].) Acid-catalyzed hydrolysis of this product performs the dual function of removing the two acetal groups and [[lactone|ring-closing lactonization]]. This step yields ascorbic acid. Each of the five steps has a yield larger than 90%.<ref>{{Ullmann | author = Eggersdorfer, M. et al. | title = Vitamins | doi = 10.1002/14356007.a27_443 }}</ref>
+
+A more biotechnological process, first developed in China in the 1960s but further developed in the 1990s,  bypasses the use of acetone protecting groups. A second [[genetically-modified organism|genetically-modified]] microbe species (such as mutant ''[[Erwinia]]'', among others) oxidises sorbose into [[2-ketogluconic acid]] (2-KGA), which can then undergo ring-closing lactonization via dehydration. This method is used in the predominant process used by the ascorbic acid industry in China, which supplies 80% of world's ascorbic acid.<ref>[http://www.csmonitor.com/2007/0720/p01s01-woap.html China's grip on key food additive / The Christian Science Monitor]. CSMonitor.com (2007-07-20). Retrieved on 2012-12-04.</ref> American and Chinese researchers are competing to engineer a mutant which can carry out a [[one-pot reaction|one-pot fermentation]] directly from glucose to 2-KGA, bypassing both the need for a second fermentation and the need to reduce glucose to sorbitol.<ref>[http://www.competition-commission.org.uk/rep_pub/reports/2001/fulltext/456a5.1.pdf BASF’s description of vitamin C—developments in production methods]. competition-commission.org.uk</ref>
+[[Image:Synthesis ascorbic acid.svg|thumb|500px|The outdated but historically-important industrial synthesis of ascorbic acid from glucose via the [[Reichstein process]].]]
+
+===Determination===
+The traditional way to analyze the ascorbic acid content is [[titration]] with an [[oxidizing agent]], and several procedures have been developed, mainly relying on [[iodometry]]. [[Iodine]] is used in the presence of a [[starch indicator]]. Iodine is reduced by ascorbic acid, and, when all the ascorbic acid has reacted, the iodine is then in excess, forming a blue-black complex with the starch indicator.  This indicates the end-point of the titration. As an alternative, ascorbic acid can be treated with iodine in excess, followed by back titration with sodium thiosulfate using starch as an indicator.<ref>{{cite journal|url=http://web.archive.org/web/20091122133022/http://www-saps.plantsci.cam.ac.uk/docs/vitc.pdf |title=A Simple Test for Vitamin C |journal=School Science Review |year=2002 |volume=83 |issue=305 |page=131}}</ref> The preceding iodometric method has been revised to exploit reaction of ascorbic acid with [[iodate]] and [[iodide]] in [[acid]] solution. Electrolyzing the solution of potassium iodide produces iodine, which reacts with ascorbic acid. The end of process is determined by [[potentiometric titration]] in a manner similar to [[Karl Fischer titration]]. The amount of ascorbic acid can be calculated by [[Faraday's laws of electrolysis|Faraday's law]].
+
+An uncommon oxidising agent is [[N-Bromosuccinimide|''N''-bromosuccinimide]], (NBS). In this titration, the NBS oxidizes the ascorbic acid in the presence of [[potassium iodide]] and starch. When the NBS is in excess (i.e., the reaction is complete), the NBS liberates the iodine from the potassium iodide, which then forms the blue-black complex with starch, indicating the end-point of the titration.
+
+==Compendial status==
+* [[British Pharmacopoeia]]<ref name=ib29>{{cite web
+  | author = British Pharmacopoeia Commission Secretariat
+  | title = Index, BP 2009
+  | year = 2009
+  | url = http://www.pharmacopoeia.co.uk/pdf/2009_index.pdf
+  | accessdate = 2010-02-04
+  }}</ref>
+* [[Japanese Pharmacopoeia]] <ref name=jp15>{{cite web
+  | title = Japanese Pharmacopoeia, Fifteenth Edition
+  | year = 2006
+  | url = http://jpdb.nihs.go.jp/jp15e/JP15.pdf
+  | accessdate = 2010-02-04
+  }}</ref> {{Clarify|date=January 2010}}
+
+==See also==
+* [[Colour retention agent]]
+* [[Erythorbic acid]]: a [[diastereomer]] of ascorbic acid.
+* [[Mineral ascorbates]]: salts of ascorbic acid
+* D-erythroascorbic acid: yeasts do not make vitamin C (L-ascorbic acid) but a similar antioxidant known as [http://www.scri.ac.uk/webfm_send/471  D-erythroascorbic acid]
+* [[Acids in wine]]
+
+==Notes and references==
+{{Reflist|35em}}
+
+==Further reading==
+* {{citation | last1 = Clayden | last2 = Greeves | last3 = Warren | last4 = Wothers | title = Organic Chemistry | publisher = Oxford University Press | year = 2001 | isbn = 0-19-850346-6}}.
+* {{citation | title = Vitamin C: Its Chemistry and Biochemistry | first1 = Michael B. | last1 = Davies | first2 = John | last2 = Austin | first3 = David A. | last3 = Partridge | publisher = Royal Society of Chemistry | isbn = 0-85186-333-7}}.
+* {{citation | title = Food: The Chemistry of Its Components | edition = 3rd | first = T. P. | last = Coultate | publisher = Royal Society of Chemistry | isbn = 0-85404-513-9}}.
+* {{citation | editor1-last = Gruenwald | editor1-first = J. | editor2-last = Brendler | editor2-first = T. | editor3-last = Jaenicke | editor3-first = C. | title = PDR for Herbal Medicines | edition = 3rd | publisher = Thomson PDR | location = Montvale, New Jersey | year = 2004}}.
+* {{citation | first1 = John | last1 = McMurry | title = Organic Chemistry | publisher = Thomson Learning | year = 2008 | edition = 7e | isbn = 978-0-495-11628-8}}.
+
+==External links==
+* {{ICSC|0379|03}}
+* {{SIDS|name=<small>L</small>-Ascorbic acid|id=50817}}
+* [http://www.inchem.org/documents/pims/pharm/ascorbic.htm IPCS Poisons Information Monograph (PIM) 046]
+* [http://www.bruker-axs.de/fileadmin/user_upload/SMART_X2S_Structure_Gallery/Structures/vitc_1006.html Interactive 3D-structure of vitamin C] with details on the x-ray structure
+
+{{Vitamins}}
+{{Enzyme cofactors}}
+{{Antioxidants}}
+
+{{DEFAULTSORT:Ascorbic Acid}}
+[[Category:Organic acids]]
+[[Category:Antioxidants]]
+[[Category:Dietary antioxidants]]
+[[Category:Coenzymes]]
+[[Category:Corrosion inhibitors]]
+[[Category:Furones]]
+[[Category:Vitamers]]
+[[Category:Vitamin C]]
+
+{{Link GA|de}}

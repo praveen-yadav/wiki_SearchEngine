@@ -1,0 +1,246 @@
+{{Infobox block cipher
+| name          = AES
+| image         = [[Image:AES-SubBytes.svg|280px|center]]
+| caption       = The <tt>SubBytes</tt> step, one of four stages in a round of AES
+| designers     = [[Vincent Rijmen]], [[Joan Daemen]]
+| publish date  = 1998
+| derived from  = [[Square (cipher)|Square]]
+| derived to    = [[Anubis (cipher)|Anubis]], [[Grand Cru (cipher)|Grand Cru]]
+| related to    =
+| certification = [[Advanced Encryption Standard process|AES]] winner, [[CRYPTREC]], [[NESSIE]], [[National Security Agency|NSA]]
+| key size      = 128, 192 or 256 bits<ref name="keysize">Key sizes of 128, 160, 192, 224, and 256 bits are supported by the Rijndael algorithm, but only the 128, 192, and 256-bit key sizes are specified in the AES standard.</ref>
+| block size    = 128 bits<ref name="blocksize">Block sizes of 128, 160, 192, 224, and 256 bits are supported by the Rijndael algorithm, but only the 128-bit block size is specified in the AES standard.</ref>
+| structure     = [[Substitution-permutation network]]
+| rounds        = 10, 12 or 14 (depending on key size)
+| cryptanalysis = Attacks have been published that are computationally faster than a full [[brute force attack]], though none as of 2013 are computationally feasible:<ref name="aesbc">{{cite web|url=http://research.microsoft.com/en-us/projects/cryptanalysis/aesbc.pdf|title=Biclique Cryptanalysis of the Full AES|accessdate=July 23, 2013}}</ref>
+
+For AES-128, the key can be recovered with a computational complexity of 2<sup>126.1</sup> using [[biclique]]s. For biclique attacks on AES-192 and AES-256, the computational complexities of 2<sup>189.7</sup> and 2<sup>254.4</sup> respectively apply. [[Related-key attack]]s can break AES-192 and AES-256 with complexities 2<sup>176</sup> and 2<sup>99.5</sup>, respectively.
+}}
+
+The '''Advanced Encryption Standard''' ('''AES''') is a specification for the [[encryption]] of electronic data established by the U.S. [[National Institute of Standards and Technology]] (NIST) in 2001.<ref name="fips-197">{{cite web|url=http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf|title=Announcing the ADVANCED ENCRYPTION STANDARD (AES)|publisher=United States National Institute of Standards and Technology (NIST)|work=Federal Information Processing Standards Publication 197|date=November 26, 2001|accessdate=October 2, 2012}}</ref> It is based on the '''Rijndael''' [[cipher]]<ref>{{cite web |url=http://csrc.nist.gov/archive/aes/rijndael/Rijndael-ammended.pdf#page=1 |title=AES Proposal: Rijndael |last1=Daemen  |first1=Joan |last2=Rijmen |first2=Vincent |date=9/04/2003 |publisher=National Institute of Standards and Technology |page=1 |accessdate=21 February 2013}}</ref> developed by two [[Belgium|Belgian]] cryptographers, [[Joan Daemen]] and [[Vincent Rijmen]], who submitted a proposal to NIST during the AES selection process.<ref>{{Cite news |title=U.S. Selects a New Encryption Technique |author=John Schwartz |newspaper=New York Times |date=October 3, 2000 |url=http://www.nytimes.com/2000/10/03/business/technology-us-selects-a-new-encryption-technique.html }}</ref> Rijndael is a family of ciphers with different key and block sizes. For AES, NIST selected three members of the Rijndael family, each with a block size of 128 bits, but three different key lengths: 128, 192 and 256 bits.
+
+AES has been adopted by the [[Federal government of the United States|U.S. government]] and is now used worldwide. It supersedes the [[Data Encryption Standard]] (DES),<ref>{{cite news |url=http://www.findarticles.com/p/articles/mi_m0IKZ/is_3_107?pnum=2&opg=90984479 |title=NIST reports measurable success of Advanced Encryption Standard | work=Journal of Research of the National Institute of Standards and Technology | first=Harold B. | last=Westlund | year=2002}}</ref> which was published in 1977. The algorithm described by AES is a [[symmetric-key algorithm]], meaning the same key is used for both encrypting and decrypting the data.
+
+In the [[United States]], AES was announced by the NIST as U.S. [[Federal Information Processing Standard|FIPS]] PUB 197 (FIPS 197) on November 26, 2001.<ref name="fips-197" /> This announcement followed a five-year standardization process in which fifteen competing designs were presented and evaluated, before the Rijndael cipher was selected as the most suitable (see [[Advanced Encryption Standard process]] for more details). It became effective as a federal government standard on May 26, 2002 after approval by the [[United States Secretary of Commerce|Secretary of Commerce]]. AES is included in the ISO/IEC 18033-3 standard. AES is available in many different encryption packages, and is the first publicly accessible and open [[cipher]] approved by the [[National Security Agency]] (NSA) for [[Classified information|top secret]] information when used in an NSA approved cryptographic module (see [[Advanced Encryption Standard#Security|Security of AES]], below).
+
+The name ''Rijndael'' ({{IPA-nl|ˈrɛindaːl}}) is a play on the names of the two inventors (Joan Daemen and Vincent Rijmen). 
+
+== Description of the cipher ==
+AES is based on a design principle known as a substitution-permutation network, and is fast in both software and hardware.<ref>{{cite web |url=http://www.schneier.com/paper-twofish-final.pdf |title=The Twofish Team's Final Comments on AES Selection |author=Bruce Schneier, John Kelsey, Doug Whiting, David Wagner, Chris Hall, Niels Ferguson, Tadayoshi Kohno, Mike Stay |date=May 2000}}</ref> Unlike its predecessor DES, AES does not use a [[Feistel network]]. AES is a variant of Rijndael which has a fixed  [[block size (cryptography)|block size]] of 128 [[bit]]s, and a [[key size]] of 128, 192, or 256 bits. By contrast, the Rijndael specification ''per se'' is specified with block and key sizes that may be any multiple of 32 bits, both with a minimum of 128 and a maximum of 256 bits.
+
+AES operates on a 4×4 [[column-major order]] matrix of bytes, termed the ''state'', although some versions of Rijndael have a larger block size and have additional columns in the state. Most AES calculations are done in a special [[Finite field arithmetic|finite field]].
+
+The key size used for an AES cipher specifies the number of repetitions of transformation rounds that convert the input, called the plaintext, into the final output, called the ciphertext. The number of cycles of repetition are as follows:
+
+* 10 cycles of repetition for 128-bit keys.
+* 12 cycles of repetition for 192-bit keys.
+* 14 cycles of repetition for 256-bit keys.
+
+Each round consists of several processing steps, each containing four similar but different stages, including one that depends on the encryption key itself. A set of reverse rounds are applied to transform ciphertext back into the original plaintext using the same encryption key.
+
+=== High-level description of the algorithm ===
+
+# KeyExpansion—round keys are derived from the cipher key using [[Rijndael key schedule|Rijndael's key schedule]]. AES requires a separate 128-bit round key block for each round plus one more.
+# InitialRound
+## <tt>AddRoundKey</tt>—each byte of the state is combined with a block of the round key using bitwise xor.
+# Rounds
+## <tt>SubBytes</tt>—a non-linear substitution step where each byte is replaced with another according to a [[Rijndael S-box|lookup table]].
+## <tt>ShiftRows</tt>—a transposition step where each row of the state is shifted cyclically a certain number of steps.
+## <tt>MixColumns</tt>—a mixing operation which operates on the columns of the state, combining the four bytes in each column.
+## <tt>AddRoundKey</tt>
+# Final Round (no <tt>MixColumns</tt>)
+## <tt>SubBytes</tt>
+## <tt>ShiftRows</tt>
+## <tt>AddRoundKey</tt>.
+
+=== The <tt>SubBytes</tt> step ===
+[[Image:AES-SubBytes.svg|right|320px|thumbnail|In the <tt>SubBytes</tt> step, each byte in the state is replaced with its entry in a fixed 8-bit lookup table, ''S''; ''b<sub>ij</sub>'' = ''S(a<sub>ij</sub>)''.]]
+In the <tt>SubBytes</tt> step, each byte <math>a_{i,j}</math> in the ''state'' matrix is replaced with a <tt>SubByte</tt> <math>S(a_{i,j})</math> using an 8-bit [[substitution box]], the [[Rijndael S-box]]. This operation provides the non-linearity in the [[cipher]]. The S-box used is derived from the [[multiplicative inverse]] over '''[[Finite field|GF]]'''(''2<sup>8</sup>''), known to have good non-linearity properties. To avoid attacks based on simple algebraic properties, the S-box is constructed by combining the inverse function with an invertible [[affine transformation]]. The S-box is also chosen to avoid any fixed points (and so is a [[derangement]]), i.e., <math> S(a_{i,j}) \neq a_{i,j} </math>, and also any opposite fixed points, i.e., <math> S(a_{i,j}) \oplus a_{i,j} \neq \text{0xFF} </math>.
+
+=== The <tt>ShiftRows</tt> step ===
+[[Image:AES-ShiftRows.svg|right|320px|thumbnail|In the <tt>ShiftRows</tt> step, bytes in each row of the state are shifted cyclically to the left. The number of places each byte is shifted differs for each row.]]
+The <tt>ShiftRows</tt> step operates on the rows of the state; it cyclically shifts the bytes in each row by a certain [[Offset (computer science)|offset]]. For AES, the first row is left unchanged. Each byte of the second row is shifted one to the left. Similarly, the third and fourth rows are shifted by offsets of two and three respectively. For blocks of sizes 128 bits and 192 bits, the shifting pattern is the same. Row n is shifted left circular by n-1 bytes. In this way, each column of the output state of the <tt>ShiftRows</tt> step is composed of bytes from each column of the input state. (Rijndael variants with a larger block size have slightly different offsets). For a 256-bit block, the first row is unchanged and the shifting for the second, third and fourth row is 1 byte, 3 bytes and 4 bytes respectively—this change only applies for the Rijndael cipher when used with a 256-bit block, as AES does not use 256-bit blocks. The importance of this step is to avoid the columns being linearly independent, in which case, AES degenerates into four independent block ciphers.
+
+=== The <tt>MixColumns</tt> step ===
+[[Image:AES-MixColumns.svg|right|320px|thumbnail|In the <tt>MixColumns</tt> step, each column of the state is multiplied with a fixed polynomial ''c(x)''.]]
+In the <tt>MixColumns</tt> step, the four bytes of each column of the state are combined using an invertible [[linear transformation]]. The <tt>MixColumns</tt> function takes four bytes as input and outputs four bytes, where each input byte affects all four output bytes. Together with <tt>ShiftRows</tt>, <tt>MixColumns</tt> provides [[diffusion (cryptography)|diffusion]] in the cipher.
+
+During this operation, each column is multiplied by a fixed matrix:
+
+::<math>
+\begin{bmatrix}
+2 & 3 & 1 & 1 \\
+1 & 2 & 3 & 1 \\
+1 & 1 & 2 & 3 \\
+3 & 1 & 1 & 2
+\end{bmatrix}
+</math>
+
+Matrix multiplication is composed of multiplication and addition of the entries, and here the multiplication operation can be defined as this: multiplication by 1 means no change, multiplication by 2 means shifting to the left, and multiplication by 3 means shifting to the left and then performing [[Exclusive or|XOR]] with the initial unshifted value. After shifting, a conditional [[Exclusive or|XOR]] with 0x1B should be performed if the shifted value is larger than 0xFF. (These are special cases of the usual multiplication in '''GF'''(''2<sup>8</sup>'').)  Addition is simply XOR.
+
+In more general sense, each column is treated as a polynomial over '''GF'''(''2<sup>8</sup>'') and is then multiplied modulo x<sup>4</sup>+1 with a fixed polynomial c(x) = 0x03 · x<sup>3</sup> + x<sup>2</sup> + x + 0x02. The coefficients are displayed in their [[hexadecimal]] equivalent of the binary representation of bit polynomials from '''GF'''(2)[x]. The <tt>MixColumns</tt> step can also be viewed as a multiplication by the shown particular [[MDS matrix]] in the [[finite field]] '''GF'''(''2<sup>8</sup>''). This process is described further in the article [[Rijndael mix columns]].
+
+=== The <tt>AddRoundKey</tt> step ===
+[[Image:AES-AddRoundKey.svg|right|320px|thumbnail|In the <tt>AddRoundKey</tt> step, each byte of the state is combined with a byte of the round subkey using the [[Exclusive or|XOR]] operation (⊕).]]
+In the <tt>AddRoundKey</tt> step, the subkey is combined with the state. For each round, a subkey is derived from the main [[key (cryptography)|key]] using [[Rijndael key schedule|Rijndael's key schedule]]; each subkey is the same size as the state. The subkey is added by combining each byte of the state with the corresponding byte of the subkey using bitwise [[Exclusive or|XOR]].
+
+=== Optimization of the cipher ===
+On systems with 32-bit or larger words, it is possible to speed up execution of this cipher by combining the <tt>SubBytes</tt> and <tt>ShiftRows</tt> steps with the <tt>MixColumns</tt> step by transforming them into a sequence of table lookups. This requires four 256-entry 32-bit tables, and utilizes a total of four kilobytes (4096 bytes) of memory — one kilobyte for each table. A round can then be done with 16 table lookups and 12 32-bit exclusive-or operations, followed by four 32-bit exclusive-or operations in the <tt>AddRoundKey</tt> step.<ref>[http://www.springerlink.com/index/UVX5NQGNN55VK199.pdf "Efficient software implementation of AES on 32-bit platforms".] Lecture Notes in Computer Science: 2523. 2003</ref>
+
+If the resulting four-kilobyte table size is too large for a given target platform, the table lookup operation can be performed with a single 256-entry 32-bit (i.e. 1 kilobyte) table by the use of circular rotates.
+
+Using a byte-oriented approach, it is possible to combine the <tt>SubBytes</tt>, <tt>ShiftRows</tt>, and <tt>MixColumns</tt> steps into a single round operation.<ref>{{cite web|url=http://code.google.com/p/byte-oriented-aes |title=byte-oriented-aes - A public domain byte-oriented implementation of AES in C - Google Project Hosting |publisher=Code.google.com |date= |accessdate=2012-12-23}}</ref>
+
+== Security ==
+Until May 2009, the only successful published attacks against the full AES were [[side-channel attack]]s on some specific implementations. The [[National Security Agency]] (NSA) reviewed all the AES finalists, including Rijndael, and stated that all of them were secure enough for U.S. Government non-classified data. In June 2003, the U.S. Government announced that AES could be used to protect [[classified information]]:
+<blockquote>The design and strength of all key lengths of the AES algorithm (i.e., 128, 192 and 256) are sufficient to protect classified information up to the SECRET level. TOP SECRET information will require use of either the 192 or 256 key lengths. The implementation of AES in products intended to protect national security systems and/or information must be reviewed and certified by NSA prior to their acquisition and use.<ref>{{cite web|url=http://csrc.nist.gov/groups/ST/toolkit/documents/aes/CNSS15FS.pdf |title=National Policy on the Use of the Advanced Encryption Standard (AES) to Protect National Security Systems and National Security Information |author=Lynn Hathaway |date=June 2003  |format=PDF |accessdate=2011-02-15}}</ref></blockquote>
+
+AES has 10 rounds for 128-bit keys, 12 rounds for 192-bit keys, and 14 rounds for 256-bit keys. By 2006, the best known attacks were on 7 rounds for 128-bit keys, 8 rounds for 192-bit keys, and 9 rounds for 256-bit keys.<ref name=improved>[[John Kelsey (cryptanalyst)|John Kelsey]], [[Stefan Lucks]], [[Bruce Schneier]], [[Mike Stay]], [[David A. Wagner|David Wagner]], and [[Doug Whiting]], ''Improved Cryptanalysis of Rijndael'', [[Fast Software Encryption]], 2000 pp213–230 [http://www.schneier.com/paper-rijndael.html]</ref>
+
+=== Known attacks ===
+For cryptographers, a [[cryptanalysis|cryptographic]] "break" is anything faster than a [[Brute-force attack|brute force]]—performing one trial decryption for each key (see [[Cryptanalysis#Computational resources required|Cryptanalysis]]). This includes results that are infeasible with current technology. The largest successful publicly known [[brute force attack]] against any block-cipher encryption was against a 64-bit [[RC5]] key by [[distributed.net]] in 2006.<ref name=ZD20060430>{{cite web
+| url         = http://www.zdnet.com/blog/ou/is-encryption-really-crackable/204
+| title       = Is encryption really crackable?
+| first1      = George
+| last1       = Ou
+| publisher   = Ziff-Davis
+| date        = April 30, 2006
+| archiveurl  = http://www.webcitation.org/5rocpRxhN
+| archivedate = August 7, 2010
+| accessdate  = August 7, 2010 }}</ref>
+
+AES has a fairly simple algebraic description.<ref>{{cite web|url=http://www.isg.rhul.ac.uk/~sean/ |title=Sean Murphy |publisher=University of London |date= |accessdate=2008-11-02}}</ref> In 2002, a theoretical attack, termed the "[[XSL attack]]", was announced by [[Nicolas Courtois]] and [[Josef Pieprzyk]], purporting to show a weakness in the AES algorithm due to its simple description.<ref>{{cite web | url = http://www.schneier.com/crypto-gram-0209.html | title = AES News, Crypto-Gram Newsletter, September 15, 2002 | author = Bruce Schneier | accessdate = 2007-07-27| archiveurl= http://web.archive.org/web/20070707105715/http://www.schneier.com/crypto-gram-0209.html| archivedate= 7 July 2007 <!--DASHBot-->| deadurl= no}}</ref>  Since then, other papers have shown that the attack as originally presented is unworkable; see [[XSL attack#Application to block ciphers|XSL attack on block ciphers]].
+
+During the AES process, developers of competing algorithms wrote of Rijndael, "...we are concerned about [its] use...in security-critical applications."<ref name="rijndael-algebraic">
+{{cite conference
+| author = [[Niels Ferguson]], [[Richard Schroeppel]], Doug Whiting
+| title = A simple algebraic representation of Rijndael
+| booktitle = Proceedings of [[Selected Areas in Cryptography]], 2001, Lecture Notes in Computer Science
+| pages = 103–111
+| publisher = [[Springer-Verlag]]
+| year = 2001
+| location =
+| url = http://www.macfergus.com/pub/rdalgeq.html
+| doi =
+| format = PDF/[[PostScript]]
+| accessdate = 2006-10-06
+| archiveurl= http://web.archive.org/web/20061104080748/http://www.macfergus.com/pub/rdalgeq.html
+| archivedate= 4 November 2006}}</ref> However, in October 2000 at the end of the AES selection process, [[Bruce Schneier]], a developer of the competing algorithm [[Twofish]], wrote that while he thought successful academic attacks on Rijndael would be developed someday, "I do not believe that anyone will ever discover an attack that will allow someone to read Rijndael traffic."<ref>Bruce Schneier, [http://www.schneier.com/crypto-gram-0010.html AES Announced], October 15, 2000</ref>
+
+On July 1, 2009, Bruce Schneier blogged<ref>{{cite web
+|url=http://www.schneier.com/blog/archives/2009/07/new_attack_on_a.html
+|title=New Attack on AES
+|author=Bruce Schneier
+|date=2009-07-01
+|work=Schneier on Security, A blog covering security and security technology
+|accessdate=2010-03-11| archiveurl= http://web.archive.org/web/20100208155652/http://www.schneier.com/blog/archives/2009/07/new_attack_on_a.html| archivedate= 8 February 2010 <!--DASHBot-->| deadurl= no}}</ref>
+about a [[related-key attack]] on the 192-bit and 256-bit versions of AES, discovered by [[Alex Biryukov]] and Dmitry Khovratovich,<ref>{{cite web
+|url=http://eprint.iacr.org/2009/317
+|title=Related-key Cryptanalysis of the Full AES-192 and AES-256
+|author=Biryukov, Alex
+|coauthors=Khovratovich,  Dmitry
+|date=2009-12-04
+|accessdate=2010-03-11}}</ref>
+which exploits AES's somewhat simple key schedule and has a complexity of 2<sup>119</sup>. In December 2009 it was improved to 2<sup>99.5</sup>. This is a follow-up to an attack discovered earlier in 2009 by Alex Biryukov, Dmitry Khovratovich, and Ivica Nikolić, with a complexity of 2<sup>96</sup> for one out of every 2<sup>35</sup> keys.<ref>{{cite book
+|title=Advances in Cryptology – CRYPTO 2009
+|chapter=Distinguisher and Related-Key Attack on the Full AES-256
+|last1=Nikolić
+|first1=Ivica
+|year=2009
+|publisher=Springer Berlin /  Heidelberg
+|isbn=978-3-642-03355-1
+|pages=231–249
+|doi=10.1007/978-3-642-03356-8_14
+|accessdate=2010-03-11}}</ref>
+
+Another attack was blogged by Bruce Schneier<ref>{{cite web
+|url=http://www.schneier.com/blog/archives/2009/07/another_new_aes.html
+|title=Another New AES Attack
+|author=Bruce Schneier
+|date=2009-07-30
+|work=Schneier on Security, A blog covering security and security technology
+|accessdate=2010-03-11}}</ref>
+on July 30, 2009 and released as a preprint<ref>{{cite web
+|url=http://eprint.iacr.org/2009/374
+|title=Key Recovery Attacks of Practical Complexity on AES Variants With Up To 10 Rounds
+|author=Alex Biryukov
+|coauthors=Orr Dunkelman; Nathan Keller; Dmitry Khovratovich; Adi Shamir
+|date=2009-08-19
+|accessdate=2010-03-11| archiveurl= http://web.archive.org/web/20100128050656/http://eprint.iacr.org/2009/374| archivedate= 28 January 2010 <!--DASHBot-->| deadurl= no}}</ref>
+on August 3, 2009. This new attack, by Alex Biryukov, Orr Dunkelman, Nathan Keller, Dmitry Khovratovich, and [[Adi Shamir]], is against AES-256 that uses only two related keys and 2<sup>39</sup> time to recover the complete 256-bit key of a 9-round version, or 2<sup>45</sup> time for a 10-round version with a stronger type of related subkey attack, or 2<sup>70</sup> time for an 11-round version. 256-bit AES uses 14 rounds, so these attacks aren't effective against full AES.
+
+In November 2009, the first known-key [[distinguishing attack]] against a reduced 8-round version of AES-128 was released as a preprint.<ref>{{cite web
+|url=http://eprint.iacr.org/2009/531
+|title=Super-Sbox Cryptanalysis: Improved Attacks for AES-like permutations
+|author=Henri Gilbert
+ |coauthors=Thomas Peyrin
+|date=2009-11-09
+|accessdate=2010-03-11}}</ref>
+This known-key distinguishing attack is an improvement of the rebound or the start-from-the-middle attacks for AES-like permutations, which view two consecutive rounds of permutation as the application of a so-called Super-Sbox. It works on the 8-round version of AES-128, with a time complexity of 2<sup>48</sup>, and a memory complexity of 2<sup>32</sup>.
+
+In July 2010 Vincent Rijmen published an ironic paper on "chosen-key-relations-in-the-middle" attacks on AES-128.<ref>{{cite web |url=http://eprint.iacr.org/2010/337.pdf |title=Practical-Titled Attack on AES-128 Using Chosen-Text Relations |author=Vincent Rijmen |year=2010}}</ref>
+
+The first [[key-recovery attack]]s on full AES were due to Andrey Bogdanov, Dmitry Khovratovich, and Christian Rechberger, and were published in 2011.<ref>{{cite web |url=http://research.microsoft.com/en-us/projects/cryptanalysis/aesbc.pdf |title=Biclique Cryptanalysis of the Full AES |author=Andrey Bogdanov, Dmitry Khovratovich, and Christian Rechberger |year=2011}}</ref> The attack is based on bicliques and is faster than brute force by a factor of about four. It requires 2<sup>126.1</sup> operations to recover an AES-128 key. For AES-192 and AES-256, 2<sup>189.7</sup> and 2<sup>254.4</sup> operations are needed, respectively.
+
+=== Side-channel attacks ===<!-- possibly out of date? -->
+[[Side-channel attacks]] do not attack the underlying cipher thus don't relate to how security is described here, but rather attack implementations of the cipher on systems which inadvertently leak data. There are several such known attacks on certain implementations of AES.
+
+In April 2005, [[Daniel J. Bernstein|D.J. Bernstein]] announced a cache-timing attack that he used to break a custom server that used [[OpenSSL]]'s AES encryption.<ref name="bernstein_timing">{{cite web|url=http://cr.yp.to/papers.html#cachetiming |title=Index of formal scientific papers |publisher=Cr.yp.to |date= |accessdate=2008-11-02}}</ref> The attack required over 200 million chosen plaintexts.<ref>{{cite web | url = http://www.schneier.com/blog/archives/2005/05/aes_timing_atta_1.html | title = AES Timing Attack | author = Bruce Schneier | accessdate = 2007-03-17| archiveurl= http://web.archive.org/web/20070212015727/http://www.schneier.com/blog/archives/2005/05/aes_timing_atta_1.html| archivedate= 12 February 2007 <!--DASHBot-->| deadurl= no}}</ref> The custom server was designed to give out as much timing information as possible (the server reports back the number of machine cycles taken by the encryption operation); however, as Bernstein pointed out, "reducing the precision of the server's timestamps, or eliminating them from the server's responses, does not stop the attack: the client simply uses round-trip timings based on its local clock, and compensates for the increased noise by averaging over a larger number of samples."<ref name="bernstein_timing" />
+
+In October 2005, Dag Arne Osvik, [[Adi Shamir]] and Eran Tromer presented a paper demonstrating several cache-timing attacks against AES.<ref>{{cite journal|url=http://www.wisdom.weizmann.ac.il/~tromer/papers/cache.pdf |title=Cache Attacks and Countermeasures: the Case of AES |format=PDF |date=2005-11-20 |author=Dag Arne Osvik1|coauthors =Adi Shamir2 and Eran Tromer2 |accessdate=2008-11-02}}</ref> One attack was able to obtain an entire AES key after only 800 operations triggering encryptions, in a total of 65 milliseconds. This attack requires the attacker to be able to run programs on the same system or platform that is performing AES.
+
+In December 2009 an attack on some hardware implementations was published that used [[differential fault analysis]] and allows recovery of a key with a complexity of 2<sup>32</sup>.<ref>{{cite journal|url=http://eprint.iacr.org/2009/581.pdf |title=A Diagonal Fault Attack on the Advanced Encryption Standard |author=Dhiman Saha, Debdeep Mukhopadhyay, Dipanwita RoyChowdhury |format=PDF |accessdate=2009-12-08| archiveurl= http://web.archive.org/web/20091222070135/http://eprint.iacr.org/2009/581.pdf| archivedate= 22 December 2009 <!--DASHBot-->| deadurl= no}}</ref>
+
+In November 2010 Endre Bangerter, David Gullasch and Stephan Krenn published a paper which described a practical approach to a "near real time" recovery of secret keys from AES-128 without the need for either cipher text or plaintext. The approach also works on AES-128 implementations that use compression tables, such as OpenSSL.<ref>{{cite web |url=http://eprint.iacr.org/2010/594.pdf |title=Cache Games – Bringing Access-Based Cache Attacks on AES to Practice |author=Endre Bangerter, David Gullasch and Stephan Krenn |year=2010}}</ref>  Like some earlier attacks this one requires the ability to run unprivileged code on the system performing the AES encryption, which may be achieved by malware infection far more easily than commandeering the root account.<ref>{{cite web|url=http://news.ycombinator.com/item?id=1937902 |title=Breaking AES-128 in realtime, no ciphertext required &#124; Hacker News |publisher=News.ycombinator.com |date= |accessdate=2012-12-23}}</ref>
+
+== NIST/CSEC validation ==
+The [[CMVP|Cryptographic Module Validation Program]] (CMVP) is operated jointly by the United States Government's [[National Institute of Standards and Technology]] (NIST) Computer Security Division and the [[Communications Security Establishment]] (CSE) of the Government of Canada. The use of cryptographic modules validated to NIST [[FIPS 140-2]] is required by the United States Government for encryption of all data that has a classification of Sensitive but Unclassified (SBU) or above. From NSTISSP #11, National Policy Governing the Acquisition of Information Assurance: "Encryption products for protecting classified information will be certified by NSA, and encryption products intended for protecting sensitive information will be certified in accordance with NIST FIPS 140-2."<ref name="cnss.gov">http://www.cnss.gov/Assets/pdf/nstissp_11_fs.pdf</ref>
+
+The Government of Canada also recommends the use of [[FIPS 140]] validated cryptographic modules in unclassified applications of its departments.
+
+Although NIST publication 197 ("FIPS 197") is the unique document that covers the AES algorithm, vendors typically approach the CMVP under FIPS 140 and ask to have several algorithms (such as [[Triple DES|Triple&nbsp;DES]] or [[SHA1]]) validated at the same time. Therefore, it is rare to find cryptographic modules that are uniquely FIPS 197 validated and NIST itself does not generally take the time to list FIPS 197 validated modules separately on its public web site. Instead, FIPS 197 validation is typically just listed as an "FIPS approved: AES" notation (with a specific FIPS 197 certificate number) in the current list of FIPS 140 validated cryptographic modules.
+
+The Cryptographic Algorithm Validation Program (CAVP)<ref>{{cite web|url=http://csrc.nist.gov/groups/STM/cavp/index.html |title=NIST.gov - Computer Security Division - Computer Security Resource Center |publisher=Csrc.nist.gov |date= |accessdate=2012-12-23}}</ref> allows for independent validation of the correct implementation of the AES algorithm at a reasonable cost{{Citation needed|date=December 2010}}. Successful validation results in being listed on the NIST validations page. This testing is a pre-requisite for the FIPS 140-2 module validation described below. However, successful CAVP validation in no way implies that the cryptographic module implementing the algorithm is secure. A cryptographic module lacking FIPS 140-2 validation or specific approval by the NSA is not deemed secure by the US Government and cannot be used to protect government data.<ref name="cnss.gov"/>
+
+FIPS 140-2 validation is challenging to achieve both technically and fiscally.<ref name="openssl">{{cite web|author=OpenSSL, openssl@openssl.org |url=http://openssl.org/docs/fips/fipsnotes.html |title=OpenSSL's Notes about FIPS certification |publisher=Openssl.org |date= |accessdate=2012-12-23}}</ref> There is a standardized battery of tests as well as an element of source code review that must be passed over a period of a few weeks. The cost to perform these tests through an approved laboratory can be significant (e.g., well over $30,000 US)<ref name="openssl" /> and does not include the time it takes to write, test, document and prepare a module for validation. After validation, modules must be re-submitted and re-evaluated if they are changed in any way. This can vary from simple paperwork updates if the security functionality did not change to a more substantial set of re-testing if the security functionality was impacted by the change.
+
+== Test vectors ==
+Test vectors are a set of known ciphers for a given input and key.  [[NIST]] distributes the reference of AES test vectors as [http://csrc.nist.gov/groups/STM/cavp/documents/aes/KAT_AES.zip AES Known Answer Test (KAT) Vectors (in ZIP format)].
+
+== Performance ==
+High speed and low RAM requirements were criteria of the AES selection process. Thus AES performs well on a wide variety of hardware, from 8-bit [[smart card]]s to high-performance computers.
+
+On a [[Pentium Pro]], AES encryption requires 18 clock cycles per byte,<ref>{{cite web |url=http://www.schneier.com/paper-aes-performance.pdf |title=Performance Comparisons of the AES submissions |last1=Schneier |first1=Bruce |last2=Kelsey |first2=John |last3=Whiting |first3=Doug |last4=Wagner |first4=David |last5=Hall |first5=Chris |last6=Ferguson |first6=Niels |date=1999-02-01 |format=PDF |accessdate=2010-12-28}}</ref> equivalent to a throughput of about 11&nbsp;MB/s for a 200&nbsp;MHz processor. On a 1.7&nbsp;GHz [[Pentium M]] throughput is about 60&nbsp;MB/s.
+
+On Intel [[Core i3]]/[[Core i5|i5]]/[[Core i7|i7]] CPUs supporting [[AES instruction set|AES-NI instruction set]] extensions, throughput can be over 700&nbsp;MB/s per thread.<ref>{{cite web |url=http://grantmcwilliams.com/tech/technology/item/532-hardware-aes-showdown-via-padlock-vs-intel-aes-ni-vs-amd-hexacore |title=Hardware AES Showdown - VIA Padlock vs Intel AES-NI vs AMD Hexacore |last=McWilliams |first=Grant |date=6 July 2011 |accessdate=2013-08-28}}</ref>
+
+== Implementations ==
+
+{{Main|AES implementations}}
+== Online demo ==
+[http://aesencryption.net AES encryption online]
+
+== See also ==
+*[[Disk encryption]]
+*[[Multiscale Electrophysiology Format]] (MEF)
+*[[Whirlpool (cryptography)|Whirlpool]] – hash function created by Vincent Rijmen and Paulo S. L. M. Barreto
+
+== Notes ==
+{{Reflist|30em}}
+
+== References ==
+* Nicolas Courtois, Josef Pieprzyk, "Cryptanalysis of Block Ciphers with Overdefined Systems of Equations". pp267–287, [[ASIACRYPT]] 2002.
+* Joan Daemen, Vincent Rijmen, "The Design of Rijndael: AES – The Advanced Encryption Standard." Springer, 2002. ISBN 3-540-42580-2.
+* Christof Paar, Jan Pelzl, [http://wiki.crypto.rub.de/Buch/sample_chapters.php  "The Advanced Encryption Standard"], Chapter 4 of "Understanding Cryptography, A Textbook for Students and Practitioners". (companion web site contains online lectures on AES), Springer, 2009.
+
+== External links ==
+* [http://embeddedsw.net/Cipher_Reference_Home.html 256bit Ciphers - AES Reference implementation and derived code]
+* [http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf FIPS PUB 197: the official AES standard] ([[Portable Document Format|PDF]] file)
+* [http://csrc.nist.gov/archive/aes/rijndael/wsdindex.html AES algorithm archive information – (old, unmaintained)]
+* [http://webstore.iec.ch/preview/info_isoiec18033-3%7Bed2.0%7Den.pdf Preview of ISO/IEC 18033-3]
+* [http://www.formaestudio.com/rijndaelinspector/archivos/Rijndael_Animation_v4_eng.swf Animation of Rijndael]
+* [http://www.theinquirer.net/inquirer/news/2102435/aes-encryption-cracked/ AES encryption is cracked]
+{{Cryptography navbox | block}}
+
+[[Category:Advanced Encryption Standard| ]]
+[[Category:Broken block ciphers]]

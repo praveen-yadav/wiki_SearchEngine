@@ -1,0 +1,227 @@
+{{Calculus |Vector}}
+
+In [[vector calculus]], the '''curl'''  is a [[vector operator]] that describes the [[Differential (infinitesimal)|infinitesimal]] [[rotation]] of a 3-dimensional [[vector field]]. At every point in the field, the curl of that field is represented by a [[vector (geometry)|vector]].  The attributes of this vector (length and direction) characterize the rotation at that point.
+
+The direction of the curl is the axis of rotation, as determined by the [[right-hand rule]], and the magnitude of the curl is the magnitude of rotation.  If the vector field represents the [[flow velocity]] of a moving [[fluid]], then the curl is the '''[[circulation (fluid dynamics)|circulation]] density''' of the fluid.  A vector field whose curl is zero is called [[irrotational]].
+The curl is a form of [[derivative|differentiation]] for vector fields.  The corresponding form of the [[fundamental theorem of calculus]] is [[Kelvin-Stokes theorem|Stokes' theorem]], which relates the [[surface integral]] of the curl of a vector field to the [[line integral]] of the vector field around the boundary curve.
+
+The alternative terminology ''rotor'' or ''rotational'' and alternative notations rot '''F''' and ∇ × '''F''' are often used (the former especially in many European countries, the latter, using the [[del]] operator and the [[cross product]], is more used in other countries) for ''curl'' and curl '''F'''.
+
+Unlike the [[gradient]] and [[divergence]], curl does not generalize as simply to other dimensions; some [[#Generalizations|generalizations]] are possible, but only in three dimensions is the geometrically defined curl of a vector field again a vector field. This is a similar phenomenon as in the 3 dimensional [[cross product]], and the connection is reflected in the notation ∇ × for the curl.
+
+The name "curl" was first suggested by [[James Clerk Maxwell]] in 1871.<ref>[http://www.clerkmaxwellfoundation.org/MathematicalClassificationofPhysicalQuantities_Maxwell.pdf Proceedings of the London Mathematical Society, March 9th, 1871]</ref>
+
+==Definition==
+[[File:Curl.svg|thumb|300px|The components of '''F''' at position '''r''', normal and tangent to a closed curve ''C'' in a plane, enclosing a planar [[vector area]] '''A''' = ''A'''''n'''.]]
+
+<!---DEL CROSS F IS NOT A DEFINITION, IT'S AN ALTERNATIVE NOTATION.  IT DOESN'T MEAN ANYTHING SO YOU CAN'T BASE A DEFINITION ON IT----->The curl of a vector field '''F''', denoted by curl '''F''' or ∇ × '''F''', at a point is defined in terms of its projection onto various lines through the point.  If <math>\scriptstyle\mathbf{\hat{n}}</math> is any unit vector, the projection of the curl of '''F''' onto <math>\scriptstyle\mathbf{\hat{n}}</math> is defined to be the limiting value of a closed [[line integral]] in a plane orthogonal to <math>\scriptstyle\mathbf{\hat{n}}</math> as the path used in the integral becomes infinitesimally close to the point, divided by the area enclosed. 
+
+As such, the curl operator maps [[smooth function|C<sup>1</sup>]] functions from '''R'''<sup>3</sup> to '''R'''<sup>3</sup> to ''C''<sup>0</sup> functions from '''R'''<sup>3</sup> to '''R'''<sup>3</sup>. [[Image:Curlorient.svg|200px|right|thumb|Convention for vector orientation of the line integral]]
+
+Implicitly, curl is defined by:<ref>Mathematical methods for physics and engineering, K.F. Riley, M.P. Hobson, S.J. Bence, Cambridge University Press, 2010, ISBN 978-0-521-86153-3</ref><ref>Vector Analysis (2nd Edition), M.R. Spiegel, S. Lipschutz, D. Spellman, Schaum’s Outlines, McGraw Hill (USA), 2009, ISBN 978-0-07-161545-7</ref>
+
+:<math>(\nabla \times \mathbf{F}) \cdot \mathbf{\hat{n}} \ \overset{\underset{\mathrm{def}}{}}{=} \lim_{A \to 0}\left( \frac{1}{|A|}\oint_{C} \mathbf{F} \cdot d\mathbf{r}\right)</math>
+
+where <math>\scriptstyle\oint_{C} \mathbf{F} \cdot d\mathbf{r}</math> is a [[line integral]] along the [[Boundary (topology)|boundary]] of the [[area]] in question, and |''A''| is the magnitude of the area. If <math>\scriptstyle\mathbf{\hat{\nu}}</math> is an outward pointing in-plane normal, whereas <math>\scriptstyle\mathbf{\hat{n}}</math> is the [[unit vector]] perpendicular to the plane (see caption at right), then the [[Orientability|orientation]] of C is chosen so that a [[tangent vector]] <math>\scriptstyle\mathbf{\hat{\omega}}</math> to C is [[orientation (mathematics)|positively oriented]] if and only if <math>\scriptstyle\{\mathbf{\hat{n}},\mathbf{\hat{\nu}},\mathbf{\hat{\omega}}\}</math> forms a positively oriented basis for '''R'''<sup>3</sup> ([[right-hand rule]]).
+
+The above formula means that the curl of a vector field is defined as the infinitesimal [[area density]] of the ''circulation'' of that field. To this definition fit naturally 
+* the [[Kelvin-Stokes theorem]], as a global formula corresponding to the definition, and 
+* the following "easy to memorize" definition of the curl in curvilinear [[orthogonal coordinates]], e.g. in [[Cartesian coordinates]], [[spherical coordinates|spherical]], [[cylindrical coordinates|cylindrical]], or even [[Elliptic coordinate system|elliptical]] or [[Parabolic coordinates|parabolical]] coordinates:
+::<math>({\rm curl}\,\mathbf F)\,_3=\frac{1}{a_1a_2}\left (\frac{\partial (a_2F_2)}{\partial u_1}-\frac{\partial (a_1F_1)}{\partial u_2}\right )\,</math>
+
+If (''x''<sub>1</sub>, ''x''<sub>2</sub>, ''x''<sub>3</sub>) are the [[Cartesian coordinate system|Cartesian coordinates]] and (''u''<sub>1</sub>,''u''<sub>2</sub>,''u''<sub>3</sub>) are the orthogonal coordinates, then 
+:<math>a_i = \sqrt{\sum \limits_{j = 1}^{3}\left (\frac{\partial x_j}{\partial u_i}\right )^2}</math> 
+is the length of the coordinate vector corresponding to ''u<sub>i</sub>''. The remaining two components of curl result from [[cyclic permutation]] of [[index notation|indices]]: 3,1,2 → 1,2,3 → 2,3,1.
+
+===Intuitive interpretation===
+Suppose the vector field describes the [[velocity field]] of a [[fluid flow]] (such as a large tank of [[liquid]] or [[gas]]) and a small ball is located within the fluid or gas (the centre of the ball being fixed at a certain point).  If the ball has a rough surface, the fluid flowing past it will make it rotate. The rotation axis (oriented according to the right hand rule) points in the direction of the curl of the field at the centre of the ball, and the angular speed of the rotation is half the magnitude of the curl at this point.<ref>{{citation|first1=Josiah Willard |last1=Gibbs|authorlink1=Josiah Willard Gibbs|first2=Edwin Bidwell|last2=Wilson|authorlink2=Edwin Bidwell Wilson|title=Vector analysis|url=http://hdl.handle.net/2027/mdp.39015000962285?urlappend=%3Bseq=179|year=1901}}</ref>
+
+== Usage ==
+In practice, the above definition is rarely used because in virtually all cases, the curl [[operator (mathematics)|operator]] can be applied using some set of [[curvilinear coordinates]], for which simpler representations have been derived.
+
+The notation ∇ × '''F''' has its origins in the similarities to the 3 dimensional [[cross product]], and it is useful as a [[mnemonic]] in [[Cartesian coordinate system|Cartesian coordinates]] if we take ∇ as a vector [[differential operator]] [[del]].  Such notation involving [[operator (physics)|operators]] is common in [[physics]] and [[algebra]]. However, in certain coordinate systems, such as polar-toroidal coordinates (common in plasma physics), using the notation ∇ × '''F''' will yield an incorrect result.
+
+Expanded in [[Cartesian coordinate system|Cartesian coordinates]] (see [[Del in cylindrical and spherical coordinates]] for [[Spherical coordinate system|spherical]] and [[Cylindrical coordinate system|cylindrical]] coordinate representations), ∇ × '''F''' is, for '''F''' composed of [''F''<sub>x</sub>, ''F''<sub>y</sub>, ''F''<sub>z</sub>]:
+
+:<math>\begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\  \\
+{\frac{\partial}{\partial x}} & {\frac{\partial}{\partial y}} & {\frac{\partial}{\partial z}} \\
+ \\  F_x & F_y & F_z \end{vmatrix}</math>
+
+where '''i''', '''j''', and '''k''' are the [[unit vector]]s for the ''x''-, ''y''-, and ''z''-axes, respectively. This expands as follows:<ref>Arfken, p. 43.</ref>
+
+:<math>\left(\frac{\partial F_z}{\partial y}  - \frac{\partial F_y}{\partial z}\right) \mathbf{i} + \left(\frac{\partial F_x}{\partial z} - \frac{\partial F_z}{\partial x}\right) \mathbf{j} + \left(\frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y}\right) \mathbf{k}</math>
+
+Although expressed in terms of coordinates, the result is invariant under proper rotations of the coordinate axes but the result inverts under reflection. 
+
+In a general coordinate system, the curl is given by<ref name="Mathworld">{{MathWorld |title=Curl |urlname=Curl}}</ref>
+
+:<math>(\nabla \times \mathbf{F} )^k = \epsilon^{k\ell m} \partial_\ell F_m</math>
+
+where ε denotes the [[Levi-Civita symbol]], the [[metric tensor]] is used to [[raising and lowering indices|lower the index]] on '''F''', and the [[Einstein summation convention]] implies that repeated indices are summed over.  Equivalently,
+
+:<math>(\nabla \times \mathbf{F} ) = \boldsymbol{e}_k\epsilon^{k\ell m} \partial_\ell F_m</math>
+
+where '''e'''<sub>''k''</sub> are the coordinate vector fields.  Equivalently, using the [[exterior derivative]], the curl can be expressed as:
+
+:<math> \nabla \times \mathbf{F} = \left[ \star \left( {\mathbf d} F^\flat \right) \right]^\sharp </math>
+
+Here <math>\scriptstyle\flat </math> and <math>\scriptstyle\sharp </math> are the [[musical isomorphism]]s, and <math>\scriptstyle\star </math> is the [[Hodge dual]]. This formula shows how to calculate the curl of F in any coordinate system, and how to extend the curl to any [[orientation (mathematics)|oriented]] three dimensional [[Riemannian metric|Riemannian]] manifold. Since this depends on a choice of orientation, curl is a [[Chirality (mathematics)|chiral]] operation. In other words, if the orientation is reversed, then the direction of the curl is also reversed.
+
+==Examples==
+===A simple vector field===
+Take the [[vector field]], which depends on ''x'' and ''y'' linearly:
+
+:<math>\mathbf{F}(x,y,z)=y\boldsymbol{\hat{x}}-x\boldsymbol{\hat{y}}.</math>
+
+Its plot looks like this:
+
+[[Image:Uniform curl.svg|center|250px]]
+
+Simply by visual inspection, we can see that the field is rotating.  If we place a [[paddle wheel]] anywhere, we see immediately its tendency to rotate clockwise. Using the [[right-hand rule]], we expect the curl to be into the page.  If we are to keep a [[Right-handed coordinate system#In three dimensions|right-handed]] coordinate system, into the page will be in the negative z direction. The lack of x and y directions is analogous to the cross product operation.
+
+If we calculate the curl:
+
+:<math>\nabla \times \mathbf{F}  =0\boldsymbol{\hat{x}}+0\boldsymbol{\hat{y}}+ \left[{\frac{\partial}{\partial x}}(-x) -{\frac{\partial}{\partial y}} y\right]\boldsymbol{\hat{z}}=-2\boldsymbol{\hat{z}}
+</math>
+
+Which is indeed in the negative ''z'' direction, as expected.  In this case, the curl is actually a constant, irrespective of position.  The "amount" of rotation in the above vector field is the same at any point (''x'',&nbsp;''y'').  Plotting the curl of ''F'' is not very interesting:
+
+[[Image:Curl of uniform curl.png|center|250px]]
+
+===A more involved example===
+Suppose we now consider a slightly more complicated vector field:
+
+:<math>\mathbf{F}(x,y,z)=-x^2\boldsymbol{\hat{y}}.</math>
+
+Its plot:
+
+[[Image:Nonuniform curl.svg|250px|center]]
+
+We might not see any rotation initially, but if we closely look at the right, we see a larger field at, say, x=4 than at x=3.  Intuitively, if we placed a small paddle wheel there, the larger "current" on its right side would cause the paddlewheel to rotate clockwise, which corresponds to a curl in the negative z direction.  By contrast, if we look at a point on the left and placed a small paddle wheel there, the larger "current" on its left side would cause the paddlewheel to rotate counterclockwise, which corresponds to a curl in the positive z direction.  Let's check out our guess by doing the math:
+
+:<math>{\nabla} \times \mathbf{F} =0\boldsymbol{\hat{x}}+0\boldsymbol{\hat{y}}+ {\frac{\partial}{\partial x}}(-x^2) \boldsymbol{\hat{z}}=-2x\boldsymbol{\hat{z}}.
+</math>
+
+Indeed the curl is in the positive z direction for negative x and in the negative z direction for positive x, as expected.  Since this curl is not the same at every point, its plot is a bit more interesting:
+
+[[Image:Curl of nonuniform curl.png|center|250px|center]]
+
+We note that the plot of this curl has no dependence on y or z (as it shouldn't) and is in the negative z direction for positive x and in the positive z direction for negative x.
+
+===Identities===
+{{Main|Vector calculus identities}}
+Consider the example ∇ × ('''v''' × '''F'''). Using Cartesian coordinates, it can be shown that
+::<math>\nabla \times \left( \mathbf{v \times F} \right) = \left[ \left( \mathbf{ \nabla \cdot F } \right) + \mathbf{F \cdot \nabla} \right] \mathbf{v}- \left[ \left( \mathbf{ \nabla \cdot v } \right) + \mathbf{v \cdot \nabla} \right] \mathbf{F} \ . </math>
+
+In the case where the vector field '''v''' and ∇ are interchanged:
+
+::<math> \mathbf{v \  \times } \left( \mathbf{ \nabla \times F} \right) =\nabla_F \left( \mathbf{v \cdot F } \right) - \left( \mathbf{v \cdot \nabla } \right) \mathbf{ F} \ , </math>
+
+which introduces the Feynman subscript notation ∇<sub>F</sub>, which means the subscripted gradient operates only on the factor '''F'''.
+
+Another example is ∇ × (∇ × '''F'''). Using Cartesian coordinates, it can be shown that:
+
+::<math> \nabla \times \left( \mathbf{\nabla \times F} \right) = \mathbf{\nabla} (\mathbf{\nabla \cdot F}) - \nabla^2 \mathbf{F}  \ , </math>
+
+which can be construed as a special case of the previous example with the substitution '''v''' → ∇.
+
+(Note: ∇<sup>2</sup>'''F''' represents the [[vector Laplacian]] of '''F''')
+
+The curl of the [[gradient]] of ''any'' [[scalar field]] φ is always the [[zero vector]]:
+
+::<math>\nabla \times ( \nabla \phi )  = \vec{0}</math>
+
+If φ is a scalar valued function and '''F''' is a vector field, then
+
+::<math>\nabla \times ( \varphi \mathbf{F}) = \nabla \varphi \times \mathbf{F} + \varphi \nabla \times \mathbf{F}     </math>
+
+===Descriptive examples===
+* In a vector field describing the linear velocities of each part of a rotating disk, the curl has the same value at all points.
+* Of the four [[Maxwell's equations]], two&mdash;[[Faraday's law of induction|Faraday's law]] and [[Ampère's circuital law|Ampère's law]]&mdash;can be compactly expressed using curl. Faraday's law states that the curl of an electric field is equal to the opposite of the time rate of change of the magnetic field, while Ampère's law relates the curl of the magnetic field to the current and rate of change of the electric field.
+
+== Generalizations ==
+The vector calculus operations of [[gradient|grad]], curl, and [[divergence|div]] are most easily generalized and understood in the context of differential forms, which involves a number of steps. In a nutshell, they correspond to the derivatives of 0-forms, 1-forms, and 2-forms, respectively. The geometric interpretation of curl as rotation corresponds to identifying [[bivector]]s (2-vectors) in 3 dimensions with the [[special orthogonal Lie algebra]] '''so'''(3) of infinitesimal rotations (in coordinates, skew-symmetric 3 × 3 matrices), while representing rotations by vectors corresponds to identifying 1-vectors (equivalently, 2-vectors) and '''so'''(3), these all being 3-dimensional spaces.
+
+=== Differential forms ===
+{{main|Differential form}}
+In 3 dimensions, a differential 0-form is simply a function ''f''(''x'', ''y'', ''z''); a differential 1-form is the following expression: <math>a_1\,dx + a_2\,dy + a_3\,dz;</math> a differential 2-form is the formal sum: <math>a_{12}\,dx\wedge dy + a_{13}\,dx\wedge dz + a_{23}\,dy\wedge dz;</math> and a differential 3-form is defined by a single term: <math>a_{123}\,dx\wedge dy\wedge dz.</math> (Here the a-coefficients are  real functions; the "wedge products", e.g. <math>dx\wedge dy,</math> can be interpreted as some kind of oriented area elements, <math>dx\wedge dy=-dy\wedge dx</math>, etc.) The [[exterior derivative]] of a ''k''-form in '''R'''<sup>3</sup> is defined as the (''k''+1)-form from above (and in '''R'''<sup>''n''</sup> if,  e.g., 
+
+:<math>\omega^{(k)}=\sum_{i_1<i_2<...<i_k;\,\,\forall i_\nu\in 1,...,n}\,a_{i_1,...,i_k}\,dx_{i_1}\wedge ...\wedge dx_{i_k},</math> 
+
+then the exterior derivative ''d'' leads to 
+
+:<math> d\,\omega^{(k)}=\sum_{j=1;\, i_1<...<i_k}^n\frac{\partial a_{i_1,...,i_k}}{\partial x_j}\,dx_j\,\wedge dx_{i_1}\wedge ...\wedge dx_{i_k}.</math> 
+
+The exterior derivative of a 1-form is therefore a 2-form, and that of a 2-form is a 3-form. On the other hand, because of the interchangeability of mixed derivatives, e.g. because of 
+
+:<math>\frac{\partial^2}{\partial x\partial y}=\frac{\partial^2}{\partial y\partial x},</math> 
+
+the twofold application of the exterior derivative leads to 0.
+
+Thus, denoting the space of ''k''-forms by <math>\Omega^k(\mathbf{R}^3)</math> and the exterior derivative by ''d'' one gets a sequence:
+
+:<math>0 \overset{d}{\to} \Omega^0(\mathbf{R}^3) \overset{d}{\to} \Omega^1(\mathbf{R}^3) \overset{d}{\to} \Omega^2(\mathbf{R}^3)\overset{d}{\to} \Omega^3(\mathbf{R}^3)\overset{d}{\to} 0.</math>
+
+Here <math>\Omega^k(\mathbf{R}^n)</math> is the space of sections of the [[exterior algebra]] <math>\Lambda^k(\mathbf{R}^n)</math> [[vector bundle]] over R<sup>n</sup>, whose dimension is the [[binomial coefficient]] <math>\textstyle{\binom{n}{k}};</math> note that <math>\Omega^k(\mathbf{R}^3) = 0</math> for ''k'' > 3 or ''k'' < 0. Writing only dimensions, one obtains a row of [[Pascal's triangle]]:
+
+:0 → 1 → 3 → 3 → 1 → 0;
+
+the 1-dimensional fibers correspond to functions, and the 3-dimensional fibers to vector fields, as described below.  Note that modulo suitable identifications, the three nontrivial occurrences of the exterior derivative correspond to grad, curl, and div.
+
+Differential forms and the differential can be defined on any Euclidean space, or indeed any manifold, without any notion of a Riemannian metric. On a [[Riemannian manifold]], or more generally [[pseudo-Riemannian manifold]], ''k''-forms can be identified with [[p-vector|''k''-vector]] fields (''k''-forms are ''k''-covector fields, and a pseudo-Riemannian metric gives an isomorphism between vectors and covectors), and on an ''oriented'' vector space with a [[nondegenerate form]] (an isomorphism between vectors and covectors), there is an isomorphism between ''k''-vectors and (''n''−''k'')-vectors; in particular on (the tangent space of) an oriented pseudo-Riemannian manifold. Thus on an oriented pseudo-Riemannian manifold, one can interchange ''k''-forms, ''k''-vector fields, (''n''−''k'')-forms, and (''n''−''k'')-vector fields; this is known as [[Hodge duality]]. Concretely, on '''R'''<sup>3</sup> this is given by:
+* 1-forms and 1-vector fields: the 1-form <math>a_x\,dx + a_y\,dy + a_z\,dz</math> corresponds to the vector field <math>(a_x, a_y, a_z).</math>
+* 1-forms and 2-forms: one replaces ''dx'' by the "dual" quantity <math>dy \wedge dz</math> (i.e., omit ''dx''), and likewise, taking care of orientation: ''dy'' corresponds to <math>dz \wedge dx = -dx \wedge dz,</math> and ''dz'' corresponds to <math>dx \wedge dy.</math> Thus the form <math>a_x\,dx + a_y\,dy + a_z\,dz</math> corresponds to the "dual form" <math>a_z\,dx\wedge dy + a_y\,dz\wedge dx + a_x\,dy\wedge dz.</math>
+
+Thus, identifying 0-forms and 3-forms with functions, and 1-forms and 2-forms with vector fields:
+* grad takes a function (0-form) to a vector field (1-form);
+* curl takes a vector field (1-form) to a vector field (2-form);
+* div takes a vector field (2-form) to a function (3-form)
+
+On the other hand the fact that ''d''<sup>2</sup> = 0 corresponds to  the identities curl grad ''f'' = 0 and <math>\mathrm{div\,\, curl\,\,}\vec v\,=0</math> for any function ''f'' or vector field <math>\vec v.</math>
+
+Grad and div generalize to all oriented pseudo-Riemannian manifolds, with the same geometric interpretation, because the spaces of 0-forms and ''n''-forms is always (fiberwise) 1-dimensional and can be identified with scalar functions, while the spaces of 1-forms and (''n''−1)-forms are always fiberwise ''n''-dimensional and can be identified with vector fields.
+
+Curl does not generalize in this way to 4 or more dimensions (or down to 2 or fewer dimensions); in 4 dimensions the dimensions are
+
+:0 → 1 → 4 → 6 → 4 → 1 → 0;
+
+so the curl of a 1-vector field (fiberwise 4-dimensional) is a ''2-vector field'', which is fiberwise 6-dimensional, one has 
+
+:<math>\omega^{(2)}=\sum_{i<k=1,...,4}a_{i,k}dx_i\wedge dx_k,</math> 
+
+which yields a sum of six independent terms, and cannot be identified with a 1-vector field. Nor can one meaningfully go from a 1-vector field to a 2-vector field to a 3-vector field (4 → 6 → 4), as taking the differential twice yields zero (''d''<sup>2</sup> = 0). Thus there is no curl function from vector fields to vector fields in other dimensions arising in this way.
+
+However, one can define a curl of a vector field as a ''2-vector field'' in general, as described below.
+
+=== Curl geometrically ===
+2-vectors correspond to the exterior power Λ<sup>2</sup>''V''; in the presence of an inner product, in coordinates these are the skew-symmetric matrices, which are geometrically considered as the [[special orthogonal Lie algebra]] '''so'''(''V'') of infinitesimal rotations. This has <math>\textstyle{\binom{n}{2}=\frac{1}{2}n(n-1)}</math> dimensions, and allows one to interpret the differential of a 1-vector field as its infinitesimal rotations. Only in 3 dimensions (or trivially in 0 dimensions) is <math>\textstyle{n=\frac{1}{2}n(n-1)},</math> which is the most elegant and common case. In 2 dimensions the curl of a vector field is not a vector field but a function, as 2-dimensional rotations are given by an angle (a scalar - an orientation is required to choose whether one counts clockwise or counterclockwise rotations as positive); note that this is not the div, but is rather perpendicular to it. In 3 dimensions the curl of a vector field is a vector field as is familiar (in 1 and 0 dimensions the curl of a vector field is 0, because there are no non-trivial 2-vectors), while in 4 dimensions the curl of a vector field is, geometrically, at each point an element of the 6-dimensional Lie algebra '''so'''(4).
+
+Note also that the curl of a 3-dimensional vector field which only depends on 2 coordinates (say ''x, y'') is simply a vertical vector field (in the ''z'' direction) whose magnitude is the curl of the 2-dimensional vector field, as in the examples on this page.
+
+Considering curl as a 2-vector field (an antisymmetric 2-tensor) has been used to generalize vector calculus and associated physics to higher dimensions.<ref>[http://arxiv.org/abs/hep-ph/0609260 Generalizing Cross Products and Maxwell's Equations to Universal Extra Dimensions], A.W. McDavid, C.D. McMullen, 2006</ref>
+
+== See also ==
+*[[Vector_cross_product#Triple_product_expansion|Cross product]]
+*[[Del]]
+*[[Divergence]]
+*[[Gradient]]
+*[[Helmholtz decomposition]]
+*[[Nabla in cylindrical and spherical coordinates]]
+*[[Vorticity]]
+
+==Notes==
+{{reflist}}
+
+==References==
+* [[George B. Arfken|Arfken, George B.]] and Hans J. Weber. ''Mathematical Methods For Physicists'', Academic Press; 6 edition (June 21, 2005). ISBN 978-0-12-059876-2.
+* {{cite book |author=Korn, Granino Arthur and Theresa M. Korn  |title=Mathematical Handbook for Scientists and Engineers: Definitions, Theorems, and Formulas for Reference and Review |publisher=Dover Publications |location=New York |year= |pages=157–160 |isbn=0-486-41147-8 |oclc= |doi=}}
+
+== External links ==
+* {{springer|title=Curl|id=p/c027310}}
+* [http://mathinsight.org/curl_idea The idea of curl of a vector field]
+* [http://betterexplained.com/articles/vector-calculus-understanding-circulation-and-curl Curl BetterExplained]
+
+[[Category:Linear operators in calculus]]
+[[Category:Vector calculus]]
+[[Category:Analytic geometry]]
+{{Link GA|zh}}

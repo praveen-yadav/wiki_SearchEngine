@@ -1,0 +1,296 @@
+{{Refimprove|date=April 2012}}
+In [[cryptography]], a '''block cipher''' is a [[deterministic algorithm]] operating on fixed-length groups of [[bit]]s, called ''blocks'', with an unvarying transformation that is specified by a [[symmetric key]]. Block ciphers are important [[cryptographic primitive|elementary component]]s in the design of many [[cryptographic protocol]]s, and are widely used to implement [[encryption]] of bulk data.
+
+The modern design of block ciphers is based on the concept of an ''iterated'' [[product cipher]]. Product ciphers were suggested and analyzed by [[Claude Shannon]] in his seminal 1949 publication ''[[Communication Theory of Secrecy Systems]]'' as a means to effectively improve security by combining simple operations such as [[substitution cipher|substitution]]s and [[transposition cipher|permutation]]s.<ref name="shannon">{{cite journal|last1=Shannon|first1=Claude|title=Communication Theory of Secrecy Systems|journal=[[Bell System Technical Journal]]|volume=28|issue=4|pages=656–715|year=1949|url=http://netlab.cs.ucla.edu/wiki/files/shannon1949.pdf}}</ref> Iterated product ciphers carry out encryption in multiple rounds, each of which uses a different subkey derived from the original key. One widespread implementation of such ciphers is called a [[Feistel network]], named after [[Horst Feistel]], and notably implemented in the [[Data Encryption Standard|DES]] cipher.<ref name="tilborg">{{cite book|ref=harv|editor1-last=van Tilborg|editor1-first=Henk C. A.|editor2-last=Jajodia|editor2-first=Sushil|title=Encyclopedia of Cryptography and Security|publisher=Springer|year=2011|isbn=978-1-4419-5905-8|url=http://books.google.com/books?id=UuNKmgv70lMC&pg=PA455}}, p.&nbsp;455.</ref> Many other realizations of block ciphers, such as the [[Advanced Encryption Standard|AES]], are classified as [[substitution-permutation network]]s.{{sfn|van Tilborg|Jajodia|2011|p=1268}}
+
+The publication of the DES cipher by the U.S. National Bureau of Standards (now [[National Institute of Standards and Technology]], NIST) in 1977 was fundamental in the public understanding of modern block cipher design. In the same way, it influenced the academic development of [[cryptanalysis|cryptanalytic attack]]s. Both [[differential cryptanalysis|differential]] and [[linear cryptanalysis]] arose out of studies on the DES design. Today, there is a palette of attack techniques against which a block cipher must be secure, in addition to being robust against [[brute force attack]]s.
+
+Even a secure block cipher is suitable only for the encryption of a single block under a fixed key. A multitude of [[block cipher modes of operation|modes of operation]] have been designed to allow their repeated use in a secure way, commonly to achieve the security goals of [[confidentiality]] and [[authentication|authenticity]]. However, block ciphers may also be used as building blocks in other cryptographic protocols, such as [[universal hash function]]s and [[pseudo-random number generator]]s.
+
+==Definition==
+A block cipher consists of two paired [[algorithm]]s, one for encryption, ''E'', and the other for decryption, ''D''.<ref>{{cite book|authors=Cusick, Thomas W. & Stanica, Pantelimon|title=Cryptographic Boolean functions and applications|publisher=Academic Press|year=2009|isbn=9780123748904|pages=158–159|url=http://books.google.com/books?id=OAkhkLSxxxMC&pg=PA158}}</ref> Both algorithms accept two inputs: an input block of size ''n'' bits and a [[key (cryptography)|key]] of size ''k'' bits; and both yield an ''n''-bit output block. The decryption algorithm ''D'' is defined to be the [[inverse function]] of encryption, i.e., ''D'' = ''E''<sup>−1</sup>. More formally,<ref name="HAC">
+{{cite book|ref=harv|first1=Alfred J.|last1=Menezes|first2=Paul C.|last2=van Oorschot|first3=Scott A.|last3=Vanstone|title=Handbook of Applied Cryptography|publisher=CRC Press|year=1996|chapter=Chapter 7: Block Ciphers|isbn=0-8493-8523-7|url=http://www.cacr.math.uwaterloo.ca/hac/}}</ref><ref name="modern-crypto">{{citation|ref=harv|first1=Mihir|last1=Bellare|first2=Phillip|last2=Rogaway|title=Introduction to Modern Cryptography|format=Lecture notes|date=11 May 2005|url=http://www.cs.ucdavis.edu/~rogaway/classes/227/spring05/book/main.pdf}}, chapter&nbsp;3.</ref> a block cipher is specified by an encryption function
+:<math>E_K(P) := E(K,P): \{0,1\}^k \times \{0,1\}^n \rightarrow \{0,1\}^n,</math>
+which takes as input a key ''K'' of bit length ''k'', called the ''key size'', and a bit string ''P'' of length ''n'', called the ''block size'', and returns a string ''C'' of ''n'' bits. ''P'' is called the [[plaintext]], and ''C'' is termed the [[ciphertext]]. For each ''K'', the function ''E''<sub>''K''</sub>(''P'') is required to be an invertible mapping on {0,1}<sup>''n''</sup>. The inverse for ''E'' is defined as a function
+:<math>E_K^{-1}(C) := D_K(C) = D(K,C): \{0,1\}^k \times \{0,1\}^n \rightarrow \{0,1\}^n,</math>
+taking a key ''K'' and a ciphertext ''C'' to return a plaintext value ''P'', such that
+:<math>\forall K: D_K(E_K(P)) = P.</math>
+
+For example, a block cipher encryption algorithm might take a 128-bit block of plaintext as input, and output a corresponding 128-bit block of ciphertext. The exact transformation is controlled using a second input –&nbsp;the secret key. Decryption is similar: the decryption algorithm takes, in this example, a 128-bit block of ciphertext together with the secret key, and yields the original 128-bit block of plain text.<ref>{{cite book|authors=Chakraborty, D. & Rodriguez-Henriquez F.|chapter=Block Cipher Modes of Operation from a Hardware Implementation Perspective|editor=Koç, Çetin K.|title=Cryptographic Engineering|publisher=Springer|year=2008|isbn=9780387718163|page=321|url=http://books.google.com/books?id=nErZY4vYHIoC&pg=PA321}}</ref>
+
+For each key ''K'', ''E<sub>K</sub>'' is a [[permutation]] (a [[bijective]] mapping) over the set of input blocks. Each key selects one permutation from the possible set of <math>(2^n)!</math>.{{sfn|Menezes|van Oorschot|Vanstone|1996|loc=section 7.2}}
+
+==Design==
+
+===Iterated block ciphers===
+Most block cipher algorithms are classified as ''iterated block ciphers'' which means that they transform fixed-size blocks of plain-text into identical size blocks of ciphertext, via the repeated application of an invertible transformation known as the ''round function'', with each iteration referred to as a ''round''.<ref>{{cite book|author=Junod, Pascal & Canteaut, Anne|title=Advanced Linear Cryptanalysis of Block and Stream Ciphers|publisher=IOS Press|year=2011|isbn=9781607508441|page=2|url=http://books.google.com/books?id=pMnRhjStTZoC&pg=PA2}}
+</ref>
+
+Usually, the round function ''R'' takes different ''round keys'' ''K<sub>i</sub>'' as second input, which are derived from the original key:{{citation needed|date=April 2012}}
+:<math>M_i = R_{K_i}(M_{i-1})</math>
+where <math>M_0</math> is the plaintext and <math>M_r</math> the ciphertext, with ''r'' being the round number.
+
+Frequently, [[key whitening]] is used in addition to this. At the beginning and the end, the data is modified with key material (often with [[Exclusive or|XOR]], but simple arithmetic operations like adding and subtracting are also used):{{citation needed|date=April 2012}}
+:<math> M_0 = M \oplus K_0 </math>
+:<math>M_i = R_{K_i}(M_{i-1})\; ; \; i = 1 \dots r</math>
+:<math>C = M_r \oplus K_{r+1}</math>
+
+===Substitution-permutation networks===
+[[Image:SubstitutionPermutationNetwork2.png|thumb|200px|right|A sketch of a Substitution-Permutation Network with 3 rounds, encrypting a plaintext block of 16 bits into a ciphertext block of 16 bits. The S-boxes are the ''S<sub>i</sub>''’s, the P-boxes are the same ''P'', and the round keys are the ''K<sub>i</sub>''’s.]]
+{{Main|Substitution-permutation network}}
+
+One important type of iterated block cipher known as a ''[[substitution-permutation network]] (SPN)'' takes a block of the plaintext and the key as inputs, and applies several alternating rounds consisting of a [[Substitution box|substitution stage]] followed by a [[Permutation box|permutation stage]]—to produce each block of ciphertext output.<ref>{{cite book|authors=Keliher, Liam et al.|chapter=Modeling Linear Characteristics of Substitution-Permutation Networks|editors=Hays, Howard & Carlisle, Adam|title=Selected areas in cryptography: 6th annual international workshop, SAC'99, Kingston, Ontario, Canada, August 9-10, 1999 : proceedings|publisher=Springer|year=2000|isbn=9783540671855|page=79|url=http://books.google.com/books?id=qxurbiN0CcYC&pg=PA79}}</ref> The non-linear substitution stage mixes the key bits with those of the plaintext, creating Shannon's ''[[confusion (cryptography)|confusion]]''. The linear permutation stage then dissipates redundancies, creating ''[[diffusion (cryptography)|diffusion]]''.<ref>{{cite book|authors=Baigneres, Thomas & Finiasz, Matthieu|chapter=Dial 'C' for Cipher|editors=Biham, Eli & Yousseff, Amr|title=Selected areas in cryptography: 13th international workshop, SAC 2006, Montreal, Canada, August 17-18, 2006 : revised selected papers|publisher=Springer|year=2007|isbn=9783540744610|page=77|url=http://books.google.com/books?id=yb99g5G7FS4C&pg=PA77}}</ref><ref>{{cite book|authors=Cusick, Thomas W. & Stanica, Pantelimon|title=Cryptographic Boolean functions and applications|publisher=Academic Press|year=2009|isbn=9780123748904|page=164|url=http://books.google.com/books?id=OAkhkLSxxxMC&pg=PA164}}</ref>
+
+A ''[[substitution box]] (S-box)'' substitutes a small block of input bits with another block of output bits. This substitution must be [[Bijection|one-to-one]], to ensure invertibility (hence decryption). A secure S-box will have the property that changing one input bit will change about half of the output bits on average, exhibiting what is known as the [[avalanche effect]]—i.e. it has the property that each output bit will depend on every input bit.<ref>{{cite book|ref=harv|last1=Katz|first1=Jonathan|last2=Lindell|first2=Yehuda|title=Introduction to modern cryptography|publisher=CRC Press|year=2008|isbn=9781584885511|url=http://books.google.com/books?id=TTtVKHdOcDoC&pg=PA166}}, pages&nbsp;166-167.</ref> 
+
+A ''[[permutation box]] (P-box)'' is a [[permutation]] of all the bits: it takes the outputs of all the S-boxes of one round, permutes the bits, and feeds them into the S-boxes of the next round. A good P-box has the property that the output bits of any S-box are distributed to as many S-box inputs as possible.{{citation needed|date=April 2012}}
+
+At each round, the round key (obtained from the key with some simple operations, for instance, using S-boxes and P-boxes) is combined using some group operation, typically [[XOR]].{{citation needed|date=April 2012}}
+
+[[Decryption]] is done by simply reversing the process (using the inverses of the S-boxes and P-boxes and applying the round keys in reversed order).{{citation needed|date=April 2012}}
+
+===Feistel ciphers===
+[[File:Feistel cipher diagram en.svg|thumb|right|265px|Many block ciphers, such as DES and Blowfish utilize structures known as ''[[Feistel cipher]]s'']]
+{{Main|Feistel cipher}}
+In a ''[[Feistel cipher]]'', the block of plain text to be encrypted is split into two equal-sized halves. The round function is applied to one half, using a subkey, and then the output is XORed with the other half. The two halves are then swapped.{{sfn|Katz|Lindell|2008|pp=170–172}}
+
+Let <math>{\rm F}</math> be the round function and let
+<math>K_0,K_1,\ldots,K_{n}</math> be the sub-keys for the rounds <math>0,1,\ldots,n</math> respectively.
+
+Then the basic operation is as follows:{{sfn|Katz|Lindell|2008|pp=170–172}}
+
+Split the plaintext block into two equal pieces, (<math>L_0</math>, <math>R_0</math>)
+
+For each round <math>i =0,1,\dots,n</math>, compute
+
+:<math>L_{i+1} = R_i\,</math>
+:<math>R_{i+1}= L_i \oplus {\rm F}(R_i, K_i)</math>.
+
+Then the ciphertext is <math>(R_{n+1}, L_{n+1})</math>. 
+
+Decryption of a ciphertext <math>(R_{n+1}, L_{n+1})</math> is accomplished by computing for <math>i=n,n-1,\ldots,0</math>
+
+:<math>R_{i} = L_{i+1}\,</math>
+:<math>L_{i} = R_{i+1} \oplus {\rm F}(L_{i+1}, K_{i})</math>.
+
+Then <math>(L_0,R_0)</math> is the plaintext again.
+
+One advantage of the Feistel model compared to a [[substitution-permutation network]] is that the round function <math>{\rm F}</math> does not have to be invertible.{{sfn|Katz|Lindell|2008|p=171}}
+
+===Lai-Massey scheme===
+[[File:Lai Massey scheme diagram en.svg|thumb|right|265px|The Lai-Massey scheme. The archetypical cipher utilizing it is [[International Data Encryption Algorithm|IDEA]].]]
+{{main|Lai-Massey scheme}}
+
+The Lai-Massey scheme offers security properties similar to those of the [[Feistel structure]]. It also shares its advantage that the round function <math>\mathrm F</math> does not have to be invertible. Another similarity is that is also splits the input block into two equal pieces. However, the round function is applied to the difference between the two, and the result is then added to both half blocks.
+
+Let <math>\mathrm F</math> be the round function and <math>\mathrm H</math> a half-round function and let <math>K_0,K_1,\ldots,K_n</math> be the sub-keys for the rounds <math>0,1,\ldots,n</math> respectively.
+
+Then the basic operation is as follows:
+
+Split the plaintext block into two equal pieces, (<math>L_0</math>, <math>R_0</math>)
+
+For each round <math>i =0,1,\dots,n</math>, compute
+
+:<math>(L_{i+1}',R_{i+1}') = \mathrm H(L_i' + T_i,R_i' + T_i)</math>
+
+where <math>T_i = \mathrm F(L_i' - R_i', K_i)</math> and <math>(L_0',R_0') = \mathrm H(L_0,R_0)</math>
+
+Then the ciphertext is <math>(L_{n+1}, R_{n+1}) = (L_{n+1}',R_{n+1}')</math>.
+
+Decryption of a ciphertext <math>(L_{n+1}, R_{n+1})</math> is accomplished by computing for <math>i=n,n-1,\ldots,0</math>
+
+:<math>(L_i',R_i') = \mathrm H^{-1}(L_{i+1}' - T_i, R_{i+1}' - T_i)</math>
+
+where <math>T_i = \mathrm F(L_{i+1}' - R_{i+1}',K_i)</math> and <math>(L_{n+1}',R_{n+1}')=\mathrm H^{-1}(L_{n+1},R_{n+1})</math>
+
+Then <math>(L_0,R_0) = (L_0',R_0')</math> is the plaintext again.
+
+=== Operations ===
+
+Many modern block ciphers and hashes are [[ARX]] algorithms—their round function involves only three operations: [[modular addition]], [[circular shift|rotation]] with hardwired rotation amounts, and [[exclusive or|XOR]] (ARX).
+Many authors draw an ARX network, a kind of [[data flow diagram]], to illustrate such a round function.<ref>
+{{cite journal
+| url=https://131002.net/siphash/siphash.pdf
+| title=SipHash: a fast short-input PRF
+| last1=Aumasson
+| first1=Jean-Philippe
+| last2=Bernstein
+| first2=Daniel J.
+| authorlink2=Daniel J. Bernstein
+| page=5
+| date=2012-09-18}}</ref>
+
+These ARX operations are popular because they are relatively fast and cheap in hardware and software,
+and also because they run in constant time, and are therefore immune to [[timing attack]]s.
+The [[rotational cryptanalysis]] technique attempts to attack such round functions.
+
+Other operations often used in block ciphers include
+data-dependent rotations as in [[RC5]] and [[RC6]],
+a [[substitution box]] implemented as a [[lookup table]] as in [[Data Encryption Standard]] and [[Advanced Encryption Standard]],
+a [[permutation box]],
+and multiplication as in [[IDEA (cipher)|IDEA]].
+
+==Modes of operation==
+{{Main|Block cipher modes of operation}}
+[[File:Tux ecb.jpg|thumb|Insecure encryption of an image as a result of [[electronic codebook]] mode encoding.]]
+A block cipher by itself allows encryption only of a single data block of the cipher's block length. For a variable-length message, the data must first be partitioned into separate cipher blocks. In the simplest case, known as the [[electronic codebook]] (ECB) mode, a message is first split into separate blocks of the cipher's block size (possibly extending the last block with [[Padding (cryptography)|padding]] bits), and then each block is encrypted and decrypted independently. However, such a naive method is generally insecure because equal plaintext blocks will always generate equal ciphertext blocks (for the same key), so patterns in the plaintext message become evident in the ciphertext output.{{sfn|Menezes|Oorschot|Vanstone|1996|loc=Chapter 7|pp=228–230}}
+
+To overcome this limitation, several so-called [[block cipher modes of operation]] have been designed<ref name="NIST-modes">{{cite web|title=Block Cipher Modes|publisher=[[NIST]] Computer Security Resource Center|url=http://csrc.nist.gov/groups/ST/toolkit/BCM/index.html}}</ref>{{sfn|Menezes|van Oorschot|Vanstone|1996|pp=228–233}} and specified in national recommendations such as NIST 800-38A<ref name="nist800-38a">{{citation|url=http://csrc.nist.gov/publications/nistpubs/800-38a/sp800-38a.pdf|author=Morris Dworkin|title=Recommendation for Block Cipher Modes of Operation – Methods and Techniques|journal=Special Publication 800-38A|publisher=National Institute of Standards and Technology (NIST)|date=December 2001}}</ref> and [[Bundesamt für Sicherheit in der Informationstechnik|BSI]] TR-02102<ref name="BSI-rec">{{citation|title=Kryptographische Verfahren: Empfehlungen und Schlüssellängen|journal=BSI TR-02102|format=Technische Richtlinie|issue=Version 1.0|date=June 20, 2008}}</ref> and international standards such as [[ISO/IEC 10116]].<ref>[http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=38761 ISO/IEC 10116:2006 ''Information technology &mdash; Security techniques &mdash; Modes of operation for an n-bit block cipher'']</ref> The general concept is to use [[randomization]] of the plaintext data based on an additional input value, frequently called an [[initialization vector]], to create what is termed [[probabilistic encryption]].{{sfn|Bellare|Rogaway|2005|loc=section 5.3|p=101}} In the popular [[cipher block chaining]] (CBC) mode, for encryption to be [[semantic security|secure]] the initialization vector passed along with the plaintext message must be a random or [[pseudo-random]] value, which is added in an [[Exclusive or|exclusive-or]] manner to the first plaintext block before it is being encrypted. The resultant ciphertext block is then used as the new initialization vector for the next plaintext block. In the [[cipher feedback]] (CFB) mode, which emulates a [[stream cipher#Self-synchronizing stream ciphers|self-synchronizing stream cipher]], the initialization vector is first encrypted and then added to the plaintext block. The [[output feedback]] (OFB) mode repeatedly encrypts the initialization vector to create a [[key stream]] for the emulation of a [[Stream cipher#Synchronous stream ciphers|synchronous stream cipher]]. The newer [[counter mode|counter]] (CTR) mode similarly creates a key stream, but has the advantage of only needing unique and not (pseudo-)random values as initialization vectors; the needed randomness is derived internally by using the initialization vector as a block counter and encrypting this counter for each block.<ref name="nist800-38a"/>
+
+From a [[provable security|security-theoretic]] point of view, modes of operation must provide what is known as [[semantic security]].{{sfn|Bellare|Rogaway|2005|loc=section 5.6}} Informally, it means that given some ciphertext under an unknown key one cannot practically derive any information from the ciphertext (other than the length of the message) over what one would have known without seeing the ciphertext. It has been shown that all of the modes discussed above, with the exception of the ECB mode, provide this property under so-called [[chosen plaintext attack]]s.
+
+==Padding==
+{{main|Padding (cryptography)}}
+Some modes such as the CBC mode only operate on complete plaintext blocks. Simply extending the last block of a message with zero-bits is insufficient since it does not allow a receiver to easily distinguish messages that differ only in the amount of padding bits. More importantly, such a simple solution gives rise to very efficient [[padding oracle attack]]s.<ref name="padding-attack">{{cite journal|author=Serge Vaudenay|title=Security Flaws Induced by CBC Padding Applications to SSL, IPSEC, WTLS...|journal=Advances in Cryptology – EUROCRYPT 2002, Proc. International Conference on the Theory and Applications of Cryptographic Techniques|issue=2332|pages=534–545|publisher=Springer Verlag|year=2002}}</ref> A suitable [[padding (cryptography)|padding scheme]] is therefore needed to extend the last plaintext block to the cipher's block size. While many popular schemes described in standards and in the literature have been shown to be vulnerable to padding oracle attacks,<ref name="padding-attack"/><ref name="oz-pad">{{cite journal|author1=Kenneth G. Paterson|author2=Gaven J. Watson|title=Immunising CBC Mode Against Padding Oracle Attacks: A Formal Security Treatment|journal=Security and Cryptography for Networks – SCN 2008, Lecture Notes in Computer Science|issue=5229|pages=340–357|publisher=Springer Verlag|year=2008}}</ref> a solution which adds a one-bit and then extends the last block with zero-bits, standardized as "padding method 2" in [[ISO/IEC 9797-1]],<ref name="iso-iec 9797-1">{{citation|title=ISO/IEC 9797-1: Information technology – Security techniques – Message Authentication Codes (MACs) – Part 1: Mechanisms using a block cipher|publisher=ISO/IEC|year=2011|url=http://www.iso.org/iso/iso_catalogue/catalogue_ics/catalogue_detail_ics.htm?csnumber=50375}}</ref> has been proven secure against these attacks.<ref name="oz-pad"/>
+
+==Cryptanalysis==
+
+{{expand section|1=Introduction of attack models may be needed for the cryptanalysis techniques: ciphertext only, known plaintext, chosen plaintext, chosen ciphertext, etc.|date=April 2012}}
+
+===Brute force attacks===
+{{expand section|1=Impact of key size and block size, discuss time-memory-data tradeoffs.|date=April 2012}}
+
+Due to a block cipher's characteristic as an invertible function, its output becomes [[distinguishing attack|distinguishable]] from a truly random output string over time due to the [[birthday problem]]. This property results in the cipher's security degrading quadratically, and needs to be taken into account when selecting a block size. There is a trade-off though as large block sizes can result in the algorithm becoming inefficient to operate.<ref>{{cite book|author=Martin, Keith M.|title=Everyday Cryptography: Fundamental Principles and Applications|publisher=Oxford University Press|year=2012|isbn=9780199695591|page=114|url=http://books.google.com/books?id=5DZ_vv-gl4oC&pg=PA114}}</ref> Earlier block ciphers such as the [[Data Encryption Standard|DES]] have typically selected a 64-bit block size, while newer designs such as the [[Advanced Encryption Standard|AES]] support block sizes of 128 bits or more, with some ciphers supporting a range of different block sizes.<ref>{{cite book|authors=Paar, Cristof et al.|title=Understanding Cryptography: A Textbook for Students and Practitioners|publisher=Springer|year=2010|isbn=9783642041006|page=30|url=http://books.google.com/books?id=f24wFELSzkoC&pg=PA30}}</ref>
+
+===Differential cryptanalysis===
+{{Main|Differential cryptanalysis}}
+{{expand section|date=April 2012}}
+
+===Linear cryptanalysis===
+{{Main|Linear cryptanalysis}}
+
+''[[Linear cryptanalysis]]'' is a form of cryptanalysis based on finding [[affine transformation|affine]] approximations to the action of a [[cipher]]. Linear cryptanalysis is one of the two most widely used attacks on block ciphers; the other being [[differential cryptanalysis]]. {{citation needed|date=April 2012}}
+
+The discovery is attributed to [[Mitsuru Matsui]], who first applied the technique to the [[FEAL]] cipher (Matsui and Yamagishi, 1992).<ref name="FEAL_linear">{{cite conference | author = Matsui, M. and Yamagishi, A | title = A new method for known plaintext attack of FEAL cipher | booktitle = Advances in Cryptology - [[EUROCRYPT]] 1992 }}</ref>
+
+===Integral cryptanalysis===
+{{Main|Integral cryptanalysis}}
+''[[Integral cryptanalysis]]'' is a cryptanalytic attack that is particularly applicable to block ciphers based on substitution-permutation networks. Unlike differential cryptanalysis, which uses pairs of chosen plaintexts with a fixed XOR difference, integral cryptanalysis uses sets or even multisets of chosen plaintexts of which part is held constant and another part varies through all possibilities. For example, an attack might use 256 chosen plaintexts that have all but 8 of their bits the same, but all differ in those 8 bits. Such a set necessarily has an XOR sum of 0, and the XOR sums of the corresponding sets of ciphertexts provide information about the cipher's operation. This contrast between the differences of pairs of texts and the sums of larger sets of texts inspired the name "integral cryptanalysis", borrowing the terminology of calculus.{{citation needed|date=April 2012}}
+
+===Other techniques===
+
+[[File:Attaque boomerang.png|thumb|right|200px|The development of the [[boomerang attack]] enabled [[differential cryptanalysis]] techniques to be applied to many ciphers that had previously been deemed secure against differential attacks]]
+In addition to linear and differential cryptanalysis, there is a growing catalog of attacks: [[truncated differential cryptanalysis]], partial differential cryptanalysis, [[integral cryptanalysis]], which encompasses square and integral attacks, [[slide attack]]s, [[boomerang attack]]s, the [[XSL attack]], [[impossible differential cryptanalysis]] and algebraic attacks. For a new block cipher design to have any credibility, it must demonstrate evidence of security against known attacks.{{citation needed|date=April 2012}}
+
+==Provable security==
+When a block cipher is used in a given mode of operation, the resulting algorithm should ideally be about as secure as the block cipher itself. ECB (discussed above) emphatically lacks this property: regardless of how secure the underlying block cipher is, ECB mode can easily be attacked. On the other hand, CBC mode can be proven to be secure under the assumption that the underlying block cipher is likewise secure. Note, however, that making statements like this requires formal mathematical definitions for what it means for an encryption algorithm or a block cipher to "be secure". This section describes two common notions for what properties a block cipher should have. Each corresponds to a mathematical model that can be used to prove properties of higher level algorithms, such as CBC.
+
+This general approach to cryptography---proving higher-level algorithms (such as CBC) are secure under explicitly stated assumptions regarding their components (such as a block cipher)---is known as ''provable security''.
+
+===Standard model===
+Informally, a block cipher is secure in the standard model if an attacker cannot tell the difference between the block cipher (equipped with a random key) and a random permutation. 
+
+To be a bit more precise, let ''E'' be an ''n''-bit block cipher. We imagine the following game:
+# The person running the game flips a coin.
+#* If the coin lands on heads, he chooses a random key ''K'' and defines the function ''f = E<sub>K</sub>''.
+#* If the coin lands on tails, he chooses a random permutation ''{{pi}}'' on the set of ''n''-bit strings, and defines the function ''f = {{pi}}''.
+# The attacker chooses an ''n''-bit string ''X'', and the person running the game tells him the value of ''f(X)''.
+# Step 2 is repeated a total of ''q'' times. (Each of these ''q'' interactions is a ''query''.)
+# The attacker guesses how the coin landed. He wins if his guess is correct.
+
+The attacker, which we can model as an algorithm, is called an ''[[Adversary (cryptography)|adversary]]''. The function ''f'' (which the adversary was able to query) is called an ''[[Oracle machine|oracle]]''.
+
+Note that an adversary can trivially ensure a 50% chance of winning simply by guessing at random (or even by, for example, always guessing "heads"). Therefore let ''P<sub>E</sub>(A)'' denote the probability that the adversary ''A'' wins this game against ''E'', and define the ''advantage'' of ''A'' as 2(''P<sub>E</sub>(A)'' - 1/2). It follows that if ''A'' guesses randomly, its advantage will be 0; on the other hand, if ''A'' always wins, then its advantage is 1. The block cipher ''E'' is a ''pseudo-random permutation'' (PRP) if no adversary has an advantage significantly greater than 0, given specified restrictions on ''q'' and the adversary's running time. If in Step 2 above adversaries have the option of learning ''f<sup> -1</sup>(X)'' instead of ''f(X)'' (but still have only small advantages) then ''E'' is a ''strong'' PRP (SPRP). An adversary is ''non-adaptive'' if it chooses all ''q'' values for ''X'' before the game begins (that is, it does not use any information gleaned from previous queries to choose each ''X'' as it goes).
+
+These definitions have proven useful for analyzing various modes of operation. For example, one can define a similar game for measuring the security of a block cipher-based encryption algorithm, and then try to show (through a [[Reduction (complexity)|reduction argument]]) that the probability of an adversary winning this new game is not much more than ''P<sub>E</sub>(A)'' for some ''A''. (The reduction typically provides limits on ''q'' and the running time of ''A''.) Equivalently, if ''P<sub>E</sub>(A)'' is small for all relevant ''A'', then no attacker has a significant probability of winning the new game. This formalizes the idea that the higher-level algorithm inherits the block cipher's security.
+
+===Ideal cipher model===
+{{expand section|date=April 2012}}
+
+==Practical evaluation==
+
+Block ciphers may be evaluated according to multiple criteria in practice. Common factors include:{{sfn|Menezes|van Oorschot|Vanstone|1996|p=227}}<ref name="AESr2report">{{citation|author=James Nechvatal, Elaine Barker, Lawrence Bassham, William Burr, Morris Dworkin, James Foti, Edward Roback|title=Report on the Development of the Advanced Encryption Standard (AES)|publisher=National Institute of Standards and Technology (NIST)|date=October 2000|url=http://csrc.nist.gov/archive/aes/round2/r2report.pdf}}</ref>
+*Key parameters, such as its key size and block size, both which provide an upper bound on the security of the cipher.
+*The ''estimated security level'', which is based on the confidence gained in the block cipher design after it has largely withstood major efforts in cryptanalysis over time, the design's mathematical soundness, and the existence of practical or certificational attacks.
+*The cipher's ''complexity'' and its suitability for implementation in [[electronic hardware|hardware]] or [[software]]. Hardware implementations may measure the complexity in terms of [[gate count]] or energy consumption, which are important parameters for resource-constrained devices.
+*The cipher's ''performance'' in terms of processing [[throughput]] on various platforms, including its [[computer memory|memory]] requirements.
+*The ''cost'' of the cipher, which refers to licensing requirements that may apply due to [[intellectual property right]]s.
+*The ''flexibility'' of the cipher, which includes its ability to support multiple key sizes and block lengths.
+
+==Notable block ciphers==
+
+===Lucifer / DES===
+{{main|Lucifer (cipher)|Data Encryption Standard}}
+[[Lucifer (cipher)|Lucifer]] is generally considered to be the first civilian block cipher, developed at [[IBM]] in the 1970s based on work done by [[Horst Feistel]]. A revised version of the algorithm was adopted as a [[United States|U.S.]] government [[Federal Information Processing Standard]]: FIPS PUB 46 [[Data Encryption Standard]] (DES).<ref>[http://csrc.nist.gov/publications/fips/fips46-3/fips46-3.pdf FIPS PUB 46-3 ''Data Encryption Standard (DES)''] (This is the third edition, 1999, but includes historical information in the preliminary section 12.)</ref> It was chosen by the U.S. National Bureau of Standards (NBS) after a public invitation for submissions and some internal changes by [[NBS]] (and, potentially, the [[NSA]]). DES was publicly released in 1976 and has been widely used.{{citation needed|date=April 2012}}
+
+DES was designed to, among other things, resist a certain cryptanalytic attack known to the NSA and rediscovered by IBM, though unknown publicly until rediscovered again and published by [[Eli Biham]] and [[Adi Shamir]] in the late 1980s. The technique is called [[differential cryptanalysis]] and remains one of the few general attacks against block ciphers; [[linear cryptanalysis]] is another, but may have been unknown even to the NSA, prior to its publication by [[Mitsuru Matsui]]. DES prompted a large amount of other work and publications in cryptography and [[cryptanalysis]] in the open community and it inspired many new cipher designs.{{citation needed|date=April 2012}}
+
+DES has a block size of 64 bits and a [[key size]] of 56 bits. 64-bit blocks became common in block cipher designs after DES. Key length depended on several factors, including government regulation. Many observers{{who|date=April 2012}} in the 1970s commented that the 56-bit key length used for DES was too short. As time went on, its inadequacy became apparent, especially after a [[EFF DES cracker|special purpose machine designed to break DES]] was demonstrated in 1998 by the [[Electronic Frontier Foundation]]. An extension to DES, [[Triple DES]], triple-encrypts each block with either two independent keys (112-bit key and 80-bit security) or three independent keys (168-bit key and 112-bit security). It was widely adopted as a replacement.  As of 2011, the three-key version is still considered secure, though the [[National Institute of Standards and Technology]] (NIST) standards no longer permit the use of the two-key version in new applications, due to its 80-bit security level.<ref name=NIST_SP_800-57>[http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf NIST Special Publication 800-57 ''Recommendation for Key Management &mdash; Part 1: General (Revised)'', March, 2007]</ref>
+
+===IDEA===
+The ''[[International Data Encryption Algorithm]]'' (''IDEA'') is a block cipher designed by [[James Massey]] of [[ETH Zurich]] and [[Xuejia Lai]]; it was first described in 1991, as an intended replacement for DES.
+
+IDEA operates on 64-bit [[block size (cryptography)|blocks]] using a 128-bit key, and consists of a series of eight identical transformations (a ''round'', see the illustration) and an output transformation (the ''half-round''). The processes for encryption and decryption are similar. IDEA derives much of its security by interleaving operations from different [[group (mathematics)|groups]] &mdash; [[modular arithmetic|modular]] addition and multiplication, and bitwise ''[[exclusive or]] (XOR)'' &mdash; which are algebraically "incompatible" in some sense.
+
+The designers analysed IDEA to measure its strength against [[differential cryptanalysis]] and concluded that it is immune under certain assumptions. No successful [[linear cryptanalysis|linear]] or algebraic weaknesses have been reported.  {{As of|2007}}, the best attack which applies to all keys can break IDEA reduced to 6 rounds (the full IDEA cipher uses 8.5 rounds).<ref name="idea-cryptanalysis">{{cite news| author = Biham, E.| authorlink = Eli Biham| author2 = Dunkelman, O.| author3 = Keller, N.| title = A New Attack on 6-Round IDEA| url = http://www.cosic.esat.kuleuven.be/publications/article-920.ps| booktitle = Proceedings of Fast Software Encryption, 2007, Lecture Notes in Computer Science| publisher = [[Springer-Verlag]]}}</ref>
+
+===RC5===
+[[File:RC5 InfoBox Diagram.svg|thumb|160px|right|One round (two half-rounds) of the RC5 block cipher]]
+{{Main|RC5}}
+RC5 is a block cipher designed by [[Ron Rivest|Ronald Rivest]] in 1994 which, unlike many other ciphers, has a variable block size (32, 64 or 128 bits), key size (0 to 2040 bits) and number of rounds (0 to 255). The original suggested choice of parameters were a block size of 64 bits, a 128-bit key and 12 rounds.
+
+A key feature of RC5 is the use of data-dependent rotations; one of the goals of RC5 was to prompt the study and evaluation of such operations as a cryptographic primitive. RC5 also consists of a number of [[modular arithmetic|modular]] additions and XORs. The general structure of the algorithm is a [[Feistel cipher|Feistel]]-like network. The encryption and decryption routines can be specified in a few lines of code. The key schedule, however, is more complex, expanding the key using an essentially [[one-way function]] with the binary expansions of both [[e (mathematical constant)|e]] and the [[golden ratio]] as sources of "[[nothing up my sleeve number]]s". The tantalising simplicity of the algorithm together with the novelty of the data-dependent rotations has made RC5 an attractive object of study for cryptanalysts.
+
+12-round RC5 (with 64-bit blocks) is susceptible to a [[differential cryptanalysis|differential attack]] using 2<sup>44</sup> chosen plaintexts.<ref name="Biryukov">Biryukov A. and Kushilevitz E. (1998). Improved Cryptanalysis of RC5. EUROCRYPT 1998.</ref> 18&ndash;20 rounds are suggested as sufficient protection.
+
+===Rijndael / AES===
+{{Main|Advanced Encryption Standard}}
+DES has been superseded as a United States Federal Standard by the AES, adopted by NIST in 2001 after a 5-year [[Advanced Encryption Standard process|public competition]]. The cipher was developed by two Belgian cryptographers, [[Joan Daemen]] and [[Vincent Rijmen]], and submitted under the name ''Rijndael''.
+
+AES has a fixed block size of 128 bits and a key size of 128, 192, or 256 bits, whereas Rijndael can be specified with block and key sizes in any multiple of 32 bits, with a minimum of 128 bits. The blocksize has a maximum of 256 bits, but the keysize has no theoretical maximum. AES operates on a 4×4 [[column-major order]] matrix of bytes, termed the ''state'' (versions of Rijndael with a larger block size have additional columns in the state).
+
+===Blowfish===
+{{Main|Blowfish (cipher)}}
+''[[Blowfish (cipher)|Blowfish]]'' is a block cipher, designed in 1993 by [[Bruce Schneier]] and included in a large number of cipher suites and encryption products. Blowfish has a 64-bit block size and a variable [[key length]] from 1 bit up to 448 bits.<ref name=blowfish-paper>{{cite journal |author=[[Bruce Schneier]] |year=1993 |title=Description of a New Variable-Length Key, 64-Bit Block Cipher (Blowfish) |url=http://www.schneier.com/paper-blowfish-fse.html }}</ref> It is a 16-round [[Feistel cipher]] and uses large key-dependent [[Substitution box|S-boxes]]. Notable features of the design include the key-dependent [[S-box]]es and a highly complex [[key schedule]].
+
+Schneier designed Blowfish as a general-purpose algorithm, intended as an alternative to the ageing DES and free of the problems and constraints associated with other algorithms. At the time Blowfish was released, many other designs were proprietary, encumbered by [[patent]]s or were commercial/government secrets. Schneier has stated that, "Blowfish is unpatented, and will remain so in all countries. The algorithm is hereby placed in the [[public domain]], and can be freely used by anyone." Blowfish provides a good encryption rate in software and no effective [[cryptanalysis]] of the full-round version has been found to date.
+
+==Generalizations==
+
+===Tweakable block ciphers===
+{{Expand section|date=June 2008}}
+M. Liskov, R. Rivest, and D. Wagner have described a generalized version of block ciphers called "tweakable" block ciphers.<ref name="tweak">{{cite journal|authors=M. Liskov, R. Rivest, and D. Wagner|title=Tweakable Block Ciphers|journal=Crypto 2002|url=http://www.cs.colorado.edu/~jrblack/class/csci7000/f03/papers/tweak-crypto02.pdf}}</ref> A tweakable block cipher accepts a second input called the ''tweak'' along with its usual plaintext or ciphertext input. The tweak, along with the key, selects the permutation computed by the cipher. If changing tweaks is sufficiently lightweight (compared with a usually fairly expensive key setup operation), then some interesting new operation modes become possible. The [[disk encryption theory]] article describes some of these modes.
+
+===Format-preserving encryption===
+{{Expand section|date=June 2008}}
+
+==Relation to other cryptographic primitives==
+
+Block ciphers can be used to build other cryptographic primitives, such as those below. For these other primitives to be cryptographically secure, care has to be taken to build them the right way.
+
+* [[Stream cipher]]s can be built using block ciphers. OFB-mode and CTR mode are block modes that turn a block cipher into a stream cipher.
+
+* [[Cryptographic hash function]]s can be built using block ciphers.<ref>[http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=44737 ISO/IEC 10118-2:2010 ''Information technology &mdash; Security techniques &mdash; Hash-functions &mdash; Part 2: Hash-functions using an n-bit block cipher'']</ref>{{sfn|Menezes|van Oorschot|Vanstone|1996|loc=Chapter 9: Hash Functions and Data Integrity}} See [[one-way compression function]] for descriptions of several such methods. The methods resemble the block cipher modes of operation usually used for encryption.
+
+* [[Cryptographically secure pseudorandom number generator]]s (CSPRNGs) can be built using block ciphers.<ref>[http://csrc.nist.gov/publications/nistpubs/800-90A/SP800-90A.pdf NIST Special Publication 800-90A ''Recommendation for Random Number Generation Using Deterministic Random Bit Generators'']</ref>{{sfn|Menezes|van Oorschot|Vanstone|1996|loc=Chapter 5: Pseudorandom Bits and Sequences}}
+
+* Secure [[pseudorandom permutation]]s of arbitrarily sized finite sets can be constructed with block ciphers; see [[Format-Preserving Encryption]].
+
+* [[Message authentication code]]s (MACs) are often built from block ciphers. [[CBC-MAC]], [[One-key MAC|OMAC]] and [[PMAC (cryptography)|PMAC]] are such MACs.
+
+* [[Authenticated encryption]] is also built from block ciphers. It means to both encrypt and MAC at the same time. That is to both provide [[confidentiality]] and [[authentication]]. [[CCM mode|CCM]], [[EAX mode|EAX]], [[Galois/Counter Mode|GCM]] and [[OCB mode|OCB]] are such authenticated encryption modes.
+
+Just as block ciphers can be used to build hash functions, hash functions can be used to build block ciphers. Examples of such block ciphers are [[SHACAL]], BEAR and LION.
+
+==See also==
+{{Portal|Cryptography}}
+*[[Block cipher security summary]]
+*[[Topics in cryptography]]
+
+==References==
+{{Reflist|30em}}
+
+==Further reading==
+<!-- * {{cite book|author=|chapter=|editor=|title=|publisher=|year=|isbn=|url=}} -->
+* {{cite book|authors=Knudsen, Lars R. & |title=The Block Cipher Companion|publisher=Springer|year=2011|isbn=9783642173417|url=http://books.google.com/books?id=YiZKt_FcmYQC}}
+
+==External links==
+* [http://www.users.zetnet.co.uk/hopwood/crypto/scan/cs.html A list of many symmetric algorithms, the majority of which are block ciphers.]
+* [http://www.mat.dtu.dk/people/Lars.R.Knudsen/bc.html The block cipher lounge]
+* [http://www.rsa.com/rsalabs/node.asp?id=2168 What is a block cipher?] from RSA [[FAQ]]
+
+{{Cryptography navbox|block}}
+
+{{DEFAULTSORT:Block Cipher}}
+[[Category:Block ciphers|*]]
+[[Category:Cryptographic primitives]]

@@ -1,0 +1,45 @@
+In [[mathematics]], the '''Borsuk–Ulam theorem''', named after [[Stanislaw Ulam]] and [[Karol Borsuk]], states that every [[continuous function]] from an [[n-sphere|''n''-sphere]] into [[Euclidean space|Euclidean ''n''-space]] maps some pair of [[antipodal point]]s to the same point.
+Here, two points on a sphere are called antipodal if they are in exactly opposite directions from the sphere's center.
+
+According to ({{Harvnb|Matoušek|2003|p=25}}), the first historical mention of the statement of this theorem appears in ({{Harvnb|Lyusternik|1930}}).  The first proof was given by ({{Harvnb|Borsuk|1933}}), where the formulation of the problem was attributed to Ulam.  Since then, many alternative proofs have been found by various authors, as collected in ({{Harvnb|Steinlein|1985}}).
+
+==Theorem==
+We use the stronger statement that every odd (antipodes-preserving) mapping ''h'' : '''S'''<sup>''n−1''</sup>&nbsp;→&nbsp;'''S'''<sup>''n−1''</sup> has odd [[degree of a mapping|degree]].
+
+Using the above theorem it is easy to see that the original Borsuk Ulam statement is correct since if we take a map ''f'' : '''S'''<sup>''n''</sup>&nbsp;→&nbsp;'''R'''<sup>''n''</sup> that does not equalize on any antipodes then we can construct a map ''g'' : '''S'''<sup>''n''</sup>&nbsp;→&nbsp;'''S'''<sup>''n−1''</sup> by the formula 
+
+:<math>g(x)=\frac{f(x)-f(-x)}{|f(x)-f(-x)|}</math>
+
+since ''f'' never equalizes antipodes the denominator never vanishes. Note that ''g'' is an antipode preserving map. Now let ''h'' : '''S'''<sup>''n−1''</sup>&nbsp;→&nbsp;'''S'''<sup>''n−1''</sup> be the restriction of ''g'' to the equator. By construction, ''h'' is antipode-preserving, and thus has non-zero degree. By construction, ''h'' extends to the whole upper hemisphere of '''S'''<sup>''n''</sup>, and as such is null-homotopic. A null-homotopic map has degree zero, contradicting our only assumption, namely that ''f'' exists.
+
+== Corollaries==
+* No subset of '''R'''<sup>''n''</sup> is [[homeomorphic]] to '''S'''<sup>''n''</sup>.
+* The [[Lusternik–Schnirelmann theorem]]: If the [[sphere]] '''S'''<sup>''n''</sup> is covered by ''n''&nbsp;+&nbsp;1 open sets, then one of these sets contains a pair (''x'',&nbsp;&minus;''x'') of antipodal points. (this is equivalent to the Borsuk–Ulam theorem)
+* The [[Ham sandwich theorem]]: For any [[Compact space|compact]] sets ''A''<sub>1</sub>, ..., ''A<sub>n</sub>'' in '''R'''<sup>''n''</sup> we can always find a hyperplane dividing each of them into two subsets of equal measure.
+* The [[Brouwer fixed-point theorem]] ({{Harvnb|Matoušek|2003|p=25}}; {{Harvnb|Su|1997}}).
+* The case ''n''&nbsp;=&nbsp;2 is often illustrated by saying that at any moment there is always a pair of antipodal points on the [[Earth]]'s surface with equal temperatures and equal barometric pressures. This assumes that temperature and barometric pressure vary continuously.
+* The case ''n''&nbsp;=&nbsp;1 can be illustrated by the claim that there always exist a pair of opposite points on the earth's equator with the same temperature, but this can be shown to be true much more easily using the [[intermediate value theorem]].
+
+==See also==
+* [[Sperner's lemma]]
+* [[Tucker's lemma]]
+* [[Topological combinatorics]]
+* [[Necklace splitting problem]]
+* [[Kakutani's theorem (geometry)]]
+* [[Isovariant]]
+
+== References ==
+* {{cite journal| first=K.|last=Borsuk|title=Drei Sätze über die ''n''-dimensionale euklidische Sphäre|journal=Fund. Math.|volume=20|year=1933|pages=177&ndash;190}}
+* {{cite journal|first1=L.|last1=Lyusternik |first2=S.|last2=Shnirel'man|title=Topological Methods in Variational Problems|journal=Issledowatelskii Institut Matematiki i Mechaniki pri O. M. G. U.|location=Moscow|year=1930}}
+* {{cite book| authorlink=Jiří Matoušek (mathematician)| first=Jiří |last=Matoušek| title=Using the Borsuk–Ulam theorem|publisher=Springer Verlag|location=Berlin|year=2003|isbn=3-540-00362-2|doi=10.1007/978-3-540-76649-0}}
+* {{cite journal|first=H.|last=Steinlein|title=Borsuk's antipodal theorem and its generalizations and applications: a survey. Méthodes topologiques en analyse non linéaire|journal=Sém. Math. Supér. Montréal, Sém. Sci. OTAN (NATO Adv. Study Inst.) |volume= 95|year=1985|pages=166&ndash;235}}
+* {{cite journal| title = Borsuk-Ulam Implies Brouwer: A Direct Construction |first = Francis Edward | last = Su | journal = The American Mathematical Monthly | volume= 104| number=9 |month=Nov.|year=1997|pages= 855&ndash;859|url=http://www.math.hmc.edu/~su/papers.dir/borsuk.pdf}}
+
+==External links==
+* {{springer|title=Borsuk fixed-point theorem|id=p/b110770}}
+
+{{DEFAULTSORT:Borsuk-Ulam Theorem}}
+[[Category:Algebraic topology]]
+[[Category:Combinatorics]]
+[[Category:Continuous mappings]]
+[[Category:Theorems in topology]]

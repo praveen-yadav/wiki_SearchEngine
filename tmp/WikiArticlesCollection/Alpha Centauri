@@ -1,0 +1,660 @@
+{{About|"α Centauri"|"a Centauri"|V761 Centauri|"A Centauri"|A Centauri|other uses|}}
+{{Starbox begin
+ | name =Alpha Centauri A<ref name="simbad_a">{{cite web | title=LHS 50&nbsp;– High proper-motion Star | url=http://simbad.u-strasbg.fr/simbad/sim-id?Ident=*%20alf%20Cen%20A | publisher=[[Centre de Données astronomiques de Strasbourg]] | accessdate=2008-06-06}}</ref>/B<ref name="simbad_b">
+{{cite web | title=LHS 51&nbsp;– High proper-motion Star | url=http://simbad.u-strasbg.fr/simbad/sim-id?Ident=*%20alf%20Cen%20B | publisher=[[Centre de Données astronomiques de Strasbourg]] | accessdate=2008-06-06}}</ref>
+ }}
+{{Starbox image
+| image = [[File:Alpha centauri.jpg|250px]]
+| caption = The position of Alpha Centauri&nbsp;A and Alpha Centauri&nbsp;B
+}}
+{{Starbox observe 2s
+| epoch = [[J2000.0]]
+| constell = [[Centaurus]]
+| component1 = Alpha Centauri A
+| ra1 = {{RA|14|39|36.4951}}
+| dec1 = {{DEC|–60|50|02.308}}
+| appmag_v1 = −0.01
+| component2 = Alpha Centauri B
+| ra2 = {{RA|14|39|35.0803}}
+| dec2 = {{DEC|–60|50|13.761}}
+| appmag_v2 = +1.33
+}}
+{{Starbox character
+ | component1 = Alpha Centauri A
+ | class =G2&nbsp;V<ref name="Yale Bright Star Catalogue">{{cite web |author=Hoffleit+ |year=1991 |title=The Stars of Centaurus |url=http://www.alcyone.de/SIT/bsc/cen.html |publisher=[[Yale University Observatory]] |accessdate=2009-03-10}}</ref><ref name="FUSE Observations of alpha Centauri B">{{cite journal
+ | author =Datin, Kellie; Dewarf, LE.; Guinan, EF.; Carton, JM. | date=January, 2009 | title=FUSE Observations of alpha Centauri B | publisher=[[American Astronomical Society]] | bibcode=2009AAS...21340609D | volume =213 | page =200 | journal =American Astronomical Society}}</ref>
+ | b-v = +0.69
+ | u-b = +0.23}}
+{{Starbox character
+ | component2 = Alpha Centauri B
+ | class =K1&nbsp;V<ref name="Yale Bright Star Catalogue"/><ref name="FUSE Observations of alpha Centauri B"/>
+ | b-v = +0.90
+ | u-b = +0.63
+ }}
+{{Starbox astrometry
+ | radial_v = −21.6
+ | prop_mo_ra = −3678.19
+ | prop_mo_dec = 481.84
+ | parallax = 747.1
+ | p_error = 1.2
+ | parallax_footnote = <ref name=aaa341_121>{{citation
+| title=Visual binary orbits and masses POST HIPPARCOS
+| last1=Söderhjelm | first1=Staffan
+| journal=Astronomy and Astrophysics | volume=341 | pages=121–140
+| month=January | year=1999| bibcode=1999A&A...341..121S }} See Table 3.</ref>
+ | absmag_v = 4.38 / 5.71
+ }}
+{{Starbox detail
+| source = <!--[source url]-->
+| component1 = Alpha Centauri A
+| mass = 1.100<ref name="eso">{{cite web | author=Kervella | first=Pierre | coauthors=Thevenin, Frederic | date=March 15, 2003 | url=http://www.eso.org/public/outreach/press-rel/pr-2003/pr-05-03.html | title=A Family Portrait of the Alpha Centauri System | publisher=[[ESO]] | accessdate=2008-06-06 | archiveurl= http://web.archive.org/web/20080616125016/http://www.eso.org/public/outreach/press-rel/pr-2003/pr-05-03.html| archivedate= 16 June 2008 | deadurl= no}}</ref>
+| radius = 1.227<ref name="eso"/>
+| gravity = 4.30<ref name="aaa449">{{cite journal | author=Gilli G.; Israelian G.; Ecuvillon A.; Santos NC.; Mayor M. | year=2006 | title=Abundances of Refractory Elements in the Atmospheres of Stars with Extrasolar Planets | journal=[[Astronomy and Astrophysics]] | volume=449 | issue=2 | pages=723–36 | id=libcode 2005astro.ph.12219G | doi = 10.1051/0004-6361:20053850 |arxiv = astro-ph/0512219 | bibcode=2006A&A...449..723G}}</ref>
+| luminosity = 1.519<ref name="eso"/>
+| luminosity_bolometric = <!--Luminosity (in solar luminosities), bolometric-->
+| luminosity_visual = <!--Luminosity (in solar luminosities), visual (V)-->
+| temperature = 5790<ref name="eso"/>
+| metal = 151%<ref name="eso"/> Sun
+| rotation =  ~22.5 ± 5.9 days<ref name="aaa470"/>
+| rotational_velocity = <!--Rotational velocity (v sin i, in km/s) -->
+| age_gyr = 6 ± 1
+| component2 = Alpha Centauri B
+| mass2 = 0.907<ref name="eso"/>
+| radius2 = 0.865<ref name="eso"/>
+| gravity2 = 4.37<ref name="aaa449"/>
+| luminosity2 = 0.500<ref name="eso"/>
+| luminosity_bolometric2 = <!--Luminosity (in solar luminosities), bolometric-->
+| luminosity_visual2 = <!--Luminosity (in solar luminosities), visual (V)-->
+| temperature2 = 5260<ref name="eso"/>
+| metal2 = 160%<ref name="eso"/> Sun
+| rotation2 = 47 days
+| rotational_velocity2 = <!--Rotational velocity (v sin i, in km/s) -->
+| age2_gyr = 6 ± 1
+}}
+{{Starbox visbin
+ | name=Alpha Centauri AB
+ | period=79.91 ± 0.011
+ | axis=17.57 ± 0.022
+ | eccentricity=0.5179 ± 0.00076
+ | inclination=79.205 ± 0.041
+ | node=204.85 ± 0.084
+ | periastron=1875.66 ± 0.012
+ | periarg=231.65 ± 0.076
+ | reference=<ref name="Pourbaix">{{cite journal | last=Pourbaix | first=D. | coauthors=''et al.'' | year=2002  | title=Constraining the difference in convective blueshift between the components of alpha Centauri with precise radial velocities | journal=[[Astronomy and Astrophysics]] | volume=386 | issue=1 | pages=280–85 | bibcode=2002A&A...386..280P | doi=10.1051/0004-6361:20020287 |arxiv = astro-ph/0202400 }}</ref>
+}}
+{{Starbox catalog
+ | names = Rigil Kentaurus, Rigil Kent, Toliman, Bungula, [[Fifth Fundamental Catalogue|FK5]]&nbsp;538, [[Cape Photographic Durchmusterung|CP(D)]]−60°5483, GC&nbsp;19728, CCDM&nbsp;J14396-6050
+
+'''α Cen A'''
+
+α<sup>1</sup>&nbsp;Centauri, [[Gliese Catalogue of Nearby Stars|GJ]]&nbsp;559 A, [[Harvard Revised catalogue|HR]]&nbsp;5459, [[Henry Draper catalogue|HD]]&nbsp;128620, [[General Catalogue of Trigonometric Parallaxes|GCTP]]&nbsp;3309.00, [[Luyten Half-Second catalogue|LHS]]&nbsp;50, [[Smithsonian Astrophysical Observatory Star Catalog|SAO]]&nbsp;252838, [[Hipparcos catalogue|HIP]]&nbsp;71683
+
+'''α Cen B'''
+
+α<sup>2</sup>&nbsp;Centauri, [[Gliese Catalogue of Nearby Stars|GJ]]&nbsp;559 B, [[Harvard Revised catalogue|HR]]&nbsp;5460, [[Henry Draper catalogue|HD]]&nbsp;128621, [[Luyten Half-Second catalogue|LHS]]&nbsp;51, [[Hipparcos catalogue|HIP]]&nbsp;71681
+
+'''α Cen C''' (＝ '''Proxima Cen''')
+
+[[Luyten Half-Second catalogue|LHS]]&nbsp;49, [[Hipparcos catalogue|HIP]]&nbsp;70890
+}}
+{{Starbox reference
+ | Simbad=alpha+centauri
+ | ARICNS=01151
+}}
+{{Starbox end}}
+{{Location map | 100x100
+| AlternativeMap = Position Alpha Cen.png
+| caption = Location of Alpha Centauri in Centaurus (''right-click on starmap to enlarge'')
+| width=240
+| lat  = 18| long = 24
+| mark= Circle sheer red 33.gif | marksize=33
+| float=right }}
+[[File:Fromearthtoalphacentauri.ogg|thumb|left|From Earth to Alpha Centauri.]]
+
+'''Alpha Centauri''' ([[Bayer designation|α Centauri]], α Cen; also known as '''Rigel Kent''' {{IPAc-en|ˈ|r|aɪ|dʒ|əl|_|'|k|E|n|t}}—see [[#Names|Names]]) is the brightest [[star]] in the southern [[constellation]] of [[Centaurus]], and the [[List of brightest stars|third brightest]] star in the night sky.<ref>http://interstellar.jpl.nasa.gov/interstellar/probe/introduction/neighborhood.html, Our Local Galactic Neighborhood, NASA</ref><ref>http://www.centauri-dreams.org/?p=14203, Into the Interstellar Void, Centauri Dreams</ref> The Alpha Centauri system is located 1.34 [[parsec]]s or 4.37 [[light years]] from the Sun, making it the [[list of nearest stars|closest star system]] to the [[Solar System]].<ref name="S">{{cite journal
+ | author=Söderhjelm, Staffan  | year=1999 | title=Visual binary orbits and masses post Hipparcos | journal=[[Astronomy and Astrophysics]] | volume=341 | issue=1 | pages=121–40 | doi= |bibcode = 1999A&A...341..121S }}</ref> Although it appears to the unaided eye as a single object, Alpha Centauri is actually a [[binary star]] [[star system|system]] (designated '''Alpha Centauri AB''' or '''α Cen AB''') whose combined [[Apparent magnitude|visual magnitude]] of −0.27 makes it the third brightest star (other than the [[Sun]]) seen from [[Earth]] after the −1.46 magnitude [[Sirius]] and the −0.72 magnitude [[Canopus]].
+
+Its individual component stars are named Alpha Centauri A (α Cen A), with 110% of the mass and 151.9% the luminosity of the [[Sun]], and Alpha Centauri B (α Cen B), at 90.7% of the Sun's mass and 44.5% of its luminosity. During the pair's 79.91-year orbit about a common center, the distance between them varies from about that between [[Pluto]] and the Sun to that between [[Saturn]] and the Sun.
+
+A third star, known as [[Proxima Centauri]], Proxima, or Alpha Centauri C (α Cen C), is probably gravitationally associated with Alpha Centauri AB. Proxima is at the slightly smaller distance of 1.29 [[parsec]]s or 4.24 [[light years]] from the Sun, making it the closest star to the Sun, even though it is not visible to the naked eye. The separation of Proxima from Alpha Centauri AB is about 0.06 [[parsec]]s, 0.2 light years or 13,000 [[astronomical unit]]s (AU); equivalent to 400 times the size of [[Neptune]]'s orbit.
+
+The system may also contain at least one planet, the Earth-sized [[Alpha Centauri Bb]], which if confirmed will be the closest known [[exoplanet]] to Earth. The planet has a mass at least 113% of Earth's<ref name = "Wall"/> and orbits Alpha Centauri B with a period of 3.236 days.<ref name = "Dumusque">{{cite journal | last = Dumusque | first = X. | authorlink = 
+ | coauthors = Pepe, F.; Lovis, C.; Ségransan, D.; Sahlmann, J.; Benz, W.; Bouchy, F.; [[Michel Mayor|Mayor, M.]]; [[Didier Queloz|Queloz, D.]]; Santos, N.; [[Stéphane Udry|Udry, S.]] | title = An Earth mass planet orbiting Alpha Centauri B | journal = [[Nature (journal)|Nature]] | volume = 490 | issue = | pages = | date = 2012-10-17  | url = http://www.eso.org/public/archives/releases/sciencepapers/eso1241/eso1241a.pdf | doi = 10.1038/nature11572 | accessdate = 2012-10-17|bibcode = 2012Natur.491..207D }}</ref> Orbiting at a distance of 6 million kilometers from the star,<ref name = "Wall">{{cite web | last = Wall | first = Mike | title = Discovery! Earth-Size Alien Planet at Alpha Centauri Is Closest Ever Seen | work = [http://www.space.com/ Space.Com web site] | publisher = TechMediaNetwork | date = 2012-10-16 | url = http://www.space.com/18089-earth-size-alien-planet-alpha-centauri.html | accessdate = 2012-10-17}}</ref> 4% of the distance of the Earth to the Sun and a tenth of the distance between [[Mercury (planet)|Mercury]] and the Sun, the planet has an estimated surface temperature of 1500 [[Kelvin temperature scale|K]] (roughly 1200 [[Celsius temperature scale|°C]]), too hot to be habitable.<ref>[http://www.nature.com/news/the-exoplanet-next-door-1.11605 "The exoplanet next door: Earth-sized world discovered in nearby α Centauri star system".] Eric Hand, ''Nature'', October 16, 2012. Accessed October 16, 2012.</ref> More recently, on June 10, 2013, scientists reported that the earlier claims of an [[Earth-like exoplanet]] orbiting [[Alpha Centauri B]] may not be supported.<ref name="arxiv-20130521">{{cite journal |last=Hatzes |first=Artie P. |title=Radial Velocity Detection of Earth-mass Planets in the Presence of Activity Noise: The Case of Alpha Centauri Bb |url=http://arxiv.org/abs/1305.4960 |date=May 21, 2013 |journal=[[The Astrophysical Journal]] |arxiv=1305.4960 |accessdate=June 11, 2013 |bibcode = 2013ApJ...770..133H |doi = 10.1088/0004-637X/770/2/133 }}</ref><ref name="NYT-20130610">{{cite news |last=Overbye |first=Dennis |title=Hold Off on the Alpha Centauri Trip|url=http://www.nytimes.com/2013/06/11/science/space/scientists-cast-doubt-on-the-closest-exoplanet.html|work=[[New York Times]] |accessdate=June 11, 2013 }}</ref>
+
+==Component designations==
+[[File:Mobile diagram of Alpha Centauri system.png|thumb|left|Mobile notation diagram of the system]]
+"Alpha Centauri" is the name given to what appears as a single [[star]] to the naked eye and the brightest star in the southern constellation of [[Centaurus]]. With the aid of a [[telescope]], Alpha Centauri can be resolved into a [[binary star]] system in close orbit. This is known as the Alpha Centauri AB system, which is abbreviated as α Centauri&nbsp;AB or α&nbsp;Cen&nbsp;AB.
+
+Alpha Centauri&nbsp;A {{nowrap|(α Cen A)}} and Alpha Centauri&nbsp;B {{nowrap|(α Cen B)}} are the individual stars of the binary system, usually defined to identify them as the different components of the binary {{nowrap|α Cen AB}}. A third companion, [[Proxima Centauri]] (or Proxima or {{nowrap|α Cen C}}), has a distance much greater than the observed separation between stars A and&nbsp;B and is probably gravitationally associated with the AB system. As viewed from Earth, it is located at an [[angular separation]] of 2.2° from the AB system. If it were bright enough to be seen without a telescope, Proxima Centauri would appear to the naked eye as a star separate from {{nowrap|α Cen AB}}. Alpha Centauri&nbsp;AB and Proxima Centauri form a ''[[double star|visual double]]'' star. Direct evidence that Proxima Centauri has an elliptical orbit typical of binary stars has yet to be found.<ref name="wds2006">{{cite web | last=Mason | first=B.D. | coauthors=Wycoff, G.L. I. Hartkopf, W.I. | year=2008 | title=Washington Visual Double Star Catalog, 2006.5 (WDS) | url=http://ad.usno.navy.mil/wds/  | publisher=[[U.S. Naval Observatory]]}}</ref>
+
+Together all three components make a triple [[star system]], referred to by double-star observers as the [[triple star]] (or multiple star), {{nowrap|α Cen AB-C}}.
+
+==Nature of the system==
+At −0.27v [[Apparent magnitude|visual magnitude]],<ref>{{cite book |first = Robert | last=Burnham |year = 1978 |title = Burnham's Celestial Handbook |page = 549
+|publisher = [[Courier Dover]] |isbn = 0-486-23567-X }}</ref> Alpha Centauri appears to the naked eye as a single star and is fainter than [[Sirius]] and [[Canopus]]. The next brightest star in the night sky is [[Arcturus]]. When considered among the individual [[List of brightest stars|brightest stars]] in the sky (excluding the [[Sun]]), Alpha Centauri&nbsp;A is the fourth brightest at −0.01 magnitude,<ref name="RECONS">{{cite web |author = [[Research Consortium on Nearby Stars]] |publisher = [[Georgia State University]] |date = 2007-09-17 |title = The One Hundred Nearest Star Systems |url = http://www.chara.gsu.edu/RECONS/TOP100.posted.htm | work = [http://www.chara.gsu.edu/RECONS/ RECONS] |accessdate = 2007-11-06 | archiveurl= http://web.archive.org/web/20071112173559/http://www.chara.gsu.edu/RECONS/TOP100.posted.htm| archivedate= 12 November 2007 | deadurl= no}}</ref> being only fractionally fainter than Arcturus at −0.04v magnitude. Alpha Centauri&nbsp;B at 1.33v magnitude is twenty-first in brightness.
+
+[[File:Artist’s impression of the planet around Alpha Centauri B (Annotated).jpg|thumb|right|300px|Artist’s impression of the planet around Alpha Centauri B]]
+[[File:The bright star Alpha Centauri and its surroundings.jpg|thumb|right|300px|View of Alpha Centauri from the [[Digitized Sky Survey]] 2]]
+[[File:Alpha Centauri relative sizes.svg|thumb|right|300px|Component sizes and colors. Shows the relative sizes and colors of stars in the Alpha Centauri system and compares them with those of the Sun.]]
+
+'''Alpha Centauri A''' is the principal member, or ''primary'', of the [[binary system (astronomy)|binary system]], being slightly larger and more luminous than the Sun. It is a solar-like [[main sequence|main-sequence]] star with a similar yellowish color,<ref name=csiro>{{cite web | title=The Colour of Stars | date=December 21, 2004 | work=Australia Telescope, Outreach and Education | publisher=Commonwealth Scientific and Industrial Research Organisation  | url=http://outreach.atnf.csiro.au/education/senior/astrophysics/photometry_colour.html | accessdate=2012-01-16 }}</ref> whose [[stellar classification]] is [[spectral type]] G2&nbsp;V.<ref name="RECONS" /> From the determined mutual orbital parameters, Alpha Centauri&nbsp;A is about 10% more massive than the Sun, with a radius about 23% larger.<ref name="eso"/> The [[stellar rotation|projected rotational velocity]] {{nowrap|( ''v''·sin ''i'' )}} of this star is {{nowrap|2.7 ± 0.7 km·s<sup>−1</sup>}}, resulting in an estimated rotational period of 22&nbsp;days,<ref name="aaa470">{{cite journal |last = Bazot | first=M. |coauthors = ''et al.'' |year = 2007 |title = Asteroseismology of α Centauri A. Evidence of rotational splitting |journal = [[Astronomy and Astrophysics]] |volume = 470 | issue=1 | pages=295–302 |doi = 10.1051/0004-6361:20065694 |bibcode = 2007A&A...470..295B |arxiv = 0706.1682 }}</ref> which gives it a slightly faster rotational period than the Sun's 25 days.
+
+'''Alpha Centauri B''' is the companion star, or ''secondary'', of the [[binary system (astronomy)|binary system]], and is slightly smaller and less luminous than the Sun. It is a main-sequence star is of spectral type K1&nbsp;V,<ref name="FUSE Observations of alpha Centauri B" /><ref name="RECONS" /> making it more an orange color than the primary star.<ref name=csiro/> Alpha Centauri&nbsp;B is about 90% the mass of the Sun and 14% smaller in radius.<ref name="eso"/> The projected rotational velocity {{nowrap|( ''v''·sin ''i'' )}} is {{nowrap|1.1 ± 0.8 km·s<sup>−1</sup>}}, resulting in an estimated rotational period of 41&nbsp;days. (An earlier, 1995 estimate gave a similar rotation period of 36.8&nbsp;days.)<ref name="iau6259">{{cite news |last = Guinan | first=E. |coauthors = Messina, S. |year = 1995 |title = IAU Circular 6259, Alpha Centauri B |publisher = [[Central Bureau for Astronomical Telegrams]] }}</ref> Although it has a lower luminosity than component&nbsp;A, star B emits more energy in the [[X-ray]] band. The [[light curve]] of B varies on a short time scale and there has been at least one observed flare.<ref>{{cite journal |last = Robrade | first=J. |last2 = Schmitt | first2=J. H. M. M. |last3 = Favata | first3=F. |year = 2005 |title = X-rays from α Centauri&nbsp;– The darkening of the solar twin |journal = [[Astronomy and Astrophysics]] |volume = 442 | issue=1 | pages=315–321 |bibcode = 2005A&A...442..315R |doi = 10.1051/0004-6361:20053314 |arxiv = astro-ph/0508260 }}</ref>
+
+'''Alpha Centauri C''', also known as [[Proxima Centauri]], is of [[spectral class]] M5&nbsp;Ve<ref name="RECONS" /> or M5&nbsp;VIe, suggesting this is either a small main-sequence star (Type&nbsp;V) or [[subdwarf star|subdwarf]] (VI) with [[emission lines]]. Its B−V [[color index]] is&nbsp;+1.90 and its mass is about 0.123&nbsp;[[solar mass|M<sub>☉</sub>]],<ref name="SIMBAD">{{cite web |title = SIMBAD query result: V* V645 Cen&nbsp;– Flare Star |url = http://simbad.u-strasbg.fr/simbad/sim-id?Ident=proxima%20centauri | work=SIMBAD |publisher = [[Centre de Données astronomiques de Strasbourg]] |accessdate = 2008-08-11}}&nbsp;— some of the data is located under "Measurements".</ref> or 129 [[Jupiter mass]]es.<ref name="ESO2003">{{cite news |author = Kervella, Pierre; Thevenin, Frederic |date = 2003-03-15 |title = A Family Portrait of the Alpha Centauri System: VLT Interferometer Studies the Nearest Stars |url = http://www.eso.org/public/outreach/press-rel/pr-2003/pr-05-03.html |publisher = ESO |accessdate = 2007-07-09 | archiveurl= http://web.archive.org/web/20070607184018/http://www.eso.org/public/outreach/press-rel/pr-2003/pr-05-03.html| archivedate= 7 June 2007 | deadurl= no}}</ref>
+
+Together, the bright visible components of the [[binary star]] system are called Alpha Centauri&nbsp;AB {{nowrap|(α Cen AB)}}. This "AB" designation denotes the apparent gravitational centre of the main binary system relative to other companion star(s) in any [[Star system|multiple star system]].<ref name="DoubleStarsHeintz">{{cite book |last = Heintz | first=W. D. |year = 1978 |title = Double Stars |page = 19 |publisher = [[D. Reidel]] |isbn = 90-277-0885-1
+}}</ref> "AB-C" refers to the orbit of Proxima around the central binary, being the distance between the centre of gravity and the outlying companion. Some older references use the confusing and now discontinued designation of&nbsp;A×B. Since the distance between the Sun and Alpha Centauri&nbsp;AB does not differ significantly from either star, gravitationally this binary system is considered as if it were one object.<ref name="wds1996">{{cite book |last = Worley | first=C.E. |coauthors = Douglass, G.G. |year = 1996 |title = Washington Visual Double Star Catalog, 1996.0 (WDS) |url = http://adc.gsfc.nasa.gov/adc-cgi/cat.pl?/catalogs/1/1237/ |publisher = [[United States Naval Observatory]] }}</ref>
+
+[[Asteroseismology|Asteroseismic]] studies, [[chromospheric activity]], and stellar rotation ([[gyrochronology]]), are all consistent with the α Cen system being similar in age to, or slightly older than, the Sun, with typical ages quoted between 4.5 and 7 billion years ([[Byr|Gyr]]).<ref name=Mam08>{{cite journal | author=E. E. Mamajek; L. A. Hillenbrand | title=Improved Age Estimation for Solar-Type Dwarfs Using Activity-Rotation Diagnostics | journal=Astrophysical Journal | year=2008 | bibcode=2008ApJ...687.1264M | doi=10.1086/591785 | volume=687 | issue=2 | page=1264 |arxiv = 0807.1686 }}</ref> Asteroseismic analyses that incorporate the tight observational constraints on the stellar parameters for α Cen A and/or B have yielded age estimates of 4.85 ± 0.5 Gyr,<ref name=Thevenin02>{{cite journal | author=Thévenin, F.; Provost, J.; Morel, P.; Berthomieu, G.; Bouchy, F.; Carrier, F.| title=Asteroseismology and calibration of alpha Cen binary system | journal=Astronomy & Astrophysics | year=2002 | bibcode=2002A&A...392L...9T | doi=10.1051/0004-6361:20021074 | volume=392 | page=L9 |arxiv = 0206283}}</ref> 5.0 ± 0.5 Gyr,<ref name=Bazot12>{{cite journal | author=Bazot, M.; Bourguignon, S.; Christensen-Dalsgaard, J. | title=A Bayesian approach to the modelling of alpha Cen A | journal=MNRAS | year=2012 | bibcode=2012MNRAS.427.1847B |arxiv=12.09.0222 | doi=10.1111/j.1365-2966.2012.21818.x}}</ref> 5.2–7.1 Gyr,<ref name=Miglio05>{{cite journal | author=Miglio, A.; Montalbán, J.| title=Constraining fundamental stellar parameters using seismology. Application to α Centauri AB | journal=Astronomy & Astrophysics | year=2005 | bibcode=2005A&A...441..615M | doi=10.1051/0004-6361:20052988 | volume=441 | page=615 |arxiv =0505537}}</ref> 6.4 Gyr,<ref name=Thoul03>{{cite journal | author=Thoul, A.; Scuflaire, R.; Noels, A.; Vatovez, B.; Briquet, M.; Dupret, M.-A.; Montalban, J.| title=A new seismic analysis of Alpha Centauri | journal=Astronomy & Astrophysics | year=2003 | bibcode=2003A&A...402..293T | doi=10.1051/0004-6361:20030244 | volume=402 | page=293 |arxiv = 0303467}}</ref> 6.52 ± 0.3 Gyr.<ref name=Eggenberger04>{{cite journal | author=Eggenberger, P.; Charbonnel, C.; Talon, S.; Meynet, G.; Maeder, A.; Carrier, F.; Bourban, G.| title=Analysis of α Centauri AB including seismic constraints | journal=Astronomy & Astrophysics | year=2004 | bibcode=2004A&A...417..235E | doi=10.1051/0004-6361:20034203 | volume=417 | page=235 |arxiv = 0401606}}</ref> Age estimates for stars A and B based on chromospheric activity (Calcium H & K emission) yield 4.4–6.5 Gyr, while gyrochronology yields 5.0 ± 0.3 Gyr.<ref name="Mam08" />
+
+==Observation==
+The Alpha Centauri AB binary is too close to be resolved by the naked eye, because the angular separation varies between 2 and 22&nbsp;arcsec,<ref>{{cite book
+ | first=Johannes Ebenhaezer | last=Van Zyl  | year=1996  | title=Unveiling the Universe: An Introduction to Astronomy | publisher=Springer  | isbn=3-540-76023-7
+}}</ref> but through much of the orbit, both are easily resolved in binoculars or small {{convert|5|cm|0|abbr=on}} telescopes.<ref name="AOST2">{{cite news | last=Hartung | first=E.J. | coauthors=Frew, David Malin, David | year=1994 | title=Astronomical Objects for Southern Telescopes | publisher=[[Cambridge University Press]]}}</ref>
+
+In the southern hemisphere, Alpha Centauri forms the outer star of ''The Pointers'' or ''The Southern Pointers'',<ref name="AOST2" /> so called because the line through [[Beta Centauri]] (Hadar/Agena),<ref name="NortonSA">{{cite book |author=Norton, A.P., Ed. I. Ridpath |year=1986 |title=Norton's 2000.0 :Star Atlas and Reference Handbook |publisher=[[Longman|Longman Scientific and Technical]] |pages=39–40}}</ref>
+some 4.5[[degree (angle)|°]] west,<ref name="AOST2" /> points directly to the [[constellation]] [[Crux]]&nbsp;— the [[Southern Cross]].<ref name="AOST2" /> The Pointers easily distinguish the true Southern Cross from the fainter [[Asterism (astronomy)|asterism]] known as the [[Vela (constellation)|False Cross]].<ref>{{cite book  |last=Mitton |first=Jacquelin |year=1993 |title=The Penguin Dictionary of Astronomy |page=148 |publisher=[[Penguin Books]]}}</ref>
+
+South of about [[29th parallel south|29° S latitude]], Alpha Centauri is [[Circumpolar star|circumpolar]] and never sets below the horizon.<ref>This is calculated for a fixed latitude by knowing the star's [[declination]] (δ) using the formulae (90°+ δ). Alpha Centauri's declination is −60° 50′, so the latitude where the star is circumpolar will be south of −29° 10′S or 29°. Similarly, the place where Alpha Centauri never rises for northern observers is north of the latitude (90°+ δ) N or +29°N.</ref> Both stars, including Crux, are too far south to be visible for mid-latitude northern observers. Below about [[29th parallel north|29° N latitude]] to the equator (roughly [[Hermosillo, Mexico|Hermosillo]], [[Chihuahua, Chihuahua|Chihuahua]] in Mexico, [[Galveston, Texas]], [[Ocala, Florida]] and [[Lanzarote]], [[Canary Islands|the Canary Islands]] of Spain) during the northern summer, Alpha Centauri lies close to the southern horizon.<ref name="NortonSA" /> The star [[Culmination|culminates]] each year at midnight on 24 April or 9 p.m. on 8 June.<ref name="NortonSA" /><ref>{{cite web | url= http://www.southastrodel.com/Page20502.htm | title='The '"Constellations : Part 2 Culmination Times"' | publisher=Southern Astronomical Delights | accessdate=2008-08-06 |author=James, Andrew |location=Sydney, New South Wales}}</ref>
+
+As seen from Earth, [[Proxima Centauri]] lies 2.2° southwest from Alpha Centauri AB.<ref name="Matt93">{{cite journal | author=Matthews, R.A.J. | year=1993 | title=Is Proxima really in orbit about α Cen A/B? | journal=[[Monthly Notices of the Royal Astronomical Society]] | volume=261 | pages=L5 | bibcode=1993MNRAS.261L...5M | author2=Gilmore, Gerard}}</ref> This is about four times the [[angular diameter]] of the Full Moon, and almost exactly half the distance between Alpha Centauri AB and [[Beta Centauri]]. Proxima usually appears as a deep-red star of 13.1v [[Apparent magnitude|visual magnitude]] in a poorly populated star field, requiring moderately sized telescopes to see. Listed as V645 Cen in the ''[[General Catalogue of Variable Stars|General Catalogue of Variable Stars (G.C.V.S.) Version 4.2]]'', this [[UV Ceti]]-type [[flare star]] can unexpectedly brighten rapidly to about 11.0v or 11.09V magnitude.<ref name="RECONS" /> Some amateur and professional astronomers regularly monitor for outbursts using either optical or radio telescopes.<ref>{{cite journal | author=Page, A.A. | year=1982 | title=Mount Tamborine Observatory | journal=International Amateur-Professional Photoelectric Photometry Communication | volume=10 | page=26 | bibcode=1982IAPPP..10...26P}}</ref>
+
+==Observational history==
+English explorer [[Robert Hues]] brought Alpha Centauri to the attention of European observers in his 1592 work ''Tractatus de Globis'', along with Canopus and Achernar, noting "Now, therefore, there are but three Stars of the first magnitude that I could perceive in all those parts which are never seene here in England. The first of these is that bright Star in the sterne of Argo which they call Canobus. The second is in the end of Eridanus. The third is in the right foote of the Centaure."<ref>Knobel, p. 416.</ref>
+
+The binary nature of Alpha Centauri AB was first recognized in December 1689 by astronomer and Jesuit priest [[Jean Richaud]]. The finding was made incidentally while observing a passing [[comet]] from his station in [[Puducherry]]. Alpha Centauri was only the second binary star system to be discovered, preceded only by [[Alpha Crucis]].<ref name="KameswaraRao1984">
+{{cite journal
+ | last=Kameswara Rao | first=R.
+ | year=1984
+ | title=Father J. Richaud and early telescope observations in India
+ | journal=[[Bulletin of the Astronomical Society of India]]
+ | volume=81 | page=81
+}}</ref>
+By 1752, French astronomer [[Nicolas Louis de Lacaille|Abbé Nicolas Louis de Lacaille]] made [[astrometric]] positional measurements using a [[meridian circle]] while [[John Herschel]], in 1834, made the first [[Micrometer|micrometrical]] observations.<ref name="JHerschel1847">
+{{cite book
+ | last=Herschel | first=J.F.W.
+ | year=1847
+ | title=Results of Astronomical Observations made during the years 1834,5,6,7,8 at the Cape of Good Hope; being the completion of a telescopic survey of the whole surface of the visible heavens, commenced in 1825.
+ | publisher=Smith, Elder and Co, London
+}}</ref> Since the early 20th century, measures have been made with [[photographic plates]].<ref name="adsabs.harvard.edu">
+{{cite journal
+ | last=Kamper |first=K.W.
+ | last2=Wesselink | first2= A. J.
+ | year=1978
+ | title=Alpha and Proxima Centauri
+ | journal=[[Astronomical Journal]]
+ | volume=83 | page=1653
+ | bibcode=1978AJ.....83.1653K
+ | doi= 10.1086/112378
+}}</ref>
+
+By 1926, South African astronomer [[William Stephen Finsen]] calculated the approximate [[Orbital elements|orbit elements]] close to those now accepted for this system.<ref>[[Robert Grant Aitken|Aitken, R.G.]], "The Binary Stars", Dover, 1961, pp. 236–237.</ref> All future positions are now sufficiently accurate for visual observers to determine the relative places of the stars from a binary star [[ephemeris]].<ref>
+{{cite web
+ | url=http://ad.usno.navy.mil/wds/orb6/orb6ephem.html
+ | title=Sixth Catalogue of Orbits of Visual Binary Stars : Ephemeris (2008)
+ | publisher=[[U.S. Naval Observatory]]
+ | accessdate=2008-08-13
+}}</ref> Others, like the Belgian astronomer D. Pourbaix (2002), have regularly refined the precision of any new published orbital elements.<ref name="SixthCatOrbVisBin"/>
+
+[[File:Alpha Centauri AB over limb of Saturn PIA10406.jpg|thumb|right|280px|Alpha Centauri A and B resolved over the limb of Saturn, as seen by [[Cassini–Huygens]]]]
+[[File:Alpha, Beta and Proxima Centauri.jpg|right|thumb|280px|The two bright stars are (left) Alpha Centauri and (right) [[Beta Centauri]]. The faint red star in the center of the red circle is [[Proxima Centauri]].
+Taken with [[Canon EF 85mm lens|Canon 85mm]] f/1.8 lens with 11 frames stacked, each frame exposed 30 seconds.]]
+Alpha Centauri is the closest star system to the [[Solar System]]. It lies about 4.37 [[light-year]]s in distance, or about 41.5 trillion kilometres, 25.8 trillion miles or 277,600 AU. [[Scotland|Scottish]] astronomer [[Thomas Henderson (astronomer)|Thomas Henderson]] made the original discovery from many exacting observations of the trigonometric [[parallax]]es of the AB system between April 1832 and May 1833. He withheld the results because he suspected they were too large to be true, but eventually published in 1839 after [[Friedrich Wilhelm Bessel]] released his own accurately determined parallax for [[61 Cygni]] in 1838.<ref name="autogenerated345">Pannekoek, A., "A Short History of Astronomy", Dover, 1989, pp. 345–6</ref> For this reason, Alpha Centauri is considered as the second star to have its distance measured because it was not formally recognized first.<ref name="autogenerated345"/> Alpha Centauri is currently inside the [[G-cloud]], and the nearest known system to it is [[WISE 1049-5319]] at 3.6 light years.{{citation needed|date=April 2013}}
+
+[[Scotland|Scottish]] astronomer [[Robert T. A. Innes|Robert Innes]] discovered [[Proxima Centauri]] in 1915 by blinking photographic plates taken at different times during a dedicated [[proper motion]] survey. This showed the large proper motion and parallax of the star was similar in both size and direction to those of Alpha Centauri AB, suggesting immediately it was part of the system and slightly closer to us than Alpha Centauri AB. Lying 4.22 light-years away, Proxima Centauri is the [[List of nearest stars|nearest star]] to the Sun. All current derived distances for the three stars are from the [[parallax]]es obtained from the [[Hipparcos]] star catalog (HIP).<ref>{{cite web
+ | url=http://www.rssd.esa.int/SA/HIPPARCOS/docs/vol8_all.pdf
+ | title=The Hipparcos Catalogue&nbsp;– R.A. 14h-19h, HIP: 68301-93276
+ | publisher=ESA
+ | accessdate=2008-08-06
+}}</ref><ref>
+{{cite web
+ | url=http://www.rssd.esa.int/index.php
+ | title=Hipparcos Data Vol.8. (1997)
+ | publisher=ESA
+ | accessdate=2008-08-06
+| archiveurl= http://web.archive.org/web/20080806090136/http://www.rssd.esa.int/index.php| archivedate= 6 August 2008 | deadurl= no}}</ref><ref>
+{{cite web
+ | url=http://HIPPARCOS&page=table361
+ | title=The 150 Stars in the Hipparcos Catalogue Closest to the Sun (1997)
+ | publisher=ESA
+ | accessdate=2008-08-06
+}}</ref><ref>
+{{cite web
+ | url=http://www.rssd.esa.int/SA-general/Projects/Hipparcos/pstex/sect2_01.pdf
+ | title=Contents of the Hipparcos Catalogue (1997)
+ | publisher=ESA
+ | accessdate=2008-08-06
+}}</ref>
+
+==Binary system==
+[[File:Orbit Alpha Centauri AB arcsec.png|thumb|right|300px|Apparent and true orbits of Alpha Centauri. The A component is held stationary and the relative orbital motion of the B component is shown. The apparent orbit (thin ellipse) is the shape of the orbit as seen by an observer on Earth. The true orbit is the shape of the orbit viewed perpendicular to the plane of the orbital motion. According to the radial velocity vs. time <ref name="Pourbaix"/> the radial separation of A and B along the line of sight had reached a maximum in 2007 with B being behind A. Since the orbit is divided here into 80 points, each step refers to a timestep of approx. 0.99888 years or 364.84 days.]]
+With the orbital period of 79.91&nbsp;years,<ref name="SixthCatOrbVisBin"/> the A and B components of this [[binary star]] can approach each other to 11.2 [[astronomical unit]]s, equivalent to 1.67 billion km or about the mean distance between the Sun and [[Saturn]], or may recede as far as 35.6&nbsp;AU (5.3 billion km—approximately the distance from the Sun to [[Pluto]]).<ref name="SixthCatOrbVisBin"/><ref name="Aitken236">[[Robert Grant Aitken|Aitken, R.G.]], "The Binary Stars", Dover, 1961, p. 236.</ref> This is a consequence of the binary's moderate [[orbital eccentricity]] ''e''&nbsp;=&nbsp;0.5179.<ref name="SixthCatOrbVisBin">
+{{cite news
+ | last=Hartkopf | first=W.
+ | coauthors=Mason, D. M.
+ | year=2008
+ | url=http://ad.usno.navy.mil/wds/orb6.html
+ | title=Sixth Catalog of Orbits of Visual Binaries
+ | publisher=[[U.S. Naval Observatory]]
+}}</ref> From the [[orbital elements]], the total mass of both stars is about 2.0&nbsp;''M''<sub>☉</sub><ref><math>[(11.2+35.6)/2]^3/79.91^2=2.0</math>, see [[Standard gravitational parameter#Two bodies orbiting each other|formula]]</ref>—or twice that of the Sun.<ref name="Aitken236"/> The average individual stellar masses are 1.09&nbsp;''M''<sub>☉</sub> and 0.90&nbsp;''M''<sub>☉</sub>, respectively,<ref>
+{{cite journal
+ | author= Kim, Y-C. J.
+ | year=1999
+ | title=Standard Stellar Models; alpha Cen A and B
+ | journal=[[Journal of the Korean Astronomical Society]]
+ | volume=32 | page=119
+ | bibcode=1999JKAS...32..119K
+}}</ref> though slightly higher masses have been quoted in recent years, such as 1.14&nbsp;''M''<sub>☉</sub> and 0.92&nbsp;''M''<sub>☉</sub>,<ref name="RECONS" /> or totalling 2.06&nbsp;''M''<sub>☉</sub>. Alpha Centauri A and B have [[absolute magnitude]]s of +4.38 and +5.71, respectively.<ref name="RECONS" /><ref name="adsabs.harvard.edu"/> [[Stellar evolution]] theory implies both stars are slightly older than the Sun<ref name="eso"/> at 5 to 6 billion years, as derived by both mass and their spectral characteristics.<ref name="Matt93" /><ref>
+{{cite journal
+ | author=Kim, Y-C. J.
+ | year=1999
+ | title=Standard Stellar Models; alpha Cen A and B
+ | bibcode=1999JKAS...32..119K
+ | journal=[[Journal of the Korean Astronomical Society]]
+ | volume=32 | page=119
+}}</ref>
+
+Viewed from Earth, the ''apparent orbit'' of this binary star means that the separation and [[position angle|position angle (P.A.)]] are in continuous change throughout the projected orbit. Observed stellar positions in 2010 are separated by 6.74&nbsp;[[Microarcsecond|arcsec]] through the P.A. of 245.7°, reducing to 6.04&nbsp;arcsec through 251.8° in 2011.<ref name="SixthCatOrbVisBin"/> Next closest approach will be in February 2016, at 4.0&nbsp;arcsec through 300°.<ref name="SixthCatOrbVisBin"/><ref>
+{{cite web
+ |author=Andrew James
+ |url=http://www.southastrodel.com/PageAlphaCen006.htm
+ |title=ALPHA CENTAURI : 6
+ |publisher=Homepage.mac.com
+ |date=2008-03-11
+ |accessdate=2010-08-12
+}}</ref> Observed maximum separation of these stars is about 22&nbsp;arcsec, while the minimum distance is 1.7&nbsp;arcsec.<ref name="Aitken, R.G 1961, p. 235">[[Robert Grant Aitken|Aitken, R.G.]], "The Binary Stars", Dover, 1961, p. 235.</ref> Widest separation occurred during February 1976 and the next will be in January 2056.<ref name="SixthCatOrbVisBin"/>
+
+In the ''true orbit'', closest approach or [[apsis|periastron]] was in August 1955, and next in May 2035. Furthest orbital separation at [[apsis|apastron]] last occurred in May 1995 and the next will be in 2075. The apparent distance between the two stars is presently rapidly decreasing, at least until 2019.<ref name="SixthCatOrbVisBin"/>
+
+==Companion: Proxima Centauri==
+{{Main|Proxima Centauri}}
+
+The much fainter [[red dwarf]] star named Proxima Centauri, or simply Proxima, is about 15,000 [[astronomical units|AU]] away from Alpha Centauri AB.<ref name="DoubleStarsHeintz"/><ref name="Matt93" /><ref name="adsabs.harvard.edu"/> This is equivalent to 0.24&nbsp;[[light year]]s or 2.2&nbsp;trillion kilometres—about 5% the distance between the Sun and Alpha Centauri AB. Proxima is likely gravitationally bound to Alpha Centauri AB, orbiting it with a period between 100,000 and 500,000 years.<ref name="Matt93" /> However, it is also possible that Proxima is not gravitationally bound and thus moving along a [[hyperbolic trajectory]]<ref>
+{{cite journal
+ | author=Anosova, J
+ | year=1994
+ | title=Dynamics of nearby multiple stars. The α system
+ | journal=[[Astronomy and Astrophysics]]
+ | volume=292 | page=115
+ | bibcode=1994A&A...292..115A
+}}</ref> with respect to Alpha Centauri AB.<ref name="DoubleStarsHeintz">
+{{cite book
+ | last=Heintz | first=W.D.
+ | year=1978
+ | title=Double Stars
+ | page=72
+ | publisher=[[D. Reidel]]
+}}</ref> The main evidence for a bound orbit is that Proxima's association with Alpha Centauri AB is unlikely to be accidental, since they share approximately the same motion through space.<ref name="Matt93" /> Theoretically, Proxima could leave the system after several million years.<ref name="Matthews">
+{{cite journal
+ | author=Matthews, R.A.J.
+ | year=1994
+ | title=The Close Approach of Stars in the Solar Neighbourhood
+ | journal=[[Quarterly Journal of the Royal Astronomical Society]]
+ | volume=35 | pages=1–8
+ | bibcode=1994QJRAS..35....1M
+}}</ref> It is not yet certain whether Proxima and Alpha are truly gravitationally bound.<ref>
+{{cite journal
+ | last=Wetheimer |first=J.G.
+ | year=2008
+ | title=Are Proxima and Alpha Centauri Gravitationally Bound?
+ | author2=Gregory Laughlin
+ | doi=10.1086/507771
+ | journal=The Astronomical Journal
+ | volume=132
+ | issue=5
+ | pages=1995–1997
+ | arxiv=astro-ph/0607401
+ | bibcode=2006AJ....132.1995W
+}}</ref>
+
+Proxima is an M5.5&nbsp;V [[spectral class]] red dwarf with an [[absolute magnitude]] of +15.53, which is only a small fraction of the Sun's luminosity. By mass, Proxima is presently calculated as {{nowrap|0.123 ± 0.06 ''M''<sub>☉</sub>}} (rounded to 0.12&nbsp;''M''<sub>☉</sub>) or about one-eighth that of the Sun.<ref name="aaa397">
+{{cite journal
+ | last=Ségransan | first=D.
+ | last2=Kervella | first2=P.
+ | last3=Forveille | first3=T.
+ | last4=Queloz | first4=D.
+ | year=2003
+ | title=First radius measurements of very low mass stars with the VLTI
+ | journal=[[Astronomy and Astrophysics Letters]]
+ | volume=397 | issue=3 | pages=L5–L8
+ | bibcode=2003A&A...397L...5S
+ | doi=10.1051/0004-6361:20021714
+|arxiv = astro-ph/0211647 }}</ref>
+
+==High-proper-motion star==
+All components of Alpha Centauri display significant proper motions against the background sky, similar to the first magnitude stars [[Sirius]] and [[Arcturus]]. Over the centuries, this causes the apparent stellar positions to slowly change. Such motions define the ''high-[[proper motion|proper-motion]] stars''.<ref>
+{{cite web
+ |last=ESA: Hipparcos Site
+ |url=http://www.rssd.esa.int/index.php?project=HIPPARCOS&page=high_p
+ |title=High-Proper Motion Stars (2004)
+}}</ref> These stellar motions were unknown to ancient astronomers. Most assumed that all stars were immortal and permanently fixed on the [[Celestial Sphere|celestial sphere]], as stated in the works of the philosopher Aristotle.<ref>
+{{cite web
+ |last=Aristotle
+ |url=http://ebooks.adelaide.edu.au/a/aristotle/heavens/book2.html
+ |title=De Caelo (On the Heavens): Book II. Part 11. (2004)
+}}</ref>
+
+[[Edmond Halley]] in 1718 found that some stars had significantly moved from their ancient [[astrometric]] positions.<ref>Berry, A., "A History of Astronomy", Dover, 1989, pp. 357–358</ref> For example, the bright star [[Arcturus]] (α Boo) in the constellation of [[Boötes]] showed an almost 0.5° difference in 1800 years,<ref>Pannekoek, A., "A Short History of Astronomy", Dover, 1989</ref> as did the brightest star, [[Sirius]], in [[Canis Major]] (α CMa).<ref>
+{{Cite book
+ |last=Holberg |first=JB
+ |title=Sirius: Brightest Diamond in the Night Sky
+ |pages=41–42
+ |year=2007
+ |publisher=[[Praxis Publishing]]
+ |isbn=0-387-48941-X
+}}</ref> Halley's positional comparison was [[Ptolemy]]'s catalogue of stars contained in the [[Almagest]]<ref>
+{{cite web
+ |last=Tung |first=Brian
+ |url=http://astro.isi.edu/reference/almagest.html
+ |title=Star Catalogue of Ptolemy
+ |work=The Astronomy Corner: Reference (2006)
+}}</ref> whose original data included portions from an earlier catalog by [[Hipparchos]] during the {{nowrap|1st century [[BCE]]}}.<ref>[[Robert Russell Newton|Newton R.R.]], "The Crime of Claudius Ptolemy", T. Baltimore: Johns Hopkins University Press, (1977)</ref><ref>Pannekoek, A., "A Short History of Astronomy", Dover, 1989, p. 157</ref><ref>
+{{cite book
+ |last=Grasshoff |first=G.
+ |year=1990
+ |pages=319–394
+ |title=The History of Ptolemy's Star Catalogue
+ |publisher=[[Springer (publisher)|Springer]]
+ |isbn=0-387-97181-5
+}}</ref> Halley's proper motions were mostly for northern stars, so the southern star Alpha Centauri was not determined until the early 19th&nbsp;century.<ref name="Aitken, R.G 1961, p. 235"/>
+
+Scottish-born observer [[Thomas James Henderson]] in the 1830s at the Royal Observatory at the Cape of Good Hope discovered the true distance to Alpha Centauri.<ref>
+{{cite web
+ |last=Astronomical Society of South Africa
+ |url=http://www.saao.ac.za/assa/html/his-astr-henderson_t.html
+ |title=Henderson, Thomas [FRS] (2008)
+}}</ref><ref>
+{{cite journal
+ |author=Henderson, H.
+ |year=1839
+ |title=On the parallax of α Centauri
+ |journal=[[Monthly Notices of the Royal Astronomical Society]]
+ |volume=4|page=168
+ |bibcode=1839MNRAS...4..168H
+}}</ref> He soon realised this system displayed an unusually high proper motion,<ref>Pannekoek, A., "A Short History of Astronomy", Dover, 1989, p. 333</ref> and therefore its observed true velocity through space should be much larger.<ref>
+{{cite journal
+ |author= Maclear, M.
+ |title=Determination of Parallax of α<sup>1</sup>and α<sup>2</sup> Centauri
+ |bibcode=1851AN.....32..243.
+ |journal=[[Astronomische Nachrichten]]
+ |year=1851
+ |volume=32 |issue= 16 |page=243
+ |doi=10.1002/asna.18510321606
+}}</ref><ref name="Aitken, R.G 1961, p. 235"/> In this case, the apparent stellar motion was found using [[Abbé Nicolas Louis de Lacaille]]'s astrometric observations of 1751–1752,<ref>
+{{cite book
+ |first=de La Caillé |last=N.L.
+ |coauthors=Raven-Hart, R. (trans.& ed.)
+ |year=1976
+ |title=Travels at the Cape, 1751–1753: an annotated translation of Journal historique du voyage fait au Cap de Bonne-Espérance
+ |publisher=Cape Town
+ |isbn=0-86961-068-6
+}}</ref> by the observed differences between the two measured positions in different epochs. Using the [[Hipparcos Catalogue|Hipparcos Star Catalogue]] (HIP) data, the mean individual proper motions are −3678&nbsp;mas/yr or −3.678&nbsp;arcsec per year in [[right ascension]] and +481.84&nbsp;mas/yr or 0.48184&nbsp;arcsec per year in [[declination]].<ref name="HIP2008">[http://www.rssd.esa.int/index.php?project=HIPPARCOS&page=hipsearch European Space Agency: The Hipparcos and Tycho Catalogues Search facility(2008)]</ref><ref>Proper motions are expressed in smaller angular units than [[Microarcsecond|arcsec]], being measured in milli-arcsec (mas.) or one-thousandth of an arcsec. A negative value for proper motion in RA indicates the sky motion is east to west, in declination north to south.</ref> As proper motions are cumulative, the motion of Alpha Centauri is about 6.1&nbsp;[[arcmin]] each century, and 61.3&nbsp;[[arcmin]] or 1.02[[degree (angle)|°]] each [[millennium]]. These motions are about one-fifth and twice, respectively, the diameter of the [[Moon|full moon]].<ref name="Matthews"/> Using [[spectroscopy]] the mean radial velocity has been determined to be {{nowrap|25.1 ± 0.3 km/s}} towards the Solar System.<ref>
+{{cite journal
+ |author=Nordström, B.
+ |year=2004
+ |coauthors=''et al.''
+ |title=The Geneva-Copenhagen survey of the Solar neighbourhood. Ages, metallicities, and kinematic properties of ~14000 F and G dwarfs
+ |journal=[[Astronomy and Astrophysics]]
+ |volume=418|issue=3|pages=989–1019
+ |arxiv=astro-ph/0405198
+ |doi=10.1051/0004-6361:20035959
+ |bibcode=2004A&A...418..989N
+}}</ref><ref>[http://webviz.u-strasbg.fr/viz-bin/VizieR-5?-out.add=.&-source=V/117A/newcat.dat&recno=9988 HD 128620/1], database entry, The Geneva-Copenhagen Survey of Solar neighbourhood, J. Holmberg et al., 2007, [[Centre de Données astronomiques de Strasbourg|CDS]] ID [http://vizier.u-strasbg.fr/viz-bin/Cat?V/117A V/117A]. Accessed on line 19&nbsp;November 2008</ref>
+
+As the stars of Alpha Centauri approach us, the measured proper motion and trigonometric parallax  slowly increase.<ref name="Matt93"/><ref name="Matthews"/><ref name="Matthews"/><ref name="HIP2008"/> Changes are also observed in the size of the semi-major axis 'a' of the orbital [[ellipse]], increasing by 0.03&nbsp;arcsec per century.<ref name="DoubleStarsHeintz"/><ref>The semi-major axis size is calculated from the changing radial velocity (''v'') in km/s, the distance of the Sun to {{nowrap|α Centauri AB}} is therefore ''v''/(4.74&nbsp;AU/yr). Using the trigonometric [[parallax]] ''π'' in arcsec, the changes in ''a'' are found using Δ''a''&nbsp;=&nbsp;−1.0227&nbsp;×&nbsp;10<sup>−6</sup>&nbsp;×&nbsp;''a''&nbsp;×&nbsp;''v''&nbsp;×&nbsp;''π''/yr. Period changes (''T''<sub>p</sub>) are calculated by  ''T''<sub>p</sub>&nbsp;=&nbsp;''P''&nbsp;×&nbsp;(1&nbsp;−&nbsp;''v''/''c''), where ''c'' is the [[speed of light]] in km/s&nbsp;.</ref> This slightly shortens the observed orbital period of {{nowrap|Alpha Centauri AB}} by some 0.006 years per century being caused by the changes in the size of semi-major axis 'a'. This small effect is gradually reducing, until the star system is closest to us, and is then reversed as the distance increases again.<ref name="DoubleStarsHeintz"/> Consequently, the observed [[position angle]]s of the stars are subject to changes in the [[orbital elements]] over time, as first determined by W. H. van den Bos in 1926.<ref>
+{{cite journal
+ |author=van den Bos, W. H.
+ |year=1926
+ |title=A Table of Orbits of Visual Binary Stars (aka. First Orbit Catalogue of Binary Stars)
+ |journal=[[Bulletin of the Astronomical Institutes of the Netherlands]]
+ |volume=3|page=149
+ |bibcode=1926BAN.....3..149V
+}}</ref><ref>
+{{cite journal
+ |author=van den Bos, W. H.
+ |year=1926
+ |title=Table of Visual Binary Stars
+ |journal=[[Union Observatory Circular]]
+ |volume=2 |page=356
+}}</ref><ref>Calculated as; ''θ''&nbsp;−&nbsp;''θ''<sub>o</sub>&nbsp;=&nbsp;''μ''<sub>α</sub>&nbsp;×&nbsp;sin&nbsp;''α''&nbsp;×&nbsp;(''t''&nbsp;−&nbsp;''t''<sub>o</sub>&nbsp;), where; ''α''&nbsp;= right ascension (in degrees), ''μ''<sub>α</sub> is the common [[proper motion]] (cpm.) expressed in degrees, and ''θ'' and ''θ''<sub>o</sub> are the current position angle and calculated position angle at the different epochs.</ref> Some slight differences of about 0.5% in the measured proper motions are caused by Alpha Centauri AB's orbital motion.<ref name="HIP2008"/>
+
+Based on these observed proper motions and radial velocities, Alpha Centauri will continue to gradually brighten, passing just north of the [[Southern Cross]] or [[Crux]], before moving northwest and up towards the [[celestial equator]] and away from the [[galactic plane]]. By about 29,700&nbsp;[[AD]], in the present-day constellation of [[Hydra (constellation)|Hydra]], Alpha Centauri will be 1.00&nbsp;[[parsec|pc]] or 3.26&nbsp;[[light-year|ly]] away.<ref name="Matthews"/> Then it will reach the stationary radial velocity (RVel) of 0.0&nbsp;km/s and the maximum apparent magnitude of −0.86V (which is comparable to present-day magnitude of [[Canopus]]).  However, even during the time of this nearest approach, the apparent magnitude of Alpha Centauri will still not surpass that of [[Sirius]] (which will brighten incrementally over the next 60,000 years, and will continue to be the brightest star as seen from Earth for the next 210,000 years).<ref>''[[Sky and Telescope]]'', April 1998 (p60), based on computations from [[HIPPARCOS]] data.</ref>
+
+The Alpha Centauri system will then begin to move away from the Solar System, showing a positive radial velocity.<ref name="Matthews"/> Due to visual [[Perspective (visual)|perspective]], about 100,000&nbsp;years from now, these stars will reach a final [[vanishing point]] and slowly disappear among the countless stars of the Milky Way. Here this once bright yellow star will fall below naked-eye visibility somewhere in the faint present day southern constellation of [[Telescopium]] (this unusual location results from the fact that Alpha Centauri's orbit around the galactic centre is highly tilted with respect to the plane of the [[Milky Way]] galaxy).<ref name="Matthews"/>
+
+==Apparent movement==
+In about 4000 years, the [[proper motion]] of Alpha Centauri will mean that from the point of view of Earth it will appear close enough to [[Beta Centauri]] to form an optical [[double star]]. Beta Centauri is in reality far more distant than Alpha Centauri.
+[[Image:Motion-of-Alpha-Cen.jpg|thumb|256px|Apparent motion of Alpha Centauri relative to [[Beta Centauri]]]]
+
+==Planets==
+Until the 1990s, technologies did not exist that could detect planets outside the [[Solar System]].<ref name="lackofany" />
+
+{{OrbitboxPlanet begin|name = Alpha Centauri B
+| table_ref=<ref name=delfosse>{{cite arXiv|eprint=1109.2505|title=Alpha Centauri|author1=Forveille|author2=Bonfils|author3=Delfosse|author4=Alonso|author5=Udry|author6=Bouchy|author7=Gillon|author8=Lovis|author9=Neves|class=astro-ph.EP|year=2011}}</ref>
+}}
+{{OrbitboxPlanet
+| exoplanet = [[Alpha Centauri Bb|b]]
+| mass_earth = 1.13 ± 0.09
+| period = 3.2357 ± 0.0008
+| semimajor = 0.04
+| eccentricity =
+}}
+{{Orbitbox end}}
+
+===Alpha Centauri Bb===
+{{Further|Alpha Centauri Bb}}
+On 16 October 2012, researchers, mainly from the [[Observatory of Geneva]] and from the [[Centre for Astrophysics of the University of Porto]], announced that an Earth-mass planet had been detected in orbit around Alpha Centauri B using the [[radial velocity]] technique.<ref>{{cite web|author=jobs |url=http://www.nature.com/news/the-exoplanet-next-door-1.11605 |title=The exoplanet next door : Nature News & Comment |doi=10.1038/nature11572 |publisher=Nature.com |date= |accessdate=October 17, 2012}}</ref><ref>[http://phl.upr.edu/press-releases/aplanetarysystemaroundourneareststarisemerging Planetary Habitability Laboratory, UPR Arecibo: A Planetary System Around Our Nearest Star is Emerging]</ref> Over three years of observations had been needed for the difficult analysis.<ref name = "Wall"/> The planet has a [[minimum mass]] of 1.13 times Earth's mass.<ref name = "Dumusque"/> It is not in the habitable zone, orbiting very close to the host star at just 0.04 AU and completing one orbit every 3.236 days.<ref name = "Dumusque"/> Its surface temperature is estimated to be 1200 °[[Celsius temperature scale|C]] (about 1500 K),<ref name="NYT-Bb">{{cite news | url=http://www.nytimes.com/2012/10/17/science/space/new-planet-found-in-alpha-centauri.html?_r=0 | title=New Planet in Neighborhood, Astronomically Speaking | publisher=New York Times | date=October 17, 2012 | accessdate=October 17, 2012 | author=Overbye, Dennis}}</ref><ref name="BBC-Bb">{{cite web | url=http://www.bbc.co.uk/news/science-environment-19959531 | title=Exoplanet around Alpha Centauri is nearest-ever | date=October 17, 2012 | accessdate=October 17, 2012 | author=Palmer, Jason | publisher=BBC}}</ref> far too hot for liquid [[water]] and also above the melting temperatures of many [[silicate]] [[magma]]s. For comparison, the surface temperature of [[Venus]], the hottest planet in the [[Solar System]], is 462 °C (735 K).
+
+===Possibility of additional planets===
+The discovery of [[exoplanet|planets orbiting other star systems]], including similar binary systems ([[Gamma Cephei]]), raises the possibility that additional planets may exist in the Alpha Centauri system. Such planets could orbit Alpha Centauri&nbsp;A or Alpha Centauri&nbsp;B individually, or be on large orbits around the binary Alpha Centauri AB. Since both the principal stars are fairly similar to the Sun (for example, in age and [[metallicity]]), astronomers have been especially interested in making detailed searches for planets in the Alpha Centauri system. Several established planet-hunting teams have used various [[radial velocity]] or star [[Astronomical transit|transit]] methods in their searches around these two bright stars.<ref name="universetoday.com">
+{{cite web
+ | url=http://www.universetoday.com/2008/04/19/why-havent-planets-been-detected-around-alpha-centauri/
+ | title=Why Haven't Planets Been Detected around Alpha Centauri
+ | work=[[Universe Today]]
+ | accessdate=2008-04-19
+| archiveurl= http://web.archive.org/web/20080421040845/http://www.universetoday.com/2008/04/19/why-havent-planets-been-detected-around-alpha-centauri/| archivedate= 21 April 2008 | deadurl= no}}</ref> All the observational studies have so far failed to find any evidence for [[brown dwarf]]s or [[gas giant]] planets.<ref name="universetoday.com"/><ref>
+{{cite web
+ | url=http://www.ucsc.edu/news_events/text.asp?pid=2012
+ | title=Nearby star should harbor detectable, Earth-like planets
+ | date=7 March 2008
+ | first=Tim
+ | last=Stephens
+ | publisher=[[UC Santa Cruz]]
+ | work=News & Events
+ | accessdate=2008-04-19
+| archiveurl= http://web.archive.org/web/20080417004113/http://www.ucsc.edu/news_events/text.asp?pid=2012| archivedate= 17 April 2008 | deadurl= no}}</ref>
+
+In 2009, computer simulations (then unaware of the close-in planet Bb) showed that a planet might have been able to form near the inner edge of Alpha Centauri B's habitable zone, which extends from 0.5 to 0.9 AU from the star. Certain special assumptions, such as considering that Alpha Centauri A and B may have initially formed with a wider separation and later moved closer to each other (as might be possible if they formed in a dense [[Open cluster|star cluster]]) would permit an accretion-friendly environment farther from the star.<ref name="Thebault 2009">{{cite journal
+ | author=Thebault, P., Marzazi, F., Scholl, H.
+ | year=2009
+ | title=Planet formation in the habitable zone of alpha centauri B
+ | journal=[[Monthly Notices of the Royal Astronomical Society]]
+ | volume= 393|issue= |pages=L21–L25
+ | arxiv=0811.0673
+|bibcode = 2009MNRAS.393L..21T |doi = 10.1111/j.1745-3933.2008.00590.x }}</ref> Bodies around A would be able to orbit at slightly farther distances due to A's stronger gravity. In addition, the lack of any brown dwarfs or gas giants in close orbits around A or B make the likelihood of terrestrial planets greater than otherwise.<ref name="lackofany">
+{{cite journal
+ | author=Quintana, E. V.; Lissauer, J. J.; Chambers, J. E.; Duncan, M. J.;
+ | title=Terrestrial Planet Formation in the Alpha Centauri System
+ | journal=[[Astrophysical Journal]]
+ | year=2002 | volume='''2''', part 1 | issue=2 | page=982
+ | doi=10.1086/341808 | bibcode=2002ApJ...576..982Q
+}}</ref> Theoretical studies on the detectability via radial velocity analysis have shown that a dedicated campaign of high-cadence observations with a 1–m class telescope can reliably detect a hypothetical planet of 1.8 Earth masses in the habitable zone of B within three years.<ref name=guedesetal2008>
+{{cite journal
+ | author = Javiera M. Guedes, Eugenio J. Rivera, Erica Davis, Gregory Laughlin, Elisa V. Quintana, Debra A. Fischer
+ | title = Formation and Detectability of Terrestrial Planets Around Alpha Centauri B
+ | journal = [[Astrophysical Journal]]
+ | volume= 679|issue= 2|pages=1582–1587
+ | arxiv=0802.3482
+ | doi=10.1086/587799
+| bibcode=2008ApJ...679.1582G
+ | year = 2008
+}}</ref>
+
+Radial velocity measurements of Alpha Centauri B with [[HARPS]] spectrograph ruled out planets of more than 4 Earth masses to the distance of the habitable zone of the star (rotation period P = 200 days).<ref name = "Dumusque"/>
+
+Alpha Centauri is envisioned as the first target for unmanned [[Interstellar travel|interstellar exploration]]. Crossing the huge distance between the Sun and Alpha Centauri using current spacecraft technologies would take several millennia, though the possibility of [[solar sail]] or [[nuclear pulse propulsion]] technology could cut this down to a matter of decades.<ref>
+{{cite web
+ | url = http://www.universetoday.com/2008/07/08/how-long-would-it-take-to-travel-to-the-nearest-star
+ | title=How Long Would it Take to Travel to the Nearest Star?
+ | date=8 July 2008
+ |work=[[Universe Today]]
+ |author = Ian O'Neill, Ian
+}}</ref>
+
+===Theoretical planets===
+Early computer-generated models of planetary formation predicted the existence of [[terrestrial planet]]s around both Alpha Centauri A and&nbsp;B,<ref name=guedesetal2008 /><ref>Javiera Guedes, [http://www.ucolick.org/~javiera/alphacen.shtml Terrestrial Planet Formation Around Alpha Cen B]</ref><ref>see Lissauer and Quintana in references below</ref> but most recent numerical investigations have shown that the gravitational pull of the companion star renders the accretion of planets very difficult.<ref name="Thebault 2009"/><ref>
+{{cite journal
+ | author= M. Barbieri, F. Marzari, H. Scholl
+ | year=2002
+ | title=Formation of terrestrial planets in close binary systems: The case of α Centauri A
+ | journal=[[Astronomy & Astrophysics]]
+ | volume=396 | issue= 1|pages=219&nbsp;– 224
+ | doi=10.1051/0004-6361:20021357
+| bibcode=2002A&A...396..219B
+|arxiv = astro-ph/0209118 }}</ref> Despite these difficulties, given the similarities to the Sun in [[spectral type]]s, star type, age and probable stability of the orbits, it has been suggested that this stellar system could hold one of the best possibilities for harbouring [[extraterrestrial life]] on a potential planet.<ref name=lackofany/><ref name="Wiegert">
+{{cite journal
+ | author= P.A. Wiegert and M.J. Holman
+ | title=The stability of planets in the Alpha Centauri system
+ | journal=[[The Astronomical Journal]]
+ | year=1997
+ | volume=113 | pages=1445&nbsp;– 1450
+ | bibcode=1997AJ....113.1445W
+ | doi= 10.1086/118360
+|arxiv = astro-ph/9609106 }}</ref><ref>
+{{cite journal
+ | author=Lissauer, J. J., E. V. Quintana, J. E. Chambers, M. J. Duncan, and F. C. Adams.
+ | title= Terrestrial Planet Formation in Binary Star Systems
+ |bibcode=2004RMxAC..22...99L
+ | journal=[[Revista Mexicana de Astronomia y Astrofisica]] (Serie de Conferencias)
+ | year=2004
+ | volume=22 | pages=99–103
+}}</ref><ref>
+{{cite journal
+ | author=Quintana, E. V.; Lissauer, J. J.;
+ | title=Terrestrial Planet Formation in Binary Star Systems
+ | journal=[[Planets in Binary Star Systems]]
+ | year=2007
+}}</ref>
+
+Some astronomers speculated that any possible terrestrial planets in the Alpha Centauri system may be bone dry or lack significant atmospheres. In the Solar System both Jupiter and Saturn were probably crucial in perturbing [[comet]]s into the inner Solar System. Here the comets provided the inner planets with their own source of water and various other ices<ref name="Croswell">
+{{cite journal
+ | author=Croswell, K.
+ | year=1991
+ | title=Does Alpha Centauri Have Intelligent Life?
+ | journal=[[Astronomy (journal)|Astronomy]]
+ | volume=19 |pages=28–37
+}}</ref> but [[Proxima Centauri]] may have influenced the planetary disk as the Alpha Centauri system was forming enriching the area round Alpha Centauri A and B with volatile materials.<ref>
+{{cite web
+ |url=http://www.centauri-dreams.org/?p=726
+ |title=Proxima Centauri and Habitability
+ |publisher=Centauri-dreams.org
+ |date=2006-07-05
+ |accessdate=2010-08-12
+}}</ref> This would be discounted if, for example, Alpha Centauri&nbsp;B happened to have gas giants orbiting Alpha Centauri&nbsp;A (or conversely, Alpha Centauri&nbsp;A for Alpha Centauri&nbsp;B), or if the stars B and A themselves were able to successfully perturb comets into each other's inner system as Jupiter and Saturn presumably have done in the Solar System. Because icy bodies probably also reside in [[Oort cloud]]s of other planetary systems, when they are influenced gravitationally by either the gas giants or disruptions by passing nearby stars many of these icy bodies then travel starwards.<ref name="Matthews" /> There is no direct evidence yet of the existence of such an Oort cloud around Alpha Centauri&nbsp;AB, and theoretically this may have been totally destroyed during the system's formation.<ref name="Matthews" />
+
+To be in the star's [[habitable zone]], any suspected Earth-like planet around Alpha Centauri&nbsp;A would have to be placed about 1.25&nbsp;[[astronomical unit|AU]] away&nbsp;– about halfway between the distances of Earth's orbit and [[Mars]]'s orbit in the [[Solar System]]&nbsp;– so as to have similar planetary temperatures and conditions for liquid water to exist. For the slightly less luminous and cooler Alpha Centauri&nbsp;B, the habitable zone would lie closer at about 0.7&nbsp;AU {{nowrap|(100 million km)}}, approximately the distance that [[Venus]] is from the Sun.<ref name="Croswell" /><ref>
+{{cite web
+ | url=http://www.universetoday.com/2008/03/10/if-alpha-centauri-has-earth-like-planets-we-can-detect-them/
+ | title=If Alpha Centauri Has Earth-like Planets, Can We Detect Them?
+ | work=[[Universe Today]]
+ | accessdate=2008-03-10
+| archiveurl= http://web.archive.org/web/20080314213007/http://www.universetoday.com/2008/03/10/if-alpha-centauri-has-earth-like-planets-we-can-detect-them/| archivedate= 14 March 2008 | deadurl= no}}</ref>
+
+With the goal of finding evidence of such planets, both Proxima Centauri and Alpha Centauri&nbsp;AB were among the listed "Tier&nbsp;1" target stars for [[NASA]]'s [[Space Interferometry Mission]] (SIM). Detecting planets as small as three Earth-masses or smaller within two [[astronomical unit]]s of a "Tier&nbsp;1" target would have been possible with this new instrument.<ref name="numbers">"[http://www.jpl.nasa.gov/news/features.cfm?feature=1209 Planet Hunting by Numbers]", ([[Press Release]]), NASA, Stars and Galaxies, ''[[Jet Propulsion Laboratory]]'', 18 October 2006. Retrieved 24 April 2007.</ref> However, the SIM mission was cancelled due to financial issues in 2010.<ref>{{cite web |last1=Mullen |first1=Leslie |title=Rage Against the Dying of the Light |url=http://www.astrobio.net/exclusive/4005/rage-against-the-dying-of-the-light |date=2 June 2011 |work=Astrobiology Magazine |accessdate=2011-06-07 | archiveurl= http://web.archive.org/web/20110604121537/http://www.astrobio.net/exclusive/4005/rage-against-the-dying-of-the-light| archivedate= 4 June 2011 | deadurl= no}}</ref>
+
+==View from this system==
+[[File:Sol View from AlpCenA.png|thumb|300px|Looking toward the [[Sun]] from Alpha Centauri in [[Celestia]]]]
+
+[[File:Sky-from-alpha-centauri.jpg|thumb|300px|Looking toward the sky around Orion from Alpha Centauri with [[Sirius]] near [[Betelgeuse]] and the [[Sun]] between [[Perseus]] and [[Cassiopeia (constellation)|Cassiopeia]] generated by [[Celestia]]]]
+
+Viewed from near the Alpha Centauri system, the sky would appear very much as it does for earthbound observers, except that Centaurus would be missing its brightest star. The Sun would be a yellow +0.5 visual magnitude star in eastern [[Cassiopeia (constellation)|Cassiopeia]] at the [[antipodal point]] of Alpha Centauri's current [[right ascension|RA]] and [[declination|Dec.]] at {{RA|02|39|35}} {{DEC|+60|50}} (2000). This place is close to the 3.4 magnitude star [[Epsilon Cassiopeiae|ε Cassiopeiae]]. An interstellar or alien observer would find the \/\/ of Cassiopeia had become a /\/\/ shape <ref>The coordinates of the Sun would be diametrically opposite Alpha Centauri AB, at ''α''={{RA|02|39|36.4951}}, ''δ''={{DEC|+60|50|02.308}}</ref> nearly in front of the [[Heart Nebula]] in Cassiopeia. [[Sirius]] lies less than a degree from [[Betelgeuse]] in the otherwise unmodified [[Orion (constellation)|Orion]] and is with −1.2 a little fainter than from Earth but still the brightest star in the Alpha Centauri sky. [[Procyon]] is also displaced into the middle of [[Gemini (constellation)|Gemini]], outshining [[Pollux (star)|Pollux]], while both [[Vega]] and [[Altair]] are shifted northwestward relative to [[Deneb]] (which barely moves, due to its great distance)- giving the [[Summer Triangle]] a more [[equilateral]] appearance.
+
+From Proxima itself, Alpha Centauri AB would appear like two close bright stars with the combined magnitude of −6.8. Depending on the binary's orbital position, the bright stars would appear noticeably divisible to the naked eye, or occasionally, but briefly, as single unresolved star. Based on the calculated [[absolute magnitude]]s, the [[visual magnitude]]s of Alpha Centauri A and B would be −6.5 and −5.2, respectively.<ref>Computed; using in solar terms: 1.1&nbsp;''M''<sub>☉</sub> and 0.92&nbsp;''M''<sub>☉</sub>, luminosities 1.57 and 0.51&nbsp;''L''*/''L''<sub>☉</sub>, Sun magnitude −26.73(v), 11.2 to 35.6 AU orbit; The minimum luminosity adds planet's orbital radius to A–B distance (max) (conjunction). Max. luminosity subtracts the planet's orbital radius to A–B distance (min) (opposition).</ref>
+
+===View from a hypothetical planet===
+[[File:Planet-alphacen1.png|thumb|300px|Artist's rendition of the view from a hypothetical airless planet orbiting Alpha Centauri A]]
+An observer on a hypothetical planet orbiting around either Alpha Centauri&nbsp;A or Alpha Centauri&nbsp;B would see the other star of the binary system as an intensely bright object in the night sky, showing a small but discernible disk.
+
+For example, some theoretical Earth-like planet orbiting about 1.25 AU from Alpha Centauri&nbsp;A (so that the star appears roughly as bright as the Sun viewed from the Earth) would see Alpha Centauri&nbsp;B orbit the entire sky once roughly every one year and three months (or 1.3(4) [[year|a]]), the planet's own [[orbital period]]. Added to this would be the changing apparent position of Alpha Centauri&nbsp;B during its long eighty-year elliptical orbit with respect to Alpha Centauri&nbsp;A (comparable in speed to [[Uranus]] here). Depending on the position on its orbit, Alpha Centauri B would vary in apparent magnitude between −18.2 (dimmest) and −21.0 (brightest). These visual magnitudes are much dimmer than the currently observed −26.7 [[apparent magnitude|magnitude]] for the Sun as viewed from the Earth. The difference of 5.7 to 8.6 magnitudes means Alpha Centauri&nbsp;B would appear, on a linear scale, 2500 to 190 times dimmer than Alpha Centauri&nbsp;A (or the Sun viewed from the Earth), but also 190 to 2500 times brighter than the −12.5 magnitude full [[Moon]] as seen from the Earth.
+
+Also, if another similar Earth-like planet orbited at 0.71&nbsp;AU from Alpha Centauri&nbsp;B (so that in turn Alpha Centauri B appeared as bright as the Sun seen from the Earth), this hypothetical planet would receive slightly more light from the more luminous Alpha Centauri&nbsp;A, which would shine 4.7 to 7.3 magnitudes dimmer than Alpha Centauri&nbsp;B (or the Sun seen from the Earth), ranging in apparent magnitude between −19.4 (dimmest) and −22.1 (brightest). Thus Alpha Centauri&nbsp;A would appear between 830 and 70 times dimmer than the Sun but some 580 to 6900 times brighter than the full Moon. During such planet's orbital period of 0.6(3) [[year|a]], an observer on the planet would see this intensely bright companion star circle the sky just as we see with the [[Solar System]]'s planets. Furthermore, Alpha Centauri&nbsp;A [[orbital period|sidereal period]] of approximately eighty years means that this star would move through the local [[ecliptic]] as slowly as [[Uranus]] with its eighty-four year period, but as the orbit of Alpha Centauri&nbsp;A is more elliptical, its apparent magnitude will be far more variable. Although intensely bright to the eye, the overall illumination would not significantly affect climate nor influence normal plant [[photosynthesis]].<ref name="Croswell"/>
+
+An observer on the hypothetical planet would notice a change in orientation to [[very-long-baseline interferometry|VLBI]] reference points commensurate with the binary orbit periodicity plus or minus any local effects such as [[precession]] or [[nutation]].
+
+Assuming this hypothetical planet had a low orbital inclination with respect to the mutual orbit of Alpha Centauri&nbsp;A and B, then the secondary star would start beside the primary at 'stellar' [[Conjunction (astronomy and astrology)|conjunction]]. Half the period later, at 'stellar' [[Opposition (astronomy and astrology)|opposition]], both stars would be opposite each other in the sky. Then, for about half the planetary year the appearance of the night sky would be a darker blue&nbsp;– similar to the sky during totality at any total [[solar eclipse]]. Humans could easily walk around and clearly see the surrounding terrain, and reading a book would be quite possible without any artificial light.<ref name="Croswell" /> After another half period in the stellar orbit, the stars would complete their orbital cycle and return to the next stellar conjunction, and the familiar Earth-like day and night cycle would return.
+
+==Names==
+
+The colloquial name of Alpha Centauri is ''Rigel Kent'' or ''Rigil Kent'',<ref name="K&S">Kunitzsch P., & Smart, T., ''A Dictionary of Modern star Names: A Short Guide to 254 Star Names and Their Derivations'', Cambride, Sky Pub. Corp., 2006, p. 27</ref> short for ''Rigil/Rigel Kentaurus'',<ref>Bailey, F., "The Catalogues of Ptolemy, Ulugh Beigh, Tycho Brahe, Halley, and Hevelius", ''Memoirs of Royal Astronomical Society'', vol. XIII, London, 1843.</ref><ref group="nb">Spellings include ''Rigjl Kentaurus'', [[Thomas Hyde|Hyde T.]], "Ulugh Beighi Tabulae Stellarum Fixarum", ''Tabulae Long. ac Lat. Stellarum Fixarum ex Observatione Ulugh Beighi'', Oxford, 1665, p. 142., Hyde T., "In Ulugh Beighi Tabulae Stellarum Fixarum Commentarii", ''op. cit.'', p. 67., Portuguese ''Riguel Kentaurus'' da Silva Oliveira, R., [http://www.asterdomus.com.br/Artigo_crux_australis.htm "Crux Australis: o Cruzeiro do Sul"], Artigos: Planetario Movel Inflavel AsterDomus.</ref> the romanization of the Arabic name رجل القنطورس ''Rijl Qanṭūris'',<ref name="K&S"/> from the phrase ''Rijl al-Qanṭūris'' "the foot of the [[Centaurus|Centaur]]".<ref>Davis Jr., G. A., [http://adsabs.harvard.edu/abs/1944PA.....52....8D "The Pronunciations, Derivations, and Meanings of a Selected List of Star Names,"]''Popular Astronomy'', Vol. LII, No. 3, Oct. 1944, p. 16.</ref> This is sometimes further abbreviated to ''Rigel'', though that is ambiguous with [[Beta Orionis]]. Although the short form ''Rigel Kent'' is common in English, the stars are most often referred to by their [[Bayer designation]] ''Alpha Centauri.''
+
+A medieval name is Toliman, whose etymology may be Arabic الظلمان ''al-Ẓulmān'' "the ostriches".<ref name="K&S"/> During the 19th century, the northern amateur popularist Elijah H. Burritt used the now-obscure name Bungula,<ref>Burritt, E. H., ''[[Star atlas|Atlas]], Designed to Illustrate the Geography of the Heavens'', (New Edition), New York, F. J. Huntington and Co., 1835, pl. VII.</ref> possibly coined from "β" and the [[Latin]] ''ungula'' ("hoof").<ref name="K&S"/> Together, Alpha and Beta Centauri form the "Southern Pointers" or "The Pointers", as they point towards the Southern Cross, the [[asterism (astronomy)|asterism]] of the constellation of [[Crux]].<ref name="AOST2" />
+
+In [[Chinese language|Chinese]], {{lang|zh|南門}} ''Nán Mén'', meaning ''[[Horn (Chinese constellation)|Southern Gate]]'', refers to an asterism consisting of α Centauri and [[Epsilon Centauri|ε Centauri]]. Consequently, α Centauri itself is known as {{lang|zh|南門二}} ''Nán Mén Èr'', the Second Star of the Southern Gate.<ref>{{zh icon}} [ AEEA (Activities of Exhibition and Education in Astronomy) 天文教育資訊網 2006 年 6 月 27 日]</ref>
+
+To the [[Australian aboriginal]] [[Boorong people]]{{who|date=September 2012}} of northwestern [[Victoria (Australia)|Victoria]], Alpha and [[Beta Centauri]] are ''Bermbermgle'',<ref name=hamacher>{{cite journal|author=Hamacher, Duane W.; Frew, David J. |year=2010|title= An Aboriginal Australian Record of the Great Eruption of Eta Carinae|journal=Journal of Astronomical History & Heritage |volume=13|issue=3|pages= 220–34|url=}}</ref> two brothers noted for their courage and destructiveness, who speared and killed ''Tchingal'' "The Emu" (the [[Coalsack Nebula]]).<ref name=stanbridge>{{cite journal|author=Stanbridge, WM|year=1857|title= On the Astronomy and Mythology of the Aboriginies of Victoria|journal=Transactions Philosophical Institute Victoria |volume=2|issue=|pages= 137–140|url=}}</ref> The form in [[Wergaia|Wotjobaluk]] is ''Bram-bram-bult''.<ref name=hamacher/>
+
+==Use in modern fiction==
+[[File:Near-stars-past-future-en.svg|thumb|300px|Distances of the [[List of nearest stars|nearest stars]] from 20,000 years ago until 80,000 years in the future. .]]
+{{Main|Alpha Centauri in fiction}}
+Alpha Centauri's relative proximity makes it in some ways the logical choice as "first port of call". [[Speculative fiction]] about [[interstellar travel]] often predicts eventual human [[space exploration|exploration]], and even the [[Discovery (observation)|discovery]] and [[space colonization|colonization]] of [[planetary system]]s. These themes are common to many works of [[science fiction]] and [[video game]]s.
+<!-- DO NOT ADD A REFERENCE TO JAMES CAMERON'S AVATAR; THAT DOES NOT BELONG ON THIS ARTICLE, BUT RATHER IN THE "ALPHA CENTAURI IN FICTION". Thank you. -->
+
+==See also==
+* [[List of brightest stars]]
+* [[List of nearest stars]]
+* [[Project Longshot]]
+
+==Notes==
+{{Reflist|group="nb"}}
+
+==References==
+{{Reflist|colwidth=30em}}
+
+==External links==
+{{Commons category|Alpha Centauri}}
+* [http://simbad.u-strasbg.fr/sim-id.pl?protocol=html&Ident=alpha+centauri SIMBAD observational data]
+* [http://ad.usno.navy.mil/wds/orb6.html Sixth Catalogue of Orbits of Visual Binary Stars U.S.N.O.]
+* [http://www.southastrodel.com/PageAlphaCen001.htm The Imperial Star&nbsp;– Alpha Centauri]
+* [http://www.southastrodel.com/PageAlphaCen006.htm Alpha Centauri&nbsp;– A Voyage to Alpha Centauri]
+* [http://www.southastrodel.com/PageAlphaCen006.htm Immediate History of Alpha Centauri]
+* [http://www.glyphweb.com/esky/stars/alphacentauri.html eSky : Alpha Centauri]
+
+===Hypothetical planets or exploration===
+* {{cite web
+ | title = A Family Portrait of the Alpha Centauri System
+ | work = SpaceRef.com
+ | url = http://www.spaceref.com/news/viewpr.html?pid=11016
+ | accessdate = 21 March 2003}}
+* [http://jumk.de/astronomie/near-stars/alpha-centauri.shtml Alpha Centauri System]
+* [http://www.uranometrianova.pro.br/astronomia/AA002/alphacen.htm O Sistema Alpha Centauri (Portuguese)]
+* [http://www.alpha-centauri.pt Alpha Centauri&nbsp;– Associação de Astronomia (Portuguese)]
+* http://www.space.com/scienceastronomy/080307-another-earth.html
+* {{cite news
+ | last=Thompson | first=Andrea | date=2008-03-07
+ | title=Nearest Star System Might Harbor Earth Twin
+ | publisher=SPACE.com
+ | url=http://www.space.com/scienceastronomy/080307-another-earth.html
+ | accessdate=2008-07-17 | archiveurl= http://web.archive.org/web/20080602011008/http://www.space.com/scienceastronomy/080307-another-earth.html| archivedate= 2 June 2008 | deadurl= no}}
+
+{{Sky|14|39|36.4951|-|60|50|02.308|4}}
+{{Nearest systems|1}}
+{{Stars of Centaurus}}
+
+[[Category:Alpha Centauri| ]]
+[[Category:Bayer objects|Centauri, Alpha]]
+[[Category:Centaurus (constellation)]]
+[[Category:G-type main-sequence stars]]
+[[Category:K-type main-sequence stars]]
+[[Category:M-type main-sequence stars]]
+[[Category:Solar analogs|Centauri, Alpha]]
+[[Category:Henry Draper Catalogue objects|128620 and 128621]]
+[[Category:Hipparcos objects|71681 and 71683]]
+[[Category:HR objects|5759 and 5760]]
+[[Category:Gliese and GJ objects|0559]]
+[[Category:Stars with proper names]]
+[[Category:Triple star systems]]
+[[Category:Multi-star planetary systems|2]]
+
+{{Link FA|de}}
+{{Link FA|it}}

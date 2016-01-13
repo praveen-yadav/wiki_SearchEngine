@@ -1,0 +1,286 @@
+{{Use dmy dates|date=June 2012}}
+The '''Baudot code''', invented by [[Émile Baudot]],<ref> {{Citation | editor-last = Ralston | editor-first = Anthony | editor2-last = Reilly | editor2-first = Edwin D. | year = 1993 | title = Encyclopedia of Computer Science | chapter = Baudot Code | edition = Third | publisher = IEEE Press/Van Nostrand Reinhold | publication-place = New York | isbn = 0-442-27679-6 }} </ref> is a [[character encoding|character set]] predating [[EBCDIC]] and [[ASCII]]. It was the predecessor to the International Telegraph Alphabet No. 2 (ITA2), the [[teleprinter]] code in use until the advent of ASCII. Each character in the alphabet is represented by a [[Asynchronous communication|series of bits]], sent over a communication channel such as a telegraph wire or a radio signal. The [[symbol rate]] measurement is known as [[baud]], and is derived from the same name.
+
+==History==
+===Baudot code===
+Technically, five bit codes began in the 16th century, when [[Francis Bacon]] developed the cipher now called [[Bacon's cipher]]. However, this cipher is not a machine cipher and as such is not readily suitable for telecommunications.<ref> {{Citation | title = Bacon’s Bilateral Cipher | url = http://www.math.cornell.edu/~morris/135/Bacon.pdf | accessdate = 15 April 2012 }} </ref>
+
+Baudot invented his original code in 1870 and patented it in 1874. It was a 5-bit code, with equal on and off intervals, which allowed telegraph transmission of the Roman alphabet and punctuation and control signals. It was based on an earlier code developed by [[Carl Friedrich Gauss]] and [[Wilhelm Eduard Weber|Wilhelm Weber]] in 1834.<ref>{{cite journal
+|journal=Wire & Radio Communications
+|title=Printer Systems
+|author=H. A. Emmons
+|date=1 May 1916
+|volume=34
+|page=209
+}}</ref><ref>{{cite journal
+|journal=Transactions
+|publisher=American Institute of Electrical Engineers
+|title=A New Page-Printing Telegraph
+|author=William V. Vansize
+|date=25 Jan 1901
+|volume=18
+|page=22
+|url=http://books.google.com/?id=WlNLAAAAMAAJ&pg=PA22&dq=gauss+weber+baudot
+}}</ref><ref name="GaussWeberAlphabet">{{cite web|url=http://www.measurement-valley.de/Gauss-Weber-Telegraf|title=Gauss-Weber-Telegraph|publisher=Measurement Valley|work=Metrology Mile|accessdate=2009-05-03|language=German}}</ref>
+
+Baudot's original code was adapted to be sent from a manual keyboard, and no teleprinter equipment was ever constructed that used it in its original form.<ref name = "TomJennings-Baudot"> {{Harvnb|Jennings|2004}} </ref> The code was entered on a keyboard which had just five piano type keys, operated with two fingers of the left hand and three fingers of the right hand. Once the keys had been pressed they were locked down until mechanical contacts in a distributor unit passed over the sector connected to that particular keyboard, when the keyboard was unlocked ready for the next character to be entered, with an audible click (known as the "cadence signal") to warn the operator. Operators had to maintain a steady rhythm, and the usual speed of operation was 30 words per minute.<ref>{{cite book | last = Beauchamp | first = K.G. | title = History of Telegraphy: Its Technology and Application | publisher = [[IET]] | year = 2001 | pages = 394–395 | url = | id = | isbn = 0-85296-792-6}}</ref> 
+
+{|
+|
+{|class="wikitable" style="text-align:center;"
+|+ Continental Code
+! scope="col" width="15" | V !! scope="col" width="15" | IV !! scope="col" width="33" colspan=2 |  !! scope="col" width="15" | I !! scope="col" width="15" | II !! scope="col" width="15" | III
+| rowspan=17 | &nbsp;
+! scope="col" width="15" | V !! scope="col" width="15" | IV !! scope="col" width="33" colspan=2 |  !! scope="col" width="15" | I !! scope="col" width="15" | II !! scope="col" width="15" | III
+|-
+|   ||   || A || 1 || ● ||   ||  
+| ● || ● || P || % || ● || ● || ●
+|-
+|   || ● || B || 8 ||   ||   || ●
+| ● || ● || Q || / || ● ||   || ●
+|-
+|   || ● || C || 9 || ● ||   || ●
+| ● || ● || R || – ||   ||   || ●
+|-
+|   || ● || D || 0 || ● || ● || ●
+| ● ||   || S || ; ||   ||   || ●
+|-
+|   ||   || E || 2 ||   || ● ||  
+| ● ||   || T || ! || ● ||   || ●
+|-
+|   ||   || E'|| & || ● || ● ||  
+|   ||   || U || 4 || ● ||   || ●
+|-
+|   || ● || F || {{du|f}} ||   || ● || ●
+| ● ||   || V || ' || ● || ● || ●
+|-
+|   || ● || G || 7 ||   || ● ||  
+| ● ||   || W || ? ||   || ● || ●
+|-
+|   || ● || H || {{du|h}} || ● || ● ||  
+| ● ||   || X ||, ||   || ● ||  
+|-
+|   ||   || I || {{du|o}} ||   || ● || ●
+|   ||   || Y || 3 ||   ||   || ●
+|-
+|   || ● || J || 6 || ● ||   ||  
+| ● ||   || Z || : || ● || ● ||  
+|-
+| ● || ● || K || ( || ● ||   ||  
+| ● ||   || {{du|t}} || . || ● ||   ||  
+|-
+| ● || ● || L || = || ● || ● ||  
+| ● || ● || * || * || colspan=3 | ''Erasure''
+|-
+| ● || ● || M || ) ||   || ● ||  
+|   || ● || colspan=5 | ''Figure Blank''
+|-
+| ● || ● || N || N°||   || ● || ●
+| ● ||   || colspan=5 | ''Letter Blank''
+|-
+|   ||   || O || 5 || ● || ● || ●
+| colspan=7 | 
+|} {{clarify|date=July 2012}}
+| &nbsp; &nbsp; 
+|
+{|class="wikitable" style="text-align:center;"
+|+ Inland Code
+! scope="col" width="15" | <small>Let.</small> !! scope="col" width="15" | <small>Fig.</small> !! scope="col" width="15" | V !! scope="col" width="15" | IV !! scope="col" width="0" |  !! scope="col" width="15" | I !! scope="col" width="15" | II !! scope="col" width="15" | III
+| rowspan=17 |
+! scope="col" width="15" | <small>Let.</small> !! scope="col" width="15" | <small>Fig.</small> !! scope="col" width="15" | V !! scope="col" width="15" | IV !! scope="col" width="0" |  !!scope="col" width="15" | I !! scope="col" width="15" | II !! scope="col" width="15" | III
+|-
+| A || 1 ||   ||   |||| ● ||   ||  
+| – || . || ● ||   |||| ● ||   ||  
+|-		                   
+| E || 2 ||   ||   ||||   || ● ||  
+| X || <sup>9</sup>/|| ● ||   ||||   || ● ||  
+|-		                   
+| Y || 3 ||   ||   ||||   ||   || ●  
+| S || <sup>7</sup>/|| ● ||   ||||   ||   || ●  
+|-		                   
+| / || <sup>1</sup>/||   ||   |||| ● || ● ||  
+| Z || : || ● ||   |||| ● || ● ||  
+|-		                   
+| I || <sup>3</sup>/||   ||   ||||   || ● || ●
+| W || ? || ● ||   ||||   || ● || ●
+|-		                   
+| U || 4 ||   ||   |||| ● ||   || ●
+| T || ² || ● ||   |||| ● ||   || ●
+|-		                   
+| O || 5 ||   ||   |||| ● || ● || ●
+| V || ¹ || ● ||   |||| ● || ● || ●
+|-
+|  colspan=2 |  ||   ||   ||||   ||   ||  
+|  colspan=2 | <small>''Let. Bl.''</small>   || ● ||   ||||   ||   ||  
+|-
+| J || 6 ||   || ● |||| ● ||   ||  
+| K || ( || ● || ● |||| ● ||   ||  
+|-		                   
+| G || 7 ||   || ● ||||   || ● ||  
+| M || ) || ● || ● ||||   || ● ||  
+|-		                   
+| B || 8 ||   || ● ||||   ||   || ●
+| R || – || ● || ● ||||   ||   || ●
+|-		                   
+| H || ¹ ||   || ● |||| ● || ● ||  
+| L || = || ● || ● |||| ● || ● ||  
+|-		                   
+| F || <sup>5</sup>/||   || ● ||||   || ● || ●
+| N || £ || ● || ● ||||   || ● || ●
+|-		                   
+| C || 9 ||   || ● |||| ● ||   || ●
+| Q || / || ● || ● |||| ● ||   || ●
+|-		                   
+| D || 0 ||   || ● |||| ● || ● || ●
+| P || + || ● || ● |||| ● || ● || ●
+|-
+| colspan=2 | <small>''Fig. Bl.''</small>  ||   || ● ||||   ||   ||
+| * || * || ● || ● ||||   ||   ||  
+|}{{clarify|date=July 2012}}
+|}
+The table above "shows the allocation of the Baudot code which was employed in the [[General Post Office#New_communication_systems|British Post Office]] for continental and inland services. It will be observed that a number of characters in the continental code are replaced by fractionals in the inland code. Code elements 1, 2 and 3 are transmitted by keys 1, 2 and 3, and these are operated by the first three fingers of the right hand. Code elements 4 and 5 are transmitted by keys 4 and 5, and these are operated by the first two fingers of the left hand."
+<ref name = "TomJennings-Baudot" />
+<ref>Alan G. Hobbs, ''[http://www.nadcomm.com/fiveunit/fiveunits.htm 5 Unit Codes]'', section ''Baudot Multiplex System''</ref>
+<ref>{{cite book|last=Gleick|first=James|title=The Information: A History, a Theory, a Flood|year=2011|publisher=Fourth Estate|location=London|isbn=978-0-00-742311-8|pages=203|url=http://around.com/the-information}}</ref>
+
+Baudot's code became known as '''International Telegraph Alphabet No. 1''', and is no longer used.
+
+===Murray code===
+[[Image:Baudot Tape.JPG|thumb|240px|upright|Paper tape with holes representing the "Baudot Code"]]
+In 1901 Baudot's code was modified by [[Donald Murray (inventor)|Donald Murray]] (1865–1945), prompted by his development of a typewriter-like keyboard. The Murray system employed an intermediate step, a keyboard perforator, which allowed an operator to punch a [[paper tape]], and a tape transmitter for sending the message from the punched tape. At the receiving end of the line, a printing mechanism would print on a paper tape, and/or a reperforator could be used to make a perforated copy of the message.<ref>{{cite journal |last=Foster |first=Maximilian |year=1901 |month=August |title=A Successful Printing Telegraph |journal=[[World's Work|The World's Work: A History of Our Time]] |volume=II |pages=1195–1199 |id= |url= http://books.google.com/books?id=IF6tNZnhO7wC&pg=PA1195|accessdate=2009-07-09 |quote= }}</ref> As there was no longer a direct correlation between the operator's hand movement and the bits transmitted, there was no concern about arranging the code to minimize operator fatigue, and instead Murray designed the code to minimize wear on the machinery, assigning the code combinations with the fewest punched holes to the most [[letter frequencies|frequently used characters]].<ref> {{Harvnb|Copeland|2006|p=38}} </ref>
+
+The Murray code also introduced what became known as "format effectors" or "[[control character]]s" – the [[Carriage return|CR]] (Carriage Return) and [[Newline|LF]] (Line Feed) codes. A few of Baudot's codes moved to the positions where they have stayed ever since: the NULL or BLANK and the DEL code. NULL/BLANK was used as an idle code for when no messages were being sent.
+
+Early [[Creed & Company|British Creed]] machines used the Murray system.
+
+===Western Union===
+[[Image:Baudotkeyboard.png|right|frame|422px|Keyboard of a [[teleprinter]] using the Baudot code, with FIGS and LTRS shift keys.]]
+Murray's code was adopted by [[Western Union]] which used it until the 1950s, with a few changes that consisted of omitting some characters and adding more control codes. An explicit SPC (space) character was introduced, in place of the BLANK/NULL, and a new [[Bell character|BEL]] code rang a bell or otherwise produced an audible signal at the receiver. Additionally, the WRU or "Who aRe yoU?" code was introduced, which caused a receiving machine to send an identification stream back to the sender.
+
+===ITA2===
+Around 1930, the [[CCITT]] introduced the '''International Telegraph Alphabet No. 2''' ('''ITA2''') code as an international standard, which was based on the Western Union code with some minor changes. The US standardized on a version of ITA2 called the American Teletypewriter code (USTTY) which was the basis for 5-bit teletypewriter codes until the debut of 7-bit ASCII in 1963.<ref>{{cite web | last = Smith | first = Gil | title = Teletype Communication Codes | publisher = Baudot.net | year = 2001 | url = http://www.baudot.net/docs/smith--teletype-codes.pdf | accessdate = 2008-07-11| archiveurl= http://web.archive.org/web/20080820043949/http://www.baudot.net/docs/smith--teletype-codes.pdf| archivedate= 20 August 2008 <!--DASHBot-->| deadurl= no}}</ref>
+
+[[File:International Telegraph Alphabet 2.jpg|thumbnail|International Telegraph Alphabet 2]]
+
+{| class="wikitable sortable" | border=1 | style="margin: 1em auto 1em auto; text-align:center;"
+|+ International telegraphy alphabet No. 2 (Baudot-Murray code)<ref>{{Cite web | last = dataIP Limited | title = The "Baudot" Code | url = http://www.dataip.co.uk/Reference/BaudotTable.php | accessdate = 9 October 2010 | postscript = <!-- Bot inserted parameter. Either remove it; or change its value to "." for the cite to end in a ".", as necessary. -->{{inconsistent citations}} | archiveurl= http://web.archive.org/web/20100826053948/http://www.dataip.co.uk/Reference/BaudotTable.php| archivedate= 26 August 2010 <!--DASHBot-->| deadurl= no}}</ref>
+|-
+! colspan="2"| Pattern of impulses<br/>1=mark 0=space
+! rowspan="2" width="100pt"| Letter shift
+! rowspan="2" width="100pt"| Figure shift
+|-
+! width="100pt"| [[Most significant bit|msb]] on left
+! width="100pt"| [[Most significant bit|msb]] on right
+|-
+| 00000 || 00000 || Null || Null
+|-		        
+| 00100 || 00100 || Space || Space
+|-		        
+| 10111 || 11101 || Q || 1
+|-		        
+| 10011 || 11001 || W || 2
+|-		        
+| 00001 || 10000 || E || 3
+|-		        
+| 01010 || 01010 || R || 4
+|-		        
+| 10000 || 00001 || T || 5
+|-		        
+| 10101 || 10101 || Y || 6
+|-		        
+| 00111 || 11100 || U || 7
+|-		        
+| 00110 || 01100 || I || 8
+|-		        
+| 11000 || 00011 || O || 9
+|-		        
+| 10110 || 01101 || P || 0
+|-		        
+| 00011 || 11000 || A || –
+|-		        
+| 00101 || 10100 || S || Bell
+|-		        
+| 01001 || 10010 || D || WRU?
+|-		        
+| 01101 || 10110 || F || !
+|-		        
+| 11010 || 01011 || G || &
+|-		        
+| 10100 || 00101 || H || #
+|-		        
+| 01011 || 11010 || J || '
+|-		        
+| 01111 || 11110 || K || (
+|-		        
+| 10010 || 01001 || L || )
+|-		        
+| 10001 || 10001 || Z || "
+|-		        
+| 11101 || 10111 || X || /
+|-		        
+| 01110 || 01110 || C || :
+|-		        
+| 11110 || 01111 || V || ;
+|-		        
+| 11001 || 10011 || B || ?
+|-		        
+| 01100 || 00110 || N ||,
+|-		        
+| 11100 || 00111 || M || .
+|-		        
+| 01000 || 00010 || Carriage return || Carriage return
+|-		        
+| 00010 || 01000 || Line feed || Line feed
+|-		        
+| 11011 || 11011 || Shift to figures ||
+|-		        
+| 11111 || 11111 ||   || Shift to letters
+|}
+
+ITA2 is still used in [[Telecommunications devices for the deaf|TDDs]], [[telex]], and some [[amateur radio]] applications, such as [[radioteletype]] ("RTTY"). ITA2 is also used in Enhanced Broadcast Solution (a recent financial protocol specified by [[Deutsche Börse]]) to reduce the character encoding footprint<ref>{{Cite web | title = Enhanced Broadcast Solution – Interface Specification Final Version | publisher = Deutsche Börse | date = 17 May 2010 | url = https://www9.deutsche-boerse.com/INTERNET/XETRA/x4_member.nsf/0/4502210270B32DA8C1257600005247F5/$FILE/MUI11010_EnBS_FinalVersion.pdf/MUI11010_EnBS_FinalVersion.pdf?OpenElement | accessdate = 10 August 2011 }}</ref>
+
+==Nomenclature==
+Nearly all 20th-century teleprinter equipment used Western Union's code, ITA2, or variants thereof. Radio amateurs casually call ITA2 and variants "Baudot" incorrectly,<ref>{{cite book | last = Gillam | first = Richard | title = Unicode Demystified: | publisher = Addison-Wesley | year = 2002 | pages = 30 | url = | id = | isbn = 0-201-70052-2}} Enhanced Broadcast Solution – Interface Specification Final Version</ref> and even the [[American Radio Relay League]]'s Amateur Radio Handbook does so, though in more recent editions the tables of codes correctly identifies it as ITA2.
+
+==Details==
+NOTE: This table presumes the space called "1" by Baudot and Murray is rightmost, and least significant.  The way the transmitted bits were packed into larger codes varied by manufacturer; the most common solution allocates the bits from the least significant bit towards the most significant bit (leaving the three most significant bits of a byte unused).
+[[Image:Ita2.png|right|frame|Table of USTTY codes (expressed as [[hexadecimal]] numbers)]]
+In ITA2, characters are expressed using five bits. ITA2 uses two code sub-sets, the "letter shift" (LTRS), and the "figure shift" (FIGS). The FIGS character (11011) signals that the following characters are to be interpreted as being in the FIGS set, until this is reset by the LTRS (11111) character. In use, the LTRS or FIGS shift key is pressed and released, transmitting the corresponding shift character to the other machine. The desired letters or figures characters are then typed. Unlike a typewriter or modern computer keyboard the shift key isn't kept depressed whilst the corresponding characters are typed.  "ENQuiry" will trigger the other machine's answerback. It means "Who are you?"
+
+CR is [[carriage return]], LF is [[line feed]], BEL is the [[bell character]] which rang a small [[bell (instrument)|bell]] (often used to alert operators to an incoming message), SP is space, and NUL is the [[null character]] (blank tape).
+
+Note: the binary conversions of the codepoints are often shown in reverse order, depending on (presumably) from which side one views the paper tape. Note further that the [[control character|"control" characters]] were chosen so that they were either symmetric or in useful pairs so that inserting a tape "upside down" did not result in problems for the equipment and the resulting printout could be deciphered.  Thus FIGS (11011), LTRS (11111) and space (00100) are invariant, while CR (00010) and LF (01000), generally used as a pair, are treated the same regardless of order by page printers.<ref>{{cite web|url=http://www.wps.com/J/codes/|title=An annotated history of some character codes|last=Jennings|first=Tom|date=October 29, 2004|accessdate=August 22, 2013}}</ref> LTRS could also be used to overpunch characters to be deleted on a [[punched tape|paper tape]] (much like DEL in 7-bit [[ASCII]]).
+
+The sequence ''RYRYRY...'' is often used in test messages, and at the start of every transmission. Since R is 01010 and Y is 10101, the sequence exercises much of a teleprinter's mechanical components at maximum stress.  Also, at one time, fine-tuning of the receiver was done using two coloured lights (one for each tone).  'RYRYRY...' produced 0101010101..., which made the lights glow with equal brightness when the tuning was correct. This tuning sequence is only useful when ITA2 is used with two-tone [[Frequency-shift keying|FSK]] modulation, such as is commonly seen in [[Radioteletype]] (RTTY) usage.
+
+US implementations of Baudot code may differ in the addition of a few characters, such as #, & on the FIGS layer. The above table represents the US TTY code.
+
+The Russian version of Baudot code ([[MTK-2]]) used three shift modes; the [[Cyrillic letter]] mode was activated by the character (00000). Because of the larger number of characters in the Cyrillic alphabet, the characters [[!]], [[Ampersand|&]], [[Pound sign|£]] were omitted and replaced by Cyrillics, and [[Bell character|BEL]] has the same code as Cyrillic letter Ю.
+
+== See also ==
+*[[Serial communication]]
+*[[Asynchronous communication]]
+*[[Morse code]]
+*[[RY (test signal)]]
+*[[Punched tape]]
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{Citation | editor-last = Copeland | editor-first = B. Jack | editor-link = Jack  Copeland | title = Colossus: The Secrets of Bletchley Park's Codebreaking Computers | place = Oxford | publisher = Oxford University Press | year = 2006 | isbn = 978-0-19-284055-4 }}
+* {{Citation | last = Hobbs | first = Alan G  | title = NADCOMM Papers and Writings: Five-unit codes | url = http://www.nadcomm.com/fiveunit/fiveunits.htm | accessdate = 15 April 2012}}
+* {{Citation | last = Jennings | first = Tom | author-link = Tom Jennings | title = An annotated history of some character codes: Baudot's code | year = 2004 | url = http://www.wps.com/projects/codes/index.html#BAUDOT | accessdate = 17 April 2012 }}
+*[http://www.sensi.org/~alec/locale/other/mtk-2.html MTK-2 code table]
+*[http://www.quadibloc.com/crypto/tele03.htm Baudot, Murray, ITA2, ITA5, etc.]
+*[http://chem.ch.huji.ac.il/history/baudot.html Jean-Maurice-Émile Baudot]; (includes photos of 1870s–1880s gear, tech details & references)
+* [http://cryptii.com/text/ita2 Online Text-ITA2-Converter] (includes paper tape view)
+
+{{FOLDOC}}
+{{character encoding}}
+
+{{DEFAULTSORT:Baudot Code}}
+[[Category:Character encoding]]
+[[Category:Character sets]]
+[[Category:Telegraphy]]
+[[Category:Amateur radio]]

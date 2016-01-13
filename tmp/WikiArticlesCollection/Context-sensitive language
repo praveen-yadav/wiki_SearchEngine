@@ -1,0 +1,50 @@
+In [[theoretical computer science]], a '''context-sensitive language''' is a [[formal language]] that can be defined by a [[context-sensitive grammar]].  That is one of the four types of grammars in the [[Chomsky hierarchy]].
+
+== Computational properties ==
+
+Computationally, a context-sensitive language is equivalent with a linear bounded [[nondeterministic Turing machine]], also called a [[linear bounded automaton]]. That is a non-deterministic Turing machine with a tape of only ''kn'' cells, where ''n'' is the size of the input and ''k'' is a constant associated with the machine. This means that every formal language that can be decided by such a machine is a context-sensitive language, and every context-sensitive language can be decided by such a machine.
+
+This set of languages is also known as '''NLIN-SPACE''', because they can be accepted using linear space on a non-deterministic Turing machine.  The class '''LIN-SPACE''' is defined the same, except using a [[Deterministic automaton|deterministic]] Turing machine.  Clearly '''LIN-SPACE''' is a subset of '''NLIN-SPACE''', but it is not known whether '''LIN-SPACE'''='''NLIN-SPACE'''.  It is widely suspected they are not equal {{Citation needed|date=November 2012}}.
+
+== Examples ==
+
+One of the simplest context-sensitive languages is <math>L = \{ a^nb^nc^n : n \ge 1 \}</math>: the language of all strings consisting of ''n'' occurrences of the symbol "a", then ''n'' "b"'s, then ''n'' "c"'s (abc, aabbcc, aaabbbccc, etc.). A superset of this language, called the Bach language,<ref>{{cite conference |last=Pullum |first=Geoffrey K. |year=1983 |title=Context-freeness and the computer processing of human languages |conference=Proc. 21st Annual Meeting of the [[Association for Computational Linguistics|ACL]] |date=1983}}</ref> is defined as the set of all strings where "a", "b" and "c" (or any other set of three symbols) occurs equally often (aabccb, baabcaccb, etc.) and is also context-sensitive.<ref>Bach, E. (1981). "Discontinuous constituents in generalized categorial grammars". ''NELS'', vol. 11, pp.&nbsp;1&ndash;12.</ref><ref>Joshi, A.; Vijay-Shanker, K.; and Weir, D. (1991). "The convergence of mildly context-sensitive grammar formalisms". In: Sells, P., Shieber, S.M. and Wasow, T. (Editors). ''Foundational Issues in Natural Language Processing''. Cambridge MA: Bradford.</ref>
+
+Another example of a context-sensitive language that is not context-free is ''L'' = { ''a<sup>p</sup>'' : ''p'' is a [[prime number]] }. ''L'' can be shown to be a context-sensitive language by constructing a linear bounded automaton which accepts ''L''. The language can easily be shown to be neither [[regular language|regular]] nor [[context-free language|context free]] by applying the respective [[pumping lemma]]s for each of the language classes to ''L''.
+
+An example of [[recursive language]] that is not context-sensitive is any recursive language whose decision is an [[EXPSPACE]]-hard problem, say, the set of pairs of equivalent [[regular expression]]s with exponentiation.
+
+== Properties of context-sensitive languages ==
+
+* The union, intersection, concatenation and [[Kleene star]] of two context-sensitive languages is context-sensitive.<ref>{{cite book|authors=John E. Hopcroft, Jeffrey D. Ullman|title=Introduction to Automata Theory, Languages, and Computation|publisher=Addison-Wesley|year=1979}}; Exercise 9.10, p.230. In the 2003 edition, the chapter on CSL has been omitted.</ref>
+* The complement of a context-sensitive language is itself context-sensitive.{{citation needed|reason=(Hopcroft, Ullman, 1979) states this as a yet open issue.|date=November 2013}}
+* Every [[context-free grammar|context-free]] language not containing the empty string is context-sensitive.<ref>(Hopcroft, Ullman, 1979); Theorem 9.9 b, p.228</ref>
+* Membership of a string in a language defined by an arbitrary context-sensitive grammar, or by an arbitrary deterministic context-sensitive grammar, is a [[PSPACE-complete]] problem.
+
+==See also==
+* [[Linear bounded automaton]]
+* [[Chomsky hierarchy]]
+* [[Noncontracting grammar]]s – generate exactly the context-sensitive languages
+* [[Indexed language]]s – a strict subset of the context-sensitive languages
+
+==References==
+{{reflist}}
+* Sipser, M. (1996), ''Introduction to the Theory of Computation'', PWS Publishing Co.
+
+*{{cite journal
+ | last = Immerman
+ | first = Neil
+ | year = 1988
+ | title = Nondeterministic space is closed under complementation
+ | journal = SIAM J. Comput.
+ | issue = 5
+ | pages = 935–938
+ | doi = 10.1137/0217058
+ | volume = 17
+ | url=http://www.cs.umass.edu/~immerman/pub/space.pdf
+ }}
+
+{{Formal languages and grammars}}
+
+{{DEFAULTSORT:Context-Sensitive Language}}
+[[Category:Formal languages]]

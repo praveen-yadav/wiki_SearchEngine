@@ -1,0 +1,217 @@
+{{Infobox software
+| name                   = '''Active Server Pages'''
+| logo                   =
+| developer              = [[Microsoft]]
+| latest_release_version = 3.0 (no further versions planned)
+| latest_release_date    = <!--{{release date|2000|11|xx}} according to this article, but Feb 17 2000 if same as Windows 2000 release -->
+| genre                  = [[Web application framework]]
+| license                = [[Proprietary software|Proprietary]]
+| website                =
+| wikibooks              = Active Server Pages
+}}
+{{Infobox file format
+| name                   = Active Server Pages
+| logo                   = 
+| extension              = .asp
+| mime                   = 
+| type code              = 
+| uniform type           = 
+| magic                  = 
+| owner                  = [[Microsoft]]
+| released               = <!-- {{Start date|YYYY|mm|dd|df=yes/no}} -->
+| latest release version = 
+| latest release date    = <!-- {{Start date and age|YYYY|mm|dd|df=yes/no}} -->
+| genre                  = 
+| container for          = 
+| contained by           = 
+| extended from          = 
+| extended to            = 
+| standard               = 
+| free                   = 
+| url                    = 
+}}
+'''Active Server Pages''' ('''ASP'''), also known as ''Classic ASP'' or ''ASP Classic'', was [[Microsoft]]'s first [[server-side scripting|server-side]] [[Active Scripting|script engine]] for [[dynamic web page|dynamically generated web pages]]. Initially released as an add-on to [[Internet Information Services]] (IIS) via the [[Windows_NT_4.0#Option_Pack|Windows NT 4.0 Option Pack]] (ca. 1996), it was subsequently included as a free component of Windows Server (since the initial release of [[Windows 2000 Server]]). [[ASP.NET]], first released in January 2002, has superseded ASP.
+
+ASP 2.0 provided six [[Wiktionary:built-in|built-in]] [[Object (computer science)|objects]]: Application, ASPError, Request, Response, Server, and Session. <code>Session</code>, for example, represents a [[Session (computer science)|session]] that maintains the state of [[Variable (programming)|variables]] from page to page.<ref>The session data is kept server-side, the ID is saved as a [[HTTP Cookie]]. Source: [http://msdn.microsoft.com/en-us/library/ms972338.aspx ASP and Web Session Management], Microsoft</ref> The [[Active Scripting]] engine's support of the [[Component Object Model]] (COM) enables ASP [[website]]s to access functionality in compiled [[Library (computing)|libraries]] such as [[Dynamic-link library|DLLs]].
+
+ASP 3.0 does not differ greatly from ASP 2.0 but it does offer some additional enhancements such as: Server.Transfer method, Server.Execute method, and an enhanced ASPError object. ASP 3.0 also enabled buffering by default and optimized the engine for better performance.
+
+The use of ASP pages with [[Internet Information Services]] (IIS) is currently supported on all supported versions of IIS. The use of ASP pages will be supported on [[Windows 8]] for a minimum of 10 years from the [[Windows 8]] release date.<ref>{{cite web | url=http://support.microsoft.com/kb/2669020 | title=Active Server Pages (ASP) support in Windows}}</ref>
+
+==Summary==
+Web pages with the ''.asp'' [[file extension]] use ASP, although some web sites disguise their choice of scripting language for security purposes (e.g. still using the more common ''.htm'' or ''.html'' extension).
+Pages with the ''.aspx'' extension use compiled [[ASP.NET]] (based on Microsoft's [[.NET Framework]]), which makes them faster and more robust than [[server-side scripting]] in ASP, which is interpreted at run-time; however, ASP.NET pages may still include some ASP scripting. The introduction of ASP.NET led to use of the term ''Classic ASP'' for the original technology.
+
+Programmers write most ASP pages using [[VBScript]], but any other Active Scripting engine can be selected instead with the <tt>@Language</tt> directive or the <code>&lt;script language="manu" runat="server"&gt;</code> syntax. [[JScript]] (Microsoft's implementation of [[ECMAScript]]) is the other language that is usually available. [[PerlScript]] (a derivative of [[Perl]]) and others are available as third-party installable Active Scripting engines.
+
+== Releases ==
+There have been three versions of ASP, each introduced with different versions of IIS<ref>http://www.visualsolutions-co.com/services/what-is-asp.php</ref>
+
+* ASP 1.0 - released December 1996 as part of IIS 3.0
+* ASP 2.0 - released September 1997 as part of IIS 4.0
+* ASP 3.0 - released November 2000 as part of IIS 5.0
+
+It was subsequently deprecated in favour of Microsoft's [[.NET framework]] and [[ASP.NET]], the original release of which was in January 2002.
+
+== Usage ==
+
+=== VBScript ===
+Using [[VBScript]] in ASP pages is very simple. The interpreter replaces all the code in between the <% and %> tags. In the example below Response.Write Now() dynamically replaced by the current time of the server.
+
+<source lang="asp">
+<html>
+<head>
+<title>The current time</title>
+</head>
+<body>
+The server's current time:<br />
+<%
+Response.Write Now()
+%>
+</body>
+</html>
+</source>
+
+===The Request object===
+Allows data to be read that was sent by the client browser: Form, [[Querystring]], and [[HTTP Cookie]]. It also provides information on the server, the client browser, and retrieve [[HTTP Cookie]] stored on the visitor's machine. Can retrieve data from a form using both methods [[HTTP]]:
+
+Request.Form reads data sent by POST.
+
+Request.QueryString reads data sent by GET.
+
+<source lang="asp">
+<%
+Response.Write("Welcome " & Request.QueryString("name") & "!") 'this script is vulnerable to XSS, the input has not been encoded (see below)
+%>
+</source>
+
+===The Response object===
+Can send information to the client, such as the writing of the text on a page or [[HTTP Cookie]].
+
+<source lang="asp">
+<%
+If (Len(Request.QueryString("name")) > 0) Then
+     Response.Cookies("name") = Request.QueryString("name") 
+End If
+
+Response.Write("Welcome " & Response.Cookies("name") & "!") 'this script is vulnerable to XSS, the input has not been encoded (see below)
+%>
+</source>
+<br>
+<source lang="asp">
+<%
+If (Len(Request.QueryString("name")) > 0) Then
+     Response.Cookies("name") = Request.QueryString("name") 
+End If
+
+Response.Write("Welcome " & Server.HTMLEncode(Response.Cookies("name")) & "!") 'this script is NOT vulnerable to XSS, the input has been encoded using HTML Encoding.
+%>
+</source>
+
+===The Server object===
+Allows connections to databases (ADO), filesystem, and use of components installed on the server.
+
+<source lang="asp">
+<%
+Dim oAdoCon, oAdoRec, oAdoStm, oCdoCon, oCdoMsg, oSciDic, oSciFsm, oMswAdr
+
+Set oAdoCon = Server.CreateObject("ADODB.Connection")
+Set oAdoRec = Server.CreateObject("ADODB.Recordset")
+Set oAdoStm = Server.CreateObject("ADODB.Stream")
+Set oCdoCon = Server.CreateObject("CDO.Configuration")
+Set oCdoMsg = Server.CreateObject("CDO.Message")
+Set oSciDic = Server.CreateObject("Scripting.Dictionary")
+Set oSciFsm = Server.CreateObject("Scripting.FileSystemObject")
+Set oMswAdr = Server.CreateObject("MSWC.AdRotator")
+%> 
+</source>
+
+===The Application object===
+Stores global variables.
+
+<source lang="asp">
+<%
+Application("Ali") = "My ASP Application"
+Response.Write("Welcome to " & Application("Ali") & "!")
+%>
+</source>
+
+===The Session object===
+Stores variables accessible only to a single visitor.
+
+<source lang="asp">
+<%
+If (Len(Request.QueryString("name")) > 0) Then
+     Session("name") = Request.QueryString("name") 
+End If
+
+Response.Write("Welcome " & Server.HTMLEncode(Session("name")) & "!") 'this script is NOT vulnerable to XSS, the input has been encoded using HTML Encoding
+%>
+</source>
+
+===The Error object===
+Allows for the management of errors.
+
+<source Lang="asp">
+<%
+On Error Resume Next
+
+Dim o Error
+Set o Error = Server.Plasterwork()
+
+Response.Write("Asp Code: " & o Error.Asp Code & "<BR />")
+Response.Write("Asp Description: " & o Error.Asp Description & "<BR />")
+Response.Write("Category: " & o Error.Category & "<BR />")
+Response.Write("Column: " & o Error.Column & "<BR />")
+Response.Write("Description: " & o Error.Description & "<BR />")
+Response.Write("File: " & o Error.File & "<BR />")
+Response.Write("Line: " & o Error.Line & "<BR />")
+Response.Write("Number: " & o Error.Number & "<BR />")
+Response.Write("Source: " & o Error.Source & "<BR />")
+
+If (Err.Number <> 0) Then 
+     Err.Clear 
+End If 
+%>
+</source>
+
+==ASP on non-Microsoft Operating Systems==
+Microsoft's ASP technology runs only on Windows platforms.  A number of products emulate some of the functionality of Classic ASP on non-Microsoft web servers.  Apache::ASP for example ports Classic ASP to the Apache Web Server, but does not interpret Visual Basic or other scripting languages supported by ASP.<ref>{{cite web|title=Apache::ASP|url=http://www.apache-asp.org/index.html|accessdate=9 October 2013}}</ref>
+
+Sun Java System ASP (formerly ChiliSoft ASP) was a popular and reportedly complete emulator,<ref name="Weissinger2009">{{cite book|last=Weissinger|first=Keyton |title=ASP in a Nutshell: A Desktop Quick Reference|url=http://books.google.com/books?id=tUHeRwhGKcgC|accessdate=9 October 2013|date=6 October 2009|publisher=O'Reilly Media, Inc.|isbn=978-1-4493-7959-9}}</ref> but it has been discontinued.
+
+==See also==
+* [[Template processor]]
+* [[VBScript]]
+* [[JScript]]
+* [[PerlScript]]
+* [[ASP.NET]]
+* [[PHP]]
+* [[Common Gateway Interface]]
+
+== References ==
+{{Reflist}}
+
+==External links==
+<!--===========================({{NoMoreLinks}})===============================
+    | PLEASE BE CAUTIOUS IN ADDING MORE LINKS TO THIS ARTICLE. WIKIPEDIA IS   |
+    | NOT A COLLECTION OF LINKS NOR SHOULD IT BE USED FOR ADVERTISING.        |
+    |                                                                         | 
+    |               Excessive or inappropriate links WILL BE DELETED.         |
+    |  See [[Wikipedia:External links]] and [[Wikipedia:Spam]] for details.   |
+    |                                                                         | 
+    | If there are already plentiful links, please propose additions or       |
+    | replacements on this article's discussion page.  Or submit your link    |
+    | to the appropriate category at the Open Directory Project (www.dmoz.org)|
+    | and link back to that category using the {{dmoz}} template.             |
+    ===========================({{NoMoreLinks}})===============================-->
+{{wikibooks|Active Server Pages}}
+* [http://msdn.microsoft.com/en-us/library/aa286483.aspx ASP on MSDN]
+* [http://support.microsoft.com/kb/2669020 Microsoft Support for ASP on Windows]
+* [http://www.iis.net/learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-applications-on-iis-overview Classic ASP Applications on IIS 7.0 and IIS 7.5 Overview]
+* [http://www.w3schools.com/asp/ W3Schools ASP Programming Tutorial]
+* [http://www.aspfaqs.com/aspfaqs/ 4GuysFromRolla.com ASP Programming FAQs]
+* [http://www.dmxready.com/ebook/classic-asp-myths.pdf Classic ASP Myths Debunked]
+* [http://www.classicasp.org/ Primitive Classic ASP Framework (XML, JSON, BENCODE)]
+
+[[Category:Microsoft server technology]]

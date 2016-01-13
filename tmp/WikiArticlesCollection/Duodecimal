@@ -1,0 +1,1164 @@
+{{Special characters}}
+{{distinguish|Dewey Decimal Classification}}
+{{Numeral systems}}
+The '''duodecimal''' system (also known as '''[[Radix|base]]-12''' or '''dozenal''') is a [[positional notation]] [[numeral system]] using [[12 (number)|twelve]] as its [[radix|base]]. In this system, the number [[10 (number)|ten]] may be written as "A", "T" or "X", and the number [[11 (number)|eleven]] as "B" or "E" (another common notation, introduced by Sir [[Isaac Pitman]], is to use a rotated "2" (ᘔ) for ten and a reversed "3" (ᘍ) for eleven). The number twelve (that is, the number written as "12" in the [[decimal|base ten]] numerical system) is instead written as "10" in duodecimal (meaning "1 [[dozen]] and 0 units", instead of "1 ten and 0 units"), whereas the digit string "12" means "1 dozen and 2 units" (i.e. the same number that in decimal is written as "14"). Similarly, in duodecimal "100" means "1 [[gross (unit)|gross]]", "1000" means "1 [[great gross]]", and "0.1" means "1 twelfth" (instead of their decimal meanings "1 hundred", "1 thousand", and "1 tenth").
+
+The number twelve, a [[highly composite number]], is the smallest number with four non-trivial [[integer factorization|factors]] (2, 3, 4, 6), and the smallest to include as factors all four numbers (1 to 4) within the [[subitizing]] range. As a result of this increased factorability of the [[radix]] and its divisibility by a wide range of the most elemental numbers (whereas ten has only two non-trivial factors: 2 and 5, with neither 3 nor 4), duodecimal representations fit more easily than decimal ones into many common patterns, as evidenced by the higher regularity observable in the duodecimal multiplication table. As a result, duodecimal is sometimes considered the most optimal number system.{{citation needed|date=May 2012}} Of its factors, 2 and 3 are [[prime number|prime]], which means the [[multiplicative inverse|reciprocals]] of all [[smooth number|3-smooth]] numbers (such as 2, 3, 4, 6, 8, 9...) have a [[terminating decimal|terminating]] representation in duodecimal. In particular, the five most elementary fractions ({{frac|1|2}}, {{frac|1|3}}, {{frac|2|3}}, {{frac|1|4}} and {{frac|3|4}}) all have a short terminating representation in duodecimal (0.6, 0.4, 0.8, 0.3 and 0.9, respectively), and twelve is the smallest radix with this feature (because it is the [[least common multiple]] of 3 and 4). This all makes it a more convenient number system for computing fractions than most other number systems in common use, such as the [[decimal]], [[vigesimal]], [[binary numeral system|binary]], [[octal]] and [[hexadecimal]] systems, although the [[sexagesimal]] system (where the reciprocals of all [[regular number|5-smooth]] numbers terminate) does better in this respect (but at the cost of an unwieldy multiplication table and a much larger number of symbols to memorize).
+
+== Origin ==
+:''In this section, numerals are based on decimal [[Numerical digit|places]]. For example, 10 means [[10 (number)|ten]], 12 means [[12 (number)|twelve]].''
+
+Languages using duodecimal number systems are uncommon. Languages in the [[Nigeria]]n Middle Belt such as [[Janji language|Janji]], [[Gbiri-Niragu language|Gbiri-Niragu]] (Gure-Kahugu), [[Piti language|Piti]], and the Nimbia dialect of [[Gwandara language|Gwandara]];<ref>{{citation
+| title=Decimal vs. Duodecimal: An interaction between two systems of numeration
+| last=Matsushita
+| first=Shuji
+| conference=2nd Meeting of the AFLANG, October 1998, Tokyo
+| year=1998
+| url=http://web.archive.org/web/20081005230737/http://www3.aa.tufs.ac.jp/~P_aflang/TEXTS/oct98/decimal.html
+| accessdate=2011-05-29
+}}</ref> the [[Chepang language]] of [[Nepal]]<ref>{{citation
+| contribution=Les principes de construction du nombre dans les langues tibéto-birmanes
+| first=Martine
+| last=Mazaudon
+| title=La Pluralité
+| editor-first=Jacques
+| editor-last=François
+| year=2002
+| pages=91–119
+| publisher=Peeters
+| place=Leuven
+| isbn=90-429-1295-2
+| url=http://halshs.archives-ouvertes.fr/docs/00/16/68/91/PDF/numerationTB_SLP.pdf
+}}</ref> and the [[Maldivian language|Mahl language]] of [[Minicoy Island]] in [[India]] are known to use duodecimal numerals.  In fiction, [[J. R. R. Tolkien]]'s [[Elvish languages]] use a hybrid decimal-duodecimal system, primarily decimal but with special names for multiples of six.<!--this really depends on what version of the languages you are talking about. the later versions are as described here, but some earlier versions are truly pure duodecimal.-->
+
+[[Germanic languages]] have special words for 11 and 12, such as ''eleven'' and ''twelve'' in [[English language|English]], which are often misinterpreted as vestiges of a duodecimal system.{{citation needed|date=January 2012}}  However, they are considered to come from [[Proto-Germanic]] *''ainlif'' and *''twalif'' (respectively ''one left'' and ''two left''), both of which were decimal.<ref>{{cite book|last=von Mengden| first=Ferdinand| year=2006|chapter=The peculiarities of the Old English numeral system|title=Medieval English and its Heritage: Structure Meaning and Mechanisms of Change|editors=Nikolaus Ritt, Herbert Schendl, Christiane Dalton-Puffer, Dieter Kastovsky|publisher=Peter Lang Pub|series=Studies in English Medieval Language and Literature |volume=16 |location=Frankfurt|pages= 125-45}}<br/>{{cite book|last=von Mengden |first=Ferdinand |year=2010| title=Cardinal Numerals: Old English from a Cross-Linguistic Perspective|series=Topics in English Linguistics| volume=67|location= Berlin; New York|publisher=De Gruyter Mouton| pages=159-161}}</ref>
+
+Historically, [[Unit of measurement|units]] of [[time]] in many [[civilization]]s are duodecimal. There are twelve signs of the [[zodiac]], twelve months in a year, and the [[Babylonians]] had twelve hours in a day (although at some point this was changed to 24). Traditional [[Chinese calendar]]s, clocks, and compasses are based on the twelve [[Earthly Branches]]. There are 12 inches in an imperial foot, 12 ounces in a [[troy weight|troy]] pound, 12 [[British One Penny coin (pre-decimal)|old British pence]] in a [[shilling]], 24 (12×2) hours in a day, and many other items counted by the [[dozen]], [[gross (unit)|gross]] ([[144 (number)|144]], [[square number|square]] of 12) or [[great gross]] ([[1728 (number)|1728]], [[cube (arithmetic)|cube]] of 12). The Romans used a fraction system based on 12, including the [[uncia (length)|uncia]] which became both the English words ''[[ounce]]'' and ''inch''.  Pre-[[Decimal Day|decimalisation]], [[Republic of Ireland|Ireland]] and the [[United Kingdom]] used a mixed duodecimal-vigesimal currency system (12 pence = 1 shilling, 20 shillings or 240 pence to the [[pound sterling]] or [[Irish pound]]), and [[Charlemagne]] established a monetary system that also had a mixed base of twelve and twenty, the remnants of which persist in many places.
+
+The importance of 12 has been attributed to the number of lunar cycles in a year, and also to the fact that humans have 12 finger bones ([[Phalanx bone|phalanges]]) on one hand (three on each of four fingers).<ref>{{citation
+| title=ヒマラヤの満月と十二進法 (The Full Moon in the Himalayas and the Duodecimal System)
+| last=Nishikawa
+| first=Yoshiaki
+| year=2002
+| url=http://www.kankyok.co.jp/nue/nue11/nue11_01.html
+| accessdate=2008-03-24
+}}</ref> It is possible to count to 12 with your thumb acting as a pointer, touching each finger bone in turn. A traditional [[finger counting]] system still in use in many regions of Asia works in this way, and could help to explain the occurrence of numeral systems based on 12 and 60 besides those based on 10, 20 and 5. In this system, the one (usually right) hand counts repeatedly to 12, displaying the number of iterations on the other (usually left), until five dozens, i. e. the 60, are full.<ref name=Ifrah>{{Citation
+  | last = Ifrah
+  | first = Georges
+  | author-link = Georges Ifrah
+  | title = The Universal History of Numbers: From prehistory to the invention of the computer.
+  | publisher = [[John Wiley and Sons]]
+  | year= 2000
+  | page =
+  | isbn = 0-471-39340-1
+}}. Translated from the French by David Bellos, E.F. Harding, Sophie Wood and Ian Monk.</ref><ref name=Macey>{{Citation|last=Macey|first=Samuel L.|title=The Dynamics of Progress: Time, Method, and Measure|year=1989|publisher=University of Georgia Press|location=Atlanta, Georgia|isbn=978-0-8203-3796-8|pages=92|url=http://books.google.com/books?id=xlzCWmXguwsC&pg=PA92&lpg=PA92}}</ref>
+
+== Places ==
+In a duodecimal place system, [[10 (number)|ten]] can be written as ᘔ, [[11 (number)|eleven]] can be written as Ɛ, and twelve is written as 10. For alternative symbols, see [[#Advocacy and "dozenalism"|below]].
+
+According to this notation, duodecimal 50 expresses the same quantity as decimal [[60 (number)|60]] (= five times twelve), duodecimal 60 is equivalent to decimal [[72 (number)|72]] (= six times twelve = half a gross), duodecimal 100 has the same value as decimal [[144 (number)|144]] (= twelve times twelve = one gross), etc.
+
+== Comparison to other numeral systems ==
+[[File:Dozenal multiplication table.png|thumb|right|300px|A dozenal multiplication table]]
+The number 12 has six factors, which are [[1 (number)|1]], [[2 (number)|2]], [[3 (number)|3]], [[4 (number)|4]], [[6 (number)|6]], and [[12 (number)|12]], of which 2 and 3 are [[prime number|prime]].  The decimal system has only four factors, which are [[1 (number)|1]], [[2 (number)|2]], [[5 (number)|5]], and [[10 (number)|10]]; of which 2 and 5 are prime. Vigesimal adds two factors to those of ten, namely [[4 (number)|4]] and [[20 (number)|20]], but no additional prime factor. Although twenty has 6 factors, 2 of them prime, similarly to twelve, it is also a much larger base (i.e., the digit set and the multiplication table are much larger). Binary has only two factors, 1 and 2, the latter being prime. Hexadecimal has five factors, adding 4, [[8 (number)|8]] and [[16 (number)|16]] to those of 2, but no additional prime. Trigesimal is the smallest system that has three different prime factors (all of the three smallest primes: 2, 3 and 5) and it has eight factors in total (1, 2, 3, 5, 6, 10, 15, and 30). [[Sexagesimal]]—which the ancient [[Sumerians]] and [[Babylonia]]ns among others actually used—adds the four convenient factors 4, 12, 20, and 60 to this but no new prime factors. The smallest system that has four different prime factors is base 210 and the pattern follows the [[primorial]]s. In all base systems, there are similarities to the representation of multiples of numbers which are one less than the base.{{-}}<!-- the {{-}} template keeps the multiplication table from squeezing the heading for the next section-->
+
+== Conversion tables to and from decimal ==
+To convert numbers between bases, one can use the general conversion algorithm (see the relevant section under [[Positional notation#Base conversion|positional notation]]). Alternatively, one can use digit-conversion tables. The ones provided below can be used to convert any duodecimal number between 0.01 and ƐƐƐ,ƐƐƐ.ƐƐ to decimal, or any decimal number between 0.01 and 999,999.99 to duodecimal. To use them, the given number must first be decomposed into a sum of numbers with only one significant digit each. For example:
+
+123,456.78 = 100,000 + 20,000 + 3,000 + 400 + 50 + 6 + 0.7 + 0.08
+
+This decomposition works the same no matter what base the number is expressed in. Just isolate each non-zero digit, padding them with as many zeros as necessary to preserve their respective place values. If the digits in the given number include zeroes (for example, 102,304.05), these are, of course, left out in the digit decomposition (102,304.05 = 100,000 + 2,000 + 300 + 4 + 0.05). Then the digit conversion tables can be used to obtain the equivalent value in the target base for each digit. If the given number is in duodecimal and the target base is decimal, we get:
+
+<small>(duodecimal)</small> 100,000 + 20,000 + 3,000 + 400 + 50 + 6 + 0.7 + 0.08 = <small>(decimal)</small> 248,832 + 41,472 + 5,184 + 576 + 60 + 6 + 0.58{{overline|3}}333333333... + 0.0{{overline|5}}5555555555...
+
+Now, because the summands are already converted to base ten, the usual decimal arithmetic is used to perform the addition and recompose the number, arriving at the conversion result:
+
+ Duodecimal  ----->  Decimal
+ 
+   100,000     =    248,832
+    20,000     =     41,472
+     3,000     =      5,184
+       400     =        576
+        50     =         60
+  +      6     =   +      6
+         0.7   =          0.58{{overline|3}}333333333...
+         0.08  =          0.0{{overline|5}}5555555555...
+ --------------------------------------------
+   123,456.78  =    296,130.63{{overline|8}}888888888...
+
+That is, <small>(duodecimal)</small> 123,456.78 equals <small>(decimal)</small> 296,130.63{{overline|8}} ≈ 296,130.64
+
+If the given number is in decimal and the target base is duodecimal, the method is basically same. Using the digit conversion tables:
+
+<small>(decimal)</small> 100,000 + 20,000 + 3,000 + 400 + 50 + 6 + 0.7 + 0.08 = <small>(duodecimal)</small> 49,ᘔ54 + Ɛ,6ᘔ8 + 1,8ᘔ0 + 294 + 42 + 6 + 0.8{{overline|4972}}4972497249724972497... + 0.{{overline|0Ɛ62ᘔ68781Ɛ05915343ᘔ}}0Ɛ62...
+
+However, in order to do this sum and recompose the number, now the addition tables for the duodecimal system have to be used, instead of the addition tables for decimal most people are already familiar with, because the summands are now in base twelve and so the arithmetic with them has to be in duodecimal as well. In decimal, 6 + 6 equals 12, but in duodecimal it equals 10; so, if using decimal arithmetic with duodecimal numbers one would arrive at an incorrect result. Doing the arithmetic properly in duodecimal, one gets the result:
+
+   Decimal  ----->  Duodecimal
+ 
+   100,000     =     49,ᘔ54
+    20,000     =      Ɛ,6ᘔ8
+     3,000     =      1,8ᘔ0
+       400     =        294
+        50     =         42
+  +      6     =   +      6
+         0.7   =          0.8{{overline|4972}}4972497249724972497...
+         0.08  =          0.{{overline|0Ɛ62ᘔ68781Ɛ05915343ᘔ}}0Ɛ62...
+ --------------------------------------------------------
+   123,456.78  =     5Ɛ,540.9{{overline|43ᘔ0Ɛ62ᘔ68781Ɛ059153}}43ᘔ...
+
+That is, <small>(decimal)</small> 123,456.78 equals <small>(duodecimal)</small> 5Ɛ,540.9{{overline|43ᘔ0Ɛ62ᘔ68781Ɛ059153}}... ≈ 5Ɛ,540.94
+
+=== Duodecimal to decimal digit conversion ===
+{|class="wikitable"
+|-
+| bgcolor=#c0c0c0 | '''''Duod.'''''
+| ''Dec.''
+| bgcolor=#c0c0c0 | '''''Duod.'''''
+| ''Dec.''
+| bgcolor=#c0c0c0 | '''''Duod.'''''
+| ''Dec.''
+| bgcolor=#c0c0c0 | '''''Duod.'''''
+| ''Dec.''
+| bgcolor=#c0c0c0 | '''''Duod.'''''
+| ''Dec.''
+| bgcolor=#c0c0c0 | '''''Duod.'''''
+| ''Dec.''
+| bgcolor=#c0c0c0 | '''''Duod.'''''
+| ''Dec.''
+| bgcolor=#c0c0c0 | '''''Duod.'''''
+| ''Dec.''
+|-
+| bgcolor=#c0c0c0 | '''100,000'''
+| 248,832
+| bgcolor=#c0c0c0 | '''10,000'''
+| 20,736
+| bgcolor=#c0c0c0 | '''1,000'''
+| 1,728
+| bgcolor=#c0c0c0 | '''100'''
+| 144
+| bgcolor=#c0c0c0 | '''10'''
+| 12
+| bgcolor=#c0c0c0 | '''1'''
+| 1
+| bgcolor=#c0c0c0 | '''0.1'''
+| 0.08{{overline|3}}
+| bgcolor=#c0c0c0 | '''0.01'''
+| 0.0069{{overline|4}}
+|-
+| bgcolor=#c0c0c0 | '''200,000'''
+| 497,664
+| bgcolor=#c0c0c0 | '''20,000'''
+| 41,472
+| bgcolor=#c0c0c0 | '''2,000'''
+| 3,456
+| bgcolor=#c0c0c0 | '''200'''
+| 288
+| bgcolor=#c0c0c0 | '''20'''
+| 24
+| bgcolor=#c0c0c0 | '''2'''
+| 2
+| bgcolor=#c0c0c0 | '''0.2'''
+| 0.1{{overline|6}}
+| bgcolor=#c0c0c0 | '''0.02'''
+| 0.013{{overline|8}}
+|-
+| bgcolor=#c0c0c0 | '''300,000'''
+| 746,496
+| bgcolor=#c0c0c0 | '''30,000'''
+| 62,208
+| bgcolor=#c0c0c0 | '''3,000'''
+| 5,184
+| bgcolor=#c0c0c0 | '''300'''
+| 432
+| bgcolor=#c0c0c0 | '''30'''
+| 36
+| bgcolor=#c0c0c0 | '''3'''
+| 3
+| bgcolor=#c0c0c0 | '''0.3'''
+| 0.25
+| bgcolor=#c0c0c0 | '''0.03'''
+| 0.0208{{overline|3}}
+|-
+| bgcolor=#c0c0c0 | '''400,000'''
+| 995,328
+| bgcolor=#c0c0c0 | '''40,000'''
+| 82,944
+| bgcolor=#c0c0c0 | '''4,000'''
+| 6,912
+| bgcolor=#c0c0c0 | '''400'''
+| 576
+| bgcolor=#c0c0c0 | '''40'''
+| 48
+| bgcolor=#c0c0c0 | '''4'''
+| 4
+| bgcolor=#c0c0c0 | '''0.4'''
+| 0.{{overline|3}}
+| bgcolor=#c0c0c0 | '''0.04'''
+| 0.02{{overline|7}}
+|-
+| bgcolor=#c0c0c0 | '''500,000'''
+| 1,244,160
+| bgcolor=#c0c0c0 | '''50,000'''
+| 103,680
+| bgcolor=#c0c0c0 | '''5,000'''
+| 8,640
+| bgcolor=#c0c0c0 | '''500'''
+| 720
+| bgcolor=#c0c0c0 | '''50'''
+| 60
+| bgcolor=#c0c0c0 | '''5'''
+| 5
+| bgcolor=#c0c0c0 | '''0.5'''
+| 0.41{{overline|6}}
+| bgcolor=#c0c0c0 | '''0.05'''
+| 0.0347{{overline|2}}
+|-
+| bgcolor=#c0c0c0 | '''600,000'''
+| 1,492,992
+| bgcolor=#c0c0c0 | '''60,000'''
+| 124,416
+| bgcolor=#c0c0c0 | '''6,000'''
+| 10,368
+| bgcolor=#c0c0c0 | '''600'''
+| 864
+| bgcolor=#c0c0c0 | '''60'''
+| 72
+| bgcolor=#c0c0c0 | '''6'''
+| 6
+| bgcolor=#c0c0c0 | '''0.6'''
+| 0.5
+| bgcolor=#c0c0c0 | '''0.06'''
+| 0.041{{overline|6}}
+|-
+| bgcolor=#c0c0c0 | '''700,000'''
+| 1,741,824
+| bgcolor=#c0c0c0 | '''70,000'''
+| 145,152
+| bgcolor=#c0c0c0 | '''7,000'''
+| 12,096
+| bgcolor=#c0c0c0 | '''700'''
+| 1008
+| bgcolor=#c0c0c0 | '''70'''
+| 84
+| bgcolor=#c0c0c0 | '''7'''
+| 7
+| bgcolor=#c0c0c0 | '''0.7'''
+| 0.58{{overline|3}}
+| bgcolor=#c0c0c0 | '''0.07'''
+| 0.0486{{overline|1}}
+|-
+| bgcolor=#c0c0c0 | '''800,000'''
+| 1,990,656
+| bgcolor=#c0c0c0 | '''80,000'''
+| 165,888
+| bgcolor=#c0c0c0 | '''8,000'''
+| 13,824
+| bgcolor=#c0c0c0 | '''800'''
+| 1152
+| bgcolor=#c0c0c0 | '''80'''
+| 96
+| bgcolor=#c0c0c0 | '''8'''
+| 8
+| bgcolor=#c0c0c0 | '''0.8'''
+| 0.{{overline|6}}
+| bgcolor=#c0c0c0 | '''0.08'''
+| 0.0{{overline|5}}
+|-
+| bgcolor=#c0c0c0 | '''900,000'''
+| 2,239,488
+| bgcolor=#c0c0c0 | '''90,000'''
+| 186,624
+| bgcolor=#c0c0c0 | '''9,000'''
+| 15,552
+| bgcolor=#c0c0c0 | '''900'''
+| 1,296
+| bgcolor=#c0c0c0 | '''90'''
+| 108
+| bgcolor=#c0c0c0 | '''9'''
+| 9
+| bgcolor=#c0c0c0 | '''0.9'''
+| 0.75
+| bgcolor=#c0c0c0 | '''0.09'''
+| 0.0625
+|-
+| bgcolor=#c0c0c0 | '''ᘔ00,000'''
+| 2,488,320
+| bgcolor=#c0c0c0 | '''ᘔ0,000'''
+| 207,360
+| bgcolor=#c0c0c0 | '''ᘔ,000'''
+| 17,280
+| bgcolor=#c0c0c0 | '''ᘔ00'''
+| 1,440
+| bgcolor=#c0c0c0 | '''ᘔ0'''
+| 120
+| bgcolor=#c0c0c0 | '''ᘔ'''
+| 10
+| bgcolor=#c0c0c0 | '''0.ᘔ'''
+| 0.8{{overline|3}}
+| bgcolor=#c0c0c0 | '''0.0ᘔ'''
+| 0.069{{overline|4}}
+|-
+| bgcolor=#c0c0c0 | '''Ɛ00,000'''
+| 2,737,152
+| bgcolor=#c0c0c0 | '''Ɛ0,000'''
+| 228,096
+| bgcolor=#c0c0c0 | '''Ɛ,000'''
+| 19,008
+| bgcolor=#c0c0c0 | '''Ɛ00'''
+| 1,584
+| bgcolor=#c0c0c0 | '''Ɛ0'''
+| 132
+| bgcolor=#c0c0c0 | '''Ɛ'''
+| 11
+| bgcolor=#c0c0c0 | '''0.Ɛ'''
+| 0.91{{overline|6}}
+| bgcolor=#c0c0c0 | '''0.0Ɛ'''
+| 0.0763{{overline|8}}
+|}
+
+=== Decimal to duodecimal digit conversion ===
+{|class="wikitable"
+|-
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+|-
+| bgcolor=#c0c0c0 | '''100,000'''
+| 49,ᘔ54
+| bgcolor=#c0c0c0 | '''10,000'''
+| 5,954
+| bgcolor=#c0c0c0 | '''1,000'''
+| 6Ɛ4
+| bgcolor=#c0c0c0 | '''100'''
+| 84
+| bgcolor=#c0c0c0 | '''10'''
+| ᘔ
+| bgcolor=#c0c0c0 | '''1'''
+| 1
+| bgcolor=#c0c0c0 | '''0.1'''
+| 0.1{{overline|2497}}
+| bgcolor=#c0c0c0 | '''0.01'''
+| 0.0{{overline|15343ᘔ0Ɛ62ᘔ68781Ɛ059}}
+|-
+| bgcolor=#c0c0c0 | '''200,000'''
+| 97,8ᘔ8
+| bgcolor=#c0c0c0 | '''20,000'''
+| Ɛ,6ᘔ8
+| bgcolor=#c0c0c0 | '''2,000'''
+| 1,1ᘔ8
+| bgcolor=#c0c0c0 | '''200'''
+| 148
+| bgcolor=#c0c0c0 | '''20'''
+| 18
+| bgcolor=#c0c0c0 | '''2'''
+| 2
+| bgcolor=#c0c0c0 | '''0.2'''
+| 0.{{overline|2497}}
+| bgcolor=#c0c0c0 | '''0.02'''
+| 0.0{{overline|2ᘔ68781Ɛ05915343ᘔ0Ɛ6}}
+|-
+| bgcolor=#c0c0c0 | '''300,000'''
+| 125,740
+| bgcolor=#c0c0c0 | '''30,000'''
+| 15,440
+| bgcolor=#c0c0c0 | '''3,000'''
+| 1,8ᘔ0
+| bgcolor=#c0c0c0 | '''300'''
+| 210
+| bgcolor=#c0c0c0 | '''30'''
+| 26
+| bgcolor=#c0c0c0 | '''3'''
+| 3
+| bgcolor=#c0c0c0 | '''0.3'''
+| 0.3{{overline|7249}}
+| bgcolor=#c0c0c0 | '''0.03'''
+| 0.0{{overline|43ᘔ0Ɛ62ᘔ68781Ɛ059153}}
+|-
+| bgcolor=#c0c0c0 | '''400,000'''
+| 173,594
+| bgcolor=#c0c0c0 | '''40,000'''
+| 1Ɛ,194
+| bgcolor=#c0c0c0 | '''4,000'''
+| 2,394
+| bgcolor=#c0c0c0 | '''400'''
+| 294
+| bgcolor=#c0c0c0 | '''40'''
+| 34
+| bgcolor=#c0c0c0 | '''4'''
+| 4
+| bgcolor=#c0c0c0 | '''0.4'''
+| 0.{{overline|4972}}
+| bgcolor=#c0c0c0 | '''0.04'''
+| 0.0{{overline|5915343ᘔ0Ɛ62ᘔ68781Ɛ0}}
+|-
+| bgcolor=#c0c0c0 | '''500,000'''
+| 201,428
+| bgcolor=#c0c0c0 | '''50,000'''
+| 24,Ɛ28
+| bgcolor=#c0c0c0 | '''5,000'''
+| 2,ᘔ88
+| bgcolor=#c0c0c0 | '''500'''
+| 358
+| bgcolor=#c0c0c0 | '''50'''
+| 42
+| bgcolor=#c0c0c0 | '''5'''
+| 5
+| bgcolor=#c0c0c0 | '''0.5'''
+| 0.6
+| bgcolor=#c0c0c0 | '''0.05'''
+| 0.0{{overline|7249}}
+|-
+| bgcolor=#c0c0c0 | '''600,000'''
+| 24Ɛ,280
+| bgcolor=#c0c0c0 | '''60,000'''
+| 2ᘔ,880
+| bgcolor=#c0c0c0 | '''6,000'''
+| 3,580
+| bgcolor=#c0c0c0 | '''600'''
+| 420
+| bgcolor=#c0c0c0 | '''60'''
+| 50
+| bgcolor=#c0c0c0 | '''6'''
+| 6
+| bgcolor=#c0c0c0 | '''0.6'''
+| 0.{{overline|7249}}
+| bgcolor=#c0c0c0 | '''0.06'''
+| 0.0{{overline|8781Ɛ05915343ᘔ0Ɛ62ᘔ6}}
+|-
+| bgcolor=#c0c0c0 | '''700,000'''
+| 299,114
+| bgcolor=#c0c0c0 | '''70,000'''
+| 34,614
+| bgcolor=#c0c0c0 | '''7,000'''
+| 4,074
+| bgcolor=#c0c0c0 | '''700'''
+| 4ᘔ4
+| bgcolor=#c0c0c0 | '''70'''
+| 5ᘔ
+| bgcolor=#c0c0c0 | '''7'''
+| 7
+| bgcolor=#c0c0c0 | '''0.7'''
+| 0.8{{overline|4972}}
+| bgcolor=#c0c0c0 | '''0.07'''
+| 0.0{{overline|ᘔ0Ɛ62ᘔ68781Ɛ05915343}}
+|-
+| bgcolor=#c0c0c0 | '''800,000'''
+| 326,Ɛ68
+| bgcolor=#c0c0c0 | '''80,000'''
+| 3ᘔ,368
+| bgcolor=#c0c0c0 | '''8,000'''
+| 4,768
+| bgcolor=#c0c0c0 | '''800'''
+| 568
+| bgcolor=#c0c0c0 | '''80'''
+| 68
+| bgcolor=#c0c0c0 | '''8'''
+| 8
+| bgcolor=#c0c0c0 | '''0.8'''
+| 0.{{overline|9724}}
+| bgcolor=#c0c0c0 | '''0.08'''
+| 0.{{overline|0Ɛ62ᘔ68781Ɛ05915343ᘔ}}
+|-
+| bgcolor=#c0c0c0 | '''900,000'''
+| 374,ᘔ00
+| bgcolor=#c0c0c0 | '''90,000'''
+| 44,100
+| bgcolor=#c0c0c0 | '''9,000'''
+| 5,260
+| bgcolor=#c0c0c0 | '''900'''
+| 630
+| bgcolor=#c0c0c0 | '''90'''
+| 76
+| bgcolor=#c0c0c0 | '''9'''
+| 9
+| bgcolor=#c0c0c0 | '''0.9'''
+| 0.ᘔ{{overline|9724}}
+| bgcolor=#c0c0c0 | '''0.09'''
+| 0.1{{overline|0Ɛ62ᘔ68781Ɛ05915343ᘔ}}
+|}
+
+=== Conversion of powers ===
+{|class="wikitable"
+|-
+| rowspan="2" | ''Exponent''
+| colspan="2" | b=2
+| colspan="2" | b=3
+| colspan="2" | b=4
+| colspan="2" | b=5
+| colspan="2" | b=6
+| colspan="2" | b=7
+|-
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+|-
+| b<sup>6</sup>
+| bgcolor=#c0c0c0 | '''64'''
+| 54
+| bgcolor=#c0c0c0 | '''729'''
+| 509
+| bgcolor=#c0c0c0 | '''4,096'''
+| 2454
+| bgcolor=#c0c0c0 | '''15,625'''
+| 9,061
+| bgcolor=#c0c0c0 | '''46,656'''
+| 23,000
+| bgcolor=#c0c0c0 | '''117,649'''
+| 58,101
+|-
+| b<sup>5</sup>
+| bgcolor=#c0c0c0 | '''32'''
+| 28
+| bgcolor=#c0c0c0 | '''243'''
+| 183
+| bgcolor=#c0c0c0 | '''1,024'''
+| 714
+| bgcolor=#c0c0c0 | '''3,125'''
+| 1,985
+| bgcolor=#c0c0c0 | '''7,776'''
+| 4,600
+| bgcolor=#c0c0c0 | '''16,807'''
+| 9,887
+|-
+| b<sup>4</sup>
+| bgcolor=#c0c0c0 | '''16'''
+| 14
+| bgcolor=#c0c0c0 | '''81'''
+| 69
+| bgcolor=#c0c0c0 | '''256'''
+| 194
+| bgcolor=#c0c0c0 | '''625'''
+| 441
+| bgcolor=#c0c0c0 | '''1,296'''
+| 900
+| bgcolor=#c0c0c0 | '''2,401'''
+| 1,481
+|-
+| b<sup>3</sup>
+| bgcolor=#c0c0c0 | '''8'''
+| 8
+| bgcolor=#c0c0c0 | '''27'''
+| 23
+| bgcolor=#c0c0c0 | '''64'''
+| 54
+| bgcolor=#c0c0c0 | '''125'''
+| ᘔ5
+| bgcolor=#c0c0c0 | '''216'''
+| 160
+| bgcolor=#c0c0c0 | '''343'''
+| 247
+|-
+| b<sup>2</sup>
+| bgcolor=#c0c0c0 | '''4'''
+| 4
+| bgcolor=#c0c0c0 | '''9'''
+| 9
+| bgcolor=#c0c0c0 | '''16'''
+| 14
+| bgcolor=#c0c0c0 | '''25'''
+| 21
+| bgcolor=#c0c0c0 | '''36'''
+| 30
+| bgcolor=#c0c0c0 | '''49'''
+| 41
+|-
+| b<sup>1</sup>
+| bgcolor=#c0c0c0 | '''2'''
+| 2
+| bgcolor=#c0c0c0 | '''3'''
+| 3
+| bgcolor=#c0c0c0 | '''4'''
+| 4
+| bgcolor=#c0c0c0 | '''5'''
+| 5
+| bgcolor=#c0c0c0 | '''6'''
+| 6
+| bgcolor=#c0c0c0 | '''7'''
+| 7
+|-
+| b<sup>−1</sup>
+| bgcolor=#c0c0c0 | '''0.5'''
+| 0.6
+| bgcolor=#c0c0c0 | '''0.{{overline|3}}'''
+| 0.4
+| bgcolor=#c0c0c0 | '''0.25'''
+| 0.3
+| bgcolor=#c0c0c0 | '''0.2'''
+| 0.{{overline|2497}}
+| bgcolor=#c0c0c0 | '''0.1{{overline|6}}'''
+| 0.2
+| bgcolor=#c0c0c0 | '''0.{{overline|142857}}'''
+| 0.{{overline|186ᘔ35}}
+|-
+| b<sup>−2</sup>
+| bgcolor=#c0c0c0 | '''0.25'''
+| 0.3
+| bgcolor=#c0c0c0 | '''0.{{overline|1}}'''
+| 0.14
+| bgcolor=#c0c0c0 | '''0.0625'''
+| 0.09
+| bgcolor=#c0c0c0 | '''0.04'''
+| 0.{{overline|05915343ᘔ0<br />Ɛ62ᘔ68781Ɛ}}
+| bgcolor=#c0c0c0 | '''0.02{{overline|7}}'''
+| 0.04
+| bgcolor=#c0c0c0 | '''0.{{overline|0204081632653<br />06122448979591<br />836734693877551}}'''
+| 0.{{overline|02Ɛ322547ᘔ05ᘔ<br />644ᘔ9380Ɛ908996<br />741Ɛ615771283Ɛ}}
+|}
+
+{|class="wikitable"
+|-
+| rowspan="2" | ''Exponent''
+| colspan="2" | b=8
+| colspan="2" | b=9
+| colspan="2" | '''b=10'''
+| colspan="2" | b=11
+| colspan="2" | '''b=12'''
+|-
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+| bgcolor=#c0c0c0 | '''''Dec.'''''
+| ''Duod.''
+|-
+| b<sup>6</sup>
+| bgcolor=#c0c0c0 | '''262,144'''
+| 107,854
+| bgcolor=#c0c0c0 | '''531,441'''
+| 217,669
+| bgcolor=#c0c0c0 | '''1,000,000'''
+| 402,854
+| bgcolor=#c0c0c0 | '''1,771,561'''
+| 715,261
+| bgcolor=#c0c0c0 | '''2,985,984'''
+| 1,000,000
+|-
+| b<sup>5</sup>
+| bgcolor=#c0c0c0 | '''32,768'''
+| 16,Ɛ68
+| bgcolor=#c0c0c0 | '''59,049'''
+| 2ᘔ,209
+| bgcolor=#c0c0c0 | '''100,000'''
+| 49,ᘔ54
+| bgcolor=#c0c0c0 | '''161,051'''
+| 79,24Ɛ
+| bgcolor=#c0c0c0 | '''248,832'''
+| 100,000
+|-
+| b<sup>4</sup>
+| bgcolor=#c0c0c0 | '''4,096'''
+| 2,454
+| bgcolor=#c0c0c0 | '''6,561'''
+| 3,969
+| bgcolor=#c0c0c0 | '''10,000'''
+| 5,954
+| bgcolor=#c0c0c0 | '''14,641'''
+| 8,581
+| bgcolor=#c0c0c0 | '''20,736'''
+| 10,000
+|-
+| b<sup>3</sup>
+| bgcolor=#c0c0c0 | '''512'''
+| 368
+| bgcolor=#c0c0c0 | '''729'''
+| 509
+| bgcolor=#c0c0c0 | '''1,000'''
+| 6Ɛ4
+| bgcolor=#c0c0c0 | '''1,331'''
+| 92Ɛ
+| bgcolor=#c0c0c0 | '''1,728'''
+| 1,000
+|-
+| b<sup>2</sup>
+| bgcolor=#c0c0c0 | '''64'''
+| 54
+| bgcolor=#c0c0c0 | '''81'''
+| 69
+| bgcolor=#c0c0c0 | '''100'''
+| 84
+| bgcolor=#c0c0c0 | '''121'''
+| ᘔ1
+| bgcolor=#c0c0c0 | '''144'''
+| 100
+|-
+| b<sup>1</sup>
+| bgcolor=#c0c0c0 | '''8'''
+| 8
+| bgcolor=#c0c0c0 | '''9'''
+| 9
+| bgcolor=#c0c0c0 | '''10'''
+| ᘔ
+| bgcolor=#c0c0c0 | '''11'''
+| Ɛ
+| bgcolor=#c0c0c0 | '''12'''
+| 10
+|-
+| b<sup>−1</sup>
+| bgcolor=#c0c0c0 | '''0.125'''
+| 0.16
+| bgcolor=#c0c0c0 | '''0.{{overline|1}}'''
+| 0.14
+| bgcolor=#c0c0c0 | '''0.1'''
+| 0.1{{overline|2497}}
+| bgcolor=#c0c0c0 | '''0.{{overline|09}}'''
+| 0.{{overline|1}}
+| bgcolor=#c0c0c0 | '''0.08{{overline|3}}'''
+| 0.1
+|-
+| b<sup>−2</sup>
+| bgcolor=#c0c0c0 | '''0.015625'''
+| 0.023
+| bgcolor=#c0c0c0 | '''0.{{overline|012345679}}'''
+| 0.0194
+| bgcolor=#c0c0c0 | '''0.01'''
+| 0.0{{overline|15343ᘔ0Ɛ6<br />2ᘔ68781Ɛ059}}
+| bgcolor=#c0c0c0 | '''0.{{overline|00826446280<br />99173553719}}'''
+| 0.{{overline|0123456789Ɛ}}
+| bgcolor=#c0c0c0 | '''0.0069{{overline|4}}'''
+| 0.01
+|}
+
+==Fractions and irrational numbers==
+===Fractions===
+Duodecimal [[Fraction (mathematics)|fractions]] may be simple:
+* {{frac|2}} = 0.6
+* {{frac|3}} = 0.4
+* {{frac|4}} = 0.3
+* {{frac|6}} = 0.2
+* {{frac|8}} = 0.16
+* {{frac|9}} = 0.14
+
+or complicated
+* {{frac|5}}  = 0.24972497... recurring (easily rounded to 0.25)
+* {{frac|7}}  = 0.186ᘔ35186ᘔ35... recurring (easily rounded to 0.187)
+* {{frac|ᘔ}}  = 0.124972497... recurring (rounded to 0.125)
+* {{frac|Ɛ}}  = 0.11111... recurring (rounded to 0.11)
+* {{frac|11}} = 0.0Ɛ0Ɛ... recurring (rounded to 0.0Ɛ)
+
+{|class="wikitable"
+|-
+| ''Examples in duodecimal''
+| ''Decimal equivalent''
+|-
+| 1 × ({{frac|5|8}}) = 0.76
+| 1 × ({{frac|5|8}}) = 0.625
+|-
+| 100 × ({{frac|5|8}}) = 76
+| 144 × ({{frac|5|8}}) = 90
+|-
+| {{frac|576|9}} = 76
+| {{frac|810|9}} = 90
+|-
+| {{frac|400|9}} = 54
+| {{frac|576|9}} = 64
+|-
+| 1ᘔ.6 + 7.6 = 26
+| 22.5 + 7.5 = 30
+|}
+
+As explained in [[recurring decimal]]s, whenever an [[irreducible fraction]] is written in [[radix point]] notation in any base, the fraction can be expressed exactly (terminates) if and only if all the [[prime factor]]s of its denominator are also prime factors of the base. Thus, in base-ten (=&nbsp;2×5) system, fractions whose denominators are made up solely of multiples of 2 and 5 terminate:  {{frac|8}}&nbsp;=&nbsp;{{frac|(2×2×2)}}, {{frac|20}}&nbsp;=&nbsp;{{frac|(2×2×5)}} and {{frac|500}}&nbsp;=&nbsp;{{frac|(2×2×5×5×5)}} can be expressed exactly as 0.125, 0.05 and 0.002 respectively. {{frac|3}} and {{frac|7}}, however, recur (0.333... and 0.142857142857...). In the duodecimal (=&nbsp;2×2×3) system, {{frac|8}} is exact; {{frac|20}} and {{frac|500}} recur because they include 5 as a factor; {{frac|3}} is exact; and {{frac|7}} recurs, just as it does in decimal.
+
+=== Recurring digits ===
+Arguably, factors of 3 are more commonly encountered in real-life [[division (mathematics)|division]] problems than factors of 5 (or would be, were it not for the decimal system having influenced most cultures). Thus, in practical applications, the nuisance of [[recurring decimals]] is encountered less often when duodecimal notation is used. Advocates of duodecimal systems argue that this is particularly true of financial calculations, in which the twelve months of the year often enter into calculations.
+
+However, when recurring fractions ''do'' occur in duodecimal notation, they are less likely to have a very short period than in decimal notation, because [[12 (number)|12]] (twelve) is between two [[prime number]]s, [[11 (number)|11]] (eleven) and [[13 (number)|13]] (thirteen), whereas ten is adjacent to [[composite number]] [[9 (number)|9]]. Nonetheless, having a shorter or longer period doesn't help the main inconvenience that one does not get a finite representation for such fractions in the given base (so [[rounding]], which introduces inexactitude, is necessary to handle them in calculations), and overall one is more likely to have to deal with infinite recurring digits when fractions are expressed in decimal than in duodecimal, because one out of every three consecutive numbers contains the prime factor [[3 (number)|3]] in its factorization, whereas only one out of every five contains the prime factor [[5 (number)|5]]. All other prime factors, except 2, are not shared by either ten or twelve, so they do not
+influence the relative likeliness of encountering recurring digits (any irreducible fraction that contains any of these other factors in its denominator will recur in either base). Also, the prime factor [[2 (number)|2]] appears twice in the factorization of twelve, whereas only once in the factorization of ten; which means that most fractions whose denominators are [[power of two|powers of two]] will have a shorter, more convenient terminating representation in dozenal than in decimal (e.g., 1/(2<sup>2</sup>) = 0.25 <SMALL>dec</SMALL> = 0.3 <SMALL>doz</SMALL>; 1/(2<sup>3</sup>) = 0.125 <SMALL>dec</SMALL> = 0.16 <SMALL>doz</SMALL>; 1/(2<sup>4</sup>) = 0.0625 <SMALL>dec</SMALL> = 0.09 <SMALL>doz</SMALL>; 1/(2<sup>5</sup>) = 0.03125 <SMALL>dec</SMALL> = 0.046 <SMALL>doz</SMALL>; etc.).
+
+Values in '''bold''' indicate that value is exact.
+
+{|class="wikitable"
+| colspan="3" align="center" | Decimal base<br><SMALL>Prime factors of the base: <span style="color:Green">'''2'''</span>, <span style="color:Green">'''5'''</span></SMALL><br><SMALL>Prime factors of one below the base: <span style="color:Blue">'''3'''</span></SMALL><br><SMALL>Prime factors of one above the base: <span style="color:Orange">'''11'''</span></SMALL>
+| colspan="3" align="center" | '''Duodecimal / Dozenal base'''<br><SMALL>Prime factors of the base: <span style="color:Green">'''2'''</span>, <span style="color:Green">'''3'''</span></SMALL><br><SMALL>Prime factors of one below the base: <span style="color:Blue">'''Ɛ'''</span></SMALL><br><SMALL>Prime factors of one above the base: <span style="color:Orange">'''11'''</span></SMALL>
+|-
+| align="center" | Fraction
+| align="center" | <SMALL>Prime factors<br>of the denominator<SMALL>
+| align="center" | Positional representation
+| align="center" | Positional representation
+| align="center" | <SMALL>Prime factors<br>of the denominator<SMALL>
+| align="center" | Fraction
+|-
+| align="center" | 1/2
+| align="center" | <span style="color:Green">'''2'''</span>
+| '''0.5'''
+| '''0.6'''
+| align="center" | <span style="color:Green">'''2'''</span>
+| align="center" | 1/2
+|-
+| align="center" | 1/3
+| align="center" | <span style="color:Blue">'''3'''</span>
+| bgcolor=#c0c0c0 | '''0.'''3333... = '''0.'''{{overline|3}}
+| '''0.4'''
+| align="center" | <span style="color:Green">'''3'''</span>
+| align="center" | 1/3
+|-
+| align="center" | 1/4
+| align="center" | <span style="color:Green">'''2'''</span>
+| '''0.25'''
+| '''0.3'''
+| align="center" | <span style="color:Green">'''2'''</span>
+| align="center" | 1/4
+|-
+| align="center" | 1/5
+| align="center" | <span style="color:Green">'''5'''</span>
+| '''0.2'''
+| bgcolor=#c0c0c0 | '''0.'''24972497... = '''0.'''{{overline|2497}}
+| align="center" | <span style="color:Red">'''5'''</span>
+| align="center" | 1/5
+|-
+| align="center" | 1/6
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Blue">'''3'''</span>
+| bgcolor=#c0c0c0 | '''0.1'''{{overline|6}}
+| '''0.2'''
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Green">'''3'''</span>
+| align="center" | 1/6
+|-
+| align="center" | 1/7
+| align="center" | <span style="color:Red">'''7'''</span>
+| bgcolor=#c0c0c0 | '''0.'''{{overline|142857}}
+| bgcolor=#c0c0c0 | '''0.'''{{overline|186ᘔ35}}
+| align="center" | <span style="color:Red">'''7'''</span>
+| align="center" | 1/7
+|-
+| align="center" | 1/8
+| align="center" | <span style="color:Green">'''2'''</span>
+| '''0.125'''
+| '''0.16'''
+| align="center" | <span style="color:Green">'''2'''</span>
+| align="center" | 1/8
+|-
+| align="center" | 1/9
+| align="center" | <span style="color:Blue">'''3'''</span>
+| bgcolor=#c0c0c0 | '''0.'''{{overline|1}}
+| '''0.14'''
+| align="center" | <span style="color:Green">'''3'''</span>
+| align="center" | 1/9
+|-
+| align="center" | 1/10
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Green">'''5'''</span>
+| '''0.1'''
+| bgcolor=#c0c0c0 | '''0.1'''{{overline|2497}}
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Red">'''5'''</span>
+| align="center" | 1/ᘔ
+|-
+| align="center" | 1/11
+| align="center" | <span style="color:Orange">'''11'''</span>
+| bgcolor=#c0c0c0 | '''0.'''{{overline|09}}
+| bgcolor=#c0c0c0 | '''0.'''{{overline|1}}
+| align="center" | <span style="color:Blue">'''Ɛ'''</span>
+| align="center" | 1/Ɛ
+|-
+| align="center" | 1/12
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Blue">'''3'''</span>
+| bgcolor=#c0c0c0 | '''0.08'''{{overline|3}}
+| '''0.1'''
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Green">'''3'''</span>
+| align="center" | 1/10
+|-
+| align="center" | 1/13
+| align="center" | <span style="color:Red">'''13'''</span>
+| bgcolor=#c0c0c0 | '''0.'''{{overline|076923}}
+| bgcolor=#c0c0c0 | '''0.'''{{overline|0Ɛ}}
+| align="center" | <span style="color:Orange">'''11'''</span>
+| align="center" | 1/11
+|-
+| align="center" | 1/14
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Red">'''7'''</span>
+| bgcolor=#c0c0c0 | '''0.0'''{{overline|714285}}
+| bgcolor=#c0c0c0 | '''0.0'''{{overline|ᘔ35186}}
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Red">'''7'''</span>
+| align="center" | 1/12
+|-
+| align="center" | 1/15
+| align="center" | <span style="color:Blue">'''3'''</span>, <span style="color:Green">'''5'''</span>
+| bgcolor=#c0c0c0 | '''0.0'''{{overline|6}}
+| bgcolor=#c0c0c0 | '''0.0'''{{overline|9724}}
+| align="center" | <span style="color:Green">'''3'''</span>, <span style="color:Red">'''5'''</span>
+| align="center" | 1/13
+|-
+| align="center" | 1/16
+| align="center" | <span style="color:Green">'''2'''</span>
+| '''0.0625'''
+| '''0.09'''
+| align="center" | <span style="color:Green">'''2'''</span>
+| align="center" | 1/14
+|-
+| align="center" | 1/17
+| align="center" | <span style="color:Red">'''17'''</span>
+| bgcolor=#c0c0c0 | '''0.'''{{overline|0588235294117647}}
+| bgcolor=#c0c0c0 | '''0.'''{{overline|08579214Ɛ36429ᘔ7}}
+| align="center" | <span style="color:Red">'''15'''</span>
+| align="center" | 1/15
+|-
+| align="center" | 1/18
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Blue">'''3'''</span>
+| bgcolor=#c0c0c0 | '''0.0'''{{overline|5}}
+| '''0.08'''
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Green">'''3'''</span>
+| align="center" | 1/16
+|-
+| align="center" | 1/19
+| align="center" | <span style="color:Red">'''19'''</span>
+| bgcolor=#c0c0c0 | '''0.'''{{overline|052631578947368421}}
+| bgcolor=#c0c0c0 | '''0.'''{{overline|076Ɛ45}}
+| align="center" | <span style="color:Red">'''17'''</span>
+| align="center" | 1/17
+|-
+| align="center" | 1/20
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Green">'''5'''</span>
+| '''0.05'''
+| bgcolor=#c0c0c0 | '''0.0'''{{overline|7249}}
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Red">'''5'''</span>
+| align="center" | 1/18
+|-
+| align="center" | 1/21
+| align="center" | <span style="color:Blue">'''3'''</span>, <span style="color:Red">'''7'''</span>
+| bgcolor=#c0c0c0 | '''0.'''{{overline|047619}}
+| bgcolor=#c0c0c0 | '''0.0'''{{overline|6ᘔ3518}}
+| align="center" | <span style="color:Green">'''3'''</span>, <span style="color:Red">'''7'''</span>
+| align="center" | 1/19
+|-
+| align="center" | 1/22
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Orange">'''11'''</span>
+| bgcolor=#c0c0c0 | '''0.0'''{{overline|45}}
+| bgcolor=#c0c0c0 | '''0.0'''{{overline|6}}
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Blue">'''Ɛ'''</span>
+| align="center" | 1/1ᘔ
+|-
+| align="center" | 1/23
+| align="center" | <span style="color:Red">'''23'''</span>
+| bgcolor=#c0c0c0 | '''0.'''{{overline|0434782608695652173913}}
+| bgcolor=#c0c0c0 | '''0.'''{{overline|06316948421}}
+| align="center" | <span style="color:Red">'''1Ɛ'''</span>
+| align="center" | 1/1Ɛ
+|-
+| align="center" | 1/24
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Blue">'''3'''</span>
+| bgcolor=#c0c0c0 | '''0.041'''{{overline|6}}
+| '''0.06'''
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Green">'''3'''</span>
+| align="center" | 1/20
+|-
+| align="center" | 1/25
+| align="center" | <span style="color:Green">'''5'''</span>
+| '''0.04'''
+| bgcolor=#c0c0c0 | '''0.'''{{overline|05915343ᘔ0Ɛ62ᘔ68781Ɛ}}
+| align="center" | <span style="color:Red">'''5'''</span>
+| align="center" | 1/21
+|-
+| align="center" | 1/26
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Red">'''13'''</span>
+| bgcolor=#c0c0c0 | '''0.0'''{{overline|384615}}
+| bgcolor=#c0c0c0 | '''0.0'''{{overline|56}}
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Orange">'''11'''</span>
+| align="center" | 1/22
+|-
+| align="center" | 1/27
+| align="center" | <span style="color:Blue">'''3'''</span>
+| bgcolor=#c0c0c0 | '''0.'''{{overline|037}}
+| '''0.054'''
+| align="center" | <span style="color:Green">'''3'''</span>
+| align="center" | 1/23
+|-
+| align="center" | 1/28
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Red">'''7'''</span>
+| bgcolor=#c0c0c0 | '''0.03'''{{overline|571428}}
+| bgcolor=#c0c0c0 | '''0.0'''{{overline|5186ᘔ3}}
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Red">'''7'''</span>
+| align="center" | 1/24
+|-
+| align="center" | 1/29
+| align="center" | <span style="color:Red">'''29'''</span>
+| bgcolor=#c0c0c0 | '''0.'''{{overline|0344827586206896551724137931}}
+| bgcolor=#c0c0c0 | '''0.'''{{overline|04Ɛ7}}
+| align="center" | <span style="color:Red">'''25'''</span>
+| align="center" | 1/25
+|-
+| align="center" | 1/30
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Blue">'''3'''</span>, <span style="color:Green">'''5'''</span>
+| bgcolor=#c0c0c0 | '''0.0'''{{overline|3}}
+| bgcolor=#c0c0c0 | '''0.0'''{{overline|4972}}
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Green">'''3'''</span>, <span style="color:Red">'''5'''</span>
+| align="center" | 1/26
+|-
+| align="center" | 1/31
+| align="center" | <span style="color:Red">'''31'''</span>
+| bgcolor=#c0c0c0 | '''0.'''{{overline|032258064516129}}
+| bgcolor=#c0c0c0 | '''0.'''{{overline|0478ᘔᘔ093598166Ɛ74311Ɛ28623ᘔ55}}
+| align="center" | <span style="color:Red">'''27'''</span>
+| align="center" | 1/27
+|-
+| align="center" | 1/32
+| align="center" | <span style="color:Green">'''2'''</span>
+| '''0.03125'''
+| '''0.046'''
+| align="center" | <span style="color:Green">'''2'''</span>
+| align="center" | 1/28
+|-
+| align="center" | 1/33
+| align="center" | <span style="color:Blue">'''3'''</span>, <span style="color:Orange">'''11'''</span>
+| bgcolor=#c0c0c0 | '''0.'''{{overline|03}}
+| bgcolor=#c0c0c0 | '''0.0'''{{overline|4}}
+| align="center" | <span style="color:Green">'''3'''</span>, <span style="color:Blue">'''Ɛ'''</span>
+| align="center" | 1/29
+|-
+| align="center" | 1/34
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Red">'''17'''</span>
+| bgcolor=#c0c0c0 | '''0.0'''{{overline|2941176470588235}}
+| bgcolor=#c0c0c0 | '''0.0'''{{overline|429ᘔ708579214Ɛ36}}
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Red">'''15'''</span>
+| align="center" | 1/2ᘔ
+|-
+| align="center" | 1/35
+| align="center" | <span style="color:Green">'''5'''</span>, <span style="color:Red">'''7'''</span>
+| bgcolor=#c0c0c0 | '''0.0'''{{overline|285714}}
+| bgcolor=#c0c0c0 | '''0.'''{{overline|0414559Ɛ3931}}
+| align="center" | <span style="color:Red">'''5'''</span>, <span style="color:Red">'''7'''</span>
+| align="center" | 1/2Ɛ
+|-
+| align="center" | 1/36
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Blue">'''3'''</span>
+| bgcolor=#c0c0c0 | '''0.02'''{{overline|7}}
+| '''0.04'''
+| align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Green">'''3'''</span>
+| align="center" | 1/30
+|}
+
+=== Irrational numbers ===
+As for [[irrational number]]s, none of them have a finite representation in ''any'' of the [[rational number|rational]]-based positional number systems (such as the decimal and duodecimal ones); this is because a rational-based positional number system is essentially nothing but a way of expressing quantities as a sum of fractions whose denominators are powers of the base, and by definition no ''finite'' sum of rational numbers can ever result in an irrational number. For example, 123.456 = 1 × 1/10<sup>−2</sup> + 2 × 1/10<sup>−1</sup> + 3 × 1/10<sup>0</sup> + 4 × 1/10<sup>1</sup> + 5 × 1/10<sup>2</sup> + 6 × 1/10<sup>3</sup> (this is also the reason why fractions that contain prime factors in their denominator not in common with those of the base do not have a terminating representation in that base). Moreover, the infinite series of digits of an irrational number does not exhibit a pattern of repetition; instead, the different digits succeed in a seemingly random fashion. The following chart compares the first few digits of the decimal and duodecimal representation of several of the most important [[algebraic number|algebraic]] and [[transcendental number|transcendental]] irrational numbers. Some of these numbers may be perceived as having fortuitous patterns, making them easier to memorize, when represented in one base or the other.
+
+{|class="wikitable"
+| align="center" | ''Algebraic irrational number''
+| align="center" | In decimal
+| align="center" | '''In duodecimal / dozenal'''
+|-
+| align="center" | [[Square root of 2|√2]] <SMALL>(the length of the [[diagonal]] of a unit [[Square (geometry)|square]])</SMALL>
+| 1.41421356237309... (≈ 1.4142)
+| 1.4Ɛ79170ᘔ07Ɛ857... (≈ 1.5)
+|-
+| align="center" | [[Square root of 3|√3]] <SMALL>(the length of the diagonal of a unit [[cube]], or twice the [[height]] of an [[equilateral triangle]] of unit side)</SMALL>
+| 1.73205080756887... (≈ 1.732)
+| 1.894Ɛ97ƐƐ968704... (≈ 1.895)
+|-
+| align="center" | [[Square root of 5|√5]] <SMALL>(the length of the [[diagonal]] of a 1×2 [[rectangle]])</SMALL>
+| 2.2360679774997... (≈ 2.236)
+| 2.29ƐƐ132540589... (≈ 2.2ᘔ)
+|-
+| align="center" | [[Golden ratio|φ]] <SMALL>(phi, the golden ratio = <math>\scriptstyle \frac{1+\sqrt{5}}{2}</math>)</SMALL>
+| 1.6180339887498... (≈ 1.618)
+| 1.74ƐƐ6772802ᘔ4... (≈ 1.75)
+|-
+| align="center" | ''Transcendental irrational number''
+| align="center" | In decimal
+| align="center" | '''In duodecimal / dozenal'''
+|-
+| align="center" | ''[[Pi|π]]'' <SMALL>(pi, the ratio of [[circumference]] to [[diameter]])<SMALL>
+| 3.1415926535897932384626433<br />8327950288419716939937510...<br />(≈ 3.1416)
+| 3.184809493Ɛ918664573ᘔ6211Ɛ<br />Ɛ151551ᘔ05729290ᘔ7809ᘔ492...<br />(≈ 3.1848)
+|-
+| align="center" | [[E (mathematical constant)|e]] <SMALL>(the base of the [[natural logarithm]])</SMALL>
+| 2.718281828459045... (≈ 2.718)
+| 2.8752360698219Ɛ8... (≈ 2.875)
+|}
+
+The first few digits of the decimal and dozenal representation of another important number, the [[Euler–Mascheroni constant]] (the status of which as a rational or irrational number is not yet known), are:
+
+{|class="wikitable"
+| align="center" | ''Number''
+| align="center" | In decimal
+| align="center" | '''In duodecimal / dozenal'''
+|-
+| align="center" | [[Euler–Mascheroni constant|γ]] <SMALL>(the limiting difference between the [[harmonic series (mathematics)|harmonic series]] and the natural logarithm)</SMALL>
+| 0.57721566490153... (~ 0.577)
+| 0.6Ɛ15188ᘔ6760Ɛ3... (~ 0.7)
+|}
+
+==Advocacy and "dozenalism"==
+The case for the duodecimal system was put forth at length in F. Emerson Andrews' 1935 book ''New Numbers: How Acceptance of a Duodecimal Base Would Simplify Mathematics''. Emerson noted that, due to the prevalence of factors of twelve in many traditional units of weight and measure, many of the computational advantages claimed for the metric system could be realized ''either'' by the adoption of ten-based weights and measure ''or'' by the adoption of the duodecimal number system.
+
+Rather than the symbols "A" for ten and "B" for eleven as used in [[hexadecimal]] notation and [[vigesimal]] notation (or "T" and "E" for ten and eleven), he suggested in his book and used a script X and a script E, <math>x\!</math> ([[Unicode|U+]]1D4B3) and [[Image:Scripte.png]] (U+2130), to represent the digits ten and eleven respectively, because, at least on a page of Roman script, these characters were distinct from any existing letters or numerals, yet were readily available in printers' fonts. He chose <math>x\!</math> for its resemblance to the Roman numeral X, and [[Image:Scripte.png]] as the first letter of the word "eleven".
+
+Another popular notation, introduced by Sir [[Isaac Pitman]], is to use a rotated 2 (ᘔ) (resembling a script ''τ'' for "ten") to represent ten and a rotated or horizontally flipped 3 (Ɛ) (which again resembles ''ε'') to represent eleven. This is the convention commonly employed by the Dozenal Society of Great Britain and has the advantage of being easily recognizable as digits because of their resemblance in shape to existing digits. On the other hand, the Dozenal Society of America adopted for some years the convention of using an [[asterisk]] * for ten and a [[Number sign|hash]] # for eleven. The reason was that the symbol * resembles a struck-through X, whereas the symbol # resembles a doubly-struck-through 11, and both symbols are already present in [[telephone]] [[Rotary dial|dials]]. However, critics pointed out these symbols do not look anything like digits. Some other systems write 10 as Φ (a combination of 1 and 0) and eleven as a cross of two lines (+, x, or † for example)<!-- "+" is similar to the Chinese character for ten & "X" is the Roman numeral for ten. -->.
+
+Problems with these symbols are evident, most notably that most of them can not be represented in the [[seven-segment display]] of most [[calculator]] displays ([[Image:Scripte.png]] being an exception, although "E" is used on calculators to indicate an [[error message]]). However, 10 and 11 do fit, both within a single digit (11 fits as is, whereas the 10 has to be tilted sideways, resulting in a character that resembles an O with a [[macron]], ō or <u>o</u>). A and B also fit (although B must be represented as lowercase "b" and as such, 6 must have a bar over it to distinguish the two figures) and are used on calculators for bases higher than ten.
+
+In "Little Twelvetoes", American television series ''[[Schoolhouse Rock!]]'' portrayed an alien child using base-twelve arithmetic, using "dek", "el" and "doh" as names for ten, eleven and twelve, and Andrews' script-X and script-E for the digit symbols. ("Dek" is from the prefix "deca", "el" being short for "eleven" and "doh" an apparent shortening of "dozen".)<ref>[http://www.schoolhouserock.tv/Little.html "Little Twelvetoes"]</ref>
+
+The Dozenal Society of America and the Dozenal Society of Great Britain promote widespread adoption of the base-twelve system. They use the word "dozenal" instead of "duodecimal" because the latter comes from Latin roots that express twelve in base-ten terminology.
+
+The renowned mathematician and mental calculator [[Alexander Aitken|Alexander Craig Aitken]] was an outspoken advocate of the advantages and superiority of duodecimal over decimal:
+{{quote|The duodecimal tables are easy to master, easier than the decimal ones; and in elementary teaching they would be so much more interesting, since young children would find more fascinating things to do with twelve rods or blocks than with ten. Anyone having these tables at command will do these calculations more than one-and-a-half times as fast in the duodecimal scale as in the decimal. This is my experience; I am certain that even more so it would be the experience of others.|A. C. Aitken|in ''The Listener'', January 25, 1962<ref>[http://www.dozenalsociety.org.uk/leafletsetc/aitken.html Basic Stuff<!-- Bot generated title -->]</ref>}}
+
+{{quote|But the final quantitative advantage, in my own experience, is this: in varied and extensive calculations of an ordinary and not unduly complicated kind, carried out over many years, I come to the conclusion that the efficiency of the decimal system might be rated at about 65 or less, if we assign 100 to the duodecimal.|A. C. Aitken|''The Case Against Decimalisation'' (Edinburgh / London: Oliver & Boyd, 1962)<ref>[http://www.dozenalsociety.org.uk/pdfs/aitken.pdf The Case against Decimalisation<!-- Bot generated title -->]</ref>}}
+
+In [[Leo Frankowski]]'s [[Conrad Stargard]] novels, Conrad introduces a duodecimal system of arithmetic at the suggestion of a merchant, who is accustomed to buying and selling goods in dozens and grosses, rather than tens or hundreds. He then invents an entire system of weights and measures in base twelve, including a clock with twelve hours in a day, rather than twenty-four hours.
+
+In [[Lee Carroll]]'s ''Kryon: Alchemy of the Human Spirit'', a chapter is dedicated to the advantages of the duodecimal system. The duodecimal system is supposedly suggested by [[Kryon]] (one of the widely popular [[New Age]] channeled entities) for all-round use, aiming at better and more natural representation of nature of the Universe through mathematics. An individual article "Mathematica" by James D. Watt (included in the above publication) exposes a few of the unusual symmetry connections between the duodecimal system and the [[golden ratio]], as well as provides numerous number symmetry-based arguments for the universal nature of the base-12 number system.<ref>''[https://www.kryon.com/k_13.html Kryon—Alchemy of the Human Spirit]'', ISBN 0-9636304-8-2</ref>
+
+=== Dozenal clock ===
+* [http://www.dozenalsociety.org.uk/apps/dozenalclock.html Dozenal Clock by Joshua Harkey]
+* [http://dozenal.ae-web.ca Dozenal Clock with four hands in several variants by Paul Rapoport]
+* [http://www.gingerbill.org/dozenal/demo.html Dozenal Clock by Bill Hall]
+
+=== Dozenal metric systems ===
+[[Systems of measurement]] proposed by dozenalists include:
+* Tom Pendlebury's [[TGM (measurement system)|TGM]] system<ref>{{cite web|last=Pendlebury|first=Tom|title=TGM|url=http://www.dozenalsociety.org.uk/pdfs/TGMbooklet.pdf}}</ref>
+* Takashi Suga's [[Universal Unit System]]<ref>{{cite web|last=Suga|first=Takashi|title=Universal Unit System|url=http://www.asahi-net.or.jp/~dd6t-sg/univunit-e/}}</ref>
+
+== Duodecimal digits on computerized writing systems ==
+{{Symb|[[File:Duodecimal-digit-ten-Dozenal-Society-of-Great-Britain.svg]] [[File:Duodecimal-digit-eleven-Dozenal-Society-of-Great-Britain.svg]] · [[File:Duodecimal-digit-ten-Dozenal-Society-of-America.svg]] [[File:Duodecimal-digit-eleven-Dozenal-Society-of-America.svg]]}}
+In March 2013, a proposal was submitted to include the digits for ten and eleven propagated by the Dozenal Societies of Great Britain and America in [[Unicode]].<ref name="N4399">{{Internetquelle|autor=Karl Pentzlin|hrsg=ISO/IEC JTC1/SC2/WG2, Document N4399|titel=Proposal to encode Duodecimal Digit Forms in the UCS|url=http://std.dkuug.dk/jtc1/sc2/wg2/docs/n4399.pdf |datum=2013-03-30|zugriff=2013-06-29|sprache=en|format=PDF}}</ref> In June 2013, this was partially accepted, advising for the British digits the provisional code points U+218A {{smallcaps|turned digit two}} and U+218B {{smallcaps|turned digit three}}.<ref>{{Internetquelle|hrsg=ISO/IEC JTC1/SC2/WG2, Document N4465|titel=Subdivision of work – Amendment 1 10646 4<sup>th</sup> edition|url=http://std.dkuug.dk/jtc1/sc2/wg2/docs/n4465.pdf |datum=2013-06-20|zugriff=2013-06-29|sprache=en|format=PDF}}</ref> By this, the actual availability as Unicode characters can be expected for 2016 (1200<sub>doz.</sub>).
+
+Also, the turned digits two and three are available in [[LaTeX]] as <code>\textturntwo</code> and <code>\textturnthree</code>.<ref name="LATEX">{{Internetquelle
+ |autor = Scott Pakin
+ |titel = The Comprehensive LATEX Symbol List
+ |url = http://www.tex.ac.uk/tex-archive/info/symbols/comprehensive/symbols-a4.pdf 
+ |datum = 2009-11-09
+ |zugriff = 2013-02-04
+ |sprache = en
+ |format = PDF; 4,4&nbsp;MB 
+}}</ref>
+
+== See also ==
+* [[Senary]] (base 6)
+* [[base 24|Quadrovigesimal]] (base 24)
+* [[base 36|Sexatrigesimal]] (base 36)
+* [[Sexagesimal]] (base 60)
+* [[Babylonian numerals]]
+
+== References ==
+{{reflist}}
+
+== External links ==
+* [http://www.dozenal.org/ Dozenal Society of America]
+* [http://www.dozenalsociety.org.uk/ Dozenal Society of Great Britain website]
+* [http://io9.com/5977095/why-we-should-switch-to-a-base+12-counting-system Why We Should Switch To A Base-12 Counting System] by George Dvorsky for IO9.com
+* {{cite web|last=Grime|first=James|title=Base 12: Dozenal or Duodecimal|url=http://www.numberphile.com/videos/base_12.html|work=Numberphile|publisher=[[Brady Haran]]}}
+
+[[Category:Positional numeral systems]]

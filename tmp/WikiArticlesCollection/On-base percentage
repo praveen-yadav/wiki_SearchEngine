@@ -1,0 +1,189 @@
+{{ref improve|date=July 2013}}
+In [[baseball statistics]], '''on-base percentage''' (OBP; sometimes referred to as '''on-base average/OBA''', as the statistic is rarely presented as a true [[percentage]]) is a measure of how often a [[batting (baseball)|batter]] reaches base for any reason other than a [[error (baseball)|fielding error]], [[fielder's choice]], [[Uncaught third strike|dropped/uncaught third strike]], [[Obstruction (baseball)|fielder's obstruction]], or [[catcher's interference]] (the latter two are ignored as either [[Times on base|times-on-base (TOB)]] or [[plate appearance]]s in calculating OBP). OBP is added to [[slugging average]] to determine [[on-base plus slugging]] (OPS). It first became an official [[MLB]] statistic in 1984.
+
+==Overview==
+Traditionally, players with the best on-base percentages bat as leadoff hitter, unless they are power hitters who traditionally bat slightly lower in the batting order. The league average for on-base percentage has varied considerably over time; in the modern era it is around .340, whereas it was typically only .300 in the [[dead-ball era]]. On-base percentage can also vary quite considerably from player to player. The record for the highest career OBP by a hitter, based on over 3000 [[plate appearance]]s, is .482 by [[Ted Williams]]. The lowest is by [[Bill Bergen]], who had an OBP of .194.
+
+For small numbers of at-bats, it is possible (though unlikely) for a player's on-base percentage to be lower than his [[batting average]] (H/AB). This happens when a player has almost no [[base on balls|walks]] or times [[hit by pitch]], with a higher number of [[sacrifice fly|sacrifice flies]] (e.g. if a player has 2 hits in 6 at-bats plus a sacrifice fly, his batting average would be .333, but his on-base percentage would be .286).  The player who experienced this phenomenon with the most number of at-bats over a full season was [[Ernie Bowman]]. In 1963, with over 125 at-bats, Bowman had a batting average of .184 and an on-base percentage of .181.
+
+On-base percentage is calculated using this formula:
+
+:<math>OBP = \frac{H+BB+HBP}{AB+BB+HBP+SF}</math>
+
+where
+
+*''H'' = [[Hit (baseball)|Hits]]
+*''BB'' = [[Base on balls|Bases on Balls (Walks)]]
+*''HBP'' = [[Hit by pitch|Hit By Pitch]]
+*''AB'' = [[At bat]]s
+*''SF'' = [[Sacrifice fly|Sacrifice Flies]]
+
+'''NOTE:''' Sacrifice flies were not counted as an official statistic until [[1954 in baseball|1954]]. Before that time, all sacrifices were counted as [[sacrifice hit]]s (SH), which included both sacrifice flies and [[Bunt (baseball)|bunts]]. Sacrifice bunts (sacrifice hits since 1954), which would lower a batter's on-base percentage, are not included in the calculation for on-base percentage, as bunting is an offensive strategy &ndash; often dictated by the manager &ndash; the use of which does not necessarily reflect on the batter's ability and should not be used to penalize him. For calculations of OBP before 1954, or where sacrifice flies are not explicitly listed, the number of sacrifice flies should be assumed to be zero.
+
+===All-time leaders===
+{| class="wikitable" border="1" cellpadding="1" style="border-collapse: collapse;"
+|- bgcolor="#E3E3E3" align="center"
+| width="12px" | '''#'''
+| width="135px" | '''Player'''
+| width="50px" | '''OBP'''<ref name=BaseballRefBatAvg>{{cite web |url=http://www.baseball-reference.com/leaders/onbase_perc_career.shtml?redir |title=Career Leaders for On Base Percentage|accessdate=2011-06-25 |publisher=Sports Reference, Inc }}</ref>
+| width="450px" | '''Team(s)'''
+| width="140px" | '''Year(s)'''
+|-
+|1
+|[[Ted Williams]]
+|.4817
+|[[Boston Red Sox]]
+|[[1939 in baseball|1939]]–[[1942 in baseball|1942]], [[1946 in baseball|1946]]–[[1960 in baseball|1960]] 
+|-
+|2
+|[[Babe Ruth]]
+|.4740
+|[[Boston Red Sox]], [[New York Yankees]], [[Atlanta Braves|Boston Braves]]
+|[[1914 in baseball|1914]]–[[1935 in baseball|1935]]
+|-
+|3
+|[[John McGraw]]
+|.4657
+|[[Baltimore Orioles]], [[St. Louis Cardinals]], [[San Francisco Giants|New York Giants]]
+|[[1891 in baseball|1891]]–[[1906 in baseball|1906]]
+|-
+|4
+|[[Billy Hamilton (baseball, born 1866)|Billy Hamilton]]
+|.4552
+|[[Kansas City Cowboys (American Association)|Kansas City Cowboys]], [[Philadelphia Phillies]], [[Atlanta Braves|Boston Beaneaters]] 
+|[[1888 in baseball|1888]]–[[1901 in baseball|1901]] 
+|-
+|5
+|[[Lou Gehrig]]
+|.4474
+|[[New York Yankees]] 
+|[[1923 in baseball|1923]]–[[1939 in baseball|1939]]
+|-
+|6
+|[[Barry Bonds]]
+|.4443
+|[[Pittsburgh Pirates]], [[San Francisco Giants]]
+|[[1986 in baseball|1986]]–[[2007 in baseball|2007]]
+|-
+|7
+|[[Bill Joyce (baseball)|Bill Joyce]]
+|.4349
+|[[Brooklyn Ward's Wonders]], [[Boston Reds (1890–1891)|Boston Reds]], [[Los Angeles Dodgers|Brooklyn Grooms]], [[Washington Senators (1891-1899)|Washington Senators]], [[San Francisco Giants|New York Giants]]
+|[[1890 in baseball|1890]]–[[1898 in baseball|1898]] 
+|-
+|8
+|[[Rogers Hornsby]]
+|.4337
+|[[St. Louis Cardinals]], [[San Francisco Giants|New York Giants]], [[Atlanta Braves|Boston Braves]], [[Chicago Cubs]], [[Baltimore Orioles#St._Louis_Browns|St. Louis Browns]]
+|[[1915 in baseball|1915]]–[[1937 in baseball|1937]]
+|-
+|9
+|[[Ty Cobb]]
+|.4330
+|[[Detroit Tigers]], [[Philadelphia Athletics]]
+|[[1905 in baseball|1905]]–[[1928 in baseball|1928]]
+|-
+|10
+|[[Jimmie Foxx]]
+|.4283
+|[[Philadelphia Athletics]], [[Boston Red Sox]], [[Chicago Cubs]], [[Philadelphia Phillies]]
+|[[1925 in baseball|1925]]–[[1942 in baseball|1942]], [[1944 in baseball|1944]]–[[1945 in baseball|1945]] 
+|-
+|11
+|[[Tris Speaker]]
+|.4279
+|[[Boston Red Sox]], [[Cleveland Indians]], [[Washington Senators (1901-1960)|Washington Senators]], [[Philadelphia Athletics]]
+|[[1907 in baseball|1907]]–[[1928 in baseball|1928]]
+|-
+|12
+||[[Eddie Collins]]
+|.4244
+|[[Philadelphia Athletics]], [[Chicago White Sox]], [[Philadelphia Athletics]]
+|[[1906 in baseball|1906]]–[[1930 in baseball|1930]]
+|}
+
+'''bold''' is active player
+
+===Single-season leaders===
+{| class="wikitable" border="1" cellpadding="1" style="border-collapse: collapse;"
+|- bgcolor="#E3E3E3" align="center"
+| width="12px" | '''#'''
+| width="135px" | '''Player'''
+| width="50px" | '''OBP'''<ref name=SingleSeasonOBP>{{cite web |url=http://www.baseball-reference.com/leaders/onbase_perc_season.shtml |title=Single Season League Leaders for On-Base Percentage|accessdate=2011-06-25 |publisher=Sports Reference, Inc.}}</ref>
+| width="175px" | '''Team'''
+| width="140px" | '''Year'''
+|-
+|1
+|[[Barry Bonds]]
+|.6094
+|[[San Francisco Giants]]
+|[[2004 in baseball|2004]]
+|-
+|2
+|[[Barry Bonds]]
+|.5817
+|[[San Francisco Giants]]
+|[[2002 in baseball|2002]]
+|-
+|3
+|[[Ted Williams]]
+|.5528
+|[[Boston Red Sox]]
+|[[1941 in baseball|1941]]
+|-
+|4
+|[[John McGraw]]
+|.5475
+|[[Baltimore Orioles]] 
+|[[1899 in baseball|1899]]
+|-
+|5
+|[[Babe Ruth]]
+|.5445
+|[[New York Yankees]] 
+|[[1923 in baseball|1923]]
+|-
+|6
+|[[Babe Ruth]]
+|.5319
+|[[New York Yankees]]
+|[[1920 in baseball|1920]]
+|-
+|7
+|[[Barry Bonds]]
+|.5291
+|[[San Francisco Giants]]
+|[[2003 in baseball|2003]]
+|-
+|8
+|[[Ted Williams]]
+|.5256
+|[[Boston Red Sox]]
+|[[1957 in baseball|1957]]
+|-
+|9
+|[[Billy Hamilton (baseball, born 1866)|Billy Hamilton]]
+|.5209
+|[[Philadelphia Phillies]]
+|[[1894 in baseball|1894]]
+|-
+|10
+|[[Babe Ruth]]
+|.5156
+|[[New York Yankees]] 
+|[[1926 in baseball|1926]]
+|}
+
+==See also==
+{{Portal|Baseball}}
+*[[List of Major League Baseball players with a .400 on-base percentage|List of MLB players with a .400 on-base percentage]]
+*''[[Moneyball: The Art of Winning an Unfair Game]]''
+
+==Notes==
+{{Reflist}}
+
+{{Baseball statistics}}
+
+{{DEFAULTSORT:On-Base Percentage}}
+[[Category:Batting statistics]]
+[[Category:Baseball terminology]]

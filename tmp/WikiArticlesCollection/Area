@@ -1,0 +1,310 @@
+{{About|the geometric quantity}}
+
+[[File:Area.svg|right|thumb|alt=Three shapes on a square grid|The combined area of these three [[shapes]] is [[approximation|approximately]] 15.56 [[square (geometry)|squares]].]]
+'''Area''' is a [[quantity]] that expresses the extent of a [[two-dimensional]] [[surface]] or [[shape]], or [[planar lamina]], in the [[Plane (geometry)|plane]].  Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of [[paint]] necessary to cover the surface with a single coat.<ref name=MathWorld>{{cite web|url=http://mathworld.wolfram.com/Area.html|title=Area|publisher=[[Wolfram MathWorld]]|author=[[Eric W. Weisstein]]|accessdate=3 July 2012}}</ref> It is the two-dimensional [[analogy|analog]] of the [[length]] of a [[plane curve|curve]] (a one-dimensional concept) or the [[volume]] of a [[solid geometry|solid]] (a three-dimensional concept).
+
+The area of a shape can be measured by comparing the shape to [[square (geometry)|squares]] of a fixed size.<ref name=AF/>  In the [[International System of Units]] (SI), the standard unit of area is the [[square metre]] (written as m<sup>2</sup>), which is the area of a square whose sides are one [[metre]] long.<ref name=B>[[Bureau International des Poids et Mesures]] [http://www.bipm.org/en/CGPM/db/11/12/ Resolution 12 of the 11th meeting of the CGPM (1960)], retrieved 15 July 2012</ref>  A shape with an area of three square metres would have the same area as three such squares.  In [[mathematics]], the [[unit square]] is defined to have area one, and the area of any other shape or surface is a [[Dimensionless quantity|dimensionless]] [[real number]].
+
+There are several well-known [[formula]]s for the areas of simple shapes such as [[triangle]]s, [[rectangle]]s, and [[circle]]s.  Using these formulas, the area of any [[polygon]] can be found by [[Polygon triangulation|dividing the polygon into triangles]].<ref name=bkos>{{Cite book |author1=Mark de Berg |author2=Marc van Kreveld |author3=Mark Overmars |author3-link=Mark Overmars |author4=Otfried Schwarzkopf  |year=2000 |title=Computational Geometry |publisher=[[Springer-Verlag]] |edition=2nd revised |isbn=3-540-65620-0 |chapter=Chapter 3: Polygon Triangulation |pages=45–61 |postscript=<!-- Bot inserted parameter. Either remove it; or change its value to "." for the cite to end in a ".", as necessary. -->{{inconsistent citations}}}}</ref>  For shapes with curved boundary, [[calculus]] is usually required to compute the area.  Indeed, the problem of determining the area of plane figures was a major motivation for the [[History of calculus|historical development of calculus]].<ref>{{cite book|first=Carl B. |last=Boyer |authorlink=Carl Benjamin Boyer |title=A History of the Calculus and Its Conceptual Development |publisher=Dover |year=1959 |isbn=0-486-60509-4}}</ref>
+
+For a solid shape such as a [[sphere]], [[Cone (geometry)|cone]], or [[cylinder (geometry)|cylinder]], the area of its boundary surface is called the [[surface area]].<ref name=MathWorld/><ref name=MathWorldSurfaceArea>{{cite web|url=http://mathworld.wolfram.com/SurfaceArea.html|title=Surface Area|publisher=[[Wolfram MathWorld]]|author=[[Eric W. Weisstein]]|accessdate=3 July 2012}}</ref> Formulas for the surface areas of simple shapes were computed by the [[Greek mathematics|ancient Greeks]], but computing the surface area of a more complicated shape usually requires [[multivariable calculus]].
+
+Area plays an important role in modern mathematics.  In addition to its obvious importance in [[geometry]] and calculus, area is related to the definition of [[determinant]]s in [[linear algebra]], and is a basic property of surfaces in [[differential geometry]].<ref name="doCarmo">do Carmo, Manfredo. Differential Geometry of Curves and Surfaces. Prentice-Hall, 1976. Page 98, ISBN 978-0-13-212589-5</ref> In [[analysis]], the area of a subset of the plane is defined using [[Lebesgue measure]],<ref name="Rudin">Walter Rudin, ''Real and Complex Analysis'', McGraw-Hill, 1966, ISBN 0-07-100276-6.</ref> though not every subset is measurable.<ref>Gerald Folland, Real Analysis: modern techniques and their applications, John Wiley & Sons, Inc., 1999,Page 20,ISBN 0-471-31716-0</ref>  In general, area in higher mathematics is seen as a special case of [[volume]] for two-dimensional regions.<ref name=MathWorld/>
+
+Area can be defined through the use of axioms, defining it as a function of a collection of certain plane figures to the set of real numbers. It can be proved that such a function exists.
+
+==Formal definition==
+{{see also|Jordan measure}}
+An approach to defining what is meant by "area" is through [[axioms]]. "Area" can be defined as a function from a collection M of special kind of plane figures (termed measurable sets) to the set of real numbers which satisfies the following properties:
+* For all ''S'' in ''M'', ''a''(''S'') ≥ 0.
+* If ''S'' and ''T'' are in ''M'' then so are ''S'' ∪ ''T'' and ''S'' ∩ ''T'', and also ''a''(''S''∪''T'') = ''a''(''S'') + ''a''(''T'') − ''a''(''S''∩''T'').
+* If ''S'' and ''T'' are in ''M'' with ''S'' ⊆ ''T'' then ''T'' − ''S'' is in ''M'' and ''a''(''T''−''S'') = ''a''(''T'') − ''a''(''S'').
+* If a set ''S'' is in ''M'' and ''S'' is congruent to ''T'' then ''T'' is also in ''M'' and ''a''(''S'') = ''a''(''T'').
+* Every rectangle ''R'' is in ''M''. If the rectangle has length ''h'' and breadth ''k'' then ''a''(''R'') = ''hk''.
+* Let ''Q'' be a set enclosed between two step regions ''S'' and ''T''. A step region is formed from a finite union of adjacent rectangles resting on a common base, i.e. ''S'' ⊆ ''Q'' ⊆ ''T''. If there is a unique number ''c'' such that ''a''(''S'') ≤ c ≤ ''a''(''T'') for all such step regions ''S'' and ''T'', then ''a''(''Q'') = ''c''.
+
+It can be proved that such an area function actually exists.<ref name=Moise>{{cite book|last=Moise|first=Edwin|title=Elementary Geometry from an Advanced Standpoint|url=http://books.google.com/?id=7nUNAQAAIAAJ|accessdate=15 July 2012|year=1963|publisher= Addison-Wesley Pub. Co.|isbn=|page=}}</ref>
+
+==Units==
+[[Image:SquareMeterQuadrat.JPG|thumb|right|alt=A square made of PVC pipe on grass|A square metre [[quadrat]] made of PVC pipe.]]
+Every [[unit of length]] has a corresponding unit of area, namely the area of a square with the given side length.  Thus areas can be measured in [[square metre]]s (m<sup>2</sup>), square centimetres (cm<sup>2</sup>), square millimetres (mm<sup>2</sup>), [[square kilometre]]s (km<sup>2</sup>), [[square foot|square feet]] (ft<sup>2</sup>), [[square yard]]s (yd<sup>2</sup>), [[square mile]]s (mi<sup>2</sup>), and so forth.<ref name=BIPM2006Ch5/>  Algebraically, these units can be thought of as the [[square (algebra)|squares]] of the corresponding length units.
+
+The SI unit of area is the square metre, which is considered an [[SI derived unit]].<ref name=B/>
+
+===Conversions===
+[[Image:Area conversion - square mm in a square cm.png|thumb|right|320px|alt=A diagram showing the conversion factor between different areas|Although there are 10 mm in 1 cm, there are 100 mm<sup>2</sup> in 1 cm<sup>2</sup>.]]
+The conversion between two square units is the [[square (algebra)|square]] of the conversion between the corresponding length units.  For example, since
+:1 [[foot (unit)|foot]] = 12 [[inch]]es,
+the relationship between square feet and square inches is
+:1 square foot = 144 square inches,
+where 144 = 12<sup>2</sup> = 12 × 12.  Similarly:
+* 1 square kilometer = [[million|1,000,000]] square meters
+* 1 square meter = [[10000 (number)|10,000]] square centimetres = 1,000,000 square millimetres
+* 1 square centimetre = [[100 (number)|100]] square millimetres
+* 1 square yard = [[9 (number)|9]] square feet
+* 1 square mile = 3,097,600 square yards = 27,878,400 square feet
+In addition,
+* 1 square inch = 6.4516 square centimetres
+* 1 square foot = {{gaps|0.092|903|04}} square metres
+* 1 square yard = {{gaps|0.836|127|36}} square metres
+* 1 square mile = {{gaps|2.589|988|110|336}} square kilometres
+
+===Other units===
+{{See also|Category:Units of area}}
+There are several other common units for area.  The "[[Are (unit)|Are]]" was the original unit of area in the [[metric system]], with; 
+*1 are = 100 square metres
+Though the are has fallen out of use, the [[hectare]] is still commonly used to measure land:<ref name=BIPM2006Ch5>{{Cite journal|author= Bureau international des poids et mesures|year=2006 |url=http://www.bipm.org/utils/common/pdf/si_brochure_8_en.pdf |title=The International System of Units (SI)|version= 8th ed.|accessdate=2008-02-13}} Chapter 5.</ref>
+*1 hectare = 100 ares = 10,000 square metres = 0.01 square kilometres
+Other uncommon metric units of area include the [[tetrad (unit of area)|tetrad]], the [[hectad]], and the [[myriad]].
+
+The [[acre]] is also commonly used to measure land areas, where
+*1 acre = 4,840 square yards = 43,560 square feet.
+An acre is approximately 40% of a hectare.
+
+On the atomic scale, area is measured in units of [[Barn (unit)|barns]], such that:<ref name=BIPM2006Ch5/>
+*1 barn = 10<sup>−28</sup> square meters.
+The barn is commonly used in describing the cross sectional area of interaction in [[nuclear physics]].<ref name=BIPM2006Ch5/>
+
+In India,
+
+*20 Dhurki = 1 Dhur
+
+*20 Dhur = 1 Khatha
+
+*20 Khata = 1 Bigha
+
+*32 Khata = 1 Acre
+
+==Area formulae==
+
+===Polygon formulae===
+
+====Rectangles====
+[[Image:RectangleLengthWidth.svg|thumb|right|180px|alt=A rectangle with length and width labelled|The area of this rectangle is&nbsp;{{mvar|lw}}.]]
+The most basic area formula is the formula for the area of a [[rectangle]].  Given a rectangle with length {{mvar|l}} and width {{mvar|w}}, the formula for the area is:</big><ref name=AF>{{cite web|url=http://www.math.com/tables/geometry/areas.htm|title=Area Formulas|publisher=Math.com|accessdate=2 July 2012}}</ref>
+
+:{{bigmath|''A'' {{=}} ''lw''}}&nbsp;(rectangle)
+That is, the area of the rectangle is the length multiplied by the width.  As a special case, as {{math|''l'' {{=}} ''w''}} in the case of a square, the area of a square with side length {{mvar|s}} is given by the formula:<ref name=MathWorld/><ref name=AF/>
+:{{bigmath|''A'' {{=}} ''s''<sup>2</sup>}}&nbsp;(square)
+
+The formula for the area of a rectangle follows directly from the basic properties of area, and is sometimes taken as a [[definition]] or [[axiom]].  On the other hand, if [[geometry]] is developed before [[arithmetic]], this formula can be used to define [[multiplication]] of [[real number]]s.
+
+[[Image:ParallelogramArea.svg|thumb|left|180px|alt=A diagram showing how a parallelogram can be re-arranged into the shape of a rectangle|Equal area figures.]]
+
+====Dissection formulae====
+Most other simple formulae for area follow from the method of [[dissection (geometry)|dissection]].
+This involves cutting a shape into pieces, whose areas must [[addition|sum]] to the area of the original shape.
+
+For an example, any [[parallelogram]] can be subdivided into a [[trapezoid]] and a [[right triangle]], as shown in figure to the left.  If the triangle is moved to the other side of the trapezoid, then the resulting figure is a rectangle.  It follows that the area of the parallelogram is the same as the area of the rectangle:<ref name=AF/>
+:{{bigmath|''A'' {{=}} ''bh''}} <big>&nbsp;(parallelogram).</big>
+[[Image:TriangleArea.svg|thumb|right|180px|alt=A parallelogram split into two equal triangles|Two equal triangles.]]However, the same parallelogram can also be cut along a [[diagonal]] into two [[congruence (geometry)|congruent]] triangles, as shown in the figure to the right.  It follows that the area of each triangle is half the area of the parallelogram:<ref name=AF/> 
+:<math>A = \frac{1}{2}bh</math> <big>&nbsp;(triangle).</big>
+Similar arguments can be used to find area formulae for the [[trapezoid]] and the [[rhombus]], as well as more complicated [[polygon]]s.{{citation needed|date=July 2012}}
+
+===Area of curved shapes===
+
+====Circles====
+[[Image:CircleArea.svg|thumb|right|alt=A circle divided into many sectors can be re-arranged roughly to form a parallelogram|A circle can be divided into [[Circular sector|sector]]s which rearrange to form an approximate [[parallelogram]].]]
+{{main|Area of a circle}}
+The formula for the area of a [[circle]] (more properly called [[area of a disk]]) is based on a similar method.  Given a circle of radius {{math|''r''}}, it is possible to partition the circle into [[Circular sector|sector]]s, as shown in the figure to the right.  Each sector is approximately triangular in shape, and the sectors can be rearranged to form and approximate parallelogram.  The height of this parallelogram is {{math|''r''}}, and the width is half the [[circumference]] of the circle, or {{math|π''r''}}.  Thus, the total area of the circle is {{math|''r'' × π''r''}}, or {{math|π''r''<sup>2</sup>}}:<ref name=AF/>
+:{{bigmath|''A'' {{=}} π''r''<sup>2</sup>}} <big>&nbsp;(circle).</big>
+Though the dissection used in this formula is only approximate, the error becomes smaller and smaller as the circle is partitioned into more and more sectors.  The [[limit (mathematics)|limit]] of the areas of the approximate parallelograms is exactly {{math|π''r''<sup>2</sup>}}, which is the area of the circle.<ref name=Surveyor/>
+
+This argument is actually a simple application of the ideas of [[calculus]].  In ancient times, the [[method of exhaustion]] was used in a similar way to find the area of the circle, and this method is now recognized as a precursor to [[integral calculus]].  Using modern methods, the area of a circle can be computed using a [[definite integral]]:
+:<math>A \;=\; \int_{-r}^r 2\sqrt{r^2 - x^2}\,dx \;=\; \pi r^2</math>
+
+====Ellipses====
+{{main|Ellipse#Area}}
+The formula for the area of an [[ellipse]] is related to the formula of a circle; for an ellipse with [[semi-major axis|semi-major]] and [[semi-minor axis|semi-minor]] axes {{math|''x''}} and {{math|''y''}} the formula is:<ref name=AF/>
+:<math>A = \pi xy \,\!</math>
+
+====Surface area====
+{{main|Surface area}}
+[[Image:Archimedes sphere and cylinder.svg|right|thumb|180px|alt=A blue sphere inside a cylinder of the same height and radius|[[Archimedes]] showed that the surface area and volume of a [[sphere]] is exactly 2/3 of the area and volume of the surrounding [[cylinder (geometry)|cylindrical]] surface.]]
+Most basic formulae for [[surface area]] can be obtained by cutting surfaces and flattening them out.  For example, if the side surface of a [[cylinder (geometry)|cylinder]] (or any [[prism (geometry)|prism]]) is cut lengthwise, the surface can be flattened out into a rectangle.  Similarly, if a cut is made along the side of a [[cone (geometry)|cone]], the side surface can be flattened out into a sector of a circle, and the resulting area computed.
+
+The formula for the surface area of a [[sphere]] is more difficult to derive: because a sphere has nonzero [[Gaussian curvature]], it cannot be flattened out.  The formula for the surface area of a sphere was first obtained by [[Archimedes]] in his work ''[[On the Sphere and Cylinder]]''.  The formula is:<ref name=MathWorldSurfaceArea/>
+:{{bigmath|''A'' {{=}} 4''πr''<sup>2</sup>}} <big>&nbsp;(sphere).</big>
+where {{math|''r''}} is the radius of the sphere.  As with the formula for the area of a circle, any derivation of this formula inherently uses methods similar to [[calculus]].
+
+===General formulae===
+
+====Areas of 2-dimensional figures====
+*A [[triangle]]: <math>\tfrac12Bh</math> (where ''B'' is any side, and ''h'' is the distance from the line on which ''B'' lies to the other vertex of the triangle). This formula can be used if the height ''h'' is known. If the lengths of the three sides are known then ''[[Heron's formula]]'' can be used: <math>\sqrt{s(s-a)(s-b)(s-c)}</math> where ''a'', ''b'', ''c'' are the sides of the triangle, and <math>s = \tfrac12(a + b + c)</math> is half of its perimeter.<ref name=AF/> If an angle and its two included sides are given, the area is <math>\tfrac12 a b \sin(C)</math> where {{math|''C''}} is the given angle and {{math|''a''}} and {{math|''b''}} are its included sides.<ref name=AF/> If the triangle is graphed on a coordinate plane, a matrix can be used and is simplified to the absolute value of <math>\tfrac12(x_1 y_2 + x_2 y_3 + x_3 y_1 - x_2 y_1 - x_3 y_2 - x_1 y_3)</math>. This formula is also known as the [[shoelace formula]] and is an easy way to solve for the area of a coordinate triangle by substituting the 3 points ''(x<sub>1</sub>,y<sub>1</sub>)'', ''(x<sub>2</sub>,y<sub>2</sub>)'', and ''(x<sub>3</sub>,y<sub>3</sub>)''. The shoelace formula can also be used to find the areas of other polygons when their vertices are known. Another approach for a coordinate triangle is to use [[Infinitesimal calculus]] to find the area.
+*A [[simple polygon]] constructed on a grid of equal-distanced points (i.e., points with [[integer]] coordinates) such that all the polygon's vertices are grid points: <math>i + \frac{b}{2} - 1</math>, where ''i'' is the number of grid points inside the polygon and ''b'' is the number of boundary points.<ref name=Pick>{{cite journal |last=Trainin |first=J. |title=An elementary proof of Pick's theorem |journal=[[Mathematical Gazette]] |volume=91 |issue=522 |date=2007-11 |pages=536–540}}</ref> This result is known as [[Pick's theorem]].<ref name=Pick/>
+
+====Area in calculus====
+[[File:Integral as region under curve.svg|left|thumb|280px|alt=A diagram showing the area between a given curve and the x-axis|Integration can be thought of as measuring the area under a curve, defined by ''f''(''x''), between two points (here ''a'' and ''b'').]]
+[[File:Areabetweentwographs.svg|thumb|287px|alt=A diagram showing the area between two functions|The area between two graphs can be evaluated by calculating the difference between the integrals of the two functions]]
+
+*The area between a positive-valued curve and the horizontal axis, measured between two values ''a'' and ''b'' (b is defined as the larger of the two values) on the horizontal axis, is given by the integral from ''a'' to ''b'' of the function that represents the curve:<ref name=MathWorld/>
+:<math> A = \int_a^{b} f(x) \, dx</math>
+*The area between the [[graph of a function|graph]]s of two functions is [[equality (mathematics)|equal]] to the [[integral]] of one [[function (mathematics)|function]], ''f''(''x''), [[subtraction|minus]] the integral of the other function, ''g''(''x''):
+:<math> A = \int_a^{b}  ( f(x) - g(x) ) \, dx </math> where <math> f(x) </math> is the curve with the greater y-value.
+*An area bounded by a function ''r'' = ''r''(θ) expressed in [[polar coordinates]] is:<ref name=MathWorld/>
+:<math>A = {1 \over 2} \int r^2 \, d\theta </math>
+*The area enclosed by a [[parametric curve]] <math>\vec u(t) = (x(t), y(t)) </math> with endpoints <math> \vec u(t_0) = \vec u(t_1) </math> is given by the [[line integral]]s:
+::<math> \oint_{t_0}^{t_1} x \dot y \, dt  = - \oint_{t_0}^{t_1} y \dot x \, dt  =  {1 \over 2} \oint_{t_0}^{t_1} (x \dot y - y \dot x) \, dt </math>
+(see [[Green's theorem]]) or the ''z''-component of
+
+:<math>{1 \over 2} \oint_{t_0}^{t_1} \vec u \times \dot{\vec u} \, dt.</math>
+
+====Surface area of 3-dimensional figures====
+*[[Cone (geometry)|cone]]:<ref name=MathWorldCone>{{cite web|url=http://mathworld.wolfram.com/Cone.html|title=Cone|publisher=[[Wolfram MathWorld]]|author=[[Eric W. Weisstein]]|accessdate=6 July 2012}}</ref> <math>\pi r\left(r + \sqrt{r^2 + h^2}\right)</math>, where ''r'' is the radius of the circular base, and ''h'' is the height. That can also be rewritten as <math>\pi r^2 + \pi r l </math><ref name=MathWorldCone/> or <math>\pi r (r + l) \,\!</math> where ''r'' is the radius and ''l'' is the slant height of the cone. <math>\pi r^2 </math> is the base area while <math>\pi r l </math> is the lateral surface area of the cone.<ref name=MathWorldCone/>
+*[[cube (geometry)|cube]]: <math>6s^2</math>, where ''s'' is the length of an edge.<ref name=MathWorldSurfaceArea/>
+*[[cylinder (geometry)|cylinder]]: <math>2\pi r(r + h)</math>, where ''r'' is the radius of a base and ''h'' is the height. The ''2<math>\pi</math>r'' can also be rewritten as ''<math>\pi</math> d'', where ''d'' is the diameter.
+*[[Prism (geometry)|prism]]: 2B + Ph, where ''B'' is the area of a base, ''P'' is the perimeter of a base, and ''h'' is the height of the prism.
+*[[pyramid (geometry)|pyramid]]: <math>B + \frac{PL}{2}</math>, where ''B'' is the area of the base, ''P'' is the perimeter of the base, and ''L'' is the length of the slant.
+*[[rectangular prism]]: <math>2 (\ell w + \ell  h + w h)</math>, where <math>\ell</math> is the length, ''w'' is the width, and ''h'' is the height.
+
+====General formula====
+The general formula for the surface area of the graph of a continuously differentiable function <math>z=f(x,y),</math> where <math>(x,y)\in D\subset\mathbb{R}^2</math> and <math>D</math> is a region in the xy-plane with the smooth boundary:
+: <math> A=\iint_D\sqrt{\left(\frac{\partial f}{\partial x}\right)^2+\left(\frac{\partial f}{\partial y}\right)^2+1}\,dx\,dy. </math>
+Even more general formula for the area of the graph of a [[parametric surface]] in the vector form <math>\mathbf{r}=\mathbf{r}(u,v),</math> where <math>\mathbf{r}</math> is a continuously differentiable vector function of <math>(u,v)\in D\subset\mathbb{R}^2</math>:<ref name="doCarmo"/>
+: <math> A=\iint_D \left|\frac{\partial\mathbf{r}}{\partial u}\times\frac{\partial\mathbf{r}}{\partial v}\right|\,du\,dv. </math>
+
+===List of formulas===
+<!-- NOTICE TO CONTRIBUTORS
+This section is regularly edited to change "formulae" to "formula". "Formula" is the singular, whilst "formulae" a plural form. Since there are multiple formulae listed, "formula" is incorrect in this case. Thank you for your understanding.
+Please raise any further issues you may have on the talk page.-->
+
+There are [[formula]]e for many different regular and irregular polygons, and those additional to the ones above are listed here.
+
+{| class="wikitable"
+|+ Additional common formulae for area:
+! Shape
+! Formula
+! Variables
+|-
+|Regular [[triangle]] ([[equilateral triangle]])
+||<math>\frac{1}{4} \sqrt{3}s^2\,\!</math>
+||<math>s</math> is the length of one side of the triangle.
+|-
+|[[Triangle]]<ref name=MathWorld/>
+|<math>\sqrt{s(s-a)(s-b)(s-c)}\,\!</math>
+|<math> s </math> is half the perimeter, <math>a</math>, <math>b</math> and <math>c</math> are the length of each side.
+|-
+|[[Triangle]]<ref name=AF/>
+|<math>\tfrac12 a b \sin(C)\,\!</math>
+|<math>a</math> and <math>b</math> are any two sides, and <math>C</math> is the angle between them.
+|-
+|[[Triangle]]<ref name=MathWorld/>
+|<math>\tfrac12bh \,\!</math>
+|<math>b</math> and <math>h</math> are the [[Base (geometry)|base]] and [[Altitude (triangle)|altitude]] (measured perpendicular to the base), respectively.
+|-
+|[[Rhombus]]
+|<math>\tfrac12ab</math>
+|<math>a</math> and <math>b</math> are the lengths of the two [[diagonals]] of the rhombus.
+|-
+|[[Parallelogram]]
+|<math>bh\,\!</math>
+|<math>b</math> is the length of the base and <math>h</math> is the perpendicular height.
+|-
+|[[Trapezoid]]
+|<math>\tfrac12(a+b)h \,\!</math>
+|<math>a</math> and <math>b</math> are the parallel sides and <math>h</math> the distance (height) between the parallels.
+|-
+|Regular [[hexagon]]
+|<math>\frac{3}{2} \sqrt{3}s^2\,\!</math>
+|<math>s</math> is the length of one side of the hexagon.
+|-
+|Regular [[octagon]]
+|<math>2(1+\sqrt{2})s^2\,\!</math>
+|<math>s</math> is the length of one side of the octagon.
+|-
+| [[Regular polygon]]
+|<math>\frac{1}{4}nl^2\cdot \cot(\pi/n)\,\!</math>
+|<math>   l   </math>      is the side length and <math>n</math> is the number of sides.
+|-
+| Regular polygon
+|<math>\frac{1}{4n}p^2\cdot \cot(\pi/n)\,\!</math>
+|<math>   p   </math>      is the perimeter and <math>n</math> is the number of sides.
+|-
+| Regular polygon
+|<math>\frac{1}{2}nR^2\cdot \sin(2\pi/n) = nr^2 \tan(\pi/n)\,\!</math>
+|<math>   R   </math>      is the radius of a circumscribed circle, <math>r</math> is the radius of an inscribed circle, and <math>n</math> is the number of sides.
+|-
+| Regular polygon
+|<math>\tfrac12a p \,\!</math>
+|<math>a</math> is the [[apothem]], or the radius of an inscribed circle in the polygon, and <math>p</math> is the perimeter of the polygon.
+|-
+|[[Circle]]
+|<math>\pi r^2\ \text{or}\ \frac{\pi d^2}{4} \,\!</math>
+|<math>r</math> is the radius and <math>d</math> the [[diameter]].
+|-
+|[[Circular sector]]
+|<math>\frac{\theta}{2}r^2\ \text{or}\ \frac{L \cdot r}{2}\,\!</math>
+|<math>r</math> and <math>\theta</math> are the radius and angle (in [[radian]]s), respectively and <math>L</math> is the length of the perimeter.
+|-
+|[[Ellipse]]<ref name=AF/>
+|<math>\pi ab \,\!</math>
+|<math>a</math> and <math>b</math> are the [[semi-major axis|semi-major]] and [[semi-minor axis|semi-minor]] axes, respectively.
+|-
+|Total surface area of a [[Cylinder (geometry)|cylinder]]
+|<math>2\pi r (r + h)\,\!</math>
+|<math>r</math> and <math>h</math> are the radius and height, respectively.
+|-
+|Lateral surface area of a cylinder
+|<math>2 \pi r h \,\!</math>
+|<math>r</math> and <math>h</math> are the radius and height, respectively.
+|-
+|Total surface area of a [[sphere (geometry)|sphere]]<ref name=MathWorldSurfaceArea/>
+|<math>4\pi r^2\ \text{or}\ \pi d^2\,\!</math>
+|<math>r</math> and <math>d</math> are the radius and diameter, respectively.
+|-
+|Total surface area of a [[pyramid (geometry)|pyramid]]<ref name=MathWorldSurfaceArea/>
+|<math>B+\frac{P L}{2}\,\!</math>
+|<math>B</math> is the base area, <math>P</math> is the base perimeter and <math>L</math> is the slant height.
+|-
+|Total surface area of a [[pyramid (geometry)|pyramid]] [[frustum]]<ref name=MathWorldSurfaceArea/>
+|<math>B+\frac{P L}{2}\,\!</math>
+|<math>B</math> is the base area, <math>P</math> is the base perimeter and <math>L</math> is the slant height. 
+|-
+|[[Square (geometry)|Square]] to circular area conversion
+|<math>\frac{4}{\pi} A\,\!</math>
+|<math>A</math> is the area of the [[Square (geometry)|square]] in square units.
+|-
+|[[Circle|Circular]] to square area conversion
+|<math>\frac{1}{4} C\pi\,\!</math>
+|<math>C</math> is the area of the [[circle]] in circular units.
+|-
+|[[Reuleaux Triangle]]
+|<math>\frac{\pi x^2}{6}-\frac{3 \sqrt{x^2-(\frac{x}{2})^2}}{2}+\frac{\sqrt{x^2-(\frac{x}{2})^2}}{2}</math>
+|<math>x</math> is the side of the triangle inside the reuleaux triangle.
+<!--
+|-
+|A revolution of f(x) about the x-axis
+|<math>2 \pi \int_{a}^{b} |f(x)| \sqrt{1+(f'(x))^2}dx</math>
+|-
+|Area of surface of revolution of f(x) about the y-axis
+|<math>2 \pi \int_{a}^{b} |x| \sqrt{1+(f'(x))^2}dx</math>
+-->
+|}
+
+The above calculations show how to find the area of many common [[shapes]].
+
+The areas of irregular polygons can be calculated using the "[[Surveyor's formula]]".<ref name=Surveyor>{{cite journal|last1=Braden|first1=Bart|year=September 1986|title= The Surveyor's Area Formula|journal=The College Mathematics Journal|volume=17|issue=4|pages=326–337|publisher=|doi=10.2307/2686282|url=http://www.maa.org/pubs/Calc_articles/ma063.pdf|accessdate=15 July 2012}}</ref>
+
+==Optimization==
+Given a wire contour, the surface of least area spanning ("filling") it is a [[minimal surface]].  Familiar examples include [[soap bubble]]s.
+
+The question of the [[filling area conjecture|filling area]] of the [[Riemannian circle]] remains open.{{citation needed|date=October 2012}}
+
+==See also==
+*[[2 × 2 real matrices#Equi-areal mapping|Equi-areal mapping]]
+*[[Integral]]
+*[[Orders of magnitude (area)]]&mdash;A list of areas by size.
+*[[Perimeter]]
+*[[Planimeter]], an instrument for measuring small areas, e.g. on maps.
+*[[Volume]]
+
+==References==
+{{reflist|30em}}
+
+==External links==
+{{Commons category|Area}}
+{{Wiktionary}}
+* [http://www.area-of-a-circle.com Area Calculator]
+* [http://www.sengpielaudio.com/calculator-cross-section.htm Conversion cable diameter to circle cross-sectional area and vice versa]
+
+[[Category:Area|*]]

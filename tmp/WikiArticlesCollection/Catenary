@@ -1,0 +1,453 @@
+{{About|the mathematical curve}}
+{{Redirect|Chainette|the wine grape also known as Chainette|Cinsaut}}
+[[File:Kette Kettenkurve Catenary 2008 PD.JPG|thumb|180px|right|A hanging chain with short links forms a catenary.]]
+[[File:PylonsSunset-5982.jpg|thumb|180px|right|Freely-hanging transmission lines also form catenaries.]]
+[[File:SpiderCatenary.jpg|thumb|180px|right|The silk on a spider's web forming multiple elastic catenaries.]]
+
+In [[physics]] and [[geometry]], a '''catenary'''[[#Notes|<sup>[p]</sup>]] is the [[curve]] that an idealized hanging [[chain]] or [[cable]] assumes under its own [[weight]] when supported only at its ends. The curve has a U-like shape, superficially similar in appearance to a [[parabola]] (though mathematically quite different). It also appears in the design of certain types of [[arch]]es and as a cross section of the [[catenoid]]—the shape assumed by a soap film bounded by two parallel circular rings.
+
+The catenary is also called the "alysoid", "chainette",<ref name="MathWorld">[[#MathWorld|MathWorld]]</ref> or, particularly in the material sciences, "funicular".<ref>''e.g.'':  {{cite book| last = Shodek| first = Daniel L.| title = Structures| edition = 5th| year = 2004| publisher = Prentice Hall| isbn = 978-0-13-048879-4| oclc = 148137330| page = 22 }}</ref>
+
+Mathematically, the catenary curve is the [[Graph of a function|graph]] of the [[hyperbolic cosine]] function. The [[surface of revolution]] of the catenary curve, the [[catenoid]], is a [[minimal surface]], and is the only [[minimal surface of revolution]] other than the plane. The mathematical properties of the catenary curve were first studied by Robert Hooke in the 1670s, and its equation was derived by Leibniz, Huygens and Johann Bernoulli in 1691.
+
+Catenaries and related curves are used in architecture and engineering, in the design of bridges and arches, so that forces do not result in bending moments. 
+
+
+==History==
+[[File:GaudiCatenaryModel.jpg|thumb|250px|[[Antoni Gaudí]]'s catenary model at [[Casa Milà]]]]
+
+The word ''catenary'' is derived from the Latin word ''catena,'' which means "[[chain]]". The English word ''catenary'' is usually attributed to [[Thomas Jefferson]],<ref>{{cite web|url=http://www.pballew.net/arithme8.html#catenary |title="Catenary" at Math Words |publisher=Pballew.net |date=1995-11-21 |accessdate=2010-11-17}}</ref><ref>{{cite book| last = Barrow| first = John D.| title = 100 Essential Things You Didn't Know You Didn't Know: Math Explains Your World| year = 2010| publisher = W. W. Norton & Company| isbn = 0-393-33867-3| page = 27 }}</ref>
+who wrote in a letter to [[Thomas Paine]] on the construction of an arch for a bridge:
+
+{{quote|I have lately received from Italy a treatise on the [[Mechanical equilibrium|equilibrium]] of arches, by the Abbé Mascheroni. It appears to be a very scientifical work. I have not yet had time to engage in it; but I find that the conclusions of his demonstrations are, that every part of the catenary is in perfect equilibrium.|<ref>{{cite book| last = Jefferson| first = Thomas| title = Memoirs, Correspondence and Private Papers of Thomas Jefferson| url = http://books.google.com/?id=wFlq_7_IAEUC&pg=PA419| year = 1829| publisher = Henry Colbura and Richard Bertley| page = 419 }}</ref>}}
+
+It is often said <ref>For example [[#Lockwood|Lockwood]], ''A Book of Curves'', p. 124.</ref> that [[Galileo Galilei|Galileo]] thought the curve of a hanging chain was parabolic. In his ''[[Two New Sciences]]'' (1638), Galileo says that a hanging cord is an approximate parabola, and he correctly observes that this approximation improves as the curvature gets smaller and is almost exact when the elevation is less than 45°.<ref>{{cite book| last = Fahie| first = John Joseph| title = Galileo, His Life and Work| url = http://books.google.com/?id=iX0RAAAAYAAJ&pg=PA359| year = 1903| publisher = J. Murray| pages = 359–360 }}</ref> That the curve followed by a chain is not a parabola was proven by [[Joachim Jungius]] (1587–1657); this result was published posthumously in 1669.<ref name="Lockwood124">[[#Lockwood|Lockwood]] p. 124</ref>
+
+The application of the catenary to the construction of arches is attributed to [[Robert Hooke]], whose "true mathematical and mechanical form" in the context of the rebuilding of [[St Paul's Cathedral]]  alluded to a catenary.<ref>[http://www.jstor.org/stable/532102 "Monuments and Microscopes: Scientific Thinking on a Grand Scale in the Early Royal Society" by Lisa Jardine]</ref> Some much older arches approximate catenaries, an example of which is the Arch of [[Taq-i Kisra]] in [[Ctesiphon]].<ref>{{cite book| last = Denny| first = Mark| title = Super Structures: The Science of Bridges, Buildings, Dams, and Other Feats of Engineering| year = 2010| publisher = JHU Press| isbn = 0-8018-9437-9| pages = 112–113 }}</ref>
+
+In 1671, Hooke announced to the [[Royal Society]] that he had solved the problem of the optimal shape of an arch, and in 1675 published an encrypted solution as a Latin [[anagram]]<ref>[[cf.]] the anagram for [[Hooke's law]], which appeared in the next paragraph.</ref> in an appendix to his ''Description of Helioscopes,''<ref>{{cite web|url=http://www.lindahall.org/events_exhib/exhibit/exhibits/civil/design.shtml |title=Arch Design |publisher=Lindahall.org |date=2002-10-28 |accessdate=2010-11-17}}</ref>
+where he wrote that he had found "a true mathematical and mechanical form of all manner of Arches for Building." He did not publish the solution to this anagram<ref>The original anagram was "abcccddeeeeefggiiiiiiiillmmmmnnnnnooprrsssttttttuuuuuuuux": the letters of the Latin phrase, alphabetized.</ref> in his lifetime, but in 1705 his executor provided it as ''Ut pendet continuum flexile, sic stabit contiguum rigidum inversum,'' meaning "As hangs a flexible cable so, inverted, stand the touching pieces of an arch."
+
+In 1691 [[Gottfried Leibniz]], [[Christiaan Huygens]], and [[Johann Bernoulli]] derived the [[equation]] in response to a challenge by [[Jakob Bernoulli]].<ref name="Lockwood124"/> [[David Gregory (mathematician)|David Gregory]] wrote a treatise on the catenary in 1697.<ref name="Lockwood124"/>
+
+[[Euler]] proved in 1744 that the catenary is the curve which, when rotated about the ''x''-axis, gives the surface of minimum [[surface area]] (the [[catenoid]]) for the given bounding circles.<ref name="MathWorld"/> [[Nicolas Fuss]] gave equations describing the equilibrium of a chain under any [[force]] in 1796.<ref>[[#Routh|Routh]] Art. 455, footnote</ref>
+
+==Inverted catenary arch==<!-- This section is linked from [[Park Güell]] -->
+
+
+Catenary arches are often used in the construction of [[kiln]]s. To create the desired curve, the shape of a hanging chain of the desired dimensions is transferred to a form which is then used as a guide for the placement of bricks or other building material.<ref>{{cite book| last1 = Minogue| first1 = Coll| last2 = Sanderson| first2 = Robert| title = Wood-fired Ceramics: Contemporary Practices| year = 2000| publisher = University of Pennsylvania| isbn = 0-8122-3514-2| page = 42 }}</ref><ref>
+{{cite book| last1 = Peterson| first1 = Susan| last2 = Peterson| first2 = Jan| title = The Craft and Art of Clay: A Complete Potter's Handbook| url = http://books.google.com/?id=PAZR-A9Ra6EC&pg=PA208| year = 2003| publisher = Laurence King| isbn = 1-85669-354-6| page = 224 }}</ref>
+
+The [[Gateway Arch]] in [[St. Louis, Missouri]], [[United States]] is sometimes said to be an (inverted) catenary, but this is incorrect.<ref>{{Citation | last1=Osserman | first1=Robert | title=Mathematics of the Gateway Arch | url=http://www.ams.org/notices/201002/index.html | year=2010 | journal=[[Notices of the American Mathematical Society]] | issn=0002-9920 | volume=57 | issue=2 | pages=220–229}}</ref> It is close to a more general curve called a flattened catenary, with equation {{math|1={{mvar|y}} = {{mvar|A}} cosh({{mvar|B}} {{mvar|x}} )}}, which is a catenary if {{math|1={{mvar|A}} {{mvar|B}} = 1 }}. While a catenary is the ideal shape for a freestanding arch of constant thickness, the Gateway Arch is narrower near the top. According to the U.S. [[National Historic Landmark]] nomination for the arch, it is a "weighted catenary" instead. Its shape corresponds to the shape that a weighted chain, having lighter links in the middle, would form.<ref>{{cite journal| last = Hicks| first = Clifford B.| title = The Incredible Gateway Arch: America's Mightiest National Monument| url = http://books.google.com/?id=BuMDAAAAMBAJ&pg=PA89| volume = 120| year = 1963| month = December| publisher = Hearst Magazines| page = 89| issn = 0032-4558| issue = 6| journal = [[Popular Mechanics]] }}</ref><ref name="nrhpinv2">{{citation|url=http://pdfhost.focus.nps.gov/docs/NHLS/Text/87001423.pdf|title=National Register of Historic Places Inventory-Nomination: Jefferson National Expansion Memorial Gateway Arch / Gateway Arch; or "The Arch"|year=1985 |format=PDF |author=Laura Soullière Harrison |publisher=National Park Service |accessdate=2009-06-21}} and {{PDFlink|[http://pdfhost.focus.nps.gov/docs/NHLS/Photos/87001423.pdf ''Accompanying one photo, aerial, from 1975'']|578&nbsp;KB}}</ref>
+
+{{Gallery
+|title=Inverted catenary arches
+|width=160
+|height=200
+|lines=4
+|Image:LaPedreraParabola.jpg|Catenary<ref>{{cite book| last = Sennott| first = Stephen| title = Encyclopedia of Twentieth Century Architecture| year = 2004| publisher = Taylor & Francis| isbn = 1-57958-433-0| page = 224 }}</ref> arches under the roof of Gaudí's ''[[Casa Milà]]'', Barcelona, Spain.
+|Image:Sheffield Winter Garden.jpg|The [[Sheffield Winter Garden]] is enclosed by a series of catenary arches.<ref>{{cite book| last = Hymers| first = Paul| title = Planning and Building a Conservatory| year = 2005| publisher = New Holland| isbn = 1-84330-910-6| page = 36 }}</ref>
+|Image:Gateway Arch.jpg|The [[Gateway Arch]] (looking East) is a flattened catenary.
+|Image:CatenaryKilnConstruction06025.JPG|Catenary arch kiln under construction over temporary form
+|Image:Budapest_Keleti_teto 1.jpg|Cross-section of the roof the [[Budapest Keleti railway station|Keleti Railway Station]] (Budapest, Hungary).
+|Image:Budapest_Keleti_teto_2.svg|Cross-section of the roof the Keleti Railway Station forms a catenary.
+}}
+
+{{Clear}}
+
+==Catenary bridges==
+[[File:Soderskar-bridge.jpg|thumb|right|250px|[[Simple suspension bridge]]s are essentially thickened cables, and follow a catenary curve.]]
+[[File:Puentedelabarra(below).jpg|thumb|right|250px|[[Stressed ribbon bridge]]s, like this one in [[Maldonado, Uruguay]], also follow a catenary curve, with cables embedded in a rigid deck.]]
+
+In free-hanging chains, the force exerted is uniform with respect to length of the chain, and so the chain follows the catenary curve.<ref>{{cite book| author = Owen Byer| coauthors = Felix Lazebnik, Deirdre L. Smeltzer| title = Methods for Euclidean Geometry| url = http://books.google.com/?id=QkuVb672dWgC&pg=PA210| date = 2010-09-02| publisher = MAA| isbn = 978-0-88385-763-2| page = 210 }}</ref> The same is true of a [[simple suspension bridge]] or "catenary bridge," where the roadway follows the cable.<ref>{{cite book| author = Leonardo Fernández Troyano| title = Bridge Engineering: A Global Perspective| url = http://books.google.com/?id=0u5G8E3uPUAC&pg=PA514| year = 2003| publisher = Thomas Telford| isbn = 978-0-7277-3215-6| page = 514 }}</ref><ref>{{cite book| author = W. Trinks| coauthors = M. H. Mawhinney, R. A. Shannon, R. J. Reed, J. R. Garvey| title = Industrial Furnaces| url = http://books.google.com/?id=EqRTAAAAMAAJ&pg=PA132| date = 2003-12-05| publisher = Wiley| isbn = 978-0-471-38706-0| page = 132 }}</ref>
+
+A [[stressed ribbon bridge]] is a more sophisticated structure with the same catenary shape.<ref>{{cite book| author = John S. Scott| title = Dictionary Of Civil Engineering| date = 1992-10-31| publisher = Springer| isbn = 978-0-412-98421-1| page = 433 }}</ref><ref>''The Architects' Journal'', Volume 207, The Architectural Press Ltd., 1998, p. 51.</ref>
+
+However in a [[suspension bridge]] with a suspended roadway, the chains or cables support the weight of the bridge, and so do not hang freely. In most cases the roadway is flat, so when the weight of the cable is [[negligible]] compared with the weight being supported, the force exerted is uniform with respect to horizontal distance, and the result is a parabola, as discussed below (although the term "catenary" is often still used, in an informal sense). If the cable is heavy then the resulting curve is between a catenary and a parabola.<ref name="Lockwood122">[[#Lockwood|Lockwood]] p. 122</ref><ref>
+{{cite web
+|title=Hanging With Galileo
+|date=June 30, 2006
+|author=Paul Kunkel
+|publisher=Whistler Alley Mathematics
+|url=http://whistleralley.com/hanging/hanging.htm
+|accessdate=March 27, 2009
+}}</ref>
+[[File:Comparison catenary parabola.svg|thumb|none|400px|Comparison of a catenary (black dotted curve) and a parabola (red solid curve) with the same span and sag. The catenary represents the profile of a simple suspension bridge, or the cable of a suspended-deck suspension bridge on which its deck and hangers have negligible mass compared to its cable. The parabola represents the profile of the cable of a suspended-deck suspension bridge on which its cable and hangers have negligible mass compared to its deck. The profile of the cable of a real suspension bridge with the same span and sag lies between the two curves. The catenary and parabola equations are ''y'' = cosh(''x'') and ''y'' = (cosh(1) - 1) ''x''<sup>2</sup> + 1, respectively.]]
+
+==Anchoring of marine objects==
+[[File:Catenary.PNG|thumb|right|250px|A heavy [[anchor]] chain forms a catenary, with a low angle of pull on the anchor.]]
+The catenary produced by gravity provides an advantage to heavy [[wikt:rode#Noun|anchor rodes]]. An anchor rode (or anchor line) usually consists of chain or cable or both. Anchor rodes are used by ships, oilrigs, docks, [[floating wind turbine]]s, and other marine equipment which must be anchored to the seabed.
+
+When the rode is slack, the catenary curve presents a lower angle of pull on the [[anchor]] or mooring device than would be the case if it were nearly straight. This enhances the performance of the anchor and raises the level of force it will resist before dragging. To maintain the catenary shape in the presence of wind, a heavy chain is needed, so that only larger ships in deeper water can rely on this effect. Smaller boats must rely on the performance of the anchor itself.<ref>{{cite web|url=http://www.petersmith.net.nz/boat-anchors/catenary.php |title=Chain, Rope, and Catenary – Anchor Systems For Small Boats |publisher=Petersmith.net.nz |date= |accessdate=2010-11-17}} (for section)</ref>
+
+==Mathematical description==
+
+===Equation===
+[[Image:catenary-pm.svg|thumb|350px|right|Catenaries for different values of ''a'']]
+[[Image:Catenary-tension.png|350px|thumb|Three different catenaries through the same two points, depending horizontal force <math>\scriptstyle T_H,</math> being <math>\scriptstyle a = \lambda H/T_H</math> and λ mass per unit length.]]
+
+The equation of a catenary in [[Cartesian coordinate system|Cartesian coordinates]] has the form<ref name="Lockwood122"/>
+
+:<math>y = a \, \cosh \left ({x \over a} \right ) = {a \over 2} \, \left (e^{x/a} + e^{-x/a} \right )\,</math>
+
+where cosh is the [[hyperbolic function|hyperbolic cosine function]]. All catenary curves are [[Similarity (geometry)|similar]] to each other. Changing the [[parameter]] ''a'' is equivalent to a uniform [[Scaling (geometry)|scaling]] of the curve.<ref>{{cite web|url=http://xahlee.org/SpecialPlaneCurves_dir/Catenary_dir/catenary.html |title=Catenary |publisher=Xahlee.org |date=2003-05-28 |accessdate=2010-11-17}}</ref>
+
+The [[Whewell equation]] for the catenary is<ref name="Lockwood122"/>
+
+:<math>\tan \varphi = \frac{s}{a}.\,</math>
+
+Differentiating gives
+
+:<math>\frac{d\varphi}{ds} = \frac{\cos^2\varphi}{a}\,</math>
+
+and eliminating <math>\varphi</math> gives the [[Cesàro equation]]<ref>[[#MathWorld|MathWorld]], eq. 7</ref>
+
+:<math>\kappa=\frac{a}{s^2+a^2}.\,</math>
+
+The [[Osculating circle|radius of curvature]] is then
+
+:<math>\rho = a \sec^2 \varphi\,</math>
+
+which is the length of the [[Tangent#Normal line to a curve|line normal to the curve]] between it and the ''x''-axis.<ref>[[#Routh|Routh]] Art. 444</ref>
+
+===Relation to other curves===
+When a [[parabola]] is rolled along a straight line, the [[roulette (curve)|roulette]] curve traced by its [[Conic section#Eccentricity, focus and directrix|focus]] is a catenary.<ref name="Yates 13"/> The [[Envelope (mathematics)|envelope]] of the [[Conic section#Eccentricity, focus and directrix|directrix]] of the parabola is also a catenary.<ref>Yates p. 80</ref> The [[involute]] from the vertex, that is the roulette formed traced by a point starting at the vertex when a line is rolled on a catenary, is the [[tractrix]].<ref name="Yates 13"/>
+
+Another roulette, formed by rolling a line on a catenary, is another line. This implies that [[square wheel]]s can roll perfectly smoothly if the road has evenly spaced bumps in the shape of a series of inverted catenary curves. The wheels can be any [[regular polygon]] except a triangle, but the catenary must have parameters corresponding to the shape and dimensions of the wheels.<ref>{{cite journal 
+|last1=Hall|first1=Leon|last2=Wagon|first2=Stan|author2-link=Stan Wagon|year=1992|title=Roads and Wheels
+|journal=Mathematics Magazine|volume=65|issue= 5|pages=283–301 |publisher=MAA
+|url=http://links.jstor.org/sici?sici=0025-570X%28199212%2965%3A5%3C283%3ARAW%3E2.0.CO%3B2-4}}
+</ref>
+
+===Geometrical properties===
+Over any horizontal interval, the ratio of the area under the catenary to its length equals ''a'', independent of the interval selected. The catenary is the only plane curve other than a horizontal line with this property. Also, the geometric centroid of the area under a stretch of catenary is the midpoint of the perpendicular segment connecting the centroid of the curve itself and the x-axis.<ref>Parker, Edward (2010), "A Property Characterizing the Catenary", ''Mathematics Magazine'' '''83''': 63–64</ref>
+
+===Science===
+A [[electric charge|charge]] in a uniform [[electric field]] moves along a catenary (which tends to a [[parabola]] if the charge velocity is much less than the [[speed of light]] ''c'').<ref>{{cite book| last = Landau| first = Lev Davidovich| title = [http://books.google.com/books?id=X18PF4oKyrUC&pg=PA56 The Classical Theory of Fields]| year = 1975| publisher = Butterworth-Heinemann| isbn = 0-7506-2768-9| page = 56 }}</ref>
+
+The [[surface of revolution]] with fixed radii at either end that has minimum surface area is a catenary revolved about the x-axis.<ref name="Yates 13">{{cite book |title=Curves and their Properties
+|first=Robert C.|last=Yates|publisher=NCTM|year=1952|pages=13}}</ref>
+
+==Analysis==
+
+===Model of chains and arches===
+In the [[mathematical model]] the chain (or cord, cable, rope, string, etc.) is idealized by assuming that it is so thin that it can be regarded as a [[curve]] and that it is so flexible any force of [[Tension (physics)|tension]] exerted by the chain is parallel to the chain.<ref>[[#Routh|Routh]] Art. 442, p. 316</ref> The analysis of the curve for an optimal arch is similar except that the forces of tension become forces of [[Compression (physical)|compression]] and everything is inverted.<ref>{{cite book| last = Church| first = Irving Porter| title = Mechanics of Engineering| url = http://books.google.com/?id=-iAPAAAAYAAJ&pg=PA387| year = 1890| publisher = Wiley| page = 387 }}</ref>
+An underlying principle is that the chain may be considered a rigid body once it has attained equilibrium.<ref>[[#Whewell|Whewell]] p. 65</ref> Equations which define the shape of the curve and the tension of the chain at each point may be derived by a careful inspection of the various forces acting on a segment using the fact that these forces must be in balance if the chain is in [[static equilibrium]].
+
+Let the path followed by the chain be given [[parametric equations|parametrically]] by
+'''r''' = (''x'', ''y'') = (''x''(''s''), ''y''(''s'')) where ''s'' represents [[arc length]] and '''r''' is the [[position vector]]. This is the [[Unit speed parametrization|natural parameterization]] and has the property that 
+
+:<math>\frac{d\mathbf{r}}{ds}=\mathbf{u}\,</math>
+
+where '''u''' is a [[unit tangent vector]]. 
+
+[[File:CatenaryForceDiagram.svg|thumb|Diagram of forces acting on a segment of a catenary from '''c''' to '''r'''. The forces are the tension '''T<sub>0</sub>''' at '''c''', the tension '''T''' at '''r''', and the weight of the chain (0,&nbsp;−λ''gs''). Since the chain is at rest the sum of these forces must be zero.]]
+A [[differential equation]] for the curve may be derived as follows.<ref>Following [[#Routh|Routh]] Art. 443 p. 316</ref> Let '''c''' be the lowest point on the chain, called the ''vertex'' of the catenary,
+<ref>[[#Routh|Routh]] Art. 443 p. 317</ref> and measure the parameter ''s'' from '''c'''. Assume '''r''' is to the right of '''c''' since the other case is implied by symmetry. The forces acting on the section of the chain from '''c''' to '''r''' are the tension of the chain at '''c''', the tension of the chain at '''r''', and the weight of the chain. The tension at '''c''' is tangent to the curve at '''c''' and is therefore horizontal, and it pulls the section to the left so it may be written (−''T''<sub>0</sub>,&nbsp;0) where ''T''<sub>0</sub> is the magnitude of the force. The tension at '''r''' is parallel to the curve at '''r''' and pulls the section to the right, so it may be written ''T'''''u'''=(''T''cos&nbsp;φ,&nbsp;''T''sin&nbsp;φ), where ''T'' is the magnitude of the force and φ is the angle between the curve at '''r''' and the ''x''-axis (see [[tangential angle]]). Finally, the weight of the chain is represented by (0,&nbsp;−λ''gs'') where λ is the mass per unit length, ''g'' is the acceleration of gravity and ''s'' is the length of chain between '''c''' and '''r'''.
+
+The chain is in equilibrium so the sum of three forces is '''0''', therefore
+
+:<math>T \cos \varphi = T_0\,</math>
+and
+:<math>T \sin \varphi = \lambda gs,\,</math>
+
+and dividing these gives
+
+:<math>\frac{dy}{dx}=\tan \varphi = \frac{\lambda gs}{T_0}.\,</math>
+
+It is convenient to write 
+
+:<math>a = \frac{T_0}{\lambda g}\,</math>
+
+which is the length of chain whose weight is equal in magnitude to the tension at '''c'''.<ref>[[#Whewell|Whewell]] p. 67</ref> Then 
+
+:<math>\frac{dy}{dx}=\frac{s}{a}\,</math>
+
+is an equation defining the curve.
+
+The horizontal component of the tension, ''T''cos&nbsp;φ = ''T''<sub>0</sub> is constant and the vertical component of the tension, ''T''sin&nbsp;φ = λ''gs'' is proportional to the length of chain between the '''r''' and the vertex.<ref name="Routh Art 443 318"/>
+
+===Derivation of equations for the curve===
+The differential equation given above can be solved to produce equations for the curve.<ref>Following [[#Routh|Routh]] Art. 443 p/ 317</ref>
+
+From
+
+:<math>\frac{dy}{dx} = \frac{s}{a},\,</math>
+
+the formula for [[Arc_length#Finding_arc_lengths_by_integrating|arc length]] gives
+:<math>\frac{ds}{dx} = \sqrt{1+\left(\dfrac{dy}{dx}\right)^2} = \frac{\sqrt{a^2+s^2}}{a}.\,</math>
+
+Then
+
+:<math>\frac{dx}{ds} = \frac{1}{\frac{ds}{dx}} = \frac{a}{\sqrt{a^2+s^2}}\,</math>
+
+and
+
+:<math>\frac{dy}{ds} = \frac{\frac{dy}{dx}}{\frac{ds}{dx}} = \frac{s}{\sqrt{a^2+s^2}}.\,</math>
+
+The second of these equations can be integrated to give
+
+:<math>y = \sqrt{a^2+s^2} + \beta\,</math>
+
+and by shifting the position of the ''x''-axis, β can be taken to be 0. Then
+
+:<math>y = \sqrt{a^2+s^2},\ y^2=a^2+s^2.\,</math>
+
+The ''x''-axis thus chosen is called the ''directrix'' of the catenary.
+
+It follows that the magnitude of the tension at a point ''T'' = λ''gy'' which is proportional to the distance between the point and the directrix.<ref name="Routh Art 443 318">[[#Routh|Routh]] Art. 443 p. 318</ref>
+
+The integral of expression for ''dx''/''ds'' can be found using [[List of integrals of irrational functions|standard techniques]] giving<ref>Use of hyperbolic functions follows Maurer p. 107</ref>
+
+:<math>x = a\ \operatorname{arcsinh}(s/a) + \alpha.\,</math>
+
+and, again, by shifting the position of the ''y''-axis, α can be taken to be 0. Then
+
+:<math>x = a\ \operatorname{arcsinh}(s/a),\ s=a \sinh{x \over a}.\,</math>
+
+The ''y''-axis thus chosen passes though the vertex and is called the ''axis'' of the catenary.
+
+These results can be used to eliminate ''s'' giving
+
+:<math>y = a \cosh \frac{x}{a}.\,</math>
+
+===Alternative derivation===
+The differential equation can be solved using a different approach.<ref>Following Lamb p. 342</ref>
+
+From
+
+:<math>s = a \tan \varphi\,</math>
+
+it follows that
+
+:<math>\frac{dx}{d\varphi} = \frac{dx}{ds}\frac{ds}{d\varphi}=\cos \varphi \cdot a \sec^2 \varphi= a \sec \varphi\,</math>
+and
+:<math>\frac{dy}{d\varphi} = \frac{dy}{ds}\frac{ds}{d\varphi}=\sin \varphi \cdot a \sec^2 \varphi= a \tan \varphi \sec \varphi.\,</math>
+
+Integrating gives,
+
+:<math>x = a \ln(\sec \varphi + \tan \varphi) + \alpha,\,</math>
+and
+:<math>y = a \sec \varphi + \beta.\,</math>
+
+As before, the ''x'' and ''y''-axes can be shifted so α and β can be taken to be 0. Then
+
+:<math>\sec \varphi + \tan \varphi = e^{x/a},\,</math>
+and taking the reciprocal of both sides
+:<math>\sec \varphi - \tan \varphi = e^{-x/a}.\,</math>
+
+Adding and subtracting the last two equations then gives the solution
+:<math>y = a \sec \varphi = a \cosh \tfrac{x}{a},\,</math>
+and
+:<math>s = a \tan \varphi = a \sinh \tfrac{x}{a}.\,</math>
+
+===Determining parameters===
+In general the parameter ''a'' and the position of the axis and directrix are not given but must be determined from other information. Typically, the information given is that the 
+catenary is suspended at given points ''P''<sub>1</sub> and ''P''<sub>2</sub> and with given length ''s''. The equation can be determined in this case as follows:<ref>Following Todhunter Art. 186</ref>
+Relabel if necessary so that ''P''<sub>1</sub> is to the left of ''P''<sub>2</sub> and let ''h'' be the horizontal and ''v'' be the vertical distance from ''P''<sub>1</sub> to ''P''<sub>2</sub>. [[Translation (geometry)|Translate]] the axes so that the vertex of the catenary lies on the y-axis and its height ''a'' is adjusted so the catenary satisfies the standard equation of the curve
+ 
+:<math>y = a \cosh \tfrac{x}{a}\,</math>
+
+and let the coordinates of ''P''<sub>1</sub> and ''P''<sub>2</sub> be (''x''<sub>1</sub>, ''y''<sub>1</sub>) and (''x''<sub>2</sub>, ''y''<sub>2</sub>) respectively. The curve passes through these points, so the difference of height is
+
+:<math>v = a \cosh \tfrac{x_2}{a} - a \cosh \tfrac{x_1}{a}.\,</math>
+
+and the length of the curve from ''P''<sub>1</sub> to ''P''<sub>2</sub> is
+
+:<math>s = a \sinh \tfrac{x_2}{a} - a \sinh \tfrac{x_1}{a}.\,</math>
+
+When s<sup>2</sup>−v<sup>2</sup> is expanded using these expressions the result is
+
+:<math>s^2-v^2=a^2(-2+2\cosh \tfrac{x_2-x_1}{a})=4a^2\sinh^2 \tfrac{h}{2a},\,</math>
+so
+:<math>\sqrt{s^2-v^2}=2a\sinh \tfrac{h}{2a}.\,</math>
+
+This is a transcendental equation in ''a'' and must be solved [[Numerical analysis|numerically]]. It can be shown with the methods of calculus<ref>See [[#Routh|Routh]] art. 447</ref> that there is at most one solution with ''a''>0 and so there is at most one position of equilibrium.
+
+==Generalizations with vertical force==
+
+===Nonuniform chains===
+If the density of the chain is variable then the analysis above can be adapted to produce equations for the curve given the density, or given the curve to find the density.<ref>Following [[#Routh|Routh]] Art. 450</ref>
+
+Let ''w'' denote the weight per unit length of the chain, then the weight of the chain has magnitude
+
+:<math>\int w\ ds,\,</math>
+
+where the limits of integration are '''c''' and '''r'''. Balancing forces as in the uniform chain produces
+
+:<math>T \cos \varphi = T_0\,</math>
+and
+:<math>T \sin \varphi = \int w\ ds,\,</math>
+and therefore
+:<math>\frac{dy}{dx}=\tan \varphi = \frac{1}{T_0} \int w\ ds.\,</math>
+
+Differentiation then gives
+
+:<math>w=T_0 \frac{d}{ds}\frac{dy}{dx} = \frac{T_0 \frac{d^2y}{dx^2}}{\sqrt{1+\left(\frac{dy}{dx}\right)^2}}.\,</math>
+
+In terms of φ and the radius of curvature ρ this becomes
+
+:<math>w= \frac{T_0}{\rho \cos^2 \varphi}.\,</math>
+
+===Suspension bridge curve===
+[[File:Golden Gate Bridge, SF.jpg|thumb|right|480px|[[Golden Gate Bridge]]. Most [[suspension bridge]] cables follow a parabolic, not a catenary curve, due to the weight of the roadway being much greater than that of the cable.]]
+
+A similar analysis can be done to find the curve followed by the cable supporting a [[suspension bridge]] with a horizontal roadway.<ref>Following [[#Routh|Routh]] Art. 452</ref> If the weight of the roadway per unit length is ''w'' and the weight of the cable and the wire supporting the bridge is negligible in comparison, then the weight on the cable from '''c''' to '''r''' is ''wx'' where ''x'' is the horizontal distance between '''c''' to '''r'''. Proceeding as before gives the differential equation
+
+:<math>\frac{dy}{dx}=\tan \varphi = \frac{w}{T_0}x.\, </math>
+
+This is solved by simple integration to get
+
+:<math>y=\frac{w}{2T_0}x^2 + \beta\,</math>
+
+and so the cable follows a parabola. If the weight of the cable and supporting wires are not negligible then the analysis is more complex.<ref>Ira Freeman investigated the case where the only the cable and roadway are significant, see the External links section. [[#Routh|Routh]] gives the case where only the supporting wires have significant weight as an exercise.</ref>
+
+===Catenary of equal strength===
+In a catenary of equal strength, cable is strengthened according to the magnitude of the tension at each point, so its resistance to breaking is constant along its length. Assuming that the strength of the cable is proportional to its density per unit length, the weight, ''w'', per unit length of the chain can be written ''T''/''c'', where ''c'' is constant, and the analysis for nonuniform chains can be applied.<ref>Following [[#Routh|Routh]] Art. 453</ref>
+
+In this case the equations for tension are
+
+:<math>T \cos \varphi = T_0,\,</math>
+:<math>T \sin \varphi = \frac{1}{c}\int T\ ds.\,</math>
+
+Combining gives
+
+:<math>c \tan \varphi = \int \sec \varphi\ ds\,</math>
+
+and by differentiation
+
+:<math>c = \rho \cos \varphi\,</math>
+
+where ρ is the radius of curvature.
+
+The solution to this is
+
+:<math>y = c \ln \sec \frac{x}{c}.\,</math>
+
+In this case, the curve has vertical asymptotes and this limits the span to π''c''. Other relations are
+
+:<math>x = c\varphi,\ s = \ln \tan \tfrac{1}{4} (\pi+2\varphi).\,</math>
+
+The curve was studied 1826 by [[Davies Gilbert]] and, apparently independently, by [[Gaspard-Gustave Coriolis]] in 1836.
+
+===Elastic catenary===
+In an [[Elasticity (physics)|elastic]] catenary, the chain is replaced by a [[Spring (device)|spring]] which can stretch in response to tension. The spring is assumed to stretch in accordance with [[Hooke's Law]]. Specifically, if ''p'' is the natural length of a section of spring, then the length of the spring with tension ''T'' applied has length
+
+:<math>s=y\left(1+\frac{T}{E}\right)p,\,</math>
+
+where ''E'' is a constant.<ref>[[#Routh|Routh]] Art. 489</ref> In the catenary the value of ''T'' is variable, but ratio remains valid at a local level, so<ref>[[#Routh|Routh]] Art. 494</ref>
+:<math>\frac{ds}{dp}=1+\frac{T}{E}.</math>
+The curve followed by an elastic spring can now be derived following a similar method as for the inelastic spring.<ref>Following [[#Routh|Routh]] Art. 500</ref>
+
+The equations for tension of the spring are 
+
+:<math>T \cos \varphi = T_0,\,</math>
+and
+:<math>T \sin \varphi = \lambda_0 gp,\,</math>
+
+from which
+
+:<math>\frac{dy}{dx}=\tan \varphi = \frac{\lambda_0 gp}{T_0},\ T=\sqrt{T_0^2+\lambda_0^2 g^2p^2},\,</math>
+
+where ''p'' is the natural length of the segment from '''c''' to '''r''' and λ<sub>0</sub> is the mass per unit length of the spring with no tension and ''g'' is the acceleration of gravity. Write
+
+:<math>a = \frac{T_0}{\lambda_0 g}\,</math>
+
+so
+
+:<math>\frac{dy}{dx}=\tan \varphi = \frac{p}{a},\ T=\frac{T_0}{a}\sqrt{a^2+p^2}.</math>
+
+Then 
+:<math>\frac{dx}{ds} = \cos \varphi = \frac{T_0}{T}</math>
+and 
+:<math>\frac{dy}{ds} = \sin \varphi = \frac{\lambda_0 gp}{T},</math>
+from which
+:<math>\frac{dx}{dp} = \frac{T_0}{T}\frac{ds}{dp} = T_0(\frac{1}{T}+\frac{1}{E})=\frac{a}{\sqrt{a^2+p^2}}+\frac{T_0}{E}</math>
+and 
+:<math>\frac{dy}{dp} = \frac{\lambda_0 gp}{T}\frac{ds}{dp} = \frac{T_0p}{a}(\frac{1}{T}+\frac{1}{E})=\frac{p}{\sqrt{a^2+p^2}}+\frac{T_0p}{Ea}.</math>
+
+Integrating gives the parametric equations
+
+:<math>x=a \operatorname{arcsinh}(p/a)+\frac{T_0}{E}p + \alpha,</math>
+:<math>y=\sqrt{a^2+p^2}+\frac{T_0}{2Ea}p^2+\beta.</math>
+
+Again, the x and y-axes can be shifted so α and β can be taken to be 0. So
+
+:<math>x=a\ \operatorname{arcsinh}(p/a)+\frac{T_0}{E}p,\,</math>
+:<math>y=\sqrt{a^2+p^2}+\frac{T_0}{2Ea}p^2\,</math>
+
+are parametric equations for the curve.
+
+==Other generalizations==
+
+===Chain under a general force===
+With no assumptions have been made regarding the force '''G''' acting on the chain, the following analysis can be made.<ref>Follows [[#Routh|Routh]] Art. 455</ref>
+
+First, let '''T'''='''T'''(''s'') be the force of tension as a function of ''s''. The chain is flexible so it can only exert a force parallel to itself. Since tension is defined as the force that the chain exerts on itself, '''T''' must be parallel to the chain. In other words,
+
+:<math>\mathbf{T} = T \mathbf{u},\,</math>
+
+where ''T'' is the magnitude of '''T''' and '''u''' is the unit tangent vector.
+
+Second, let '''G'''='''G'''(''s'') be the external force per unit length acting on a small segment of a chain as a function of ''s''. The forces acting on the segment of the chain between ''s'' and ''s''+Δ''s'' are the force of tension '''T'''(''s''+Δ''s'') at one end of the segment, the nearly opposite force −'''T'''(''s'') at the other end, and the external force acting on the segment which is
+approximately '''G'''Δ''s''. These forces must balance so
+
+:<math>\mathbf{T}(s+\Delta s)-\mathbf{T}(s)+\mathbf{G}\Delta s \approx \mathbf{0}.\,</math>
+
+Divide by Δ''s'' and take the limit as Δ''s'' → 0 to obtain
+
+:<math>\frac{d\mathbf{T}}{ds} + \mathbf{G} = \mathbf{0}.\,</math>
+
+These equations can be used as the starting point in the analysis of a flexible chain acting under any external force. In the case of the standard catenary, '''G''' = (0, −λ''g'') where the chain has mass λ per unit length and ''g'' is the acceleration of gravity.
+
+==See also==
+* [[Overhead lines]]
+* [[Roulette (curve)]] – an elliptic/hyperbolic catenary
+* [[Troposkein]] – the shape of a spun rope
+
+==Notes==
+: {{midsize|<small>[p]</small> ^ Word "catenary" is said as either {{IPAc-en|ˈ|k|ae|t|.|ae|.|n|ər|.|i}} {{IPAc-en/re|ˈ|k|ae|t|.|ae|.|n|ər|.|i}}, or British {{IPAc-en|k|ae|ˈ|t|i|n|ə|ˈ|r|i}} {{IPAc-en/re|k|ae|ˈ|t|i|n|ə|ˈ|r|i}}.}}
+{{Reflist|2}}
+
+==Bibliography==
+* {{anchor|Lockwood}}{{cite book |title=A Book of Curves|first=E.H.|last=Lockwood|publisher=Cambridge|year=1961
+|chapter=Chapter 13: The Tractrix and Catenary|url=http://www.archive.org/details/bookofcurves006299mbp}}
+* {{cite book|last=Salmon|first=George | title=Higher Plane Curves
+|publisher=Hodges, Foster and Figgis|year=1879|pages=287–289
+}}
+* {{anchor|Routh}}{{cite book| last = Routh| first = Edward John| authorlink = Edward Routh| title = A Treatise on Analytical Statics| url = http://books.google.com/?id=3N5JAAAAMAAJ&pg=PA315| year = 1891| publisher = University Press| chapter = Chapter X: On Strings }}
+* {{cite book| last = Maurer| first = Edward Rose| title = Technical Mechanics| url = http://books.google.com/?id=L98uAQAAIAAJ&pg=PA107| year = 1914| publisher = J. Wiley & Sons| chapter = Art. 26 Catenary Cable }}
+* {{cite book| last = Lamb| first = Sir Horace| title = An Elementary Course of Infinitesimal Calculus| url = http://books.google.com/?id=eDM6AAAAMAAJ&pg=PA342| year = 1897| publisher = University Press| chapter = Art. 134 Transcendental Curves; Catenary, Tractrix }}
+* {{cite book| last = Todhunter| first = Isaac| authorlink = Isaac Todhunter| title = A Treatise on Analytical Statics| url = http://books.google.com/?id=-iEuAAAAYAAJ&pg=PA199| year = 1858| publisher = Macmillan| chapter = XI Flexible Strings. Inextensible, XII Flexible Strings. Extensible }}
+* {{anchor|Whewell}}{{cite book| last = Whewell| first = William| authorlink = William Whewell| title = Analytical Statics| url = http://books.google.com/?id=BF8JAAAAIAAJ&pg=PA65| year = 1833| publisher = J. & J.J. Deighton| page = 65| chapter = Chapter V: The Eqilibruim of a Flexible Body }}
+* {{anchor|MathWorld}}{{mathworld|Catenary|Catenary}}
+
+==Further reading==
+* {{cite book| last = Swetz| first = Frank| title = Learn from the Masters| url = http://books.google.com/?id=gqGLoh-WYrEC&pg=PA128| year = 1995| publisher = MAA| isbn = 0-88385-703-0| pages = 128–9 }}
+* {{cite book| last = Venturoli| first = Giuseppe| others = Trans. Daniel Cresswell| title = Elements of the Theory of Mechanics| url = http://books.google.com/?id=kHhBAAAAYAAJ&pg=PA67| year = 1822| publisher = J. Nicholson & Son| chapter = Chapter XXIII: On the Catenary }}
+
+==External links==
+{{Commons category}}
+{{Wikisource1911Enc|Catenary}}
+* {{MacTutor|class=Curves|id=Catenary|title=Catenary}}
+* {{PlanetMath|urlname=Catenary|title=Catenary}}
+* [http://www.geom.uiuc.edu/zoo/diffgeom/surfspace/catenoid/catenary.html Catenary] at [[The Geometry Center]]
+* Encyclopédie des Formes Mathématiques Remarquables
+** [http://www.mathcurve.com/courbes2d/chainette/chainette.shtml "Chaînette"]
+** [http://www.mathcurve.com/courbes2d/chainette/chainetteelastique.shtml "Chaînette élastique"]
+** [http://www.mathcurve.com/courbes2d/chainettedegaleresistance/chainettedegaleresistance.shtml "Chaînette d'Égale Résistance"]
+** [http://www.mathcurve.com/courbes2d/cordeasauter/cordeasauter.shtml "Courbe de la corde à sauter"]
+* [http://xahlee.org/SpecialPlaneCurves_dir/Catenary_dir/catenary.html "Catenary" at Visual Dictionary of Special Plane Curves]
+* [http://www.maththoughts.com/blog/2013/catenary The Catenary - Chains, Arches, and Soap Films.]
+* [http://whistleralley.com/hanging/hanging.htm Hanging With Galileo] – mathematical derivation of formula for suspended and free-hanging chains; interactive graphical demo of parabolic versus hyperbolic suspensions.
+* [http://jonathan.lansey.net/pastimes/catenary/index.html Catenary Demonstration Experiment] – An easy way to demonstrate the Mathematical properties of a cosh using the hanging cable effect. Devised by Jonathan Lansey
+* [http://members.chello.nl/j.beentjes3/Ruud/catfiles/catenary.pdf Catenary curve derived] – The shape of a catenary is derived, plus examples of a chain hanging between 2 points of unequal height, including C program to calculate the curve.
+* [http://www.spaceagecontrol.com/calccabl.htm Cable Sag Error Calculator] – Calculates the deviation from a straight line of a catenary curve and provides derivation of the calculator and references.
+* [http://hexdome.com/essays/catenary_domes/index.php Hexagonal Geodesic Domes – Catenary Domes], an article about creating [[catenary dome]]s
+* [http://www.subhrajit.net/files/Projects-Work/OilBoom_Catenary_2010/catenary.pdf Dynamic as well as static cetenary curve equations derived] – The equations governing the shape (static case) as well as dynamics (dynamic case) of a centenary is derived. Solution to the equations discussed.
+* [http://www.ams.org/journals/bull/1925-31-08/S0002-9904-1925-04083-5/S0002-9904-1925-04083-5.pdf Ira Freeman "A General Form of the Suspension Bridge Catenary" ''Bulletin of the AMS'']
+
+[[Category:Curves]]
+[[Category:Differential equations]]
+[[Category:Exponentials]]
+[[Category:Analytic geometry]]

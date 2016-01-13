@@ -1,0 +1,269 @@
+{{Other uses}}
+{{refimprove|comment=entire sections are sourced only with one author or reference.  When that's done, the section should be noted as that author's theory, rather than attributed as fact, even if the author is an expert, when there are notable contradictory theories.|date=January 2011}}
+
+:''This article aims to be an accessible introduction.  For the mathematical definition, see [[Decimal representation]].''
+
+{{Table Numeral Systems}}
+
+The '''decimal''' [[numeral system]] (also called '''base ten''' or occasionally '''denary''') has [[10 (number)|ten]] as its [[base (exponentiation)|base]]. It is the numerical base most widely used by modern civilizations.<ref>''The History of Arithmetic'', [[Louis Charles Karpinski]], 200pp, Rand McNally & Company, 1925.</ref><ref>''Histoire universelle des chiffres'', [[Georges Ifrah]], Robert Laffont, 1994 (Also: ''The Universal History of Numbers: From prehistory to the invention of the computer'', [[Georges Ifrah]], ISBN 0-471-39340-1, John Wiley and Sons Inc., New York, 2000. Translated from the French by David Bellos, E.F. Harding, Sophie Wood and Ian Monk)</ref>
+
+'''Decimal notation''' often refers to a base-10 [[positional notation]] such as the [[Hindu-Arabic numeral system]]; however, it can also be used more generally to refer to non-positional systems such as [[Roman numerals|Roman]] or [[Chinese numerals]] which are also based on powers of ten.
+
+'''Decimals''' also refer to decimal fractions, either separately or in contrast to [[vulgar fraction]]s.  In this context, a decimal is a tenth part, and decimals become a series of nested tenths.  There was a notation in use like 'tenth-metre', meaning the tenth decimal of the metre, currently an [[Angstrom]].  The contrast here is between decimals and vulgar fractions, and decimal divisions and other divisions of measures, like the inch.  It is possible to follow a decimal expansion with a vulgar fraction; this is done with the recent divisions of the troy ounce, which has three places of decimals, followed by a trinary place.
+
+== Decimal notation ==
+Decimal notation is the writing of [[number]]s in a base-10 [[numeral system]]. Examples are [[Roman numerals]], [[Brahmi numerals]], and [[Chinese numerals]], as well as the [[Hindu-Arabic numerals]] used by speakers of many European languages.  Roman numerals have symbols for the decimal powers (1, 10, 100, 1000) and secondary symbols for half these values (5, 50, 500).  Brahmi numerals have symbols for the nine numbers 1–9, the nine decades 10–90, plus a symbol for 100 and another for 1000.  Chinese numerals have symbols for 1–9, and additional symbols for powers of 10, which in modern usage reach 10<sup>44</sup>.
+
+However, when people who use [[Hindu-Arabic numerals]] speak of decimal notation, they often mean not just decimal numeration, as above, but also decimal fractions, all conveyed as part of a [[positional notation|positional]] system. Positional decimal systems include a zero and use symbols (called [[numerical digit|digits]]) for the ten values (0, 1, 2, 3, 4, 5, 6, 7, 8, and 9) to represent any number, no matter how large or how small. These digits are often used with a [[decimal separator]] which indicates the start of a fractional part, and with a symbol such as the plus sign + (for positive) or minus sign − (for negative) adjacent to the numeral to indicate whether it is greater or less than zero, respectively.
+
+Positional notation uses positions for each power of ten: units, tens, hundreds, thousands, etc.  The position of each digit within a number denotes the multiplier (power of ten) multiplied with that digit—each position has a value ten times that of the position to its right.  There were at least two presumably independent sources of positional decimal systems in ancient civilization: the [[Counting rods|Chinese counting rod]] system and the [[Hindu-Arabic numeral system]] (the latter descended from Brahmi numerals).
+
+[[10 (number)|Ten]] is the number which is the count of fingers and thumbs on both hands (or toes on the feet).  The English word [[Numerical digit|digit]] as well as its translation in many languages is also the anatomical term for fingers and toes.  In English, decimal (decimus ← [[Latin|Lat.]]) means ''tenth'', decimate means ''reduce by a tenth'', and denary (denarius ← Lat.) means ''the [[Unit of measurement|unit]] of ten''.
+
+The symbols for the digits in common use around the [[globe]] today are called [[Hindu-Arabic numerals|Arabic numerals]] by Europeans and [[Indian numerals]] by Arabs, the two groups' terms both referring to the culture from which they learned the system.  However, the symbols used in different areas are not identical; for instance, Western Arabic numerals (from which the [[Hindu-Arabic numerals|European numerals]] are derived) differ from the forms used by other Arab cultures.
+
+=== Decimal fractions ===
+
+A '''decimal fraction''' is a [[Fraction (mathematics)|fraction]] whose [[denominator]] is a [[exponentiation|power]] of ten. <ref>{{cite web|url=http://www.encyclopediaofmath.org/index.php/Decimal_fraction|title=Decimal Fraction|work=[[Encyclopedia of Mathematics]]|accessdate=2013-06-18}}</ref>
+
+Decimal fractions are commonly expressed without a denominator, the [[Decimal mark|decimal separator]] being inserted into the numerator (with [[leading zero]]s added if needed) at the position from the right corresponding to the power of ten of the denominator; e.g., 8/10, 83/100, 83/1000, and 8/10000 are expressed as 0.8, 0.83, 0.083, and 0.0008. In English-speaking, some Latin American and many Asian countries, a period ('''.''') or raised period ('''·''') is used as the decimal separator; in many other countries, particularly in Europe, a comma is used.
+
+The [[integer part]], or integral part of a decimal number is the part to the left of the decimal separator. (See also [[truncation]].) The part from the decimal separator to the right is the ''[[fractional part]]''. It is usual for a decimal number that consists only of a fractional part (mathematically, a ''[[Fraction_(mathematics)#Proper_and_improper_common_fractions|proper fraction]]'') to have a leading zero in its notation (its ''[[numeral system|numeral]]''). This helps disambiguation between a decimal sign and other punctuation, and especially when the negative number sign is indicated, it helps visualize the sign of the numeral as a whole.
+
+[[Trailing zero]]s after the decimal point are not necessary, although in science, engineering and [[statistics]] they can be retained to indicate a required precision or to show a level of confidence in the accuracy of the number:  Although 0.080 and 0.08 are numerically equal, in engineering 0.080 suggests a measurement with an error of up to one part in two thousand (±0.0005), while 0.08 suggests a measurement with an error of up to one in two hundred (see ''[[significant figures]]'').
+
+=== Other rational numbers ===
+Any [[rational number]] with a denominator whose only [[prime factor]]s are 2 and/or 5 may be precisely expressed as a decimal fraction and has a finite decimal expansion.<ref name="p141isbn0-87891-200-2">{{Cite book |title=Math Made Nice-n-Easy |year=1999 |publisher=Research  Education Association |location=Piscataway, N.J. |=0-87891-200-2 |page=141 |url=http://books.google.com/books?id=ebx9StilsqIC&pg=PA141#v=onepage&q&f=false}}</ref>
+
+:1/2  = 0.5
+:1/20 = 0.05
+:1/5  = 0.2
+:1/50 = 0.02
+
+:1/4  = 0.25
+:1/40 = 0.025
+:1/25 = 0.04
+
+:1/8  = 0.125
+:1/125 = 0.008
+
+:1/10 = 0.1
+
+If the rational number's denominator has any prime factors other than 2 or 5, it cannot be expressed as a finite decimal fraction,<ref name="p141isbn0-87891-200-2" /> and has a unique eventually repeating infinite decimal expansion.
+
+:1/3 = 0.333333… (with 3 repeating)
+:1/9 = 0.111111… (with 1 repeating)
+
+100 − 1 = 99 = 9 × 11:
+
+:1/11 = 0.090909…  
+
+
+1000 − 1 = 9 × 111 = 27 × 37:
+
+:1/27 = 0.037037037…
+:1/37 = 0.027027027…
+:1/111 = 0 .009009009…
+
+also:
+:1/81 = 0.012345679012… (with 012345679 repeating)
+
+That a rational number must have a [[finite set|finite]] or recurring decimal expansion can be seen to be a consequence of the [[long division]] [[algorithm]], in that there are only q-1 possible nonzero [[remainder]]s on division by q, so that the recurring pattern will have a period less than q.  For instance, to find 3/7 by long division:
+
+    <u>  0.4 2 8 5 7 1 4 ..</u>.
+  7 ) 3.0 0 0 0 0 0 0 0
+     <u> 2 8 </u>                        30/7 = 4 with a remainder of 2
+        2 0
+       <u> 1 4 </u>                      20/7 = 2 with a remainder of 6
+          6 0
+         <u> 5 6 </u>                    60/7 = 8 with a remainder of 4
+            4 0
+           <u> 3 5 </u>                  40/7 = 5 with a remainder of 5
+              5 0
+             <u> 4 9 </u>                50/7 = 7 with a remainder of 1
+                1 0
+               <u>   7 </u>              10/7 = 1 with a remainder of 3
+                  3 0
+                 <u> 2 8 </u>            30/7 = 4 with a remainder of 2
+                    2 0
+                         etc.
+
+The converse to this observation is that every [[recurring decimal]] represents a rational number ''p''/''q''.  This is a consequence of the fact that the recurring part of a decimal representation is, in fact, an infinite [[geometric series]] which will sum to a rational number.  For instance,
+:<math>0.0123123123\cdots = \frac{123}{10000} \sum_{k=0}^\infty 0.001^k = \frac{123}{10000}\ \frac{1}{1-0.001} = \frac{123}{9990} = \frac{41}{3330}</math>
+
+=== Real numbers ===
+{{further2|[[Decimal representation]]}}
+
+Every [[real number]] has a (possibly infinite) decimal representation; i.e., it can be written as
+
+:<math> x = \mathop{\rm sign}(x) \sum_{i\in\mathbb Z} a_i\,10^i</math>
+where
+* sign() is the [[sign function]], 
+* '''Z''' is the set of all integers (positive, negative, and zero), and
+* ''a<sub>i</sub>'' ∈ { 0,1,…,9 } for all ''i'' ∈ '''Z''' are its '''decimal digits''', equal to zero for all ''i'' greater than some number (that number being the [[common logarithm]] of |x|).
+
+Such a sum converges as more and more negative values of ''i'' are included, even if there are infinitely many non-zero ''a<sub>i</sub>''.
+
+[[Rational number]]s (e.g., p/q) with [[prime factor]]s in the denominator other than 2 and 5 (when reduced to simplest terms) have a unique [[recurring decimal]] representation.
+
+=== Non-uniqueness of decimal representation ===
+{{Refimprove section|date=March 2012}}
+Consider those rational numbers which have only the factors 2 and 5 in the denominator, i.e., which can be written as ''p''/(2<sup>''a''</sup>5<sup>''b''</sup>). In this case there is a terminating decimal representation.  For instance, 1/1&nbsp;=&nbsp;1, 1/2&nbsp;=&nbsp;0.5, 3/5&nbsp;=&nbsp;0.6, 3/25&nbsp;=&nbsp;0.12 and 1306/1250&nbsp;=&nbsp;1.0448.  Such numbers are the only real numbers which do not have a unique decimal representation, as they can also be written as a representation that has a recurring&nbsp;9, for instance 1&nbsp;=&nbsp;[[0.999...|0.99999…]], 1/2&nbsp;=&nbsp;0.499999…, etc.  The number [[0 (number)|0]]&nbsp;=&nbsp;0/1 is special in that it has no representation with recurring&nbsp;9.
+
+This leaves the [[irrational number]]s.  They also have unique infinite decimal representations, and can be characterised as the numbers whose decimal representations neither terminate nor recur.
+
+So in general the decimal representation is unique, if one excludes representations that end in a recurring&nbsp;9.
+
+The same [[Trichotomy (mathematics)|trichotomy]] holds for other base-''n'' [[Positional notation|positional numeral systems]]:
+* Terminating representation: rational where the denominator divides some ''n''<sup>''k''</sup>
+* Recurring representation: other rational
+* Non-terminating, non-recurring representation: irrational
+A version of this even holds for irrational-base numeration systems, such as [[golden mean base]] representation.
+
+== Decimal computation ==
+Decimal computation was/is carried out in ancient times in many ways, typically in [[rod calculus]], on sand tables or with a variety of [[abacus|abaci]].
+
+Modern [[computer]] hardware and software systems commonly use a [[Binary numeral system|binary representation]] internally (although many early computers, such as the [[ENIAC]] or the [[IBM 650]], used decimal representation internally).<ref>''Fingers or Fists? (The Choice of Decimal or Binary Representation)'', [[Werner Buchholz]], Communications of the ACM, Vol. 2 #12, pp3–11, ACM Press, December 1959.</ref>
+For external use by computer specialists, this binary representation is sometimes presented in the related [[octal]] or [[hexadecimal]] systems.
+
+For most purposes, however, binary values are converted to or from the equivalent decimal values for presentation to or input from humans; computer programs express literals in decimal by default. (123.1, for example, is written as such in a computer program, even though many computer languages are unable to encode that number precisely.)
+
+Both computer hardware and software also use internal representations which are effectively decimal for storing decimal values and doing arithmetic.  Often this arithmetic is done on data which are encoded using some variant of [[binary-coded decimal]],<ref>''Decimal Computation'', [[Hermann Schmid (computer scientist)|Hermann Schmid]], John Wiley & Sons 1974 (ISBN 047176180X); reprinted in 1983 by Robert E. Krieger Publishing Company (ISBN 0898743184)</ref>
+especially in database implementations, but there are other decimal representations in use (such as in the new [[IEEE 754|IEEE 754 Standard for Floating-Point Arithmetic]]).<ref>''Decimal Floating-Point: Algorism for Computers'', [[Mike Cowlishaw|Cowlishaw, M. F.]], Proceedings 16th IEEE Symposium on Computer Arithmetic, ISBN 0-7695-1894-X, pp104-111, IEEE Comp. Soc., June 2003</ref>
+
+Decimal arithmetic is used in computers so that decimal fractional results can be computed exactly, which is not possible using a binary fractional representation.
+This is often important for financial and other calculations.<ref>[http://speleotrove.com/decimal/decifaq.html Decimal Arithmetic - FAQ<!-- Bot generated title -->]</ref>
+
+== History ==
+Many ancient cultures calculated from early on with numerals based on ten: [[Egyptian hieroglyphs]], in evidence since around 3000 BC, used a purely decimal system,<ref>[http://www-gap.dcs.st-and.ac.uk/~history/HistTopics/Egyptian_numerals.html Egyptian numerals]</ref><ref>Georges Ifrah: ''From One to Zero. A Universal History of Numbers'', Penguin Books, 1988, ISBN 0-14-009919-0,  pp. 200-213 (Egyptian Numerals)</ref> just as the [[Cretan hieroglyphs]] (ca. 1625−1500 BC) of the [[Minoans]] whose numerals are closely based on the Egyptian model.<ref>Graham Flegg: Numbers: their history and meaning, Courier Dover Publications, 2002, ISBN 978-0-486-42165-0, p. 50</ref><ref>Georges Ifrah: ''From One to Zero. A Universal History of Numbers'', Penguin Books, 1988, ISBN 0-14-009919-0, pp.213-218 (Cretan numerals)</ref> The decimal system was handed down to the consecutive [[Bronze Age Greece|Bronze Age cultures of Greece]], including [[Linear A]] (ca. 18th century BC−1450 BC) and [[Linear B]] (ca. 1375−1200 BC) — the number system of [[classical Greece]] also used powers of ten, including, like the [[Roman numerals]] did, an intermediate base of 5.<ref name="Greek numerals">[http://www-gap.dcs.st-and.ac.uk/~history/HistTopics/Greek_numbers.html Greek numerals]</ref> Notably, the polymath [[Archimedes]] (c. 287–212 BC) invented a decimal positional system in his [[The Sand Reckoner|Sand Reckoner]] which was based on 10<sup>8</sup><ref name="Greek numerals"/> and later led the German mathematician [[Carl Friedrich Gauss]] to lament what heights science would have already reached in his days if Archimedes had fully realized the potential of his ingenious discovery.<ref>[[Karl Menninger (mathematics)|Menninger, Karl]]: ''Zahlwort und Ziffer. Eine Kulturgeschichte der Zahl'', Vandenhoeck und Ruprecht, 3rd. ed., 1979, ISBN 3-525-40725-4, pp. 150-153</ref> The [[Hittites]] hieroglyphs (since 15th century BC), just like the Egyptian and early numerals in Greece, was strictly decimal.<ref>Georges Ifrah: ''From One to Zero. A Universal History of Numbers'', Penguin Books, 1988, ISBN 0-14-009919-0, pp. 218f. (The Hittite hieroglyphic system)</ref>
+
+The Egyptian hieratic numerals, the Greek alphabet numerals, the Roman numerals, the Chinese numerals and early Indian Brahmi numerals are all non-positional decimal systems, and required large numbers of symbols.  For instance, Egyptian numerals used different symbols for 10, 20, to 90, 100, 200, to 900, 1000, 2000, 3000, 4000, to 10,000.<ref>[[Lam Lay Yong]] et al  The Fleeting Footsteps p 137-139</ref>
+
+=== History of decimal fractions ===
+[[File:Rod fraction.jpg|thumb|right|150px|counting rod decimal fraction 1/7]]
+According to [[Joseph Needham]], decimal fractions were first developed and used by the Chinese in the 1st century BC, and then spread to the Middle East and from there to Europe.<ref name=jnfractn1>{{Cite book | author=[[Joseph Needham]] | chapter = Decimal System | title = [[Science and Civilisation in China|Science and Civilisation in China, Volume III, Mathematics and the Sciences of the Heavens and the Earth]] | year = 1959 | publisher = Cambridge University Press}}</ref> The written Chinese decimal fractions were non-positional.<ref name=jnfractn1/> However, [[Rod calculus#Fractions|counting rod fractions]] were positional.
+
+[[Qin Jiushao]] in his book [[Mathematical Treatise in Nine Sections]] (1247) denoted  0.96644  by
+
+:::::寸
+:::::[[File:Counting rod 0.png]][[File:Counting rod h9 num.png]][[File:Counting rod v6.png]][[File:Counting rod h6.png]][[File:Counting rod v4.png]][[File:Counting rod h4.png]], meaning
+
+:::::寸
+:::::096644
+<ref>Jean-Claude Martzloff, A History of Chinese Mathematics, Springer 1997  ISBN 3-540-33782-2</ref>
+
+The Jewish mathematician [[Immanuel Bonfils]] invented decimal fractions around 1350, anticipating [[Simon Stevin]], but did not develop any notation to represent them.<ref>[[Solomon Gandz|Gandz, S.]]: The invention of the decimal fractions and the application of the exponential calculus by Immanuel Bonﬁls of Tarascon (c. 1350), Isis 25 (1936), 16–45.</ref>
+
+The Persian mathematician [[Jamshīd al-Kāshī]] claimed to have discovered decimal fractions himself in the 15th century, though J. Lennart Berggren notes that positional decimal fractions were used five centuries before him by Arab mathematician [[Abu'l-Hasan al-Uqlidisi]] as early as the 10th century.<ref name=Berggren>{{cite book | first=J. Lennart | last=Berggren | title=The Mathematics of Egypt, Mesopotamia, China, India, and Islam: A Sourcebook | chapter=Mathematics in Medieval Islam | publisher=Princeton University Press | year=2007 | isbn=978-0-691-11485-9 | page=518 }}</ref>
+
+[[Muhammad ibn Mūsā al-Khwārizmī|Khwarizmi]] introduced fractions to Islamic countries in the early 9th century. . This form of fraction with the numerator on top and the denominator on the bottom, without a horizontal bar, was also used in the 10th century by Abu'l-Hasan al-Uqlidisi and again in the 15th century work "Arithmetic Key" by Jamshīd al-Kāshī.{{citation needed|date=June 2012}}
+<div style="float: right;">[[File:Stevin-decimal notation.png]]</div>
+A forerunner of modern European decimal notation was introduced by [[Simon Stevin]] in the 16th century.<ref name=van>{{Cite book | author = [[Bartel Leendert van der Waerden|B. L. van der Waerden]] | year = 1985 | title = A History of Algebra. From Khwarizmi to Emmy Noether | publisher = Springer-Verlag | place = Berlin}}</ref>
+
+=== Natural languages ===
+[[Telugu language]] uses a straightforward decimal system. Other [[Dravidian languages]] such as [[Tamil language|Tamil]] and [[Malayalam]] have replaced the number nine ''tondu'' with 'onpattu' ("one to ten") during the early Middle Ages, while Telugu preserved the number nine as ''tommidi''.
+
+The [[Hungarian language]] also uses a straightforward decimal system. Unlike in many Indo-European languages, all numbers between 10 and 20 are formed regularly (e.g. 11 is expressed as "tízenegy" literally "one on ten"), as with those between 20-100 (23 as "huszonhárom" = "three on twenty"). The ones never precede the tens (as in, for example, German "dreiundzwanzig" = 23).
+
+A straightforward decimal rank system with a word for each order 10十,100百,1000千,10000万, and in which 11 is expressed as ''ten-one'' and 23 as ''two-ten-three'', and  89345  is expressed as 8 (ten thousands) 万9 (thousand) 千3 (hundred) 百4 (tens) 十 5  is found in [[Chinese language]]s, and in [[Vietnamese language|Vietnamese]] with a few irregularities.  [[Japanese language|Japanese]], [[Korean language|Korean]], and [[Thai language|Thai]] have imported the Chinese decimal system.  Many other languages with a decimal system have special words for the numbers between 10 and 20, and decades. For example in English 11 is  "eleven" not "ten-one".
+
+Incan languages such as [[Quechua languages|Quechua]] and [[Aymara language|Aymara]] have an almost straightforward decimal system, in which 11 is expressed as ''ten with one'' and 23 as ''two-ten with three''.
+
+Some psychologists suggest irregularities of the English names of numerals may hinder children's counting ability.<ref>{{Cite journal| last=Azar| first=Beth| year=1999| title=English words may hinder math skills development| url=http://www.apa.org/monitor/apr99/english.html  |journal=American Psychology Association Monitor| volume=30| issue=4 |archiveurl = http://web.archive.org/web/20071021015527/http://www.apa.org/monitor/apr99/english.html |archivedate = 2007-10-21}}</ref>
+
+=== Other bases ===
+
+Some cultures do, or did, use other bases of numbers.
+*[[Pre-Columbian]] [[Mesoamerica]]n cultures such as the [[Maya numerals|Maya]] used a [[vigesimal|base-20]] system (using all twenty fingers and [[toe]]s).
+*The [[Yuki tribe|Yuki]] language in [[California]] and the Pamean languages<ref>{{Cite journal
+ | last=Avelino
+ | first=Heriberto
+ | title=The typology of Pame number systems and the limits of Mesoamerica as a linguistic area
+ | journal=Linguistic Typology
+ | year=2006
+ | volume=10
+ | issue=1
+ | pages=41–60
+ | url=http://linguistics.berkeley.edu/~avelino/Avelino_2006.pdf
+ | doi=10.1515/LINGTY.2006.002
+ | postscript=<!--None-->
+}}</ref> in [[Mexico]] have [[octal|octal (base-8)]] systems because the speakers count using the spaces between their fingers rather than the fingers themselves.<ref>{{cite web|url=http://links.jstor.org/sici?sici=0746-8342%28199209%2923%3A4%3C353%3AEAMVOM%3E2.0.CO%3B2-%23&size=LARGE|title=Ethnomathematics: A Multicultural View of Mathematical Ideas|author=Marcia Ascher|publisher=The College Mathematics Journal|accessdate=2007-04-13}}</ref>
+* The existence of a non-decimal base in the earliest traces of the Germanic languages, is attested by the presence of words and glosses meaning that the count is in decimal (cognates to ten-count or tenty-wise), such would be expected if normal counting is not decimal, and unusual if it were.{{synth|date=June 2013}}  Where this counting system is known, it is based on the long hundred of 120 in number, and a long thousand of 1200 in number. The descriptions like 'long' only appear after the small hundred of 100 in number appeared with the Christians.  Gordon's [http://www.scribd.com/doc/49127454/Introduction-to-Old-Norse-by-E-V-Gordon Introduction to Old Norse] p 293, gives number names that belong to this system.  An expression cognate to 'one hundred and eighty' is translated to 200, and the cognate to 'two hundred' is translated at 240. [http://ads.ahds.ac.uk/catalogue/adsdata/arch-352-1/dissemination/pdf/vol_123/123_395_418.pdf Goodare] details the use of the long hundred in Scotland in the Middle Ages, giving examples, calculations where the carry implies i C (i.e. one hundred) as 120, etc.  That the general population were not alarmed to encounter such numbers suggests common enough use.  It is also possible to avoid hundred-like numbers by using intermediate units, such as stones and pounds, rather than a long count of pounds.  Goodare gives examples of numbers like vii score, where one avoids the hundred by using extended scores.  There is also a paper by W.H. Stevenson, on 'Long Hundred and its uses in England'.  {{cn|date=June 2013}}
+*Many or all of the [[Chumashan languages]] originally used a [[quaternary numeral system|base-4]] counting system, in which the names for numbers were structured according to multiples of 4 and [[hexadecimal|16]].<ref>There is a surviving list of [[Ventureño language]] number words up to 32 written down by a Spanish priest ca. 1819. "Chumashan Numerals" by Madison S. Beeler, in ''Native American Mathematics'', edited by Michael P. Closs (1986), ISBN 0-292-75531-7.</ref>
+*Many languages<ref>Harald Hammarström, [http://www.cs.chalmers.se/~harald2/rara2006.pdf{{dead link|date=June 2013}} Rarities in Numeral Systems]: "Bases 5, 10, and 20 are omnipresent."</ref> use [[quinary|quinary (base-5)]] number systems, including [[Gumatj language|Gumatj]], [[Nunggubuyu language|Nunggubuyu]],<ref>{{Cite book
+ | title=Facts and fallacies of aboriginal number systems
+ | last=Harris
+ | first=John
+ | editor-last=Hargrave
+ | editor-first=Susanne
+ | pages=153–181
+ | year=1982
+ | journal=Work Papers of [[SIL International|SIL]]-AAB Series B
+ | volume=8
+ | url=http://www1.aiatsis.gov.au/exhibitions/e_access/serial/m0029743_v_a.pdf
+ | postscript=<!--None-->
+}}</ref> [[Kuurn Kopan Noot language|Kuurn Kopan Noot]]<ref>Dawson, J. "[http://books.google.com/books?id=OdEDAAAAMAAJ ''Australian Aborigines: The Languages and Customs of Several Tribes of Aborigines in the Western District of Victoria''] (1881), p. xcviii.</ref> and [[Saraveca]].  Of these, Gumatj is the only true 5–25 language known, in which 25 is the higher group of 5.
+*Some [[Nigeria]]ns use [[base 12|base-12]] systems{{Citation needed|date=October 2009}}
+*The [[Huli language]] of [[Papua New Guinea]] is reported to have [[pentadecimal|base-15]] numbers.<ref>{{Cite journal
+ | last=Cheetham
+ | first=Brian
+ | title=Counting and Number in Huli
+ | journal=Papua New Guinea Journal of Education
+ | year=1978
+ | volume=14
+ | pages=16–35
+ | url=http://www.uog.ac.pg/PUB08-Oct-03/cheetham.htm{{dead link|date=June 2013}}
+ | postscript=<!--None-->
+}}</ref>  ''Ngui'' means 15, ''ngui ki'' means 15×2 = 30, and ''ngui ngui'' means 15×15 = 225.
+*[[Umbu-Ungu language|Umbu-Ungu]], also known as Kakoli, is reported to have [[base 24|base-24]] numbers.<ref>{{Cite journal
+ | last=Bowers
+ | first=Nancy
+ | last2=Lepi
+ | first2=Pundia
+ | title=Kaugel Valley systems of reckoning
+ | year=1975
+ | journal=Journal of the Polynesian Society
+ | volume=84
+ | issue=3
+ | pages=309–324
+ | url=http://www.ethnomath.org/resources/bowers-lepi1975.pdf
+ | postscript=<!--None-->
+}}</ref> ''Tokapu'' means 24, ''tokapu talu'' means 24×2 = 48, and ''tokapu tokapu'' means 24×24 = 576.
+*[[Ngiti language|Ngiti]] is reported to have a [[base 32|base-32]] number system with base-4 cycles.<ref>{{Cite web
+| contribution=Rarities in Numeral Systems
+| first=Harald
+| last=Hammarström
+| title=Proceedings of Rara &amp; Rarissima Conference
+| year=2006
+| url=http://www.cs.chalmers.se/~harald2/rarapaper.pdf{{dead link|date=June 2013}}
+| postscript=<!--None-->
+}}</ref>
+
+== See also ==
+{{columns-list|2|
+*[[0.999...]]
+*[[10 (number)]]
+*[[Algorism]]
+*[[Binary-coded decimal]]
+*[[Decimal representation]]
+*[[Decimal separator]]
+*[[Dewey Decimal System]]
+*[[Duodecimal]]
+*[[Hindu-Arabic numeral system]]
+*[[List of decimal-fraction equivalents: 0 to 1 by 64ths]]
+*[[Numeral system]]
+*[[Octal]]
+*[[Scientific notation]]
+*[[SI prefix]]
+}}
+
+== References ==
+{{Reflist|2}}
+
+== External links ==
+* [http://speleotrove.com/decimal/decifaq.html Decimal arithmetic FAQ]
+* [http://spot.colorado.edu/~gubermas/NCTM_pap.htm Cultural Aspects of Young Children's Mathematics Knowledge]
+
+[[Category:Elementary arithmetic]]
+[[Category:Fractions]]
+[[Category:Positional numeral systems]]

@@ -1,0 +1,171 @@
+{{Use dmy dates|date=June 2013}}
+[[Image:Copper cathode 2.svg|thumb|Diagram of a [[copper]] cathode in a [[galvanic cell]] (e.g., a battery). A positive current ''i'' flows out of the cathode.]]  A '''cathode''' is an [[electrode]] through which [[electric current]] flows ''out of'' a polarized electrical device. The direction of electric current is, [[Conventional current|by convention]], opposite to the direction of [[electron]] flow—thus, electrons are considered to flow toward the cathode electrode while current flows away from it. This convention is sometimes remembered using the [[mnemonic]] CCD for ''cathode current departs''.
+
+Cathode [[Electrical polarity|polarity]] is not always negative. Although positively charged [[ion|cations]] always move towards the cathode (hence their name) and negatively charged [[ion|anions]] move away from it, cathode polarity depends on the device type, and can even vary according to the operating mode. In a device which consumes power, the cathode is negative, and in a device which provides power, the cathode is positive:
+* In a discharging battery or a [[galvanic cell]] the cathode is the positive terminal since that is where the current flows out of the device (see drawing). This outward current is carried internally by positive ions moving from the [[electrolyte]] to the positive cathode (chemical energy is responsible for this "uphill" motion). It is continued externally by electrons moving inwards, negative charge moving one way constituting positive current flowing the other way. For example, the [[Daniell cell|Daniell galvanic cell]]'s copper electrode is the positive terminal and the cathode.
+* In a recharging battery, or an [[electrolytic cell]], the cathode is the negative terminal, from which current returns to the external generator.  For example, reversing the current direction in a [[Daniell cell|Daniell galvanic cell]] would produce an electrolytic cell,<ref name="Reversed Daniell Cell">[http://hyperphysics.phy-astr.gsu.edu/hbase/chemical/electrolyt.html#c1], Daniell cell can be reversed to, technically, produce an electrolytic cell.</ref> where the copper electrode is the positive terminal and the anode.
+* In a [[diode]], it is the negative terminal at the pointed end of the arrow symbol, where current flows out of the device. Note: electrode naming for diodes is always based on the direction of the forward current (that of the arrow, in which the current flows "most easily"), even for types such as [[Zener diode]]s or [[solar cell]]s where the current of interest is the reverse current.
+* In [[vacuum tube]]s (including [[cathode ray tube]]s) it is the negative terminal where electrons enter the device from the external circuit and proceed into the tube's near vacuum, constituting a positive current flowing out of the device.
+
+An electrode through which current flows the other way (into the device) is termed an [[anode]].
+
+==Etymology==
+The word was coined in 1834 from the [[Greek language|Greek]] κάθοδος (''kathodos''), 'descent' or 'way down', by [[William Whewell]], who had been consulted<ref>Ross, S, ''Faraday Consults the Scholars: The Origins of the Terms of Electrochemistry'' in ''Notes and Records of the Royal Society of London (1938-1996)'', Volume 16, Number 2 / 1961, Pages: 187 - 220, [http://www.journals.royalsoc.ac.uk/link.asp?id=y61755r466478481] consulted 2006-12-22</ref> by [[Michael Faraday]] over some new names needed to complete a paper on the recently discovered process of electrolysis. In that paper Faraday explained that when an electrolytic cell is oriented so that electric current traverses the "decomposing body" (electrolyte) in a direction "from East to West, or, which will strengthen this help to the memory, that in which the sun appears to move", the cathode is where the current leaves the electrolyte, on the West side: "''kata'' downwards, ''`odos'' a way ; the way which the sun sets".<ref>Faraday, Michael, ''Experimental Researches in Electricity. Seventh Series, Philosophical Transactions of the Royal Society of London (1776-1886)'', Volume 124, 1 January 1834, Page 77, [http://www.journals.royalsoc.ac.uk/link.asp?id=526145013443q040] consulted 2006-12-27 (in which Faraday introduces the words ''[[electrode]]'', ''[[anode]]'', ''cathode'', ''[[anion]]'', ''[[cation]]'', ''[[electrolyte]]'', ''[[electrolyze]]'')</ref><ref>Faraday, Michael, ''Experimental Researches in Electricity'', Volume 1, 1849, reprint of series 1 to 14, freely accessible Gutenberg.org transcript [http://www.gutenberg.org/etext/14986] consulted 2007-01-11</ref>
+
+The use of 'West' to mean the 'out' direction (actually 'out' → 'West' → 'sunset' → 'down', i.e. 'out of view') may appear unnecessarily contrived. Previously, as related in the first reference cited above, Faraday had used the more straightforward term "exode" (the doorway where the current exits). His motivation for changing it to something meaning 'the West electrode' (other candidates had been "westode", "occiode" and "dysiode") was to make it immune to a possible later change in the direction convention for [[electric current|current]], whose exact nature was not known at the time. The reference he used to this effect was the Earth's magnetic field direction, which at that time was believed to be invariant. He fundamentally defined his arbitrary orientation for the cell as being that in which the internal current would run parallel to and in the same direction as a hypothetical [[solenoid|magnetizing current loop]] around the local line of latitude which would induce a magnetic [[dipole]] field oriented like the Earth's. This made the internal current East to West as previously mentioned, but in the event of a later convention change it would have become West to East, so that the West electrode would not have been the 'way out' any more. Therefore "exode" would have become inappropriate, whereas "cathode" meaning 'West electrode' would have remained correct with respect to the unchanged direction of the actual phenomenon underlying the current, then unknown but, he thought, unambiguously defined by the magnetic reference. In retrospect the name change was unfortunate, not only because the Greek roots alone do not reveal the cathode's function any more, but more importantly because, as we now know, the Earth's magnetic field direction on which the "cathode" term is based is subject to [[Geomagnetic reversal|reversals]] whereas the [[electric current|current]] direction convention on which the "exode" term was based has no reason to change in the future.
+
+Since the later discovery of the [[electron]], an easier to remember, and more durably technically correct (although historically false), etymology has been suggested: cathode, from the Greek ''kathodos'', 'way down', 'the way (down) into the cell (or other device) for electrons'.
+
+==Flow of electrons==
+The flow of electrons is almost always from anode to cathode outside of the cell or device, regardless of the cell or device type and operating mode. An exception is when a [[diode]] reverse-conducts, either by accident (breakdown of a normal diode) or by design (breakdown of a Zener diode, photo-current of a photodiode or solar cell).
+
+==In chemistry==
+In [[chemistry]], a '''cathode''' is the [[electrode]] of an [[electrochemical cell]] at which [[Reduction (chemistry)|reduction]] occurs; a useful [[mnemonic]] to remember this is AnOx RedCat (Oxidation at the Anode = Reduction at the Cathode). [[List_of_chemistry_mnemonics#Electrodes|Another mnemonic]] is to note the cathode has a 'c', as does 'reduction'. Hence, reduction at the cathode. The cathode can be negative like when the cell is electrolytic (where electrical energy provided to the cell is being used for decomposing chemical compounds); or positive like when the cell is galvanic (where chemical reactions are used for generating electrical energy).  The cathode supplies electrons to the positively charged cations which flow to it from the electrolyte (even if the cell is galvanic, i.e., when the cathode is positive and therefore would be expected to repel the positively charged cations; this is due to [[electrode potential]] relative to the electrolyte solution being different for the anode and cathode metal/electrolyte systems in a [[galvanic cell]]).
+
+The '''cathodic current''', in [[electrochemistry]], is the flow of [[electron]]s from the cathode interface to a species in solution.  The '''anodic current''' is the flow of electrons into the anode from a species in solution.
+
+===Electrolytic cell===
+In an [[electrolytic cell]], the cathode is where the negative polarity is applied to drive the cell.  Common results of reduction at the cathode are hydrogen gas or pure metal from metal ions.  When discussing the relative reducing power of two redox agents, the couple for generating the more reducing species is said to be more "cathodic" with respect to the more easily reduced reagent.
+
+===Galvanic cell===
+In a [[galvanic cell]], the cathode is where the positive [[Polarity (physics)|pole]] is connected to allow the circuit to be completed: as the anode of the galvanic cell gives off electrons, they return from the circuit into the cell through the cathode.
+
+===Electroplating metal cathode (a.k.a Electrolysis)===
+When metal ions are reduced from ionic solution, they form a pure metal surface on the cathode.  Items to be plated with pure metal are attached to and become part of the cathode in the electrolytic solution.
+
+==In electronics==
+In [[physics]] or [[electronics]], a '''cathode''' is an electrode that emits electrons into the device.  This contrasts with an [[anode]], which accepts electrons. 
+
+===Vacuum tubes===
+[[Image:4-1000A linear RF deck build by K5LAD.jpg|thumb|Glow from the directly heated cathode of a 1 kW power [[tetrode]] tube in a radio transmitter.  The cathode filament is not directly visible]]
+
+In a vacuum tube or electronic vacuum system, the cathode is a metal surface which emits free electrons into the evacuated space.  Since the electrons are attracted to the positive nuclei of the metal atoms, they normally stay inside the metal and require energy to leave it; this is called the ''[[work function]]'' of the metal.<ref name="Avadhanulu">{{cite book   
+  | last = Avadhanulu
+  | first = M.N.
+  | coauthors = P.G. Kshirsagar
+  | title = A Textbook Of Engineering Physics For B.E., B.Sc. 
+  | publisher = S. Chand
+  | date = 1992
+  | location = 
+  | pages = 345-348
+  | url = http://books.google.com/books?id=lTUNWOR_cDgC&pg=PA345
+  | doi = 
+  | id = 
+  | isbn = 8121908175}}</ref>  Cathodes are induced to emit electrons by several mechanisms:<ref name="Avadhanulu" />  
+*''[[Thermionic emission]]'': The cathode can be heated.  The increased thermal motion of the metal atoms "knocks" electrons out of the surface, an effect called thermionic emission.  This technique is used in most vacuum tubes. 
+*''[[Field electron emission]]'': A strong [[electric field]] can be applied to the surface by placing an electrode with a high positive voltage near the cathode.   The positively-charged electrode attracts the electrons, causing some to leave the surface; this is called field electron emission.<ref name="Avadhanulu" />
+*''[[Secondary emission]]'': An electron, atom or molecule colliding with the surface of the cathode with enough energy can knock electrons out of the surface.  These electrons are called ''secondary electrons''.  This mechanism is used in [[gas-discharge lamp]]s such as [[neon lamp]]s.   
+*''[[Photoelectric emission]]'': Electrons can also be emitted from the [[electrode]]s of certain metals when light of [[frequency]] greater than the threshold frequency falls on it. This effect is called photoelectric emission, and the electrons produced are called ''photoelectrons''.<ref name="Avadhanulu" />  This effect is used in [[phototube]]s and [[image intensifier]] tubes. 
+
+Cathodes can be divided into two types:
+
+====Hot cathode====
+{{main|Hot cathode}}
+{{multiple image
+| align = right
+| direction = horizontal
+| header   =
+| image1   = Dubulttriode darbiibaa.jpg
+| caption1 = Two indirectly-heated cathodes (orange heater strip) in ECC83 dual triode tube
+| width1   = 137
+| image2   = Triode-english-text.svg
+| caption2 = Cutaway view of a [[triode]] vacuum tube with an indirectly-heated cathode ''(orange tube)'', showing the heater element inside
+| width2   = 170
+| footer   =
+}}
+
+A hot cathode is a cathode that is heated by a [[electrical filament|filament]] to produce electrons by [[thermionic emission]].<ref name="Avadhanulu" /><ref name="Whitaker">Ferris, Clifford "Electron tube fundamentals" in {{cite book   
+  | last = Whitaker
+  | first = Jerry C. 
+  | title = The Electronics Handbook, 2nd Ed.
+  | publisher = CRC Press
+  | date = 2013
+  | location = 
+  | pages = 354-356
+  | url = http://books.google.com/books?id=FdSQSAC3_EwC&pg=PA355
+  | doi = 
+  | id = 
+  | isbn = 1420036661}}</ref>  The filament is a thin wire of a [[refractory metal]] like [[tungsten]] heated red-hot by an electric current passing through it.  Before the advent of transistors in the 1960s, virtually all electronic equipment used hot-cathode [[vacuum tube]]s.  Today hot cathodes are used in vacuum tubes in radio transmitters and microwave ovens, to produce the electron beams in older [[cathode ray tube]] (CRT) type televisions and computer monitors, in [[x-ray machine]]s, [[electron microscope]]s, and [[fluorescent tube]]s. 
+
+There are two types of hot cathodes:<ref name="Avadhanulu" />
+*'''Directly heated cathode''': In this type, the filament itself is the cathode and emits the electrons directly.  Directly heated cathodes were used in the first vacuum tubes, but today they are only used in [[fluorescent tube]]s and some large transmitting vacuum tubes.
+*'''Indirectly heated cathode''': In this type, the filament is not the cathode but rather heats the cathode which then emits electrons.  Indirectly heated cathodes are used in most devices today.  For example, in most vacuum tubes the cathode is a nickel tube with the filament inside it, and the heat from the filament causes the outside surface of the tube to emit electrons.<ref name="Whitaker" />   The filament of an indirectly-heated cathode is usually called the ''heater''.   The main reason for using an indirectly heated cathode is to isolate the rest of the vacuum tube from the electric potential across the filament.  Many vacuum tubes use [[alternating current]] to heat the filament.  In a tube in which the filament itself was the cathode, the alternating [[electric field]] from the filament surface would affect the movement of the electrons and introduce hum into the tube output.  It also allows the filaments in all the tubes in an electronic device to be tied together and supplied from the same current source, even though the cathodes they heat may be at different potentials.
+
+In order to improve electron emission, cathodes are treated with chemicals, usually compounds of metals with a low [[work function]].  Treated cathodes require less surface area, lower temperatures and less power to supply the same cathode current.  The untreated tungsten filaments used in early tubes (called "bright emitters") had to be heated to 2500°F (1400°C), white-hot, to produce sufficient thermionic emission for use, while modern coated cathodes produce far more electrons at a given temperature so they only have to be heated to 800-1100°F (425-600°C)<ref name="Avadhanulu" /><ref name="Jones">{{cite book   
+  | last = Jones
+  | first = Martin Hartley 
+  | title = A Practical Introduction to Electronic Circuits
+  | publisher = Cambridge Univ. Press
+  | date = 1995
+  | location = UK
+  | pages = 49
+  | url = http://books.google.com/books?id=EEcemABAU44C&pg=PA49
+  | doi = 
+  | id = 
+  | isbn = 0521478790}}</ref><ref name="Poole">{{cite web
+  | last = Poole
+  | first = Ian
+  | title = Vacuum tube electrodes
+  | work = Vacuum Tube Theory Basics Tutorial
+  | publisher = [http://www.radio-electronics.com/    Radio-Electronics.com], Adrio Communications
+  | date = 2012
+  | url = http://www.radio-electronics.com/info/data/thermionic-valves/vacuum-tube-theory/tube-electrodes.php
+  | format = 
+  | doi = 
+  | accessdate = 3 October 2013}}</ref>  There are two main types of treated cathodes:<ref name="Avadhanulu" /><ref name="Whitaker" /> 
+
+[[Image:Neon lamp on DC.JPG|thumb|upright=0.5|Cold cathode ''(lefthand electrode)'' in [[neon lamp]] ]]
+
+*Coated cathode - In these the cathode is covered with a coating of [[alkali metal]] oxides, often [[barium]] and [[strontium]] oxide.  These are used in low-power tubes.
+*Thoriated tungsten - In high-power tubes, [[ion]] bombardment can destroy the coating on a coated cathode.   In these tubes a directly heated cathode consisting of a filament made of tungsten incorporating a small amount of [[thorium]] is used.  The layer of thorium on the surface which reduces the work function of the cathode is continually replenished as it is lost by diffusion of thorium from the interior of the metal.<ref name="Sisodia">{{cite book   
+  | last = Sisodia
+  | first = M. L. 
+  | title = Microwave Active Devices Vacuum and Solid State
+  | publisher = New Age International
+  | date = 2006
+  | location = 
+  | pages = 2.5
+  | url = http://books.google.com/books?id=mKs53pET-bkC&pg=SA2-PA4
+  | doi = 
+  | id = 
+  | isbn = 8122414478}}</ref>
+
+====Cold cathode====
+{{main|Cold cathode}}
+This is a cathode that is not heated by a filament.  They may emit electrons by [[field electron emission]], and in gas-filled tubes by [[secondary emission]].  Some examples are electrodes in [[neon light]]s, [[cold-cathode fluorescent lamp]]s (CCFLs) used as backlights in laptops, [[thyratron]] tubes, and [[Crookes tube]]s.   They do not necessarily operate at room temperature; in some devices the cathode is heated by the electron current flowing through it to a temperature at which [[thermionic emission]] occurs.   For example, in some fluorescent tubes a momentary high voltage is applied to the electrodes to start the current through the tube; after starting the electrodes are heated enough by the current to keep emitting electrons to sustain the discharge.
+
+Cold cathodes may also emit electrons by [[photoelectric emission]].  These are often called ''photocathodes'' and are used in [[phototube]]s used in scientific instruments and [[image intensifier]] tubes used in night vision goggles.
+
+===Diodes===
+[[Image:Diode symbol.svg|thumb|right]]
+In a [[semiconductor device|semiconductor]] [[diode]], the cathode is the [[N–doped]] layer of the [[PN junction]] with a high density of free electrons due to doping, and an equal density of fixed positive charges, which are the dopants that have been thermally ionized. In the anode, the converse applies: It features a high density of free "holes" and consequently fixed negative dopants which have captured an electron (hence the origin of the holes).
+
+When P and N-doped layers are created adjacent to each other, diffusion ensures that electrons flow from high to low density areas: That is, from the N to the P side. They leave behind the fixed positively charged dopants near the junction. Similarly, holes diffuse from P to N leaving behind fixed negative ionised dopants near the junction. These layers of fixed positive and negative charges, collectively known as the depletion layer because they are depleted of free electrons and holes. The depletion layer at the junction is at the origin of the diode's rectifying properties. This is due to the resulting internal field and corresponding potential barrier which inhibit current flow in reverse applied bias which increases the internal depletion layer field. Conversely, they allow it in forwards applied bias where the applied bias reduces the built in potential barrier.
+
+Electrons which diffuse from the cathode into the P-doped layer, or anode, become what is termed "minority carriers" and tend to recombine there with the majority carriers, which are holes, on a timescale characteristic of the material which is the p-type minority carrier lifetime. Similarly, holes diffusing into the N-doped layer become minority carriers and tend to recombine with electrons. In equilibrium, with no applied bias, thermally assisted diffusion of electrons and holes in opposite directions across the depletion layer ensure a zero net current with electrons flowing from cathode to anode and recombining, and holes flowing from anode to cathode across the junction or depletion layer and recombining.
+
+Like a typical diode, there is a fixed anode and cathode in a Zener diode, but it will conduct current in the reverse direction (electrons flow from anode to cathode) if its breakdown voltage or "Zener voltage" is exceeded.
+
+==See also==
+{{Div col}}
+*[[Anode]]
+*[[Battery (electricity)|Battery]]
+*[[Cathode bias]]
+*[[Electrode]]
+*[[Electrolysis]]
+*[[Electrolytic cell]]
+*[[Electron tube]]
+*[[Oxidation-reduction]]
+*[[Poly(3,4-ethylenedioxythiophene)|PEDOT]]
+{{Div col end}}
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.crtsite.com The Cathode Ray Tube site]
+*[http://www.av8n.com/physics/anode-cathode.htm How to define anode and cathode]
+
+{{Galvanic cells}}
+
+[[Category:Electrodes]]

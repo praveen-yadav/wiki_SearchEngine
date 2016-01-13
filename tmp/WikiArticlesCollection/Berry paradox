@@ -1,0 +1,53 @@
+The '''Berry paradox''' is a [[self-referential]] [[paradox]] arising from an expression like "the smallest positive integer not definable in fewer than twelve [[word]]s" (note that this defining phrase has fewer than twelve words). [[Bertrand Russell]], the first to discuss the paradox in print, attributed it to G. G. Berry (1867–1928),<ref>{{cite book| author = Nicholas Griffin| title = The Cambridge Companion to Bertrand Russell| url = http://books.google.com/?id=obY48lTt-2AC&pg=PA63| date = 2003-06-23| publisher = Cambridge University Press| isbn = 978-0-521-63634-6| page = 63 }}</ref> a junior [[librarian]] at [[Oxford]]'s [[Bodleian library]], who had suggested the more limited paradox arising from the expression "the first [[definable number|undefinable]] [[ordinal number|ordinal]]".
+
+== The paradox ==
+Consider the expression:
+
+:"The smallest [[Positive number|positive]] [[integer]] not definable in under eleven words."
+
+Since there are [[finite set|finitely]] many words, there are finitely many phrases of under eleven words, and hence finitely many positive integers that are defined by phrases of under eleven words. Since there are infinitely many positive integers, this means that there are positive integers that cannot be defined by phrases of under eleven words. By the [[well ordering principle]], if there are positive integers that satisfy a given property, then there is a ''smallest'' positive integer that satisfies that property; therefore, there is a smallest positive integer satisfying the property "not definable in under eleven words". This is the integer to which the above expression refers. The above expression is only ten words long, so this integer is defined by an expression that is under eleven words long; it ''is'' definable in under eleven words, and is ''not'' the smallest positive integer not definable in under eleven words, and is ''not'' defined by this expression. This is a paradox: there must be an integer defined by this expression, but since the expression is self-contradictory (any integer it defines is definable in under eleven words), there cannot be any integer defined by it.
+
+== Resolution ==
+The  Berry paradox as formulated above arises because of systematic [[ambiguity]] in the word "definable". In other formulations of the Berry paradox, such as one that instead reads: "...not [[name]]able in less..." the term "nameable" is also one that has this systematic ambiguity. Terms of this kind give rise to [[vicious circle principle|vicious circle]] fallacies. Other terms with this type of ambiguity are: satisfiable, true, false, function, property, class, relation, cardinal, and ordinal.<ref>Russell and Whitehead (1927).</ref> To resolve one of these paradoxes means to pinpoint exactly where our use of language went wrong and to provide restrictions on the use of language which may avoid them.
+
+This family of paradoxes can be resolved by incorporating stratifications of meaning in language. Terms with systematic ambiguity may be written with subscripts denoting that one level of meaning is considered a higher priority than another in their interpretation. "The number not nameable<sub>0</sub> in less than eleven words" may be nameable<sub>1</sub> in less than eleven words under this scheme.<ref>[[Willard Quine|Quine, Willard]] (1976) ''Ways of Paradox''. Harvard Univ. Press</ref>
+
+== Formal analogues ==
+
+Using programs or proofs of bounded lengths, it is possible to construct an analogue of the Berry expression in a formal mathematical language, as has been done by [[Gregory Chaitin]].  Though the formal analogue does not lead to a logical contradiction, it does prove  certain impossibility results.
+
+[[George Boolos]] (1989) built on a formalized version of Berry's paradox to prove [[Gödel's Incompleteness Theorem]] in a new and much simpler way. The basic idea of his proof is that a [[proposition]] that holds of ''x'' if ''x'' = ''n'' for some natural number ''n'' can be called a ''definition'' for ''n'', and that the set {(''n'', ''k''): ''n'' has a definition that is ''k'' symbols long} can be shown to be representable (using [[Gödel number]]s). Then the proposition "''m'' is the first number not definable in less than ''k'' symbols" can be formalized and shown to be a definition in the sense just stated.
+
+==Relationship with Kolmogorov complexity==
+{{main | Kolmogorov complexity}}
+
+It is not possible in general to unambiguously define what is the minimal number of symbols required to describe a given string (given a specific description mechanism). In this context, the terms ''string'' and ''number'' may be used interchangeably, since a number is actually a string of symbols, i.e. an English word (like the word "eleven" used in the paradox) while, on the other hand, it is possible to refer to any word with a number, e.g. by the number of its position in a given dictionary, or by suitable encoding. Some long strings can be described exactly using fewer symbols than those required by their full representation, as is often experienced using [[data compression]]. The complexity of a given string is then defined as the minimal length that a description requires in order to (unambiguously) refer to the full representation of that string.
+
+The Kolmogorov complexity is defined using [[formal language]]s, or [[Turing machines]] which avoids ambiguities about which string results from a given description. It can be proven that the Kolmogorov complexity is not computable. The proof by contradiction shows that if it were possible to compute the Kolmogorov complexity, then it would also be possible to systematically generate paradoxes similar to this one, i.e. descriptions shorter than what the complexity of the described string implies. That is to say, the definition of the Berry number is paradoxical because it is not actually possible to compute how many words are required to define a number, and we know that such computation is not feasible because of the paradox.
+
+== See also ==
+* [[Busy beaver]]
+* [[Definable number]]
+* [[Interesting number paradox]]
+* [[List of paradoxes]]
+* [[Richard's paradox]]
+
+==Notes==
+{{Reflist}}
+
+==References==
+* Bennett, Charles H. (1979) "[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.27.3492&rep=rep1&type=pdf On Random and Hard-to-Describe Numbers.]" [http://researcher.watson.ibm.com/researcher/view_pubs.php?person=us-bennetc&t=1 IBM Report RC7483].<!---apparently-outdated:---http://www.research.ibm.com/people/b/bennetc/Onrandom.pdf--->
+* [[George Boolos|Boolos, George]] (1989) "A new proof of the Gödel Incompleteness Theorem", ''Notices of the American Mathematical Society 36'': 388–90; 676. Reprinted in his (1998) ''Logic, Logic, and Logic''. Harvard Univ. Press: 383-88.
+* Chaitin, Gregory (1993), [http://www.cs.auckland.ac.nz/CDMTCS/chaitin/unm2.html Transcript of lecture given 27 October 1993 at the University of New Mexico]
+* [[Gregory Chaitin|Chaitin, Gregory]] (1995) "[http://onlinelibrary.wiley.com/doi/10.1002/cplx.6130010107/pdf The Berry Paradox.]" ''Complexity 1'': 26-30.
+* French, James D. (1988) "[http://www.jstor.org/pss/2274615 The False Assumption Underlying Berry's Paradox,]" ''Journal of Symbolic Logic 53'': 1220–1223.
+* [[Bertrand Russell|Russell, Bertrand]] (1906) "Les paradoxes de la logique", ''Revue de métaphysique et de morale 14'': 627–650
+* Russell, Bertrand; [[Alfred N. Whitehead|Whitehead, Alfred N.]] (1927) ''[[Principia Mathematica]]''. Cambridge University Press. 1962 partial paperback reissue goes up to *56.
+
+==External links==
+* Roosen-Runge, Peter H. (1997) "[http://www.cs.yorku.ca/~peter/Berry.html Berry's Paradox.]"
+* {{MathWorld |title=Berry Paradox |urlname=BerryParadox}}
+
+{{DEFAULTSORT:Berry Paradox}}
+[[Category:Mathematics paradoxes]]
+[[Category:Self-referential paradoxes]]

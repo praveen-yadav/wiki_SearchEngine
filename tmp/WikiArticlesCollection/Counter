@@ -1,0 +1,121 @@
+{{About|the term counter used in electronics and computing}}
+
+In [[digital logic]] and [[computing]], a '''counter''' is a device which stores (and sometimes displays) the number of times a particular [[event (philosophy)|event]] or [[Process (computing)|process]] has occurred, often in relationship to a [[clock signal]].
+
+== Electronic counters ==
+In [[electronics]], counters can be implemented quite easily using register-type circuits such as the [[Flip-flop (electronics)|flip-flop]], and a wide variety of classifications exist:
+* Asynchronous (ripple) counter – changing state bits are used as clocks to subsequent state flip-flops
+* Synchronous counter – all state bits change under control of a single clock
+* Decade counter – counts through ten states per stage
+* Up/down counter – counts both up and down, under command of a control input
+* Ring counter – formed by a [[shift register]] with feedback connection in a ring
+* Johnson counter – a ''twisted'' ring counter
+* Cascaded counter
+* modulus counter.
+
+Each is useful for different applications. Usually, counter circuits are [[Digital data|digital]] in nature, and count in [[binary numeral system|natural binary]]. Many types of counter circuits are available as digital building blocks, for example a number of chips in the [[4000 series]] implement different counters.
+
+Occasionally there are advantages to using a counting sequence other than the natural binary sequence—such as the [[binary coded decimal]] counter, a [[linear feedback shift register#Uses as counters|linear feedback shift register]] counter, or a [[Gray Code#Gray code counters and arithmetic|Gray-code]] counter.
+
+Counters are useful for digital clocks and timers, and in oven timers, VCR clocks, etc.<ref>{{Citation | title = Digital | publisher = Play hookey | contribution = Synchronous counter | url = http://www.play-hookey.com/digital/synchronous_counter.html}}.</ref>
+
+. This counter will increment once for every clock cycle and takes two clock cycles to overflow, so every cycle it will alternate between a transition from 0 to 1 and a transition from 1 to 0. Notice that this creates a new clock with a 50% [[duty cycle]] at exactly half the frequency of the input clock. If this output is then used as the clock signal for a similarly arranged D flip-flop (remembering to invert the output to the input), one will get another 1 bit counter that counts half as fast. Putting them together yields a two-bit counter:
+{| class="wikitable" style="text-align:center"
+|-
+! Cycle !! Q1 !! Q0 !! (Q1:Q0)dec
+|-
+| 0 || 0 || 0  || 0
+|-
+| 1 || 0 || 1  || 1
+|-
+| 2 || 1 || 0  || 2
+|-
+| 3 || 1 || 1  || 3
+|-
+| 4 || 0 || 0  || 0
+|}
+
+You can continue to add additional flip-flops, always inverting the output to its own input, and using the output from the previous flip-flop as the clock signal. The result is called a ripple counter, which can count to 2<sup>''n''</sup>&tbsp;−&tbsp;1 where ''n'' is the number of bits (flip-flop stages) in the counter. Ripple counters suffer from unstable outputs as the overflows "Ripple" from stage to stage, but they do find frequent application as dividers for clock signals, where the instantaneous count is unimportant, but the division [[ratio]] overall is (to clarify this, a 1-bit counter is exactly equivalent to a divide by two circuit; the output frequency is exactly half that of the input when fed with a regular train of clock pulses).
+
+The use of flip-flop outputs as clocks leads to timing skew between the count data bits, making this ripple technique incompatible with normal [[synchronous circuit]] design styles.
+
+=== Synchronous counter ===
+[[File:4-bit-jk-flip-flop V1.1.svg|thumb|400px|right|A 4-bit synchronous counter using JK flip-flops]]
+
+Synchronous Counters
+
+In synchronous counters, the clock inputs of all the flip-flops are connected together and are triggered by the input pulses.  Thus, all the flip-flops change state simultaneously (in parallel).  The circuit below is a 4-bit synchronous counter.  The J and K inputs of FF0 are connected to HIGH.  FF1 has its J and K inputs connected to the output of FF0, and the J and K inputs of FF2 are connected to the output of an AND gate that is fed by the outputs of FF0 and FF1.
+A simple way of implementing the logic for each bit of an ascending counter (which is what is depicted in the image to the right) is for each bit to toggle when all of the less significant bits are at a logic high state.  For example, bit 1 toggles when bit 0 is logic high; bit 2 toggles when both bit 1 and bit 0 are logic high; bit 3 toggles when bit 2, bit 1 and bit 0 are all high; and so on.
+
+Synchronous counters can also be implemented with hardware [[finite state machine]]s, which are more complex but allow for smoother, more stable transitions.
+
+Hardware-based counters are of this type.
+
+=== Decade counter ===
+[[File:DecadeCounter.jpg|thumb|A circuit diagram of decade counter using JK Flip-flops (74LS112D)]]
+A decade counter is one that counts in decimal digits, rather than binary.  A decade counter may have each digit binary encoded (that is, it may count in [[binary-coded decimal]], as the [[List of 7400 series integrated circuits|7490]] integrated circuit did) or other binary encodings. "A decade counter is a binary counter that is designed to count to 1010b (decimal 10). An ordinary four-stage counter can be easily modified to a decade counter by adding a NAND gate as shown in figure 3-25. Notice that FF2 and FF4 provide the inputs to the NAND gate. The NAND gate outputs are connected to the CLR input of each of the FFs." 
+A decade counter is one that counts in decimal digits, rather than binary. It counts from 0 to 9 and then resets to zero. The counter output can be set to zero by pulsing the reset line low. The count then increments on each clock pulse until it reaches 1001 (decimal 9). When it increments to 1010 (decimal 10) both inputs of the NAND gate go high. The result is that the NAND output goes low, and resets the counter to zero. D going low can be a CARRY OUT signal, indicating that there has been a count of ten.
+
+=== Up/down counter ===
+A counter that can change state in either direction, under the control of an up or down selector input, is known as an up/down counter.  When the selector is in the up state, the counter increments its value. When the selector is in the down state, the counter decrements the count.
+
+=== Ring counter ===
+{{main|Ring counter}}
+A ring counter is a circular shift register which is initiated such that only one of its flip-flops is the state one while others are in their zero states.
+
+A ring counter is a [[Shift register|Shift Register]] (a cascade connection of [[Flip-flop (electronics)|flip-flops]]) with the output of the last one connected to the input of the first, that is, in a ring.  Typically, a pattern consisting of a single bit is circulated so the state repeats every n clock cycles if n flip-flops are used. It can be used as a cycle counter of n states.
+
+=== Johnson counter ===
+{{main|Ring counter}}
+A Johnson counter (or switchtail ring counter, twisted-ring counter, walking-ring counter, or Moebius counter) is a modified ring counter, where the output from the last stage is inverted and fed back as input to the first stage.<ref>{{cite book | title = Digital Principles Foundation of Circuit Design and Application | first = Arun Kumar | last = Singh | publisher =  New Age Publishers | year = 2006 | isbn = 81-224-1759-0 | url = http://books.google.com/books?id=13Wi37h2A-oC&pg=PA113&dq=switchtail+ring+counter+johnson}}</ref><ref>{{cite book | title = The Art of Electronics | first1 = Paul | last1 = Horowitz | first2 = Winfield | last2 = Hill | publisher = Cambridge University Press | year = 1989 | isbn = 0-521-37095-7 | url = http://books.google.com/books?id=bkOMDgwFA28C&pg=PA667&dq=ring+counter+walking}}</ref><ref>{{cite book | title = Modern Dictionary of Electronics | first = Rudolf F | last = Graf | publisher = Newnes | year = 1999 | isbn = 0-7506-9866-7 | url = http://books.google.com/books?id=uah1PkxWeKYC&pg=PA401&dq=moebius+ring+counter+johnson}}</ref>  The register cycles through a sequence of bit-patterns, whose length is equal to twice the length of the shift register, continuing indefinitely. These counters find specialist applications, including those similar to the decade counter, digital-to-analog conversion, etc.  They can be implemented easily using D- or JK-type flip-flops.
+
+== Computer science counters ==
+{{main|Register machine}}
+
+In [[computability theory]], a '''counter''' is considered a type of memory. A counter stores a single [[natural number]] (initially [[0 (number)|zero]]) and can be arbitrarily long. A counter is usually considered in conjunction with a [[finite-state machine]] (FSM), which can perform the following operations on the counter:
+
+* Check whether the counter is zero
+* Increment the counter by one.
+* Decrement the counter by one (if it's already zero, this leaves it unchanged).
+
+The following machines are listed in order of power, with each one being strictly more powerful than the one below it:
+# Deterministic or non-deterministic FSM plus two counters
+# Non-deterministic FSM plus one [[stack (data structure)|stack]]
+# Non-deterministic FSM plus one counter
+# Deterministic FSM plus one counter
+# Deterministic or non-deterministic FSM.
+
+For the first and last, it doesn't matter whether the FSM is a [[deterministic finite automaton]] or a [[nondeterministic finite automaton]]. They have power. The first two and the last one are levels of the [[Chomsky hierarchy]].
+
+The first machine, an FSM plus two counters, is equivalent in power to a [[Turing machine]]. See the article on [[counter machine]]s for a proof.
+
+=== Web counter ===
+[[File:WebCounter.png|right|a webmaster's counter options|thumb]]
+:: <small>main article [[Web counter]]</small>
+
+A '''web counter''' or '''hit counter''' is a computer software program that indicates the number of visitors, or hits, a particular [[webpage]] has received. Once set up, these counters will be incremented by one every time the web page is accessed in a [[web browser]].
+
+The number is usually displayed as an inline [[digital image]] or in [[plain text]] or on a physical counter such as a [[#Mechanical counters|mechanical counter]]. Images may be presented in a variety of [[fonts]], or styles; the classic example is the wheels of an [[odometer]].
+
+''Web counter'' was popular in the 1980s and 1990's, later replaced by more util and complete [[web traffic]] measures.
+
+== Mechanical counters ==
+[[File:Teller (3).jpg|thumb|Mechanical counter wheels showing both sides. The bump on the wheel shown at the top engages the ratchet on the wheel below every turn.]]
+[[File:CountersMechanical.agr.jpg|thumb|left|Several mechanical counters]]
+Long before electronics became common, mechanical devices were used to count events. These are known as [[tally counter]]s. They typically consist of a series of disks mounted on an axle, with the digits 0 through 9 marked on their edge. The right most disk moves one increment with each event. Each disk except the left-most has a protrusion that, after the completion of one revolution, moves the next disk to the left one increment. Such counters were originally used  to control manufacturing processes, but were later used as [[odometer]]s for bicycles and cars and in [[tape recorders]] and [[fuel dispenser]]s. One of the largest manufacturers was the Veeder-Root company, and their name was often used for this type of counter.<ref>{{Citation | url = http://www.veeder.com/page/vr_history | title = VR History | publisher = Veeder}}.</ref>
+
+{{commons category|mechanical counters}}
+
+== Computer based counters ==
+
+Many automation systems use PC and laptops to monitor different parameters of machines & production data. Counters may count parameters such as the number of pieces produced, the production batch number, and measurements of the amount of material.
+
+== See also ==
+*[[Time to digital converter]]
+*[[Geneva drive]]
+
+== References ==
+<references/>
+
+[[Category:Numeral systems]]
+[[Category:Digital circuits]]

@@ -1,0 +1,39 @@
+{{no footnotes|date=March 2013}}
+[[Image:Booch-diagram.png|thumb|250px|Class diagram]]
+
+The '''Booch method''' is a technique used in [[software engineering]]. It is an [[object modeling language]] and methodology that was widely used in [[object-oriented analysis and design]]. It was developed by [[Grady Booch]], while at [[Rational Software]] (now part of [[IBM]]).
+
+The notation aspect of the Booch method has now been superseded by the [[Unified Modeling Language]] (UML), which features graphical elements from the Booch method along with elements from the [[object-modeling technique]] (OMT) and [[object-oriented software engineering]] (OOSE).
+
+Methodological aspects of the Booch method have been incorporated into several methodologies and processes, the primary such methodology being the [[Rational Unified Process]] (RUP).
+
+The Booch design methodology, like OMT, is extensively used and has ample documentation and support tools.
+
+==References==
+*{{cite book
+ | first = Grady
+ | last = Booch
+ | authorlink = Grady Booch
+ | year = 1993
+ | title = Object-oriented Analysis and Design with Applications
+ | edition = 2nd ed.
+ |  location= Redwood City | publisher=Benjamin Cummings
+ | isbn = 0-8053-5340-2
+}}
+*{{cite book
+ | first = Robert Cecil
+ | last = Martin
+ | authorlink = Robert Cecil Martin
+ | year = 1995
+ | title = Designing Object-Oriented C++ Applications using the Booch Method
+ | publisher = Prentice-Hall
+ | isbn = 0-13-203837-4
+}}
+
+==External links==
+*[http://salmosa.kaist.ac.kr/BoochReferenz/class.html Class diagrams], [http://salmosa.kaist.ac.kr/BoochReferenz/object.html Object diagrams], [http://salmosa.kaist.ac.kr/BoochReferenz/state.html State Event diagrams] and [http://salmosa.kaist.ac.kr/BoochReferenz/module.html Module diagrams].
+
+{{DEFAULTSORT:Booch Method}}
+[[Category:Object-oriented programming]]
+
+[[de:Grady Booch#Booch-Notation]]

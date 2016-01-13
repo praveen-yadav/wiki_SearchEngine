@@ -1,0 +1,389 @@
+{{merge from|Standard deviation#Rapid calculation methods|date=February 2013}}
+
+'''Algorithms for calculating variance''' play a major role in [[statistics|statistical]] computing. A key problem in the design of good [[algorithm]]s for this problem is that formulas for the [[variance]] may involve sums of squares, which can lead to [[numerical instability]] as well as to [[arithmetic overflow]] when dealing with large values.
+
+==Naïve algorithm==
+A formula for calculating the variance of an entire [[statistical population|population]] of size ''N'' is:
+
+:<math>\sigma^2 = \displaystyle\frac {\sum_{i=1}^N x_i^2 - (\sum_{i=1}^N x_i)^2/N}{N}. \!</math>
+
+A formula for calculating an [[estimator bias|unbiased]] estimate of the population variance from a finite [[statistical sample|sample]] of ''n'' observations is:
+
+:<math>s^2 = \displaystyle\frac {\sum_{i=1}^n x_i^2 - (\sum_{i=1}^n x_i)^2/n}{n-1}. \!</math>
+
+Therefore a naive algorithm to calculate the estimated variance is given by the following:
+
+<source lang="python">
+def naive_variance(data):
+    n = 0
+    Sum = 0
+    Sum_sqr = 0
+    
+    for x in data:
+        n = n + 1
+        Sum = Sum + x
+        Sum_sqr = Sum_sqr + x*x
+     
+    variance = (Sum_sqr - (Sum*Sum)/n)/(n - 1)
+    return variance
+</source>
+
+This algorithm can easily be adapted to compute the variance of a finite population: simply divide by ''N'' instead of ''n''&nbsp;−&nbsp;1 on the last line.
+
+Because <code>Sum_sqr</code> and <code>(Sum*Sum)/n</code> can be very similar numbers, [[Loss of significance|cancellation]] can lead to the [[precision (arithmetic)|precision]] of the result to be much less than the inherent precision of the [[floating-point]] arithmetic used to perform the computation.  Thus this algorithm should not be used in practice.<ref name="Einarsson2005">{{cite book|author=Bo Einarsson|title=Accuracy and Reliability in Scientific Computing|url=http://books.google.com/books?id=8hrDV5EbrEsC|accessdate=17 February 2013|date=1 August 2005|publisher=SIAM|isbn=978-0-89871-584-2|page=47}}</ref><ref name="Chan1983">{{cite journal|url=http://www.cs.yale.edu/publications/techreports/tr222.pdf|author=T.F.Chan, G.H. Golub and R.J. LeVeque|title="Algorithms for computing the sample variance: Analysis and recommendations", The American Statistician, 37|pages=242–247|year=1983}}</ref> This is particularly bad if the standard deviation is small relative to the mean. However, the algorithm can be improved by adopting the method of the [[assumed mean]].
+
+==Two-pass algorithm==
+An alternative approach, using a different formula for the variance, first computes the sample mean,
+:<math>\bar x = \displaystyle \frac {\sum_{j=1}^n x_j}{n}</math>,
+and then computes the sum of the squares of the differences from the mean,
+:<math>\mathrm{variance} = s^2 = \displaystyle\frac {\sum_{i=1}^n (x_i - \bar x)^2}{n-1} \!</math>,
+where s is the standard deviation.  This is given by the following pseudocode:
+
+<source lang="python">
+def two_pass_variance(data):
+    n    = 0
+    sum1 = 0
+    sum2 = 0
+    
+    for x in data:
+        n    = n + 1
+        sum1 = sum1 + x
+    
+    mean = sum1/n
+
+    for x in data:
+        sum2 = sum2 + (x - mean)*(x - mean)
+    
+    variance = sum2/(n - 1)
+    return variance
+</source>
+
+This algorithm is always numerically stable, unless n is large.<ref name="Einarsson2005"/><ref>{{cite book|first=Nicholas | last=Higham |title=Accuracy and Stability of Numerical Algorithms (2 ed) (Problem 1.10)| publisher=SIAM|year=2002}}</ref>  Although it can be worse if much of the data is very close to but not precisely equal to the mean and some are quite far away from it{{Citation needed|date=November 2011}}.<!-- The first algorithm has less subtractions, that are a common form of losing precision in algorithms implemented in finite precision computers.-->
+
+The results of both of these simple algorithms (I and II) can depend inordinately on the ordering of the data and can give poor results for very large data sets due to repeated roundoff error in the accumulation of the sums. Techniques such as [[compensated summation]] can be used to combat this error to a degree.
+
+===Compensated variant===
+The compensated-summation version of the algorithm above reads:<ref name=":0" /><!--Where did this algorithm come from?  It is not the normal form for a Kahan summation.-->
+
+<source lang="python">
+def compensated_variance(data):
+    n = 0
+    sum1 = 0
+    for x in data:
+        n = n + 1
+        sum1 = sum1 + x
+    mean = sum1/n
+     
+    sum2 = 0
+    sum3 = 0
+    for x in data:
+        sum2 = sum2 + (x - mean)**2
+        sum3 = sum3 + (x - mean)
+    variance = (sum2 - sum3**2/n)/(n - 1)
+    return variance
+</source>
+
+==Online algorithm==
+{{move section portions from|Average#In data streams|date=April 2013}}
+It is often useful to be able to compute the variance in a single pass, inspecting each value <math>x_i</math> only once; for example, when the data are being collected without enough storage to keep all the values, or when costs of memory access dominate those of computation.  For such an [[online algorithm]], a [[recurrence relation]] is required between quantities from which the required statistics can be calculated in a numerically stable fashion.
+
+The following formulas can be used to update the [[mean]] and (estimated) variance of the sequence, for an additional element <math>x_{\mathrm{new}}</math>. Here, ''{{overline|x}}<sub>n</sub>'' denotes the sample mean of the first ''n'' samples (''x''<sub>1</sub>, ..., ''x<sub>n</sub>''), ''s''<sup>2</sup><sub>''n''</sub> their sample variance, and ''σ''<sup>2</sup><sub>''N''</sub> their population variance.
+
+:<math>\bar x_n = \frac{(n-1) \, \bar x_{n-1} + x_n}{n} = \bar x_{n-1} + \frac{x_n - \bar x_{n-1}}{n} \!</math>
+
+:<math>s^2_n = \frac{(n-2)}{(n-1)} \, s^2_{n-1} + \frac{(x_n - \bar x_{n-1})^2}{n}, \quad n>1 </math>
+
+:<math>\sigma^2_N = \frac{(N-1) \, \sigma^2_{N-1} + (x_N - \bar x_{N-1})(x_N - \bar x_{N})}{N}.</math>
+
+It turns out that a more suitable quantity for updating is the sum of squares of differences from the (current) mean, <math>\textstyle\sum_{i=1}^n (x_i - \bar x_n)^2</math>, here denoted <math>M_{2,n}</math>:
+
+:<math>M_{2,n}\! = M_{2,n-1} + (x_n - \bar x_{n-1})(x_n - \bar x_n)</math>
+:<math>s^2_n = \frac{M_{2,n}}{n-1}</math>
+:<math>\sigma^2_N = \frac{M_{2,N}}{N}</math>
+
+A numerically stable algorithm is given below.  It also computes the mean.
+This algorithm is due to Knuth,<ref>[[Donald E. Knuth]] (1998). ''[[The Art of Computer Programming]]'', volume 2: ''Seminumerical Algorithms'', 3rd edn., p. 232. Boston: Addison-Wesley.</ref> who cites Welford,<ref>B. P. Welford (1962).[http://www.jstor.org/stable/1266577 "Note on a method for calculating corrected sums of squares and products"]. ''[[Technometrics]]'' 4(3):419–420.</ref> and it has been thoroughly analyzed.<ref>Chan, Tony F.; Golub, Gene H.; LeVeque, Randall J. (1983). Algorithms for Computing the Sample Variance: Analysis and Recommendations. The American Statistician 37, 242-247. http://www.jstor.org/stable/2683386</ref><ref>Ling, Robert F. (1974). Comparison of Several Algorithms for Computing Sample Means and Variances. Journal of the American Statistical Association, Vol. 69, No. 348, 859-866. {{doi|10.2307/2286154}}</ref> It is also common to denote <math>M_k = \bar x_k</math> and <math>S_k = M_{2,k}</math>.<ref>http://www.johndcook.com/standard_deviation.html</ref>
+
+<source lang="python">
+def online_variance(data):
+    n = 0
+    mean = 0
+    M2 = 0
+     
+    for x in data:
+        n = n + 1
+        delta = x - mean
+        mean = mean + delta/n
+        M2 = M2 + delta*(x - mean)
+ 
+    variance = M2/(n - 1)
+    return variance
+</source>
+
+This algorithm is much less prone to loss of precision due to [[Catastrophic cancellation|massive cancellation]], but might not be as efficient because of the division operation inside the loop.  For a particularly robust two-pass algorithm for computing the variance, first compute and subtract an estimate of the mean, and then use this algorithm on the residuals.
+
+The [[Algorithms for calculating variance#Parallel algorithm|parallel algorithm]] below illustrates how to merge multiple sets of statistics calculated online.
+
+==Weighted incremental algorithm==
+The algorithm can be extended to handle unequal sample weights, replacing the simple counter ''n'' with the sum of weights seen so far.  West (1979)<ref>D. H. D. West (1979). ''[[Communications of the ACM]]'', 22, 9, 532-535: ''Updating Mean and Variance Estimates: An Improved Method''</ref> suggests this incremental algorithm:
+
+<source lang="python">
+def weighted_incremental_variance(dataWeightPairs):
+    sumweight = 0
+    mean = 0
+    M2 = 0
+
+    for x, weight in dataWeightPairs:  # Alternatively "for x, weight in zip(data, weights):"
+        temp = weight + sumweight
+        delta = x - mean
+        R = delta * weight / temp
+        mean = mean + R
+        M2 = M2 + sumweight * delta * R  # Alternatively, "M2 = M2 + weight * delta * (x−mean)"
+        sumweight = temp
+
+    variance_n = M2/sumweight
+    variance = variance_n * len(dataWeightPairs)/(len(dataWeightPairs) − 1)
+</source>
+
+==Parallel algorithm==
+Chan et al.<ref name=":0">{{Citation
+  | last1 = Chan     | first1 = Tony F.      | author1-link = Tony F. Chan
+  | last2 = Golub    | first2 = Gene H.      | author2-link = Gene H. Golub
+  | last3 = LeVeque  | first3 = Randall J.
+  | contribution = Updating Formulae and a Pairwise Algorithm for Computing Sample Variances.
+  | title = Technical Report STAN-CS-79-773
+  | publisher = Department of Computer Science, Stanford University
+  | year = 1979
+  | contribution-url = ftp://reports.stanford.edu/pub/cstr/reports/cs/tr/79/773/CS-TR-79-773.pdf }}.</ref> note that the above online algorithm III is a special case of an algorithm that works for any partition of the sample <math>X</math> into sets <math>X_A</math>, <math>X_B</math>:
+:<math>\delta\! = \bar x_B - \bar x_A</math>
+:<math>\bar x_X = \bar x_A + \delta\cdot\frac{n_B}{n_X}</math>
+:<math>M_{2,X} = M_{2,A} + M_{2,B} + \delta^2\cdot\frac{n_A n_B}{n_X}</math>.
+This may be useful when, for example, multiple processing units may be assigned to discrete parts of the input.
+
+Chan's method for estimating the mean is numerically unstable when <math>n_A \approx n_B</math> and both are large, because the numerical error in <math>\bar x_B - \bar x_A</math> is not scaled down in the way that it is in the <math>n_B = 1</math> case. In such cases, prefer <math>\bar x_X = \frac{n_A \bar x_A + n_B \bar x_B}{n_A + n_B}</math>.
+
+==Example==
+Assume that all floating point operations use the standard [[IEEE 754#Double-precision 64 bit|IEEE 754 double-precision]] arithmetic. Consider the sample (4, 7, 13, 16) from an infinite population. Based on this sample, the estimated population mean is 10, and the unbiased estimate of population variance is 30.  Both Algorithm I and Algorithm II compute these values correctly.  Next consider the sample (10<sup>8</sup>&nbsp;+&nbsp;4, 10<sup>8</sup>&nbsp;+&nbsp;7, 10<sup>8</sup>&nbsp;+&nbsp;13, 10<sup>8</sup>&nbsp;+&nbsp;16), which gives rise to the same estimated variance as the first sample.  Algorithm II computes this variance estimate correctly, but Algorithm I returns 29.333333333333332 instead of 30.  While this loss of precision may be tolerable and viewed as a minor flaw of Algorithm I, it is easy to find data that reveal a major flaw in the naive algorithm: Take the sample to be (10<sup>9</sup>&nbsp;+&nbsp;4, 10<sup>9</sup>&nbsp;+&nbsp;7, 10<sup>9</sup>&nbsp;+&nbsp;13, 10<sup>9</sup>&nbsp;+&nbsp;16).  Again the estimated population variance of 30 is computed correctly by Algorithm II, but the naive algorithm now computes it as −170.66666666666666.  This is a serious problem with Algorithm I and is due to [[catastrophic cancellation]] in the subtraction of two similar numbers at the final stage of the algorithm.
+
+==Higher-order statistics==
+Terriberry<ref>{{Citation
+ | last=Terriberry
+ | first=Timothy B.
+ | year=2007
+ | title=Computing Higher-Order Moments Online
+ | url=http://people.xiph.org/~tterribe/notes/homs.html
+ }}</ref> extends Chan's formulae to calculating the third and fourth [[central moment]]s, needed for example when estimating [[skewness]] and [[kurtosis]]:
+:<math>M_{3,X} = M_{3,A} + M_{3,B} + \delta^3\frac{n_A n_B (n_A - n_B)}{n_X^2} + 3\delta\frac{n_AM_{2,B} - n_BM_{2,A}}{n_X}</math>
+:<math>\begin{align}
+M_{4,X} = M_{4,A} + M_{4,B} & + \delta^4\frac{n_A n_B \left(n_A^2 - n_A n_B + n_B^2\right)}{n_X^3} \\
+                    & + 6\delta^2\frac{n_A^2 M_{2,B} + n_B^2 M_{2,A}}{n_X^2} + 4\delta\frac{n_AM_{3,B} - n_BM_{3,A}}{n_X} \\
+\end{align}</math>
+
+Here the <math>M_k</math> are again the sums of powers of differences from the mean <math>\Sigma(x - \overline{x})^k</math>, giving
+:skewness: <math>g_1 = \frac{\sqrt{n} M_3}{M_2^{3/2}},</math>
+:kurtosis: <math>g_2 = \frac{n M_4}{M_2^2}-3.</math>
+
+For the incremental case (i.e., <math>B = \{x\}</math>), this simplifies to:
+:<math>\delta\! = x - m</math>
+:<math>m' = m + \frac{\delta}{n}</math>
+:<math>M_2' = M_2 + \delta^2 \frac{ n-1}{n}</math>
+:<math>M_3' = M_3 + \delta^3 \frac{ (n - 1) (n - 2)}{n^2} - \frac{3\delta M_2}{n}</math>
+:<math>M_4' = M_4 + \frac{\delta^4 (n - 1) (n^2 - 3n + 3)}{n^3} + \frac{6\delta^2 M_2}{n^2} - \frac{4\delta M_3}{n}</math>
+
+By preserving the value <math>\delta / n</math>, only one division operation is needed and the higher-order statistics can thus be calculated for little incremental cost.
+
+An example of the online algorithm for kurtosis implemented as described is:
+<source lang="python">
+def online_kurtosis(data):
+    n = 0
+    mean = 0
+    M2 = 0
+    M3 = 0
+    M4 = 0
+
+    for x in data:
+        n1 = n
+        n = n + 1
+        delta = x - mean
+        delta_n = delta / n
+        delta_n2 = delta_n * delta_n
+        term1 = delta * delta_n * n1
+        mean = mean + delta_n
+        M4 = M4 + term1 * delta_n2 * (n*n - 3*n + 3) + 6 * delta_n2 * M2 - 4 * delta_n * M3
+        M3 = M3 + term1 * delta_n * (n - 2) - 3 * delta_n * M2
+        M2 = M2 + term1
+
+    kurtosis = (n*M4) / (M2*M2) - 3
+    return kurtosis
+</source>
+
+Pébay<ref>{{Citation
+ | last=Pébay
+ | first=Philippe
+ | year=2008
+ | contribution=Formulas for Robust, One-Pass Parallel Computation of Covariances and Arbitrary-Order Statistical Moments
+ | title=Technical Report SAND2008-6212
+ | publisher=Sandia National Laboratories
+ | contribution-url=http://infoserve.sandia.gov/sand_doc/2008/086212.pdf
+ }}</ref>
+further extends these results to arbitrary-order [[central moment]]s, for the incremental and the pairwise cases. One can also find there similar formulas for [[covariance]].
+
+Choi and Sweetman
+<ref name="Choi2010">{{Citation
+ | last1 = Choi      | first1 = Muenkeun
+ | last2 = Sweetman  | first2 = Bert
+ | year=2010
+ | title=Efficient Calculation of Statistical Moments for Structural Health Monitoring
+ | url=http://www.rms-group.org/RMS_Papers/TAMUG_Papers/MK/Efficient_Moments_2010.pdf
+ }}</ref>
+offer two alternative methods to compute the skewness and kurtosis, each of which can save substantial computer memory requirements and CPU time in certain applications. The first approach is to compute the statistical moments by separating the data into bins and then computing the moments from the geometry of the resulting histogram, which effectively becomes a one-pass algorithm for higher moments. One benefit is that the statistical moment calculations can be carried out to arbitrary accuracy such that the computations can be tuned to the precision of, e.g., the data storage format or the original measurement hardware.  A relative histogram of a random variable can be constructed in
+the conventional way: the range of potential values is
+divided into bins and the number of occurrences within each bin are
+counted and plotted such that the area of each rectangle equals
+the portion of the sample values within that bin:
+
+: <math> H(x_k)=\frac{h(x_k)}{A}</math>
+
+where <math>h(x_k)</math> and <math>H(x_k)</math> represent the frequency and
+the relative frequency at bin <math>x_k</math> and <math>A= \sum_{k=1}^{K} h(x_k)
+\,\Delta x_k</math> is the total area of the histogram. After this
+normalization, the <math>n</math> raw moments and central moments of <math>x(t)</math>
+can be calculated from the relative histogram:
+
+: <math>
+ m_n^{(h)} = \sum_{k=1}^{K}  x_k^n \, H(x_k) \Delta x_k
+            = \frac{1}{A} \sum_{k=1}^{K}  x_k^n \, h(x_k) \Delta x_k
+</math>
+
+: <math>
+ \theta_n^{(h)}= \sum_{k=1}^{K} \Big(x_k-m_1^{(h)}\Big)^n \, H(x_k)\Delta x_k
+               = \frac{1}{A} \sum_{k=1}^{K} \Big(x_k-m_1^{(h)}\Big)^n \, h(x_k) \Delta x_k
+</math>
+
+where the superscript <math>^{(h)}</math> indicates the moments are
+calculated from the histogram. For constant bin width <math>\Delta
+x_k=\Delta x</math> these two expressions can be simplified using <math>I= A/\Delta x</math>:
+
+: <math>
+ m_n^{(h)}= \frac{1}{I} {\sum_{k=1}^{K} x_k^n \, h(x_k)}
+</math>
+
+: <math>
+ \theta_n^{(h)}= \frac{1}{I}{\sum_{k=1}^{K} \Big(x_k-m_1^{(h)}\Big)^n \, h(x_k)}
+</math>
+
+The second approach from Choi and Sweetman
+<ref name="Choi2010" />
+is an analytical methodology to combine statistical moments from individual segments of a time-history such that the resulting overall moments are those of the complete time-history. This methodology could be used for parallel computation of statistical moments with subsequent combination of those moments, or for combination of statistical moments computed at sequential times.
+
+If <math>Q</math> sets of statistical moments are known:
+<math>(\gamma_{0,q},\mu_{q},\sigma^2_{q},\alpha_{3,q},\alpha_{4,q})
+\quad </math> for <math>q=1,2,...,Q </math>, then each <math>\gamma_n</math> can
+be expressed in terms of the equivalent <math>n</math> raw moments:
+
+: <math>
+ \gamma_{n,q}= m_{n,q} \gamma_{0,q} \qquad \quad \textrm{for} \quad n=1,2,3,4  \quad \text{ and } \quad q = 1,2, \dots ,Q
+</math>
+
+where <math>\gamma_{0,q}</math> is generally taken to be the duration of the <math>q^{th}</math> time-history, or the number of points if <math>\Delta t</math> is constant.
+
+The benefit of expressing the statistical moments in
+terms of <math>\gamma</math> is that the <math>Q</math> sets can be combined by
+addition, and there is no upper limit on the value of <math>Q</math>.
+
+: <math>
+ \gamma_{n,c}= \sum_{q=1}^{Q}\gamma_{n,q} \quad \quad \textrm{for} \quad n=0,1,2,3,4
+</math>
+
+where the subscript <math>_c</math> represents the concatenated
+time-history or combined <math>\gamma</math>. These combined values of
+<math>\gamma</math> can then be inversely transformed into raw moments
+representing the complete concatenated time-history
+
+: <math>
+ m_{n,c}=\frac{\gamma_{n,c}}{\gamma_{0,c}} \quad \textrm{for} \quad n=1,2,3,4
+</math>
+
+Known relationships between the raw moments (<math>m_n</math>) and the central moments  (<math> \theta_n = E[(x-\mu)^n])</math>)
+are then used to compute the central moments of the concatenated time-history.  Finally, the statistical moments of the concatenated history are computed from the central moments:
+
+: <math>
+ \mu_c=m_{1,c}
+ \ \ \ \ \ \sigma^2_c=\theta_{2,c}
+ \ \ \ \ \ \alpha_{3,c}=\frac{\theta_{3,c}}{\sigma_c^3}
+ \ \ \ \ \ \alpha_{4,c}={\frac{\theta_{4,c}}{\sigma_c^4}}-3
+</math>
+
+==Covariance==
+Very similar algorithms can be used to compute the [[covariance]].  The naive algorithm is:
+:<math>\operatorname{Cov}(X,Y) = \displaystyle\frac {\sum_{i=1}^n x_i y_i - (\sum_{i=1}^n x_i)(\sum_{i=1}^n y_i)/n}{n}. \!</math>
+
+For the algorithm above, one could use the following pseudocode:
+<source lang="python">
+def naive_covariance(data1, data2):
+    n = len(data1)
+    sum12 = 0
+    sum1 = sum(data1)
+    sum2 = sum(data2)
+
+    for i in range(n):
+        sum12 += data1[i]*data2[i]
+
+    covariance = (sum12 - sum1*sum2 / n) / n
+    return covariance
+</source>
+
+A more numerically stable two-pass algorithm first computes the sample means, and then the covariance:
+:<math>\bar x = \displaystyle \sum_{i=1}^n x_i/n</math>
+:<math>\bar y = \displaystyle \sum_{i=1}^n y_i/n</math>
+:<math>\operatorname{Cov}(X,Y) = \displaystyle\frac {\sum_{i=1}^n (x_i - \bar x)(y_i - \bar y)}{n}. \!</math>
+
+The two-pass algorithm may be written as:
+<source lang="python">
+def two_pass_covariance(data1, data2):
+    n = len(data1)
+
+    mean1 = sum(data1) / n
+    mean2 = sum(data2) / n	
+
+    covariance = 0
+
+    for i in range(n):
+        a = data1[i] - mean1		
+        b = data2[i] - mean2
+        covariance += a*b / n
+
+    return covariance
+</source>
+
+A slightly more accurate compensated version performs the full naive algorithm on the residuals.  The final sums <math>\textstyle\sum x_i</math> and <math>\textstyle\sum y_i</math> ''should'' be zero, but the second pass compensates for any small error.
+
+A stable one-pass algorithm exists, similar to the one above, that computes co-moment <math>\textstyle C_n = \sum_{i=1}^n (x_i - \bar x_n)(y_i - \bar y_n)</math>:
+:<math>\bar x_n = \bar x_{n-1} + \frac{x_n - \bar x_{n-1}}{n} \!</math>
+:<math>\bar y_n = \bar y_{n-1} + \frac{y_n - \bar y_{n-1}}{n} \!</math>
+:<math>C_n = C_{n-1} + (x_n - \bar x_n)(y_n - \bar y_{n-1}) = C_{n-1} + (y_n - \bar y_n)(x_n - \bar x_{n-1})</math>
+The apparent asymmetry in that last equation is due to the fact that <math>\textstyle (x_n - \bar x_n) = \frac{n-1}{n}(x_n - \bar x_{n-1})</math>, so both update terms are equal to <math>\textstyle \frac{n-1}{n}(x_n - \bar x_{n-1})(y_n - \bar y_{n-1})</math>.  Even greater accuracy can be achieved by first computing the means, then using the stable one-pass algorithm on the residuals.
+
+Thus we can compute the covariance as
+:<math>\begin{align}
+\operatorname{Cov}_N(X,Y) = \frac{C_N}{N} &= \frac{\operatorname{Cov}_{N-1}(X,Y)\cdot(N-1) + (x_n - \bar x_n)(y_n - \bar y_{n-1})}{N}\\
+   &= \frac{\operatorname{Cov}_{N-1}(X,Y)\cdot(N-1) + (y_n - \bar y_n)(x_n - \bar x_{n-1})}{N}\\
+   &= \frac{\operatorname{Cov}_{N-1}(X,Y)\cdot(N-1) + \frac{N-1}{N}(x_n - \bar x_{n-1})(y_n - \bar y_{n-1})}{N}.
+\end{align}</math>
+
+Likewise, there is a formula for combining the covariances of two sets that can be used to parallelize the computation:
+:<math>C_X = C_A + C_B + (\bar x_A - \bar x_B)(\bar y_A - \bar y_B)\cdot\frac{n_A n_B}{n_X}</math>.
+
+==See also==
+*[[Computational formula for the variance]]
+
+==References==
+<references />
+
+==External links==
+* {{MathWorld|title=Sample Variance Computation|urlname=SampleVarianceComputation}}
+
+{{DEFAULTSORT:Algorithms For Calculating Variance}}
+[[Category:Statistical algorithms]]
+[[Category:Statistical deviation and dispersion]]
+[[Category:Articles with example pseudocode]]

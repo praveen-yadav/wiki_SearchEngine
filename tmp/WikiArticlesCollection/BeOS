@@ -1,0 +1,156 @@
+{{peacock|date=August 2012}}
+{{infobox OS
+| name                = BeOS
+| screenshot          = [[File:BeOS Desktop.png|frameless]]
+| caption             = BeOS R5
+| developer           = [[Be Inc.]]
+| family              = BeOS
+| source_model        = [[Closed source]]
+| frequently_updated  = yes
+| working_state       = Discontinued
+| kernel_type         = [[Modularity (programming)|Modular]] [[Hybrid kernel]]
+| supported_platforms = [[IA-32]], [[PowerPC]]
+| license             = [[Proprietary software|Proprietary]]
+}}
+
+'''BeOS''' is an [[operating system]] for [[personal computer]]s first developed by [[Be Inc.]] in 1991. It was first written to run on [[BeBox]] hardware. BeOS was built for digital media work and was written to take advantage of modern hardware facilities such as [[symmetric multiprocessing]] by utilizing modular I/O bandwidth, pervasive multithreading, [[preemptive multitasking]] and a [[64-bit]] [[journaling file system]] known as [[Be File System|BFS]]. The BeOS GUI was developed on the principles of clarity and a clean, uncluttered design.
+
+BeOS was positioned as a multimedia platform which could be used by a substantial population of desktop users and a competitor to [[Mac OS]] and [[Microsoft Windows]]. However, it was ultimately unable to achieve a significant market share and proved commercially unviable for Be Inc. The company was acquired by [[Palm Inc.]] and today BeOS is mainly used and developed by a small population of enthusiasts.
+
+The open-source OS [[Haiku (operating system)|Haiku]], a complete reimplementation of BeOS, is designed to start up where BeOS left off. Alpha 4 of Haiku was released in November 2012.<ref>{{Citation |url=http://www.haiku-os.org/news/2012-11-12_haiku_release_1_alpha_4 |title=Haiku Release 1 Alpha 4 |date=November 12, 2012 |work=Haiku-OS.org }}.</ref>
+
+== Design ==
+
+BeOS was optimized for digital media work and was written to take advantage of modern [[computer hardware]] facilities such as [[symmetric multiprocessing]] by utilizing modular I/O bandwidth, pervasive multithreading, [[preemptive multitasking]] and a [[64-bit]] [[journaling file system]] known as [[Be File System|BFS]]. The BeOS GUI was developed on the principles of clarity and a clean, uncluttered design.
+
+The [[application programming interface|API]] was written in [[C++]] for ease of programming. It has partial [[POSIX]] compatibility and access to a [[command-line interface]] through [[Bash (Unix shell)|Bash]], although internally it is not a [[Unix]]-derived operating system.
+
+BeOS used [[Unicode]] as the default encoding in the GUI, though support for input methods such as [[bidirectional text]] input was never realized.
+
+== History ==
+
+Initially designed to run on [[AT&T Hobbit]]-based hardware, BeOS was later modified to run on [[PowerPC]]-based processors: first Be's own systems, later [[Apple Inc.]]'s [[PowerPC Reference Platform]] and [[Common Hardware Reference Platform]], with the hope that Apple would purchase or license BeOS as a replacement for its then aging [[Mac OS#"Classic" Mac OS (1984–2001)|Mac OS]].<ref>{{cite web | url=http://macreate.net/reloaded/?q=node/view/149  | title=BeOS @ MaCreate | date=2004-11-24 | author=Tom | accessdate=2006-11-16 |archiveurl = http://web.archive.org/web/20050324220739/http://macreate.net/reloaded/?q=node/view/149 |archivedate = 2005-03-24}}</ref> Apple CEO [[Gil Amelio]] started negotiations to buy Be Inc., but negotiations stalled when Be CEO [[Jean-Louis Gassée]] wanted $200 million; Apple was unwilling to offer any more than $125 million. Apple's board of directors decided [[NeXTSTEP]] was a better choice and purchased [[NeXT]] in 1996 for $429 million, bringing back Apple co-founder [[Steve Jobs]].<ref>[http://macspeedzone.com/archive/art/con/be.shtml Apple Confidential: The Day They Almost Decided To Put Windows NT On The Mac Instead Of OS X!]</ref>
+
+In 1997, [[Power Computing]] began bundling BeOS (on a CD for optional installation) with its line of PowerPC-based [[Macintosh clone]]s. These systems could [[dual boot]] either the [[Mac OS]] or BeOS, with a start-up screen offering the choice.
+
+Due to Apple's moves and the mounting debt of Be Inc., BeOS was soon ported to the [[X86 architecture|Intel x86]] platform with its R3 release in March 1998. Through the late 1990s, BeOS managed to create a niche of followers, but the company failed to remain viable. As a last-ditch effort to increase interest in the failing operating system, Be Inc. released a stripped-down, but free, copy of [[BeOS R5]] known as BeOS Personal Edition (BeOS PE). BeOS PE could be started from within [[Microsoft Windows]] or [[Linux]], and was intended to nurture consumer interest in its product and give developers something to tinker with.
+
+Be Inc. also released a stripped-down version of BeOS for Internet Appliances ([[BeIA]]), which soon became the company's business focus in place of BeOS. BeOS PE and BeIA proved to be too little too late, and in 2001 Be's copyrights were sold to [[Palm, Inc.]] for some $11 million. BeOS R5 is considered the last official version, but BeOS R5.1 "[[Dano (BeOS)|Dano]]", which was under development before Be's sale to Palm and included the [[BeOS Networking Environment]] (BONE) networking stack, was leaked to the public shortly after the company's demise.
+
+In 2002, Be Inc. sued [[Microsoft]] claiming that [[Hitachi]] had been dissuaded from selling PCs loaded with BeOS, and that [[Compaq]] had been pressured not to market an Internet appliance in partnership with Be. Be also claimed that Microsoft acted to artificially depress Be Inc.'s [[initial public offering]] (IPO).<ref>{{cite web | url=http://www.theregister.co.uk/2002/02/20/be_inc_sues_microsoft/ | title=Be Inc. sues Microsoft | date=2002-02-20 | author=Andrew Orlowski| accessdate=2008-04-24| archiveurl= http://web.archive.org/web/20080420193929/http://www.theregister.co.uk/2002/02/20/be_inc_sues_microsoft/| archivedate= 20 April 2008 <!--DASHBot-->| deadurl= no}}</ref> The case was eventually settled out of court for $23.25 million with no admission of liability on Microsoft's part.<ref>{{cite web | url=http://www.internetnews.com/ent-news/print.php/3073811/ | title=Microsoft Settles Anti-Trust Charges with Be | date=2003-09-08 | author=Mark Berniker| accessdate=2008-04-24}}</ref>
+
+After the split from Palm, [[PalmSource]] used parts of BeOS's multimedia framework for its failed [[Palm OS#Palm OS Cobalt|Palm OS Cobalt]] product.<ref>[http://archive.is/20120604150634/http://www.access-company.com/news/press/PalmSource/2004/021004_cobalt.html PalmSource Introduces Palm OS Cobalt], PalmSource press release, 10 February 2004.</ref> With the takeover of PalmSource, the BeOS rights now belong to [[Access Co.]]
+
+=== Continuation and clones ===
+
+BeOS was well respected by a small but loyal user base, which was disappointed when Be Inc. failed commercially and no further enhancement of the operating system would be possible. In the years that followed a handful of projects formed to recreate BeOS or key elements of the OS with the eventual goal of then continuing where Be Inc. left off. To ensure that the OS could not be "taken away" from the Be community again, and to attract the efforts of volunteer [[programmers]], these projects were all [[free and open source software]]. The modular nature of the original BeOS facilitated recreating the operating system a piece at a time, inserting the newly coded modules into a working BeOS system to test compatibility. Eventually, all of the "servers" (interworking modules of code) were to be replaced with original, freely licensed code.
+
+Within a few years, some of these projects lost momentum and were discontinued. The BlueEyedOS website is back online after being missing for two years but hasn't had a release since 2003; the most recent release available on the Cosmoe web site is from 2004 and active development on E/OS ended in July 2008. BeOS Workstation picked up where Be. Inc left off but that too seems to be dead. Development however continues on [[Haiku (operating system)|Haiku]], a complete reimplementation of BeOS. The first alpha release, "Haiku R1 / Alpha 1", was released on September 14, 2009.<ref>{{cite web|url=http://www.haiku-os.org/news/2009-09-13_haiku_project_announces_availability_haiku_r1alpha_1|title=Haiku Project Announces Availability of Haiku R1/Alpha 1|date=2009-09-14}}</ref> The second alpha release, "Haiku R1 / Alpha 2", was made available on May 9, 2010,<ref>{{cite web|url=http://www.haiku-os.org/news/2010-05-10_haiku_project_announces_availability_haiku_r1alpha_2|title=Haiku Project Announces Availability of Haiku R1/Alpha 2|date=2010-05-09}}</ref> and the third alpha release, "Haiku R1 / Alpha 3", on June 18, 2011.<ref>{{Citation |url=http://www.haiku-os.org/news/2011-06-18_haiku_release_1_alpha_3 |title=Haiku Release 1 Alpha 3 |date=June 18, 2011 |work=Haiku-OS.org }}.</ref> "Haiku R1 / Alpha 4" was released November 12, 2012.<ref>{{Citation |url=http://www.haiku-os.org/news/2012-11-12_haiku_release_1_alpha_4 |title=Haiku Release 1 Alpha 4|date=November 12, 2011, work=Haiku-OS.org }}</ref>
+
+[[Magnussoft ZETA|Zeta]] was a commercially available operating system based on the BeOS R5.1 codebase. Originally developed by [[yellowTAB]], the operating system was then distributed by [[magnussoft]]. During development by yellowTAB, the company received criticism from the BeOS community for refusing to discuss its legal position with regard to the BeOS codebase (perhaps for contractual reasons). [[Access Co.]] (which bought [[PalmSource]], until then the holder of the intellectual property associated with BeOS) has since declared that yellowTAB had no right to distribute a modified version of BeOS, and magnussoft has ceased distribution of the operating system.
+
+=== Version history ===
+
+{| class="wikitable"
+|-
+! Release
+! Date
+! Hardware
+|-
+| DR1–DR5
+| October 1995
+| [[AT&T Hobbit]]
+|-
+| DR6 (developer release)
+| January 1996
+| rowspan=6 | [[PowerPC]]
+|-
+| DR7
+| April 1996
+|-
+| DR8
+| September 1996
+|-
+| Advanced Access Preview Release
+| May 1997
+|-
+| PR1 (preview release)
+| June 1997
+|-
+| PR2
+| October 1997
+|-
+| R3
+| March 1998
+| rowspan=6 | [[PowerPC]] and [[Intel x86]]
+|-
+| R3.1
+| June 1998
+|-
+| R3.2
+| July 1998
+|-
+| R4
+| November 4, 1998
+|-
+| R4.5 ("Genki")
+| June 1999
+|-
+| [[BeOS R5|R5 PE/Pro ("Maui")]]
+| March 2000
+|-
+| [[Dano (BeOS)|R5.1 ("Dano")]]
+| November 2001
+| [[Intel x86]]
+|}
+
+== Products using BeOS ==
+
+BeOS (and now Zeta) continue to be used in media appliances such as the Edirol DV-7 video editors from [[Roland corporation]] which run on top of a modified BeOS<ref>{{cite web | url=http://www.edirol.com/products/dv7dl/index.html | title=EDIROL by Roland DV-7DL Series Digital Video Workstations | accessdate=2006-11-16 |archiveurl = http://web.archive.org/web/20061110070209/http://www.edirol.com/products/dv7dl/index.html <!-- Bot retrieved archive --> |archivedate = 2006-11-10}}</ref> and the TuneTracker radio automation software that runs on BeOS and Zeta, but is also sold as a "Station-in-a-Box" with the Zeta operating system included.<ref>{{cite web | url=http://www.tunetrackersystems.com/products.html | title=TuneTracker Radio Automation Software | accessdate=2006-12-09| archiveurl= http://web.archive.org/web/20061114113220/http://www.tunetrackersystems.com/products.html| archivedate= 14 November 2006 <!--DASHBot-->| deadurl= no}}</ref>
+
+The Tascam SX-1 digital audio recorder runs a heavily modified version of BeOS that will only launch the recording interface software.
+
+iZ Technology sells the [[RADAR (audio recorder)|RADAR 24 and RADAR V]], hard disk-based, 24-track professional audio recorders based on BeOS 5,<ref>{{cite web | url=http://mixonline.com/mag/audio_iz_radar/ | title=iZ RADAR 24 | accessdate=2006-12-27| archiveurl= http://web.archive.org/web/20061227175204/http://mixonline.com/mag/audio_iz_radar/| archivedate= 27 December 2006 <!--DASHBot-->| deadurl= no}}</ref> although the newer RADAR 6 is not based on BeOS.
+
+Magicbox, a manufacturer of signage and broadcast display machines, uses BeOS to power their [[Aavelin]] product line.<ref>{{cite web | url=http://digitalcontentproducer.com/digitalsign/depth/digital_signage_hardware_05012006/ | title=Technology Showcase: Digital Signage Hardware | author=Jay Ankeney | date=2006-05-01 | publisher=Digital Content Producer | accessdate=2006-12-09}}</ref>
+
+[[Final Scratch]], the 12″ vinyl timecode record-driven DJ software/hardware system, was first developed on BeOS. The "ProFS" version was sold to a few dozen DJs prior to the 1.0 release, which ran on a Linux virtual partition.
+
+== See also ==
+* [[Haiku (operating system)]]
+* [[Access Co.]]
+* [[bootman]]
+* [[Comparison of operating systems]]
+* [[Gobe Productive]]
+* [[Hitachi Flora Prius]]
+* [[KDL]]
+* [[List of BeOS programs]]
+* [[NetPositive]]
+* [[OpenTracker]]
+* [[Pe (text editor)]]
+
+== References ==
+
+{{reflist|30em}}
+
+== External links ==
+* [http://spectrum.ieee.org/computing/software/the-dawn-of-haiku-os The Dawn of Haiku], by Ryan Leavengood, IEEE Spectrum May 2012, p 40-43,51-54.
+* [http://www.bebits.com/app/2680 BeOS 5.0 (Personal Edition) as a free download] (Most likely to be documented for early 2000-01 hardware.)
+* [http://testou.free.fr/www.beatjapan.org/mirror/www.be.com/ Mirror of the old www.be.com site]
+* [http://www.osnews.com/story.php?news_id=7265/ BeOS] Celebrating Ten Years
+* [http://www.begroovy.com/ BeGroovy] A blog dedicated to all things BeOS <!-- Linked here, because BeGroovy has the biggest archive of BeOS-related news -->
+* [http://www.reghardware.co.uk/2007/01/30/forgotten_tech_beos/ BeOS: The Mac OS X might-have-been], reghardware.co.uk
+* [http://www.youtube.com/watch?v=9eMGbDJmgv0 YouTube videos] A brief overview of BeOS's features
+* [http://www.oreilly.com/catalog/beosprog/book/ Programming the Be Operating System]: An O'Reilly Open Book (out of print)
+* [http://osvirtual.net/en/beos-5-max-edition/ BeOS 5 Max Edition (OSvirtual)]: BeOS 5 Max Edition, installed in VMWare virtual machine
+* [http://www.youtube.com/watch?v=9eMGbDJmgv0 BeOS Developer Video]
+* {{US trademark|78558039}} (BeOS)
+
+{{BeOS}}
+{{AmigaOS}}
+{{Operating system}}
+
+[[Category:BeOS]]
+[[Category:Discontinued operating systems]]
+[[Category:PowerPC operating systems]]
+[[Category:X86 operating systems]]

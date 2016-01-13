@@ -1,0 +1,98 @@
+{{about|the concept in signal theory and processing|use in computing and networking|Bandwidth (computing)|other uses|Bandwidth (disambiguation)}}
+
+[[Image:Baseband.svg|right|300px|thumb|'''Baseband bandwidth'''. Here the bandwidth equals the upper frequency.]]
+
+'''Bandwidth''' is the difference between the upper and lower frequencies in a continuous set of frequencies.  It is typically measured in [[hertz]], and may sometimes refer to ''passband bandwidth'', sometimes to ''baseband bandwidth'', depending on context. '''Passband bandwidth''' is the difference between the upper and lower [[cutoff frequencies]] of, for example, a [[bandpass filter]], a [[communication channel]], or a [[signal spectrum]]. In case of a [[low-pass filter]] or [[baseband signal]], the bandwidth is equal to its upper cutoff frequency.
+
+Bandwidth in hertz is a central concept in many fields, including [[electronics]], [[information theory]], [[digital communication]]s, [[radio communication]]s, [[signal processing]], and [[spectroscopy]].
+
+A key characteristic of bandwidth is that any band of a given width can carry the same amount of [[information]], regardless of where that band is located in the [[frequency spectrum]].<ref group=note>Assuming equivalent [[noise (electronics)|noise]] level.</ref> For example, a 3&nbsp;kHz band can carry a telephone conversation whether that band is at baseband (as in a [[plain old telephone service|POTS]] telephone line) or [[modulated]] to some higher frequency.
+
+== Overview ==
+
+Bandwidth is a key concept in many [[telephony]] applications. In [[radio]] communications, for example, bandwidth is the frequency range occupied by a [[modulated]] [[carrier wave]], whereas in [[optics]] it is the width of an individual [[spectral line]] or the entire [[electromagnetic spectrum|spectral range]].
+
+In many signal processing contexts, bandwidth is a valuable and limited resource.  For example, an [[FM radio]] receiver's [[tuner (radio)|tuner]] spans a limited range of frequencies.  A government agency (such as the [[Federal Communications Commission]] in the United States) may apportion the regionally available bandwidth to [[broadcast license]] holders so that their [[signal (electronics)|signals]] do not mutually interfere.  Each transmitter owns a slice of bandwidth, a valuable (if intangible) commodity.
+
+For different applications there are different precise definitions. For example, one definition of bandwidth could be the range of frequencies beyond which the [[frequency function]] is zero. This would correspond to the mathematical notion of the [[support (mathematics)|support]] of a function (i.e., the total "length" of values for which the function is nonzero).  A less strict and more practically useful definition will refer to the frequencies where the frequency function is ''small''. Small could mean less than 3&nbsp;[[decibel|dB]] below (i.e., power output < 1/2 or voltage output < <math>\scriptstyle \sqrt{1/2} \ \approx \ </math> 0.707 of) the maximum value, or more rarely 10&nbsp;dB below, or it could mean below a certain absolute value. As with any definition of the ''width'' of a function, many definitions are suitable for different purposes.
+
+Bandwidth typically refers to baseband bandwidth in the context of, for example, [[sampling theorem]] and [[Nyquist rate|Nyquist sampling rate]], while it refers to passband bandwidth in the context of [[Nyquist rate|Nyquist symbol rate]] or [[Shannon-Hartley]] [[channel capacity]] for communication systems.
+
+== X-dB bandwidth ==
+
+[[Image:Bandwidth 2.svg|right|300px|thumb|A graph of a [[bandpass filter]]'s gain magnitude, illustrating the concept of −3 dB bandwidth at a gain of 0.707. The frequency axis of this symbolic diagram can be linear or [[logarithm]]ically scaled.]]
+
+In some contexts, the signal bandwidth in [[hertz]] refers to the frequency range in which the signal's [[spectral density]] is nonzero or above a small threshold value.  That definition is used in calculations of the lowest sampling rate that will satisfy the [[sampling theorem]].  Because this range of non-zero amplitude may be very broad or infinite, this definition is typically relaxed so that the bandwidth is defined as the range of frequencies in which the signal's spectral density is above a certain threshold relative to its maximum. Most commonly, bandwidth refers to the [[3dB-point|3-dB bandwidth]], that is, the frequency range within which the [[spectral density]]  (in W/Hz or V<sup>2</sup>/Hz) is above half its maximum value (or the spectral amplitude, in V or V/Hz, is more than 70.7% of its maximum); that is, above −3&nbsp;[[Decibel|dB]] relative to the peak.<ref>
+{{cite book
+|title=Network Analysis
+|edition=3rd edition
+|last=Van Valkenburg
+|first=M. E.
+|pages=383–384
+|isbn=0-13-611095-9
+|url=http://www.amazon.com/Network-Analysis-Mac-Van-Valkenburg/dp/0136110959
+|accessdate=2008-06-22
+}}</ref>
+
+The word bandwidth applies to signals as described above, but it could also apply to ''systems'', for example [[Electronic filter|filter]]s or [[communication channel]]s. To say that a system has a certain bandwidth means that the system can process signals of that bandwidth, or that the system reduces the bandwidth of a white noise input to that bandwidth.
+
+The 3&nbsp;dB bandwidth of an [[electronic filter]] or communication channel is the part of the system's frequency response that lies within 3 dB of the response at its peak, which in the passband filter case is typically at or near its [[center frequency]], and in the lowpass filter is near 0 hertz. If the maximum gain is 0 dB, the 3 dB gain is the range where the gain is more than −3dB, or the attenuation is less than +3dB. This is also the range of frequencies where the amplitude gain is above 70.7% of the maximum amplitude gain, and above half the maximum power gain. This same "half power gain" convention is also used in [[spectral width]], and more generally for extent of functions as [[full width at half maximum]] (FWHM).
+
+In [[electronic filter]] design, a filter specification may require that within the filter [[passband]], the gain is nominally 0 dB ± a small number of dB, for example within the ±1 dB interval. In the [[stopband]](s), the required attenuation in dB is above a certain level, for example >100 dB. In a [[transition band]] the gain is not specified. In this case, the filter bandwidth corresponds to the passband width, which in this example is the 1dB-bandwidth. If the filter shows amplitude ripple within the passband, the x dB point refers to the point where the gain is x dB below the nominal passband gain rather than x dB below the maximum gain.
+
+{{anchor|Fractional bandwidth}}A commonly used quantity is '''fractional bandwidth'''.  This is the bandwidth of a device divided by its center frequency. E.g., a passband filter that has a bandwidth of 2&nbsp;MHz with center frequency 10&nbsp;MHz will have a fractional bandwidth of 2/10, or 20%.
+
+In communication systems, in calculations of the [[Shannon–Hartley]] [[channel capacity]], bandwidth refers to the 3dB-bandwidth. In calculations of the maximum [[symbol rate]], the [[Nyquist sampling rate]], and maximum bit rate according to the [[Shannon–Hartley#Hartley's_law|Hartley formula]], the bandwidth refers to the frequency range within which the gain is non-zero, or the gain in dB is below a very large value.
+
+The fact that in equivalent [[baseband]] models of communication systems, the signal spectrum consists of both negative and positive frequencies, can lead to confusion about bandwidth, since they are sometimes referred to only by the positive half, and one will occasionally see expressions such as <math>B = 2W</math>, where <math>B</math> is the total bandwidth (i.e. the maximum passband bandwidth of the carrier-modulated RF signal and the minimum passband bandwidth of the physical passband channel), and <math>W</math> is the positive bandwidth (the baseband bandwidth of the equivalent channel model).  For instance, the baseband model of the signal would require a [[lowpass filter]] with cutoff frequency of at least <math>W</math> to stay intact, and the physical passband channel would require a passband filter of at least <math>B</math> to stay intact.
+
+In signal processing and [[control theory]] the bandwidth is the frequency at which the [[Closed-loop transfer function|closed-loop system gain]] drops 3&nbsp;dB below peak.
+
+In basic electric circuit theory, when studying band-pass and band-reject filters, the bandwidth represents the distance between the two points in the frequency domain where the signal is <math>\frac{1}{\sqrt{2}}</math> of the maximum signal amplitude (half power).
+
+== Antenna systems ==
+
+In the field of [[antennas]], two different methods of expressing relative bandwidth are used for [[narrowband]] and [[wideband]] antennas.<ref>{{cite book |last=Stutzman |first=Warren L. |first2=Gary A. |last2=Theiele |title=Antenna Theory and Design |edition=2nd |location=New York |year=1998 |isbn=0-471-02590-9 }}</ref> For either, a set of criteria is established to define the extents of the bandwidth, such as [[input impedance]], [[pattern]], or [[Polarization (antenna)|polarization]].
+
+''Percent bandwidth'', usually used for [[narrowband]] antennas, is used defined as <math>%B=\frac{f_H-f_L}{f_c}=2 \frac{f_H-f_L}{f_H+f_L} </math>. The theoretical limit to percent bandwidth is 200%, which occurs for <math>f_L = 0</math>.
+
+''Fractional bandwidth or Ratio bandwidth'', usually used for [[wideband]] antennas, is defined as <math>B = f_H/f_L,</math> and is typically presented in the form of <math>B:1</math>. Fractional bandwidth is used for wideband antennas because of the compression of the percent bandwidth that occurs mathematically with percent bandwidths above 100%, which corresponds to a fractional bandwidth of 3:1.
+
+<math>\mathrm{If}\ %B =2 \frac{f_H-f_L}{f_H+f_L} = p%,\ B = \frac{200+p}{200-p} </math>.
+
+== Photonics ==
+
+In [[photonics]], the term ''bandwidth'' occurs in a variety of meanings:
+*the bandwidth of the output of some light source, e.g., an ASE source or a laser; the bandwidth of ultrashort optical pulses can be particularly large
+*the width of the frequency range that can be transmitted by some element, e.g. an optical fiber
+*the gain bandwidth of an optical amplifier
+*the width of the range of some other phenomenon (e.g., a reflection, the phase matching of a nonlinear process, or some resonance)
+*the maximum modulation frequency (or range of modulation frequencies) of an optical modulator
+*the range of frequencies in which some measurement apparatus (e.g., a powermeter) can operate
+*the [[Bit rate|data rate]] (e.g., in Gbit/s) achieved in an optical communication system; see [[bandwidth (computing)]].
+
+A related concept is the [[spectral linewidth]] of the radiation emitted by excited atoms.
+
+== See also ==
+
+*[[Rise time]]
+*[[wikt:bandwidth|Bandwidth]] (Wiktionary entry)
+*[[Bandwidth efficiency]]
+*[[Bandwidth extension]]
+*[[Broadband]]
+*[[Frequency]]
+*[[Narrowband]]
+*[[Modulation]]
+*[[Shannon–Hartley theorem]] gives the [[channel capacity]]
+*[[Wideband]]
+
+== Notes ==
+{{Reflist|group=note}}
+
+== References ==
+{{Reflist}}
+
+{{DEFAULTSORT:Bandwidth (Signal Processing)}}
+[[Category:Signal processing]]
+[[Category:Telecommunication theory]]
+[[Category:Filter frequency response]]

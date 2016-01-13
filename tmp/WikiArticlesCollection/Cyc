@@ -1,0 +1,204 @@
+{{Other uses|CYC (disambiguation)}}
+{{Infobox software
+| name                   = Cyc
+| title                  = 
+| logo                   = <!-- [[File: ]] -->
+| logo caption           = 
+| screenshot             = <!-- [[File: ]] -->
+| caption                = 
+| collapsible            = 
+| author                 = [[Douglas Lenat]]
+| developer              = '''Cycorp, Inc.'''
+| released               = {{Start date|1984|df=yes/no}}
+| discontinued           = 
+| latest release version = 4.0
+| latest release date    = {{Start date and age|2012|06|13|df=yes/no}}
+| latest preview version = 
+| latest preview date    = <!-- {{Start date and age|YYYY|MM|DD|df=yes/no}} -->
+| frequently updated     = <!-- DO NOT include this parameter unless you know what it does -->
+| programming language   = [[Lisp (programming language)|Lisp]], [[CycL]]
+| operating system       = 
+| platform               = 
+| size                   = 
+| language               = 
+| status                 = 
+| genre                  = [[Ontology (information science)|Ontology]] and [[Inference engine]]
+| license                = 
+| alexa                  = 
+| website                = {{URL|www.cyc.com}}
+}}
+'''Cyc''' is an [[List of notable artificial intelligence projects|artificial intelligence project]] that attempts to assemble a comprehensive [[ontology (computer science)|ontology]] and [[knowledge base]] of everyday [[common sense knowledge]], with the goal of enabling [[artificial intelligence|AI]] applications to perform human-like reasoning.
+
+The project was started in 1984 by [[Douglas Lenat]] at [[Microelectronics and Computer Technology Corporation|MCC]] and is developed by the Cycorp company.
+Parts of the project are released as '''OpenCyc''', which provides an API, [http://sw.opencyc.org/ RDF endpoint], and [[data dump]] under an [[open source]] license.
+
+==Overview==
+The project was started in 1984 as part of [[Microelectronics and Computer Technology Corporation]]. The objective was to codify, in machine-usable form, millions of pieces of knowledge that compose human common sense. CycL presented a proprietary knowledge representation schema that utilized first-order relationships.<ref>{{cite web
+  | last = Lenat
+  | first = Douglas 
+  | authorlink = Douglas Lenat
+  | title = Hal's Legacy: 2001's Computer as Dream and Reality. From 2001 to 2001: Common Sense and the Mind of HAL
+  | publisher = [[Cycorp, Inc.]]
+  | url = http://www.cyc.com/cyc/technology/halslegacy.html
+  | accessdate = 2006-09-26 }}</ref>  In 1986, [[Doug Lenat]] estimated the effort to complete Cyc would be 250,000 rules and 350 [[man-year]]s of effort.<ref>{{cite book
+  | last = The Editors of Time-Life Books
+  | title = Understanding Computers: Artificial Intelligence
+  | publisher = [[Time-Life Books]]
+  | year = 1986
+  | location = Amsterdam
+  | page = 84
+  | isbn = 0-7054-0915-5 }}</ref> 
+The Cyc Project was spun off into Cycorp, Inc. in [[Austin, Texas]] in 1994.
+
+The name "Cyc" (from "encyclopedia", pronounced {{IPA|[saɪk]}} like ''syke'') is a registered trademark owned by Cycorp. The original knowledge base is proprietary, but a smaller version of the knowledge base, intended to establish a common vocabulary for automatic reasoning, was released as OpenCyc under an [[open source]] (Apache) license. More recently, Cyc has been made available to AI researchers under a research-purposes license as [[ResearchCyc]].
+
+Typical pieces of knowledge represented in the database are "Every tree is a plant" and "Plants die eventually". When asked whether trees die, the inference engine can draw the obvious conclusion and answer the question correctly. The Knowledge Base (KB) contains over one million human-defined assertions, rules or common sense ideas. These are formulated in the language [[CycL]], which is based on [[predicate calculus]] and has a [[syntax]] similar to that of the [[Lisp programming language]].
+
+Much of the current work on the Cyc project continues to be [[knowledge engineering]], representing facts about the world by hand, and implementing efficient inference mechanisms on that knowledge. Increasingly, however, work at Cycorp involves giving the Cyc system the ability to communicate with end users in [[natural language]], and to assist with the [[knowledge formation]] process via [[machine learning]].
+
+Like many companies, Cycorp has ambitions to use the  Cyc [http://www.cyc.com/cyc/cycrandd/areasofrandd_dir/cycrandd/nlu natural language understanding tools]  to parse the entire internet to extract structured data.<ref>{{cite web|url=http://www.cyc.com/cyc/cycrandd/areasofrandd_dir/is|title=Cyc R&D|accessdate=2009-02-19}}</ref>
+
+In 2008, Cyc resources were mapped to many [[Wikipedia]] articles,<ref>{{cite web|url=http://researchcommons.waikato.ac.nz/bitstream/handle/10289/2150/Medelyan_Legg_Wikiai08.pdf?sequence=1|title=Integrating Cyc and Wikipedia: Folksonomy meets rigorously defined common-sense |accessdate=2013-05-10}}</ref> potentially easing connecting with other open datasets like [[DBpedia]] and [[Freebase (database)|Freebase]].
+
+==Knowledge base==
+The concept names in Cyc are known as ''constants''. Constants start with an optional "#$" and are case-sensitive. There are constants for:
+* Individual items known as ''individuals'', such as #$BillClinton or #$France.
+* ''Collections'', such as #$Tree-ThePlant (containing all trees) or #$EquivalenceRelation (containing all [[equivalence relation]]s). A member of a collection is called an ''instance'' of that collection.
+* ''Truth Functions'' which can be applied to one or more other concepts and return either true or false. For example #$siblings is the sibling relationship, true if the two arguments are siblings. By convention, truth function constants start with a lower-case letter.  Truth functions may be broken down into logical connectives (such as #$and, #$or, #$not, #$implies), quantifiers (#$forAll, #$thereExists, etc.) and [[Predicate (logic)|predicate]]s.
+* ''Functions'', which produce new terms from given ones. For example, #$FruitFn, when provided with an argument describing a type (or collection) of plants, will return the collection of its fruits. By convention, function constants start with an upper-case letter and end with the string "Fn".
+
+The most important predicates are #$isa and #$genls. The first one describes that one item is an [[Instance (computer science)|instance]] of some collection, the second one that one collection is a subcollection of another one. Facts about concepts are asserted using certain CycL ''sentences''. Predicates are written before their arguments, in parentheses:
+  (#$isa #$BillClinton #$UnitedStatesPresident)
+"Bill Clinton belongs to the collection of U.S. presidents" and
+  (#$genls #$Tree-ThePlant #$Plant)
+"All trees are plants".
+  (#$capitalCity #$France #$Paris)
+"Paris is the capital of France."
+
+Sentences can also contain variables, strings starting with "?". These sentences are called "rules". One important rule asserted about the #$isa predicate reads
+ (#$implies
+    (#$and   
+      (#$isa ?OBJ ?SUBSET)
+      (#$genls ?SUBSET ?SUPERSET))
+    (#$isa ?OBJ ?SUPERSET))
+with the interpretation "if OBJ is an instance of the collection [[subset|SUBSET]] and SUBSET is a subcollection of [[superset|SUPERSET]], then OBJ is an instance of the collection SUPERSET". Another typical example is
+  (#$relationAllExists #$biologicalMother #$ChordataPhylum #$FemaleAnimal)
+which means that for every instance of the collection #$ChordataPhylum (i.e. for every [[chordate]]), there exists a female animal (instance of #$FemaleAnimal) which is its mother (described by the predicate #$biologicalMother).
+
+The [[knowledge base]] is divided into ''microtheories'' (Mt), collections of concepts and facts typically pertaining to one particular realm of knowledge. Unlike the knowledge base as a whole, each microtheory is required to be free from contradictions. Each microtheory has a name which is a regular constant; microtheory constants contain the string "Mt" by convention. An example is #$MathMt, the microtheory containing mathematical knowledge. The microtheories can inherit from each other and are organized in a hierarchy:
+one specialization of #$MathMt is #$GeometryGMt, the microtheory about geometry.
+
+==Inference engine==
+An [[inference engine]] is a computer program that tries to derive answers from a knowledge base.
+The Cyc inference engine performs general [[logical deduction]] (including [[modus ponens]], [[modus tollens]], [[universal quantification]] and [[existential quantification]]).<ref>{{cite web|url=http://www.cyc.com/cyc/technology/technology/whatiscyc_dir/howdoescycreason|title=cyc Inference engine|accessdate=2009-02-19}}</ref>
+
+==Releases==
+
+=== OpenCyc ===
+The latest version of OpenCyc, 4.0, was released in June 2012. OpenCyc 4.0 includes the entire Cyc ontology containing hundreds of thousands of terms, along with millions of assertions relating the terms to each other; however, these are mainly taxonomic assertions, not the complex rules available in Cyc. The knowledge base contains 239,000 concepts and 2,093,000 facts and can be browsed on the OpenCyc website.
+
+The first version of OpenCyc was released in spring 2002 and contained only 6,000 concepts and 60,000 facts.  The knowledge base is released under the [[Apache License]]. [[Cycorp]] has stated its intention to release OpenCyc under parallel, unrestricted licences to meet the needs of its users. The [[CycL]] and [[SubL]] interpreter (the program that allows you to browse and edit the database as well as to draw inferences) is released free of charge, but only as a binary, without source code. It is available for [[Linux]] and [[Microsoft Windows]]. The open source Texai<ref>[http://www.texai.org The open source Texai project]</ref> project has released the [[Resource Description Framework|RDF]]-compatible content extracted from OpenCyc.<ref>[http://sourceforge.net/project/showfiles.php?group_id=176781 Texai SourceForge project files]</ref>
+
+===ResearchCyc===
+In July 2006, Cycorp released the [[binaries]] of ResearchCyc 1.0, a version of Cyc aimed at the research community, at no charge. (ResearchCyc was in beta stage of development during all of 2004; a beta version was released in February 2005.) In addition to the taxonomic information contained in OpenCyc, ResearchCyc includes significantly more semantic knowledge (i.e., additional facts) about the concepts in its knowledge base, and includes a large lexicon, [[English (language)|English]] parsing and generation tools, and [[Java (programming language)|Java]] based interfaces for knowledge editing and querying.
+
+==Applications==
+
+===Terrorism Knowledge Base===
+The comprehensive [[Terrorism]] Knowledge Base is an application of Cyc in development that will try to ultimately contain all relevant knowledge about "terrorist" groups, their members, leaders, ideology, founders, sponsors, affiliations, facilities, locations, finances, capabilities, intentions, behaviors, tactics, and full descriptions of specific terrorist events. The knowledge is stored as statements in mathematical logic, suitable for computer understanding and reasoning.<ref>{{cite web|url=http://www.cyc.com/doc/white_papers/TKB-IA2005.pdf|title=The Comprehensive Terrorism Knowledge Base in Cyc |accessdate=2009-02-19}}</ref>
+
+===Cyclopedia===
+Cyclopedia is being developed; it superimposes Cyc keywords on pages taken from Wikipedia pages.<ref>{{cite web|url=http://wiki.dbpedia.org/OpenCyc|title=DBpedia and (Open-)Cyc|accessdate=2009-06-09}}</ref><ref>[http://www.cycfoundation.org/cyclopedia.jpg Cyclopedia Sampleshowing cyc highlighted cyc concept for family]</ref>
+
+===Cleveland Clinic Foundation===
+The [[Cleveland Clinic]] has used Cyc to develop a natural language query interface of biomedical information.<ref>http://www.w3.org/2001/sw/sweo/public/UseCases/ClevelandClinic/</ref>
+The query is parsed into a set of '''CycL''' (higher-order logic) fragments with open variables, then after applying various constraints (medical domain knowledge, common sense, discourse pragmatics, syntax), there is a way to fit those fragments together, one semantically meaningful formal query.<ref>http://www.aaai.org/ojs/index.php/aimagazine/article/viewArticle/2299</ref>
+
+==Criticisms==
+The Cyc project has been described as "one of the most controversial endeavors of the artificial intelligence history",<ref>{{harvnb|Bertino|Piero|Zarri|2001|p=275}}</ref> so it has inevitably garnered criticism.  Criticisms include:
+
+* The complexity of the system—arguably necessitated by its encyclopedic ambitions{{Citation needed|date=May 2013}} —and the consequent difficulty in adding to the system by hand{{Citation needed|date=May 2013}} 
+* Scalability problems, from widespread [[reification (knowledge representation)|reification]], especially as constants{{Citation needed|date=May 2013}} 
+* Unsatisfactory treatment of the concept of [[Substance theory|substance]] and the related distinction between [[intrinsic and extrinsic properties]]{{Citation needed|date=May 2013}} 
+* The lack of any meaningful benchmark or comparison for the efficiency of Cyc's inference engine{{Citation needed|date=May 2013}}  (However see Ramachandran et al. (2005)<ref>{{cite web|last=Ramachandran|first=Deepak|title=First-orderized Research Cyc: expressiveness and Efficiency in a Common Sense Knowledge Base|url=http://reason.cs.uiuc.edu/deepak/CO05-FORCyc.pdf|accessdate=26 May 2013}}</ref> )
+* The current incompleteness of the system in both breadth and depth and the related difficulty in measuring its completeness{{Citation needed|date=May 2013}} 
+* Limited documentation{{Citation needed|date=May 2013}} 
+* The lack of up-to-date on-line training material makes it difficult for new people to learn the systems{{Citation needed|date=May 2013}} 
+* A large number of gaps in not only the ontology of ordinary objects, but an almost complete lack of relevant assertions describing such objects{{Citation needed|date=May 2013}}
+
+==See also==
+{{col-begin}}
+{{col-break|width=33%}}
+* [[BabelNet]]
+* [[Categorical logic]]
+* [[Chinese room]]
+* [[DARPA Agent Markup Language]]
+* [[DBpedia]]
+* [[Fifth generation computer]]
+* [[Freebase]]
+* [[Mindpixel]]
+{{col-break}}
+* [[Never-Ending Language Learning]]
+* [[Open Mind Common Sense]]
+* [[Semantic Web]]
+* [[SHRDLU]]
+* [[True Knowledge]]
+* [[UMBEL]]
+* [[Wolfram Alpha]]
+* [[Yago (database)|YAGO]]
+{{col-end}}
+
+==References==
+{{Reflist}}
+
+==Further reading==
+* Alan Belasco et al. (2004). [http://www.springeronline.com/sgw/cda/frontpage/0,11855,1-40109-22-36983341-0,00.html "Representing Knowledge Gaps Effectively"]. In: D. Karagiannis, U. Reimer (Eds.): ''Practical Aspects of Knowledge Management, Proceedings of PAKM 2004, Vienna, Austria, December 2–3, 2004''. Springer-Verlag, Berlin Heidelberg.
+* [[Elisa Bertino]], Gian Piero & B.C. Zarria (2001). ''Intelligent Database Systems''. Addison-Wesley Professional.
+* John Cabral & others (2005). [http://www.cyc.com/doc/white_papers/ilp2005-semantic-ILP.pdf "Converting Semantic Meta-Knowledge into Inductive Bias"]. In: ''Proceedings of the 15th International Conference on Inductive Logic Programming''. Bonn, Germany, August 2005.
+* Jon Curtis et al. (2005). [http://www.cyc.com/doc/white_papers/KRAQ2005.pdf "On the Effective Use of Cyc in a Question Answering System"]. In: ''Papers from the IJCAI Workshop on Knowledge and Reasoning for Answering Questions''. Edinburgh, Scotland: 2005.
+* Chris Deaton et al. (2005). [http://www.cyc.com/doc/white_papers/TKB-IA2005.pdf "The Comprehensive Terrorism Knowledge Base in Cyc"]. In: Proceedings of the 2005 International Conference on Intelligence Analysis, McLean, Virginia, May 2005.
+* Kenneth Forbus et al. (2005) .[http://www.cyc.com/doc/white_papers/CombiningAnalogy-IA2005.pdf "Combining analogy, intelligent information retrieval, and knowledge integration for analysis: A preliminary report"]. In: ''Proceedings of the 2005 International Conference on Intelligence Analysis'', McLean, Virginia, May 2005
+* douglas foxvog (2010), "Cyc". In: ''Theory and Applications of Ontology: Computer Applications", [[Springer-Verlag|Springer]].
+* Fritz Lehmann and d. foxvog (1998), "Putting Flesh on the Bones: Issues that Arise in Creating Anatomical Knowledge Bases with Rich Relational Structures". In: ''Knowledge Sharing across Biological and Medical Knowledge Based Systems'', [[AAAI]].
+* [[Douglas Lenat]] and R. V. Guha (1990). ''Building Large Knowledge-Based Systems: Representation and Inference in the Cyc Project''. Addison-Wesley. ISBN 0-201-51752-3.
+* James Masters (2002). [http://www.cyc.com/doc/white_papers/fusion2002.pdf "Structured Knowledge Source Integration and its applications to information fusion"]. In: ''Proceedings of the Fifth International Conference on Information Fusion''. Annapolis, MD, July 2002.
+* James Masters and Z. Güngördü (2003). [http://www.cyc.com/doc/white_papers/kimas2003.pdf "Structured Knowledge Source Integration: A Progress Report"]. In: ''In Integration of Knowledge Intensive Multiagent Systems''. Cambridge, Massachusetts, USA, 2003.
+* Cynthia Matuszek et al. (2006). [http://www.cyc.com/doc/white_papers/AAAI06SS-SyntaxAndContentOfCyc.pdf "An Introduction to the Syntax and Content of Cyc."]. In: ''Proc. of the 2006 AAAI Spring Symposium on Formalizing and Compiling Background Knowledge and Its Applications to Knowledge Representation and Question Answering''. Stanford, 2006
+* Cynthia Matuszek et al. (2005) .[http://www.cyc.com/doc/white_papers/AAAI051MatuszekC.pdf "Searching for Common Sense: Populating Cyc from the Web"]. In: ''Proceedings of the Twentieth National Conference on Artificial Intelligence''. Pittsburgh, Pennsylvania, July 2005.
+* Tom O'Hara et al. (2003). [http://www.cyc.com/doc/white_papers/inducing-criteria-for-mass.pdf "Inducing criteria for mass noun lexical mappings using the Cyc Knowledge Base and its Extension to WordNet"]. In: ''Proceedings of the Fifth International Workshop on Computational Semantics''. Tilburg, 2003.
+* Kathy Panton et al. (2002). [http://www.cyc.com/doc/white_papers/iaai.pdf "Knowledge Formation and Dialogue Using the KRAKEN Toolset"]. In: ''Eighteenth National Conference on Artificial Intelligence''. Edmonton, Canada, 2002.
+* Deepak Ramachandran P. Reagan & K. Goolsbey (2005). [http://reason.cs.uiuc.edu/deepak/CO05-FORCyc.pdf "First-Orderized ResearchCyc: Expressivity and Efficiency in a Common-Sense Ontology"]. In: ''Papers from the AAAI Workshop on Contexts and Ontologies: Theory, Practice and Applications''. Pittsburgh, Pennsylvania, July 2005.
+* Stephen Reed and D. Lenat (2002). [http://www.cyc.com/doc/white_papers/mapping-ontologies-into-cyc_v31.pdf "Mapping Ontologies into Cyc"]. In: ''AAAI 2002 Conference Workshop on Ontologies For The Semantic Web''. Edmonton, Canada, July 2002.
+*  Benjamin Rode et al. (2005). [http://www.cyc.com/doc/white_papers/PatternRecovery-IA2005.pdf "Towards a Model of Pattern Recovery in Relational Data"]. In: ''Proceedings of the 2005 International Conference on Intelligence Analysis''. McLean, Virginia, May 2005.
+* Dave Schneider et al. (2005). [http://www.cyc.com/doc/white_papers/GatheringAndManagingFacts-IA2005.pdf "Gathering and Managing Facts for Intelligence Analysis"]. In: ''Proceedings of the 2005 International Conference on Intelligence Analysis". McLean, Virginia, May 2005.
+* Blake Shepard et al. (2005). [http://www.cyc.com/doc/white_papers/IAAI-05-CycSecure.pdf "A Knowledge-Based Approach to Network Security: Applying Cyc in the Domain of Network Risk Assessment"]. In: ''Proceedings of the Seventeenth Innovative Applications of Artificial Intelligence Conference''. Pittsburgh, Pennsylvania, July 2005.
+* Nick Siegel et al. (2004). [http://www.cyc.com/doc/white_papers/WS804SiegelN.pdf "Agent Architectures: Combining the Strengths of Software Engineering and Cognitive Systems"]. In: ''Papers from the AAAI Workshop on Intelligent Agent Architectures: Combining the Strengths of Software Engineering and Cognitive Systems''. Technical Report WS-04-07, pp.&nbsp;74–79. Menlo Park, California: AAAI Press, 2004.
+* Nick Siegel et al. (2005). [http://www.cyc.com/doc/white_papers/HypothesisGeneration-IA2005.pdf Hypothesis Generation and Evidence Assembly for Intelligence Analysis: Cycorp's Nooscape Application"]. In Proceedings of the 2005 International Conference on Intelligence Analysis, McLean, Virginia, May 2005.
+*  Michael Witbrock et al. (2002). [http://www.cyc.com/doc/white_papers/IJCAI-paper-v5.pdf "An Interactive Dialogue System for Knowledge Acquisition in Cyc"]. In: ''Proceedings of the Eighteenth International Joint Conference on Artificial Intelligence''. Acapulco, Mexico, 2003.
+* Michael Witbrock et al. (2004). [http://www.cyc.com/doc/white_papers/SemAnnot2004-20041001.pdf "Automated OWL Annotation Assisted by a Large Knowledge Base"]. In: ''Workshop Notes of the 2004 Workshop on Knowledge Markup and Semantic Annotation at the 3rd International Semantic Web Conference ISWC2004''. Hiroshima, Japan, November 2004, pp.&nbsp;71–80.
+* Michael Witbrock et al. (2005). [http://www.cyc.com/doc/white_papers/AAAI05-symposium-KCVC.pdf "Knowledge Begets Knowledge: Steps towards Assisted Knowledge Acquisition in Cyc"]. In: ''Papers from the 2005 AAAI Spring Symposium on Knowledge Collection from Volunteer Contributors (KCVC)''. pp.&nbsp;99–105. Stanford, California, March 2005.
+
+==External links==
+* [http://www.cyc.com/ Cycorp homepage]
+* [http://www.cyc.com/cyc/technology/pubs Publications available from the Cycorp webpage]
+* [http://www.opencyc.org/ Opencyc.org] (includes several tutorials)
+* [http://research.cyc.com/ research.cyc.com]
+* [http://www.cycfoundation.org/ The Cyc Foundation]
+* [http://www.opencyc.org/public_servers Servers that allow public browsing of the OpenCyc knowledge base]
+* {{SourceForge|opencyc}}, the [[open source]] release of the top-level Cyc ontology (release 1.0 created July 14, 2006)
+* [http://www.ime.usp.br/~fr/opencyc/ OpenCyc C API]
+*[http://www.robotwisdom.com/ai/cycfaq.html David Whitten's unofficial Cyc FAQ]
+* [http://www.newscientist.com/article.ns?id=mg18624961.700 Whatever happened to machines that think? 23 April 2005, New Scientist]
+* [http://www.newscientist.com/channel/opinion/mg19025471.700-the-word-common-sense.html  Common sense 15 April 2006, New Scientist]
+*[http://blog.cyc.com/ Official Cyc blog]
+*[http://johndcyc.blogspot.com/ "Confessions of a Cyclist" - Another blog about Cyc]
+*[http://videolectures.net/michael_witbrock/ Video Tutorials on Cyc]
+*[http://csacquire.appspot.com A commonsense knowledge acquisition system using Open Cyc]
+
+{{Computable knowledge}}
+
+[[Category:Common Lisp software]]
+[[Category:Ontology (information science)]]
+[[Category:Knowledge bases]]
+[[Category:Artificial intelligence]]
+[[Category:Open data]]

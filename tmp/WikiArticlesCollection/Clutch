@@ -1,0 +1,140 @@
+{{Other uses}}
+{{Refimprove|date=August 2012}}
+[[Image:Ford Cologne V6 2.9 back.jpg|thumb|right|Rear side of a Ford V6 engine, looking at the clutch housing on the flywheel]]
+[[Image:Clutchdisc.jpg|thumb|right|Single, dry, clutch friction disc. The [[Spline (mechanical)|splined]] hub is attached to the disc with springs to damp chatter.]]
+A '''clutch''' is a [[machine|mechanical device]] that provides for the [[power transmission|transmission of power]] (and therefore usually motion) from one component (the driving member) to another (the driven member) when engaged, but can be disengaged.
+
+Clutches are used whenever the transmission of power or motion must be controlled either in amount or over time (e.g., electric screwdrivers limit how much torque is transmitted through use of a clutch; clutches control whether automobiles transmit engine power to the wheels).
+
+In the simplest application, clutches connect and disconnect two rotating shafts ([[drive shaft]]s or [[line shaft]]s). In these devices, one shaft is typically attached to a motor or other power unit (the driving member) while the other shaft (the driven member) provides output power for work. While typically the motions involved are rotary, linear clutches are also possible.
+
+In a torque-controlled [[drill]], for instance, one shaft is driven by a motor and the other drives a drill chuck. The clutch connects the two shafts so that they may be locked together and spin at the same speed (engaged), locked together but spinning at different speeds (slipping), or unlocked and spinning at different speeds (disengaged). 
+
+==Friction clutches==
+[[File:Car clutch.png|thumb|right|200px|A friction clutch]]
+The vast majority of clutches ultimately rely on frictional forces for their operation. The purpose of friction clutches is to connect a moving member to another that is moving at a different speed or stationary, often to synchronise the speeds, and/or to transmit power. Usually as little slippage (difference in speeds) as possible between the two members are desired. 
+
+;Materials
+Various materials have been used for the disc friction facings, including asbestos in the past. Modern clutches typically use a [[organic compound|compound organic]] resin with copper wire facing or a [[ceramic]] material. A typical coefficient of friction used on a friction disc surface is 0.35 for organic and 0.25 for ceramic. Ceramic materials are typically used in heavy applications such as racing or heavy-duty hauling, though the harder ceramic materials increase [[flywheel]] and pressure plate wear.
+
+;Push/Pull
+Friction disk clutches generally are classified as ''push type'' or ''pull type'' depending on the location of the pressure plate fulcrum points. In a pull type clutch, the action of pressing the pedal pulls the release bearing, pulling on the diaphragm spring and disengaging the vehicle drive. The opposite is true with a push type, the release bearing is pushed into the clutch disengaging the vehicle drive. In this instance, the release bearing can be known as a thrust bearing (as per the image above).
+
+;Dampers
+A clutch damper is a device that softens the response of the clutch engagement/disengagement. In automotive applications, this is often provided by a mechanism in the clutch disc centres. In addition to the damped disc centres, which  reduce driveline vibration, pre-dampers may be used to reduce gear rattle at idle by changing the natural frequency of the disc. These weaker springs are compressed solely by the radial vibrations of an idling engine. They are fully compressed and no longer in use once the main damper springs take up drive.
+
+;Load
+Mercedes truck examples:
+A clamp load of 33&nbsp;kN is normal for a single plate 430.  The 400 Twin application offers a clamp load of a mere 23&nbsp;kN. Bursts speeds are typically around 5,000&nbsp;rpm with the weakest point being the facing rivet.
+
+;Manufacturing
+Modern clutch development focuses its attention on the simplification of the overall assembly and/or manufacturing method.  For example drive straps are now commonly employed to transfer torque as well as lift the pressure plate upon disengagement of vehicle drive. With regard to the manufacture of diaphragm springs, heat treatment is crucial. Laser welding is becoming more common as a method of attaching the drive plate to the disc ring with the laser typically being between 2-3KW and a feed rate 1m/minute.
+
+===Multiple plate clutch===
+This type of clutch has several driving members interleaved or "stacked" with several driven members.  It is used in race cars including [[Formula One|F1]], [[IndyCar]], [[World Rally Championship|World Rally]] and even most club racing,  [[motorcycle]]s, [[automatic transmission]]s and in some [[diesel locomotive]]s with mechanical transmissions.  It is also used in some electronically controlled all-wheel drive systems as well as in some transfer cases.
+
+===Wet vs. dry===
+A ''wet clutch'' is immersed in a cooling [[lubricating fluid]] that also keeps surfaces clean and provides smoother performance and longer life.  Wet clutches, however, tend to lose some energy to the liquid. Since the surfaces of a wet clutch can be slippery (as with a motorcycle clutch bathed in engine oil), stacking multiple clutch discs can compensate for the lower [[coefficient of friction]] and so eliminate slippage under power when fully engaged.
+The [[Hele-Shaw clutch]] was a wet clutch that relied entirely on viscous effects, rather than on friction.<ref>{{cite web| url= http://folk.uib.no/ava004/vasiliev.pdf|title=From the Hele-Shaw Experiment to IntegrableSystems: A Historical Overview|publisher=University of Bergen|accessdate=August 9, 2012}}</ref>
+
+A ''dry clutch'', as the name implies, is not bathed in liquid and should be, literally, dry.
+
+===Centrifugal===
+A [[centrifugal clutch]] is used in some vehicles (e.g., [[mopeds]]) and also in other applications where the speed of the engine defines the state of the clutch, for example, in a [[chainsaw]]. This clutch system employs [[centrifugal force]] to automatically engage the clutch when the engine rpm rises above a threshold and to automatically disengage the clutch when the engine rpm falls low enough. The system involves a clutch shoe or shoes attached to the driven shaft, rotating inside a clutch bell attached to the output shaft. The shoe(s) are held inwards by springs until centrifugal force overcomes the spring tension and the shoe(s) make contact with the bell, driving the output. In the case of a chainsaw this allows the chain to remain stationary whilst the engine is idling; once the throttle is pressed and the engine speed rises, the centrifugal clutch engages and the cutting chain moves. See [[Saxomat]] and [[Variomatic]].
+
+===Cone clutch===
+As the name implies, a [[cone clutch]] has conical friction surfaces. The cone's taper means that a given amount of movement of the actuator makes the surfaces approach (or recede) much more slowly than in a disc clutch. As well, a given amount of actuating force creates more pressure on the mating surfaces.
+The best known example of a cone clutch is a [[Manual_transmission#synchromesh|synchronizer ring]] in a manual transmission. The synchronizer ring is responsible for "synchronizing" the speeds of the shift hub and the gear wheel to ensure a smooth gear change.
+
+===Torque limiter===
+Also known as a slip clutch or ''safety clutch'', this device allows a rotating shaft to slip when higher than normal resistance is encountered on a machine. An example of a safety clutch is the one mounted on the driving shaft of a large grass mower. The clutch yields if the blades hit a rock, stump, or other immobile object, thus avoiding a potentially damaging torque transfer to the engine, possibly twisting or fracturing the crankshaft.
+
+Motor-driven [[mechanical calculator]]s had these between the drive motor and gear train, to limit damage when the mechanism jammed, as motors used in such calculators had high stall torque and were capable of causing damage to the mechanism if torque wasn't limited.
+
+Carefully designed clutches operate, but continue to transmit maximum permitted torque, in such tools as controlled-[[torque screwdriver]]s.
+
+===Non-slip clutches===
+Some clutches are not designed to slip; torque may only be transmitted either fully engaged or disengaged to avoid catastrophic damage. An example of this is the [[dog clutch]], most commonly used in non-synchromesh transmissions.
+
+==Major types by application==
+
+===Vehicular (general)===
+There are different designs of vehicle clutch but most are based on one or more [[friction]] discs pressed tightly together or against a [[flywheel]] using [[spring (device)|springs]]. The friction material varies in composition depending on many considerations such as whether the clutch is "dry" or "wet". Friction discs once contained [[asbestos]] but this has been largely eliminated. Clutches found in heavy duty applications such as trucks and competition cars use ceramic plates that have a greatly increased friction coefficient. However, these have a "grabby" action generally considered unsuitable for passenger cars. The spring [[pressure]] is released when the clutch pedal is depressed thus either pushing or pulling the diaphragm of the pressure plate, depending on type.  However, raising the engine speed too high while engaging the clutch causes excessive clutch plate wear. Engaging the clutch abruptly when the engine is turning at high speed causes a harsh, jerky start.  This kind of start is necessary and desirable in [[drag racing]] and other competitions, where speed is more important than comfort.
+
+====Automobile powertrain====
+[[Image:PilotShaftGuideTool.jpg|thumb|right|This plastic pilot shaft guide tool is used to align the clutch disk as the spring-loaded pressure plate is installed. The transmission's drive splines and pilot shaft have a complementary shape. A number of such devices fit various makes and models of drivetrains.]]
+
+In a modern [[automobile|car]] with a [[manual transmission]] the clutch is operated by the left-most [[Automobile pedal|pedal]] using a [[hydraulic]] or [[cable]] connection from the pedal to the clutch mechanism. On older cars the clutch might be operated by a mechanical linkage. Even though the clutch may physically be located very close to the pedal, such remote means of actuation  are necessary to eliminate the effect of vibrations and slight engine movement, engine mountings being flexible by design.  With a rigid mechanical linkage, smooth engagement would be near-impossible because engine movement inevitably occurs as the drive is "taken up."  
+
+The default state of the clutch is ''engaged'' - that is the connection between engine and gearbox is always "on" unless the driver presses the pedal and disengages it. If the engine is running with clutch engaged and the transmission in neutral, the engine spins the input shaft of the transmission, but no power is transmitted to the wheels.
+
+The clutch is located between the engine and the gearbox, as disengaging it is required to change gear. Although the gearbox does not stop rotating during a gear change, there is no torque transmitted through it, thus less friction between gears and their engagement dogs. The output shaft of the gearbox is permanently connected to the [[final drive]], then the wheels, and so both always rotate together, at a fixed speed ratio. With the clutch disengaged, the gearbox input shaft is free to change its speed as the internal ratio is changed. Any resulting difference in speed between the engine and gearbox is evened out as the clutch slips slightly during re-engagement.
+
+Clutches in typical cars are mounted directly to the face of the engine's [[flywheel]], as this already provides a convenient large diameter steel disk that can act as one driving plate of the clutch. Some racing clutches use small multi-plate disk packs that are not part of the flywheel. Both clutch and flywheel are enclosed in a conical [[bellhousing]], which (in a rear-wheel drive car) usually forms the main mounting for the gearbox. 
+
+A few cars, notably the [[Alfa Romeo Alfetta]], [[Porsche 924]], and [[Chevrolet Corvette (C5)|Chevrolet Corvette]] (since 1997), sought a more even weight distribution between front and back<ref group="note" >This more even weight distribution gives better handling, particularly for fast cornering. It offers much of the balance advantage of a mid-engined layout, whilst still using a front-engined rear-drive bodyshell.</ref> by placing the weight of the transmission at the rear of the car, combined with the rear axle to form a [[transaxle]]. The [[propeller shaft]] between front and rear rotates continuously as long as the engine is running, even if the clutch is disengaged or the transmission is in neutral.
+
+====Motorcycles====
+[[File:Basket clutch.png|thumb|right|200px|A basket clutch]]
+Motorcycles typically employ a wet clutch with the clutch riding in the same oil as the transmission. These clutches are usually made up of a stack of alternating plain steel and friction plates. Some plates have lugs on their inner diameters that lock them to the engine crankshaft. Other plates have lugs on their outer diameters that lock them to a basket that turns the transmission input shaft. A set of coil springs or a diaphragm spring plate force the plates together when the clutch is engaged.
+
+On  [[motorcycle]]s the clutch is operated by a hand lever on the left handlebar.  No pressure on the lever means that the clutch plates are engaged (driving), while pulling the lever back towards the rider disengages the clutch plates through cable or hydraulic actuation, allowing the rider to shift gears or coast. Racing motorcycles often use [[slipper clutch]]es to eliminate the effects of [[engine braking]], which, being applied only to the rear wheel, can cause instability.
+
+====Automobile non-powertrain====
+Cars use clutches in places other than the drive train. For example, a belt-driven engine cooling fan may have a heat-activated clutch.  The driving and driven members are separated by a silicone-based fluid and a valve controlled by a [[Bimetallic strip|bimetallic spring]]. When the temperature is low, the spring winds and closes the valve, which lets the fan spin at about 20% to 30% of the [[crankshaft|shaft]] speed. As the temperature of the spring rises, it unwinds and opens the valve, allowing fluid past the valve, makes the fan spin at about 60% to 90% of shaft speed. Other clutches—such as for an [[air conditioning]] compressor—electronically engage clutches using magnetic force to couple the driving member to the driven member.
+
+==Other clutches and applications==
+* Belt clutch: Used on agricultural equipment and some piston-engine-driven helicopters. Engine power is transmitted via a set of [[Vee belt|vee-belts]] that are slack when the engine is idling, but by means of a tensioner pulley can be tightened to increase friction between the belts and the sheaves.
+* [[Dog clutch]]: Utilized in automobile manual transmissions mentioned above. Positive engagement, non-slip. Typically used where slipping is not acceptable. Partial engagement under any significant load can be destructive.
+* [[Fluid coupling|Hydraulic clutch]]: The driving and driven members are not in physical contact; coupling is hydrodynamic.
+* [[Electromagnetic clutch]] are, typically, engaged by an electromagnet that is an integral part of the clutch assembly. Another type, ''magnetic particle clutches'', contain magnetically influenced particles in a chamber between driving and driven members—application of [[direct current]] makes the particles clump together and adhere to the operating surfaces. Engagement and slippage are notably smooth.
+* Overrunning clutch or [[freewheel]]: If some external force makes the driven member rotate faster than the driver, the clutch effectively disengages. Examples include:
+** Borg-Warner [[overdrive (mechanics)|overdrive]] transmissions in cars
+** Ratchet: typical bicycles have these so that the rider can stop pedaling and coast
+** An oscillating member where this clutch can then convert the oscillations into intermittent linear or rotational motion of the complimentary member; others use ratchets with the pawl mounted on a moving member
+** The winding knob of a camera employs a (silent) wrap-spring type as a clutch in winding and as a brake in preventing it from being turned backwards.
+** The rotor drive train in helicopters uses a freewheeling clutch to disengage the rotors from the engine in the event of engine failure, allowing the craft to safely descend by [[autorotation (helicopter)|autorotation]].
+*Wrap-spring clutches: These have a helical spring wound with square-cross-section wire. In simple form the spring is fastened at one end to the driven member; its other end is unattached. The spring fits closely around a cylindrical driving member. If the driving member rotates in the direction that would unwind the spring the spring expands minutely and slips although with some drag. Rotating the driving member the other way makes the spring wrap itself tightly around the driving surface and the clutch locks up.
+
+===Specialty clutches and applications===
+
+====Single-revolution clutch====
+When inactive it is disengaged and the driven member is stationary. When "tripped", it locks up solidly (typically in a few to tens of [[milliseconds]]) and rotates the driven member just one full turn. If the trip mechanism is operated when the clutch would otherwise disengage the clutch remains engaged. Variants include [[half-revolution]] (and other fractional-revolution) types. These were an essential part of printing telegraphs such as [[teleprinter]] page printers, as well as electric typewriters, notably the [[IBM Selectric]]. They were also found in motor-driven mechanical calculators; the Marchant had several of them. They are also used in farm machinery and industry. Typically, these were a variety of dog clutch.
+
+Single-revolution clutches in teleprinters were of this type. Basically the spring was kept expanded (details below) and mostly out of contact with the driving sleeve, but nevertheless close to it. One end of the spring was attached to a sleeve surrounding the spring. The other end of the spring was attached to the driven member inside which the drive shaft could rotate freely. The sleeve had a projecting tooth, like a ratchet tooth. A spring-loaded pawl pressed against the sleeve and kept it from rotating. The wrap spring's torque kept the sleeve's tooth pressing against the pawl. To engage the clutch, an electromagnet attracted the pawl away from the sleeve. The wrap spring's torque rotated the sleeve, which permitted the spring to contract and wrap tightly around the driving sleeve. Load torque tightened the wrap so it did not slip once engaged. If the pawl were held away from the sleeve the clutch would continue to drive the load without slipping. When the clutch was to disengage power was disconnected from the electromagnet and the pawl moved close to the sleeve. When the sleeve's tooth contacted the pawl the sleeve and the load's [[inertia]] unwrapped the spring to disengage the clutch. Considering that the drive motors in some of these (such as teleprinters for news wire services) ran 24 hours a day for years the spring could not be allowed to stay in close contact with the driving cylinder; wear would be excessive. The other end of the spring was fastened to a thick disc attached to the driven member. When the clutch locked up the driven mechanism coasted and its inertia rotated the disc until a tooth on it engaged a pawl that kept it from reversing. Together with the restraint at the other end of the spring created by the trip pawl and sleeve tooth, this kept the spring expanded to minimize contact with the driving cylinder. These clutches were lubricated with conventional oil, but the wrap was so effective that the lubricant did not defeat the grip. These clutches had long operating lives, cycling for tens, maybe hundreds of millions of cycles without need of maintenance other than occasional lubrication with recommended oil.
+
+====''Cascaded-pawl'' single-revolution clutches====
+These superseded wrap-spring single-revolution clutches in page printers, such as [[teleprinter]]s, including the [[Teletype Model 28]] and its successors, using the same design principles. As well, the IBM Selectric typewriter had several of them. These were typically disc-shaped assemblies mounted on the drive shaft. Inside the hollow disc-shaped housing were two or three freely floating pawls arranged so that when the clutch was tripped, the load torque on the first pawl to engage created force to keep the second pawl engaged, which in turn kept the third one engaged. The clutch did not slip once locked up. This sequence happened quite fast, on the order of milliseconds. The first pawl had a projection that engaged a trip lever. If the lever engaged the pawl, the clutch was disengaged. When the trip lever moved out of the way the first pawl engaged, creating the cascaded lockup just described. As the clutch rotated it would stay locked up if the trip lever were out of the way, but if the trip lever engaged the clutch would quickly unlock.
+
+====''Kickback'' clutch-brakes====
+These mechanisms were found in some types of synchronous-motor-driven electric clocks. Many different types of synchronous clock motors were used, including the pre-World War II Hammond manual-start clocks. Some types of self-starting synchronous motors always started when power was applied, but in detail, their behavior was chaotic and they were equally likely to start rotating in the wrong direction. Coupled to the rotor by one (or possibly two) stages of reduction gearing was a wrap-spring clutch-brake. The spring did not rotate. One end was fixed; the other was free. It rode freely but closely on the rotating member, part of the clock's gear train. The clutch-brake locked up when rotated backwards, but also had some spring action. The inertia of the rotor going backwards engaged the clutch and wound the spring. As it unwound, it restarted the motor in the correct direction. Some designs had no explicit spring as such—but were simply compliant mechanisms. The mechanism was lubricated and wear did not present a problem.
+
+==See also==
+{{div col|3}}
+*[[Clamp (disambiguation)|Clamp]]
+*[[Clutch control]]
+* [[Coupling]]
+*[[Double clutch]]
+* [[Hele-Shaw clutch]]
+* [[Torque converter]]
+{{div col end}}
+
+== Notes ==
+{{Reflist|group=note|liststyle=lower-roman}}
+
+== References ==
+{{Reflist}}
+
+==Further reading==
+* Sclater, Neil. (2011). "Clutches and brakes." ''Mechanisms and Mechanical Devices Sourcebook.'' 5th ed. New York: McGraw Hill. pp.&nbsp;211–234. ISBN 9780071704427. Drawings and designs of various clutches.
+
+==External links==
+{{Commons category|Clutches|Clutch (coupling)}}
+* [http://auto.howstuffworks.com/clutch.htm HowStuffWorks has a detailed explanation] of the working of an automobile clutch.
+
+{{Powertrain}}
+
+{{use dmy dates|date=January 2012}}
+
+[[Category:Clutches| ]]
+[[Category:Automotive transmission technologies]]

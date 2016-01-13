@@ -1,0 +1,117 @@
+[[Image:Abbe-diagram 2.svg|right|thumb|380px|An Abbe diagram plots the Abbe number against refractive index for a range of different glasses (red dots). Glasses are classified using the Schott Glass letter-number code to reflect their composition and position on the diagram.]]
+
+[[Image:SpiderGraph Abbe Number-en.svg|250px|thumb|Influences of selected [[glass]] component additions on the Abbe number of a specific base glass.<ref>[http://glassproperties.com/abbe_number/ Abbe number calculation of glasses]</ref>]]
+
+In [[physics]] and [[optics]], the '''Abbe number''', also known as the '''V-number''' or '''constringence''' of a [[Transparency (optics)|transparent]] material, is a measure of the material's [[dispersion (optics)|dispersion]] (variation of refractive index with wavelength) in relation to the [[refractive index]], with high values of ''V'' indicating low dispersion (low [[lens (optics)#Chromatic aberration|chromatic aberration]]). It is named after [[Ernst Abbe]] (1840–1905), the German physicist who defined it.
+
+The Abbe number,<ref>{{cite book|last=Hovestadt|first=H.|title=Jena Glass and Its Scientific and Industrial Applications|year=1902|publisher=Macmillan and Co.|location=London|pages=1–81}}</ref><ref>{{cite book|last=Bergmann|first=Ludwig|title=Optics of Waves and Particles|year=1999|publisher=Walter de Gruyter|location=Berlin|isbn=3-11-014318-6|pages=198–201|coauthors=Clemens Schaefer}}</ref> ''V<sub>D</sub>'', of a material is defined as
+
+:<math>V_D = \frac{ n_D - 1 }{ n_F - n_C },</math>
+
+where ''n''<sub>D</sub>, ''n''<sub>F</sub> and ''n''<sub>C</sub> are the refractive indices of the material at the wavelengths of the [[Fraunhofer lines|Fraunhofer]] D-, F- and C- [[spectral line]]s (589.3 [[nanometre|nm]], 486.1&nbsp;nm and 656.3&nbsp;nm respectively). 
+
+Abbe numbers are used to classify [[glass]] and other optically transparent materials. For example, [[flint glass]] has ''V''&nbsp;<&nbsp;50 and [[crown glass (optics)|crown glass]] has ''V''&nbsp;>&nbsp;50. Typical values of ''V'' range from around 20 for very dense flint glass, around 30 for [[polycarbonate]] plastics, and up to 65 for very light crown glass, and up to 85 for [[fluorite|fluor]]-crown glass. Abbe numbers are only a useful measure of dispersion for visible light, and for other wavelengths, or for higher precision work, the [[dispersion (optics)|group velocity dispersion]] is used.
+
+Due to the difficulty and inconvenience in producing sodium and hydrogen lines, alternate definitions of the Abbe number are used in some contexts ([[ISO]] 7944).<ref>{{cite web|last=Meister|first=Darryl|title=Understanding Reference Wavelengths|url=http://www.opticampus.com/files/memo_on_reference_wavelengths.pdf|publisher=Carl Zeiss Vision|accessdate=2013-03-13}}</ref>  The value ''V''<sub>d</sub> is given by
+:<math> V_d = \frac{n_d-1}{ n_F - n_C }</math>
+which defines the Abbe number with respect to the yellow Fraunhofer d (or D<sub>3</sub>) [[helium]] line at 587.5618&nbsp;nm wavelength. It can also be defined at the green [[mercury (element)|mercury]] E-line at 546.073&nbsp;nm:
+:<math> V_e = \frac{n_e-1}{ n_{F'} - n_{C'}}</math>
+where F' and C' are the blue and red [[cadmium]] lines at 480.0&nbsp;nm and 643.8&nbsp;nm, respectively.
+
+An '''Abbe diagram''' is produced by plotting the Abbe number ''V''<sub>d</sub> of a material versus its refractive index ''n''<sub>d</sub>. Glasses can then be categorised by their composition and position on the diagram. This can be a letter-number code, as used in the [[Schott Glass]] catalogue, or a 6-digit [[glass code]].
+
+Abbe numbers are used to calculate the necessary [[focal length]]s of [[achromatic lens|achromatic doublet]] [[lens (optics)|lenses]] to minimize [[chromatic aberration]].
+
+The following table lists standard wavelengths at which n is usually determined, indicated by subscripts.<ref>L. D. Pye, V. D. Frechette, N. J. Kreidl: "Borate Glasses"; Plenum Press, New York, 1977</ref> For example, n<sub>D</sub> is measured at 589.3&nbsp;nm:
+
+{| class="wikitable"
+|-
+! λ in nm
+! [[Fraunhofer lines|Fraunhofer's symbol]]
+! Light source
+! Color
+|-
+| 365.01
+| i
+| Hg
+| UV
+|-
+| 404.66
+| h
+| Hg
+| violet
+|-
+| 435.84
+| g
+| Hg
+| blue
+|-
+| 479.99
+| F'
+| Cd
+| blue
+|-
+| 486.13
+| F
+| H
+| blue
+|-
+| 546.07
+| e
+| Hg
+| green
+|-
+| 587.56
+| d
+| He
+| yellow
+|-
+| 589.3
+| D
+| Na
+| yellow
+|-
+| 643.85
+| C'
+| Cd
+| red
+|-
+| 656.27
+| C
+| H
+| red
+|-
+| 706.52
+| r
+| He
+| red
+|-
+| 768.2
+| A'
+| K
+| IR
+|-
+| 852.11
+| s
+| Cs
+| IR
+|-
+| 1013.98
+| t
+| Hg
+| IR
+|}
+
+==See also==
+*[[Abbe prism]]
+*[[Abbe refractometer]]
+*[[Calculation of glass properties]], including Abbe number
+*[[Glass code]]
+
+==References==
+{{reflist}}
+
+{{DEFAULTSORT:Abbe Number}}
+[[Category:Dimensionless numbers]]
+[[Category:Optics]]
+[[Category:Glass physics]]

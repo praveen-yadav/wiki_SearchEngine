@@ -1,0 +1,214 @@
+[[Image:CMVschema.svg|thumb|right|Schematic of a [[Cytomegalovirus]]]]
+[[Image:Helical capsid.jpg|thumb|right|3D model of Helical capsid structure]]
+
+:''For the leaf bug, see [[Miridae]].''
+
+A '''capsid''' is the protein shell of a [[virus (biology)|virus]]. It consists of several [[oligomer]]ic structural subunits made of [[protein]] called [[protomer]]s. The observable 3-dimensional morphological subunits, which may or may not correspond to individual proteins, are called [[capsomere]]s.  The capsid encloses the [[genetic material]] of the virus.
+
+Capsids are broadly classified according to their structure.  The majority of viruses have capsids with either [[helical]] or [[icosahedral]] <ref>{{cite journal | author=Lidmar J, Mirny L, Nelson, DR| title=Virus shapes and buckling transitions in spherical shells | journal = [[Phys. Rev. E]] | volume = 68 | pages = 051910|year=2003 | doi=10.1103/PhysRevE.68.051910 | issue=5}}</ref><ref>{{cite journal | author=Vernizzi G, Olvera de la Cruz M| title=Faceting ionic shells into icosahedra via electrostatics | journal = [[Proc. Natl. Acad. Sci. USA]] | volume = 104 | pages = 18382–18386|year=2007| doi=10.1073/pnas.0703431104 | issue=47}}</ref> structure.  Some viruses, such as [[bacteriophages]], have developed more complicated structures due to constraints of elasticity and electrostatics.<ref>{{cite journal | author=Vernizzi G, Sknepnek R, Olvera de la Cruz M| title=Platonic and Archimedean geometries in multicomponent elastic membranes | journal = [[Proc. Natl. Acad. Sci. USA]] | volume = 108 | pages = 4292–4296|year=2011| doi=10.1073/pnas.1012872108 | pmid=21368184 | issue=11 | pmc=3060260}}</ref>  The icosahedral shape, which has 20 equilateral triangular faces, approximates a [[sphere]], while the helical shape is cylindrical.<ref>{{cite book|title=Introduction to Protein Structure|author=Branden, Carl and Tooze, John|year=1991|pages=161–162|isbn=0-8153-0270-3|publisher=Garland|location=New York}}</ref>  The capsid faces may consist of one or more proteins.  For example, the [[foot-and-mouth disease]] virus capsid has faces consisting of three proteins named VP1–3.<ref>{{cite web|url=http://www.web-books.com/MoBio/Free/Ch1E1.htm|title=Virus Structure (web-books.com)}}</ref>
+
+[[Image:Adenovirus.jpg|thumb|left|Icosahedral capsid of an [[Adenoviridae|Adenovirus]]]]
+
+Some viruses are ''enveloped'', meaning that the capsid is coated with a lipid membrane known as the ''[[viral envelope]]''.  The envelope is acquired by the capsid from an intracellular membrane in the virus' host; examples include the inner nuclear membrane, the [[Golgi apparatus|golgi]] membrane, and the cell's outer [[cell membrane|membrane]].<ref>{{cite book|title=Molecular Biology of the Cell|edition=4|pages=280|author=Alberts, Bruce; Bray, Dennis; Lewis, Julian; Raff, Martin; Roberts, Keith; [[James D. Watson|Watson, James D.]]|year=1994}}</ref>
+
+Once the virus has infected the cell, it will start replicating itself, using the mechanisms of the infected host cell. During this process, new capsid subunits are synthesized according to the genetic material of the virus, using the [[protein biosynthesis]] mechanism of the cell.  During the assembly process, a '''portal''' subunit is assembled at one vertex of the capsid.  Through this portal, viral [[DNA]] or [[RNA]] is transported into the capsid.<ref name="pmid16051846">{{cite journal|title=Involvement of the Portal at an Early Step in Herpes Simplex Virus Capsid Assembly|author=Newcomb WW, Homa FL, Brown JC|journal=Journal of Virology|volume=79|issue=16|year=2005 | month=August|pmid=16051846|pages=10540–6|doi=10.1128/JVI.79.16.10540-10546.2005|pmc=1182615}}</ref>
+
+Structural analyses of major capsid protein (MCP) architectures have been used to categorise viruses into families. For example, the bacteriophage PRD1, Paramecium bursaria Chlorella algal virus, and mammalian [[Adenoviridae|adenovirus]] have been placed in the same family.<ref>Khayat et al. classified Sulfolobus turreted icosahedral virus (STIV) and Laurinmäki et al. classified bacteriophage Bam35  – Proc. Natl. Acad. Sci. U.S.A. 103, 3669 (2006); 102, 18944 (2005); Structure 13, 1819 (2005)</ref>
+
+==Specific shapes==
+
+===Icosahedral===
+Although the icosahedral structure is extremely common among viruses, size differences and slight variations exist between virions.  Given an asymmetric subunit on a triangular face of a regular isosahedron, with three subunits per face 60 such subunits can be placed in an equivalent manner. Most virions, because of their size, have more than 60 subunits. These variations have been classified on the basis of the quasi-equivalence principle proposed by [[Donald Caspar]] and [[Aaron Klug]].<ref name=Caspar1962>Caspar DLD, Klug A (1962) Q. Biol. 27, 1–24.</ref>
+
+An isosahedral structure can be regarded as being constructed from 12 pentamers. The number of pentamers is fixed but the number of hexamers can vary.<ref name="Johnson, J. E. and Speir, J.A. 2009 115–123">{{cite book |author=Johnson, J. E. and  Speir, J.A. |title=Desk Encyclopedia of General Virology|publisher=Academic Press |location=Boston |year=2009 |pages=115–123 |isbn=0-12-375146-2}}</ref> These shells can be constructed from pentamers and hexamers by minimizing the number T (triangulation number) of nonequivalent locations that subunits occupy, with the T-number adopting the particular integer values 1, 3, 4, 7, 12, 13,...(T = h<sup>2</sup> + k<sup>2</sup> + hk, with h, k equal to nonnegative integers). These shells always contain 12 pentamers plus 10 (T-1) hexamers. Although this classification can be applied to the majority of known viruses exceptions are known including the retroviruses where point mutations disrupt the symmetry.<ref name="Johnson, J. E. and Speir, J.A. 2009 115–123"/>
+
+===Prolate===
+This is an icosahedron elongated along the fivefold axis and is a common arrangement of the heads of bacteriophages. Such a structure is composed of a cylinder with a cap at either end. The cylinder is composed of 10 triangles. The Q number, which can be any positive integer, specifies the number of triangles, composed of asymmetric subunits, that make up the 10 triangles of the cylinder. The caps are classified by the T number.<ref>{{cite book |author=Casens, S.|title=Desk Encyclopedia of General Virology|publisher=Academic Press |location=Boston |year=2009 |pages=167–174 |isbn=0-12-375146-2}}</ref>
+
+==Triangulation number==
+[[Image:Virus capsid T number.tif|thumb|right|Virus capsid T-numbers]]
+
+Icosahedral virus capsids are typically assigned a triangulation number (T-number) to describe the relation between the number of [[pentagons]] and [[hexagons]] ''i.e.'' their quasi-symmetry in the capsid shell. The T-number idea was originally developed to explain the quasi-symmetry by Caspar and Klug in 1962.<ref>{{cite journal |year=1962 |title=Physical Principles in the Construction of Regular Viruses |journal=Cold Spring Harbor Symp. Quant. Biol. |volume=27 |pages=1–24 |pmid=14019094 |author=Caspar, D. L. D. and Klug, A.}}</ref>
+
+For example, a purely [[dodecahedral]] virus has a T-number of 1 (usually written, T=1) and a [[truncated icosahedron]] is assigned T=3. The T-number is calculated by (1) applying a grid to the surface of the virus with coordinates ''h'' and ''k'', (2) counting the number of steps between successive pentagons on the virus surface, (3) applying the formula:
+
+:<math>T = h^2 + h \cdot k + k^2</math> = <math> (h+k)^2 - hk</math>
+
+where <math>h \ge k</math> and ''h'' and ''k'' are the distances between the successive pentagons on the virus surface for each axis (see figure on right). The larger the T-number the more hexagons are present relative to the pentagons.<ref>{{cite journal | author = Mannige RV, Brooks CL III | year = 2010 | title = Periodic Table of Virus Capsids: Implications for Natural Selection and Design | url = | journal = PLoS ONE | volume = 5 | issue = 3| page = e9423 | doi = 10.1371/journal.pone.0009423 | pmid=20209096 | pmc=2831995}}</ref><ref>{{cite web |url=http://viperdb.scripps.edu/virus.php |accessdate=March 17, 2011 |title=T-number index |work=[http://viperdb.scripps.edu/ VIPERdb] |publisher=[[The Scripps Research Institute]] |location=[[La Jolla, CA]] |doi=10.1093/nar/gkn840}}</ref>
+
+For the hexagonal system, the polyhedra have 20''T'' [[Vertex (geometry)|vertices]], 30''T'' [[Edge (geometry)|edges]], 10''T''+2 [[Face (geometry)|faces]] (12 pentagons and 10(''T''-1) hexagons). For the dual triangular, the vertex and face counts are flipped.
+
+{| class="wikitable"
+|+ Representation of Viral Capsid T-numbers up to (6,6)
+|-
+! scope="col" colspan=2 | capsid parameters
+! scope="col" colspan=4 | [[Simple polytope|hexagon/pentagon system]]
+! scope="col" colspan=4 | [[Simplicial polytope|triangle system]]
+|-
+! (''h'',''k'') !! ''T''
+! # hex <!-- #hex = (T-1)*10 -->
+! [[Conway polyhedron notation|Conway notation]] !! image !! geometric name
+! # tri <!-- #tri = T*20 -->
+! [[Conway polyhedron notation|Conway notation]] !! image !! geometric name
+|-
+! (1,0)
+|| 1
+| 0 || ''D'' || [[Image:Uniform polyhedron-53-t0.png|80px|Dodecahedron]] || [[Dodecahedron]]
+| 20 || ''I'' || [[Image:Uniform polyhedron-53-t2.png|80px|Icosahedron]] || [[Icosahedron]]
+|-
+! (1,1)
+|| 3
+| 20 || ''tI''<BR>''dkD'' || [[Image:Uniform polyhedron-53-t12.png|80px|Truncated icosahedron]] || [[Truncated icosahedron]]
+| 60 || ''kD'' || [[File:Conway polyhedron kD.png|80px|Pentakis dodecahedron]] || [[Pentakis dodecahedron]]
+|-
+!(2,0)
+|| 4
+| 30 || ''cD''=''t5daD'' || [[Image:Truncated rhombic triacontahedron.png|80px|Truncated rhombic triacontahedron]] || [[Truncated rhombic triacontahedron]]
+| 80 || ''k5aD'' || [[File:Conway polyhedron k5aD.png|80px|Pentakis icosidodecahedron]] || [[Pentakis icosidodecahedron]]
+|-
+!(2,1)
+|| 7
+| 60 || ''dk5sD'' || [[File:Conway polyhedron Dk5sI.png|80px]] || [[Truncated pentagonal hexecontahedron]]
+| 140 || ''k5sD'' || [[File:Conway polyhedron K5sI.png|80px]] || [[Pentakis snub dodecahedron]]
+|-
+! (3,0)
+|| 9
+| 80 || ''dktI'' || [[File:Conway polyhedron Dk6k5tI.png|80px]]|| [[Hexapentatruncated pentakis dodecahedron]]
+|180|| ''ktI'' || [[File:Conway polyhedron K6k5tI.png|80px]]|| [[Hexapentakis truncated icosahedron]]
+|-
+! (2,2)
+|| 12
+| 110 || ''dkt5daD'' || [[File:Conway polyhedron dkt5daD.png|80px]]||
+| 240 || ''kt5daD'' || [[File:Conway polyhedron kt5daD.png|80px]]|| [[Hexapentakis truncated rhombic triacontahedron]]
+|-
+!(3,1)
+|| 13
+| 120
+| || [[File:Goldberg polyhedron 3 1.png|80px]] || 
+| 260
+|colspan='3' |
+|-
+!(4,0)
+|| 16
+| 150 || ''ccD'' || [[File:Conway polyhedron dk6k5at5daD.png|80px]]||
+| 320 || ''dccD'' || [[File:Conway polyhedron k6k5at5daD.png|80px]]||
+|-
+! (3,2)
+| 19
+| 180
+|colspan='3' |
+| 380
+|colspan='3' |
+|-
+! (4,1)
+|| 21
+| 200 || ''dk5k6stI''<br/>''tk5sD'' || [[File:Conway polyhedron Dk5k6st.png|80px]]||
+| 420 || ''k5k6stI''<br/>''kdk5sD'' || [[File:Conway polyhedron K5k6st.png|80px]]|| [[Hexapentakis snub truncated icosahedron]]
+|-
+! (5,0)
+|| 25
+| 240
+|colspan='3' |
+| 500
+|colspan='3' |
+|-
+! (3,3)
+|| 27
+| 260 || ''tktI'' || [[File:Conway polyhedron dkdktI.png|80px]] ||
+| 540 || ''kdktI'' || [[File:Conway polyhedron kdktI.png|80px]] ||
+|-
+! (4,2)
+|| 28
+|  || || [[File:Conway polyhedron dk6k5adk5sD.png|80px]] ||
+|  ||  || ||
+|-
+! (5,1)
+|| 31
+|  || || ||
+|  ||  || ||
+|-
+! (6,0)
+|| 36
+| 350 || ''tkt5daD'' || [[File:Conway polyhedron tkt5daD.png|80px]] ||
+| 720 || ''kdkt5daD'' || [[File:Conway polyhedron kdkt5daD.png|80px]] ||
+|-
+! (4,3)
+|| 37
+|  || || ||
+|  ||  || ||
+|-
+! (5,2)
+|| 39
+|  || || ||
+|  ||  || ||
+|-
+! (6,1)
+|| 43
+|  || || ||
+|  ||  || ||
+|-
+! (4,4)
+|| 48
+| 470 || ''dadkt5daD'' || [[File:Conway polyhedron dadkt5daD.png|80px]] ||
+| 960 || ''k5k6akdk5aD'' || [[File:Conway polyhedron k5k6akdk5aD.png|80px]] ||
+|-
+! (6,2)
+|| 48
+|  || || ||
+|  ||  || ||
+|-
+! (5,3)
+|| 49
+|  || || [[File:Goldberg polyhedron 5 3.png|80px]] || 
+|  ||  || ||
+|-
+! (5,4)
+|| 61
+|  || || ||
+|  ||  || ||
+|-
+! (6,3)
+|| 64
+|  || || ||
+|  ||  || ||
+|-
+! (5,5)
+|| 75
+|  || || ||
+|  ||  || ||
+|-
+! (6,4)
+|| 76
+|  || || ||
+|  ||  || ||
+|-
+! (6,5)
+|| 91
+|  || || ||
+|  ||  || ||
+|-
+! (6,6)
+|| 108
+|  || || ||
+|  ||  || ||
+|-
+| colspan=11 | ... 
+|}
+
+T-numbers can be represented in different ways, for example T=1 can only be  represented as an [[icosahedron]] or a [[dodecahedron]] and, depending on the type of quasi-symmetry, T= 3 can be presented as a [[truncated dodecahedron]], an [[icosidodecahedron]], or a [[truncated icosahedron]] and their respective duals a [[triakis icosahedron]], a [[rhombic triacontahedron]], or a [[pentakis dodecahedron]].
+<ref>{{cite journal |journal=J. Mol. Biol. |volume=324 |pages=723–737 |doi=10.1016/S0022-2836(02)01138-5 |title=A General Method to Quantify Quasi-equivalence in Icosahedral Viruses |year=2002 |author=K. V. Damodaran, Vijay S. Reddy, John E. Johnson and Charles L. Brooks III |issue=4 |pmid=12460573}}</ref>
+
+== See also==
+*[[Goldberg polyhedron]]
+*[[Geodesic dome]]
+*[[Fullerene#Other buckyballs]]
+
+==References==
+{{Commons category}}
+{{Reflist|2}}
+
+{{Virus topics}}
+
+[[Category:Virology]]
+[[Category:Protein complexes]]
+{{Link GA|de}}

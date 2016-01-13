@@ -1,0 +1,48 @@
+{{Other uses|Asynchrony (disambiguation){{!}}Asynchrony}}
+
+In [[telecommunications]], '''asynchronous communication''' is transmission of data, generally without the use of an external [[clock signal]], where data can be transmitted intermittently rather than in a steady stream.<ref>{{cite web
+| accessdate = 2011-04-27
+| location = http://www.webopedia.com/
+| publisher = Webopedia
+| title = asynchronous
+| quote = The term asynchronous is usually used to describe communications in which data can be transmitted intermittently rather than in a steady stream.
+| url = http://www.webopedia.com/TERM/A/asynchronous.html| archiveurl= http://web.archive.org/web/20110430051620/http://www.webopedia.com/TERM/A/asynchronous.html| archivedate= 30 April 2011 <!--DASHBot-->| deadurl= no}}</ref> Any timing required to recover data from the communication symbols is encoded within the symbols. A notable exception is the RS-232 port, and some derivatives, which are asynchronous, but still have an external clock signal available, although not commonly used. The most significant aspect of asynchronous communications is that data is not transmitted at regular intervals, thus making possible variable bit rate, and that the transmitter and receiver [[clock generator]]s do not have to be exactly synchronized all the time.
+
+== Physical layer ==
+{{main|Asynchronous serial communication}}
+In [[asynchronous serial communication]] at the [[physical protocol layer]], the data blocks are code words of a certain [[word length]], for example [[Octet (computing)|octets]] ([[bytes]]) or [[ASCII characters]], delimited by start bits and stop bits. A variable length space can be inserted between the code words. No bit synchronization signal is required. This is sometimes called [[character oriented communication]]. Examples are the [[RS-232]]C serial standard, and [[MNP2]] and [[List of ITU-T V-Series Recommendations|V.2]] modems and older.
+
+== Data link layer and higher ==
+Asynchronous communication at the [[data link layer]] or higher protocol layers is known as [[statistical multiplexing]] or [[packet mode]] communication, for example [[asynchronous transfer mode]] (ATM). In this case the asynchronously transferred blocks are called [[data packet]]s, for example ATM cells. The opposite is [[circuit switched]] communication, which provides constant bit rate, for example [[ISDN]] and [[SONET/SDH]].
+
+The packets may be encapsulated in a [[data frame]], with a [[frame synchronization]] bit sequence indicating the start of the frame, and sometimes also a [[bit synchronization]] bit sequence, typically 01010101, for identification of the bit transition times. Note that at the physical layer, this is considered as synchronous serial communication. Examples of packet mode data link protocols that can be/are transferred using synchronous serial communication are the [[HDLC]], [[Ethernet]], [[Point-to-point protocol|PPP]] and [[USB]] protocols.
+
+== Application layer ==
+{{Original research|date=September 2007}}
+An asynchronous communication service or application does not require a constant bit rate.{{Citation needed|date=September 2007}} Examples are [[file transfer]], [[email]] and the [[World Wide Web]]. An example of the opposite, a synchronous communication service, is realtime [[streaming media]], for example [[IP telephony]], [[IP-TV]] and [[video conferencing]].
+
+== Electronically mediated communication ==
+Electronically mediated communication is often asynchronous in that the participants do not communicate concurrently. Examples include [[email]] and [[bulletin board system]]s, where participants send or post messages at different times. The term acquired currency in online learning, where exchanges between teachers and students are often asynchronous instead of synchronous (that is, simultaneous), as they would be in face-to-face or telephone conversations.
+
+==See also==
+* [[Synchronization in telecommunications]]
+* [[Asynchronous serial communication]]
+* [[Asynchronous system]]
+* [[Asynchronous transfer mode]] (ATM)
+* [[Asynchronous circuit]]
+* [[Asynchrony]]
+* [[Anisochronous]]
+* [[Baud rate]]
+* [[Plesiochronous]]
+* [[Plesiochronous Digital Hierarchy]] (PDH)
+
+==References==
+{{Reflist}}
+
+<!--Interwikies-->
+
+{{DEFAULTSORT:Asynchronous Communication}}
+<!--Categories-->
+[[Category:Communication]]
+[[Category:Synchronization]]
+[[Category:Telecommunications techniques]]

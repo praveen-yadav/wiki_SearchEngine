@@ -1,0 +1,77 @@
+{{other uses}}
+{{Use dmy dates|date=July 2012}}
+
+A '''clade''' (from [[Ancient Greek]] {{lang|grc|κλάδος}}, ''klados'', "branch") or '''monophylum''' (see [[monophyletic]]) is a group consisting of an ancestor and all its descendants, a single "branch" on the "[[Tree of life (science)|tree of life]]".<ref name=Dupuis>{{cite journal | last=Dupuis | first=Claude | year=1984 | title=Willi Hennig's impact on taxonomic thought | journal=Annual Review of Ecology and Systematics | volume=15 | pages=1–24 | issn=0066-4162}}</ref> The ancestor may be an individual, a population or even a [[species]] ([[extinct]] or [[Extant taxon|extant]]). Many familiar groups, [[rodent]]s and [[insect]]s for example, are clades; others, like [[lizard]]s and [[monkey]]s, are not (lizards excludes snakes, monkeys excludes apes and humans). [[File:Clade-grade II.svg|thumb|right|334 px|[[Cladogram]] (family tree) of a biological group. The red and blue boxes at right and left represent clades (i.e., complete branches). The green box in the middle is not a clade, but rather represents an [[evolutionary grade]], an incomplete group, because the blue clade at left is [[common descent|descended]] from it, but is excluded.]] Increasingly, taxonomists try to name preferably or only [[Taxon|taxa]] that are clades.
+
+==Etymology==
+The term "clade" was coined in 1957 by the biologist [[Julian Huxley]] to refer to the result of [[cladogenesis]], a concept Huxley borrowed from [[Bernhard Rensch]].<ref name=Dupuis/><ref name=Huxley>{{cite journal | last = Huxley | first = J. S. | year =1957 |  title = The three types of evolutionary process | journal=Nature | volume=180 | pages=454-455 | doi=10.1038/180454a0}}</ref>
+
+==Definitions==
+[[File:Cladogram Crocodilia NL.PNG|thumb|right|200 px|Gavialidae, Crocodylidae and Alligatoridae are clade names that are here applied to a [[Phylogenetics|phylogenetic]] tree of crocodylians.]]
+
+===Clade and ancestor===
+A clade is by definition [[monophyletic]], meaning it contains one ancestor (which can be an organism, a [[population]], or a [[species]]) and all its descendants.<ref group=note>
+A semantic case has been made that the name should be "holophyletic," but this term has not acquired widespread use. For more information, see ''[[holophyly]]''</ref><ref>{{cite web|title=International Code of Phylogenetic Nomenclature. Version 4c. Chapter I. Taxa. |url=http://www.ohio.edu/phylocode/art1-3.html|year=2010|accessdate=22 September 2012}}</ref><ref>{{cite journal
+ | doi = 10.1111/j.1095-8312.2008.00984.x
+ | title = On the difference between mono-, holo-, and paraphyletic groups: a consistent distinction of process and pattern
+ | year = 2008
+ | last = Envall
+ | first= Mats
+ | journal = Biological Journal of the Linnean Society
+ | volume = 94
+ | page = 217 }}</ref> The ancestor can be known or unknown; any and all members of a clade can be extant or extinct.
+
+==Clades and phylogenetic trees==
+{{main|Phylogenetics}}
+{{main|Cladistics}}
+
+The science that tries to reconstruct phylogenetic trees and thus discover clades is called [[phylogenetics]] or [[cladistics]], the latter term being derived from "clade" by [[Ernst Mayr]] (1965). The results of phylogenetic/cladistic analyses are tree-shaped diagrams called ''[[cladogram]]s''; they, and all their branches, are phylogenetic hypotheses.<ref>{{cite journal|last=Nixon|first=Kevin C.|coauthors=Carpenter, James M.|title=On the Other "Phylogenetic Systematics"|journal=Cladistics|date=1 September 2000|volume=16|issue=3|pages=298–318|doi=10.1111/j.1096-0031.2000.tb00285.x|url=http://onlinelibrary.wiley.com/doi/10.1111/j.1096-0031.2000.tb00285.x/pdf}}</ref>
+
+Three methods of defining clades are featured in phylogenetic nomenclature: node-, stem-, and apomorphy-based:
+* In node-based definition, clade name A refers to the least inclusive clade containing taxa (or specimens) X, Y, etc. A is the clade consisting of the last common ancestor of these taxa together with all the descendents of that ancestor. The ancestor is the branch point, or node.
+* In stem-based definition, A refers to the most inclusive clade containing X and Y, etc., but not U or V etc. A consists of all organisms more closely related to both X and Y than to either U or V.
+* In apomorphy-based definition, A refers to the clade containing X with an apomorphy α (a trait) together with the earliest ancestor from which X inherited α and all other descendants of that ancestor.
+
+==Terminology==
+[[File:Primate cladogram.jpg|thumb|right|upright=1.5|[[Cladogram]] of the [[primates]], showing the nested nature of the primate tree]]
+The relationship between clades can be described in several ways:
+
+* A clade located within a clade is said to be ''nested'' within that clade. In the diagram, the [[Ape|hominoid]] clade, the apes and humans, is nested within the primate clade.
+* Two clades are ''[[Sister group|sisters]]'' if they have an immediate common ancestor. In the diagram, lemurs and lorises are sister clades.
+* A clade ''A'' is ''[[Basal (phylogenetics)|basal]]'' to a clade ''B'' if ''A'' branches off the lineage leading to ''B'' before ''B''&thinsp;'s first member. In the diagram to the right, the [[Strepsirrhini|strepsirrhine]] clade, including the lemurs and lorises, is basal to the [[Hominoidea|hominoids]], the apes and humans. Some authors have used "basal" differently to mean a clade that is "more primitive" or less species-rich than its sister clade; others consider this usage to be incorrect.<ref>{{cite journal |last=Krell |first=F.-T. |last2=Cranston |first2=P. |year=2004 |title=Which side of the tree is more basal? |journal=Systematic Entomology |volume=29 |issue=3 |pages=279–281 |doi=10.1111/j.0307-6970.2004.00262.x |lastauthoramp=yes }}</ref>
+
+== Nomenclature and taxonomy ==
+[[File:Haeckel arbol bn.png|thumb|right|Early phylogenetic tree by [[Ernst Haeckel|Haeckel]], 1866]]
+
+The idea of a clade did not exist in pre-[[Charles Darwin|Darwinian]] [[Linnaean taxonomy]], which was based by necessity only on internal or external [[morphology (biology)|morphological]] similarities between organisms – although as it happens, many of the better known animal groups in Linnaeus' original [[Systema Naturae]] (notably among the [[vertebrate]] groups) do represent clades. The phenomenon of [[convergent evolution]] is however responsible for many cases where there are misleading similarities in the morphology of groups that evolved from different lineages.
+
+With the publication of Darwin's [[Evolution|theory of evolution]] in 1859, the idea was born that groups used in a system of classification should represent branches on the evolutionary [[tree of life]]. In the century and a half since then, taxonomists have increasingly worked to make the taxonomic system reflect evolution. When it comes to [[Nomenclature#Biology|naming]], however, this principle is not always compatible with the traditional [[Linnaean taxonomy|rank-based nomenclature]]. In the latter, only taxa associated with a [[Taxonomic rank|rank]] can be named, yet there are not enough ranks to name a long series of nested clades; also, taxon names cannot be defined in a way that guarantees them to refer to clades. For these and other reasons, [[phylogenetic nomenclature]] has been developed; it is still controversial.
+
+== See also ==
+* [[Binomial nomenclature]]
+* [[Biological classification]]
+* [[Cladistics]]
+* [[Crown group]]
+* [[Paraphyly]]
+* [[Phylogenetic nomenclature]]
+* [[Phylogenetics]]
+* [[Polyphyly]]
+
+==Notes==
+<references group=note/>
+
+==References==<!-- OrgDiversEvol8:17. ZoolScripta36:607,37:337,38:101. -->
+{{reflist}}
+
+==External links==
+{{wiktionary}}
+* [http://scienceblogs.com/evolvingthoughts/2007/01/12/clade-1  Evolving Thoughts: Clade]
+* DM Hillis, D Zwickl & R Gutell. "[http://www.zo.utexas.edu/faculty/antisense/DownloadfilesToL.html Tree of life]". An unrooted cladogram depicting around 3000 species.
+* [http://evolution.berkeley.edu/evolibrary/article/0_0_0/phylogenetics_01 Phylogenetic systematics, an introductory slide-show on evolutionary trees] [[University of California, Berkeley]]
+
+{{Phylogenetics}}
+{{Evolution}}
+
+[[Category:Phylogenetics]]
+[[Category:Words coined in the 1950s]]
+[[Category:Philosophy of biology]]

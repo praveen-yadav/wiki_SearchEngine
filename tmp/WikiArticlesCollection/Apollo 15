@@ -1,0 +1,366 @@
+{{Use mdy dates|date=September 2013}}
+{{Infobox spaceflight
+| name                  = Apollo 15
+| image                 = Apollo 15 Lunar Rover and Irwin.jpg
+| image_caption         = Jim Irwin with the Lunar Roving Vehicle on the first lunar surface EVA of Apollo 15
+| insignia              = Apollo 15-insignia.png
+
+| mission_type          = Manned lunar landing
+| operator              = [[NASA]]<ref name="Orloff">{{cite book |last=Orloff |first=Richard W. |title=Apollo by the Numbers: A Statistical Reference |url=http://history.nasa.gov/SP-4029/SP-4029.htm |accessdate=July 18, 2009 |series=NASA History Series |origyear=First published 2000 |year=2004 |month=September |work=NASA History Division, Office of Policy and Plans |publisher=[[NASA]] |location=Washington, D.C. |isbn=0-16-050631-X |lccn=00-061677 |id=NASA SP-2000-4029 |chapter=Table of Contents |chapterurl=http://history.nasa.gov/SP-4029/Apollo_00g_Table_of_Contents.htm|archiveurl=http://web.archive.org/web/20070823124845/http://history.nasa.gov/SP-4029/SP-4029.htm|archivedate=August 23, 2007}}</ref>
+| COSPAR_ID             = CSM: 1971-063A<br/>LM: 1971-063C 
+| SATCAT                = CSM: 5351<br/>LM: 5366
+| mission_duration      = 12&nbsp;days, 7&nbsp;hours, 11&nbsp;minutes, 53&nbsp;seconds
+
+| spacecraft            = [[Apollo Command/Service Module|Apollo CSM]]-112<br/>[[Apollo Lunar Module|Apollo LM]]-10
+| manufacturer          = CSM: [[Rockwell International|North American Rockwell]]<br/>LM: [[Grumman]]
+| launch_mass           = {{convert|103594|lb|kg|disp=flip}}
+| landing_mass          =
+
+| launch_date           = {{start-date|July 26, 1971, 13:34:00.6|timezone=yes}}&nbsp;UTC 
+| launch_rocket         = [[Saturn V]] SA-510
+| launch_site           = [[Kennedy Space Center|Kennedy]] [[Kennedy Space Center Launch Complex 39|LC-39A]]
+
+| landing_date          = {{end-date|August 7, 1971, 20:45:53|timezone=yes}}&nbsp;UTC 
+| landing_site          = North Pacific Ocean<br/>{{coord|26|7|N|158|8|W|type:event|name=Apollo 15 splashdown}}
+
+| orbit_epoch           = July 30, 1971
+| orbit_reference       = [[selenocentric orbit|Selenocentric]]
+| orbit_periapsis       = {{convert|54.8|nmi|km|disp=flip|sp=us}}
+| orbit_apoapsis        = {{convert|65.2|nmi|km|disp=flip|sp=us}}
+| orbit_inclination     = 23&nbsp;degrees
+| orbit_period          = 
+| apsis                 = selene
+
+|interplanetary         = 
+ {{Infobox spaceflight/IP
+   |type                = orbiter
+   |object              = [[Moon|Lunar]]
+   |component           = [[Apollo Command/Service Module|Command/Service Module]]
+   |orbits              = 74
+   |arrival_date        = July 29, 1971, 20:05:46&nbsp;UTC
+   |departure_date      = August 4, 1971, 21:22:45&nbsp;UTC
+ }}
+ {{Infobox spaceflight/IP
+   |type                = lander
+   |object              = [[Moon|Lunar]]
+   |component           = [[Apollo Lunar Module|Lunar Module]]
+   |arrival_date        = July 30, 1971, 22:16:29&nbsp;UTC
+   |departure_date      = August 2, 1971, 17:11:23&nbsp;UTC
+   |location            = [[Hadley–Apennine (Moon)|Hadley-Apennine]]<br/>{{coord|26|7|55.99|N|3|38|1.90|E|type:landmark_globe:moon|name=Apollo 15 landing}}<br/>
+   |sample_mass         = {{convert|77|kg|lb}}
+   |surface_EVAs        = 4 (including standup)
+   |surface_EVA_time    = 19&nbsp;hours, 7&nbsp;minutes, 53&nbsp;seconds<br/><small>Standup: 33&nbsp;minutes, 7&nbsp;seconds<br/>First: 6&nbsp;hours, 32&nbsp;minutes, 42&nbsp;seconds<br/>Second: 7&nbsp;hours, 12&nbsp;minutes, 14&nbsp;seconds<br/>Third: 4&nbsp;hours, 49&nbsp;minutes, 50&nbsp;seconds</small>
+  }}
+ {{Infobox spaceflight/IP
+   |type                = rover
+   |object              = [[Moon|Lunar]]
+   |distance            = {{convert|27.9|km|sp=us}}
+   |component           = <!--LRV was not a spacecraft component-->
+ }}
+
+<!--Cargo parameters-->
+| payload_items         = [[Scientific Instrument Module]]<br>[[Lunar Roving Vehicle]]
+| cargo_mass            = SIM: <br>LRV: {{convert|463|lb|kg}}
+| instruments           = <!--a list of instruments on the satellite-->
+
+| docking               = 
+ {{Infobox spaceflight/Dock
+   | docking_target     = LM
+   | docking_type       = dock
+   | docking_date       = July 26, 1971, 17:07:49&nbsp;UTC
+   | undocking_date     = July 30, 1971, 18:13:16&nbsp;UTC
+   | time_docked        = 
+ }}
+ {{Infobox spaceflight/Dock
+   | docking_target     = LM Ascent Stage
+   | docking_type       = dock
+   | docking_date       = August 2, 1971, 19:10:25&nbsp;UTC
+   | undocking_date     = August 3, 1971, 01:04:01&nbsp;UTC
+   | time_docked        = 
+ }}
+
+| crew_size             = 3
+| crew_members          = [[David Scott|David R. Scott]]<br/>[[Alfred Worden|Alfred M. Worden]]<br/>[[James Irwin|James B. Irwin]]
+| crew_EVAs             = 1 in [[cislunar space]]<br/><small>Plus 4 on the lunar surface</small>
+| crew_EVA_duration     = 39&nbsp;minutes, 7&nbsp;seconds<br/><small>Spacewalk to retrieve film cassettes</small>
+| crew_callsign         = CSM: ''Endeavour''<br/>LM: ''Falcon''
+| crew_photo            = The_Apollo_15_Prime_Crew_-_GPN-2000-001169.jpg
+| crew_photo_caption    = Left to right: Scott, Worden, Irwin
+
+| previous_mission      = [[Apollo 14]]
+| next_mission          = [[Apollo 16]]
+| programme             = [[Apollo program|Project Apollo]]<br/><small>Lunar landing missions</small>
+}}
+
+'''Apollo 15''' was the ninth manned mission in the [[United States]]' [[Apollo program]], the fourth to [[Moon landing|land]] on the [[Moon]], and the eighth successful manned mission. It was the first of what were termed "[[List of Apollo mission types|J missions]]," long stays on the Moon, with a greater focus on science than had been possible on previous missions. It was also the first mission on which the [[Lunar Roving Vehicle]] was used.
+
+The mission began on July 26, 1971, and ended on August 7. At the time, [[NASA]] called it the most successful manned flight ever achieved.<ref>{{cite web |url=http://www.upi.com/Audio/Year_in_Review/Events-of-1971/Apollo-14-and-15/12295509436546-9/ |title=1971 Year in Review: Apollo 14 and 15 |work=UPI.com |publisher=[[United Press International]] |year=1971 |accessdate=July 19, 2013}}</ref>
+
+Commander [[David Scott]] and Lunar Module Pilot [[James Irwin]] spent three days on the Moon, including 18½ hours outside the [[spacecraft]] on lunar [[extra-vehicular activity]] (EVA). The mission was the first not to land in a [[lunar mare]], instead landing near [[Mons Hadley|Hadley rille]], in an area of the [[Mare Imbrium]] called ''Palus Putredinus'' (Marsh of Decay). The crew explored the area using the first lunar rover, which allowed them to travel much farther from the [[Apollo Lunar Module|Lunar Module]] (LM) lander than had been possible on missions without the rover. They collected {{convert|77|kg}} of lunar surface material. At the same time, Command Module Pilot [[Alfred Worden]] orbited the Moon, using a Scientific Instrument Module (SIM) in the [[Apollo Command/Service Module#Service Module (SM)|Service Module]] (SM) to study the lunar surface and environment in great detail with a panoramic camera, a [[Gamma ray spectrometer|gamma-ray spectrometer]], a mapping camera, a laser [[altimeter]], a [[Mass spectrometry|mass spectrometer]], and a lunar sub-satellite deployed at the end of Apollo 15's stay in [[lunar orbit]] (an Apollo program first).
+
+Although the mission accomplished its objectives, this success was somewhat overshadowed by negative publicity that accompanied public awareness of [[Apollo 15 postage stamp incident|postage stamps]] carried without authorization by the astronauts, who had made plans to sell them upon their return.
+
+== Crew ==
+{{Spaceflight crew
+|terminology      = Astronaut
+|position1        = Commander
+|crew1_up         = [[David Scott|David R. Scott]]
+|flights1_up      = Third and last
+|position2        = Command Module Pilot
+|crew2_up         = [[Alfred Worden|Alfred M. Worden]]
+|flights2_up      = Only
+|position3        = Lunar Module Pilot
+|crew3_up         = [[James Irwin|James B. Irwin]]
+|flights3_up      = Only
+}}
+
+All three astronauts on the all-[[United States Air Force]] crew received an honorary degree or Master's degree from the [[University of Michigan]], including Scott's honorary degree, awarded in the spring of 1971, months before the launch. Scott did attend the University of Michigan; he left before graduating, to accept an appointment to the [[United States Military Academy]]. The crewmen did their undergraduate work at the United States Military Academy and the [[United States Naval Academy]].
+
+=== Backup crew ===
+{{Spaceflight crew
+|terminology      = Astronaut
+|position1        = Commander
+|crew1_up         = [[Richard F. Gordon, Jr.]]
+|position2        = Command Module Pilot
+|crew2_up         = [[Vance D. Brand]]
+|position3        = Lunar Module Pilot
+|crew3_up         = [[Harrison Schmitt|Harrison H. Schmitt]]
+}}
+
+Harrison Schmitt was the first member of [[NASA Astronaut Group 4|Group 4]] to be selected as a prime or backup crew member for an Apollo flight; from Group 4 he was the only astronaut to make it to the [[Moon]], with the [[Apollo 17|last Apollo mission]] at the end of 1972.
+
+=== Support crew ===
+* [[Joseph P. Allen]]
+* [[Robert A. Parker]]
+* [[Karl Gordon Henize|Karl G. Henize]]
+
+=== Flight directors ===
+* [[Gerry Griffin]], Gold team
+* Milton Windler, Maroon team
+* [[Glynn Lunney]], Black team
+* [[Gene Kranz]], White team
+
+== Mission parameters ==
+* '''Mass:'''
+** Launch mass: 2,945,816&nbsp;kg
+** Total spacecraft: 46,782&nbsp;kg
+*** CSM mass: 30,354&nbsp;kg, of which CM was 5840&nbsp;kg, SM 24,523&nbsp;kg
+*** LM mass: 16,428&nbsp;kg, ascent stage at lunar liftoff 4,951&nbsp;kg
+* '''Earth orbits:''' 3 before leaving for Moon, about one on return
+* '''Lunar orbits:''' 74
+
+=== Earth parking orbit ===
+* '''[[Perigee]]:''' 169.5&nbsp;km
+* '''[[Apogee]]:''' 171.3&nbsp;km
+* '''[[Inclination]]:''' 29.679°
+* '''[[Orbital period|Period]]:''' 87.84 min
+
+=== LM-CSM docking ===
+* '''Undocked''': July 30, 1971 - 18:13:16 UTC
+* '''Docked''': August 2, 1971 - 19:10:25 UTC
+
+=== EVAs ===
+[[File:Apollo 15 Lunar Rover and Irwin.jpg|thumb|[[James Irwin]] with the rover on the lunar surface]]
+* '''''Scott''''' - Stand up EVA - LM upper hatch
+* '''Start Stand Up EVA''': July 31, 1971, 00:16:49 UTC
+* '''End Stand Up EVA''': July 31, 00:49:56 UTC
+* '''Duration''': 33 minutes, 07 seconds
+
+* '''''Scott and Irwin''''' - EVA 1
+* '''EVA 1 Start''': July 31, 1971, 13:12:17 UTC
+* '''EVA 1 End''': July 31, 19:45:59 UTC
+* '''Duration''': 6 hours, 32 minutes, 42 seconds
+
+* '''''Scott and Irwin''''' - EVA 2
+* '''EVA 2 Start''': August 1, 1971, 11:48:48 UTC
+* '''EVA 2 End''': August 1, 19:01:02 UTC
+* '''Duration''': 7 hours, 12 minutes, 14 seconds
+
+* '''''Scott and Irwin''''' - EVA 3
+* '''EVA 3 Start''': August 2, 1971, 08:52:14 UTC
+* '''EVA 3 End''': August 2, 13:42:04 UTC
+* '''Duration''': 4 hours, 49 minutes, 50 seconds
+
+* ''''' Worden ''''' (''Irwin'' - Stand up) - Transearth EVA 4
+* '''EVA 4 Start''': August 5, 1971, 15:31:12 UTC
+* '''EVA 4 End''': August 5, 16:10:19 UTC
+* '''Duration''': 39 minutes, 07 seconds
+
+== Planning and training ==
+[[Image:Apollo 15 commander Dave Scott geology training.jpg|thumb|250px|Commander [[David Scott]] during geology training in [[New Mexico]] on March 19, 1971]]
+
+The crew for Apollo 15 had previously served as the backup crew for [[Apollo 12]]. There had been a friendly rivalry between that prime and backup crew on that mission, with the prime being all [[United States Navy]], and the backup all United States Air Force.
+
+Originally Apollo 15 would have been a [[List of Apollo mission types|H mission]], like Apollos 12, [[Apollo 13|13]] and [[Apollo 14|14]]. But on September 2, 1970, NASA announced it was cancelling what were to be the current incarnations of the Apollo 15 and [[Canceled Apollo missions|Apollo 19]] missions. To maximize the return from the remaining missions, Apollo 15 would now fly as a J mission and have the honor of carrying the first lunar rover.
+
+One of the major changes in the training for Apollo 15 was the geology training. Although on previous flights the crews had been trained in field geology, for the first time Apollo 15 would make it a high priority. Scott and Irwin would train with [[Leon Silver]], a Caltech geologist who on Earth was interested in the [[Precambrian]]. Silver had been suggested by [[Harrison Schmitt]] as an alternative to the classroom lecturers that NASA had previously used. Among other things, Silver had made important refinements to the methods for dating rocks using the decay of [[uranium]] into [[lead]] in the late 1950s.
+
+At first Silver would take the prime and backup crews to various geological sites in Arizona and New Mexico as if for a normal field geology lesson, but as launch time approached, these trips became more realistic. Crews began to wear mock-ups of the backpacks they would carry, and communicate using [[walkie-talkie]]s to a CAPCOM in a tent. (During a mission the [[Flight controller#Capsule Communicator (CAPCOM)|Capsule Communicators]] (CAPCOMs), always fellow astronauts, were the only people who normally would speak to the crew.) The CAPCOM was accompanied by a group of geologists unfamiliar with the area who would rely on the astronauts' descriptions to interpret the findings.
+
+The decision to land at Hadley came in September 1970. The Site Selection Committees had narrowed the field down to two sites — Hadley Rille or the crater [[Marius (crater)|Marius]], near which were a [[Marius Hills|group of low, possibly volcanic, domes]]. Although not ultimately his decision, the commander of a mission always held great sway. To David Scott the choice was clear, with Hadley, being "exploration at its finest."
+
+Command Module Pilot Alfred Worden undertook a different kind of geology training. Working with an Egyptian-born geologist, [[Farouk El-Baz]], he flew over areas in an airplane simulating the speed at which terrain would pass below him while in the [[Apollo Command/Service Module]] (CSM) in orbit. He became quite adept at making observations as the object traveled below.
+
+== Mission highlights ==
+
+===Launch and outbound trip===
+[[File:Apollo 15 launch.jpg|thumb|right|Apollo 15 launches on July 26, 1971]]
+{{main|Apollo 15, Outward journey}}
+Apollo 15 launched on July 26, 1971, at 9:34 AM [[Eastern time|EDT]] from the [[Kennedy Space Center]], at [[Cape Canaveral]], Florida. During the launch, the [[S-IC]] did not completely shut off following staging for four seconds, creating the possibility of the spent stage banging into the [[S-II]] engines, damaging them and forcing an abort (the S-II exhaust also struck a telemetry package on the S-IC and caused it to fail). Despite this, the third stage and spacecraft reached its planned Earth parking orbit. A couple of hours into the mission, the third stage reignited to propel the spacecraft out of Earth orbit and on to the Moon.<ref name=alfj>{{cite web |url=http://history.nasa.gov/ap15fj/ |title=Apollo 15 Flight Journal |last1=Woods |first1=W. David |last2=O'Brien |first2=Frank |work=Apollo 15 Flight Journal |publisher=NASA |accessdate=July 14, 2011 |archiveurl=http://web.archive.org/web/20110720232257/http://history.nasa.gov/ap15fj/ |archivedate=July 20, 2011 <!--DASHBot-->|deadurl=no}}</ref>
+
+A few days after launching from Florida, the spacecraft passed behind the [[far side of the Moon]], where the [[Apollo Command/Service Module#Service Propulsion System|Service Propulsion System]] (SPS) engine on the CSM ignited for a six-minute burn, to slow the craft down into an initial lunar orbit. Once the lowest point of altitude in the orbit was reached, the SPS engine was fired again, to place the spacecraft into the proper descent orbit for the Lunar Module landing at Hadley.<ref name=alfj/>
+
+===Landing===
+Most of the first part of the day after arriving in lunar orbit on July 30 was spent in preparing the Lunar Module for descent to the lunar surface later on that day. When preparations were complete, un-docking from the CSM was attempted; it did not occur, because of a faulty seal in the hatch mechanism. The Command Module Pilot, Alfred Worden, re-sealed the hatch; the LM then separated from the CSM. David Scott and James Irwin continued preparations for the descent while Worden remained in the CSM, returning to a higher orbit to perform lunar observations and await his crewmates' return a few days later.<ref name=astronautix>{{cite web |last=Wade |first=Mark |title=Apollo 15 |url=http://www.astronautix.com/flights/apollo15.htm |publisher=[[Encyclopedia Astronautica]] |accessdate=July 14, 2011}}</ref><ref group=ALSJ name=landing>{{cite web |url=http://www.hq.nasa.gov/alsj/a15/a15.landing.html |title=Landing at Hadley |year=1996 |editor-last=Jones |editor-first=Eric M. |work=Apollo 15 Lunar Surface Journal |publisher=NASA |accessdate=July 14, 2011}}</ref>
+
+Soon, Scott and Irwin began the descent to the [[Hadley–Apennine (Moon)|Hadley landing site]]. Several minutes after descent was initiated, at pitch-over and the beginning of the approach phase of the landing, the LM was six kilometers east of the pre-selected landing target. On learning this, Scott altered the flight path of the LM. They touched down at 22:16:29 UTC on July 30 at Hadley, within a few hundred meters of the planned landing site. While previous crews had exited the Lunar Module shortly after landing, the crew of Apollo 15 elected to spend the rest of the day inside the LM, waiting until the next day to perform the first of three EVAs, or moonwalks, in order to preserve their sleep rhythm on a mission on which they were to spend a significantly longer time on the surface than previous crews had spent. Before they slept, Scott performed a stand-up EVA, during which the LM was depressurized and he photographed their surroundings from the top docking hatch.<ref name=astronautix/><ref group=ALSJ name=landing/><ref group=ALSJ name=seva>{{cite web |title=Stand-Up EVA |url=http://www.hq.nasa.gov/alsj/a15/a15.seva.html |year=1996 |editor-last=Jones |editor-first=Eric M. |work=Apollo 15 Lunar Surface Journal |publisher=NASA |accessdate=July 14, 2011}}</ref>
+
+===Lunar surface===
+[[File:Apollo 15 flag, rover, LM, Irwin.jpg|thumb|right|James Irwin salutes the [[Flag of the United States|United States flag]] on the Moon on August 1, 1971]]
+[[File:Lunar Olivine Basalt 15555 from Apollo 15 in National Museum of Natural History.jpg|thumb|[[Olivine]] [[basalt]] collected during Apollo 15]]
+{{main|Apollo 15, Lunar surface}}
+Throughout the sleep period, [[Mission Control Center|Mission Control]], in Houston, monitored a slow but steady oxygen leak. The data output of the onboard telemetry computers was limited during the night to conserve energy, so controllers could not determine the exact cause of the leak without awaking the crew. Scott and Irwin eventually were awakened an hour early, and the source of the leak was found to be an open valve on the urine transfer device. After the problem was solved, the crew began preparation for the first Moon walk.<ref group=ALSJ name=eva1wake>{{cite web |url=http://www.hq.nasa.gov/alsj/a15/a15.eva1wake.html |title=Wake-up for EVA-1 |year=1996 |editor-last=Jones |editor-first=Eric M. |work=Apollo 15 Lunar Surface Journal |publisher=NASA |accessdate=July 18, 2011}}</ref>
+
+Four hours later, Scott and Irwin became the seventh and eighth humans, respectively, to walk on the Moon. After unloading the [[Lunar Roving Vehicle]] (LRV), the two drove to the first moonwalk's primary destination, Elbow Crater, along the edge of [[Hadley Rille]]. On returning to the LM ''Falcon'', Scott and Irwin deployed the [[Apollo Lunar Surface Experiments Package]] (ALSEP). The first EVA lasted about 6½ hours.<ref name=astronautix/><ref name=summaryalsj group=ALSJ>{{cite web |url=http://www.hq.nasa.gov/alsj/a15/a15.summary.html |title=Mountains of the Moon |last=Jones |first=Eric M. |year=1995 |work=Apollo 15 Lunar Surface Journal |publisher=NASA |type=Essay |accessdate=June 28, 2011}}</ref>
+
+The target of the second EVA, the next day, was the edge of Mount Hadley Delta, where the pair sampled boulders and craters along the [[Montes Apenninus|Apennine Front]]. During this moonwalk, the astronauts recovered what came to be one of the more famous lunar samples collected on the Moon during [[Apollo program|Apollo]], sample #15415, more commonly known as the "[[Genesis Rock]]." Once back at the landing site, Scott continued to try to drill holes for an experiment at the ALSEP site, with which he had struggled the day before. After conducting soil-mechanics experiments and erecting a [[Lunar Flag Assembly|U.S. flag]], Scott and Irwin returned to the LM. EVA 2 lasted 7 hours and 12 minutes.<ref name=astronautix/><ref name=summaryalsj group=ALSJ/>
+
+During EVA 3, the third and final moonwalk of the mission, the crew again ventured to the edge of Hadley Rille, this time to the northwest of the immediate landing site. After returning to the LM's location, Scott performed an experiment in view of the [[Apollo TV camera|television camera]], using a feather and hammer to demonstrate [[Galileo]]'s theory that all objects in a given gravity field fall at the same rate, regardless of mass (in the absence of aerodynamic drag). He dropped the hammer and feather at the same time; because of the negligible lunar atmosphere, there was no drag on the feather, which hit the ground at the same time as the hammer.
+
+Scott then drove the rover to a position away from the LM, where the television camera could be used to observe the lunar liftoff. Scott set up a memorial nearby to the cosmonauts and astronauts who were known to have died up to that time, with a plaque bearing their names and a "[[Fallen Astronaut]]" statuette. The EVA lasted 4 hours and 50 minutes.<ref name=astronautix/><ref name=summaryalsj group=ALSJ/>
+
+In total, the two astronauts spent 18½ hours outside of the LM and collected approximately {{convert|77|kg|lb|abbr=on}} of lunar samples.<ref name=summaryalsj group=ALSJ/>
+
+===Return to Earth===
+[[File:Apollo 15 descends to splashdown.jpg|thumb|right|Apollo 15 descends with two good parachutes into the [[Pacific Ocean]] on August 7, 1971]]
+{{main|Apollo 15, Return to Earth}}
+After lifting off from the lunar surface 2 days and 18 hours after landing, the LM ascent stage rendezvoused and re-docked with the CSM with Worden aboard in orbit. After transferring samples and other items from the LM to the CSM, the LM was sealed off, jettisoned, and intentionally crashed into the lunar surface. After completing more observations of the Moon from orbit and releasing the sub-satellite, the three-person crew departed lunar orbit with another burn of the SPS engine.<ref name=alfj/>
+
+The next day, on the return trip to Earth, Worden performed a spacewalk in deep space, the first of its kind, to retrieve exposed film from the SIM bay. Later on in the day, the crew set an endurance record for Apollo program, becoming the longest Apollo spaceflight to that point.<ref name=wordeneva>{{cite web |url=http://www.hq.nasa.gov/office/pao/History/ap15fj/23day11_worden_eva.htm |title=Day 11: Worden's EVA Day |last1=Woods |first1=W. David |last2=O'Brien |first2=Frank |work=Apollo 15 Flight Journal |publisher=NASA |accessdate=July 14, 2011| archiveurl= http://web.archive.org/web/20110629043034/http://www.hq.nasa.gov/office/pao/History/ap15fj/23day11_worden_eva.htm| archivedate=June 29, 2011 <!--DASHBot-->| deadurl= no}}</ref>
+
+On approach to Earth the next day, August 7, the Service Module was jettisoned, and the Command Module (CM) [[Atmospheric reentry|reentered the Earth's atmosphere]]. Although one of the three parachutes on the CM failed to deploy properly, only two were required for a safe landing (one extra for redundancy). Upon landing in the North Pacific Ocean, the crew were recovered and taken aboard the recovery ship, the [[USS Okinawa (LPH-3)|USS ''Okinawa'']] after a mission lasting 12 days, 7 hours, 11 minutes, and 53 seconds.<ref name=alfj/><ref name=astronautix/>
+
+== Hardware ==
+
+===Spacecraft===
+Apollo 15 used Command/Service Module CSM-112, which was given the [[call sign]] ''Endeavour'', named after the [[HMS Endeavour|HMS ''Endeavour'']] and Lunar Module LM-10, call sign ''Falcon'', named after the [[United States Air Force Academy]] mascot. If Apollo 15 had flown as a H mission it would have been with CSM-111 and LM-9. That CSM was used by the [[Apollo–Soyuz Test Project]] but the Lunar Module went unused and is now on display at the [[Kennedy Space Center Visitor Complex]].[[Image:Apollo 15 SIM bay.jpg|thumb|Apollo 15 SM SIM bay]]
+
+After re-entry, one of ''Endeavour'''s three main parachutes collapsed after opening. Only two of the three parachutes were required for safe splashdown; the third was a contingency. ''Endeavour'' ultimately splashed down safely to end the mission.
+
+Technicians at the [[Kennedy Space Center]] had many problems with the SIM bay in the Service Module. It was the first time it had flown and experienced problems from the start. Problems came from the fact the instruments were designed to operate in zero gravity, but had to be tested in the 1 [[g-force|g]] on the surface of the Earth. As such, things like the 7.5 m booms for the [[Mass spectrometry|mass]] and [[gamma ray spectrometer]]s could only be tested using railings that tried to mimic the space environment, and so they never worked particularly well. When the technicians tried to integrate the entire bay into the rest of the spacecraft, [[data stream]]s would not synchronize, and lead investigators of the instruments would want to make last minute checks and changes. When it came time to test the operation of the gamma-ray spectrometer, it was necessary to stop every engine within {{convert|10|mi|km}} of the test site.
+
+On the Lunar Module, the [[fuel]] and [[oxidizer]] tanks were enlarged on both the descent and ascent stages and the [[Rocket engine nozzle|engine bell]] on the descent stage was extended. Batteries and [[solar cell]]s were added for increased electrical power. In all this increased the weight of the Lunar Module to {{convert|36000|lb|kg|abbr=off}}, {{convert|4000|lb|kg}} heavier than previous models.
+
+''Endeavour'' is currently on display at the [[National Museum of the United States Air Force]] at [[Wright-Patterson Air Force Base]] in [[Dayton, Ohio]].
+
+===Lunar Rover===
+The Lunar Roving Vehicle had been in development since May 1969, with the contract awarded to [[Boeing]]. It could be folded into a space 5&nbsp;ft by 20 in (1.5 m by 0.5 m). Unloaded it weighed 460&nbsp;lb (209&nbsp;kg) and when carrying two astronauts and their equipment, 1500&nbsp;lb (700&nbsp;kg). Each wheel was independently driven by a ¼ [[horsepower]] (200 W) electric motor. Although it could be driven by either astronaut, the Commander always drove. Travelling at speeds up to 6 to 8&nbsp;mph (10 to 12&nbsp;km/h), it meant that for the first time the astronauts could travel far afield from their lander and still have enough time to do some scientific experiments.<ref name=presskit>{{cite web |url=https://mira.hq.nasa.gov/history/ws/hdmshrc/all/main/DDD/17978.PDF | title=Apollo 15 Press Kit |date=July 15, 1971 |publisher=NASA |location=Washington, D.C. |format=PDF |id=Release No: 71-119K |accessdate=July 14, 2011| archiveurl=http://web.archive.org/web/20110721080114/https://mira.hq.nasa.gov/history/ws/hdmshrc/all/main/DDD/17978.PDF| archivedate=July 21, 2011 <!--DASHBot-->| deadurl=no}}</ref>
+
+===Lunar subsatellite===
+[[Image:Apollo 15 Subsatellite.jpg|thumb|right|Artist's conception of subsatellite deployment]]
+The Apollo 15 subsatellite ([[PFS-1]]) was a small satellite released into lunar orbit from the SIM bay. Its main objectives were to study the plasma, particle, and magnetic field environment of the Moon and map the lunar gravity field. Specifically, it measured plasma and energetic particle intensities and vector magnetic fields, and facilitated tracking of the satellite velocity to high precision. A basic requirement was that the satellite acquire fields and particle data everywhere on the orbit around the Moon.<ref name=presskit/>  The Moon's roughly circular orbit about the Earth at ~380,000&nbsp;km (60 Earth radii) carried the subsatellite into both interplanetary space and various regions of the Earth's magnetosphere. The satellite orbited the Moon and returned data from August 4, 1971 until January 1973.
+
+In later years, through a study of many lunar orbiting satellites, scientists came to discover that most [[Lunar orbit|Low Lunar orbits]] (LLO) are unstable. Fortunately, PFS-1 had been placed, unknown to mission planners at the time, very near to one of only four Lunar ''[[frozen orbit]]s'', where a Lunar satellite may remain indefinitely.<ref name=nasa20061106>{{cite web |title=Bizarre Lunar Orbits |url=http://science.nasa.gov/science-news/science-at-nasa/2006/06nov_loworbit/ |last=Bell |first=Trudy E. |date=November 6, 2006 |editor-last=Phillips |editor-first=Tony |work=Science@NASA |publisher=NASA |accessdate=December 9, 2012 |quote=''Lunar mascons make most low lunar orbits unstable ... As a satellite passes 50 or 60 miles overhead, the mascons pull it forward, back, left, right, or down, the exact direction and magnitude of the tugging depends on the satellite's trajectory. Absent any periodic boosts from onboard rockets to correct the orbit, most satellites released into low lunar orbits (under about 60 miles or 100 km) will eventually crash into the Moon. ... [There are] a number of 'frozen orbits' where a spacecraft can stay in a low lunar orbit indefinitely. They occur at four inclinations: 27º, 50º, 76º, and 86º"—the last one being nearly over the lunar poles. The orbit of the relatively long-lived Apollo 15 subsatellite [[PFS-1]] had an inclination of 28º, which turned out to be close to the inclination of one of the frozen orbits—but poor PFS-2 was cursed with an inclination of only 11º.''}}</ref>
+
+Releasing the subsatellite was the crew's final activity in lunar orbit, occurring an hour before the burn to take them back to Earth. A virtually identical subsatellite was deployed by [[Apollo 16]].
+
+===Launch vehicle===
+The [[Saturn V]] that launched Apollo 15 was designated SA-510, the tenth flight-ready model of the rocket. As the payload of the rocket was greater, changes were made to its launch trajectory and Saturn V itself. The rocket was launched in a more southerly direction (80–100 degrees [[azimuth]]) and the Earth [[parking orbit]] lowered to {{convert|166|km|nmi||sp=us|abbr=off}} above the Earth's surface. These two changes meant {{convert|1100|lb|kg}} more could be launched. The [[propellant]] reserves were reduced and the number of retrorockets on the S-IC first stage reduced from eight to four. The four outboard engines of the S-IC would be burned longer and the center engine would also burn longer before being shut down (see [[Saturn V]] for more information on the launch sequence). Changes were also made to the S-II second stage to stop [[pogo oscillation]]s.<ref name=presskit/>
+
+Once all the various components had been installed on the Saturn V, it was moved to the launch site, Launch Complex 39A. During late June and early July 1971, the rocket and Launch Umbilical Tower (LUT) were struck by [[lightning]] at least four times. All was well however, with only minor damage suffered.
+
+===Space suits===
+The astronauts themselves wore new [[space suit]]s. On all previous Apollo flights, including the non-lunar flights, the commander and lunar module pilot had worn suits with the life support, liquid cooling, and communications connections in two parallel rows of three. On Apollo 15, the new suits, dubbed the "[[Apollo/Skylab A7L#A7LB Spacesuit (Apollo, Skylab and ASTP)|A7LB]]," had the connectors situated in triangular pairs. This new arrangement, along with the relocation of the entry zipper (which went in an up-down motion on the old suits), from the right shoulder to the left hip, allowed the inclusion of a new waist joint, allowing the astronauts to bend completely over, and even to sit on the rover. Upgraded backpacks allowed for longer-duration moonwalks, and the Command Module Pilot, who wore a suit with three connectors, would wear a five-connector version of the old Moon suit — the liquid cooling water connector being removed, as the Command Module Pilot would make a "deep-space EVA" to retrieve film cartridges on the flight home.<ref name=presskit/>
+
+== Scandals ==
+{{further|Apollo 15 postage stamp incident}}
+
+[[File:Apollo 15 Space Suit David Scott.jpg|thumb|David Scott's space suit on display at the [[National Air and Space Museum|NASM]]]]
+[[File:RobbinsMedallionApollo15ByPhilKonstantin.jpg|thumb|Robbins Medallion from Apollo 15]]
+
+After a highly successful mission, the reputation of the crew and NASA was tarnished somewhat by a deal they made with a German stamp dealer.<ref>{{cite news |title=Apollo's most controversial mission |first=Thom |last=Patterson |url=http://lightyears.blogs.cnn.com/2011/07/27/apollos-most-controversial-mission/ |work=Light Years |publisher=[[CNN]] |type=Blog |date=July 27, 2011 |accessdate=July 27, 2011}}</ref>  [[H. Walter Eiermann]], who had many professional and social contacts with NASA employees and the astronaut corps, arranged for Scott to carry unauthorized commemorative postal covers in his space suit, in addition to the postal covers NASA contracted to carry for the [[United States Postal Service]]. Eiermann had promised each astronaut USD$7,000 in the form of savings accounts in return for 100 covers signed after having returned from the Moon. He told them that he would not advertise or sell the covers until the end of the Apollo program. Irwin wrote in his book ''To Rule the Night'' that the astronauts had agreed to the deal as a way to help finance their children's college tuition.<ref>[[#Irwin & Emerson|Irwin & Emerson 1973]]</ref>{{Page needed|date=July 2011}}
+
+One final controversial event happened after the flight. The crew had contacted Belgian [[Sculpture|sculptor]] [[Paul Van Hoeydonck]] to create a small statuette to personally commemorate those astronauts and cosmonauts having lost their lives in the furtherance of space exploration. The small aluminum sculpture called "[[Fallen Astronaut]]" was left on the Moon next to the lunar rover at the end of EVA 3, along with a plaque bearing the names of 14 American astronauts and Soviet cosmonauts. Unknown at the time, two of the original selection of 20 cosmonauts were also deceased before Apollo 15: [[Valentin Bondarenko]] (fire during training, March 1961) and [[Grigori Nelyubov]] (train accident/suicide, February 1966).<ref name="Apollo Lunar Surface Journal">Apollo Lunar Surface Journal</ref> Therefore, their names were not included on the plaque. The memorial was left while the television camera was turned off. Only Irwin knew what Scott was doing at the time. Scott told mission control he was doing some clean up activities around the rover so they wouldn't know what he was doing. They had agreed with Van Hoeydonck that no replicas were to be made. After mentioning the statuette during their post-flight press conference, the [[National Air and Space Museum]] contacted the crew asking for a replica made for the museum, and Van Hoeydonck subsequently advertised replicas for sale to the public. Under pressure from NASA, Van Hoeydonck withdrew the sale offer. NASA ultimately showed the monument on its Apollo 15 mission documentary, with no mention that it was unauthorized.
+
+== Mission insignia ==
+The three astronauts of Apollo 15 were all United States Air Force active duty officers, and their patch carries Air Force motifs (just as the Apollo 12 all-Navy crew's patch had featured a sailing ship). The circular patch features stylized red, white and blue birds flying over the Hadley Rille section of the Moon. Immediately behind the birds, a line of craters form the [[Roman numerals|Roman numeral]] XV. The artwork is circled in red, with a white band giving the mission and crew names and a blue border. Scott contacted fashion designer [[Emilio Pucci]] to design the patch, who came up with the basic idea of the three-bird motif on a square patch. The crew changed the shape to round and the colors from blues and greens to a patriotic red, white and blue. Worden stated that each bird also represented an astronaut, white being his own color (and as Command Module Pilot, uppermost), with Scott the blue bird and Irwin the red. The Roman numeral design was created when NASA insisted that the mission number be displayed in [[Arabic numerals]].<ref>[[#Worden & French|Worden & French 2011]], pp. 144–145</ref>
+
+== Visibility from space ==
+The halo area of the Apollo 15 Landing site, generated by the LM's exhaust plume, was observed by a camera aboard the Japanese lunar orbiter [[SELENE]] and confirmed by comparative analysis of photographs in May 2008. This corresponds well to photographs taken from the Apollo 15 Command Module showing a change in surface reflectivity due to the plume, and was the first visible trace of manned landings on the Moon seen from space since the close of the Apollo program.<ref>{{cite press release |title=The 'halo' area around Apollo 15 landing site observed by Terrain Camera on SELENE(KAGUYA) |date=May 20, 2008 |publisher=[[Japan Aerospace Exploration Agency]] |location=Chōfu, Tokyo |url=http://www.jaxa.jp/press/2008/05/20080520_kaguya_e.html |accessdate=July 19, 2013}}</ref>
+
+== Multimedia ==
+<gallery caption="Apollo 15">
+Image:Apollo 15 Lunar Rover training.ogg |'''Rover Training''' - Scott and Irwin train on Earth to use the lunar rover. (2.57 [[Megabyte|MB]], [[ogg]]/[[Theora]] format)
+Image:Apollo 15 launch.ogg |'''Launch of Apollo 15''' - Launch of Apollo 15 running from T-30s through to T+40s. (1.29 MB, ogg/Theora format)
+image:Apollo 15 TandD.ogg |'''Transposition, Docking and Extraction''' - ''Endeavour'' comes into dock with ''Falcon'' (3.03 MB, ogg/Theora format)
+image:Apollo 15 CSM moving away from LM.ogg |'''CSM moving away''' - ''Endeavour'' filmed from ''Falcon'' after undocking. (3.05 MB, ogg/Theora format)
+image:Apollo 15 landing on the Moon.ogg |'''Landing on the Moon'''- The landing on the Moon at Hadley seen from the perspective of the Lunar Module Pilot. Starts at about 5000 feet. (5.47 MB, ogg/Theora format)
+image:Apollo 15 lunar rover EVA2.ogg |'''On board the Lunar Rover''' - 16&nbsp;mm film sequence of driving the lunar rover. (3.26 MB, ogg/Theora format)
+image:Apollo 15 feather and hammer drop.ogg|'''Hammer and Feather Drop''' - Scott demonstrates that Galileo was right. (1.38 MB, ogg/Theora format)
+image: Apollo 15 liftoff from the Moon.ogg |'''Liftoff from the Moon''' - The liftoff from the Moon as seen by the [[Apollo TV camera|TV camera]] on the lunar rover. (2.31 MB, ogg/Theora format)
+image:Apollo 15 liftoff from inside LM.ogg |'''Liftoff from the Moon''' -  The liftoff from the Moon as from the perspective of the Lunar Module Pilot. (1.18 MB, ogg/Theora format)
+image: Apollo 15 Worden EVA.ogg |'''Worden's EVA''' - Worden undertakes an EVA to retrieve film cassettes from the Science Instrument Module. (2.81 MB, ogg/Theora format)
+image: Apollo 15 splashdown.ogg |'''Splashdown''' - Descent and splashdown of Apollo 15. (3.67 MB, ogg/Theora format)
+Image:Cylcotron beam experiment at LBNL for apollo space program eye flash investigations.jpg|An experiment at [[LBNL]] involving high energy particles from a [[cyclotron]] used to investigate the origin of the flashes of light seen by Apollo astronauts on their way to the Moon. Experiments were conducted on board Apollos 15, 16 and [[Apollo 17|17]] and [[Skylab]] to investigate this phenomenon; with the "Light Flashes Experiment Package" (a box of instrumentation worn on the head during light flash count sequences) flying on Apollos 16 and 17<ref>{{cite web |url=http://ares.jsc.nasa.gov/HumanExplore/Exploration/EXLibrary/docs/ApolloCat/Part2/ALFMED.htm |title=Experiment: Light Flashes Experiment Package (Apollo light flash moving emulsion detector) |work=[[Astromaterials Research and Exploration Science Directorate]] |publisher=NASA |accessdate=July 17, 2013}}</ref>
+</gallery>
+
+== Depiction in popular culture ==
+Portions of the Apollo 15 mission are dramatized in an episode of the 1998 [[HBO]] miniseries ''[[From the Earth to the Moon (TV miniseries)|From the Earth to the Moon]]'' entitled, "Galileo was Right."
+
+== See also ==
+{{commons|Apollo 15}}{{Portal|Spaceflight}}
+* [[Extra-vehicular activity]]
+* [[Google Moon]]
+* [[List of artificial objects on the Moon]]
+* [[List of spacewalks]]
+* [[Splashdown (spacecraft landing)|Splashdown]]
+
+== References ==
+{{Include-NASA}}
+{{reflist|colwidth=30em}}
+
+=== Apollo Lunar Surface Journal ===
+{{Reflist|group=ALSJ}}
+
+== Bibliography ==
+{{Refbegin}}
+* {{cite book |last=Chaikin |first=Andrew |authorlink=Andrew Chaikin |title=[[A Man on the Moon]]: The Voyages of the Apollo Astronauts |year=1994 |publisher=Viking |location=New York |isbn=0-670-81446-6 |lccn=93048680 |ref=Chaikin}}
+* {{cite book |last=Harland |first=David M. |authorlink=David M. Harland |title=Exploring the Moon: The Apollo Expeditions |year=1999 |publisher=[[Springer Science+Business Media|Springer]] |location=London; New York |isbn=1-85233-099-6 |lccn=98052789 |ref=Harland}}
+* {{cite book |last1=Irwin |first1=James B. |authorlink1=James Irwin |last2=Emerson |first2=William A., Jr. |authorlink2=William Emerson (journalist) |title=To Rule the Night: The Discovery Voyage of Astronaut Jim Irwin |edition=1st |year=1973 |publisher=A. J. Holman Co. |location=Philadelphia |isbn=0-87981-024-6 |lccn=73011410 |ref=Irwin & Emerson}}
+* {{cite book |last=Lattimer |first=Dick |others=Foreword by [[James A. Michener]] |title=All We Did Was Fly to the Moon |edition=1st |series=History-alive series |volume=1 |year=1985 |publisher=Whispering Eagle Press |location=Alachua, FL |isbn=0-9611228-0-3 |lccn=85222271 |ref=Lattimer}}
+* {{cite book |last1=Worden |first1=Al |authorlink1=Alfred Worden |last2=French |first2=Francis |authorlink2=Francis French |title=Falling to Earth: An Apollo 15 Astronaut's Journey |year=2011 |publisher=Smithsonian Books |location=Washington, D.C. |isbn = 978-1-58834-309-3 |lccn=2011003440 |ref=Worden & French}}
+{{Refend}}
+
+== External links ==
+{{Apollo15series}}
+* [http://www.astronautix.com/flights/apollo15.htm "Apollo 15"] at [[Encyclopedia Astronautica]]
+* [http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1971-063A "Apollo 15 Command and Service Module (CSM)"] at the [[National Space Science Data Center]], NASA
+* {{Wayback|url=http://www.spacephilatelics.com/suchap3-32.html|title="Apollo 15 Sieger Flown Moon Covers"|date=20010301044317}}
+
+'''NASA reports'''
+* [https://mira.hq.nasa.gov/history/ws/hdmshrc/all/main/DDD/17978.PDF Apollo 15 Press Kit] (PDF), NASA, Release No. 71-119K, July 15, 1971
+* [http://www.hq.nasa.gov/alsj/a15/as15psr.pdf ''Apollo 15 Preliminary Science Report''] (PDF), NASA, Manned Spacecraft Center. NASA SP-289, 1972
+* [http://history.nasa.gov/apsr/apsr.htm "Apollo Program Summary Report"] (PDF), NASA, JSC-09423, April 1975
+* [http://www.hq.nasa.gov/office/pao/History/SP-4204/contents.html ''Moonport: A History of Apollo Launch Facilities and Operations''] by Charles D. Benson and William Barnaby Faherty. NASA SP-4204, 1978
+* [http://www.collectspace.com/resources/flown_a15_articlescarried.html "Articles Carried on Manned Space Flights"] NASA News Release 72-189, September 15, 1972. Reprinted at collectSPACE.com
+* [http://history.nasa.gov/ap15fj/ Apollo 15 Flight Journal]
+* [http://www.hq.nasa.gov/alsj/a15/a15.html Apollo 15 Lunar Surface Journal]
+
+'''Multimedia'''
+* [http://www.archive.org/details/IntheMountainsOfTheMoonApollo15 ''Apollo 15: In the Mountains of the Moon'' (Part 1)] | [http://www.archive.org/details/InTheMountainsOfTheMoon (Part 2)] NASA documentary film HQ-217 on the Apollo 15 mission at the [[Internet Archive]]
+* [http://astrotalkuk.org/2011/07/04/episode-45-4th-july-2011-apollo-15-command-module-pilot-al-worden/ "Episode 45: 4th July 2011: Apollo 15 Command Module Pilot Al Worden"] Interview with AstrotalkUK (Podcast), recorded in London on May 22, 2011
+* [http://www.maniacworld.com/Apollo-15-Launch.htm "Apollo 15 Launch - Video"] at Maniac World
+* [http://www.apollotv.net/ Apollo launch and mission videos] at ApolloTV.net
+
+{{Apollo program| before=[[Apollo 14]] | after=[[Apollo 16]]}}
+{{Orbital launches in 1971}}
+{{Lunar rovers}}
+
+[[Category:Apollo program]]
+[[Category:Manned missions to the Moon]]
+[[Category:Missions to the Moon]]
+[[Category:Sample return missions]]
+[[Category:Lunar rovers]]
+
+{{Link FA|hu}}
+{{Link FA|ru}}

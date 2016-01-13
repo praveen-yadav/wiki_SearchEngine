@@ -1,0 +1,213 @@
+[[Image:Acf new.svg|thumb|right|A plot showing 100 random numbers with a "hidden" [[sine]] function, and an autocorrelation ([[correlogram]]) of the series on the bottom.]]
+[[File:Comparison convolution correlation.svg|thumb|300px|Visual comparison of [[convolution]], [[cross-correlation]] and autocorrelation.]]
+'''Autocorrelation''' is the [[cross-correlation]] of a [[signal (information theory)|signal]] with itself. Informally, it is the similarity between observations as a function of the time lag between them. It is a mathematical tool for finding repeating patterns, such as the presence of a periodic signal obscured by noise, or identifying the [[missing fundamental]] frequency in a signal implied by its [[harmonic]] frequencies.  It is often used in [[signal processing]] for analyzing functions or series of values, such as [[time domain]] signals.
+
+==Definitions==
+
+Different fields of study define autocorrelation differently, and not all of these definitions are equivalent.  In some fields, the term is used interchangeably with [[autocovariance]].
+
+===Statistics===
+In [[statistics]], the autocorrelation of a [[random process]] describes the [[correlation]] between values of the process at different times, as a function of the two times or of the time lag. Let ''X'' be some repeatable process, and ''i'' be some point in time after the start of that process. (''i'' may be an [[integer]] for a [[discrete-time]] process or a [[real number]] for a [[continuous-time]] process.) Then ''X''<sub>''i''</sub> is the value (or [[Realization (probability)|realization]]) produced by a given [[Execution (computing)|run]] of the process at time ''i''. Suppose that the process is further known to have defined values for [[mean]] ''μ<sub>i</sub>'' and [[variance]] ''σ<sub>i</sub><sup>2</sup>'' for all times ''i''. Then the definition of the autocorrelation between times ''s'' and ''t'' is
+
+:<math>
+R(s,t) = \frac{\operatorname{E}[(X_t - \mu_t)(X_s - \mu_s)]}{\sigma_t\sigma_s}\, ,
+</math>
+
+where "E" is the [[expected value]] operator.  Note that this expression is not well-defined for all time series or processes, because the variance may be zero (for a constant process) or infinite.  If the function ''R'' is well-defined, its value must lie in the range [−1,&nbsp;1], with 1 indicating perfect correlation and −1 indicating perfect [[Negative relationship|anti-correlation]]. <!--Maybe we should put all definitions of variables next to the equations so that people know what we're talking about.-->
+
+If ''X''<sub>''t''</sub> is a [[stationary process#Second-order_stationarity|second-order stationary process]] then the mean ''μ'' and the variance ''σ<sup>2</sup>'' are time-independent, and further the autocorrelation depends only on the lag between ''t'' and ''s'': the correlation depends only on the time-distance between the pair of values but not on their position in time. This further implies that the autocorrelation can be expressed as a function of the time-lag, and that this would be an [[Even and odd functions|even function]] of the lag  ''τ''&nbsp;=&nbsp;''s''&nbsp;−&nbsp;''t''.  This gives the more familiar form
+
+:<math>
+R(\tau) = \frac{\operatorname{E}[(X_t - \mu)(X_{t+\tau} - \mu)]}{\sigma^2}, \,
+</math>
+
+and the fact that this is an [[Even_and_odd_functions#Even_functions|even function]] can be stated as
+:<math>
+R(\tau) = R(-\tau).\,
+</math>
+
+It is common practice in some disciplines, other than statistics and [[time series analysis]], to drop the normalization by ''σ<sup>2</sup>'' and use the term "autocorrelation" interchangeably with "autocovariance". However, the normalization is important both because the interpretation of the autocorrelation as a correlation provides a scale-free measure of the strength of [[statistical dependence]], and because the normalization has an effect on the statistical properties of the estimated autocorrelations.
+
+===Signal processing===
+
+In [[signal processing]], the above definition is often used without the normalization, that is, without subtracting the mean and dividing by the variance.  When the autocorrelation function is normalized by mean and variance, it is sometimes referred to as the '''autocorrelation coefficient'''.<ref name="dunn">{{cite book |first=Patrick F. |last=Dunn |title=Measurement and Data Analysis for Engineering and Science |location=New York |publisher=McGraw–Hill |year=2005 |isbn=0-07-282538-3 }}</ref>
+
+Given a [[Signal (electronics)|signal]] <math>f(t)</math>, the continuous autocorrelation <math>R_{ff}(\tau)</math> is most often defined as the continuous cross-correlation integral of <math>f(t)</math> with itself, at lag <math>\tau</math>.
+
+:<math>R_{ff}(\tau) = (f(t) * \overline{f}(-t))(\tau) = \int_{-\infty}^\infty f(t+\tau)\overline{f}(t)\, {\rm d}t = \int_{-\infty}^\infty f(t)\overline{f}(t-\tau)\, {\rm d}t</math>
+
+where <math>\overline{f}</math> represents the [[complex conjugate]] and <math>*</math> represents [[convolution]].  For a [[real function]], <math>\overline{f} = f</math>.
+
+The discrete autocorrelation <math>R</math> at lag <math>j</math> for a discrete signal <math>x_n</math> is
+
+:<math>R_{xx}(j) = \sum_n x_n\,\overline{x}_{n-j}.</math>
+
+The above definitions work for signals that are square integrable, or square summable, that is, of finite energy.  Signals that "last forever" are treated instead as random processes, in which case different definitions are needed, based on expected values.  For [[stationary process|wide-sense-stationary random processes]], the autocorrelations are defined as
+
+:<math>R_{ff}(\tau) = \operatorname{E}\left[f(t)\overline{f}(t-\tau)\right]</math>
+:<math>R_{xx}(j) = \operatorname{E}\left[x_n\,\overline{x}_{n-j}\right].</math>
+
+For processes that are not [[Stationary process|stationary]], these will also be functions of <math>t</math>, or <math>n</math>.
+
+For processes that are also [[Ergodic process|ergodic]], the expectation can be replaced by the limit of a time average.  The autocorrelation of an ergodic process is sometimes defined as or equated to<ref name="dunn"/>
+
+:<math>R_{ff}(\tau) = \lim_{T \rightarrow \infty} \frac{1}{T} \int_0^T f(t+\tau)\overline{f}(t)\, {\rm d}t</math>
+:<math>R_{xx}(j) = \lim_{N \rightarrow \infty} \frac{1}{N} \sum_{n=0}^{N-1}x_n\,\overline{x}_{n-j}.</math>
+
+These definitions have the advantage that they give sensible well-defined single-parameter results for periodic functions, even when those functions are not the output of stationary ergodic processes.
+
+Alternatively, signals that ''last forever'' can be treated by a short-time autocorrelation function analysis, using finite time integrals.  (See [[short-time Fourier transform]] for a related process.)
+
+Multi-[[dimension]]al autocorrelation is defined similarly.  For example, in [[Three-dimensional space|three dimensions]] the autocorrelation of a square-summable [[discrete signal]] would be
+
+:<math>R(j,k,\ell) = \sum_{n,q,r} x_{n,q,r}\,x_{n-j,q-k,r-\ell}.</math>
+
+When mean values are subtracted from signals before computing an autocorrelation function, the resulting function is usually called an auto-covariance function.
+
+==Properties==
+
+In the following, we will describe properties of one-dimensional autocorrelations only, since most properties are easily transferred from the one-dimensional case to the multi-dimensional cases.
+
+* A fundamental property of the autocorrelation is symmetry, <math>R(i) = R(-i)</math>, which is easy to prove from the definition. In the continuous case,
+:the autocorrelation is an [[even function]]
+
+::<math>R_f(-\tau) = R_f(\tau)\,</math> when <math>f</math> is a real function,
+
+:and the autocorrelation is a [[Hermitian function]]
+
+::<math>R_f(-\tau) = R_f^*(\tau)\,</math> when <math>f</math> is a [[complex function]].
+
+* The continuous autocorrelation function reaches its peak at the origin, where it takes a real value, i.e. for any delay <math>\tau</math>, <math>|R_f(\tau)| \leq R_f(0)</math>.  This is a consequence of the [[Rearrangement inequality]].  The same result holds in the discrete case.
+
+* The autocorrelation of a [[periodic function]] is, itself, periodic with the same period.
+
+* The autocorrelation of the sum of two completely uncorrelated functions (the cross-correlation is zero for all <math>\tau</math>) is the sum of the autocorrelations of each function separately.
+
+* Since autocorrelation is a specific type of [[cross-correlation]], it maintains all the properties of cross-correlation.
+
+* The autocorrelation of a continuous-time [[white noise]] signal will have a strong peak (represented by a [[Dirac delta function]]) at <math>\tau=0</math> and will be absolutely 0 for all other <math>\tau</math>.
+
+* The [[Wiener–Khinchin theorem]] relates the autocorrelation function to the [[spectral density|power spectral density]] via the [[Fourier transform]]:
+
+::<math>R(\tau) = \int_{-\infty}^\infty S(f) e^{j 2 \pi f \tau} \, {\rm d}f</math>
+
+::<math>S(f) = \int_{-\infty}^\infty R(\tau) e^{- j 2 \pi f \tau} \, {\rm d}\tau.</math>
+
+* For real-valued functions, the symmetric autocorrelation function has a real symmetric transform, so the [[Wiener–Khinchin theorem]] can be re-expressed in terms of real cosines only:
+
+::<math>R(\tau) = \int_{-\infty}^\infty S(f) \cos(2 \pi f \tau) \, {\rm d}f</math>
+
+::<math>S(f) = \int_{-\infty}^\infty R(\tau) \cos(2 \pi f \tau) \, {\rm d}\tau.</math>
+
+==Efficient computation==
+For data expressed as a [[Discrete signal|discrete]] sequence, it is frequently necessary to compute the autocorrelation with high [[algorithmic efficiency|computational efficiency]]. A  brute force method based on the signal processing definition <math>R_{xx}(j) = \sum_n x_n\,\overline{x}_{n-j}</math> can be used when the signal size is small. For example, to calculate the autocorrelation of the real signal sequence <math>x = (2,3,1)</math> (i.e. x(0)=2, x(1)=3, x(2)=1, and x(i)=0 for all other values of ''i'') by hand, we first recognize that the definition just given is nothing but the usual multiplication with right shifts, where each vertical addition gives the autocorrelation for particular lag values:
+
+            2 3 1
+          × 2 3 1
+         -----------------
+           2  3  1
+              6  9  3
+                 4  6  2
+         -----------------
+           2  9 14  9  2
+
+Thus the required autocorrelation sequence is <math>R_{xx}=(2,9,14,9,2)</math>, where <math>R_{xx}(0)=14,</math> <math>R_{xx}(-1)= R_{xx}(1)=9,</math> and <math>R_{xx}(-2)= R_{xx}(2)=2,</math> the autocorrelation for other lag values being zero. In this calculation we do not perform the carry-over operation during addition as is usual in normal multiplication. Note that we can halve the number of operations required by exploiting the inherent symmetry of the autocorrelation. If the signal happens to be periodic, i.e. <math>x=(...,2,3,1,2,3,1,...),</math> then we get a circular autocorrelation (similar to [[circular convolution]]) where the left and right tails of the previous autocorrelation sequence will overlap and give <math>R_{xx}=(...,14,11,11,14,11,11,...)</math> which has the same period as the signal sequence <math>x.</math>
+
+While the brute force algorithm is [[Big O notation|order]] {{math|''n''<sup>2</sup>}}, several efficient algorithms exist which can compute the autocorrelation in order {{math|''n'' log(''n'')}}.  For example, the [[Wiener–Khinchin theorem]] allows computing the autocorrelation from the raw data {{math|''X''(''t'')}} with two [[Fast Fourier transform]]s (FFT):<ref>{{cite book |last=Box |first=G. E. P. |first2=G. M. |last2=Jenkins |first3=G. C. |last3=Reinsel |title=Time Series Analysis: Forecasting and Control |edition=3rd |location=Upper Saddle River, NJ |publisher=Prentice–Hall |year=1994 |isbn=0130607746 }}{{page needed|date=March 2013}}</ref>
+
+::{{math|''F''<sub>''R''</sub>(''f'') {{=}} FFT[''X''(''t'')]}}
+::{{math|''S''(''f'') {{=}} ''F''<sub>''R''</sub>(''f'') ''F''<sub>''R''</sub><sup>*</sup>(''f'')}}
+::{{math|''R''(''τ'') {{=}} IFFT[''S''(''f'')]}}
+
+where IFFT denotes the inverse [[Fast Fourier transform]]. The asterisk denotes complex conjugate.
+
+Alternatively, a multiple {{math|''τ''}} correlation can be performed by using brute force calculation for low {{math|''τ''}} values, and then progressively binning the {{math|''X''(''t'')}} data with a [[logarithm]]ic density to compute higher values, resulting in the same {{math|''n'' log(''n'')}} efficiency, but with lower memory requirements.<ref>{{cite book |first=D. |last=Frenkel |first2=B. |last2=Smit |title=Understanding Molecular Simulation |edition=2nd |location=London |publisher=Academic Press |year=2002 |chapter=chap. 4.4.2 |isbn=0122673514 }}</ref><ref>{{cite journal |first=P. |last=Colberg |first2=F. |last2=Höfling |title=Highly accelerated simulations of glassy dynamics using GPUs: caveats on limited floating-point precision |journal=[[Computer Physics Communications|Comp. Phys. Comm.]] |volume=182 |issue=5 |pages=1120–1129 |year=2011 |doi=10.1016/j.cpc.2011.01.009 }}</ref>
+
+==Estimation==
+For a [[Discrete signal|discrete]] process with known mean and variance for which we observe <math>n</math> observations <math>\{X_1,\,X_2,\,\ldots,\,X_n\}</math>, an estimate of the autocorrelation may be obtained as
+
+:<math> \hat{R}(k)=\frac{1}{(n-k) \sigma^2} \sum_{t=1}^{n-k} (X_t-\mu)(X_{t+k}-\mu) </math>
+
+for any positive integer <math>k<n</math>.  When the true mean <math>\mu</math> and variance <math>\sigma^2</math> are known, this estimate is '''[[Biased estimator|unbiased]]'''.  If the true mean and [[variance]] of the process are not known there are a several possibilities:
+* If <math>\mu</math> and <math>\sigma^2</math> are replaced by the standard formulae for sample mean and sample variance, then this is a '''[[Biased estimator|biased estimate]]'''.
+* A [[periodogram]]-based estimate replaces <math>n-k</math> in the above formula with <math>n</math>.  This estimate is always biased; however, it usually has a smaller mean square error.<ref>{{cite book |title=Spectral analysis and time series |first=M. B. |last=Priestley |location=London, New York |publisher=Academic Press |year=1982 |isbn=0125649010 }}</ref><ref>{{cite book | last=Percival | first=Donald B. | coauthors=Andrew T. Walden | title=Spectral Analysis for Physical Applications: Multitaper and Conventional Univariate Techniques | year=1993 | publisher=Cambridge University Press | isbn=0-521-43541-2 | pages=190–195}}</ref>
+* Other possibilities derive from treating the two portions of data <math>\{X_1,\,X_2,\,\ldots,\,X_{n-k}\}</math> and <math>\{X_{k+1},\,X_{k+2},\,\ldots,\,X_n\}</math> separately and calculating separate sample means and/or sample variances for use in defining the estimate.
+The advantage of estimates of the last type is that the set of estimated autocorrelations, as a function of <math>k</math>, then form a function which is a valid autocorrelation in the sense that it is possible to define a theoretical process having exactly that autocorrelation. Other estimates can suffer from the problem that, if they are used to calculate the variance of a linear combination of the <math>X</math>'s, the variance calculated may turn out to be negative. <!--and how is this a problem?-->
+
+==Regression analysis==
+
+In [[regression analysis]] using [[time series analysis|time series data]], autocorrelation of the errors is a problem.  Autocorrelation of the errors, which themselves are unobserved, can generally be detected because it produces autocorrelation in the observable [[Errors and residuals in statistics|residuals]].  (Errors are also known as "error terms" in [[econometrics]].)
+
+Autocorrelation violates the ordinary least squares (OLS) assumption that the error terms are uncorrelated.  While it does not bias the OLS coefficient estimates, the [[Standard error (statistics)|standard errors]] tend to be underestimated (and the [[T-statistics|t-scores]] overestimated) when the autocorrelations of the errors at low lags are positive.
+
+The traditional test for the presence of first-order autocorrelation is the [[Durbin–Watson statistic]] or, if the explanatory variables include a lagged dependent variable, [[Durbin–Watson statistic#Durbin h-statistic|Durbin's h statistic]].  A more flexible test, covering autocorrelation of higher orders and applicable whether or not the regressors include lags of the dependent variable, is the [[Breusch–Godfrey test]].  This involves an auxiliary regression, wherein the residuals obtained from estimating the model of interest are regressed on (a) the original regressors and (b) ''k'' lags of the residuals, where ''k'' is the order of the test.  The simplest version of the test statistic from this
+auxiliary regression is ''TR''<sup>2</sup>, where ''T'' is the sample size and ''R''<sup>2</sup> is the [[coefficient of determination]].  Under the null hypothesis of no autocorrelation, this statistic is
+asymptotically distributed as <math>\chi^2</math> with ''k'' degrees of freedom.
+
+Responses to nonzero autocorrelation include [[generalized least squares]] and the [[Newey West|Newey–West HAC estimator]] (Heteroskedasticity and Autocorrelation Consistent).<ref>{{cite book | title = An Introduction to Modern Econometrics Using Stata |first= Christopher F. |last=Baum  | publisher = Stata Press | year = 2006 | isbn = 1-59718-013-0}}</ref>
+
+==Applications==
+
+* One application of autocorrelation is the measurement of [[optical spectrum|optical spectra]] and the measurement of very-short-duration [[light]] [[ultrashort pulse|pulses]] produced by [[laser]]s, both using [[optical autocorrelation|optical autocorrelators]].
+
+* Autocorrelation is used to analyze [[dynamic light scattering]] data, which notably enables to determine the [[particle size distribution]]s of nanometer-sized particles or [[micelle]]s suspended in a fluid. A laser shining into the mixture produces a [[speckle pattern|speckle]] pattern that results from the motion of the particles. Autocorrelation of the signal can be analyzed in terms of the diffusion of the particles. From this, knowing the viscosity of the fluid, the sizes of the particles can be calculated.
+
+* The [[small-angle X-ray scattering]] intensity of a nanostructured system is the Fourier transform of the spatial autocorrelation function of the electron density.
+
+* In optics, normalized autocorrelations and cross-correlations give the [[degree of coherence]] of an electromagnetic field.
+
+* In [[signal processing]], autocorrelation can give information about repeating events like [[music]]al [[Beat (music)|beat]]s (for example, to determine [[tempo]]) or [[pulsar]] [[frequency|frequencies]], though it cannot tell the position in time of the beat. It can also be used to [[Pitch detection algorithm|estimate the pitch of a musical tone]].
+
+* In [[Music Recording|music recording]], autocorrelation is used as a [[pitch detection algorithm]] prior to vocal processing, as a distortion effect or to eliminate undesired mistakes and inaccuracies.<ref>{{Cite news
+  | last1 = Tyrangiel | first1 = Josh
+  | title = Auto-Tune: Why Pop Music Sounds Perfect
+  | newspaper = Time Magazine
+  | date = 2009-02-05
+  | url = http://www.time.com/time/magazine/article/0,9171,1877372,00.html}}</ref>
+
+* Autocorrelation in space rather than time, via the [[Patterson function]], is used by X-ray diffractionists to help recover the "Fourier phase information" on atom positions not available through diffraction alone.
+
+* In statistics, spatial autocorrelation between sample locations also helps one estimate [[Variance#Generalizations|mean value uncertainties]] when sampling a heterogeneous population.
+
+* The [[SEQUEST]] algorithm for analyzing [[Mass spectrum|mass spectra]] makes use of autocorrelation in conjunction with [[cross-correlation]] to score the similarity of an observed spectrum to an idealized spectrum representing a [[peptide]].
+* In [[Astrophysics]], auto-correlation is used to study and characterize the spatial distribution of [[galaxies]] in the Universe and in multi-wavelength observations of Low Mass X-ray Binaries.
+
+* In [[panel data]], spatial autocorrelation refers to correlation of a variable with itself through space.
+
+* In analysis of [[Markov chain Monte Carlo]] data, autocorrelation must be taken into account for correct error determination.
+
+==See also==
+* [[Autocorrelation matrix]]
+* [[Autocorrelation technique]]
+* [[Autocorrelator]]
+* [[Cointelation]]
+* [[Correlation function]]
+* [[Correlogram]]
+* [[Cross-correlation]]
+* [[Galton's problem]]
+* [[Partial autocorrelation function]]
+* [[Fluorescence correlation spectroscopy]]
+* [[Optical autocorrelation]]
+* [[Pitch detection algorithm]]
+* [[Triple correlation]]
+* [[Variance]]
+* [[CUSUM]]
+* [[Cochrane–Orcutt estimation]] (transformation for autocorrelated error terms)
+* [[Prais–Winsten transformation]]
+* [[Scaled Correlation]]
+
+==References==
+{{reflist}}
+
+==External links==
+* {{MathWorld | urlname=Autocorrelation | title=Autocorrelation}}
+* [http://www.dsprelated.com/comp.dsp/keyword/Autocorrelation.php Autocorrelation articles in Comp.DSP (DSP usenet group).]
+* [http://www.iop.org/EJ/abstract/1367-2630/11/9/093024/ GPU accelerated calculation of autocorrelation function.]
+
+{{Statistics|analysis}}
+
+[[Category:Covariance and correlation]]
+[[Category:Regression analysis]]
+[[Category:Signal processing]]
+[[Category:Time domain analysis]]
+[[Category:Time series analysis]]

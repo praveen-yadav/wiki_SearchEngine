@@ -1,0 +1,62 @@
+{{about|the software license|the artistic concept|Artistic license}}
+{{infobox software license
+| name            = Artistic License
+| author          = [[The Perl Foundation]]
+| version         = 1.0 and 2.0
+| copyright       = The Perl Foundation
+| date            = ?
+| OSI approved    = Yes (both)
+| Debian approved = Yes<ref>{{cite web|url=http://wiki.debian.org/DFSGLicenses#TheArtisticLicense|title=DFSG Licenses — Debian Wiki|accessdate=November 28, 2010}}</ref>
+| Free Software   = 1.0 No, 2.0 Yes
+| GPL compatible  = 1.0 No, 2.0 Yes
+| copyleft        = No<ref>{{cite web|url=http://osdir.com/ml/licenses.open-source.general/2007-03/msg00055.html|title=Re: For Approval: Artistic License 2.0: msg#00055|date=March 14, 2007|accessdate=July 11, 2009}}</ref>
+| copyfree        = No<ref>Copyfree [http://copyfree.org/rejected Rejected Licenses]</ref>
+| linking         = Yes
+}}
+The '''Artistic License''' refers most commonly to the original Artistic License (version 1.0), a software [[license]] used for certain [[free and open source software]] packages, most notably the standard implementation of the [[Perl|Perl programming language]] and most [[CPAN]] modules, which are [[dual-licensed]] under the Artistic License and the [[GNU General Public License]] (GPL). The original Artistic License was written by [[Larry Wall]]. The name of the license is a reference to the concept of [[artistic license]].
+
+The terms of the Artistic License 1.0 were at issue in a 2007 [[Jacobsen v. Katzer|federal district court decision]] in the US, which suggested that [[FOSS]]-like licenses could only be enforced through [[contract law]] rather than through [[copyright law]], in contexts where contract damages would be difficult to establish.<ref>[http://lawandlifesiliconvalley.blogspot.com/2007/08/new-open-source-legal-decision-jacobsen.html New Open Source Legal Decision: Jacobsen & Katzer and How Model Train Software Will Have an Important Effect on Open Source Licensing], Radcliffe, Mark (Law & Life: Silicon Valley) (2007-08-22)</ref>  On appeal, a [[United States court of appeals|federal appellate court]] "determined that the terms of the Artistic License are enforceable copyright conditions".<ref>[http://www.cafc.uscourts.gov/images/stories/opinions-orders/08-1001.pdf Opinion, Jacobsen v. Katzer], United States Court of Appeals for the Federal Circuit (2008-08-13)</ref> 
+
+The case was remanded to the District Court which did not apply the superior court's criteria (on the grounds that in the interim, the Supreme Court had changed the applicable law).{{cn|date=May 2013}}  However, this left undisturbed the finding that a free and open source license nonetheless has economic value.{{cn|date=May 2013}}
+
+== Artistic License 1.0 ==
+
+Whether or not the original Artistic License is a [[free software license]] is largely unsettled. It was criticized by the [[Free Software Foundation]]
+as being "too vague; some passages are too clever for their own good, and their meaning is not clear."<ref>{{cite web|url=http://www.gnu.org/licenses/license-list.html#NonFreeSoftwareLicense |title=Various Licenses and Comments about Them - GNU Project - Free Software Foundation (FSF) |publisher=Fsf.org |date= |accessdate=2010-08-07| archiveurl= http://web.archive.org/web/20100724023833/http://www.gnu.org/licenses/license-list.html| archivedate= 24 July 2010 <!--DASHBot-->| deadurl= no}}</ref> The Free Software Foundation has also explicitly called the original Artistic License a non-free license.<ref>{{cite web|url=http://www.gnu.org/philosophy/common-distros.html |title=Explaining Why We Don't Endorse Other Systems - GNU Project - Free Software Foundation |publisher=Free Software Foundation |date= |accessdate=2013-01-27|quote=...&nbsp;it permits software released under the original Artistic License to be included, even though that's a nonfree license.}}</ref> The FSF recommended that the license not be used on its own, but approved the common AL/GPL [[dual-licensing]] approach for Perl projects.
+
+In response to this, [[Bradley Kuhn]], who later worked for the Free Software Foundation, made a minimal redraft to clarify the ambiguous passages. This was released as the '''Clarified Artistic License''', and was approved by the FSF. It is used by the [[SNEeSe]] and [[FakeNES]] [[emulators]], the [[Paros Proxy]], the [[Dataflow programming|JavaFBP toolkit]] and [[NcFTP]].
+
+== Artistic License 2.0 ==
+
+In response to the [[Request for comments]] process for improving the licensing position for [[Perl 6]], Kuhn's draft was extensively rewritten by [[Roberta Cairney]] and [[Allison Randal]] for readability and legal clarity, with input from the Perl community. This resulted in the '''Artistic License 2.0''' which has been approved as both a [[free software]]<ref>{{cite web|url=http://www.gnu.org/licenses/license-list.html#ArtisticLicense2 |title=Various Licenses and Comments about Them - GNU Project - Free Software Foundation (FSF) |publisher=Fsf.org |date= |accessdate=2010-08-07| archiveurl= http://web.archive.org/web/20100724023833/http://www.gnu.org/licenses/license-list.html| archivedate= 24 July 2010 <!--DASHBot-->| deadurl= no}}</ref> and [[open source]]<ref>{{cite web|url=http://www.nabble.com/License-Committee-Report-for-May-2007-tf3872801.html |title=Old Nabble - License Committee Report for May 2007 |publisher=Nabble.com |date= |accessdate=2010-03-18}}</ref> license.
+
+It has been adopted by some of the [[Perl 6|Perl 6 implementations]], and has been used by the [[Parrot virtual machine]] since version 0.4.13.
+
+The [[Open Source Initiative|OSI]] recommends that all developers and projects licensing their products with the Artistic License adopt Artistic License 2.0.<ref>
+{{cite web
+    | url=http://opensource.org/licenses/artistic-license-1.0.php
+    | title=The Artistic License:Licensing
+    | publisher=Open Source Initiative
+    | date=October 31, 2006
+    | accessdate=March 18, 2009
+| archiveurl= http://web.archive.org/web/20090324061628/http://www.opensource.org/licenses/artistic-license-1.0.php| archivedate= 24 March 2009 <!--DASHBot-->| deadurl= no}}
+</ref>
+
+== References ==
+
+{{reflist|1}}
+
+==External links==
+* Version 1.0
+** [http://www.perlfoundation.org/artistic_license_1_0 The Artistic License] (the original Artistic License 1.0, the one which is still used by Perl and CPAN)
+** [http://www.ncftp.com/ncftp/doc/LICENSE.txt The Clarified Artistic License]
+* Version 2.0
+** [http://www.perlfoundation.org/artistic_license_2_0 The Artistic License 2.0] (used by Parrot)
+** [http://dev.perl.org/rfc/346.html 2.0 revision RFC process]
+* Prominent uses
+** [http://crepuscule.sourceforge.net/ Dusk] first online Novel and Blog written under Artistic License 2.0
+** [http://perlbuzz.com/2008/02/rem-releases-videos-under-artistic-license-20.html "R.E.M releases videos under Artistic License 2.0] - about [[R.E.M.]]'s choice of the Artistic License 2.0 for videos from one of their albums.
+
+{{FOSS}}
+
+[[Category:Free and open-source software licenses]]

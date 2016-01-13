@@ -1,0 +1,81 @@
+{{ref improve|date=February 2013}}
+[[Image:Commodore 1581 01.jpg|thumb|right|Commodore 1581]]
+The '''Commodore 1581''' is a 3½ inch [[Double-sided disk|double sided]] [[double density]] [[floppy disk]] drive made by [[Commodore International|Commodore Business Machines (CBM)]] in 1987, primarily for its [[Commodore 64|C64]] and [[Commodore 128|C128]] [[home computer|home]]/[[personal computer]]s. The drive stores 800 [[kilobyte]]s using an [[Modified Frequency Modulation|MFM]] encoding<ref name=dd81>[http://personalpages.tds.net/~rcarlsen/cbm/1581.txt tds.net - 1581 DISK DRIVE DIAGNOSTICS, latest updates and corrections 7-13-05]</ref> but format different from [[MS-DOS]] (720 kB), [[Amiga]] (880 kB), and [[Macintosh Plus|Mac Plus]] (800 kB) formats. With special software it's possible to read C1581 disks on a x86 PC system, and likewise, read MS-DOS disks in the C1581 (Big blue reader) provided the PC floppy handles the {{nowrap|"720 kB"}} size format.<ref name=dd81/> It was released in the summer of 1987 and quickly became popular with [[bulletin board system|bulletin board system (BBS)]] operators and other users.
+
+Like the [[Commodore 1541|1541]] and [[Commodore 1571|1571]], the 1581 has an on board [[MOS Technology 6502]] CPU with its own ROM and RAM, and uses a serial version of the [[IEEE-488]] interface. Inexplicably, the drive's ROM contains commands for parallel use, although no parallel interface was available. Like the 1571, it can read various other disk formats using special software. This capability was most frequently used to read MS-DOS disks. However, unlike the 1571, which is nearly 100% backward-compatible with the 1541, the 1581 has limited compatibility with Commodore's earlier drives. Although it responds to the same DOS commands, most disk utilities written prior to 1987, most notably fast loaders, are so 1541-specific that they do not work with the 1581.
+
+The version of [[Commodore DOS]] built into the 1581 added support for [[Disk partitioning|partitions]], which could also function as fixed-allocation [[Directory (file systems)|subdirectories]].  PC style subdirectories were rejected as being too difficult to work with in terms of  Block Allocation Maps, then still much in vogue, and which for some time had been the traditional way of inquiring into block availability.  When used together with the C128, it implements faster [[burst mode (computing)|burst mode]] access than the [[Commodore 1571]] 5¼" drive.  When using the 1581 together with the older C64, however, it is almost as slow as the older 1541 drive, due to limitations of the C64's ROM code. The 1581 provides a total of 3160 blocks free when formatted (a block being equal to 256 [[byte]]s). The number of permitted directory entries was also increased, to 296 entries. With a storage capacity of 800 kB, the 1581 was the highest capacity serial bus drive ever made by Commodore (the 1 MB SFD-1001 used the parallel IEEE-488), and the only 3½" one.  However, starting in 1991, [[Creative Micro Designs|Creative Micro Designs (CMD)]] made the [[CMD FD-2000|FD-2000]] [[high density]] (1.6&nbsp;MB) and [[CMD FD-4000|FD-4000]] [[extended density]] (3.2&nbsp;MB) 3½" drives, both of which offered not only a 1581 emulation mode but also 1541 and 1571 compatibility modes.
+
+Like the [[Commodore 1541|1541]] and [[Commodore 1571|1571]], a nearly identical [[job queue]] is available to the User in [[Zero page]] (except for Job 0), providing for exceptional degrees of compatibility.
+
+Unlike the case of the 1541 and 1571, the low-level disk format used by the 1581 is similar enough to the MS-DOS format as the 1581 is built around a [[Western Digital FD1771|WD1770]] FM/MFM floppy controller chip. PC Floppy controllers directly connected via the ISA-bus or onboard but not standalone USB floppy drives are able to deal with the 1581 format without need for any special tricks.  Thus, utilities to format, read, and write 1581-format disks in standard PC floppy drives under [[Linux]] and [[Microsoft Windows]] exist. This controller chip, however, was the seat of some early problems with 1581 drives when the first production runs were recalled due to a high failure rate; the problem was quickly corrected. Later versions of the 1581 drive had a smaller, more streamlined looking external power supply provided with them.
+
+== Specifications ==
+{| class=wikitable
+! Quantity !! Value
+|-
+| Onboard CPU    || [[MOS Technology 6502]] @ 2 [[Hertz|MHz]]
+|-
+| RAM            || 8 [[kilobyte|kB]]
+|-
+| ROM            || 32 kB
+|-
+| Transfer protocols || Standard and fast serial; [[Burst mode (computing)|burst mode]]; and commands for parallel interface (the latter not used)
+|-
+| Disk type      || 3,5" inch
+|-
+| Storage format || [[Modified Frequency Modulation|MFM]], [[double density]], [[Double-sided disk|double-sided]]
+|-
+| Interface      || CBM's proprietary serial IEEE-488
+|-
+| Power          || {{nowrap|5 V @ 1 A}} {{nowrap|(5 [[Volt-ampere|VA]])}}<br> {{nowrap|12 V @ 0.5 A}} {{nowrap|(6 VA)}}
+|}
+
+{{FOLDOC}}
+
+=== 1581 Image Layout ===
+The 1581 disk has 80 logical tracks, each with 40 logical sectors (the actual physical layout of the diskette is abstracted and managed by a hardware translation layer).  The directory starts on 40/3 (track 40, sector 3).  The disk header is on 40/0, and the BAM (Block Allocation Map) resides on 40/1 and 40/2.
+
+Header Contents
+
+ $00–01 T/S reference to first directory sector (40/3)
+     02 DOS version ('D')
+  04-13 Disk Label, $A0 padded
+  16-17 Disk ID
+  19-1A DOS type ('3D')
+
+BAM Contents, 40/1
+
+ $00–01 T/S to next BAM sector (40/2)
+     02 DOS version ('D')
+  04-05 Disk ID
+     06 I/O byte
+     07 Autoboot flag
+  10-FF BAM entries for Tracks 1-40
+
+BAM Contents, 40/2
+
+ $00–01 00/FF
+     02 DOS version ('D')
+  04-05 Disk ID
+     06 I/O byte
+     07 Autoboot flag
+  10-FF BAM entries for Tracks 41-80
+
+{{Commodore floppy drives}}
+
+== See also ==
+* [[Commodore 128]]
+
+== References ==
+<references/>
+
+== External links ==
+*[http://www.d81.de/ d81.de: Permanent home of 1581-Copy], A MS-Windows based Tool uses any standard x86-PC 3.5" drive to WRITE & READ 1581 disk images (d81).
+*[http://members.optusnet.com.au/spacetaxi64/MAIN/1581-GAMES.htm optusnet.com.au: 1581 Games, Commodore 1581 Games, D81 , CMD FD2000 &amp; FD4000 Games], Tools & Games specifically for the 1581 disk drive.
+*[http://members.optusnet.com.au/spacetaxi64/MAIN/1581-PC-35-DRIVE.htm optusnet.com.au: SEGA SF-7000 with PC 3.5&quot; Floppy Drive, Copy disk to PC and vise versa], How to use a PC 3.5" floppy drive in the 1581 device
+*[http://www.viceteam.org/plain/drive_info.txt viceteam.org: Commodore compatible Disk Drives], drive info
+*[http://www.students.tut.fi/%7eleinone3/dcn2692/index.html tut.fi: DCN-2692 floppy controller board], C1581 clone (complete)<!--/Links.shtml-->
+
+[[Category:Products introduced in 1987]]
+[[Category:Commodore 64]]

@@ -1,0 +1,175 @@
+{{Other uses}}
+
+[[File:Generalization process using trees PNG version.png|thumb|right|alt=Diagram|When the mind makes a generalization such as the concept of ''tree'', it extracts similarities from numerous examples; the simplification enables higher-level thinking.]]
+In [[metaphysics]], and especially [[ontology]], a '''concept''' is a fundamental [[category of being|category of existence]]. In [[contemporary philosophy]], there are at least three prevailing ways to understand what a concept is:<ref name="Stanford Encycl">{{cite web|title=Concepts|url=http://plato.stanford.edu/entries/concepts/|work=Stanford Encyclopedia of Philosophy|publisher=Metaphysics Research Lab at Stanford University|accessdate=6 November 2012|author=Eric Margolis|coauthors=Stephen Lawrence}}</ref>
+
+* Concepts as [[mental representation]]s, where concepts are entities that exist in the brain.
+* Concepts as [[skill|abilities]], where concepts are abilities peculiar to cognitive agents.
+* Concepts as [[abstract object]]s, where objects are the constituents of propositions that mediate between thought, language, and referents.
+
+== Mental representations ==
+{{Main|Mental representation}}
+
+In a [[physicalism|physicalist]] [[philosophy of mind|theory of mind]], a concept is a mental representation, which the brain uses to denote a class of things in the world. This is to say that it is literally, a symbol or group of symbols together made from the physical material of the brain.<ref name="Origin of Concepts">{{cite book|last=Carey|first=Susan|title=The Origin of Concepts|year=2009|publisher=Oxford University Press|isbn=978-0-19-536763-8}}</ref><ref name="Big Book">{{cite book|last=Murphy|first=Gregory|title=The Big Book of Concepts|year=2002|publisher=Massachusetts Institute of Technology|isbn=0-262-13409-8}}</ref> Concepts are mental representations that allows us to draw appropriate inferences about the type of entities we encounter in our everyday lives.<ref name="Big Book" /> Concepts do not encompass all mental representations, but are merely a subset of them.<ref name="Origin of Concepts" /> The use of concepts is necessary to cognitive processes such as [[categorization]], [[memory]], [[decision making]], [[learning]], and [[inference]].{{citation needed|date=December 2012}}
+
+== Abstract objects ==
+{{main|Abstract object}}
+
+In a [[Platonism|platonist]] theory of mind, concepts are construed as abstract objects.<ref name="concepts core readings">{{cite book|title=Concepts and Cognitive Science|year=1999|publisher=Massachusetts Institute of Technology|location=in Concepts: Core Readings|isbn=978-0-262-13353-1|pages=3–83|author=Stephen Lawrence|coauthors=Eric Margolis}}</ref> This debate concerns the [[ontology|ontological]] status of concepts - what they are really like.
+
+There is debate as to the relationship between concepts and [[natural language]].<ref name="Stanford Encycl" /> However, it is necessary at least to begin by understanding that the concept "dog" is philosophically distinct from the things in the world grouped by this concept - or the reference class or [[Extension (semantics)|extension]].<ref name="Origin of Concepts" /> Concepts that can be equated to a single word are called "lexical concepts".<ref name="Stanford Encycl" /> 
+
+Study of concepts and conceptual structure falls into the disciplines of [[philosophy]], [[psychology]], and [[cognitive science]].<ref name="Big Book" />
+
+== Notable theories on the structure of concepts ==
+
+=== Classical theory ===
+{{Main|Definitionism}}
+
+The classical theory of concepts, also referred to as the empiricist theory of concepts,<ref name="Origin of Concepts" /> is the oldest theory about the structure of concepts (it can be traced back to Aristotle<ref name="Big Book" />), and was prominently held until the 1970s.<ref name="Big Book" /> The classical theory of concepts says that concepts have a definitional structure.<ref name="Stanford Encycl" /> Adequate definitions of the kind required by this theory usually take the form of a list of features. These features must have two important qualities to provide a comprehensive definition.<ref name="Big Book" /> Features entailed by the definition of a concept must be both ''[[necessity and sufficiency|necessary]]'' and ''[[necessity and sufficiency|sufficient]]'' for membership in the class of things covered by a particular concept.<ref name="Big Book" /> A feature is considered necessary if every member of the denoted class has that feature. A feature is considered sufficient if something has all the parts required by the definition.<ref name="Big Book" /> For example, the classic example ''[[bachelor]]'' is said to be defined by ''unmarried'' and ''[[man]]''.<ref name="Stanford Encycl" /> An entity is a bachelor (by this definition) if and only if it is both unmarried and a man. To check whether something is a member of the class, you compare its qualities to the features in the definition.<ref name="Origin of Concepts" />  Another key part of this theory is that it obeys the ''[[law of the excluded middle]]'', which means that there are no partial members of a class, you are either in or out.<ref name="Big Book" /> 
+
+The classical theory persisted for so long unquestioned because it seemed intuitively correct and has great explanatory power. It can explain how concepts would be acquired, how we use them to categorize and how we use the structure of a concept to determine its referent class.<ref name="Stanford Encycl" /> In fact, for many years it was one of the major activities in [[philosophy]] - [[formal concept analysis|concept analysis]].<ref name="Stanford Encycl" /> Concept analysis is the act of trying to articulate the necessary and sufficient conditions for the membership in the referent class of a concept.{{citation needed|date=December 2012}}
+
+==== Arguments against the classical theory ====
+Given that most later theories of concepts were born out of the rejection of some or all of the classical theory,<ref name="concepts core readings" /> it seems appropriate to give an account of what might be wrong with this theory. In the 20th century, philosophers such as Rosch and Wittgenstein argued against the classical theory. There are six primary arguments<ref name="concepts core readings" /> summarized as follows:
+*It seems that there simply are no definitions - especially those based in sensory primitive concepts.<ref name="concepts core readings" /> 
+*It seems as though there can be cases where our ignorance or error about a class means that we either don't know the definition of a concept, or have incorrect notions about what a definition of a particular concept might entail.<ref name="concepts core readings" />
+* [[Willard Van Orman Quine|Quine]]'s argument against analyticity in [[Two Dogmas of Empiricism]] also holds as an argument against definitions.<ref name="concepts core readings" /> 
+*Some concepts have fuzzy membership. There are items for which it is vague whether or not they fall into (or out of) a particular referent class. This is not possible in the classical theory as everything has equal and full membership.<ref name="concepts core readings" /> 
+*[[Eleanor Rosch|Rosch]] found typicality effects which cannot be explained by the classical theory of concepts, these sparked the prototype theory.<ref name="concepts core readings" />  See below.
+*Psychological experiments show no evidence for our using concepts as strict definitions.<ref name="concepts core readings" />
+
+=== Prototype theory ===
+{{Main|Prototype theory}}
+
+Prototype theory came out of problems with the classical view of conceptual structure.<ref name="Stanford Encycl" /> Prototype theory says that concepts specify properties that members of a class tend to possess, rather than must possess.<ref name="concepts core readings" /> [[Ludwig Wittgenstein|Wittgenstein]], [[Eleanor Rosch|Rosch]], Mervis, [[Brent Berlin|Berlin]], Anglin, and [[Michael Posner (psychologist)|Posner]] are a few of the key proponents and creators of this theory.<ref name="concepts core readings" /><ref name="new paradigm">{{cite book|last=Brown|first=Roger|title=A New Paradigm of Reference|year=1978|publisher=Academic Press Inc|isbn=0-12-497750-2|pages=159–166}}</ref> Wittgenstein describes the relationship between members of a class as ''family resemblances''. There are not necessarily any necessary conditions for membership, a dog can still be a dog with only three legs.<ref name="Big Book" /> This view is particularly supported by psychological experimental evidence for prototypicality effects.<ref name="Big Book" /> Participants willingly and consistently rate objects in categories like 'vegetable' or 'furniture' as more or less typical of that class.<ref name="Big Book" /><ref name="new paradigm" />  It seems that our categories are fuzzy psychologically, and so this structure has explanatory power.<ref name="Big Book" /> We can judge an item's membership to the referent class of a concept by comparing it to the typical member - the most central member of the concept. If it is similar enough in the relevant ways, it will be cognitively admitted as a member of the relevant class of entities.<ref name="Big Book" /> Rosch suggests that every category is represented by a central exemplar which embodies all or the maximum possible number of features of a given category.<ref name="Big Book" />
+
+=== Theory-theory ===
+Theory-theory is a reaction to the previous two theories and develops them further.<ref name="Big Book" />  This theory postulates that categorization by concepts is something like scientific theorizing.<ref name="Stanford Encycl" /> Concepts are not learned in isolation, but rather are learned as a part of our experiences with the world around us.<ref name="Big Book" /> In this sense, concepts' structure relies on their relationships to other concepts as mandated by a particular mental theory about the state of the world.<ref name="concepts core readings" /> How this is supposed to work is a little less clear than in the previous two theories, but is still a prominent and notable theory.<ref name="concepts core readings" /> This is supposed to explain some of the issues of ignorance and error that come up in prototype and classical theories as concepts that are structured around each other seem to account for errors such as whale as a fish (this misconception came from an incorrect theory about what a whale is like, combining with our theory of what a fish is).<ref name="concepts core readings" /> When we learn that a whale is not a fish, we are recognizing that whales don't in fact fit the theory we had about what makes something a fish. In this sense, the Theory-Theory of concepts is responding to some of the issues of prototype theory and classic theory.<ref name="concepts core readings" />
+
+== Issues in concept theory ==
+
+=== A priori concepts ===
+{{Main|A priori and a posteriori|Category (Kant)}}
+
+Kant declared that human minds possess pure or ''[[a priori and a posteriori|a priori]]'' concepts. Instead of being abstracted from individual perceptions, like empirical concepts, they originate in the mind itself. He called these concepts [[category (Kant)|categories]], in the sense of the word that means [[predicate (grammar)|predicate]], attribute, characteristic, or [[quality (philosophy)|quality]]. But these pure categories are predicates of things ''in general'', not of a particular thing. According to Kant, there are 12 categories that constitute the understanding of phenomenal objects. Each category is that one predicate which is common to multiple empirical concepts. In order to explain how an ''a priori'' concept can relate to individual phenomena, in a manner analogous to an ''[[Empirical evidence|a posteriori]]'' concept, Kant employed the technical concept of the [[schema (Kant)|schema]].
+[[Immanuel Kant]] held that the account of the concept as an abstraction of experience is only partly correct. He called those concepts that result from abstraction "a posteriori concepts" (meaning concepts that arise out of experience). An empirical or an ''a posteriori'' concept is a general representation (''Vorstellung'') or non-specific thought of that which is common to several specific perceived objects ([[Logic]], I, 1., §1, Note 1)
+
+A concept is a common feature or characteristic. Kant investigated the way that empirical ''a posteriori'' concepts are created.
+{{Quotation|The logical acts of the understanding by which concepts are generated as to their form are:
+
+# ''comparison'', i.e., the likening of mental images to one another in relation to the unity of consciousness;
+# ''reflection'', i.e., the going back over different mental images, how they can be comprehended in one consciousness; and finally
+# ''abstraction'' or the segregation of everything else by which the mental images differ ...
+
+In order to make our mental images into concepts, one must thus be able to compare, reflect, and abstract, for these three logical operations of the understanding are essential and general conditions of generating any concept whatever. For example, I see a fir, a willow, and a linden. In firstly comparing these objects, I notice that they are different from one another in respect of trunk, branches, leaves, and the like; further, however, I reflect only on what they have in common, the trunk, the branches, the leaves themselves, and abstract from their size, shape, and so forth; thus I gain a concept of a tree.|Logic, §6}}
+
+===Embodied content===
+{{Main|Embodied cognition}}
+
+In [[cognitive linguistics]], abstract concepts are transformations of concrete concepts derived from embodied experience. The mechanism of transformation is structural mapping, in which properties of two or more source domains are selectively mapped onto a blended space (Fauconnier & Turner, 1995; see [[conceptual blending]]). A common class of blends are [[metaphors]]. This theory contrasts with the rationalist view that concepts are perceptions (or ''recollections'', in [[Plato]]'s term) of an independently existing world of ideas, in that it denies the existence of any such realm. It also contrasts with the empiricist view that concepts are abstract generalizations of individual experiences, because the contingent and bodily experience is preserved in a concept, and not abstracted away. While the perspective is compatible with Jamesian pragmatism, the notion of the transformation of embodied concepts through structural mapping makes a distinct contribution to the problem of concept formation.{{citation needed|date=December 2011}}
+
+===Ontology===
+{{Main|Ontology}}
+
+[[Plato]] was the starkest proponent of the realist thesis of universal concepts. By his view, concepts (and ideas in general) are innate ideas that were instantiations of a transcendental world of pure forms that lay behind the veil of the physical world. In this way, universals were explained as transcendent objects. Needless to say this form of realism was tied deeply with Plato's ontological projects. This remark on Plato is not of merely historical interest. For example, the view that numbers are Platonic objects was revived by [[Kurt Gödel]] as a result of certain puzzles that he took to arise from the phenomenological accounts.<ref>'Godel's Rationalism', [http://plato.stanford.edu/entries/goedel/#GodRat Standford Encyclopedia of Philosophy]</ref>
+
+[[Gottlob Frege]], founder of the analytic tradition in philosophy, famously argued for the analysis of language in terms of sense and reference. For him, the sense of an expression in language describes a certain state of affairs in the world, namely, the way that some object is presented. Since many commentators view the notion of sense as identical to the notion of concept, and Frege regards senses as the linguistic representations of states of affairs in the world, it seems to follow that we may understand concepts as the manner in which we grasp the world. Accordingly, concepts (as senses) have an ontological status (Morgolis:7)
+
+According to [[Carl Benjamin Boyer]], in the introduction to his ''The History of the Calculus and its Conceptual Development'', concepts in calculus do not refer to perceptions. As long as the concepts are useful and mutually compatible, they are accepted on their own. For example, the concepts of the [[derivative]] and the [[integral]] are not considered to refer to spatial or temporal perceptions of the external world of experience. Neither are they related in any way to mysterious [[limit (mathematics)|limits]] in which quantities are on the verge of nascence or evanescence, that is, coming into or going out of existence. The abstract concepts are now considered to be totally autonomous, even though they originated from the process of abstracting or taking away qualities from perceptions until only the common, essential attributes remained.
+
+==Etymology==
+The term "concept" is traced back to 1554–60 (Latin ''[[Wikt:conceptus|conceptum]]'' - "something conceived"),<ref>http://www.bartleby.com/61/49/C0544900.html|The American Heritage Dictionary of the English Language: Fourth Edition.</ref> but what is today termed "the classical theory of concepts" is the theory of [[Aristotle]] on the definition of terms.{{Citation needed|date=July 2008}} The meaning of "concept" is explored in mainstream [[information science]],<ref>Stock, W.G. (2010). [http://onlinelibrary.wiley.com/doi/10.1002/asi.21382/abstract Concepts and semantic relations in information science]. Journal of the American Society for Information Science and Technology, 61(10), 1951-1969.</ref><ref>Hjørland, B. (2009). Concept Theory. Journal of the American Society for Information Science and Technology, 60(8), 1519–1536</ref> [[cognitive science]], [[metaphysics]], and [[philosophy of mind]]. In computer and information science contexts, especially, the term 'concept' is often used in unclear or inconsistent ways.<ref>Smith, B. (2004). [http://ontology.buffalo.edu/bfo/Beyond_Concepts.pdf Beyond Concepts, or: Ontology as Reality Representation], Formal Ontology and Information Systems. Proceedings of the Third International Conference (FOIS 2004), Amsterdam: IOS Press, 2004, 73–84.</ref>
+
+==See also==
+<div style="-moz-column-count:4; column-count:4;">
+* [[Abstraction]]
+* [[Categorization]]
+* [[Class (philosophy)]]
+* [[Concept and object]]
+* [[Concept learning]]
+* [[Concept map]]
+* [[Conceptual art]]
+* [[Conceptual blending]]
+* [[Conceptual clustering]]
+* [[Conceptual framework]]
+* [[Conceptual history]] 
+* [[Conceptual model]]
+* [[Conversation Theory]]
+* [[Conveyed concept]]
+* [[Definitionism]]
+* [[Doctrine]]
+* [[Formal concept analysis]]
+* [[Fuzzy concept]]
+* [[Hypostatic abstraction]]
+* [[Idea]]
+* [[Ideasthesia]]
+* [[Notion (philosophy)]]
+* [[Object (philosophy)]]
+* [[Philosophy]]
+* [[Recept]]
+* [[Schema (Kant)]]
+* [[Social construction]]
+* [[Symbol grounding|Symbol grounding problem]]
+</div>
+
+== References ==
+{{reflist}}
+
+== Further reading ==
+*Armstrong, S. L., Gleitman, L. R., & Gleitman, H. (1999). what some concepts might not be. In E. Margolis, & S. Lawrence, Concepts (pp.&nbsp;225–261). Massachusetts: MIT press.
+*Carey, S. (1999). knowledge acquisition: enrichment or conceptual change? In E. Margolis, & S. Lawrence, concepts: core readings (pp.&nbsp;459–489). Massachusetts: MIT press.
+*Fodor, J. A., Garrett, M. F., Walker, E. C., & Parkes, C. H. (1999). against definitions. In E. Margolis, & S. Lawrence, concepts: core readings (pp.&nbsp;491–513). Massachusetts: MIT press.
+*Fodor, J., & LePore, E. (1996). the pet fish and the red Herring: why concept still can't be prototypes. cognition, 253-270.
+*Hume, D. (1739). book one part one: of the understanding of ideas, their origin, composition, connexion, abstraction etc. In D. Hume, a treatise of human nature. England.
+*Murphy, G. (2004). Chapter 2. In G. Murphy, a big book of concepts (pp.&nbsp;11 – 41). Massachusetts: MIT press.
+*Murphy, G., & Medin, D. (1999). the role of theories in conceptual coherence. In E. Margolis, & S. Lawrence, concepts: core readings (pp.&nbsp;425–459). Massachusetts: MIT press.
+*Prinz, J. J. (2002). Desiderata on a Theory of Concepts. In J. J. Prinz, Furnishing the Mind: Concepts and their Perceptual Basis (pp.&nbsp;1–23). Massechusettes: MIT press.
+*Putnam, H. (1999). is semantics possible? In E. Margolis, & S. Lawrence, concepts: core readings (pp.&nbsp;177–189). Massachusetts: MIT press.
+*Quine, W. (1999). two dogmas of empiricism. In E. Margolis, & S. Lawrence, concepts: core readings (pp.&nbsp;153–171). Massachusetts: MIT press.
+*Rey, G. (1999). Concepts and Stereotypes. In E. Margolis, & S. Laurence (Eds.), Concepts: Core Readings (pp.&nbsp;279–301). Cambridge, Massachusetts: MIT Press.
+*Rosch, E. (1977). Classification of real-world objects: Origins and representations in cognition. In P. Johnson-Laird, & P. Wason, Thinking: Readings in Cognitive Science (pp.&nbsp;212–223). Cambridge: Cambridge University Press.
+*Rosch, E. (1999). Principles of Categorization. In E. Margolis, & S. Laurence (Eds.), Concepts: Core Readings (pp.&nbsp;189–206). Cambridge, Massachusetts: MIT Press.
+*Wittgenstein, L. (1999). philosophical investigations: sections 65-78. In E. Margolis, & S. Lawrence, concepts: core readings (pp.&nbsp;171–175). Massachusetts: MIT press.
+* ''The History of Calculus and its Conceptual Development'', [[Carl Benjamin Boyer]], [[Dover Publications]], ISBN 0-486-60509-4
+* ''The Writings of William James'', [[University of Chicago Press]], ISBN 0-226-39188-4
+* ''[[Logic]]'', Immanuel [[Immanuel Kant|Kant]], Dover Publications, ISBN 0-486-25650-2
+* ''[[A System of Logic]]'', John Stuart Mill, University Press of the Pacific, ISBN 1-4102-0252-6
+* ''Parerga and Paralipomena'', Arthur Schopenhauer, Volume I, [[Oxford University Press]], ISBN 0-19-824508-4
+* ''What is Philosophy?'', Gilles Deleuze and Félix Guattari
+* ''Kant's Metaphysic of Experience'', H. J. Paton, London: Allen & Unwin, 1936
+* ''Conceptual Integration Networks.'' Gilles Fauconnier and Mark Turner, 1998. ''Cognitive Science.'' Volume 22, number 2 (April–June 1998), pages 133-187.
+* ''The Portable Nietzsche'', Penguin Books, 1982, ISBN 0-14-015062-5
+* Stephen Laurence and Eric Margolis [http://www.philosophy.dept.shef.ac.uk/papers/CCS.pdf "Concepts and Cognitive Science"]. In ''Concepts: Core Readings'', [[MIT Press]] pp.&nbsp;3–81, 1999.
+* Birger Hjørland. (2009). Concept Theory. Journal of the American Society for Information Science and Technology, 60(8), 1519–1536
+* Georgij Yu. Somov (2010). Concepts and Senses in Visual Art: Through the example of analysis of some works by [[Pieter Bruegel the Elder|Bruegel the Elder]]. ''[[Semiotica]]'' 182 (1/4), 475–506.
+* Daltrozzo J, Vion-Dury J, Schön D. (2010). Music and Concepts. Horizons in Neuroscience Research 4: 157-167. [http://daltrozzo.net78.net/papers/Daltrozzo_et_al_2011.pdf]
+
+== External links ==
+* {{PhilPapers|category|Concepts}}
+* {{SEP|concepts}}
+* {{InPho|idea|1734}}
+* {{IEP|concepts}}
+* {{IEP|th-th-co|Theory-Theory of Concepts}}
+* {{IEP|conc-cl|Classical Theory of Concepts}}
+{{wiktionary}}
+{{Wikisource1911Enc}}
+* [http://markturner.org/blending.html Blending and Conceptual Integration]
+* [http://www.virtuescience.com/conceptualscience.html Conceptual Science and Mathematical Permutations]
+* [http://www.conceptmobiles.com/ Concept Mobiles] Latest concepts
+* [[v:Conceptualize: A Wikiversity Learning Project]]
+* [http://www.free-dictionary-translation.com/Concept.html Concept simultaneously translated in several languages and meanings]
+
+{{philosophy of language}}
+{{philosophy of mind}}
+
+[[Category:Cognitive science]]
+[[Category:Concepts| ]]
+[[Category:Concepts in metaphysics]]
+[[Category:Logic]]
+[[Category:Mental content]]
+[[Category:Ontology]]
+[[Category:Philosophy of language]]
+[[Category:Semantics]]
+[[Category:Thought]]
+[[Category:Units of information (cognitive processes)]]

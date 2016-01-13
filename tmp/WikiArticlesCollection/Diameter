@@ -1,0 +1,59 @@
+{{about||the notion of diameter in graph theory|Distance (graph theory)|the computer network protocol|Diameter (protocol)}}
+{{distinguish|Demeter}}
+
+[[File:Circle-withsegments.svg|thumb|200px|right|Circle illustration with circumference (C) in black, diameter (D) in cyan, radius (R) in red, and centre or origin (O) in magenta.]]
+In [[geometry]], the '''diameter''' of a [[circle]] is any straight [[line segment]] that passes through the center of the circle and whose endpoints lie on the circle. It can be also defined as the longest [[chord (geometry)|chord]] of the circle. Both definitions are also valid for the diameter of a [[sphere]]. The word "diameter" is derived from [[Greek language|Greek]] ''διάμετρος'' (''diametros''), "diameter of a circle", from ''δια-'' (''dia-''), "across, through" + ''μέτρον'' (''metron''), "measure".<ref>[http://www.etymonline.com/index.php?term=diameter Online Etymology Dictionary]</ref> It is often abbreviated '''DIA''', '''dia''', '''d''', or '''[[#Diameter symbol|⌀]]'''.
+
+In more modern usage, the length of a diameter is also called the diameter. In this sense one speaks of ''the'' diameter rather than ''a'' diameter (which refers to the line itself), because all diameters of a circle or sphere have the same length, this being twice the [[radius]] '''r'''.
+
+: <math>d \doteq 2r \quad \Rightarrow \quad r = \frac{d}{2}.</math>
+
+For a [[convex set|convex shape]] in the plane, the diameter is defined to be the largest distance that can be formed between two opposite [[parallel lines]] tangent to its boundary, and the ''width'' is defined to be the smallest such distance. Both quantities can be calculated efficiently using [[rotating calipers]].<ref>{{cite journal
+| author = Toussaint, Godfried T.
+| title = Solving geometric problems with the rotating calipers
+| publisher=Proc. MELECON '83, Athens 
+|url=http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.155.5671 
+|year = 1983
+}}</ref> For a [[curve of constant width]] such as the [[Reuleaux triangle]], the width and diameter are the same because all such pairs of parallel tangent lines have the same distance.  See also [[Tangent lines to circles]].
+
+==Generalizations==
+The definitions given above are only valid for circles, spheres and convex shapes. However, they are special cases of a more general definition that is valid for any kind of ''n''-dimensional convex or non-convex object, such as a [[hypercube]] or a set of scattered points. The '''diameter''' of a [[subset]] of a [[metric space]] is the [[supremum|least upper bound]] of the set of all distances between pairs of points in the subset. So, if ''A'' is the subset, the diameter is
+:[[supremum|sup]] { d(''x'', ''y'') | ''x'', ''y'' ∈ ''A'' } .
+If the [[distance function]] d is viewed here as having [[codomain]] '''R''' (the set of all [[real number]]s), this implies that the diameter of the [[empty set]] (the case {{nowrap|1=''A'' = ∅}}) equals −∞ ([[negative infinity]]). Some authors prefer to treat the empty set as a special case, assigning it a diameter equal to 0,<ref>[http://at.yorku.ca/cgi-bin/bbqa?forum=ask_a_topologist_2004;task=show_msg;msg=0860.0002 Re: diameter of an empty set]</ref> which corresponds to taking the codomain of d to be the set of nonnegative reals.
+
+For any solid object or set of scattered points in n-dimensional [[Euclidean space]], the diameter of the object or set is the same as the diameter of its [[convex hull]]. 
+
+In [[differential geometry]], the diameter is an important global [[Riemannian geometry|Riemannian]] [[invariant (mathematics)|invariant]]. 
+
+In plane geometry, a diameter of a [[conic section]] is typically defined as any chord which passes through the conic's centre; such diameters are not necessarily of uniform length, except in the case of the circle, which has [[eccentricity (mathematics)|eccentricity]]&nbsp;''e''&nbsp;=&nbsp;0.
+
+In medical [[Idiom#Parlance|parlance]] the diameter of a [[lesion]] is the longest line segment whose endpoints are within the lesion.
+
+==Diameter symbol==
+[[Image:Technical Drawing Hole 01.png|thumb|122px|Sign {{Unicode|⌀}} in a technical drawing]]
+[[Image:Sign diameter.png|thumb|150px|Sign {{Unicode|⌀}} from [[AutoCAD]] drawing]]
+{{distinguish2|the Scandinavian letter "[[Ø]]" or the [[Empty set]] symbol {{italics correction|"}}''{{Unicode|∅}}''"}}
+
+The [[symbol]] or [[variable (mathematics)|variable]] for diameter, {{Unicode|⌀}}, is [[Homoglyph|similar in size and design]] to [[ø]], the Latin small letter o with stroke.  [[Unicode]] provides character number 8960 ([[hexadecimal]] 2300) for the symbol, which can be encoded in [[HTML]] webpages as <tt>&amp;#8960;</tt> or <tt>&amp;#x2300;</tt>. The character can be obtained in [[Microsoft Windows]] by holding the {{key press|[[Alt key|Alt]]}} key down while entering {{key press|8}}{{key press|9}}{{key press|6}}{{key press|0}} on the [[numeric keypad]]. On an [[Apple, Inc.|Apple]] [[Macintosh]], the diameter symbol can be entered via the character palette (this is opened by pressing {{key press|Opt}}{{key press|Cmd}}{{key press|T}} in most applications), where it can be found in the Technical Symbols category.
+
+The character will sometimes not display correctly, however, since many [[Typeface|font]]s do not include it. In most situations the letter ø is acceptable, which is unicode 0248 (hexadecimal 00F8). It can be obtained in UNIX-like operating systems using a [[Compose key]] by pressing, in sequence, {{key press|[[Compose key|Compose]]}}{{key press|/}}{{key press|o}} and on a Macintosh by pressing {{key press|Opt}} {{key press|O}} (in both cases, that is the letter [[o]], not the number [[0 (number)|0]]).
+
+In [[LaTeX]] the symbol is achieved with the command \diameter which is part of the wasysym package.
+
+The diameter symbol {{Unicode|&#x2300;}} is distinct from the [[empty set]] symbol {{Unicode|∅}}, from an ([[italic script|italic]]) uppercase [[Phi (letter)|phi]] ''Φ'', and from the Nordic vowel [[Ø]].<ref>{{citation|title=Unicode Explained|first=Jukka K.|last=Korpela|publisher=O'Reilly Media, Inc.|year=2006|isbn=978-0-596-10121-3|pages=23–24|url=http://books.google.com/books?id=lxndiWaFMvMC&pg=PA23}}.</ref>
+
+==See also==
+* [[Angular diameter]]
+* [[Caliper]], [[micrometer]], tools for measuring diameters
+* [[Eratosthenes]], who calculated the diameter of the [[Earth]] around 240 BC.
+* [[Distance (graph theory)|Graph or network diameter]]
+* [[Hydraulic diameter]]
+* [[List_of_gear_nomenclature#Inside diameter|Inside diameter]]
+* [[Jung's theorem]], an inequality relating the diameter to the radius of the [[circumradius|smallest enclosing ball]]
+* [[Sauter mean diameter]]
+
+==Notes==
+{{reflist}}
+
+[[Category:Elementary geometry]]
+[[Category:Length]]

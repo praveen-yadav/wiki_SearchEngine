@@ -1,0 +1,1829 @@
+{{Redirect|AI||Ai (disambiguation)}}
+{{Other uses}}
+<!-- DEFINITIONS -->
+'''Artificial intelligence''' ('''AI''') is technology and a branch of [[computer science]] that studies and develops intelligent machines and software. Major AI researchers and textbooks define the field as "the study and design of intelligent agents",<ref name="Definition of AI"/> where an [[intelligent agent]] is a system that perceives its environment and takes actions that maximize its chances of success.<ref name="Intelligent agents"/> [[John McCarthy (computer scientist)|John McCarthy]], who coined the term in 1955,<ref name="Coining of the term AI"/> defines it as "the science and engineering of making intelligent machines".<ref name="McCarthy's definition of AI"/>
+
+<!-- SUMMARIZING PROBLEMS, APPROACHES, TOOLS and (TODO:) APPLICATIONS -->
+AI research is highly technical and specialised, and is deeply divided into subfields that often fail to communicate with each other.<ref name="Fragmentation of AI"/> Some of the division is due to social and cultural factors: subfields have grown up around particular institutions and the work of individual researchers. AI research is also divided by several technical issues. Some subfields focus on the solution of specific [[#Goals|problems]].   Others focus on one of several possible [[#Approaches|approaches]] or on the use of a particular [[#Tools|tool]] or towards the accomplishment of particular [[#Applications|applications]].
+
+The central problems (or goals) of AI research include reasoning, knowledge, planning, learning, communication, [[perception]] and the ability to move and manipulate objects.<ref name="Problems of AI"/> General intelligence (or "[[strong AI]]") is still among the field's long term goals.<ref name="General intelligence"/> Currently popular approaches include [[#Statistical|statistical methods]], [[#Sub-symbolic|computational intelligence]] and [[#Symbolic|traditional symbolic AI]]. There are an enormous number of tools used in AI, including versions of [[#Search and optimization|search and mathematical optimization]], [[#Logic|logic]], [[#Probabilistic methods for uncertain reasoning|methods based on probability and economics]], and many others.
+
+<!-- SUMMARISING FICTION/SPECULATION, PHILOSOPHY, HISTORY -->
+The field was founded on the claim that a central ability of humans, intelligence—the [[sapience]] of ''[[Homo sapiens]]''—can be so precisely described that it can be simulated by a machine.<ref>See the [[Dartmouth conference|Dartmouth proposal]], under [[#Philosophy|Philosophy]], below.</ref> This raises philosophical issues about the nature of the [[mind]] and the ethics of creating artificial beings, issues which have been addressed by [[History of AI#AI in myth, fiction and speculation|myth]], [[artificial intelligence in fiction|fiction]] and [[philosophy of AI|philosophy]] since antiquity.<ref name="McCorduck's thesis"/> Artificial intelligence has been the subject of tremendous optimism<ref>The optimism referred to includes the predictions of early AI researchers (see [[History of AI#The optimism|optimism in the history of AI]]) as well as the ideas of modern [[transhumanism|transhumanists]] such as [[Ray Kurzweil]].</ref> but has also suffered stunning [[AI winter|setbacks]].<ref>The "setbacks" referred to include the [[AI winter#Machine translation and the ALPAC report of 1966|ALPAC report]] of 1966, the abandonment of [[perceptrons]] in 1970, [[AI winter#The Lighthill report|the Lighthill Report]] of 1973 and the [[AI winter#The collapse of the Lisp machine market in 1987|collapse of the Lisp machine market]] in 1987.</ref> Today it has become an essential part of the technology industry and many of the most difficult problems in computer science.<ref name="AI widely used"/>
+
+== History ==
+<!-- THIS IS A SOCIAL HISTORY. TECHNICAL HISTORY IS COVERED IN THE "APPROACHES" AND "TOOLS" SECTIONS. -->
+{{Main|History of artificial intelligence|Timeline of artificial intelligence}}
+
+<!-- AN ANCIENT DREAM (MCCORDUCK'S THESIS) -->
+Thinking machines and artificial beings appear in [[Greek myth]]s, such as [[Talos]] of [[Crete]], the bronze robot of [[Hephaestus]], and [[Pygmalion (mythology)|Pygmalion's]] [[Galatea (mythology)|Galatea]].<ref name="AI in myth"/> Human likenesses believed to have intelligence were built in every major civilization: animated [[cult image]]s were worshiped in [[Egypt]] and [[Greece]]<ref name="Cult images as artificial intelligence"/> and humanoid [[automaton]]s were built by [[King Mu of Zhou#Automaton|Yan Shi]], [[Hero of Alexandria]] and [[Al-Jazari]].<ref name="Humanoid automata"/> It was also widely believed that artificial beings had been created by [[Jābir ibn Hayyān]], [[Judah Loew]] and [[Paracelsus]].<ref name="Artificial beings"/> By the 19th and 20th centuries, artificial beings had become a common feature in fiction, as in [[Mary Shelley]]'s ''[[Frankenstein]]'' or [[Karel Čapek]]'s ''[[R.U.R. (Rossum's Universal Robots)]]''.<!-- PLEASE DON'T ADD MORE EXAMPLES. THIS IS ENOUGH. SEE SECTION AT BOTTOM OF ARTICLE ON SPECULATION.--><ref name="AI in early science fiction"/> [[Pamela McCorduck]] argues that all of these are examples of an ancient urge, as she describes it, "to forge the gods".<ref name="McCorduck's thesis"/> Stories of these creatures and their fates discuss many of the same hopes, fears and [[ethics of artificial intelligence|ethical concerns]] that are presented by artificial intelligence.
+
+<!-- MAJOR INTELLECTUAL PRECURSORS: LOGIC, THEORY OF COMPUTATION, CYBERNETICS, INFORMATION THEORY, EARLY NEURAL NETS -->
+Mechanical or [[formal reasoning|"formal" reasoning]] has been developed by philosophers and mathematicians since antiquity. The study of logic led directly to the invention of the [[computer|programmable digital electronic computer]], based on the work of mathematician [[Alan Turing]] and others. Turing's [[theory of computation]] suggested that a machine, by shuffling symbols as simple as "0" and "1", could simulate any conceivable act of mathematical deduction.<ref>This insight, that digital computers can simulate any process of formal reasoning, is known as the [[Church–Turing thesis]].</ref><ref name="Formal reasoning"/> This, along with concurrent discoveries in [[neurology]], [[information theory]] and [[cybernetic]]s, inspired a small group of researchers to begin to seriously consider the possibility of building an electronic brain.<ref name="AI's immediate precursors"/>
+
+<!-- THE "GOLDEN YEARS" 1956-1974 -->
+The field of AI research was founded at [[Dartmouth Conferences|a conference]] on the campus of [[Dartmouth College]] in the summer of 1956.<ref name="Dartmouth conference"/> The attendees, including [[John McCarthy (computer scientist)|John McCarthy]], [[Marvin Minsky]], [[Allen Newell]] and [[Herbert A. Simon|Herbert Simon]], became the leaders of AI research for many decades.<ref name="Hegemony of the Dartmouth conference attendees"/> They and their students wrote programs that were, to most people, simply astonishing:<ref>Russell and Norvig write "it was astonishing whenever a computer did anything kind of smartish." {{Harvnb|Russell|Norvig|2003|p=18}}</ref> Computers were solving word problems in algebra, proving logical theorems and speaking English.<ref name="Golden years of AI"/> By the middle of the 1960s, research in the U.S. was heavily funded by the [[DARPA|Department of Defense]]<ref name="AI funding in the 60s"/> and laboratories had been established around the world.<ref name="AI in England"/> AI's founders were profoundly optimistic about the future of the new field: [[Herbert A. Simon|Herbert Simon]] predicted that "machines will be capable, within twenty years, of doing any work a man can do" and [[Marvin Minsky]] agreed, writing that "within a generation&nbsp;... the problem of creating 'artificial intelligence' will substantially be solved".<ref name="Optimism of early AI"/>
+
+<!-- FIRST AI WINTER -->
+They had failed to recognize the difficulty of some of the problems they faced.<ref>See {{See section|History of artificial intelligence|The problems}}</ref> In 1974, in response to the criticism of [[Sir James Lighthill]] and ongoing pressure from the US Congress to fund more productive projects, both the U.S. and British governments cut off all undirected exploratory research in AI. The next few years would later be called an "[[AI winter]]",<ref name="First AI winter"/> a period when funding for AI projects was hard to find.
+
+<!-- BOOM OF THE 1980s, SECOND AI WINTER -->
+In the early 1980s, AI research was revived by the commercial success of [[expert systems]],<ref name="Expert systems"/> a form of AI program that simulated the knowledge and analytical skills of one or more human experts. By 1985 the market for AI had reached over a billion dollars. At the same time, Japan's [[fifth generation computer]] project inspired the U.S and British governments to restore funding for academic research in the field.<ref name="AI in the 80s"/> However, beginning with the collapse of the [[Lisp Machine]] market in 1987, AI once again fell into disrepute, and a second, longer lasting [[AI winter]] began.<ref name="Second AI winter"/>
+
+<!-- TO THE PRESENT -->
+<!-- Deleted image removed: [[File:Kasparov v Deepblue.gif|thumb|left|Garry Kasparov versus Deep Blue, New York, 1997.]]   -->
+In the 1990s and early 21st century, AI achieved its greatest successes, albeit somewhat behind the scenes. Artificial intelligence is used for logistics, [[data mining]], [[medical diagnosis]] and many other areas throughout the technology industry.<ref name="AI widely used"/>
+The success was due to several factors: the increasing computational power of computers (see [[Moore's law]]), a greater emphasis on solving specific subproblems, the creation of new ties between AI and other fields working on similar problems, and a new commitment by researchers to solid mathematical methods and rigorous scientific standards.<ref name="Formal methods in AI"/>
+
+On 11 May 1997, [[IBM Deep Blue|Deep Blue]] became the first computer chess-playing system to beat a reigning world chess champion, [[Garry Kasparov]].<ref>{{Harvnb|McCorduck|2004|pp=480–483}}</ref> In 2005, a Stanford robot won the [[DARPA Grand Challenge]] by driving autonomously for 131 miles along an unrehearsed desert trail.<ref>[http://www.darpa.mil/grandchallenge/ DARPA Grand Challenge – home page]</ref>
+Two years later, a team from [[Carnegie Mellon University|CMU]] won the [[DARPA Urban Challenge]] when their vehicle autonomously navigated 55 miles in an urban environment while adhering to traffic hazards and all traffic laws.<ref>{{cite web|url=http://archive.darpa.mil/grandchallenge/ |title=Welcome |publisher=Archive.darpa.mil |accessdate=31 October 2011}}</ref> In February 2011, in a ''[[Jeopardy!]]'' [[quiz show]] exhibition match, [[IBM]]'s [[question answering system]], [[Watson (artificial intelligence software)|Watson]], defeated the two greatest Jeopardy champions, [[Brad Rutter]] and [[Ken Jennings]], by a significant margin.<ref>{{cite news| url=http://www.nytimes.com/2011/02/17/science/17jeopardy-watson.html | work=The New York Times | first=John | last=Markoff | title=On 'Jeopardy!' Watson Win Is All but Trivial | date=16 February 2011}}</ref> The [[Kinect]], which provides a 3D body–motion interface for the [[Xbox 360]], uses algorithms that emerged from lengthy AI research<ref>[http://www.i-programmer.info/news/105-artificial-intelligence/2176-kinects-ai-breakthrough-explained.html Kinect's AI breakthrough explained]</ref> as does the iPhone's [[Siri (software)|Siri]].
+
+== Goals ==<!--- This is linked to in the introduction to the article and to the "AI research" section -->
+The general problem of simulating (or creating) intelligence has been broken down into a number of specific sub-problems. These consist of particular traits or capabilities that researchers would like an intelligent system to display. The traits described below have received the most attention.<ref name="Problems of AI"/>
+
+=== Deduction, reasoning, problem solving ===<!-- This is linked to in the introduction -->
+<!-- SOLVED PROBLEMS -->
+Early AI researchers developed algorithms that imitated the step-by-step reasoning that humans use when they solve puzzles or make logical deductions.<ref name="Reasoning"/> By the late 1980s and 1990s, AI research had also developed highly successful methods for dealing with [[uncertainty|uncertain]] or incomplete information, employing concepts from [[probability]] and economics.<ref name="Uncertain reasoning"/>
+
+<!-- TWO IMPORTANT UNSOLVED PROBLEMS -->
+For difficult problems, most of these algorithms can require enormous computational resources – most experience a "[[combinatorial explosion]]": the amount of memory or computer time required becomes astronomical when the problem goes beyond a certain size. The search for more efficient problem-solving algorithms is a high priority for AI research.<ref name="Intractability"/>
+
+Human beings solve most of their problems using fast, intuitive judgements rather than the conscious, step-by-step deduction that early AI research was able to model.<ref name="Psychological evidence of sub-symbolic reasoning"/> AI has made some progress at imitating this kind of "sub-symbolic" problem solving: [[embodied agent]] approaches emphasize the importance of [[Sensory-motor coupling|sensorimotor]] skills to higher reasoning; [[neural net]] research attempts to simulate the structures inside the brain that give rise to this skill; [[#Statistical|statistical approaches to AI]] mimic the probabilistic nature of the human ability to guess.
+
+=== Knowledge representation ===<!-- This is linked to in the introduction -->
+[[Image:GFO taxonomy tree.png|right|thumb|An ontology represents knowledge as a set of concepts within a domain and the relationships between those concepts.]]
+{{Main|Knowledge representation|Commonsense knowledge}}
+
+[[Knowledge representation]]<ref name="Knowledge representation"/> and [[knowledge engineering]]<ref name="Knowledge engineering"/> are central to AI research. Many of the problems machines are expected to solve will require extensive knowledge about the world. Among the things that AI needs to represent are: objects, properties, categories and relations between objects;<ref name="Representing categories and relations"/> situations, events, states and time;<ref name="Representing time"/> causes and effects;<ref name="Representing causation"/> knowledge about knowledge (what we know about what other people know);<ref name="Representing knowledge about knowledge"/> and many other, less well researched domains. A representation of "what exists" is an [[ontology (computer science)|ontology]]: the set of objects, relations, concepts and so on that the machine knows about. The most general are called [[upper ontology|upper ontologies]], which attempt to provide a foundation for all other knowledge.<ref name="Ontology"/>
+
+Among the most difficult problems in knowledge representation are:
+
+;[[Default reasoning]] and the [[qualification problem]]: Many of the things people know take the form of "working assumptions." For example, if a bird comes up in conversation, people typically picture an animal that is fist sized, sings, and flies. None of these things are true about all birds. [[John McCarthy (computer scientist)|John McCarthy]] identified this problem in 1969<ref name="Qualification problem"/> as the qualification problem: for any commonsense rule that AI researchers care to represent, there tend to be a huge number of exceptions. Almost nothing is simply true or false in the way that abstract logic requires. AI research has explored a number of solutions to this problem.<ref name="Default reasoning and non-monotonic logic"/>
+
+;The breadth of [[commonsense knowledge]]: The number of atomic facts that the average person knows is astronomical. Research projects that attempt to build a complete knowledge base of [[commonsense knowledge]] (e.g., [[Cyc]]) require enormous amounts of laborious [[ontology engineering|ontological engineering]] — they must be built, by hand, one complicated concept at a time.<ref name="Breadth of commonsense knowledge"/> A major goal is to have the computer understand enough concepts to be able to learn by reading from sources like the internet, and thus be able to add to its own ontology.{{Citation needed|date=October 2010}}
+
+;The subsymbolic form of some [[commonsense knowledge]]: Much of what people know is not represented as "facts" or "statements" that they could express verbally. For example, a chess master will avoid a particular chess position because it "feels too exposed"<ref>{{Harvnb|Dreyfus|Dreyfus|1986}}</ref> or an art critic can take one look at a statue and instantly realize that it is a fake.<ref>{{Harvnb|Gladwell|2005}}</ref> These are intuitions or tendencies that are represented in the brain non-consciously and sub-symbolically.<ref name="Intuition"/> Knowledge like this informs, supports and provides a context for symbolic, conscious knowledge. As with the related problem of sub-symbolic reasoning, it is hoped that [[situated artificial intelligence|situated AI]], [[computational intelligence]], or [[#Statistical|statistical AI]] will provide ways to represent this kind of knowledge.<ref name="Intuition"/>
+
+=== Planning ===<!-- This is linked to in the introduction -->
+[[Image:Hierarchical-control-system.svg|thumb| A [[hierarchical control system]] is a form of [[control system]] in which a set of devices and governing software is arranged in a hierarchy.]]
+
+{{Main|Automated planning and scheduling}}
+
+Intelligent agents must be able to set goals and achieve them.<ref name="Planning"/> They need a way to visualize the future (they must have a representation of the state of the world and be able to make predictions about how their actions will change it) and be able to make choices that maximize the [[utility]] (or "value") of the available choices.<ref name="Information value theory"/>
+
+In classical planning problems, the agent can assume that it is the only thing acting on the world and it can be certain what the consequences of its actions may be.<ref name="Classical planning"/> However, if the agent is not the only actor, it must periodically ascertain whether the world matches its predictions and it must change its plan as this becomes necessary, requiring the agent to reason under uncertainty.<ref name="Non-deterministic planning"/>
+
+[[Multi-agent planning]] uses the [[cooperation]] and competition of many agents to achieve a given goal. [[Emergent behavior]] such as this is used by [[evolutionary algorithms]] and [[swarm intelligence]].<ref name="Multi-agent planning"/>
+
+=== Learning ===<!-- This is linked to in the introduction -->
+{{Main|Machine learning}}
+
+Machine learning is the study of computer algorithms that improve automatically through experience<ref>This is a form of [[Tom M. Mitchell|Tom Mitchell]]'s widely quoted definition of machine learning: "A computer program is set to learn from an experience ''E'' with respect to some task ''T'' and some performance measure ''P'' if its performance on ''T'' as measured by ''P'' improves with experience ''E''."</ref><ref name="Machine learning"/> and has been central to AI research since the field's inception.<ref>
+[[Alan Turing]] discussed the centrality of learning as early as 1950, in his classic paper "[[Computing Machinery and Intelligence]]".{{Harv|Turing|1950}} In 1956, at the original Dartmouth AI summer conference, [[Ray Solomonoff]] wrote a report on unsupervised probabilistic machine learning: "An Inductive Inference Machine".[http://world.std.com/~rjs/indinf56.pdf (pdf scanned copy of the original)] (version published in 1957, An Inductive Inference Machine," IRE Convention Record, Section on Information Theory, Part 2, pp. 56–62)</ref>
+
+[[Unsupervised learning]] is the ability to find patterns in a stream of input. [[Supervised learning]] includes both [[statistical classification|classification]] and numerical [[Regression analysis|regression]]. Classification is used to determine what category something belongs in, after seeing a number of examples of things from several categories. Regression is the attempt to produce a function that describes the relationship between inputs and outputs and predicts how the outputs should change as the inputs change. In [[reinforcement learning]]<ref name="Reinforcement learning"/> the agent is rewarded for good responses and punished for bad ones. These can be analyzed in terms of [[decision theory]], using concepts like [[utility (economics)|utility]]. The mathematical analysis of machine learning algorithms and their performance is a branch of [[theoretical computer science]] known as [[computational learning theory]].<ref name="Computational learning theory"/>
+
+Within [[developmental robotics]], developmental learning approaches were elaborated for lifelong cumulative acquisition of repertoires of novel skills by a robot, through autonomous self-exploration and social interaction with human teachers, and using guidance mechanisms such as active learning, maturation, motor synergies, and imitation.<ref name="Weng01">
+Weng, J., McClelland, Pentland, A.,Sporns, O., Stockman, I., Sur, M., and E. Thelen (2001) [http://www.cse.msu.edu/dl/SciencePaper.pdf "Autonomous mental development by robots and animals"], ''Science'', vol. 291, pp. 599–600.</ref><ref name="Lungarella03">
+Lungarella, M., Metta, G., Pfeifer, R. and G. Sandini (2003). [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.83.7615&rep=rep1&type=pdf "Developmental robotics: a survey"]. ''Connection Science'', 15:151–190.</ref><ref name="Asada09">
+Asada, M., Hosoda, K., Kuniyoshi, Y., Ishiguro, H., Inui, T., Yoshikawa, Y., Ogino, M. and C. Yoshida (2009) [http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=4895715&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F4563672%2F5038478%2F04895715.pdf%3Farnumber%3D4895715 "Cognitive developmental robotics: a survey"]. ''IEEE Transactions on Autonomous Mental Development'', Vol.1, No.1, pp.12--34.</ref><ref name="Oudeyer10">
+Oudeyer, P-Y. (2010) [http://www.pyoudeyer.com/IEEETAMDOudeyer10.pdf "On the impact of robotics in behavioral and cognitive sciences: from insect navigation to human cognitive development"], ''IEEE Transactions on Autonomous Mental Development'', 2(1), pp. 2--16.</ref>
+
+=== Natural language processing ===<!-- This is linked to in the introduction -->
+[[File:ParseTree.svg|thumb| A [[parse tree]] represents the [[syntax|syntactic]] structure of a sentence according to some [[formal grammar]].]]
+{{Main|Natural language processing}}
+
+[[Natural language processing]]<ref name="Natural language processing"/> gives machines the ability to read and understand the languages that humans speak. A sufficiently powerful natural language processing system would enable [[natural language user interface]]s and the acquisition of knowledge directly from human-written sources, such as Internet texts. Some straightforward applications of natural language processing include [[information retrieval]] (or [[text mining]]) and [[machine translation]].<ref name="Applications of natural language processing"/>
+
+A common method of processing and extracting meaning from natural language is through semantic indexing. Increases in processing speeds and the drop in the cost of data storage makes indexing large volumes of abstractions of the users input much more efficient.
+
+=== Motion and manipulation ===<!-- This is linked to in the introduction -->
+{{Main|Robotics}}
+
+The field of [[robotics]]<ref name="Robotics"/> is closely related to AI. Intelligence is required for robots to be able to handle such tasks as object manipulation<ref name="Configuration space"/> and [[motion planning|navigation]], with sub-problems of [[Robot localization|localization]] (knowing where you are, or finding out where other things are), [[robotic mapping|mapping]] (learning what is around you, building a map of the environment), and [[motion planning]] (figuring out how to get there) or path planning (going from one point in space to another point, which may involve compliant motion - where the robot moves while maintaining physical contact with an object).<ref name="Tecuci, G. 2012">Tecuci, G. (2012), Artificial intelligence. WIREs Comp Stat, 4: 168–180. doi: 10.1002/wics.200</ref><ref name="Robotic mapping"/>
+
+=== Perception ===<!-- This is linked to in the introduction -->
+{{Main|Machine perception|Computer vision|Speech recognition}}
+
+[[Machine perception]]<ref name="Machine perception"/> is the ability to use input from sensors (such as cameras, microphones, sonar and others more exotic) to deduce aspects of the world. [[Computer vision]]<ref name="Computer vision"/> is the ability to analyze visual input. A few selected subproblems are [[speech recognition]],<ref name="Speech recognition"/> [[facial recognition system|facial recognition]] and [[object recognition]].<ref name="Object recognition"/>
+
+=== Social intelligence ===<!-- This is linked to in the introduction -->
+{{Main|Affective computing}}
+[[File:Kismet robot at MIT Museum.jpg|thumb|[[Kismet (robot)|Kismet]], a robot with rudimentary social skills<ref>{{cite web
+| url=http://www.ai.mit.edu/projects/humanoid-robotics-group/kismet/kismet.html
+| title=Kismet
+| publisher=MIT Artificial Intelligence Laboratory, Humanoid Robotics Group}}</ref>]]
+
+Affective computing is the study and development of systems and devices that can recognize, interpret, process, and simulate human [[Affect (psychology)|affects]].<ref>{{cite book|last=Thro|first=Ellen|title=Robotics|year=1993|location=New York}}</ref><ref>{{cite book|last=Edelson|first=Edward|title=The Nervous System|year=1991|publisher=Remmel Nunn|location=New York}}</ref> It is an interdisciplinary field spanning [[computer sciences]], [[psychology]], and [[cognitive science]].<ref name=TaoTan>{{cite conference |first=Jianhua |last=Tao |coauthors=Tieniu Tan |title=Affective Computing: A Review |booktitle=Affective Computing and Intelligent Interaction |volume=[[LNCS]] 3784 |pages=981–995 |publisher=Springer |year=2005 |doi=10.1007/11573548 }}</ref> While the origins of the field may be traced as far back as to early philosophical inquiries into [[Emotion#The James-Lange Theory|emotion]],<ref>{{cite journal|last=James|first=William|year=1884|title=What is Emotion|journal=Mind|volume=9|pages=188–205|doi=10.1093/mind/os-IX.34.188}} Cited by Tao and Tan.</ref> the more modern branch of computer science originated with [[Rosalind Picard]]'s 1995 paper<ref>[http://affect.media.mit.edu/pdfs/95.picard.pdf "Affective Computing"] MIT Technical Report #321 ([http://vismod.media.mit.edu/pub/tech-reports/TR-321-ABSTRACT.html Abstract]), 1995</ref> on affective computing.<ref>
+{{cite web
+|url= http://ls12-www.cs.tu-dortmund.de//~fink/lectures/SS06/human-robot-interaction/Emotion-RecognitionAndSimulation.pdf
+|title= Recognition and Simulation of Emotions
+|accessdate=13 May 2008
+|last= Kleine-Cosack
+|first= Christian
+|year= 2006
+|month= October
+|format= PDF
+|quote= The introduction of emotion to computer science was done by Pickard (sic) who created the field of affective computing.
+|archiveurl = http://web.archive.org/web/20080528135730/http://ls12-www.cs.tu-dortmund.de/~fink/lectures/SS06/human-robot-interaction/Emotion-RecognitionAndSimulation.pdf <!-- Bot retrieved archive --> |archivedate = 28 May 2008}}
+</ref><ref>
+{{cite web
+|url= http://www.wired.com/wired/archive/11.12/love.html
+|title= The Love Machine; Building computers that care
+|accessdate=13 May 2008
+|last= Diamond
+|first= David
+|year= 2003
+|month= December
+|publisher= Wired
+|quote= Rosalind Picard, a genial MIT professor, is the field's godmother; her 1997 book, Affective Computing, triggered an explosion of interest in the emotional side of computers and their users.
+| archiveurl= http://web.archive.org/web/20080518185630/http://www.wired.com/wired/archive/11.12/love.html| archivedate= 18 May 2008 <!--DASHBot-->| deadurl= no}}
+</ref> A motivation for the research is the ability to simulate [[empathy]]. The machine should interpret the emotional state of humans and adapt its behaviour to them, giving an appropriate response for those emotions.
+
+Emotion and social skills<ref name="Emotion and affective computing"/> play two roles for an intelligent agent. First, it must be able to predict the actions of others, by understanding their motives and emotional states. (This involves elements of [[game theory]], [[decision theory]], as well as the ability to model human emotions and the perceptual skills to detect emotions.) Also, in an effort to facilitate [[human-computer interaction]], an intelligent machine might want to be able to ''display'' emotions—even if it does not actually experience them itself—in order to appear sensitive to the emotional dynamics of human interaction.
+
+=== Creativity ===<!-- This is linked to in the introduction -->
+{{Main|Computational creativity}}
+
+A sub-field of AI addresses [[creativity]] both theoretically (from a philosophical and psychological perspective) and practically (via specific implementations of systems that generate outputs that can be considered creative, or systems that identify and assess creativity). Related areas of computational research are [[Artificial intuition]] and [[Artificial imagination]].
+
+=== General intelligence ===<!-- This is linked to in the introduction -->
+{{Main|Strong AI|AI-complete}}
+
+Most researchers think that their work will eventually be incorporated into a machine with ''general'' intelligence (known as [[strong AI]]), combining all the skills above and exceeding human abilities at most or all of them.<ref name="General intelligence"/> A few believe that [[anthropomorphic]] features like [[artificial consciousness]] or an [[artificial brain]] may be required for such a project.<ref name="Artificial consciousness"/><ref name="Brain simulation"/>
+
+Many of the problems above may require general intelligence to be considered solved. For example, even a straightforward, specific task like [[machine translation]] requires that the machine read and write in both languages ([[#Natural language processing|NLP]]), follow the author's argument ([[#Deduction, reasoning, problem solving|reason]]), know what is being talked about ([[#Knowledge representation|knowledge]]), and faithfully reproduce the author's intention ([[#Social intelligence|social intelligence]]). A problem like [[machine translation]] is considered "[[AI-complete]]". In order to solve this particular problem, you must solve all the problems.<ref name="AI complete"/>
+
+== Approaches ==
+There is no established unifying theory or [[paradigm]] that guides AI research. Researchers disagree about many issues.<ref>[[Nils Nilsson (researcher)|Nils Nilsson]] writes: "Simply put, there is wide disagreement in the field about what AI is all about" {{Harv|Nilsson|1983|p=10}}.</ref> A few of the most long standing questions that have remained unanswered are these: should artificial intelligence simulate natural intelligence by studying [[psychology]] or [[neurology]]? Or is human biology as irrelevant to AI research as bird biology is to [[aeronautical engineering]]?<ref name="Biological intelligence vs. intelligence in general"/>
+Can intelligent behavior be described using simple, elegant principles (such as [[logic]] or [[optimization (mathematics)|optimization]])? Or does it necessarily require solving a large number of completely unrelated problems?<ref name="Neats vs. scruffies"/>
+Can intelligence be reproduced using high-level symbols, similar to words and ideas? Or does it require "sub-symbolic" processing?<ref name="Symbolic vs. sub-symbolic"/>
+John Haugeland, who coined the term GOFAI (Good Old-Fashioned Artificial Intelligence), also proposed that AI should more properly be referred to as [[synthetic intelligence]],{{sfn|Haugeland|1985|p=255}} a term which has since been adopted by some non-GOFAI researchers.<ref>http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.38.8384&rep=rep1&type=pdf</ref><ref name="Wang2008">{{cite book|author=Pei Wang|title=Artificial general intelligence, 2008: proceedings of the First AGI Conference|url=http://books.google.com/books?id=a_ZR81Z25z0C&pg=PA63|accessdate=31 October 2011|year=2008|publisher=IOS Press|isbn=978-1-58603-833-5|page=63}}</ref>
+
+=== Cybernetics and brain simulation ===
+{{Main|Cybernetics|Computational neuroscience}}
+In the 1940s and 1950s, a number of researchers explored the connection between [[neurology]], [[information theory]], and [[cybernetics]]. Some of them built machines that used electronic networks to exhibit rudimentary intelligence, such as [[W. Grey Walter]]'s [[turtle (robot)|turtles]] and the [[Johns Hopkins Beast]]. Many of these researchers gathered for meetings of the Teleological Society at [[Princeton University]] and the [[Ratio Club]] in England.<ref name="AI's immediate precursors"/> By 1960, this approach was largely abandoned, although elements of it would be revived in the 1980s.
+
+=== Symbolic ===
+{{Main|GOFAI}}
+When access to digital computers became possible in the middle 1950s, AI research began to explore the possibility that human intelligence could be reduced to symbol manipulation. The research was centered in three institutions: [[Carnegie Mellon University]], [[Stanford]] and [[MIT]], and each one developed its own style of research. [[John Haugeland]] named these approaches to AI "good old fashioned AI" or "[[GOFAI]]".<ref name="GOFAI"/> During the 1960s, symbolic approaches had achieved great success at simulating high-level thinking in small demonstration programs. Approaches based on [[cybernetics]] or [[neural network]]s were abandoned or pushed into the background.<ref>The most dramatic case of sub-symbolic AI being pushed into the background was the devastating critique of [[perceptron]]s by [[Marvin Minsky]] and [[Seymour Papert]] in 1969. See [[History of AI]], [[AI winter]], or [[Frank Rosenblatt]].</ref>
+Researchers in the 1960s and the 1970s were convinced that symbolic approaches would eventually succeed in creating a machine with [[artificial general intelligence]] and considered this the goal of their field.
+
+; Cognitive simulation: Economist [[Herbert A. Simon|Herbert Simon]] and [[Allen Newell]] studied human problem-solving skills and attempted to formalize them, and their work laid the foundations of the field of artificial intelligence, as well as [[cognitive science]], [[operations research]] and [[management science]]. Their research team used the results of [[psychology|psychological]] experiments to develop programs that simulated the techniques that people used to solve problems. This tradition, centered at [[Carnegie Mellon University]] would eventually culminate in the development of the [[Soar (cognitive architecture)|Soar]] architecture in the middle 1980s.<ref name="AI at CMU in the 60s"/><ref name="Soar"/>
+
+; Logic-based: Unlike [[Allen Newell|Newell]] and [[Herbert A. Simon|Simon]], [[John McCarthy (computer scientist)|John McCarthy]] felt that machines did not need to simulate human thought, but should instead try to find the essence of abstract reasoning and problem solving, regardless of whether people used the same algorithms.<ref name="Biological intelligence vs. intelligence in general"/> His laboratory at [[Stanford University|Stanford]] ([[Stanford Artificial Intelligence Laboratory|SAIL]]) focused on using formal [[logic]] to solve a wide variety of problems, including [[knowledge representation]], [[automated planning and scheduling|planning]] and [[machine learning|learning]].<ref name="AI at Stanford in the 60s"/> Logic was also the focus of the work at the [[University of Edinburgh]] and elsewhere in Europe which led to the development of the programming language [[Prolog]] and the science of [[logic programming]].<ref name="AI at Edinburgh and France in the 60s"/>
+
+; "Anti-logic" or "scruffy": Researchers at [[MIT]] (such as [[Marvin Minsky]] and [[Seymour Papert]])<ref name="AI at MIT in the 60s"/> found that solving difficult problems in [[computer vision|vision]] and [[natural language processing]] required ad-hoc solutions – they argued that there was no simple and general principle (like [[logic]]) that would capture all the aspects of intelligent behavior. [[Roger Schank]] described their "anti-logic" approaches as "[[Neats vs. scruffies|scruffy]]" (as opposed to the "[[neats vs. scruffies|neat]]" paradigms at [[Carnegie Mellon University|CMU]] and [[Stanford]]).<ref name="Neats vs. scruffies"/> [[Commonsense knowledge bases]] (such as [[Doug Lenat]]'s [[Cyc]]) are an example of "scruffy" AI, since they must be built by hand, one complicated concept at a time.<ref name="Cyc"/>
+
+; Knowledge-based: When computers with large memories became available around 1970, researchers from all three traditions began to build [[knowledge representation|knowledge]] into AI applications.<ref name="Knowledge revolution"/> This "knowledge revolution" led to the development and deployment of [[expert system]]s (introduced by [[Edward Feigenbaum]]), the first truly successful form of AI software.<ref name="Expert systems"/> The knowledge revolution was also driven by the realization that enormous amounts of knowledge would be required by many simple AI applications.
+
+=== Sub-symbolic ===
+By the 1980s progress in symbolic AI seemed to stall and many believed that symbolic systems would never be able to imitate all the processes of human cognition, especially [[machine perception|perception]], [[robotics]], [[machine learning|learning]] and [[pattern recognition]]. A number of researchers began to look into "sub-symbolic" approaches to specific AI problems.<ref name="Symbolic vs. sub-symbolic"/>
+
+; Bottom-up, [[embodied agent|embodied]], [[situated]], [[behavior-based AI|behavior-based]] or [[nouvelle AI]]: Researchers from the related field of [[robotics]], such as [[Rodney Brooks]], rejected symbolic AI and focused on the basic engineering problems that would allow robots to move and survive.<ref name="Embodied AI"/> Their work revived the non-symbolic viewpoint of the early [[cybernetic]]s researchers of the 1950s and reintroduced the use of [[control theory]] in AI. This coincided with the development of the [[embodied mind thesis]] in the related field of [[cognitive science]]: the idea that aspects of the body (such as movement, perception and visualization) are required for higher intelligence.
+
+; Computational intelligence: Interest in [[neural networks]] and "[[connectionism]]" was revived by [[David Rumelhart]] and others in the middle 1980s.<ref name="Revival of connectionism"/> These and other sub-symbolic approaches, such as [[fuzzy system]]s and [[evolutionary computation]], are now studied collectively by the emerging discipline of [[computational intelligence]].<ref name="Computational intelligence"/>
+
+=== Statistical ===
+In the 1990s, AI researchers developed sophisticated mathematical tools to solve specific subproblems. These tools are truly [[scientific method|scientific]], in the sense that their results are both measurable and verifiable, and they have been responsible for many of AI's recent successes. The shared mathematical language has also permitted a high level of collaboration with more established fields (like [[mathematics]], economics or [[operations research]]). [[Stuart J. Russell|Stuart Russell]] and [[Peter Norvig]] describe this movement as nothing less than a "revolution" and "the victory of the [[neats and scruffies|neats]]."<ref name="Formal methods in AI"/> Critics argue that these techniques are too focused on particular problems and have failed to address the long term goal of general intelligence.<ref>Pat Langley, [http://www.springerlink.com/content/j067h855n8223338/ "The changing science of machine learning"], ''Machine Learning'', Volume 82, Number 3, 275–279, {{doi|10.1007/s10994-011-5242-y}}</ref>
+There is an ongoing debate about the relevance and validity of statistical approaches in AI, exemplified in part by exchanges between [[Peter Norvig]] and [[Noam Chomsky]].<ref>Yarden Katz, [http://www.theatlantic.com/technology/archive/2012/11/noam-chomsky-on-where-artificial-intelligence-went-wrong/261637/?single_page=true "Noam Chomsky on Where Artificial Intelligence Went Wrong"], The Atlantic, November 1, 2012</ref><ref>Peter Norvig, [http://norvig.com/chomsky.html "On Chomsky and the Two Cultures of Statistical Learning"]</ref>
+
+=== Integrating the approaches ===
+;Intelligent agent paradigm: An [[intelligent agent]] is a system that perceives its environment and takes actions which maximize its chances of success. The simplest intelligent agents are programs that solve specific problems. More complicated agents include human beings and organizations of human beings (such as [[firm]]s). The paradigm gives researchers license to study isolated problems and find solutions that are both verifiable and useful, without agreeing on one single approach. An agent that solves a specific problem can use any approach that works – some agents are symbolic and logical, some are sub-symbolic [[neural network]]s and others may use new approaches. The paradigm also gives researchers a common language to communicate with other fields—such as [[decision theory]] and economics—that also use concepts of abstract agents. The intelligent agent paradigm became widely accepted during the 1990s.<ref name="Intelligent agents"/>
+
+;[[Agent architecture]]s and [[cognitive architecture]]s: Researchers have designed systems to build intelligent systems out of interacting [[intelligent agents]] in a [[multi-agent system]].<ref name="Agent architectures"/> A system with both symbolic and sub-symbolic components is a [[hybrid intelligent system]], and the study of such systems is [[artificial intelligence systems integration]]. A [[hierarchical control system]] provides a bridge between sub-symbolic AI at its lowest, reactive levels and traditional symbolic AI at its highest levels, where relaxed time constraints permit planning and world modelling.<ref name="Hierarchical control system"/> [[Rodney Brooks]]' [[subsumption architecture]] was an early proposal for such a hierarchical system.<ref name="Subsumption architecture"/>
+<!--
+This should also describe [[Soar (cognitive architecture)]] briefly.
+--->
+
+== Tools ==
+In the course of 50 years of research, AI has developed a large number of tools to solve the most difficult problems in [[computer science]]. A few of the most general of these methods are discussed below.
+
+=== Search and optimization ===
+{{Main|Search algorithm|Mathematical optimization|Evolutionary computation}}
+
+Many problems in AI can be solved in theory by intelligently searching through many possible solutions:<ref name="Search"/> [[:#Deduction, reasoning, problem solving|Reasoning]] can be reduced to performing a search. For example, logical proof can be viewed as searching for a path that leads from [[premise]]s to [[Logical consequence|conclusions]], where each step is the application of an [[inference rule]].<ref name="Logic as search"/> [[Automated planning and scheduling|Planning]] algorithms search through trees of goals and subgoals, attempting to find a path to a target goal, a process called [[means-ends analysis]].<ref name="Planning as search"/> [[Robotics]] algorithms for moving limbs and grasping objects use [[local search (optimization)|local searches]] in [[configuration space]].<ref name="Configuration space" /> Many [[machine learning|learning]] algorithms use search algorithms based on [[optimization (mathematics)|optimization]].
+
+Simple exhaustive searches<ref name="Uninformed search"/> are rarely sufficient for most real world problems: the [[search algorithm|search space]] (the number of places to search) quickly grows to [[astronomical]] numbers. The result is a search that is [[Computation time|too slow]] or never completes. The solution, for many problems, is to use "[[heuristics]]" or "rules of thumb" that eliminate choices that are unlikely to lead to the goal (called "[[pruning (algorithm)|pruning]] the [[search tree]]"). [[Heuristics]] supply the program with a "best guess" for the path on which the solution lies.<ref name="Informed search"/> Heuristics limit the search for solutions into a smaller sample size.<ref name="Tecuci, G. 2012"/>
+
+A very different kind of search came to prominence in the 1990s, based on the mathematical theory of [[optimization (mathematics)|optimization]]. For many problems, it is possible to begin the search with some form of a guess and then refine the guess incrementally until no more refinements can be made. These algorithms can be visualized as blind [[hill climbing]]: we begin the search at a random point on the landscape, and then, by jumps or steps, we keep moving our guess uphill, until we reach the top. Other optimization algorithms are [[simulated annealing]], [[beam search]] and [[random optimization]].<ref name="Optimization search"/>
+
+[[Evolutionary computation]] uses a form of optimization search. For example, they may begin with a population of organisms (the guesses) and then allow them to mutate and recombine, [[natural selection|selecting]] only the fittest to survive each generation (refining the guesses). Forms of [[evolutionary computation]] include [[swarm intelligence]] algorithms (such as [[ant colony optimization|ant colony]] or [[particle swarm optimization]])<ref name="Society based learning"/> and [[evolutionary algorithms]] (such as [[genetic algorithms]], [[gene expression programming]], and [[genetic programming]]).<ref name="Genetic programming"/>
+
+=== Logic ===
+{{Main|Logic programming|Automated reasoning}}
+
+[[Logic]]<ref name="Logic"/> is used for knowledge representation and problem solving, but it can be applied to other problems as well. For example, the [[satplan]] algorithm uses logic for [[automated planning and scheduling|planning]]<ref name="Satplan"/> and [[inductive logic programming]] is a method for [[machine learning|learning]].<ref name="Symbolic learning techniques"/>
+
+Several different forms of logic are used in AI research. [[Propositional logic|Propositional]] or [[sentential logic]]<ref name="Propositional logic"/> is the logic of statements which can be true or false. [[First-order logic]]<ref name="First-order logic"/> also allows the use of [[quantifier]]s and [[predicate (mathematical logic)|predicates]], and can express facts about objects, their properties, and their relations with each other. [[Fuzzy logic]],<ref name="Fuzzy logic"/> is a version of first-order logic which allows the truth of a statement to be represented as a value between 0 and 1, rather than simply True (1) or False (0). [[Fuzzy system]]s can be used for uncertain reasoning and have been widely used in modern industrial and consumer product control systems. [[Subjective logic]]<ref name="Subjective logic"/> models uncertainty in a different and more explicit manner than fuzzy-logic: a given binomial opinion satisfies belief + disbelief + uncertainty = 1 within a [[Beta distribution]]. By this method, ignorance can be distinguished from probabilistic statements that an agent makes with high confidence.
+
+[[Default logic]]s, [[non-monotonic logic]]s and [[circumscription (logic)|circumscription]]<ref name="Default reasoning and non-monotonic logic"/> are forms of logic designed to help with default reasoning and the [[qualification problem]]. Several extensions of logic have been designed to handle specific domains of [[knowledge representation|knowledge]], such as: [[description logic]]s;<ref name="Representing categories and relations"/> [[situation calculus]], [[event calculus]] and [[fluent calculus]] (for representing events and time);<ref name="Representing time"/> [[Causality#Causal calculus|causal calculus]];<ref name="Representing causation"/> belief calculus; and [[modal logic]]s.<ref name="Representing knowledge about knowledge"/>
+
+=== Probabilistic methods for uncertain reasoning ===
+{{Main|Bayesian network|Hidden Markov model|Kalman filter|Decision theory|Utility theory}}
+
+Many problems in AI (in reasoning, planning, learning, perception and robotics) require the agent to operate with incomplete or uncertain information. AI researchers have devised a number of powerful tools to solve these problems using methods from [[probability]] theory and economics.<ref name="Stochastic methods for uncertain reasoning"/>
+
+[[Bayesian network]]s<ref name="Bayesian networks"/> are a very general tool that can be used for a large number of problems: reasoning (using the [[Bayesian inference]] algorithm),<ref name="Bayesian inference"/> [[Machine learning|learning]] (using the [[expectation-maximization algorithm]]),<ref name="Bayesian learning"/> [[Automated planning and scheduling|planning]] (using [[decision network]]s)<ref name="Bayesian decision networks"/> and [[machine perception|perception]] (using [[dynamic Bayesian network]]s).<ref name="Stochastic temporal models"/> Probabilistic algorithms can also be used for filtering, prediction, smoothing and finding explanations for streams of data, helping [[machine perception|perception]] systems to analyze processes that occur over time (e.g., [[hidden Markov model]]s or [[Kalman filter]]s).<ref name="Stochastic temporal models"/>
+
+A key concept from the science of economics is "[[utility]]": a measure of how valuable something is to an intelligent agent. Precise mathematical tools have been developed that analyze how an agent can make choices and plan, using [[decision theory]], [[decision analysis]],<ref name="Decisions theory and analysis"/> [[applied information economics|information value theory]].<ref name="Information value theory"/> These tools include models such as [[Markov decision process]]es,<ref name="Markov decision process"/> dynamic [[decision network]]s,<ref name="Stochastic temporal models" /> [[game theory]] and [[mechanism design]].<ref name="Game theory and mechanism design"/>
+
+=== Classifiers and statistical learning methods ===
+{{Main|Classifier (mathematics)|Statistical classification|Machine learning}}
+
+The simplest AI applications can be divided into two types: classifiers ("if shiny then diamond") and controllers ("if shiny then pick up"). Controllers do however also classify conditions before inferring actions, and therefore classification forms a central part of many AI systems. [[Classifier (mathematics)|Classifiers]] are functions that use [[pattern matching]] to determine a closest match. They can be tuned according to examples, making them very attractive for use in AI. These examples are known as observations or patterns. In supervised learning, each pattern belongs to a certain predefined class. A class can be seen as a decision that has to be made. All the observations combined with their class labels are known as a data set. When a new observation is received, that observation is classified based on previous experience.<ref name="Classifiers"/>
+
+A classifier can be trained in various ways; there are many statistical and [[machine learning]] approaches. The most widely used classifiers are the [[Artificial neural network|neural network]],<ref name="Neural networks" />
+[[kernel methods]] such as the [[support vector machine]],<ref name="Kernel methods"/>
+[[k-nearest neighbor algorithm]],<ref name="K-nearest neighbor algorithm"/>
+[[Gaussian mixture model]],<ref name="Guassian mixture model"/>
+[[naive Bayes classifier]],<ref name="Naive Bayes classifier"/>
+and [[decision tree learning|decision tree]].<ref name="Decision tree"/>
+The performance of these classifiers have been compared over a wide range of tasks. Classifier performance depends greatly on the characteristics of the data to be classified. There is no single classifier that works best on all given problems; this is also referred to as the "[[No free lunch in search and optimization|no free lunch]]" theorem. Determining a suitable classifier for a given problem is still more an art than science.<ref name="Classifier performance"/>
+
+=== Neural networks ===
+{{Main|Neural network|Connectionism}}
+[[File:Artificial neural network.svg|thumb|A neural network is an interconnected group of nodes, akin to the vast network of [[neuron]]s in the [[human brain]].]]
+
+The study of [[artificial neural network]]s<ref name="Neural networks"/> began in the decade before the field AI research was founded, in the work of [[Walter Pitts]] and [[Warren McCullough]]. Other important early researchers were [[Frank Rosenblatt]], who invented the [[perceptron]] and [[Paul Werbos]] who developed the [[backpropagation]] algorithm.<ref name="Backpropagation"/>
+
+The main categories of networks are acyclic or [[feedforward neural network]]s (where the signal passes in only one direction) and [[recurrent neural network]]s (which allow feedback). Among the most popular feedforward networks are [[perceptron]]s, [[multi-layer perceptron]]s and [[radial basis network]]s.<ref name="Feedforward neural networks"/> Among recurrent networks, the most famous is the [[Hopfield net]], a form of attractor network, which was first described by [[John Hopfield]] in 1982.<ref name="Recurrent neural networks"/> Neural networks can be applied to the problem of [[intelligent control]] (for robotics) or [[machine learning|learning]], using such techniques as [[Hebbian learning]] and [[competitive learning]].<ref name="Learning in neural networks"/>
+
+[[Hierarchical temporal memory]] is an approach that models some of the structural and algorithmic properties of the [[neocortex]].<ref name="Hierarchical temporal memory"/>
+
+=== Control theory ===
+{{Main|Intelligent control}}
+[[Control theory]], the grandchild of [[cybernetics]], has many important applications, especially in [[robotics]].<ref name="Control theory"/>
+
+=== Languages ===
+{{Main|List of programming languages for artificial intelligence}}
+
+<!-- Not sure where to put this in the article. I think it deserves no more weight than this single sentence. To be improved. -->
+AI researchers have developed several specialized languages for AI research, including [[Lisp programming language|Lisp]]<ref name="Lisp"/> and [[Prolog]].<ref name="Prolog"/>
+
+== Evaluating progress ==
+{{Main|Progress in artificial intelligence}}
+In 1950, Alan Turing proposed a general procedure to test the intelligence of an agent now known as the [[Turing test]]. This procedure allows almost all the major problems of artificial intelligence to be tested. However, it is a very difficult challenge and at present all agents fail.<ref name="Turing test"/>
+
+Artificial intelligence can also be evaluated on specific problems such as small problems in chemistry, hand-writing recognition and game-playing. Such tests have been termed [[subject matter expert Turing test]]s. Smaller problems provide more achievable goals and there are an ever-increasing number of positive results.<ref name="Subject matter expert Turing test"/>
+
+One classification for outcomes of an AI test is:<ref>{{cite journal|last=Rajani|first=Sandeep|title=Artificial Intelligence - Man or Machine|journal=International Journal of Information Technology and Knowlede Management|year=2011|volume=4|issue=1|pages=173–176|url=http://www.csjournals.com/IJITKM/PDF%204-1/35.Sandeep%20Rajani.pdf|accessdate=24 September 2012}}</ref>
+# Optimal: it is not possible to perform better.
+# Strong super-human: performs better than all humans.
+# Super-human: performs better than most humans.
+# Sub-human: performs worse than most humans.
+
+For example, performance at [[draughts]] is optimal,<ref name="Game AI"/> performance at chess is super-human and nearing strong super-human (see [[Computer chess#Computers versus humans|computer chess:&nbsp;computers versus human]]) and performance at many everyday tasks (such as recognizing a face or crossing a room without bumping into something) is sub-human.
+
+A quite different approach measures machine intelligence through tests which are developed from ''mathematical'' definitions of intelligence. Examples of these kinds of tests start in the late nineties devising intelligence tests using notions from [[Kolmogorov complexity]] and [[data compression]].<ref name="Mathematical definitions of intelligence"/> Two major advantages of mathematical definitions are their applicability to nonhuman intelligences and their absence of a requirement for human testers.
+
+An area that artificial intelligence had contributed greatly to is Intrusion detection.<ref name="Intrusion detection" />
+
+A derivative of the Turing test is the Completely Automated Public Turing test to tell Computers and Humans Apart (CAPTCHA). as the name implies, this helps to determine that a user is an actual person and not a computer posing as a human. In contrast to the standard Turing test, CAPTCHA administered by a machine and targeted to a human as opposed to being administered by a human and targeted to a machine. A computer asks a user to complete a simple test then generates a grade for that test. Computers are unable to solve the problem, so correct solutions are deemed to be the result of a person taking the test. A common type of CAPTCHA is the test that requires the typing of distorted letters, numbers or symbols that appear in an image undecipherable by a computer. <ref>O'Brien and Marakas, 2011, Management Information Systems 10th ed.</ref>
+
+== Applications ==
+[[File:Automated online assistant.png|thumb|An [[automated online assistant]] providing customer service on a web page – one of many very primitive applications of artificial intelligence.]]
+{{expand section|talksection=Todo: Applications|date=January 2011}}
+{{Main|Applications of artificial intelligence}}
+
+Artificial intelligence techniques are pervasive and are too numerous to list. Frequently, when a technique reaches mainstream use, it is no longer considered artificial intelligence; this phenomenon is described as the [[AI effect]].<ref>
+{{cite news
+  | coauthors =
+  | title = AI set to exceed human brain power
+  |publisher=CNN
+  | date = 26 July 2006
+  | url = http://www.cnn.com/2006/TECH/science/07/24/ai.bostrom/
+  | format = web article
+  | accessdate =26 February 2008| archiveurl= http://web.archive.org/web/20080219001624/http://www.cnn.com/2006/TECH/science/07/24/ai.bostrom/| archivedate= 19 February 2008 <!--DASHBot-->| deadurl= no}}
+</ref>
+
+=== Competitions and prizes ===
+{{Main|Competitions and prizes in artificial intelligence}}
+There are a number of competitions and prizes to promote research in artificial intelligence. The main areas promoted are: general machine intelligence, conversational behavior, data-mining, [[autonomous car|robotic cars]], robot soccer and games.
+
+=== Platforms ===
+A [[platform (computing)|platform]] (or "[[computing platform]]") is defined as "some sort of hardware architecture or software framework (including application frameworks), that allows software to run." As Rodney Brooks<ref>Brooks, R.A., "How to build complete creatures rather than isolated cognitive simulators," in K. VanLehn (ed.), Architectures for Intelligence, pp. 225–239, Lawrence Erlbaum Associates, Hillsdale, NJ, 1991.</ref> pointed out many years ago, it is not just the artificial intelligence software that defines the AI features of the platform, but rather the actual platform itself that affects the AI that results, i.e., there needs to be work in AI problems on real-world platforms rather than in isolation.
+
+A wide variety of platforms has allowed different aspects of AI to develop, ranging from [[expert systems]], albeit [[Personal Computer|PC]]-based but still an entire real-world system, to various robot platforms such as the widely available [[Roomba]] with open interface.<ref>[http://hackingroomba.com/?s=atmel Hacking Roomba » Search Results » atmel<!-- Bot generated title -->]</ref>
+
+== Philosophy ==
+{{Main|Philosophy of artificial intelligence}}
+
+Artificial intelligence, by claiming to be able to recreate the capabilities of the human [[mind]], is both a challenge and an inspiration for philosophy. Are there limits to how intelligent machines can be? Is there an essential difference between human intelligence and artificial intelligence? Can a machine have a [[mind]] and [[consciousness]]? A few of the most influential answers to these questions are given below.<ref name="Philosophy of AI"/>
+
+;''[[Computing Machinery and Intelligence|Turing's "polite convention"]]'': We need not decide if a machine can "think"; we need only decide if a machine can act as intelligently as a human being. This approach to the philosophical problems associated with artificial intelligence forms the basis of the [[Turing test]].<ref name="Turing test"/>
+
+;''The [[Dartmouth Conferences|Dartmouth proposal]]'': "Every aspect of learning or any other feature of intelligence can be so precisely described that a machine can be made to simulate it." This conjecture was printed in the proposal for the [[Dartmouth Conferences|Dartmouth Conference]] of 1956, and represents the position of most working AI researchers.<ref name="Dartmouth proposal"/>
+
+;''[[Physical symbol system|Newell and Simon's physical symbol system hypothesis]]'': "A physical symbol system has the necessary and sufficient means of general intelligent action." Newell and Simon argue that intelligences consist of formal operations on symbols.<ref name="Physical symbol system hypothesis"/> [[Hubert Dreyfus]] argued that, on the contrary, human expertise depends on unconscious instinct rather than conscious symbol manipulation and on having a "feel" for the situation rather than explicit symbolic knowledge. (See [[Dreyfus' critique of AI]].)<ref>
+Dreyfus criticized the [[necessary and sufficient|necessary]] condition of the [[physical symbol system]] hypothesis, which he called the "psychological assumption": "The mind can be viewed as a device operating on bits of information according to formal rules". {{Harv|Dreyfus|1992|p=156}}</ref><ref name="Dreyfus' critique"/>
+
+;''[[Gödel's incompleteness theorem]]'': A [[formal system]] (such as a computer program) cannot prove all true statements.<ref>This is a paraphrase of the relevant implication of Gödel's theorems.</ref> [[Roger Penrose]] is among those who claim that Gödel's theorem limits what machines can do. (See ''[[The Emperor's New Mind]]''.)<ref name="The mathematical objection"/>
+
+;''[[Strong AI hypothesis|Searle's strong AI hypothesis]]'': "The appropriately programmed computer with the right inputs and outputs would thereby have a mind in exactly the same sense human beings have minds."<ref name="Searle's strong AI"/> John Searle counters this assertion with his [[Chinese room]] argument, which asks us to look ''inside'' the computer and try to find where the "mind" might be.<ref name="Chinese room"/>
+
+;''The [[artificial brain]] argument'': The brain can be simulated. [[Hans Moravec]], [[Ray Kurzweil]] and others have argued that it is technologically feasible to copy the brain directly into hardware and software, and that such a simulation will be essentially identical to the original.<ref name="Brain simulation"/>
+
+== Predictions and ethics ==
+{{Main|Artificial intelligence in fiction|Ethics of artificial intelligence|Transhumanism|Technological singularity}}
+
+Artificial intelligence is a common topic in both science fiction and projections about the future of technology and society. The existence of an artificial intelligence that rivals human intelligence raises difficult ethical issues, and the potential power of the technology inspires both hopes and fears.
+
+<!-- IMPACT ON SOCIETY: FICTION -->
+In fiction, artificial intelligence has appeared fulfilling many roles.
+
+These include:
+* a servant ([[R2-D2]] and [[C-3PO]] in ''[[Star Wars]]'')
+* a law enforcer ([[K.I.T.T.]] "[[Knight Rider (1982 TV series)|Knight Rider]]")
+* a comrade ([[Data (Star Trek)|Lt. Commander Data]] in ''[[Star Trek: The Next Generation]]'')
+* a conqueror/overlord (''[[The Matrix]]'', ''[[Omnius]]'')
+* a dictator (''[[With Folded Hands]]''),(''[[Colossus: The Forbin Project]]'' (1970 Movie).
+* a benevolent provider/de facto ruler (''[[The Culture]]'')
+* a supercomputer ([[Red Queen and White Queen|The Red Queen]] in ''[[Resident Evil (film)|Resident Evil]]'' "Gilium" in ''[[Outlaw Star]]'')
+* an assassin (''[[Terminator (series)|Terminator]]'')
+* a sentient race (''[[Battlestar Galactica (re-imagining)|Battlestar Galactica]]''/[[Transformers]]/''[[Mass Effect]]'')
+* an extension to human abilities (''[[Ghost in the Shell]]'')
+* the savior of the human race ([[R. Daneel Olivaw]] in [[Isaac Asimov]]'s [[Robot series (Asimov)|''Robot'' series]])
+
+<!--ROBOT RIGHTS / THE ABILITY TO SUFFER / SENTIENCE -->
+[[Mary Shelley]]'s ''[[Frankenstein]]'' considers a key issue in the [[ethics of artificial intelligence]]: if a machine can be created that has intelligence, could it also ''[[sentience|feel]]''? If it can feel, does it have the same rights as a human? The idea also appears in modern science fiction, including the films ''[[I Robot (film)|I Robot]]'', ''[[Blade Runner]]'' and ''[[A.I.: Artificial Intelligence]]'', in which humanoid machines have the ability to feel human emotions. This issue, now known as "[[robot rights]]", is currently being considered by, for example, California's [[Institute for the Future]], although many critics believe that the discussion is premature.<ref name="Robot rights"/> The subject is profoundly discussed in the 2010 documentary film ''[[Plug & Pray]]''.<ref>[http://www.plugandpray-film.de/en/content.html Independent documentary Plug & Pray, featuring Joseph Weizenbaum and Raymond Kurzweil]</ref>
+
+<!-- CONSEQUENCES 1: DECREASED DEMAND FOR HUMAN LABOR -->
+Martin Ford, author of ''The Lights in the Tunnel: Automation, Accelerating Technology and the Economy of the Future'',<ref name="Ford2009Lights">{{Ford 2009 The lights in the tunnel}}</ref> and others argue that specialized artificial intelligence applications, robotics and other forms of automation will ultimately result in significant unemployment as machines begin to match and exceed the capability of workers to perform most routine and repetitive jobs. Ford predicts that many knowledge-based occupations—and in particular entry level jobs—will be increasingly susceptible to automation via expert systems, machine learning<ref>[http://econfuture.wordpress.com/2011/04/14/machine-learning-a-job-killer/ "Machine Learning: A Job Killer?"]</ref> and other AI-enhanced applications. AI-based applications may also be used to amplify the capabilities of low-wage offshore workers, making it more feasible to [[outsource]] knowledge work.<ref name="Replaced by machines"/>
+
+<!-- CONSEQUENCES 2: DEVALUATION OF HUMANITY -->
+[[Joseph Weizenbaum]] wrote that AI applications can not, by definition, successfully simulate genuine human empathy and that the use of AI technology in fields such as [[customer service]] or [[psychotherapy]]<ref>In the early 1970s, [[Kenneth Colby]] presented a version of Weizenbaum's [[ELIZA]] known as DOCTOR which he promoted as a serious therapeutic tool. {{Harv|Crevier|1993|pp=132–144}}</ref> was deeply misguided. Weizenbaum was also bothered that AI researchers (and some philosophers) were willing to view the human mind as nothing more than a computer program (a position now known as [[computationalism]]). To Weizenbaum these points suggest that AI research devalues human life.<ref name="Weizenbaum's critique"/>
+
+<!-- CONSEQUENCES 3: INSTANTANEOUS PROGRESS -->
+Many futurists believe that artificial intelligence will ultimately transcend the limits of progress. [[Ray Kurzweil]] has used [[Moore's law]] (which describes the relentless exponential improvement in digital technology) to calculate that [[desktop computer]]s will have the same processing power as human brains by the year 2029. He also predicts that by 2045 artificial intelligence will reach a point where it is able to improve ''itself'' at a rate that far exceeds anything conceivable in the past, a scenario that science fiction writer [[Vernor Vinge]] named the "[[technological singularity|singularity]]".<ref name=Singularity/>
+
+<!-- CONSEQUENCES 4: TRANSHUMANISM -->
+Robot designer [[Hans Moravec]], cyberneticist [[Kevin Warwick]] and inventor [[Ray Kurzweil]] have predicted that humans and machines will merge in the future into [[cyborg]]s that are more capable and powerful than either.<ref name="Transhumanism"/> This idea, called [[transhumanism]], which has roots in [[Aldous Huxley]] and [[Robert Ettinger]], has been illustrated in fiction as well, for example in the [[manga]] ''[[Ghost in the Shell]]'' and the science-fiction series ''[[Dune (novel)|Dune]]''. In the 1980s artist [[Hajime Sorayama]]'s Sexy Robots series were painted and published in Japan depicting the actual organic human form with life-like muscular metallic skins and later "the Gynoids" book followed that was used by or influenced movie makers including [[George Lucas]] and other creatives. Sorayama never considered these organic robots to be real part of nature but always unnatural product of the human mind, a fantasy existing in the mind even when realized in actual form. Almost 20 years later, the first AI robotic pet, [[AIBO]], came available as a companion to people. AIBO grew out of Sony's Computer Science Laboratory (CSL). Famed engineer Toshitada Doi is credited as AIBO's original progenitor: in 1994 he had started work on robots with artificial intelligence expert Masahiro Fujita, at CSL. Doi's, friend, the artist Hajime Sorayama, was enlisted to create the initial designs for the AIBO's body. Those designs are now part of the permanent collections of Museum of Modern Art and the Smithsonian Institution, with later versions of AIBO being used in studies in Carnegie Mellon University. In 2006, AIBO was added into Carnegie Mellon University's "Robot Hall of Fame".
+
+<!-- CONSEQUENCES 5: DIFFICULTIES FOR FRIENDLY AI -->
+Political scientist [[Charles T. Rubin]] believes that AI can be neither designed nor guaranteed to be [[Friendly artificial intelligence|friendly]].<ref>{{cite journal|last=Rubin|first=Charles|authorlink=Charles T. Rubin|date=Spring 2003|title=Artificial Intelligence and Human Nature|journal=The New Atlantis|volume=1|pages=88–100|url=http://www.thenewatlantis.com/publications/artificial-intelligence-and-human-nature}}</ref> He argues that "any sufficiently advanced benevolence may be indistinguishable from malevolence." Humans should not assume machines or robots would treat us favorably, because there is no ''a priori'' reason to believe that they would be sympathetic to our system of morality, which has evolved along with our particular biology (which AIs would not share).
+
+<!-- AI AS EVOLUTION -->
+[[Edward Fredkin]] argues that "artificial intelligence is the next stage in evolution", an idea first proposed by [[Samuel Butler (novelist)|Samuel Butler]]'s "[[Darwin among the Machines]]" (1863), and expanded upon by [[George Dyson (science historian)|George Dyson]] in his book of the same name in 1998.<ref name="AI as evolution"/>
+
+== See also ==
+{{Portal|AI|Mind and Brain|Chess|Strategy games}}
+{{main|Outline of artificial intelligence}}
+
+* [[Artificial Intelligence (journal)|''Artificial Intelligence'' (journal)]]
+* [[Artificial intelligence (video games)]]
+* [[Computer Go]]
+* [[Human Cognome Project]]
+* [[List of artificial intelligence projects]]
+* [[:Category:Artificial intelligence researchers|List of artificial intelligence researchers]]
+* [[List of emerging technologies]]
+* [[List of important publications in computer science#Artificial intelligence|List of important artificial intelligence publications]]
+* [[List of machine learning algorithms]]
+* [[List of scientific journals]]
+* [[Never-Ending Language Learning]]
+* [[Philosophy of mind]]
+* [[Simulated reality]]
+
+== References ==
+=== Notes ===
+{{reflist|30em|refs=
+<!-- unused ref
+<ref name="TOPIO">
+[[TOPIO]]:
+* {{Cite news|url = http://www.popsci.com/technology/article/2010-02/ping-pong-playing-terminator|title=A Ping-Pong-Playing Terminator|publisher=Popular Science}}
+* {{Cite news|url = http://www.gadgetrivia.com/8164-best_robot_international_robot_exhibition|title=Best robot 2009|publisher=gadgetrivia.com}}{{dead link|date=February 2011}}</ref>
+-->
+
+<!-- INTRODUCTION ------------------------------------------------------------------------------>
+
+<ref name="Definition of AI">
+Definition of AI as the study of [[intelligent agents]]:
+* {{Harvnb|Poole|Mackworth|Goebel|1998|loc=[http://people.cs.ubc.ca/~poole/ci/ch1.pdf p. 1]}}, which provides the version that is used in this article. Note that they use the term "computational intelligence" as a synonym for artificial intelligence.
+* {{Harvtxt|Russell|Norvig|2003}} (who prefer the term "rational agent") and write "The whole-agent view is now widely accepted in the field" {{Harv|Russell|Norvig|2003|p=55}}.
+* {{Harvnb|Nilsson|1998}}
+<!--These textbooks are the most widely used in academic AI.-->
+</ref>
+
+<ref name="Coining of the term AI">
+Although there is some controversy on this point (see {{Harvtxt|Crevier|1993|p=50}}), [[John McCarthy (computer scientist)|McCarthy]] states unequivocally "I came up with the term" in a c|net interview. {{Harv|Skillings|2006}} McCarthy first used the term in the proposal for the [[Dartmouth conference]], which appeared in 1955. {{Harv|McCarthy|Minsky|Rochester|Shannon|1955}}
+</ref>
+
+<ref name="McCarthy's definition of AI">
+[[John McCarthy (computer scientist)|McCarthy]]'s definition of AI:
+* {{Harvnb|McCarthy|2007}}
+</ref>
+
+<ref name="McCorduck's thesis">
+This is a central idea of [[Pamela McCorduck]]'s ''Machines Who Think''. She writes: "I like to think of artificial intelligence as the scientific apotheosis of a venerable cultural tradition." {{Harv|McCorduck|2004|p=34}} "Artificial intelligence in one form or another is an idea that has pervaded Western intellectual history, a dream in urgent need of being realized." {{Harv|McCorduck|2004|p=xviii}} "Our history is full of attempts—nutty, eerie, comical, earnest, legendary and real—to make artificial intelligences, to reproduce what is the essential us—bypassing the ordinary means. Back and forth between myth and reality, our imaginations supplying what our workshops couldn't, we have engaged for a long time in this odd form of self-reproduction." {{Harv|McCorduck|2004|p=3}} She traces the desire back to its [[Hellenistic]] roots and calls it the urge to "forge the Gods." {{Harv|McCorduck|2004|pp=340–400}}
+</ref>
+
+<ref name="AI widely used">
+AI applications widely used behind the scenes:
+* {{Harvnb|Russell|Norvig|2003|p=28}}
+* {{Harvnb|Kurzweil|2005|p=265}}
+* {{Harvnb|NRC|1999|pp=216–222}}
+</ref>
+
+<ref name="Fragmentation of AI">
+Pamela {{Harvtxt|McCorduck|2004|pp=424}} writes of "the rough shattering of AI in subfields—vision, natural language, decision theory, genetic algorithms, robotics&nbsp;... and these with own sub-subfield—that would hardly have anything to say to each other."
+</ref>
+
+<ref name="Problems of AI">
+This list of intelligent traits is based on the topics covered by the major AI textbooks, including:
+* {{Harvnb|Russell|Norvig|2003}}
+* {{Harvnb|Luger|Stubblefield|2004}}
+* {{Harvnb|Poole|Mackworth|Goebel|1998}}
+* {{Harvnb|Nilsson|1998}}
+</ref>
+
+<ref name="General intelligence">
+General intelligence ([[strong AI]]) is discussed in popular introductions to AI:
+* {{Harvnb|Kurzweil|1999}} and {{Harvnb|Kurzweil|2005}}
+</ref>
+
+<!-- History --------------------------------------------------------------------------------------------------->
+
+<ref name="AI in myth">
+AI in myth:
+* {{Harvnb|McCorduck|2004|pp=4–5}}
+* {{Harvnb|Russell|Norvig|2003|p=939}}
+</ref>
+
+<ref name="Cult images as artificial intelligence">
+[[Cult image]]s as artificial intelligence:
+* {{Harvtxt|Crevier|1993|p=1}} (statue of [[Amun]])
+* {{Harvtxt|McCorduck|2004|pp=6–9}}
+These were the first machines to be believed to have true intelligence and consciousness. [[Hermes Trismegistus]] expressed the common belief that with these statues, craftsman had reproduced "the true nature of the gods", their ''sensus'' and ''spiritus''. McCorduck makes the connection between sacred automatons and [[613 Commandments|Mosaic law]] (developed around the same time), which expressly forbids the worship of robots {{Harv|McCorduck|2004|pp=6–9}}
+</ref>
+
+<ref name="Humanoid automata">
+Humanoid automata:<br>
+[[King Mu of Zhou|Yan Shi]]:
+* {{Harvnb|Needham|1986|p=53}}
+[[Hero of Alexandria]]:
+* {{Harvnb|McCorduck|2004|p=6}}
+[[Al-Jazari]]:
+* {{cite web|url=http://www.shef.ac.uk/marcoms/eview/articles58/robot.html |title=A Thirteenth Century Programmable Robot |publisher=Shef.ac.uk |accessdate=25 April 2009}}
+[[Wolfgang von Kempelen]]:
+* {{Harvnb|McCorduck|2004|p=17}}
+</ref>
+
+<ref name="Artificial beings">
+Artificial beings:<br>
+[[Jābir ibn Hayyān]]'s [[Takwin]]:
+* {{Cite journal |author=O'Connor, Kathleen Malone |title=The alchemical creation of life (takwin) and other concepts of Genesis in medieval Islam|publisher=University of Pennsylvania |year=1994 |url=http://repository.upenn.edu/dissertations/AAI9503804 |accessdate=10 January 2007 |ref=harv}}
+[[Judah Loew]]'s [[Golem]]:
+* {{Harvnb|McCorduck|2004|pp=15–16}}
+* {{Harvnb|Buchanan|2005|p=50}}
+[[Paracelsus]]' Homunculus:
+* {{Harvnb|McCorduck|2004|pp=13–14}}
+</ref>
+
+<ref name="AI in early science fiction">
+AI in early science fiction.
+* {{Harvnb|McCorduck|2004|pp=17–25}}
+</ref>
+
+<ref name="Formal reasoning">
+Formal reasoning:
+* {{cite book | first = David | last = Berlinski | year = 2000 | title =The Advent of the Algorithm| publisher = Harcourt Books |author-link=David Berlinski | isbn=0-15-601391-6 | oclc = 46890682 }}
+</ref>
+
+<ref name="AI's immediate precursors">
+AI's immediate precursors:
+* {{Harvnb|McCorduck|2004|pp=51–107}}
+* {{Harvnb|Crevier|1993|pp=27–32}}
+* {{Harvnb|Russell|Norvig|2003|pp=15, 940}}
+* {{Harvnb|Moravec|1988|p=3}}
+See also {{See section|History of artificial intelligence|Cybernetics and early neural networks}}. Among the researchers who laid the foundations of AI were [[Alan Turing]], [[John Von Neumann]], [[Norbert Wiener]], [[Claude Shannon]], [[Warren McCullough]], [[Walter Pitts]] and [[Donald Hebb]].
+</ref>
+
+<ref name="Dartmouth conference">
+[[Dartmouth conference]]:
+* {{Harvnb|McCorduck|2004|pp=111–136}}
+* {{Harvnb|Crevier|1993|pp=47–49}}, who writes "the conference is generally recognized as the official birthdate of the new science."
+* {{Harvnb|Russell|Norvig|2003|p=17}}, who call the conference "the birth of artificial intelligence."
+* {{Harvnb|NRC|1999|pp=200–201}}
+</ref>
+
+<ref name="Hegemony of the Dartmouth conference attendees">
+Hegemony of the Dartmouth conference attendees:
+* {{Harvnb|Russell|Norvig|2003|p=17}}, who write "for the next 20 years the field would be dominated by these people and their students."
+* {{Harvnb|McCorduck|2004|pp=129–130}}
+</ref>
+
+<ref name="Golden years of AI">
+"[[History of AI#The golden years 1956−1974|Golden years]]" of AI (successful symbolic reasoning programs 1956–1973):
+* {{Harvnb|McCorduck|2004|pp=243–252}}
+* {{Harvnb|Crevier|1993|pp=52–107}}
+* {{Harvnb|Moravec|1988|p=9}}
+* {{Harvnb|Russell|Norvig|2003|pp=18–21}}
+The programs described are [[Daniel Bobrow]]'s [[STUDENT (computer program)|STUDENT]], [[Allen Newell|Newell]] and [[Herbert A. Simon|Simon]]'s [[Logic Theorist]] and [[Terry Winograd]]'s [[SHRDLU]].
+</ref>
+
+<ref name="AI funding in the 60s">
+[[DARPA]] pours money into undirected pure research into AI during the 1960s:
+* {{Harvnb|McCorduck|2004|pp=131}}
+* {{Harvnb|Crevier|1993|pp=51, 64–65}}
+* {{Harvnb|NRC|1999|pp=204–205}}
+</ref>
+
+<ref name="AI in England">
+AI in England:
+* {{Harvnb|Howe|1994}}
+</ref>
+
+<ref name="Optimism of early AI">
+Optimism of early AI:
+* [[Herbert A. Simon|Herbert Simon]] quote: {{Harvnb|Simon|1965|p=96}} quoted in {{Harvnb|Crevier|1993|p=109}}.
+* [[Marvin Minsky]] quote: {{Harvnb|Minsky|1967|p=2}} quoted in {{Harvnb|Crevier|1993|p=109}}.
+</ref>
+
+<ref name="First AI winter">
+First [[AI Winter]], [[Mansfield Amendment]], [[Lighthill report]]
+* {{Harvnb|Crevier|1993|pp=115–117}}
+* {{Harvnb|Russell|Norvig|2003|p=22}}
+* {{Harvnb|NRC|1999|pp=212–213}}
+* {{Harvnb|Howe|1994}}
+</ref>
+
+<ref name="Expert systems">
+Expert systems:
+* {{Harvnb|ACM|1998|loc=I.2.1}},
+* {{Harvnb|Russell|Norvig|2003|pp=22–24}}
+* {{Harvnb|Luger|Stubblefield|2004|pp=227–331}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 17.4}}
+* {{Harvnb|McCorduck|2004|pp=327–335, 434–435}}
+* {{Harvnb|Crevier|1993|pp=145–62, 197–203}}
+</ref>
+
+<ref name="AI in the 80s">
+Boom of the 1980s: rise of [[expert systems]], [[Fifth generation computer|Fifth Generation Project]], [[Alvey]], [[Microelectronics and Computer Technology Corporation|MCC]], [[Strategic Computing Initiative|SCI]]:
+* {{Harvnb|McCorduck|2004|pp=426–441}}
+* {{Harvnb|Crevier|1993|pp=161–162,197–203, 211, 240}}
+* {{Harvnb|Russell|Norvig|2003|p=24}}
+* {{Harvnb|NRC|1999|pp=210–211}}
+</ref>
+
+<ref name="Second AI winter">
+Second [[AI winter]]:
+* {{Harvnb|McCorduck|2004|pp=430–435}}
+* {{Harvnb|Crevier|1993|pp=209–210}}
+* {{Harvnb|NRC|1999|pp=214–216}}
+</ref>
+
+<ref name="Formal methods in AI">
+Formal methods are now preferred ("Victory of the [[neats vs. scruffies|neats]]"):
+* {{Harvnb|Russell|Norvig|2003|pp=25–26}}
+* {{Harvnb|McCorduck|2004|pp=486–487}}
+</ref>
+
+<!---- PROBLEMS ------------------------------------------------------------------------------------------>
+
+<ref name="Reasoning">
+Problem solving, puzzle solving, game playing and deduction:
+* {{Harvnb|Russell|Norvig|2003|loc=chpt. 3–9}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|loc=chpt. 2,3,7,9}},
+* {{Harvnb|Luger|Stubblefield|2004|loc=chpt. 3,4,6,8}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 7–12}}
+</ref>
+
+<ref name="Uncertain reasoning">
+Uncertain reasoning:
+* {{Harvnb|Russell|Norvig|2003|pp=452–644}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=345–395}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=333–381}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 19}}
+</ref>
+
+<ref name="Intractability">
+[[Intractably|Intractability and efficiency]] and the [[combinatorial explosion]]:
+* {{Harvnb|Russell|Norvig|2003|pp=9, 21–22}}
+</ref>
+
+<ref name="Psychological evidence of sub-symbolic reasoning">
+Psychological evidence of sub-symbolic reasoning:
+* {{Harvtxt|Wason|Shapiro|1966}} showed that people do poorly on completely abstract problems, but if the problem is restated to allow the use of intuitive [[social intelligence]], performance dramatically improves. (See [[Wason selection task]])
+* {{Harvtxt|Kahneman|Slovic|Tversky|1982}} have shown that people are terrible at elementary problems that involve uncertain reasoning. (See [[list of cognitive biases]] for several examples).
+* {{Harvtxt|Lakoff|Núñez|2000}} have controversially argued that even our skills at mathematics depend on knowledge and skills that come from "the body", i.e. sensorimotor and perceptual skills. (See [[Where Mathematics Comes From]])
+</ref>
+
+<ref name="Knowledge representation">
+[[Knowledge representation]]:
+* {{Harvnb|ACM|1998|loc=I.2.4}},
+* {{Harvnb|Russell|Norvig|2003|pp=320–363}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=23–46, 69–81, 169–196, 235–277, 281–298, 319–345}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=227–243}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 18}}
+</ref>
+
+<ref name="Knowledge engineering">
+[[Knowledge engineering]]:
+* {{Harvnb|Russell|Norvig|2003|pp=260–266}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=199–233}},
+* {{Harvnb|Nilsson|1998|loc=chpt. ~17.1–17.4}}
+</ref>
+
+<ref name="Representing categories and relations">
+Representing categories and relations: [[Semantic network]]s, [[description logic]]s, [[inheritance (computer science)|inheritance]] (including [[frame (artificial intelligence)|frames]] and [[scripts (artificial intelligence)|scripts]]):
+* {{Harvnb|Russell|Norvig|2003|pp=349–354}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=174–177}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=248–258}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 18.3}}
+</ref>
+
+<ref name="Representing time">
+Representing events and time:[[Situation calculus]], [[event calculus]], [[fluent calculus]] (including solving the [[frame problem]]):
+* {{Harvnb|Russell|Norvig|2003|pp=328–341}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=281–298}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 18.2}}
+</ref>
+
+<ref name="Representing causation">
+[[Causality#Causal calculus|Causal calculus]]:
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=335–337}}
+</ref>
+
+<ref name="Representing knowledge about knowledge">
+Representing knowledge about knowledge: [[Belief calculus]], [[modal logic]]s:
+* {{Harvnb|Russell|Norvig|2003|pp=341–344}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=275–277}}
+</ref>
+
+<ref name="Ontology">
+[[Ontology (computer science)|Ontology]]:
+* {{Harvnb|Russell|Norvig|2003|pp=320–328}}
+</ref>
+
+<ref name="Qualification problem">
+[[Qualification problem]]:
+* {{Harvnb|McCarthy|Hayes|1969}}
+* {{Harvnb|Russell|Norvig|2003}}{{Page needed|date=February 2011}}<!-- We really need to know where they say this, because it's kind of wrong -->
+While McCarthy was primarily concerned with issues in the logical representation of actions, {{Harvnb|Russell|Norvig|2003}} apply the term to the more general issue of default reasoning in the vast network of assumptions underlying all our commonsense knowledge.
+</ref>
+
+<ref name="Default reasoning and non-monotonic logic">
+Default reasoning and [[default logic]], [[non-monotonic logic]]s, [[circumscription (logic)|circumscription]], [[closed world assumption]], [[abductive reasoning|abduction]] (Poole ''et al.'' places abduction under "default reasoning". Luger ''et al.'' places this under "uncertain reasoning"):
+* {{Harvnb|Russell|Norvig|2003|pp=354–360}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=248–256, 323–335}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=335–363}},
+* {{Harvnb|Nilsson|1998|loc=~18.3.3}}
+</ref>
+
+<ref name="Breadth of commonsense knowledge">
+Breadth of commonsense knowledge:
+* {{Harvnb|Russell|Norvig|2003|p=21}},
+* {{Harvnb|Crevier|1993|pp=113–114}},
+* {{Harvnb|Moravec|1988|p=13}},
+* {{Harvnb|Lenat|Guha|1989}} (Introduction)
+</ref>
+
+<ref name="Intuition">
+Expert knowledge as [[embodied cognition|embodied]] intuition:
+* {{Harvnb|Dreyfus|Dreyfus|1986}} ([[Hubert Dreyfus]] is a philosopher and critic of AI who was among the first to argue that most useful human knowledge was encoded sub-symbolically. See [[Dreyfus' critique of AI]])
+* {{Harvnb|Gladwell|2005}} (Gladwell's ''[[Blink (book)|Blink]]'' is a popular introduction to sub-symbolic reasoning and knowledge.)
+* {{Harvnb|Hawkins|Blakeslee|2005}} (Hawkins argues that sub-symbolic knowledge should be the primary focus of AI research.)
+Note, however, that recent work in cognitive science challenges the view that there is anything like sub-symbolic human information processing, i.e., human cognition is essentially symbolic regardless of the level and of the consciousness status of the processing: 
+* {{cite journal |author=Augusto, Luis M. |title=Unconscious representations 1: Belying the traditional model of human cognition |journal=Axiomathes |year=2013 |doi=10.1007/s10516-012-9206-z |ref=harv}} 
+* {{cite journal |author=Augusto, Luis M. |title=Unconscious representations 2: Towards an integrated cognitive architecture |journal=Axiomathes |year=2013 |doi=10.1007/s10516-012-9207-y |ref=harv}} 
+</ref>
+
+<ref name="Planning">
+[[automated planning and scheduling|Planning]]:
+* {{Harvnb|ACM|1998|loc=~I.2.8}},
+* {{Harvnb|Russell|Norvig|2003|pp= 375–459}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=281–316}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=314–329}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 10.1–2, 22}}
+</ref>
+
+<ref name="Information value theory">
+[[Applied information economics|Information value theory]]:
+* {{Harvnb|Russell|Norvig|2003|pp=600–604}}
+</ref>
+
+<ref name="Classical planning">
+Classical planning:
+* {{Harvnb|Russell|Norvig|2003|pp=375–430}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=281–315}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=314–329}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 10.1–2, 22}}
+</ref>
+
+<ref name="Non-deterministic planning">
+Planning and acting in non-deterministic domains: conditional planning, execution monitoring, replanning and continuous planning:
+* {{Harvnb|Russell|Norvig|2003|pp=430–449}}
+</ref>
+
+<ref name="Multi-agent planning">
+Multi-agent planning and emergent behavior:
+* {{Harvnb|Russell|Norvig|2003|pp=449–455}}
+</ref>
+
+<ref name="Machine learning">
+[[machine learning|Learning]]:
+* {{Harvnb|ACM|1998|loc=I.2.6}},
+* {{Harvnb|Russell|Norvig|2003|pp=649–788}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=397–438}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=385–542}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 3.3 , 10.3, 17.5, 20}}
+</ref>
+
+<ref name="Reinforcement learning">
+[[Reinforcement learning]]:
+* {{Harvnb|Russell|Norvig|2003|pp=763–788}}
+* {{Harvnb|Luger|Stubblefield|2004|pp=442–449}}
+</ref>
+
+<ref name="Computational learning theory">
+[[Computational learning theory]]:
+* CITATION IN PROGRESS.{{citation needed|date=January 2011}}
+</ref>
+
+<ref name="Natural language processing">
+[[Natural language processing]]:
+* {{Harvnb|ACM|1998|loc=I.2.7}}
+* {{Harvnb|Russell|Norvig|2003|pp=790–831}}
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=91–104}}
+* {{Harvnb|Luger|Stubblefield|2004|pp=591–632}}
+</ref>
+
+<ref name="Applications of natural language processing">
+Applications of natural language processing, including [[information retrieval]] (i.e. [[text mining]]) and [[machine translation]]:
+* {{Harvnb|Russell|Norvig|2003|pp=840–857}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=623–630}}
+</ref>
+
+<ref name="Robotics">
+[[Robotic]]s:
+* {{Harvnb|ACM|1998|loc=I.2.9}},
+* {{Harvnb|Russell|Norvig|2003|pp=901–942}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=443–460}}
+</ref>
+
+<ref name="Configuration space">
+Moving and [[configuration space]]:
+* {{Harvnb|Russell|Norvig|2003|pp=916–932}}
+</ref>
+
+<ref name="Robotic mapping">
+[[Robotic mapping]] (localization, etc):
+* {{Harvnb|Russell|Norvig|2003|pp=908–915}}
+</ref>
+
+<ref name="Machine perception">
+[[Machine perception]]:
+* {{Harvnb|Russell|Norvig|2003|pp=537–581, 863–898}}
+* {{Harvnb|Nilsson|1998|loc=~chpt. 6}}
+</ref>
+
+<ref name="Computer vision">
+[[Computer vision]]:
+* {{Harvnb|ACM|1998|loc=I.2.10}}
+* {{Harvnb|Russell|Norvig|2003|pp=863–898}}
+* {{Harvnb|Nilsson|1998|loc=chpt. 6}}
+</ref>
+
+<ref name="Speech recognition">
+[[Speech recognition]]:
+* {{Harvnb|ACM|1998|loc=~I.2.7}}
+* {{Harvnb|Russell|Norvig|2003|pp=568–578}}
+</ref>
+[[facial recognition system|facial recognition]] and [[object recognition]].
+
+<ref name="Object recognition">
+[[Object recognition]]:
+* {{Harvnb|Russell|Norvig|2003|pp=885–892}}
+</ref>
+
+<ref name="Emotion and affective computing">
+Emotion and [[affective computing]]:
+* {{Harvnb|Minsky|2006}}
+</ref>
+
+<ref name="Artificial consciousness">
+[[Gerald Edelman]], [[Igor Aleksander]] and others have both argued that [[artificial consciousness]] is required for strong AI. ({{Harvnb|Aleksander|1995}}; {{Harvnb|Edelman|2007}})
+</ref>
+
+<ref name="Brain simulation">
+[[Artificial brain]] arguments: AI requires a simulation of the operation of the human brain
+* {{Harvnb|Russell|Norvig|2003|p=957}}
+* {{Harvnb|Crevier|1993|pp=271 and 279}}
+A few of the people who make some form of the argument:
+* {{Harvnb|Moravec|1988}}
+* {{Harvnb|Kurzweil|2005|p=262}}
+* {{Harvnb|Hawkins|Blakeslee|2005}}
+The most extreme form of this argument (the brain replacement scenario) was put forward by [[Clark Glymour]] in the mid-1970s and was touched on by [[Zenon Pylyshyn]] and [[John Searle]] in 1980.
+</ref>
+
+<ref name="AI complete">
+[[AI complete]]: {{Harvnb|Shapiro|1992|p=9}}
+</ref>
+
+<!---- APPROACHES ----------------------------------------------------------------------------------->
+<ref name="Biological intelligence vs. intelligence in general">
+Biological intelligence vs. intelligence in general:
+* {{Harvnb|Russell|Norvig|2003|pp=2–3}}, who make the analogy with [[aeronautical engineering]].
+* {{Harvnb|McCorduck|2004|pp=100–101}}, who writes that there are "two major branches of artificial intelligence: one aimed at producing intelligent behavior regardless of how it was accomplioshed, and the other aimed at modeling intelligent processes found in nature, particularly human ones."
+* {{Harvnb|Kolata|1982}}, a paper in ''[[Science (journal)|Science]]'', which describes [[John McCarthy (computer scientist)|McCathy's]] indifference to biological models. Kolata quotes McCarthy as writing: "This is AI, so we don't care if it's psychologically real"[http://books.google.com/books?id=PEkqAAAAMAAJ&q=%22we+don't+care+if+it's+psychologically+real%22&dq=%22we+don't+care+if+it's+psychologically+real%22&output=html&pgis=1 ]. McCarthy recently reiterated his position at the [[AI@50]] conference where he said "Artificial intelligence is not, by definition, simulation of human intelligence" {{Harv|Maker|2006}}.
+</ref>
+
+<ref name="Neats vs. scruffies">
+[[Neats vs. scruffies]]:
+* {{Harvnb|McCorduck|2004|pp=421–424, 486–489}}
+* {{Harvnb|Crevier|1993|pp=168}}
+* {{Harvnb|Nilsson|1983|pp=10–11}}
+</ref>
+
+<ref name="Symbolic vs. sub-symbolic">
+Symbolic vs. sub-symbolic AI:
+* {{Harvtxt|Nilsson|1998|p=7}}, who uses the term "sub-symbolic".
+</ref>
+
+<ref name="GOFAI">
+{{Harvnb|Haugeland|1985|pp=112–117}}
+</ref>
+
+<ref name="AI at CMU in the 60s">
+Cognitive simulation, [[Allen Newell|Newell]] and [[Herbert A. Simon|Simon]], AI at [[Carnegie Mellon University|CMU]] (then called [[Carnegie Tech]]):
+* {{Harvnb|McCorduck|2004|pp=139–179, 245–250, 322–323 (EPAM)}}
+* {{Harvnb|Crevier|1993|pp=145–149}}
+</ref>
+
+<ref name="Soar">
+[[Soar (cognitive architecture)|Soar]] (history):
+* {{Harvnb|McCorduck|2004|pp=450–451}}
+* {{Harvnb|Crevier|1993|pp=258–263}}
+</ref>
+
+<ref name="AI at Stanford in the 60s">
+[[John McCarthy (computer scientist)|McCarthy]] and AI research at [[Stanford Artificial Intelligence Laboratory|SAIL]] and [[SRI International]]:
+* {{Harvnb|McCorduck|2004|pp=251–259}}
+* {{Harvnb|Crevier|1993}}<!-- Page number needed -->
+</ref>
+
+<ref name="AI at Edinburgh and France in the 60s">
+AI research at [[University of Edinburgh|Edinburgh]] and in France, birth of [[Prolog]]:
+* {{Harvnb|Crevier|1993|pp=193–196}}
+* {{Harvnb|Howe|1994}}
+</ref>
+
+<ref name="AI at MIT in the 60s">
+[[AI]] at [[MIT]] under [[Marvin Minsky]] in the 1960s :
+* {{Harvnb|McCorduck|2004|pp=259–305}}
+* {{Harvnb|Crevier|1993|pp=83–102, 163–176}}
+* {{Harvnb|Russell|Norvig|2003|p=19}}
+</ref>
+
+<ref name="Cyc">
+[[Cyc]]:
+* {{Harvnb|McCorduck|2004|p=489}}, who calls it "a determinedly scruffy enterprise"
+* {{Harvnb|Crevier|1993|pp=239–243}}
+* {{Harvnb|Russell|Norvig|2003|p=363−365}}
+* {{Harvnb|Lenat|Guha|1989}}
+</ref>
+
+<ref name="Knowledge revolution">
+Knowledge revolution:
+* {{Harvnb|McCorduck|2004|pp=266–276, 298–300, 314, 421}}
+* {{Harvnb|Russell|Norvig|2003|pp=22–23}}
+</ref>
+
+<ref name="Embodied AI">
+[[Embodied agent|Embodied]] approaches to AI:
+* {{Harvnb|McCorduck|2004|pp=454–462}}
+* {{Harvnb|Brooks|1990}}
+* {{Harvnb|Moravec|1988}}
+</ref>
+
+<ref name="Revival of connectionism">
+Revival of [[connectionism]]:
+* {{Harvnb|Crevier|1993|pp=214–215}}
+* {{Harvnb|Russell|Norvig|2003|p=25}}
+</ref>
+
+<ref name="Computational intelligence">
+[[Computational intelligence]]
+* [http://www.ieee-cis.org/ IEEE Computational Intelligence Society]
+</ref>
+
+<ref name="Intelligent agents">
+The [[intelligent agent]] paradigm:
+* {{Harvnb|Russell|Norvig|2003|pp=27, 32–58, 968–972}}
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=7–21}}
+* {{Harvnb|Luger|Stubblefield|2004|pp=235–240}}
+The definition used in this article, in terms of goals, actions, perception and environment, is due to {{Harvtxt|Russell|Norvig|2003}}. Other definitions also include knowledge and learning as additional criteria.
+</ref>
+
+<ref name="Agent architectures">
+[[Agent architecture]]s, [[hybrid intelligent system]]s:
+* {{Harvtxt|Russell|Norvig|2003|pp=27, 932, 970–972}}
+* {{Harvtxt|Nilsson|1998|loc=chpt. 25}}
+</ref>
+
+<ref name="Hierarchical control system">
+[[Hierarchical control system]]:
+* Albus, J. S. [http://www.isd.mel.nist.gov/documents/albus/4DRCS.pdf 4-D/RCS reference model architecture for unmanned ground vehicles.] In G Gerhart, R Gunderson, and C Shoemaker, editors, Proceedings of the SPIE AeroSense Session on Unmanned Ground Vehicle Technology, volume 3693, pages 11—20
+</ref>
+
+<ref name="Subsumption architecture">
+[[Subsumption architecture]]:
+* CITATION IN PROGRESS.{{citation needed|date=January 2011}}
+</ref>
+
+<!---- TOOLS --------------------------------------------------------------------------------->
+
+<ref name="Search">
+[[Search algorithm]]s:
+* {{Harvnb|Russell|Norvig|2003|pp=59–189}}
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=113–163}}
+* {{Harvnb|Luger|Stubblefield|2004|pp=79–164, 193–219}}
+* {{Harvnb|Nilsson|1998|loc=chpt. 7–12}}
+</ref>
+
+<ref name="Logic as search">
+[[Forward chaining]], [[backward chaining]], [[Horn clause]]s, and logical deduction as search:
+* {{Harvnb|Russell|Norvig|2003|pp=217–225, 280–294}}
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=~46–52}}
+* {{Harvnb|Luger|Stubblefield|2004|pp=62–73}}
+* {{Harvnb|Nilsson|1998|loc=chpt. 4.2, 7.2}}
+</ref>
+
+<ref name="Planning as search">
+[[State space search]] and [[automated planning and scheduling|planning]]:
+* {{Harvnb|Russell|Norvig|2003|pp=382–387}}
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=298–305}}
+* {{Harvnb|Nilsson|1998|loc=chpt. 10.1–2}}
+</ref>
+
+<ref name="Uninformed search">
+Uninformed searches ([[breadth first search]], [[depth first search]] and general [[state space search]]):
+* {{Harvnb|Russell|Norvig|2003|pp=59–93}}
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=113–132}}
+* {{Harvnb|Luger|Stubblefield|2004|pp=79–121}}
+* {{Harvnb|Nilsson|1998|loc=chpt. 8}}
+</ref>
+
+<ref name="Informed search">
+[[Heuristic]] or informed searches (e.g., greedy [[best-first search|best first]] and [[A*]]):
+* {{Harvnb|Russell|Norvig|2003|pp= 94–109}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=pp. 132–147}},
+* {{Harvnb|Luger|Stubblefield|2004|pp= 133–150}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 9}}
+</ref>
+
+<ref name="Optimization search">
+[[optimization (mathematics)|Optimization]] searches:
+* {{Harvnb|Russell|Norvig|2003|pp=110–116,120–129}}
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=56–163}}
+* {{Harvnb|Luger|Stubblefield|2004|pp= 127–133}}
+</ref>
+
+<ref name="Society based learning">
+[[Artificial life]] and society based learning:
+* {{Harvnb|Luger|Stubblefield|2004|pp=530–541}}
+</ref>
+
+<ref name="Genetic programming">
+[[Genetic programming]] and [[genetic algorithms]]:
+* {{Harvnb|Luger|Stubblefield|2004|pp=509–530}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 4.2}}.
+* {{cite book |last=Holland |first=John H. |year=1975 |title=Adaptation in Natural and Artificial Systems | publisher=University of Michigan Press | isbn = 0-262-58111-6}}
+* {{cite book |last=Koza|first=John R. |year=1992 |title=Genetic Programming| subtitle=On the Programming of Computers by Means of Natural Selection | publisher=MIT Press |isbn=0-262-11170-5}}
+* {{cite book | author=Poli, R., Langdon, W. B., McPhee, N. F. |year=2008 |title=A Field Guide to Genetic Programming | publisher=Lulu.com, freely available from http://www.gp-field-guide.org.uk/  | isbn = 978-1-4092-0073-4}}
+</ref>
+
+<ref name="Logic">
+[[Logic]]:
+* {{Harvnb|ACM|1998|loc=~I.2.3}},
+* {{Harvnb|Russell|Norvig|2003|pp=194–310}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=35–77}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 13–16}}
+</ref>
+
+<ref name="Satplan">
+[[Satplan]]:
+* {{Harvnb|Russell|Norvig|2003|pp=402–407}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=300–301}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 21}}
+</ref>
+
+<ref name="Symbolic learning techniques">
+[[Explanation based learning]], [[relevance based learning]], [[inductive logic programming]], [[case based reasoning]]:
+* {{Harvnb|Russell|Norvig|2003|pp=678–710}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=414–416}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=~422–442}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 10.3, 17.5}}
+</ref>
+
+<ref name="Propositional logic">
+[[Propositional logic]]:
+* {{Harvnb|Russell|Norvig|2003|pp=204–233}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=45–50}}
+* {{Harvnb|Nilsson|1998|loc=chpt. 13}}
+</ref>
+
+<ref name="First-order logic">
+[[First-order logic]] and features such as [[equality (mathematics)|equality]]:
+* {{Harvnb|ACM|1998|loc=~I.2.4}},
+* {{Harvnb|Russell|Norvig|2003|pp=240–310}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=268–275}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=50–62}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 15}}
+</ref>
+
+<ref name="Fuzzy logic">
+[[Fuzzy logic]]:
+* {{Harvnb|Russell|Norvig|2003|pp=526–527}}
+</ref>
+
+<ref name="Subjective logic">
+[[Subjective logic]]:
+* CITATION IN PROGRESS.{{citation needed|date=January 2011}}
+</ref>
+
+<ref name="Stochastic methods for uncertain reasoning">
+Stochastic methods for uncertain reasoning:
+* {{Harvnb|ACM|1998|loc=~I.2.3}},
+* {{Harvnb|Russell|Norvig|2003|pp=462–644}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=345–395}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=165–191, 333–381}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 19}}
+</ref>
+
+<ref name="Bayesian networks">
+[[Bayesian network]]s:
+* {{Harvnb|Russell|Norvig|2003|pp=492–523}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=361–381}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=~182–190, ~363–379}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 19.3–4}}
+</ref>
+
+<ref name="Bayesian inference">
+[[Bayesian inference]] algorithm:
+* {{Harvnb|Russell|Norvig|2003|pp=504–519}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=361–381}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=~363–379}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 19.4 & 7}}
+</ref>
+
+<ref name="Bayesian learning">
+[[Bayesian learning]] and the [[expectation-maximization algorithm]]:
+* {{Harvnb|Russell|Norvig|2003|pp=712–724}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=424–433}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 20}}
+</ref>
+
+<ref name="Bayesian decision networks">
+[[Bayesian decision theory]] and Bayesian [[decision network]]s:
+* {{Harvnb|Russell|Norvig|2003|pp=597–600}}
+</ref>
+
+<ref name="Stochastic temporal models">
+Stochastic temporal models:
+* {{Harvnb|Russell|Norvig|2003|pp=537–581}}
+[[Dynamic Bayesian network]]s:
+* {{Harvnb|Russell|Norvig|2003|pp=551–557}}
+[[Hidden Markov model]]:
+* {{Harv|Russell|Norvig|2003|pp=549–551}}
+[[Kalman filter]]s:
+* {{Harvnb|Russell|Norvig|2003|pp=551–557}}
+</ref>
+
+<ref name="Decisions theory and analysis">
+[[decision theory]] and [[decision analysis]]:
+* {{Harvnb|Russell|Norvig|2003|pp=584–597}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=381–394}}
+</ref>
+
+<ref name="Markov decision process" >
+[[Markov decision process]]es and dynamic [[decision network]]s:
+* {{Harvnb|Russell|Norvig|2003|pp=613–631}}
+</ref>
+
+<ref name="Game theory and mechanism design">
+[[Game theory]] and [[mechanism design]]:
+* {{Harvnb|Russell|Norvig|2003|pp=631–643}}
+</ref>
+
+<ref name="Classifiers">
+Statistical learning methods and [[classifier (mathematics)|classifiers]]:
+* {{Harvnb|Russell|Norvig|2003|pp=712–754}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=453–541}}
+</ref>
+
+<ref name="Kernel methods">
+[[kernel methods]] such as the [[support vector machine]],
+[[Kernel methods]]:
+* {{Harvnb|Russell|Norvig|2003|pp=749–752}}
+</ref>
+
+<ref name="K-nearest neighbor algorithm">
+[[K-nearest neighbor algorithm]]:
+* {{Harvnb|Russell|Norvig|2003|pp=733–736}}
+</ref>
+
+<ref name="Guassian mixture model">
+[[Gaussian mixture model]]:
+* {{Harvnb|Russell|Norvig|2003|pp=725–727}}
+</ref>
+
+<ref name="Naive Bayes classifier">
+[[Naive Bayes classifier]]:
+* {{Harvnb|Russell|Norvig|2003|pp=718}}
+</ref>
+
+<ref name="Decision tree">
+[[Alternating decision tree|Decision tree]]:
+* {{Harvnb|Russell|Norvig|2003|pp=653–664}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=403–408}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=408–417}}
+</ref>
+
+<ref name="Classifier performance" >
+Classifier performance:
+* {{Harvnb|van der Walt|Bernard|2006}}
+</ref>
+
+<ref name="Neural networks">
+Neural networks and connectionism:
+* {{Harvnb|Russell|Norvig|2003|pp=736–748}},
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=408–414}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=453–505}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 3}}
+</ref>
+
+<ref name="Backpropagation">
+[[Backpropagation]]:
+* {{Harvnb|Russell|Norvig|2003|pp=744–748}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=467–474}},
+* {{Harvnb|Nilsson|1998|loc=chpt. 3.3}}
+</ref>
+
+<ref name="Feedforward neural networks">
+[[Feedforward neural network]]s, [[perceptron]]s and [[radial basis network]]s:
+* {{Harvnb|Russell|Norvig|2003|pp=739–748, 758}}
+* {{Harvnb|Luger|Stubblefield|2004|pp=458–467}}
+</ref>
+
+<ref name="Recurrent neural networks">
+[[Recurrent neural networks]], [[Hopfield nets]]:
+* {{Harvnb|Russell|Norvig|2003|p=758}}
+* {{Harvnb|Luger|Stubblefield|2004|pp=474–505}}
+</ref>
+
+<ref name="Learning in neural networks">
+[[Competitive learning]], [[Hebbian theory|Hebbian]] coincidence learning, [[Hopfield network]]s and attractor networks:
+* {{Harvnb|Luger|Stubblefield|2004|pp=474–505}}
+</ref>
+
+<ref name="Hierarchical temporal memory">
+[[Hierarchical temporal memory]]:
+* {{Harvnb|Hawkins|Blakeslee|2005}}
+</ref>
+
+<ref name="Control theory">
+[[Control theory]]:
+* {{Harvnb|ACM|1998|loc=~I.2.8}},
+* {{Harvnb|Russell|Norvig|2003|pp=926–932}}
+</ref>
+
+<ref name="Lisp">
+[[Lisp (programming language)|Lisp]]:
+* {{Harvnb|Luger|Stubblefield|2004|pp=723–821}}
+* {{Harvnb|Crevier|1993|pp=59–62}},
+* {{Harvnb|Russell|Norvig|2003|p=18}}
+</ref>
+
+<ref name="Prolog">
+[[Prolog]]:
+* {{Harvnb|Poole|Mackworth|Goebel|1998|pp=477–491}},
+* {{Harvnb|Luger|Stubblefield|2004|pp=641–676, 575–581}}
+</ref>
+
+<!---- PROGRESS ----------------------------------------------------------------------------------------------------->
+
+<ref name="Turing test">
+The [[Turing test]]:<br>
+Turing's original publication:
+* {{Harvnb|Turing|1950}}
+Historical influence and philosophical implications:
+* {{Harvnb|Haugeland|1985|pp=6–9}}
+* {{Harvnb|Crevier|1993|p=24}}
+* {{Harvnb|McCorduck|2004|pp=70–71}}
+* {{Harvnb|Russell|Norvig|2003|pp=2–3 and 948}}
+</ref>
+
+<ref name="Subject matter expert Turing test">
+[[Subject matter expert Turing test]]:
+* CITATION IN PROGRESS.{{citation needed|date=January 2011}}
+</ref>
+
+<ref name="Intrusion detection">
+* {{harvnb|Kumar|2012}}
+</ref>
+
+<ref name="Mathematical definitions of intelligence">
+Mathematical definitions of intelligence:
+* {{cite journal | title = Beyond the Turing Test | journal = Journal of Logic, Language and Information | author = Jose Hernandez-Orallo | id = {{citeseerx|10.1.1.44.8943}} |  accessdate =21 July 2009 | year = 2000 | pages = 447–466 | volume = 9  | issue = 4 | doi = 10.1023/A:1008367325700 | ref = harv }}
+* {{cite journal | title = A computational extension to the Turing Test | journal = Proceedings of the 4th Conference of the Australasian Cognitive Science jSociety | author =  D L Dowe and A R Hajek | url = http://www.csse.monash.edu.au/publications/1997/tr-cs97-322-abs.html |  accessdate =21 July 2009 | year = 1997 | ref = harv }}
+* {{cite journal | title = Measuring Universal Intelligence: Towards an Anytime Intelligence Test | journal = Artificial Intelligence Journal | author =  J Hernandez-Orallo and D L Dowe |  accessdate =1 October 2010 | year = 2010| ref = harv | doi=10.1016/j.artint.2010.09.006 | volume = 174 | issue = 18 | pages = 1508–1539}}
+</ref>
+
+<ref name="Game AI">
+[[Game AI]]:
+* CITATION IN PROGRESS.{{citation needed|date=January 2011}}
+</ref>
+
+<!------ PHILOSOPHY ----------------------------------------------------------------------------------------------------->
+
+<ref name="Philosophy of AI">
+[[Philosophy of AI]]. All of these positions in this section are mentioned in standard discussions of the subject, such as:
+* {{Harvnb|Russell|Norvig|2003|pp=947–960}}
+* {{Harvnb|Fearn|2007|pp=38–55}}
+</ref>
+
+<ref name="Dartmouth proposal">
+[[Dartmouth Conferences|Dartmouth proposal]]:
+* {{Harvnb|McCarthy|Minsky|Rochester|Shannon|1955}} (the original proposal)
+* {{Harvnb|Crevier|1993|p=49}} (historical significance)
+</ref>
+
+<ref name="Physical symbol system hypothesis">
+The [[physical symbol system]]s hypothesis:
+* {{Harvnb|Newell|Simon|1976|p=116}}
+* {{Harvnb|McCorduck|2004|p=153}}
+* {{Harvnb|Russell|Norvig|2003|p=18}}
+</ref>
+
+<ref name="Dreyfus' critique">
+[[Dreyfus' critique of artificial intelligence]]:
+* {{Harvnb|Dreyfus|1972}}, {{Harvnb|Dreyfus|Dreyfus|1986}}
+* {{Harvnb|Crevier|1993|pp=120–132}}
+* {{Harvnb|McCorduck|2004|pp=211–239}}
+* {{Harvnb|Russell|Norvig|2003|pp=950–952}},
+</ref>
+
+<ref name="The mathematical objection">
+The Mathematical Objection:
+* {{Harvnb|Russell|Norvig|2003|p=949}}
+* {{Harvnb|McCorduck|2004|pp=448–449}}
+Making the Mathematical Objection:
+* {{Harvnb|Lucas|1961}}
+* {{Harvnb|Penrose|1989}}
+Refuting Mathematical Objection:
+* {{Harvnb|Turing|1950}} under "(2) The Mathematical Objection"
+* {{Harvnb|Hofstadter|1979}}
+Background:
+* {{Harvnb|Ref=none|Gödel|1931}}, {{Harvnb|Ref=none|Church|1936}}, {{Harvnb|Ref=none|Kleene|1935}}, {{Harvnb|Ref=none|Turing|1937}}
+</ref>
+
+<ref name="Searle's strong AI">
+This version is from {{Harvtxt|Searle|1999}}, and is also quoted in {{Harvnb|Dennett|1991|p=435}}. Searle's original formulation was "The appropriately programmed computer really is a mind, in the sense that computers given the right programs can be literally said to understand and have other cognitive states." {{Harv|Searle|1980|p=1}}. Strong AI is defined similarly by {{Harvtxt|Russell|Norvig|2003|p=947}}: "The assertion that machines could possibly act intelligently (or, perhaps better, act as if they were intelligent) is called the 'weak AI' hypothesis by philosophers, and the assertion that machines that do so are actually thinking (as opposed to simulating thinking) is called the 'strong AI' hypothesis."
+</ref>
+
+<ref name="Chinese room">
+Searle's [[Chinese room]] argument:
+* {{Harvnb|Searle|1980}}. Searle's original presentation of the thought experiment.
+* {{Harvnb|Searle|1999}}.
+Discussion:
+* {{Harvnb|Russell|Norvig|2003|pp=958–960}}
+* {{Harvnb|McCorduck|2004|pp=443–445}}
+* {{Harvnb|Crevier|1993|pp=269–271}}
+</ref>
+
+<!---- PREDICTIONS -------------------------------------------------------------------------------------------------------->
+
+<ref name="Robot rights">
+[[Robot rights]]:
+* {{Harvnb|Russell|Norvig|2003|p=964}}
+* {{cite news|url=http://news.bbc.co.uk/2/hi/technology/6200005.stm | date=21 December 2006 | title=Robots could demand legal rights |work=BBC News | accessdate=3 February 2011 }}
+Prematurity of:
+* {{cite news|url=http://www.timesonline.co.uk/tol/news/uk/science/article1695546.ece | title=Human rights for robots? We're getting carried away | work=The Times Online | location=London | first=Mark | last=Henderson | date=24 April 2007}}{{Dead link|date=February 2011}}
+In fiction:
+* {{Harvtxt|McCorduck|2004|p=190-25}} discusses ''[[Frankenstein]]'' and identifies the key ethical issues as scientific hubris and the suffering of the monster, i.e. [[robot rights]].
+</ref>
+
+<ref name="Replaced by machines">
+AI could decrease the demand for human labor:
+* {{harvnb|Russell|Norvig|2003|pp=960–961}}
+* {{cite book| last=Ford | first=Martin | title=The Lights in the Tunnel: Automation, Accelerating Technology and the Economy of the Future | publisher=Acculant Publishing |year=2009 | isbn=978-1-4486-5981-4 | url=http://www.thelightsinthetunnel.com}}
+</ref>
+
+<ref name="Weizenbaum's critique">
+[[Joseph Weizenbaum]]'s critique of AI:
+* {{Harvnb|Weizenbaum|1976}}
+* {{Harvnb|Crevier|1993|pp=132–144}}
+* {{Harvnb|McCorduck|2004|pp=356–373}}
+* {{Harvnb|Russell|Norvig|2003|p=961}}
+Weizenbaum (the AI researcher who developed the first [[chatterbot]] program, [[ELIZA]]) argued in 1976 that the misuse of artificial intelligence has the potential to devalue human life.
+</ref>
+
+<ref name=Singularity>
+[[Technological singularity]]:
+* {{Harvnb|Vinge|1993}}
+* {{Harvnb|Kurzweil|2005}}
+* {{Harvnb|Russell|Norvig|2003|p=963}}
+</ref>
+
+<ref name="Transhumanism">
+[[Transhumanism]]:
+* {{Harvnb|Moravec|1988}}
+* {{Harvnb|Kurzweil|2005}}
+* {{Harvnb|Russell|Norvig|2003|p=963}}
+</ref>
+
+<ref name="AI as evolution">
+AI as evolution:
+* [[Edward Fredkin]] is quoted in {{Harvtxt|McCorduck|2004|p=401}}.
+* {{Cite news|last=Butler|first=Samuel|authorlink=Samuel Butler (novelist)|contribution=Darwin among the Machines|date=13 June 1863|newspaper=the Press|place=Christchurch, New Zealand|url=http://www.nzetc.org/tm/scholarly/tei-ButFir-t1-g1-t1-g1-t4-body.html|ref=harv|postscript=<!-- Bot inserted parameter. Either remove it; or change its value to "." for the cite to end in a ".", as necessary. -->{{inconsistent citations}}}}, Letter to the Editor.<!-- I've asked if anyone knows how to format this right at Template talk:Citation/core -->
+* {{cite book|last=Dyson|first=George|authorlink=George Dyson (science historian)|title=Darwin among the Machines|year=1998|publisher=Allan Lane Science|isbn= 0-7382-0030-1}}
+</ref>}}
+
+== References ==
+
+=== AI textbooks ===
+{{refbegin}}
+* {{cite book |ref=harv
+| first=George | last=Luger | author-link=George Luger
+| first2=William | last2=Stubblefield | author2-link=William Stubblefield
+| year=2004
+| title=Artificial Intelligence: Structures and Strategies for Complex Problem Solving|edition=5th
+| publisher=The Benjamin/Cummings Publishing Company, Inc.
+| isbn=0-8053-4780-1 | url=http://www.cs.unm.edu/~luger/ai-final/tocfull.html}}
+* {{cite book |ref=harv
+| first=Richard | last=Neapolitan
+| first2=Xia | last2=Jiang
+| year=2012
+| title=Contemporary Artificial Intelligence
+| publisher=Chapman & Hall/CRC
+| url=http://www.crcpress.com/product/isbn/9781439844694
+| isbn=978-1-4398-4469-4}}
+* {{cite book |ref=harv
+| last=Nilsson | first=Nils | author-link=Nils Nilsson (researcher)
+| year=1998
+| title=Artificial Intelligence: A New Synthesis|publisher=Morgan Kaufmann Publishers
+| isbn=978-1-55860-467-4}}
+* {{Russell Norvig 2003}}
+* {{cite book |ref=harv
+| first = David | last = Poole | author-link=David Poole (researcher)| first2 = Alan | last2 = Mackworth | author2-link=Alan Mackworth
+| first3 = Randy | last3 = Goebel | author3-link=Randy Goebel
+| publisher = Oxford University Press | place = New York | year = 1998
+| title = Computational Intelligence: A Logical Approach | url = http://www.cs.ubc.ca/spider/poole/ci.html |isbn=0-19-510270-3 }}
+* {{cite book |ref=harv
+| first = Patrick Henry | last = Winston | author-link = Patrick Winston
+| publisher = Addison-Wesley | year = 1984 | place = Reading, Massachusetts | isbn = 0-201-08259-4
+| title = Artificial Intelligence}}
+{{refend}}
+
+=== History of AI ===
+{{refbegin}}
+* {{Crevier 1993}}
+* {{McCorduck 2004}}
+* {{Citation
+| last=Nilsson | first=Nils | author-link=Nils Nilsson (researcher)
+| year=2010
+| title=The Quest for Artificial Intelligence: A History of Ideas and Achievements
+| place=New York
+| publisher=Cambridge University Press
+| isbn=978-0-521-12293-1
+}}
+{{refend}}
+
+=== Other sources ===
+{{refbegin|colwidth=60em}}
+* {{cite web |ref={{harvid|ACM|1998}}
+| publisher=[[Association of Computing Machinery|ACM]]
+| year=1998
+| title=ACM Computing Classification System: Artificial intelligence
+| url=http://www.acm.org/class/1998/I.2.html | accessdate=30 August 2007
+}}
+* {{Cite book
+| last = Aleksander | first= Igor | authorlink = Igor Aleksander
+| year=1995
+| title= Artificial Neuroconsciousness: An Update
+| publisher=IWANN
+| url = http://www.ee.ic.ac.uk/research/neural/publications/iwann.html
+| archiveurl = http://web.archive.org/web/19970302014628/http://www.ee.ic.ac.uk/research/neural/publications/iwann.html
+| archivedate = 2 March 1997
+| ref = harv
+}} [http://dblp.uni-trier.de/rec/bibtex/conf/iwann/Aleksander95 BibTex] [http://web.archive.org/web/19970302014628/http://www.ee.ic.ac.uk/research/neural/publications/iwann.html Internet Archive]
+* {{Cite journal |ref=harv
+| last=Brooks | first=Rodney | authorlink=Rodney Brooks
+| year =1990
+| title = Elephants Don't Play Chess
+| journal = Robotics and Autonomous Systems | volume=6 | pages=3–15
+| url=http://people.csail.mit.edu/brooks/papers/elephants.pdf | format=PDF | accessdate=30 August 2007
+| doi=10.1016/S0921-8890(05)80025-9
+| archiveurl= http://web.archive.org/web/20070809020912/http://people.csail.mit.edu/brooks/papers/elephants.pdf| archivedate= 9 August 2007 <!--DASHBot-->| deadurl= no}}.
+* {{Cite journal |ref=harv
+| last=Buchanan | first = Bruce G.
+| title = A (Very) Brief History of Artificial Intelligence
+| magazine = AI Magazine | year =2005 | pages=53–60
+| url=http://www.aaai.org/AITopics/assets/PDF/AIMag26-04-016.pdf | format=PDF | accessdate=30 August 2007
+| archiveurl= http://web.archive.org/web/20070926023314/http://www.aaai.org/AITopics/assets/PDF/AIMag26-04-016.pdf| archivedate= 26 September 2007 <!--DASHBot-->| deadurl= no}}
+* {{cite book |ref=harv
+| last=Dennett | first=Daniel | author-link=Daniel Dennett
+| year=1991
+| title=[[Consciousness Explained]]
+| publisher=The Penguin Press
+| isbn= 0-7139-9037-6
+}}
+* {{cite book |ref=harv
+| last=Dreyfus | first=Hubert | authorlink = Hubert Dreyfus
+| year = 1972
+| title = [[What Computers Can't Do]]
+| publisher = MIT Press | location = New York
+| isbn = 0-06-011082-1
+}}
+* {{cite book |ref=harv
+| last=Dreyfus | first=Hubert | authorlink = Hubert Dreyfus
+| year =1979
+| title = What Computers ''Still'' Can't Do
+| publisher = MIT Press | location = New York
+| isbn=0-262-04134-0
+}}
+* {{cite book |ref=harv
+| last=Dreyfus | first=Hubert  | authorlink = Hubert Dreyfus
+| last2 = Dreyfus | first2 = Stuart
+| year = 1986
+| title = Mind over Machine: The Power of Human Intuition and Expertise in the Era of the Computer
+| publisher = Blackwell | location = Oxford, UK
+| isbn=0-02-908060-6
+}}
+* {{cite book |ref=harv
+| last=Dreyfus | first=Hubert | authorlink = Hubert Dreyfus
+| year =1992
+| title = What Computers ''Still'' Can't Do
+| publisher = MIT Press | location = New York
+| isbn=0-262-54067-3
+}}
+* {{cite web |ref=harv
+| last = Edelman | first = Gerald | authorlink = Gerald Edelman
+| date = 23 November 2007
+| title = Gerald Edelman – Neural Darwinism and Brain-based Devices
+| url = http://lis.epfl.ch/resources/podcast/2007/11/gerald-edelman-neural-darwinism-and.html
+| publisher = Talking Robots
+}}
+* {{cite book |ref=harv
+| last=Fearn
+| first = Nicholas
+| year =2007
+| title= The Latest Answers to the Oldest Questions: A Philosophical Adventure with the World's Greatest Thinkers
+| publisher = Grove Press
+| location=New York |isbn=0-8021-1839-9
+}}
+* {{cite web |ref=harv
+ | last = Forster | first =  Dion | authorlink= Dion Forster
+ | year = 2006
+ | title = Self validating consciousness in strong artificial intelligence: An African theological contribution
+ | url = http://www.spirituality.org.za/files/D%20Forster%20doctorate.pdf
+ | publisher = University of South Africa | location = Pretoria
+}}
+* {{cite book |ref=harv
+ | last = Gladwell | first =  Malcolm | authorlink= Malcolm Gladwell
+ | year = 2005
+ | title = [[Blink (book)|Blink]]
+ | isbn = 0-316-17232-4
+ | publisher = Little, Brown and Co. | location = New York
+}}
+* {{cite book |ref=harv
+| last=Haugeland | first=John | author-link = John Haugeland
+| year = 1985
+| title = Artificial Intelligence: The Very Idea
+| publisher=MIT Press| location= Cambridge, Mass.
+| isbn=0-262-08153-9
+}}
+* {{cite book |ref=harv
+| last=Hawkins | first=Jeff | author-link=Jeff Hawkins
+| last2=Blakeslee | first2=Sandra
+| year=2005
+| title=[[On Intelligence]]
+| publisher=Owl Books | location=New York, NY
+| isbn=0-8050-7853-3
+}}
+* {{cite book |ref=harv
+| last=Hofstadter | first = Douglas | author-link = Douglas Hofstadter
+| year = 1979
+| title = [[Gödel, Escher, Bach|Gödel, Escher, Bach: an Eternal Golden Braid]]
+| isbn=0-394-74502-7
+| publisher=Vintage Books
+| location=New York, NY
+}}
+* {{cite web |ref=harv
+| first = J. | last = Howe
+| date = November 1994
+| title = Artificial Intelligence at Edinburgh University: a Perspective
+| url=http://www.inf.ed.ac.uk/about/AIhistory.html | accessdate=30 August 2007
+}}.
+* {{cite book |ref=harv
+| last=Kahneman | first=Daniel | author-link=Daniel Kahneman
+| last2=Slovic | first2= D.
+| last3=Tversky | first3=Amos | author3-link=Amos Tversky
+| year=1982
+| title=Judgment under uncertainty: Heuristics and biases
+| publisher=Cambridge University Press | location=New York
+| isbn=0-521-28414-7
+}}
+* {{Cite journal |ref=harv
+| first = G. | last=Kolata
+| year=1982
+| title=How can computers get common sense?
+| journal=Science | issue=  4566| pages=1237–1238
+| doi = 10.1126/science.217.4566.1237
+| volume = 217 |pmid=17837639
+ }}
+* {{cite book |ref=harv
+| last=Kurzweil | first=Ray | author-link=Ray Kurzweil
+| year=1999
+| title=[[The Age of Spiritual Machines]]
+| publisher=Penguin Books
+| isbn=0-670-88217-8
+}}
+* {{cite book |ref=harv
+| last=Kurzweil | first=Ray | author-link=Ray Kurzweil
+| year=2005
+| title=[[The Singularity is Near]]
+| publisher=Penguin Books
+| isbn=0-670-03384-7
+}}
+* {{cite book |ref=harv
+| first = George | last = Lakoff |author-link=George Lakoff
+| year = 1987
+| title = Women, Fire, and Dangerous Things: What Categories Reveal About the Mind
+| publisher = University of Chicago Press
+| isbn= 0-226-46804-6
+}}
+* {{cite book |ref=harv
+| last=Lakoff | first=George | author-link=George Lakoff
+| last2=Núñez | first2=Rafael E. | author2-link=Rafael E. Núñez| year=2000
+| title=[[Where Mathematics Comes From|Where Mathematics Comes From: How the Embodied Mind Brings Mathematics into Being]]
+| publisher=Basic Books
+| isbn= 0-465-03771-2
+}}.
+* {{cite book |ref=harv
+| last=Lenat | first=Douglas | author-link=Douglas Lenat
+| last2=Guha | first2=R. V.
+| year = 1989
+| title = Building Large Knowledge-Based Systems
+| publisher = Addison-Wesley
+| isbn=0-201-51752-3
+}}
+* {{Cite journal |ref=harv
+| last=Lighthill | first = Professor Sir James | author-link=James Lighthill
+| year = 1973
+| contribution= Artificial Intelligence: A General Survey
+| title = Artificial Intelligence: a paper symposium
+| publisher = Science Research Council
+}}
+* {{cite book |ref=harv
+| last=Lucas | first= John | author-link = John Lucas (philosopher)
+| year = 1961
+| contribution=Minds, Machines and Gödel
+| editor-last = Anderson | editor-first =A.R.
+| title=Minds and Machines
+| url = http://users.ox.ac.uk/~jrlucas/Godel/mmg.html | accessdate=30 August 2007
+| archiveurl= http://web.archive.org/web/20070819165214/http://users.ox.ac.uk/~jrlucas/Godel/mmg.html| archivedate= 19 August 2007 <!--DASHBot-->| deadurl= no}}
+* {{cite web |ref=harv
+| last = Maker | first = Meg Houston
+| year = 2006
+| title = AI@50: AI Past, Present, Future | location=Dartmouth College
+| url = http://www.engagingexperience.com/2006/07/ai50_ai_past_pr.html | accessdate=16 October 2008
+| archiveurl= http://web.archive.org/web/20081008120238/http://www.engagingexperience.com/2006/07/ai50_ai_past_pr.html| archivedate= 8 October 2008 <!--DASHBot-->| deadurl= no}}
+* {{cite web |ref=harv
+| last1 = McCarthy | first1 = John | authorlink1 = John McCarthy (computer scientist)
+| last2 = Minsky | first2 = Marvin | authorlink2 = Marvin Minsky
+| last3 = Rochester | first3 = Nathan | authorlink3 = Nathan Rochester
+| last4 = Shannon | first4 = Claude | authorlink4 = Claude Shannon
+| year = 1955
+| title = A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence
+| url = http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html | accessdate=30 August 2007
+| archiveurl= http://web.archive.org/web/20070826230310/http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html| archivedate= 26 August 2007 <!--DASHBot-->| deadurl= no}}.
+* {{cite journal |ref=harv
+| last1 = McCarthy | first1 = John | author-link = John McCarthy (computer scientist)
+| last2 = Hayes | first2=P. J.
+| year = 1969
+| title= Some philosophical problems from the standpoint of artificial intelligence
+| journal =Machine Intelligence | volume= 4 | pages = 463–502
+| url=http://www-formal.stanford.edu/jmc/mcchay69.html | accessdate=30 August 2007
+| archiveurl= http://web.archive.org/web/20070810233856/http://www-formal.stanford.edu/jmc/mcchay69.html| archivedate= 10 August 2007 <!--DASHBot-->| deadurl= no}}
+* {{cite web |ref=harv
+| last=McCarthy | first=John | authorlink=John McCarthy (computer scientist)
+| title=What Is Artificial Intelligence?
+| date=12 November 2007
+| url=http://www-formal.stanford.edu/jmc/whatisai/whatisai.html
+}}
+* {{cite book |ref=harv
+| last=Minsky | first=Marvin | author-link=Marvin Minsky
+| year = 1967
+| title = Computation: Finite and Infinite Machines
+| publisher = Prentice-Hall | location=Englewood Cliffs, N.J.
+| isbn=0-13-165449-7
+}}
+* {{cite book |ref=harv
+| last=Minsky | first=Marvin | author-link=Marvin Minsky
+| year = 2006
+| title = [[The Emotion Machine]]
+| publisher = Simon & Schusterl | publication-place=New York, NY
+| isbn=0-7432-7663-9
+}}
+* {{cite web |ref=harv
+| last=Moravec | first=Hans | authorlink=Hans Moravec
+| year = 1976
+| title = The Role of Raw Power in Intelligence
+| url= http://www.frc.ri.cmu.edu/users/hpm/project.archive/general.articles/1975/Raw.Power.html  | accessdate=30 August 2007
+}}
+* {{cite book |ref=harv
+| last=Moravec | first=Hans | author-link=Hans Moravec
+| year = 1988
+| title = Mind Children
+| publisher = Harvard University Press
+| isbn=0-674-57616-0
+}}
+* {{cite book |ref=harv
+| last=NRC | first=(United States National Research Council) | author-link=United States National Research Council
+| year=1999
+| chapter=Developments in Artificial Intelligence
+| title=Funding a Revolution: Government Support for Computing Research
+| publisher=National Academy Press
+}}
+* {{cite book |ref=harv
+| last=Needham | first=Joseph | authorlink = Joseph Needham
+| year=1986
+| title=[[Science and Civilization in China]]: Volume 2
+| publisher=Caves Books Ltd.
+}}
+* {{cite book |ref=harv
+| last = Newell | first = Allen  | author-link=Allen Newell
+| last2 = Simon | first2=H. A.
+| year = 1963
+| contribution=GPS: A Program that Simulates Human Thought
+| editor-last= Feigenbaum | editor-first= E.A.
+| editor2-last= Feldman | editor2-first= J.
+| title=Computers and Thought
+| publisher= McGraw-Hill | authorlink2=Herbert A. Simon | publication-place= New York
+}}
+* {{cite journal|ref=harv
+| last = Newell | first = Allen  | author-link=Allen Newell
+| last2 = Simon | first2=H. A.
+| year = 1976
+| contribution = Computer Science as Empirical Inquiry: Symbols and Search
+| title = Communications of the ACM | volume= 19
+| url = http://www.rci.rutgers.edu/~cfs/472_html/AI_SEARCH/PSS/PSSH4.html | authorlink2=Herbert A. Simon | issue=3
+}}.
+* {{Citation<!-- using Citation template (rather than "cite magazine") to avoid the final period -->
+| last = Nilsson | first = Nils | author-link = Nils Nilsson (researcher)
+| year = 1983
+| title = Artificial Intelligence Prepares for 2001
+| journal = AI Magazine | volume = 1 | number = 1
+| url = http://ai.stanford.edu/~nilsson/OnlinePubs-Nils/General%20Essays/AIMag04-04-002.pdf
+}}, Presidential Address to the [[Association for the Advancement of Artificial Intelligence]].
+* {{Cite book | ref=harv
+| last = Penrose | first = Roger | author-link = Roger Penrose
+| year = 1989
+| title = The Emperor's New Mind: Concerning Computer, Minds and The Laws of Physics
+| publisher =  [[Oxford University Press]]
+| isbn = 0-19-851973-7
+}}
+* {{Cite journal |ref=harv
+| last = Searle | first = John | author-link=John Searle
+| year = 1980
+| title = Minds, Brains and Programs
+| journal = Behavioral and Brain Sciences | volume = 3 | issue = 3 | pages= 417–457
+| url = http://www.bbsonline.org/documents/a/00/00/04/84/bbs00000484-00/bbs.searle2.html |doi=10.1017/S0140525X00005756
+}}
+* {{cite book |ref=harv
+| last=Searle | first=John | author-link=John Searle
+| year = 1999
+| title = Mind, language and society
+| publisher = Basic Books | location = New York, NY
+| isbn = 0-465-04521-9 | oclc = 231867665 43689264
+}}
+* {{Cite journal |ref=harv
+| last1 = Serenko | first1 = Alexander
+| last2 = Detlor | first2 = Brian
+| year = 2004
+| title = Intelligent agents as innovations
+| journal = AI and Society | volume = 18 | issue = 4 | pages= 364–381
+| url =http://www.aserenko.com/papers/Serenko_Detlor_AI_and_Society.pdf |doi=10.1007/s00146-004-0310-5
+}}
+* {{Cite journal |ref=harv
+| last1 = Serenko | first1 = Alexander
+| last2 = Ruhi | first2 = Umar
+| last3 = Cocosila | first3 = Mihail
+| year = 2007
+| title = Unplanned effects of intelligent agents on Internet use: Social Informatics approach
+| journal = AI and Society | volume = 21 | issue = 1–2 | pages= 141–166
+| url =http://www.aserenko.com/papers/AI_Society_Serenko_Social_Impacts_of_Agents.pdf |doi=10.1007/s00146-006-0051-8
+}}
+* {{cite book |ref=harv
+| last=Shapiro | first= Stuart C. | editor-first=Stuart C. | editor-last=Shapiro
+| year=1992
+| contribution=Artificial Intelligence
+| title=Encyclopedia of Artificial Intelligence | edition=2nd | pages=54–57
+| url=http://www.cse.buffalo.edu/~shapiro/Papers/ai.pdf
+| publisher= John Wiley | location=New York
+| isbn=0-471-50306-1
+}}
+* {{cite book |ref=harv
+| last=Simon | first = H. A. | author-link=Herbert A. Simon
+| year = 1965
+| title=The Shape of Automation for Men and Management
+| publisher = Harper & Row | publication-place = New York
+}}
+* {{cite web |ref=harv
+| last=Skillings | first=Jonathan
+| url=http://news.cnet.com/Getting-machines-to-think-like-us/2008-11394_3-6090207.html
+| title=Getting Machines to Think Like Us
+| work=cnet
+| date=3 July 2006
+| accessdate=3 February 2011
+}}
+* {{cite journal |ref=harv
+|last=Tecuci |first=Gheorghe |date= March/April 2012
+|title = Artificial Intelligence
+|journal=Wiley Interdisciplinary Reviews: Computational Statistics |volume=4 |issue=2 |pages=168–180 |publisher=Wiley |doi=10.1002/wics.200 |pmid= |pmc=
+|url= |accessdate=6 May 2012 }}
+* {{Turing 1950}}.
+* {{cite web|ref=harv
+| last=van der Walt | first=Christiaan  |  last2=Bernard | first2 =Etienne
+| year=2006<!––year is presumed based on acknowledgements at the end of the article––>
+| title= Data characteristics that determine classifier performance
+| url=http://www.patternrecognition.co.za/publications/cvdwalt_data_characteristics_classifiers.pdf|format=PDF | accessdate =5 August 2009
+}}
+* {{cite web | ref=harv
+| last=Vinge | first=Vernor | authorlink=Vernor Vinge
+| year=1993
+| title=The Coming Technological Singularity: How to Survive in the Post-Human Era
+| url=http://www-rohan.sdsu.edu/faculty/vinge/misc/singularity.html
+}}
+* {{cite book |ref=harv
+| last1=Wason | first1=P. C. | author-link=Peter Cathcart Wason
+| last2=Shapiro | first2=D.
+| editor=Foss, B. M.
+| year=1966
+| title=New horizons in psychology
+| location=Harmondsworth | publisher=Penguin
+| chapter=Reasoning
+}}
+* {{cite book |ref=harv
+| last=Weizenbaum | first = Joseph | authorlink=Joseph Weizenbaum
+| year = 1976
+| title = [[Computer Power and Human Reason]]
+| publisher = W.H. Freeman & Company | location = San Francisco
+| isbn = 0-7167-0464-1
+}}
+* {{cite journal |ref=harv
+|last=Kumar|first=Gulshan
+|coauthors=Krishan Kumar
+|title=The Use of Artificial-Intelligence-Based Ensembles for Intrusion Detection: A Review
+|journal=Applied Computational Intelligence and Soft Computing
+|year=2012
+|volume=2012
+|pages=1–20
+|doi=10.1155/2012/850160
+|url=http://www.hindawi.com.proxy.lib.umich.edu/journals/acisc/2012/850160/|accessdate=11 February 2013}}
+{{refend}}
+
+== Further reading ==
+* TechCast Article Series, John Sagi, [http://www.techcast.org/Upload/PDFs/634146249446122137_Consciousness-Sagifinalversion.pdf Framing Consciousness]
+* [[Boden, Margaret]], Mind As Machine, [[Oxford University Press]], 2006
+* Johnston, John (2008) "The Allure of Machinic Life: Cybernetics, Artificial Life, and the New AI", MIT Press
+* Myers, Courtney Boyd ed. (2009). [http://www.forbes.com/2009/06/22/singularity-robots-computers-opinions-contributors-artificial-intelligence-09_land.html The AI Report]. Forbes June 2009
+* {{cite journal | last1 = Serenko | first1 = Alexander | year = 2010 | title = The development of an AI journal ranking based on the revealed preference approach | url = http://www.aserenko.com/papers/JOI_Serenko_AI_Journal_Ranking_Published.pdf | format = PDF | journal = Journal of Informetrics | volume = 4 | issue = 4| pages = 447–459 | doi = 10.1016/j.joi.2010.04.001 }}
+* {{cite journal | last1 = Serenko | first1 = Alexander | coauthors=Michael Dohan | year = 2011 | title = Comparing the expert survey and citation impact journal ranking methods: Example from the field of Artificial Intelligence | url = http://www.aserenko.com/papers/JOI_AI_Journal_Ranking_Serenko.pdf | format = PDF | journal = Journal of Informetrics | volume = 5 | issue = 4| pages = 629–649 | doi = 10.1016/j.joi.2011.06.002 }}
+* Sun, R. & Bookman, L. (eds.), ''Computational Architectures: Integrating Neural and Symbolic Processes''. Kluwer Academic Publishers, Needham, MA. 1994.
+
+== External links ==
+{{Sister project links|voy=no|Artificial Intelligence}}
+* [http://www-formal.stanford.edu/jmc/whatisai/whatisai.html What Is AI?] — An introduction to artificial intelligence by AI founder [[John McCarthy (computer scientist)|John McCarthy]].
+* [http://archive.org/details/handbookofartific01barr/ The Handbook of Artificial Intelligence Volume Ⅰ by Avron Barr and Edward A. Feigenbaum (Stanford University)]
+* {{IEP|art-inte|Artificial Intelligence}}
+* {{SEP|logic-ai|Logic and Artificial Intelligence|Richmond Thomason}}
+* {{dmoz|Computers/Artificial_Intelligence/|AI}}
+* [http://aaai.org/AITopics/ AITopics] — A large directory of links and other resources maintained by the [[Association for the Advancement of Artificial Intelligence]], the leading organization of academic AI researchers.
+
+{{Clear}}<!-- cmd to lower template out of another template's space -->
+{{Navboxes
+|list=
+{{John McCarthy navbox}}
+{{Computer science}}
+{{Technology}}
+{{philosophy of science}}
+{{philosophy of mind}}
+{{Robotics}}
+{{Emerging technologies}}
+}}
+{{Use dmy dates|date=July 2012}}
+
+{{DEFAULTSORT:Artificial Intelligence}}
+[[Category:Artificial intelligence| ]]
+[[Category:Cybernetics]]
+[[Category:Formal sciences]]
+[[Category:Technology in society]]
+[[Category:Computational neuroscience]]
+[[Category:Emerging technologies]]
+[[Category:Unsolved problems in computer science]]
+
+{{Link GA|es}}
+{{Link FA|tt}}

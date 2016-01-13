@@ -1,0 +1,64 @@
+'''Base pairs''' are the building blocks of the [[DNA]] double helix, and contribute to the folded structure of both DNA and [[RNA]]. Dictated by specific [[hydrogen bonding]] patterns, Watson-Crick base pairs ([[guanine]]-[[cytosine]] and [[adenine]]-[[thymine]]) allow the DNA helix to maintain a regular helical structure that is independent of its [[nucleotide sequence]]. The [[Complementarity (molecular biology)|complementary]] nature of this based-paired structure provides a backup copy of all [[genetic information]] encoded within double-stranded DNA. The regular structure and data redundancy provided by the DNA double helix make DNA well suited to the storage of genetic information, while base-pairing between DNA and incoming nucleotides provides the mechanism through which [[DNA polymerase]] replicates DNA, and [[RNA polymerase]] transcribes DNA into RNA. Many DNA-binding proteins can recognize specific base pairing patterns that identify particular regulatory regions of genes.
+
+Intramolecular base pairs can occur within single-stranded nucleic acids. This is particularly important in RNA molecules (e.g., [[transfer RNA]]), where Watson-Crick base pairs (G-C and A-U) permit the formation of short double-stranded helices, and a wide variety of non-Watson-Crick interactions (e.g., G-U or A-A) allow RNAs to fold into a vast range of specific three-dimensional [[RNA structure|structures]]. In addition, base-pairing between transfer RNA (tRNA) and [[messenger RNA]] (mRNA) forms the basis for the [[molecular recognition]] events that result in the nucleotide sequence of mRNA becoming [[Genetic code|translated]] into the amino acid sequence of [[proteins]].
+
+The size of an individual [[gene]] or an organism's entire [[genome]] is often measured in base pairs because DNA is usually double-stranded. Hence, the number of total base pairs is equal to the number of nucleotides in one of the strands (with the exception of non-coding single-stranded regions of [[telomere]]s). The [[haploid]] [[human genome]] (23 [[chromosomes]]) is estimated to be about 3.2 billion base pairs long and to contain 20,000–25,000 distinct protein-coding genes.<ref>{{cite web|last=Moran |first=Laurence A. |url=http://sandwalk.blogspot.com/2011/03/how-big-is-human-genome.html |title=The total size of the human genome is very likely to be ~3,200 Mb |publisher=Sandwalk.blogspot.com |date=2011-03-24 |accessdate=2012-07-16}}</ref><ref>{{cite web|url=http://www.strategicgenomics.com/Genome/index.htm |title=The finished length of the human genome is 2.86 Gb |publisher=Strategicgenomics.com |date=2006-06-12 |accessdate=2012-07-16}}</ref><ref name="IHSGC2004">{{cite journal | author = International Human Genome Sequencing Consortium | title = Finishing the euchromatic sequence of the human genome | journal = Nature | volume = 431 | issue = 7011 | pages = 931–45 | year = 2004 | pmid = 15496913 | doi = 10.1038/nature03001 | url=http://www.nature.com/nature/journal/v431/n7011/full/nature03001.html}}</ref> A [[kilobase]] (kb) is a unit of measurement in [[molecular biology]] equal to 1000 base pairs of DNA or RNA.<ref>[http://www.sciencedirect.com/science/article/B6WSN-4C8GBDB-4Y/2/0c09db014fb73f4a8e0f3b5af596da01 Andrew F. Cockburn, Mary Jane Newkirk, Richard A. Firtel, Cell, Volume 9, Issue 4, Part 1, December 1976, Pages 605-613, ISSN 0092-8674, ] {{doi|10.1016/0092-8674(76)90043-X}}.</ref>
+
+==Hydrogen bonding and stability==
+[[Image:GC base pair jypx3.png|thumb|A GC base pair demonstrating three intermolecular hydrogen bonds]]
+[[Image:AT base pair jypx3.png|thumb|An AT base pair demonstrating two intermolecular hydrogen bonds]]
+
+[[Hydrogen bond]]ing is the chemical interaction that underlies the base-pairing rules described above. Appropriate geometrical correspondence of hydrogen bond donors and acceptors allows only the "right" pairs to form stably. DNA with high [[GC-content]] is more stable than DNA with low GC-content, but, contrary to popular belief, the hydrogen bonds do not stabilize the DNA significantly, and stabilization is mainly due to stacking interactions.<ref name="Yakovchuk2006">Peter Yakovchuk, Ekaterina Protozanova and Maxim D. Frank-Kamenetskii. [http://dx.doi.org/10.1093/nar/gkj454 Base-stacking and base-pairing contributions into thermal stability of the DNA double helix]. Nucleic Acids Research 2006 34(2):564-574.</ref>
+
+The larger [[nucleobase]]s, adenine and guanine, are members of a class of double-ringed chemical structures called [[purine]]s; the smaller nucleobases, cytosine and thymine (and uracil), are members of a class of single-ringed chemical structures called [[pyrimidine]]s. Purines are complementary only with pyrimidines: pyrimidine-pyrimidine pairings are energetically unfavorable because the molecules are too far apart for hydrogen bonding to be established; purine-purine pairings are energetically unfavorable because the molecules are too close, leading to overlap repulsion. Purine-pyrimidine base pairing of AT or GC results in proper duplex structure. The only other purine-pyrimidine pairings would be AC and GT and UA (in RNA); these pairings are mismatches because the pattern of hydrogen donors and acceptors do not correspond. The GU pairing, with two hydrogen bonds, does occur fairly often in [[RNA]] (see [[wobble base pair]]).
+
+Paired DNA and RNA molecules are comparatively stable at room temperature but the two nucleotide strands will separate above a [[Dna melting|melting point]] that is determined by the length of the molecules, the extent of mispairing (if any), and the GC content. Higher GC content results in higher melting temperatures; it is, therefore, unsurprising that the genomes of [[extremophile]] organisms such as ''[[Thermus thermophilus]]'' are particularly GC-rich. On the converse, regions of a genome that need to separate frequently — for example, the promoter regions for often-[[transcription (genetics)|transcribed]] genes — are comparatively GC-poor (for example, see [[TATA box]]). GC content and melting temperature must also be taken into account when designing  [[primer (molecular biology)|primers]] for [[PCR]] reactions.
+
+==Base analogs and intercalators==
+
+{{Main|Nucleic acid analogues}}
+Chemical analogs of nucleotides can take the place of proper nucleotides and establish non-canonical base-pairing, leading to errors (mostly [[point mutation]]s) in [[DNA replication]] and [[Transcription (genetics)|DNA transcription]]. This is due to their [[isosteric]] chemistry. One common mutagenic base analog is [[5-bromouracil]], which resembles thymine but can base-pair to guanine in its [[enol]] form.
+
+Other chemicals, known as [[DNA intercalation|DNA intercalators]], fit into the gap between adjacent bases on a single strand and induce [[frameshift mutation]]s by "masquerading" as a base, causing the DNA replication machinery to skip or insert additional nucleotides at the intercalated site. Most intercalators are large [[polyaromatic]] compounds and are known or suspected [[carcinogen]]s. Examples include [[ethidium bromide]] and [[acridine]].
+
+==Examples==
+The following DNA sequences illustrate pair double-stranded patterns. By convention, the top strand is written from the [[5' end]] to the [[3' end]]; thus, the bottom strand is written 3' to 5'.
+
+:A base-paired DNA sequence:
+::{{code|ATCGATTGAGCTCTAGCG}}
+::{{code|TAGCTAACTCGAGATCGC}}
+
+:The corresponding RNA sequence, in which [[uracil]] is substituted for thymine where uracil takes its place in the RNA strand:
+::{{code|AUCGAUUGAGCUCUAGCG}}
+::{{code|UAGCUAACUCGAGAUCGC}}
+
+===Length measurements===<!-- This section is linked from [[KB]] -->
+The following abbreviations are commonly used to describe the length of a D/R[[DNA|NA molecule]]:
+* bp  = base pair(s)—one bp corresponds to approximately 3.4 [[Angstrom|Å]] (340 [[picometre|pm]]) of length along the strand
+* kb (= kbp) = kilo base pairs = 1,000 bp
+* Mb = mega base pairs = 1,000,000 bp
+* Gb = giga base pairs = 1,000,000,000 bp.
+
+For case of single-stranded DNA/RNA units of [[nucleotide]]s are used, abbreviated nt (or knt, Mnt, Gnt), as they are not paired.
+For distinction between units of [[computer storage]] and bases kbp, Mbp, Gbp, etc. may be used for base pairs.
+
+The [[Centimorgan]] is also often used to imply distance along a chromosome, but the number of base pairs it corresponds to varies widely. In the Human genome, the centimorgan is about 1 million base pairs.<ref>{{cite web|url=http://rarediseases.info.nih.gov/Glossary.aspx?acronym=False#C |title=NIH ORDR - Glossary - C |publisher=Rarediseases.info.nih.gov |date= |accessdate=2012-07-16}}</ref><ref>{{cite book |author=Matthew P Scott, Paul Matsudaira, Harvey Lodish, James Darnell, Lawrence Zipursky, Chris A Kaiser, Arnold Berk, Monty Krieger |title=Molecular Cell Biology, Fifth Edition |publisher=W. H. Freeman |location=San Francisco |year=2004 |page=396 |isbn=0-7167-4366-3 |oclc= |doi= |quote="...in humans 1 centimorgan on average represents a distance of about 7.5x10<sup>5</sup> base pairs."}}</ref>
+
+==See also==
+* [[List of Y-DNA single-nucleotide polymorphisms]]
+
+==References==
+{{Reflist|30em}}
+
+==Further reading==
+* {{cite book |author=Watson JD, Baker TA, Bell SP, Gann A, Levine M, Losick R |year=2004 |title=Molecular Biology of the Gene |edition=5th |publisher=Pearson Benjamin Cummings: CSHL Press}} (See esp. ch. 6 and 9)
+* {{cite book |editors=Astrid Sigel, Helmut Sigel, Roland K. O. Sigel |title=Interplay between Metal Ions and Nucleic Acids|series=Metal Ions in Life Sciences |volume=10 |year=2012 |publisher=Springer |doi=10.1007/978-94-007-2172-2 |isbn=978-9-4007-2171-5}}
+* {{cite book |last1=Clever |first1=Guido H. |last2=Shionoya |first2=Mitsuhiko |doi=10.1007/978-94-007-2172-2_10 |pages=269–294 |chapter=Chapter 10. Alternative DNA Base-Pairing through Metal Coordination |title=Interplay between Metal Ions and Nucleic Acids |year=2012 }}
+* {{cite book |last1=Megger |first1=Dominik A. |last2=Megger |first2=Nicole |last3=Mueller |first3=Jens |doi=10.1007/978-94-007-2172-2_11 |pages=295–317 |chapter=Chapter 11. Metal-Mediated Base Pairs in Nucleic Acids with Purine and Pyrimidine-Derived Neucleosides |title=Interplay between Metal Ions and Nucleic Acids |year=2012 }}
+
+==External links==
+* [http://bioweb.pasteur.fr/seqanal/interfaces/dan.html DAN]—webserver version of the [[EMBOSS]] tool for calculating melting temperatures
+
+{{DEFAULTSORT:Base Pair}}
+[[Category:Genetics]]
+[[Category:Nucleic acids]]

@@ -1,0 +1,84 @@
+
+In [[statistics]], a '''central tendency''' (or, more commonly, a '''measure of central tendency''') is a central value or a typical value for a [[probability distribution]].<ref name=Weisberg>Weisberg H.F (1992) ''Central Tendency and Variability'', Sage University Paper Series on Quantitative Applications in the Social Sciences,  ISBN 0-8039-4007-6 p.2 </ref> It is occasionally called an [[average]] or just the '''center''' of the distribution. The most common measures of central tendency are the [[arithmetic mean]], the [[median]] and the [[Mode (statistics)|mode]]. A central tendency can be calculated for either a finite set of values or for a theoretical distribution, such as the [[normal distribution]]. Occasionally authors use central tendency (or '''centrality'''), to mean "the tendency of quantitative data to cluster around some central value,". <ref name=Dodge>Dodge, Y. (2003) ''The Oxford Dictionary of Statistical Terms'', OUP for [[International Statistical Institute]]. ISBN 0-19-920613-9 (entry for "central tendency") </ref><ref name=Upton>Upton, G.; Cook, I. (2008) ''Oxford Dictionary of Statistics'', OUP ISBN 978-0-19-954145-4 (entry for "central tendency") </ref> This meaning might be expected from the usual dictionary definitions of the words  [[wiktionary:tendency|tendency]] and [[wiktionary:centrality|centrality]]. Those authors may judge whether data has a strong or a weak central tendency based on the [[statistical dispersion]], as measured by the standard deviation or something similar.
+
+The term "central tendency" dates from the late 1920s.<ref name=Upton/>
+
+==Measures of central tendency==
+
+The following may be applied to one-dimensional data. Depending on the circumstances, it may be appropriate to transform the data before calculating a central tendency. Examples are squaring the values or taking logarithms. Whether a transformation is appropriate and what it should be depend heavily on the data being analyzed.
+
+*[[Arithmetic mean]] (or simply, mean) – the sum of all measurements divided by the number of observations in the data set
+*[[Median]] – the middle value that separates the higher half from the lower half of the data set. The median and the mode are the only measures of central tendency that can be used for [[Level of measurement#Ordinal scale|ordinal data]], in which values are ranked relative to each other but are not measured absolutely.
+*[[Mode (statistics)|Mode]] – the most frequent value in the data set. This is the only central tendency measure that can be used with [[Level of measurement#Nominal scale|nominal data]], which have purely qualitative category assignments.
+*[[Geometric mean]] – the [[Nth root|''n''th root]] of the product of the data values, where there are ''n'' of these. This measure is valid only for data that are measured absolutely on a strictly positive scale.
+*[[Harmonic mean]] – the [[Multiplicative inverse|reciprocal]] of the arithmetic mean of the reciprocals of the data values. This measure too is valid only for data that are measured absolutely on a strictly positive scale.
+*[[Weighted mean]] – an arithmetic mean that incorporates weighting to certain data elements
+*[[Truncated mean]] – the arithmetic mean of data values after a certain number or proportion of the highest and lowest data values have been discarded.
+**[[Interquartile mean]] (a type of truncated mean)
+*[[Midrange]] – the arithmetic mean of the maximum and minimum values of a data set.
+*[[Midhinge]] – the arithmetic mean of the two [[quartile]]s.
+*[[Trimean]] – the weighted arithmetic mean of the median and two quartiles.
+*[[Winsorized mean]] – an arithmetic mean in which extreme values are replaced by values closer to the median.
+
+Any of the above may be applied to each dimension of multi-dimensional data, but the results may not be invariant to rotations of the multi-dimensional space. In addition, there is the
+
+*[[Geometric median]] - which minimizes the sum of distances to the data points. This is the same as the median when applied to one-dimensional data, but it is not the same as taking the median of each dimension independently. It is not invariant to different rescaling of the different dimensions.
+
+==Solutions to variational problems==
+Several measures of central tendency can be characterized as solving a variational problem, in the sense of the [[calculus of variations]], namely minimizing variation from the center. That is, given a measure of [[statistical dispersion]], one asks for a measure of central tendency that minimizes variation: such that variation from the center is minimal among all choices of center. In a quip, "dispersion precedes location". In the sense of [[Lp space|''L''<sup>''p''</sup> spaces]], the correspondence is:
+{| class="wikitable"
+! ''L''<sup>''p''</sup> !! dispersion !! central tendency
+|-
+! ''L''<sup>1</sup>
+| [[average absolute deviation]]
+| [[median]]
+|-
+! ''L''<sup>2</sup>
+| [[standard deviation]]
+| [[mean]]
+|-
+! ''L''<sup>∞</sup>
+| [[maximum deviation]]
+| [[midrange]]
+|}
+
+Thus standard deviation about the mean is lower than standard deviation about any other point, and the maximum deviation about the midrange is lower than the maximum deviation about any other point. The uniqueness of this characterization of mean follows from [[convex optimization]].  Indeed, for a given (fixed) data set ''x'', the function
+
+:<math>f_2(c) = \|x-c\|_2</math>
+
+represents the dispersion about a constant value ''c'' relative to the ''L''<sup>2</sup> norm.  Because the function ''ƒ''<sub>2</sub> is a strictly [[convex function|convex]] [[coercive function]], the minimizer exists and is unique.
+
+Note that the median in this sense is not in general unique, and in fact any point between the two central points of a discrete distribution minimizes average absolute deviation.  The dispersion in the ''L''<sup>1</sup> norm, given by
+:<math>f_1(c) = \|x-c\|_1</math>
+is not ''strictly'' convex, whereas strict convexity is needed to ensure uniqueness of the minimizer.  In spite of this, the minimizer is unique for the ''L''<sup>∞</sup> norm.
+
+
+==Relationships between the mean, median and mode==
+{{Main|Nonparametric skew#Relationships between the mean, median and mode}}
+
+For [[unimodal distribution]]s the following bounds are known and are sharp:<ref name=Johnson1951>Johnson NL, Rogers CA (1951) "The moment problem for unimodal distributions". ''Annals of Mathematical Statistics'', 22 (3) 433–439</ref>
+
+: <math> \frac{| \theta - \mu |}{ \sigma } \le \sqrt{ 3 } ,</math>
+
+: <math> \frac{| \nu - \mu |}{ \sigma } \le \sqrt{ 0.6 } ,</math>
+
+: <math> \frac{| \theta - \nu |}{ \sigma } \le \sqrt{ 3 } ,</math>
+
+where ''μ'' is the mean, ''ν'' is the median, ''θ'' is the mode, and ''σ'' is the standard deviation.
+
+For every distribution,<ref name=Hotelling1932>Hotelling H, Solomons LM (1932) The limits of a measure of skewness. Annals Math Stat 3, 141–114</ref><ref name=Garver1932>Garver (1932) Concerning the limits of a mesuare of skewness. Ann Math Stats 3(4) 141–142</ref> 
+
+: <math> \frac{| \nu - \mu |}{ \sigma } \le 1.</math>
+
+==References==
+{{Reflist}}
+{{Statistics|descriptive}}
+
+{{DEFAULTSORT:Central Tendency}}
+[[Category:Summary statistics]]
+[[Category:Multivariate statistics]]
+[[Category:Statistical terminology]]
+
+[[de:Lagemaß]]
+[[eu:Zentro-neurri]]
+[[fi:Keskiluku]]

@@ -1,0 +1,81 @@
+{{redirect|Amperemeter|the unit of measurement|Ampere-meter}}
+[[File:Amperemeter hg.jpg|thumb|Demonstration model of a moving iron ammeter. As the current through the coil increases, the plunger is drawn further into the coil and the pointer deflects to the right.]]
+[[File:Galvanometer diagram.svg|thumb|right|250px|<span style="color:red;">Wire carrying current to be measured.</span><br><span style="color:green;">Spring providing restoring force</span><br>This illustration is conceptual; in a practical meter, the iron core is stationary, and front and rear spiral springs carry current to the coil, which is supported on a rectangular bobbin. Furthermore, the poles of the permanent magnet are arcs of a circle.]]
+[[File:Ammeter from New York Terminal Service Plant, 250 West Thirty-first Street 351263pv.jpg|thumb|right|Ammeter from the old [[Pennsylvania Station (New York City)|Penn Station]] Terminal Service Plant in [[New York City]]]]
+[[File:Zero-Center Ammeter.JPG|thumb|right|200px|Zero-center ammeter]]
+[[File:AmmeterPC.jpg|thumb|right|200px|An older moving iron ammeter with its characteristic non-linear scale and with the moving iron ammeter symbol mounted on a [[small form factor]] PC.]]
+An '''ammeter''' is a [[measuring instrument]] used to measure the [[electric current]] in a [[Electrical circuit|circuit]]. Electric currents are measured in [[ampere]]s (A), hence the name. Instruments used to measure smaller currents, in the milliampere or microampere range, are designated as ''milliammeters'' or ''microammeters''. Early ammeters were laboratory instruments which relied on the Earth's magnetic field for operation. By the late 19th century, improved instruments were designed which could be mounted in any position and allowed accurate measurements in [[electric power system]]s.
+
+==History==
+The relation between electric current, magnetic fields and physical forces was first noted by [[Hans Christian Ørsted]] who, in 1820, observed a [[compass]] needle was deflected from pointing North when a current flowed in an adjacent wire. The [[Galvanometer#Tangent_galvanometer|tangent galvanometer]] was used to measure currents using this effect, where the restoring force returning the pointer to the zero position was provided by the Earth's magnetic field. This made these instruments usable only when aligned with the Earth's field. Sensitivity of the instrument was increased by using additional turns of wire to multiply the effect – the instruments were called "multipliers".<ref>L. A. Geddes, ''Looking back: how measuring electric current has improved through the ages'', ''IEEE Potentials'', Feb/Mar 1996, pages 40-42</ref>
+
+==Types==
+
+=== Moving-coil ammeters ===
+The [[D'Arsonval galvanometer]] is a '''moving coil''' ammeter. It uses [[magnetism|magnetic]] [[Deflection (engineering)|deflection]], where current passing through a coil causes the coil to move in a [[magnetic field]]. The modern form of this instrument was developed by [[Edward Weston (chemist)|Edward Weston]], and uses two spiral springs to provide the restoring force. The uniform air gap between the iron core and the permanent magnet poles make the deflection of the meter linearly proportional to current. These meters have linear scales.  Basic meter movements can have full-scale deflection for currents from about 25 [[microampere]]s to 10 [[milliampere]]s.<ref name=Spitzer72/>
+
+Because the magnetic field is polarised, the meter needle acts in opposite directions for each direction of current. A DC ammeter is thus sensitive to which way round it is connected; most are marked with a positive terminal, but some have centre-zero mechanisms<ref group="note" >The needle's resting position is in the centre of the scale and the restoring spring can act equally well in either direction.</ref> and can display currents in either direction. A moving coil meter indicates the average (mean) of a varying current through it,<ref group="note" >provided that its frequency is faster than the meter can respond to</ref> which is zero for AC. For this reason moving-coil meters are only usable directly for DC, not AC.
+
+This type of meter movement is extremely common for both ammeters and other meters derived from them, such as [[voltmeter]]s and [[ohmmeter]]s. Although their use has become less common in recent decades, this type of basic movement was once the standard indicator mechanism for any analogue displays involving electrical machinery.
+
+=== Electrodynamic ammeters ===
+An '''electrodynamic''' movement uses an electromagnet instead of the permanent magnet of the d'Arsonval movement. This instrument can respond to both alternating and direct current<ref name=Spitzer72/> and also indicates [[true RMS]] for AC.  See [[Wattmeter]] for an alternative use for this instrument.
+
+=== Moving-iron ammeters ===
+'''Moving iron''' ammeters use a piece of [[iron]] which moves when acted upon by the electromagnetic force of a fixed coil of wire. This type of meter responds to both [[direct current|direct]] and [[alternating current]]s (as opposed to the moving-coil ammeter, which works on [[direct current]] only). The iron element consists of a moving vane attached to a pointer, and a fixed vane, surrounded by a coil. As alternating or direct current flows through the coil and induces a magnetic field in both vanes, the vanes repel each other and the moving vane deflects against the restoring force provided by fine helical springs.<ref name=Spitzer72/> The deflection of a moving iron meter is proportional to the square of the current.  Consequently such meters would normally have a non linear scale, but the iron parts are usually modified in shape to make the scale fairly linear over most of its range.  Moving iron instruments indicate the [[Root mean square|RMS]] value of any AC waveform applied.
+
+The moving-iron meter was invented by [[Austria]]n engineer [[Friedrich Drexler]] in 1884.<ref>{{cite web|url=http://www.technischesmuseum.at/objekt/fragebogen-aus-der-personenmappe-friedrich-drexler-1858-1945|title=Fragebogen aus der Personenmappe Friedrich Drexler (1858 - 1945)|publisher=Technisches Museum Wien|accessdate=2013-07-10}}</ref>
+
+=== Hot-wire ammeters ===
+In a '''hot-wire ammeter''', a current passes through a wire which expands as it heats. Although these instruments have slow response time and low accuracy, they were sometimes used in measuring radio-frequency current.<ref name=Spitzer72>Frank Spitzer and Barry Howarth, Principles of Modern Instrumentation, Holt, Rinehart and Winston, New York, 1972, ISBN 0-03-080208-3 chapter 11</ref>  These also measure true RMS for an applied AC current.
+
+=== Digital ammeters ===
+In much the same way as the analogue ammeter formed the basis for a wide variety of derived meters, including voltmeters, the basic mechanism for a digital meter is a digital voltmeter mechanism, and other types of meter are built around this.
+
+'''Digital''' ammeter designs use a [[shunt resistor]] to produce a calibrated voltage proportional to the current flowing. This voltage is then measured by a digital voltmeter, through use of an [[analog to digital converter]] (ADC); the digital display is calibrated to display the current through the shunt.  Such instruments are generally calibrated to indicate the RMS value ''for a sine wave only'' but some designs will indicate true RMS (sometimes with limitations as to wave shape).
+
+=== Integrating ammeters ===
+There is also a range of devices referred to as '''integrating ammeters'''.<ref>http://www-project.slac.stanford.edu/lc/local/notes/dr/Wiggler/Wigrad_BK.pdf</ref><ref>http://dit.upc.es/lpdntt/biblio/BREUS/LEE97a.pdf</ref> In these ammeters the current is summed over time, giving as a result the product of current and time; which is proportional to the energy transferred with that current. These can be used for energy meters ([[watt-hour meters]]) or for estimating the charge of [[Battery (electricity)|battery]] or [[capacitor]].
+
+==Picoammeter==
+A '''picoammeter''', or pico ammeter, measures very low electrical current, usually from the picoampere range at the lower end to the milliampere range at the upper end. Picoammeters are used for sensitive measurements where the current being measured is below the theoretical limits of sensitivity of other devices, such as [[Multimeter]]s.
+
+Most picoammeters use a "virtual short" technique and have several different measurement ranges that must be switched between to cover multiple [[Decade (log scale)|decades of measurement]]. Other modern picoammeters use [[Logarithmic scale|log compression]] and a "current sink" method that eliminates range switching and associated [[voltage spike]]s.<ref>{{cite web|last=Ix Innovations, LLC|url=http://pocketpico.com/download/theoryofoperation.pdf|accessdate = 2010-19-19|title=PocketPico Ammeter Theory of Operation}}</ref>
+
+==Application==
+
+The majority of ammeters are either connected in series with the circuit carrying the current to be measured (for small fractional amperes), or have their shunt resistors connected similarly in series. In either case, the current passes through the meter or (mostly) through its shunt. They must not be connected to a source of voltage; they are designed for minimal burden, which refers to the voltage drop across the ammeter, which is typically a small fraction of a volt. They are almost a short circuit.
+
+Ordinary Weston-type meter movements can measure only milliamperes at most, because the springs and practical coils can carry only limited currents. To measure larger currents, a [[resistor]] called a ''[[shunt (electrical)#Use in current measuring|shunt]]'' is placed in [[Series and parallel circuits|parallel]] with the meter. The resistances of shunts is in the integer to fractional milliohm range. Nearly all of the current flows through the shunt, and only a small fraction flows through the meter. This allows the meter to measure large currents. Traditionally, the meter used with a shunt has a full-scale deflection (FSD) of {{nowrap|50 mV}}, so shunts are typically designed to produce a voltage drop of {{nowrap|50 mV}} when carrying their full rated current.
+
+Zero-center ammeters are used for applications requiring current to be measured with both polarities, common in scientific and industrial equipment. Zero-center ammeters are also commonly placed in series with a [[battery (electricity)|battery]]. In this application, the charging of the battery deflects the needle to one side of the scale (commonly, the right side) and the discharging of the battery deflects the needle to the other side. A special type of zero-center ammeter for testing high currents in cars and trucks has a pivoted bar magnet that moves the pointer, and a fixed bar magnet to keep the pointer centered with no current. The magnetic field around the wire carrying current to be measured deflects the moving magnet.
+
+Since the ammeter [[Shunt_(electrical)#Use_in_current_measuring|shunt]] has a very low resistance, mistakenly wiring the ammeter in parallel with a voltage source will cause a [[short circuit]], at best blowing a fuse, possibly damaging the instrument and wiring, and exposing an observer to injury.
+
+In AC circuits, a [[current transformer]] converts the magnetic field around a [[Electrical conductor|conductor]] into a small AC current, typically either {{nowrap|1 A}} or {{nowrap|5 A}} at full rated current, that can be easily read by a meter. In a similar way, accurate AC/DC non-contact ammeters have been constructed using [[Hall effect]] magnetic field sensors. A portable hand-held [[clamp meter|clamp-on ammeter]] is a common tool for maintenance of industrial and commercial electrical equipment, which is temporarily clipped over a wire to measure current. Some recent types have a parallel pair of magnetically soft probes that are placed on either side of the conductor.
+
+==See also==
+*[[Clamp meter]]
+*[[Electric circuit]]
+*[[Electrical measurements]]
+*[[Electronics]]
+*[[List of electronics topics]]
+*[[Multimeter]]
+*[[Ohmmeter]]
+*[[Rheoscope]]
+*[[Voltmeter]]
+*[[Class of accuracy in electrical measurements]]
+
+== Notes ==
+{{Reflist|group=note|liststyle=lower-roman}}
+
+==References==
+{{Commons category|Ammeters}}
+{{Reflist}}
+
+{{Electrical and electronic measuring equipment}}
+
+[[Category:Electrical meters]]
+[[Category:Electronic test equipment]]
+[[Category:Flow meters]]
+[[Category:Electrical test equipment]]

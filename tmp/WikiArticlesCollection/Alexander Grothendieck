@@ -1,0 +1,379 @@
+{{Use dmy dates|date=July 2013}}
+{{Infobox scientist
+|name              = Alexander Grothendieck
+|image             = Alexander Grothendieck.jpg
+|image_size        = 220px
+|caption           = Alexander Grothendieck in Montreal, 1970
+|birth_date        = {{birth date and age|1928|03|28|df=yes}}
+|birth_place       = [[Berlin]], [[Free State of Prussia|Prussia]], [[Weimar Republic|Germany]]
+|nationality       = None ([[Statelessness|Stateless]])
+|residence         = French [[Pyrenees]]
+|workplaces        = [[Institut des Hautes Études Scientifiques]]
+|alma_mater        = [[University of Montpellier]]<br>[[University of Nancy]]
+|doctoral_advisor  = [[Laurent Schwartz]] and [[Jean Dieudonné]]
+|doctoral_students = [[Pierre Berthelot]]<br>[[Carlos Contou-Carrere]]<br>[[Pierre Deligne]]<br>[[Michel Demazure]]<br>[[Pierre Gabriel]]<br>[[Jean Giraud (mathematician)|Jean Giraud]]<br>[[Luc Illusie]]<br>[[Michel Raynaud]]<br>[[Jean-Louis Verdier]]
+|fields            = [[Mathematics]]
+|awards            = [[Fields Medal]] (1966)<br>[[Crafoord Prize]] (1988), declined
+}}
+
+'''Alexander Grothendieck''' ({{IPA-de|ˈɡroːtn̩diːk|lang}}; {{IPA-fr|ɡʁɔtɛndik|lang}}; born 28 March 1928) is a [[Statelessness|stateless]] [[mathematician]] born in [[Germany]] and raised in [[France]], who is the central figure behind the creation of the modern theory of [[algebraic geometry]]. His research program vastly extended the scope of the field, incorporating major elements of [[commutative algebra]], [[homological algebra]], [[sheaf theory]], and [[category theory]] into its foundations. This new [[Grothendieck's relative point of view|perspective]] led to revolutionary advances across many areas of [[pure mathematics]].
+
+Within [[algebraic geometry]] itself, his theory of [[Scheme (mathematics)|schemes]] has become the universally accepted language for all further technical work. His [[Grothendieck–Hirzebruch–Riemann–Roch theorem|generalization]] of the classical [[Riemann-Roch theorem]] launched the study of [[Algebraic K-theory|algebraic]] and [[Topological K-theory|topological]] [[K-theory]]. His construction of new [[cohomology]] theories has left deep consequences for [[algebraic number theory]], [[algebraic topology]], and [[representation theory]]. His creation of [[topos theory]] has had an impact on [[set theory]] and [[logic]].
+
+One of his most celebrated achievements is the discovery of the first arithmetic [[Weil cohomology]] theory: the [[étale cohomology|ℓ-adic étale cohomology]]. This key result opened the way for a proof of the [[Weil conjectures]], ultimately completed by his student [[Pierre Deligne]]. To this day, [[l-adic cohomology|ℓ-adic cohomology]] remains a fundamental tool for number theorists, with important applications to the [[Langlands program]].
+
+Grothendieck’s way of thinking has influenced generations of mathematicians long after his departure from mathematics. His emphasis on the role of [[universal property|universal properties]] brought [[category theory]] into the mainstream as an important organizing principle. His notion of [[abelian category]] is now the basic object of study in [[homological algebra]]. His conjectural theory of [[Motive (algebraic geometry)|motives]] has been a driving force behind modern developments in [[algebraic K-theory]], [[Motivic cohomology|motivic homotopy theory]], and [[motivic integration]].
+
+Driven by deep personal and political convictions, Grothendieck left the [[Institut des Hautes Études Scientifiques]], where he had been appointed professor and accomplished his greatest work, after a dispute over military funding in 1970. His mathematical activity essentially ceased after this, and he devoted his energies to political causes. He formally retired in 1988 and within a few years moved to the [[Pyrenees]], where he currently lives in isolation from human society.
+
+==Life==
+
+===Family and childhood===
+Alexander Grothendieck was born in [[Berlin]] to [[anarchist]] parents: a father from an originally [[Hassidic]] family, [[Sascha Schapiro|Alexander "Sascha" Schapiro]] aka Tanaroff, who had been imprisoned in Russia and moved to Germany in 1922, and a mother from a [[Protestant]] family in [[Hamburg]], Johanna "Hanka" Grothendieck, who worked as a journalist; both of his parents had broken away from their early backgrounds in their teens.<ref name="siam.org">[http://www.siam.org/news/news.php?id=1405 Society for Industrial and Applied Mathematics]</ref> At the time of his birth Grothendieck's mother was married to the journalist Johannes Raddatz, and his birthname was initially recorded as ''Alexander Raddatz''. The marriage was dissolved in 1929 and Schapiro/Tanaroff acknowledged his paternity, but never married Hanka Grothendieck.<ref name="siam.org"/>
+			
+Grothendieck lived with his parents until 1933 in Berlin. At the end of that year, Schapiro moved to [[Paris]] to evade the [[Nazis]], and Hanka followed him the next year. They left Grothendieck in the care of Wilhelm Heydorn, a [[Lutheran]] [[Pastor]] and teacher<ref name=jackson1>
+{{Citation
+  | last =Jackson
+  | first =Allyn
+  | author-link =
+  | last2 =
+  | first2 =
+  | author2-link =
+  | title = Comme Appelé du Néant — As If Summoned from the Void: The Life of Alexandre Grothendieck I
+  | journal = Notices of the American Mathematical Society
+  | volume = 51
+  | issue = 4
+  | year = 2004
+  | url = http://www.ams.org/notices/200409/fea-grothendieck-part1.pdf
+  |format=PDF| doi =
+  }}</ref> in [[Hamburg]] where he went to school. During this time, his parents took part in the [[Spanish Civil War]] in supporting rather than fighting roles.<ref>Scharlau (2008), p. 931</ref> Grothendieck could speak [[French language|French]], [[English language|English]] and [[German language|German]].
+
+===World War II===
+
+In 1939 Grothendieck went to France and lived in various camps for displaced persons with his mother, first at the [[Camp de Rieucros]], and subsequently lived for the remainder of [[WWII]] in the village of [[Le Chambon-sur-Lignon]], where he was sheltered and hidden in local boarding-houses or pensions. His father was arrested and sent via [[Drancy internment camp|Drancy]] to the [[Auschwitz concentration camp]] where he died in 1942. While Grothendieck lived in Chambon, he attended the Collège Cévenol (now known as the [[Le Collège-Lycée Cévenol International]]), a unique secondary school founded in 1938 by local Protestant pacifists and anti-war activists.  Many of the refugee children being hidden in Chambon attended Cévenol and it was at this school that Grothendieck apparently first became fascinated with mathematics.
+
+===Studies and contact with research mathematics===
+After the war, the young Grothendieck studied mathematics in France, initially at the [[University of Montpellier]] where he did not initially perform well, flunking such classes as astronomy.<ref>http://images.math.cnrs.fr/Alexandre-Grothendieck.html#nh14</ref> Working on his own, he rediscovered the [[Lebesgue measure]]. After three years of increasingly independent studies there he went to continue his studies in Paris in 1948.<ref>See Jackson (2004:1).</ref>
+
+Initially, Grothendieck attended [[Henri Cartan]]'s Seminar at [[École Normale Supérieure]], but lacked the necessary background to follow the high-powered seminar. On the advice of Cartan and [[André Weil|Weil]], he moved to the [[University of Nancy]] where he wrote his dissertation under [[Laurent Schwartz]] in functional analysis, from 1950 to 1953. At this time he was a leading expert in the theory of [[topological vector space]]s. By 1957, he set this subject aside in order to work in algebraic geometry and [[homological algebra]].
+
+===The IHÉS years===
+Installed at the [[Institut des Hautes Études Scientifiques]] (IHÉS) in 1958, Grothendieck attracted attention by an intense and highly productive activity of seminars (''de facto'' working groups drafting into foundational work some of the ablest French and other mathematicians of the younger generation). Grothendieck himself practically ceased publication of papers through the conventional, [[learned journal]] route. He was, however, able to play a dominant role in mathematics for around a decade, gathering a strong school.
+
+During this time he had officially as students [[Michel Demazure]] (who worked on SGA3, on [[group scheme]]s), [[Luc Illusie]] (cotangent complex), [[Michel Raynaud]], [[Jean-Louis Verdier]] (cofounder of the [[derived category]] theory) and [[Pierre Deligne]]. Collaborators on the SGA projects also included [[Mike Artin]] ([[étale cohomology]]) and [[Nick Katz]] ([[monodromy theory]] and [[Lefschetz pencil]]s). [[Jean Giraud (mathematician)|Jean Giraud]] worked out [[torsor]] theory extensions of [[non-abelian cohomology]]. Many others were involved.
+
+===The "Golden Age"===
+Alexander Grothendieck's work during the "Golden Age" period at [[IHÉS]] established several unifying themes in [[algebraic geometry]], [[number theory]], [[topology]], [[category theory]] and [[complex analysis]]. His first (pre-IHÉS) breakthrough in algebraic geometry was the [[Grothendieck–Hirzebruch–Riemann–Roch theorem]], a far-reaching generalisation of the [[Hirzebruch–Riemann–Roch theorem]] proved algebraically; in this context he also introduced [[K-theory]]. Then, following the programme he outlined in his talk at the 1958 [[International Congress of Mathematicians]], he introduced the theory of [[scheme (mathematics)|schemes]], developing it in detail in his [[Éléments de géométrie algébrique]] (EGA) and providing the new more flexible and general foundations for algebraic geometry that has been adopted in the field since that time. He went on to introduce the [[étale cohomology]] theory of schemes, providing the key tools for proving the [[Weil conjectures]], as well as [[crystalline cohomology]] and algebraic [[de Rham cohomology]] to complement it. Closely linked to these cohomology theories, he originated [[topos]] theory as a generalisation of topology (relevant also in [[categorical logic]]). He also provided an algebraic definition of [[fundamental group]]s of schemes and more generally the main structures of a categorical [[Galois theory]]. As a framework for his coherent duality theory he also introduced [[derived category|derived categories]], which were further developed by Verdier.
+
+The results of work on these and other topics were published in the EGA and in less polished form in the notes of the [[Séminaire de géométrie algébrique]] (SGA) that he directed at IHES.
+
+===Politics and retreat from scientific community===
+Grothendieck's political views were [[radical]] and [[pacifist]].  Thus, he strongly opposed both [[United States]] [[Vietnam War|intervention in Vietnam]] and [[Soviet Imperialism|Soviet military expansionism]]. He gave lectures on [[category theory]] in the forests surrounding [[Hanoi]] while the city was being bombed, to protest against the [[Vietnam War]] (''The Life and Work of Alexander Grothendieck'', ''[[American Mathematical Monthly]]'', vol. 113, no. 9, footnote 6). He retired from scientific life around 1970, after having discovered the partly military funding of [[IHÉS]] (see pp. xii and xiii of SGA1, Springer Lecture Notes 224). He returned to academia a few years later as a professor at the [[University of Montpellier]], where he stayed until his retirement in 1988. His criticisms of the scientific community, and especially of several mathematics circles, are also contained in a letter, written in 1988, in which he states the reasons for his refusal of the [[Crafoord Prize]].<ref>[http://web.archive.org/web/20060106062005/http://www.math.columbia.edu/~lipyan/CrafoordPrize.pdf Crafoord Prize letter]</ref> He declined the prize on ethical grounds in an open letter to the media.<ref>{{cite web | url = http://www.telegraph.co.uk/news/1526781/Mathematics-where-nothing-is-ever-as-simple-as-it-seems.html |work = Daily Telegraph|accessdate=5 July 2009|date=20 August 2006|title = Mathematics, where nothing is ever as simple as it seems |author= Robert Matthews and Nadejda Lobastova}}</ref>
+
+While the issue of military funding was perhaps the most obvious explanation for Grothendieck's departure from IHÉS, those who knew him say that the causes of the rupture ran deeper. [[Pierre Cartier (mathematician)|Pierre Cartier]], a ''visiteur de longue durée'' ("long-term guest") at the IHÉS, wrote a piece about Grothendieck for a special volume published on the occasion of the [[IHÉS's fortieth anniversary]]. The ''Grothendieck Festschrift'' was a three-volume collection of research papers to mark his sixtieth birthday (falling in 1988), and published in 1990.<ref>The editors were [[Pierre Cartier (mathematician)|Pierre Cartier]], [[Luc Illusie]], [[Nick Katz]], [[Gérard Laumon]], [[Yuri Manin]], and [[Ken Ribet]]. A second edition has been printed (2007) by Birkhauser.</ref>
+
+In it Cartier notes that, as the son of an antimilitary anarchist and one who grew up among the disenfranchised, Grothendieck always had a deep compassion for the poor and the downtrodden. As Cartier puts it, Grothendieck came to find Bures-sur-Yvette "''une cage dorée''" ("a golden cage"). While Grothendieck was at the IHÉS, opposition to the Vietnam War was heating up, and Cartier suggests that this also reinforced Grothendieck's distaste at having become a mandarin of the scientific world. In addition, after several years at the IHÉS Grothendieck seemed to cast about for new intellectual interests. By the late 1960s he had started to become interested in scientific areas outside of mathematics. [[David Ruelle]], a physicist who joined the IHÉS faculty in 1964, said that Grothendieck came to talk to him a few times about [[physics]]. (In the 1970s Ruelle and the Dutch mathematician [[Floris Takens]] produced a new model for turbulence, and it was Ruelle who invented the concept of a [[strange attractor]] in a dynamical system.) [[Biology]] interested Grothendieck much more than physics, and he organized some seminars on biological topics.<ref>[http://www.ams.org/notices/199903/ihes-changes.pdf The IHÉS at Forty] Allyn Jackson, March 1999, Notices of the AMS pp. 329-337</ref>
+
+After leaving the IHÉS, Grothendieck became a [[temporary professor]] at [[Collège de France]] for two years. A permanent position became open at the end of his tenure, but the application Grothendieck submitted made it clear that he had no plans to continue his mathematical research. The position was given to [[Jacques Tits]].
+
+He then went to Université de Montpellier, where he became increasingly estranged from the mathematical community. Around this time, he founded a group called ''Survivre'' (''To Survive''), which was dedicated to antimilitary and [[ecological]] issues. His mathematical career, for the most part, ended when he left the IHÉS.
+
+===Manuscripts written in the 1980s===
+While not publishing mathematical research in conventional ways during the 1980s, he produced several influential manuscripts with limited distribution, with both mathematical and biographical content.
+
+''La Longue Marche à travers la théorie de Galois'' ''[[The Long March Through Galois Theory]]'' is an approximately 1600-page handwritten manuscript produced by Grothendieck during the years 1980–1981, containing many of the ideas leading to the ''[[Esquisse d'un programme]]''<ref name=esquissefr>[http://matematicas.unex.es/~navarro/res/esquissefr.pdf ESQUISSE D’UN PROGRAMME par Alexandre Grothendieck]</ref> (see below, and also a more detailed entry), and in particular studying the [[Teichmüller space|Teichmüller theory]].
+
+In 1983 he wrote an extended manuscript (about 600 pages) entitled ''[[Pursuing Stacks]]'', stimulated by correspondence with [[Ronald Brown (mathematician)|Ronald Brown]], (see also [http://www.bangor.ac.uk/r.brown R.Brown] and Tim Porter at [[University of Bangor]] in Wales), and starting with a letter addressed to [[Daniel Quillen]]. This letter and successive parts were distributed from Bangor (see External Links below): in an informal manner, as a kind of diary, Grothendieck explained and developed his ideas on the relationship between [[algebraic homotopy theory]] and [[algebraic geometry]] and prospects for a noncommutative theory of [[Stack (mathematics)|stacks]].  The manuscript, which is being edited for publication by G. Maltsiniotis, later led to another of his monumental works, ''Les Dérivateurs''.  Written in 1991, this latter opus of about 2000 pages further developed the homotopical ideas begun in ''Pursuing Stacks''.  Much of this work anticipated the subsequent development of the motivic homotopy theory of [[Fabien Morel]] and [[V. Voevodsky]] in the mid-1990s.
+
+In 1984 he wrote a proposal to get a position through the [[Centre National de la Recherche Scientifique]], which he held from 1984 to his retirement in 1988. The proposal, entitled ''[[Esquisse d'un Programme]]''<ref name=esquissefr /> ("Program Sketch") describes new ideas for studying the [[moduli space]] of complex curves. Although Grothendieck himself never published his work in this area, the proposal became the inspiration for work by other mathematicians and the source of the theory of [[dessins d'enfants]] and of a new field emerging as [[anabelian geometry]]. ''Esquisse d’un Programme'' was published in the two-volume proceedings Geometric Galois Actions (Cambridge University Press, 1997).<ref>[http://books.google.co.uk/books?id=Hlf1j2XmXkcC&dq=Geometric+Galois+Actions&printsec=frontcover&source=bl&ots=q9iN4QMkYj&sig=fAsvVlPOhN9K9LfjGFJC5zm_IA4&hl=en&ei=KW-3ScSkHYHIMuDukOEK&sa=X&oi=book_result&resnum=1&ct=result Google book link]</ref>
+
+During this period he also released his work on [[Theorem of Bertini|Bertini type theorems]] contained in EGA 5, published by the [http://www.math.jussieu.fr/~leila/grothendieckcircle/index.php Grothendieck Circle] in 2004.
+
+The 1000-page autobiographical manuscript ''Récoltes et semailles'' (1986) is now available on the internet in the French original,<ref name="grothen">Alexander Grothendieck, [http://www.math.jussieu.fr/~leila/grothendieckcircle/RetS.pdf "''Récoltes et sémailles'', ''Réflexions et témoignage sur un passé de mathématicien.''"]</ref> and an English translation is underway (these parts of Récoltes et semailles have already been translated into Russian and published in Moscow<ref>[http://www.mccme.ru/free-books/grothendieck/RS.html In Russian]</ref>). Some parts of ''Récoltes et semailles''<ref>[http://matematicas.unex.es/~navarro/res/preludio.pdf COSECHAS Y SIEMBRAS: Reflexiones y testimonios sobre un pasado de matem´atico] Preludio</ref><ref>[http://matematicas.unex.es/~navarro/res/carta.pdf COSECHAS Y SIEMBRAS: Reflexiones y testimonios sobre un pasado de matem´atico] Carta</ref> and the whole ''La Clef des Songes''<ref>[http://matematicas.unex.es/~navarro/res/clef1-6.pdf La Clef des Songes]</ref> have been translated into Spanish and Russian.
+
+In the manuscript ''[[La Clef des Songes]]'' he explains how considering the source of [[dream]]s led him to conclude that [[God]] exists.<ref>Scharlau (2008), p. 940</ref> His growing preoccupation with spiritual matters was also evident in a letter entitled ''Lettre de la Bonne Nouvelle'' that he sent to 250 friends in January 1990. In it, he described his encounters with a deity and announced that a "New Age" would commence on 14 October 1996.<ref name=jackson2>
+{{Citation
+  | last =Jackson
+  | first =Allyn
+  | author-link =
+  | last2 =
+  | first2 =
+  | author2-link =
+  | title = Comme Appelé du Néant — As If Summoned from the Void: The Life of Alexandre Grothendieck II
+  | journal = Notices of the American Mathematical Society
+  | volume = 51
+  | issue = 10
+  | year = 2004
+  | url = http://www.ams.org/notices/200410/fea-grothendieck-part2.pdf
+  |format=PDF| doi =
+  }}</ref>
+
+Over 20,000 pages of mathematical and other writings remain unpublished at the University of Montpellier.<ref>[http://www.liberation.fr/sciences/2012/07/01/le-tresor-oublie-du-genie-des-maths_830399 Le trésor oublié du génie des maths]</ref>
+
+===Retirement into reclusion===
+Grothendieck was co-awarded (but declined) the [[Crafoord Prize]] with [[Pierre Deligne]] in 1988.
+
+In 1991, Grothendieck moved to an address he did not provide to his previous contacts in the mathematical community. He is now said to live in southern France or [[Andorra]] and to be reclusive.
+
+In January 2010, Grothendieck wrote a letter to [[Luc Illusie]]. In this "Déclaration d'intention de non-publication", he states that essentially all materials that have been published in his absence have been done without his permission. He asks that none of his work should be reproduced in whole or in part, and even further that libraries containing such copies of his work remove them.<ref>http://sbseminar.wordpress.com/2010/02/09/grothendiecks-letter</ref> A website devoted to his work was called "an abomination".<ref>http://www.math.jussieu.fr/~leila/grothendieckcircle/</ref> This order may have been reversed later in 2010.<ref>http://www.math.u-psud.fr/~laszlo/sga4.html</ref>
+
+==Mathematical achievements==
+Grothendieck's early mathematical work was in [[functional analysis]]. Between 1949 and 1953 he worked on his doctoral thesis in this subject at [[Nancy, France|Nancy]], supervised by [[Jean Dieudonné]] and [[Laurent Schwartz]]. His key contributions include [[topological tensor product]]s of [[topological vector space]]s, the theory of [[nuclear space]]s as foundational for [[Schwartz distribution]]s, and the application of [[Lp space|L<sup>p</sup> spaces]] in studying linear maps between topological vector spaces. In a few years, he had turned himself into a leading authority on this area of functional analysis — to the extent that Dieudonné compares his impact in this field to that of [[Stefan Banach|Banach]].<ref>{{harv|Dieudonné|1990}}</ref>
+
+It is, however, in [[algebraic geometry]] and related fields where Grothendieck did his most important and influential work. From about 1955 he started to work on [[sheaf (mathematics)|sheaf]] theory and [[homological algebra]], producing the influential "Tôhoku paper" (''Sur quelques points d'algèbre homologique'', published in the [[Tohoku Mathematical Journal]] in 1957) where he introduced [[Abelian category|Abelian categories]] and applied their theory to show that [[sheaf cohomology]] can be defined as certain [[derived functor]]s in this context.
+
+Homological methods and sheaf theory had already been introduced in algebraic geometry by [[Jean-Pierre Serre]] and others, after sheaves had been defined by [[Jean Leray]]. Grothendieck took them to a higher level of abstraction and turned them into a key organising principle of his theory. He shifted attention from the study of individual varieties to the ''[[Grothendieck's relative point of view|relative point of view]]'' (pairs of varieties related by a [[morphism]]), allowing a broad generalization of many classical theorems. The first major application was the relative version of Serre's theorem showing that the cohomology of a [[coherent sheaf]] on a complete variety is finite dimensional; Grothendieck's theorem shows that the [[higher direct image]]s of coherent sheaves under a proper map are coherent; this reduces to Serre's theorem over a one-point space.
+
+In 1956, he applied the same thinking to the [[Riemann–Roch theorem]], which had already recently been generalized to any dimension by [[Friedrich Hirzebruch|Hirzebruch]]. The [[Grothendieck–Riemann–Roch theorem]] was announced by Grothendieck at the initial [[Mathematische Arbeitstagung]] in [[Bonn]], in 1957. It appeared in print in a paper written by [[Armand Borel]] with Serre. This result was his first major achievement in algebraic geometry. He went on to plan and execute a major foundational programme for rebuilding the foundations of algebraic geometry, which were then in a state of flux and under discussion in [[Claude Chevalley]]'s seminar; he outlined his programme in his talk at the 1958 [[International Congress of Mathematicians]].
+
+His foundational work on algebraic geometry is at a higher level of abstraction than all prior versions. He adapted the use of non-closed [[generic point]]s, which led to the theory of [[scheme (mathematics)|schemes]]. He also pioneered the systematic use of [[nilpotent]]s. As 'functions' these can take only the value 0, but they carry infinitesimal information, in purely algebraic settings. His ''theory of schemes'' has become established as the best universal foundation for this major field, because of its great expressive power as well as technical depth. In that setting one can use [[birational geometry]], techniques from [[number theory]], [[Galois theory]] and [[commutative algebra]], and close analogues of the methods of [[algebraic topology]], all in an integrated way.<ref name=jackson1/><ref>See, for example, {{harv|Deligne|1998}}.</ref><ref name=Mclarty>
+{{cite web
+  | last = Mclarty
+  | first = Colin
+  | title=The Rising Sea: Grothendieck on simplicity and generality I
+  | url=http://people.math.jussieu.fr/~leila/grothendieckcircle/mclarty1.pdf
+  | format = PDF
+  | accessdate=2008-01-13}}</ref>
+
+He is also noted for his mastery of abstract approaches to mathematics and his perfectionism in matters of formulation and presentation. Relatively little of his work after 1960 was published by the conventional route of the [[learned journal]], circulating initially in duplicated volumes of seminar notes; his influence was to a considerable extent personal. His influence spilled over into many other branches of mathematics, for example the contemporary theory of [[D-module]]s. (It also provoked adverse reactions, with many mathematicians seeking out more concrete areas and problems.)<ref name="scienceline">
+{{citation
+  | url=http://scienceline.org/2007/01/31/math_controversy_peck/
+  | last=Peck
+  | first=Morgen
+  | title=Equality of Mathematicians
+  | quote=Alexandre Grothendieck is arguably the most important mathematician of the 20th century... }}</ref><ref name="spectator">
+{{citation
+  | last=Leith
+  | first=Sam
+  | title=The Einstein of maths
+  | url=http://www.lewrockwell.com/spectator/spec262.html
+  | journal=The Spectator
+  | date= 20 March 2004 | quote=[A] mathematician of staggering accomplishment ... a legendary figure in the mathematical world. }}</ref>
+
+===EGA and SGA===
+
+The bulk of Grothendieck's published work is collected in the monumental, and yet incomplete, ''[[Éléments de géométrie algébrique]]'' (EGA) and ''[[Séminaire de géométrie algébrique]]'' (SGA).  The collection ''[[Fondements de la Géometrie Algébrique]]'' (FGA), which gathers together talks given in the [[Séminaire Bourbaki]], also contains important material.
+
+Perhaps Grothendieck's deepest single accomplishment is the invention of the [[étale cohomology|étale]] and [[l-adic cohomology]] theories, which explain an observation of [[André Weil]]'s that there is a deep connection between the topological characteristics of a variety and its diophantine (number theoretic) properties. For example, the number of solutions of an equation over a [[finite field]] reflects the topological nature of its solutions over the [[complex number]]s. Weil realized that to prove such a connection one needed a new cohomology theory, but neither he nor any other expert saw how to do this until such a theory was found by Grothendieck.
+
+This program culminated in the proofs of the [[Weil conjectures]], the last of which was settled by Grothendieck's student [[Pierre Deligne]] in the early 1970s after Grothendieck had largely withdrawn from mathematics.
+
+===Major mathematical topics (from ''Récoltes et Semailles'')===
+
+He wrote a retrospective assessment of his mathematical work (see the external link ''La Vision'' below). As his main mathematical achievements ("maître-thèmes"), he chose this collection of 12 topics (his chronological order):
+
+#[[Topological tensor product]]s and [[nuclear space]]s
+#"Continuous" and "discrete" [[Duality (mathematics)|duality]] ([[derived category|derived categories]] and "[[six operations (mathematics)|six operations]]").
+#''Yoga'' of the [[Grothendieck–Riemann–Roch theorem]] ([[K-theory]], relation with [[intersection theory]]).
+#[[Scheme (mathematics)|Scheme]]s.
+#[[topos|Topoi]].
+#[[Étale cohomology]] including [[l-adic cohomology]].
+#[[Motive (mathematics)|Motive]]s and the [[motivic Galois group]] (and [[Grothendieck category|Grothendieck categories]])
+#Crystals and [[crystalline cohomology]], ''yoga'' of De Rham and Hodge coefficients.
+#Topological algebra, infinity-stacks, 'dérivateurs', cohomological formalism of toposes as an inspiration for a new [[homotopic algebra]]
+#[[Tame topology]].
+#''Yoga'' of [[anabelian geometry]] and [[Galois–Teichmüller theory]].
+#Schematic point of view, or "arithmetics" for [[regular polyhedron|regular polyhedra]] and [[regular configurations]] of all sorts.
+
+He wrote that the central theme of the topics above is that of topos theory, while the first and last were of the least importance to him.
+
+Here the term ''yoga'' denotes a kind of "meta-theory" that can be used heuristically; [[Michel Raynaud]] writes the other terms "Ariadne's thread" and "philosophy" as effective equivalents.<ref>[http://www.ams.org/notices/200309/rev-raynaud.pdf, at p. 2.]</ref>
+
+==See also==
+*[[List of things named after Alexander Grothendieck]]
+*[[Homotopy hypothesis]]
+
+==Notes==
+{{Reflist|30em}}
+
+==References==
+* {{Citation
+  | first = Pierre
+  | last = Cartier
+  | author-link =
+  | first2 =
+  | last2 =
+  | author2-link =
+  | editor-last =
+  | editor-first =
+  | editor2-last =
+  | editor2-first =
+  | contribution = La folle journée, de Grothendieck à Connes et Kontsevich — Évolution des notions d'espace et de symétrie
+  | contribution-url =
+  | title = Les relations entre les mathématiques et la physique théorique — Festschrift for the 40th anniversary of the IHÉS
+  | year = 1998
+  | pages = 11–19
+  | place =
+  | publisher = Institut des Hautes Études Scientifiques
+  | url =
+  | doi =
+  }}
+* {{Citation
+  | last = Cartier
+  | first = Pierre
+  | author-link =
+  | last2 =
+  | first2 =
+  | author2-link =
+  | title = A mad day's work: from Grothendieck to Connes and Kontsevich The evolution of concepts of space and symmetry
+  | journal = Bull. Amer. Math. Soc.
+  | volume = 38
+  | issue = 4
+  | pages = 389–408
+  | year = 2001
+  | url = http://www.ams.org/bull/2001-38-04/S0273-0979-01-00913-2/S0273-0979-01-00913-2.pdf
+  |format=PDF| doi =10.1090/S0273-0979-01-00913-2
+  }}. An English translation of Cartier (1998)
+* {{Citation
+  | first = Pierre
+  | last = Deligne
+  | author-link =
+  | first2 =
+  | last2 =
+  | author2-link =
+  | editor-last =
+  | editor-first =
+  | editor2-last =
+  | editor2-first =
+  | contribution = Quelques idées maîtresses de l'œuvre de A. Grothendieck
+  | contribution-url = http://smf.emath.fr/Publications/SeminairesCongres/1998/3/pdf/smf_sem-cong_3_11-19.pdf
+  | title = Matériaux pour l'histoire des mathématiques au XXe siècle – Actes du colloque à la mémoire de Jean Dieudonné (Nice 1996)
+  | year = 1998
+  | pages = 11–19
+  | place =
+  | publisher = Société Mathématique de France
+  | url =
+  | doi =
+  }}
+*{{Citation
+  | first = Jean Alexandre
+  | last = Dieudonné
+  | author-link =
+  | first2 =
+  | last2 =
+  | author2-link =
+  | editor-last = Cartier, Pierre et al.
+  | editor-first =
+  | editor2-last =
+  | editor2-first =
+  | contribution = De L'analyse fonctionelle aux fondements de la géométrie algébrique
+  | contribution-url =
+  | title = The Grothendieck Festschrift, Volume 1
+  | year = 1990
+  | pages = 1–14
+  | place =
+  | publisher = Birkhäuser
+  | isbn = 978-0-8176-4566-3
+  | doi =
+  }}
+*{{Citation
+  | last =Jackson
+  | first =Allyn
+  | author-link =
+  | last2 =
+  | first2 =
+  | author2-link =
+  | title = Comme Appelé du Néant — As If Summoned from the Void: The Life of Alexandre Grothendieck I
+  | journal = Notices of the American Mathematical Society
+  | volume = 51
+  | issue = 4
+  | pages = 1038–1056
+  | year = 2004
+  | url = http://www.ams.org/notices/200409/fea-grothendieck-part1.pdf
+  | format = PDF
+  | doi =
+  | ref =
+}}
+*{{Citation
+  | last =Jackson
+  | first =Allyn
+  | author-link =
+  | last2 =
+  | first2 =
+  | author2-link =
+  | title = Comme Appelé du Néant — As If Summoned from the Void: The Life of Alexandre Grothendieck II
+  | journal = Notices of the American Mathematical Society
+  | volume = 51
+  | issue = 10
+  | pages = 1196–1212
+  | year = 2004
+  | url = http://www.ams.org/notices/200410/fea-grothendieck-part2.pdf
+  | format = PDF
+  | doi =
+  | ref =
+}}
+*{{Citation
+  | last =Rehmeyer | first =Julie
+  | author-link =
+  | last2 =
+  | first2 =
+  | author2-link =
+  | title = Sensitivity to the Harmony of Things
+  | journal = Science News
+  | volume =
+  | issue =
+  | pages =
+  | date = 9 May 2008
+  | year =
+  | url = http://www.sciencenews.org/view/generic/id/31898/title/Sensitivity_to_the_harmony_of_things
+  | doi =
+  }}
+*{{citation|last=Scharlau|first=Winfred|title=Wer ist Alexander Grothendieck?: Anarchie,Mathematik, Spiritualität|url=http://www.scharlau-online.de/ag_1.html}} Three-volume biography, first volume available in English, ISBN 3842340923.
+*{{Citation
+ | last = Scharlau
+ | first = Winifred
+ | date = September 2008
+ | title = Who is Alexander Grothendieck ?
+ | periodical = [[Notices of the American Mathematical Society]]
+ | volume = 55
+ | issue = 8
+ | pages = 930–941
+ | place = [[Oberwolfach]], Germany
+ | publication-place = [[Providence, Rhode Island|Providence, RI]]
+ | publisher = [[American Mathematical Society]]
+ | issn = 1088-9477
+ | doi =
+ | oclc = 34550461
+ | url = http://www.ams.org/notices/200808/tx080800930p.pdf
+ | format=PDF
+ | accessdate = 2011-09-01
+}}
+*{{PlanetMath reference|id=8826 |title=Alexander Grothendieck | accessdate=14 April 2012}}
+
+==External links==
+* {{MacTutor Biography|id=Grothendieck}}
+* {{MathGenealogy|id=31245}}
+* [http://www.math.jussieu.fr/~leila/grothendieckcircle/ Grothendieck Circle], collection of mathematical and biographical information, photos, links to his writings
+* [http://www.ihes.fr Institut des Hautes Études Scientifiques]
+* [http://www.bangor.ac.uk/r.brown/pstacks.htm The origins of `Pursuing Stacks'] This is an account of how `Pursuing Stacks' was written in response to a correspondence in English with Ronnie Brown and [http://www.bangor.ac.uk/~mas013/ Tim Porter] at Bangor, which continued until 1991.
+* [http://acm.math.spbu.ru/RS/ Récoltes et Semailles] in French.
+* [http://matematicas.unex.es/~navarro/res/ Spanish translation] of "Récoltes et Semailles" et "Le Clef des Songes" and other Grothendieck's texts
+* [http://www.ams.org/notices/200808/tx080800930p.pdf short bio] from [[Notices of the American Mathematical Society]]
+<!--* http://www.mombu.com/science/mathematics/t-how-is-grothendieck-pronounced-1229702.html (Rainer Rosenthal, 21 December 2006) -->
+
+{{Fields medalists}}
+
+{{Authority control|PND=118952773|LCCN=n/50/31015|VIAF=12381506|SELIBR=}}
+
+{{Persondata <!-- Metadata: see [[Wikipedia:Persondata]] -->
+|name=Grothendieck, Alexander
+|ALTERNATIVE NAMES = Raddatz, Alexander
+|SHORT DESCRIPTION = Mathematician
+|DATE OF BIRTH     = 28 March 1928
+|PLACE OF BIRTH    = Berlin, Germany
+|DATE OF DEATH     =
+|PLACE OF DEATH    =
+| NAME=Grothendieck, Alexander
+}}
+{{DEFAULTSORT:Grothendieck, Alexander}}
+[[Category:20th-century mathematicians]]
+[[Category:Nicolas Bourbaki]]
+[[Category:Algebraic geometers]]
+[[Category:Functional analysts]]
+[[Category:Operator theorists]]
+[[Category:Fields Medalists]]
+[[Category:People from Berlin]]
+[[Category:1928 births]]
+[[Category:Living people]]
+[[Category:Stateless people]]
+[[Category:People of Ukrainian-Jewish descent]]

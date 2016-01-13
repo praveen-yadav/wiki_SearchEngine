@@ -1,0 +1,333 @@
+{{Use dmy dates|date=June 2013}}
+{{For}}
+[[Image:Khoang cach tren duong thang thuc.png|thumb|The absolute value of a number may be thought of as its distance from zero.]]
+In [[mathematics]], the '''absolute value''' (or '''modulus''') {{math|{{!}}''x''{{!}}}} of a [[real number]]&nbsp;{{mvar|x}} is the [[non-negative]] value of&nbsp;{{mvar|x}} without regard to its [[sign (mathematics)|sign]]. Namely, {{math|1={{!}}''x''{{!}} = ''x''}} for a [[positive number|positive]]&nbsp;{{mvar|x}}, {{math|1={{!}}''x''{{!}} = [[additive inverse|−''x'']]}} for a [[negative number|negative]]&nbsp;{{mvar|x}}, and {{math|1={{!}}0{{!}} = 0}}. For example, the absolute value of 3 is 3, and the absolute value of −3 is also 3. The absolute value of a number may be thought of as its [[distance]] from zero.
+
+Generalisations of the absolute value for real numbers occur in a wide variety of mathematical settings. For example an absolute value is also defined for the [[complex number]]s, the [[quaternion]]s, [[ordered ring]]s, [[Field (mathematics)|fields]] and [[vector space]]s. The absolute value is closely related to the notions of [[magnitude (mathematics)|magnitude]], [[distance]], and [[Norm (mathematics)|norm]] in various mathematical and physical contexts.
+
+==Terminology and notation==
+[[Jean-Robert Argand]] introduced the term "module", meaning 'unit of measure' in French, in 1806 specifically for the ''complex'' absolute value<ref name=oed>[[Oxford English Dictionary]], Draft Revision, June 2008</ref><ref>[http://www.amazon.com/gp/reader/0691027951 Nahin], [http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Argand.html O'Connor and Robertson], and [http://functions.wolfram.com/ComplexComponents/Abs/35/ functions.Wolfram.com.]; for the French sense, see [[Dictionnaire de la langue française (Littré)|Littré]], 1877</ref> and it was borrowed into English in 1866 as the Latin equivalent "modulus".<ref name=oed /> The term "absolute value" has been used in this sense since at least 1806 in French<ref>[[Lazare Nicolas Marguerite Carnot|Lazare Nicolas M. Carnot]], ''Mémoire sur la relation qui existe entre les distances respectives de cinq point quelconques pris dans l'espace'', p.&nbsp;105 [http://books.google.com/books?id=YyIOAAAAQAAJ&pg=PA105 at Google Books]</ref> and 1857 in English.<ref>James Mill Peirce, ''A Text-book of Analytic Geometry'' [http://books.google.com/books?id=RJALAAAAYAAJ&pg=PA42 at Google Books].  The oldest citation in the 2nd edition of the Oxford English Dictionary is from 1907. The term "absolute value" is also used in contrast to "relative value".</ref> The notation {{math|{{!}}''x''{{!}}}} was introduced by [[Karl Weierstrass]] in 1841.<ref>Nicholas J. Higham, ''Handbook of writing for the mathematical sciences'', SIAM. ISBN 0-89871-420-6, p.&nbsp;25</ref> Other names for ''absolute value'' include "the numerical value"<ref name=oed /> and "the magnitude".<ref name=oed />
+
+The same notation is used with sets to denote [[cardinality]]; the meaning depends on context.
+
+==Definition and properties==
+
+===Real numbers===
+For any [[real number]]&nbsp;{{mvar|x}} the '''absolute value''' or '''modulus''' of&nbsp;{{mvar|x}} is denoted by {{math|{{!}}''x''{{!}}}} (a [[vertical bar]] on each side of the quantity) and is defined as<ref>Mendelson, [http://books.google.com/books?id=A8hAm38zsCMC&pg=PA2 p.&nbsp;2].</ref>
+
+:<math>|x| = \begin{cases} x, & \mbox{if }  x \ge 0  \\ -x,  & \mbox{if } x < 0. \end{cases} </math>
+
+As can be seen from the above definition, the absolute value of&nbsp;{{mvar|x}} is always either [[positive number|positive]] or [[0 (number)|zero]], but never [[negative number|negative]].
+
+From an [[analytic geometry]] point of view, the absolute value of a real number is that number's [[distance]] from zero along the [[real number line]], and more generally the absolute value of the difference of two real numbers is the distance between them. Indeed the notion of an abstract  [[distance function]] in mathematics can be seen to be a generalisation of  the absolute value of the difference (see [[#Distance|"Distance"]] below).
+
+Since the [[square root]] notation without sign represents the ''positive'' square root, it follows that
+
+:{|
+|-
+| style="width: 250px" | <math>|a| = \sqrt{a^2}</math>
+| ({{EquationRef|1}})
+|}
+
+which is sometimes used as a definition of absolute value.<ref>{{Cite book| author=Stewart, James B. | coauthors= | title=Calculus: concepts and contexts | year=2001 | publisher=Brooks/Cole | location=Australia  | isbn=0-534-37718-1 | pages=}}, p.&nbsp;A5</ref>
+
+The absolute value has the following four fundamental properties:
+
+:{|
+|-
+| style="width: 250px" |<math>|a| \ge 0 </math>
+| style="width: 100px" | ({{EquationRef|2}})
+| Non-negativity
+|-
+|<math>|a| = 0 \iff a = 0 </math>
+| ({{EquationRef|3}})
+|Positive-definiteness
+|-
+|<math>|ab| = |a||b|</math>
+| ({{EquationRef|4}})
+|[[Multiplicativeness]]
+|-
+|<math>|a+b|  \le |a| + |b|  </math>
+| ({{EquationRef|5}})
+|[[Subadditivity]]
+|}
+
+Other important properties of the absolute value include:
+
+:{|
+|-
+| style="width:250px" |<math>|(|a|)| = |a|</math>
+| style="width: 100px" | ({{EquationRef|6}})
+|[[Idempotence]] (the absolute value of the absolute value is the absolute value)
+|-
+| style="width:250px" |<math>|-a| = |a|</math>
+| style="width: 100px" | ({{EquationRef|7}})
+|[[even function|Evenness]] ([[reflection symmetry]] of the graph)
+|-
+|<math>|a - b| = 0 \iff a = b </math>
+| ({{EquationRef|8}})
+|[[Identity of indiscernibles]] (equivalent to positive-definiteness)
+|-
+|<math>|a - b|  \le |a - c| + |c - b|  </math>
+| ({{EquationRef|9}})
+|[[Triangle inequality]] (equivalent to subadditivity)
+|-
+|<math>\left|\frac{a}{b}\right| = \frac{|a|}{|b|}\ </math> (if <math>b \ne 0</math>)
+| ({{EquationRef|10}})
+|Preservation of division (equivalent to multiplicativeness)
+|-
+|<math>|a-b| \ge |(|a| - |b|)| </math>
+| ({{EquationRef|11}})
+|(equivalent to subadditivity)
+|}
+
+Two other useful properties concerning inequalities are:
+:<math>|a| \le b \iff -b \le a \le b </math>
+:<math>|a| \ge b \iff a \le -b\ </math> or <math>b \le a </math>
+
+These relations may be used to solve inequalities involving absolute values. For example:
+
+:{|
+|-
+|<math>|x-3| \le 9 </math>
+|<math>\iff -9 \le x-3 \le 9 </math>
+|-
+|
+|<math>\iff -6 \le x \le 12 </math>
+|}
+
+Absolute value is used to define the [[absolute difference]], the standard metric on the real numbers.
+
+===Complex numbers===
+[[Image:Complex conjugate picture.svg|right|thumb|The absolute value of a complex number&nbsp;{{mvar|z}} is the distance&nbsp;{{mvar|r}} from {{mvar|z}} to the origin. It is also seen in the picture that {{mvar|z}} and its [[complex conjugate]]&nbsp;{{conjugate}} have the same absolute value.]]
+
+Since the [[complex number]]s are not [[Totally ordered set|ordered]], the definition given above for the real absolute value cannot be directly generalised for a complex number. However the geometric interpretation of the absolute value of a real number as its distance from 0 can be generalised. The absolute value of a complex number is defined as its distance in the [[complex plane]] from the [[origin (mathematics)|origin]] using the [[Pythagorean theorem]]. More generally the absolute value of the difference of two complex numbers is equal to the distance between those two complex numbers.
+
+For any complex number
+
+:<math>z = x + iy,</math>
+
+where {{mvar|x}} and {{mvar|y}} are real numbers, the '''absolute value''' or '''modulus''' of&nbsp;{{mvar|z}} is denoted {{math|{{!}}''z''{{!}}}} and is given by<ref>{{cite book|author=González, Mario O.|title=Classical Complex Analysis|publisher=CRC Press|year=1992|isbn=9780824784157|page=19|url=http://books.google.com/books?id=ncxL7EFr7GsC&pg=PA19}}</ref>
+
+:<math>|z| =  \sqrt{x^2 + y^2}.</math>
+
+When  the complex part {{mvar|y}} is zero this is the same as the absolute value of the real number&nbsp;{{mvar|x}}.
+
+When a complex number&nbsp;{{mvar|z}} is expressed in [[Complex number#Polar form|polar form]] as
+
+:<math>z = r e^{i \theta}</math>
+
+with {{math|''r'' ≥ 0}} and θ real, its absolute value is 
+
+:<math>|z| = r</math>.
+
+The absolute value of a complex number can be written in the complex analogue of equation&nbsp;[[#math 1|(1)]] above as: 
+
+:<math>|z| = \sqrt{z \cdot \overline{z}}</math> 
+
+where <math>\overline z</math> is the [[complex conjugate]] of&nbsp;{{mvar|z}}.
+ 
+The complex absolute value shares all the properties of the real absolute value given in equations&nbsp;[[#math 2|(2)–(11)]] above.
+
+Since the positive reals form a subgroup of the complex numbers under multiplication, we may think of absolute value as an [[endomorphism]] of the [[multiplicative group]] of the complex numbers.<ref>{{citation
+ | last = Lorenz | first = Falko
+ | isbn = 978-0-387-72487-4
+ | location = New York
+ | mr = 2371763
+ | page = 39
+ | publisher = Springer
+ | series = Universitext
+ | title = Algebra. Vol. II. Fields with structure, algebras and advanced topics
+ | doi = 10.1007/978-0-387-72488-1
+ | year = 2008}}.</ref>
+
+==Absolute value function==
+[[Image:Absolute value.svg|thumb|360px|The [[graph of a function|graph]] of the absolute value function for real numbers]]
+[[Image:Absolute value composition.svg|256px|thumb|[[composition of functions|Composition]] of absolute value with a [[cubic function]] in different orders]]
+The real absolute value function is [[continuous function|continuous]] everywhere. It is [[derivative|differentiable]] everywhere except for {{mvar|x}}&nbsp;=&nbsp;0.  It is [[monotonic function|monotonically decreasing]] on the interval {{open-closed|−∞,0}} and monotonically increasing on the interval {{closed-open|0,+∞}}. Since a real number and its [[additive inverse|opposite]] have the same absolute value, it is an [[even function]], and is hence not [[invertible]].
+
+Both the real and complex functions are [[idempotent]].
+
+It is a [[piecewise linear function|piecewise linear]], [[convex function|convex]] function.
+
+===Relationship to the sign function===
+The absolute value function of a real number returns its value irrespective of its sign, whereas the [[sign function|sign (or signum) function]] returns a number's sign irrespective of its value. The following equations show the relationship between these two functions:
+
+:<math>|x| = x \sgn(x),</math>
+
+and for {{math|''x'' ≠ 0}},
+
+:<math>\sgn(x) = \frac{|x|}{x}.</math>
+
+===Derivative===
+The real absolute value function has a derivative for every {{math|''x'' ≠ 0}}, but is not [[differentiable function|differentiable]] at {{math|1=''x'' = 0}}. Its derivative for {{math|''x'' ≠ 0}} is given by the [[step function]]<ref name="MathWorld">[http://mathworld.wolfram.com/AbsoluteValue.html Weisstein, Eric W. ''Absolute Value.'' From MathWorld – A Wolfram Web Resource.]</ref><ref name="BS163">Bartel and Sherbert, p.&nbsp;163</ref>
+:<math>\frac{d|x|}{dx} = \frac{x}{|x|} = \begin{cases} -1 & x<0 \\  1 & x>0. \end{cases}</math>
+
+The [[subderivative|subdifferential]] of&nbsp;{{math|{{!}}''x''{{!}}}} at&nbsp;{{math|1=''x'' = 0}} is the [[interval (mathematics)|interval]]&nbsp;{{closed-closed|−1,1}}.<ref>Peter Wriggers, Panagiotis Panatiotopoulos, eds., ''New Developments in Contact Problems'', 1999, ISBN 3-211-83154-1, [http://books.google.com/books?id=tiBtC4GmuKcC&pg=PA31 p.&nbsp;31–32]</ref>
+
+The [[complex number|complex]] absolute value function is continuous everywhere but [[complex differentiable]] ''nowhere'' because it violates the [[Cauchy–Riemann equations]].<ref name="MathWorld"/>
+
+The second derivative of&nbsp;{{math|{{!}}''x''{{!}}}} with respect to&nbsp;{{mvar|x}} is zero everywhere except zero, where it does not exist. As a [[generalised function]], the second derivative may be taken as two times the [[Dirac delta function]].
+
+===Antiderivative===
+The [[antiderivative]] (indefinite integral) of the absolute value function is
+
+:<math>\int|x|dx=\frac{x|x|}{2}+C,</math>
+
+where {{mvar|C}} is an arbitrary [[constant of integration]].
+
+==Distance==
+{{see also|Metric space}}
+The absolute value is closely related to the idea of distance. As noted above, the absolute value of a real or complex number is the [[distance]] from that number to the origin, along the real number line, for real numbers, or in the complex plane, for complex numbers, and more generally, the absolute value of the difference of two real or complex numbers is the distance between them.
+
+The standard [[Euclidean distance]] between two points
+
+:<math>a = (a_1, a_2, \dots , a_n) </math>
+
+and
+
+:<math>b = (b_1, b_2, \dots , b_n) </math>
+
+in [[Euclidean space|Euclidean {{mvar|n}}-space]] is defined as:
+:<math>\sqrt{\sum_{i=1}^n(a_i-b_i)^2}. </math>
+
+This can be seen to be a generalisation of {{math|{{!}}''a'' − ''b''{{!}}}}, since if {{mvar|a}} and {{mvar|b}} are real, then by [[#math 1|equation&nbsp;(1)]],
+:<math>|a - b| = \sqrt{(a - b)^2}.</math>
+
+While if
+
+:<math> a = a_1 + i a_2 </math>
+
+and
+
+:<math> b = b_1 + i b_2 </math>
+
+are complex numbers, then
+
+:{|
+|-
+|<math>|a - b| </math>
+|<math> = |(a_1 + i a_2) - (b_1 + i b_2)|</math>
+|-
+|
+|<math> = |(a_1 - b_1) + i(a_2 - b_2)|</math>
+|-
+|
+|<math> = \sqrt{(a_1 - b_1)^2 + (a_2 - b_2)^2}.</math>
+|}
+
+The above shows that the "absolute value" distance for the real numbers or the complex numbers, agrees with the standard Euclidean distance they inherit as a result of considering them as the one and two-dimensional Euclidean spaces respectively.
+
+The properties of the absolute value of the difference of two real or complex numbers: non-negativity, identity of indiscernibles, symmetry and the triangle inequality given above, can be seen to motivate the more general notion of a [[distance function]] as follows:
+
+A real valued function {{mvar|d}} on a set {{math|''X'' × ''X''}} is called a [[Metric (mathematics)|metric]] (or a ''distance function'') on&nbsp;{{mvar|X}}, if it satisfies the following four axioms:<ref>These axioms are not minimal; for instance, non-negativity can be derived from the other three: {{math|1=0 = ''d''(''a'', ''a'') ≤ ''d''(''a'', ''b'') + ''d''(''b'', ''a'') = 2''d''(''a'', ''b'')}}.</ref>
+:{|
+|-
+|style="width:250px" | <math>d(a, b) \ge 0 </math>
+|Non-negativity
+|-
+|<math>d(a, b) = 0 \iff a = b </math>
+|Identity of indiscernibles
+|-
+|<math>d(a, b) = d(b, a) </math>
+|Symmetry
+|-
+|<math>d(a, b)  \le d(a, c) + d(c, b)  </math>
+|Triangle inequality
+|}
+
+==Generalizations==
+
+===Ordered rings===
+The definition of absolute value given for real numbers above can be extended to any [[ordered ring]]. That is, if&nbsp;{{mvar|a}} is an element of an ordered ring&nbsp;''R'', then the '''absolute value''' of&nbsp;{{mvar|a}}, denoted by {{math|{{!}}''a''{{!}}}}, is defined to be:<ref>Mac Lane, [http://books.google.com/books?id=L6FENd8GHIUC&pg=PA264 p.&nbsp;264].</ref>
+
+:<math>|a| = \begin{cases} a, & \mbox{if }  a \ge 0  \\ -a,  & \mbox{if } a \le 0 \end{cases} \; </math>
+
+where {{math|−''a''}} is the [[additive inverse]] of&nbsp;{{mvar|a}}, and 0 is the additive [[identity element]].
+
+===Fields===
+{{main|Absolute value (algebra)}}
+The fundamental properties of the absolute value for real numbers given in [[#math 2|(2)]]–(5) above, can be used to generalise the notion of absolute value to an arbitrary field, as follows.
+
+A real-valued function&nbsp;{{mvar|v}} on a [[field (mathematics)|field]]&nbsp;{{mvar|F}} is called an ''absolute value'' (also a ''modulus'', ''magnitude'', ''value'', or ''valuation'')<ref>Shechter, [http://books.google.com/books?id=eqUv3Bcd56EC&pg=PA260 p.&nbsp;260]. This meaning of ''valuation'' is rare. Usually, a [[valuation (algebra)|valuation]] is the logarithm of the inverse of an absolute value</ref> if it satisfies the following four axioms:
+
+:{| cellpadding=10
+|-
+|<math>v(a) \ge 0 </math>
+|Non-negativity
+|-
+|<math>v(a) = 0 \iff a = \mathbf{0} </math>
+|Positive-definiteness
+|-
+|<math>v(ab) = v(a) v(b) </math>
+|Multiplicativeness
+|-
+|<math>v(a+b)  \le v(a) + v(b)  </math>
+|Subadditivity or the triangle inequality
+|}
+
+Where '''0''' denotes the [[additive identity]] element of&nbsp;{{mvar|F}}. It follows from positive-definiteness and multiplicativeness that {{math|1=''v''('''1''') = 1}}, where '''1''' denotes the [[multiplicative identity]] element of&nbsp;{{mvar|F}}. The real and complex absolute values defined above are examples of absolute values for an arbitrary field.
+
+If {{mvar|v}} is an absolute value on&nbsp;{{mvar|F}}, then the function&nbsp;{{mvar|d}} on {{math|''F'' × ''F''}}, defined by {{math|1=''d''(''a'', ''b'') = ''v''(''a'' − ''b'')}}, is a metric and the following are equivalent:
+
+* {{mvar|d}} satisfies the [[ultrametric]] inequality <math>d(x, y) \leq \max(d(x,z),d(y,z))</math> for all {{mvar|x}}, {{mvar|y}}, {{mvar|z}} in&nbsp;{{mvar|F}}.
+
+* <math> \big\{ v\Big({\textstyle \sum_{k=1}^n } \mathbf{1}\Big) : n \in \mathbb{N} \big\} </math> is [[bounded set|bounded]] in&nbsp;'''R'''.
+
+* <math> v\Big({\textstyle \sum_{k=1}^n } \mathbf{1}\Big) \le 1\ </math> for every <math>n \in \mathbb{N}.</math>
+
+* <math> v(a) \le 1 \Rightarrow v(1+a) \le 1\ </math> for all <math>a \in F.</math>
+
+* <math> v(a + b) \le \mathrm{max}\{v(a), v(b)\}\ </math> for all <math>a, b \in F.</math>
+
+An absolute value which satisfies any (hence all) of the above conditions is said to be '''non-Archimedean''', otherwise it is said to be [[Archimedean field|Archimedean]].<ref>Shechter, [http://books.google.com/books?id=eqUv3Bcd56EC&pg=PA260 pp.&nbsp;260–261].</ref>
+
+===Vector spaces===
+{{Main|Norm (mathematics)}}
+Again the fundamental properties of the absolute value for real numbers can be used, with a slight modification, to generalise the notion to an arbitrary vector space.
+
+A real-valued function on a [[vector space]]&nbsp;{{mvar|V}} over a field&nbsp;{{mvar|F}}, represented as <big>{{math|‖·<!-- do not replace with &sdot;: not a multiplication sign! -->‖}}</big>, is called an '''absolute value''', but more usually a [[Norm (mathematics)|'''norm''']], if it satisfies the following axioms:
+
+For all&nbsp;{{mvar|a}} in&nbsp;{{mvar|F}}, and {{math|'''v'''}}, {{math|'''u'''}} in&nbsp;{{mvar|V}},
+
+:{| cellpadding=10
+|-
+|<math>\|\mathbf{v}\|  \ge 0 </math>
+|Non-negativity
+|-
+|<math>\|\mathbf{v}\| = 0 \iff \mathbf{v} = 0</math>
+|Positive-definiteness
+|-
+|<math>\|a \mathbf{v}\| = |a| \|\mathbf{v}\| </math>
+|Positive homogeneity or positive scalability
+|-
+|<math>\|\mathbf{v} + \mathbf{u}\| \le \|\mathbf{v}\| + \|\mathbf{u}\| </math>
+|Subadditivity or the triangle inequality
+|}
+
+The norm of a vector is also called its ''length'' or ''magnitude''.
+
+In the case of [[Euclidean space]]&nbsp;{{math|'''R'''<sup>''n''</sup>}}, the function defined by
+
+:<math>\|(x_1, x_2, \dots , x_n) \| = \sqrt{\sum_{i=1}^{n} x_i^2}</math>
+
+is a norm called the [[Euclidean norm]]. When the real numbers&nbsp;{{math|'''R'''}} are considered as the one-dimensional vector space&nbsp;{{math|'''R'''<sup>1</sup>}}, the absolute value is a [[Norm (mathematics)|norm]], and is the {{mvar|p}}-norm (see [[L^p_space#Definition|L<sup>p</sup> space]]) for any&nbsp;{{mvar|p}}. In fact the absolute value is the "only" norm on {{math|'''R'''<sup>1</sup>}}, in the sense that, for every norm {{math|‖·‖}} on&nbsp;{{math|'''R'''<sup>1</sup>}}, {{math|1=‖''x''‖ = ‖1‖ ⋅ {{!}}''x''{{!}}}}. The complex absolute value is a special case of the norm in an [[inner product space]]. It is identical to the Euclidean norm, if the [[complex plane]] is identified with the [[Euclidean plane]]&nbsp;{{math|'''R'''<sup>2</sup>}}.
+
+==Notes==
+{{Reflist}}
+
+==References==
+* Bartle; Sherbert; ''Introduction to real analysis'' (4th ed.), John Wiley & Sons, 2011 ISBN 978-0-471-43331-6.
+* Nahin, Paul J.; [http://www.amazon.com/gp/reader/0691027951 ''An Imaginary Tale'']; Princeton University Press; (hardcover, 1998). ISBN 0-691-02795-1.
+* Mac Lane, Saunders, Garrett Birkhoff, ''Algebra'', American Mathematical Soc., 1999. ISBN 978-0-8218-1646-2.
+* Mendelson, Elliott, ''Schaum's Outline of Beginning Calculus'', McGraw-Hill Professional, 2008. ISBN 978-0-07-148754-2.
+* O'Connor, J.J. and Robertson, E.F.; [http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Argand.html "Jean Robert Argand"].
+* Schechter, Eric; ''Handbook of Analysis and Its Foundations'', pp.&nbsp;259–263, [http://books.google.com/books?id=eqUv3Bcd56EC&pg=PA259 "Absolute Values"],  Academic Press (1997) ISBN 0-12-622760-8.
+
+==External links==
+* {{springer|title=Absolute value|id=p/a010370}}
+* {{PlanetMath | urlname=AbsoluteValue | title=absolute value | id=448}}
+* {{MathWorld | urlname=AbsoluteValue | title=Absolute Value}}
+
+{{DEFAULTSORT:Absolute Value}}
+[[Category:Special functions]]

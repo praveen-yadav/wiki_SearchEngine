@@ -1,0 +1,163 @@
+{{Differential equations}}
+
+'''[[Differential equation]]s''' arise in many problems in [[physics]], [[engineering]], and other sciences. The following examples show how to solve differential equations in a few simple cases when an exact solution exists.
+
+== Separable first-order ordinary differential equations ==
+Equations in the form <math>\frac {dy}{dx} = f(x)g(y)</math> are called separable and solved by <math>\frac {dy}{g(y)} = f(x)dx</math> and thus 
+<math>\int\frac {dy}{g(y)} = \int f(x)dx</math>. Prior to dividing by <math>g(y)</math>, one needs to check if there are stationary (also called equilibrium)
+solutions <math>y=const</math> satisfying <math>g(y)=0</math>.
+
+==Separable (homogeneous) first-order linear ordinary differential equations==
+A separable ''linear'' [[ordinary differential equation]] of the first order 
+must be homogeneous and has the general form
+
+:<math>\frac{dy}{dt} + f(t) y = 0</math>
+
+where <math>f(t)</math> is some known [[function (mathematics)|function]].  We may solve this by [[separation of variables]] (moving the ''y'' terms to one side and the ''t'' terms to the other side),
+
+:<math>\frac{dy}{y} = -f(t)\, dt</math>
+
+Since the [[separation of variables]] in this case involves dividing by ''y'', we must check if the constant function ''y=0'' is a solution of the original equation. Trivially, if ''y=0'' then ''y'=0'', so ''y=0'' is actually a solution of the original equation. We note that ''y=0'' is not allowed in the transformed equation. 
+
+We solve the transformed equation with the variables already separated by [[Integral Calculus|Integrating]], 
+
+:<math>\ln |y| = \left(-\int f(t)\,dt\right) + C\,</math>
+
+where ''C'' is an arbitrary constant. Then, by [[exponentiation]], we obtain
+
+:<math>y = \pm e^{\left(-\int f(t)\,dt\right) + C} = \pm e^{C} e^{-\int f(t)\,dt}</math>.
+
+Here, <math>e^{C}>0</math>, so <math>\pm e^{C}\neq 0</math>. But we have independently checked that ''y=0'' is also a solution of the original equation, thus 
+:<math>y = A e^{-\int f(t)\,dt}</math>.
+with an arbitrary constant ''A'', which covers all the cases. It is easy to confirm that this is a solution by plugging it into the original differential equation:
+
+:<math>\frac{dy}{dt} + f(t) y = -f(t) \cdot A e^{-\int f(t)\,dt} + f(t) \cdot A e^{-\int f(t)\,dt} = 0</math>
+
+Some elaboration is needed because ''&fnof;''(''t'')  might not even be integrable. One must also assume something about the domains of the functions involved before the equation is fully defined. The solution above assumes the [[real number|real]] case.
+
+If <math>f(t)=\alpha</math> is a constant, the solution is particularly simple, <math>y = A e^{-\alpha t}</math> and describes, e.g., if <math>\alpha>0</math>, the exponential decay of radioactive material at the macroscopic level. If the value of <math>\alpha</math> is not known a priori, it can be determined from two measurements of the solution. For example, 
+
+:<math>\frac{dy}{dt} + \alpha y = 0, y(1)=2, y(2)=1</math>
+
+gives <math>\alpha = ln(2)</math> and <math>y = 4 e^{-ln(2) t}= 2^{2-t}</math>.
+
+==Non-separable (non-homogeneous) first-order linear ordinary differential equations==
+First-order linear non-homogeneous ODEs (ordinary [[differential equation]]s) are not separable. They can be solved by the following approach, known as an ''[[integrating factor]]'' method. Consider first-order linear ODEs of the general form: 
+
+:<math>\frac{dy}{dx} + p(x)y = q(x)</math>
+
+The method for solving this equation relies on a special integrating factor, ''&mu;'': 
+
+:<math>\mu = e^{\int p(x)\, dx}</math>
+
+We choose this integrating factor because it has the special property that its derivative is itself times the function we are integrating, that is:
+
+:<math>\frac{d{\mu}}{dx} = e^{\int p(x)\, dx} \cdot p(x) = \mu p(x)</math>
+
+Multiply both sides of the original differential equation by ''&mu;'' to get:
+
+:<math>\mu{\frac{dy}{dx}} + \mu{p(x)y}  = \mu{q(x)}</math>
+
+Because of the special ''&mu;'' we picked, we may substitute ''d&mu;''/''dx'' for ''&mu;''&nbsp;''p''(''x''), simplifying the equation to:
+
+:<math>\mu{\frac{dy}{dx}} + y{\frac{d{\mu}}{dx}} = \mu{q(x)}</math>
+
+Using the [[product rule (calculus)|product rule]] in reverse, we get:
+
+:<math>\frac{d}{dx}{(\mu{y})} = \mu{q(x)}</math>
+
+Integrating both sides:
+
+:<math>\mu{y} = \left(\int\mu q(x)\, dx\right) + C</math>
+
+Finally, to solve for ''y'' we divide both sides by <math>\mu</math>:
+
+:<math>y = \frac{\left(\int\mu q(x)\, dx\right) + C}{\mu}</math>
+
+Since ''&mu;'' is a function of ''x'', we cannot simplify any further directly.
+
+==Second-order linear ordinary differential equations==
+
+===A simple example===
+Suppose a mass is attached to a spring which exerts an attractive force on the mass [[Proportionality (mathematics)|proportional]] to the extension/compression of the spring. For now, we may ignore any other forces ([[gravity]], [[friction]], etc.).  We shall write the extension of the spring at a time ''t'' as&nbsp;''x''(''t'').  Now, using [[Newton's laws of motion|Newton's second law]] we can write (using convenient units):
+
+: <math>m\frac{d^2x}{dt^2} +kx=0,</math>
+
+where ''m'' is the mass and ''k'' is the spring constant that represents a measure of spring stiffness. Let us for simplicity take ''m=k'' as an example.
+
+If we look for solutions that have the form <math>Ce^{\lambda t}</math>, where ''C'' is a constant, we discover the relationship <math>\lambda^2+1=0</math>, and thus <math>\lambda</math> must be one of the [[complex number]]s <math>i</math> or <math>-i</math>.  Thus, using [[Eulers formula in complex analysis|Euler's theorem]] we can say that the solution must be of the form:
+
+: <math>x(t) = A \cos t + B \sin t</math>
+
+See a [http://www.wolframalpha.com/input/?i=x%27%27%3D-x solution] by [[WolframAlpha]]. 
+
+To determine the unknown constants ''A'' and ''B'',  we need ''initial conditions'', i.e. equalities that specify the state of the system at a given time (usually&nbsp;''t''&nbsp;=&nbsp;0).
+
+For example, if we suppose at ''t''&nbsp;=&nbsp;0 the extension is a unit distance (''x''&nbsp;=&nbsp;1), and the particle is not moving (''dx''/''dt''&nbsp;=&nbsp;0). We have
+
+: <math>x(0) = A \cos 0 + B \sin 0 = A = 1, \, </math>
+
+and so&nbsp;''A''&nbsp;=&nbsp;1.
+
+: <math>x'(0) = -A \sin 0 + B \cos 0 = B = 0, \,</math>
+
+and so ''B''&nbsp;=&nbsp;0.
+
+Therefore ''x''(''t'')&nbsp;=&nbsp;cos&nbsp;''t''.  This is an example of [[simple harmonic motion]].
+
+See a [http://www.wolframalpha.com/input/?i=x%27%27%3D-x%2Cx%280%29%3D1%2Cx%27%280%29%3D0 solution] by [[WolframAlpha]].
+
+===A more complicated model===
+The above model of an oscillating mass on a spring is plausible but not very realistic: in practice, [[friction]] will tend to decelerate the mass and have magnitude proportional to its velocity (i.e.&nbsp;''dx''/''dt'').  Our new differential equation, expressing the balancing of the acceleration and the forces, is
+
+: <math>m\frac{d^2x}{dt^2} + c \frac{dx}{dt} + kx=0,</math>
+
+where <math>c</math> is the damping coefficient representing  friction.  Again looking for solutions of the form <math>Ce^{\lambda t}</math>, we find that
+
+: <math>m\lambda^2 + c \lambda + k = 0. \, </math>
+
+This is a [[quadratic equation]] which we can solve.  If <math>c^2<4km</math> there are two complex conjugate  roots ''a''&nbsp;±&nbsp;''ib'', and the solution (with the above boundary conditions) will look like this:
+
+: <math>x(t) = e^{at} \left(\cos bt - \frac{a}{b} \sin bt \right) </math>
+
+Let us for simplicity take <math>m=1</math>, then <math>0<c=-2a</math> and <math>k=a^2+b^2</math>.
+
+The equation can be also solved in MATLAB symbolic toolbox as
+<source lang="matlab">
+x = dsolve('D2x+c*Dx+k*x=0','x(0)=1','Dx(0)=0')
+</source>
+although the solution looks rather ugly,
+<source lang="matlab">
+x = (c + (c^2 - 4*k)^(1/2))/(2*exp(t*(c/2 - (c^2 - 4*k)^(1/2)/2))*(c^2 - 4*k)^(1/2)) - 
+    (c - (c^2 - 4*k)^(1/2))/(2*exp(t*(c/2 + (c^2 - 4*k)^(1/2)/2))*(c^2 - 4*k)^(1/2))
+</source>
+
+This is a model of ''[[Damping|damped oscillator]]''. The plot of displacement against time would look like this:
+
+: [[Image:Damped Oscillation2.svg|400px|center]]
+
+which does resemble how one would expect a vibrating spring to behave as friction removed the energy from the system.
+
+==Linear systems of ODEs==
+
+The following example of a first order linear systems of ODEs
+: <math> y_1'=y_1+2y_2+t</math>
+: <math> y_2'=2y_1-2y_2+\sin(t)</math>
+
+can be easily symbolically 
+[http://www.wolframalpha.com/input/?i=y%27+%3D+{{1%2C2}}%2C{{2%2C-2}}.y%2B+{t%2C+sin%28t%29} solved]
+in [[WolframAlpha]].
+
+==See also==
+* [[Closed and exact differential forms]]
+* [[Ordinary differential equation]]
+* [[Bernoulli differential equation]]
+
+== Bibliography ==
+* A. D. Polyanin and V. F. Zaitsev, ''Handbook of Exact Solutions for Ordinary Differential Equations'', 2nd Edition, [[Chapman & Hall]]/[[CRC Press]], Boca Raton, 2003; ISBN 1-58488-297-2.
+
+==External links==
+* [http://eqworld.ipmnet.ru/en/solutions/ode.htm Ordinary Differential Equations] at EqWorld: The World of Mathematical Equations.
+
+[[Category:Ordinary differential equations]]
+[[Category:Mathematical examples|Differential equations]]

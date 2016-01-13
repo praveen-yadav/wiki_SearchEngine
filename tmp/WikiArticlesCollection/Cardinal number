@@ -1,0 +1,200 @@
+{{about|the mathematical concept|number words indicating quantity ("three" apples, "four" birds, etc.)|Cardinal number (linguistics)}}
+
+[[Image:Aleph0.svg|thumb|right|150px|[[Aleph null]], the smallest infinite cardinal]]
+In [[mathematics]], '''cardinal numbers''', or '''cardinals''' for short, are a generalization of the [[natural number]]s used to measure the [[cardinality]] (size) of [[Set (mathematics)|sets]]. The cardinality of a [[finite set]] is a natural number – the number of elements in the set. The ''[[transfinite number|transfinite]]'' cardinal numbers describe the sizes of [[infinite set]]s.
+
+Cardinality is defined in terms of [[bijective function]]s. Two sets have the same cardinality if and only if there is a bijection between them. In the case of finite sets, this agrees with the intuitive notion of size. In the case of infinite sets, the behavior is more complex. A fundamental theorem due to [[Georg Cantor]] shows that it is possible for infinite sets to have different cardinalities, and in particular the cardinality of the set of [[real number]]s is greater than the cardinality of the set of [[natural number]]s. It is also possible for a proper subset of an infinite set to have the same cardinality as the original set, something that cannot happen with proper subsets of finite sets.
+
+There is a transfinite sequence of cardinal numbers:
+:<math>0, 1, 2, 3, \ldots, n, \ldots ; \aleph_0, \aleph_1, \aleph_2, \ldots, \aleph_{\alpha}, \ldots.\ </math>
+This sequence starts with the [[natural number]]s including zero (finite cardinals), which are followed by the [[aleph number]]s (infinite cardinals of [[well-ordering|well-ordered sets]]). The aleph numbers are indexed by [[ordinal number]]s.  Under the assumption of the [[axiom of choice]], this [[transfinite]] sequence includes every cardinal number.  If one [[axiom of choice#Independence|rejects]] that axiom, the situation is more complicated, with additional infinite cardinals that are not alephs.
+
+Cardinality is studied for its own sake as part of [[set theory]]. It is also a tool used in branches of mathematics including [[combinatorics]], [[abstract algebra]], and [[mathematical analysis]]. In [[category theory]], the cardinal numbers form a [[Skeleton (category theory)|skeleton]] of the [[category of sets]].
+
+==History==
+
+The notion of cardinality, as now understood, was formulated by [[Georg Cantor]], the originator of [[set theory]], in 1874–1884. Cardinality can be used to compare an aspect of finite sets; e.g. the sets {1,2,3} and {4,5,6} are not ''equal'', but have the ''same cardinality'', namely three (this is established by the existence of a [[bijection|one-to-one correspondence]] between the two sets; e.g. {1->4, 2->5, 3->6}).  
+
+Cantor applied his concept of one-to-one correspondence to infinite sets;<ref>{{harvnb|Dauben|1990|loc=pg. 54}}</ref> e.g. the set of natural numbers '''N''' = {0, 1, 2, 3, ...}. Thus, all sets having a one-to-one correspondence with '''N''' he called [[Countable set|denumerable (countably infinite) sets]] and they all have the same cardinal number. This cardinal number is called <math>\aleph_0</math>, [[Aleph number|aleph-null]]. He called the cardinal numbers of these infinite sets, [[transfinite cardinal numbers]]. 
+
+Cantor proved that any unbounded subset of '''N''' has the same cardinality as '''N''', even though this might appear to run contrary to intuition. He also proved that the set of all [[ordered pair]]s of natural numbers is denumerable (which implies that the set of all [[rational number]]s is denumerable), and later proved that the set of all [[algebraic number]]s is also denumerable.  Each algebraic number ''z'' may be encoded as a finite sequence of integers which are the coefficients in the polynomial equation of which it is the solution, i.e. the ordered n-tuple (''a''<sub>0</sub>, ''a''<sub>1</sub>, ..., ''a<sub>n</sub>''), ''a<sub>i</sub>'' ∈ '''Z''' together with a pair of rationals (''b''<sub>0</sub>, ''b''<sub>1</sub>) such that ''z'' is the unique root of the polynomial with coefficients (''a''<sub>0</sub>, ''a''<sub>1</sub>, ..., ''a<sub>n</sub>'') that lies in the interval (''b''<sub>0</sub>, ''b''<sub>1</sub>).
+
+In his 1874 paper, Cantor proved that there exist higher-order cardinal numbers by showing that the set of real numbers has cardinality greater than that of '''N'''. His [[Cantor's first uncountability proof|original presentation]] used a complex argument with [[nested intervals]], but in an 1891 paper he proved the same result using his ingenious but simple [[Cantor's diagonal argument|diagonal argument]]. The new cardinal number of the set of real numbers is called the [[cardinality of the continuum]] and Cantor used the symbol <math>\mathfrak{c}</math> for it.
+
+Cantor also developed a large portion of the general theory of cardinal numbers; he proved that there is a smallest transfinite cardinal number (<math>\aleph_0</math>, aleph-null) and that for every cardinal number, there is a next-larger cardinal
+
+:<math>(\aleph_1, \aleph_2, \aleph_3, \cdots).\ </math>
+
+His [[continuum hypothesis]] is the proposition that <math>\mathfrak{c}</math> is the same as <math>\aleph_1</math>.  This hypothesis has been found to be independent of the standard axioms of mathematical set theory; it can neither be proved nor disproved from the standard assumptions.
+
+== Motivation ==
+In informal use, a '''cardinal number''' is what is normally referred to as a ''[[counting number]]'', provided that 0 is included: 0, 1, 2, .... They may be identified with the [[natural numbers]] beginning with 0. The counting numbers are exactly what can be defined formally as the [[finite set|finite]] cardinal numbers.  Infinite cardinals only occur in higher-level mathematics and logic.
+
+More formally, a non-zero number can be used for two purposes: to describe the size of a set, or to describe the position of an element in a sequence.  For finite sets and sequences it is easy to see that these two notions coincide, since for every number describing a position in a sequence we can construct a set which has exactly the right size, e.g. 3 describes the position of 'c' in the sequence <'a','b','c','d',...>, and we can construct the set {a,b,c} which has 3 elements.  However when dealing with [[infinite set]]s it is essential to distinguish between the two &mdash; the two notions are in fact different for infinite sets. Considering the position aspect leads to [[ordinal numbers]], while the size aspect is generalized by the '''cardinal numbers''' described here.
+
+The intuition behind the formal definition of cardinal is the construction of a notion of the relative size or "bigness" of a set without reference to the kind of members which it has.  For finite sets this is easy; one simply counts the number of elements a set has.  In order to compare the sizes of larger sets, it is necessary to appeal to more subtle notions.
+
+A set ''Y'' is at least as big as a set ''X'' if there is an [[injective function|injective]] (one-to-one) [[map (mathematics)|mapping]] from the elements of ''X'' to the elements of ''Y''. A one-to-one mapping identifies each element of the set ''X'' with a unique element of the set ''Y''. This is most easily understood by an example; suppose we have the sets ''X'' = {1,2,3} and ''Y'' = {a,b,c,d}, then using this notion of size we would observe that there is a mapping:
+: 1 → a
+: 2 → b
+: 3 → c
+which is one-to-one, and hence conclude that ''Y'' has cardinality greater than or equal to ''X''. Note the element d has no element mapping to it, but this is permitted as we only require a one-to-one mapping, and not necessarily a one-to-one and [[onto]] mapping. The advantage of this notion is that it can be extended to infinite sets.
+
+We can then extend this to an equality-style relation. Two [[Set (mathematics)|sets]] ''X'' and ''Y'' are said to have the same '''cardinality''' if there exists a [[bijection]] between ''X'' and ''Y''.  By the [[Schroeder-Bernstein theorem]], this is equivalent to there being ''both'' a one-to-one mapping from ''X'' to ''Y'' ''and'' a one-to-one mapping from ''Y'' to ''X''. We then write |''X''| = |''Y''|. The cardinal number of ''X'' itself is often defined as the least ordinal ''a'' with |''a''| = |''X''|.  This is called the [[von Neumann cardinal assignment]]; for this definition to make sense, it must be proved that every set has the same cardinality as ''some'' ordinal; this statement is the [[well-ordering principle]]. It is however possible to discuss the relative cardinality of sets without explicitly assigning names to objects.
+
+The classic example used is that of the infinite hotel paradox, also called [[Hilbert's paradox of the Grand Hotel]].  Suppose you are an innkeeper at a hotel with an infinite number of rooms. The hotel is full, and then a new guest arrives.  It's possible to fit the extra guest in by asking the guest who was in room 1 to move to room 2, the guest in room 2 to move to room 3, and so on, leaving room 1 vacant.  We can explicitly write a segment of this mapping:
+: 1 ↔ 2
+: 2 ↔ 3
+: 3 ↔ 4
+: ...
+: ''n'' ↔ ''n'' + 1
+: ...
+In this way we can see that the set {1,2,3,...} has the same cardinality as the set {2,3,4,...} since a bijection between the first and the second has been shown.  This motivates the definition of an infinite set being any set which has a proper subset of the same cardinality; in this case {2,3,4,...} is a proper subset of {1,2,3,...}.
+
+When considering these large objects, we might also want to see if the notion of counting order coincides with that of cardinal defined above for these infinite sets.  It happens that it doesn't; by considering the above example we can see that if some object "one greater than infinity" exists, then it must have the same cardinality as the infinite set we started out with. It is possible to use a different formal notion for number, called [[Ordinal number|ordinals]], based on the ideas of counting and considering each number in turn, and we discover that the notions of cardinality and ordinality are divergent once we move out of the finite numbers.
+
+It can be proved that the cardinality of the [[real number]]s is greater than that of the natural numbers just described.  This can be visualized using [[Cantor's diagonal argument]];
+classic questions of cardinality (for instance the [[continuum hypothesis]]) are concerned with discovering whether there is some cardinal between some pair of other infinite cardinals.  In more recent times mathematicians have been describing the properties of larger and larger cardinals.
+
+Since cardinality is such a common concept in mathematics, a variety of names are in use.  Sameness of cardinality is sometimes referred to as '''equipotence''', '''equipollence''', or '''equinumerosity'''. It is thus said that two sets with the same cardinality are, respectively, '''equipotent''', '''equipollent''', or '''equinumerous'''.
+
+== Formal definition ==
+Formally, assuming the [[axiom of choice]], the cardinality of a set ''X'' is the least ordinal α such that there is a bijection between ''X'' and α.  This definition is known as the [[von Neumann cardinal assignment]].  If the axiom of choice is not assumed we need to do something different.  The oldest definition of the cardinality of a set ''X'' (implicit in Cantor and explicit in Frege and [[Principia Mathematica]]) is as the class ''[X]'' of all sets that are equinumerous with ''X''. This does not work in [[ZFC]] or other related systems of [[axiomatic set theory]] because if ''X'' is non-empty, this collection is too large to be a set. In fact, for ''X &ne; &empty;'' there is an injection from the universe into ''[X]'' by mapping a set ''m'' to ''{m} &times; X'' and so by the [[Axiom of limitation of size|axiom of limitation of size]], ''[X]'' is a proper class. The definition does work however in [[type theory]] and in [[New Foundations]] and related systems.  However, if we restrict from this class to those equinumerous with ''X'' that have the least [[rank (set theory)|rank]], then it will work (this is a trick due to [[Dana Scott]]:<ref>{{cite journal|last1=Deiser|first1=Oliver|title=On the Development of the Notion of a Cardinal Number|journal=History and Philosophy of Logic|doi=10.1080/01445340903545904 |volume=31|issue=2|pages=123–143|month=May|year=2010}}</ref>  it works because the collection of objects with any given rank is a set).
+
+Formally, the order among cardinal numbers is defined as follows: |''X''| ≤ |''Y''| means that there exists an [[injective]] function from ''X'' to ''Y''. The [[Cantor–Bernstein–Schroeder theorem]] states that if |''X''| ≤ |''Y''| and |''Y''| ≤ |''X''| then |''X''| = |''Y''|. The [[axiom of choice]] is equivalent to the statement that given two sets ''X'' and ''Y'', either |''X''| ≤ |''Y''| or |''Y''| ≤ |''X''|.<ref name="Enderton">Enderton, Herbert. "Elements of Set Theory", Academic Press Inc., 1977. ISBN 0-12-238440-7</ref>
+
+A set ''X'' is [[Dedekind-infinite]] if there exists a [[proper subset]] ''Y'' of ''X'' with |''X''| = |''Y''|, and [[Dedekind-finite]] if such a subset doesn't exist.  The [[finite set|finite]] cardinals are just the [[natural numbers]], i.e., a set ''X'' is finite if and only if |''X''| = |''n''| = ''n'' for some natural number ''n''.  Any other set is [[infinite set|infinite]].  Assuming the axiom of choice, it can be proved that the Dedekind notions correspond to the standard ones. It can also be proved that the cardinal <math>\aleph_0</math> ([[aleph null]] or aleph-0, where aleph is the first letter in the [[Hebrew alphabet]], represented <math>\aleph</math>) of the set of natural numbers is the smallest infinite cardinal, i.e. that any infinite set has a subset of cardinality <math>\aleph_0.</math>  The next larger cardinal is denoted by <math>\aleph_1</math> and so on. For every [[Ordinal number|ordinal]] α there is a cardinal number <math>\aleph_{\alpha},</math> and this list exhausts all infinite cardinal numbers.
+
+== Cardinal arithmetic ==
+We can define [[arithmetic]] operations on cardinal numbers that generalize the ordinary operations for natural numbers.  It can be shown that for finite cardinals these operations coincide with the usual operations for natural numbers. Furthermore, these operations share many properties with ordinary arithmetic.
+
+=== Successor cardinal ===
+{{Details|Successor cardinal}}
+
+If the axiom of choice holds, every cardinal κ has a successor κ<sup>+</sup> > κ, and there are no cardinals between κ and its successor.  For finite cardinals, the successor is simply κ + 1.  For infinite cardinals, the successor cardinal differs from the [[successor ordinal]].
+
+=== Cardinal addition ===
+If ''X'' and ''Y'' are [[Disjoint sets|disjoint]], addition is given by the [[union (set theory)|union]] of ''X'' and ''Y''.  If the two sets are not already disjoint, then they can be replaced by disjoint sets of the same cardinality, e.g., replace ''X'' by ''X''&times;{0} and ''Y'' by ''Y''&times;{1}.
+:<math>|X| + |Y| = | X \cup Y|.</math>
+
+Zero is an additive identity ''κ'' + 0 = 0 + ''κ'' = ''κ''.
+
+Addition is [[associative]] (''κ'' + ''μ'') + ''ν'' = ''κ'' + (''μ'' + ''ν'').
+
+Addition is [[commutative]] ''κ'' + ''μ'' = ''μ'' + ''κ''.
+
+Addition is non-decreasing in both arguments:
+:<math>(\kappa \le \mu) \rightarrow ((\kappa + \nu \le \mu + \nu) \mbox{ and } (\nu + \kappa \le \nu + \mu)).</math>
+
+Assuming the axiom of choice, addition of infinite cardinal numbers is easy.  If either κ or μ is infinite, then
+:<math>\kappa + \mu = \max\{\kappa, \mu\}\,.</math>
+
+==== Subtraction ====
+Assuming the axiom of choice and, given an infinite cardinal σ and a cardinal μ, there exists a cardinal κ such that μ + κ = σ if and only if μ ≤ σ. It will be unique (and equal to σ) if and only if μ < σ.
+
+=== Cardinal multiplication ===
+The product of cardinals comes from the [[cartesian product]].
+:<math>|X|\cdot|Y| = |X \times Y|</math>
+
+''κ''·0 = 0·''κ'' = 0.
+
+''κ''·''μ'' = 0 → (''κ'' = 0 or ''μ'' = 0).
+
+One is a multiplicative identity ''κ''·1 = 1·''κ'' = ''κ''.
+
+Multiplication is associative (''κ''·''μ'')·''ν'' = ''κ''·(''μ''·''ν'').
+
+Multiplication is [[commutative]] ''κ''·''μ'' = ''μ''·''κ''.
+
+Multiplication is non-decreasing in both arguments:
+''κ'' ≤ ''μ'' → (''κ''·''ν'' ≤ ''μ''·''ν'' and ''ν''·''κ'' ≤ ''ν''·''μ'').
+
+Multiplication [[distributivity|distributes]] over addition:
+''κ''·(''μ'' + ''ν'') = ''κ''·''μ'' + ''κ''·''ν'' and
+(''μ'' + ''ν'')·''κ'' = ''μ''·''κ'' + ''ν''·''κ''.
+
+Assuming the axiom of choice, multiplication of infinite cardinal numbers is also easy.  If either ''κ''  or ''μ'' is infinite and both are non-zero, then
+:<math>\kappa\cdot\mu = \max\{\kappa, \mu\}.</math>
+
+==== Division ====
+Assuming the axiom of choice and, given an infinite cardinal ''π'' and a non-zero cardinal μ, there exists a cardinal κ such that μ · κ = ''π'' if and only if μ ≤ ''π''. It will be unique (and equal to ''π'') if and only if μ < ''π''.
+
+=== Cardinal exponentiation ===
+Exponentiation is given by
+:<math>|X|^{|Y|} = \left|X^Y\right|</math>
+where ''X<sup>Y</sup>'' is the set of all [[function (mathematics)|functions]] from ''Y'' to ''X''.
+
+:κ<sup>0</sup> = 1  (in particular 0<sup>0</sup> = 1), see [[empty function]].
+:If 1 ≤ μ, then 0<sup>μ</sup> = 0.
+:1<sup>μ</sup> = 1.
+:κ<sup>1</sup> = κ.
+:κ<sup>μ + ν</sup> = ''κ''<sup>''μ''</sup>·''κ''<sup>''ν''</sup>.
+:κ<sup>μ · ν</sup> = (''κ''<sup>''μ''</sup>)<sup>''ν''</sup>.
+:(''κ''·''μ'')<sup>''ν''</sup> = ''κ''<sup>''ν''</sup>·''μ''<sup>''ν''</sup>.
+Exponentiation is non-decreasing in both arguments:
+:(1 ≤ ''ν'' and ''κ'' ≤ ''μ'') → (''ν''<sup>''κ''</sup> ≤ ''ν''<sup>''μ''</sup>) and
+:(''κ'' ≤ ''μ'') → (''κ''<sup>''ν''</sup> ≤ ''μ''<sup>''ν''</sup>).
+
+Note that 2<sup>|''X''|</sup> is the cardinality of the [[power set]] of the set ''X'' and [[Cantor's diagonal argument]] shows that 2<sup>|''X''|</sup> > |''X''| for any set ''X''. This proves that no largest cardinal exists (because for any cardinal ''κ'', we can always find a larger cardinal 2<sup>κ</sup>). In fact, the [[class (set theory)|class]] of cardinals is a [[proper class]].  (This proof fails in some set theories, notably [[New Foundations]].)
+
+All the remaining propositions in this section assume the axiom of choice:
+
+:If ''κ'' and ''μ'' are both finite and greater than 1, and ''ν'' is infinite, then ''κ''<sup>''ν''</sup> = ''μ''<sup>''ν''</sup>.
+:If ''κ'' is infinite and ''μ'' is finite and non-zero, then ''κ''<sup>''μ''</sup> = ''κ''.
+
+If 2 ≤ κ and 1 ≤ μ and at least one of them is infinite, then:
+:Max (κ, 2<sup>μ</sup>) ≤ κ<sup>μ</sup> ≤ Max (2<sup>κ</sup>, 2<sup>μ</sup>).
+
+Using [[König's theorem (set theory)|König's theorem]], one can prove κ < κ<sup>cf(κ)</sup> and κ < cf(2<sup>κ</sup>) for any infinite cardinal κ, where cf(κ) is the [[cofinality]] of κ.
+
+====Roots====
+Assuming the axiom of choice and, given an infinite cardinal κ and a finite cardinal μ greater than 0, the cardinal ν satisfying <math>{\nu}^{\mu}={\kappa}</math> will be κ.
+
+====Logarithms====
+Assuming the axiom of choice and, given an infinite cardinal κ and a finite cardinal μ greater than 1, there may or may not be a cardinal λ satisfying <math>{\mu}^{\lambda}={\kappa}</math>. But, if such a cardinal exists, it is infinite and less than κ and any finite cardinality ν greater than 1 will also satisfy <math>{\nu}^{\lambda}={\kappa}</math>.
+
+The logarithm of an infinite cardinal number κ is defined as the least cardinal number μ such that κ ≤ 2<sup>μ</sup>. Logarithms of infinite cardinals are useful in some fields of mathematics, for example in the study of cardinal invariants of topological spaces, though they lack some of the properties that logarithms of positive real numbers possess.<ref>Robert A. McCoy and Ibula Ntantu, Topological Properties of Spaces of Continuous Functions, Lecture Notes in Mathematics 1315, [[Springer-Verlag]].</ref><ref>[[Eduard Čech]], Topological Spaces, revised by Zdenek Frolík and Miroslav Katetov, John Wiley & Sons, 1966.</ref><ref>D.A. Vladimirov, Boolean Algebras in Analysis, Mathematics and Its Applications, Kluwer Academic Publishers.</ref>
+
+==The continuum hypothesis==
+The [[continuum hypothesis]] (CH) states that there are no cardinals strictly between <math>\aleph_0</math> and <math>2^{\aleph_0}.</math> The latter cardinal number is also often denoted by <math>\mathfrak{c}</math>; it is the [[cardinality of the continuum]] (the set of [[real number]]s). In this case <math>2^{\aleph_0} = \aleph_1.</math> The [[generalized continuum hypothesis]] (GCH) states that for every infinite set ''X'', there are no cardinals strictly between |&nbsp;''X''&nbsp;| and 2<sup>|&nbsp;''X''&nbsp;|</sup>. The continuum hypothesis is independent of the usual axioms of set theory, the Zermelo-Fraenkel axioms together with the axiom of choice ([[Zermelo-Fraenkel set theory|ZFC]]).
+
+==See also==
+{{Col-begin}}
+{{Col-1-of-3}}
+* [[Counting]]
+* [[Names of numbers in English]]
+* [[Large cardinal]]
+* [[Inclusion-exclusion principle]]
+{{Col-2-of-3}}
+* [[Nominal number]]
+* [[Ordinal number]]
+* [[Regular cardinal]]
+{{Col-3-of-3}}
+{{Portal|Mathematics}}
+* [[Cantor's paradox|The paradox of the greatest cardinal]]
+* [[Aleph number]]
+* [[Beth number]]
+{{Col-end}}
+
+==References==
+'''Notes'''
+{{Reflist}}
+
+'''Bibliography'''
+*{{citation|last=Dauben|first=Joseph Warren|title=Georg Cantor: His Mathematics and Philosophy of the Infinite|publisher=Princeton University Press|place=Princeton|year=1990|isbn=0691-02447-2}}
+*{{aut|[[Hans Hahn (mathematician)|Hahn, Hans]]}}, ''Infinity'', Part IX, Chapter 2, Volume 3 of ''The World of Mathematics''. New York: Simon and Schuster, 1956.
+*{{aut|[[Paul Halmos|Halmos, Paul]]}}, ''[[Naive Set Theory (book)|Naive set theory]]''. Princeton, NJ: D. Van Nostrand Company, 1960. Reprinted by Springer-Verlag, New York, 1974. ISBN 0-387-90092-6 (Springer-Verlag edition).
+
+==External links==
+* {{springer|title=Cardinal number|id=p/c020370}}
+* {{MathWorld | urlname=CardinalNumber| title=Cardinal Number}}
+*[http://www.apronus.com/provenmath/cardinality.htm Cardinality at ProvenMath] proofs of the basic theorems on cardinality.
+
+
+{{Number Systems}}
+{{Set theory}}
+
+{{DEFAULTSORT:Cardinal Number}}
+[[Category:Cardinal numbers| ]]
+
+[[ru:Кардинальное число]]

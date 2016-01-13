@@ -1,0 +1,121 @@
+{{Infobox software
+| name                   = Berkeley DB
+| logo                   =
+| screenshot             =
+| caption                = A transactional embedded data manager for un-typed data in basic key/value data structures.
+| collapsible            =
+| author                 = [[Margo Seltzer]] and [[Keith Bostic]] of [[Sleepycat Software]]
+| developer              = [[Sleepycat Software]], later [[Oracle Corporation]]
+| released               =
+| latest release version = 6.0.20
+| latest release date    = {{Start date and age|2013|06|10}}
+| latest preview version =
+| latest preview date    =
+| frequently updated     = Yes
+| programming language   = [[C (programming language)|C]]
+| operating system       = [[Unix]], [[Linux]], [[Microsoft Windows|Windows]], [[AIX]], [[Solaris (operating system)|Sun Solaris]], [[SCO Group|SCO Unix]], [[Mac OS]]
+| platform               =
+| size                   = ~1244 [[Kilobyte|kB]] compiled on [[Microsoft Windows|Windows]] [[x86]]
+| language               =
+| status                 = production
+| genre                  = [[Embedded database]]
+| license                = [[Affero General Public License|AGPLv3]]
+| website                = {{URL|http://www.oracle.com/us/products/database/berkeley-db/index.html}}
+}}
+
+'''Berkeley DB''' (BDB) is a [[software]] [[Library (computing)|library]] that provides a high-performance [[embedded database]] for key/value data.
+Berkeley DB is written in [[C (programming language)|C]] with API bindings for [[C++]], [[C Sharp (programming language)|C#]], [[PHP]], [[Java (programming language)|Java]], [[Perl]], [[Python (programming language)|Python]], [[Ruby (programming language)|Ruby]], [[Tcl]], [[Smalltalk]], and many other [[programming language]]s. BDB stores arbitrary key/data pairs as byte arrays, and supports multiple data items for a single key. Berkeley DB is not a [[relational database]].<ref>[http://doc.gnu-darwin.org/intro/dbisnot.html Berkeley DB Reference Guide: What is Berkeley DB not?]. Doc.gnu-darwin.org (2001-05-31). Retrieved on 2013-09-18.</ref>
+
+BDB can support thousands of simultaneous threads of control or concurrent processes manipulating databases as large as 256 terabytes,<ref>http://doc.gnu-darwin.org/am_misc/dbsizes.html Berkeley DB Reference Guide: Database limits Retrieved on 2013-09-19</ref> on a wide variety of [[operating system]]s including most [[Unix-like]] and [[Microsoft Windows|Windows]] systems, and [[real-time operating system]]s. '''Berkeley DB''' is also used as the common name for three distinct products; Oracle Berkeley DB, Berkeley DB Java Edition, and Berkeley DB XML.  These three products all share a common ancestry and are currently under active development at [[Oracle Corporation]].
+
+== Origin ==
+Berkeley DB originated at the [[University of California, Berkeley]] as part of the transition (1986 to 1994) from 4.3[[Berkeley Software Distribution|BSD]] to 4.4BSD and of the effort to remove AT&T-encumbered code.<ref>{{cite conference |last1=Olson |first1=Michael A. |last2=Bostic |first2=Keith |last3=Seltzer |first3=Margo |title=Berkeley DB |booktitle=Proc. FREENIX Track, USENIX Annual Tech. Conf. |year=1999 |url=http://www.usenix.org/events/usenix99/full_papers/olson/olson.pdf |accessdate=October 20, 2009}}</ref> The first code, due to Seltzer and Yigit,<ref>{{cite conference |last1=Seltzer |first1=Margo |last2=Yigit |first2=Ozan |title=A New Hashing Package for UNIX |booktitle=Proc. USENIX Winter Tech. Conf. |year=1991 |url=http://www.eecs.harvard.edu/margo/papers/usenix91/paper.ps |accessdate=October 20, 2009}}</ref> attempted to create a disk hash table that performed better than any of the existing [[Dbm]] libraries. In 1996 [[Netscape]] requested that the authors of Berkeley DB improve and extend the library, then at version 1.86, to suit Netscape's requirements for an [[LDAP]] server<ref>{{cite news | last=Brunelli |first=Mark |url=http://searchenterpriselinux.techtarget.com/originalContent/0,289142,sid39_gci1071880,00.html |title=A Berkeley DB primer |journal=Enterprise Linux News |date=March 28, 2005 |accessdate=December 28, 2008}}</ref> and for use in the [[Netscape (web browser)|Netscape browser]]. That request led to the creation of [[Sleepycat Software]]. This company was acquired by [[Oracle Corporation]] in February 2006, which continues to develop and sell Berkeley DB.
+
+Since its initial release, Berkeley DB has gone through various versions.  Each major release cycle has introduced a single new major feature generally layering on top of the earlier features to add functionality to the product.  The 1.x releases focused on managing key/value data storage and are referred to as "Data Store" (DS).  The 2.x releases added a locking system enabling concurrent access to data.  This is what is known as "Concurrent Data Store" (CDS).  The 3.x releases added a logging system for transactions and recovery, called "Transactional Data Store" (TDS).  The 4.x releases added the ability to replicate log records and create a distributed highly available single-master multi-replica database.  This is called the "High Availability" (HA) feature set.  Berkeley DB's evolution has sometimes led to minor API changes or log format changes, but very rarely have database formats changed.  Berkeley DB HA supports online upgrades from one version to the next by maintaining the ability to read and apply the prior release's log records.
+
+The [[FreeBSD]] and [[OpenBSD]] operating systems continue to use Berkeley DB 1.8x for compatibility reasons;<ref>{{cite web|url=http://www.freebsd.org/cgi/man.cgi?query=db&apropos=0&sektion=0&manpath=FreeBSD+7.1-RELEASE&format=html |title=db(3) |accessdate=April 12, 2009}}</ref> Linux-based operating systems commonly include several versions to accommodate for applications still using older interfaces/files.
+
+Starting with the 6.0/12c releases, all Berkeley DB products are licensed under the [[Affero General Public License|GNU AGPL]].<ref>[https://oss.oracle.com/pipermail/bdb/2013-June/000056.html &#91;Berkeley DB Announce&#93; Major Release: Berkeley DB 12gR1 (12.1.6.0)]. Retrieved July 5, 2013.</ref> Up until then Berkeley DB was redistributed under the [[Sleepycat license|Sleepycat Public License]], which is an [[Open Source Initiative|OSI]]-approved [[open source license]] as well as an [[Free Software Foundation|FSF]]-approved [[free software license]].<ref>{{cite web|url=http://www.opensource.org/licenses/sleepycat.php |title=The Sleepycat License | publisher=[[Open Source Initiative]] |date=October 31, 2006 |accessdate=December 28, 2008}}</ref><ref>{{cite web|url=http://www.fsf.org/licensing/licenses/index_html#GPLCompatibleLicenses |title=Licenses |publisher=[[Free Software Foundation]] |date=December 10, 2008 |accessdate=December 28, 2008}}</ref> The product ships with complete source code, build script, test suite, and documentation. The code quality and general utility along with the licensing terms have led to its use in a multitude of [[free and open source software]]. Those who do not wish to abide by the terms of the GNU AGPL, or use an older version with the Sleepycat Public License, have the option of purchasing another [[proprietary software license|proprietary license]] for redistribution from [[Oracle Corporation]]. This technique is called [[Dual license|dual licensing]].
+
+Berkeley DB includes compatibility interfaces for some historic Unix database libraries: [[dbm]], [[ndbm]] and hsearch (a [[UNIX System V|System V]] library for creating in-memory [[hash table]]s).
+
+==Architecture==
+Berkeley DB has an architecture notably simpler than that of other database systems like [[relational database management system]]s. For example, like [[SQLite]], it does not provide support for network access — programs access the database using in-process [[Application programming interface|API]] calls. Oracle added support for SQL in 11g R2 release based on the popular SQLite API by including a version of SQLite in Berkeley DB.<ref>{{cite web|title=Twitter / Gregory Burd: @humanications We didn't r ...|url=http://twitter.com/gregburd/statuses/10979336891}}</ref> There is third party support for [[PL/SQL]] in Berkeley DB via a commercial product named [[StepSqlite|Metatranz StepSqlite]].<ref>{{cite web|title=Official Berkeley DB FAQ|url=http://www.oracle.com/technetwork/database/berkeleydb/db-faq-095848.html#DoesBerkeleyDBsupportPLSQL|publisher=[[Oracle Corporation]] |quote=Does Berkeley DB support PL/SQL? |accessdate=March 30, 2010}}</ref>
+
+A program accessing the database is free to decide how the data is to be stored in a record. Berkeley DB puts no constraints on the record's data. The record and its key can both be up to four gigabytes long.
+
+Despite having a simple architecture, Berkeley DB supports many advanced database features such as [[ACID]] [[Database transaction|transactions]], fine-grained [[Lock (computer science)|locking]], hot [[backup]]s and [[replication (computer science)|replication]].
+
+==Editions==
+The name '''Berkeley DB''' encompasses three different products:
+
+# Berkeley DB
+# Berkeley DB Java Edition
+# Berkeley DB XML
+
+Each edition has separate database libraries, despite the common branding. The first is the traditional Berkeley DB, written in C. It contains several database implementations, including a [[B-tree|B-Tree]] and one built around [[extendible hashing]].  It  supports multiple language bindings, including C/C++, Java (via JNI), C# .NET, [[Perl]] and [[Python (programming language)|Python]].
+
+Berkeley DB Java Edition (JE) is a pure Java database. Its design resembles that of Berkeley DB without replicating it exactly, and has a feature set that includes many of those found in the traditional Berkeley DB and others that are specific to the Java Edition. Since it is written in pure Java, no native code is required. It has a log structured storage architecture, which gives it different performance and concurrency characteristics. Three APIs are available—a Direct Persistence Layer which is "Plain Old Java Objects" (POJO); one which is based on the Java Collections Framework (an object persistence approach); and one based on the traditional Berkeley DB API.  The Berkeley DB Java Edition High Availability option (Replication) is available.  Note that traditional Berkeley DB also supports a Java API, but it does so via [[Java Native Interface|JNI]] and thus requires an installed native library.
+
+The Berkeley DB XML database specializes in the storage of XML documents, supporting [[XQuery]] via [[XQilla]]. It is implemented as an additional layer on top of (a legacy version of) Berkeley DB and the [[Xerces]] library. DB XML is written in C++ and supports multiple language bindings, including C++, Java (via JNI), [[Perl]] and [[Python (programming language)|Python]].
+
+== Programs that use Berkeley DB ==
+
+Berkeley DB provides the underlying storage and retrieval system of several [[Lightweight Directory Access Protocol|LDAP]] servers, database systems, and many other proprietary and free/open source applications. Notable software that use Berkeley DB for data storage include:
+
+* [[389 Directory Server]] - An open-source LDAP server from the [[Fedora Project]].
+* [[Advanced Resource Connector|ARC]] - Advanced Resource Connector open source grid middleware introduced by [[NorduGrid]], use BerkeleyDB in several services.
+* [[Asterisk PBX]] - A free/open source PBX.
+* [[Bitcoin]] - (until version 0.8.0<ref>[http://bitcointalk.org/index.php?topic=145184.msg1540252#msg1540252 Bitcoin-Qt / bitcoind version 0.8.0 released]. Bitcointalk.org. Retrieved on 2013-09-18.</ref>) A distributed [[peer-to-peer]] open source [[Electronic money|digital currency]].
+* [[Bogofilter]] – A free/open source [[spam (email)|spam]] filter that saves its wordlists using Berkeley DB.
+* [[Carbonado (Java)|Carbonado]] – An open source relational database access layer.
+* [[Citadel/UX|Citadel]] – A free/open source [[groupware]] platform that keeps all of its data stores, including the message base, in Berkeley DB.
+* [[Cyrus IMAP server|Cyrus IMAP Server]] – A free/open source [[IMAP]] and [[POP3]] server, developed by [[Carnegie Mellon University]]
+* [[Evolution (software)|Evolution]] - A free/open source mail client; contacts are stored in addressbook.db using Berkeley DB
+* [[GlusterFS]] - Prior to v3.4, GlusterFS included a BDB storage translator.
+* [[GRAMPS]] - Free [[genealogy software]].
+* [[Jabberd2]] – An [[Extensible Messaging and Presence Protocol]] server
+* [[KDevelop]] – An [[Integrated Development Environment|IDE]] for [[Linux]] and other [[Unix-like]] [[operating system]]s
+* [[KLibido]] – A free/open source [[Newsgroup]] reader tailored for binary downloads
+* [[Movable Type]] (until version 4.0) – A proprietary [[weblog]] publishing system developed by [[California]]-based [[Six Apart]]
+* [[memcachedb]] - A persistence-enabled variant of [[memcached]]
+* [[MySQL]] database system – Prior to v5.1, MySQL included a BDB data storage backend.
+* [[OpenCOBOL]] - A free/open source COBOL implementation.
+* [[OpenDS]] and [[OpenDJ]] - open source directory servers.
+* [[OpenLDAP]] – A free/open source implementation of the Lightweight Directory Access Protocol (LDAP)
+* [[Oracle NoSQL Database|Oracle NoSQL]] - A NoSQL distributed key-value database
+* [[Papyrus Platform]] – The [[ISIS Papyrus]] Platform uses BerkeleyDB for its distributed object-relational transaction kernel for adaptive content and process management in [[enterprise application]]s
+* [[PISI#PiSi package management|PiSi]] – The package management system of Pardus
+* [[Postfix (software)|Postfix]] – A fast, secure, easy-to-administer [[mail transfer agent|MTA]] for Linux/Unix systems
+* [[Parallel Virtual File System]] (PVFS) – A parallel file system for HPC clusters.<ref>[http://www.rce-cast.com/Podcast/rce-35-pvfs-parallel-virtual-filesystem.html RCE 35: PVFS Parallel Virtual FileSystem]</ref>
+* [[RedDwarf Server|Red Dwarf]]  - A server framework originally developed by Sun, now open sourced, commonly used for game development.
+* [[Redland RDF Application Framework|Redland]] – A RDF Application Framework can use BDB for persistent storage (triplestore)
+* [[RPM Package Manager|RPM]] – The RPM Package Manager uses Berkeley DB to retain its internal database of [[Software package (installation)|packages]] installed on a system
+* [[Spamassassin]] – An anti-spam application
+* [[squidGuard]] - squidGuard is a URL redirector software, which can be used for content control of websites users can access.<ref>[http://www.squidguard.org/Doc/other_sources.html SquidGuard]. SquidGuard. Retrieved on 2013-09-18.</ref>
+* [[Apache Subversion|Subversion]] – A [[version control system]] designed specifically to replace [[Concurrent Versions System|CVS]]
+* [[Sun Grid Engine]] – A [[free and open source software|free and open source]] distributed resource management system.
+* [[Wialon]] - a GPS tracking and fleet management software with [[Web-interface]]<ref>http://gurtam.com/en/products/earn/get_wialon/wialon_pro.html</ref>
+
+== Licensing ==
+Oracle Corporation makes versions 2.0 and higher of Berkeley DB available under a [[dual license]].<ref>{{cite web|url=http://www.oracle.com/technology/software/products/berkeley-db/htdocs/oslicense.html |title=Open Source License for Berkeley DB |publisher=[[Oracle Corporation]] |quote=For a license to use the Berkeley DB software under conditions other than those described here, or to purchase support for this software, please contact berkeleydb-info_us@oracle.com. |accessdate=December 28, 2008}}</ref> The [[Sleepycat License|sleepycat license]] license is a 2-clause [[BSD license]] with an additional [[copyleft]] clause similar to the [[GNU General Public License|GNU GPL]] version 2's Section 3, requiring source code of an application using Berkeley DB to be made available for a nominal fee.
+
+As of Berkeley DB release 6.0, the Oracle Corporation has relicensed Berkeley DB under the [[Affero General Public License|GNU AGPL v3]].<ref>{{cite web|url=https://oss.oracle.com/pipermail/bdb/2013-June/000056.html|title=Major Release: Berkeley DB 12gR1 (12.1.6.0)|date=June 10, 2013|accessdate=July 15, 2013}}</ref>
+
+{{As of|2011|7}}, Oracle's list price for commercial Berkeley DB licenses varies between 900 and 13,800 USD per processor.<ref>http://www.oracle.com/us/corporate/pricing/technology-price-list-070617.pdf</ref>
+
+== References ==
+{{Reflist}}
+
+== External links ==
+* [http://www.oracle.com/technology/products/berkeley-db Oracle Berkeley DB Site]
+* [http://download.oracle.com/docs/cd/E17076_02/html/programmer_reference/index.html Berkeley DB Programmer's Reference Guide]
+* [http://omtco.eu/references/oracle/top-60-licensing-pitfalls-for-oracle-databases-and-oracle-technology-products/ Licensing pitfalls for Oracle Technology Products]
+* [http://www.apress.com/book/view/9781590596722 ''The Berkeley DB Book'' by Himanshu Yadava]
+* [https://launchpad.net/berkeley-db Launchpad.net] - Berkeley DB at [[Launchpad (website)|Launchpad]]
+* [http://omtco.eu/references/oracle/ Oracle Licensing Knowledge Net]
+
+{{DEFAULTSORT:Berkeley Db}}
+[[Category:Free database management systems]]
+[[Category:Oracle software]]
+[[Category:Structured storage]]

@@ -1,0 +1,95 @@
+{{Infobox software
+| logo                       = [[Image:AbiWord.svg|AbiWord icon|48px]]
+| screenshot                 = [[Image:Abiword 2.4.png|250px]]
+| caption                    = AbiWord running on [[Ubuntu (operating system)|Ubuntu]]
+| developer                  = [[AbiSource]]
+| released                   = {{start date|1998|12|01}}
+| frequently updated=yes <!-- Release version update? Don't edit this page, just click on the version number! -->
+| programming language       = [[C++]], [[gtkmm]] 3
+| operating_system           = [[Cross-platform]]
+| language                   = Multilingual<ref>[http://www.abisource.com/contribute/translate/ List of AbiWord translations (both complete and incomplete)]</ref>
+| genre                      = [[Word processor]]
+| license                    = [[GNU General Public License]] 2
+| website                    = {{url|http://abisource.org/}}
+}}
+
+'''AbiWord''' is a [[free and open source software]] [[word processor]] written in [[C++]] with the help of [[gtkmm]]. Since version 3 it is based on GTK+ 3. The name "AbiWord" (pronounced [æbiː], like the name, "Abby" + [wərd]) is derived from the root of the Spanish word "''[[wikt:en:abierto#Spanish|abierto]]''", meaning "open".<ref name="abi">Project Mascot [http://www.abisource.com/~abi/ Abi the Ant].  Page explains Abi is pronounced just like "Abby"</ref>
+
+Abiword was originally started by SourceGear Corporation as the first part of a proposed AbiSuite but was adopted by open source developers after SourceGear changed its business focus and ceased development. It now runs on [[Linux]], [[Microsoft Windows]], [[ReactOS]], Solaris, [[AmigaOS]] 4.0 (through its [[Cygnix]] [[X11]] engine), [[MeeGo]] (on the [[Nokia N9]] smartphone), [[QNX]] and other [[operating system]]s.
+
+The [[Mac OS X]] port has remained on version 2.4 since 2005,<ref>{{Citation
+  | author = Francis James Franklin
+  | title = fjf's (Cocoa) AbiWord for Mac (MacOSX)
+  | date = 2005-09-11
+  | url = http://www.abisource.com/~fjf/
+  | accessdate = 2010-05-22| archiveurl= http://web.archive.org/web/20100605114752/http://www.abisource.com/~fjf/| archivedate= 5 June 2010 <!--DASHBot-->| deadurl= no}}
+</ref> although the current version does run non-natively on Mac OS X through [[X11.app]].
+
+AbiWord is part of the [[AbiSource]] project which develops a number of [[office suite|office-related]] technologies.<ref name="abisource">{{cite web
+| url = http://www.abisource.com/projects/
+| title =  AbiSource Projects
+| date = 2011-09-22
+| publisher = [[AbiSource]]
+| accessdate = 2011-09-22
+}}</ref>
+
+The software is available on [[Android OS|Android]] devices as part of the ''Ubuntu noroot'' package from the Google [[Play Store]].<ref>{{cite web|url=https://play.google.com/store/apps/details?id=com.cuntubuntu |title=Ubuntu noroot on Google Play |publisher=Google Play |date=2012-09-22 |accessdate=2012-12-24}}</ref>
+==Features==
+AbiWord supports both basic word processing features such as lists, indents and character formats, and more sophisticated features including tables, styles, page headers and footers, [[footnotes]], templates, multiple views, page columns, [[spell check]]ing, and [[grammar check]]ing.<ref name="grammar-check">{{cite web
+| url = http://developers.slashdot.org/article.pl?sid=05/10/15/1312216
+| title =  AbiWord beats OpenOffice to a Grammar Checker
+| date = 2005-10-15
+| publisher = [[Slashdot]]
+| quote = "The recently released AbiWord-2.4...is the first Free Word Processor to offer an integrated Grammar Checker"
+| accessdate = 2007-11-23
+}}</ref> Starting with version 2.8.0, AbiWord includes a [[collaborative software|collaboration]] plugin that allows integration with AbiCollab.net, a Web-based service that permits multiple users to work on the same document [[Collaborative real-time editor|in real time]], in full synchronization.  The Presentation view of AbiWord, which permits easy display of presentations created in AbiWord on "screen-sized" pages, is another feature not often found in word processors.
+
+===Interface===
+AbiWord generally works similarly to classic versions (pre-Office 2007) of [[Microsoft Word]], as direct ease of migration was a high priority early goal.  While many interface similarities remain, cloning the Word interface is not a top priority.  The interface is intended to follow user interface guidelines for each respective platform.
+
+===File formats===
+AbiWord comes with several import and export filters providing a partial support for such formats as [[HTML]], [[Microsoft Word]] (.doc), [[Office Open XML]] (.docx),<ref>{{cite web
+| url = http://abisource.com/release-notes/2.6.0.phtml
+| title = AbiWord v2.6.0 Released
+| publisher = www.abisource.com
+| accessdate = 2008-03-24
+| archiveurl= http://web.archive.org/web/20080401162119/http://abisource.com/release-notes/2.6.0.phtml| archivedate= 1 April 2008 <!--DASHBot-->| deadurl= no}}</ref><ref>{{cite web
+| url = http://www.abisource.com/changelogs/2.6.5.phtml
+| title = AbiWord v2.6.5 Changelog
+| publisher = www.abisource.com
+| accessdate = 2008-12-19
+| archiveurl= http://web.archive.org/web/20081217104337/http://www.abisource.com/changelogs/2.6.5.phtml| archivedate= 17 December 2008 <!--DASHBot-->| deadurl= no}}</ref> [[OpenDocument|OpenDocument Text]] (.odt), [[Rich Text Format]] (.rtf), and [[Plain text|text document]]s (.txt). [[LaTeX]] is supported for export only. Plug-in filters are available to deal with many other formats, notably [[WordPerfect]] documents. The native [[file format]], .abw, uses [[XML]], so as to mitigate [[vendor lock-in]] concerns with respect to interoperability and [[digital archiving]].
+
+===Grammar checking===
+The AbiWord project includes a US English-only grammar checking plugin using [[Link Grammar]]. AbiWord had grammar checking before any other open source word processor, although a grammar checker was later added to [[OpenOffice.org]].<ref name="grammar-check" /> Link Grammar is both a theory of syntax and an open source parser which is now{{When|date=May 2010}} developed by the AbiWord project.
+
+==See also==
+{{Portal|Free software}}
+
+* [[List of word processors]]
+* [[Comparison of word processors]]
+* [[Office Open XML software]]
+* [[OpenDocument software]]
+
+==References==
+{{Reflist}}
+
+==External links==
+{{commons|AbiWord}}
+* [http://abisource.com/ AbiSource.com], official website.
+* [http://salon.com/tech/col/leon/2002/11/15/abiword/index.html Andrew Leonard: Abiword Up.] ''Salon.com'', November 15, 2002. History of the project and comparison with closed source development.
+* [http://www.redhatmagazine.com/2008/05/08/abiword-team-interview Interview with Development team after 2.6 release]
+* [http://www.informationweek.com/news/software/enterpriseapps/showArticle.jhtml;jsessionid=J3HRLJX35B4J0QSNDLPSKHSCJUNN2JVN?articleID=212201932&pgno=5&queryText=&isPrev= AbiWord: A Small, Swift Word Processor]
+
+{{Word processors}}
+
+{{DEFAULTSORT:Abiword}}
+[[Category:GTK+]]
+[[Category:Linux word processors]]
+[[Category:OS X word processors]]
+[[Category:Windows word processors]]
+[[Category:Free word processors]]
+[[Category:Free software programmed in C++]]
+[[Category:Cross-platform software]]
+[[Category:Portable software]]
+[[Category:1998 software]]

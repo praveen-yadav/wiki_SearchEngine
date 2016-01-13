@@ -1,0 +1,81 @@
+{{Use mdy dates|date=October 2013}}
+{{About|the first mass-produced Apple computer|an overview of the series of computers based on it|Apple II series}}
+{{refimprove|date=June 2012}}
+
+[[File:Apple_II_IMG_4212.jpg|thumb|right|240px|Apple-II computer on display at the private [[Musée Bolo]]<ref>{{cite web |url=http://ic.epfl.ch/page-37545-fr.html |title=Musée Bolo |publisher=École Polytechnique Fédérale de Lausanne |accessdate=October 23, 2011}}</ref> from the [[École Polytechnique Fédérale de Lausanne]] in [[Lausanne]].]]
+[[File:Micromodem II in Apple II.jpg|thumb|240px|An Apple II computer with an external [[modem]]]]
+
+The '''Apple II''' (styled as '''apple ][''') is an [[8-bit]] [[home computer]], one of the first highly successful mass-produced [[microcomputer]] products,<ref>{{cite web|last=Reimer |first=Jeremy |url=http://arstechnica.com/articles/culture/total-share.ars/3 |title=Total share: 30 years of personal computer market share figures |publisher=Ars Technica |date=December 14, 2005 |accessdate=May 25, 2010}}</ref> designed primarily by [[Steve Wozniak]], manufactured by Apple Computer (now [[Apple Inc.]]) and introduced in 1977. It is the first model in a [[Apple II series|series of computers]] which were produced until [[Apple IIe]] production ceased in November 1993.<ref>{{cite web|author=Steven Weyhrich |url=http://apple2history.org/history/appy/ahb5.html |title=1990-1995 |publisher=Apple II History |date=May 16, 2003 |accessdate=May 25, 2010}}</ref>
+
+In 2013, after more than 35 years of Apple II released, the original [[Apple DOS]] [[source code]] can be seen at the [[Computer History Museum]] and its website.<ref>{{cite web|url=http://www.computerhistory.org/atchm/apple-ii-dos-source-code/ |title=Apple II DOS source code |first=Len|last=Shustek |date=2013-11-12 |accessdate=2013-11-30 |publisher=computerhistory.org}}</ref> Paul Laughton, the creator of the code has donated it.<ref>{{cite web |url=http://www.engadget.com/2013/11/13/apple-ii-dos-source-code-museum/ |title=Apple II's 35-year-old operating system is now open to the public |date=November 13, 2013}}</ref>
+
+==History==
+The earliest Apple IIs were assembled in [[Silicon Valley]], and later in Texas;<ref>{{cite book|first=Frank|last=Rose|title=West of Eden |publisher=Arrow Books|year=1989|page=3|isbn=0-09-976200-5}}</ref> [[printed circuit board]]s were manufactured in [[Ireland]] and [[Singapore]]. The first computers went on sale on June 10, 1977<ref name = "Apple II intro date">{{cite web | title = June 10, 1977 - Apple II Released Today | work = This Day in History | publisher = Computer History Museum | location = Mountain View, CA | url = http://www.computerhistory.org/tdih/June/10/ | accessdate = August 3, 2012}} June 10, 1977 was a Friday.</ref><ref name = "Apple II History">{{cite web | last = Weyhrich | first = Steven| title = 4-The Apple II, cont. - Product Introduction | work = Apple II History | publisher = Apple2History.org| url = http://apple2history.org/history/ah04/| accessdate = August 3, 2012| quote = The first motherboard-only Apple II computers shipped on May 10, 1977, for those who wanted to add their own case, keyboard, and power supply (or wanted to update their Apple-1 'system' with the latest and greatest). A month later, on June 11, 1977, Apple began shipping full Apple II systems. }}</ref> with a [[MOS Technology]] [[MOS Technology 6502|6502]] microprocessor running at {{nowrap|1 [[Hertz|MHz]]}}, two [[game paddle]]s,{{r|helmers197803}} {{nowrap|4 kB}} of [[Random-access memory|RAM]], an [[compact audio cassette#Data recording|audio cassette]] interface for loading programs and storing data, and the [[Integer BASIC]] programming language built into the [[read-only memory|ROMs]]. The video controller displayed 24 lines by 40 columns of monochrome, upper-case-only (the original character set matches ASCII characters 20<sub>h</sub> to 5F<sub>h</sub>) text on the screen, with [[National Television System Committee|NTSC]] [[composite video]] output suitable for display on a TV monitor, or on a regular TV set by way of a separate [[RF modulator]]. The original retail price of the computer was {{nowrap|$1,298 USD}}<ref>{{cite book|last=Forster| first=Winnie|authorlink=Winnie Forster|title=The encyclopedia of consoles, handhelds & home computers 1972 – 2005|year=2005|publisher=GAMEPLAN|isbn=3-00-015359-4|page=19}}</ref> (with {{nowrap|4 kB}} of RAM) and {{nowrap|$2,638 USD}} (with the maximum {{nowrap|48 kB}} of RAM).<ref name "Avidd Pricelist"> [[:File:AVIDD Apple price list 1977 front.jpg | 1977 Apple II price list ]] A-VIDD Electronics Co., 1977 Long Beach, CA.</ref> To reflect the computer's [[Apple II graphics|color graphics]] capability, the Apple logo on the casing was represented using rainbow stripes,<ref>{{cite web|title=4-The Apple II, cont. |url=http://apple2history.org/history/ah04.html|author=Steven Weyhrich|publisher=Apple II History |date=April 21, 2002|accessdate=November 16, 2006}}</ref> which remained a part of Apple's corporate logo until early 1998.
+
+==Overview==
+The original Apple II used [[data cassette]] storage like other microcomputers of the time. In 1978 they introduced an external 5¼-inch [[floppy disk]] drive, the [[Disk II]], attached via a controller card that plugged into one of the computer's [[expansion slot]]s (usually slot 6), which was used for data storage and retrieval to replace cassettes. The Disk II interface, created by [[Steve Wozniak]], was regarded as an engineering masterpiece for its economy of electronic components.<ref>{{cite web| title=5-The Disk II|url=http://apple2history.org/history/ah05.html|publisher=Apple II History | author=Steven Weyhrich|date=December 28, 2001|accessdate=November 16, 2006| archiveurl= http://web.archive.org/web/20061201122002/http://apple2history.org/history/ah05.html| archivedate= December 1, 2006 <!--DASHBot-->| deadurl= no}}</ref><ref>{{cite book
+|last1=Freiberger
+|first1=Paul
+|authorlink1=Paul Freiberger
+|first2=Michael
+|last2=Swaine
+|authorlink2=Michael Swaine (author)
+|title=Fire In The Valley, Part Two
+|work=A+ Magazine
+|type=Book excerpt
+|date=January 1985
+|page=45}}</ref>
+
+The approach taken in the Disk II controller was typical of Wozniak's designs. The Apple II used several engineering shortcuts to save hardware and reduce costs. For example, taking advantage of the way that 6502 instructions only access memory every other clock cycle, the video generation circuitry's memory access on the otherwise unused cycles avoided memory contention issues and also eliminated the need for a separate refresh circuit for the DRAM chips. Rather than use a complex analog-to-digital circuit to read the outputs of the game controller, Wozniak used a simple timer circuit whose period was proportional to the resistance of the game controller, and used a software loop to measure the timer.
+
+The text and graphics screens had a complex arrangement (the scanlines were not stored in sequential areas of memory) which was reputedly due to Wozniak's realization that doing it that way would save a chip; it was less expensive to have software calculate or look up the address of the required scanline than to include the extra hardware. Similarly, in the high-resolution graphics mode, color was determined by pixel position and could thus be implemented in software, saving Wozniak the chips needed to convert bit patterns to colors. This also allowed for sub-pixel [[font]] rendering since orange and blue pixels appeared half a pixel-width farther to the right on the screen than green and purple pixels.<ref>{{cite web|url=http://www.grc.com/ctwho.htm |title=The origins of sub-pixel font rendering |publisher=Gibson Research Corporation |last=Gibson |first=Steve|accessdate=August 4, 2006 | archiveurl= http://web.archive.org/web/20060721130149/http://www.grc.com/ctwho.htm| archivedate= July 21, 2006 <!--DASHBot-->| deadurl= no}}</ref>
+
+==Display and graphics==
+Color on the Apple II series took advantage of a quirk of the [[National Television System Committee|NTSC]] television signal standard, which made color display relatively easy and inexpensive to implement. The original NTSC television signal specification was black-and-white. Color was tacked on later by adding a 3.58-MHz subcarrier signal that was partially ignored by B&W TV sets. Color is encoded based on the ''[[phase (waves)|phase]]'' of this signal in relation to a reference ''[[color burst]]'' signal. The result is that the position, size, and intensity of a series of pulses define color information. These pulses can translate into ''[[pixel]]s'' on the computer screen.
+
+The Apple II display provided two pixels per subcarrier cycle. When the color burst reference signal was turned on and the computer attached to a color display, it could display green by showing one alternating pattern of pixels, magenta with an opposite pattern of alternating pixels, and white by placing two pixels next to each other. Later, blue and orange became available by tweaking the offset of the pixels by half a pixel-width in relation to the color-burst signal. The high-resolution display offered more colors simply by compressing more, narrower pixels into each subcarrier cycle. 
+
+The coarse, low-resolution graphics display mode worked differently, as it could output a ''pattern'' of dots per pixel to offer more color options. These patterns were stored in the character generator ROM and replaced the text character bit patterns when the computer was switched to low-res graphics mode. The text mode and low-res graphics mode used the same memory region and the same circuitry was used for both.
+
+==Sound==
+The epitome of the Apple II design philosophy was the Apple II sound circuitry. Rather than having a dedicated sound-synthesis chip, the Apple II had a toggle circuit that could only emit a click through a built-in speaker or a line out jack; all other sounds (including two, three and, eventually, four-voice music and playback of audio samples and speech synthesis) were generated entirely by software that clicked the speaker at just the right times. It was nearly a decade before an Apple II was released with a dedicated sound chip (though with six expansion slots, users could add sound functionality with various [[Apple II sound cards|sound cards]]). Similar techniques were used for cassette storage: the cassette output worked the same as the speaker, and the input was a simple [[Zero crossing threshold detector|zero-crossing detector]] that served as a relatively crude (1-bit) audio digitizer. Routines in the ROM were used to encode and decode data in [[frequency-shift keying]] for the cassette.
+
+==Third-party devices and applications==
+Wozniak's open design and the Apple II's multiple expansion slots permitted a wide variety of third-party devices, including [[Apple II peripheral cards]] such as [[Apple II serial cards|serial controllers]], display controllers, memory boards, hard disks, networking components, and [[Apple II system clocks|realtime clocks]]. There were plug-in [[Apple II processor cards|expansion cards]] – such as the ''Z80-card''<ref name=z80>{{cite journal|work=[[InfoWorld]]|publisher=InfoWorld Media Group|date=February 6, 1984| issue=Vol. 6, Num. 6|quote=Several manufacturers, however, make Z80 coprocessor boards that plug into the Apple II.|page=64|title=Review: Premium Softcard IIe|last=Petersen|first=Marty}}</ref> – that permitted the Apple to use the [[Zilog Z80|Z80]] processor and run a multitude of programs developed under the [[CP/M]] operating system,<ref name="z80"/> including the [[dBase|dBase II]] database and the [[WordStar]] word processor. There was also a third-party [[Motorola 6809|6809]] card that would allow [[OS-9]] Level One to be run. Third-party [[Apple II sound cards|sound cards]] greatly improved audio capabilities, allowing simple music synthesis and text-to-speech functions. Eventually, [[Apple II accelerators|Apple II accelerator cards]] were created to double or quadruple the computer's speed.
+
+==Power source==
+Wozniak, whose passion was circuitry, didn't concern himself with the issue of heat. But the power source necessary to keep all those circuits functioning can make a lot of heat, requiring a fan for cooling. Steve Jobs thought fans an inelegant, low-tech contraption and looked for someone who could come up with a better one.{{Citation needed|date=June 2013}}
+
+Rod Holt is credited (for example in the [[Walter Isaacson]] biography of Jobs) with the solution. Holt employed a [[Switched-mode power supply]] design. This generated far less unwanted heat than a linear power supply, which most other home computers of the time used.{{Citation needed|date=June 2013}}
+
+Isaacson quotes Wozniak saying that this was not something he could have done. "I only knew vaguely what a switching power supply was."{{Citation needed|date=June 2013}}
+
+==Reception==
+After seeing a crude, [[wire-wrapped]] prototype demonstrated by [[Steve Wozniak]] and [[Steve Jobs]] in November 1976,<ref name="helmers197803">{{cite news | url=http://archive.org/stream/byte-magazine-1978-03/1978_03_BYTE_03-03_Computer_Music_Systems#page/n19/mode/2up | title=An Apple to Byte | work=BYTE | date=March 1978 | accessdate=October 17, 2013 | author=Helmers, Carl | pages=18}}</ref> ''[[BYTE]]'' predicted in April 1977 that the Apple II "may be the first product to fully qualify as the 'appliance computer' ... a completed system which is purchased off the retail shelf, taken home, plugged in and used". The computer's color graphics capability especially impressed the magazine.<ref name="helmers197704">{{cite news | url=http://archive.org/stream/byte-magazine-1977-04/1977_04_BYTE_02-04_Baudot_Machines#page/n11/mode/2up | title=A Nybble on the Apple | work=BYTE | date=April 1977 | accessdate=October 16, 2013 | author=Helmers, Carl | pages=10}}</ref> In the following issue, ''BYTE'' published a detailed description by Wozniak of his design; the article began, "To me, a personal computer should be small, reliable, convenient to use and inexpensive".<ref name="wozniak197705">{{cite news | url=http://archive.org/stream/byte-magazine-1977-05/1977_05_BYTE_02-05_Interfacing#page/n35/mode/2up | title=System Description / The Apple-II | work=BYTE | date=May 1977 | accessdate=October 17, 2013 | author=Wozniak, Steve | pages=34-43}}</ref> The magazine published a favorable review of the computer in March 1978, concluding that "For the user that wants color graphics, the Apple II is the only practical choice available in the 'appliance' computer class".{{r|helmers197803}}
+
+==See also==
+{{portal|align=left|Computer science|1970s}}
+* [[Apple II series]]
+* [[Apple I]]
+* [[Apple III]]
+*[[OpenEmulator]], an emulator of the Apple II
+
+==References==
+{{Reflist|30em}}
+
+{{s-start}}
+{{Succession box
+|before=[[Apple I]]
+|title=Apple II|years=June 10, 1977
+|after=[[Apple II Plus]]<br>[[Apple III]]
+}}
+{{s-end}}
+{{Apple hardware before 1998}}
+{{Apple hardware}}
+{{Woz}}
+
+{{DEFAULTSORT:Apple Ii}}
+[[Category:1977 introductions]]
+[[Category:Apple II computers|Apple II computers]]
+
+[[ca:Apple II]]

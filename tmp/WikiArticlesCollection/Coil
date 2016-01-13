@@ -1,0 +1,105 @@
+{{Other uses}}
+{{Redirect|Winding}}
+[[File:Transformers.png|thumb|Diagram of typical transformer configurations]]
+An '''electromagnetic coil''' (or simply a "coil") is formed when a conductor (usually an insulated solid copper [[wire]]) is wound around a core or form to create an [[inductor]] or [[electromagnet]]. When electricity is passed through a coil, it generates a magnetic field. One loop of wire is usually referred to as a ''turn'' or a ''winding'', and a coil consists of one or more turns. For use in an [[electronic circuit]], [[electrical connection]] terminals called taps are often connected to a coil. Coils are often coated with varnish  or wrapped with insulating tape to provide additional [[Electrical insulation|insulation]] and secure them in place. A completed coil assembly with one or more set of coils and taps is often called the '''windings'''.
+
+Windings are used in [[transformer]]s, [[electric motor]]s, [[inductor]]s, [[solenoid]]s, [[loudspeaker]]s, and many other applications.
+
+==General principles==
+[[Image:Transformer-hightolow smaller.jpg|thumb|right|250px|Windings are usually arranged concentrically to minimize flux leakage.]]
+
+The [[electrical conductor|conducting material]] used for the windings depends upon the application, but in all cases the individual turns must be electrically insulated from each other to ensure that the current travels throughout every turn.<ref name="Dixon (1997)">{{cite journal|last=Dixon|first=L.H., Jr.|url=http://focus.ti.com/lit/ml/slup197/slup197.pdf| title=Eddy Current Losses in Transformer Windings|year=1997|publisher=Texas Instrument|pages=R2-1-to-R2-10}}</ref> For small power and signal applications, in which currents are low and the potential difference between adjacent turns is small, the coils are often wound from [[enameled wire|enamelled magnet wire]], such as Formvar wire. Larger power transformers operating at high voltages may be wound with copper rectangular strip conductors insulated by oil-impregnated paper and blocks of [[Transformerboard|pressboard]].<ref name="cegb_1982">{{cite book
+| author=Central Electricity Generating Board
+| title=Modern Power Station Practice
+| year = 1982
+|publisher = Pergamon Press}}</ref>
+
+[[Image:transformer min stray field geometry.svg|thumb|left|250px|
+Cut view through transformer windings.
+White: insulator.
+Green spiral: [[Electrical steel|Grain oriented silicon steel]].
+Black: Primary winding made of [[oxygen-free copper]].
+Red: Secondary winding.
+Top left: Toroidal transformer.
+Right: C-core, but E-core would be similar. The black windings are made of film.
+Top: Equally low capacitance between all ends of both windings. Since most cores are at least moderately conductive they also need insulation.
+Bottom: Lowest capacitance for one end of the secondary winding needed for low-power high-voltage transformers.
+Bottom left: Reduction of [[leakage inductance]] would lead to increase of capacitance.
+]]
+
+===Effects of frequency===
+High-frequency coils operating in the tens to hundreds of kilohertz often have windings made of braided [[Litz wire]] to minimize the skin-effect and [[proximity effect (electromagnetism)|proximity effect]] losses.<ref name="dixon"/> Large power transformers use multiple-stranded conductors as well, since even at low power frequencies non-uniform distribution of current would otherwise exist in high-current windings.<ref name="cegb_1982"/> Each strand is individually insulated, and the strands are arranged so that at certain points in the winding, or throughout the whole winding, each portion occupies different relative positions in the complete conductor. The transposition equalizes the current flowing in each strand of the conductor, and reduces eddy current losses in the winding itself. The stranded conductor is also more flexible than a solid conductor of similar size, aiding manufacture.<ref name="cegb_1982"/>
+
+The windings of signal coils minimize leakage inductance and stray capacitance to improve high-frequency response. Coils are split into sections, and those sections interleaved between the sections of the other winding.
+
+===Taps===
+Coils may have [[Tap (transformer)|taps]] at intermediate points on the winding for various uses.
+
+In transformers, taps may be manually reconnected, or a manual or automatic switch may be provided for changing taps. Automatic on-load [[tap changer]]s are used in electric power transmission or distribution, on equipment such as [[arc furnace]] transformers, or for automatic voltage regulators for sensitive loads. Audio-frequency transformers, used for the distribution of audio to public address loudspeakers, have taps to allow adjustment of impedance to each speaker. A [[Center tap|center-tapped transformer]] is often used in the output stage of an audio power [[amplifier]] in a [[Push-pull converter|push-pull circuit]]. Modulation transformers in [[Amplitude modulation|AM]] transmitters are very similar.
+
+===Potting===
+Coils are often [[Potting (electronics)|potted]] to prevent the wires from moving in use. Traditionally a [[shellac]] material was soaked into the windings after assembly and oven dried.
+
+Dry-type coil winding insulation systems can be either of standard open-wound 'dip-and-bake' construction or of higher quality designs that include [[vacuum|vacuum pressure impregnation]] (VPI), [[vacuum|vacuum pressure encapsulation]] (VPE), and [[Transformer types#Cast resin tranformer|cast coil encapsulation]] processes.<ref name="Lane (2007)">{{cite web|last=Lane|first=Keith (2007)|title=The Basics of Large Dry-Type Transformers|url=http://ecmweb.com/content/basics-large-dry-type-transformers|publisher=EC&M|accessdate=29 January 2013}}</ref>  In the VPI process,  a combination of heat, vacuum and pressure is used to thoroughly seal, bind, and eliminate entrained air voids in the winding polyester resin insulation coat layer, thus increasing resistance to corona.  VPE windings are similar to VPI windings but provide more protection against environmental effects, such as from water, dirt or corrosive ambients, by multiple dips including typically in terms of final epoxy coat.<ref>Heathcote, pp. 720–723</ref>
+
+Construction of mdoil-filled transformers requires that the insulation covering the windings be thoroughly dried before the oil is introduced. Drying is carried out at the factory, and may be required as a field service.  Drying may be done by circulating hot air around the core, or by vapour-phase drying (VPD) where evaporated solvent transfers heat by condensation on the coil and core. For small transformers resistance heating by injection of current into the windings is used. The heating can be controlled very well and it is energy efficient. The method is called low-frequency heating (LFH) since the current is injected at a much lower frequency than the nominal of the grid, which is normally 50 or 60&nbsp;Hz. A lower frequency reduces the effect of the inductance in the transformer, so the voltage needed to induce the current can be reduced.<ref>{{cite book|last=Fink|first= Donald G.|coauthors= Beatty, H. Wayne (Eds.)|year=1978|title=Standard Handbook for Electrical Engineers|edition= 11th|publisher= McGraw Hill|isbn=978-0-07-020974-9 |pages=10-38 through 10-40}}</ref> The LFH drying method is also used for service of older transformers.<ref name=Figueroa>{{cite web|last=Figueroa|first=Elisa et al|title=Low Frequency Heating Field Dry-Out of a 750 MVA 500 kV Auto Transformer|url=http://www.electricity-today.com/et/issue0109/transformer_field_dry-out.pdf|publisher=Electricity Today|date=Jan/Feb 2009|accessdate=Feb. 28, 2012}}</ref>
+
+===Capacitance===
+Coils, particularly multilayer coils can have interlayer [[capacitance]].
+
+When this capacitance is problematic multiple layers are often replaced with a single layer, as in a pancake coil, or a solenoid with a single layer is used.
+[[File:TeslaFlatSpiralCoil.png|right|thumb|180px|[[Nikola Tesla]]'s flat spiral coil.]]
+
+==Specific types==
+
+===Solenoid===
+{{main|Solenoid}}
+[[File:Solenoid-1.png|thumb|An illustration of a solenoid]]
+
+A solenoid (from the [[French language|French]] ''solénoïde'', derived in turn from the [[Greek language|Greek]] ''solen'' "pipe, channel" + combining form of Greek ''eidos'' "form, shape"<ref>{{Cite web|url=http://www.etymonline.com/index.php?term=solenoid|title=Solenoid|work=[[Online Etymology Dictionary]]}}</ref>) is a coil wound into a tightly packed [[helix]]. The term was invented by [[André-Marie Ampère]] to designate a helical coil.<ref>{{cite web |url=http://www.ampere.cnrs.fr/parcourspedagogique/zoom/courant/electrodynamique/index.php|title=Parcours pédagogique&nbsp;— Ampère et l'histoire de l'électricité | publisher=[[CNRS]] | accessdate=July 31, 2012}}</ref>
+
+In [[physics]], the term refers specifically to a long, thin loop of wire, often wrapped around a [[metal]]lic core, which produces a uniform [[magnetic field]] in a volume of space (where some experiment might be carried out) when an [[electric current]] is passed through it. Solenoids are important because they can create controlled magnetic fields and can be used as [[electromagnet]]s.
+
+In [[engineering]], the term may also refer to a variety of [[transducer]] devices that convert [[energy]] into linear motion. The term is also often used to refer to a [[solenoid valve]], which is an integrated device containing an electromechanical solenoid which actuates either a [[pneumatic]] or [[hydraulic]] valve, or a solenoid switch, which is a specific type of [[relay]] that internally uses an electromechanical solenoid to operate an electrical switch; for example, an [[starter solenoid|automobile starter solenoid]], or a linear solenoid, which is an electromechanical solenoid.
+
+===Transformers===
+{{main|transformer}}
+A [[transformer]] is an electromagnetic device that has a ''primary winding'' and a ''secondary winding'' that transfers energy from one electrical circuit to another by [[inductive coupling]] without moving parts. The term ''tickler coil'' usually refers to a feedback coil, which is often the third coil placed in relation to a primary coil and secondary coil. A [[coil tap]] is a wiring feature found on some electrical transformers, inductors and coil pickups, all of which are sets of wire coils. The coil tap(s) are points in a wire coil where a conductive patch has been exposed (usually on a loop of wire that extends out of the main coil body).
+
+===Inductor coil===
+An inductor coil is typically has a relatively simple [[terminal (electronics)|two-terminal]] winding over a magnetic core.
+
+===Electric motor===
+Electric motor windings can be quite complex. They are often 3 phase design, with 3 sets of windings. Many different layouts, interleavings and windings are in use.
+
+==References==
+{{reflist|refs=
+<ref name="dixon">{{Cite conference | first = Lloyd
+| last = Dixon
+| booktitle = Magnetics Design Handbook
+| title = Power Transformer Design
+| url = http://focus.ti.com/lit/ml/slup126/slup126.pdf
+| year=2001
+| publisher = Texas Instruments}}</ref> Hypothetically an ideal transformer would work with direct-current excitation, with the core flux increasing linearly with time.
+}}
+
+==Further reading==
+* Querfurth, William, "''Coil winding; a description of coil winding procedures, winding machines and associated equipment for the electronic industry''" (2d ed.). Chicago, G. Stevens Mfg. Co., 1958.
+* Weymouth, F. Marten, "''Drum armatures and commutators (theory and practice) : a complete treatise on the theory and construction of drum winding, and of commutators for closed-coil armatures, together with a full résumé of some of the principal points involved in their design; and an exposition of armature reactions and sparking''". London, "The Electrician" Printing and Publishing Co., 1893.
+* "''Coil winding proceedings''". International Coil Winding Association.
+* Chandler, R. H., "''Coil coating review, 1970-76''". Braintree, R. H. Chandler Ltd, 1977.
+
+== External links ==
+{{Wiktionary|coil|winding}}
+* R. Clarke, "''[http://www.ee.surrey.ac.uk/Workshop/advice/coils/ Producing wound components]''". Surrey.ac.uk, 2005 October 9
+
+<!-- In other languages, alphabetically by language (not code) name -->
+<!--nihongo-->
+
+{{electric motor}}
+
+[[Category:Helices]]
+[[Category:Electrical components]]
+
+[[fr:Bobine]]
+[[pt:Bobina]]

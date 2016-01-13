@@ -1,0 +1,644 @@
+[[File:neon orbitals.JPG|right|thumb|442px|upright|The shapes of the first five atomic orbitals: 1s, 2s, 2p<sub>''x''</sub>, 2p<sub>''y''</sub>, and 2p<sub>''z''</sub>. The colors show the wave function phase. These are graphs of {{math|ψ(''x'', ''y'', ''z'')}}<!--Please don't italicize a bracket. --> functions which depend on the coordinates of one electron. To see the elongated shape of {{math|ψ(''x'', ''y'', ''z'')<sup>2</sup>}} functions that show probability density more directly, see the graphs of d-orbitals below.]]
+
+An '''atomic orbital''' is a [[Function (mathematics)|mathematical function]] that describes the wave-like behavior of either one [[electron]] or a pair of electrons in an [[atom]].<ref>{{cite book|first1= Milton|last1= Orchin|first2=Roger S.|last2=Macomber|first3=Allan|last3= Pinhas|first4= R. Marshall|last4= Wilson| year=2005| url=http://media.wiley.com/product_data/excerpt/81/04716802/0471680281.pdf|title= Atomic Orbital Theory}}</ref> This function can be used to calculate the probability of finding any electron of an atom in any specific region around the [[Atomic nucleus|atom's nucleus]]. The term may also refer to the physical region or space where the electron can be calculated to be present, as defined by the particular mathematical form of the orbital.<ref>{{Cite book|last=Daintith|first= J. |title=Oxford Dictionary of Chemistry|location=New York | publisher=Oxford University Press|year=2004|isbn=0-19-860918-3}}</ref> 
+
+Each orbital in an atom is characterized by a unique set of values of the three [[quantum numbers]] {{mvar|n|size=120%}}, {{mvar|ℓ|size=120%}}, and {{mvar|m|size=120%}}, which correspond to the electron's [[energy]], [[angular momentum]], and an angular momentum [[vector component]], respectively. Any orbital can be occupied by a maximum of two electrons, each with its own [[spin quantum number]]. The simple names '''s orbital''', '''p orbital''', '''d orbital''' and '''f orbital''' refer to orbitals with angular momentum quantum number {{math|1=''ℓ'' = 0, 1, 2}} and {{math|3}} respectively. These names, together with the value of&nbsp;{{mvar|n}}, are used to describe the [[electron configuration]]s. They are derived from the description by early spectroscopists of certain series of alkali metal [[spectroscopic lines]] as '''s'''harp, '''p'''rincipal, '''d'''iffuse, and '''f'''undamental. Orbitals for {{mvar|ℓ|size=120%}} > 3 are named in alphabetical order (omitting&nbsp;j).<ref>{{Cite book
+| first=David | last=Griffiths | year=1995
+| title=Introduction to Quantum Mechanics | pages=190–191
+| publisher=Prentice Hall
+| isbn=0-13-124405-1}}</ref><ref>{{Cite book
+| first=Ira| last=Levine | year=2000
+| title=Quantum Chemistry | edition=5 | pages=144–145
+| publisher=Prentice Hall
+| isbn=0-13-685512-1}}</ref><ref>{{Cite book
+| first1=Keith J. | last1=Laidler | first2=John H. | last2=Meiser| year=1982
+| title=Physical Chemistry | page=488
+| publisher=Benjamin/Cummings
+| isbn=0-8053-5682-7}}</ref>
+
+Atomic orbitals are the basic building blocks of the '''atomic orbital model''' (alternatively known as the electron cloud or wave mechanics model), a modern framework for visualizing the submicroscopic behavior of electrons in matter. In this model the electron cloud of a multi-electron atom may be seen as being built up (in approximation) in an [[electron configuration]] that is a product of simpler [[hydrogen atom|hydrogen-like]] atomic orbitals. The repeating ''periodicity'' of the blocks of 2, 6, 10, and 14 [[Chemical element|elements]] within sections of the [[periodic table]] arises naturally from the total number of electrons which occupy a complete set of '''s''', '''p''', '''d''' and '''f''' atomic orbitals, respectively.
+
+== Electron properties ==
+With the development of [[quantum mechanics]], it was found that the orbiting electrons around a nucleus could not be fully described as particles, but needed to be explained by the [[Wave–particle duality|wave-particle duality]]. In this sense, the electrons have the following properties:
+
+Wave-like properties:
+# The electrons do not orbit the nucleus in the sense of a planet orbiting the sun, but instead exist as [[standing wave]]s. The lowest possible energy an electron can take is therefore analogous to the fundamental frequency of a wave on a string. Higher energy states are then similar to [[harmonics]] of the [[fundamental frequency]].
+# The electrons are never in a single point location, although the probability of interacting with the electron at a single point can be found from the wave function of the electron.
+
+Particle-like properties:
+# There is always an integer number of electrons orbiting the nucleus.
+# Electrons jump between orbitals in a particle-like fashion. For example, if a single [[photon]] strikes the electrons, only a single electron changes states in response to the photon.
+# The electrons retain particle like-properties such as: each wave state has the same electrical charge as the electron particle. Each wave state has a single discrete spin (spin up or spin down).
+
+Thus, despite the obvious analogy to planets revolving around the Sun, electrons cannot be described simply as solid particles. In addition, atomic orbitals do not closely resemble a planet's elliptical path in ordinary atoms. A more accurate analogy might be that of a large and often oddly shaped "atmosphere" (the electron), distributed around a relatively tiny planet (the atomic nucleus). Atomic orbitals exactly describe the shape of this "atmosphere" only when a single electron is present in an atom. When more electrons are added to a single atom, the additional electrons tend to more evenly fill in a volume of space around the nucleus so that the resulting collection (sometimes termed the atom’s “electron cloud”<ref>{{cite book| title=The Feynman Lectures on Physics -The Definitive Edition, Vol 1 lect 6| page=11| year=2006| publisher= Pearson PLC, Addison Wesley|isbn =0-8053-9046-4|last1= Feynman|first1= Richard|last2= Leighton |first2=Robert B. |first3= Matthew |last3=Sands
+}}</ref>) tends toward a generally spherical zone of probability describing where the atom’s electrons will be found.
+
+===Formal quantum mechanical definition===
+Atomic orbitals may be defined more precisely in formal [[quantum mechanics|quantum mechanical]] language. Specifically, in quantum mechanics, the state of an atom, i.e. an [[eigenstate]] of the atomic [[Hamiltonian (quantum mechanics)|Hamiltonian]], is approximated by an expansion (see [[configuration interaction]] expansion and [[basis set (chemistry)|basis set]]) into [[linear combination]]s of anti-symmetrized products ([[Slater determinant]]s) of one-electron functions. The spatial components of these one-electron functions are called atomic orbitals. (When one considers also their [[spin (physics)|spin]] component, one speaks of '''atomic spin orbitals'''.)  A state is actually a function of the coordinates of all the electrons, so that their motion is correlated, but this is often approximated by this [[Nuclear structure#The independent-particle model|independent-particle model]] of products of single electron wave functions.<ref>[[Roger Penrose]], ''[[The Road to Reality]]''</ref>  (The [[London dispersion force]], for example, depends on the correlations of the motion of the electrons.)
+
+In [[atomic physics]], the [[atomic spectral line]]s correspond to transitions ([[Atomic electron transition|quantum leap]]s) between [[quantum state]]s of an atom. These states are labeled by a set of [[quantum number]]s summarized in the [[term symbol]] and usually associated with particular electron configurations, i.e., by occupation schemes of atomic orbitals (for example, 1s<sup>2</sup>&nbsp;2s<sup>2</sup>&nbsp;2p<sup>6</sup> for the ground state of [[neon]]-term symbol: <sup>1</sup>S<sub>0</sub>).
+
+This notation means that the corresponding Slater determinants have a clear higher weight in the [[configuration interaction]] expansion. The atomic orbital concept is therefore a key concept for visualizing the excitation process associated with a given [[Atomic electron transition|transition]]. For example, one can say for a given transition that it corresponds to the excitation of an electron from an occupied orbital to a given unoccupied orbital. Nevertheless, one has to keep in mind that electrons are [[fermion]]s ruled by the [[Pauli exclusion principle]] and cannot be distinguished from the other electrons in the atom. Moreover, it sometimes happens that the configuration interaction expansion converges very slowly and that one cannot speak about simple one-determinant wave function at all. This is the case when [[electron correlation]] is large.
+
+Fundamentally, an atomic orbital is a one-electron wave function, even though most electrons do not exist in one-electron atoms, and so the one-electron view is an approximation. When thinking about orbitals, we are often given an orbital vision which (even if it is not spelled out) is heavily influenced by this [[Hartree–Fock]] approximation, which is one way to reduce the complexities of [[molecular orbital theory]].
+
+===Types of orbitals===
+Atomic orbitals can be the hydrogen-like "orbitals" which are exact solutions to the [[Schrödinger equation]] for a [[Hydrogen-like atom|hydrogen-like "atom"]] (i.e., an atom with one electron). Alternatively, atomic orbitals refer to functions that depend on the coordinates of one electron (i.e. orbitals) but are used as starting points for approximating wave functions that depend on the simultaneous coordinates of all the electrons in an atom or molecule. The [[coordinate system]]s chosen for atomic orbitals are usually [[spherical coordinates]] {{math|(''r'', θ, φ)}} in atoms and [[Cartesian coordinate system|cartesians]] {{math|(x, y, z)}} in polyatomic molecules. The advantage of spherical coordinates (for atoms) is that an orbital wave function is a product of three factors each dependent on a single coordinate: {{math|1=ψ(''r'', θ, φ) = ''R''(''r'') Θ(θ) Φ(φ)}}.
+
+The angular factors of atomic orbitals Θ(θ) Φ(φ) generate s, p, d, etc. functions as [[Spherical harmonics#Real form|real combinations]] of [[spherical harmonics]] {{math|''Y''<sub>''ℓm''</sub>(θ, φ)}} (where {{mvar|ℓ}} and {{mvar|m}} are quantum numbers). There are typically three mathematical forms for the radial functions&nbsp;{{math|''R''(''r'')}} which can be chosen as a starting point for the calculation of the properties of atoms and molecules with many electrons. 
+
+# the ''hydrogen-like atomic orbitals'' are derived from the exact solution of the Schrödinger Equation for one electron and a nucleus, for a [[hydrogen-like atom]]. The part of the function that depends on the distance from the nucleus has nodes (radial nodes) and decays as [[exponential function|{{math|''e''<sup>−(constant × distance)</sup>}}]].
+# The [[Slater-type orbital]] (STO) is a form without radial nodes but  decays from the nucleus as does the hydrogen-like orbital.
+# The form of the [[Gaussian orbital|Gaussian type orbital]] (Gaussians) has no radial nodes and decays as {{math|''e''<sup>(−distance squared)</sup>}}.
+
+Although hydrogen-like orbitals are still used as pedagogical tools, the advent of computers has made STOs preferable for atoms and diatomic molecules since combinations of STOs can replace the nodes in hydrogen-like atomic orbital. Gaussians are typically used in molecules with three or more atoms. Although not as accurate by themselves as STOs, combinations of many Gaussians can attain the accuracy of hydrogen-like orbitals.
+
+==History==
+{{main|Atomic theory}}
+
+The term "orbital" was coined by [[Robert Mulliken]] in 1932 as an abbreviation for ''one-electron orbital wave function''.<ref>
+{{cite journal
+ | last=Mulliken | first=Robert S.
+ | title=Electronic Structures of Polyatomic Molecules and Valence. II. General Considerations
+ | month=July | year=1932
+ | journal=[[Physical Review]]
+ | volume=41 | issue=1 | pages=49–71
+ | bibcode = 1932PhRv...41...49M
+ | doi = 10.1103/PhysRev.41.49
+}}</ref> However, the idea that electrons might revolve around a compact nucleus with definite angular momentum was convincingly argued at least 19 years earlier by [[Niels Bohr]],<ref name="Bohr 1913 476">{{cite journal
+| last=Bohr | first=Niels
+| title=On the Constitution of Atoms and Molecules
+| journal=Philosophical Magazine | year=1913
+| volume=26 | issue=1 | page=476
+|url=http://www.chemteam.info/Chem-History/Bohr/Bohr-1913a.html
+| bibcode=1914Natur..93..268N
+| doi=10.1038/093268a0}}</ref> and the Japanese physicist [[Hantaro Nagaoka]] published an orbit-based hypothesis for electronic behavior as early as 1904.<ref name="Nagaoka 1904 445–455">{{cite journal 
+| first=Hantaro | last=Nagaoka
+| title=Kinetics of a System of Particles illustrating the Line and the Band Spectrum and the Phenomena of Radioactivity
+| journal=Philosophical Magazine | month=May | year=1904
+| volume=7 | pages=445–455
+| url=http://www.chemteam.info/Chem-History/Nagaoka-1904.html 
+| doi=10.1080/14786440409463141 
+| issue=41}}</ref> 
+Explaining the behavior of these electron "orbits" was one of the driving forces behind the development of [[quantum mechanics]].<ref>{{cite book 
+| first=Bill | last=Bryson | year=2003
+| title=A Short History of Nearly Everything | pages=141–143
+| publisher=Broadway Books
+| isbn=0-7679-0818-X }}</ref>
+
+===Early models===
+With [[J.J. Thomson]]'s discovery of the electron in 1897,<ref name="referenceC">{{Cite journal|first= J. J. |last=Thomson |year=1897|title=Cathode rays|journal=Philosophical Magazine|volume= 44|page=293|doi= 10.1080/14786449708621070|issue= 269}}</ref> it became clear that atoms were not the smallest building blocks of nature, but were rather composite particles. The newly discovered structure within atoms tempted many to imagine how the atom's constituent parts might interact with each other. Thomson theorized that multiple electrons revolved in orbit-like rings within a positively charged jelly-like substance,<ref>
+{{cite journal
+ |first=J. J.|last= Thomson
+ |title=On the Structure of the Atom: an Investigation of the Stability and Periods of Oscillation of a number of Corpuscles arranged at equal intervals around the Circumference of a Circle; with Application of the Results to the Theory of Atomic Structure
+ |url=http://www.chemteam.info/Chem-History/Thomson-Structure-Atom.html | doi = 10.1080/14786440409463107
+ |journal=[[Philosophical Magazine]] Series 6
+ |volume=7 |issue=39 |pages=237
+ |format=extract of paper
+ |year=1904
+}}</ref> and between the electron's discovery and 1909, this "[[plum pudding model]]" was the most widely accepted explanation of atomic structure.
+
+Shortly after Thomson's discovery, [[Hantaro Nagaoka]], a Japanese physicist, predicted a different model for electronic structure.<ref name="Nagaoka 1904 445–455"/> Unlike the plum pudding model, the positive charge in Nagaoka's "Saturnian Model" was concentrated into a central core, pulling the electrons into circular orbits reminiscent of Saturn's rings. Few people took notice of Nagaoka's work at the time,<ref>
+{{Cite book
+  | last = Rhodes
+  | first = Richard
+  | title = The Making of the Atomic Bomb
+  | publisher = Simon & Schuster
+  | year = 1995
+  | pages = 50–51
+  | url = http://books.google.com/?id=aSgFMMNQ6G4C&printsec=frontcover&dq=making+of+the+atomic+bomb#v=onepage&q&f=false
+  | isbn = 978-0-684-81378-3 }}</ref>
+and Nagaoka himself recognized a fundamental defect in the theory even at its conception, namely that a classical charged object cannot sustain orbital motion because it is accelerating and therefore loses energy due to electromagnetic radiation.<ref>{{cite journal 
+| first=Hantaro | last=Nagaoka
+| title=Kinetics of a System of Particles illustrating the Line and the Band Spectrum and the Phenomena of Radioactivity
+| journal=Philosophical Magazine | month=May | year=1904
+| volume=7 | page=446
+| url=http://www.chemteam.info/Chem-History/Nagaoka-1904.html}}</ref> Nevertheless, the [[Saturnian model]] turned out to have more in common with modern theory than any of its contemporaries.
+
+===Bohr atom===
+In 1909, [[Ernest Rutherford]] discovered that the positive half of atoms was tightly condensed into a nucleus,<ref>{{cite journal | title=On a Diffuse Reflection of the α-Particles | journal=Proceedings of the Royal Society A | year=1909 | volume=82 | pages=495–500 | url=http://www.chemteam.info/Chem-History/GM-1909.html| doi=10.1098/rspa.1909.0054 |bibcode = 1909RSPSA..82..495G | issue=557 | last1=Geiger | first1=H. | last2=Marsden | first2=E. }}</ref>
+and it became clear from his analysis in 1911 that the plum pudding model could not explain atomic structure. Shortly after, in 1913, Rutherford's postdoctoral student [[Niels Bohr]] proposed a new model of the atom, wherein electrons orbited the nucleus with classical periods, but were only permitted to have discrete values of angular momentum, quantized in units [[reduced Planck constant|''h''/2π]].<ref name="Bohr 1913 476"/> This constraint automatically permitted only certain values of electron energies. The [[Bohr model]] of the atom fixed the problem of energy loss from radiation from a ground state (by declaring that there was no state below this), and more importantly explained the origin of spectral lines.
+
+[[File:Bohr-atom-PAR.svg|thumb|The [[Bohr model|Rutherford–Bohr model]] of the hydrogen atom.]]
+After Bohr's use of [[Einstein]]'s explanation of the [[photoelectric effect]] to relate energy levels in atoms with the wavelength of emitted light, the connection between the structure of electrons in atoms and the [[Emission spectra|emission]] and [[absorption spectra]] of atoms became an increasingly useful tool in the understanding of electrons in atoms. The most prominent feature of emission and absorption spectra (known experimentally since the middle of the 19th century), was that these atomic spectra contained discrete lines. The significance of the [[Bohr model]] was that it related the lines in emission and absorption spectra to the energy differences between the orbits that electrons could take around an atom. This was, however, ''not'' achieved by Bohr through giving the electrons some kind of wave-like properties, since the idea that electrons could behave as [[matter waves]] was not suggested until twelve years later. Still, the Bohr model's use of quantized angular momenta and therefore quantized energy levels was a significant step towards the understanding of electrons in atoms, and also a significant step towards the development of [[quantum mechanics]] in suggesting that quantized restraints must account for all discontinuous energy levels and spectra in atoms.
+
+With [[de Broglie]]'s suggestion of the existence of electron matter waves in 1924, and for a short time before the full 1926 [[Schrödinger equation]] treatment of [[hydrogen-like atom]], a Bohr electron "wavelength" could be seen to be a function of its momentum, and thus a Bohr orbiting electron was seen to orbit in a circle at a multiple of its half-wavelength (this historically incorrect Bohr model is still often taught to beginning students). The Bohr model for a short time could be seen as a classical model with an additional constraint provided by the 'wavelength' argument. However, this period was immediately superseded by the full three-dimensional wave mechanics of 1926. In our current understanding of physics, the Bohr model is called a semi-classical model because of its quantization of angular momentum, not primarily because of its relationship with electron wavelength, which appeared in hindsight a dozen years after the Bohr model was proposed.
+
+The Bohr model was able to explain the emission and absorption spectra of [[hydrogen]]. The energies of electrons in the ''n'' = 1, 2, 3, etc. states in the Bohr model match those of current physics. However, this did not explain similarities between different atoms, as expressed by the periodic table, such as the fact that [[helium]] (two electrons), neon (10 electrons), and [[argon]] (18 electrons) exhibit similar chemical inertness. Modern [[quantum mechanics]] explains this in terms of [[electron shell]]s and subshells which can each hold a number of electrons determined by the [[Pauli Exclusion Principle]]. Thus the ''n'' = 1&nbsp;state can hold one or two electrons, while the ''n'' = 2&nbsp;state can hold up to eight electrons in 2s and 2p subshells. In helium, all ''n'' = 1&nbsp;states are fully occupied; the same for ''n'' = 1 and ''n'' = 2 in neon. In argon the 3s and 3p subshells are similarly fully occupied by eight electrons; quantum mechanics also allows a 3d subshell but this is at higher energy than the 3s and 3p in argon (contrary to the situation in the hydrogen atom) and remains empty.
+
+===Modern conceptions and connections to the Heisenberg Uncertainty Principle===
+Immediately after [[Werner Heisenberg|Heisenberg]] discovered his [[Uncertainty principle|uncertainty relation]],<ref>{{cite journal
+| last=Heisenberg | first=W.
+| title=Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik
+| journal=[[Zeitschrift für Physik A]] | month=March | year=1927
+| volume=43 | pages=172–198
+|doi=10.1007/BF01397280 | url=http://www.springerlink.com/content/t8173612621026q5/|bibcode = 1927ZPhy...43..172H
+| issue=3–4 }}</ref>
+it was noted by [[Niels Bohr|Bohr]] that the existence of any sort of [[wave packet]] implies uncertainty in the wave frequency and wavelength, since a spread of frequencies is needed to create the packet itself.<ref>{{cite journal
+| last=Bohr | first=Niels
+| title=The Quantum Postulate and the Recent Development of Atomic Theory
+| journal=Nature | month=April | year=1928
+| volume=121 | pages=580–590
+|doi=10.1038/121580a0 | url=http://www.nature.com/doifinder/10.1038/121580a0|bibcode = 1928Natur.121..580B
+| issue=3050 }}</ref>
+In quantum mechanics, where all particle momenta are associated with waves, it is the formation of such a wave packet which localizes the wave, and thus the particle, in space. In states where a quantum mechanical particle is bound, it must be localized as a wave packet, and the existence of the packet and its minimum size implies a spread and minimal value in particle wavelength, and thus also momentum and energy. In quantum mechanics, as a particle is localized to a smaller region in space, the associated compressed wave packet requires a larger and larger range of momenta, and thus larger kinetic energy. Thus, the binding energy to contain or trap a particle in a smaller region of space, increases without bound, as the region of space grows smaller. Particles cannot be restricted to a geometric point in space, since this would require an infinite particle momentum.  
+
+In chemistry, [[Erwin Schrödinger|Schrödinger]], [[Linus Pauling|Pauling]], [[Robert S. Mulliken|Mulliken]] and others noted that the consequence of Heisenberg's relation was that the electron, as a wave packet, could not be considered to have an exact location in its orbital. [[Max Born]] suggested that the electron's position needed to be described by a [[probability distribution]] which was connected with finding the electron at some point in the wave-function which described its associated wave packet. The new quantum mechanics did not give exact results, but only the probabilities for the occurrence of a variety of possible such results. Heisenberg held that the path of a moving particle has no meaning if we cannot observe it, as we cannot with electrons in an atom. 
+
+In the quantum picture of Heisenberg, Schrödinger and others, the Bohr atom number&nbsp;''n'' for each orbital became known as an ''n-sphere''{{citation needed|date=January 2013}} in a three dimensional atom and was pictured as the mean energy of the probability cloud of the electron's wave packet which surrounded the atom.
+
+==Orbital names==
+Orbitals are given names in the form:
+:<math>X \, \mathrm{type}^y \ </math>
+where ''X'' is the energy level corresponding to the [[principal quantum number]] {{mvar|n}}, '''type''' is a lower-case letter denoting the shape or [[Electron shell#Subshells|subshell]] of the orbital and it corresponds to the [[angular quantum number]]&nbsp;{{mvar|ℓ}}, and {{mvar|y}} is the number of electrons in that orbital.
+
+For example, the orbital 1s<sup>2</sup> (pronounced "one ess two") has two electrons and is the lowest energy level ({{math|1=''n'' = 1}}) and has an angular quantum number of {{math|1=''ℓ'' = 0}}. In [[X-ray notation]], the principal quantum number is given a letter associated with it. For {{math|1=''n'' = 1, 2, 3, 4, 5, …}}, the letters associated with those numbers are K, L, M, N, O, ... respectively.
+
+==Hydrogen-like orbitals==
+{{Main|Hydrogen-like atom}}
+
+The simplest atomic orbitals are those that are calculated for systems with a single electron, such as the [[hydrogen atom]]. An atom of any other element [[ion]]ized down to a single electron is very similar to hydrogen, and the orbitals take the same form. In the Schrödinger equation for this system of one negative and one positive particle, the atomic orbitals are the [[eigenstates]] of the [[Hamiltonian operator]] for the energy. They can be obtained analytically, meaning that the resulting orbitals are products of a polynomial series, and exponential and trigonometric functions. (see [[hydrogen atom]]). 
+
+For atoms with two or more electrons, the governing equations can only be solved with the use of methods of iterative approximation. Orbitals of multi-electron atoms are ''qualitatively'' similar to those of hydrogen, and in the simplest models, they are taken to have the same form. For more rigorous and precise analysis, the numerical approximations must be used.
+
+A given (hydrogen-like) atomic orbital is identified by unique values of three quantum numbers: [[Principal quantum number|{{mvar|n|size=120%}}]], [[Azimuthal quantum number|{{mvar|ℓ|size=120%}}]], and [[magnetic quantum number|{{mvar|m<sub>ℓ</sub>|size=120%}}]]. The rules restricting the values of the quantum numbers, and their energies (see below), explain the electron configuration of the atoms and the [[periodic table]].
+
+The stationary states ([[quantum state]]s) of the hydrogen-like atoms are its atomic orbitals.{{Clarify|date=November 2011|hydrogen-like atoms and orbitals}} However, in general, an electron's behavior is not fully described by a single orbital. Electron states are best represented by time-depending "mixtures" ([[linear combination]]s) of multiple orbitals. See [[Linear combination of atomic orbitals molecular orbital method]].
+
+The quantum number {{mvar|n}} first appeared in the [[Bohr model]] where it determines the radius of each circular electron orbit. In modern quantum mechanics however, {{mvar|n}} determines the mean distance of the electron from the nucleus; all electrons with the same value of ''n'' lie at the same average distance. For this reason, orbitals with the same value of ''n'' are said to comprise a "[[electron shell|shell]]". Orbitals with the same value of ''n'' and also the same value of&nbsp;{{mvar|ℓ}} are even more closely related, and are said to comprise a "[[electron subshell|subshell]]".
+
+==Quantum numbers==
+{{main|Quantum number}}
+
+Because of the quantum mechanical nature of the electrons around a nucleus, atomic orbitals can be uniquely defined by a set of integers known as quantum numbers. These quantum numbers only occur in certain combinations of values, and their physical interpretation changes depending on whether real or complex versions of the atomic orbitals are employed.
+
+===Complex orbitals===
+In physics, the most common orbital descriptions are based on the solutions to the hydrogen atom, where orbitals are given by the product between a radial function and a pure spherical harmonic. The quantum numbers, together with the rules governing their possible values, are as follows:
+
+The [[principal quantum number]] {{mvar|n}} describes the energy of the electron and is always a [[positive integer]]. In fact, it can be any positive integer, but for reasons discussed below, large numbers are seldom encountered. Each atom has, in general, many orbitals associated with each value of ''n''; these orbitals together are sometimes called ''[[electron shells]]''.
+
+The [[azimuthal quantum number]] {{mvar|ℓ}} describes the orbital angular momentum of each electron and is a non-negative integer. Within a shell where {{mvar|n}} is some integer {{math|''n''<sub>0</sub>}}, {{mvar|ℓ}} ranges across all (integer) values satisfying the relation <math>0 \le \ell \le n_0-1</math>. For instance, the {{math|1=''n'' = 1}}&nbsp;shell has only orbitals with <math>\ell=0</math>, and the {{math|1=''n'' = 2}}&nbsp;shell has only orbitals with <math>\ell=0</math>, and <math>\ell=1</math>. The set of orbitals associated with a particular value of&nbsp;{{mvar|ℓ}} are sometimes collectively called a ''subshell''.
+
+The [[magnetic quantum number]], <math>m_\ell</math>, describes the magnetic moment of an electron in an arbitrary direction, and is also always an integer. Within a subshell where <math>\ell</math> is some integer <math>\ell_0</math>, <math>m_\ell</math> ranges thus: <math>-\ell_0 \le m_\ell \le \ell_0</math>.
+
+The above results may be summarized in the following table. Each cell represents a subshell, and lists the values of <math>m_\ell</math> available in that subshell. Empty cells represent subshells that do not exist.
+
+{| class="wikitable"
+|-
+!
+! {{math|1=''ℓ'' = 0}}
+! {{math|1=''ℓ'' = 1}}
+! {{math|1=''ℓ'' = 2}}
+! {{math|1=''ℓ'' = 3}}
+! {{math|1=''ℓ'' = 4}}
+! ...
+|-
+! {{math|1=''n'' = 1}}
+| <math>m_\ell=0</math>
+| || || || ||
+|-
+! {{math|1=''n'' = 2}}
+| 0 || −1, 0, 1
+| || || ||
+|-
+! {{math|1=''n'' = 3}}
+| 0 || −1, 0, 1 || −2, −1, 0, 1, 2
+| || ||
+|-
+! {{math|1=''n'' = 4}}
+| 0 || −1, 0, 1 || −2, −1, 0, 1, 2 || −3, −2, −1, 0, 1, 2, 3
+| ||
+|-
+! {{math|1=''n'' = 5}}
+| 0 || −1, 0, 1 || −2, −1, 0, 1, 2 || −3, −2, −1, 0, 1, 2, 3 || −4, −3, −2, −1, 0, 1, 2, 3, 4
+|
+|-
+! ...
+| ... || ... || ... || ... || ... || ...
+|}
+
+Subshells are usually identified by their <math>n</math>- and <math>\ell</math>-values. <math>n</math> is represented by its numerical value, but <math>\ell</math> is represented by a letter as follows: 0 is represented by 's', 1 by 'p', 2 by 'd', 3 by 'f', and 4 by 'g'. For instance, one may speak of the subshell with <math>n=2</math> and <math>\ell=0</math> as a '2s subshell'.
+
+Each electron also has a [[spin quantum number]], '''s''', which describes the spin of each electron (spin up or spin down). The number '''s''' can be +{{frac|1|2}} or −{{frac|1|2}}.
+
+The [[Pauli exclusion principle]] states that no two electrons can occupy the same quantum state: every electron in an atom must have a unique combination of quantum numbers.
+
+The above conventions imply a preferred axis (for example, the ''z'' direction in Cartesian coordinates), and they also imply a preferred direction along this preferred axis. Otherwise there would be no sense in distinguishing {{math|1=''m'' = +1}} from {{math|1=''m'' = −1}}. As such, the model is most useful when applied to physical systems that share these symmetries. The [[Stern–Gerlach experiment]] — where an atom is exposed to a magnetic field — provides one such example.<ref>
+{{cite journal
+ |last=Gerlach |first=W.
+ |last2=Stern |first2=O.
+ |title=Das magnetische Moment des Silberatoms
+ |journal=[[Zeitschrift für Physik]]
+ |volume=9 |pages=353–355
+ |year=1922
+ |doi=10.1007/BF01326984
+|bibcode = 1922ZPhy....9..353G }}</ref>
+
+===Real orbitals===
+An atom that is embedded in a crystalline solid feels multiple preferred axes, but no preferred direction. Instead of building atomic orbitals out of the product of radial functions and a single spherical harmonic, linear combinations of spherical harmonics are typically used, designed so that the imaginary part of the spherical harmonics cancel out. These '''real orbitals''' are the building blocks most commonly shown in orbital visualizations.
+
+In the real hydrogen-like orbitals, for example, {{mvar|n}} and {{mvar|ℓ}} have the same interpretation and significance as their complex counterparts, but {{mvar|m}} is no longer a good quantum number (though its absolute value is). The orbitals are given new names based on their shape with respect to a standardized Cartesian basis. The real hydrogen-like p&nbsp;orbitals are given by the following<ref>C.D.H. Chisholm (1976). Group theoretical techniques in quantum chemistry. New York: Academic Press. ISBN 0-12-172950-8.</ref><ref>Blanco, Miguel A.; Flórez, M.; Bermejo, M. (1 December 1997). "Evaluation of the rotation matrices in the basis of real spherical harmonics". Journal of Molecular Structure: THEOCHEM 419 (1-3): 19–27. doi:10.1016/S0166-1280(97)00185-1</ref>
+:
+
+:<math>p_z = p_0</math>
+
+:<math>p_x = \frac{1}{\sqrt{2}} \left(p_{-1} - p_1 \right) </math>
+
+:<math>p_y = \frac{i}{\sqrt{2}} \left( p_{-1} + p_1 \right) </math>
+
+where {{math|1=''p''<sub>0</sub> = ''R''<sub>''n'' 1</sub> ''Y''<sub>1 0</sub>}}, {{math|1=''p''<sub>1</sub> = ''R''<sub>''n'' 1</sub> ''Y''<sub>1 1</sub>}}, and {{math|1=''p''<sub>−1</sub> = ''R''<sub>''n'' 1</sub> ''Y''<sub>1 −1</sub>}}, are the complex orbitals corresponding to {{math|1=''ℓ'' = 1}}.
+<ref name=Levine00>{{cite book|last=Levine|first=Ira|title=Quantum Chemistry|year=2000|publisher=Prentice-Hall|location=Upper Saddle River, NJ|isbn=0-13-685512-1|pages=148}}</ref>
+
+==Shapes of orbitals==
+[[File:HydrogenOrbitalsN6L0M0.png|thumb|Cross-section of computed hydrogen atom orbital ({{math|1=ψ(''r'', θ, φ)<sup>2</sup>}}) for the 6s {{math|1=(''n'' = 6, ''ℓ'' = 0, ''m'' = 0)}} orbital. Note that s orbitals, though spherically symmetrical, have radially placed wave-nodes for {{math|''n'' > 1}}. However, only s orbitals invariably have a center anti-node; the other types never do.]]
+ 
+Simple pictures showing orbital shapes are intended to describe the angular forms of regions in space where the electrons occupying the orbital are likely to be found. The diagrams cannot, however, show the entire region where an electron can be found, since according to quantum mechanics there is a non-zero probability of finding the electron anywhere in space. Instead the diagrams are approximate representations of boundary or [[contour line|contour surfaces]] where the probability density {{math|{{!}} ψ(''r'', θ, φ) {{!}}<sup>2</sup>}} has a constant value, chosen so that there is a certain probability (for example 90%) of finding the electron within the contour. Although {{math|{{!}} ψ {{!}}<sup>2</sup>}} as the square of an [[absolute value]] is everywhere non-negative, the sign of the [[wave function]] {{math|ψ(''r'', θ, φ)}} is often indicated in each subregion of the orbital picture.
+
+Sometimes the {{math|ψ}} function will be graphed to show its phases, rather than the {{math|{{!}} ψ(''r'', θ, φ) {{!}}<sup>2</sup>}} which shows probability density but has no phases (which have been lost in the process of taking the absolute value, since {{math|ψ(''r'', θ, φ)}} is a complex number). {{math|{{!}} ψ(''r'', θ, φ) {{!}}<sup>2</sup>}} orbital graphs tend to have less spherical, thinner lobes than {{math|ψ(''r'', θ, φ)}} graphs, but have the same number of lobes in the same places, and otherwise are recognizable. This article, in order to show wave function phases, shows mostly {{math|ψ(''r'', θ, φ)}} graphs.
+
+The lobes can be viewed as [[interference (wave propagation)|interference]] patterns between the two counter rotating "{{mvar|m}}" and "{{math|−''m''}}" modes, with the projection of the orbital onto the xy plane having a resonant "{{mvar|m}}" wavelengths around the circumference. For each {{mvar|m}} there are two of these {{math|⟨''m''⟩+⟨−''m''⟩}} and {{math|⟨''m''⟩−⟨−''m''⟩}}. For the case where {{math|1=''m'' = 0}} the orbital is vertical, counter rotating information is unknown, and the orbital is z-axis symmetric. For the case where {{math|1=''ℓ'' = 0}} there are no counter rotating modes.  There are only radial modes and the shape is spherically symmetric.  For any given {{mvar|n}}, the smaller {{mvar|ℓ}} is, the more radial nodes there are.  Loosely speaking ''n'' is energy, {{mvar|ℓ}} is analogous to [[orbital eccentricity|eccentricity]], and {{mvar|m}} is orientation.
+
+Generally speaking, the number {{mvar|n}} determines the size and energy of the orbital for a given nucleus: as {{mvar|n}} increases, the size of the orbital increases. However, in comparing different elements, the higher nuclear charge {{mvar|Z}} of heavier elements causes their orbitals to contract by comparison to lighter ones, so that the overall size of the whole atom remains very roughly constant, even as the number of electrons in heavier elements (higher {{mvar|Z}}) increases.
+
+Also in general terms, {{mvar|ℓ}} determines an orbital's shape, and {{mvar|m<sub>ℓ</sub>}} its orientation. However, since some orbitals are described by equations in [[complex number]]s, the shape sometimes depends on {{mvar|m<sub>ℓ</sub>}} also.
+
+The single s-orbitals (<math>\ell=0</math>) are shaped like spheres. For {{math|1=''n'' = 1}} it is roughly a [[ball (mathematics)|solid ball]] (it is most dense at the center and fades exponentially outwardly), but for {{math|1=''n'' = 2}} or more, each single s-orbital is composed of spherically symmetric surfaces which are nested shells (i.e., the "wave-structure" is radial, following a sinusoidal radial component as well). See illustration of a cross-section of these nested shells, at right. The s-orbitals for all {{mvar|n}} numbers are the only orbitals with an anti-node (a region of high wave function density) at the center of the nucleus. All other orbitals (p, d, f, etc.) have angular momentum, and thus avoid the nucleus (having a wave node ''at'' the nucleus).
+
+The three p-orbitals for {{math|1=''n'' = 2}} have the form of two [[ellipsoid]]s with a [[point of tangency]] at the [[atomic nucleus|nucleus]] (the two-lobed shape is sometimes referred to as a "[[dumbbell]]"). The three p-orbitals in each [[Electron shell|shell]] are oriented at right angles to each other, as determined by their respective linear combination of values of&nbsp;{{mvar|m<sub>ℓ</sub>}}.
+
+[[File:D orbitals.svg|thumb|250px|The five d orbitals in {{math|ψ(''x'', ''y'', ''z'')<!--Please don't italicize a bracket --><sup>2</sup>}} form, with a combination diagram showing how they fit together to fill space around an atomic nucleus.]]
+Four of the five d-orbitals for {{math|1=''n'' = 3}} look similar, each with four pear-shaped lobes, each lobe tangent to two others, and the centers of all four lying in one plane, between a pair of axes. Three of these planes are the xy-, xz-, and yz-planes, and the fourth has the centres on the x and y axes. The fifth and final d-orbital consists of three regions of high probability density: a [[torus]] with two pear-shaped regions placed symmetrically on its z axis.
+
+There are seven f-orbitals, each with shapes more complex than those of the d-orbitals.
+
+For each s, p, d, f and g set of orbitals, the set of orbitals which composes it forms a spherically symmetrical set of shapes. For non-s orbitals, which have lobes, the lobes point in directions so as to fill space as symmetrically as possible for number of lobes which exist for a set of orientations. For example, the three p orbitals have six lobes which are oriented to each of the six primary directions of 3-D space; for the 5d orbitals, there are a total of 18 lobes, in which again six point in primary directions, and the 12 additional lobes fill the 12 gaps which exist between each pairs of these 6 primary axes.
+
+Additionally, as is the case with the s orbitals, individual p, d, f and g orbitals with {{mvar|n}} values higher than the lowest possible value, exhibit an additional radial node structure which is reminiscent of harmonic waves of the same type, as compared with the lowest (or fundamental) mode of the wave. As with s orbitals, this phenomenon provides p, d, f, and g orbitals at the next higher possible value of {{mvar|n}} (for example, 3p orbitals vs. the fundamental 2p), an additional node in each lobe. Still higher values of {{mvar|n}} further increase the number of radial nodes, for each type of orbital.
+
+The shapes of atomic orbitals in one-electron atom are related to 3-dimensional [[spherical harmonics]]. These shapes are not unique, and any linear combination is valid, like a transformation to [[cubic harmonic]]s, in fact it is possible to generate sets where all the d's are the same shape, just like the {{math|''p''<sub>''x''</sub>, ''p''<sub>''y''</sub>,}} and {{math|''p''<sub>''z''</sub>}} are the same shape.<ref>{{Cite journal| doi = 10.1021/ed045p45 | title = The five equivalent d orbitals | year = 1968 | last1 = Powell | first1 = Richard E. | journal = Journal of Chemical Education | volume = 45| issue = 1 | page = 45|bibcode = 1968JChEd..45...45P }}</ref><ref>{{Cite journal| doi =10.1063/1.1750628 | title =Directed Valence | year =1940 | last1 =Kimball | first1 =George E. | journal =The Journal of Chemical Physics | volume =8| issue =2 | page =188|bibcode = 1940JChPh...8..188K }}</ref>
+
+===Orbitals table===
+This table shows all orbital configurations for the real hydrogen-like wave functions up to 7s, and therefore covers the simple electronic configuration for all elements in the periodic table up to [[radium]]. "ψ" graphs are shown with '''−''' and '''+''' [[wave function]] phases shown in two different colors (arbitrarily red and blue). The {{math|''p''<sub>''z''</sub>}} orbital is the same as the {{math|''p''<sub>''0''</sub>}} orbital, but the {{math|''p''<sub>''x''</sub>}} and {{math|''p''<sub>''y''</sub>}} are formed by taking linear
+combinations of the {{math|''p''<sub>''+1''</sub>}} and {{math|''p''<sub>''−1''</sub>}} orbitals (which is why they are listed under the {{math|1=''m'' = ±1}} label). Also, the {{math|''p''<sub>''+1''</sub>}} and {{math|''p''<sub>''−1''</sub>}} are not
+the same shape as the {{math|''p''<sub>''0''</sub>}}, since they are pure [[spherical harmonics]].
+
+{| class="wikitable"
+|-
+!
+! s ({{math|1=''ℓ'' = 0}})
+! colspan="3" |p ({{math|1=''ℓ'' = 1}})
+! colspan="5" |d ({{math|1=''ℓ'' = 2}})
+! colspan="7" |f ({{math|1=''ℓ'' = 3}})
+|-
+!
+! {{math|1=''m'' = 0}}
+! {{math|1=''m'' = 0}}
+! colspan="2" |{{math|1=''m'' = ±1}}
+! {{math|1=''m'' = 0}}
+! colspan="2" |{{math|1=''m'' = ±1}}
+! colspan="2" |{{math|1=''m'' = ±2}}
+! {{math|1=''m'' = 0}}
+! colspan="2" |{{math|1=''m'' = ±1}}
+! colspan="2" |{{math|1=''m'' = ±2}}
+! colspan="2" |{{math|1=''m'' = ±3}}
+|-
+!
+! ''s''
+! ''p''<sub>''z''</sub>
+! ''p''<sub>''x''</sub>
+! ''p''<sub>''y''</sub>
+! ''d''<sub>''z<sup>2</sup>''</sub>
+! ''d''<sub>''xz''</sub>
+! ''d''<sub>''yz''</sub>
+! ''d''<sub>''xy''</sub>
+! ''d''<sub>''x<sup>2</sup>−y<sup>2</sup>''</sub>
+! ''f''<sub>''z<sup>3</sup>''</sub>
+! ''f''<sub>''xz<sup>2</sup>''</sub>
+! ''f''<sub>''yz<sup>2</sup>''</sub>
+! ''f''<sub>''xyz''</sub>
+! ''f''<sub>''z(x<sup>2</sup>−y<sup>2</sup>)''</sub>
+! ''f''<sub>''x(x<sup>2</sup>−3y<sup>2</sup>)''</sub>
+! ''f''<sub>''y(3x<sup>2</sup>−y<sup>2</sup>)''</sub>
+|-
+!{{math|1=''n'' = 1}}
+| [[File:S1M0.png|50px]]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+!{{math|1=''n'' = 2}}
+| [[File:S2M0.png|50px]]
+| [[File:P2M0.png|50px]]
+| [[File:P2M1.png|50px]]
+| [[File:P2M-1.png|50px]]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+!{{math|1=''n'' = 3}}
+| [[File:S3M0.png|50px]]
+| [[File:P3M0.png|50px]]
+| [[File:P3M1.png|50px]]
+| [[File:P3M-1.png|50px]]
+| [[File:D3M0.png|50px]]
+| [[File:D3M1.png|50px]]
+| [[File:D3M-1.png|50px]]
+| [[File:D3M2.png|50px]]
+| [[File:D3M-2.png|50px]]
+|
+|
+|
+|
+|
+|
+|
+|-
+!{{math|1=''n'' = 4}}
+| [[File:S4M0.png|50px]]
+| [[File:P4M0.png|50px]]
+| [[File:P4M1.png|50px]]
+| [[File:P4M-1.png|50px]]
+| [[File:D4M0.png|50px]]
+| [[File:D4M1.png|50px]]
+| [[File:D4M-1.png|50px]]
+| [[File:D4M2.png|50px]]
+| [[File:D4M-2.png|50px]]
+| [[File:F4M0.png|40px]]
+| [[File:F4M1.png|40px]]
+| [[File:F4M-1.png|40px]]
+| [[File:F4M2.png|40px]]
+| [[File:F4M-2.png|40px]]
+| [[File:F4M3.png|40px]]
+| [[File:F4M-3.png|40px]]
+|-
+!{{math|1=''n'' = 5}}
+| [[File:S5M0.png|50px]]
+| [[File:P5M0.png|50px]]
+| [[File:P5M1.png|50px]]
+| [[File:P5M-1.png|50px]]
+| [[File:D5M0.png|50px]]
+| [[File:D5M1.png|50px]]
+| [[File:D5M-1.png|50px]]
+| [[File:D5M2.png|50px]]
+| [[File:D5M-2.png|50px]]
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+|-
+!{{math|1=''n'' = 6}}
+| [[File:S6M0.png|50px]]
+| [[File:P6M0.png|50px]]
+| [[File:P6M1.png|50px]]
+| [[File:P6M-1.png|50px]]
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+|-
+!{{math|1=''n'' = 7}}
+| [[File:S7M0.png|50px]]
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+| '''. . .'''
+|}
+
+===Qualitative understanding of shapes===
+The shapes of atomic orbitals can be understood qualitatively by considering the analogous case of [[Vibrations of a circular drum|standing waves on a circular drum]].<ref>{{cite journal
+| last=Cazenave, Lions | first=T., P. 
+| title=Orbital stability of standing waves for some nonlinear Schrödinger equations
+| journal=Communications in Mathematical Physics | year=1982
+| volume=85 | issue=4 | pages= 549–561
+|doi = 10.1007/BF01403504 |bibcode = 1982CMaPh..85..549C
+| last2=Lions
+| first2=P. L. }}</ref> To see the analogy, the mean vibrational displacement of each bit of drum membrane from the equilibrium point over many cycles (a measure of average drum membrane velocity and momentum at that point) must be considered relative to that point's distance from the center of the drum head. If this displacement is taken as being analogous to the probability of finding an electron at a given distance from the nucleus, then it will be seen that the many modes of the vibrating disk form patterns that trace the various shapes of atomic orbitals. The basic reason for this correspondence lies in the fact that the distribution of kinetic energy and momentum in a matter-wave is predictive of where the particle associated with the wave will be. That is, the probability of finding an electron at a given place is also a function of the electron's average momentum at that point, since high electron momentum at a given position tends to "localize" the electron in that position, via the properties of electron wave-packets (see the [[Heisenberg uncertainty principle]] for details of the mechanism).  
+
+This relationship means that certain key features can be observed in both drum membrane modes and atomic orbitals. For example, in all of the modes analogous to '''s'''&nbsp;orbitals (the top row in the animated illustration below), it can be seen that the very center of the drum membrane vibrates most strongly, corresponding to the [[antinode]] in all '''s'''&nbsp;orbitals in an atom. This antinode means the electron is most likely to be at the physical position of the nucleus (which it passes straight through without scattering or striking it), since it is moving (on average) most rapidly at that point, giving it maximal momentum. 
+
+A mental "planetary orbit" picture closest to the behavior of electrons in '''s'''&nbsp;orbitals, all of which have no angular momentum, might perhaps be that of a [[Keplerian orbit]] with the [[orbital eccentricity]] of 1 but a finite major axis, not physically possible (because [[particle]]s were to collide), but can be imagined as a [[limit (mathematics)|limit]] of orbits with equal major axes but increasing eccentricity.<!-- could somebody make an illustration? -->
+
+Below, a number of drum membrane vibration modes are shown. The analogous wave functions of the hydrogen atom are indicated. A correspondence can be considered where the wave functions of a vibrating drum head are for a two-coordinate system {{math|ψ(''r'', θ)}} and the wave functions for a vibrating sphere are three-coordinate {{math|ψ(''r'', θ, φ)}}.
+
+<center  | align = center>
+'''s-type modes'''
+<gallery widths="200px">
+Image:Drum vibration mode01.gif|Mode <math>u_{01}</math> (1s orbital)
+Image:Drum vibration mode02.gif|Mode <math>u_{02}</math> (2s orbital)
+Image:Drum vibration mode03.gif|Mode <math>u_{03}</math> (3s orbital)
+</gallery>
+</center>
+
+None of the other sets of modes in a drum membrane have a central antinode, and in all of them the center of the drum does not move. These correspond to a node at the nucleus for all non-'''s''' orbitals in an atom. These orbitals all have some angular momentum, and in the planetary model, they correspond to particles in orbit with eccentricity less than 1.0, so that they do not pass straight through the center of the primary body, but keep somewhat away from it. 
+
+In addition, the drum modes analogous to '''p''' and '''d''' modes in an atom show spatial irregularity along the different radial directions from the center of the drum, whereas all of the modes analogous to '''s'''&nbsp;modes are perfectly symmetrical in radial direction. The non radial-symmetry properties of non-'''s''' orbitals are necessary to localize a particle with angular momentum and a wave nature in an orbital where it must tend to stay away from the central attraction force, since any particle localized at the point of central attraction could have no angular momentum. For these modes, waves in the drum head tend to avoid the central point. Such features again emphasize that the shapes of atomic orbitals are a direct consequence of the wave nature of electrons. 
+
+<center  | align = center>
+'''p-type modes'''
+<gallery widths="200px">
+Image:Drum vibration mode11.gif|Mode <math>u_{11}</math> (2p orbital)
+Image:Drum vibration mode12.gif|Mode <math>u_{12}</math> (3p orbital)
+Image:Drum vibration mode13.gif|Mode <math>u_{13}</math> (4p orbital)
+</gallery>
+'''d-type modes'''
+<gallery widths="200px">
+Image:Drum vibration mode21.gif|Mode <math>u_{21}</math> (3d orbital)
+Image:Drum vibration mode22.gif|Mode <math>u_{22}</math> (4d orbital)
+Image:Drum vibration mode23.gif|Mode <math>u_{23}</math> (5d orbital)
+</gallery>
+</center>
+
+==Orbital energy==
+{{main|Electron shell}}
+In atoms with a single electron ([[hydrogen-like atom]]s), the energy of an orbital (and, consequently, of any electrons in the orbital) is determined exclusively by <math>n</math>. The <math>n=1</math> orbital has the lowest possible energy in the atom. Each successively higher value of <math>n</math> has a higher level of energy, but the difference decreases as <math>n</math> increases. For high <math>n</math>, the level of energy becomes so high that the electron can easily escape from the atom. In single electron atoms, all levels with different <math>\ell</math> within a given <math>n</math> are (to a good approximation) degenerate, and have the same energy. This approximation is broken to a slight extent by the effect of the magnetic field of the nucleus, and by [[quantum electrodynamics]] effects. The latter induce tiny binding energy differences especially for '''s'''&nbsp;electrons that go nearer the nucleus, since these feel a very slightly different nuclear charge, even in one-electron atoms; see [[Lamb shift]].
+
+In atoms with multiple electrons, the energy of an electron depends not only on the intrinsic properties of its orbital, but also on its interactions with the other electrons. These interactions depend on the detail of its spatial probability distribution, and so the [[energy level]]s of orbitals depend not only on <math>n</math> but also on <math>\ell</math>. Higher values of <math>\ell</math> are associated with higher values of energy; for instance, the 2p state is higher than the 2s state. When <math>\ell = 2</math>, the increase in energy of the orbital becomes so large as to push the energy of orbital above the energy of the s-orbital in the next higher shell; when <math>\ell = 3</math> the energy is pushed into the shell two steps higher. The filling of the 3d orbitals does not occur until the 4s orbitals have been filled. 
+
+The increase in energy for subshells of increasing angular momentum in larger atoms is due to electron–electron interaction effects, and it is specifically related to the ability of low angular momentum electrons to penetrate more effectively toward the nucleus, where they are subject to less screening from the charge of intervening electrons. Thus, in atoms of higher atomic number, the <math>\ell</math> of electrons becomes more and more of a determining factor in their energy, and the principal quantum numbers <math>n</math> of electrons becomes less and less important in their energy placement.
+
+The energy sequence of the first 24&nbsp;subshells (e.g., 1s, 2p, 3d, etc.) is given in the following table. Each cell represents a subshell with <math>n</math> and <math>\ell</math> given by its row and column indices, respectively. The number in the cell is the subshell's position in the sequence. For a linear listing of the subshells in terms of increasing energies in multielectron atoms, see the section below.
+
+{| class="wikitable"
+|-
+!
+! s
+! p
+! d
+! f
+! g
+|-
+! 1
+| 1 ||    ||    ||    ||
+|-
+! 2
+| 2 ||  3 ||    ||    ||
+|-
+! 3
+| 4 ||  5 ||  7 ||    ||
+|-
+! 4
+| 6 ||  8 || 10 || 13 ||
+|-
+! 5
+| 9 || 11 || 14 || 17 || ''21''
+|-
+! 6
+|12 || 15 || 18 || ''22'' || 
+|-
+! 7
+|16 || 19 || ''23'' |||| 
+|-
+! 8
+|''20'' || ''24'' |||||| 
+|}
+
+''Note: empty cells indicate non-existent sublevels, while numbers in italics indicate sublevels that could exist, but which do not hold electrons in any element currently known.''
+
+==Electron placement and the periodic table==
+[[File:Electron orbitals.svg|right|thumb|350px| [[Electron]] atomic and [[molecular orbital|molecular]] orbitals. The chart of orbitals ('''left''') is arranged by increasing energy (see [[Madelung rule]]). ''Note that atomic orbits are functions of three variables (two angles, and the distance&nbsp;{{mvar|r}} from the nucleus). These images are faithful to the angular component of the orbital, but not entirely representative of the orbital as a whole.'']]
+
+[[File:Atomic orbitals and periodic table construction.ogv|thumb|Atomic orbitals and periodic table construction]]
+
+{{main|electron configuration|electron shell}}
+
+Several rules govern the placement of electrons in orbitals (''[[electron configuration]]''). The first dictates that no two electrons in an atom may have the same set of values of quantum numbers (this is the [[Pauli exclusion principle]]). These quantum numbers include the three that define orbitals, as well as [[Spin quantum number|{{mvar|s}}]], or [[spin quantum number]]. Thus, two electrons may occupy a single orbital, so long as they have different values of&nbsp;{{mvar|s}}. However, ''only'' two electrons, because of their spin, can be associated with each orbital.
+
+Additionally, an electron always tends to fall to the lowest possible energy state. It is possible for it to occupy any orbital so long as it does not violate the Pauli exclusion principle, but if lower-energy orbitals are available, this condition is unstable. The electron will eventually lose energy (by releasing a [[photon]]) and drop into the lower orbital. Thus, electrons fill orbitals in the order specified by the energy sequence given above.
+
+This behavior is responsible for the structure of the [[periodic table]]. The table may be divided into several rows (called 'periods'), numbered starting with 1 at the top. The presently known elements occupy seven periods. If a certain period has number ''i'', it consists of elements whose outermost electrons fall in the ''i''th shell. [[Niels Bohr]] was the first to propose (1923) that the [[Periodic table|periodicity]] in the properties of the elements might be explained by the periodic filling of the electron energy levels, resulting in the electronic structure of the atom.<ref name="Bohr">{{cite journal | last = Bohr | first = Niels | authorlink = Niels Bohr | title = Über die Anwendung der Quantumtheorie auf den Atombau. I | journal = [[Zeitschrift für Physik]] | year = 1923 | volume = 13 | page = 117|bibcode = 1923ZPhy...13..117B |doi = 10.1007/BF01328209 }}</ref>
+
+The periodic table may also be divided into several numbered rectangular '[[Periodic table block|blocks]]'. The elements belonging to a given block have this common feature: their highest-energy electrons all belong to the same {{mvar|ℓ}}-state (but the {{mvar|n}} associated with that {{mvar|ℓ}}-state depends upon the period). For instance, the leftmost two columns constitute the 's-block'. The outermost electrons of [[Lithium|Li]] and [[Beryllium|Be]] respectively belong to the 2s&nbsp;subshell, and those of [[sodium|Na]] and [[magnesium|Mg]] to the 3s&nbsp;subshell.
+
+The following is the order for filling the "subshell" orbitals, which also gives the order of the "blocks" in the periodic table:
+
+:'''1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, 7s, 5f, 6d, 7p'''
+
+The "periodic" nature of the filling of orbitals, as well as emergence of the '''s''', '''p''', '''d''' and '''f''' "blocks", is more obvious if this order of filling is given in matrix form, with increasing principal quantum numbers starting the new rows ("periods") in the matrix. Then, each subshell (composed of the first two quantum numbers) is repeated as many times as required for each pair of electrons it may contain. The result is a compressed periodic table, with each entry representing two successive elements:
+<center>
+{|
+|-
+|<pre>
+1s                                    
+2s                          2p  2p  2p
+3s                          3p  3p  3p
+4s      3d  3d  3d  3d  3d  4p  4p  4p
+5s      4d  4d  4d  4d  4d  5p  5p  5p
+6s (4f) 5d  5d  5d  5d  5d  6p  6p  6p
+7s (5f) 6d  6d  6d  6d  6d  7p  7p  7p
+</pre>
+|}
+</center>
+
+The number of electrons in an electrically neutral atom increases with the [[atomic number]]. The electrons in the outermost shell, or ''[[valence electron]]s'', tend to be responsible for an element's chemical behavior. Elements that contain the same number of valence electrons can be grouped together and display similar chemical properties.
+
+===Relativistic effects===
+{{Main|Relativistic quantum chemistry}}
+
+For elements with high atomic number {{mvar|Z}}, the effects of relativity become more pronounced, and especially so for s&nbsp;electrons, which move at relativistic velocities as they penetrate the screening electrons near the core of high-{{mvar|Z}} atoms. This relativistic increase in momentum for high speed electrons causes a corresponding decrease in wavelength and contraction of 6s orbitals relative to 5d orbitals (by comparison to corresponding s and d electrons in lighter elements in the same column of the periodic table); this results in 6s valence electrons becoming lowered in energy.
+
+Examples of significant physical outcomes of this effect include the lowered melting temperature of [[mercury (element)|mercury]] (which results from 6s electrons not being available for metal bonding) and the golden color of [[gold]] and [[caesium]] (which results from narrowing of 6s to 5d transition energy to the point that visible light begins to be absorbed).<ref>{{Cite web|url=http://www.chem1.com/acad/webtut/atomic/qprimer/#Q26|title= Primer on Quantum Theory of the Atom|first=Stephen |last=Lower}}</ref> 
+
+In the [[Bohr Model]], an {{math|''n'' = 1}}&nbsp;electron has a velocity given by <math>v = Z \alpha c</math>, where {{mvar|Z}} is the atomic number, <math>\alpha</math> is the [[fine-structure constant]], and {{math|''c''}} is the speed of light. In non-relativistic quantum mechanics, therefore, any atom with an atomic number greater than 137 would require its 1s electrons to be traveling faster than the speed of light. Even in the [[Dirac equation]], which accounts for relativistic effects, the wavefunction of the electron for atoms with {{math|'''''Z'' > 137'''}} is oscillatory and [[unbounded]]. The significance of element 137, also known as [[untriseptium]], was first pointed out by the physicist [[Richard Feynman]]. Element 137 is sometimes informally called [[feynmanium]] (symbol Fy). However, Feynman's approximation fails to predict the exact critical value of&nbsp;{{mvar|Z}} due to the non-point-charge nature of the nucleus and very small orbital radius of inner electrons, resulting in a potential seen by inner electrons which is effectively less than {{mvar|Z}}. The critical {{mvar|Z}}&nbsp;value which makes the atom unstable with regard to high-field breakdown of the vacuum and production of electron-positron pairs, does not occur until {{mvar|Z}} is about 173. These conditions are not seen except transiently in collisions of very heavy nuclei such as lead or uranium in accelerators, where such electron-positron production from these effects has been claimed to be observed. See [[Extension of the periodic table beyond the seventh period]].
+
+There are no nodes in relativistic orbital densities, although individual components of the wavefunction will have nodes.<ref>{{cite journal|doi=10.1021/ed046p678|title=Contour diagrams for relativistic orbitals|year=1969|last1=Szabo|first1=Attila|journal=Journal of Chemical Education|volume=46|issue=10|pages=678|bibcode = 1969JChEd..46..678S }}</ref>
+
+== Transitions between orbitals ==
+{{main|Atomic electron transition}}
+Under quantum mechanics, each quantum state has a well-defined energy. When applied to atomic orbitals, this means that each state has a specific energy, and that if an electron is to move between states, the energy difference is also very fixed.
+
+Consider two states of the Hydrogen atom:
+
+State 1) {{math|1=''n'' = 1}}, {{math|1=''ℓ'' = 0}}, {{math|1=''m''<sub>''ℓ''</sub> = 0}} and {{math|1=''s'' = +}}{{frac|1|2}}
+
+State 2) {{math|1=''n'' = 2}}, {{math|1=''ℓ'' = 0}}, {{math|1=''m''<sub>''ℓ''</sub> = 0}} and {{math|1=''s'' = +}}{{frac|1|2}}
+
+By quantum theory, state&nbsp;1 has a fixed energy of {{math|''E''<sub>1</sub>}}, and state&nbsp;2 has a fixed energy of {{math|''E''<sub>2</sub>}}. Now, what would happen if an electron in state&nbsp;1 were to move to state&nbsp;2? For this to happen, the electron would need to gain an energy of exactly {{math|''E''<sub>2</sub> − ''E''<sub>1</sub>}}. If the electron receives energy that is less than or greater than this value, it cannot jump from state&nbsp;1 to state&nbsp;2. Now, suppose we irradiate the atom with a broad-spectrum of light. Photons that reach the atom that have an energy of exactly {{math|''E''<sub>2</sub> − ''E''<sub>1</sub>}} will be absorbed by the electron in state&nbsp;1, and that electron will jump to state&nbsp;2. However, photons that are greater or lower in energy cannot be absorbed by the electron, because the electron can only jump to one of the orbitals, it cannot jump to a state between orbitals. The result is that only photons of a specific frequency will be absorbed by the atom. This creates a line in the spectrum, known as an absorption line, which corresponds to the energy difference between states 1 and 2.
+
+The atomic orbital model thus predicts line spectra, which are observed experimentally. This is one of the main validations of the atomic orbital model.
+
+The atomic orbital model is nevertheless an approximation to the full quantum theory, which only recognizes many electron states. The predictions of line spectra are qualitatively useful but are not quantitatively accurate for atoms and ions other than those containing only one electron.
+
+==See also==
+* [[Atomic electron configuration table]]
+* [[Condensed matter physics]]
+* [[Electron configuration]]
+* [[Energy level]]
+* [[Hund's rules]]
+* [[Molecular orbital]]
+* [[Quantum chemistry]]
+* [[Quantum chemistry computer programs]]
+* [[Solid state physics]]
+* [[Orbital resonance]]
+* [[Wave function collapse]]
+
+==References==
+{{reflist|30em}}
+
+==Further reading==
+* {{Cite book| last1=Tipler | first1=Paul | first2=Ralph|last2= Llewellyn | year=2003 | title=Modern Physics | edition=4 | location=New York |publisher=W. H. Freeman and Company | isbn=0-7167-4345-0}}
+* {{Cite book| last=Scerri | first=Eric | year=2007 | title=The Periodic Table, Its Story and Its Significance |location=New York |publisher=Oxford University Press | isbn=978-0-19-530573-9}}
+* {{Cite book| last=Levine | first=Ira | year=2000 | title=Quantum Chemistry |location=Upper Saddle River, New Jersey |publisher=Prentice Hall | isbn=0-13-685512-1}}
+* {{Cite book| last=Griffiths | first=David | year=2000 | title=Introduction to Quantum Mechanics  |publisher=Benjamin Cummings |edition=2 | isbn=978-0-13-111892-8}}
+* {{Cite journal | last1 = Cohen | first1 = Irwin | first2 = Thomas |last2=Bustard | title = Atomic Orbitals: Limitations and Variations | journal = J. Chem. Educ. | volume = 43 | page = 187  | year = 1966 | url = http://pubs.acs.org/doi/pdfplus/10.1021/ed043p187|bibcode = 1966JChEd..43..187C |doi = 10.1021/ed043p187 | issue = 4 }}
+
+==External links==
+* [http://www.chemguide.co.uk/atoms/properties/atomorbs.html Guide to atomic orbitals]
+* [http://wps.prenhall.com/wps/media/objects/602/616516/Chapter_07.html Covalent Bonds and Molecular Structure]
+* [http://strangepaths.com/atomic-orbital/2008/04/20/en/ Animation of the time evolution of an hydrogenic orbital]
+* [http://www.shef.ac.uk/chemistry/orbitron/ The Orbitron], a visualization of all common and uncommon atomic orbitals, from 1s to 7g
+* [http://www.orbitals.com/orb/orbtable.htm Grand table] Still images of many orbitals
+* David Manthey's [http://www.orbitals.com/orb/index.html Orbital Viewer] renders orbitals with ''n''&nbsp;≤&nbsp;30
+* [http://www.falstad.com/qmatom/ Java orbital viewer applet]
+* [http://www.hydrogenlab.de/elektronium/HTML/einleitung_hauptseite_uk.html What does an atom look like? Orbitals in 3D]
+* [http://taras-zavedy.narod.ru/PROGRAMMS/ATOM_ORBITALS_v_1_5_ENG/Atom_Orbitals_v_1_5_ENG.html Atom Orbitals v.1.5 visualization software]
+
+{{Atomic models}}
+
+{{DEFAULTSORT:Atomic Orbital}}
+[[Category:Atomic physics]]
+[[Category:Chemical bonding]]
+[[Category:Electron states]]
+[[Category:Quantum chemistry]]

@@ -1,0 +1,137 @@
+{{Infobox software
+| name                   = Common Desktop Environment
+| logo                   = [[File:Common Desktop Environment logo and wordmark.svg]]
+| screenshot             = [[File:CDE 2012 on Linux.png|frameless|CDE 2.2.0 Alpha running on Linux]]
+| caption                = CDE 2.2.0 Alpha running on GNU/Linux
+| developer              = [[The Open Group]]
+| latest_release_version = 2.1
+| latest_release_date    = 5 February 1997<ref>TOG Press Release: [http://www.opengroup.org/desktop/Press_Releases/cde2.1ga.htm The Open Group Announces Common Desktop Environment 2.1]</ref>
+| latest preview version = 2.2.0d Beta
+| latest preview date    = 30 May 2013
+| operating_system       = [[Unix]], [[Linux]], [[OpenVMS]], Other [[Unix-like]] OSes
+| genre                  = [[Desktop environment]]
+| license                = [[GNU Lesser General Public License#Version 2|LGPL v2]]+
+| website                = {{url|http://cdesktopenv.org}}
+}}
+
+The '''Common Desktop Environment''' ('''CDE''') is a [[desktop environment]] for [[Unix]] and [[OpenVMS]], based on the [[Motif (software)|Motif widget toolkit]]. It was part of the [[UNIX98|UNIX98 Workstation]] standard,<ref>{{cite web|url=http://www.opengroup.org/openbrand/testing/prodstds.htm|title=Testing requirements by Product Standard|publisher=The Open Group|date=31 January 2013|accessdate=29 September 2013}}</ref> and was long the "classic" Unix desktop associated with commercial Unix workstations. After a long history as [[proprietary software]], it was released as [[free software]] on 6 August 2012, under the [[GNU Lesser General Public License]], version 2 or later.<ref name=osnews2012-08-06>
+{{cite web
+ |url = http://www.osnews.com/story/26247/CDE_released_as_open_source
+ |title = CDE released as open source
+ |publisher=OSNews
+ |author=Thom Holwerda
+ |accessdate = 2012-08-06
+}}</ref>
+
+== History ==
+
+[[SunSoft, Inc.|SunSoft]], [[Hewlett-Packard|HP]], [[IBM]] and [[Unix System Laboratories|USL]] announced CDE in June 1993 as a joint development within the [[Common Open Software Environment]] (COSE) initiative. The primary environment was based on HP's [[Visual User Environment|VUE]] (Visual User Environment), itself derived from the [[Motif Window Manager]] (mwm). IBM contributed its [[Common User Access]] model from [[OS/2]]'s [[Workplace Shell]]. [[Novell]] provided desktop manager components and scalable systems technologies from [[UNIX System V]]. Sun contributed its [[ToolTalk]] application interaction framework and a port of its [[DeskSet]] productivity tools, including mail and calendar clients, from its [[OpenWindows]] environment.<ref>{{cite press release
+ |url = http://bubl.ac.uk/ARCHIVE/subject/computing/misc/coseup6.htm
+ |title = UNIX Leaders Complete First Release of Specification for Common Open Software Environment Desktop
+ |accessdate = 2007-11-30
+ |date = 1993-06-30
+ |publisher = Hewlett-Packard, IBM Corporation, SunSoft, Inc., UNIX System Laboratories, X/Open Company Ltd.
+}}</ref>
+
+In March 1994 CDE became the responsibility of the "new OSF", a merger of the [[Open Software Foundation]] and [[Unix International]];<ref>
+{{cite press release
+ |publisher = AT&T Global Information Systems, Digital Equipment Corporation, Hewlett-Packard Company, IBM Corporation, SunSoft Incorporated, et al.
+ |date = 1994-03-23
+ |url = http://groups.google.com/group/comp.unix.osf.misc/msg/4ebc895ff10823f1
+ |title = Leading Vendors Unify to Accelerate Open Systems
+ |accessdate = 2008-05-15
+}}
+</ref>
+in September 1995, the merger of Motif and CDE into a single project, CDE/Motif, was announced.<ref>{{cite press release
+ |publisher = Open Software Foundation
+ |date = 1995-09-07
+ |url = http://groups.google.com/group/cu.motif-talk/msg/9935c0cb91e254fd
+ |title = OSF Announces Formal Launch of CDE/Motif Project
+ |accessdate = 2008-05-15
+}}</ref> OSF became part of the newly formed [[Open Group]] in 1996.<ref>{{cite press release
+ |url = http://www.rdg.opengroup.org/public/news/feb96/merge.htm
+ |title = X/Open and OSF Join to Create The Open Group
+ |accessdate = 2008-05-16
+ |date = 1996-02-14
+ |publisher = [[X/Open]] Company Ltd. [[Open Software Foundation]]
+}}</ref>
+
+Until about 2000, users of Unix desktops regarded CDE as the ''[[de facto]]'' standard, but at that time, other desktop environments such as [[GNOME]] and [[K Desktop Environment 2]] were quickly becoming mature, and became almost universal on the [[Linux]] platform, which already had a larger user base than most commercial Unixes in total.{{Citation needed|date=August 2009}} [[Red Hat]] is the only Linux distribution to which CDE has been ported, although it has since been phased out in favor of GNOME.
+
+In 2001, Sun Microsystems announced that they would phase out CDE as the standard [[Solaris (operating system)|Solaris]] desktop environment in favor of GNOME. Solaris 10, released in early 2005, includes both CDE and the GNOME-based [[Java Desktop System]]. The Solaris 11 release in November 2011 only contains GNOME as a full desktop, though some CDE libraries, such as Motif and Tooltalk, remain for binary compatibility. The [[OpenSolaris]] open source project did not include CDE, and had no intent to make Solaris CDE available as open source.<ref>{{cite web
+ |url = http://www.opensolaris.org/os/about/roadmap/conslist/
+ |title = OpenSolaris Consolidation Information
+ |accessdate = 2007-12-01
+ |work = OpenSolaris Web site
+}}</ref>
+
+[[Hewlett-Packard|HP's]] [[OpenVMS]] uses CDE as its standard desktop environment.
+
+== Licensing ==
+{{Portal|Free software}}
+The Open Group released Motif in 2000 as Open Motif under a "revenue sharing" license that does not meet either the [[Open Source Definition|open source]] or [[Free software licence|free software]] definitions. (The Open Group had wished to make it open source, but did not quite succeed in achieving this.<ref>
+{{cite web
+ |url = http://www.opengroup.org/openmotif/faq.html
+ |title = Open Motif Frequently Asked Questions
+ |accessdate = 2007-11-30
+ |date = 2004-07-13
+ |publisher = The Open Group
+}}</ref>)
+
+In 2006, a petition was created asking The Open Group to release the source code for CDE and Motif under a free license.<ref>{{cite web
+ |url = http://www.marutan.net/cde/
+ |title = Petition to Open Source CDE and Motif
+ |accessdate = 2007-11-30
+ |author = Peter Howkins
+}}</ref> On August 6, 2012, CDE was open-sourced under the [[GNU Lesser General Public License|LGPL]] [[free software license]].<ref name=osnews2012-08-06/><ref>
+{{cite web
+ |url = http://blog.opengroup.org/2012/09/27/how-the-operating-system-got-graphical/
+ |title = How the Operating System Got Graphical
+ |publisher= The Open Group
+ |author= Dave Lounsbury
+ |accessdate = 2012-09-27
+}}</ref> Its source code is available at [[SourceForge]]. On October 23, 2012, the Motif widget toolkit was released under the [[GNU Lesser General Public License|LGPL]] v2.1 as well,<ref>{{cite web|title = ICS MotifZone|url = http://motif.ics.com/|date=October 2012|accessdate=October 2012}}</ref> making CDE a completely free and open source desktop environment.
+
+OpenCDE, an open source project to replicate CDE, was started in early 2010. The project intended to reproduce the [[look and feel]], organization, and feature set of CDE without using any CDE-derived code.<ref>
+{{cite web
+ |url = http://www.opencde.org
+ |title = OpenCDE
+ |accessdate = 2011-02-14
+ |author = kpedersen
+ |archiveurl=http://web.archive.org/web/20120320152927/http://devio.us/~kpedersen/
+ |archivedate=20 March 2012
+}}</ref> With the release of CDE as open source, OpenCDE has been closed in its favor.<ref>{{cite web|url=http://devio.us/~kpedersen/forums/viewtopic.php?id=1293|title=CDE Open Sourced!|author=woomia|work=OpenCDE Forums|date=6 August 2012|quote=With this, OpenCDE is officially deprecated. Feel free to make a fork of it if you wish.|archiveurl=http://web.archive.org/web/20121125041917/http://devio.us/~kpedersen/forums/viewtopic.php?id=1293|archivedate=25 November 2012}}</ref>
+
+== Operating systems using CDE ==
+
+* [[AIX (operating system)|AIX]] ([[IBM]])
+* [[Tru64 UNIX|Digital UNIX]] / [[Tru64 UNIX]] (originally [[Digital Equipment Corporation]], now [[Hewlett-Packard]])
+* [[HP-UX]] (Hewlett-Packard) from version 10.10<ref>[http://www.unixguide.net/hp/faq/3.3.shtml HP-UX : FAQ]</ref>
+* [[OpenVMS]] (originally Digital Equipment Corporation, now Hewlett-Packard)
+* [[Solaris (operating system)|Solaris]] ([[Sun Microsystems]]) available as an add on for 2.3 onwards, and as standard in 2.6 to 10.
+* [[UnixWare]] ([[Univel]])
+* [[IRIX]] (For a short time [[Silicon Graphics]] offered CDE as an alternative to [[IRIX Interactive Desktop|IID]]<ref>[http://techpubs.sgi.com/library/tpl/cgi-bin/getdoc.cgi?coll=0650&db=relnotes&fname=/usr/relnotes/cde IRIX 6.5 Release Notes for CDE]</ref>)
+* CDEbian - a Linux distribution based on [[Debian]] Squeeze built to run CDE<ref>http://andarazoroflove.org/code/cdebian/</ref>
+
+== References ==
+{{Reflist}}
+
+== External links ==
+
+* {{cite web
+ |url = http://cdesktopenv.sourceforge.net/
+ |title = CDE project's official page at SourceForge
+ |accessdate = 2012-08-06
+}}
+* [http://www.cs.cf.ac.uk/Dave/C/node2.html Tutorial for the CDE]
+* [http://www.opengroup.org/cde/ Open Group – CDE]
+
+{{X desktop environments and window managers}}
+{{Open Group standards}}
+
+[[Category:Desktop environments]]
+[[Category:X window managers]]
+[[Category:OpenVMS]]
+[[Category:Sun Microsystems software]]
+[[Category:1993 software]]
+[[Category:Formerly proprietary software]]

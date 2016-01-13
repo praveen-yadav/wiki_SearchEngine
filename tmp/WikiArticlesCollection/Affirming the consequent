@@ -1,0 +1,59 @@
+{{Use dmy dates|date=June 2013}}
+'''Affirming the consequent''', sometimes called '''converse error''' or '''fallacy of the converse''', is a [[formal fallacy]] of inferring the [[converse (logic)|converse]] from the original statement. The corresponding argument has the general [[argument form|form]]:
+
+#If ''P'', then ''Q''.
+#''Q''.
+#Therefore, ''P''.
+
+An argument of this form is [[validity|invalid]], i.e., the conclusion can be false even when statements 1 and 2 are true.  Since ''P'' was never asserted as the ''only'' sufficient condition for ''Q'', other factors could account for ''Q'' (while ''P'' was false).<ref>{{cite web
+ |url = http://www.fallacyfiles.org/afthecon.html
+ |title = Fallacy Files
+ |work = http://www.fallacyfiles.org
+ |publisher  = Fallacy Files
+ |accessdate = May 9, 2013
+}}</ref>
+
+To put it differently, if ''P'' implies ''Q'', the '''only''' inference that can be made is ''non-Q'' implies ''non-P''.  (''Non-P'' and ''non-Q'' designate the opposite propositions to ''P'' and ''Q''.)  Symbolically:
+
+(''P'' ⇒ ''Q'') ⇔ (''non-Q'' ⇒ ''non-P'')
+
+The name ''affirming the [[consequent]]'' derives from the premise ''Q'', which affirms the "then" clause of the [[indicative conditional|conditional]] premise.
+
+==Examples==
+One way to demonstrate the invalidity of this argument form is with a counterexample with true premises but an obviously false conclusion.  For example:
+
+:If [[Bill Gates]] owns [[United States Bullion Depository|Fort Knox]], then he is rich.
+:Bill Gates is rich.
+:Therefore, Bill Gates owns Fort Knox.
+
+Owning Fort Knox is not the ''only'' way to be rich.  Any number of other ways exist to be rich.
+
+However, one can affirm with certainty that "if Bill Gates is not rich" (''non-Q'') then "Bill Gates does not own Fort Knox" (''non-P'').
+
+Arguments of the same form can sometimes seem superficially convincing, as in the following example:
+
+:If I have the [[flu]], then I have a [[sore throat]].
+:I have a sore throat.
+:Therefore, I have the flu.
+
+But having the flu is not the ''only'' cause of a sore throat since many illnesses cause sore throat, such as the [[common cold]] or [[strep throat]].
+
+==See also==
+*[[Modus ponens]]
+*[[Modus tollens]]
+*[[Post hoc ergo propter hoc]]
+*[[Denying the antecedent]]
+*[[Fallacy of the undistributed middle]]
+*[[Inference to the best explanation]]
+*[[ELIZA effect]]
+*[[Confusion of the inverse]]
+
+==References==
+{{reflist}}
+
+{{Formal fallacy}}
+
+[[Category:Propositional fallacies]]
+
+
+{{logic-stub|date=November 2008}}

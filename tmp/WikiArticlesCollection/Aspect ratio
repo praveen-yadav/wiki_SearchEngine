@@ -1,0 +1,61 @@
+{{About|shapes|the aspect ratio of images, film and video |Aspect ratio (image)}}
+{{Use dmy dates|date=June 2013}}
+
+The '''aspect ratio''' is the ratio of the width of a [[shape]] to its height<ref>{{Cite web|url=http://whatis.techtarget.com/definition/aspect-ratio |title=What is aspect ratio? |first=Margaret |last=Rouse |date=September 2005 |accessdate=2013-02-03 |work=WhatIs? |publisher=TechTarget}}</ref> when the width is larger than the height, i.e. the shape is positioned as a "landscape" rather than "portrait".
+
+The aspect ratio is expressed as two numbers separated by a colon (x:y). A common misunderstanding is that x and y represent actual length and height. This is false; they actually represent the relation between width and height. As an example, 8:5, 16:10 and 1.6:1 are the same aspect ratio.
+
+It may be applied to two characteristic dimensions of a three-dimensional shape.
+
+==Applications and uses==
+The term is most commonly used with reference to:
+* Graphic / image
+** [[Aspect ratio (image)|Image aspect ratio]]
+** [[Display aspect ratio]]: the aspect ratio for computer displays.
+** [[Paper size]]
+** [[Standard photographic print sizes]]
+** [[List of film formats|Motion picture film formats]]
+** [[Standard ad size]]
+** [[Pixel aspect ratio]]
+** [[Photolithography]]: the aspect ratio of an etched, or deposited structure is the ratio of the height of its vertical side wall to its width.
+*** [[HARMST]] High Aspect Ratios allow the construction of tall structures without slant
+* [[Tire code]]
+* [[Tire sizing]]
+* [[Aspect ratio (wing)|wing aspect ratio]] of an aircraft or bird
+* [[Astigmatism]] of an [[optical lens]]
+* Nanorod dimensions
+
+==Examples==
+
+===Rectangles===
+{{Main|Aspect ratio (image)}}
+For a rectangle, the aspect ratio denotes the ratio of length to width of the rectangle. An aspect ratio of 1:1 is a square.
+[[File:Aspect ratio compare.svg|center|]]
+From left to right:
+
+: When comparing the above illustration to the below text, please note that the above ''x'':''y'' aspect ratio values are shown as vertical orientation rectangles to better demonstrate visual differences, whereas the aspect ratio values of the text below are written as rotated horizontal orientation rectangles (e.g. compare ''3:4'' vertical orientation illustration to ''4:3'' horizontal orientation text).
+* 4:3 = 1.{{overline|3}}: Some (not all) 20th century computer monitors ([[VGA]], [[XGA]], etc.), [[standard-definition television]]
+* √2:1 = 1.414…: International paper sizes ([[ISO 216]])
+* 3:2 = 1.5: [[135 film|35mm still camera film]], [[iPhone#Model_comparison|iPhone]] displays
+* [[16:10]] = 1.6 (not shown above): Commonly used [[widescreen]] [[computer display]]s ([[WXGA (graphics)|WXGA]])
+* Φ:1 = 1.618…: [[Golden ratio]], close to 16:10
+* 5:3 = 1.{{overline|6}}: [[Super 16 mm]],  a standard [[film gauge]] in many European countries
+* 16:9 = 1.{{overline|7}}: [[Widescreen]] TV
+
+===Ellipses===
+For an ellipse, the aspect ratio denotes the ratio of the [[major axis]] to the [[minor axis]]. An aspect ratio of 1:1 is a circle.
+[[File:Elps-slr.svg|center|500px|]]
+
+==Math and aspect ratio==
+Aspect ratios are mathematically expressed as ''x'':''y'' (pronounced "x-to-y") and ''x''×''y'' (pronounced "x-by-y"), with the latter particularly used for [[pixel dimensions]], such as 640×480. Cinematographic aspect ratios are usually denoted as a (rounded) decimal multiple of width vs unit height, while photographic and videographic aspect ratios are usually defined and denoted by whole number ratios of width to height. In [[digital image]]s there is a subtle distinction between the [[Display Aspect Ratio|''Display'' Aspect Ratio]] (the image as displayed) and the [[Storage Aspect Ratio|''Storage'' Aspect Ratio]] (the ratio of pixel dimensions); see [[Aspect_ratio_(image)#Distinctions|Distinctions]].
+
+==See also==
+* [[Ratio]]
+* [[Equidimensional]] ratios in 3D
+* [[Vertical orientation]]
+
+== References==
+<references />
+
+{{DEFAULTSORT:Aspect Ratio}}
+[[Category:Ratios]]

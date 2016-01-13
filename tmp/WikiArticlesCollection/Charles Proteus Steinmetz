@@ -1,0 +1,198 @@
+{{Infobox person
+| name = Charles Proteus Steinmetz
+| image = charlesproteussteinmetz.jpg
+| birth_name= Karl August Rudolph Steinmetz 
+| birth_date = {{birth date|1865|4|9|mf=y}}
+| birth_place = [[Breslau]], [[Province of Silesia]], [[Prussia]]
+| death_date = {{death date and age|1923|10|26|1865|4|9|mf=y}}
+| death_place = [[Schenectady]], New York, US
+| occupation = [[Mathematician]] and [[electrical engineer]]
+| known for  = [[Alternating current]]<br>[[Electric power industry]]<br>[[Hysteresis]]<br>[[Induction motor|Steinmetz equivalent circuit]]<br>[[Mechanicville Hydroelectric Plant]]<br>[[Metal-halide lamp]]<br>[[Network synthesis filters]]<br>[[Passive analogue filter development]]<br>[[Phasor measurement unit]]<br>[[Steinmetz solid]]<br>[[Transmission line]]<br>[[Wireless power]]<br>[[Engineering education]]
+| salary = 
+| networth = 
+| spouse = 
+| parents = Karl Heinrich Steinmetz
+| website =
+| footnotes = 
+}}
+'''Charles Proteus Steinmetz''' (April 9, 1865 – October 26, 1923) was a [[mathematician]] and [[electrical engineer]]. He fostered the development of [[alternating current]] that made possible the expansion of the [[electric power industry]] in the United States, formulating mathematical theories for engineers. He made ground-breaking discoveries in the understanding of [[hysteresis]] that enabled engineers to design better [[electrical machine|electromagnetic apparatus equipment]] including especially [[induction motor|electric motor]]s for use in industry.<ref>{{cite conference|url=http://www.invent.org/hall_of_fame/139.html|website=Invent Now, Inc. Hall of Fame profile|title=Charles Proteus Steinmetz|publisher=Invent Now, Inc. |accessdate=10 November 2013}}</ref><ref name="Alger (1976)">{{cite journal|last=Alger|first=P.L.|coauthors=Arnold, R.E.|title=The History of Induction Motors in America|journal=Proceedings of the IEEE|year=1976|volume=64|issue=9|pages=1380–1383|doi=10.1109/PROC.1976.10329|url=http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=1454598&contentType=Journals+%26+Magazines&queryText%3DThe+History+of+Induction+Motors+in+America}}</ref>{{efn|Quoting from Alger, "Steinmetz was truly the patron saint of the GE motor business."<ref name="Alger (1976)"/>}} 
+
+Steinmetz was born as '''Karl August Rudolph Steinmetz''' into a Jewish<ref name="Clemens (2011)">{{cite book|last=Clemens|first=Nora|title=Discovering the Nature of Energy|publisher=Rosen Publishing Group.|url=http://www.amazon.com/Discovering-Nature-Energy-Scientists-Physics/dp/1448847028|location=New York|isbn=978-1448847020|page=78|edition=1st|coauthors=Greenberger, Robert}}</ref> family in  [[Breslau]], [[Province of Silesia]]. Steinmetz suffered from [[dwarfism]], [[Kyphosis|hunchback]], and [[Hip dysplasia (human)|hip dysplasia]], as did his father and grandfather. Steinmetz attended Johannes [[Gymnasium (school)|Gymnasium]] and astonished his teachers with his proficiency in [[mathematics]] and [[physics]].
+
+==Early socialist==
+[[File:Steinmetz Cabin.jpg|thumb|250px|Steinmetz  maintained a small cabin overlooking the [[Mohawk River]] near [[Schenectady, New York]].]]
+Following the Gymnasium Steinmetz went on to the [[University of Breslau]] to begin work on his undergraduate degree in 1883. He was on the verge of finishing his doctorate in 1888 when he came under investigation by the German police for activities on behalf of a [[socialist]] university group and articles he had written for a local socialist newspaper, then a popular ideological pursuit among secular German Jews.
+
+As socialist meetings and press had been banned in Germany, Steinmetz fled to [[Zürich]] in 1888 to escape possible arrest.  Faced with an expiring visa, he emigrated to the [[USA|United States]] in 1889. He changed his first name to Charles in order to sound more American and chose the middle name Proteus after a childhood taunt given to him by classmates. Proteus was a wise hunchbacked character from the Odyssey who knew many secrets and he felt it suited him.
+
+[[Cornell University]] Professor Ronald R. Kline, the author of ''Steinmetz: Engineer and Socialist'', contends that other factors were more directly involved in Steinmetz's decision to leave his homeland, such as the fact that he was in arrears with his tuition at the University of Breslau and that life at home with his father, stepmother, and their daughters was full of tension.
+
+Despite his earlier efforts and interest in socialism, by  1922 Steinmetz concluded that socialism would never work in the U.S. because the country lacked a "powerful, centralized government of competent men, remaining continuously in office" and because "only a small percentage of Americans accept this viewpoint today." <ref name="UC Mag (1998)">{{cite journal|title=Charles Steinmetz: Union's Electrical Wizard|journal=Union College Magazine|date=November 1, 1998|url=http://www.union.edu/N/DS/s.php?s=1512|accessdate=May 31, 2009}}</ref>
+
+==Engineering wizard==
+[[File:Steinmetz 5375682562 4cf76ea1bc o.jpg|thumb|250px|Steinmetz circa 1915]]
+Steinmetz is known for his contribution in three major fields of [[alternating current|alternating current (AC)]] systems theory: [[magnetic hysteresis|hysteresis]], [[steady state (electronics)|steady-state]] analysis, and [[transient (oscillation)|transients]].
+
+===AC hysteresis theory===
+Shortly after arriving in the U.S., Steinmetz went to work for Rudolf Eickemeyer in [[Yonkers, New York]], and published in the field of magnetic hysteresis, which gave him world-wide professional recognition.<ref name="IEEEPER (1996)">{{cite journal|title=The Magnetic Force of Charles Proteus Steinmetz|journal=IEEE Power Engineering Review|year=1996|month=Feb.|volume=16|issue=9|pages=7|doi=10.1109/MPER.1996.535476|accessdate=7 February 2013|url=http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=535476&contentType=Journals+%26+Magazines&queryText%3DCharles+Proteus+Steinmetz+history}}</ref>  Eickemeyer's firm developed [[transformer]]s for use in the [[electric power transmission|transmission of electrical power]] among many other mechanical and electrical devices. In 1893 Eickemeyer's company, along with all of its patents and designs, was bought by the newly formed [[General Electric]] Company, where he quickly became known as the engineering wizard in GE's engineering community.<ref name="IEEEPER (1996)"/>
+
+===AC steady state circuit theory===
+Steinmetz's work revolutionized [[alternating current|AC]] [[circuit theory|circuit theory and analysis]], which had been carried out using complex, time-consuming calculus-based methods. By  1893, Steinmetz simplified these complicated methods to "a simple problem of algebra". He was the first to use [[complex number]] [[phasor]] representation, whereby the letter j is used to designate the 90 degree [[rotation (mathematics)|rotation]] operator in AC system analysis.<ref name="Alger (1976)"/> His seminal books and many [[American Institute of Electrical Engineers]] papers "taught a whole generation of engineers how to deal with AC phenomena.<ref name="Alger (1976)"/><ref name="ZSE (nodate)">{{cite web|title=Steinmetz, Putting it in Perspective - R, L, and C Elements and the Impedance Concept|url=http://zrno.fsb.hr/katedra/download/materijali/966.pdf|publisher=Zabreb School of Engineering|accessdate=21 December 2012}}</ref>
+
+===AC transient theory===
+Steinmetz also made greater strides to the understanding of [[lightning]] phenomena.  He undertook a systematic study of it, resulting in experiments of man-made lightning in the laboratory; this work was published. Steinmetz was called the "forger of [[thunderbolts]]," being the first to create artificial lightning in his GE football field-sized laboratory and high towers, using 120,000 [[voltage|volt]] generators. He erected a lightning tower to attract lightning and studied the patterns and effects of lightning resulting in several theories and ideas.
+
+==Professional and personal aspects==
+Steinmetz served as president of the [[Board of Education]] of Schenectady, and as president of the Schenectady [[City Council]]. He was president of the [[American Institute of Electrical Engineers]] (AIEE) from 1901 to 1902,<ref>{{cite web |url=http://www.ieeeghn.org/wiki/index.php/Charles_Proteus_Steinmetz |title=Charles Proteus Steinmetz |author= |date= |work=IEEE Global History Network |publisher=IEEE |accessdate=8 August 2011}}</ref> as well as the first vice-president of the International Association of Municipal Electricians (IAME)—which later became the [[International Municipal Signal Association]] (IMSA)—from 1913 until his death. Steinmetz wrote 13 books and 60 articles, not all about engineering. He was an honorary member and advisor to the fraternity [[Phi Gamma Delta]] at Union (whose chapter house there was one of the first electrified houses ever). 
+
+On Steinmetz's views on God, he was an agnostic.<ref name="Hammond (1924)">{{cite book|title=Charles Proteus Steinmetz: A biography|year=1924|publisher=The Century & Co.|first=John Winthrop |last=Hammond|accessdate=21 August 2012|page=447}}</ref>{{efn|Quoting from Hammond, "This has placed him before the public as an atheist.* The title he did not deny. The writer, however, would put him down as a confirmed agnostic, for an atheist is a person who knows there is no God, and Steinmetz was not of that..."<ref name="Hammond (1924)"/>}} 
+
+Steinmetz died on October 26, 1923 and was buried in [[Vale Cemetery]], [[Schenectady]].
+
+==Legacy==
+[[File:Albert Einstein with other engineers and scientists at Marconi RCA radio station 1921.jpg|thumb|250px|Marconi Wireless Station in Somerset, New Jersey in 1921. Steinmetz is at centre; he died two years later.]]
+His connection to Union College is celebrated with the annual Steinmetz Symposium,<ref name="UC SteinmetzSym">{{cite web|title=Union College Steinmetz Symposium|url=http://www.union.edu/academic/beyond/research/steinmetz/}}</ref>  a day-long event in which Union undergraduates give presentations on research they have done. Steinmetz Hall, which houses the [[Union College]] computer center, is named after him.
+
+Steinmetz was portrayed in 1959 by the [[actor]] [[Rod Steiger]] in the [[Columbia Broadcasting System|CBS]] [[anthology series]], ''[[The Joseph Cotten Show]]''. The episode centered on his socialist activities in Germany.
+
+A [[Charles P. Steinmetz Academic Centre|Chicago Public High School]] is named for him.
+
+A public park in north Schenectady, New York was named for him in 1931.<ref name="Steinmetz Park Association (2006)">{{cite web|last=Steinmetz Park Association (2006)|title=Steinmetz Park Master Plan|url=http://www.cityofschenectady.com/pdf/development/Steinmetz_Park_Masterplan_2006_Final_Web.pdf|accessdate=January 22, 2013|location=Schenectady, N.Y.|page=3}}</ref>
+
+Based on Steinmetz experiments, ''Steinmetz' formula'' defines the approximate heat energy due to magnetic hysteresis released per cycle per unit area of magnetic material.{{efn|<math>W_h=\eta\Beta^{k}_{max}</math>, where η is hysteresis coefficient, β<sub>max</sub> is maximum flux density and k is an empirical exponent.}}<ref name="Knowlton (1949)">{{cite book|last=Knowlton|first=A. E.|title=Standard Electrical of Electrical Engineers|year=1949|publisher=McGraw-Hill|pages=49 (§2.67), 323 (§4.280)}}</ref> ''[[Induction motor#Steinmetz equivalent circuit|Steinmetz equivalent circuit]]'' theory is still widely used for the design and testing of induction motors.<ref>Knowlton, p. 711 (§7.207).</ref>
+
+==Patents==
+At the time of his death, Steinmetz held over 200 patents:<ref  name="becklaser">{{cite web|url=http://www.becklaser.de/hbeng/steinmetz.html|title=C. P. Steinmetz|publisher=Becklaser}}</ref>
+
+* {{US patent|533244}}, "''System of distribution by alternating current''." January 29, 1895.
+* {{US patent|559419}}, "''Inductor dynamo''."
+* {{US patent|583950}}, "''Three phase induction meter''."
+* {{US patent|594145}}, "''Inductor dynamo''."
+* {{US patent|714412}}, "''Induction motor''."
+* {{US patent|717464}}, "''System of electrical distribution''."
+* {{US patent|865617}}, "''Induction motor.''"
+* {{US patent|1025932}}, "''Means for producing light''." May 7, 1912.
+* {{US patent|1042986}}, "''Induction furnace''."
+* {{US patent|1230615}}, "''Protective device''."
+* {{US patent|RE11576}}, "''Inductor dynamo''."
+
+==In popular culture==
+Steinmetz is featured in [[John Dos Passos|John Dos Passos']] [[U.S.A. trilogy|USA Trilogy]] in one of the biographies.<ref>The 42nd Parallel, p. 335.</ref>
+He also serves as a major character in Starling Lawrence's ''The Lightning Keeper''.<ref>{{cite news| url=http://www.nytimes.com/2006/05/13/books/13star.html?_r=1&pagewanted=print | work=The New York Times | title=Starling Lawrence Writes a Novel About the Early Days of G.E | first=Dinitia | last=Smith | date=May 13, 2006}}</ref>
+
+In the animated television show ''[[The Simpsons]]'', his name was used as a kind of expletive by the industrialist character [[Mr. Burns]] ("Oh, quit cogitating, Steinmetz!") in reference to someone who was overthinking a decision.<ref name="Crittenden (1996)">{{cite web|last=Crittenden|first=Jennifer|title=Scenes from the Class Struggle in Sprinfield|url=http://www.snpp.com/episodes/3F11.html|year=1996}}</ref> 
+
+Novelist [[John Ball (author)|John Ball]] grew up in Steinmetz's house. His parents were graduate students paid by GE to live with and take care of the man Ball called "Uncle Steinie". Ball used to tell Steinmetz stories to the Southern California Mystery Writers Association meetings.
+
+==Awards==
+* [[The Franklin Institute Awards|Certificate of Merit]] of [[The Franklin Institute]] (1908).
+* [[Elliott Cresson Medal]] (1913).
+* [[Cedergren Medal]] (1914).
+
+==Works==
+*[http://ieeexplore.ieee.org/Xplore/defdeny.jsp?url=http%3A%2F%2Fieeexplore.ieee.org%2Fstamp%2Fstamp.jsp%3Ftp%3D%26arnumber%3D1457110%26userType%3Dmem&denyReason=-134&arnumber=1457110&productsMatched=null&userType=mem ''On the Law of Hysteresis''], AIEE Trans., IX:3-64, 1892; Proc. of the IEEE, 72(2):197-221, doi: 10.1109/PROC.1984.12842
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4763861 ''Theory of the General Alternating Current Transformer''], AIEE Trans., XII:245-256, Jan. 1895
+* [http://openlibrary.org/books/OL7218906M/Theory_and_calculation_of_alternating_current_phenomena ''Theory and Calculation of Alternating Current Phenomena''], with the assistance of Ernst J. Berg, 1897.<ref>{{cite journal|last=Whitehead|first=John B., Jr.|title=Review: ''Alternating Current Phenomena'', by C. P. Steinmetz|year=1901|edition=3rd|journal=Bull. Amer. Math. Soc.|volume=7|issue=9|pages=399–408|url=http://www.ams.org/journals/bull/1901-07-09/S0002-9904-1901-00825-7/S0002-9904-1901-00825-7.pdf|doi=10.1090/S0002-9904-1901-00825-7}}</ref> Information from this book has been reprinted in many subsequent engineering texts.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5570186 ''The Alternating Current Induction Motor'']. AIEE Trans., XIV (1): 183-217, 1897. 
+* ''The Natural Period of a Transmission Line and the Frequency of Lightning Discharge Therefrom'', The Electrical World, p.&nbsp;203-205, August 27, 1898.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4764200 ''Speed Regulation of Prime Movers and Parallel Operation of Alternators''], AIEE Trans., XVIII:741-744, Jan. 1901.
+* [http://archive.org/details/theoreticalelem00steigoog ''Theoretical Elements of Electrical Engineering''], McGraw, 1902.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4764436 ''The Alternating-Current Railway Motor''], AIEE Trans., XXIII:9-25, Jan. 1904.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4764798 ''Lightning Phenomena in Electric Circuits''], 	AIEE Trans., XXVI(1):401-423, Jan. 1907.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4768047 ''Electrical Engineering Education''], AIEE Trans., XXVII(1):79-85, Jan. 1908.			
+* ''Future of Electricity'', Transcript of lecture to the New York Electrical Trade School, 1908.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4768120 ''Primary Standard of Light''], AIEE Trans., XXVII(2):1319-1324, Jun. 8, 1908.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4768118 ''The General Equations of the Electric Circuit''], AIEE, Trans., XXVII(2):1231-1305, Jun. 8, 1908.
+* [http://archive.org/details/generallectures00steirich ''General Lectures on Electrical Engineering''], edited by Joseph Le Roy Hayden, Robson & Adee, 1908.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4768158 ''Prime Movers''], AIEE Trans., XXVIII(1):63-84, Jan. 1909.	
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4768232 ''The Value of the Classics in Engineering Education''], AIEE, Trans. XXVIII(2):1103-1106, Jun. 9, 1909.
+* [http://archive.org/details/radiationlightil00steirich ''Radiation, Light and Illumination : A Series of Engineering Lectures Delivered at Union College''], ed. by Joseph Le Roy Hayden, McGraw, 1909
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4764668 ''Disruptive Strength with Transient Voltages''], with Hayden, Joseph L. R. principal author, AIEE Trans., XXIX(2):1125-1158, May 10, 1910.	
+* [http://archive.org/details/matheengineering00steirich ''Engineering Mathematics; A Series of Lectures Delivered at Union College''], McGraw, 1911.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4768268 ''Mechanical Forces in Magnetic Fields''], AIEE Trans., XXX(1):367-385	, Jan. 1911.	
+* [http://archive.org/details/elementarylectur00steirich ''Elementary Lectures on Electric Discharges, Waves and Impulses, and Other Transients''], McGraw, 1911.
+* [http://archive.org/details/theoryandcalcul12steigoog ''Theory and Calculation of Transient Electric Phenomena and Oscillations''], McGraw, 1911.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4768407 ''Some Problems of High-Voltage Transmissions''], AIEE Trans., XXXI(1):167-173, Jan. 1912.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4765104 ''Instability of Electric Circuits''], AIEE Trans., XXXII(2):2005-2021, May 13, 1913.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4765133 ''Recording Devices''], AIEE Trans.,	XXXIII(1):283-292, Jan. 1914.	
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4765373 ''Outline of Theory of Impulse Currents''], AIEE Trans., XXXV(1):1-31, Jan. 1916.		
+* [http://books.google.ca/books/about/America_and_the_new_epoch.html?id=S45BY5y-H94C ''America and the New Epoch''], Harper, c. 1916.
+* [http://archive.org/details/theoryandcalcul10steigoog ''Theory and Calculation of Electric Apparatus''], McGraw, 1917.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4765568 ''America's Energy Supply''], AIEE Trans., XXXVII(2):985-1014,Jul. 18, 1918.	
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4765563 ''The Oxide Film Lightning Arrester''], AIEE Trans., XXXVII(2):871-880, Jul. 18, 1918.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4765606 ''The General Equations of the Electric Circuit-III''],	AIEE Trans., XXXVIII(1):191-260, 	Jan. 1919.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4765322 ''Power Control and Stability of Electric Generating Stations''], AIEE Trans., XXXIX(2):1215-1287, Jul. 20, 1920.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5060762 ''Condenser Discharges Through a General Gas Circuit''], AIEE Trans.,	XLI:63-76,  Jan. 1922.
+* ''[http://www2.cddc.vt.edu/gutenberg/1/3/9/1/13910/13910-h/13910-h.htm#SCIENCE_AND_RELIGION Essay on Science and Religion]'' at Project Gutenberg. Homer Heath Nugent, 1922.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5060942 ''High-Voltage Insulation''], with Hayden, J. L. R. principal author, AIEE Trans., XLII:1029-1042, Jan. 1923.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5060887 ''Frequency Conversion by Third Class Conductor and Mechanism of the Arcing Ground and Other Cumulative Surges''], AIEE Trans., XLII:470-477, Jan. 1923.	
+* [http://archive.org/details/fourlecturesonre00stei ''Four Lectures on Relativity and Space''], McGraw, 1923.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5060899 ''Cable Charge and Discharge''], AIEE Trans., XLII:577-592, Jan. 1923	.
+* [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5060972 ''Overdamped Condenser Oscillations''], AIEE Trans., XLIII:126-130, Jan. 1924.
+
+==See also==
+*[[IEEE Charles Proteus Steinmetz Award]]
+
+==Notes==
+{{notelist}}
+
+==References==
+{{reflist}}
+
+==Further reading==
+* [http://books.google.com/books?id=AYbNAAAAMAAJ&pg=PA4867 Charles P. Steinmetz, Electrician], by Arthur Goodrich, [[World's Work|The World's Work: A History of Our Time]], VIII:4867–4869, June 1904
+* [http://books.google.ca/books/about/Charles_Proteus_Steinmetz.html?id=2-sgAAAAMAAJ&redir_esc=y ''Charles Proteus Steinmetz: A Biography''], by John Winthrop Hammond, The Century & Co., 1924.
+* [http://www.worldcat.org/title/steinmetz-and-his-discoverer/oclc/11616826 ''Steinmetz and His Discoverer''], by John Thomas Broderick, Robson & Adee, 1924.
+* [http://archive.org/details/lokilifeofcharle00leon ''Loki; The Life of Charles Proteus Steinmetz''], by Jonathan Norton Leonard, Doubleday, 1929.
+* [http://www.amazon.com/gp/product/B0007DZOZ6 ''Steinmetz, Maker of Lightning''], by Sigmund A Lavine, Dodd, Mead, 1955.
+* [http://archive.org/details/littlegiantofsch00mark ''The Little Giant of Schenectady''], by Dorothy Markey, Aladdin Books, 1956.
+* [http://books.google.ca/books/about/Modern_Jupiter.html?id=PZQsAQAAIAAJ ''Modern Jupiter: The Story of Charles Proteus Steinmetz''], by John Anderson Miller & Charles Proteus Steinmetz, American Society of Mechanical Engineers, 1958.
+* [http://www.amazon.com/gp/product/B0006AY2UI ''The Electrical Genius of Liberty Hall: Charles Proteus Steinmetz''], aka ''The Man Who Tamed Lightning'', by Floyd Miller, McGraw-Hill, 1962
+* [http://books.google.ca/books/about/Steinmetz_the_philosopher.html?id=Vr5JAAAAMAAJ&redir_esc=y ''Steinmetz the Philosopher''], Compilation of Steinmetz's work by Ernest Caldecott & Philip Langdon Alger (eds.), 1965.
+* [http://books.google.ca/books/about/Charles_P_Steinmetz_scientist_and_social.html?id=HvtCAAAAIAAJ&redir_esc=y ''Charles Steinmetz: Scientist and Socialist (1865–1923), Including the Complete Steinmetz-Lenin Correspondence''], by Sender Garlin, American Institute for Marxist Studies, 1977 (reprinted in Sender Garlin's 1991 ''Three Radicals'').
+*[http://books.google.ca/books/about/Recollections_of_Steinmetz.html?id=3_-stgAACAAJ&redir_esc=y ''Recollections of Steinmetz - A Visit to the Workshops of Dr. Charles Proteus Steinmetz''], by Emil J. Remscheid & Virginia Remscheid Charves, General Electric Company, Research and Development, 1977.
+* [http://books.google.ca/books/about/Steinmetz_in_Schenectady.html?id=FJY4AAAACAAJ&redir_esc=y ''Steinmetz in Schenectady - A Picture History of Three Memorable Decades''], by Larry Hart, Old Dorp Books, 1978.
+* [http://books.google.ca/books/about/Steinmetz.html?id=QWEfAQAAIAAJ&redir_esc=y ''Steinmetz: Engineer and Socialist''], by Ronald R. Kline, Johns Hopkins University Press, 1992
+
+==External links==
+{{Portal|Biography}}
+{{wikiquote}}
+{{Commons category}}
+* [http://www.britannica.com/EBchecked/topic/565056/Charles-Proteus-Steinmetz ''Charles Proteus Steinmetz''], Encyclopædia Britannica entry
+* [http://www.union.edu/N/DS/s.php?s=1512 Charles Steinmetz: Union's Electrical Wizard], Union College Magazine, November 1, 1998.
+* [http://blogs.smithsonianmag.com/history/2011/08/charles-proteus-steinmetz-the-wizard-of-schenectady/ Charles Proteus Steinmetz, the Wizard of Schenectady], Smithsonian Institution
+* [http://www.edisontechcenter.org/CharlesProteusSteinmetz.html Charles Proteus Steinmetz: Accomplishments and Life''], Edison Tech Center, Hall of Fame
+* U.S. Supreme Court, "''[http://laws.findlaw.com/us/192/543.html Steinmetz v. Allen, 192 U.S. 543 (1904)]''". Steinmetz v. Allen, Commissioner of Patents. No. 383. Argued January 12, 13, 1904. Decided February 23, 1904.
+* [http://www.union.edu/academic/beyond/research/steinmetz/ Union College Steinmetz Symposium]
+
+{{Authority control|VIAF=50008639}}
+
+{{Persondata
+|NAME= Steinmetz, Charles Proteus
+|ALTERNATIVE NAMES= Steinmetz, Carl August Rudolph
+|SHORT DESCRIPTION= [[Mathematician]] and [[electrical engineer]]
+|DATE OF BIRTH= 1865-4-9
+|PLACE OF BIRTH= [[Breslau]], [[Province of Silesia]] 
+|DATE OF DEATH= 1923-10-26
+|PLACE OF DEATH= [[Vale Cemetery]], [[Schenectady]]
+}}
+{{DEFAULTSORT:Steinmetz, Charles Proteus}}
+[[Category:1865 births]]
+[[Category:1923 deaths]]
+[[Category:American agnostics]]
+[[Category:American electrical engineers]]
+[[Category:American inventors]]
+[[Category:American scientists]]
+[[Category:American socialists]]
+[[Category:General Electric people]]
+[[Category:German emigrants to the United States]]
+[[Category:American people of German-Jewish descent]]
+[[Category:Jewish agnostics]]
+[[Category:Members of the Socialist Party of America]]
+[[Category:People from Schenectady, New York]]
+[[Category:People from the Province of Silesia]]
+[[Category:People from Wrocław]]
+[[Category:People with dwarfism]]
+[[Category:Schenectady City Council members]]
+[[Category:University of Breslau alumni]]
+[[Category:Elliott Cresson Medal recipients]]

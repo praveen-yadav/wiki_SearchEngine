@@ -1,0 +1,56 @@
+[[Image:Dots-and-boxes.svg|300px|right|thumb|Game of '''Dots and Boxes''' on the 2&times;2 board]]
+
+'''Dots and Boxes''' (also known as '''Boxes''', '''Squares''', '''Paddocks''', '''Pigs in a Pen''', '''Square-it''', '''Dots and Dashes''', '''Dots''', '''Smart Dots''', '''Dot Boxing''', or, simply, the '''Dot Game''') is a [[pencil and paper game]] for two players (or sometimes, more than two) first published in 1889 by [[Édouard Lucas]].
+
+Starting with an empty grid of dots, players take turns, adding a single horizontal or vertical line between two unjoined adjacent dots. A player who completes the fourth side of a 1&times;1 box earns one point and takes another turn.  (The points are typically recorded by placing in the box an identifying mark of the player, such as an initial).  The game ends when no more lines can be placed. The winner of the game is the player with the most points.
+
+The board may be of any size. When short on time, 2&times;2 boxes (created by a square of 9 dots) is good for beginners, and 5&times;5 is good for experts.
+
+The diagram on the right shows a game being played on the 2&times;2 board. The second player (B) plays the mirror image of the first player's move, hoping to divide the board into two pieces and tie the game. The first player (A) makes a ''sacrifice'' at move 7; B accepts the sacrifice, getting one box. However, B must now add another line, and connects the center dot to the center-right dot, causing the remaining boxes to be joined together in a ''chain'' as shown at the end of move 8. With A's next move, A gets them all, winning 3&ndash;1.
+
+== Strategy ==
+[[Image:dots-and-boxes-chains.png|300px|right|thumb|The double-cross strategy. Faced with position 1, a novice player would create position 2 and lose. An experienced player would create position 3 and win.]]
+For most novice players, the game begins with a phase of more-or-less random connecting of dots, where the only strategy is to avoid adding the third side to any box. This continues until all the remaining (potential) boxes are joined together into ''chains'' – groups of one or more adjacent boxes in which any move gives all the boxes in the chain to the opponent. At this point, players typically take all available boxes, then open the smallest available chain to their opponent. For example, a novice player faced with a situation like position 1 in the diagram on the left, in which some boxes can be captured, may take all the boxes in the chain, resulting in position 2. But with their last move, they have to open the next (and larger) chain, and the novice loses the game.<ref name="west">{{Citation
+ | last = West
+ | first = Julian
+ | author-link = Julian West (author)
+ | contribution = Championship-Level Play of Dots-and-Boxes
+ | editor-last = Nowakowski
+ | editor-first = Richard
+ | title = Games of No Chance
+ | pages = 79–84
+ | publisher = MSRI Publications
+ | place = Berkeley
+ | year = 1996
+ | contribution-url = http://library.msri.org/books/Book29/files/westboxes.pdf }}</ref>
+
+A more experienced player faced with position 1 will instead play the ''double-cross strategy'', taking all but 2 of the boxes in the chain and leaving position 3. The opponent will take these last two boxes, but will then be forced to open the next chain. By moving to position 3, player A wins. The same double-cross strategy applies however many long chains there are: a player using this strategy will take all but two of the boxes in each chain, and take all the boxes in the last chain. If the chains are long enough then this player will certainly win.
+
+The next level of strategic complexity, between experts who would both use the double-cross strategy if they were allowed to do so, is a battle for ''control'':  An expert player tries to force their opponent to be the one to open the first long chain, because the player who first opens a long chain usually loses.<ref name="west" />  Against a player who doesn't understand the concept of a sacrifice, the expert simply has to make the correct number of sacrifices to encourage the opponent to hand him the first chain long enough to ensure a win.  If the other player also knows to offer sacrifices, the expert also has to manipulate the number of available sacrifices through earlier play.
+
+In [[combinatorial game theory]] dots and boxes is an [[impartial game]], and many positions can be analyzed using [[Sprague–Grundy theorem|Sprague–Grundy theory]]. However, dots and boxes lacks the [[normal play convention]] of most impartial games where the last player to move wins, which complicates the analysis considerably.<ref name="west" />
+
+== Unusual grids ==
+Dots and boxes need not be played on a rectangular grid.  It can be played on a triangular grid or a hexagonal grid. There is also a variant in [[Bolivia]]  when it is played in a [[Chakana]] or Inca Cross grid, which adds more complications to the game.
+
+Dots-and-boxes has a [[dual graph|dual]] form called "strings-and-coins".  This game is played on a network of coins (vertices) joined by strings (edges).  Players take turns to cut a string.  When a cut leaves a coin with no strings, the player pockets the coin and takes another turn.  The winner is the player who pockets the most coins.  Strings-and-coins can be played on an arbitrary [[graph (mathematics)|graph]]. A variant played in Poland allows a player to claim a region of several squares as soon as its boundary is completed.
+In the Netherlands it is called "kamertje verhuren" translated to rent-a-room. Where the outer border already has lines.
+
+== Board game ==
+A board game version of Dots and Boxes is available through Shapeways. Instead of drawing lines on paper players place tiles in slots edge up in a specially designed board. When a spot on the board is surrounded by a player they place one of their tiles on the board with their side facing up. The board does not come with playing pieces but was designed to be used with ''[[Scrabble]]'' tiles. One player plays with the lettered side and the other is represented by the blank side.
+
+== Notes ==
+{{reflist}}
+
+== References ==
+* {{cite book|author=[[Elwyn Berlekamp]]|title=The Dots-and-Boxes Game: Sophisticated Child's Play|publisher=AK Peters, Ltd|month=July | year=2000|isbn=1-56881-129-2}}
+* {{MathWorld|urlname=DotsandBoxes|title=Dots and Boxes|author=Barile, Margherita}}
+* David Wilson, [http://homepages.cae.wisc.edu/~dwilson/boxes/ Dots-and-Boxes Analysis].  Contains computer analysis of small boards.
+* Ilan Vardi, [http://web.archive.org/web/20070825035216/http://cf.geocities.com/ilanpi/dots.html Dots Strategies].
+
+
+{{DEFAULTSORT:Dots And Boxes}}
+[[Category:Abstract strategy games]]
+[[Category:Mathematical games]]
+[[Category:Paper-and-pencil games]]
+[[Category:1889 introductions]]

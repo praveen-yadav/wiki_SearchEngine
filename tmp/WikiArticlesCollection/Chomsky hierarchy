@@ -1,0 +1,141 @@
+Within the field of [[computer science]], specifically in the area of [[formal languages]], the '''Chomsky hierarchy''' (occasionally referred to as '''Chomsky-Schützenberger hierarchy''') is a [[containment hierarchy]] of classes of [[formal grammar]]s.
+This hierarchy of grammars was described by [[Noam Chomsky]] in&nbsp;1956.<ref>{{cite journal | last = Chomsky | first = Noam | year = 1956 | title = Three models for the description of language | url=http://www.chomsky.info/articles/195609--.pdf | doi = 10.1109/TIT.1956.1056813| journal = IRE Transactions on Information Theory | issue = 2 | pages = 113–124}}</ref> It is also named after [[Marcel-Paul Schützenberger]], who played a crucial role in the development of the theory of [[formal language]]s. The Chomsky Hierarchy, in essence, allows the possibility for the understanding and use of a computer science model which enables a programmer to accomplish meaningful linguistic goals systematically.
+
+== Formal grammars ==
+{{main|Formal grammar}}
+A formal grammar of this type consists of:
+
+* a finite set of ''[[Formal_grammar#Introductory_example|production rules]]'' (''left-hand side'' <math>\rightarrow \,</math> ''right-hand side'') where each side consists of a sequence of the following symbols:
+* a finite set of ''[[nonterminal symbol]]s'' (indicating that some production rule can yet be applied)
+* a finite set of ''[[terminal symbol]]s'' (indicating that no production rule can be applied)
+* a ''start symbol'' (a distinguished nonterminal symbol)
+
+A formal grammar defines (or ''generates'') a ''formal language'', which is a (usually infinite) set of finite-length sequences of symbols (i.e. [[String (computer science)|strings]]) that may be constructed by applying production rules to another sequence of symbols which initially contains just the start symbol.  A rule may be applied to a sequence of symbols by replacing an occurrence of the symbols on the left-hand side of the rule with those that appear on the right-hand side.  A sequence of rule applications is called a ''derivation''.  Such a grammar defines the formal language: all words consisting solely of terminal symbols which can be reached by a derivation from the start symbol.
+
+Nonterminals are often represented by uppercase letters, terminals by lowercase letters, and the start symbol by <math>S</math>.  For example, the grammar with terminals <math>\{a, b\}</math>, nonterminals <math>\{S, A, B\}</math>, production rules
+: <math>S</math> <math>\rightarrow \,</math> <math>ABS</math>
+: <math>S</math> <math>\rightarrow \,</math> &epsilon;  (where &epsilon; is the empty string)
+: <math>BA</math> <math>\rightarrow \,</math> <math>AB</math>
+: <math>BS</math> <math>\rightarrow \,</math> <math>b</math>
+: <math>Bb</math> <math>\rightarrow \,</math> <math>bb</math>
+: <math>Ab</math> <math>\rightarrow \,</math> <math>ab</math>
+: <math>Aa</math> <math>\rightarrow \,</math> <math>aa</math>
+and start symbol <math>S</math>, defines the language of all words of the form <math> a^n b^n </math> (i.e. <math>n</math> copies of <math>a</math> followed by <math>n</math> copies of <math>b</math>).
+The following is a simpler grammar that defines the same language: 
+Terminals <math>\{a, b\}</math>, Nonterminals <math>\{S\}</math>, Start symbol <math>S</math>, Production rules
+: <math>S</math> <math>\rightarrow \,</math> <math>aSb</math>
+: <math>S</math> <math>\rightarrow \,</math> &epsilon;
+
+As another example, a grammar for a toy subset of English language is given by terminals <math>\{ generate, hate, great, green, ideas, linguists \}</math>, nonterminals <math>\{\textit{SENTENCE}, \textit{NOUNPHRASE}, \textit{VERBPHRASE}, \textit{NOUN}, \textit{VERB}, \textit{ADJ} \}</math>, production rules
+: <math>\textit{SENTENCE}</math> <math>\rightarrow \,</math> <math>\textit{NOUNPHRASE} \; \textit{VERBPHRASE}</math>
+: <math>\textit{NOUNPHRASE}</math> <math>\rightarrow \,</math> <math>\textit{ADJ} \; \textit{NOUNPHRASE}</math>
+: <math>\textit{NOUNPHRASE}</math> <math>\rightarrow \,</math> <math>\textit{NOUN}</math>
+: <math>\textit{VERBPHRASE}</math> <math>\rightarrow \,</math> <math>\textit{VERB} \;  \textit{NOUNPHRASE}</math>
+: <math>\textit{VERBPHRASE}</math> <math>\rightarrow \,</math> <math>\textit{VERB}</math>
+: <math>\textit{NOUN}</math> <math>\rightarrow \,</math> <math>\textit{ideas}</math>
+: <math>\textit{NOUN}</math> <math>\rightarrow \,</math> <math>\textit{linguists}</math>
+: <math>\textit{VERB}</math> <math>\rightarrow \,</math> <math>\textit{generate}</math>
+: <math>\textit{VERB}</math> <math>\rightarrow \,</math> <math>\textit{hate}</math>
+: <math>\textit{ADJ}</math> <math>\rightarrow \,</math> <math>\textit{great}</math>
+: <math>\textit{ADJ}</math> <math>\rightarrow \,</math> <math>\textit{green}</math>
+and start symbol <math>\textit{SENTENCE}</math>. An example derivation is
+: ''SENTENCE'' <math>\rightarrow</math> ''NOUNPHRASE VERBPHRASE'' <math>\rightarrow</math> ''ADJ NOUNPHRASE VERBPHRASE'' <math>\rightarrow</math> ''ADJ NOUN VERBPHRASE'' <math>\rightarrow</math> ''ADJ NOUN VERB NOUNPHRASE'' <math>\rightarrow</math> ''ADJ NOUN VERB ADJ NOUNPHRASE'' <math>\rightarrow</math> ''ADJ NOUN VERB ADJ ADJ NOUNPHRASE'' <math>\rightarrow</math> ''ADJ NOUN VERB ADJ ADJ NOUN'' <math>\rightarrow</math> ''great NOUN VERB ADJ ADJ NOUN'' <math>\rightarrow</math> ''great linguists VERB ADJ ADJ NOUN'' <math>\rightarrow</math> ''great linguists generate ADJ ADJ NOUN'' <math>\rightarrow</math> ''great linguists generate great ADJ NOUN'' <math>\rightarrow</math> ''great linguists generate great green NOUN'' <math>\rightarrow</math> ''great linguists generate great green ideas''.
+Other sequences that can be derived from this grammar are "''ideas hate great linguists''", and "''ideas generate''". While these sentences are nonsensical, they are syntactically correct. A syntactically incorrect sentence like e.g. "''ideas ideas great hate''" cannot be derived from this grammar. See "[[Colorless green ideas sleep furiously]]" for a similar example given by Chomsky in 1957; see [[Phrase structure grammar]] and [[Phrase structure rules]] for more natural-language examples and the problems of formal grammars in that area.
+
+== The hierarchy ==
+[[Image:Chomsky-hierarchy.svg|thumb|right|200px|alt=The Chomsky hierarchy|Set inclusions described by the Chomsky hierarchy]]
+The Chomsky hierarchy consists of the following levels:
+
+* Type-0 grammars ([[unrestricted grammar]]s) include all formal grammars. They generate exactly all languages that can be recognized by a [[Turing machine]]. These languages are also known as the [[recursively enumerable language]]s.  Note that this is different from the [[recursive language]]s which can be ''decided'' by an [[machine that always halts|always-halting Turing machine]].
+* Type-1 grammars ([[context-sensitive grammar]]s) generate the [[context-sensitive language]]s.  These grammars have rules of the form <math>\alpha A\beta \rightarrow \alpha\gamma\beta</math> with <math>A</math> a nonterminal and <math>\alpha</math>, <math>\beta</math> and <math>\gamma</math> strings of terminals and nonterminals. The strings <math>\alpha</math> and <math>\beta</math> may be empty, but <math>\gamma</math> must be nonempty.  The rule <math>S \rightarrow \epsilon</math> is allowed if <math>S</math> does not appear on the right side of any rule.  The languages described by these grammars are exactly all languages that can be recognized by a [[linear bounded automaton]] (a nondeterministic Turing machine whose tape is bounded by a constant times the length of the input.)
+* Type-2 grammars ([[context-free grammar]]s) generate the [[context-free language]]s. These are defined by rules of the form <math>A \rightarrow \gamma</math> with <math>A</math> a nonterminal and <math>\gamma</math> a string of terminals and nonterminals. These languages are exactly all languages that can be recognized by a non-deterministic [[pushdown automaton]]. Context-free languages – or rather the subset of [[deterministic context-free language]] – are the theoretical basis for the phrase structure of most [[programming language]]s, though their syntax also includes context-sensitive name resolution due to declarations and [[Scope (computer science)|scope]]. Often a subset of grammars are used to make parsing easier, such as by an [[LL parser]].
+* Type-3 grammars ([[regular grammar]]s) generate the [[regular language]]s.  Such a grammar restricts its rules to a single nonterminal on the left-hand side and a right-hand side consisting of a single terminal, possibly followed by a single nonterminal (right regular). Alternatively, the right-hand side of the grammar can consist of a single terminal, possibly preceded by a single nonterminal (left regular); these generate the same languages – however, if left-regular rules and right-regular rules are combined, the language need no longer be regular. The rule <math>S \rightarrow \epsilon</math> is also allowed here if <math>S</math> does not appear on the right side of any rule.  These languages are exactly all languages that can be decided by a [[finite state automaton]]. Additionally, this family of formal languages can be obtained by [[regular expression]]s. Regular languages are commonly used to define search patterns and the lexical structure of programming languages.
+
+Note that the set of grammars corresponding to [[recursive language]]s is not a member of this hierarchy; these would be properly between Type-0 and Type-1.
+
+Every regular language is context-free, every context-free language, not containing the empty string, is context-sensitive and every context-sensitive language is recursive and every recursive language is recursively enumerable. These are all proper inclusions, meaning that there exist recursively enumerable languages which are not context-sensitive, context-sensitive languages which are not context-free and context-free languages which are not regular.
+
+The following table summarizes each of Chomsky's four types of grammars, the class of language it generates, the type of automaton that recognizes it, and the form its rules must have.  
+
+{| class="wikitable"
+|-
+! Grammar
+! Languages
+! Automaton
+! Production rules (constraints)
+|-
+| Type-0
+| [[recursively enumerable language|Recursively enumerable]]
+| [[Turing machine]]
+| <math>\alpha \rightarrow \beta</math> (no restrictions)
+|-
+| Type-1
+| [[context-sensitive grammar|Context-sensitive]]
+| [[Linear bounded automaton|Linear-bounded non-deterministic Turing machine]]
+| <math>\alpha A \beta \rightarrow \alpha \gamma \beta</math>
+|-
+| Type-2
+| [[context-free grammar|Context-free]]
+| Non-deterministic [[pushdown automaton]]
+| <math>A \rightarrow \gamma</math>
+|-
+| Type-3
+| [[regular grammar|Regular]]
+| [[Finite state automaton]]
+| <math>A \rightarrow a</math><br /> and<br /><math>A \rightarrow aB</math>
+|}
+
+However, there are further categories of formal languages, some of which are given in the expandable navigation box at the bottom of this page.
+
+==References==
+{{Reflist}}
+
+*{{cite journal
+ | last = Chomsky
+ | first = Noam
+ | year = 1959
+ | title = On certain formal properties of grammars
+ | journal = Information and Control 
+ | issue = 2
+ | pages = 137–167
+ | doi = 10.1016/S0019-9958(59)90362-6
+ | volume = 2
+ | url = http://www.diku.dk/hjemmesider/ansatte/henglein/papers/chomsky1959.pdf
+ }}
+*{{cite book
+ | last = Chomsky
+ | first = Noam
+ | coauthors = Schützenberger, Marcel P.
+ | editor = Braffort, P.; Hirschberg, D.
+ | others = 
+ | title =  Computer Programming and Formal Languages
+ | year = 1963
+ | month = 
+ | publisher = North Holland
+ | location = Amsterdam
+ | id = 
+ | pages = 118–161
+ | chapter = The algebraic theory of context free languages
+ }}
+*{{Cite book
+ | author=Davis, Martin E.; Sigal, Ron; Weyuker, Elaine J. 
+ | authorlink= 
+ | coauthors= 
+ | title=Computability, complexity, and languages: Fundamentals of theoretical computer science 
+ | year=1994 
+ | publisher=Academic Press, Harcourt, Brace 
+ | location=Boston  
+ | isbn=0-12-206382-1 
+ | pages=327
+ }}
+
+==External links==
+* http://www.staff.ncl.ac.uk/hermann.moisl/ell236/lecture5.htm
+
+{{Formal languages and grammars}}
+{{Noam Chomsky}}
+
+[[Category:1956 in computer science]]
+[[Category:Formal languages]]
+[[Category:Generative linguistics]]
+[[Category:Noam Chomsky|Hierarchy, Chomsky]]

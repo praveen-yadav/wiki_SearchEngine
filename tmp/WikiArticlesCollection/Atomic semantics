@@ -1,0 +1,16 @@
+{{no footnotes|date=January 2013}}
+'''Atomic semantics''' is a term which describes the guarantees provided by a [[data register]] shared by several [[central processing unit|processors]] in a [[parallel machine]] or in a network of computers working together.
+
+Atomic semantics are defined for a variable with a single writer but multiple readers. These
+semantics are very strong: they guarantee that the read and write operations to the variable behave exactly as if they happened instantaneously in some point in time which is within the actual time where the operation took place.
+
+==See also==
+*[[Regular semantics]]
+*[[Safe semantics]]
+
+==References==
+* Atomic semantics are defined formally in Lamport's "On Interprocess Communication" Distributed Computing 1, 2 (1986), 77-101. (Also appeared as SRC Research Report 8).
+
+
+{{DEFAULTSORT:Atomic Semantics}}
+[[Category:Concurrency control]]

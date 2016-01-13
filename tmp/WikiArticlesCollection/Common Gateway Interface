@@ -1,0 +1,151 @@
+{{Lead too short|date=March 2013}}
+{{about|software interface between the web server and programs|other uses|CGI (disambiguation)|}}
+'''Common Gateway Interface''' ('''CGI''') is a standard method used to generate [[Dynamic_Web_pages|dynamic content on web pages]] and [[web applications]]. CGI, when implemented on a [[web server]] provides an interface between the web server and programs that generate the [[web content]].  These programs are known as ''CGI scripts'' or simply ''CGIs''; they are usually written in a [[scripting language]].
+
+== History ==
+
+In 1993, the [[World Wide Web]] (WWW) was small but flourishing. WWW software developers and Web site developers kept in touch on the www-talk [[Electronic mailing list|mailing list]], so it was there that a standard for calling command line executables was agreed upon. The [[National Center for Supercomputing Applications|NCSA]] team wrote the specification;<ref>[http://1997.webhistory.org/www.lists/www-talk.1993q4/0485.html ''Server Scripts'', by Rob McCool, ''www-talk'' mailing list, Sun, 14 Nov 1993 19:24:47 -0600]</ref> however, NCSA no longer hosts this.<ref>{{Citation |title=The Common Gateway Interface |url=http://hoohoo.ncsa.uiuc.edu/cgi/ |archiveurl=http://web.archive.org/web/20100127161358/http://hoohoo.ncsa.illinois.edu/cgi/ |archivedate=2010-01-27}}</ref><ref>[http://www.w3.org/CGI/ CGI: Common Gateway Interface] at w3.org</ref> The other Web server developers adopted it, and it has been a standard for Web servers ever since. A work group chaired by [[Ken Coar]] started in November 1997 to get the NCSA definition of CGI more formally defined.<ref>[http://ken.coar.org/cgi/ Common Gateway Interface RFC Project Page]</ref> This work resulted in RFC 3875, which specified CGI Version 1.1. Specifically mentioned in the RFC are the following contributors:<ref>[http://tools.ietf.org/html/rfc3875 RFC3875: The Common Gateway Interface (CGI) Version 1.1]</ref>
+
+* [[Rob McCool]] (author of the [[NCSA httpd]] [[HTTP server|Web server]])
+* John Franks (author of the GN Web server)
+* Ari Luotonen (the developer of the [[CERN httpd]] Web server)
+* Tony Sanders (author of the Plexus Web server)
+* George Phillips (Web server maintainer at the [[University of British Columbia]])
+
+== Syntax ==
+
+The following CGI program shows all the environment variables passed by the web server:
+
+<source lang="perl">
+#!/usr/bin/perl
+
+=head1 DESCRIPTION
+
+printenv—demo CGI program which just prints its environment
+
+=cut
+print "Content-type: text/plain\r\n\r\n";
+
+for my $var ( sort keys %ENV ) {
+ my $value = $ENV{$var};
+ $value =~ s/\n/\\n/g;
+ $value =~ s/"/\\"/g;
+ print qq[$var="$value"\n];
+}
+</source>
+
+If a web browser issues a request for the environment variables at <code><nowiki>http://example.com/cgi-bin/printenv.pl/foo/bar?var1=value1&var2=with%20percent%20encoding</nowiki></code>, a 64-bit [[Microsoft Windows]] web server running [[cygwin]] returns the following information:
+
+<source lang="ini">
+ COMSPEC="C:\Windows\system32\cmd.exe"
+ DOCUMENT_ROOT="C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs"
+ GATEWAY_INTERFACE="CGI/1.1"
+ HOME="/home/SYSTEM"
+ HTTP_ACCEPT="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+ HTTP_ACCEPT_CHARSET="ISO-8859-1,utf-8;q=0.7,*;q=0.7"
+ HTTP_ACCEPT_ENCODING="gzip, deflate"
+ HTTP_ACCEPT_LANGUAGE="en-us,en;q=0.5"
+ HTTP_CONNECTION="keep-alive"
+ HTTP_HOST="example.com"
+ HTTP_USER_AGENT="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0"
+ PATH="/home/SYSTEM/bin:/bin:/cygdrive/c/progra~2/php:/cygdrive/c/windows/system32:..."
+ PATHEXT=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"
+ PATH_INFO="/foo/bar"
+ PATH_TRANSLATED="C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\foo\bar"
+ QUERY_STRING="var1=value1&var2=with%20percent%20encoding"
+ REMOTE_ADDR="127.0.0.1"
+ REMOTE_PORT="63555"
+ REQUEST_METHOD="GET"
+ REQUEST_URI="/cgi-bin/printenv.pl/foo/bar?var1=value1&var2=with%20percent%20encoding"
+ SCRIPT_FILENAME="C:/Program Files (x86)/Apache Software Foundation/Apache2.2/cgi-bin/printenv.pl"
+ SCRIPT_NAME="/cgi-bin/printenv.pl"
+ SERVER_ADDR="127.0.0.1"
+ SERVER_ADMIN="(server admin's email address)"
+ SERVER_NAME="127.0.0.1"
+ SERVER_PORT="80"
+ SERVER_PROTOCOL="HTTP/1.1"
+ SERVER_SIGNATURE=""
+ SERVER_SOFTWARE="Apache/2.2.19 (Win32) PHP/5.2.17"
+ SYSTEMROOT="C:\Windows"
+ TERM="cygwin"
+ WINDIR="C:\Windows"
+</source>
+
+From the environment, it can be seen that the [[web browser]] is [[Firefox web browser|Firefox]] running on a [[Windows 7]] PC, the web server is [[Apache web server|Apache]] running on a system which emulates [[Unix]], and the CGI script is named <code>cgi-bin/printenv.pl</code>.
+
+The program could then generate any content, write that to [[Standard streams#Standard_output_.28stdout.29|standard output]], and the web server will transmit it to the browser.
+
+The following are [[environment variable]]s passed to CGI programs:
+*'''Server specific variables:'''
+** <code>SERVER_SOFTWARE</code>: <var>name</var>/<var>version</var> of [[HTTP server]].
+** <code>SERVER_NAME</code>: [[host name]] of the server, may be [[dot-decimal notation|dot-decimal]] IP address.
+** <code>GATEWAY_INTERFACE</code>: CGI/<var>version</var>.
+*'''Request specific variables:'''
+** <code>SERVER_PROTOCOL</code>: HTTP/<var>version</var>.
+** <code>SERVER_PORT</code>: [[TCP port]] (decimal).
+** <code>REQUEST_METHOD</code>: name of HTTP method (see above).
+** <code>PATH_INFO</code>: path suffix, if appended to URL after program name and a slash.
+** <code>PATH_TRANSLATED</code>: corresponding [[full path]] as supposed by server, if <code>PATH_INFO</code> is present.
+** <code>SCRIPT_NAME</code>: relative path to the program, like <code>/cgi-bin/script.cgi</code>.
+** <code>QUERY_STRING</code>: the part of URL after [[question mark|<span style="background-color:#FFFFCC; padding: 2px">?</span>]] character. The [[query string]] may be composed of *<var>name</var>=<var>value</var> pairs separated with [[ampersand]]s (such as <var>var1</var>=<var>val1</var>'''&amp;'''<var>var2</var>=<var>val2</var>...) when used to submit [[form (web)|form]] data transferred via GET method as defined by HTML [[application/x-www-form-urlencoded]].
+** <code>REMOTE_HOST</code>: host name of the client, unset if server did not perform such lookup.
+** <code>REMOTE_ADDR</code>: [[IP address]] of the client (dot-decimal).
+** <code>AUTH_TYPE</code>: identification type, if applicable.
+** <code>REMOTE_USER</code> used for certain <code>AUTH_TYPE</code>s.
+** <code>REMOTE_IDENT</code>: see [[ident protocol|ident]], only if server performed such lookup.
+** <code>CONTENT_TYPE</code>: [[Internet media type]] of input data if PUT or POST method are used, as provided via HTTP header.
+** <code>CONTENT_LENGTH</code>: similarly, size of input data (decimal, in [[octet (computing)|octets]]) if provided via HTTP header.
+**Variables passed by user agent (</code>HTTP_ACCEPT</code>, <code>HTTP_ACCEPT_LANGUAGE</code>, <code>HTTP_USER_AGENT</code>, <code>HTTP_COOKIE</code> and possibly others) contain values of corresponding [[HTTP headers]] and therefore have the same sense.
+
+The program returns the result to the web server in the form of standard output, beginning with a header and a [[Line (text file)|blank line]].
+
+The header is encoded in the same way as an [[List of HTTP headers|HTTP header]] and must include the [[MIME type]] of the document returned.<ref>[http://www.citycat.ru/doc/CGI/overview/primer.html CGI Primer (Mirror at citycat.ru)]</ref> The headers, supplemented by the web server, are generally forwarded with the response back to the user.
+
+== Deployment ==
+
+A web server that supports CGI can be configured to interpret a [[Uniform Resource Locator|URL]] that it serves as a reference to a CGI script. A common convention is to have a <code>cgi-bin/</code> [[Directory (computing)|directory]] at the base of the directory tree and treat all executable files within this directory (and no other, for security) as CGI scripts. Another popular convention is to use [[filename extension]]s; for instance, if CGI scripts are consistently given the extension <code>.cgi</code>, the web server can be configured to interpret all such files as CGI scripts. While convenient, and required by many prepackaged scripts,it opens the server to attack if a remote user can upload executable code with the proper extension.
+
+In the case of [[HTTP#Request methods|HTTP PUT or POSTs]], the user-submitted data is provided to the program via the [[standard input]]. The web server creates a subset of the [[environment variable]]s passed to it and adds details pertinent to the HTTP environment.
+
+== Uses ==
+
+An example of a CGI program is one implementing a [[wiki]]. The user agent requests the name of an entry; the program retrieves the source of that entry's page (if one exists), transforms it into [[HTML]], and sends the result. If the "Edit this page" link is clicked, the CGI populates an HTML <code>textarea</code> or other editing control with the page's contents, and saves it back to the server when the user submits the form.
+
+== Alternatives ==
+
+Calling a command generally means the invocation of a newly created [[Process (computing)|process]] on the server. Starting the process can consume much more time and memory than the actual work of generating the output, especially when the program still needs to be [[interpret]]ed or [[compiler|compiled]].
+If the command is called often, the resulting workload can quickly overwhelm the web server.
+
+The [[computational overhead|overhead]] involved in interpretation may be reduced by using compiled CGI programs, such as those in [[C (programming language)|C]]/[[C++]], rather than using [[Perl]] or other interpreted languages. The overhead involved in process creation can be reduced by solutions such as [[FastCGI]] that "prefork" interpreter processes, or by running the application code entirely within the web server using extension modules such as mod_php.
+
+Several approaches can be adopted for remedying this:
+
+* The popular Web servers developed their own extension mechanisms that allows third-party software to run inside the web server itself, such as [[Apache module]]s, [[Netscape Server Application Programming Interface|NSAPI]] plugins and [[ISAPI]] plugins.
+* [[Simple Common Gateway Interface]] or SCGI
+* [[FastCGI]] allows a single, long-running process to handle more than one user request while keeping close to the CGI programming model, retaining the simplicity while eliminating the overhead of creating a new process for each request. Unlike converting an application to a web server plug-in, FastCGI applications remain independent of the web server.
+* Replacement of the architecture for dynamic websites can also be used. This is the approach taken by solutions including [[Java Platform, Enterprise Edition]] (a.k.a. Java EE), which runs Java code in a Java servlet container in order to serve dynamic content and optionally static content. This approach replaces the overhead of generating and destroying processes with the much lower overhead of generating and destroying [[Thread (computer science)|threads]], and also exposes the programmer to the library that comes with [[Java Platform, Standard Edition]] that the version of Java EE in use is based on.
+
+The optimal configuration for any web application depends on application-specific details, amount of traffic, and complexity of the transaction; these tradeoffs need to be analyzed to determine the best implementation for a given task and time budget.
+
+== See also ==
+
+* [[FastCGI]]
+* [[Rack (web server interface)]]
+* [[Web Server Gateway Interface]]
+* [[Perl Web Server Gateway Interface]]
+
+== References ==
+
+{{Reflist}}
+
+== External links ==
+* [http://www.gnu.org/software/cgicc/ Cgicc], FSF C++ library for CGI request parsing and HTML response generation
+* [http://search.cpan.org/modlist/World_Wide_Web/CGI CGI], a standard Perl module for CGI request parsing and HTML response generation
+
+{{Web interfaces}}
+
+{{Use dmy dates|date=July 2012}}
+
+[[Category:Servers (computing)]]
+[[Category:Web technology]]
+[[Category:World Wide Web]]

@@ -1,0 +1,284 @@
+[[File:ANL-E aerial 22037k4.jpg|thumb|right|300px|[[Argonne National Laboratory]] was a leader in automated theorem proving from the 1960s to the 2000s]]
+'''Automated theorem proving''' (also known as '''ATP''' or '''automated deduction''') is a subfield of [[automated reasoning]] and [[mathematical logic]] dealing with [[mathematical proof|proving]] [[mathematical theorem]]s by [[computer program]]s.  Automated reasoning over mathematical proof was a major impetus for the development of computer science.
+
+== Logical foundations ==
+While the roots of formalised [[logic]] go back to [[Aristotelian logic|Aristotle]], the end of the 19th and early 20th centuries saw the development of modern logic and formalised mathematics. [[Gottlob Frege|Frege]]'s ''[[Begriffsschrift]]'' (1879) introduced both a complete [[propositional logic|propositional calculus]] and what is essentially modern [[predicate logic]].<ref>{{cite book|last=Frege|first=Gottlob|title=Begriffsschrift|year=1879|publisher=Verlag Louis Neuert|url=http://gallica.bnf.fr/ark:/12148/bpt6k65658c}}</ref>  His ''[[The Foundations of Arithmetic|Foundations of Arithmetic]]'', published 1884,<ref>{{cite book|last=Frege|first=Gottlob|title=Die Grundlagen der Arithmetik|year=1884|publisher=Wilhelm Kobner|location=Breslau|url=http://www.ac-nancy-metz.fr/enseign/philo/textesph/Frege.pdf}}</ref> expressed (parts of) mathematics in formal logic. This approach was continued by [[Bertrand Russell|Russell]] and [[Alfred North Whitehead|Whitehead]] in their influential ''[[Principia Mathematica]]'', first published 1910-1913,<ref>{{cite book|title=Principia Mathematica|year=1910-1913|publisher=Cambridge University Press|author=Bertrand Russell|edition=1st|coauthors=Alfred North Whitehead}}</ref> and with a revised second edition in 1927.<ref>{{cite book|title=Principia Mathematica|year=1927|publisher=Cambridge University Press|author=Bertrand Russell|edition=2nd|coauthors=Alfred North Whitehead}}</ref> Russell and Whitehead thought they could derive all mathematical truth using axioms and inference rules of formal logic, in principle opening up the process to automatisation. In 1920, [[Thoralf Skolem]] simplified a previous result by [[Leopold Löwenheim]], leading to the [[Löwenheim–Skolem theorem]] and, in 1930, to the notion of a [[Herbrand universe]] and a [[Herbrand interpretation]] that allowed (un)satisfiability of first-order formulas (and hence the [[validity]] of a theorem) to be reduced to (potentially infinitely many) propositional satisfiability problems.<ref>{{cite book|last=Herbrand|first=Jaques|title=Recherches sur la théorie de la démonstration|year=1930}}</ref>
+
+In 1929, [[Mojżesz Presburger]] showed that the theory of [[natural numbers]] with addition and equality (now called [[Presburger arithmetic]] in his honor) is [[Decidability (logic)|decidable]] and gave an algorithm that could determine if a given sentence in the language was true or false.<ref>{{cite journal|last=Presburger|first=Mojżesz|title=Über die Vollständigkeit eines gewissen Systems der Arithmetik ganzer Zahlen, in welchem die Addition als einzige Operation hervortritt|journal=Comptes Rendus du I congrès de Mathématiciens des Pays Slaves|year=1929|pages=92–101|location=Warszawa}}</ref><ref name=Davis2001>{{Citation
+| last = Davis
+| first = Martin
+| author-link = Martin Davis
+| chapter = The Early History of Automated Deduction
+| year = 2001
+| url = http://cs.nyu.edu/cs/faculty/davism/early.ps
+| editor-last = Robinson
+| editor-first = Alan
+| editor-link = John Alan Robinson
+| editor2-last = Voronkov
+| editor2-first = Andrei
+| editor2-link = Andrei Voronkov
+| title = [[Handbook of Automated Reasoning]]
+| volume = 1
+| publisher = [[Elsevier]]
+| publication-date = 2001
+}})</ref>
+However, shortly after this positive result,  [[Kurt Gödel]] published ''[[On Formally Undecidable Propositions of Principia Mathematica and Related Systems]]'' (1931), showing that in any sufficiently strong axiomatic system there are true statements which cannot be proved in the system. This topic was further developed in the 1930s by [[Alonzo Church]] and [[Alan Turing]], who on the one hand gave two independent but equivalent definitions of [[computability]], and on the other gave concrete examples for undecidable questions.
+
+== First implementations ==
+
+Shortly after [[World War II]], the first general purpose computers became available. In 1954, [[Martin Davis]] programmed Presburger's algorithm for a [[JOHNNIAC]] vacuum tube computer at the [[Princeton Institute for Advanced Study]]. According to Davis, "Its great triumph was to prove that the sum of two even numbers is even".<ref name=Davis2001/><ref name=Bibel2007>{{cite journal|last=Bibel|first=Wolfgang|title=Early History and Perspectives of Automated Deduction|journal=KI 2007|year=2007|series=LNAI|issue=4667|pages=2–18|url=http://www.intellektik.de/resources/OsnabrueckBuchfassung.pdf|accessdate=2 September 2012|publisher=Springer}}</ref> More ambitious was the [[Logic Theory Machine]], a deduction system for the [[propositional logic]] of the ''Principia Mathematica'', developed by [[Allen Newell]], [[Herbert A. Simon]] and [[Cliff Shaw|J. C. Shaw]]. Also running on a JOHANNIAC, the Logic Theory Machine constructed proofs from a small set of propositional axioms and three deduction rules: [[modus ponens]], (propositional) variable substitution, and the replacement of formulas by their definition. The system used heuristic guidance, and managed to prove 38 of the first 52 theorems of the ''Principia''.<ref name=Davis2001/>
+
+The "heuristic" approach of the Logic Theory Machine tried to emulate human mathematicians, and could not guarantee that a proof  could be found for every valid theorem even in principle.  In contrast, other, more systematic algorithms achieved, at least theoretically, [[Completeness#Logical_completeness|completeness]] for first-order logic. Initial approaches relied on the results of Herbrand and Skolem to convert a first-order formula into successively larger sets of propositional formulae by instantiating variables with terms from the [[Herbrand universe]]. The propositional formulas could then be checked for unsatisfiability using a number of methods. Gilmore's program used conversion to [[disjunctive normal form]], a form in which the satisfiability of a formula is obvious.<ref name=Davis2001/><ref>{{cite journal|last=Gilmore|first=Paul|title=A proof procedure for quantification theory: its justification and realisation|journal=IBM Journal of Research and Development|year=1960|volume=4|pages=28–35}}</ref>
+
+== Decidability of the problem ==
+{{Unreferenced section|date=April 2010}}
+Depending on the underlying logic, the problem of deciding the validity of a formula varies from trivial to impossible. For the frequent case of [[propositional logic]], the problem is decidable but [[Co-NP-complete]], and hence only exponential-time algorithms are believed to exist for general proof tasks. For a [[first-order logic|first order predicate calculus]], with no ("proper") axioms, [[Gödel's completeness theorem]] states that the theorems (provable statements) are exactly the logically valid [[well-formed formula]]s, so identifying valid formulas is [[recursively enumerable]]: given unbounded resources, any valid formula can eventually be proven.
+
+However, ''invalid'' formulas (those that are ''not'' entailed by a given theory), cannot always be recognized. In addition, a consistent formal theory that contains the [[first-order theory]] of the [[natural numbers]] <!-- Is this just Peano arithmetic, or what? --> (thus having certain "proper axioms"), by [[Gödel's incompleteness theorem]], contains true statements which cannot be proven. In these cases, an automated theorem prover may fail to terminate while searching for a proof. Despite these theoretical limits, in practice, theorem provers can solve many hard problems, even in these undecidable logics.
+
+== Related problems ==
+
+A simpler, but related, problem is '''proof verification''', where an existing proof for a theorem is certified valid. For this, it is generally required that each individual proof step can be verified by a [[primitive recursive function]] or program, and hence the problem is always decidable.
+
+Since the proofs generated by automated theorem provers are typically very large, the problem of [[proof compression]] is crucial and various techniques aiming at making the prover's output smaller, and consequently more easily understandable and checkable, have been developed.
+
+[[Proof assistant]]s require a human user to give hints to the system. Depending on the degree of automation, the prover can essentially be reduced to a proof checker, with the user providing the proof in a formal way, or significant proof tasks can be performed automatically. Interactive provers are used for a variety of tasks, but even fully automatic systems have proven a number of interesting and hard theorems, including at least one that has eluded human mathematicians for a long time, namely the [[Robbins conjecture]].<ref>{{cite journal|author=W.W. McCune|title=Solution of the Robbins Problem|journal=Journal of Automated Reasoning|year=1997|url=http://www.springerlink.com/content/h77246751668616h/|volume=19|issue=3}}</ref><ref>{{cite news|title=Computer Math Proof Shows Reasoning Power|author=Gina Kolata|date=December 10, 1996|url=http://www.nytimes.com/library/cyber/week/1210math.html|publisher=The New York Times|accessdate=2008-10-11}}</ref> However, these successes are sporadic, and work on hard problems usually requires a proficient user.
+
+Another distinction is sometimes drawn between theorem proving and other techniques, where a process is considered to be theorem proving if it consists of a traditional proof, starting with axioms and producing new inference steps using rules of inference.  Other techniques would include [[model checking]], which, in the simplest case, involves brute-force enumeration of many possible states (although the actual implementation of model checkers requires much cleverness, and does not simply reduce to brute force).
+
+There are hybrid theorem proving systems which use model checking as an inference rule. There are also programs which were written to prove a particular theorem, with a (usually informal) proof that if the program finishes with a certain result, then the theorem is true. A good example of this was the machine-aided proof of the [[four color theorem]], which was very controversial as the first claimed mathematical proof which was essentially impossible to verify by humans due to the enormous size of the program's calculation (such proofs are called [[non-surveyable proofs]]).  Another example would be the proof that the game [[Connect Four]] is a win for the first player.
+
+== Industrial uses ==
+
+Commercial use of automated theorem proving is mostly concentrated in [[integrated circuit design]] and verification.  Since the [[Pentium FDIV bug]], the complicated [[floating point unit]]s of modern microprocessors have been designed with extra scrutiny.  Nowadays{{When|date=February 2011}}, [[AMD]], [[Intel]] and others use automated theorem proving to verify that division and other operations are correctly implemented in their processors.
+
+==First-order theorem proving==
+
+[[First-order logic|First-order]] theorem proving is one of the most mature subfields of automated theorem proving. The logic is expressive enough to allow the specification of arbitrary problems, often in a reasonably natural and intuitive way. On the other hand, it is still semi-decidable, and a number of sound and complete calculi have been developed, enabling ''fully'' automated systems. More expressive logics, such as higher order logics, allow the convenient expression of a wider range of problems than first order logic, but theorem proving for these logics is less well developed.
+
+==Benchmarks and competitions==
+The quality of implemented systems has benefited from the existence of a large library of standard benchmark examples — the Thousands of Problems for Theorem Provers (TPTP) Problem Library<ref>{{cite web|last=Sutcliffe|first=Geoff|title=The TPTP Problem Library for Automated Theorem Proving|url=http://www.cs.miami.edu/~tptp/|accessdate=8 September 2012}}</ref>  — as well as from the [[CADE ATP System Competition]] (CASC), a yearly competition of first-order systems for many important classes of first-order problems.
+
+Some important systems (all have won at least one CASC competition division) are listed below.
+* [[E theorem prover|E]] is a high-performance prover for full first-order logic, but built on a [[superposition calculus|purely equational calculus]], developed primarily in the automated reasoning group of [[Technical University of Munich]].
+* [[Otter (theorem prover)|Otter]], developed at the [[Argonne National Laboratory]], is the first widely used high-performance theorem prover {{Citation needed|date=August 2012}}. It is based on [[first-order resolution]] and [[paramodulation]]. Otter has since been replaced by [[Prover9]], which is paired with [[Mace4]].
+* [[SETHEO]] is a high-performance system based on the goal-directed [[model elimination]] calculus. It is developed in the automated reasoning group of Technical University of Munich. E and SETHEO have been combined (with other systems) in the composite theorem prover E-SETHEO.
+* [[Vampire theorem prover|Vampire]] is developed and implemented at [http://www.manchester.ac.uk/ Manchester University] by [http://www.voronkov.com/ Andrei Voronkov] and [http://www.cs.man.ac.uk/~hoderk/ Krystof Hoder], formerly also by [http://www.freewebs.com/riazanov/ Alexandre Riazanov]. It has won the CADE ATP System Competition in the most prestigious CNF (MIX) division for eleven years (1999, 2001–2010).
+* Waldmeister is a specialized system for unit-equational first-order logic. It has won the CASC UEQ division for the last fourteen years (1997–2010).
+* [[SPASS]] is a first order logic theorem prover with equality. This is developed by the  research group Automation of Logic, [[Max Planck Institute for Computer Science]].
+
+== Popular techniques ==
+
+*[[First-order resolution]] with [[unification (computing)|unification]]
+*[[Lean theorem prover|Lean theorem proving]]
+*[[Model elimination]]
+*[[Method of analytic tableaux]]
+*[[Superposition calculus|Superposition]] and term [[rewriting]]
+*[[Model checking]]
+*[[Mathematical induction]]
+*[[Binary decision diagram]]s
+*[[DPLL algorithm|DPLL]]
+*[[Unification (computing)#Higher-order unification|Higher-order unification]]
+
+== Comparison ==
+''See also:'' [[Proof assistant#Comparison]] and [[:Category:Theorem proving software systems]]
+{| class="wikitable sortable"
+|-
+! Name !! License type !! Web service !! Library !! Standalone !! Version !! Last update <small>([[strftime|YYYY-mm-dd format]])</small> !! Author !! Notice
+|-
+| [[ACL2]] || BSD Licenses|3-clause BSD || {{No}} || {{No}} || {{Yes}} || 6.2 || 2013/06 || Matt Kaufmann, J. Strother Moore || -
+|-
+| [[Prover9]] / [[Mace4]] || GPLv2 || {{No}} || {{Yes}} || {{Yes}} || v05|| 2009/11/04 ||  William McCune / Argonne National Laboratory || -
+|-
+| [[Otter (theorem prover)|Otter]]  ||Public Domain || {{Yes|Via [[System on TPTP]]}} || {{Yes}} || {{No}} || 3.3f || 2004/09 || William McCune / Argonne National Laboratory || Succeeded by [[Prover9]] / [[Mace4]]
+|-
+| j'Imp ||? || {{No}} || {{No}} || {{Yes}} || - || 2010/05/28 || André Platzer || -
+|-
+| Metis ||? || {{No}} || {{Yes}} ||{{No}} || 2.2|| 2010/05/24|| Joe Hurd || -
+|-
+| [[Jape (software)|Jape]] ||? ||  {{Yes}}|| {{Yes}} ||{{No}} || 1.0|| 2010/03/22 || Adolfo Gustavo Neto, USP || -
+|-
+| [[Prototype Verification System|PVS]] ||? || {{No}} || {{Yes}} ||{{No}} || 4.2|| 2008/07 || Computer Science Laboratory of [[SRI International]], California, USA || -
+|-
+| [http://www.leoprover.org Leo II] || ? || {{Yes|Via [[System on TPTP]]}} || {{Yes}} ||{{Yes}} || 1.2.8|| 2011 || Christoph Benzmüller, Frank Theiss, Larry Paulson. FU Berlin and University of Cambridge || -
+|-
+| [[EQP]] ||? ||  {{No}} || {{Yes}} ||{{No}} || 0.9e|| 2009/05 || William McCune / Argonne National Laboratory || -
+|-
+| [http://nevidal.org/sad.en.html SAD] ||? ||  {{Yes}} || {{Yes}} ||{{No}} || 2.3-2.5 || 2008/08/27 || Alexander Lyaletski, Konstantin Verchinine, Andrei Paskevich || -
+|-
+| [[PhoX]] ||? ||  {{No}} || {{Yes}} ||{{No}} || 0.88.100524 || - ||  Christophe Raffalli, Philippe Curmin, Pascal Manoury, Paul Roziere || -
+|-
+| [http://www.symbolaris.com/info/KeYmaera.html KeYmaera] || GPL || {{Yes| Via [[Java Webstart]]}} || {{Yes}} || {{Yes}} ||2.1 || 2012/05 || André Platzer, Jan-David Quesel; Philipp Rümmer; David Renshaw || -
+|-
+| [[Gandalf (theorem prover)|Gandalf]] ||? || {{No}} || {{Yes}} ||{{No}} ||3.6 || 2009 || Matt Kaufmann e J. Strother Moore, Universidade de Texas em Austin || -
+|-
+| [[Tau (theorem prover)|Tau]] ||? ||  {{No}} || {{Yes}} ||{{No}} || - || 2005 || Jay R. Halcomb e Randall R. Schulz da H&S Information Systems || -
+|-
+| [[E theorem prover|E]] || [[GPL]] || {{Yes|Via [[System on TPTP]]}} ||{{No}} || {{Yes}}  || E 1.4 || 2011/08/20 || Stephan Schulz, Automated Reasoning Group, Technical University of Munich || -
+|-
+| [[SNARK theorem prover|SNARK]] ||Mozilla Public License || {{No}} || {{Yes}} ||{{No}} || snark-20080805r018b || 2008 || Mark E. Stickel || -
+|-
+| [[Vampire theorem prover|Vampire]] ||? ||  {{Yes|Via [[System on TPTP]]}} || {{Yes}} ||{{Yes}} || Third re-incarnation Vampire|| 2011 || Andrei Voronkov, Alexandre Riazanov, Krystof Hoder || -
+|-
+| [[Waldmeister (theorem prover)|Waldmeister]] || ? || {{Yes}} || {{Yes}} ||{{No}} || - || - || Thomas Hillenbrand, Bernd Löchner, Arnim Buch, Roland Vogt, Doris Diedrich || -
+|-
+| Saturate ||? ||  {{No}} || {{Yes}} ||{{No}} || 2.5 || 1996/10 || Harald Ganzinger, Robert Nieuwenhuis, Pilar Nivela Pilar Nivela || -
+|-
+| [[Theorem Proving System]] (TPS) ||? || {{No}} || {{Yes}} ||{{No}} || - || 2004/06/24 || Carnegie Mellon University || -
+|-
+| [[SPASS]] ||? ||  {{Yes}}|| {{Yes}} ||  {{Yes}} || 3.7 || 2005/11 || Max Planck Institut Informatik || -
+|-
+| [[IsaPlanner]] || [[GPL]] ||  {{No}} || {{Yes}} ||  {{Yes}} || IsaPlanner 2 || 2007 || Lucas Dixon, Johansson Moa || -
+|-
+| [[KeY]] || [[GPL]] || {{Yes}}||  {{Yes}} || {{Yes}} || 1.6 || 2010/10 || [[Karlsruhe Institute of Technology]], [[Chalmers University of Technology]], [[University of Koblenz]] || -
+|-
+| [http://www.neiu.edu/~rjswartz/Theorem%20Checker/TheoremChecker.jar Theorem Checker] ||? || {{No}} || {{No}} || {{Yes}} || 0
+|| 2013 || Robert J. Swartz, Northeastern Illinois University || -
+|-
+| [http://www.philipp.ruemmer.org/princess.shtml Princess] || [[GPL]] || {{Yes|Via [[Java Webstart]] and [[System on TPTP]]}} || {{Yes}} || {{Yes}} || 2012-11-02 || 2012 || Philipp Rümmer, [[Uppsala University]] || -
+|-
+|}
+
+=== Free software ===
+* [[Alt-Ergo]]
+* [[Automath]]
+* [[CVC (theorem prover)|CVC]]
+* [[E theorem prover|E]]
+* [[Gödel-machines]]
+* [[iProver]]
+* [[IsaPlanner]]
+* [[KED theorem prover]]
+* [[LCF (theorem prover)|LCF]]
+* [[LoTREC]]
+* [[MetaPRL]]
+* [[NuPRL]]
+* [[Paradox (theorem prover)|Paradox]]
+* [[Simplify (software)|Simplify]] ([http://www.dwheeler.com/misc/simplify-hp-release.txt GPL'ed since 5/2011])
+* [[Twelf]]
+* [[SPARK (programming language)]]
+
+=== Proprietary software===
+* [[Acumen RuleManager]] (commercial product)
+* [http://mcs.open.ac.uk/pp2464/ALLIGATOR ALLIGATOR]
+* [[CARINE]]
+* KIV
+* [[Prover Plug-In]] (commercial proof engine product)
+* [[ProverBox]]
+* [[ResearchCyc]]
+* [[Spear modular arithmetic theorem prover]]
+
+== Notable people ==
+<!-- Note that this list is alphabetic by last name -->
+* [[Leo Bachmair]], co-developer of the [[superposition calculus]].
+* [[Woody Bledsoe]], [[artificial intelligence]] pioneer.
+* [[Robert S. Boyer]], co-author of the [[Nqthm|Boyer-Moore theorem prover]], co-recipient of the [[Herbrand Award]] 1999.
+* [[Alan Bundy]], [[University of Edinburgh]], meta-level reasoning for guiding inductive proof, proof planning and recipient of 2007 [[IJCAI Award for Research Excellence]], Herbrand Award, and 2003 [[Donald E. Walker Distinguished Service Award]].
+* [http://www-unix.mcs.anl.gov/~mccune/ William McCune] Argonne National Laboratory, author of Otter, the first high-performance theorem prover. Many important papers, recipient of the Herbrand Award 2000.
+* [http://www.lsv.ens-cachan.fr/~comon/ Hubert Comon], [[CNRS]] and now [[ENS Cachan]]. Many important papers.
+* [[Robert Lee Constable]], Cornell University. Important contributions to type theory, NuPRL.
+* [[Martin Davis]], author of the "Handbook of Artificial Reasoning", co-inventor of the [[DPLL algorithm]], recipient of the Herbrand Award 2005.
+* [http://www.fitelson.org/ Branden Fitelson] University of California at Berkeley. Work in automated discovery of shortest axiomatic bases for logic systems.
+* [[Harald Ganzinger]], co-developer of the superposition calculus, head of the MPI Saarbrücken, recipient of the Herbrand Award 2004 (posthumous).
+* [http://logic.stanford.edu/people/genesereth/ Michael Genesereth], [[Stanford University]] professor of Computer Science.
+* [[Keith Goolsbey]] chief developer of the [[Cyc]] inference engine.
+* [[Michael J. C. Gordon]] led the development of the HOL theorem prover.
+* [[Gérard Huet]] Term rewriting, HOL logics, Herbrand Award 1998.
+* [[Robert Kowalski]] developed the connection graph theorem-prover and [[SLD resolution]], the inference engine that executes [[logic programming|logic programs]].
+* [http://www.cs.duke.edu/~dwl/ Donald W. Loveland] Duke University. Author, co-developer of the DPLL-procedure, developer of [[model elimination]], recipient of the Herbrand Award 2001.
+* Norman Megill, developer of [[Metamath]], and maintainer of its site at [http://www.metamath.org metamath.org], an online database of automatically verified proofs.
+* [[J Strother Moore]], co-author of the Boyer-Moore theorem prover, co-recipient of the Herbrand Award 1999.
+* [[Robert Nieuwenhuis]] University of Barcelona. Co-developer of the superposition calculus.
+* [[Tobias Nipkow]] of the [[Technical University of Munich]], contributions to (higher-order) rewriting, co-developer of the Isabelle proof assistant
+* [[Ross Overbeek]] Argonne National Laboratory. Founder of [http://theseed.uchicago.edu/FIG/Html/FIG.html The Fellowship for Interpretation of Genomes]
+* [[Lawrence C. Paulson]] of the [[University of Cambridge]], work on higher-order logic system, co-developer of the [[Isabelle theorem prover|Isabelle]] Theorem Prover
+* [[David Plaisted]] [[University of North Carolina at Chapel Hill]]. Complexity results, contributions to [[rewriting]] and [[Knuth-Bendix completion algorithm|completion]], instance-based theorem proving.
+* [[John Rushby]] Program Director - [[SRI International]]<ref>{{cite web|title=SRI International Computer Science Laboratory - John Rushby|url=http://www.csl.sri.com/users/rushby/|publisher=SRI International|accessdate=22 September 2012}}</ref> 
+* [[John Alan Robinson|J. Alan Robinson]] Syracuse University. Developed original resolution and unification based first order theorem proving, co-editor of the "Handbook of Automated Reasoning", recipient of the Herbrand Award 1996
+* [[Jürgen Schmidhuber]] Work on [http://www.idsia.ch/~juergen/goedelmachine.html Gödel Machines: Self-Referential Universal Problem Solvers Making Provably Optimal Self-Improvements]
+* [[Stephan Schulz]], E theorem Prover.
+* [[Natarajan Shankar]] SRI International, work on decision procedures, ''little engines of proof'', co-developer of [[Prototype Verification System|PVS]].
+* [[Mark Stickel]] SRI International. Recipient of the Herbrand Award 2002.
+* [[Geoff Sutcliffe]] University of Miami. Maintainer of the TPTP collection, an organizer of the CADE annual contest.
+* [http://web.ics.purdue.edu/~dulrich/Home-page.htm Dolph Ulrich] Purdue, Work on automated discovery of shortest axiomatic bases for systems.
+* [http://www.cs.unm.edu/~veroff/ Robert Veroff] University of New Mexico. Many important papers.
+* [http://www.voronkov.com/ Andrei Voronkov] Developer of Vampire and Co-Editor of the "Handbook of Automated Reasoning"
+* [http://www-unix.mcs.anl.gov/~wos/ Larry Wos]  Argonne National Laboratory. (Otter) Many important papers. Very first Herbrand Award winner (1992)
+* [[Wen-Tsun Wu]] Work in geometric theorem proving: [[Wu's method]], Herbrand Award 1997
+* [[Christoph Weidenbach]], author of [[SPASS]], automated theorem prover.
+
+== See also ==
+<div style="-moz-column-count:2; column-count:2;">
+* [[Symbolic computation]]
+* [[Computer-aided proof]]
+* [[Automated reasoning]]
+* [[Formal verification]]
+* [[Logic programming]]
+* [[Proof checking]]
+* [[Model checking]]
+* [[Proof complexity]]
+* [[Computer algebra system]]
+* [[Program analysis (computer science)]]
+* [[General Problem Solver]]
+* [[Metamath]] - a language for developing strictly formalized mathematical definitions and proofs accompanied by a proof checker for this language and a growing database of thousands of proved theorems; while the Metamath language is not accompanied with an automated theorem prover, it can be regarded as important because the [[formal language]] behind it allows development of such a [[software]]{{why?|date=April 2012}}; as of March, 2012, there is no "widely" known such software, so it is not a subject of "automated theorem proving" (it can become such a subject {{why?|date=April 2012}}), but it is a [[proof assistant]].{{citation needed|date=April 2012}}
+</div>
+
+== Notes ==
+{{reflist}}
+
+== References ==
+* {{cite book | title = Symbolic Logic and Mechanical Theorem Proving
+ | author = Chin-Liang Chang
+ | coauthors = Richard Char-Tung Lee
+ | publisher = [[Academic Press]]
+ | year = 1973
+}}
+* {{cite book
+ | last = Loveland
+ | first = Donald W.
+ | title = Automated Theorem Proving: A Logical Basis. Fundamental Studies in Computer Science Volume 6
+ | publisher = [[North-Holland Publishing]]
+ | year = 1978
+}}
+* {{cite book
+ | last = Gallier
+ | first = Jean H.
+ | title = Logic for Computer Science: Foundations of Automatic Theorem Proving
+ | publisher = [[Harper & Row Publishers]] (Available for free download)
+ | year = 1986
+ | url = http://www.cis.upenn.edu/~jean/gbooks/logic.html
+}}
+* {{cite book
+ | last = Duffy
+ | first = David A.
+ | title = Principles of Automated Theorem Proving
+ | year = 1991
+ | publisher = [[John Wiley & Sons]]
+}}
+* {{cite book
+ | last = Wos
+ | first = Larry
+ | coauthors = Overbeek, Ross; Lusk, Ewing; Boyle, Jim
+ | title = Automated Reasoning: Introduction and Applications
+ | edition = 2nd
+ | publisher = [[McGraw-Hill]]
+ | year = 1992
+}}
+* {{cite book
+ | title = Handbook of Automated Reasoning Volume I & II
+ | editor = Alan Robinson and Andrei Voronkov (eds.)
+ | publisher = [[Elsevier]] and [[MIT Press]]
+ | year = 2001
+}}
+* {{cite book
+ | last = Fitting
+ | first = Melvin
+ | title = First-Order Logic and Automated Theorem Proving
+ | edition = 2nd
+ | publisher = [[Springer Science+Business Media|Springer]]
+ | year = 1996
+ | url = http://comet.lehman.cuny.edu/fitting/
+}}
+
+{{DEFAULTSORT:Automated Theorem Proving}}
+[[Category:Formal methods]]
+[[Category:Automated theorem proving]]

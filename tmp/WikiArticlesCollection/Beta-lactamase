@@ -1,0 +1,233 @@
+{{DISPLAYTITLE:β-Lactamase}}
+{{Infobox protein family
+| Symbol = β-lactamase domain
+| Name = Beta-lactamase
+| image = PDB_1bsg_EBI.jpg
+| width = 300px
+| caption = Structure of a ''[[Streptomyces albus]]'' beta-lactamase
+| Pfam = PF00144
+| Pfam_clan = CL0013
+| InterPro = IPR001466
+| SMART =
+| PROSITE = PS00146
+| MEROPS =
+| SCOP = 56601
+| TCDB =
+| OPM family =
+| OPM protein =
+| PDB = {{PDB2|1axb}}, {{PDB2|1blp}}, {{PDB2|1bsg}}, {{PDB2|1bue}}, {{PDB2|1e25}}, {{PDB2|1ghi}}, {{PDB2|1i2s}}, {{PDB2|1n9b}}, {{PDB2|1ong}}, {{PDB2|2cc1}}, {{PDB2|2gdn}}, {{PDB2|3dwz}}
+}}
+{{enzyme
+| Name = β-lactamase
+| EC_number = 3.5.2.6
+| CAS_number = 9073-60-3
+| IUBMB_EC_number = 3/5/2/6
+| GO_code = 0008800
+| image = Lactamase Application V.1.svg
+| width = 300px
+| caption = Action of β-lactamase and [[decarboxylation]] of the intermediate
+}}
+[[Image:Beta-lactam antibiotics example 1.svg|thumb|Core structure of [[penicillin]]s (top) and [[cephalosporin]]s (bottom). [[β-lactam]] ring in red.]]
+[[Image:ESBL Stokes.jpg|right|thumb|''[[Escherichia coli]]'' bacteria on the right are sensitive to two beta-lactam antibiotics, and do not grow in the semi-circular regions surrounding the antibiotics. E. coli bacteria on the left are resistant to beta-lactam antibiotics, and grow next to one antibiotic (bottom) and are less inhibited by another antibiotic (top).]]
+'''Beta-lactamases''' are [[enzyme]]s ({{EC number|3.5.2.6}}) produced by some bacteria that provide [[antibiotic resistance|resistance]] to [[beta-lactam antibiotic]]s like [[penicillin]]s, [[cephamycin]]s, and [[carbapenem]]s ([[ertapenem]]), although [[carbapenem]]s are relatively resistant to beta-lactamase. Beta-lactamase provides antibiotic resistance by breaking the [[antibiotic]]s' structure. These antibiotics all have a common element in their molecular structure: a four-atom ring known as a [[beta-lactam]]. Through [[hydrolysis]], the lactamase enzyme breaks the β-lactam ring open, deactivating the molecule's antibacterial properties.
+
+Beta-lactam antibiotics are typically used to treat a broad spectrum of [[Gram-positive]] and [[Gram-negative]] bacteria. 
+
+Beta-lactamases produced by Gram-negative organisms are usually secreted, especially when antibiotics are present in the environment.<ref name="pmid4894721">{{cite journal | author = Neu HC | title = Effect of beta-lactamase location in Escherichia coli on penicillin synergy | journal = Appl Microbiol | volume = 17 | issue = 6 | pages = 783–6 | year = 1969 | month = June | pmid = 4894721 | pmc = 377810 | doi = }}</ref>
+
+== Structure ==
+
+The structure of a ''[[Streptomyces]]'' β-lactamase is given by {{PDB link|1BSG}}.
+
+== Penicillinase ==
+Penicillinase is a specific type of β-lactamase, showing specificity for [[penicillin]]s, again by [[hydrolysis|hydrolysing]] the [[beta-lactam]] ring.  Molecular weights of the various penicillinases tend to cluster near 50 kiloDaltons.
+
+Penicillinase was the first β-lactamase to be identified: It was first isolated by Abraham and Chain in 1940 from Gram-negative  ''E. coli'' even before penicillin entered clinical use,<ref>{{cite journal | title=An enzyme from bacteria able to destroy penicillin | author=Abraham EP, Chain E | journal=Nature | year=1940 | volume=46 | pages=837–837 | doi=10.1038/146837a0 | issue=3713}}</ref> but penicillinase production quickly spread to bacteria that previously did not produce it or produced it only rarely.  Penicillinase-resistant beta-lactams such as [[methicillin]] were developed, but there is now widespread [[antibiotic resistance|resistance]] to even these.
+
+== Classification  ==
+
+=== Functional classification ===
+
+The following functional classification for beta lactamases has been proposed:<ref name="pmid7574506">{{cite journal | author = Bush K, Jacoby GA, Medeiros AA | title = A functional classification scheme for beta-lactamases and its correlation with molecular structure | journal = Antimicrob. Agents Chemother. | volume = 39 | issue = 6 | pages = 1211–33 | year = 1995 | month = June | pmid = 7574506 | pmc = 162717 | doi =10.1128/AAC.39.6.1211 }}</ref>
+
+====Group 1====
+;CEPHALOSPORINASE, Molecular Class C ''(not inhibited by clavulanic acid)''
+:Group 1 are cephalosporinases not inhibited by [[clavulanic acid]], belonging to the molecular class C
+
+====Group 2====
+Group 2 are penicillinases, cephalosporinases, or both inhibited by clavulanic acid, corresponding to the molecular classes A and D reflecting the original TEM and SHV genes. Additionally, many class A TEM  β-lactamases are inhibited by [[beta-lactamase inhibitory protein]] (BLIP). Because of the increasing number of TEM- and SHV-derived β-lactamases, they were divided into two subclasses, 2a and 2b.
+
+;GROUP 2a: PENICILLINASE, Molecular Class A
+:The ''2a subgroup'' contains just penicillinases.
+
+;GROUP 2b: BROAD-SPECTRUM, Molecular Class A
+:''2b'' Opposite to 2a , 2b are broad-spectrum β-lactamases, meaning that they are capable of inactivating [[penicillins]] and [[cephalosporins]] at the same rate. Furthermore, new subgroups were segregated from subgroup 2b:
+
+;GROUP 2be: EXTENDED-SPECTRUM, Molecular Class A
+:''Subgroup 2be'', with the letter "e" for extended spectrum of activity, represents the ESBLs, which are capable of inactivating third-generation cephalosporins ([[ceftazidime]], [[cefotaxime]], and [[cefpodoxime]]) as well as [[monobactams]] (aztreonam)
+
+;GROUP 2br: INHIBITOR-RESISTANT, Molecular Class A ''(diminished inhibition by clavulanic acid)''
+:The ''2br'' enzymes, with the letter "r" denoting reduced binding to [[clavulanic acid]] and [[sulbactam]], are also called inhibitor-resistant TEM-derivative enzymes; nevertheless, they are commonly still susceptible to [[tazobactam]], except where an amino acid replacement exists at position met69.
+
+;GROUP 2c: CARBENICILLINASE, Molecular Class A
+:Later''subgroup 2c'' was segregated from group 2 because these enzymes inactivate [[carbenicillin]] more than [[benzylpenicillin]], with some effect on [[cloxacillin]].
+
+;GROUP 2d: CLOXACILANASE, Molecular Class D or A
+:''Subgroup 2d'' enzymes inactivate [[cloxacillin]] more than [[benzylpenicillin]], with some activity against [[carbenicillin]]; these enzymes are poorly inhibited by [[clavulanic acid]], and some of them are ESBLs
+
+:the correct term is "OXACILLINASE". These enzymes are able to inactivate the oxazolylpenicillins like oxacillin, cloxacillin, dicloxacillin. The enzymes belong to the molecular class D not molecular class A.
+
+;GROUP 2e: CEPHALOSPORINASE, Molecular Class A
+:''Subgroup 2e'' enzymes are cephalosporinases that can also hydrolyse [[monobactams]], and they are inhibited by [[clavulanic acid]]
+
+;GROUP 2f: CARBAPENAMASE, Molecular Class A
+:''Subgroup 2f'' was added because these are [[serine]]-based carbapenemases, in contrast to the zinc-based carbapenemases included in group 3
+
+====Group 3====
+;METALLOENZYME, Molecular Class B ''(not inhibited by clavulanic acid)''
+:Group 3 are the [[zinc]]-based or metallo {beta}-lactamases, corresponding to the molecular class B, which are the only enzymes acting by the metal ion zinc, as discussed above. Metallo B-lactamases are able to hydrolyse penicillins, cephalosporins, and carbapenems. Thus, carbapenems are inhibited by both group 2f (serine-based mechanism) and group 3 (zinc-based mechanism)
+
+====Group 4====
+;PENICILLINASE, No Molecular Class ''(not inhibited by clavulanic acid)''
+:Group 4 are penicillinases that are not inhibited by [[clavulanic acid]], and they do not yet have a corresponding molecular class.
+
+=== Molecular classification ===
+
+The molecular classification of β-lactamases is based on the nucleotide and amino acid sequences in these enzymes. To date, four classes are recognised (A-D), correlating with the functional classification. Classes A, C, and D act by a [[serine]]-based mechanism, whereas class B or [[metallo-beta-lactamase protein fold|metallo-β-lactamases]] need [[zinc]] for their action<ref name="pmid6109327">{{cite journal | author = Ambler RP | title = The structure of beta-lactamases | journal = Philos. Trans. R. Soc. Lond., B, Biol. Sci. | volume = 289 | issue = 1036 | pages = 321–31 | year = 1980 | month = May | pmid = 6109327 | doi =10.1098/rstb.1980.0049 }}</ref>
+
+"Penicillinase" was discovered in 1940 and renamed Beta-lactamase when the structure of the Beta-lactam ring was finally elucidated.
+
+==Resistance in Gram-negative bacteria==
+Among Gram-negative bacteria, the emergence of resistance to expanded-spectrum cephalosporins has been a major concern. It appeared initially in a limited number of bacterial species (''[[E. cloacae]]'', ''[[C. freundii]]'', ''[[S. marcescens]]'', and ''[[P. aeruginosa]]'' ) that could mutate to hyperproduce their chromosomal class C β-lactamase. A few years later, resistance appeared in bacterial species not naturally producing AmpC enzymes (''[[K. pneumoniae]]'', ''[[Salmonella]]'' spp., ''[[Proteus mirabilis|P. mirabilis]]'') due to the production of TEM- or SHV-type ESBLs. Characteristically, such resistance has included oxyimino- (for example [[ceftizoxime]], [[cefotaxime]], [[ceftriaxone]], and [[ceftazidime]], as well as the oxyimino-monobactam [[aztreonam]]), but not 7-alpha-methoxy-cephalosporins  ([[cephamycins]]); in other words, ([[cefoxitin]] and [[cefotetan]]) have been blocked by inhibitors such as [[clavulanate]], [[sulbactam]], or [[tazobactam]], and did not involve [[carbapenems]]. Chromosomal-mediated AmpC β-lactamases represent a new threat, since they confer resistance to 7-alpha-methoxy-cephalosporins ([[cephamycins]]) such as [[cefoxitin]] or [[cefotetan]] are not affected by commercially available β-lactamase inhibitors, and can, in strains with loss of outer membrane porins, provide resistance to carbapenems.<ref name="pmid11751104">{{cite journal | author = Philippon A, Arlet G, Jacoby GA | title = Plasmid-determined AmpC-type beta-lactamases | journal = Antimicrob. Agents Chemother. | volume = 46 | issue = 1 | pages = 1–11 | year = 2002 | month = January | pmid = 11751104 | pmc = 126993 | doi =10.1128/AAC.46.1.1-11.2002 }}</ref>
+
+===Extended-spectrum beta-lactamase (ESBL)===
+Members of the family [[Enterobacteriaceae]] commonly express [[plasmid]]-encoded β-lactamases (e.g., TEM-1, TEM-2, and SHV-1). which confer resistance to penicillins but not to expanded-spectrum cephalosporins. In the mid-1980s, a new group of enzymes, the extended-spectrum b-lactamases (ESBLs), was detected (first detected in 1979).<ref name="pmid314270">{{cite journal | author = Sanders CC, Sanders WE | title = Emergence of resistance to cefamandole: possible role of cefoxitin-inducible beta-lactamases | journal = Antimicrob. Agents Chemother. | volume = 15 | issue = 6 | pages = 792–7 | year = 1979 | month = June | pmid = 314270 | pmc = 352760 | doi = 10.1128/AAC.15.6.792 }}</ref> ESBLs are beta-lactamases that hydrolyze extended-spectrum cephalosporins with an oxyimino side chain. These cephalosporins include [[cefotaxime]], [[ceftriaxone]], and [[ceftazidime]], as well as the oxyimino-monobactam [[aztreonam]]. Thus ESBLs confer resistance to these antibiotics and related oxyimino-beta lactams. In typical circumstances, they derive from genes for TEM-1, TEM-2, or SHV-1 by mutations that alter the amino acid configuration around the active site of these β-lactamases. This extends the spectrum of β-lactam antibiotics susceptible to hydrolysis by these enzymes. An increasing number of ESBLs not of TEM or SHV lineage have recently been described.<ref name="pmid9230382">{{cite journal | author = Emery CL, Weymouth LA | title = Detection and clinical significance of extended-spectrum beta-lactamases in a tertiary-care medical center | journal = J. Clin. Microbiol. | volume = 35 | issue = 8 | pages = 2061–7 | year = 1997 | month = August | pmid = 9230382 | pmc = 229903 | doi =  }}</ref>  The ESBLs are frequently plasmid encoded. Plasmids responsible for ESBL production frequently carry genes encoding resistance to other drug classes (for example, aminoglycosides). Therefore, antibiotic options in the treatment of ESBL-producing organisms are extremely limited. Carbapenems are the treatment of choice for serious infections due to ESBL-producing organisms, yet carbapenem-resistant isolates have recently been reported. ESBL-producing organisms may appear susceptible to some extended-spectrum cephalosporins. However, treatment with such antibiotics has been associated with high failure rates.
+
+=== Types ===
+
+==== TEM beta-lactamases (class A) ====
+TEM-1 is the most commonly encountered beta-lactamase in [[Gram-negative]] bacteria. Up to 90% of ampicillin resistance in [[Escherichia coli|E. coli]] is due to the production of TEM-1.<ref name="pmid2193616">{{cite journal | author = Cooksey R, Swenson J, Clark N, Gay E, Thornsberry C | title = Patterns and mechanisms of beta-lactam resistance among isolates of Escherichia coli from hospitals in the United States | journal = Antimicrob. Agents Chemother. | volume = 34 | issue = 5 | pages = 739–45 | year = 1990 | month = May | pmid = 2193616 | pmc = 171683 | doi = 10.1128/AAC.34.5.739 }}</ref>  Also responsible for the ampicillin and penicillin resistance that is seen in ''[[H. influenzae]]'' and ''[[N. gonorrhoeae]]'' in increasing numbers. Although TEM-type beta-lactamases are most often found in ''[[Escherichia coli|E. coli]]'' and ''[[K. pneumoniae]]'', they are also found in other species of Gram-negative bacteria with increasing frequency. The amino acid substitutions responsible for the ESBL phenotype cluster around the active site of the enzyme and change its configuration, allowing access to oxyimino-beta-lactam substrates. Opening the active site to beta-lactam substrates also typically enhances the susceptibility of the enzyme to b-lactamase inhibitors, such as clavulanic acid. Single amino acid substitutions at positions 104, 164, 238, and 240 produce the ESBL phenotype, but ESBLs with the broadest spectrum usually have more than a single amino acid substitution. Based upon different combinations of changes, currently 140 TEM-type enzymes have been described. TEM-10, TEM-12, and TEM-26 are among the most common in the United States.<ref name="pmid14576117">{{cite journal | author = Paterson DL, Hujer KM, Hujer AM, Yeiser B, Bonomo MD, Rice LB, Bonomo RA | title = Extended-spectrum beta-lactamases in Klebsiella pneumoniae bloodstream isolates from seven countries: dominance and widespread prevalence of SHV- and CTX-M-type beta-lactamases | journal = Antimicrob. Agents Chemother. | volume = 47 | issue = 11 | pages = 3554–60 | year = 2003 | month = November | pmid = 14576117 | pmc = 253771 | doi = 10.1128/AAC.47.11.3554-3560.2003  }}</ref><ref name="pmid11585791">{{cite journal | author = Bradford PA | title = Extended-spectrum beta-lactamases in the 21st century: characterization, epidemiology, and detection of this important resistance threat | journal = Clin. Microbiol. Rev. | volume = 14 | issue = 4 | pages = 933–51, table of contents | year = 2001 | month = October | pmid = 11585791 | pmc = 89009 | doi = 10.1128/CMR.14.4.933-951.2001 }}</ref><ref name="pmid15673804">{{cite journal | author = Jacoby GA, Munoz-Price LS | title = The new beta-lactamases | journal = N. Engl. J. Med. | volume = 352 | issue = 4 | pages = 380–91 | year = 2005 | month = January | pmid = 15673804 | doi = 10.1056/NEJMra041359 }}</ref>
+
+====SHV beta-lactamases (class A)====
+SHV-1 shares 68 percent of its amino acids with TEM-1 and has a similar overall structure. The SHV-1 beta-lactamase is most commonly found in ''[[K. pneumoniae]]'' and is responsible for up to 20% of the plasmid-mediated ampicillin resistance in this species. ESBLs in this family also have amino acid changes around the active site, most commonly at positions 238 or 238 and 240. More than 60 SHV varieties are known. SHV-5 and SHV-12 are among the most common.<ref name="pmid14576117">{{cite journal | author = Paterson DL, Hujer KM, Hujer AM, Yeiser B, Bonomo MD, Rice LB, Bonomo RA, International Klebsiella Study Group | title = Extended-spectrum beta-lactamases in Klebsiella pneumoniae bloodstream isolates from seven countries: dominance and widespread prevalence of SHV- and CTX-M-type beta-lactamases | journal = Antimicrob. Agents Chemother. | volume = 47 | issue = 11 | pages = 3554–60 | year = 2003 | month = November | pmid = 14576117 | pmc = 253771 | doi = 10.1128/AAC.47.11.3554-3560.2003 }}</ref>
+
+==== CTX-M beta-lactamases (class A) ====
+These enzymes were named for their greater activity against [[cefotaxime]] than other oxyimino-beta-lactam substrates (e.g., [[ceftazidime]], [[ceftriaxone]], or [[cefepime]]). Rather than arising by mutation, they represent examples of plasmid acquisition of beta-lactamase genes normally found on the chromosome of ''[[Kluyvera]]'' species, a group of rarely pathogenic commensal organisms. These enzymes are not very closely related to TEM or SHV beta-lactamases in that they show only approximately 40% identity with these two commonly isolated beta-lactamases. More than 80 CTX-M enzymes are currently known. Despite their name, a few are more active on [[ceftazidime]] than [[cefotaxime]]. They have mainly been found in strains of ''[[Salmonella enterica]]'' serovar ''Typhimurium'' and ''[[Escherichia coli|E. coli]]'', but have also been described in other species of [[Enterobacteriaceae]] and are the predominant ESBL type in parts of South America. (They are also seen in eastern Europe) CTX-M-14, CTX-M-3, and CTX-M-2 are the most widespread.  CTX-M-15 is currently (2006) the most widespread type in ''[[Escherichia coli|E. coli]]'' the UK and is widely prevalent in the community.<ref name = "Woodford_2006">{{cite web | author = Woodford N, Ward E, Kaufmann ME, ''et al.'' | title = Molecular characterisation of ''Escherichia coli'' isolates producing CTX-M-15 extended-spectrum β-lactamase (ESBL) in the United Kingdom | publisher=Health Protection Agency | accessdate=2006-11-19 | url = http://www.hpa.org.uk/cfi/armrl/ARMRL_posters/Woodford%20ECCMID%202004%20poster.pdf | format = PDF }}</ref>
+
+==== OXA beta-lactamases (class D) ====
+OXA beta-lactamases were long recognized as a less common but also plasmid-mediated beta-lactamase variety that could hydrolyze [[oxacillin]] and related anti-staphylococcal penicillins. These beta-lactamases differ from the TEM and SHV enzymes in that they belong to molecular class D and functional group 2d . The OXA-type beta-lactamases confer resistance to [[ampicillin]] and [[cephalothin]] and are characterized by their high hydrolytic activity against [[oxacillin]] and [[cloxacillin]] and the fact that they are poorly inhibited by [[clavulanic acid]]. Amino acid substitutions in OXA enzymes can also give the ESBL phenotype. While most ESBLs have been found in ''[[Escherichia coli|E. coli]]'', ''[[K. pneumoniae]]'', and other [[Enterobacteriaceae]], the OXA-type ESBLs have been found mainly in ''[[P. aeruginosa]]''. OXA-type ESBLs have been found mainly in ''[[Pseudomonas aeruginosa]]'' isolates from Turkey and France. The OXA beta-lactamase family was originally created as a phenotypic rather than a genotypic group for a few beta-lactamases that had a specific hydrolysis profile. Therefore, there is as little as 20% sequence homology among some of the members of this family. However, recent additions to this family show some degree of homology to one or more of the existing members of the OXA beta-lactamase family. Some confer resistance predominantly to ceftazidime, but OXA-17 confers greater resistance to cefotaxime and cefepime than it does resistance to ceftazidime.
+
+==== Others ====
+Other plasmid-mediated ESBLs, such as PER, VEB, GES, and IBC beta-lactamases, have been described but are uncommon and have been found mainly in ''[[P. aeruginosa]]'' and at a limited number of geographic sites. PER-1 in isolates in Turkey, France, and Italy; VEB-1 and VEB-2 in strains from Southeast Asia; and GES-1, GES-2, and IBC-2 in isolates from South Africa, France, and Greece. PER-1 is also common in multiresistant acinetobacter species in Korea and Turkey. Some of these enzymes are found in Enterobacteriaceae as well, whereas other uncommon ESBLs (such as BES-1, IBC-1, SFO-1, and TLA-1) have been found only in Enterobacteriaceae.
+
+====Treatment====
+While ESBL-producing organisms were previously associated with hospitals and institutional care, these organisms are now increasingly found in the community.  CTX-M-15-positive [[Escherichia coli|E. coli]] are a cause of community-acquired [[cystitis|urinary infections]] in the UK,<ref name = "Woodford_2006"/> and tend to be resistant to all oral β-lactam antibiotics, as well as [[quinolones]] and [[sulfonamide (medicine)|sulfonamide]]s.  Treatment options may include [[nitrofurantoin]], [[fosfomycin]], [[mecillinam]] and [[chloramphenicol]].  In desperation, once-daily [[ertapenem]] or [[gentamicin]] injections may also be used.
+
+=== Inhibitor-resistant β-lactamases ===
+Although the inhibitor-resistant β-lactamases are not ESBLs, they are often discussed with ESBLs because they are also derivatives of the classical TEM- or SHV-type enzymes. These enzymes were at first given the designation IRT for inhibitor-resistant TEM β-lactamase; however, all have subsequently been renamed with numerical TEM designations. There are at least 19 distinct inhibitor-resistant TEM β-lactamases. Inhibitor-resistant TEM β-lactamases have been found mainly in clinical isolates of ''[[Escherichia coli|E. coli]]'', but also some strains of ''[[K. pneumoniae]]'', ''[[Klebsiella oxytoca]]'', ''[[Proteus mirabilis|P. mirabilis]]'', and ''[[Citrobacter freundii]]''. Although the inhibitor-resistant TEM variants are resistant to inhibition by [[clavulanic acid]] and [[sulbactam]], thereby showing clinical resistance to the beta-lactam—lactamase inhibitor combinations of [[amoxicillin]]-[[clavulanate]] ([[co-amoxiclav]]), [[ticarcillin]]-[[clavulanate]] ([[co-ticarclav]]), and [[ampicillin/sulbactam]], they normally remain susceptible to inhibition by [[tazobactam]] and subsequently the combination of [[piperacillin/tazobactam]], although resistance has been described. This is no longer a primarily European epidemiology, it is found in northern parts of America often and should be tested for with complex UTI's.<ref name="pmid11585791"/>
+
+===AmpC-type β-lactamases (Class C)===
+AmpC type β-lactamases are commonly isolated from extended-spectrum cephalosporin-resistant Gram-negative bacteria. AmpC β-lactamases (also termed class C or group 1) are typically encoded on the chromosome of many Gram-negative bacteria including ''[[Citrobacter]]'', ''[[Serratia]]'' and ''[[Enterobacter]]'' species where its expression is usually inducible; it may also occur on ''[[Escherichia coli]]'' but is not usually inducible, although it can be hyperexpressed.  AmpC type β-lactamases may also be carried on plasmids.<ref name="pmid11751104"/> AmpC β-lactamases, in contrast to ESBLs, hydrolyse broad and extended-spectrum cephalosporins (cephamycins as well as to oxyimino-β-lactams) but are not inhibited by β-lactamase inhibitors such as [[clavulanic acid]].
+
+===Carbapenemases===
+Carbapenems are famously stable to AmpC β-lactamases and extended-spectrum-β-lactamases. Carbapenemases are a diverse group of β-lactamases that are active not only against the oxyimino-cephalosporins and cephamycins but also against the carbapenems. Aztreonam is stable to the metallo-β-lactamases,
+but many IMP and VIM producers are resistant, owing to other mechanisms.   Carbapenemases were formerly believed to derive only from classes A, B, and D, but a class C carbapenemase has been described.
+
+====IMP-type carbapenemases (metallo-β-lactamases) (Class B)====
+Plasmid-mediated IMP-type carbapenemases, 17 varieties of which are currently known, became established in Japan in the 1990s both in enteric Gram-negative organisms and in ''[[Pseudomonas]]'' and ''[[Acinetobacter]]'' species. IMP enzymes spread slowly to other countries in the Far East, were reported from Europe in 1997, and have been found in Canada and Brazil.
+
+====VIM (Verona integron-encoded metallo-β-lactamase) (Class B)====
+A second growing family of carbapenemases, the VIM family, was reported from Italy in 1999 and now includes 10 members, which have a wide geographic distribution in Europe, South America, and the Far East and have been found in the United States. VIM-1 was discovered in ''P. aeruginosa'' in Italy in 1996; since then, VIM-2 - now the predominant variant - was found repeatedly in Europe and the Far East; VIM-3 and -4 are minor variants of VIM-2 and -1, respectively. VIM enzymes occur mostly in ''P. aeruginosa'', also ''P. putida'' and, very rarely, Enterobacteriaceae.
+
+Amino acid sequence diversity is up to 10% in the VIM family, 15% in the IMP family, and 70% between VIM and IMP. Enzymes of both the families, nevertheless, are similar. Both are integron-associated, sometimes within plasmids. Both hydrolyse all β-lactams except monobactams, and evade all β-lactam inhibitors.
+
+==== OXA (oxacillinase) group of β-lactamases (Class D) ====
+The OXA group of β-lactamases occur mainly in Acinetobacter species and are divided into two clusters. OXA carbapenemases hydrolyse carbapenems very slowly ''in vitro'', and the high MICs seen for some Acinetobacter hosts (>64&nbsp;mg/L) may reflect secondary mechanisms. They are sometimes augmented in clinical isolates by additional resistance mechanisms, such as impermeability or efflux.  OXA carbapenemases also tend to have a reduced hydrolytic efficiency towards penicillins and cephalosporins.<ref name="pmid17374723">{{cite journal | author = Santillana E, Beceiro A, Bou G, Romero A | title = Crystal structure of the carbapenemase OXA-24 reveals insights into the mechanism of carbapenem hydrolysis | journal = Proc. Natl. Acad. Sci. U.S.A. | volume = 104 | issue = 13 | pages = 5354–9 | year = 2007 | month = March | pmid = 17374723 | pmc = 1838445 | doi = 10.1073/pnas.0607557104 }}</ref>
+
+====KPC (''K. pneumoniae'' carbapenemase) (Class A)====
+A few class A enzymes, most noted the plasmid-mediated KPC enzymes, are effective carbapenemases as well. Ten variants, KPC-2 through KPC-11 are known, and they are distinguished by one or two [[amino acid]] substitutions (KPC-1 was re-sequenced in 2008 and found to be 100% homologous to published sequences of KPC-2). KPC-1 was found in North Carolina, KPC-2 in Baltimore and KPC-3 in New York. They have only 45% homology with SME and NMC/IMI enzymes and, unlike them, can be encoded by self-transmissible plasmids.
+
+The class A ''[[Klebsiella pneumoniae]]'' carbapenemase ([[Klebsiella_pneumoniae#Resistant_strains|KPC]]) is currently the most common carbapenemase, which was first detected in [[North Carolina]], US, in 1996 and has since spread worldwide.<ref name="pmid19324295">{{cite journal | author = Nordmann P, Cuzon G, Naas T | title = The real threat of Klebsiella pneumoniae carbapenemase-producing bacteria | journal = Lancet Infect Dis | volume = 9 | issue = 4 | pages = 228–36 | year = 2009 | month = April | pmid = 19324295 | doi = 10.1016/S1473-3099(09)70054-4  }}</ref> A later publication indicated that Enterobacteriaceae that produce KPC were becoming common in the United States.<ref name="pmid19854586">{{cite journal | author = Cuzon G, Naas T, Nordmann P | title = [KPC carbapenemases: what is at stake in clinical microbiology?] | language = French | journal = Pathol. Biol. | volume = 58 | issue = 1 | pages = 39–45 | year = 2010 | month = February | pmid = 19854586 | doi = 10.1016/j.patbio.2009.07.026 }}</ref>
+
+====CMY (Class C)====
+The first class C carbapenemase was described in 2006 and was isolated from a virulent strain of ''Enterobacter aerogenes''.<ref name="pmid16677302">{{cite journal | author = Kim JY, Jung HI, An YJ, Lee JH, Kim SJ, Jeong SH, Lee KJ, Suh PG, Lee HS, Lee SH, Cha SS | title = Structural basis for the extended substrate spectrum of CMY-10, a plasmid-encoded class C beta-lactamase | journal = Mol. Microbiol. | volume = 60 | issue = 4 | pages = 907–16 | year = 2006 | month = May | pmid = 16677302 | doi = 10.1111/j.1365-2958.2006.05146.x }}</ref>  It is carried on a plasmid, pYMG-1, and is therefore transmissible to other bacterial strains.<ref name="pmid15383166">{{cite journal | author = Lee JH, Jung HI, Jung JH, Park JS, Ahn JB, Jeong SH, Jeong BC, Lee JH, Lee SH | title = Dissemination of transferable AmpC-type beta-lactamase (CMY-10) in a Korean hospital | journal = Microb. Drug Resist. | volume = 10 | issue = 3 | pages = 224–30 | year = 2004 | pmid = 15383166 | doi = 10.1089/mdr.2004.10.224 }}</ref>
+
+====SME, IMI, NMC and CcrA ====
+In general, these are of little clinical significance.
+
+CcrA (CfiA). Its gene occurs in c. 1-3% of B. fragilis isolates, but fewer produce the enzyme since expression demands appropriate migration of an insertion sequence. CcrA was known before imipenem was introduced, and producers have shown little subsequent increase.
+
+====NDM-1 (New Delhi metallo-β-lactamase) (Class B)====
+{{Main|New Delhi metallo-beta-lactamase}}
+Originally described from [[New Delhi]] in 2009, this gene is now widespread in ''[[Escherichia coli]]'' and ''[[Klebsiella pneumoniae]]'' from [[India]] and [[Pakistan]]. As of mid-2010, NDM-1 carrying bacteria have been introduced to other countries (including the [[United States]] and [[UK]]), most probably due to the large number of tourists travelling the globe, who may have picked up the strain from the environment, as strains containing the NDM-1 gene have been found in environmental samples in India.<ref name="pmid21478057">{{cite journal | author = Walsh TR, Weeks J, Livermore DM, Toleman MA | title = Dissemination of NDM-1 positive bacteria in the New Delhi environment and its implications for human health: an environmental point prevalence study | journal = Lancet Infect Dis | volume = 11 | issue = 5 | pages = 355–62 | year = 2011 | month = May | pmid = 21478057 | doi = 10.1016/S1473-3099(11)70059-7 }}</ref>
+
+==Treatment of ESBL/AmpC/carbapenemases==
+
+===General overview===
+
+In general, an isolate is suspected to be an ESBL producer when it shows ''in vitro'' susceptibility to the second-generation [[cephalosporin]]s ([[cefoxitin]], [[cefotetan]]) but resistance to the third-generation cephalosporins and to [[aztreonam]]. Moreover, one should suspect these strains when treatment with these agents for Gram-negative infections fails despite reported ''in vitro'' susceptibility. Once an ESBL-producing strain is detected, the laboratory should report it as "resistant" to all penicillins, cephalosporins, and aztreonam, even if it is tested (in vitro) as susceptible.{{Citation needed|date=August 2010}} Associated resistance to [[aminoglycosides]] and [[trimethoprim]]-[[sulfamethoxazole]], as well as high frequency of co-existence of [[fluoroquinolone]] resistance, creates problems. Beta-lactamase inhibitors such as [[clavulanate]], [[sulbactam]], and [[tazobactam]] ''in vitro'' inhibit most ESBLs, but the clinical effectiveness of beta-lactam/beta-lactamase inhibitor combinations cannot be relied on consistently for therapy. [[Cephamycins]] ([[cefoxitin]] and [[cefotetan]]) are not hydrolyzed by majority of ESBLs, but are hydrolyzed by associated AmpC-type β-lactamase.  Also, β-lactam/β-lactamase inhibitor combinations may not be effective against organisms that produce AmpC-type β-lactamase.  Sometimes these strains decrease the expression of outer membrane proteins, rendering them resistant to cephamycins. ''In vivo'' studies have yielded mixed results against ESBL-producing ''[[K. pneumoniae]]''. ([[Cefepime]], a fourth-generation cephalosporin, has demonstrated ''in vitro'' stability in the presence of many ESBL/AmpC strains.) Currently, [[carbapenems]] are, in general, regarded as the preferred agent for treatment of infections due to ESBL-producing organisms. Carbapenems are resistant to ESBL-mediated hydrolysis and exhibit excellent ''in vitro'' activity against strains of [[Enterobacteriaceae]] expressing ESBLs.{{Citation needed|date=August 2010}}
+
+=== According to genes ===
+
+====ESBLs====
+
+Strains producing only ESBLs are susceptible to [[cephamycins]] and [[carbapenems]] ''in vitro'' and show little if any [[inoculum effect]] with these agents.
+
+For organisms producing '''TEM''' and '''SHV''' type ESBLs, apparent ''in vitro'' sensitivity to [[cefepime]] and to [[piperacillin/tazobactam]] is common, but both drugs show an inoculum effect, with diminished susceptibility as the size of the inoculum is increased from 10<sup>5</sup>to 10<sup>7</sup>organisms.
+
+Strains with some '''CTX-M'''–type and '''OXA'''-type ESBLs are resistant to [[cefepime]] on testing, despite the use of a standard inoculum.
+
+====Inhibitor-Resistant β-Lactamases====
+
+Although the inhibitor-resistant TEM variants are resistant to inhibition by [[clavulanic acid]] and [[sulbactam]], thereby showing clinical resistance to the beta-lactam—lactamase inhibitor combinations of [[amoxicillin]]-[[clavulanate]] ([[Co-amoxiclav]]), [[ticarcillin]]-[[clavulanate]], and [[ampicillin/sulbactam]], they remain susceptible to inhibition by [[tazobactam]] and subsequently the combination of [[piperacillin/tazobactam]].
+
+====AmpC====
+
+AmpC-producing strains are typically resistant to [[oxyimino-beta lactams]] and to [[cephamycins]] and are susceptible to [[carbapenems]]; however, diminished porin expression can make such a strain carbapenem-resistant as well.
+
+====Carbapenemases====
+
+Strains with '''IMP-, VIM-, and OXA'''-type carbapenemases usually remain susceptible. Resistance to non–b-lactam antibiotics is common in strains making any of these enzymes, such that alternative options for non–b-lactam therapy need to be determined by direct susceptibility testing. Resistance to [[fluoroquinolones]] and [[aminoglycosides]] is especially high.
+
+===According to species===
+
+====''Escherichia coli'' or ''Klebsiella''====
+
+For infections caused by ESBL-producing ''[[Escherichia coli]]'' or ''[[Klebsiella]]'' species, treatment with [[imipenem]] or [[meropenem]] has been associated with the best outcomes in terms of survival and bacteriologic clearance. [[Cefepime]] and [[piperacillin/tazobactam]] have been less successful. [[Ceftriaxone]], [[cefotaxime]], and [[ceftazidime]] have failed even more often, despite the organism's susceptibility to the antibiotic ''in vitro''. Several reports have documented failure of [[cephamycin]] therapy as a result of resistance due to porin loss. Some patients have responded to [[aminoglycoside]] or [[quinolone]] therapy, but, in a recent comparison of [[ciprofloxacin]] and [[imipenem]] for bacteremia involving an ESBL-producing ''[[K. pneumoniae]]'', [[imipenem]] produced the better outcome
+
+====''Pseudomonas aeruginosa''====
+
+There have been few clinical studies to define the optimal therapy for infections caused by ESBL producing ''[[Pseudomonas aeruginosa]]'' strains.
+
+== Detection ==
+
+Beta-lactamase enzymatic activity can be detected using [[nitrocefin]], a chromogenic [[cephalosporin]] substrate which changes color from yellow to red upon beta-lactamase mediated hydrolysis.<ref name="pmid4208895">{{cite journal | author = O'Callaghan CH, Morris A, Kirby SM, Shingler AH | title = Novel method for detection of beta-lactamases by using a chromogenic cephalosporin substrate | journal = Antimicrob. Agents Chemother. | volume = 1 | issue = 4 | pages = 283–8 | year = 1972 | month = April | pmid = 4208895 | pmc = 444209 | doi =10.1128/AAC.1.4.283 }}</ref>
+
+==Evolution==
+
+Betalactamases are ancient bacterial enzymes. The class B betalactamases (the metallo-beta-lactamases) are divided into three subclasses: B1, B2 and B3. Subclass B1+B2 evolved about {{Ma|1000}}) ago and subclass B3 evolved before the divergence of the Gram positive and Gram negative eubacteria about {{Ma|2000}}.<ref name=Hall2004>{{cite journal | author = Hall BG, Salipante SJ, Barlow M | title = Independent origins of subgroup Bl + B2 and subgroup B3 metallo-beta-lactamases | journal = J. Mol. Evol. | volume = 59 | issue = 1 | pages = 133–41 | year = 2004 | month = July | pmid = 15383916 | doi = 10.1007/s00239-003-2572-9 | url = }}</ref>
+
+The other three groups are serine enzymes that show little homology to each other. Structural studies have shown that group A and D are sister taxa and that group C diverged before A and D.<ref name=Hall2003>{{cite journal | author = Hall BG, Barlow M | title = Structure-based phylogenies of the serine beta-lactamases | journal = J. Mol. Evol. | volume = 57 | issue = 3 | pages = 255–60 | year = 2003 | month = September | pmid = 14629035 | doi = 10.1007/s00239-003-2473-y }}</ref> These serine based enzymes like the group B betalactamases are of ancient origin having evolved about {{Ma|2000}}.<ref name="pmid15158767">{{cite journal | author = Hall BG, Barlow M | title = Evolution of the serine beta-lactamases: past, present and future | journal = Drug Resist. Updat. | volume = 7 | issue = 2 | pages = 111–23 | year = 2004 | month = April | pmid = 15158767 | doi = 10.1016/j.drup.2004.02.003 }}</ref>
+
+The OXA group (in class D) in particular evolved on chromosomes and moved to plasmids on at least two separate occasions.<ref name=Barlow2002>{{cite journal | author = Barlow M, Hall BG | title = Phylogenetic analysis shows that the OXA beta-lactamase genes have been on plasmids for millions of years | journal = J. Mol. Evol. | volume = 55 | issue = 3 | pages = 314–21 | year = 2002 | month = September | pmid = 12187384 | doi = 10.1007/s00239-002-2328-y | url = }}</ref>
+
+==See also==
+* [[Escherichia coli#Beta-lactamase strains|ESBL-producing ''E. coli'']]
+* [[Beta-lactamase inhibitor]]
+* [[Nitrocefin]]
+
+==References==
+{{Reflist|2}}
+
+==External links==
+* [http://www.informatik.uni-kiel.de/egt  Online ESBL genotyping tool (EGT)]
+* [http://www.lahey.org/Studies/  Online Amino Acid Sequences for ESBL enzymes]
+* {{MeshName|beta-Lactamases}}
+
+{{Carbon-nitrogen non-peptide hydrolases}}
+
+{{Use dmy dates|date=October 2011}}
+
+{{DEFAULTSORT:Beta-Lactamase}}
+[[Category:EC 3.5.2]]
+[[Category:Beta-lactam antibiotics]]

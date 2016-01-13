@@ -1,0 +1,10 @@
+{{unreferenced|date=June 2009|bot=yes}}
+[[Image:Commodore 1570 01.JPG|right|300px]]
+The '''Commodore 1570''' was a 5¼" [[floppy disk]] drive for the [[Commodore 128]] [[home computer|home]]/[[personal computer]]. It was a single-sided, 170KB version of the double-sided [[Commodore 1571]], released as a [[stopgap]] measure when [[Commodore International]] was unable to provide large enough quantities of 1571s due to a shortage of double-sided drive mechanisms.  Like the 1571, it could read and write both [[Group Code Recording|GCR]] and [[Modified Frequency Modulation|MFM]] disk formats.
+The 1570 utilized a 1571 logic board in a cream-colored [[Commodore 1541]] case with a drive mechanism similar to the 1541 except that it was equipped with track zero detection. Like the 1571, its built-in DOS provided a data burst mode for transferring data to the C128 computer at a faster speed than a 1541. Its [[Read-only memory|ROM]] also contained some DOS bug fixes that didn't appear in the 1571 until much later.  The 1570 could read and write all single-sided [[CP/M operating system|CP/M]] format disks that the 1571 could access.
+
+Although the 1570 was compatible with the [[Commodore 64]], the C64 wasn't capable of taking advantage of the drive's higher-speed operation, and when used with the C64 it was little more than a pricier 1541.  Also, many early buyers of the C128 chose to temporarily make do with a 1541 drive, perhaps owned as part of a previous C64 setup, until the 1571 became more widely available.
+
+{{Commodore floppy drives}}
+
+[[Category:Commodore 64]]

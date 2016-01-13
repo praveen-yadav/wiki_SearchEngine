@@ -1,0 +1,486 @@
+[[File:65Cyb-LB3-apmag.jpg|thumb|350px|right|Asteroid [[65 Cybele]] and two stars, with their magnitudes labeled]]
+
+The '''apparent magnitude''' ('''''m''''') of a celestial body is a measure of its [[brightness]] as seen by an observer on [[Earth]], adjusted to the value it would have in the absence of the [[Earth's atmosphere|atmosphere]]. The brighter the object appears, the lower the value of its [[Magnitude (astronomy)|magnitude]]. Generally the [[visible spectrum]] (vmag) is used as a basis for the apparent magnitude, but other regions of the spectrum, such as the [[near-infrared]] [[J-band]], are also used. In the visible spectrum [[Sirius]] is the brightest star in the night sky, whereas in the near-infrared J-band, [[Betelgeuse]] is the brightest.
+
+== History ==
+{{for|a more detailed discussion of the history of the magnitude system|Magnitude (astronomy)}}
+<div style="clear:both;"/>
+{|class="wikitable" style="float: right; margin-left: 1em; text-align: center;"
+!Visible to<br>typical<br>human eye<ref name="SIMBAD-mag6.5"/>
+!Apparent<br>magnitude
+!Brightness<br>relative<br>to [[Vega]]
+!Number of stars <br>brighter than<br>apparent magnitude<ref>{{cite web | url = http://www.nso.edu/PR/answerbook/magnitude.html | archiveurl = http://replay.waybackmachine.org/20080206074842/http://www.nso.edu/PR/answerbook/magnitude.html | archivedate = 2008-02-06 | title = Magnitude | publisher = National Solar Observatory&mdash;Sacramento Peak | accessdate = 2006-08-23}}</ref>
+|-
+|rowspan="9"|Yes||&minus;1.0||250%||[[Sirius|1]]
+|-
+|0.0||100%||4
+|-
+|1.0||40%||15
+|-
+|2.0||16%||48
+|-
+|3.0||6.3%||171
+|-
+|4.0||2.5%||513
+|-
+|5.0||1.0%||1&nbsp;602
+|-
+|6.0||0.40%||4&nbsp;800
+|-
+|6.5||0.25%||9&nbsp;096<ref>[[Bright Star Catalogue]]</ref>
+|-
+| rowspan="4" |No||7.0||0.16%||14&nbsp;000
+|-
+|8.0||0.063%||42&nbsp;000
+|-
+|9.0||0.025%||121&nbsp;000
+|-
+|10.0||0.010%||340&nbsp;000
+|}
+
+The scale now used to indicate magnitude originates in the [[Hellenistic Greece|Hellenistic]] practice of dividing stars visible to the naked eye into six ''magnitudes''. The [[List of brightest stars|brightest stars]] in the night sky were said to be of first magnitude (''m'' = 1), whereas the faintest were of sixth magnitude (''m'' = 6), the limit of [[human]] [[visual perception]] (without the aid of a [[telescope]]). Each grade of magnitude was considered twice the brightness of the following grade (a [[logarithmic scale]]). This somewhat crude method of indicating the brightness of stars was popularized by [[Ptolemy]] in his ''[[Almagest]]'', and is generally believed to originate with [[Hipparchus]]. This original system did not measure the magnitude of the [[Sun]]. 
+
+In 1856, [[Norman Robert Pogson]] formalized the system by defining a typical first magnitude star as a star that is 100 times as bright as a typical sixth magnitude star; thus, a first magnitude star is about 2.512 times as bright as a second magnitude star. The [[Generalized continued fraction#Example 2|fifth root of 100]] is known as ''Pogson's Ratio''.<ref>[http://articles.adsabs.harvard.edu//full/seri/MNRAS/0017//0000012.000.html Magnitudes of Thirty-six of the Minor Planets for the first day of each month of the year 1857], [[Norman Robert Pogson|N. Pogson]], [[Monthly Notices of the Royal Astronomical Society|MNRAS]] Vol. 17, p. 12 (1856)</ref> Pogson's scale was originally fixed by assigning [[Polaris]] a magnitude of 2. Astronomers later discovered that Polaris is slightly variable, so they first switched to [[Vega]] as the standard reference star, and then switched to using tabulated zero points{{Clarify|date=March 2009}} for the measured fluxes.<ref>[http://ukads.nottingham.ac.uk/cgi-bin/nph-bib_query?bibcode=1982lbor.book.....A&amp;db_key=AST Landolt-Börnstein: Numerical Data and Functional Relationships in Science and Technology - New Series " Gruppe/Group 6 Astronomy and Astrophysics " Volume 2 Schaifers/Voigt: Astronomy and Astrophysics / Astronomie und Astrophysik " Stars and Star Clusters / Sterne und Sternhaufen] [[Lawrence H. Aller|L. H. Aller]] ''et al.'', ISBN 3-540-10976-5 (1982)</ref> The magnitude depends on the wavelength band (see below).
+
+The modern system is no longer limited to 6 magnitudes or only to visible light. Very bright objects have ''negative'' magnitudes. For example, [[Sirius]], the brightest star of the [[celestial sphere]], has an apparent magnitude of –1.4. The modern scale includes the [[Moon]] and the [[Sun]]. The full Moon has a mean apparent magnitude of –12.74<ref name="moon-fact"/> and the Sun has an apparent magnitude of –26.74.<ref name="sun-fact"/> The [[Hubble Space Telescope]] has located stars with magnitudes of 30 at visible wavelengths and the [[Keck telescopes]] have located similarly faint stars in the infrared.
+
+== Calculations ==
+[[File:VISTA Magellanic Cloud Survey view of the Tarantula Nebula.jpg|thumb|[[30 Doradus]] image taken by [[ESO]]'s [[VISTA (telescope)|VISTA]]. This [[nebula]] has an apparent magnitude of 8.]]
+
+As the amount of light received actually depends on the thickness of the Earth's atmosphere in the line of sight to the object, the apparent magnitudes are adjusted to the value they would have in the absence of the atmosphere. The dimmer an object appears, the higher the numerical value given to its apparent magnitude. Note that brightness varies with distance; an extremely bright object may appear quite dim, if it is far away. Brightness varies [[inverse-square law|inversely with the square]] of the distance. The [[absolute magnitude]], ''M'', of a celestial body (outside the Solar System) is the apparent magnitude it would have if it were at 10 [[parsec]]s (~32.6 [[light years]]); that of a planet (or other Solar System body) is the apparent magnitude it would have if it were 1 [[astronomical unit]] from both the [[Sun]] and [[Earth]]. The absolute magnitude of the Sun is 4.83 in the V band (yellow) and 5.48 in the B band (blue).<ref name="Bband">{{cite web
+ |title=Some Useful Astronomical Definitions
+ |publisher=Stony Brook Astronomy Program
+ |author=Prof. Aaron Evans
+ |url=http://www.astro.sunysb.edu/aevans/PHY523/classnotes523/useful-definitions-pp.pdf
+ |accessdate=2009-07-12}}</ref>
+
+The apparent magnitude, ''m'', in the band, ''x'', can be defined as,
+
+:<math>m_{x} - m_{x,0}= -2.5 \log_{10} \left(\frac {F_x}{F_{x,0} }\right)\,</math>,
+
+where <math>F_x\!\,</math> is the observed [[flux]] in the band x, and <math>m_{x,0}</math> and <math>F_{x,0}</math> are a reference magnitude, and reference flux in the same band x, such as that of Vega.  An increase of 1 in the magnitude scale corresponds to a decrease in brightness by a factor of <math> \approx 2.512 </math>.  Based on the properties of logarithms, a difference in magnitudes, <math>m_1 - m_2 = \Delta m</math>, can be converted to a variation in brightness as <math> F_2/F_1 \approx 2.512^{\Delta m} </math>.
+
+=== Example: Sun and Moon ===
+''What is the ratio in brightness between the Sun and the full moon?''
+
+The apparent magnitude of the Sun is -26.74 (brighter), and the mean apparent magnitude of the full moon is -12.74 (dimmer).
+
+'''Difference in magnitude''' : <math> x = m_1 - m_2 = (-12.74) - (-26.74) = 14.00 </math>
+
+'''Variation in Brightness''' : <math> v_b = 2.512^x = 2.512^{14.00} \approx 400,000 </math>
+
+The Sun appears about 400,000 times brighter than the full moon.
+
+===Magnitude Addition===
+
+Sometimes, it might be useful to add magnitudes, for example, to determine the combined magnitude of a double star when the magnitude of the individual components are known. This can be done by setting an equation using the brightness (in linear units) of each magnitude.<ref>{{cite web|title=Magnitude Arithmetic|url=http://www.caglow.com/info/wtopic/mag-arith|work=Weekly Topic|publisher=Caglow|accessdate=30 January 2012}}</ref>
+
+<math> 2.512^{-m_f} = 2.512^{-m_1} + 2.512^{-m_2} \!\ </math>
+
+Solving for <math>m_f</math> yields
+
+<math> m_f = -log_{2.512} \left(2.512^{-m_1} + 2.512^{-m_2} \right) \!\ </math>
+
+where <math>m_f</math> is the resulting magnitude after adding <math>m_1</math> and <math>m_2</math>. Note that the negative of each magnitude is used because greater intensities equate to lower magnitudes.
+
+== Standard reference values ==
+{| class="wikitable" style="text-align:center;"
+|+ Standard Apparent Magnitudes and Fluxes for Typical Bands<ref name="UTmags">{{cite web
+ |title=Astronomical Magnitude Systems
+ |publisher=Department of Physics and Astronomy, University of Toronto
+ |author=Prof. Gregory D. Wirth 
+ |url=http://www.astro.utoronto.ca/~patton/astro/mags.html
+ |accessdate=2012-08-15}}</ref>
+|-
+! Band
+!<math>\lambda </math> (<math>\mu m</math>)
+!<math>\Delta \lambda / \lambda</math>{{clarify|date=March 2013}}
+! Flux at ''m'' = 0, <math>F_{x,0}</math> ([[Jansky|Jy]])
+! Flux at ''m'' = 0, <math>F_{x,0}</math> <math>(10^{-20} \text{ erg/s/cm}^2\text{/Hz})</math>
+|-
+| U || 0.36 || 0.15 || 1810 || 1.81
+|-
+| B || 0.44 || 0.22 || 4260 || 4.26
+|-
+| V || 0.55 || 0.16 || 3640 || 3.64
+|-
+| R || 0.64 || 0.23 || 3080 || 3.08
+|-
+| I  || 0.79 || 0.19 || 2550 || 2.55
+|-
+| J  || 1.26 || 0.16 || 1600 || 1.6
+|-
+| H || 1.60 || 0.23 || 1080 || 1.08
+|-
+| K || 2.22 || 0.23 || 670 || 6.7
+|-
+|-
+| g || 0.52 || 0.14 || 3730 || 3.73
+|-
+| r  || 0.67 || 0.14 || 4490 || 4.49
+|-
+| i  || 0.79 || 0.16 || 4760 || 4.76
+|-
+| z || 0.91 || 0.13 || 4810 || 4.81
+|-
+|}
+
+It is important to note that the scale is [[logarithm]]ic: the relative brightness of two objects is determined by the difference of their magnitudes. For example, a difference of 3.2 means that one object is about 19 times as bright as the other, because [[Apparent_magnitude#History|Pogson's Ratio]] raised to the power 3.2 is approximately 19.05.
+A common misconception is that the logarithmic nature of the scale is because the [[human eye]] itself has a logarithmic response. In Pogson's time this was thought to be true (see [[Weber-Fechner law]]), but it is now believed that the response is a [[power law]] (see [[Stevens' power law]]).<ref>{{cite journal|title=Misconceptions About Astronomical Magnitudes|authorlink=Eric Schulman|author=E. Schulman and C. V. Cox|journal=American Journal of Physics|volume=65|page=1003|year=1997|bibcode = 1997AmJPh..65.1003S |doi = 10.1119/1.18714 }}</ref>
+
+Magnitude is complicated by the fact that light is not [[monochromatic]]. The sensitivity of a light detector varies according to the wavelength of the light, and the way it varies depends on the type of light detector. For this reason, it is necessary to specify how the magnitude is measured for the value to be meaningful. For this purpose the [[UBV system]] is widely used, in which the magnitude is measured in three different wavelength bands: U (centred at about 350&nbsp;nm, in the near [[ultraviolet]]), B (about 435&nbsp;nm, in the blue region) and V (about 555&nbsp;nm, in the middle of the human visual range in daylight). The V band was chosen for spectral purposes and gives magnitudes closely corresponding to those seen by the light-adapted human eye, and when an apparent magnitude is given without any further qualification, it is usually the V magnitude that is meant, more or less the same as '''visual magnitude'''.
+
+Because cooler stars, such as [[red giant]]s and [[red dwarf]]s, emit little energy in the blue and UV regions of the spectrum their power is often under-represented by the UBV scale. Indeed, some [[stellar classification|L and T class]] stars have an estimated magnitude of well over 100, because they emit extremely little visible light, but are strongest in [[infrared]].
+
+Measures of magnitude need cautious treatment and it is extremely important to measure like with like. On early 20th century and older orthochromatic (blue-sensitive) [[photographic film]], the relative brightnesses of the blue [[supergiant]] [[Rigel]] and the red supergiant [[Betelgeuse]] irregular variable star (at maximum) are reversed compared to what human eyes perceive, because this archaic film is more sensitive to blue light than it is to red light. Magnitudes obtained from this method are known as [[photographic magnitude]]s, and are now considered obsolete.
+
+For objects within our Galaxy with a given [[absolute magnitude]], 5 is added to the apparent magnitude for every tenfold increase in the distance to the object. This relationship does not apply for objects at very great distances (far beyond our galaxy), because a correction for [[general relativity]] must then be taken into account due to the non-Euclidean nature of space.
+
+For planets and other Solar System bodies the apparent magnitude is derived from its [[Phase curve (astronomy)|phase curve]] and the distances to the Sun and observer.
+{{clear}}
+
+==Table of notable celestial objects==
+{| class="wikitable"
+|+'''Apparent visual magnitudes of known celestial objects'''
+|-
+! App. Mag. (V)
+! Celestial object
+|-
+| –38.00 || [[Rigel]] as seen from 1 [[astronomical unit]]. It would be seen as a large very bright bluish scorching ball of 35° apparent diameter.
+|-
+| –30.30 || [[Sirius]] as seen from 1 astronomical unit
+|-
+| –29.30 || [[Sun]] as seen from [[Mercury (planet)|Mercury]] at [[perihelion]]
+|-
+| –27.40 || Sun as seen from [[Venus]] at perihelion
+|-
+| –26.74<ref name="sun-fact"/> || Sun as seen from Earth (about 400,000 times brighter than mean full moon)
+|-
+| –25.60 || Sun as seen from [[Mars]] at [[aphelion]]
+|-
+| –23.00 || Sun as seen from [[Jupiter]] at aphelion
+|-
+| –21.70 || Sun as seen from [[Saturn]] at aphelion
+|-
+| –20.20 || Sun as seen from [[Uranus]] at aphelion
+|-
+| –19.30 || Sun as seen from [[Neptune]]
+|-
+| –18.20 || Sun as seen from [[Pluto]] at aphelion
+|-
+| –16.70 || Sun as seen from [[Eris (dwarf planet)|Eris]] at aphelion
+|-
+| –14 || An illumination level of one [[lux]] <ref name =IM08>Ian S. McLean, ''Electronic imaging in astronomy: detectors and instrumentation'' Springer, 2008, ISBN 3-540-76582-4 page 529</ref>
+|-
+| –12.92 || Maximum brightness of full [[Moon]] (mean is –12.74)<ref name="moon-fact"/>
+|-
+| –11.20 || Sun as seen from [[90377 Sedna|Sedna]] at aphelion
+|-
+| –10 || [[Comet Ikeya–Seki]] (1965), which was the brightest [[Kreutz Sungrazer]] of modern times<ref name="brightest">{{cite web |url=http://www.icq.eps.harvard.edu/brightest.html |title=Brightest comets seen since 1935 |publisher=International Comet Quarterly |accessdate=18 December 2011}}</ref>
+|-
+| –9.50 || Maximum brightness of an [[Iridium flare|Iridium (satellite) flare]]
+|-
+| –7.50 || The [[SN 1006]] supernova of AD 1006, the brightest stellar event in recorded history (7200 light years away)<ref name="SN1006"/>
+|-
+| –6.50 || The total [[integrated magnitude]] of the [[night sky]] as seen from [[Earth]]
+|-
+| –6.00 || The Crab Supernova ([[SN 1054]]) of AD 1054 (6500 light years away)<ref name=SN1054/>
+|-
+| –5.9  || [[International Space Station]] (when the ISS is at its [[perigee]] and fully lit by the Sun)<ref>{{cite web
+| url = http://www.heavens-above.com/satinfo.aspx?SatID=25544
+| title = ISS Information - Heavens-above.com
+| publisher = Heavens-above
+| accessdate = 2007-12-22}}</ref>
+|-
+| –4.89
+| Maximum brightness of [[Venus]]<ref name="Horizons-Venus"/> when illuminated as a crescent
+|-
+| –4.00
+| Faintest objects observable during the day with naked eye when Sun is high
+|-
+| –3.99
+| Maximum brightness of [[Epsilon Canis Majoris]] 4.7 million years ago, the historical [[List of brightest stars|brightest star]] of the [[Historical brightest stars|last and next five million years]]
+|-
+| –3.82
+| Minimum brightness of [[Venus]] when it is on the far side of the Sun
+|-
+| –2.94
+| Maximum brightness of [[Jupiter]]<ref name="jupiter"/>
+|-
+| –2.91
+| Maximum brightness of [[Mars]]<ref name="mars"/>
+|-
+| –2.50
+| Faintest objects visible during the day with naked eye when Sun is less than 10° above the horizon
+|-
+| –2.50
+| Minimum brightness of new [[Moon]] 
+|-
+| –2.45
+| Maximum brightness of [[Mercury (planet)|Mercury]] at [[superior conjunction]] (unlike Venus, Mercury is at its brightest when on the far side of the Sun, the reason being their different [[phase curve (astronomy)|phase curve]]s)
+|-
+| –1.61
+| Minimum brightness of [[Jupiter]]
+|-
+| –1.47 || Brightest star (except for the Sun) at visible wavelengths: [[Sirius]]<ref name="SIMBAD-Sirius"/>
+|-
+| –0.83 || [[Eta Carinae]] apparent brightness as a [[supernova impostor]] in April 1843
+|-
+| –0.72 || Second-brightest star: [[Canopus (star)|Canopus]]<ref name="SIMBAD-Canopus"/>
+|-
+| –0.49
+| Maximum brightness of [[Saturn]] at opposition and when the rings are full open (2003, 2018)
+|-
+| –0.27
+| The total magnitude for the [[Alpha Centauri|Alpha Centauri AB]] star system. (Third-brightest star to the naked eye)
+|-
+| –0.04 || Fourth-brightest star to the naked eye [[Arcturus (star)|Arcturus]]<ref name="SIMBAD-Arcturus"/>
+|-
+| −0.01 || Fourth-brightest ''individual'' star visible telescopically in the sky [[Alpha Centauri|Alpha Centauri A]]
+|-
+| +0.03
+| [[Vega]], which was originally chosen as a definition of the zero point<ref name="SIMBAD-Vega"/>
+|-
+| +0.50 || [[Sun]] as seen from [[Alpha Centauri]]
+|-
+| 1.47
+| Minimum brightness of [[Saturn]]
+|-
+| 1.84
+| Minimum brightness of [[Mars]]
+|-
+| 3.03
+| The [[SN 1987A]] supernova in the [[Large Magellanic Cloud]] 160,000 light-years away.
+|-
+| 3 to 4
+| Faintest stars visible in an urban neighborhood with naked eye
+|-
+| 3.44
+| The well known [[Andromeda Galaxy]] (M31)<ref name="SIMBAD-M31"/>
+|-
+| 4.38
+| Maximum brightness of [[Ganymede (moon)|Ganymede]]<ref name=horizons-Ganymede/> (moon of Jupiter and the largest moon in the Solar System)
+|-
+| 4.50
+| [[Messier 41|M41]], an open cluster that may have been seen by [[Aristotle]]<ref name="Aristotle">{{cite web
+  |date=2006-07-28
+  |title=M41 possibly recorded by Aristotle
+  |publisher=SEDS (Students for the Exploration and Development of Space)
+  |url=http://www.seds.org/messier/more/m041_ari.html
+  |accessdate=2009-11-29}}</ref>
+|-
+| 5.20
+| Maximum brightness of asteroid [[4 Vesta|Vesta]]
+|-
+| 5.32
+| Maximum brightness of [[Uranus]]<ref name="uranus"/>
+|-
+| 5.72
+| The spiral galaxy [[Triangulum Galaxy|M33]], which is used as a test for [[naked eye]] seeing under dark skies<ref name="SIMBAD-M33">{{cite web
+ |title=SIMBAD-M33
+ |publisher=SIMBAD Astronomical Database
+ |url=http://simbad.u-strasbg.fr/simbad/sim-id?Ident=M33
+ |accessdate=2009-11-28}}</ref><ref name="M33">{{cite web
+  |year=1993
+  |title=M33 (Triangulum Galaxy)
+  |first=Jerry
+  |last=Lodriguss
+  |url=http://www.astropix.com/HTML/A_FALL/M33.HTM
+  |accessdate=2009-11-27}} (shows b mag not v mag)</ref>
+|-
+| 5.73
+| Minimum brightness of [[Mercury (planet)|Mercury]]
+|-
+| 5.8
+| Peak visual magnitude of [[gamma ray burst]] [[GRB 080319B]] (the "Clarke Event") seen on Earth on March 19, 2008 from a distance of 7.5 gigalight-years.
+|-
+| 5.95
+| Minimum brightness of [[Uranus]]
+|-
+| 6.49
+| Maximum brightness of asteroid [[2 Pallas|Pallas]]
+|-
+| 6.50
+| Approximate limit of [[star]]s observed by a '''mean''' [[naked eye]] observer under very good conditions. There are about 9,500 stars visible to mag 6.5.<ref name="SIMBAD-mag6.5"/>
+|-
+| 6.64
+| Maximum brightness of dwarf planet [[Ceres (dwarf planet)|Ceres]] in the asteroid belt
+|-
+| 6.75
+| Maximum brightness of asteroid [[7 Iris|Iris]]
+|-
+| 6.90
+| The spiral galaxy [[Messier 81|M81]] is an extreme [[naked eye]] target that pushes human eyesight and the [[Bortle Dark-Sky Scale]] to the limit<ref name="SEDS">{{cite web
+  |date=2007-09-02
+  |title=Messier 81
+  |publisher=SEDS (Students for the Exploration and Development of Space)
+  |url=http://www.seds.org/messier/m/m081.html
+  |accessdate=2009-11-28}}</ref>
+|-
+| 7 to 8
+| Extreme [[naked eye]] limit with class 1 [[Bortle Dark-Sky Scale]], the darkest skies available on Earth<ref name="Bortle">{{cite web |date = February 2001|title=The Bortle Dark-Sky Scale |publisher=Sky & Telescope |author=John E. Bortle |url=http://www.skyandtelescope.com/resources/darksky/3304011.html |accessdate=2009-11-18}}</ref>
+|-
+| 7.78
+| Maximum brightness of [[Neptune]]<ref name="neptune"/>
+|-
+| 8.02
+| Minimum brightness of Neptune
+|-
+| 8.10
+| Maximum brightness of [[Titan (moon)|Titan]] (largest moon of Saturn),<ref name=horizons-Titan/><ref name=arval/> mean opposition magnitude 8.4<ref name=jpl-sat/>
+|-
+| 8.94
+| Maximum brightness of asteroid [[10 Hygiea]]<ref name=AstDys-Hygiea/>
+|-
+| 9.50
+| Faintest objects visible using common 7x50 [[binoculars]] under typical conditions<ref name="binoculars"/>
+|-
+| 10.20
+| Maximum brightness of [[Iapetus (moon)|Iapetus]]<ref name=arval/> (brightest when west of Saturn and takes 40 days to switch sides)
+|-
+| 12.91 || Brightest [[quasar]] [[3C 273]] ([[luminosity distance]] of 2.4 [[giga-]][[light year]]s)
+|-
+| 13.42
+| Maximum brightness of [[Triton (moon)|Triton]]<ref name=jpl-sat/>
+|-
+| 13.65
+| Maximum brightness of [[Pluto#Physical characteristics|Pluto]]<ref name="pluto"/> (725 times fainter than magnitude 6.5 naked eye skies)
+|-
+| 15.40
+| Maximum brightness of [[Centaur (minor planet)|centaur]] [[2060 Chiron|Chiron]]<ref name=AstDys-Chiron/>
+|-
+| 15.55
+| Maximum brightness of [[Charon (moon)|Charon]] (the large moon of Pluto)
+|-
+| 16.80
+| Current [[Opposition (astronomy and astrology)|opposition]] brightness of [[Makemake (dwarf planet)|Makemake]]<ref name=AstDys-Makemake/>
+|-
+| 17.27
+| Current opposition brightness of [[Haumea (dwarf planet)|Haumea]]<ref name=AstDys-Haumea/>
+|-
+| 18.70
+| Current opposition brightness of [[Eris (dwarf planet)|Eris]]
+|-
+| 20.70
+| [[Callirrhoe (moon)|Callirrhoe]] (small ~8&nbsp;km satellite of Jupiter)<ref name=jpl-sat/>
+|-
+| 22.00
+| Approximate limiting magnitude of a 24" [[Ritchey-Chrétien telescope]] with 30 minutes of stacked images (6 subframes at 300s each) using a [[Charge-coupled device|CCD detector]]<ref name="24inch">{{cite web
+  |date=2009-10-05
+  |title=17 New Asteroids Found by LightBuckets
+  |publisher=LightBuckets
+  |author=Steve Cullen (sgcullen)
+  |url=http://www.lightbuckets.com/news/37/17-new-asteroids-found-by-lightbuckets/
+  |accessdate=2009-11-15}}</ref>
+|-
+| 22.91
+| Maximum brightness of Pluto's moon [[Hydra (moon)|Hydra]]
+|-
+| 23.38
+| Maximum brightness of Pluto's moon [[Nix (moon)|Nix]]
+|-
+| 24.80
+| Amateur picture with greatest magnitude: quasar CFHQS J1641 +3755<ref>Cooperation with Ken Crawford</ref><ref name="CFHQS_J1641_f10">{{cite web |title=CRedshift 6 Quasar (CFHQS J1641 +3755)  |url=http://panther-observatory.com/gallery/deepsky/doc/CFHQS_J1641_f10.htm}}</ref>
+|-
+| 25.00
+| [[Fenrir (moon)|Fenrir]] (small ~4&nbsp;km satellite of Saturn)<ref name=sheppard-saturn/>
+|-
+| 27.00
+| Faintest objects observable in visible light with 8m ground-based telescopes
+|-
+| 28.00
+| Jupiter if it were located 5000AU from the Sun<ref>Magnitude difference is 2.512*log<sub>10</sub>[(5000/5)^2 X (4999/4)^2] ≈ 30.6, so Jupiter is 30.6 mag fainter at 5000 AU</ref>
+|-
+| 28.20
+| [[Halley's Comet]] in 2003 when it was 28AU from the Sun<ref name="ESO2003">{{cite web |title=New Image of Comet Halley in the Cold  |url=http://www.eso.org/public/outreach/press-rel/pr-2003/phot-27-03.html |publisher=[[ESO]] |date=2003-09-01 |accessdate=2009-02-22| archiveurl= http://web.archive.org/web/20090301212846/http://www.eso.org/public/outreach/press-rel/pr-2003/phot-27-03.html| archivedate= 1 March 2009 <!--DASHBot-->| deadurl= no}}</ref>
+|-
+| 31.50
+| Faintest objects observable in visible light with [[Hubble Space Telescope]]<ref>[http://arxiv.org/abs/1305.1931 The HST eXtreme Deep Field XDF: Combining all ACS and WFC3/IR Data on the HUDF Region into the Deepest Field Ever]</ref>
+|-
+| 35.00
+| [[LBV 1806-20]], a luminous blue variable star, expected magnitude at visible wavelengths due to [[interstellar extinction]]
+|-
+| 36.00
+| Faintest objects observable in visible light{{citation needed|date=October 2012}} with [[European Extremely Large Telescope|E-ELT]]
+|-
+| colspan=2|(see also [[List of brightest stars]])
+|}
+Some of the above magnitudes are only approximate. Telescope sensitivity also depends on observing time, optical bandpass, and interfering light from [[Rayleigh scattering|scattering]] and [[airglow]].
+
+==See also==
+{{colbegin|3}}
+*[[Absolute Magnitude]]
+*[[Magnitude (astronomy)]]
+*[[Photographic magnitude]]
+*[[Luminosity (astronomy)|Luminosity in astronomy]]
+*[[List of brightest stars]]
+*[[List of nearest bright stars]]
+*[[List of nearest stars]]
+*[[Lux]]
+*[[Surface brightness]]
+*[[Distance modulus]]
+{{colend}}
+
+==References==
+{{reflist|30em|refs=
+<ref name="sun-fact">{{cite web |last=Williams |first=Dr. David R. |title=Sun Fact Sheet |publisher=[[NASA]] (National Space Science Data Center) |url=http://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html |date=2004-09-01 |accessdate=2010-07-03| archiveurl= http://web.archive.org/web/20100715200549/http://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html| archivedate= 15 July 2010 <!--DASHBot-->| deadurl= no}}</ref>
+
+<ref name="moon-fact">{{cite web |last=Williams |first=Dr. David R. |title=Moon Fact Sheet |publisher=[[NASA]] (National Space Science Data Center) |url=http://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html |date=2010-02-02 |accessdate=2010-04-09| archiveurl= http://web.archive.org/web/20100323165650/http://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html| archivedate= 23 March 2010 <!--DASHBot-->| deadurl= no}}</ref>
+
+<ref name="Horizons-Venus">{{cite web |date=2006-Feb-27 (GEOPHYSICAL DATA) |title=HORIZONS Web-Interface for Venus (Major Body=299) |publisher=[[JPL Horizons On-Line Ephemeris System]] |url=http://ssd.jpl.nasa.gov/horizons.cgi?find_body=1&body_group=mb&sstr=299 |accessdate=2010-11-28}} (Using JPL Horizons you can see that on 2013-Dec-08 Venus will have an apmag of -4.89)</ref>
+
+<ref name="jupiter">{{cite web |author=Williams, David R. |title=Jupiter Fact Sheet |work=National Space Science Data Center |publisher=NASA |date=2007-11-02 |url=http://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html | accessdate=2010-06-25}}</ref>
+
+<ref name="mars">{{cite web |author=Williams, David R. |title=Mars Fact Sheet |work=National Space Science Data Center |publisher=NASA |date=2007-11-29 |url=http://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html | accessdate=2010-06-25| archiveurl= http://web.archive.org/web/20100612092806/http://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html| archivedate= 12 June 2010 <!--DASHBot-->| deadurl= no}}</ref>
+
+<ref name="uranus">{{cite web |author=Williams, David R. |title=Uranus Fact Sheet |work=National Space Science Data Center |publisher=NASA |date=2005-01-31 |url=http://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html | accessdate=2010-06-25| archiveurl= http://web.archive.org/web/20100629035829/http://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html| archivedate= 29 June 2010 <!--DASHBot-->| deadurl= no}}</ref>
+
+<ref name="neptune">{{cite web |author=Williams, David R. |title=Neptune Fact Sheet |work=National Space Science Data Center |publisher=NASA |date=2007-11-29 |url=http://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html | accessdate=2010-06-25| archiveurl= http://web.archive.org/web/20100701192119/http://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html| archivedate= 1 July 2010 <!--DASHBot-->| deadurl= no}}</ref>
+
+<ref name="pluto">{{cite web |author=Williams, David R. |title=Pluto Fact Sheet |work=National Space Science Data Center |publisher=NASA |date=2006-09-07 |url=http://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html | accessdate=2010-06-26| archiveurl= http://web.archive.org/web/20100701180605/http://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html| archivedate= 1 July 2010 <!--DASHBot-->| deadurl= no}}</ref>
+
+<ref name=arval>{{cite web|title=Classic Satellites of the Solar System|url=http://www.oarval.org/ClasSaten.htm|publisher=Observatorio ARVAL|accessdate=2010-06-25| archiveurl= http://web.archive.org/web/20100731193653/http://www.oarval.org/ClasSaten.htm| archivedate= 31 July 2010 <!--DASHBot-->| deadurl= no}}</ref>
+
+<ref name=jpl-sat>{{cite web |title=Planetary Satellite Physical Parameters |publisher=[[JPL]] (Solar System Dynamics) |url=http://ssd.jpl.nasa.gov/?sat_phys_par |date=2009-04-03 |accessdate=2009-07-25| archiveurl= http://web.archive.org/web/20090723024226/http://ssd.jpl.nasa.gov/?sat_phys_par| archivedate= 23 July 2009 <!--DASHBot-->| deadurl= no}}</ref>
+
+<ref name=sheppard-saturn>{{cite web |title=Saturn's Known Satellites |publisher=Carnegie Institution (Department of Terrestrial Magnetism) |author=[[Scott S. Sheppard]]|url=http://www.dtm.ciw.edu/users/sheppard/satellites/satsatdata.html |accessdate=2010-06-28}}</ref>
+
+<ref name=horizons-Ganymede>{{cite web |title=Horizon Online Ephemeris System for Ganymede (Major Body 503) |publisher=California Institute of Technology, Jet Propulsion Laboratory |author=Yeomans and Chamberlin |url=http://ssd.jpl.nasa.gov/horizons.cgi?find_body=1&body_group=mb&sstr=503 |accessdate=2010-04-14}} (4.38 on 1951-Oct-03)</ref>
+
+<ref name=horizons-Titan>{{cite web |title=Horizon Online Ephemeris System for Titan (Major Body 606) |publisher=California Institute of Technology, Jet Propulsion Laboratory |author=Yeomans and Chamberlin |url=http://ssd.jpl.nasa.gov/horizons.cgi?find_body=1&body_group=mb&sstr=606 |accessdate=2010-06-28}} [http://home.surewest.net/kheider/astro/titan-maxmag.txt (8.10 on 2003-Dec-30)]</ref>
+
+<ref name=AstDys-Hygiea>{{cite web |title=AstDys (10) Hygiea Ephemerides |publisher=Department of Mathematics, University of Pisa, Italy |url=http://hamilton.dm.unipi.it/astdys/index.php?pc=1.1.3.1&n=10&oc=500&y0=2095&m0=6&d0=27&h0=00&mi0=00&y1=2095&m1=6&d1=28&h1=00&mi1=00&ti=1.0&tiu=days |accessdate=2010-06-26}}</ref>
+
+<ref name=AstDys-Chiron>{{cite web |title=AstDys (2060) Chiron Ephemerides |publisher=Department of Mathematics, University of Pisa, Italy |url=http://hamilton.dm.unipi.it/astdys/index.php?pc=1.1.3.1&n=2060&oc=500&y0=2097&m0=4&d0=3&h0=00&mi0=00&y1=2097&m1=4&d1=3&h1=00&mi1=00&ti=1.0&tiu=days |accessdate=2010-06-26}}</ref>
+
+<ref name=AstDys-Makemake>{{cite web |title=AstDys (136472) Makemake Ephemerides |publisher=Department of Mathematics, University of Pisa, Italy |url=http://hamilton.dm.unipi.it/astdys/index.php?pc=1.1.3.1&n=136472&oc=500&y0=2010&m0=3&d0=17&h0=00&mi0=00&y1=2010&m1=3&d1=17&h1=00&mi1=00&ti=1.0&tiu=days |accessdate=2010-06-26}}</ref>
+
+<ref name=AstDys-Haumea>{{cite web |title=AstDys (136108) Haumea Ephemerides |publisher=Department of Mathematics, University of Pisa, Italy |url=http://hamilton.dm.unipi.it/astdys/index.php?pc=1.1.3.1&n=136108&oc=500&y0=2010&m0=4&d0=6&h0=00&mi0=00&y1=2010&m1=4&d1=6&h1=00&mi1=00&ti=1.0&tiu=days |accessdate=2010-06-26}}</ref>
+
+<ref name="SIMBAD-Sirius">{{cite web |title=Sirius |publisher=SIMBAD Astronomical Database |url=http://simbad.u-strasbg.fr/simbad/sim-id?Ident=Sirius |accessdate=2010-06-26}}</ref>
+
+<ref name="SIMBAD-Canopus">{{cite web |title=Canopus |publisher=SIMBAD Astronomical Database |url=http://simbad.u-strasbg.fr/simbad/sim-id?Ident=Canopus |accessdate=2010-06-26}}</ref>
+
+<ref name="SIMBAD-Vega">{{cite web |title=Vega |publisher=SIMBAD Astronomical Database |url=http://simbad.u-strasbg.fr/simbad/sim-id?Ident=Vega |accessdate=2010-04-14}}</ref>
+
+<ref name="SIMBAD-Arcturus">{{cite web |title=Arcturus |publisher=SIMBAD Astronomical Database |url=http://simbad.u-strasbg.fr/simbad/sim-id?Ident=Arcturus |accessdate=2010-06-26}}</ref>
+
+<ref name="SIMBAD-mag6.5">{{cite web |title=Vmag<6.5 |publisher=SIMBAD Astronomical Database |url=http://simbad.u-strasbg.fr/simbad/sim-sam?Criteria=Vmag%3C6.5 |accessdate=2010-06-25}}</ref>
+
+<ref name="SIMBAD-M31">{{cite web |title=SIMBAD-M31 |publisher=SIMBAD Astronomical Database |url=http://simbad.u-strasbg.fr/simbad/sim-id?Ident=M31 |accessdate=2009-11-29}}</ref>
+
+<ref name="SN1006">{{cite journal |last=Winkler |first=P. Frank |title=The SN 1006 Remnant: Optical Proper Motions, Deep Imaging, Distance, and Brightness at Maximum |journal=[[Astrophysical Journal|The Astrophysical Journal]] |year=2003 |volume=585 |pages=324–335 |doi=10.1086/345985 |last2=Gupta |first2=Gaurav |last3=Long |first3=Knox S. |bibcode=2003ApJ...585..324W|arxiv = astro-ph/0208415 }}</ref>
+
+<ref name=SN1054>[http://www.seds.org/messier/more/m001_sn.html Supernova 1054 - Creation of the Crab Nebula]</ref>
+
+<ref name="binoculars">{{cite web |year=2004 |title=Limiting Magnitude in Binoculars |publisher=Cloudy Nights |author=Ed Zarenski |url=http://www.cloudynights.com/documents/limiting.pdf |accessdate=2011-05-06}}</ref>
+
+}}<!-- END: refs= -->
+
+== External links ==
+* [http://www.icq.eps.harvard.edu/MagScale.html The astronomical magnitude scale] (International Comet Quarterly)
+
+{{Star}}
+
+{{DEFAULTSORT:Apparent Magnitude}}
+[[Category:Observational astronomy]]

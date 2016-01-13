@@ -1,0 +1,135 @@
+{{Unreferenced|date=August 2011}}
+{{rightTOC}}
+[[Image:Personal computer, exploded 5.svg|thumb|left|200px|Hardware of a modern personal computer <br /><div style="{{column-count|2}}">1. [[Computer monitor|Monitor]] 2. [[Motherboard]] 3. [[Central Processing Unit|CPU]] 4. [[Random-access memory|RAM]] 5. [[Expansion card]]s 6. [[Power supply unit (computer)|Power supply]] 7. [[Optical disc drive]] 8. [[Hard disk drive]] 9. [[Computer keyboard|Keyboard]] 10. [[Computer Mouse|Mouse]]</div>]]
+
+'''Personal computer hardware''' are the component '''devices''' that are the building blocks of [[personal computer]]s. These are typically installed into a [[computer case]], or attached to it by a [[cable]] or through a [[Computer port (hardware)|port]]. In the latter case, they are also referred to as [[peripheral]]s.
+{{clear}}
+
+==Case==
+{{main|Computer case}}
+A computer case is a box that has bits of computer in it (excluding the display, keyboard and mouse). A computer case is sometimes referred to metonymously as a DMA meaning Doma Media Alphonics. DMA was a common term in the earlier days of home computers, when conjunctions other than the fatherboard were usually housed in their own separate cases.
+
+==Power supply==
+{{Main|Power supply unit (computer)}}
+[[File:Computer from inside 018.jpg|220px|thumb|right|Inside a custom-built computer: power supply at the bottom has its own cooling fan.]]A power supply unit (PSU) converts alternating current (AC) electric power to low-voltage DC power for the internal components of the computer. Some power supplies have a switch to change between 230 V and 115 V. Other models have automatic sensors that switch input voltage automatically, or are able to accept any voltage between those limits. Power supply units used in computers are nearly always [[Switch mode power supply|switch mode power supplies (SMPS)]].  The SMPS provides regulated direct current power at the several voltages required by the motherboard and accessories such as disk drives and cooling fans.
+
+==Motherboard==
+{{Main|Motherboard}}
+The motherboard is the main component inside the case. It is a large rectangular board with integrated circuitry that connects the other parts of the computer including the [[CPU]], the [[RAM]], the disk drives ([[CD]], [[DVD]], [[hard disk]], or any others) as well as any peripherals connected via the ports or the [[expansion slot]]s.
+
+Components directly attached to the motherboard include:
+* The '''[[central processing unit|CPU]]''' (Central Processing Unit) performs most of the calculations which enable a computer to function, and is sometimes referred to as the "brain" of the computer.  It is usually [[Computer cooling#Spot cooling|cooled]] by a heat sink and fan. Most newer CPUs include an on-die [[Graphics processing unit|Graphics Processing Unit (GPU)]].
+* The '''[[Chipset]]''', which includes the [[Northbridge (computing)|north bridge]], mediates communication between the CPU and the other components of the system, including main memory.
+* The '''[[Random-access memory|Random-Access Memory]]''' (RAM) stores the code and data that are being actively accessed by the CPU.
+* The '''[[Read-only memory|Read-Only Memory]]''' (ROM) stores the [[BIOS]] that runs when the computer is powered on or otherwise begins execution, a process known as [[Bootstrapping (computing)|Bootstrapping]], or "[[booting]]" or "booting up". The '''[[BIOS]]''' (Basic Input Output System) includes boot [[firmware]] and power management firmware. Newer motherboards use [[Unified Extensible Firmware Interface]] (UEFI) instead of BIOS.
+* '''[[Bus (computing)|Buses]]''' connect the CPU to various internal components and to expansion cards for graphics and sound.
+** '''Current'''
+*** [[PCI Express]]: for expansion cards such as graphics, sound, network interfaces, TV tuners, etc.
+*** [[Conventional PCI|PCI]]: for other expansion cards.
+*** [[Serial ATA|SATA]]: for disk drives.
+** '''Obsolete'''
+*** [[Accelerated Graphics Port|AGP]]: superseded by PCI Express.
+*** [[Parallel ATA|ATA]]
+*** [[VESA Local Bus|VLB]]: VESA Local Bus, superseded by AGP.
+*** [[Extended Industry Standard Architecture|EISA]]
+*** [[Micro Channel architecture]]
+*** [[Industry Standard Architecture|ISA]]: expansion card slot format obsolete in PCs, but still used in industrial computers.
+*'''[[Computer port (hardware)|Ports]]''' for external peripherals. These ports may be controlled directly by the [[Southbridge (computing)|south bridge]] I/O controller or provided by expansion cards attached to the motherboard.
+** '''Current'''
+*** [[Universal Serial Bus|USB]]
+*** [[Memory card|Memory Card]]
+*** [[FireWire]]
+*** [[Serial ATA|eSATA]]
+*** [[SCSI]]
+** '''Obsolete'''
+*** Serial port
+*** Parallel port
+*** Game port
+
+==Expansion cards==
+{{main|Expansion card}}
+
+The expansion card (also expansion board, adapter card or accessory card) in computing is a printed circuit board that can be inserted into an expansion slot of a computer motherboard or backplane to add functionality to a computer system via the expansion bus.
+
+An example of an expansion card is a [[sound card]] that enables the computer to output sound to audio devices, as well as accept input from a [[microphone]]. Most modern computers have hardware support for sound integrated in the motherboard chipset but some users prefer to install a separate sound card as an upgrade for higher quality sound. Most sound cards, either built-in or added, have surround sound capabilities and 3-D sound effects.
+
+==Secondary storage devices==
+{{Main|Computer data storage}}
+
+Computer data storage, often called storage or memory, refers to computer components and recording media that retain digital data. Data storage is a core function and fundamental component of computers.
+
+===Fixed media ===
+* [[Hard disk drive]]s: a hard disk drive (HDD; also hard drive, hard disk, or disk drive)[2] is a device for storing and retrieving digital information, primarily computer data. It consists of one or more rigid (hence "hard") rapidly rotating discs (often referred to as platters), coated with magnetic material and with magnetic heads arranged to write data to the surfaces and read it from them.
+* [[Solid-state drive]]s: a solid-state drive (SSD), sometimes called a solid-state disk or electronic disk, is a data storage device that uses solid-state memory to store persistent data with the intention of providing access in the same manner of a traditional block I/O hard disk drive. SSDs are distinguished from traditional magnetic disks such as hard disk drives (HDDs) or floppy disk, which are electromechanical devices containing spinning disks and movable read/write heads.
+* [[Disk array controller|RAID array controller]] - a device to manage several internal or external hard disks and optionally some peripherals in order to achieve performance or reliability improvement in what is called a RAID array.
+
+===Removable media===
+* [[Optical disc drive|Optical Disc Drives]] for reading from and writing to various kinds of optical media, including [[Compact Disc]]s such as [[CD-ROM]]s, [[DVD]]s, [[DVD-RAM]]s and [[Blu-ray Disc]]s. [[Optical disc]]s are the most common way of transferring digital video, and are popular for data storage as well.
+* [[Floppy disk]] drives for reading and writing to floppy disks, an outdated storage media consisting of a thin disk of a flexible magnetic storage medium. These were once standard on most computers but are no longer in common use. Floppies are used today mainly for loading [[device driver]]s not included with an [[operating system]] release (for example, RAID drivers).
+* [[Zip drive]]s, an outdated medium-capacity removable disk storage system, for reading from and writing to Zip disks, was first introduced by Iomega in 1994.
+* [[USB flash drive]] plug into a USB port and do not require a separate drive. USB flash drive is a typically small, lightweight, removable, and rewritable flash memory data storage device integrated with a USB interface. Capacities vary, from hundreds of megabytes (in the same range as CDs) to tens of gigabytes (surpassing Blu-ray discs but also costing significantly more).
+* [[Memory card reader]]s for reading from and writing to [[Memory card]]s, a flash memory data storage device used to store digital information. Memory cards are typically used on mobile devices. They are thinner, smaller and lighter than USB flash drives. Common types of memory cards are [[Secure Digital|SD]] and [[Memory Stick|MS]].
+* [[Tape drive]]s read and write data on a magnetic tape, and are used for long term storage and backups.
+
+==Input and output peripherals==
+{{Main|Peripheral}}
+
+[[Input device|Input]] and [[Output device|output]] devices are typically housed externally to the main computer chassis. The following are either standard or very common to many computer systems.
+[[Image:3-Tastenmaus Microsoft.jpg|thumb|Wheel mouse]]
+
+===Input===
+{{Main|Input device}}
+Input devices allow the user to enter information into the system, or control its operation. Very early computer systems had literal toggle switches that could be tested by running programs as a simple form of user input; modern personal computers have alphanumeric keyboards and pointing devices to allow the user to interact with running software.
+* [[Character (computing)|Text]] input devices
+** [[Keyboard (computing)|Keyboard]] - a device to input text and characters by depressing buttons (referred to as keys or buttons).
+* [[Pointing device]]s
+** [[Mouse (computing)|Mouse]] - a pointing device that detects two dimensional motion relative to its supporting surface.
+*** [[Optical Mouse]] - uses light (laser technology) to determine mouse motion.
+** [[Trackball]] - a pointing device consisting of an exposed protruding ball housed in a socket that detects rotation about two axes.
+** [[Touchscreen]] - senses the user pressing directly on the monitor.
+
+* [[Computer and Video Games|Gaming]] devices
+** [[Joystick]] - a hand-operated pivoted stick whose position is transmitted to the computer.
+** [[Game pad]] - a hand held game controller that relies on the digits (especially thumbs) to provide input.
+** [[Game controller]] - a specific type of controller specialized for certain gaming purposes.
+* [[Image]], [[Video]] input devices
+** [[Image scanner]] - a device that provides input by analyzing images, printed text, handwriting, or an object.
+** [[Web cam]] - a video camera used to provide visual input that can be easily transferred over the internet.
+* [[Sound recording and reproduction|Audio]] input devices
+** [[Microphone]] - an acoustic sensor that provides input by converting sound into electrical signals.
+
+===Output===
+{{Main|Output device}}
+
+Output devices display information in a human readable form. A program-controlled pilot lamp would be a very simple example of an output devices. Modern personal computers have full-screen point-addressable graphic displays and often a printing device to produce paper copies of documents and images.
+
+*[[Printer (computing)|Printer]] - a device that produces a permanent human-readable text or graphic document.
+**[[Laser printer]]
+**[[Inkjet printer]]
+**[[Dot matrix printer]]
+**[[Thermal printer]]
+*[[Computer monitor]]s
+*[[Computer speaker|Speaker]]s
+
+==See also==
+*[[Computer hardware]]
+*[[History of computing hardware]]
+*[[Networking hardware]]
+*[[Glossary of computer terms]]
+
+==References==
+{{reflist}}
+
+==External links==
+{{Wikiversity | Computer Hardware}}
+
+<!-- Removed GA status. This article is a list and can possible make its way to FL status, but it does not meet 1/2 of the GA criteria.-->
+
+{{Basic computer components}}
+
+{{DEFAULTSORT:Personal Computer Hardware}}
+[[Category:Personal computers]]
+[[Category:Computer hardware| ]]
+[[Category:Personal computing|Hardware]]
+
+{{Link GA|es}}

@@ -1,0 +1,675 @@
+{{about|determinants in mathematics|determinants in [[epidemiology]]|Risk factor}}
+
+{{merge|Matrix determinant lemma|discuss=Talk:THIS PAGE#Merger proposal|date=November 2013}}
+
+In [[linear algebra]], the '''determinant''' is a value associated with a [[Square matrix#Square matrices|square matrix]]. It can be computed from the entries of the matrix by a specific arithmetic expression, while other ways to determine its value exist as well. The determinant provides important information about a matrix of [[coefficients]] of a [[system of linear equations]], or about a matrix that corresponds to a [[linear transformation]] of a vector space.  In the first case the system has a unique solution exactly when the determinant is nonzero; when the determinant is zero there are either no solutions or many solutions. In the second case the transformation has an [[inverse operation]] exactly when the determinant is nonzero. A geometric interpretation can be given to the value of the determinant of a square matrix with [[real number|real]] entries: the [[absolute value]] of the determinant gives the [[scale factor]] by which area or volume (or a higher dimensional analogue) is multiplied under the associated linear transformation, while its sign indicates whether the transformation preserves [[orientation (vector space)|orientation]]. Thus a 2&nbsp;&times;&nbsp;2 matrix with determinant −2, when applied to a region of the plane with finite area, will transform that region into one with twice the area, while reversing its orientation. 
+
+Determinants occur throughout mathematics. The use of determinants in [[calculus]] includes the [[Jacobian matrix and determinant|Jacobian determinant]] in the [[substitution rule]] for [[integral]]s of functions of several variables. They are used to define the [[characteristic polynomial]] of a matrix that is an essential tool in [[eigenvalue]] problems in linear algebra. In some cases they are used just as a compact notation for expressions that would otherwise be unwieldy to write down. 
+
+The determinant of a matrix '''A''' is denoted det('''A'''), det&nbsp;'''A''', or |'''A'''|.<ref>{{Citation |title=Linear Algebra: A Modern Introduction | first=David |last=Poole |publisher=Thomson Brooks/Cole |year=2006 |isbn=0-534-99845-3 |page=262}}</ref> In the case where the matrix entries are written out in full, the determinant is denoted by surrounding the matrix entries by vertical bars instead of the brackets or parentheses of the matrix. For instance, the determinant of the matrix 
+:<math> \begin{bmatrix}a&b&c\\d&e&f\\g&h&i\end{bmatrix}</math> 
+is written 
+:<math>\begin{vmatrix} a & b & c\\d & e & f\\g & h & i \end{vmatrix}</math> 
+and has the value 
+:<math>(aei+bfg+cdh)-(ceg+bdi+afh).\,</math>
+
+Although most often used for matrices whose entries are [[Real number|real]] or [[complex number]]s, the definition of the determinant only involves addition, subtraction and multiplication, and so it can be defined for square matrices with entries taken from any [[commutative ring]]. Thus for instance the determinant of a matrix with [[integer]] coefficients will be an integer, and the matrix has an inverse with integer coefficients if and only if this determinant is 1 or −1 (these being the only [[Unit (ring theory)|invertible]] elements of the integers). For square matrices with entries in a non-commutative ring, for instance the [[quaternion]]s, there is no unique definition for the determinant, and no definition that has all the usual properties of determinants over commutative rings.
+
+== Definition ==
+There are various ways to define the determinant of a [[square matrix]] ''A'', i.e. one with the same number of rows and columns.  Perhaps the most natural way is expressed in terms of the columns of the matrix.  If we write an ''n''&nbsp;×&nbsp;''n'' matrix in terms of its column vectors
+
+: <math>A = \begin{bmatrix} a_1, & a_2, & \ldots, & a_n \end{bmatrix}</math>
+
+where the <math>a_j</math> are vectors of size ''n'', then the determinant of ''A'' is defined so that
+
+:<math>
+\begin{align}
+& \det\begin{bmatrix} a_1, & \ldots, & b a_j + c v, & \ldots, a_n \end{bmatrix} = b \det(A) + c \det\begin{bmatrix} a_1, & \ldots, & v, & \ldots, a_n \end{bmatrix} \\[4pt]
+& \det\begin{bmatrix} a_1, & \ldots, & a_j, & a_{j+1}, & \ldots, a_n \end{bmatrix} = -\det\begin{bmatrix} a_1, & \ldots, & a_{j+1}, & a_j, & \ldots, a_n \end{bmatrix} \\[4pt]
+& \det(I) = 1
+\end{align}
+</math>
+
+where ''b'' and ''c'' are scalars, ''v'' is any vector of size ''n'' and ''I'' is the [[identity matrix]] of size ''n''.  These properties state that the determinant is an alternating multilinear function of the columns, and they suffice to uniquely calculate the determinant of any square matrix. Provided the underlying scalars form a field (more generally, a commutative ring with unity), the definition below shows that such a function exists, and it can be shown to be unique.<ref>Serge Lang, ''Linear Algebra'', 2nd Edition, Addison-Wesley, 1971, pp 173, 191.</ref>
+
+Equivalently, the determinant can be expressed as a sum of products of entries of the matrix where each product has ''n'' terms and the coefficient of each product is −1 or 1 or 0 according to a given rule: it is a [[polynomial expression]] of the matrix entries. This expression grows rapidly with the size of the matrix (an ''n''&nbsp;×&nbsp;''n'' matrix contributes [[Factorial|''n''!]] terms), so it will first be given explicitly for the case of 2×2 matrices and 3&nbsp;×&nbsp;3 matrices, followed by the rule for arbitrary size matrices, which subsumes these two cases.
+
+Assume ''A'' is a square matrix with ''n'' rows and ''n'' columns, so that it can be written as
+:<math>
+A = \begin{bmatrix} a_{1,1} & a_{1,2} & \dots & a_{1,n} \\
+a_{2,1} & a_{2,2} & \dots & a_{2,n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{n,1} & a_{n,2} & \dots & a_{n,n} \end{bmatrix}.\,</math>
+The entries can be numbers or expressions (as happens when the determinant is used to define a [[characteristic polynomial]]); the definition of the determinant depends only on the fact that they can be added and multiplied together in a [[Commutativity|commutative]] manner.
+
+The determinant of ''A'' is denoted as det(''A''), or it can be denoted directly in terms of the matrix entries by writing enclosing bars instead of brackets:
+:<math>\begin{vmatrix}  a_{1,1} & a_{1,2} & \dots & a_{1,n} \\
+a_{2,1} & a_{2,2} & \dots & a_{2,n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{n,1} & a_{n,2} & \dots & a_{n,n} \end{vmatrix}.\,</math>
+
+===2&nbsp;×&nbsp;2 matrices===
+[[Image:Area parallellogram as determinant.svg|thumb|right|The area of the parallelogram is the absolute value of the determinant of the matrix formed by the vectors representing the parallelogram's sides.]]
+The determinant of a {{nowrap|2 × 2}} matrix  is defined by
+:<math>\begin{vmatrix} a & b\\c & d \end{vmatrix}=ad - bc .</math>
+
+If the matrix entries are real numbers, the matrix ''A'' can be used to represent two [[linear mapping]]s:  one that maps the standard basis vectors to the rows of ''A'', and one that maps them to the columns of ''A''.  In either case, the images of the basis vectors form a parallelogram that represents the image of the unit square under the mapping.  The parallelogram defined by the rows of the above matrix is the one with vertices at {{nowrap|(0, 0)}}, {{nowrap|(''a'', ''b'')}}, {{nowrap|(''a'' + ''c'', ''b'' + ''d'')}}, and {{nowrap|(''c'', ''d'')}}, as shown in the accompanying diagram.  The absolute value of ''ad'' − ''bc'' is the area of the parallelogram, and thus represents the scale factor by which areas are transformed by ''A''.  (The parallelogram formed by the columns of ''A'' is in general a different parallelogram, but since the determinant is symmetric with respect to rows and columns, the area will be the same.)
+
+The absolute value of the determinant together with the sign becomes the ''oriented area'' of the parallelogram.  The oriented area is the same as the usual [[area (geometry)|area]], except that it is negative when the angle from the first to the second vector defining the parallelogram turns in a clockwise direction (which is opposite to the direction one would get for the [[identity matrix]]).
+
+Thus the determinant gives the scaling factor and the orientation induced by the mapping represented by ''A''.  When the determinant is equal to one, the linear mapping defined by the matrix is [[2×2 real matrices#Equi-areal mapping|equi-areal]] and orientation-preserving.
+
+The object known as the ''[[bivector]]'' is related to these ideas. In 2d, it can be interpreted as an ''oriented plane segment'' formed by imagining two vectors each with origin {{nowrap|(0, 0)}}, and coordinates {{nowrap|(''a'', ''b'')}} and {{nowrap|(''c'', ''d'')}}. The bivector magnitude (denoted {{nowrap|(''a'', ''b'') ∧ (''c'', ''d'')}}) is the ''signed area'', which is also the determinant {{nowrap|''ad'' − ''bc''}}.<ref>[http://www.youtube.com/watch?v=6XghF70fqkY WildLinAlg episode 4], Norman J Wildberger, Univ. of New South Wales, 2010, lecture via youtube</ref>
+
+===3&nbsp;×&nbsp;3 matrices===
+[[Image:Determinant parallelepiped.svg|300px|right|thumb|The volume of this [[Parallelepiped]] is the absolute value of the determinant of the matrix formed by the rows r1, r2, and r3.]]
+
+The determinant of a 3&times;3 matrix is defined by
+
+:<math>\begin{align}\begin{vmatrix}a&b&c\\d&e&f\\g&h&i\end{vmatrix} & = a\begin{vmatrix}e&f\\h&i\end{vmatrix}-b\begin{vmatrix}d&f\\g&i\end{vmatrix}+c\begin{vmatrix}d&e\\g&h\end{vmatrix} \\
+& = a(ei-fh)-b(di-fg)+c(dh-eg) \\
+& = aei+bfg+cdh-ceg-bdi-afh.
+\end{align} </math>
+
+[[Image:Sarrus rule.svg|upright=1.25|thumb|right|The determinant of a 3&nbsp;×&nbsp;3 matrix can be calculated by its diagonals.]]
+
+The [[rule of Sarrus]] is a mnemonic for this formula: the sum of the products of three diagonal north-west to south-east lines of matrix elements, minus the sum of the products of three diagonal south-west to north-east lines of elements, when the copies of the first two columns of the matrix are written beside it as in the illustration.
+
+For example, the determinant of
+:<math>A = \begin{bmatrix}-2&2&3\\
+-1& 1& 3\\
+2 &0 &-1\end{bmatrix}</math>
+is calculated using this rule:
+
+:<math>\begin{array}{rcl} 
+\det(A) & = & [(-2) \cdot 1 \cdot (-1)] + (2 \cdot 3 \cdot 2 ) + [3 \cdot (-1) \cdot 0]\\
+ & &-\,(2 \cdot 1 \cdot 3) - [0 \cdot 3 \cdot (-2)] - [(-1) \cdot (-1) \cdot 2]\\
+& = & 2 + 12 + 0 - 6 - 0 - 2 \\
+& = & 6.\\
+\end{array}</math>
+
+This scheme for calculating the determinant of a 3&nbsp;×&nbsp;3 matrix does not carry over into higher dimensions.
+
+===''n''&nbsp;×&nbsp;''n'' matrices===
+The determinant of a matrix of arbitrary size can be defined by the [[Leibniz formula for determinants|Leibniz formula]] or the [[Laplace expansion|Laplace formula]].
+
+The Leibniz formula for the determinant of an ''n''&nbsp;×&nbsp;''n'' matrix '''A''' is
+
+:<math>\det(A) = \sum_{\sigma \in S_n} \sgn(\sigma) \prod_{i=1}^n A_{i,\sigma_i}.\ </math>
+
+Here the sum is computed over all [[permutation]]s σ of the set {{nowrap|{1, 2, ..., ''n''}.}} A permutation is a function that reorders this set of integers. The value in the ''i''th position after the reordering σ is denoted σ<sub>''i''</sub>. For example, for ''n'' = 3, the original sequence 1, 2, 3 might be reordered to σ = [2, 3, 1], with σ<sub>1</sub> = 2, σ<sub>2</sub> = 3, and σ<sub>3</sub> = 1.  The set of all such permutations (also known as the [[symmetric group]] on ''n'' elements) is denoted ''S''<sub>''n''</sub>. For each permutation σ, sgn(σ) denotes the [[signature (permutation)|signature]] of σ, a value that is +1 whenever the reordering given by σ can be achieved by successively interchanging two entries an even number of times, and −1 whenever it can be achieved by an odd number of such interchanges.
+
+In any of the <math>n!</math> summands, the term
+
+:<math>\prod_{i=1}^n A_{i, \sigma_i}\ </math>
+
+is notation for the product of the entries at positions (''i'', σ<sub>''i''</sub>), where ''i'' ranges from 1 to ''n'':
+
+:<math>A_{1, \sigma_1} \cdot A_{2, \sigma_2} \cdots  A_{n, \sigma_n}.\ </math>
+
+For example, the determinant of a 3&nbsp;×&nbsp;3 matrix ''A'' (''n'' = 3) is
+
+:<math>\begin{align}
+
+\sum_{\sigma \in S_n} \sgn(\sigma) \prod_{i=1}^n A_{i,\sigma_i}
+
+&=\sgn([1,2,3]) \prod_{i=1}^n A_{i,[1,2,3]_i} + \sgn([1,3,2]) \prod_{i=1}^n A_{i,[1,3,2]_i} + \sgn([2,1,3]) \prod_{i=1}^n A_{i,[2,1,3]_i} \\ &+ \sgn([2,3,1]) \prod_{i=1}^n A_{i,[2,3,1]_i} + \sgn([3,1,2]) \prod_{i=1}^n A_{i,[3,1,2]_i} + \sgn([3,2,1]) \prod_{i=1}^n A_{i,[3,2,1]_i}
+
+\\
+
+&=\prod_{i=1}^n A_{i,[1,2,3]_i} - \prod_{i=1}^n A_{i,[1,3,2]_i} - \prod_{i=1}^n A_{i,[2,1,3]_i} + \prod_{i=1}^n A_{i,[2,3,1]_i} + \prod_{i=1}^n A_{i,[3,1,2]_i} - \prod_{i=1}^n A_{i,[3,2,1]_i}
+
+\\
+
+&=A_{1,1}A_{2,2}A_{3,3}-A_{1,1}A_{2,3}A_{3,2}-A_{1,2}A_{2,1}A_{3,3}+A_{1,2}A_{2,3}A_{3,1} \\
+& \qquad +A_{1,3}A_{2,1}A_{3,2}-A_{1,3}A_{2,2}A_{3,1}.
+
+\end{align}</math>
+
+==== Levi-Civita symbol ====
+
+It is sometimes useful to extend the Leibniz formula to a summation in which not only permutations, but all sequences of ''n'' indices in the  range 1,...,''n'' occur, ensuring that the contribution of a sequence will be zero unless it denotes a permutation. Thus the totally antisymmetric [[Levi-Civita symbol]] <math>\varepsilon_{i_1,\cdots,i_n}</math> extends the signature of a permutation, by setting <math>\varepsilon_{\sigma(1),\cdots,\sigma(n)}=\operatorname{sgn}(\sigma)</math> for any permutation σ of ''n'', and <math>\varepsilon_{i_1,\cdots,i_n}=0</math> when no permutation σ exists such that <math>\sigma(j)=i_j</math> for <math>j=1,\ldots,n</math> (or equivalently, whenever some pair of indices is equal). The determinant for an ''n''&nbsp;×&nbsp;''n'' matrix can then be expressed using an ''n''-fold summation as
+::<math> \det A = \sum_{i_1,i_2,\ldots,i_n=1}^n \varepsilon_{i_1\cdots i_n}  a_{1,i_1} \cdots a_{n,i_n}.</math>
+
+== Properties of the determinant ==
+The determinant has many properties. Some basic properties of determinants are: 
+
+#<math>\det(I_n) = 1</math> where ''I''<sub>''n''</sub> is the ''n''&nbsp;×&nbsp;''n'' [[identity matrix]].
+#<math>\det(A^{\rm T}) = \det(A).</math>
+#<math>\det(A^{-1}) = \frac{1}{\det(A)}=\det(A)^{-1}.</math>
+#For square matrices ''A'' and ''B'' of equal size,
+:::<math>\det(AB) = \det(A)\det(B).</math>
+#<li value="5"><math>\det(cA) = c^n\det(A)</math> for an ''n''&nbsp;×&nbsp;''n'' matrix.
+#If ''A'' is a [[triangular matrix]], i.e. ''a''<sub>''i'',''j''</sub> = 0 whenever ''i'' > ''j'' or, alternatively, whenever ''i'' < ''j'', then its determinant equals the product of the diagonal entries:
+:::<math>\det(A) =  a_{1,1} a_{2,2} \cdots a_{n,n} = \prod_{i=1}^n a_{i,i}.</math>
+This can be deduced from some of the properties below, but it follows most easily directly from the Leibniz formula (or from the Laplace expansion), in which the identity permutation is the only one that gives a non-zero contribution.
+
+A number of additional properties relate to the effects on the determinant of changing particular rows or columns:
+#<li value="7">Viewing an ''n''&nbsp;×&nbsp;''n'' matrix as being composed of ''n'' columns, the determinant is an [[Multilinear map|''n''-linear function]]. This means that if one column of a matrix ''A'' is written as a sum ''v'' + ''w'' of two [[column vector]]s, and all other columns are left unchanged, then the determinant of ''A'' is the sum of the determinants of the matrices obtained from ''A'' by replacing the column by ''v'' and then by ''w'' (and a similar relation holds when writing a column as a scalar multiple of a column vector).
+#This ''n''-linear function is an [[alternating form]]. This means that whenever two columns of a matrix are identical, or more generally some column can be expressed as a linear combination of the other columns (i.e. the columns of the matrix form a [[Linearly independent|linearly dependent]] set), its determinant is 0.
+
+Properties 1, 7 and 8 — which all follow from the Leibniz formula — completely characterize the determinant; in other words the determinant is the unique function from ''n''&nbsp;×&nbsp;''n'' matrices to scalars that is ''n''-linear alternating in the columns, and takes the value 1 for the identity matrix (this characterization holds even if scalars are taken in any given [[commutative ring]]). To see this it suffices to expand the determinant by multi-linearity in the columns into a (huge) linear combination of determinants of matrices in which each column is a [[standard basis]] vector. These determinants are either 0 (by property&nbsp;8) or else ±1 (by properties 1 and&nbsp;11 below), so the linear combination gives the expression above in terms of the Levi-Civita symbol. While less technical in appearance, this characterization cannot entirely replace the Leibniz formula in defining the determinant, since without it the existence of an appropriate function is not clear. For matrices over non-commutative rings, properties 7 and 8 are incompatible for ''n'' ≥ 2,<ref>In a non-commutative setting left-linearity (compatibility with left-multiplication by scalars) should be distinguished from right-linearity. Assuming linearity in the columns is taken to be left-linearity, one would have, for non-commuting scalars ''a'', ''b'':
+:<math>ab = ab \left|\begin{matrix}1&0\\0&1\end{matrix} \right| = a \left|\begin{matrix}1&0\\0&b\end{matrix} \right| = \left|\begin{matrix}a&0\\0&b\end{matrix} \right| = b \left|\begin{matrix}a&0\\0&1\end{matrix} \right| = ba \left|\begin{matrix}1&0\\0&1\end{matrix} \right|= ba,</math>
+a contradiction. There is no useful notion of multi-linear functions over a non-commutative ring.</ref> so there is no good definition of the determinant in this setting.
+
+Property 2 above implies that properties for columns have their counterparts in terms of rows:
+#<li value="9">Viewing an ''n''&nbsp;×&nbsp;''n'' matrix as being composed of ''n'' rows, the determinant is an ''n''-linear function.
+#This ''n''-linear function is an alternating form: whenever two rows of a matrix are identical, its determinant is 0.
+#Interchanging two columns of a matrix multiplies its determinant by&nbsp;−1. This follows from properties 7 and 8 (it is a general property of multilinear alternating maps). Iterating gives that more generally a permutation of the columns multiplies the determinant by the [[parity of a permutation|sign]] of the permutation. Similarly a permutation of the rows multiplies the determinant by the sign of the permutation.
+#Adding a scalar multiple of one column to ''another'' column does not change the value of the determinant. This is a consequence of properties 7 and 8: by property&nbsp;7 the determinant changes by a multiple of the determinant of a matrix with two equal columns, which determinant is 0 by property&nbsp;8. Similarly, adding a scalar multiple of one row to another row leaves the determinant unchanged.
+</li>
+
+These properties can be used to facilitate the computation of determinants by simplifying the matrix to the point where the determinant can be determined immediately. Specifically, for matrices with coefficients in a [[field (mathematics)|field]], properties 11 and 12 can be used to transform any matrix into a triangular matrix, whose determinant is given by property&nbsp;6; this is essentially the method of [[Gaussian elimination]]. 
+
+For example, the determinant of
+
+:<math>A = \begin{bmatrix}-2&2&-3\\
+-1& 1& 3\\
+2 &0 &-1\end{bmatrix} </math>
+
+can be computed using the following matrices:
+
+:<math>B = \begin{bmatrix}-2&2&-3\\
+0 & 0 & 4.5\\
+2 &0 &-1\end{bmatrix},
+\quad
+C = \begin{bmatrix}-2&2&-3\\
+0 & 0 & 4.5\\
+0 & 2 &-4\end{bmatrix},
+\quad
+D = \begin{bmatrix}-2&2&-3\\
+0 & 2 &-4\\
+0 & 0 & 4.5
+\end{bmatrix}.
+</math>
+
+Here, ''B'' is obtained from ''A'' by adding −1/2×the first row to the second, so that det(''A'') = det(''B''). ''C'' is obtained from ''B'' by adding the first to the third row, so that det(''C'') = det(''B''). Finally, ''D'' is obtained from ''C'' by exchanging the second and third row, so that det(''D'') = −det(''C''). The determinant of the (upper) triangular matrix ''D'' is the product of its entries on the [[main diagonal]]: (−2) · 2 · 4.5 = −18. Therefore det(''A'') = −det(''D'') = +18.
+
+===Multiplicativity and matrix groups===
+The determinant of a [[matrix product]] of square matrices equals the product of their determinants:
+
+:<math>\det(AB) = \det (A) \det (B).\ </math>
+
+Thus the determinant is a ''multiplicative map''. This property is a consequence of the characterization given above of the determinant as the unique ''n''-linear alternating function of the columns with value&nbsp;1 on the identity matrix, since the function ''M''<sub>''n''</sub>(''K'') → ''K'' that maps ''M'' ↦ det(''AM'') can easily be seen to be ''n''-linear and alternating in the columns of ''M'', and takes the value det(''A'') at the identity. The formula can be generalized  to (square) products of rectangular matrices, giving the [[Cauchy–Binet formula]], which also provides an independent proof of the multiplicative property.
+
+The determinant det(''A'') of a matrix ''A'' is non-zero if and only if ''A'' is invertible or, yet another equivalent statement, if its [[rank (linear algebra)|rank]] equals the size of the matrix. If so, the determinant of the inverse matrix is given by
+:<math>\det (A^{-1}) = \frac 1 {\det (A)}.</math>
+
+In particular, products and inverses of matrices with determinant one still have this property. Thus, the set of such matrices (of fixed size ''n'') form a group known as the [[special linear group]]. More generally, the word "special" indicates the subgroup of another [[matrix group]] of matrices of determinant one. Examples include the [[special orthogonal group]] (which if ''n'' is 2 or 3 consists of all [[rotation matrix|rotation matrices]]), and the [[special unitary group]].
+
+===Laplace's formula and the adjugate matrix===
+[[Laplace expansion|Laplace's formula]] expresses the determinant of a matrix in terms of its [[minor (matrix)|minors]]. The minor ''M''<sub>''i'',''j''</sub> is defined to be the determinant of the (''n''−1)&nbsp;×&nbsp;(''n''−1)-matrix that results from ''A'' by removing the ''i''th row and the ''j''th column. The expression (−1)<sup>''i''+''j''</sup>''M''<sub>''i'',''j''</sub> is known as [[cofactor (linear algebra)|cofactor]]. The determinant of ''A'' is given by
+
+:<math>\det(A) = \sum_{j=1}^n (-1)^{i+j} a_{i,j} M_{i,j} = \sum_{i=1}^n (-1)^{i+j} a_{i,j} M_{i,j}.</math>
+
+Calculating det(''A'') by means of that formula is referred to as expanding the determinant along a row or column. For the example 3&nbsp;×&nbsp;3 matrix 
+:<math>A = \begin{bmatrix}-2&2&-3\\
+-1& 1& 3\\
+2 &0 &-1\end{bmatrix} \,,</math>
+Laplace expansion along the second column (''j'' = 2, the sum runs over ''i'') yields:
+{| border="0"
+|-
+|<math>\det(A)\,</math>
+|<math>=\,</math>
+|<math>(-1)^{1+2}\cdot 2 \cdot \det \begin{bmatrix}-1&3\\ 2 &-1\end{bmatrix} + (-1)^{2+2}\cdot 1 \cdot \det \begin{bmatrix}-2&-3\\ 2&-1\end{bmatrix} + (-1)^{3+2}\cdot 0 \cdot \det \begin{bmatrix}-2&-3\\ -1&3\end{bmatrix} </math>
+|-
+|
+|<math>=\,</math>
+|<math>(-2)\cdot((-1)\cdot(-1)-2\cdot3)+1\cdot((-2)\cdot(-1)-2\cdot(-3))</math>
+|-
+|
+|<math>=\,</math>
+|<math>(-2)\cdot(-5)+8 = 18.\,</math>
+|-
+|
+|}
+However, Laplace expansion is efficient for small matrices only.
+
+The [[adjugate matrix]] adj(''A'') is the transpose of the matrix consisting of the cofactors, i.e.,
+:<math>(\operatorname{adj}(A))_{i,j} = (-1)^{i+j} M_{j,i}.\, </math>
+
+===Sylvester's determinant theorem===
+[[Sylvester's determinant theorem]] states that for ''A'', an ''m''&nbsp;×&nbsp;''n'' matrix, and ''B'', an ''n''&nbsp;×&nbsp;''m'' matrix (so that ''A'' and ''B'' have dimensions allowing them to be multiplied in either order):
+
+:<math>\det(I_\mathit{m} + AB) = \det (I_\mathit{n} + BA)</math>,
+
+where ''I''<sub>''m''</sub> and ''I''<sub>''n''</sub> are the ''m''&nbsp;×&nbsp;''m'' and ''n''&nbsp;×&nbsp;''n'' identity matrices, respectively.
+
+From this general result several consequences follow.
+
+:(a) For the case of column vector ''c'' and row vector ''r'', each with ''m'' components, the formula allows quick calculation of the determinant of a matrix that differs from the identity matrix by a matrix of rank 1:
+
+::<math>\det(I_\mathit{m} + cr) = 1 + rc</math>.
+
+:(b) More generally,<ref>Proofs can be found in http://www.ee.ic.ac.uk/hp/staff/dmb/matrix/proof003.html</ref> for any invertible ''m''&nbsp;×&nbsp;''m'' matrix ''X'',
+
+::<math>\det(X + AB) = \det(X) \det(I_\mathit{n} + BX^{-1}A)</math>,
+
+:(c) For a column and row vector as above, <math>\det(X + cr) = \det(X) (1 + rX^{-1}c)</math>.
+
+== Properties of the determinant in relation to other notions ==
+===Relation to eigenvalues and trace===
+{{Main|Eigenvalues and eigenvectors}}
+
+Determinants can be used to find the [[eigenvalue]]s of the matrix ''A'': they are the solutions of the [[characteristic polynomial|characteristic equation]]
+:<math>\det(A - xI) = 0, \,</math>
+
+where ''I'' is the [[identity matrix]] of the same dimension as ''A''. Conversely, det(''A'') is the product of the [[eigenvectors|eigenvalues]] of ''A'', counted with their [[algebraic multiplicity|algebraic multiplicities]]. The product of all non-zero eigenvalues is referred to as [[pseudo-determinant]].
+
+An [[Hermitian matrix]] is [[positive definite matrix|positive definite]] if all its eigenvalues are positive. [[Sylvester's criterion]] asserts that this is equivalent to the determinants of the submatrices
+:<math>A_k := \begin{bmatrix} a_{1,1} & a_{1,2} & \dots & a_{1,k} \\
+a_{2,1} & a_{2,2} & \dots & a_{2,k} \\
+\vdots &  \vdots & \ddots & \vdots \\
+a_{k,1} & a_{k,2} & \dots & a_{k,k} \end{bmatrix} </math>
+being positive, for all ''k'' between 1 and ''n''.
+
+The [[Trace (linear algebra)|trace]] tr(''A'') is by definition the sum of the diagonal entries of ''A'' and also equals the sum of the eigenvalues. Thus, for complex matrices ''A'',
+:<math>\det(\exp(A)) = \exp(\mathrm{tr}(A))\, </math>
+or, for real matrices ''A'',
+:<math>\mathrm{tr}(A) = \log(\det(\exp(A))). \,</math>
+Here exp(''A'') denotes the [[matrix exponential]] of ''A'', because every eigenvalue λ of ''A'' corresponds to the eigenvalue exp(λ) of exp(''A''). In particular, given any [[matrix logarithm|logarithm]] of ''A'', that is, any matrix ''L'' satisfying
+:<math>\exp(L) = A\,</math>
+the determinant of ''A'' is given by
+:<math>\det(A) = \exp(\mathrm{tr}(L)). \,</math>
+
+For example, for ''n'' = 2, ''n''=3,  and ''n'' = 4, respectively,
+:<math>\det(A) = \bigl( (\mathrm{tr}A)^2 - \mathrm{tr}(A^2)\bigr )/2, \, </math>
+:<math>\det(A) = \Bigl((\mathrm{tr}A)^3 - 3 \mathrm{tr}A ~  \mathrm{tr}(A^2) + 2 \mathrm{tr}(A^3)\Bigr)/6, \,</math>
+:<math>\det(A)= \Bigl( (\mathrm{tr}A)^4 - 6   \mathrm{tr}(A^2)(\mbox{tr}A)^2+3(\mbox{tr}(A^2))^2     +8\mbox{tr}(A^3)~\mbox{tr}A -6\mbox{tr}(A^4)\Bigr)/24~.</math>
+cf. [[Cayley-Hamilton_theorem#Illustration_for_specific_dimensions_and_practical_applications|Cayley-Hamilton theorem]]. Such expressions are deducible from  [[Newton's identities#Computing coefficients|Newton's identities]].
+
+In the general case, <ref>A proof can be found in the Appendix B of L. A. Kondratyuk, M. I. Krivoruchenko (1992), ''Zeitschrift für Physik A'' '''344''', 99-115. {{doi|10.1007/BF01291027}}</ref>
+:<math>
+\det (A)  = \sum_{k_{1},k_{2},\ldots,k_{n}}\prod_{l=1}^{n} \frac{(-1)^{k_{l}+1}}{l^{k_{l}}k_{l}!} \mathrm{tr}(A^{l})^{k_{l}},
+</math>
+where the sum is taken over the set of all integers ''k<sub>l</sub>'' ≥ 0 satisfying the equation
+:<math>
+\sum_{l=1}^{n}lk_{l} = n.
+</math>
+
+An arbitrary  dimension ''n''  identity can be obtained from the  [[Mercator series]] expansion of the logarithm,
+{{Equation box 1
+|indent =:
+|equation =  <math>\begin{align}
+\det(I + A) = \sum_{k=0}^{\infty} \frac{1}{k!} \left( - \sum_{j=1}^{\infty} \frac{(-1)^j}{j}\mathrm{tr}(A^j) \right) ^k\, ,
+\end{align}
+</math>
+|cellpadding= 6
+|border
+|border colour = #0073CF
+|bgcolor=#F9FFF7}}
+where ''I'' is the identity matrix. The sum and the expansion of the exponential  only need to go up to ''n'' instead of ∞, since the determinant cannot exceed ''O(A<sup>n</sup>)''.
+
+===Cramer's rule===
+For a matrix equation
+:<math> Ax = b\,</math>
+
+the solution is given by [[Cramer's rule]]:
+:<math> x_i = \frac{\det(A_i)}{\det(A)} \qquad i = 1, \ldots, n \, </math>
+where ''A''<sub>''i''</sub> is the matrix formed by replacing the ''i''th column of ''A'' by the column vector ''b''. This follows immediately by column expansion of the determinant, i.e.
+:<math> \det(A_i) = \det\begin{bmatrix}a_1, & \ldots, & b, & \ldots, & a_n\end{bmatrix} = \sum_{j=1}^n x_j\det\begin{bmatrix}a_1, & \ldots, a_{i-1}, & a_j, & a_{i+1}, & \ldots, & a_n \end{bmatrix} = x_i \det(A)</math>
+where the vectors <math>a_j</math> are the columns of ''A''.  The rule is also implied by the identity
+
+:<math>A\, \mathrm{adj}(A) = \mathrm{adj}(A)\, A = \det(A)\, I_n.</math>
+
+It has recently been shown that Cramer's rule can be implemented in O(''n''<sup>3</sup>) time,<ref>Ken Habgood, Itamar Arel, ''A condensation-based application of Cramerʼs rule for solving large-scale linear systems'', Journal of Discrete Algorithms, 10 (2012), pp. 98–109.  Available online 1 July 2011, ISSN 1570–8667, 10.1016/j.jda.2011.06.007.
+</ref> which is comparable to more common methods of solving systems of linear equations, such as [[LU decomposition|LU]], [[QR decomposition|QR]], or [[singular value decomposition]].
+
+===Block matrices===
+Suppose ''A'', ''B'', ''C'', and ''D'' are matrices of dimension (''n''&nbsp;×&nbsp;''n''), (''n''&nbsp;×&nbsp;''m''), (''m''&nbsp;×&nbsp;''n''), and (''m''&nbsp;×&nbsp;''m''), respectively. Then
+
+:<math>\det\begin{pmatrix}A& 0\\ C& D\end{pmatrix} = \det\begin{pmatrix}A& B\\ 0& D\end{pmatrix} = \det(A) \det(D) .</math>
+
+This can be seen from the [[Leibniz formula for determinants|Leibniz formula]] or by induction on ''n''. When ''A'' is [[Invertible matrix|invertible]], employing the following identity
+
+:<math>\begin{pmatrix}A& B\\ C& D\end{pmatrix} = \begin{pmatrix}A& 0\\ C& I\end{pmatrix} \begin{pmatrix}I& A^{-1} B\\ 0& D - C A^{-1} B\end{pmatrix}</math>
+
+leads to
+
+:<math>\det\begin{pmatrix}A& B\\ C& D\end{pmatrix} = \det(A) \det(D - C A^{-1} B) .</math>
+
+When ''D'' is invertible, a similar identity with <math>\det(D)</math> factored out can be derived analogously,<ref>These identities were taken from http://www.ee.ic.ac.uk/hp/staff/dmb/matrix/proof003.html</ref> that is,
+
+:<math>\det\begin{pmatrix}A& B\\ C& D\end{pmatrix} = \det(D) \det(A - B D^{-1} C) .</math>
+
+When the blocks are square matrices of the same order further formulas hold. For example, if ''C'' and ''D'' commute (i.e., ''CD'' = ''DC''), then the following formula comparable to the determinant of a 2×2 matrix holds:<ref>Proofs are given in J.R. Silvester, Determinants of Block Matrices, Math. Gazette, 84 (2000), pp. 460–467, available at  http://www.jstor.org/stable/3620776</ref>
+
+:<math>\det\begin{pmatrix}A& B\\ C& D\end{pmatrix} = \det(AD - BC).</math>
+
+When ''A'' = ''D'' and ''B'' = ''C'', the blocks are square matrices of the same order and the following formula holds (even if ''A'' and ''B'' do not commute)
+:<math>\det\begin{pmatrix}A& B\\ B& A\end{pmatrix} = \det(A-B) \det(A+B).</math>
+
+When ''D'' is a 1×1 matrix, ''B'' is a column vector, and ''C'' is a row vector then
+:<math>\det\begin{pmatrix}A& B\\ C& D\end{pmatrix} = (D-1)\det(A) + \det(A-BC) = (D+1)\det{A} - \det(A+BC)\,.</math>
+
+===Derivative===
+By definition, e.g., using the [[Leibniz formula for determinants|Leibniz formula]], the determinant of real (or analogously for complex) square matrices is a [[polynomial|polynomial function]] from '''R'''<sup>''n''&nbsp;×&nbsp;''n''</sup> to '''R'''. As such it is everywhere [[derivative|differentiable]]. Its derivative can be expressed using [[Jacobi's formula]]:
+
+:<math>\frac{\mathrm{d} \det(A)}{\mathrm{d} \alpha} = \operatorname{tr}\left(\operatorname{adj}(A) \frac{\mathrm{d} A}{\mathrm{d} \alpha}\right).</math>
+
+where adj(''A'') denotes the [[adjugate]] of ''A''. In particular, if ''A'' is invertible, we have
+
+:<math>\frac{\mathrm{d} \det(A)}{\mathrm{d} \alpha} =  \det(A) \operatorname{tr}\left(A^{-1} \frac{\mathrm{d} A}{\mathrm{d} \alpha}\right).</math>
+
+Expressed in terms of the entries of ''A'', these are
+
+: <math> \frac{\partial \det(A)}{\partial A_{ij}}= \operatorname{adj}(A)_{ji}= \det(A)(A^{-1})_{ji}.</math>
+
+Yet another equivalent formulation is
+
+:<math>\det(A + \epsilon X) - \det(A) = \operatorname{tr}(\operatorname{adj}(A) X) \epsilon + O(\epsilon^2) = \det(A) \operatorname{tr}(A^{-1} X) \epsilon + O(\epsilon^2)</math>,
+
+using [[big O notation]]. The special case where <math>A = I</math>, the identity matrix, yields
+
+:<math>\det(I + \epsilon X) = 1 + \operatorname{tr}(X) \epsilon + O(\epsilon^2).</math>
+
+This identity is used in describing the [[tangent space]] of certain matrix [[Lie groups]].
+
+If the matrix A is written as <math>A = \begin{bmatrix}\mathbf{a} & \mathbf{b} & \mathbf{c}\end{bmatrix}</math> where '''a''', '''b''', '''c''' are vectors, then the gradient over one of the three vectors may be written as the [[cross product]] of the other two:
+
+: <math> \begin{align}
+
+\nabla_\mathbf{a}\det(A) &= \mathbf{b} \times \mathbf{c} \\
+
+\nabla_\mathbf{b}\det(A) &= \mathbf{c} \times \mathbf{a} \\
+
+\nabla_\mathbf{c}\det(A) &= \mathbf{a} \times \mathbf{b}.
+
+\end{align} </math>
+
+== Abstract algebraic aspects {{anchor|Abstract formulation}}==
+=== Determinant of an endomorphism ===
+The above identities concerning the determinant of products and inverses of matrices imply that [[matrix similarity|similar matrices]] have the same determinant: two matrices ''A'' and ''B'' are similar, if there exists an invertible matrix ''X'' such that ''A'' = ''X''<sup>−1</sup>''BX''. Indeed, repeatedly applying the above identities yields
+
+:<math>\det(A) = \det(X)^{-1} \det(BX) = \det(X)^{-1} \det(B)\det(X) = \det(B) \det(X)^{-1} \det(X) = \det(B).\ </math>
+
+The determinant is therefore also called a [[similarity invariance|similarity invariant]]. The determinant of a [[linear transformation]]
+:<math>T : V \rightarrow V\,</math>
+for some finite dimensional [[vector space]] ''V'' is defined to be the determinant of the matrix describing it, with respect to an arbitrary choice of [[basis (linear algebra)|basis]] in ''V''. By the similarity invariance, this determinant is independent of the choice of the basis for ''V'' and therefore only depends on the endomorphism ''T''.
+
+=== Transformation on alternating multilinear ''n''-forms ===
+The vector space ''W'' of all alternating multilinear ''n''-forms on an ''n''-dimensional vector space ''V'' has dimension one.  To each linear transformation ''T'' on ''V'' we associate a linear transformation ''T''′ on ''W'', where for each ''w'' in ''W'' we define {{nowrap|1=(''T''′''w'')(''x''<sub>1</sub>,...,''x''<sub>''n''</sub>) = ''w''(''Tx''<sub>1</sub>,...,''Tx''<sub>''n''</sub>)}}.  As a linear transformation on a one-dimensional space, ''T''′ is equivalent to a scalar multiple.  We call this scalar the determinant of ''T''.
+
+=== Exterior algebra ===
+The determinant can also be characterized as the unique function
+:<math>D: M_n(K) \to K\, </math>
+from the set of all ''n''&nbsp;×&nbsp;''n'' matrices with entries in a field ''K'' to this field satisfying the following three properties: first, ''D'' is an [[Multilinear map|''n''-linear]] function: considering all but one column of ''A'' fixed, the determinant is linear in the remaining column, that is
+:<math>D (v_1, \dots, v_{i-1}, a v_i + b w, v_{i+1}, \dots, v_n) = a D (v_1, \dots, v_{i-1}, v_i, v_{i+1}, \dots, v_n) + b D (v_1, \dots, v_{i-1}, w, v_{i+1}, \dots, v_n)\,</math>
+for any column vectors ''v''<sub>1</sub>, ..., ''v''<sub>''n''</sub>, and ''w'' and any scalars (elements of ''K'') ''a'' and ''b''. Second, ''D'' is an [[alternating form|alternating]] function: for any matrix ''A'' with two identical columns {{nowrap|''D''(''A'') {{=}} 0}}. Finally, ''D''(''I''<sub>''n''</sub>) = 1. Here ''I''<sub>''n''</sub> is the identity matrix.
+
+This fact also implies that every other ''n''-linear alternating function {{nowrap|''F'': ''M''<sub>''n''</sub>(''K'') → ''K''}} satisfies
+:<math>F(M)=F(I)D(M).\ </math>
+The last part in fact follows from the preceding statement: one easily sees that if ''F'' is nonzero it satisfies ''F''(''I'') ≠ 0, and function that associates ''F''(''M'')/''F''(''I'') to ''M'' satisfies all conditions of the theorem. The importance of stating this part is mainly that it remains valid<ref>[[Roger Godement]], ''Cours d'Algèbre'', seconde édition, Hermann (1966), §23, Théorème 5, p.&nbsp;303</ref> if ''K'' is any [[commutative ring]] rather than a field, in which case the given argument does not apply.
+
+The determinant of a linear transformation ''A'' : ''V'' → ''V'' of an ''n''-dimensional vector space ''V'' can be formulated in a coordinate-free manner by considering the ''n''th [[exterior algebra|exterior power]] Λ<sup>''n''</sup>''V'' of ''V''. ''A'' induces a linear map
+:<math>\Lambda^n A: \Lambda^n V \rightarrow \Lambda^n V</math>
+:<math>v_1 \wedge v_2 \wedge \dots \wedge v_n \mapsto A v_1 \wedge A v_2 \wedge \dots \wedge A v_n.</math>
+
+As Λ<sup>''n''</sup>''V'' is one-dimensional, the map Λ<sup>''n''</sup>A is given by multiplying with some scalar. This scalar coincides with the determinant of ''A'', that is to say
+:<math>(\Lambda^n A)(v_1 \wedge \dots \wedge v_n) = \det(A) \cdot v_1 \wedge \dots \wedge v_n.</math>
+This definition agrees with the more concrete coordinate-dependent definition. This follows from the characterization of the determinant given above. For example, switching two columns changes the parity of the determinant; likewise, permuting the vectors in the exterior product ''v''<sub>1</sub> ∧ ''v''<sub>2</sub>  ∧ ...  ∧ ''v''<sub>''n''</sub> to ''v''<sub>2</sub> ∧ ''v''<sub>1</sub>  ∧ ''v''<sub>3</sub> ∧ ...  ∧ ''v''<sub>''n''</sub>, say, also alters the parity.
+
+For this reason, the highest non-zero exterior power Λ<sup>''n''</sup>(''V'') is sometimes also called the determinant of ''V'' and similarly for more involved objects such as [[vector bundle]]s or [[chain complex]]es of vector spaces. Minors of a matrix can also be cast in this setting, by considering lower alternating forms Λ<sup>''k''</sup>''V'' with ''k'' < n.
+
+=== Square matrices over commutative rings and abstract properties ===
+The determinant of a matrix can be defined, for example using the Leibniz formula, for matrices with entries in any [[commutative ring]]. Briefly, a ring is a structure where addition, subtraction, and multiplication are defined. The commutativity requirement means that the product does not depend on the order of the two factors, i.e.,
+:<math>r \cdot s = s \cdot r</math>
+is supposed to hold for all elements ''r'' and ''s'' of the ring. For example, the [[integer]]s form a commutative ring.
+
+Many{{Clarify|date=April 2011}} of the above statements and notions carry over mutatis mutandis to determinants of these more general matrices: the determinant is multiplicative in this more general situation, and Cramer's rule also holds. A square matrix over a [[commutative ring]] ''R'' is invertible if and only if its determinant is a [[Unit (ring theory)|unit]] in ''R'', that is, an element having a (multiplicative) [[inverse element|inverse]]. (If ''R'' is a field, this latter condition is equivalent to the determinant being nonzero, thus giving back the above characterization.) For example, a matrix ''A'' with entries in '''Z''', the integers, is invertible (in the sense that the inverse matrix has again integer entries) if the determinant is +1 or &minus;1. Such a matrix is called [[unimodular matrix|unimodular]].
+
+The determinant defines a mapping 
+:<math>\mathrm{GL}_n(R) \rightarrow R^\times, \,</math>
+between the group of invertible ''n''&nbsp;×&nbsp;''n'' matrices with entries in ''R'' and the [[multiplicative group]] of units in ''R''. Since it respects the multiplication in both groups, this map is a [[group homomorphism]]. Secondly, given a [[ring homomorphism]] ''f'': ''R'' &rarr; ''S'', there is a map GL<sub>''n''</sub>(''R'') → GL<sub>''n''</sub>(''S'') given by replacing all entries in ''R'' by their images under ''f''. The determinant respects these maps, i.e., given a matrix ''A'' {{=}} (''a''<sub>''i'',''j''</sub>) with entries in ''R'', the identity
+:<math>f(\det((a_{i,j}))) = \det ((f(a_{i,j})))\,</math>
+holds. For example, the determinant of the [[complex conjugate]] of a complex matrix (which is also the determinant of its conjugate transpose) is the complex conjugate of its determinant, and for integer matrices: the reduction modulo&nbsp;''m'' of the determinant of such a matrix is equal to the determinant of the matrix reduced modulo&nbsp;''m'' (the latter determinant being computed using [[modular arithmetic]]). In the more high-brow parlance of [[category theory]], the determinant is a [[natural transformation]] between the two functors GL<sub>''n''</sub> and (⋅)<sup>&times;</sup>.<ref>{{Citation | first = Saunders | last = Mac Lane | authorlink = Saunders Mac Lane | year = 1998 | title = [[Categories for the Working Mathematician]] | series = Graduate Texts in Mathematics '''5''' | edition = (2nd ed.) | publisher = Springer-Verlag | isbn = 0-387-98403-8}}</ref> Adding yet another layer of abstraction, this is captured by saying that the determinant is a morphism of [[algebraic group]]s, from the general linear group to the [[multiplicative group]],
+:<math>\det: \mathrm{GL}_n \rightarrow \mathbb G_m.\,</math>
+
+==Generalizations and related notions==
+=== Infinite matrices ===
+For matrices with an infinite number of rows and columns, the above definitions of the determinant do not carry over directly. For example, in Leibniz' formula, an infinite sum (all of whose terms are infinite products) would have to be calculated. [[Functional analysis]] provides different extensions of the determinant for such infinite-dimensional situations, which however only work for particular kinds of operators.
+
+The [[Fredholm determinant]] defines the determinant for operators known as [[trace class operator]]s by an appropriate generalization of the formula
+:<math>\det(I+A) = \exp(\mathrm{tr}(\log(I+A))). \,</math>
+
+Another infinite-dimensional notion of determinant is the [[functional determinant]].
+
+=== Notions of determinant over non-commutative rings ===
+For square matrices with entries in a non-commutative ring, there are various difficulties in defining determinants in a manner analogous to that for commutative rings. A meaning can be given to the Leibniz formula provided the order for the product is specified, and similarly for other ways to define the determinant, but non-commutativity then leads to the loss of many fundamental properties of the determinant, for instance the multiplicative property or the fact that the determinant is unchanged under transposition of the matrix. Over non-commutative rings, there is no reasonable notion of a multilinear form (if a bilinear form exists with a [[regular element]] of ''R'' as value on some pair of arguments, it can be used to show that all elements of ''R'' commute). Nevertheless various notions of non-commutative determinant have been formulated, which preserve some of the properties of determinants, notably [[quasideterminant]]s and the [[Dieudonné determinant]]. It should also
+be noted that if one considers certain specific classes of matrices with non-commutative elements, then there are examples where one can define the determinant and prove linear algebra theorems which are very similar to their commutative analogs. Examples include: quantum groups and ''q''-determinant; Capelli matrix and [[Capelli determinant]]; super-matrices and [[Berezinian]]; [[Manin matrices]] is the class of matrices which is most close to matrices with commutative elements.
+
+=== Further variants ===
+Determinants of matrices in [[superring]]s (that is, '''Z'''<sub>2</sub>-[[graded ring]]s) are known as [[Berezinian]]s or superdeterminants.<ref>{{Citation | url = http://books.google.com/?id=sZ1-G4hQgIIC&pg=PA116&dq=Berezinian#v=onepage&q=Berezinian&f=false | title = Supersymmetry for mathematicians: An introduction | isbn = 978-0-8218-3574-6 | author1 = Varadarajan | first1 = V. S | year = 2004 | postscript = .}}</ref>
+
+The [[permanent]] of a matrix is defined as the determinant, except that the factors sgn(σ) occurring in Leibniz' rule are omitted. The [[immanant of a matrix|immanant]] generalizes both by introducing a [[character theory|character]] of the [[symmetric group]] S<sub>''n''</sub> in Leibniz' rule.
+
+== Calculation ==
+Determinants are mainly used as a theoretical tool. They are rarely calculated explicitly in [[numerical linear algebra]], where for applications like checking invertibility and finding eigenvalues the determinant has largely been supplanted by other techniques.<ref name=Trefethen>L. N. Trefethen and D. Bau, ''Numerical Linear Algebra'' (SIAM, 1997). e.g. in Lecture 1: "... we mention that the determinant, though a convenient notion theoretically, rarely finds a useful role in numerical algorithms."</ref> Nonetheless, explicitly calculating determinants is required in some situations, and different methods are available to do so.
+
+Naive methods of implementing an algorithm to compute the determinant include using [[Leibniz formula for determinants|Leibniz' formula]] or [[Laplace_expansion|Laplace's formula]]. Both these approaches are extremely inefficient for large matrices, though, since the number of required operations grows very quickly: it is [[Big O notation|of order]] ''n''! (''n'' [[factorial]]) for an ''n''&nbsp;×&nbsp;''n'' matrix ''M''. For example, Leibniz' formula requires to calculate ''n''! products. Therefore, more involved techniques have been developed for calculating determinants.
+
+===Decomposition methods===
+Given a matrix ''A'', some methods compute its determinant by writing ''A'' as a product of matrices whose determinants can be more easily computed. Such techniques are referred to as [[decomposition method]]s. Examples include the [[LU decomposition]], the [[QR decomposition]] or the [[Cholesky decomposition]] (for [[Positive definite matrix|positive definite matrices]]). These methods are of order O(''n''<sup>3</sup>), which is a significant improvement over O(''n''!)
+
+The LU decomposition expresses ''A'' in terms of a lower triangular matrix ''L'', an upper triangular matrix ''U'' and a [[permutation matrix]] ''P'':
+:<math> A = PLU. \,</math>
+The determinants of ''L'' and ''U'' can be quickly calculated, since they are the products of the respective diagonal entries.  The determinant of ''P'' is just the sign <math>\varepsilon</math> of the corresponding permutation (which is +1 for an even number of permutations and is −1 for an uneven number of permutations). The determinant of ''A'' is then
+
+:<math> \det(A) = \varepsilon \det(L)\cdot\det(U), \, </math>
+
+Moreover, the decomposition can be chosen such that ''L'' is a [[unitriangular matrix]] and therefore has determinant&nbsp;1, in which case the formula further simplifies to
+
+:<math> \det(A) = \varepsilon\det(U).</math>
+
+===Further methods===
+If the determinant of ''A'' and the inverse of ''A'' have already been computed, the [[matrix determinant lemma]] allows to quickly calculate the determinant of {{nowrap|''A'' + ''uv''<sup>T</sup>}}, where ''u'' and ''v'' are column vectors.
+
+Since the definition of the determinant does not need divisions, a question arises: do fast algorithms exist that do not need divisions? This is especially interesting for matrices over rings. Indeed algorithms with run-time proportional to ''n''<sup>4</sup> exist. An algorithm of Mahajan and Vinay, and Berkowitz<ref>http://page.inf.fu-berlin.de/~rote/Papers/pdf/Division-free+algorithms.pdf</ref> is based on [[closed ordered walk]]s (short ''clow''). It computes more products than the determinant definition requires, but some of these products cancel and the sum of these products can be computed more efficiently. The final algorithm looks very much like an iterated product of triangular matrices.
+
+If two matrices of order ''n'' can be multiplied in time ''M''(''n''), where ''M''(''n'')&nbsp;≥&nbsp;''n''<sup>''a''</sup> for some ''a''&nbsp;>&nbsp;2, then the determinant can be computed in time O(''M''(''n'')).<ref>J.R. Bunch and J.E. Hopcroft, Triangular factorization and inversion by fast matrix multiplication, ''Mathematics of Computation'', 28 (1974) 231–236.</ref> This means, for example, that an O(''n''<sup>2.376</sup>) algorithm exists based on the [[Coppersmith–Winograd algorithm]].
+
+Algorithms can also be assessed according to their [[bit complexity]], i.e., how many bits of accuracy are needed to store intermediate values occurring in the computation. For example, the [[Gaussian elimination]] (or LU decomposition) methods is of order O(''n''<sup>3</sup>), but the bit length of intermediate values can become exponentially long.<ref>{{Cite conference
+  | first1 = Xin Gui
+  | last1 = Fang
+  | first2 = George
+  | last2 = Havas
+  | title = On the worst-case complexity of integer Gaussian elimination
+  | booktitle = Proceedings of the 1997 international symposium on Symbolic and algebraic computation
+  | conference = ISSAC '97
+  | pages = 28–31
+  | publisher = ACM
+  | year = 1997
+  | location = Kihei, Maui, Hawaii, United States
+  | url = http://perso.ens-lyon.fr/gilles.villard/BIBLIOGRAPHIE/PDF/ft_gateway.cfm.pdf
+  | doi = 10.1145/258726.258740
+  | isbn = 0-89791-875-4}}</ref> The [[Bareiss Algorithm]], on the other hand, is an exact-division method based on [[Sylvester's determinant theorem|Sylvester's identity]] is also of order ''n''<sup>3</sup>, but the bit complexity is roughly the bit size of the original entries in the matrix times ''n''.<ref>{{citation|first=Erwin|last=Bareiss|title= Sylvester's Identity and Multistep Integer-Preserving Gaussian Elimination|pages=565–578|url=http://www.ams.org/journals/mcom/1968-22-103/S0025-5718-1968-0226829-0/S0025-5718-1968-0226829-0.pdf|journal=Mathematics of computation|year=1968|volume=22|issue=102}}</ref>
+
+==History==
+Historically, determinants were considered without reference to matrices: originally, a determinant was defined as a property of a [[system of linear equations]]. The determinant "determines" whether the system has a unique solution (which occurs precisely if the determinant is non-zero). In this sense, determinants were first used in the Chinese mathematics textbook ''[[The Nine Chapters on the Mathematical Art]]'' (九章算術, Chinese scholars, around the 3rd century BC). In Europe, 2 × 2 determinants were considered by [[Gerolamo Cardano|Cardano]] at the end of the 16th century and larger ones by [[Gottfried Leibniz|Leibniz]].<ref name = "Campbell"/><ref name = "Eves">Eves, H: "An Introduction to the History of Mathematics", pages 405, 493&ndash;494, Saunders College Publishing, 1990.</ref><ref>A Brief History of Linear Algebra and Matrix Theory : http://darkwing.uoregon.edu/~vitulli/441.sp04/LinAlgHistory.html</ref><ref>Cajori, F. [http://books.google.com/books?id=bBoPAAAAIAAJ&pg=PA80#v=onepage&f=false ''A History of Mathematics'' p. 80]</ref>
+
+In Europe, [[Gabriel Cramer|Cramer]] (1750) added to the theory, treating the subject in relation to sets of equations. The recurrence law was first announced by [[Bézout]] (1764).
+
+It was [[Vandermonde]] (1771) who first recognized determinants as independent functions.<ref name = "Campbell">Campbell, H: "Linear Algebra With Applications", pages 111–112. Appleton Century Crofts, 1971</ref> [[Laplace]] (1772) <ref>Expansion of determinants in terms of minors: Laplace, Pierre-Simon (de) "Researches sur le calcul intégral et sur le systéme du monde," ''Histoire de l'Académie Royale des Sciences'' (Paris), seconde partie, pages 267–376 (1772).</ref><ref>Muir, Sir Thomas, ''The Theory of Determinants in the historical Order of Development'' [London, England: Macmillan and Co., Ltd., 1906]. {{JFM|37.0181.02}}</ref> gave the general method of expanding a determinant in terms of its complementary [[minor (matrix)|minors]]: Vandermonde had already given a special case. Immediately following, [[Joseph Louis Lagrange|Lagrange]] (1773) treated determinants of the second and third order. Lagrange was the first to apply determinants to questions of [[elimination theory]]; he proved many special cases of general identities.
+
+[[Carl Friedrich Gauss|Gauss]] (1801) made the next advance. Like Lagrange, he made much use of determinants in the [[theory of numbers]]. He introduced the word '''''determinant''''' (Laplace had used ''resultant''), though not in the present signification, but rather as applied to the [[discriminant]] of a [[algebraic form|quantic]]. Gauss also arrived at the notion of reciprocal (inverse) determinants, and came very near the multiplication theorem.
+
+The next contributor of importance is [[Jacques Philippe Marie Binet|Binet]] (1811, 1812), who formally stated the theorem relating to the product of two matrices of ''m'' columns and ''n'' rows, which for the special case of ''m'' = ''n'' reduces to the multiplication theorem. On the same day (November 30, 1812) that Binet presented his paper to the Academy, [[Cauchy]] also presented one on the subject. (See [[Cauchy–Binet formula]].) In this he used the word '''''determinant''''' in its present sense,<ref>The first use of the word "determinant" in the modern sense appeared in: Cauchy, Augustin-Louis “Memoire sur les fonctions qui ne peuvent obtenir que deux valeurs égales et des signes contraires par suite des transpositions operées entre les variables qu'elles renferment," which was first read at the Institute de France in Paris on November 30, 1812, and which was subsequently published in the ''Journal de l'Ecole Polytechnique'', Cahier 17, Tome 10, pages 29–112 (1815).</ref><ref>Origins of mathematical terms: http://jeff560.tripod.com/d.html</ref> summarized and simplified what was then known on the subject, improved the notation, and gave the multiplication theorem with a proof more satisfactory than Binet's.<ref name = "Campbell"/><ref>History of matrices and determinants: http://www-history.mcs.st-and.ac.uk/history/HistTopics/Matrices_and_determinants.html</ref> With him begins the theory in its generality.
+
+The next important figure was [[Carl Gustav Jakob Jacobi|Jacobi]]<ref name = "Eves"/> (from 1827). He early used the functional determinant which Sylvester later called the [[Jacobian matrix and determinant|Jacobian]], and in his memoirs in ''[[Crelle]]'' for 1841 he specially treats this subject, as well as the class of alternating functions which Sylvester has called ''alternants''. About the time of Jacobi's last memoirs, [[James Joseph Sylvester|Sylvester]] (1839) and [[Arthur Cayley|Cayley]] began their work.<ref>The first use of vertical lines to denote a determinant appeared in: Cayley, Arthur "On a theorem in the geometry of position," ''Cambridge Mathematical Journal'', vol. 2, pages 267–271 (1841).</ref><ref>History of matrix notation: http://jeff560.tripod.com/matrices.html</ref>
+
+The study of special forms of determinants has been the natural result of the completion of the general theory. Axisymmetric determinants have been studied by [[Lebesgue]], [[Otto Hesse|Hesse]], and Sylvester; [[persymmetric]] determinants by Sylvester and [[Hermann Hankel|Hankel]]; [[circulant]]s by [[Eugène Charles Catalan|Catalan]], [[William Spottiswoode|Spottiswoode]], [[James Whitbread Lee Glaisher|Glaisher]], and Scott; skew determinants and [[Pfaffian]]s, in connection with the theory of [[orthogonal transformation]], by Cayley; continuants by Sylvester; [[Wronskian]]s (so called by [[Thomas Muir (mathematician)|Muir]]) by [[Elwin Bruno Christoffel|Christoffel]] and [[Ferdinand Georg Frobenius|Frobenius]]; compound determinants by Sylvester, Reiss, and Picquet; Jacobians and [[Hessian matrix|Hessians]] by Sylvester; and symmetric gauche determinants by [[Trudi]]. Of the textbooks on the subject Spottiswoode's was the first. In America, Hanus (1886), Weld (1893), and Muir/Metzler (1933) published treatises.
+
+==Applications==
+===Linear independence===
+As mentioned above, the determinant of a matrix (with real or complex entries, say) is zero if and only if the column vectors of the matrix are linearly dependent. Thus, determinants can be used to characterize linearly dependent vectors. For example, given two linearly independent vectors ''v''<sub>1</sub>, ''v''<sub>2</sub> in '''R'''<sup>3</sup>, a third vector ''v''<sub>3</sub> lies in the [[Plane (geometry)|plane]] [[Linear span|spanned]] by the former two vectors exactly if the determinant of the 3&nbsp;×&nbsp;3 matrix consisting of the three vectors is zero. The same idea is also used in the theory of [[differential equation]]s: given ''n'' functions ''f''<sub>1</sub>(''x''), ..., ''f''<sub>''n''</sub>(''x'') (supposed to be ''n''&minus;1 times differentiable), the [[Wronskian]] is defined to be
+:<math>
+W(f_1, \ldots, f_n) (x)=
+\begin{vmatrix}
+f_1(x) & f_2(x) & \cdots & f_n(x) \\
+f_1'(x) & f_2'(x) & \cdots & f_n' (x)\\
+\vdots & \vdots & \ddots & \vdots \\
+f_1^{(n-1)}(x)& f_2^{(n-1)}(x) & \cdots & f_n^{(n-1)}(x)
+\end{vmatrix}.
+</math>
+It is non-zero (for some ''x'') in a specified interval if and only if the given functions and all their derivatives up to order ''n''−1 are linearly independent. If it can be shown that the Wronskian is zero everywhere on an interval then, in the case of [[analytic function]]s, this implies the given functions are linearly dependent. See [[Wronskian#The_Wronskian_and_linear_independence|the Wronskian and linear independence]].
+
+===Orientation of a basis===
+{{Main|Orientation (vector space)}}
+The determinant can be thought of as assigning a number to every [[sequence]] of ''n'' vectors in '''R'''<sup>''n''</sup>, by using the square matrix whose columns are the given vectors. For instance, an [[orthogonal matrix]] with entries in '''R'''<sup>''n''</sup> represents an [[orthonormal basis]] in [[Euclidean space]]. The determinant of such a matrix determines whether the [[orientation (mathematics)|orientation]] of the basis is consistent with or opposite to the orientation of the [[standard basis]]. If the determinant is +1, the basis has the same orientation. If it is −1, the basis has the opposite orientation.
+
+More generally, if the determinant of ''A'' is positive, ''A'' represents an orientation-preserving [[linear transformation]] (if ''A'' is an orthogonal 2×2 or 3&nbsp;×&nbsp;3 matrix, this is a [[rotation (mathematics)|rotation]]), while if it is negative, ''A'' switches the orientation of the basis.
+
+===Volume and Jacobian determinant===
+As pointed out above, the [[absolute value]] of the determinant of real vectors is equal to the volume of the [[parallelepiped]] spanned by those vectors. As a consequence, if {{nowrap|''f'': '''R'''<sup>''n''</sup> → '''R'''<sup>''n''</sup>}} is the linear map represented by the matrix ''A'', and ''S'' is any [[Lebesgue measure|measurable]] [[subset]] of '''R'''<sup>''n''</sup>, then the volume of ''f''(''S'') is given by |det(''A'')| times the volume of ''S''. More generally, if the linear map {{nowrap|''f'': '''R'''<sup>''n''</sup> → '''R'''<sup>''m''</sup>}} is represented by the ''m''&nbsp;×&nbsp;''n'' matrix ''A'', then the ''n''-[[dimension]]al volume of ''f''(''S'') is given by:
+:<math>\operatorname {volume} (f(S)) = \sqrt{\det(A^\mathrm{T} A)} \times \operatorname{volume}(S).</math>
+
+By calculating the volume of the [[tetrahedron]] bounded by four points, they can be used to identify [[skew line]]s. The volume of any tetrahedron, given its vertices '''a''', '''b''', '''c''', and '''d''', is (1/6)·|det('''a'''&nbsp;−&nbsp;'''b''',&nbsp;'''b'''&nbsp;−&nbsp;'''c''', '''c'''&nbsp;−&nbsp;'''d''')|, or any other combination of pairs of vertices that would form a [[spanning tree]] over the vertices.
+
+For a general [[differentiable function]], much of the above carries over by considering the [[Jacobian matrix]] of ''f''. For
+:<math>f: \mathbf R^n \rightarrow \mathbf R^n,</math>
+the Jacobian is the ''n''&nbsp;×&nbsp;''n'' matrix whose entries are given by
+:<math>D(f) = \left (\frac {\partial f_i}{\partial x_j} \right )_{1 \leq i, j \leq n}. \,</math>
+Its determinant, the [[Jacobian determinant]] appears in the higher-dimensional version of [[integration by substitution]]: for suitable functions ''f'' and an [[open subset]] ''U'' of '''R''''<sup>''n''</sup> (the domain of ''f''), the integral over ''f''(''U'') of some other function {{nowrap|φ: '''R'''<sup>''n''</sup> → '''R'''<sup>''m''</sup>}} is given by
+:<math> \int_{f(U)} \phi(\mathbf{v})\, d \mathbf{v} = \int_U \phi(f(\mathbf{u})) \left|\det(\operatorname{D}f)(\mathbf{u})\right| \,d \mathbf{u}.</math>
+The Jacobian also occurs in the [[inverse function theorem]].
+
+===Vandermonde determinant (alternant)===
+{{Main|Vandermonde matrix}}
+Third order
+:<math>\left|
+\begin{array}{ccc}
+ 1 & 1 & 1 \\
+ x_1 & x_2 & x_3 \\
+ x_1^2 & x_2^2 & x_3^2
+\end{array}
+\right|=\left(x_3-x_2\right)\left(x_3-x_1\right)\left(x_2-x_1\right).</math>
+In general, the ''n''th-order Vandermonde determinant is <ref name = "Gradshteyn">Gradshteyn, I. S., I. M. Ryzhik: "Table of Integrals, Series, and Products", 14.31, Elsevier, 2007.</ref>
+:<math>\left|
+\begin{array}{ccccc}
+ 1 & 1 & 1 & \cdots  & 1 \\
+ x_1 & x_2 & x_3 & \cdots  & x_n \\
+ x_1^2 & x_2^2 & x_3^2 & \cdots  & x_n^2 \\
+ \vdots  & \vdots  & \vdots  & \ddots & \vdots  \\
+ x_1^{n-1} & x_2^{n-1} & x_3^{n-1} & \cdots  & x_n^{n-1}
+\end{array}
+\right|=\prod _{1\leq i<j\leq n} \left(x_j-x_i\right),</math>
+where the right-hand side is the continued product of all the differences that can be formed from the ''n''(''n''−1)/2 pairs of numbers taken from ''x''<sub>1</sub>, ''x''<sub>2</sub>, ..., ''x''<sub>''n''</sub>, with the order of the differences taken in the reversed order of the suffixes that are involved.
+
+===Circulants===
+{{Main|Circulant matrix}}
+Second order
+:<math>\left|
+\begin{array}{cc}
+ x_1 & x_2 \\
+ x_2 & x_1
+\end{array}
+\right|=\left(x_1+x_2\right)\left(x_1-x_2\right).</math>
+Third order
+:<math>\left|
+\begin{array}{ccc}
+ x_1 & x_2 & x_3 \\
+ x_3 & x_1 & x_2 \\
+ x_2 & x_3 & x_1
+\end{array}
+\right|=\left(x_1+x_2+x_3\right)\left(x_1+\omega  x_2+\omega ^2x_3\right)\left(x_1+\omega ^2x_2+\omega  x_3\right),</math>
+where ω and ω<sup>2</sup> are the complex cube roots of 1. In general, the ''n''th-order circulant determinant is<ref name = "Gradshteyn"/>
+:<math>\left|
+\begin{array}{ccccc}
+ x_1 & x_2 & x_3 & \cdots  & x_n \\
+ x_n & x_1 & x_2 & \cdots  & x_{n-1} \\
+ x_{n-1} & x_n & x_1 & \cdots  & x_{n-2} \\
+ \vdots  & \vdots  & \vdots  & \ddots & \vdots  \\
+ x_2 & x_3 & x_4 & \cdots  & x_1
+\end{array}
+\right|=\prod _{j=1}^n \left(x_1+x_2\omega _j+x_3\omega _j^2+\ldots +x_n\omega _j^{n-1}\right),</math>
+where ω<sub>''j''</sub> is an ''n''th root of 1.
+
+==See also==
+*[[Dieudonné determinant]]
+*[[Functional determinant]]
+*[[Immanant of a matrix|Immanant]]
+*[[Matrix determinant lemma]]
+*[[Permanent]]
+*[[Pfaffian]]
+*[[Slater determinant]]
+
+==Notes==
+{{Reflist|group=nb}}
+{{Reflist}}
+
+==References==
+{{see also|Linear algebra#Further reading}}
+* {{Citation | last = Axler | first = Sheldon Jay | authorlink=Sheldon Axler | year = 1997 | title = Linear Algebra Done Right | publisher = Springer-Verlag | edition = 2nd | isbn = 0-387-98259-0 }}
+* {{Citation | last1=de Boor | first1=Carl | author1-link=Carl R. de Boor | title=An empty exercise | url=http://ftp.cs.wisc.edu/Approx/empty.pdf | doi=10.1145/122272.122273 |year=1990 | journal=ACM SIGNUM Newsletter | volume=25 | issue=2 | pages=3–7}}.
+* {{Citation
+ | last = Lay
+ | first = David C.
+ | date = August 22, 2005
+ | title = Linear Algebra and Its Applications
+ | publisher = Addison Wesley
+ | edition = 3rd
+ | isbn = 978-0-321-28713-7
+}}
+* {{Citation
+ | last = Meyer
+ | first = Carl D.
+ | date = February 15, 2001
+ | title = Matrix Analysis and Applied Linear Algebra
+ | publisher = Society for Industrial and Applied Mathematics (SIAM)
+ | isbn = 978-0-89871-454-8
+ | url = http://www.matrixanalysis.com/DownloadChapters.html
+}}
+* {{citation | last=Muir | first=Thomas | authorlink=Thomas Muir (mathematician) | title=A treatise on the theory of determinants | others=Revised and enlarged by William H. Metzler | origyear=1933 | year=1960 | publisher=Dover | location=New York, NY }}
+* {{Citation
+ | last = Poole
+ | first = David
+ | year = 2006
+ | title = Linear Algebra: A Modern Introduction
+ | publisher = Brooks/Cole
+ | edition = 2nd
+ | isbn = 0-534-99845-3
+}}
+* {{Citation
+ | last = Anton
+ | first = Howard
+ | year = 2005
+ | title = Elementary Linear Algebra (Applications Version)
+ | publisher = Wiley International
+ | edition = 9th
+}}
+* {{Citation
+ | last = Leon
+ | first = Steven J.
+ | year = 2006
+ | title = Linear Algebra With Applications
+ | publisher = Pearson Prentice Hall
+ | edition = 7th
+}}
+
+==External links==
+{{wikibooks
+ |1= Linear Algebra
+ |2= Linear Algebra#Determinants
+ |3= Determinants
+}}
+*{{SpringerEOM|title=Determinant|id=Determinant&oldid=12692|Suprunenko=|first=D.A.}}
+*{{MathWorld|title=Determinant|urlname=Determinant}}
+*{{MacTutor|class=HistTopics||id=Matrices_and_determinants|title=Matrices and determinants}}
+*[http://sole.ooz.ie/en WebApp to calculate determinants and descriptively solve systems of linear equations]
+*[http://people.revoledu.com/kardi/tutorial/LinearAlgebra/MatrixDeterminant.html Determinant Interactive Program and Tutorial]
+*[http://matrixcalc.org/en.index.html Online Matrix Calculator]
+*[http://www.umat.feec.vutbr.cz/~novakm/determinanty/en/ Linear algebra: determinants.] Compute determinants of matrices up to order 6 using Laplace expansion you choose.
+*[http://www.economics.soton.ac.uk/staff/aldrich/matrices.htm Matrices and Linear Algebra on the Earliest Uses Pages]
+*[http://algebra.math.ust.hk/course/content.shtml Determinants explained in an easy fashion in the 4th chapter as a part of a Linear Algebra course.]
+*[http://khanexercises.appspot.com/video?v=H9BWRYJNIv4 Instructional Video on taking the determinant of an nxn matrix (Khan Academy)]
+*[http://www.elektro-energetika.cz/calculations/matreg.php?language=english Online matrix calculator (determinant, track, inverse, adjoint, transpose)] Compute determinant of matrix up to order 8
+
+[[Category:Determinants| ]]
+[[Category:Matrix theory]]
+[[Category:Linear algebra]]
+[[Category:Homogeneous polynomials]]
+[[Category:Algebra]]
+
+{{Link FA|ca}}
+{{Link FA|fr}}
+{{Link FA|zh}}

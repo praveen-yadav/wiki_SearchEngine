@@ -1,0 +1,138 @@
+{{Use mdy dates|date=May 2012}}
+{{Refimprove|date=January 2009}}
+{{Infobox video game
+| title       = Asteroids
+| image       = [[Image:Asteroids-arcadegame.jpg|256px]]
+| caption     = Promotional flyer for ''Asteroids''.
+| developer   = [[Atari|Atari Inc.]]
+| publisher   = Atari Inc.
+| distributor =
+| designer    = [[Lyle Rains]] and [[Ed Logg]]
+| released    = '''Arcade'''{{vgrelease|NA=November 1979}}'''Atari 2600'''{{vgrelease|INT=1981}}'''Atari 7800'''{{vgrelease|INT=1987}}'''Atari Lynx'''{{vgrelease|NA=1995}}{{vgrelease|EU=1995}}
+| genre       = [[Shoot 'em up#Multi-directional shooter|Multi-directional shooter]]
+| modes       = Up to 2 players, alternating turns
+| platforms   = [[Arcade game|Arcade]], [[#Ports and follow-ups|Various]]
+| cabinet     = Upright and cocktail
+| cpu         = [[MOS Technology 6502]]
+| sound       = discrete circuits
+| display     = [[Vector monitor]]
+}}
+'''''Asteroids''''' is an arcade multi-directional shooter released in November 1979 by [[Atari Inc.]] It was one of the most popular and influential games of the [[Golden age of video arcade games|golden age of arcade games]], selling 70,000 [[Video game arcade cabinet|arcade cabinets]].<ref>{{cite book|last=Wolf|first=Mark J.P.|title=The video game explosion: A history from Pong to Playstation and beyond|year=2008|publisher=Greenwood Press|location=Westport, Conn.|isbn=0-313-33868-X|page=68|quote=In November of that year, Atari also released Asteroids, which became an arcade classic and one of the best-known vector games, exceeding 70,000 units produced (the production line for Lunar Lander was eventually switched over to producing Asteroids units).}}</ref> ''Asteroids'' uses a [[vector display]] and a two-dimensional view that wraps around in both screen axes. The player controls a spaceship in an [[asteroid]] field which is periodically traversed by [[flying saucer]]s. The object of the game is to shoot and destroy asteroids and saucers while not colliding with either, or being hit by the saucers' counter-fire.
+
+==Description==
+The game was conceived by Lyle Rains and programmed and designed by Dominic Walsh and Ed Logg.<ref>{{Cite web | url=http://www.allgame.com/game.php?id=15438 | work=allgame | publisher=Macrovision | title=Asteroids | author=Brett Alan Weiss | accessdate=June 6, 2009}}</ref> It was implemented on hardware developed by Howard Delman. ''Asteroids'' was a hit in the United States and became Atari's best selling game of all time.<ref name="atarisite">http://www.atari.com/games/atari_classics</ref> Atari had been in the process of manufacturing another vector game, ''[[Lunar Lander (arcade game)|Lunar Lander]]'', but demand for ''Asteroids'' was so high "that several hundred ''Asteroids'' games were shipped in ''Lunar Lander'' cabinets."<ref>
+{{cite book
+  | last1 = Demaria
+  | first1 = Russel
+  | last2 = Wilson
+  | first2 = Johnny I.
+  | title = High Score! The Illustrated History of Electronic Games
+  | year = 2004
+  | edition = 2nd
+}}</ref> ''Asteroids'' was so popular that [[video arcade]] operators sometimes had to install larger boxes to hold the number of coins that were spent by players.
+
+''Asteroids'' is also the first game to use Atari's "[[QuadraScan]]" vector-refresh system;<ref name="asteroidsflyer">Asteroids Flyer, 1979, Atari, Inc.</ref> a full-color version known as "Color-QuadraScan" was later developed for games such as ''[[Space Duel]]'' and ''[[Tempest (arcade game)|Tempest]]''.
+
+==Gameplay==
+[[Image:Asteroi1.png|thumb|left|Asteroids screenshot]]
+The objective of ''Asteroids'' is to score as many points as possible by destroying asteroids and flying saucers. The player controls a [[triangle|triangular]]-shaped [[spacecraft|ship]] that can rotate left and right, fire shots straight forward, and thrust forward. As the ship moves, [[momentum]] is not conserved – the ship eventually comes to a stop again when not thrusting. The player can also send their ship into [[hyperspace (science fiction)|hyperspace]], causing it to disappear and reappear in a random location on the screen (with the risk of self-destructing or appearing on top of an asteroid).
+
+Each stage starts with a few large asteroids drifting in random directions on the screen. Objects [[Wraparound (video games)|wrap around screen edges]] – for instance, an asteroid that drifts off the top edge of the screen reappears at the bottom and continues moving in the same direction. As the player shoots asteroids, they break into smaller asteroids that frequently move faster and are more difficult to hit. Smaller asteroids also score higher points. Periodically, a flying saucer appears on one side of the screen and moves across to the other before disappearing again. The saucers are of two kinds: Large saucers fire in random directions, while small saucers aim at the player's ship.
+
+The minimalist soundtrack features a memorable deep-toned electronic "heartbeat", which quickens as the asteroid density is reduced by the player's fire.
+
+Once the screen has been cleared of all asteroids and flying saucers, a new set of large asteroids appears. The number of asteroids increases each round up to a maximum of 12. The game is over when the player has lost all of their lives.
+
+Like many games of its time, ''Asteroids'' contains several [[Software bug|bugs]] that were mostly the result of the original programmers underestimating the game's popularity or the skill of its players. The maximum possible score in this game is 99,990 points, after which it "[[integer overflow|rolls over]]" back to zero. Other common terms for this bug were "turn over" and "flip over".  Also, an oversight in the small saucer's programming gave rise to a popular strategy known as "lurking" — because the saucer could only shoot directly at the player's position on the screen, the player could "hide" at the opposite end of the screen and shoot across the screen boundary, while remaining relatively safe.  Another popular method of exploiting this bug was to simply use thrust to keep the ship in motion with 1 or 2 asteroids in the play field, allowing the player to pick off as many 1,000 point UFOs as possible. This led to experienced players being able to play indefinitely on a single credit.<ref>{{Cite journal | url=http://www.gamearchive.com/General/Articles/ClassicNews/1981/Esquire2-81-pg62.htm  | journal=FHM | volume=2 | issue=81 | page=62 | title=Invasion OF THE Asteroids | last=Owen | first=David | quote=players began to figure out that if they picked off all but one or two little asteroids, they could safely lurk around the edges of the screen and wait for the saucer to appear |archiveurl = http://web.archive.org/web/20080801211047/http://www.gamearchive.com/General/Articles/ClassicNews/1981/Esquire2-81-pg62.htm |archivedate = August 1, 2008}}</ref> This oversight was addressed in the game's sequel, ''[[Asteroids Deluxe]]'', and led to significant changes in the way game developers designed and tested their games in the future.{{Citation needed|date=July 2007}}
+
+On some early versions of the game, it was also possible to hide the ship in the score area indefinitely without being hit by asteroids.<ref>[http://www.atari800xl.org/asteroids/ Atari 800XL]</ref>
+
+==Technical description==
+The ''Asteroids'' arcade machine is a [[vector game]], in which the graphics are composed entirely of lines which are drawn on a vector monitor. The hardware consists primarily of a standard MOS 6502 CPU, which executes the game program, and the [[Atari Digital Vector Generator|Digital Vector Generator]] (DVG), vector processing [[Electronic circuit|circuitry]] developed by Atari themselves. As the 6502 by itself was too slow to control both the game play and the vector hardware at the same time, the latter task was delegated to the DVG.
+
+The original design concepts of the DVG came out of Atari's off-campus research lab in [[Grass Valley, California]], in 1978. The prototype was given to engineer Howard Delman, who refined it, productized it, and then added additional features for Atari's first vector game, ''Lunar Lander''. When it was decided that ''Asteroids'' would be a vector game as well, Delman modified a ''Lunar Lander'' circuit board for Ed Logg. More memory was added, as was the circuitry for the many sounds in the game. That original ''Asteroids'' prototype board still exists, and is currently in Delman's personal collection.
+
+For each picture frame, the 6502 writes graphics commands for the DVG into a defined area of [[RAM]] (the vector RAM), and then asks the DVG to draw the corresponding vector image on the screen. The DVG reads the commands and generates appropriate signals for the vector monitor. There are DVG commands for positioning the cathode ray, for drawing a line to a specified destination, calling a subroutine with further commands, and so on.
+
+''Asteroids'' also features various sound effects, each of which is implemented by its own circuitry. There are seven distinct audio circuits, designed by Howard Delman. The CPU activates these audio circuits (and other hardware components) by writing to special memory addresses (memory mapped ports). The inputs from the player's controls (buttons) are also mapped into the CPU [[address space]]
+
+The main ''Asteroids'' game program uses only 6 [[kilobyte|KB]] of [[Read-only memory|ROM]] code. Another 2 KB of vector ROM contains the descriptions of the main graphical elements (rocks, saucer, player's ship, explosion pictures, letters, and digits) in the form of DVG commands.
+
+==Legacy==
+Because of the game's success, a sequel followed in 1981 dubbed ''Asteroids Deluxe''.<ref name="atari_production99">{{cite web|title=Production Numbers|url=http://www.atarigames.com/atarinumbers90s.pdf|publisher=Atari|accessdate=March 19, 2012|year=1999}}</ref> As in the original game, the onscreen objects were tinted blue, and a shield that depleted with use replaced the hyperspace feature. In addition, the asteroids rotated, a new enemy dubbed a ''killer satellite'' was added to the game, which would, when shot, break apart into three smaller ships that homed on the player's position. Also included was a "3-D" monitor surround that glowed in the white-UV light.  The ship and asteroids appeared to "float" over this cardboard backdrop.  Two more sequels followed this, ''Space Duel'' in 1982 and ''[[Blasteroids]]'' in 1987.
+
+The [[Killer List of Videogames]] (KLOV) credits this game as one of the "Top 100 Videogames." Readers of the KLOV credit it as the seventh most popular game.{{Citation needed|date=December 2007}}
+
+The gameplay in ''Asteroids'' was imitated by many games that followed. For example, one of the objects of ''[[Sinistar]]'' is to shoot asteroids to get them to release resources which the player needs to collect.
+
+==Ports and follow-ups==
+[[Image:Asteroids 360.jpg|thumb|right|[[Xbox Live Arcade]] port.]]
+''Asteroids'' has been ported to multiple systems, including many of Atari's systems ([[Atari 2600]], [[Atari 7800|7800]], [[Atari Lynx]]), and many others. The 2600 port was the first game to use a [[bank switching|bank-switched]] cartridge, doubling available ROM space. A port was in development for the [[Atari 5200|5200]] and advertised as a launch title but never officially released, although an unofficial release was produced by [[AtariAge]]. The Atari 7800 version was a launch title and featured co-operative play, it was the built in game on the European Atari 7800 release. 1993 saw a release for PCs with Windows 3.1 as part of the original ''[[Microsoft Arcade]]'' package. Also, a new version of ''Asteroids'' was developed for [[PlayStation (console)|PlayStation]], [[Nintendo 64]], [[Microsoft Windows|Windows]], and the [[Game Boy Color]] in the late 1990s. A port was also included on Atari's [[Atari Cosmos|Cosmos]] system, but the system never saw release. Many of the recent [[TV Games]] series of old Atari games have included either the 2600 or arcade versions of ''Asteroids''. Atari also used the game for its other late '90s and 2000s anthology series.
+
+'''''Asteroids Hyper 64''''' is an update to the 1979 arcade shooter ''Asteroids'' released for the [[Nintendo 64]] on December 14, 1999. It includes fully [[3D computer graphics|3D]] environments, new weapons, over 50 levels, and a 2 player split-screen mode; including a Versus mode, a Co-op mode, and a Team mode.
+
+In 2001, Infogrames released ''[[Atari Anniversary Edition]]'' for the Sega Dreamcast and PC compatibles which included emulated versions of Asteroids and other classics.
+
+In 2004, ''Asteroids'' (Including both the Atari 2600 port and the arcade original, along with ''Asteroids Deluxe'') were included as part of ''[[Atari Anthology]]'' for both [[Xbox (console)|Xbox]] and [[PlayStation 2]], using Digital Eclipse's emulation technology. (This package was released for the PC a year earlier under the title ''Atari: 80 Classic Games in One''.)
+
+''Asteroids'' was released via Xbox Live Arcade for the [[Xbox 360]] on November 28, 2007, with an option for special revamped HD graphics and a high-speed "throttle monkey" mode.<ref>{{Cite web | url=http://gamerscoreblog.com/team/archive/2007/11/26/554786.aspx | work=Gamerscore Blog | title=Asteroids and Asteroids Deluxe on Xbox LIVE Arcade | author=Tom Eberspecher | date=November 26, 2007 | accessdate=June 7, 2009 | publisher=Microsoft Games Global Marketing team| archiveurl= http://web.archive.org/web/20090602224018/http://gamerscoreblog.com/team/archive/2007/11/26/554786.aspx| archivedate= June 02 2009 <!--DASHBot-->| deadurl= no}}</ref>
+
+Both ''Asteroids'' and ''Asteroids Deluxe'' were also re-released to [[Microsoft]]{{'}}s ''[[Game Room]]'' download service for the Xbox 360 and [[Microsoft Windows|Windows-based]] [[personal computer|PC]]s in 2010.  The Atari 2600 version of ''Asteroids'' was also released in July 2010 for ''Game Room''.
+
+[[Glu Mobile]] released a licensed cellular phone version of ''Asteroids'' that includes the original game as well as updated gameplay, skins, and modes.<ref>{{Cite web | url=http://www.glu.com/noram/pages/product.aspx?pr=Asteroids | publisher=Glu Mobile | work=Glu Games | title=Asteroids | accessdate=June 7, 2009 |archiveurl=http://web.archive.org/web/20071006191900/http://www.glu.com/noram/pages/product.aspx?pr=Asteroids |archivedate=October 6, 2007}}</ref>''Game Room – Asteroids'' was released on [[Windows Phone]] on February 23, 2011.
+
+'''''Asteroids''''' was released as part of Atari Greatest Hits for iPhone on June, 2011.<ref>http://itunes.apple.com/us/app/ataris-greatest-hits/id422966028?mt=8</ref>
+
+'''''Asteroids Gunner''''' was released on the iOS and Android app stores on November, 2011.<ref>http://toucharcade.com/2011/11/08/atari-announces-new-asteroids-game/</ref>
+
+===Clones and bootlegs===
+There have been many unofficial ports of ''Asteroids'' produced. These include near-copies such as [[Acornsoft|Acornsoft's]] ''[[Meteors (video game)|Meteors]]'', and [[Ambrosia Software]]'s [[Maelstrom (1992 video game)|Maelstrom]], as well as those with expanded gameplay and background, such as ''[[Asterax]]'', ''[[Astrogeddon]]'', ''[[Stardust (video game)|Stardust]]'', ''[[Spheres of Chaos]]'', and ''Astro Fire''. The [[Vectrex]] had a built-in similar game called "Minestorm".  Even on the Sony PSP, [http://www.youtube.com/watch?v=iNigHGL4esI homebrew Asteroids] were made on that platform when hacked.
+
+==Highest score==
+On November 13, 1982, 15 year old [[Scott Safran]] of Cherry Hill, New Jersey, set a [[world record]] of 41,336,440 points on the arcade game ''Asteroids''. He beat the 40,101,910 point score set by Leo Daniels of Carolina Beach on February 6, 1982. To congratulate Safran on his accomplishment, the [[Twin Galaxies]] Intergalactic Scoreboard searched for him for four years until 2002, when it was discovered that he had died in an accident in 1989.<ref name="twin">{{Cite web | url=http://www.wired.com/science/discoveries/news/2008/11/dayintech_1113 | title=Nov. 13, 1982: Teen Sets Asteroids Record in 3-Day Marathon | publisher=Conde Nast | work=Wired | date=November 13, 2008 | accessdate=June 7, 2009 | author=Chris Kohler}}</ref> In a ceremony in Philadelphia on April 27, 2002, Walter Day of Twin Galaxies presented an award to the surviving members of Safran's family, commemorating the Asteroid Champion's achievement.<ref name="twin" />
+
+On April 6, 2010, John McAllister set a preliminary record score of 41,338,740 after 58 hours, streamed live over the Internet, breaking the record set by Scott Safran 27 years earlier.<ref>{{Cite web | url=http://www.wired.com/gamelife/2010/04/asteroids-record/ | title=Asteroids Player Smashes 27-Year-Old High Score | publisher=Wired | date=April 5, 2010 | accessdate=April 6, 2010| archiveurl= http://web.archive.org/web/20100407043933/http://www.wired.com/gamelife/2010/04/asteroids-record/| archivedate= April 07 2010 <!--DASHBot-->| deadurl= no}}</ref>
+
+==Popular culture==
+* In July 2009, it was revealed that [[Universal Studios]] had won the rights to adapt the game into a film. Matthew Lopez will write the script and [[Lorenzo di Bonaventura]] will be producing.<ref>{{Cite web|last=Kit |first=Borys |url=http://www.reuters.com/article/2009/07/03/us-asteroids-idUSTRE56208N20090703 |title='Asteroids' lands at Universal |publisher=Reuters |date=July 2, 2009}}</ref>
+
+==References==
+{{reflist|colwidth=30em}}
+
+==External links==
+{{Commons category|Asteroids (video game)}}
+* {{KLOV game|id=6939|name=Asteroids}}
+* {{Arcade History|id=126|name=Asteroids}}
+* [http://atari.com/arcade#!/arcade/asteroids/ Official online version of ''Asteroids''] at [[Atari, Inc. (Atari, SA subsidiary)|Atari]]
+* {{moby game|id=/asteroids|name=''Asteroids''}}
+* {{StrategyWiki|Asteroids}}
+* [http://www.ataritimes.com/article.php?showarticle=174 All About ''Asteroids''] at Atari Times
+* [http://www.thedoteaters.com/p2_stage2.php Article at The Dot Eaters], featuring a history of ''Asteroids''
+*[http://www.next-gen.biz/features/making-asteroids Edge Magazine The Making Of: Asteroids]
+
+{{DEFAULTSORT:Asteroids (Video Game)}}
+[[Category:1979 video games]]
+[[Category:Ed Logg games]]
+[[Category:Amiga games]]
+[[Category:Arcade games]]
+[[Category:Atari 2600 games]]
+[[Category:Cancelled Atari 5200 games]]
+[[Category:Atari 7800 games]]
+[[Category:IOS games]]
+[[Category:Atari 8-bit family games]]
+[[Category:Atari arcade games]]
+[[Category:Atari Lynx games]]
+[[Category:Game Boy Color games]]
+[[Category:Mac OS games]]
+[[Category:Mobile games]]
+[[Category:Windows games]]
+[[Category:PlayStation games]]
+[[Category:Nintendo 64 games]]
+[[Category:Xbox 360 Live Arcade games]]
+[[Category:Xbox 360 games]]
+[[Category:Multidirectional shooters]]
+[[Category:Vector arcade games]]
+[[Category:Multiplayer video games]]
+[[Category:Android games]]
+[[Category:Video games of the Museum of Modern Art]]
+[[Category:Asteroids in fiction]]

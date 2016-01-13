@@ -1,0 +1,205 @@
+{{other uses}}
+
+In [[chemistry]], '''concentration''' is the abundance of a constituent divided by the total volume of a mixture. Several types of mathematical description can be distinguished: [[Concentration#Mass concentration|mass concentration]], [[Concentration#Molar concentration|molar concentration]], [[Concentration#Number concentration|number concentration]], and [[Concentration#Volume concentration|volume concentration]].<ref name="goldbook">{{GoldBookRef | file = C01222 | title = concentration}}</ref> The term concentration can be applied to any kind of chemical mixture, but most frequently it refers to [[solute]]s and solvents in [[solution]]s. The molar (amount) concentration has variants such as [[normal concentration]] and [[osmotic concentration]].
+
+==Qualitative description==
+
+[[Image:Dilution-concentration simple example.jpg|frame|right|These glasses containing red dye demonstrate qualitative changes in concentration. The solutions on the left are more dilute, compared to the more concentrated solutions on the right.]]
+
+Often in informal, non-technical language, concentration is described in a [[qualitative data|qualitative]] way, through the use of adjectives such as "dilute" for solutions of relatively low concentration and "concentrated" for solutions of relatively high concentration. To '''concentrate''' a solution, one must add more [[solution|solute]] (for example, alcohol), or reduce the amount of [[solvent]] (for example, water). By contrast, to '''dilute''' a solution, one must add more solvent, or reduce the amount of solute. Unless two substances are ''fully'' [[miscible]] there exists a concentration at which no further solute will dissolve in a solution. At this point, the solution is said to be [[Saturation (chemistry)|saturated]]. If additional solute is added to a saturated solution, it will not dissolve, except in certain circumstances, when [[supersaturation]] may occur. Instead, [[Phase (matter)#Phase separation|phase separation]] will occur, leading to coexisting phases, either completely separated or mixed as a [[suspension (chemistry)|suspension]]. The point of saturation depends on many variables such as ambient temperature and the precise chemical nature of the solvent and solute.
+
+==Quantitative notation==
+
+There are four quantities that describe concentration:
+
+===Mass concentration===
+{{main|Mass concentration (chemistry)}}
+
+The mass concentration <math>\rho_i</math> is defined as the [[mass]] of a constituent <math>m_i</math> divided by the volume of the mixture <math>V</math>:
+
+:<math>\rho_i = \frac {m_i}{V}.</math>
+
+The [[International System of Units|SI unit]] is kg/m<sup>3</sup>.
+
+===Molar concentration===
+{{main|Molar concentration}}
+
+The molar concentration <math>c_i</math> is defined as the [[amount of substance|amount]] of a constituent <math>n_i</math> divided by the volume of the mixture <math>V</math>:
+
+:<math>c_i = \frac {n_i}{V}.</math>
+
+The [[International System of Units|SI unit]] is mol/m<sup>3</sup>. However, more commonly the unit mol/L (= mol/dm<sup>3</sup>) is used.
+
+===Number concentration===
+{{main|Number concentration}}
+
+The number concentration <math>C_i</math> is defined as the number of entities of a constituent <math>N_i</math> in a mixture divided by the volume of the mixture <math>V</math>:
+
+:<math>C_i = \frac{N_i}{V}.</math>
+
+The [[International System of Units|SI unit]] is 1/m<sup>3</sup>.
+
+===Volume concentration===
+{{main|Volume concentration}}
+
+The '''volume concentration''' <math>\phi_i</math> (also called '''volume fraction''') is defined as the volume of a constituent <math>V_i</math> divided by the volume of all constituents of the mixture <math>V</math> prior to mixing:
+
+:<math>\phi_i = \frac {V_i}{V}.</math>
+
+The [[International System of Units|SI unit]] is m<sup>3</sup>/m<sup>3</sup>.
+
+==Related quantities==
+
+Several other quantities can be used to describe the composition of a mixture. Note that these should '''not''' be called concentrations.<ref name="goldbook" />
+
+===Normality===
+{{main|Normality (chemistry)}}
+
+Normality is defined as the molar concentration <math>c_i</math> divided by an equivalence factor <math>f_\mathrm{eq}</math>. Since the definition of the equivalence factor may not be unequivocal, [[IUPAC]] and [[NIST]] discourage the use of normality.
+
+===Molality===
+{{main|Molality}}
+(Not to be confused with [[Molarity]])
+
+The molality of a solution <math>b_i</math> is defined as the [[amount of substance|amount]] of a constituent <math>n_i</math> divided by the mass of the solvent <math>m_\mathrm{solvent}</math> ('''not''' the mass of the solution):
+
+:<math>b_i = \frac{n_i}{m_\mathrm{solvent}}.</math>
+
+The [[International System of Units|SI unit]] for molality is mol/kg.
+
+===Mole fraction===
+{{main|Mole fraction}}
+
+The mole fraction <math>x_i</math> is defined as the [[amount of substance|amount]] of a constituent <math>n_i</math> divided by the total amount of all constituents in a mixture <math>n_\mathrm{tot}</math>:
+
+:<math>x_i = \frac {n_i}{n_\mathrm{tot}}.</math>
+
+The [[International System of Units|SI unit]] is mol/mol. However, the deprecated [[parts-per notation]] is often used to describe small mole fractions.
+
+===Mole ratio===
+{{main|Mixing ratio}}
+
+The mole ratio <math>r_i</math> is defined as the [[amount of substance|amount]] of a constituent <math>n_i</math> divided by the total amount of all ''other'' constituents in a mixture:
+
+:<math>r_i = \frac{n_i}{n_\mathrm{tot}-n_i}.</math>
+
+If <math>n_i</math> is much smaller than <math>n_\mathrm{tot}</math>, the mole ratio is almost identical to the mole fraction.
+
+The [[International System of Units|SI unit]] is mol/mol. However, the deprecated [[parts-per notation]] is often used to describe small mole ratios.
+
+===Mass fraction===
+{{main|Mass fraction (chemistry)}}
+
+The mass fraction <math>w_i</math> is the fraction of one substance with mass <math>m_i</math> to the mass of the total mixture <math>m_\mathrm{tot}</math>, defined as:
+
+:<math>w_i = \frac {m_i}{m_\mathrm{tot}}.</math>
+
+The [[International System of Units|SI unit]] is kg/kg. However, the deprecated [[parts-per notation]] is often used to describe small mass fractions.
+
+===Mass ratio===
+{{main|Mixing ratio}}
+
+The mass ratio <math>\zeta_i</math> is defined as the mass of a constituent <math>m_i</math> divided by the total mass of all ''other'' constituents in a mixture:
+
+:<math>\zeta_i = \frac{m_i}{m_\mathrm{tot}-m_i}.</math>
+
+If <math>m_i</math> is much smaller than <math>m_\mathrm{tot}</math>, the mass ratio is almost identical to the mass fraction.
+
+The [[International System of Units|SI unit]] is kg/kg. However, the deprecated [[parts-per notation]] is often used to describe small mass ratios.
+
+==Dependence on volume==
+Concentration depends on the variation of the volume of the solution due mainly to thermal expansion.
+
+== Table of concentrations and related quantities ==
+
+{| class="wikitable"
+|-
+! Concentration type
+! Symbol
+! Definition
+! SI unit
+! other unit(s)
+|-
+| mass concentration
+| <math>\rho_i</math> or <math>\gamma_i</math>
+| <math>m_i/V</math>
+| kg/m<sup>3</sup>
+| g/100mL (=&nbsp;g/dL)
+|-
+| molar concentration
+| <math>c_i</math>
+| <math>n_i/V</math>
+| mol/m<sup>3</sup>
+| M (=&nbsp;mol/L)
+|-
+| number concentration
+| <math>C_i</math>
+| <math>N_i/V</math>
+| 1/m<sup>3</sup>
+| 1/cm<sup>3</sup>
+|-
+| volume concentration
+| <math>\phi_i</math>
+| <math>V_i/V</math>
+| m<sup>3</sup>/m<sup>3</sup>
+| 
+|-
+! Related quantities
+! Symbol
+! Definition
+! SI unit
+! other unit(s)
+|-
+| normality
+| 
+| <math>c_i/f_\mathrm{eq}</math>
+| mol/m<sup>3</sup>
+| N (=&nbsp;mol/L)
+|-
+| molality
+| <math>b_i</math>
+| <math>n_i/m_\mathrm{solvent}</math>
+| mol/kg
+| 
+|-
+| mole fraction
+| <math>x_i</math>
+| <math>n_i/n_\mathrm{tot}</math>
+| mol/mol
+| ppm, ppb, ppt
+|-
+| mole ratio
+| <math>r_i</math>
+| <math>n_i/(n_\mathrm{tot}-n_i)</math>
+| mol/mol
+| ppm, ppb, ppt
+|-
+| mass fraction
+| <math>w_i</math>
+| <math>m_i/m_\mathrm{tot}</math>
+| kg/kg
+| ppm, ppb, ppt
+|-
+| mass ratio
+| <math>\zeta_i</math>
+| <math>m_i/(m_\mathrm{tot}-m_i)</math>
+| kg/kg
+| ppm, ppb, ppt
+|}
+
+==See also==
+* [[Dose concentration]]
+* [[Serial dilution]]
+* [[Wine/water mixing problem]]
+
+==References==
+
+{{reflist}}
+
+{{Chemical solutions}}
+
+<!--Categories-->
+[[Category:Analytical chemistry]]
+[[Category:Chemical properties]]
+
+[[el:Συγκέντρωση]]

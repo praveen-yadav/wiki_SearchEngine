@@ -1,0 +1,281 @@
+[[Image:alpha helix neg60 neg45 sideview.png|right|thumb|200px|Side view of an α-helix of [[alanine]] residues in [[atom]]ic detail. Two hydrogen bonds to the same peptide group are highlighted in magenta; the H to O distance is about {{convert|2|Å|nm|abbr=on}}. The [[protein]] chain runs upwards here, i.e., its N-terminus is at the bottom and its C-terminus at the top. Note that the sidechains (gray stubs) angle slightly downward, toward the N-terminus, while the peptide oxygens (red) point up and the peptide NHs point down.]]
+
+The '''alpha helix''' ('''α-helix''') is a common [[Protein secondary structure|secondary structure]] of [[protein]]s and is a right-handed coiled or spiral conformation ([[helix]]), in which every backbone [[amino|N-H]] group donates a [[hydrogen bond]] to the backbone [[carbonyl|C=O]] group of the [[amino acid]] four [[residue (chemistry)|residues]] earlier (<math>i+4 \rightarrow i</math> hydrogen bonding). This secondary structure is also sometimes called a classic '''Pauling–Corey–Branson alpha helix''' (see below). The name '''4<sub>13</sub>-helix''' is also used for this type of helix, denoting a hydrogen bond between every carbonyl oxygen and the alpha-amino nitrogen of the fourth residue toward the C-terminus, and 13 atoms being involved in the ring formed by the hydrogen bond.  Among types of local structure in proteins, the α-helix is the most regular and the most predictable from sequence, as well as the most prevalent.
+
+==Historical development==
+
+In the early 1930s, [[William Astbury]] showed that there were drastic changes in the [[X-ray]] [[fiber diffraction]] of moist wool or hair fibers upon significant stretching. The data suggested that the unstretched fibers had a coiled molecular structure with a characteristic repeat of ~{{convert|5.1|Å|nm}}.  
+
+Astbury initially proposed a kinked-chain structure for the fibers. He later joined other researchers (notably the American chemist Maurice Huggins) in proposing that: 
+
+*the unstretched protein molecules formed a helix (which he called the α-form); and
+
+*the stretching caused the helix to uncoil, forming an extended state (which he called the β-form).
+Although incorrect in their details, Astbury's models of these forms were correct in essence and correspond to modern elements of [[secondary structure]], the α-helix and the [[Beta sheet|β-strand]] (Astbury's nomenclature was kept), which were developed by [[Linus Pauling]], [[Robert Corey]] and [[Herman Branson]] in 1951 (see below); that paper showed both right- and left-handed helixes, although in 1960 the crystal structure of myoglobin<ref>{{cite journal | last = Kendrew | first = JC | authorlink = John Kendrew | last2 = Dickerson | year = 1960 | first2 = RE | last3 = Strandberg | first3 = BE | last4 = Hart | first4 = RG | last5 = Davies | first5 = DR | last6 = Phillips | first6 = DC | last7 = Shore | first7 = VC | title = Structure of myoglobin: A three-dimensional Fourier synthesis at 2 Å resolution | journal = Nature | volume = 185 | issue = 4711 | pages = 422&ndash;427 | doi = 10.1038/185422a0 | pmid = 18990802 }}</ref> showed that the right-handed form is the common one. [[Hans Neurath]] was the first to show that Astbury's models could not be correct in detail, because they involved clashes of atoms.<ref>{{cite journal | last = Neurath | first = H | authorlink = Hans Neurath | year = 1940 | title = Intramolecular folding of polypeptide chains in relation to protein structure | journal = Journal of Physical Chemistry | volume = 44 | pages = 296&ndash;305 | doi = 10.1021/j150399a003 | issue = 3}}</ref> Neurath's paper and Astbury's data inspired [[Hugh Stott Taylor|H. S. Taylor]],<ref>{{cite journal | last = Taylor | first = HS | authorlink = Hugh Stott Taylor | year = 1942 | title = Large molecules through atomic spectacles | journal = Proceedings of the American Philosophical Society | volume = 85 | pages = 1&ndash;12}}</ref> [[Maurice Loyal Huggins|Maurice Huggins]]<ref>{{cite journal | last = Huggins | first = M | authorlink = Maurice Loyal Huggins | year = 1943 | title = The structure of fibrous proteins | journal = Chemical Reviews | volume = 32 | pages = 195&ndash;218 | doi = 10.1021/cr60102a002 | issue = 2}}</ref> and [[William Lawrence Bragg|Bragg]] and collaborators<ref>{{cite journal | last = Bragg | first = WL | authorlink = William Lawrence Bragg | coauthors = [[John Kendrew|Kendrew JC]], [[Max Perutz|Perutz MF]] | year = 1950 | title = Polypeptide chain configurations in crystalline proteins | journal = Proceedings of the Royal Society A | volume = 203 | pages = 321&ndash;? | doi = 10.1098/rspa.1950.0142 | issue = 1074}}</ref> to propose models of [[keratin]] that somewhat resemble the modern α-helix.
+
+Two key developments in the modeling of the modern α-helix were (1) the correct bond geometry, thanks to the [[crystallography|crystal structure determinations]] of [[amino acid]]s and [[peptide]]s and Pauling's prediction of ''planar'' [[peptide bond]]s; and (2) his relinquishing of the assumption of an integral number of residues per turn of the helix. The pivotal moment came in the early spring of 1948, when Pauling caught a cold and went to bed. Being bored, he drew a polypeptide chain of roughly correct dimensions on a strip of paper and folded it into a helix, being careful to maintain the planar peptide bonds. After a few attempts, he produced a model with physically plausible hydrogen bonds. Pauling then worked with Corey and Branson to confirm his model before publication.<ref>{{cite journal | last = Pauling | first = L | authorlink = Linus Pauling | coauthors = [[Robert Corey|Corey RB]], [[Herman Branson|Branson HR]] | year = 1951 | title = The Structure of Proteins: Two Hydrogen-Bonded Helical Configurations of the Polypeptide Chain | journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 37 | issue = 4 | pages = 205&ndash;211 | doi = 10.1073/pnas.37.4.205 | pmc = 1063337 | pmid = 14816373 }}</ref> In 1954 Pauling was awarded his first Nobel Prize "for his research into the nature of the chemical bond and its application to the elucidation of the structure of complex substances"[http://nobelprize.org/nobel_prizes/chemistry/laureates/1954/] (such as proteins), prominently including the structure of the α-helix.
+
+[[Image:alpha helix neg60 neg45 topview.png|thumb|right|200px|Top view of the same helix shown above. Four [[carbonyl]] groups are pointing upwards towards the viewer, spaced roughly 100° apart on the circle, corresponding to 3.6 [[amino acid|amino-acid]] residues per turn of the helix.]]
+
+==Structure==
+
+===Geometry and hydrogen bonding===
+
+The amino acids in an α helix are arranged in a right-handed [[helix|helical]] structure where each amino acid residue corresponds to a 100° turn in the helix (i.e., the helix has 3.6 residues per turn), and a translation of {{convert|1.5|Å|nm|abbr=on}} along the helical axis. Dunitz<ref>{{cite journal | last = Dunitz | first = J | authorlink = Jack Dunitz | year = 2001 | title = Pauling's Left-Handed α-Helix | journal = Angewandte Chemie International Edition | volume = 40 | pages = 4167&ndash;4173 | doi = 10.1002/1521-3773(20011119)40:22<4167::AID-ANIE4167>3.0.CO;2-Q | issue = 22}}</ref> describes how Pauling's first article on the theme in fact shows a left-handed helix, the enantiomer of the true structure. Short pieces of left-handed helix sometimes occur with a large content of achiral [[glycine]] amino acids, but are unfavorable for the other normal, biological [[amino acids|L-amino acids]]. The pitch of the alpha-helix (the vertical distance between one consecutive turn of the helix) is {{convert|5.4|Å|nm|abbr=on}} which is the product of 1.5 and 3.6. What is most important is that the [[amine|N-H]] group of an amino acid forms a [[hydrogen bond]] with the [[carbonyl|C=O]] group of the amino acid ''four'' residues earlier; this repeated <math>i+4 \rightarrow i</math> hydrogen bonding is the most prominent characteristic of an α-helix. Official international nomenclature<ref>{{cite journal | author = IUPAC-IUB Commission on Biochemical Nomenclature | year = 1970 | title = Abbreviations and symbols for the description of the conformation of polypeptide chains | journal = Journal of Biological Chemistry | volume = 245 | pages = 6489–6497}}</ref> [http://www.chem.qmul.ac.uk/iupac/misc/ppep1.html] specifies two ways of defining α-helices, rule 6.2 in terms of repeating φ,ψ torsion angles (see below) and rule 6.3 in terms of the combined pattern of pitch and hydrogen bonding.  The alpha-helices can be identified in protein structure using several computational methods, one of which is [[DSSP (protein)|DSSP]] (Dictionary of Protein [[Secondary structure|Secondary Structure]]).<ref>{{cite journal | last = Kabsch | first = K | coauthors = Sander C | year = 1983 | title = Identification of structural motifs from protein coordinate data: secondary structure and first-level supersecondary structure | journal = Biopolymers | volume = 22 | pages = 2577–2637 | doi = 10.1002/bip.360221211 | pmid = 6667333 | issue = 12}}</ref>
+
+[[Image:Alpha vs 310 helix end views.jpg|thumb|left|300px|Contrast of helix end views between α (offset squarish) vs 3<sub>10</sub> (triangular)]]
+Similar structures include the [[310 helix|3<sub>10</sub> helix]] (<math>i+3 \rightarrow i</math> hydrogen bonding) and the π-helix (<math>i+5 \rightarrow i</math> hydrogen bonding). The α helix can be described as a 3.6<sub>13</sub> helix, since the i + 4 spacing adds 3 more atoms to the H-bonded loop compared to the tighter 3<sub>10</sub> helix, and on average, 3.6 amino acids are involved in one ring of α helix. The subscripts refer to the number of atoms (including the hydrogen) in the closed loop formed by the hydrogen bond.<ref name="Anatax">{{cite journal | last = Richardson | first = JS | authorlink = Jane S. Richardson |  year = 1981 | title = The Anatomy and Taxonomy of Proteins | journal = Advances in Protein Chemistry | volume = 34 | pages = 167&ndash;339 [http://kinemage.biochem.duke.edu/teaching/Anatax/] | doi = 10.1016/S0065-3233(08)60520-3 | pmid=7020376}}</ref>
+
+[[Image:Ramachandran plot general 100K.jpg|thumb|right|250px|[[Ramachandran plot]] (φ,ψ plot), with data points for α-helical residues forming a dense diagonal cluster below and left of center, around the global energy minimum for backbone conformation.<ref>{{cite journal | author = Lovell SC et al. | title = Structure validation by Cα geometry: φ,ψ and Cβ deviation | journal = Proteins | volume = 50 | pages = 437–450 | doi = 10.1002/prot.10286 | pmid = 12557186 | year = 2003 | issue = 3}}</ref>]]
+Residues in α-helices typically adopt backbone (φ, ψ) [[dihedral angle]]s around (-60°, -45°), as shown in the image at right. In more general terms, they adopt dihedral angles such that the ψ dihedral angle of one residue and the φ dihedral angle of the ''next'' residue sum to roughly -105°. As a consequence, α-helical dihedral angles, in general, fall on a diagonal stripe on the [[Ramachandran diagram]] (of slope -1), ranging from (-90°, -15°) to (-35°, -70°). For comparison, the sum of the dihedral angles for a 3<sub>10</sub> helix is roughly -75°, whereas that for the π-helix is roughly -130°. The general formula for the rotation angle Ω per residue of any polypeptide helix with ''trans'' isomers is given by the equation<ref>{{citation | last = Dickerson | first = RE | coauthors = [[Irving Geis|Geis I]] |  year = 1969 | title = Structure and Action of Proteins | publisher = Harper, New York }}</ref>
+
+:<math>
+3 \cos \Omega = 1 - 4 \cos^{2} \left[\left(\phi + \psi \right)/2 \right]
+</math>
+
+The α-helix is tightly packed; there is almost no free space within the helix. The amino-acid side chains are on the outside of the helix, and point roughly "downwards" (i.e., towards the N-terminus), like the branches of an evergreen tree ([[Christmas tree]] effect). This directionality is sometimes used in preliminary, low-resolution electron-density maps to determine the direction of the protein backbone.<ref>{{cite journal |author=Terwilliger TC |title=Rapid model-building of α-helices in electron density maps |journal=Acta Crystallographica |volume= D66 |pages=268–275 |doi=10.1107/S0907444910000314 | pmc=2827347 |pmid=20179338}}</ref>
+
+[[Image:Helical Wheel 2NRL 77-92 KaelFischer.jpg|thumb|right|180px|Helical wheel diagram]]
+
+=== 2D (2-dimensional) diagrams for representing α-helices ===
+[[Image:Wenxiang diagram.jpg|thumb|right|180px| Wenxiang diagram]]
+Three differently arranged styles of 2D diagrams are used to represent different aspects of the sequence ad structure relationships that confer specific physical and interaction properties on individual α-helices. Two of these emphasize circular placement around the cylindrical cross-section: the first-developed such diagram is called the "[[helical wheel]]",<ref name="pmid6048867">{{cite journal | author = Schiffer M, Edmundson AB | title = Use of helical wheels to represent the structures of proteins and to identify segments with helical potential | journal = Biophys. J. | volume = 7 | issue = 2 | pages = 121–35 | year = 1967 | month = March | pmid = 6048867 | pmc = 1368002 | doi = 10.1016/S0006-3495(67)86579-2 | bibcode=1967BpJ.....7..121S}}</ref> and a more recent version is called the "[[wenxiang diagram]]".<ref name="chou">{{cite journal | author = Chou KC, Zhang CT, Maggiora GM | title = Disposition of amphiphilic helices in heteropolar environments | journal = Proteins | volume = 28 | issue = 1 | pages = 99–108 | year = 1997 | month = May | pmid = 9144795 | doi = 10.1002/(SICI)1097-0134(199705)28:1<99::AID-PROT10>3.0.CO;2-C}}</ref> The latter name came from the fact that it resembles a coil-like incense used in China to repel mosquitos; Chinese [http://wapedia.mobi/zh/%E8%9A%8A%E9%A6%99 蚊香] (pronounced as "wenxiang"). 
+
+The helical wheel represents a helix by a projection of the Cα backbone structure down the helix axis, while the wenxiang diagram represents it more abstractly as a smooth spiral coiled on the plane of the page. Both label the sequence with one-letter amino-acid code (see [[amino acid]]) at each Cα position, using different colors or symbols to code the amino-acid properties. [[Hydrophobic]] vs [[hydrophilic]] amino acids are always distinguished, as the most important property governing helix interactions. Sometimes positively vs negatively charged hydrophilics are distinguished, and sometimes ambiguous amino acids such as glycine (G) are distinguished. Color-coding conventions are various. The helical wheel does not change representation along the helix, while the wenxiang diagram is able to show the relative locations of the amino acids in an α-helix regardless of how long it is. 
+
+Either circular style of diagram can provide an intuitive and easily visualizable 2D picture that characterizes the disposition of hydrophobic and hydrophilic residues in α-helices,<ref name="pmid6048867"/><ref name=chou/> and can be used to study helix-helix interactions,<ref name="pmid20202472">{{cite journal | author = Kurochkina N | title = Helix-helix interactions and their impact on protein motifs and assemblies | journal = J. Theor. Biol. | volume = 264 | issue = 2 | pages = 585–92 | year = 2010 | month = May | pmid = 20202472 | doi = 10.1016/j.jtbi.2010.02.026}}</ref> helix-membrane interactions as quantified by the helical hydrophobic moment,<ref>{{cite journal |author=Eisenberg D, Weiss RM, Terwilliger TC |year=1982 |title=The helical hydrophobic moment: a measure of the amphiphilicity of a helix |journal=Nature |volume=299 |pages=371–4 |PMID=7110359 |issue=5881}}</ref> or protein-protein interactions.<ref name="pmid21718705">{{cite journal | author = Zhou GP | title = The disposition of the LZCC protein residues in wenxiang diagram provides new insights into the protein-protein interaction mechanism | journal = J Theor Biol | volume = 284| issue = 1| pages = 142–8| year = 2011 | month = June | pmid = 21718705 | doi = 10.1016/j.jtbi.2011.06.006 }}</ref>
+<ref>{{cite journal | last = Zhou | first = GP | year = 2011 | title = The Structural Determinations of the Leucine Zipper Coiled-Coil Domains of the cGMP-Dependent Protein Kinase I alpha and its Interaction with the Myosin Binding Subunit of the Myosin Light Chains Phosphase| journal = Protein & Peptide Letters | volume = 18 | pages = 966&ndash;978 | PMID = 21592084 | issue = 10}}</ref>
+Various utilities and web sites are available to generate helical wheels, such as the page by Kael Fischer [http://kael.net/helical.htm]. Recently, a web-server called "Wenxiang" [http://www.jci-bioinfo.cn/wenxiang2] was established to draw the wenxiang diagram for any α-helix sequence.<ref>{{cite journal | last = Chou | first = KC | coauthors = Ling WZ, Xiai X| year = 2011 | title = Wenxiang: a web-server for drawing wenxiang diagrams| journal = Natural Science | volume = 3 | pages = 862&ndash;865 | doi = 10.4236/ns.2011.310111 | issue = 10}}</ref>
+
+The third style of 2D diagram is called a "helical net". It is generated by opening the cylindrical surface of each helix along a line parallel to the axis and laying the result out vertically. The helix net is not suitable for studying helix-helix packing interactions, but it has become the dominant means of representing the sequence arrangement for [[integral membrane protein]]s because it shows important relationships of the helical sequence to vertical positioning within the membrane even without knowledge of how the helices are arranged in 3D.
+
+=== Stability ===
+
+Helices observed in proteins can range from four to over forty residues long, but a typical helix contains about ten amino acids (about three turns). In general, short [[polypeptide]]s do not exhibit much alpha helical structure in solution, since the [[entropy|entropic]] cost associated with the folding of the polypeptide chain is not compensated for by a sufficient amount of stabilizing interactions. In general, the backbone [[hydrogen bond]]s of α-helices are considered slightly weaker than those found in [[beta sheet|β-sheets]], and are readily attacked by the ambient water molecules. However, in more hydrophobic environments such as the [[cellular membrane|plasma membrane]], or in the presence of co-solvents such as [[trifluoroethanol]] (TFE), or isolated from solvent in the gas phase,<ref>{{cite journal | last = Hudgins | first = RR | coauthors = Jarrold MF | year = 1999 | title = Helix Formation in Unsolvated Alanine-Based Peptides: Helical Monomers and Helical Dimers | journal = Journal of the American Chemical Society | volume = 121 | pages = 3494&ndash;3501 | doi = 10.1021/ja983996a | issue = 14}}</ref> oligopeptides readily adopt stable α-helical structure.  Furthermore, crosslinks can be incorporated into peptides to conformationally stabilize helical folds.  Crosslinks stabilize the helical state by entropically destabilizing the unfolded state and by removing enthalpically stabilized "decoy" folds that compete with the fully helical state.<ref>{{cite journal | last = Kutchukian | first = PS | coauthors = Yang JS, Verdine GL, Shakhnovich EI | year = 2009 | title = All-Atom Model for Stabilization of alpha-Helical Structure in Peptides by Hydrocarbon Staples | journal = Journal of the American Chemical Society | pmid = 19334772 | volume = 131 | issue = 13 | pmc = 2735086 | pages = 4622&ndash;4627 | doi = 10.1021/ja805037p}}</ref>  
+
+[[Image:Helix electron density myoglobin 2nrl 17-32.jpg|thumb|right|200px|An α-helix in ultra-high-resolution electron density contours, with O atoms in red, N atoms in blue, and hydrogen bonds as green dotted lines (PDB file 2NRL, 17-32). The N-terminus is at the top, here.]]
+
+== Experimental determination ==
+
+Since the α-helix is defined by its hydrogen bonds and backbone conformation, the most detailed experimental evidence for  α-helical structure comes from atomic-resolution [[X-ray crystallography]] such as the example shown at right.  It is clear that all the backbone carbonyl oxygens point downward (toward the C-terminus) but splay out slightly, and the H-bonds are approximately parallel to the helix axis. Protein structures from [[protein NMR|NMR spectroscopy]] also show helices well, with characteristic observations of NOE ([[Nuclear Overhauser Effect]]) couplings between atoms on adjacent helical turns. In some cases, the individual hydrogen bonds can be observed directly as a small scalar coupling in NMR.  
+
+There are several lower-resolution methods for assigning general helical structure. The [[protein NMR|NMR]] [[chemical shift]]s (in particular of the <math>\mathrm{C^{\alpha}}</math>, <math>\mathrm{C^{\beta}}</math> and <math>\mathrm{C'}</math> atoms) and [[residual dipolar coupling]]s are often characteristic of helices. The far-UV (170-250&nbsp;nm) [[circular dichroism]] spectrum of helices is also idiosyncratic, exhibiting a pronounced double minimum at ~208&nbsp;nm and ~222&nbsp;nm. [[Infrared]] spectroscopy is rarely used, since the α-helical spectrum resembles that of a [[random coil]] (although these might be discerned by, e.g., [[hydrogen-deuterium exchange]]). Finally, cryo [[electron microscopy]] is now capable of discerning individual α-helices within a protein, although their assignment to residues is still an active area of research.
+
+Long homopolymers of amino acids often form helices if soluble. Such long, isolated helices can also be detected by other methods, such as [[dielectric relaxation]], [[flow birefringence]] and measurements of the [[diffusion constant]]. In stricter terms, these methods detect only the characteristic [[prolate]] (long cigar-like) hydrodynamic shape of a helix, or its large [[Molecular dipole moment|dipole moment]].
+
+== Amino-acid propensities ==
+
+Different amino-acid sequences have different propensities for forming α-helical structure. [[Methionine]], [[alanine]], [[leucine]], uncharged [[glutamate]], and [[lysine]] ("MALEK" in the [[amino-acid]] 1-letter codes) all have especially high helix-forming propensities, whereas [[proline]] and [[glycine]] have poor helix-forming propensities.<ref name="pmid9649402">{{cite journal | author = Pace CN, Scholtz JM | title = A helix propensity scale based on experimental studies of peptides and proteins | journal = Biophys. J. | volume = 75 | issue = 1 | pages = 422–7 | year = 1998 | month = July | pmid = 9649402 | pmc = 1299714 | doi = 10.1016/S0006-3495(98)77529-0 | bibcode=1998BpJ....75..422N}}</ref> [[Proline]] either breaks or kinks a helix, both because it cannot donate an amide [[hydrogen bond]] (having no amide hydrogen), and also because its sidechain interferes sterically with the backbone of the preceding turn - inside a helix, this forces a bend of about 30° in the helix axis.<ref name="Anatax"/> However, proline is often seen as the ''first'' residue of a helix, presumably due to its structural rigidity. At the other extreme, [[glycine]] also tends to disrupt helices because its high conformational flexibility makes it entropically expensive to adopt the relatively constrained α-helical structure.
+
+===Table of standard amino acid alpha-helical propensities===
+
+Estimated differences in [[Gibbs free energy|free energy]], <math>\Delta(\Delta G)</math>, estimated in kcal/mol per residue in an alpha-helical configuration, relative to Alanine arbitrarily set as zero.  Higher numbers (more positive free energies) are less favoured.  Significant deviations from these average numbers are possible, depending on the identities of the neighbouring residues.
+
+{| class="wikitable sortable"
+! Amino Acid
+! 3-Letter
+! 1-Letter
+! Helical Propensity<ref name="Pace">{{Cite news|author=Pace, C. Nick; Scholtz, J. Martin |title=A Helix Propensity Scale Based on Experimental Studies of Peptides and Proteins |journal=Biophysical Journal |year=1998 |volume=75 |pages=422–427}}</ref>
+|- align="center"
+| [[Alanine]]
+| Ala
+| A
+| 0.0
+|- align="center"
+| [[Arginine]]
+| Arg
+| R
+| 0.21
+|- align="center"
+| [[Asparagine]]
+| Asn
+| N
+| 0.65
+|- align="center"
+| [[Aspartic acid]]
+| Asp
+| D
+| 0.69
+|- align="center"
+| [[Cysteine]]
+| Cys
+| C
+| 0.68
+|- align="center"
+| [[Glutamic acid]]
+| Glu
+| E
+| 0.40
+|- align="center"
+| [[Glutamine]]
+| Gln
+| Q
+| 0.39
+|- align="center"
+| [[Glycine]]
+| Gly
+| G
+| 1
+|- align="center"
+| [[Histidine]]
+| His
+| H
+| 0.61
+|- align="center"
+| [[Isoleucine]]
+| Ile
+| I
+| 0.41
+|- align="center"
+| [[Leucine]]
+| Leu
+| L
+| 0.21
+|- align="center"
+| [[Lysine]]
+| Lys
+| K
+| 0.26
+|- align="center"
+| [[Methionine]]
+| Met
+| M
+| 0.24
+|- align="center"
+| [[Phenylalanine]]
+| Phe
+| F
+| 0.54
+|- align="center"
+| [[Proline]]
+| Pro
+| P
+| 3.16
+|- align="center"
+| [[Serine]]
+| Ser
+| S
+| 0.5
+|- align="center"
+| [[Threonine]]
+| Thr
+| T
+| 0.66
+|- align="center"
+| [[Tryptophan]]
+| Trp
+| W
+| 0.49
+|- align="center"
+| [[Tyrosine]]
+| Tyr
+| Y
+| 0.53
+|- align="center"
+| [[Valine]]
+| Val
+| V
+| 0.61
+|}
+
+== Dipole moment ==
+
+A helix has an overall [[Molecular dipole moment|dipole moment]] caused by the aggregate effect of all the individual dipoles from the [[carbonyl]] groups of the peptide bond pointing along the helix axis. This can lead to destabilization of the helix through entropic effects. As a result, α helices are often capped at the N-terminal end by a negatively charged [[amino acid]], such as [[glutamate]], in order to neutralize this helix dipole. Less common (and less effective) is C-terminal capping with a positively charged amino acid, such as [[lysine]]. The N-terminal positive charge is commonly used to bind negatively charged ligands such as phosphate groups, which is especially effective because the backbone amides can serve as hydrogen bond donors.
+
+== Coiled-coils==
+
+Coiled-coil α helices are highly stable forms in which two or more helices wrap around each other in a "supercoil" structure. [[Coiled coil]]s contain a highly characteristic sequence motif known as a '''[[heptad repeat]]''', in which the motif repeats itself every seven residues along the sequence. The first and especially the fourth residues (known as the ''a'' and ''d'' positions) are almost always [[hydrophobic]] (the fourth residue is typically [[leucine]]) and pack together in the interior of the helix bundle. In general, the fifth and seventh residues (the ''e'' and ''g'' positions) have opposing charges and form a salt bridge stabilized by [[electrostatic]] interactions. [[Fibrous protein]]s such as keratin or the "stalks" of myosin or kinesin often adopt coiled-coil structures, as do several dimerizing proteins. A pair of coiled-coils - a [[helix bundle|four-helix bundle]] - is a very common structural motif in proteins. For example, it occurs in human [[growth hormone]] and several varieties of [[cytochrome]]. The Rop protein, which promotes plasmid replication in bacteria, is an interesting case in which a single polypeptide forms a coiled-coil and two monomers assemble to form a four-helix bundle.
+
+The amino acids that make up a particular helix can be plotted on a [[helical wheel]], a representation that illustrates the orientations of the constituent amino acids. Often in [[globular protein]]s, as well as in specialized structures such as coiled-coils and [[leucine zipper]]s, an alpha helix will exhibit two "faces" - one containing predominantly [[hydrophobic]] amino acids oriented toward the interior of the protein, in the [[hydrophobic core]], and one containing predominantly [[polarity (chemistry)|polar]] amino acids oriented toward the [[solvent]]-exposed surface of the protein.
+
+== Larger-scale assemblies ==
+
+[[Image:1GZX Haemoglobin.png|thumb|right|200px|The [[Hemoglobin]] molecule has four heme-binding subunits, each largely made of alpha helices.]]
+[[Myoglobin]] and [[hemoglobin]], the first two proteins whose structures were solved by X-ray [[crystallography]], have very similar folds made up of about 70% α helix, with the rest being non-repetitive regions, or "loops" which connect the helices. In classifying proteins by their dominant fold, the [http://scop.mrc-lmb.cam.ac.uk/scop/ Structural Classification of Proteins] database maintains a large category specifically for all-α proteins.
+
+Hemoglobin then has an even larger-scale [[quaternary structure]], in which the functional oxygen-binding molecule is made up of four subunits.
+
+== Functional roles ==
+
+[[Image:Coiled-coil TF Max on DNA.jpg|thumb|left|200px|Leucine zipper coiled-coil helices & DNA-binding helices: transcription factor Max (PDB file 1HLO)]]
+[[Image:1gzm opm.gif|thumb|right|200px|Bovine rhodopsin (PDB file 1GZM), with a bundle of seven helices crossing the membrane (membrane surfaces marked by horizontal lines)]]
+
+===DNA binding===
+
+α-helices have particular significance in [[DNA]] binding motifs, including [[helix-turn-helix]] motifs, [[leucine zipper]] motifs and [[zinc finger]] motifs. This is because of the convenient structural fact that the diameter of an α helix is about 12Å (1.2&nbsp;nm) including an average set of sidechains, about the same as the width of the major groove in B-form [[DNA]], and also because [[coiled-coil]] (or leucine zipper) dimers of helices can readily position a pair of interaction surfaces to contact the sort of symmetrical repeat common in double-helical DNA (see Branden & Tooze, chapter 10).  An example of both aspects is the [[transcription factor]] Max (see image at left), which uses a helical coiled-coil to dimerize, positioning another pair of helices for interaction in two successive turns of the DNA major groove.
+
+=== Membrane spanning ===
+
+α-helices are also the most common protein structure element that crosses biological membranes (see Branden & Tooze, chapter 12), it is presumed because the helical structure can satisfy all backbone hydrogen-bonds internally, leaving no polar groups exposed to the membrane if the sidechains are hydrophobic.  Proteins are sometimes anchored by a single membrane-spanning helix, sometimes by a pair, and sometimes by a helix bundle, most classically consisting of seven helices arranged up-and-down in a ring such as for [[rhodopsin]]s (see image at right) or for [[G protein–coupled receptor]]s (GPCRs).
+
+=== Mechanical properties ===
+
+α-helices under axial tensile deformation, a characteristic loading condition that appears in many alpha-helix rich filaments and tissues, results in a characteristic three-phase behavior of stiff-soft-stiff tangent modulus.<ref>{{cite journal | author = T. Ackbarow, X. Chen, S. Keten, M.J. Buehler | year = 2007 | title = Hierarchies, multiple energy barriers and robustness govern the fracture mechanics of alpha-helical and beta-sheet protein domains | journal = PNAS| volume = 104| pages = 16410–16415 | doi = 10.1073/pnas.0705759104 | pmid = 17925444 | issue = 42 | pmc = 2034213 }}</ref> Phase I corresponds to the small-deformation regime during which the helix is stretched homogeneously, followed by phase II in which alpha-helical turns break mediated by the rupture of groups of H-bonds. Phase III is typically associated with large-deformation covalent bond stretching.
+
+== Dynamical features ==
+
+Alpha-helices in proteins may have [[low-frequency collective motion in proteins and DNA|low-frequency]] accordion-like motion as observed by the [[Raman spectroscopy]]<ref name="pmid7115900">{{cite journal | author = Painter PC, Mosher LE, Rhoads C | title = Low-frequency modes in the Raman spectra of proteins | journal = Biopolymers | volume = 21 | issue = 7 | pages = 1469–72 | year = 1982 | month = July | pmid = 7115900 | doi = 10.1002/bip.360210715}}</ref> and analyzed via the quasi-continuum model.<ref name="pmid6362659">{{cite journal | author = Chou KC | title = Identification of low-frequency modes in protein molecules | journal = Biochem. J. | volume = 215 | issue = 3 | pages = 465–9 | year = 1983 | month = December | pmid = 6362659 | pmc = 1152424 | doi = }}</ref><ref name="pmid6428481">{{cite journal | author = Chou KC | title = Biological functions of low-frequency vibrations (phonons). III. Helical structures and microenvironment | journal = Biophys. J. | volume = 45 | issue = 5 | pages = 881–9 | year = 1984 | month = May | pmid = 6428481 | pmc = 1434967 | doi = 10.1016/S0006-3495(84)84234-4 | bibcode=1984BpJ....45..881C}}</ref>
+
+== Helix-coil transition ==
+{{see also|Helix-coil transition model}}
+
+Homopolymers of amino-acids (such as [[poly-lysine]]) can adopt α-helical structure at low temperature that is "melted out" at high temperatures. This '''helix-coil transition''' was once thought to be analogous to protein [[Denaturation (biochemistry)|denaturation]]. The [[statistical mechanics]] of this transition can be modeled using an elegant [[transfer matrix]] method, characterized by two parameters: the propensity to initiate a helix and the propensity to extend a helix.
+
+== The α-helix in art ==
+[[Image:AlphaHelixForLinusPauling.jpg|thumb|right|250px|[[Julian Voss-Andreae|Julian Voss-Andreae's]] ''Alpha Helix for Linus Pauling'' (2004), powder coated steel, height {{convert|10|ft|0|abbr=on}}. The sculpture stands in front of Pauling's childhood home on 3945 SE Hawthorne Boulevard in [[Portland, Oregon]], USA.]]
+
+At least five artists have made explicit reference to the α-helix in their work: Julie Newdoll in painting and [[Julian Voss-Andreae]], [[Bathsheba Grossman]], Byron Rubin, and Mike Tyka in sculpture.
+
+San Francisco area artist Julie Newdoll [http://www.newdoll.com/], who holds a degree in Microbiology with a minor in art, has specialized in paintings inspired by microscopic images and molecules since 1990. Her painting "Rise of the Alpha Helix" (2003) features human figures arranged in an α helical arrangement. According to the artist, "the flowers reflect the various types of sidechains that each amino acid holds out to the world"[http://www.newdoll.com/]. It is interesting to note that this same metaphor is also echoed from the scientist's side: "β sheets do not show a stiff repetitious regularity but flow in graceful, twisting curves, and even the α-helix is regular more in the manner of a flower stem, whose branching nodes show the influence of environment, developmental history, and the evolution of each part to match its own idiosyncratic function."<ref name="Anatax"/>
+
+[[Julian Voss-Andreae]] is a German-born sculptor with degrees in experimental physics and sculpture. Since 2001 Voss-Andreae creates "protein sculptures"<ref>{{cite journal | last = Voss-Andreae| first = J | year = 2005 | title = Protein Sculptures: Life's Building Blocks Inspire Art | journal = Leonardo | volume = 38 | pages = 41&ndash;45 | doi = 10.1162/leon.2005.38.1.41}}</ref> based on protein structure with the α-helix being one of his preferred objects. Voss-Andreae has made α-helix sculptures from diverse materials including bamboo and whole trees. A monument Voss-Andreae created in 2004 to celebrate the memory of [[Linus Pauling]], the discoverer of the α-helix, is fashioned from a large steel beam rearranged in the structure of the α-helix. The {{convert|10|ft|0|adj=on}} tall, bright-red sculpture stands in front of Pauling's childhood home in [[Portland, Oregon]].
+
+[[Ribbon diagrams]] of α-helices are a prominent element in the laser-etched crystal sculptures of protein structures created by artist [[Bathsheba Grossman]] [http://www.bathsheba.com], such as those of [[insulin]], [[hemoglobin]], and [[DNA polymerase]].
+
+[http://molecularsculpture.com Byron Rubin] is a former protein crystallographer now professional sculptor in metal of proteins, nucleic acids, and drug molecules - many of which feature alpha helices, such as [[subtilisin]], [[human growth hormone]], and [[phospholipase A2]].
+
+[http://www.miketyka.com Mike Tyka] is a computational biochemist at the [[University of Washington]] working with [[David Baker (biochemist)|David Baker]]. Tyka has been making sculptures of protein molecules since 2010 from copper and steel, including [[ubiquitin]] and a [[potassium channel]] tetramer.
+
+==See also==
+
+* [[310 helix|3<sub>10</sub> helix]]
+* [[Pi helix]]
+* [[Beta sheet]]
+* [[Davydov soliton]]
+* [[Folding (chemistry)]]
+* [[Knobs into holes packing]]
+
+== References ==
+{{reflist|30em}}
+
+== Further reading ==
+{{refbegin}}
+* {{cite book | author = Tooze, John; Brändén, Carl-Ivar | title = Introduction to protein structure | publisher = Garland Pub | location = New York | year = 1999 | isbn = 0-8153-2304-2}}.
+* {{cite journal | author = Eisenberg D | title = The discovery of the alpha-helix and beta-sheet, the principal structural features of proteins | journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 100 | issue = 20 | pages = 11207–10 | year = 2003 | month = September | pmid = 12966187 | pmc = 208735 | doi = 10.1073/pnas.2034522100}}
+* {{cite journal | doi = 10.1038/127663b0 | last1 = Astbury | first1 = WT | last2 = Woods | first2 = HJ. | year = 1931 | title = The Molecular Weights of Proteins | journal = Nature | volume = 127 | issue = 3209| pages = 663–665 }}
+* {{cite journal | last1 = Astbury | first1 = WT | last2 = Street | first2 = A. | year = 1931 | title = X-ray studies of the structures of hair, wool and related fibres. I. General | journal = Trans. R. Soc. Lond. | volume = A230 | issue = | pages = 75–101 }}
+* {{cite journal | doi = 10.1039/tf9332900193 | last1 = Astbury | first1 = WT. |  year = 1933 | title = Some Problems in the X-ray Analysis of the Structure of Animal Hairs and Other Protein Fibers | journal = Trans. Faraday Soc. | volume = 29 | issue = 140| pages = 193–211 }}
+* {{cite journal | last1 = Astbury | first1 = WT | last2 = Woods | first2 = HJ. | year = 1934 | title = X-ray studies of the structures of hair, wool and related fibres. II. The molecular structure and elastic properties of hair keratin | journal = Trans. R. Soc. Lond. | volume = A232 | issue = | pages = 333–394 }}
+* {{cite journal | last1 = Astbury | first1 = WT | last2 = Sisson | first2 = WA. | year = 1935 | title = X-ray studies of the structures of hair, wool and related fibres. III. The configuration of the keratin molecule and its orientation in the biological cell | journal = Proceedings of the Royal Society | volume = A150 | issue = | pages = 533–551 }}
+* {{cite journal | last1 = Bragg | first1 = L | last2 = Kendrew | first2 = JC | last3 = Perutz | first3 = MF. | year = 1950 | title = Polypeptide chain configurations in crystalline proteins | journal = Proceedings of the Royal Society | volume = A203 | issue = | page = 321 }}
+* {{cite journal | doi = 10.1002/bip.1967.360050708 | last1 = Sugeta | first1 = H | last2 = Miyazawa | first2 = T. | year = 1967 | title = General Method for Calculating Helical Parameters of Polymer Chains from Bond Lengths, Bond Angles, and Internal-Rotation Angles | journal = Biopolymers | volume = 5 | issue = 7| pages = 673–679 }}
+* {{cite journal | author = Wada A | title = The alpha-helix as an electric macro-dipole | journal = Adv. Biophys. | volume = | issue = | pages = 1–63 | year = 1976 | pmid = 797240 | doi =}}
+* {{cite journal | author = Chothia C, Levitt M, Richardson D | title = Structure of proteins: packing of alpha-helices and pleated sheets | journal = Proceedings of the National Academy of Sciences of the United States of America | volume = 74 | issue = 10 | pages = 4130–4 | year = 1977 | month = October | pmid = 270659 | pmc = 431889 | doi = 10.1073/pnas.74.10.4130}}
+* {{cite journal | author = Chothia C, Levitt M, Richardson D | title = Helix to helix packing in proteins | journal = J. Mol. Biol. | volume = 145 | issue = 1 | pages = 215–50 | year = 1981 | month = January | pmid = 7265198 | doi = 10.1016/0022-2836(81)90341-7}}
+* {{cite journal | author = Hol WG | title = The role of the alpha-helix dipole in protein function and structure | journal = Prog. Biophys. Mol. Biol. | volume = 45 | issue = 3 | pages = 149–95 | year = 1985 | pmid = 3892583 | doi = 10.1016/0079-6107(85)90001-X}}
+* {{cite journal | author = Barlow DJ, Thornton JM | title = Helix geometry in proteins | journal = J. Mol. Biol. | volume = 201 | issue = 3 | pages = 601–19 | year = 1988 | month = June | pmid = 3418712 | doi = 10.1016/0022-2836(88)90641-9}}
+* {{cite journal | author = Murzin AG, Finkelstein AV | title = General architecture of the alpha-helical globule | journal = J. Mol. Biol. | volume = 204 | issue = 3 | pages = 749–69 | year = 1988 | month = December | pmid = 3225849 | doi = 10.1016/0022-2836(88)90366-X}}
+{{refend}}
+
+== External links ==
+*[http://www.cbs.dtu.dk/services/NetSurfP/ NetSurfP - Secondary Structure and Surface Accessibility predictor]
+* [http://www2.ufp.pt/~pedros/anim/2frame_helixen.htm Interactive model of an α-helix]
+* [http://www3.interscience.wiley.com:8100/legacy/college/voet/047119350X/animated_figures/html/8-11.html Animated details of α-helix]
+* [http://www.brushwithscience.com/ Artist Julie Newdoll's website]
+* [http://www.JulianVossAndreae.com/ Artist Julian Voss-Andreae's website]
+
+{{Protein secondary structure}}
+
+{{DEFAULTSORT:Alpha Helix}}
+[[Category:Protein structural motifs]]
+[[Category:Helices]]

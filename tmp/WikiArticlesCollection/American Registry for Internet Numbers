@@ -1,0 +1,186 @@
+{{redirect|ARIN||Arin (disambiguation)}}
+{{Infobox Non-profit
+| Non-profit_name = American Registry for Internet Numbers (ARIN)
+| Non-profit_logo = [[Image:ARIN logo.svg|266px|right|ARIN logo]]
+| Non-profit_type =
+| founded_date = [[18th April]] [[1997]]
+| founder =
+| location = [[Chantilly, Virginia]], [[United States]]
+| origins =
+| key_people =
+| area_served = Canada <br/>[[Caribbean]] <br/>United States
+| product =
+| focus = Allocation and registration of [[IP address]] space
+| method =
+| revenue =
+| endowment =
+| num_volunteers =
+| num_employees =
+| num_members = 
+| subsib =
+| owner =
+| Non-profit_slogan =
+| homepage = [https://www.arin.net/resources/index.html www.arin.net]
+| dissolved =
+| footnotes =
+}}
+
+The '''American Registry for Internet Numbers''' ('''ARIN''') is the [[Regional Internet Registry]] (RIR) for [[Canada]], the [[United States]], and many [[Caribbean]] and [[North Atlantic]] islands. ARIN manages the distribution of Internet number resources, including [[IPv4]] and [[IPv6]] address space and [[Autonomous system (Internet)|AS numbers]]. ARIN opened its doors for business on December 22, 1997<ref>[http://www.arin.net/about_us/history.html About ARIN]</ref> after incorporating on April 18, 1997.<ref>[http://www.arin.net/about_us/corp_docs/artic_incorp.html Articles of Incorporation ]</ref> ARIN is a nonprofit corporation with headquarters in [[Chantilly, Virginia|Chantilly, Virginia, USA]].<ref>"[http://www.arin.net/contact_us.html Contact Us]." American Registry for Internet Numbers. Retrieved on September 16, 2009.</ref><ref>"[http://factfinder.census.gov/servlet/MapItDrawServlet?geo_id=16000US5114744&_bucket_id=50&tree_id=420&context=saff&_lang=en&_sse=on Chantilly CDP, Virginia]." [[U.S. Census Bureau]]''. Retrieved on September 16, 2009.</ref>
+
+ARIN is one of five [[Regional Internet registry|Regional Internet Registries]] (RIRs) in the world. Like the other RIRs, ARIN:
+
+*Provides services related to the technical coordination and management of Internet number resources
+*Facilitates policy development by its members and stakeholders
+*Participates in the international Internet community
+*Is a nonprofit, community-based organization
+*Is governed by an executive board elected by its membership
+
+==Services==
+ARIN provides services related to the technical coordination and management of Internet number resources. The nature of these services is described in ARIN's mission statement:
+
+:''Applying the principles of stewardship, ARIN, a nonprofit corporation, allocates Internet Protocol resources; develops consensus-based policies; and facilitates the advancement of the Internet through information and educational outreach.''
+
+These services are grouped in three areas: Registration, Organization, and Policy Development.
+
+===Registration services===
+Registration services pertain to the technical coordination and inventory management of Internet number resources. Services include:
+
+*IPv4 address allocation and assignment
+*IPv6 address allocation and assignment
+*[[Autonomous system (Internet)|AS number]] assignment
+*Directory services including:
+**Registration transaction information (WHOIS)
+**Routing information (Internet Routing Registry)
+*DNS (Reverse)
+
+For information on requesting Internet number resources from ARIN, see https://www.arin.net/resources/index.html. This section includes the request templates, specific distribution policies, and guidelines for requesting and managing Internet number resources.
+
+===Organization services===
+Organization services pertain to interaction between stakeholders, ARIN members, and ARIN. Services include:
+
+*Elections
+*Members meetings
+*Information publication and dissemination
+*Education and training
+
+===Policy development services===
+Policy development services facilitate the development of policy for the technical coordination and management of Internet number resources.
+
+All ARIN policies are set by the community. Everyone is encouraged to participate in the policy development process at public policy meetings and on the Public Policy Mailing List. The ARIN Board of Trustees ratifies policies only after:
+
+#discussion on mailing lists and at meetings;
+#ARIN Advisory Council recommendation;
+#community consensus in favor of the policy; and
+#full legal and fiscal review.
+
+The community develops policies by following a formal Policy Development Process as outlined at https://www.arin.net/policy/pdp.html. The Number Resource Policy Manual, ARIN’s complete set of current policies, is available at https://www.arin.net/policy/nrpm.html.
+
+'''Membership is not required to participate in ARIN’s policy development process or to apply for Internet number resources.'''
+
+Services include:
+
+*Maintaining discussion e-mail lists
+*Conducting public policy meetings
+*Publishing policy documents
+
+==Organizational structure==
+ARIN consists of the Internet community within its region, its members, a 7-member Board of Trustees, a 15-member Advisory Council, and a professional staff of about 50. The Board of Trustees and Advisory Council are elected by ARIN members for three-year terms.
+
+===Board of trustees===
+The ARIN membership elects the Board of Trustees (BoT), which has ultimate responsibility for the business affairs and financial health of ARIN, and manages ARIN's operations in a manner consistent with the guidance received from the Advisory Council and the goals set by the registry's members. The BoT is responsible for determining the disposition of all revenues received to ensure all services are provided in an equitable manner. The BoT ratifies proposals generated from the membership and submitted through the Advisory Council. Executive decisions are carried out following approval by the BoT.
+
+The BoT consists of 7 members:
+*Paul Andersen (Treasurer)
+*[[John Curran (businessman)|John Curran]] (President and CEO)
+*[[Vint Cerf]]
+*Timothy Denton (Chairman)
+*Aaron Hughes
+*[[Paul Vixie]]
+*[[Bill Woodcock]]
+
+===Advisory council===
+In addition to the BoT, ARIN has an advisory council that advises ARIN and the BoT on IP address allocation policy and related matters. Adhering to the procedures in the Internet Resource Policy Evaluation Process, the advisory council forwards consensus-based policy proposals to the BoT for ratification.
+
+The advisory council consists of 15 elected members:
+
+*Dan Alexander (Vice Chair)
+*Cathy Aronson
+*Kevin Blumberg
+*Bill Darte
+*Owen DeLong
+*David Farmer
+*Chris Grundemann
+*Stacy Hughes
+*Scott Leibrand
+*Milton Mueller
+*Bill Sandiford
+*Robert Seastrom
+*Heather Schiller
+*John Springer
+*John Sweeting (Chair)
+
+==History==
+The organization was formed in December 1997 to "provide [[Internet Protocol|IP]] registration services as an independent, nonprofit corporation." Until this time, IP address registration (outside of [[RIPE]] and [[APNIC]] regions) was done in accordance with policies set by the [[IETF]]<ref>{{cite web|title=Network Information Services Manager(s) for NSFNET and the NREN: INTERNIC Registration Services|url=http://archive.icann.org/en/nsi/coopagmt-01jan93.htm|publisher=National Science Foundation|accessdate=19 June 2013}}</ref> by [[Network Solutions]] corporation as part of the [[InterNIC]] project.  The National Science Foundation approved the plan for the creation of the not-for-profit organization to ''"give the users of IP numbers (mostly Internet service providers, corporations and other large institutions) a voice in the policies by which they are managed and allocated within the North American region."''.<ref>[http://www.nsf.gov/news/news_summ.jsp?cntn_id=102819  NSF Press Release regarding ARIN formation]</ref><ref>{{cite web|last=Strickling|first=Lawrence|title=United States Government’s Internet Protocol Numbering Principles|url=http://www.ntia.doc.gov/blog/2012/united-states-government-s-internet-protocol-numbering-principles|publisher=USG/NTIA|accessdate=4 December 2012}}</ref>  As part of the transition, [[Network Solutions]] corporation transitioned these tasks as well as initial staff and computer infrastructure to ARIN.<ref>{{cite web|url=http://archive.icann.org/en/nsi/coopagmt-amend7-03dec97.htm|title=Amendment 7 to Cooperative Agreement Between NSI and U.S. Government|publisher=ICANN|accessdate=16 March 2013}}</ref>
+
+The initial Board of Trustees consisted of  [[Scott Bradner]], [[John Curran (businessman)|John Curran]], Kim Hubbard, Don Telage, Randy Bush, Raymundo Vega Aguilar, and [[Jon Postel]] (IANA) as an ex-officio member.<ref>[https://www.arin.net/about_us/fmr_board.html Former Board Members]</ref>
+
+The first president of ARIN was Kim Hubbard, from 1997 until 2000. Kim was succeeded by Raymond "Ray" Plzak until the end of 2008. Trustee John Curran was acting President until July 1 of 2009 when he assumed the CEO role permanently.
+
+Until late 2002 it served [[Mexico]], [[Central America]], [[South America]] and all of the [[Caribbean]]. [[LACNIC]] now handles parts of the Caribbean, Mexico, Central America, and South America. Also, [[Sub-Saharan Africa]] was part of its region until April 2005, when [[AfriNIC]] was officially recognized by [[ICANN]] as the fifth [[Regional Internet Registry]].
+
+==Service Region==
+The countries in the ARIN service region are:<ref>[https://www.arin.net/knowledge/rirs/ARINcountries.html ARIN Region], countries list</ref>
+
+{{Col-begin}}
+{{Col-2}}
+*[[Anguilla]] (UK)
+*[[Antarctica]]
+*[[Antigua and Barbuda]]
+*[[Barbados]]
+*[[Bermuda]] (UK)
+*[[Bouvet Island]] (Norway)
+*[[British Virgin Islands]] (UK)
+*[[Canada]]
+*[[Cayman Islands]] (UK)
+*[[Collectivity of Saint Martin]] (France)
+*[[Dominica]]
+*[[Grenada]]
+*[[Guadeloupe]] (France)
+*[[Heard Island and McDonald Islands]] (Australia)
+*[[Jamaica]]
+{{Col-2}}
+*[[Martinique]] (France)
+*[[Montserrat]] (UK)
+*[[Puerto Rico]] (U.S.)
+*[[Saint Barthélemy]] (France)
+*[[Saint Helena, Ascension and Tristan da Cunha]] (UK)
+*[[Saint Kitts and Nevis]]
+*[[Saint Lucia]]
+*[[Saint Pierre and Miquelon]] (France)
+*[[Saint Vincent and the Grenadines]]
+*[[The Bahamas]]
+*[[Turks and Caicos Islands]] (UK)
+*[[United States]]
+*[[United States Minor Outlying Islands]] (U.S.)
+*[[United States Virgin Islands]] (U.S.)
+{{Col-end}}
+
+===Former service region===
+ARIN formerly covered [[Angola]], [[Botswana]], [[Burundi]], [[Republic of Congo]], [[Democratic Republic of Congo]], [[Malawi]], [[Mozambique]], [[Namibia]], [[Rwanda]], [[South Africa]], [[Swaziland]], [[Tanzania]], [[Zambia]], and [[Zimbabwe]] until [[AfriNIC]] was formed.
+
+ARIN formerly covered [[Argentina]], [[Aruba]], [[Belize]], [[Bolivia]], [[Brazil]], [[Chile]], [[Colombia]], [[Costa Rica]], [[Cuba]], [[Dominican Republic]], [[Dutch West Indies]], [[Ecuador]], [[El Salvador]], [[Falkland Islands]] (UK), [[French Guiana]], [[Guatemala]], [[Guyana]], [[Haiti]], [[Honduras]], [[Mexico]], [[Nicaragua]], [[Panama]], [[Paraguay]], [[Peru]], [[South Georgia and the South Sandwich Islands]], [[Suriname]], [[Trinidad and Tobago]], [[Uruguay]], and [[Venezuela]] until [[LACNIC]] was formed.
+
+==References==
+{{Reflist|30em}}
+
+==External links==
+*[http://www.arin.net/ ARIN Home Page]
+*[http://www.arin.net/about_us/ac.html ARIN Advisory Council]
+*[http://www.arin.net/about_us/bot.html ARIN Board of Trustees]
+
+{{Regional Internet Registry}}
+
+{{DEFAULTSORT:American Registry For Internet Numbers}}
+[[Category:Regional Internet registries]]
+[[Category:Internet in Canada]]
+[[Category:Internet in the United States]]

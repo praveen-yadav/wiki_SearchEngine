@@ -1,0 +1,71 @@
+{{Unreferenced|date=September 2008}}
+'''Bi-directional text''' is text containing text in both [[Writing_system#Directionality|text directionalities]], both [[right-to-left]] (RTL) and [[left-to-right]] (LTR). It generally involves text containing different types of [[alphabet]]s, but may also refer to [[boustrophedon]], which is changing text directionality in each row.
+
+Some [[writing system]]s of the world, notably the [[Arabic alphabet|Arabic]] and [[Hebrew alphabet|Hebrew]] scripts, and derived systems such as the [[Urdu alphabet|Urdu]], [[Persian alphabet|Persian]], [[Kurdish alphabet|Kurdish]] and [[Yiddish orthography|Yiddish]] scripts, are written in a form known as right-to-left (RTL), in which writing begins at the right-hand side of a page and concludes at the left-hand side. This is different from the left-to-right (LTR) direction used by most languages in the world. When LTR text is mixed with RTL in the same paragraph, each type of text is written in its own direction, which is known as ''bi-directional text''. This can get rather complex when multiple levels of quotation are used.
+
+Many computer programs fail to display bi-directional text correctly.
+For example, the Hebrew name Sarah (שרה) is spelled sin (ש) resh (ר) heh (ה) from right to left. 
+''Note: Some [[web browser]]s may display the Hebrew text in this article in the opposite direction.''
+
+== Unicode support ==
+'''Bidirectional script support''' is the capability of a [[computer]] system to correctly display bi-directional text. The term is often shortened to '''BiDi''' or '''bidi'''.
+
+Early computer installations were designed only to support a single [[writing system]], typically for left-to-right scripts based on the [[Latin alphabet]] only.  Adding new [[character set]]s and [[character encoding]]s enabled a number of other left-to-right scripts to be supported, but did not easily support right-to-left scripts such as [[Arabic alphabet|Arabic]] or [[Hebrew alphabet|Hebrew]], and mixing the two was not practical. Right-to-left scripts were introduced through encodings like [[ISO/IEC 8859-6]] and [[ISO/IEC 8859-8]], storing the letters (usually) in writing and reading order. It is possible to simply flip the left-to-right display order to a right-to-left display order, but doing this sacrifices the ability to correctly display left-to-right scripts. With bidirectional script support, it is possible to mix scripts from different scripts on the same page, regardless of writing direction.
+
+In particular, the [[Unicode]] standard provides foundations for complete BiDi support, with detailed rules as to how mixtures of left-to-right and right-to-left scripts are to be encoded and displayed.
+
+In Unicode encoding, all non-punctuation [[Character (computing)|characters]] are stored in writing order. This means that the writing direction of characters is stored within the characters. If this is the case, the character is called "strong". Punctuation characters however, can appear in both LTR and RTL scripts. They are called "weak" characters because they do not contain any directional information. So it is up to the software to decide in which direction these "weak" characters will be placed. Sometimes (in mixed-directions text) this leads to display errors caused by the BiDi algorithm, which examines the text, identifies LTR and RTL strong characters and assigns a direction to weak characters, according to certain rules.
+
+In the algorithm, each sequence of concatenated strong characters is called a "run". A weak character that is located between two strong characters with the same orientation will inherit their orientation. A weak character that is located between two strong characters with a different writing direction, will inherit the main context's writing direction (in an LTR document the character will become LTR, in an RTL document, it will become RTL). If a "weak" character is followed by another "weak" character, the algorithm will look at the first neighbouring "strong" character. Sometimes this leads to unintentional display errors. These errors are corrected or prevented with "pseudo-strong" characters. Such [[Unicode control characters]] are called ''marks''. The mark ({{unichar|200E|Left-to-right mark|link=|html=|note=LRM}} or {{unichar|200F|Right-to-left mark|link=|html=|note=RLM}}) is to be inserted into a location to make an enclosed weak character inherit its writing direction.
+
+For example, to correctly display the {{unichar|2122|trade mark sign}} for an English name brand (LTR) in an Arabic (RTL) passage, an LRM mark is inserted after the trademark symbol if the symbol is not followed by LTR text. If the LRM mark is not added, the weak character {{unicode|&#x2122;}} will be neighbored by a strong LTR character and a strong RTL character. Hence, in an RTL context, it will be considered to be RTL, and displayed in an incorrect order.
+
+Possible BiDi-types of a character, to be used by the BiDi algorithm, are:
+{{Bidi Class (Unicode)}}
+
+== Scripts using bi-directional text ==
+[[Egyptian language|Egyptian]] [[Egyptian hieroglyph|hieroglyphs]] can be written bi-directional, where the signs had a distinct "head" that faced the beginning of a line and "tail" that faced the end.
+
+[[Chinese characters]] can also be written in either direction as well as vertically (top to bottom then right to left), especially in signs (such as plaques), but the orientation of the individual characters is never changed. This can often be seen on tour buses in China, where the company name customarily runs from the front of the vehicle to its rear — that is, from right to left on the right side of the bus, and from left to right on the left side of the bus. English texts on the right side of the vehicle are also quite commonly written in reverse order.{{citation-needed|date=September 2013}}
+<gallery>
+Image:Yangzhou-tour-bus--right-side-3182.jpg|The right side (text runs from right to left)
+Image:Yangzhou-tour-bus--leftt-side-3184.jpg|The left side (text runs from left to right)
+Image:Hainan Airlines - Boeing 737-86N.jpg| On the right side of this [[Hainan Airlines]] aircraft, the text runs from right to left (&nbsp;空&nbsp;航&nbsp;南&nbsp;海&nbsp;).
+Image:Hainan Airlines.JPG|The left side, however, shows the text running from left to right (&nbsp;海&nbsp;南&nbsp;航&nbsp;空&nbsp;).
+File:VM 5485 China Post Office car at Zhengzhou Train Station.jpg|A photo that shows text on both sides of a China Post vehicle
+</gallery>
+
+Another variety of writing style, called ''[[boustrophedon]],'' was used in some scripts, such as ancient [[Greek language|Greek]] inscriptions and [[Hungarian runes]]. This method of writing alternates direction, and usually reverses the individual characters, on each successive line.
+
+== See also ==
+* [[Internationalization and localization]]
+* [[Horizontal and vertical writing in East Asian scripts]]
+* [[Writing system#Directionality]] (section on directionality)
+* [[Combining Cyrillic Millions]]
+* [[Transformation of text]]
+* [[Boustrophedon]]
+
+== References ==
+
+{{reflist}}
+
+== External links ==
+* [http://www.unicode.org/reports/tr9/ Unicode Standards Annex #9] The Bidirectional Algorithm
+* [http://www.w3.org/TR/i18n-html-tech-bidi/ W3C guidelines on authoring techniques for bi-directional text] - includes examples and good explanations
+* [http://fribidi.org/ GNU FriBidi] A free implementation of the Unicode bidirectional algorithm
+* [http://www.icu-project.org/ ICU] [[International Components for Unicode]] contains an implementation of the bidirectional algorithm — along with other internationalization services
+* [http://crl.nmsu.edu/~mleisher/ucdata.html UCData: "Pretty Good Bidi Algorithm Library"] A small and fast bidirectional reordering algorithm that works pretty good, but not necessarily compliant to the Unicode algorithm
+* [http://freedesktop.org/wiki/Specifications/bidi-spec?action=show&redirect=Standards%2Fbidi-spec Bidirectional Scripts in Desktop Software] Working group for supporting BiDi in [[Free Software]]. Contains several links to readings and implementation regarding BiDi in [[computer]] systems.
+* [http://mac.plonter.co.il/plonwiki/BidiWiki Another Wiki about BiDi]
+* [http://www.user.uni-hannover.de/nhtcapri/bidirectional-text.html Bidirectional text - Examples and practical advice]
+* [http://nbidi.sf.net .Net BiDi Implementation]
+* [http://imagic.weizmann.ac.il/~dov/Hebrew/logicUI24.htm A freely available rather final version of Israeli standard 5194 - bidirectional text editing]
+* [http://bidiedit.lingnu.com Work in progress on new version of Bidi editing standard + reference implementation]
+* [http://www.lingnu.com/en/programming.html Series of articles about pitfalls of BiDi programming]
+
+{{Unicode navigation}}
+
+{{DEFAULTSORT:Bi-Directional Text}}
+[[Category:Character encoding]]
+[[Category:Unicode algorithms]]
+[[Category:Internationalization and localization]]

@@ -1,0 +1,377 @@
+An '''automatic number announcement circuit''' ('''ANAC''') is a component of a central office of a [[telephone company]] that provides a service to installation and service technicians to determine the [[telephone number]] of a [[local loop|line]]. The facility has a telephone number that may be called to listen to an automatic announcement that includes the caller's telephone number.
+
+The ANAC number is useful primarily during the installation of landline telephones to quickly identify one of multiple lines.
+
+== Operation == 
+A technician calls the local telephone number of the automatic number announcement service. This call is connected to equipment at a local [[telephone exchange|central office]] that uses a voice synthesizer or digital samples to [[text-to-speech|announce]] the telephone number of the line calling in. The main purpose of this system is to allow telephone company technicians to identify the telephone line they are connected to.
+
+Automatic number announcement systems are based on [[automatic number identification]], and meant for phone company technicians, the ANAC system works with [[unlisted number]]s, numbers with caller ID blocking, and numbers with no outgoing calls allowed. Installers of multi-line business services where outgoing calls from all lines display the company's main number on call display can use ANAC to identify a specific line in the system, even if CID displays every line as "line one".
+
+Some ANACs are very regional or local in scope, while others are state-/province- or [[telephone numbering plan|area-code]]-wide: there appears to be no consistent national system for them. Every telephone company, whether large or small, determines its own ANAC for each individual central office, which tends to perpetuate the current situation of a mess of overlapping and/or spotty areas of coverage.<ref>[http://www.artofhacking.com/tucops/phreak/callerid/live/aoh_anac.htm artofhacking.com List of local ANAC phone numbers] in United States, Canada, Australia and Britain</ref> No official lists of ANAC numbers are published as telephone companies believe overuse of these numbers could make them more likely to be busy when needed by installers.<ref>[http://www.dslreports.com/forum/r25283784-Internet-What-is-the-number-to-dial-to-get-the-phone-line- DSLreports: Identifying the telephone number of an ADSL dry loop (Canada)]</ref>
+
+=== 958 local test exchanges ===
+Under the [[North American Numbering Plan]], almost all North American area codes reserve telephone numbers beginning with ''958'' and ''959'' for internal local and long distance testing (respectively), sometimes called plant testing. (One exception is [[Area code 204|Winnipeg]], which reserves ''959'' only). Numbers within this block are used for various test utilities such as a [[ringback number]] (to test the ringer when installing [[telephone]] sets), milliwatt tone (a number simply answers with a continuous [[test tone]]) and a [[loop around]] (which connects a call to another inbound call to the same or another test number). ANAC numbers can also appear in the ''958'' range, but there is no requirement that they reside there.
+
+In some area codes, multiple additional prefixes had been reserved for test purposes, in addition to the standard 958 and 959. Many area codes reserved 999; 320 was also formerly reserved in [[Bell Canada]] territory. As widespread inefficiencies in numbering (such as the assignment of entire blocks of 10000 numbers to every competing carrier in every small village to support local number portability schemes) have created shortages of available numbers, these prefixes are often "reclaimed" and issued as standard exchanges, moving the handful of numbers in them to one standard test exchange (usually 958).
+
+Some carriers have been known to disable [[payphone]] calls to 958 or 959 test lines, such as Bell Canada's system-wide ANAC line at '''958-2580 or (area code) 958-6111'''. Conversely, a standard line on which voice service has been unsubscribed (such as an [[ADSL]] [[dry loop]]) may still accept calls to the 958 test exchange but not allow calls to standard numbers. This "soft disconnect" condition is intended to allow calls to [[9-1-1#Inactive_telephones|9-1-1 emergency services]] and to the telco business office to order telephone service, but to no other numbers.
+
+===Tollfree numbers===
+Some large telephone companies have [[toll-free number]]s set up. In most cases, these numbers remain undisclosed to prevent abuse, but MCI maintains this widely published, toll-free ANAC: '''1-800-437-7950'''. This is distinct from technical support and other lines which use [[automatic number identification|ANI]] so that a computer can automatically display the customer's account on a "[[screen pop]]" for the next available [[customer service]] representative: the MCI number is intended specifically for ANAC use.
+
+Formerly, some companies changed their ANAC number every month for secrecy; this is still the case with a few numbers. In one example of this concern, most payphones in the [[United States]] are assigned a telephone number and can ring if the number is called. The phone can then be used to make and receive calls by anyone, making it a potential tool in anonymous criminal activity such as [[narcotics trafficking]]. Where a payphone does not have any number listed on the unit, the number can be discovered by calling an ANAC service.
+
+Late in the 20th century, [[caller ID]] and [[prepaid cellphone]] service became commonplace. These services being more easily [[exploit (computer security)|exploit]]ed for criminal purposes, this type of abuse of payphones faded from concern. In Canada, this behaviour has always been more difficult. As a matter of course, incoming calls to payphones are disabled; furthermore, the Bell ANAC number is also disabled (although the telephone number is marked on the payphone itself as it is needed to report a non-working coin 'phone to [[6-1-1]] repair service).
+
+There are some private national toll-free numbers that use [[automatic number identification|ANI]] and then have a computer read back the number that is calling, but these are not intended for use in identifying the customer's own phone number. They are used in order for the agent in the [[call center]] to confirm the phone the customer is calling from, so that a computer can automatically display the customer's account on a "[[screen pop]]" for the next available [[customer service]] representative; they are distinct from purpose-made toll-free ANAC numbers. Regardless, if one were to call one of these numbers, listen for the number confirmation and hang up, they would in effect be using this system as if it were an ANAC.
+
+One such toll-free service is one owned by MCI - 1-800-444-4444. This number is easy to remember and, when called, will read back your number after a very short message.<ref>http://aplawrence.com/Unixart/dhanacsnumbers.html</ref> It is noteworthy that a suspended or out of service line or an incoming only line would not be able to reach any toll-free numbers.
+
+==ANAC numbers==
+The list is presented by area code. In some regions, there are several numbers, depending on the telephone company or the area code of the caller, as there can be several central offices serving some areas.
+
+Information is presented in the following form:
+
+Area code: ANAC approximate geographic region
+
+===United States===
+In some cases. if a prefix outside the 958 or 959 range is listed as a test exchange, these may be reclaimed and issued as standard numbers at a later date. NANPA's utilised codes report will indicate 'UA' (unassignable) for valid test prefixes;<ref>[http://nanpa.com/nas/public/assigned_code_query_step1.do?method=resetCodeQueryModel NANPA utilised CO codes, report for one selected area code], NeuStar Inc.</ref> if a formerly 'UA' code newly appears on the available list or becomes an active exchange,<ref>[http://nanpa.com/nas/public/available_code_query_display.do?method=displayAvailableCodeQueryData NANPA list of available CO codes (per area code)]</ref> any former test numbers from its time as a reserved prefix are presumable as invalid and deprecated. [[N11 code|N11]] prefixes such as [[2-1-1|211]], [[3-1-1|311]] and [[5-1-1|511]] are also often disappearing as test numbers as these codes are reassigned to local services such as community information, 
+
+These numbers appear on lists circulated online, many from the 1990s. Many are outdated or no longer work:
+* 206: 411       WA (Not US West)
+* 207: 958       ME
+* 209: 959-1122     Stockton, CA
+* 210: 830       Brownsville/Laredo/San Antonio, TX
+* 210: 951       Brownsville/Laredo/San Antonio, TX (GTE) (deprecated, 951 is available for reassignment as of 2012.)
+* 212: 958       Manhattan, NY
+* 213: 959-1122     Los Angeles, CA (English Response)
+* 214: 570       Dallas, TX (deprecated, now a standard exchange)
+* 214: 790       Dallas, TX (GTE) (deprecated, now a standard exchange)
+* 214: 970-222-2222   Dallas, TX
+* 214: 970-611-1111   Dallas, TX (Southwestern Bell)
+* 215: 511       Philadelphia, PA was deprecated by state-wide use of 511 as road info in 2009; PA is the 36th state to adopt the system.<ref>{{cite news|date=September 2, 2009|title=PennDot launches 511 travellers info service|publisher=Philadelphia Inquirer|url=http://www.philly.com/philly/blogs/harrisburg_politics/56731197.html }}
+</ref>
+* 215: 958       Philadelphia, PA
+* 216: 331       Akron/Canton/Cleveland/Lorain/Youngstown, OH (deprecated, 331 is available for assignment as a new CO code as of 2012.)
+* 216: 959-9892     Akron/Canton/Cleveland/Lorain/Youngstown, OH
+* 219: 550       Gary/Hammond/Michigan City/Southbend, IN (deprecated, 550 is available for reassignment as of 2012.)
+* 219: 559       Gary/Hammond/Michigan City/Southbend, IN (deprecated, 559 is available for reassignment as of 2012.)
+* 276: 959-1114      Verizon
+* 301: 2002006969    Hagerstown/Rockville, MD
+* 301: 958-9968     Hagerstown/Rockville, MD
+* 305: 200-555-1212   Ft. Lauderdale/Key West/Miami, FL
+* 305: 200200200200200 Ft. Lauderdale/Key West/Miami, FL
+* 305: 780-2411     Ft. Lauderdale/Key West/Miami, FL
+* 309: 959-1114     Central IL (Frontier, Ex-Verizon)
+* 309: 959-9833     Quad City IA/IL Area (AT&T)
+* 310: 958-1114     Los Angeles, CA (GTE)
+* 310: 959-1114     West Los Angeles/Long Beach, CA (Verizon) <Current for all GTE>
+* 310: 959-1122     Compton/Gardena, Beverly Hills etc., CA (Current for all PB switches)
+* 310: 959-1122     San Pedro/Wilmington, CA (AT&T)
+* 312: 200       Chicago, IL
+* 312: 290       Chicago, IL
+* 312: 1-200-8825    Chicago, IL (Last Four Change Rapidly)
+* 312: 1-200-555-1212  Chicago, IL
+* 313: 200-200-2002   Ann Arbor/Dearborn/Detroit, MI
+* 313: 200-222-2222   Ann Arbor/Dearborn/Detroit, MI
+* 313: 200200200200200 Ann Arbor/Dearborn/Detroit, MI
+* 315: 953       Syracuse/Utica, NY (deprected, 953 is now a standard exchange in [[Vernon, New York|Vernon]])
+* 315: 958       Syracuse/Utica, NY
+* 315: 998       Syracuse/Utica, NY
+* 317: 310-222-2222   Indianapolis/Kokomo, IN
+* 317: 559-222-2222   Indianapolis/Kokomo, IN
+* 317: 743-1218     Indianapolis/Kokomo, IN
+* 334: 557-2411     Montgomery, AL
+* 334: 557-2311     Montgomery, AL
+* 337: 370 New Iberia, LA
+* 337: 720 Lafayette Vermillion, LA
+* 337: 350 Lafayette Main, LA
+* 352: 200-2002     Gainesville, FL
+* 401: 200-200-4444   RI
+* 402: 311       Lincoln, NE <Verified 05/09/2006>
+* 404: 311       Atlanta, GA
+* 404: 990       Atlanta, GA
+* 405: 890-7777777   Enid/Oklahoma City, OK
+* 405: 897       Enid/Oklahoma City, OK
+* 407: 200-222-2222   Orlando/West Palm Beach, FL (Bell South)
+* 407: 520-3111     Orlando/West Palm Beach, FL (United)
+* 408: 959-1122     San Jose, CA
+* 409: 951       Beaumont/Galveston, TX
+* 410: 200-200-6969   Annapolis/Baltimore, MD
+* 410: 200-555-1212   Annapolis/Baltimore, MD
+* 410: 811       Annapolis/Baltimore, MD
+* 412: 211       Pittsburgh, PA (DTMF Response)
+* 412: 975       Pittsburgh, PA
+* 413: 958       Pittsfield/Springfield, MA
+* 413: 200-555-5555   Pittsfield/Springfield, MA
+* 414: 330-2234     Fond du Lac/Green Bay/Milwaukee/Racine, WI
+* 415: 959-1122     San Francisco, CA <Current PB for all switches>
+* 417: 959-1122     Joplin, MO
+* 419: 311       Toledo, OH
+* 423: 200-200-200   Chattanooga, Johnson City, Knoxville, TN
+* 434: 118       Charlottesville, VA  <Verified 08/06/2013>
+* 434: 311       Danville, VA (Verizon)
+* 478: 990       Dublin, GA. (BELLSOUTH & AT&T)
+* 478: 3336       Metter, GA. (PINELAND TELEPHONE)
+* 480: 958-7847     Phoenix Metro Area (QWEST)
+* 501: 511       AR
+* 502: 2002222222    Frankfort/Louisville/Paducah/Shelbyville, KY
+* 502: 997-555-1212   Frankfort/Louisville/Paducah/Shelbyville, KY
+* 503: 266-1021     Canby, OR
+* 503: 697-0053     Lake Oswego, OR
+* 503: 611       Portland, OR
+* 503: 999       Portland, OR (GTE)
+* 503: 958       Portland, OR (CLEC, MCIMetro ATS)
+* 504: 997-1111     New Orleans/Metairie/Kenner/River Ridge, LA (Bell South) <Verified 02/04/2006>
+* 504: 99882233     Baton Rouge/New Orleans, LA
+* 504: 201-269-1111   Baton Rouge/New Orleans, LA
+* 504: 998       Baton Rouge/New Orleans, LA
+* 504: 99851-0000000000 Baton Rouge/New Orleans, LA
+* 505: 243-0049     Albuquerque Metro, NM
+* 508: 958       Fall River/New Bedford/Worchester, MA
+* 508: 200-222-1234   Fall River/New Bedford/Worcester, MA
+* 508: 200-222-2222   Fall River/New Bedford/Worcester, MA
+* 508: 26011      Fall River/New Bedford/Worcester, MA
+* 509: 560       Spokane/Walla Walla/Yakima, WA
+* 510: 959-1122     Oakland, CA
+* 512: 830       Austin/Corpus Christi, TX
+* 513: 380-55555555   Cincinnati/Dayton, OH
+* 515: 280-1241     Des Moines Metro Area ([[Regional Bell Operating Company|RBOC]]), IA
+* 515: 552#       Des Moines Metro Area ([[CLEC]]), IA
+* 515: 5463       Des Moines, IA
+* 515: 811       Des Moines, IA
+* 516: 958       Hempstead/Long Island, NY
+* 516: 968       Hempstead/Long Island, NY
+* 517: 200-222-2222   Bay City/Jackson/Lansing, MI
+* 517: 200200200200200 Bay City/Jackson/Lansing, MI
+* 518: 511       Albany/Schenectady/Troy, NY
+* 518: 997       Albany/Schenectady/Troy, NY
+* 518: 998       Albany/Schenectady/Troy, NY
+* 530: 959-1122     Davis, CA <Current for all PB switches in CA>
+* 540: 211       Roanoke, VA (GTE)
+* 540: 311       Roanoke, VA (GTE)
+* 541: 200       Bend, OR
+* 541: 330-0024     Bend, OR
+* 561: 364-1781  West Palm Beach/Jupiter/Juno Beach, FL
+* 602: 958-7847     Phoenix Metro Area (QWEST)
+* 602: 253-0227     Phoenix Metro Area (QWEST)
+* 603: 200-222-2222   New Hampshire (NH)
+* 603: 958       New Hampshire (NH)
+* 606: 997-555-1212   Ashland/Winchester, KY
+* 606: 711       Ashland/Winchester, KY
+* 607: 993       Binghamton/Elmira, NY
+* 608: 884-1206     Edgerton, WI
+* 609: 958       Trenton/Atlantic City, NJ
+* 610: 958       Allentown/Reading, PA
+* 610: 958-4100     Allentown/Reading, PA
+* 615: 200200200200200 Chattanooga/Knoxville/Nashville, TN
+* 615: 2002222222    Chattanooga/Knoxville/Nashville, TN
+* 615: 830       Nashville, TN
+* 616: 200-222-2222   Battle Creek/Grand Rapids/Kalamazoo, MI
+* 617: 200-222-1234   Boston, MA
+* 617: 200-222-2222   Boston, MA
+* 617: 200-444-4444   Boston, MA (Woburn, MA)
+* 617: 220       Boston, MA
+* 617: 220-2622     Boston, MA
+* 617: 958       Boston, MA
+* 618: 930       Alton/Cairo/Mt. Vernon, IL
+* 619: 959-1122     San Diego, CA
+* 620: 959-1122     Southern KS
+* 623: 958-7847     Phoenix Metro Area (QWEST)
+* 650: 959-1122     Palo Alto/Mountain View, CA
+* 659: 220-2622     Newmarket, NH
+* 682: 959-1122     Ft. Worth, TX (AT&T / SBC)
+* 682: 970-1234     Ft. Worth, TX (AT&T / SBC)
+* 702: 889-4579     Las Vegas, NV (Embarq)
+* 703: 211       VA
+* 703: 511-3636     Culpeper/Orange/Fredericksburg, VA
+* 703: 811       Alexandria/Arlington/Roanoke, VA
+* 707: 211-2222     Eureka, CA
+* 708: 1-200-555-1212  Chicago/Elgin, IL
+* 708: 1-200-8825    Chicago/Elgin, IL (Last Four Change Rapidly)
+* 708: 200-6153     Chicago/Elgin, IL
+* 712: 580-9999     Council Bluffs, IA
+* 713: 380       Houston, TX
+* 713: 811       Humble, TX
+* 713: 380-5555-5555  Houston, TX
+* 714: 959-1114     Huntington Beach, CA (GTE)
+* 714: 959-1122     Anaheim, CA (PacBell)
+* 716: 511       Buffalo/Niagara Falls, NY
+* 716: 990       Buffalo/Niagara Falls, NY
+* 717: 711       Coaldale/Lansford/Summit Hill, PA (Alltel)
+* 717: 958       Harrisburg/Scranton/Wilkes-Barre, PA
+* 718: 958       Bronx/Brooklyn/Queens/Staten Island, NY
+* 732: 958       For Verizon land lines.
+* 732: *99       For Optimum Phone Service
+* 760: 959-1114     Palm Springs/Palm Desert, CA (Current for all GTE CA switches)
+* 760: 959-1122     Oceanside/Escondido/Fallbrook, CA (Current for all AT&T/PB switches)
+* 781: 200-2222222   Boston
+* 781: 511       RCN Phone Service Users, at Least in Dedham, MA
+* 787: 787-959-1240 PRTC
+* 787: 787-959-1250 PRTC
+* 770: 780-2311     Atlanta/Marietta/Norcross, GA  (is not active 5/2013)
+* 802: 222-2222-2222  Vermont
+* 802: 200-222-2222   Vermont
+* 802: 1-700-222-2222  Vermont
+* 802: 111-2222     Vermont
+* 802: 200-1111     Vermont
+* 804: 990       Virginia Beach/Richmond, VA
+* 805: 959-1114     Santa Barbara/Thousand Oaks, CA
+* 805: 959-1122     Bakersfield/San Luis Obispo, CA
+* 805: 959-1123     Bakersfield/San Luis Obispo, CA (?) (Returns DTMF Tones)
+* 806: 863-9999     Amarillo/Lubbock, TX (?) (South Plains Telephone Co-Op)
+* 810: 200200200200200 Flint/Pontiac/Southfield/Troy, MI
+* 810: 311       Pontiac/Southfield/Troy, MI
+* 812: 410-555-1212   Evansville, IN
+* 812: 462-1218 Terre Haute, IN <Verified 10/09/12>
+* 812: 959-1114     Farmersburg/North Terre Haute/South Terre Haute/Riley, Indiana
+* 813: 311       St. Petersburg/Tampa, FL
+* 814: 958-2111     Cresson, PA
+* 815: 270-3374     Crystal Lake, IL
+* 815: 770-3374     Crystal Lake, IL
+* 815: 290       La Salle/Rockford, IL
+* 816: 959-1122     Kansas City Metro Area (Missouri Side)
+* 817: 211       Ft. Worth/Waco, TX
+* 817: 970-611-1111   Ft. Worth/Waco, TX (Southwestern Bell)
+* 817: 970-1234     Ft. Worth, TX (AT&T / SBC)
+* 817: 959-1122     Ft. Worth, TX (AT&T / SBC)
+* 831: 959-1122     Santa Cruz, San Benito, and Monterey Counties, CA <Current for all PB switches>
+* 845: 990       Hudson Valley Region, NY
+* 850: 959-3111     Tallahassee, FL
+* 856: 958       Camden/Vineland, NJ
+* 860: 959-9822       CT
+* 903: 970-611-1111   Tyler, TX
+* 904: 200-222-222   Jackonsville/Pensacola/Tallahassee, FL
+* 906: 1-200-222-2222  Marquette/Sault Ste. Marie, MI
+* 907: 811       AK
+* 908: 958       New Brunswick, NJ
+* 908: 311-MMYY     Embarq (formerly Sprint United of NJ) (MMYY is current Month/Year)
+* 909: 111       Riverside/San Bernardino Counties, CA (GTE) <This is the GT Ringback/TT code, no ID here>
+* 909: 959-1122     Colton/Fontana/Highland, CA (Current for all PB switches)
+* 909: 114 and 959-1114     Ontario/Pomona/San Bernardino, CA (Current for all GTE switches in CA)
+* 912: 940       Vidalia, GA. (BELLSOUTH & AT&T)
+* 913: 959-1122     Kansas City Metro Area (Kansas side)
+* 914: 990-1111     Peekskill/Poughkeepsie/White Plains/Yonkers, NY
+* 914:              *99 for Cablevision/Optimum Voice
+* 916: 959-1122     Sacramento, CA (Pac Bell)
+* 916: 461       Sacramento, CA (Roseville Telephone)
+* 919: 200       Durham, NC
+* 919: 711       Durham, NC
+* 919: 958-1114     Durham, NC
+* 925: 959-1122     Contra Costa County, CA
+* 928: 666-1111     Northern Arizona
+* 954: 200-555-1212   Ft. Lauderdale, FL
+* 954: 200200200200200 Ft. Lauderdale, FL
+* 954: 780-2411     Ft. Lauderdale, FL
+* 970: 958-(any 4 digits)     Greeley, CO (Qwest)
+* 972: 959-1122     Plano, TX (AT&T / SBC)
+* 972: 970-1234     Plano, TX (AT&T / SBC)
+* 973: 973-959-3111  Centurylink Northern NJ
+* 985: 998-222-2222   Houma, LA
+* 270: 559   AT&T, Fishskill NY.
+* 880: 739   Verizon, Yuka Flats Wa.
+
+===Canada===
+The current use of exchange prefixes for each area code is listed by CNAC;<ref>{{cite web|url=http://cnac.ca/co_codes/co_code_status_map.htm |publisher=Canadian Numbering Administrator|title=CO codes (list of all exchanges in each area code, including test and reserved prefixes)}}</ref> if an exchange changes from "plant test" to reclaimed or active, any former test numbers with the associated prefix are invalidated. Commonly-used test numbers for major carriers include:
+* 555-0311 [[Rogers Communications|Rogers]] (403 Alberta, 519 613 Ontario)
+* 958-2580 [[Bell Canada]] (519 613 705 905 Ontario)
+* 958-6111 [[Telus]] landline (403 780 Alberta, 250 BC)
+* 959-4444 [[Manitoba Telephone System]] (204 MB) (959 is used as 958 is a regular Winnipeg exchange, not a test prefix)
+
+Additional plant test codes may be in use locally in some areas:
+*403: 555-0311     Alberta (GroupTel - may work in other parts of Canada - untested)
+*416: 958-ANAC (958-2622) Toronto 
+* 514: 514-958-2580    Montréal, Québec (verified August 1, 2013) <!-- per http://www.dslreports.com/forum/r25283784-Internet-What-is-the-number-to-dial-to-get-the-phone-line- -->
+*604: 1116       British Columbia
+*604: 1211       British Columbia
+*709: 958-9999     Newfoundland and Labrador (verified June 19, 2006)
+*902: 958-9999     Nova Scotia (verified July 16, 2013)
+*819: 959-1135     Most of Outaouais region
+
+Occasionally, a number in an existing, standard local exchange in the area is used. These will incur a toll (and might not work) outside their home area. Some may be announcing [[caller ID]], which is not the same as ANI. As standard local calls, they are not accessible from ADSL "dry loop", inbound-only or unsubscribed lines:
+*403: 705-0311     Calgary, Alberta (Allstream - may work in other parts of Canada - untested)
+*416: 477-0034     Toronto, Ontario (Fibernetics - verified August 1, 2012)
+*416: 477-0035     Toronto, Ontario (Fibernetics - verified August 1, 2012)
+*416: 981-0001     Toronto, Ontario (verified July 1, 2010)
+*867: 873-0000     Yellowknife, Northwest Territories (Northwestel - verified October 9, 2012)
+*905: 310-3789     Mississauga, Ontario (Now no longer includes loop line or ringback. In NPAs where Bell Canada is incumbent, 310-xxxx is assigned as a pseudo-tollfree exchange which may be called at local call rates from an entire area code.)
+
+In [[Bell Canada]] territory, +1-areacode-320 was formerly reserved for 320-xxxx test numbers; these were moved to the 958-xxxx range and 320-xxxx reclaimed for use as a standard exchange. The use of N11 prefixes (such as 3-1-1) for test numbers is also deprecated as 3-1-1 now often reaches [[city hall]] or municipal services while 2-1-1 is local community information.
+
+<!-- These former test numbers are therefore no longer valid:
+* N11 codes:
+**211 (604 BC)
+**311 (403, formerly Alberta, Yukon and N.W. Territory) and 311 (905, Ontario -Rogers, Telnet Communications)
+
+* Former 320-xxxx test codes in Bell Canada territory, now reassigned to standard exchanges:
+**320-1112 (819 Quebec)
+**320-1180 (450 514 and 819, most of the province of Quebec)
+**320-4567 (705 North Bay/Sault Ste. Marie)
+**320-5123 or 320-9123 (613 Kingston)
+
+*Vertical service codes (individual features activation within an exchange):
+**306: 115       Saskatchewan (likely deprecated, conflicts with use of 1157 or *57 to actuate Call Trace service for unwanted calls [http://www.sasktel.com/search/controller/Call-Trace/_/R-Product_Services_Call_Trace])
+
+* Other former test codes now listed as standard local exchanges:
+**403: 908-222-2222   Alberta, Yukon and N.W. Territory (403-908 is now a Distributel exchange in High River<ref>http://cnac.ca/data/ac403.htm</ref>)
+**403: 999       Alberta, Yukon and N.W. Territory (403-999 is now a Calgary Telus mobile exchange) -->
+Some lists also mention 1-555-1313 as ANAC (506 New Brunswick). The purpose of +1-areacode-555-1313, a pay-per-use "name that number" reverse lookup information service introduced in the mid-1990s, differs from ANAC. ANAC announces the caller's own number; the reverse lookup gives the directory name for a listed telephone number input by the user. 555-1313 is one of the rare uses of [[555 (telephone number)]] for other than the standard 555-1212 directory information line.
+
+===Toll-free ANACs===
+''Please note that it is always preferable to call the local ANAC; only if the local ANAC number can not be called is it advisable to call a toll-free ANAC number.  It is also preferable to call an open ANAC rather than the password-protected one given below.''
+* 800-437-7950 MCI ANAC (no input needed)
+* 800-223-1104 PASSWORD-PROTECTED [dial 195632, 490456, 910777, or 911306]
+
+''The below numbers are not true ANAC numbers; however, they do read back one's phone number.  These numbers provide valuable services to the customers they serve; it is, therefore, inadvisable to misuse them.''
+* 800-225-5313 BANK OF SOUTH SIDE VIRGINIA, FRAUD DEPT (press 1)
+* 800-225-5214 NATIONAL CAPITAL BANK OF WASHINGTON, FRAUD DEPT (press 1)
+* 800-314-4258 MCI CUST SERV LINE
+* 800-333-3232 MCI CUST SERV LINE
+* 800-444-0800 MCI CUST SERV LINE
+* 800-444-2222 MCI CUST SERV LINE
+* 800-444-3333 MCI CUST SERV LINE
+* 800-444-4444 MCI CUST SERV LINE
+* 888-624-9266 MCI CUST SERV, PRESS 2 AT PROMPT
+
+===United Kingdom===
+*17070, BT Linetest Facilities
+*08081707788, it does have a long introductory message, but it is useful on [[Payphone|COCOTs]] which have 17070 barred.
+*18866, Same recording as 08081707788 but a shorter number to remember.
+*020 81 803 803, Same recording as 08081707788. These numbers are set up by a company offering low charge calls in the UK, these numbers are meant to be used as a sort of operator that you go through in order to qualify for these cheap calls. However, if the phone you are dialling these numbers from is already registered with this company it will not announce your number.
+
+===Ireland===
+*19 9000
+This service announces the line number on all [[Eircom]] lines, including lines where calls are carried by another provider using [[carrier preselect]].
+The same number also works for [[Smart Telecom]] lines provided by [[local-loop unbundling]].
+
+The number is called out without the leading 0. For example, 021 XXX XXXX is read back as "21 XXX XXXX".
+
+There is also an extended ANAC service for identifying which carrier handles your calls. Dialling these numbers will cause the local switch to announce which carrier your calls are being routed through for a specific category of calls.
+*19 800 - International calls
+*19 822 - Local calls
+*19 801 - Calls to other parts of the Republic of Ireland, Irish mobile numbers and to landlines in Northern Ireland.
+
+===Israel===
+*110
+
+===Australia===
+*127 22 123
+*1800 801 920
+
+===New Zealand===
+*1956 or 0(8)320-1231 area code & number
+*1957 or 0(8)320-1234 local number
+
+Subscribers may also dial from overseas to test if the (CPN) Caller ID number is being passed on to New Zealand. Dial +64(8)320-1231, from USA/Canada and rest of NANP dial 011-64-8-320-1231 to hear your 3 digit area code & 7 digit local number read back to you from N.Z. {Dion Wood "NewZealandAmerican" Tel: +1(800)808-KIWI (Illinois)}
+
+===South Africa===
+*+27 21 405 9111 Cape Town ANAC
+*+27 21 405 9116 Cape Town ANAC with callback
+
+==References==
+{{Reflist|30em}}
+
+{{DEFAULTSORT:Automatic Number Announcement Circuit}}
+
+[[Category:Telephone numbers]]
+[[Category:Telephony signals]]

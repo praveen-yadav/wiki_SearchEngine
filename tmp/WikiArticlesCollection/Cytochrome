@@ -1,0 +1,56 @@
+[[Image:Cytochrome c.png|thumb|250px|Cytochrome ''c'' with heme ''c''.]]
+
+'''Cytochromes''' are, in general, membrane-bound (i.e. [[inner mitochondrial membrane]]) [[hemeprotein]]s containing [[heme]] groups and are primarily responsible for the generation of [[Adenosine triphosphate|ATP]] via [[electron transport]].
+
+They are found either as [[Protein subunit|monomeric protein]]s (e.g., [[cytochrome c]]) or as [[Protein subunit|subunits]] of bigger enzymatic complexes that catalyze [[redox]] reactions.
+
+==History==
+Cytochromes were initially described in 1884 by MacMunn as respiratory pigments (myohematin or histohematin).<ref name=MacMunn>{{cite journal | doi = 10.1098/rstl.1886.0007 | jstor = 109482 | pages = 267–298 | author1 = Mac Munn, C. A | issue = 0 | title = Researches on Myohaematin and the Histohaematins | journal = Philosophical Transactions of the Royal Society of London | volume = 177 | publisher = The Royal Society | year = 1886}}</ref> In the 1920s, [[David Keilin|Keilin]] rediscovered these respiratory pigments and named them the cytochromes, or “cellular pigments”, and classified these heme proteins, on the basis of the position of their lowest energy absorption band in the reduced state, as
+cytochromes ''a'' (605&nbsp;nm), ''b'' (~565&nbsp;nm), and ''c'' (550&nbsp;nm). The UV-visible spectroscopic signatures of hemes are still used to identify heme type from the reduced bis-pyridine-ligated state, i.e., the pyridine hemochrome method. Within each class, cytochrome ''a'', ''b'', or ''c'', early cytochromes are numbered consecutively, e.g. cyt ''c'', cyt ''c<sub>1</sub>'', and cyt ''c<sub>2</sub>'', with more recent examples designated by their reduced state R-band maximum, e.g. cyt ''c<sub>559</sub>''.<ref name="pmid14871137">{{cite journal | author = Reedy, C. J. & Gibney, B. R. | title = Heme protein assemblies | journal = Chem Rev | volume = 104 | issue = 2 | pages = 617–49 | year = 2004 | month = February | pmid = 14871137 | doi = 10.1021/cr0206115 | url =  }}</ref>
+
+==Structure and function==
+The [[heme]] group is a highly-conjugated ring system (which allows its [[electron]]s to be very mobile) surrounding a metal ion, which readily interconverts between the oxidation states.  For many cytochromes, the metal ion present is that of ''[[iron]]'', which interconverts between Fe<sup>2+</sup> (reduced) and Fe<sup>3+</sup> (oxidized) states ([[electron transfer|electron-transfer]] processes) or between Fe<sup>2+</sup> (reduced) and Fe<sup>3+</sup> (formal, oxidized) states (oxidative processes). Cytochromes are, thus, capable of performing [[redox|oxidation and reduction]]. Because the cytochromes (as well as other complexes) are held within membranes in an organized way, the [[redox]] reactions are carried out in the proper sequence for maximum efficiency.
+
+In the process of [[oxidative phosphorylation]], which is the principal energy-generating process undertaken by organisms, other membrane-bound and -soluble [[complex (chemistry)|complex]]es and [[cofactor (biochemistry)|cofactor]]s are involved in the chain of redox reactions, with the additional net effect that protons (H<sup>+</sup>) are transported across the mitochondrial inner membrane.  The resulting [[Chemiosmotic potential|transmembrane proton gradient]] ([protonmotive force]) is used to generate [[adenosine triphosphate|ATP]], which is the universal chemical energy currency of life.  ATP is consumed to drive cellular processes that require energy (such as synthesis of macromolecules, active transport of molecules across the membrane, and assembly of [[flagellum|flagella]]).
+
+==Types==
+Several kinds of cytochrome exist and can be distinguished by [[spectroscopy]], exact structure of the heme group, inhibitor sensitivity, and reduction potential.
+
+Three types of cytochrome are distinguished by their prosthetic groups:
+
+{| class="wikitable"
+| '''Type''' || '''prosthetic group'''
+ |-
+ | [[Cytochrome a]] || [[heme a]]
+ |-
+ | [[Cytochrome b]] || [[heme b]]
+ |-
+ | [[Cytochrome d]] || tetrapyrrolic [[chelate]] of [[iron]]<ref>{{MeshName|Cytochrome+d}}</ref>
+|}
+
+The definition of [[cytochrome c]] is not defined in terms of the heme group.<ref>{{MeshName|Cytochrome+c+Group}}.</ref> There is no "cytochrome e," but there is a [[cytochrome f]], which is often considered a type of cytochrome c.<ref>{{eMedicineDictionary|Cytochrome}}</ref>
+
+In [[mitochondrion|mitochondria]] and [[chloroplast]]s, these cytochromes are often combined in [[Electron transfer chain|electron transport]] and related metabolic pathways:
+
+{| class="wikitable"
+| '''Cytochromes ''' || '''Combination'''
+ |-
+ | ''a'' and ''a<sub>3</sub>'' || [[Cytochrome c oxidase]] ("Complex IV") with electrons delivered to complex by soluble [[cytochrome c]] (hence the name)
+ |-
+ | ''b'' and ''[[Cytochrome C1|c<sub>1</sub>]]'' || [[Coenzyme Q - cytochrome c reductase]] ("Complex III")
+ |-
+ | ''b<sub>6</sub>'' and ''[[Cytochrome f|f]]'' || [[Plastoquinol—plastocyanin reductase]]
+|}
+
+A completely distinct family of cytochromes is known as the [[cytochrome P450 oxidase]]s, so named for the characteristic [[Soret peak]] formed by absorbance of light at wavelengths near 450&nbsp;nm when the heme iron is reduced (with [[sodium dithionite]]) and complexed to [[carbon monoxide]]. These enzymes are primarily involved in [[steroidogenesis]] and [[detoxification]].
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://metallo.scripps.edu/promise/CYTOCHROMES.html Scripps Database of Metalloproteins]
+*{{MeshName|Cytochromes}}
+
+{{Hemeproteins}}
+
+[[Category:Cytochromes| ]]

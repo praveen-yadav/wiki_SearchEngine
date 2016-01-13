@@ -1,0 +1,126 @@
+{{for|the French mathematician|André Weil}}
+{{Infobox scientist
+|name = Andrew Wiles
+|image = Andrew wiles1-3.jpg
+|caption = Wiles at the 61st Birthday conference for [[Pierre Deligne|P. Deligne]] ([[Institute for Advanced Study]], 2005).
+|birth_date = {{birth date and age|1953|4|11|df=y}}
+|birth_place = [[Cambridge]], England
+|nationality = [[United Kingdom|British]]
+|field = [[Mathematics]]
+|work_institutions = [[University of Oxford]]<br>[[Princeton University]]
+|alma_mater = [[University of Oxford]]<br>[[University of Cambridge]]
+|doctoral_advisor = [[John Coates (mathematician)|John Coates]]
+|doctoral_students = [[Manjul Bhargava]]<br>[[Brian Conrad]]<br>[[Fred Diamond]]<br>[[Karl Rubin]]<br>[[Christopher Skinner]]<br>[[Richard Taylor (mathematician)|Richard Taylor]]
+|thesis_title = Reciprocity Laws and the Conjecture of Birch and Swinnerton-Dyer
+|thesis_year=1979
+|thesis_url = http://search.lib.cam.ac.uk/?itemid=|manuscrpdb|15254
+|known_for = Proving the [[Taniyama–Shimura Conjecture]] for semistable elliptic curves, thereby proving [[Fermat's Last Theorem]]<br>Proving the [[main conjecture of Iwasawa theory]]
+|prizes = [[Fermat Prize]] (1995)<br>[[Wolf Prize]] (1995/6)<br>[[Royal Medal]] (1996)<br>[[Cole Prize]] (1997)<br>IMU Silver Plaque (1998)<br>[[King Faisal International Prize|King Faisal International Prize in Science]] (1998)<br>[[Shaw Prize]] (2005)
+}}
+
+'''Sir Andrew John Wiles''', [[Order of the British Empire|KBE]], [[Fellow of the Royal Society|FRS]] (born 11 April 1953)<ref name="WhosWho">
+"WILES, Sir Andrew (John)", [[Who's Who (UK)|Who's Who]], A & C Black, January 2007</ref> is a British [[mathematician]] and a [[Royal Society]] Research Professor at [[Oxford University]], specializing in [[number theory]]. He is most notable for [[Wiles' proof of Fermat's Last Theorem|proving]] [[Fermat's Last Theorem]].
+
+==Early life and education==
+Wiles is the son of [[Maurice Wiles|Maurice Frank Wiles]] (1923–2005), the [[Regius Professor of Divinity at the University of Oxford]]<ref>WILES, Rev. Prof. Maurice Frank, Who Was Who, A & C Black, January 2007.</ref> and Patricia Wiles (née Mowll). His father worked as the Chaplain at [[Ridley Hall, Cambridge]], for the years 1952–55. Wiles was born in [[Cambridge, England]], in 1953, and he attended King's College School, Cambridge, and [[The Leys School, Cambridge]].
+
+Wiles states that he came across Fermat's Last Theorem on his way home from school when he was 10 years old. He stopped by his local library where he found a book about the theorem.<ref>[http://www.pbs.org/wgbh/nova/proof/wiles.html NOVA | Andrew Wiles on Solving Fermat<!-- Bot generated title -->]</ref> Fascinated by the existence of a theorem that was so easy to state that he, a ten-year old, could understand it, but nobody had proven it, he decided to be the first person to prove it. However, he soon realized that his knowledge was too small, so he abandoned his childhood dream, until it was brought back to his attention at the age of 33 by [[Ken Ribet]]'s 1986 proof of the [[epsilon conjecture]], which [[Gerhard Frey]] had previously linked to Fermat's famous equation.
+
+==Mathematical career==
+Wiles earned his [[bachelor's degree]] in mathematics in 1974 after his study at [[Merton College, Oxford]], and a [[Doctor of Philosophy|Ph.D.]] in 1980, after his research at [[Clare College, Cambridge]]. After a stay at the [[Institute for Advanced Study]] in [[New Jersey]] in 1981, Wiles became a professor at [[Princeton University]]. In 1985–86, Wiles was a [[Guggenheim Fellow]] at the [[Institut des Hautes Études Scientifiques]] near Paris and at the [[École Normale Supérieure]]. From 1988 to 1990, Wiles was a [[Royal Society]] Research Professor at [[Oxford University]], and then he returned to Princeton. He rejoined Oxford in 2011 as Royal Society Research Professor.
+
+Wiles's graduate research was guided by [[John Coates (mathematician)|John Coates]] beginning in the summer of 1975. Together these colleagues worked on the arithmetic of [[elliptic curve]]s with [[complex multiplication]] by the methods of [[Iwasawa theory]]. He further worked with [[Barry Mazur]] on the main conjecture of Iwasawa theory over the [[rational number]]s, and soon afterward, he generalized this result to [[totally real field]]s.
+
+==The proof of Fermat's Last Theorem==
+{{main|Wiles' proof of Fermat's Last Theorem}}
+
+Starting in the summer of 1986, based on successive progress of the previous few years of [[Gerhard Frey]], [[Jean-Pierre Serre]] and [[Ken Ribet]], it became clear that [[Fermat's Last Theorem]] could be proven as a corollary of a limited form of the [[modularity theorem]] (unproven at the time and then known as the "Taniyama–Shimura-Weil conjecture"). The modularity theorem involved elliptic curves, which was also Wiles' own specialist area.
+
+The conjecture was seen by contemporary mathematicians as important, but extraordinarily difficult or perhaps inaccessible to proof.<ref name="Singh">''[[Fermat's Last Theorem]]'', [[Simon Singh]], 1997, ISBN 1-85702-521-0</ref>{{rp|203–205, 223, 226}} For example, Wiles' ex-supervisor [[John H. Coates|John Coates]] states that it seemed "impossible to actually prove",<ref name="Singh" />{{rp|226}} and Ken Ribet considered himself "one of the vast majority of people who believed [it] was completely inaccessible", adding that "Andrew Wiles was probably one of the few people on earth who had the audacity to dream that you can actually go and prove [it]."&nbsp;<ref name="Singh" />{{rp|223}}
+
+Despite this, Wiles, who had a childhood fascination with Fermat's Last Theorem, decided to undertake the challenge of proving the conjecture at least to the extent needed for Frey's curve.<ref name="Singh" />{{rp|226}} He dedicated all of his research time to this problem for over 6 years in near-total secrecy, covering up his efforts by releasing prior work in small segments as separate papers and confiding only in his wife.<ref name="Singh" />{{rp|229–230}} In 1993, he presented his proof to the public for the first time at a conference in Cambridge.<ref name=nyt>{{cite news|last=Kolata|first=Gina|title=At Last, Shout of 'Eureka!' In Age-Old Math Mystery|url=http://www.nytimes.com/1993/06/24/us/at-last-shout-of-eureka-in-age-old-math-mystery.html|accessdate=21 January 2013|newspaper=The New York Times|date=24 June 1993}}</ref> In August 1993 it was discovered that the proof contained a flaw in one area. Wiles tried and failed for over a year to repair his proof. According to Wiles, the crucial idea for circumventing, rather than closing this area, came to him on 19 September 1994 when he was on the verge of giving up. Together with his former student [[Richard Taylor (mathematician)|Richard Taylor]], he published a second paper which circumvented the problem and thus completed the proof. Both papers were published in 1995 in a special volume of the ''[[Annals of Mathematics]]''.
+
+==Recognition by the media==
+His proof of [[Fermat's Last Theorem]] has stood up to the scrutiny of the world's mathematical experts. Wiles was interviewed for an episode of the [[BBC]] documentary series ''[[Horizon (BBC TV series)|Horizon]]'' that focused on Fermat's Last Theorem. This was renamed "The Proof", and it was made an episode of the [[Public Broadcasting Service]]'s science television series ''[[Nova (TV series)|Nova]]''.<ref>{{cite web|year=1997|url=http://www.pbs.org/wgbh/nova/proof/|title=NOVA Online: The Proof|publisher=[[WGBH-TV|WGBH]]|accessdate=2006-05-03| archiveurl= http://web.archive.org/web/20060501060938/http://www.pbs.org/wgbh/nova/proof/| archivedate= 1 May 2006 <!--DASHBot-->| deadurl= no}}</ref> He has been a foreign member of the [[U.S. National Academy of Sciences]] since 1996. He remains a citizen of the United Kingdom.<ref name=WhosWho />
+
+==Awards==
+Wiles has been awarded several major prizes in mathematics and science:
+* [[Whitehead Prize|Junior Whitehead Prize]] of the [[London Mathematical Society|LMS]] (1988)<ref name="WhosWho" />
+* [[Fellow of the Royal Society]] (1989)<ref name="WhosWho" />
+* [[Schock Prize]] (1995)
+* [[Fermat Prize]] (1995)
+* [[Wolf Prize in Mathematics|Wolf Prize]] (1995/6)
+* [[NAS Award in Mathematics]] from the National Academy of Sciences (1996)<ref name=NASMath>{{cite web|title=NAS Award in Mathematics|url=http://www.nasonline.org/site/PageServer?pagename=AWARDS_mathematics|publisher=National Academy of Sciences|accessdate=13 February 2011| archiveurl= http://web.archive.org/web/20101229195210/http://www.nasonline.org/site/PageServer?pagename=AWARDS_mathematics| archivedate= 29 December 2010 <!--DASHBot-->| deadurl= no}}</ref><ref>[http://www.ams.org/notices/199607/comm-wiles.pdf Wiles Receives NAS Award in Mathematics] July 1996</ref>
+* [[Royal Medal]] (1996)
+* [[Ostrowski Prize]] (1996)<ref>[http://www.ams.org/notices/199606/people.pdf Wiles Receives Ostrowski Prize] June 1996</ref><ref>[http://www.ams.org/notices/199807/fyi.pdf Correction] 1998</ref>
+* [[Cole Prize]] (1997)<ref>{{cite web|title=1997 Cole Prize, Notices of the AMS|url=http://www.ams.org/notices/199703/comm-cole.pdf|accessdate=2008-04-13|format=PDF| archiveurl= http://web.archive.org/web/20080408115613/http://www.ams.org/notices/199703/comm-cole.pdf| archivedate= 8 April 2008 <!--DASHBot-->| deadurl= no}}</ref>
+* [[Wolfskehl Prize]] (1997)<ref>[http://www.ams.org/notices/199710/barner.pdf Paul Wolfskehl and the Wolfskehl Prize] October 1997</ref> – see [[Paul Wolfskehl]]
+* A silver plaque from the [[International Mathematical Union]] (1998) recognizing his achievements, in place of the [[Fields Medal]], which is restricted to those under 40 (Wiles was born in 1953 and proved the theorem in 1994)<ref>[http://www.ams.org/featurecolumn/archive/wiles.html Andrew J. Wiles Awarded the "IMU Silver Plaque"]</ref><ref>[http://www.princeton.edu/pr/home/98/0828-wiles/hmcap.html Andrew Wiles receives special tribute] August 28, 1998</ref>
+* [[King Faisal Foundation#King Faisal International Prize|King Faisal Prize]] (1998)<ref>[http://www.ams.org/notices/199805/comm-wiles.pdf Andrew Wiles Receives Faisal Prize]</ref>
+* [[Clay Research Award]] (1999)
+* [[Pythagoras Award]] (Croton, 2004)<ref>[http://www.lami.unical.it/premiopitagora.php Premio Pitagora]</ref>
+* [[Shaw Prize]] (2005)<ref>[http://www.ams.org/notices/200508/comm-shaw.pdf Wiles Receives 2005 Shaw Prize] September 2005</ref>
+
+==Public honours==
+* The [[asteroid]] [[9999 Wiles]] was named for Wiles in 1999.<ref>{{cite web|title=JPL Small-Body Database Browser|url=http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=9999+Wiles|accessdate=2009-05-11}}</ref>
+* Wiles was appointed to the rank of [[Order of the British Empire|Knight Commander of the Order of the British Empire]] in the United Kingdom in 2000.<ref>{{LondonGazette |issue=55710 |date=31 December 1999 |startpage=34 |supp=yes}}</ref>
+* The building at the [[University of Oxford]] housing the Mathematical Institute is named for Wiles <ref>http://www.ox.ac.uk/roq/maths.html</ref>
+
+==In popular culture==
+* An episode of ''[[Star Trek: The Next Generation]]'', filmed while Wiles was researching the proof, asserted that Fermat's Last Theorem remains unproven in the 24th century. An episode of ''[[Facets (Star Trek: Deep Space Nine)|Star Trek: Deep Space Nine]]'' mentioned Wiles's proof.
+*He was also mentioned in [[Stieg Larsson]]'s second book of the Millennium trilogy ''[[The Girl Who Played With Fire]]'', and also the third, ''[[The Girl Who Kicked the Hornets' Nest]]''. Wiles was credited with solving Fermat's Last Theorem when the female protagonist [[Lisbeth Salander]] attempted to solve it.
+* [[Tom Lehrer]] updated the lyrics to his song ''That's Mathematics'', to mention that Wiles "confirms what Fermat / Jotted down in that margin / Which could've used some enlargin'."
+* Rock band [[Bats (band)|Bats]] have a song named after Wiles which describes his career.
+* Rock Band Kineto wrote a song about his endless pursuit to solve Fermat's Last Theorem.
+* Wiles and his achievement are also mentioned in [[Yoko Ogawa]]'s novel ''[[The Housekeeper and the Professor]]''.
+* Wiles' 1993 presentation in Cambridge is mentioned in the novel ''[[The Oxford Murders (novel)|The Oxford Murders]]'' by [[Guillermo Martínez (writer)|Guillermo Martínez]], which was adapted into a film of [[The Oxford Murders (film)|the same title]].
+
+==Notes==
+{{reflist|colwidth=30em}}
+
+==External links==
+{{Commons category}}
+{{Wikiquote}}
+*{{MathGenealogy|id=9696}}
+*{{MacTutor Biography|id=Wiles}}
+*[http://www.math.princeton.edu/WebCV/WilesBIB.pdf Wiles's bibliography]
+
+{{Schock Prize laureates}}
+{{Wolf Prize in Mathematics}}
+{{Shaw Prize}}
+{{Authority control |VIAF=85443439 |LCCN=n/97/52585}}
+
+{{Persondata <!-- Metadata: see [[Wikipedia:Persondata]] -->
+|NAME= Wiles, Andrew
+|ALTERNATIVE NAMES=
+|SHORT DESCRIPTION= [[Mathematician]]
+|DATE OF BIRTH= {{Birth date and age|1953|4|11|mf=y}}
+|PLACE OF BIRTH= [[Cambridge]], England
+|DATE OF DEATH=
+|PLACE OF DEATH=
+}}
+{{DEFAULTSORT:Wiles, Andrew John}}
+[[Category:1953 births]]
+[[Category:Living people]]
+[[Category:20th-century mathematicians]]
+[[Category:21st-century mathematicians]]
+[[Category:Alumni of Clare College, Cambridge]]
+[[Category:Alumni of Merton College, Oxford]]
+[[Category:English mathematicians]]
+[[Category:Fellows of the Royal Society]]
+[[Category:Honorary Fellows of Merton College, Oxford]]
+[[Category:MacArthur Fellows]]
+[[Category:Members of the United States National Academy of Sciences]]
+[[Category:People educated at The Leys School]]
+[[Category:People from Cambridge]]
+[[Category:Number theorists]]
+[[Category:Princeton University faculty]]
+[[Category:Rolf Schock Prize laureates]]
+[[Category:Wolf Prize in Mathematics laureates]]
+[[Category:Members of the French Academy of Sciences]]
+[[Category:Knights Commander of the Order of the British Empire]]
+[[Category:Royal Medal winners]]
+[[Category:Whitehead Prize winners]]
+[[Category:National Academy of Sciences laureates]]
+[[Category:Clay Research Award recipients]]
+[[Category:Guggenheim Fellows]]

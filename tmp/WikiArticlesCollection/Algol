@@ -1,0 +1,154 @@
+{{about|the star}}
+{{good article}}
+
+{{Starbox begin
+ | name=Beta Persei A/B/C
+}}
+{{Starbox image
+ | image=
+<div style="position: relative">[[File:Perseus constellation map.svg|250px]]
+<div style="position: absolute; left: 154px; top: 159px">[[Image:Locator Dot2.gif|12px]]</div>
+</div> <!--http://meta.wikimedia.org/wiki/Help:Composite_images -->
+ | caption=The red dot shows the location of Algol in [[Perseus (constellation)|Perseus]].
+}}
+{{Starbox observe
+ | epoch=J2000
+ | ra={{RA|03|08|10.1315}}<ref name=simbada>[http://simbad.u-strasbg.fr/simbad/sim-id?Ident=name+algol+a Database entry for Algol A], [[SIMBAD]].  Accessed online February 9, 2008.</ref>
+ | dec={{DEC|+40|57|20.332}}<ref name=simbada/>
+ | appmag_v=2.12<ref name=simbada/>
+ | constell=[[Perseus (constellation)|Perseus]]
+}}
+{{Starbox character
+ | class=B8V (A)<ref name=simbada/> /K0IV (B)<ref name=simbadb>[http://simbad.u-strasbg.fr/simbad/sim-id?Ident=name+algol+b Database entry for Algol B], [[SIMBAD]]. Accessed online February 9, 2008.</ref>  /A5V (C)
+ | b-v=−0.05
+ | u-b=−0.37
+ | variable=[[Eclipsing binary]]
+}}
+{{Starbox astrometry
+ | radial_v=3.7
+ | prop_mo_ra=2.39
+ | prop_mo_dec=−1.44
+ | parallax=35.14
+ | p_error=0.90
+ | absmag_v=−0.15
+}}
+{{Starbox detail
+ | mass=3.59/0.79/1.67
+ | radius=4.13<ref name=apj660_2_1556/>/3.0/0.9
+ | luminosity=98/3.4/4.1
+ | temperature=9,200<ref name=apj660_2_1556/>/4,500/8,500
+ | metal=''Not available''
+ | rotation=65 km/s
+ | age=< {{val|3|e=8}}
+}}
+{{Starbox catalog
+ | names=Algol, Gorgona, Gorgonea Prima, Demon Star, El Ghoul, β&nbsp;Persei, β&nbsp;Per, Beta&nbsp;Per, 26&nbsp;Persei, [[Star catalogue#BD/CD/CPD|BD]]+40°673, [[Fifth Fundamental Catalogue|FK5]]&nbsp;111, [[Boss General Catalogue|GC]]&nbsp;3733, [[Henry Draper catalogue|HD]] 19356, [[Hipparcos catalogue|HIP]] 14576, [[Bright Star Catalogue|HR]]&nbsp;936, [[PPM Star Catalogue|PPM]]&nbsp;46127, [[Smithsonian Astrophysical Observatory Star Catalog|SAO]]&nbsp;45864.
+}}
+{{Starbox end}}
+
+'''Algol''' ('''Beta&nbsp;Per''', '''β&nbsp;Persei''', '''β&nbsp;Per'''), known colloquially as the '''Demon Star''', is a bright [[star]] in the [[constellation]] [[Perseus (constellation)|Perseus]].  It is one of the best known [[eclipsing binary|eclipsing binaries]], the first such star to be discovered, and also one of the first (non-[[nova]]) [[variable star]]s  to be discovered. Algol is actually a three-star system (Beta Persei&nbsp;A, B, and&nbsp;C) in which the large and bright primary Beta Persei&nbsp;A is regularly eclipsed by the dimmer Beta Persei&nbsp;B. Thus, Algol's [[apparent magnitude|magnitude]] is usually near-constant at&nbsp;2.1, but regularly dips to 3.4 every two days, 20&nbsp;hours and 49&nbsp;minutes during the roughly 10-hour long partial eclipses. There is also a secondary eclipse (the "second minimum") when the brighter star [[occultation|occults]] the fainter secondary. This secondary eclipse can only be detected photoelectrically.<ref>Beta Persei, American Association of Variable Star Observers.  http://www.aavso.org/vstar/vsots/0199.shtml{{dead link|date=February 2013}}</ref> Algol gives its name to its class of eclipsing variable, known as [[Algol variable]]s.
+
+==Observation history==
+The association of Algol with a demon-like creature ([[Gorgon]] in the Greek tradition, [[ghoul]] in the Arabic tradition) suggests that its variability was known long before the 17th century,<ref>{{cite journal|author=Wilk, Stephen R.| title=Mythological Evidence for Ancient Observations of Variable Stars |journal=The Journal of the American Association of Variable Star Observers  |volume= 24 |issue=2 |year=1996 |pages=129–33 |bibcode=1996JAVSO..24..129W |url=http://adsabs.harvard.edu/abs/1996JAVSO..24..129W ADS|url=http://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?1996JAVSO..24..129W&amp;data_type=PDF_HIGH&amp;whole_paper=YES&amp;type=PRINTER&amp;filetype=.pdf}}</ref> but there is still no indisputable evidence for this.<ref>G.A.&nbsp;Davis, "Why did the Arabs Call Beta Persei "al-Ghul"?", ''Sky and Telescope'', '''16''' (1957), 177 [http://adsabs.harvard.edu/abs/1957S%26T....16..177D ADS].</ref> Investigating a calendar for lucky and unlucky days composed in Egypt some 3200 years ago, scholars have noted a significant periodicity of 2.85 days and several empirical tests indicate that this periodicity may be connected to Algol.<ref>{{cite journal|author=Porceddu, S., Jetsu, L., Lyytinen, J., Kajatkari, P., Lehtinen, J., Markkanen, T, Toivari-Viitala, J.|title=Evidence of Periodicity in Ancient Egyptian Calendars of Lucky and Unlucky Days|journal = Cambridge Archaeological Journal|volume =18|issue=3|year = 2008|pages = 327-339|doi=10.1017/S0959774308000395|url=http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=2374180}}</ref><ref>{{cite journal|author=Jetsu, L., Porceddu, S., Lyytinen, J., Kajatkari, P., Lehtinen, J., Markkanen, T, Toivari-Viitala, J.|title=Did the Ancient Egyptians Record the Period of the Eclipsing Binary Algol - The Raging One? |journal = The Astrophysical Journal|volume =773|issue=1|year = 2013|pages = A1 (14pp)|doi = 10.1088/0004-637X/773/1/1| url = http://adsabs.harvard.edu/abs/2013ApJ...773....1J}}</ref>
+
+The variability of Algol was first unambiguously recorded in 1667 by [[Geminiano Montanari]],<ref>G.&nbsp;Montanari, "Sopra la sparizione d'alcune stelle et altre novità celesti", in: ''Prose de Signori Accademici Gelati di Bologna'' (Bologna: Manolessi, 1671), pp.&nbsp;369-392 ([http://books.google.com/books?id=TfgLF4-BsqEC Google books]).</ref> but the periodic nature of its variations in brightness was not recognized until more than a century later, when the British amateur astronomer [[John Goodricke]] also proposed a mechanism for the star's variability.<ref>[http://adsabs.harvard.edu/abs/1957Obs....77..191E ADS O.J.&nbsp;Eggen,"An Eighteenth Century Discussion of Algol", ''The Observatory'', '''77''' (1957), 191-197].</ref> In May 1783 he presented his findings to the [[Royal Society]], suggesting that the periodic variability was caused by a dark body passing in front of the star (or else that the star itself has a darker region that is periodically turned toward the Earth.) For his report he was awarded the [[Copley Medal]].<ref>{{cite web | date = 6 August 2003 | url = http://www.surveyor.in-berlin.de/himmel/Bios/Goodricke-e.html | title = John Goodricke, The Discovery of the Occultating Variable Stars  | accessdate = 31 July 2006 | archiveurl= http://web.archive.org/web/20060622004628/http://www.surveyor.in-berlin.de/himmel/Bios/Goodricke-e.html| archivedate= 22 June 2006 <!--DASHBot-->| deadurl= no}}</ref>
+
+In 1881, the Harvard astronomer [[Edward Charles Pickering]] presented evidence that Algol was actually an eclipsing binary.<ref>{{cite journal | last = Pickering | first = Edward C. | title=Dimensions of the Fixed Stars, with especial reference to Binaries and Variables of the Algol type | journal=Astronomical register | year=1881 | pages=253–56 | bibcode=1881AReg...19..253. | issue = 1-2 | doi= | volume=50}}</ref> This was confirmed a few years later, in 1889, when the Potsdam astronomer [[Hermann Carl Vogel]] found periodic [[doppler shift]]s in the spectrum of Algol, inferring variations in the [[radial velocity]] of this binary system.<ref>{{cite journal | author = A. H. Batten | title=Two Centuries of Study of Algol Systems | journal=Space Science Reviews  | year=1989 | volume=50 | issue=1/2 | pages=1–8 | bibcode=1989SSRv...50....1B  | doi = 10.1007/BF00215914 }}</ref> Thus Algol became one of the first known [[spectroscopic binary|spectroscopic binaries]]. Dr. [[Joel Stebbins]] at the [[University of Illinois Observatory]] used an early selenium cell photometer to produce the first-ever photoelectric study of a variable star. The light curve revealed the second minimum and the reflection effect between the two stars.<ref>{{cite journal | author = J. Stebbins | title = The Measurement of the Light of Stars with a Selenium Photometer with an Application to the Variation of Algol |journal= Astrophysical Journal | year=1910 | volume=32 | pages=65–80}}</ref>
+Some difficulties in explaining the observed spectroscopic features led to the conjecture that a third star may be present in the system; four decades later this conjecture was found to be correct.<ref>Meltzer, Alan S., A "Spectroscopic Investigation of Algol". ''Astrophysical Journal'', vol. 125, (1957), p.359, [http://adsabs.harvard.edu/abs/1957ApJ...125..359M BibCode:1957ApJ...125..359M]</ref>
+
+==System==
+[[File:Algol AB movie imaged with the CHARA interferometer - labeled.gif|thumb|left|Algol B orbits Algol A. This animation was assembled from 55 images of the CHARA interferometer in the near-infrared H-band, sorted according to orbital phase. Because some phases are poorly covered, B jumps at some points along its path.]]
+
+From the point of view of the Earth, Algol&nbsp;A and Algol&nbsp;B form an [[eclipsing binary]] because their [[orbital plane (astronomy)|orbital plane]] contains the  [[line-of-sight propagation|line of sight]] to the Earth. To be more precise, Algol is a triple-star system: the eclipsing binary pair is separated by only 0.062&nbsp;[[astronomical unit]]s (AU) from each other, whereas the third star in the system (Algol&nbsp;C) is at an average distance of 2.69&nbsp;AU from the pair, and the mutual [[orbital period]] of the trio is 681&nbsp;Earth days. The total mass of the system is about 5.8 solar masses, and the mass ratios of A, B and C are about 4.5 to 1 to 2.
+
+{| class="wikitable" style="margin: 1em auto 1em auto"
+|+ ''Orbital Elements of the Algol System''
+!Components
+![[Semimajor axis]]
+![[Orbital eccentricity|Ellipticity]]
+![[Orbital period|Period]]
+![[Inclination]]
+|-
+!A&mdash;B<ref>{{cite journal | author = L. A. Molnar, R. L. Mutel | title=Dynamical Evolution of the Algol Triple System | journal=Bulletin of the American Astronomical Society | year=1996 | volume=28 | issue = 1-2 | page=921 | bibcode=1996AAS...188.6014M | doi= }}</ref>
+|align="center"| 0.00218&Prime;
+|align="center"| 0.00
+|align="center"| 2.86736 days<ref>[http://www.aavso.org/apps/webobs/results/?star=BET+PER&page=1 AAVSO observation data]</ref>
+|align="center"| 97.69°
+|-
+!(AB)&mdash;C<ref>{{cite web | author = W.I. Hartkopf, B.D. Mason | date = 30 July 2006 | url =http://ad.usno.navy.mil/wds/orb6.html | title = Sixth Catalog of Orbits of Visual Binary Stars | publisher = U.S. Naval Observatory  | accessdate = 31 July 2006 | archiveurl= http://web.archive.org/web/20060806034610/http://ad.usno.navy.mil/wds/orb6.html| archivedate= 6 August 2006 <!--DASHBot-->| deadurl= no}}</ref>
+|align="center"| 0.09461&Prime;
+|align="center"| 0.225
+|align="center"| 680.05 days
+|align="center"| 83.98°
+|}
+
+Studies of Algol led to the '''[[Algol paradox]]''' in the theory of [[stellar evolution]]: although components of a binary star form at the same time, and massive stars evolve much faster than the less massive ones, it was observed that the more massive component Algol&nbsp;A is still in the [[main sequence]], while the less massive Algol&nbsp;B is a [[subgiant star]] at a later evolutionary stage. The paradox can be solved by [[mass transfer]]: when the more massive star became a subgiant, it filled its [[Roche lobe]], and most of the mass was transferred to the other star, which is still in the main sequence. In some binaries similar to Algol, a gas flow can be seen.<ref>{{cite journal | first=Izold | last=Pustylnik | title=On Accretion Component of the Flare Activity in Algol | journal=Baltic Astronomy | year=1995 | volume=4 | issue=1-2 | pages=64–78 | bibcode=1995BaltA...4...64P | doi= }}</ref>
+
+[[File:Algol triple star system imaged with the CHARA interferometer.jpg|thumb|The Algol system as it appeared on 12 August 2009. This is not an artistic representation, but rather is a true two-dimensional image with 1/2 milli-arcsecond resolution in the near-infrared H-band, reconstructed from data of the CHARA interferometer. The elongated appearance of Algol B and the round appearance of Algol A are real. The form of Algol C, however, is an artifact.]]
+This system also exhibits variable activities in the forms of [[x-ray]] and [[radio wave]] flares. The former is thought to be caused by the magnetic fields of the A and B components interacting with the mass transfer.<ref>{{cite journal | author=M.J. Sarna, S.K. Yerli, A.G. Muslimov | title=Magnetic Activity and Evolution of Algol-type Stars - II | journal=Monthly Notices of the Royal Astronomical Society | year=1998 | volume=297 | issue=3 | pages=760–68 | bibcode=1998MNRAS.297..760S | doi=10.1046/j.1365-8711.1998.01539.x }}</ref> The radio wave emissions might be created by magnetic cycles similar to those of [[sunspots]], but since the magnetic fields of these stars are up to ten times stronger than the field of the [[Sun]], these radio flares are more powerful and more persistent.<ref>{{cite web | last = Blue | first = Charles E. | date = 3 June 2002 | url = http://www.nrao.edu/pr/2002/algol/ | title = Binary Stars "Flare" With Predictable Cycles, Analysis of Radio Observations Reveals | publisher = National Radio Astronomy Observatory  | accessdate = 31 July 2006 | archiveurl= http://web.archive.org/web/20060702231546/http://www.nrao.edu/pr/2002/algol/| archivedate= 2 July 2006 <!--DASHBot-->| deadurl= no}}</ref>
+
+Algol is located about 92.8&nbsp;[[light year]]s from the Sun, but about 7.3&nbsp;million years ago it passed within 9.8&nbsp;light years of the [[Solar System]]<ref>{{cite conference
+ | author=Garcia-Sanchez, J.; Preston, R. A.; Jones, D. L.; Lestrade, J.-F.; Weissman, P. R.; Latham, D. W.
+ | title =A Search for Stars Passing Close to the Sun
+ | booktitle =The First Results of Hipparcos and Tycho
+ | publisher =IAU | date =25 August 1997 | location =Kyoto, Japan
+ | url =http://adsabs.harvard.edu/abs/1997IAUJD..14E..51G
+ | accessdate = 1 June 2007}}</ref> and its [[apparent magnitude]] was about -2.5, which is considerably brighter than the star [[Sirius]] is today. Because the total mass of the Algol system is about 5.8&nbsp;solar masses, at the closest approach this might have given enough [[gravity]] to [[perturbation|perturb]] the [[Oort cloud]] of the Solar System somewhat and hence increase the number of [[comet]]s entering the inner solar system. However, the actual increase in net cometary collisions is thought to have been quite small.<ref>{{cite journal | author = J. García-Sánchez, R.A. Preston, D.L. Jones, P.R. Weissman | title=Stellar Encounters with the Oort Cloud Based on Hipparcos Data | journal=The Astronomical Journal | year=1999 | volume=117 | issue = 2 | pages=1042–55 | url=http://www.iop.org/EJ/article/1538-3881/117/2/1042/980216.html | doi=10.1086/300723 | bibcode=1999AJ....117.1042G}}</ref>
+
+==Names==
+
+The name ''Algol'' derives from [[Arabic language|Arabic]] '''رأس الغول''' ''ra's al-ghūl'' : head (ra's) of the ogre (al-ghūl) (see "[[ghoul]]").<ref>P.&nbsp;Kunitzsch & T.&nbsp;Smart, ''Short Guide to Modern Star Names and Their Derivations'' (Wiesbaden: Otto Harrassowitz, 1986), p 49.</ref> The English name "''Demon Star''" is a direct translation of this.<ref name=allen1899>{{cite book
+ | last=Allen | first=R. H. | year=1963 |origyear=1899
+ | authorlink=Richard Hinckley Allen
+ | title=Star Names: Their Lore and Meaning
+ | url=http://penelope.uchicago.edu/Thayer/E/Gazetteer/Topics/astronomy/_Texts/secondary/ALLSTA/Perseus*.html
+ | edition=Reprint
+ | publisher=Dover Publications Inc
+ | location=New York | isbn=0-486-21079-0 | page=331}}</ref>   
+
+In Hebrew folklore, Algol was called ''Rōsh ha Sāṭān'' or "Satan's Head", as stated by [[Edmund Chilmead]], who called it "Divels head" or ''Rosch hassatan''. A [[Latin]] name for Algol from the 16th century was ''Caput Larvae'' or "the Spectre's Head". Algol was also linked with "[[Lilith]]".<ref name=allen1899/> [[Hipparchus]] and [[Pliny the Elder|Pliny]] made this a separate, though connected, constellation.<ref name=allen1899/>
+
+In [[Chinese language|Chinese]], {{lang|zh|大陵}} ({{lang|zh-Latn|Dà Líng}}), meaning ''[[Stomach (Chinese constellation)|Mausoleum]]'', refers to an asterism consisting of β Persei, [[9 Persei]], [[Tau Persei|τ Persei]], [[Iota Persei|ι Persei]], [[Kappa Persei|κ Persei]], [[Rho Persei|ρ Persei]], [[16 Persei]] and [[12 Persei]]. Consequently, β Persei itself is known as {{lang|zh|大陵五}} ({{lang|zh-Latn|Dà Líng wu}}, {{lang-en|the Fifth Star of Mausoleum}}.).<ref>{{zh icon}} [http://aeea.nmns.edu.tw/2006/0607/ap060711.html AEEA (Activities of Exhibition and Education in Astronomy) 天文教育資訊網 2006 年 7 月 11 日]</ref> According to R.H. Allen the star bore the grim name of ''Tseih She'' {{lang|zh|叠尸}} ({{lang|zh-Latn|Dié Shī}}), meaning "Piled up Corpses"<ref name=allen1899/> but this appears to be a misidentification.<ref>[http://www.ianridpath.com/startales/perseus.htm#chinese Ian Ridpath's ''Star Tales'' – Perseus]</ref>
+
+==Cultural significance==
+{{see also|Stars in astrology#Algol |label 1=Algol in astrology}}
+{{Infobox writer 
+|name = The constellation Perseus and Algol, the Bright Star in the Gorgon's head
+|image        = Perseus Hevelius.jpg
+|imagesize    = 300px
+|caption      = [[Johannes Hevelius]], ''Uranographia'', 1690}}
+
+Historically, the star has received a strong association with bloody violence across a wide variety of cultures. In the ''[[Tetrabiblos]]'', the 2nd-century astrological text of the Alexandrian astronomer [[Ptolemy]], Algol is referred to as "the [[Gorgon]] of [[Perseus (constellation)|Perseus]]" and associated with death by decapitation: a theme which mirrors the myth of the hero [[Perseus]]’ victory over the snake-haired [[Gorgon]] [[Medusa]].<ref>Robbins, Frank E. (ed.) 1940. ''Ptolemy: Tetrabiblos''. Cambridge, Massachusetts: Harvard University Press (Loeb Classical Library). ISBN 0-674-99479-5, IV.9, p.435.</ref> [[Astrology|Astrologically]],{{clarify|reason=Which astrological tradition(s) are we talking about here?|date=July 2011}} Algol is considered one of the [[luck|unluckiest]] stars in the sky,<ref name=allen1899/> and was listed as one of the 15 [[Behenian fixed star|Behenian stars]].<ref name=Tyson>{{cite book|last=Henry Cornelius Agrippa|title=Three Books of Occult Philosophy}} Lyons, 1531/33. Llewellyn reprint, 1993; tr. J. Freake (1651), ed. D. Tyson, p.411.</ref>
+
+==See also==
+* [[Algol in fiction]]
+
+==References==
+{{reflist|colwidth=30em|refs=
+
+<ref name=apj660_2_1556>{{citation | display-authors=1 | last1=Rhee | first1=Joseph H. | last2=Song | first2=Inseok | last3=Zuckerman | first3=B. | last4=McElwain | first4=Michael | title=Characterization of Dusty Debris Disks: The IRAS and Hipparcos Catalogs | journal=The Astrophysical Journal | volume=660 | issue=2 | pages=1556–1571 | month=May | year=2007 | doi=10.1086/509912 | bibcode=2007ApJ...660.1556R |arxiv = astro-ph/0609555 }}</ref>
+
+}}
+
+==External links==
+* {{cite web | url = http://simbad.u-strasbg.fr/sim-id.pl?protocol=html&Ident=Beta+Persei&NbIdent=1&Radius=10&Radius.unit=arcmin&CooFrame=FK5&CooEpoch=2000&CooEqui=2000&output.max=all&o.catall=on&output.mesdisp=N&Bibyear1=1983&Bibyear2=2006&Frame1=FK5&Frame2=FK4&Frame3=G&Equi1=2000.0&Equi2=1950.0&Equi3=2000.0&Epoch1=2000.0&Epoch2=1950.0&Epoch3=2000.0 | title = HD 19356 -- Eclipsing Binary of Algol type  | publisher = SIMBAD | accessdate = 31 July 2006}}
+* {{cite web | month = January | year = 1999 | url = http://www.aavso.org/vstar/vsots/0199.shtml | title = Beta Persei (Algol) | publisher = AAVSO  | accessdate = 31 July 2006 |archiveurl = http://web.archive.org/web/20060708092301/http://www.aavso.org/vstar/vsots/0199.shtml |archivedate = July 8, 2006}}
+* {{cite web | url = http://www.solstation.com/stars2/algol3.htm | title = Algol 3 | publisher = SolStation  | accessdate = 31 July 2006}}
+* {{cite web | date = 4 March 1998 | url = http://www.ari.uni-heidelberg.de/aricns/cnspages/4c02517.htm | title = 4C02517 | publisher = ARICNS  | accessdate = 31 July 2006|archiveurl = http://web.archive.org/web/20060210103512/http://www.ari.uni-heidelberg.de/aricns/cnspages/4c02517.htm |archivedate = 10 February 2006}}
+* {{cite web | url = http://www.alcyone.de/SIT/mainstars/SIT000666.htm | title = Algol | publisher = Alcyone ephemeris  | accessdate = 8 June 2006}}
+* {{cite web | author = Bezza, Giuseppe [translated by Daria Dudziak] | url = http://www.cieloeterra.it/eng/eng.articoli.algol/eng.algol.html | title = Al-ghûl, the ogre. | publisher = Cielo e Terra  | accessdate = 8 June 2006 | archiveurl= http://web.archive.org/web/20060620085229/http://www.cieloeterra.it/eng/eng.articoli.algol/eng.algol.html| archivedate= 20 June 2006 <!--DASHBot-->| deadurl= no}}
+{{Sky|03|08|10.1315|+|40|57|20.332|93}}
+* [http://arxiv.org/abs/1204.6206 Did the ancient egyptians record the period of the eclipsing binary Algol - the Raging one?] ([[arXiv]]:1204.6206)
+
+{{Stars of Perseus}}
+
+[[Category:Algol variables]]
+[[Category:Arabic words and phrases]]
+[[Category:Bayer objects|Persei, Beta]]
+[[Category:B-type main-sequence stars]]
+[[Category:Flamsteed objects|Persei, 26]]
+[[Category:Henry Draper Catalogue objects|019356]]
+[[Category:Hipparcos objects|014576]]
+[[Category:K-type subgiants]]
+[[Category:Perseus (constellation)]]
+[[Category:Stars with proper names]]

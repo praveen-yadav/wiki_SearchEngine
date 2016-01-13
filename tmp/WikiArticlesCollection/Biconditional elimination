@@ -1,0 +1,34 @@
+{{Transformation rules}}
+
+'''Biconditional elimination''' is the name of two [[validity|valid]] [[rule of inference|rules of inference]] of [[propositional calculus|propositional logic]]. It allows for one to [[inference|infer]] a [[Material conditional|conditional]] from a [[Logical biconditional|biconditional]]. If <math>(P \leftrightarrow Q)</math> is true, then one may infer that <math>(P \to Q)</math> is true, and also that <math>(Q \to P)</math> is true.<ref name=Cohen2007>{{cite web|last=Cohen|first=S. Marc|title=Chapter 8: The Logic of Conditionals|url=http://faculty.washington.edu/smcohen/120/Chapter8.pdf|publisher=University of Washington|accessdate=8 October 2013}}</ref> For example, if it's true that I'm breathing [[if and only if]] I'm alive, then it's true that if I'm breathing, I'm alive; likewise, it's true that if I'm alive, I'm breathing. The rules can be stated formally as:
+
+:<math>\frac{(P \leftrightarrow Q)}{\therefore (P \to Q)}</math>
+and
+:<math>\frac{(P \leftrightarrow Q)}{\therefore (Q \to P)}</math>
+
+where the rule is that wherever an instance of "<math>(P \leftrightarrow Q)</math>" appears on a line of a proof, either "<math>(P \to Q)</math>" or "<math>(Q \to P)</math>" can be placed on a subsequent line;
+
+== Formal notation ==
+The ''biconditional elimination'' rule may be written in [[sequent]] notation:
+:<math>(P \leftrightarrow Q) \vdash (P \to Q)</math>
+and
+:<math>(P \leftrightarrow Q) \vdash (Q \to P)</math>
+
+where <math>\vdash</math> is a [[metalogic]]al symbol meaning that <math>(P \to Q)</math>, in the first case, and <math>(Q \to P)</math> in the other are [[logical consequence|syntactic consequences]] of <math>(P \leftrightarrow Q)</math> in some [[formal system|logical system]];
+
+or as the statement of a truth-functional [[Tautology (logic)|tautology]] or [[theorem]] of propositional logic:
+
+:<math>(P \leftrightarrow Q) \to (P \to Q)</math>
+:<math>(P \leftrightarrow Q) \to (Q \to P)</math>
+
+where <math>P</math>, and <math>Q</math> are propositions expressed in some formal system.
+
+==See also==
+* [[Logical biconditional]]
+
+==References==
+{{Reflist}}
+
+{{DEFAULTSORT:Biconditional Elimination}}
+[[Category:Rules of inference]]
+[[Category:Theorems in propositional logic]]

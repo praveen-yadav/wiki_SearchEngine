@@ -1,0 +1,183 @@
+[[File:Cessna501 radar.JPG|thumb|250px|Radar and other avionics in a [[Cessna Citation]]]]
+[[File:Republic F-105B with avionics layout 060831-F-1234S-046.jpg|thumb|right|250px|[[Republic F-105 Thunderchief|F&#8209;105 Thunderchief]] with avionics laid out]]
+'''Avionics''' are the  [[Electronics|electronic]] systems used on [[aircraft]], [[artificial satellite]]s, and [[spacecraft]].
+
+Avionic systems include [[communication]]s, [[navigation]], the display and management of multiple systems, and the hundreds of systems that are fitted to aircraft to perform individual functions. These can be as simple as a [[searchlight]] for a [[police helicopter]] or as complicated as the tactical system for an [[airborne early warning]] platform.
+
+The term ''avionics'' is a [[portmanteau]] of the words ''aviation'' and ''electronics''.
+
+==History==
+[[File:4thoperationsgroup-f-15es.jpg|thumb|right|250px|Roughly 80 percent of the costs of the [[F15E]] is in avionics.]]
+The term avionics was coined by journalist [[Philip J. Klass]] as a [[portmanteau]] of aviation electronics.<ref>{{cite web|last=McGough |first=Michael |url=http://www.skeptic.com/eskeptic/05-08-26/ |title=In Memoriam: Philip J. Klass: A UFO (Ufologist Friend’s Obituary) | date = August 26, 2005 |publisher=Skeptic |accessdate=2012-04-26}}</ref><ref>Shaffer, Robert. "'Unexplained Cases'&ndash;Only If You Ignore All Explanations", ''[[Skeptical Inquirer]]'', March/April 2011, page 58</ref> Many modern avionics have their origins in [[World War&nbsp;II]] wartime developments. For example, [[autopilot]] systems that are prolific today were started to help bomber planes fly steadily enough to hit precision targets from high altitudes.<ref name="two" /> Famously, radar was developed in the UK, Germany, and the United States during the same period.<ref>{{cite book | title = Most Secret War | author = [[Reginald Victor Jones]] | isbn = 978-1-85326-699-7}}</ref> Modern avionics is a substantial portion of [[military]] aircraft spending. Aircraft like the [[F-15E|F&#8209;15E]] and the now retired [[F-14|F&#8209;14]] have roughly 20 percent of their budget spent on avionics. Most modern [[helicopters]] now have budget splits of 60/40 in favour of avionics. {{Citation needed|date=April 2012}} 
+
+The civilian market has also seen a growth in cost of avionics. Flight control systems ([[fly-by-wire]]) and new navigation needs brought on by tighter airspaces, have pushed up development costs. The major change has been the recent boom in consumer flying. As more people begin to use planes as their primary method of transportation, more elaborate methods of controlling aircraft safely in these high restrictive airspaces have been invented.{{Citation needed|date=March 2011}}
+
+===Modern avionics===
+Avionics plays a heavy role in modernization initiatives like the [[Federal Aviation Administration]]'s (FAA) [[Next Generation Air Transportation System]] project in the United States and the [[Single European Sky ATM Research]] (SESAR) initiative in [[Europe]]. The [[Joint Planning and Development Office]] put forth a roadmap for avionics in six areas:<ref>{{cite web
+ | title =NextGen Avionics Roadmap
+ | work =
+ | publisher =Joint Planning and Development Office
+ | date =September 30, 2011
+ | url =http://www.jpdo.gov/library/20111005_ARM_complete_LowRes_v2.0.pdf
+ | accessdate =January 25, 2012 }}</ref>
+* Published Routes and Procedures – Improved navigation and routing
+* Negotiated Trajectories – Adding data communications to create preferred routes dynamically
+* Delegated Separation – Enhanced situational awareness in the air and on the ground
+* LowVisibility/CeilingApproach/Departure – Allowing operations with weather constraints with less ground infrastructure
+* Surface Operations – To increase safety in approach and departure
+* ATM Efficiencies – Improving the ATM process
+
+Founded in 1957, the Aircraft Electronics Association (AEA) represents more than 1,300 member companies, including government-certified international repair stations specializing in maintenance, repair and installation of avionics and electronic systems in general aviation aircraft. The AEA membership also includes manufacturers of avionics equipment, instrument repair facilities, instrument manufacturers, airframe manufacturers, test equipment manufacturers, major distributors, engineers and educational institutions.
+
+==Aircraft avionics==
+The cockpit of an aircraft is a typical location for avionic equipment, including control, monitoring, communication, navigation, weather, and anti-collision systems. The majority of aircraft power their avionics using 14- or 28‑volt [[direct current|DC]] electrical systems; however, larger, more sophisticated aircraft (such as [[airliner]]s or military combat aircraft) have [[alternating current|AC]] systems operating at 400&nbsp;Hz, 115 volts AC.<ref>[http://www.aerospaceweb.org/question/electronics/q0219.shtml 400 Hz Electrical Systems]</ref> There are several major vendors of flight avionics, including [[Panasonic Avionics Corporation]], [[Honeywell Aerospace|Honeywell]] (which now owns [[Bendix Aviation|Bendix/King]]), [[Rockwell Collins]], [[Thales Group]], [[GE Aviation Systems]], [[Garmin]], [[Parker Hannifin]], [[UTC Aerospace Systems]] and [[Avidyne Corporation]].
+
+One source of international standards for avionics equipment are prepared by the Airlines Electronic Engineering Committee (AEEC) and published by ARINC.
+
+===Communications===
+
+Communications connect the flight deck to the ground and the flight deck to the passengers. On‑board communications are provided by [[public address]] systems and aircraft [[intercom]]s.
+
+The VHF aviation communication system works on the [[airband]] of 118.000&nbsp;MHz to 136.975&nbsp;MHz. Each channel is spaced from the adjacent ones by 8.33&nbsp;kHz in Europe, 25&nbsp;kHz elsewhere. VHF is also used for line of sight communication such as aircraft-to-aircraft and aircraft-to-ATC. [[Amplitude modulation]] (AM) is used, and the conversation is performed in [[Simplex communication|simplex]] mode.  Aircraft communication can also take place using HF (especially for trans-oceanic flights) or satellite communication.
+
+{{see also|Aircraft Communication Addressing and Reporting System}}
+
+===Navigation===
+
+{{main|Radio navigation}}
+[[Radio navigation|Navigation]] is the determination of position and direction on or above the surface of the Earth. Avionics can use satellite-based systems (such as [[GPS]] and [[WAAS]]), ground-based systems (such as [[VHF omnidirectional range|VOR]] or [[LORAN]]), or any combination thereof. Navigation systems calculate the position automatically and display it to the flight crew on moving map displays. Older avionics required a pilot or navigator to plot the intersection of signals on a paper map to determine an aircraft's location; modern systems calculate the position automatically and display it to the flight crew on moving map displays.
+
+===Monitoring===
+
+{{main|Glass cockpit}}
+[[File:Airbus A380 cockpit.jpg|thumb|250px|The Airbus A380 glass cockpit featuring pull-out keyboards and two wide computer screens on the sides for pilots.]] The first hints of [[glass cockpit]]s emerged in the 1970s when flight-worthy [[cathode ray tubes]] (CRT) screens began to replace electromechanical displays, gauges and instruments. A “glass” cockpit refers to the use of computer monitors instead of gauges and other analog displays. Aircraft were getting progressively more displays, dials and information dashboards that eventually competed for space and pilot attention. In the 1970s, the average aircraft had more than 100 cockpit instruments and controls.<ref name="three">''Avionics: Development and Implementation'' by Cary R. Spitzer (Hardcover - Dec 15, 2006)</ref>
+
+Glass cockpits started to come into being with the [[Gulfstream Aerospace|Gulfstream]] G‑IV private jet in 1985. One of the key challenges in glass cockpits is to balance how much control is automated and how much the pilot should do manually. Generally they try to automate flight operations while keeping the pilot constantly informed.<ref name="three"/>
+
+===Aircraft flight control systems===
+
+{{main|Aircraft flight control system}}
+Aircraft have means of automatically controlling flight. Today automated flight control is common to reduce pilot error and workload at key times like landing or takeoff. [[Autopilot]] was first invented by [[Lawrence Sperry]] during [[World War&nbsp;II]] to fly bomber planes steady enough to hit precision targets from 25,000 feet. When it was first adopted by the [[U.S.&nbsp;military]], a [[Honeywell Aerospace|Honeywell]] engineer sat in the back seat with bolt cutters to disconnect the autopilot in case of emergency. Nowadays most commercial planes are equipped with aircraft flight control systems in order to reduce pilot error and workload at landing or takeoff.<ref name="two">By Jeffrey L. Rodengen. ISBN 0-945903-25-1. Published by Write Stuff Syndicate, Inc. in 1995. “The Legend of Honeywell.”</ref> 
+
+The first simple commercial auto-pilots were used to control [[Aircraft heading|heading]] and [[altitude]] and had limited authority on things like [[thrust]] and [[flight control]] surfaces. In [[helicopter]]s, auto stabilization was used in a similar way. The first systems were electromechanical. The advent of [[fly by wire]] and electro-actuated flight surfaces (rather than the traditional hydraulic) has increased safety. As with displays and instruments, critical devices that were electro-mechanical had a finite life. With safety critical systems, the software is very strictly tested.
+
+===Collision-avoidance systems===
+
+{{main|Aircraft collision avoidance systems}}
+To supplement [[air traffic control]], most large transport aircraft and many smaller ones use a [[TCAS|traffic alert and collision avoidance system]] (TCAS), which can detect the location of nearby aircraft, and provide instructions for avoiding a midair collision. Smaller aircraft may use simpler traffic alerting systems such as TPAS, which are passive (they do not actively interrogate the transponders of other aircraft) and do not provide advisories for conflict resolution.
+
+To help avoid controlled flight into terrain ([[CFIT]]), aircraft use systems such as [[GPWS|ground-proximity warning systems]] (GPWS), which use radar altimeters as a key element. One of the major weaknesses of GPWS is the lack of "look-ahead" information, because it only provides altitude above terrain "look-down". In order to overcome this weakness, modern aircraft use a terrain awareness warning system ([[TAWS]]).
+
+===BlackBoxes===
+{{Main|Flight recorder}}
+
+Commercial aircraft cockpit data recorders, commonly known as a “black box”, store flight information and audio from the [[cockpit]]. They are often recovered from a plane after a crash to determine control settings and other parameters during the incident.
+
+===Weather systems===
+{{main|Weather radar|Lightning detector}}
+Weather systems such as [[weather radar]] (typically [[Arinc&nbsp;708]] on commercial aircraft) and [[lightning detector]]s are important for aircraft flying at night or in [[instrument meteorological conditions]], where it is not possible for pilots to see the weather ahead.  Heavy precipitation (as sensed by radar) or severe [[Clear-air turbulence|turbulence]] (as sensed by lightning activity) are both indications of strong convective activity and severe turbulence, and weather systems allow pilots to deviate around these areas.
+
+Lightning detectors like the Stormscope or Strikefinder have become inexpensive enough that they are practical for light aircraft. In addition to radar and lightning detection, observations and extended radar pictures (such as [[NEXRAD]]) are now available through satellite data connections, allowing pilots to see weather conditions far beyond the range of their own in-flight systems. Modern displays allow weather information to be integrated with moving maps, terrain, and traffic onto a single screen, greatly simplifying navigation.
+
+Modern weather systems also include [[wind shear]] and turbulence detection and terrain and traffic warning systems.<ref name="four">{{cite news
+ | last =Ramsey
+ | first =James 
+ | title =Broadening Weather Radar's Scope
+ | publisher =Aviation Today
+ | date =August 1, 2000
+ | url =http://www.aviationtoday.com/av/commercial/Broadening-Weather-Radars-Scope_12786.html
+ | accessdate =January 25, 2012 }}</ref> In‑plane weather avionics are especially popular in [[Africa]], [[India]], and other countries where air-travel is a growing market, but ground support is not as well developed.<ref>{{cite news
+ | last =Fitzsimons
+ | first =Bernard
+ | title =Honeywell Looks East While Innovating For Safe Growth
+ | publisher =Aviation International News
+ | date =November 13, 2011
+ | url =http://www.ainonline.com/?q=aviation-news/dubai-air-show/2011-11-13/honeywell-looks-east-while-innovating-safe-growth
+ | accessdate =December 27, 2011 }}</ref>
+
+===Aircraft management systems===
+There has been a progression towards centralized control of the multiple complex systems fitted to aircraft, including engine monitoring and management. [[Health and usaproposes an integrated architecture with application software portable across an assembly of common hardware modules. It has been used in [[fourth generation jet fighter]]s and the latest generation of [[airliner]]s.
+
+==Mission or tactical avionics==
+[[Military aircraft]] have been designed either to deliver a weapon or to be the eyes and ears of other weapon systems. The vast array of sensors available to the military is used for whatever tactical means required. As with aircraft management, the bigger sensor platforms (like the E‑3D, JSTARS, ASTOR, Nimrod MRA4, Merlin HM Mk 1) have mission-management computers.
+
+Police and EMS aircraft also carry sophisticated tactical sensors.
+
+===Military communications===
+
+While aircraft communications provide the backbone for safe flight, the tactical systems are designed to withstand the rigors of the battle field. [[Ultra high frequency|UHF]], [[VHF]] Tactical (30-88&nbsp;MHz) and SatCom systems combined with [[Electronic counter-countermeasures|ECCM]] methods, and [[cryptography]] secure the communications. Data links such as [[Link 11]], [[Link 16|16]], [[Link 22|22]] and [[Bowman (communications system)|BOWMAN]], [[JTRS]] and even [[TETRA]] provide the means of transmitting data (such as images, targeting information etc.).
+
+===Radar===
+
+Airborne [[radar]] was one of the first tactical sensors. The benefit of altitude providing range has meant a significant focus on airborne radar technologies. Radars include [[airborne early warning]] (AEW), [[anti-submarine warfare]] (ASW), and even [[weather radar]] ([[Arinc 708]]) and ground tracking/proximity radar.
+
+The military uses radar in fast jets to help pilots fly at low levels.{{Citation needed|date=January 2012}} While the civil market has had weather radar for a while, there are strict rules about using it to navigate the aircraft.{{Citation needed|date=January 2012}}
+
+===Sonar===
+
+Dipping sonar fitted to a range of military helicopters allows the [[helicopter]] to protect shipping assets from submarines or surface threats. Maritime support aircraft can drop active and passive sonar devices ([[sonobuoy]]s) and these are also used to determine the location of hostile [[submarines]].
+
+===Electro-Optics===
+Electro-optic systems include devices such as the [[head-up display]] (HUD), forward looking infrared ([[FLIR]]), and passive infrared devices ([[Passive infrared sensor]]). These are all used to provide imagery and information to the flight crew. This imagery is used for everything from search and rescue to navigational aids and target acquisition.
+
+===ESM/DAS===
+
+Electronic support measures and defensive aids are used extensively to gather information about threats or possible threats. They can be used to launch devices (in some cases automatically) to counter direct threats against the aircraft. They are also used to determine the state of a threat and identify it.
+
+===Aircraft networks===
+The avionics systems in military, commercial and advanced models of civilian aircraft are interconnected using an avionics databus. Common avionics databus protocols, with their primary application, include:
+* [[Aircraft Data Network]] ([[Aircraft Data Network|ADN]]): Ethernet derivative for Commercial Aircraft
+* [[AFDX|Avionics Full-Duplex Switched Ethernet (AFDX)]]: Specific implementation of ARINC 664 ([[Aircraft Data Network|ADN]]) for Commercial Aircraft
+* [[ARINC 429]]: Generic Medium-Speed Data Sharing for Private and Commercial Aircraft
+* [[Avionics Full-Duplex Switched Ethernet|ARINC 664]]: See ADN above
+* [[ARINC 629]]: Commercial Aircraft (Boeing 777)
+* [[ARINC 708]]: Weather Radar for Commercial Aircraft
+* [[ARINC 717]]: Flight Data Recorder for Commercial Aircraft
+* [[IEEE 1394b#Military Aircraft|IEEE 1394b]]: Military Aircraft
+* [[MIL-STD-1553]]: Military Aircraft
+* [[MIL-STD-1760]]: Military Aircraft
+* [[Time-Triggered Protocol|TTP]] - Time-Triggered Protocol: [[Boeing 787 Dreamliner]], [[Airbus A380]], Fly-By-Wire Actuation Platforms from Parker Aerospace
+* [[TTEthernet]] - Time-Triggered Ethernet: [[NASA Orion]] Spacecraft
+
+===Disaster relief and air ambulance===
+Disaster relief and EMS aircraft (mostly helicopters) are now a significant market. Military aircraft are often now built with a role available to assist in civil obedience{{Citation needed|date=January 2012}}. Disaster relief helicopters are almost always fitted with video/FLIR systems to allow them to monitor and coordinate real-time relief efforts. They can also be fitted with searchlights and loudspeakers.
+
+EMS and disaster relief helicopters will be required to fly in unpleasant conditions, this may require more aircraft sensors, some of which were until recently considered purely for military aircraft.
+
+==See also==
+*[[ACARS]]
+*[[Acronyms and abbreviations in avionics]]
+*[[ARINC]]
+*[[Avionics software]]
+*[[Distress radiobeacon]]
+*[[Flight recorder]]
+*[[Integrated modular avionics]]
+
+==Notes==
+{{reflist}}
+
+==References==
+*''Avionics: Development and Implementation'' by Cary R. Spitzer (Hardcover - Dec 15, 2006)
+*''Principles of Avionics'', 4th Edition by Albert Helfrick, Len Buckwalter, and Avionics Communications Inc. (Paperback - Jul 1, 2007)
+*''Avionics Training: Systems, Installation, and Troubleshooting'' by Len Buckwalter (Paperback - Jun 30, 2005)
+*''Avionics Made Simple'', by Mouhamed Abdulla, Jaroslav V. Svoboda, and Luis Rodrigues (Coursepack - Dec. 2005).
+
+==External links==
+{{Commons category}}
+{{Wiktionary|avionics}}
+*[http://drmoe.org/research/avionics_made_simple.pdf ''Avionics Made Simple'' book]
+*[http://www.aea.net Aircraft Electronics Association (AEA)]
+*[http://www.aea.net/avionicsnews ''Avionics News'' magazine]
+*[http://www.aeapilotsguide.net ''Pilot's Guide to Avionics'']
+*[http://www.assconline.co.uk The Avionic Systems Standardisation Committee]
+*[http://klabs.org/DEI/Processor/shuttle/sp-504/sp-504.htm Space Shuttle Avionics]
+*[http://www.aviationtoday.com/av/ Aviation Today Avionics magazine]
+*[http://www.raes.org.uk/cmspage.asp?cmsitemid=SG_Av_Sys_Home RAES Avionics homepage]
+*[http://www.verticalgyro.com  Vertical Gyroscope Avionics Information]
+*[http://paginas.terra.com.br/educacao/ee/ On-Board Electronics related papers] (Portuguese)
+
+{{Aviation lists}}
+
+[[Category:Avionics| ]]
+[[Category:Aircraft instruments]]
+[[Category:Spacecraft components]]

@@ -1,0 +1,171 @@
+{{Other uses2|Connection}}
+{{multiple image
+<!-- Essential parameters -->
+| align     = right<!-- left/right/center --> 
+| direction = horizontal<!-- horizontal/vertical -->
+| width     = 200<!-- Digits only; no "px" suffix, please -->
+
+<!-- Image 1 -->
+| image1    = Connected and disconnected spaces.svg<!-- Filename only; no "File:" or "Image:" prefix, please -->
+| width1    = 
+| alt1      = 
+| caption1  = The green space ''A'' at top is [[simply connected]] whereas the blue space ''B'' below is not connected.
+
+<!-- Image 2 -->
+| image2    = Connected and disconnected spaces cd.svg<!-- Filename only; no "File:" or "Image:" prefix, please -->
+| width2    = 
+| alt2      = 
+| caption2  = The pink space ''C'' at top and the orange space ''D'' are both connected; ''C'' is also [[simply connected]] while ''D'' is not.
+
+<!-- Image 3 -->
+| image3    = <!-- Filename only; no "File:" or "Image:" prefix, please -->
+| width3    = 
+| alt3      = 
+| caption3  =
+
+<!-- up to |image10 is accepted -->
+
+<!-- Extra parameters -->
+| header            = Connected and disconnected subspaces of '''R'''²
+| header_align      = <!-- left/right/center -->
+| header_background = 
+| footer            = 
+| footer_align      = <!-- left/right/center -->
+| footer_background = 
+| background color  = 
+}}
+
+In [[topology]] and related branches of [[mathematics]], a '''connected space''' is a [[topological space]] that cannot be represented as the [[union (set theory)|union]] of two or more [[disjoint set|disjoint]] nonempty [[open (topology)|open]] subsets. Connectedness is one of the principal [[topological properties]] that is used to distinguish topological spaces. A stronger notion is that of a '''path-connected space''', which is a space where any two points can be joined by a [[path (topology)|path]].
+
+A subset of a topological space ''X'' is a '''connected set''' if it is a connected space when viewed as a [[Subspace topology|subspace]] of ''X''.
+
+An example of a space that is not connected is a plane with an infinite line deleted from it. Other examples of disconnected spaces (that is, spaces which are not connected) include the plane with a closed [[Annulus (mathematics)|annulus]] removed, as well as the union of two disjoint open [[Disk (mathematics)|disks]] in two-dimensional Euclidean space.
+
+==Formal definition==
+A [[topological space]] ''X'' is said to be '''disconnected''' if it is the [[union (set theory)|union]] of two [[disjoint sets|disjoint]] [[nonempty]] [[open set]]s. Otherwise, ''X'' is said to be '''connected'''.  A [[subset]] of a topological space is said to be connected if it is connected under its [[subspace (topology)|subspace topology]]. Some authors exclude the [[empty set]] (with its unique topology) as a connected space, but this article does not follow that practice.
+
+For a topological space ''X'' the following conditions are equivalent:
+
+#''X'' is connected.
+#''X'' cannot be divided into two disjoint nonempty [[closed set]]s.
+#The only subsets of ''X'' which are both open and closed ([[clopen set]]s) are ''X'' and the empty set.
+#The only subsets of ''X'' with empty [[boundary (topology)|boundary]] are ''X'' and the empty set.
+#''X'' cannot be written as the union of two nonempty [[separated sets]].
+#The only continuous functions from ''X'' to {0,1}, the two-point space endowed with the discrete topology, are constant.
+
+===Connected components===
+The [[maximal element|maximal]] connected subsets (ordered by [[subset|inclusion]]) of a nonempty topological space are called the '''connected components''' of the space.
+The components of any topological space ''X'' form a [[partition of a set|partition]] of&nbsp;''X'': they are [[disjoint sets|disjoint]], nonempty, and their union is the whole space.
+Every component is a [[closed subset]] of the original space. It follows that, in the case where their number is finite, each component is also an open subset. However, if their number is infinite, this might not be the case; for instance, the connected components of the set of the [[rational number]]s are the one-point sets, which are not open.
+
+Let <math>\Gamma_x</math> be the connected component of ''x'' in a topological space ''X'', and <math>\Gamma_x'</math> be the intersection of all open-closed sets containing ''x'' (called [[Locally connected space|quasi-component]] of ''x''.) Then <math>\Gamma_x \subset \Gamma'_x</math> where the equality holds if ''X'' is compact Hausdorff or locally connected.
+
+===Disconnected spaces===
+A space in which all components are one-point sets is called [[totally disconnected]]. Related to this property, a space ''X'' is called '''totally separated''' if, for any two distinct elements ''x'' and ''y'' of ''X'', there exist disjoint [[neighborhood (topology)|open neighborhood]]s ''U'' of ''x'' and ''V'' of ''y'' such that ''X'' is the union of ''U'' and ''V''. Clearly any totally separated space is totally disconnected, but the converse does not hold. For example take two copies of the rational numbers '''Q''', and identify them at every point except zero. The resulting space, with the quotient topology, is totally disconnected. However, by considering the two copies of zero, one sees that the space is not totally separated.  In fact, it is not even [[Hausdorff space|Hausdorff]], and the condition of being totally separated is strictly stronger than the condition of being Hausdorff.
+
+==Examples==
+
+* The closed interval [0,&nbsp;2] in the [[Euclidean space|standard]] [[subspace topology]] is connected; although it can, for example, be written as the union of [0, 1) and [1,&nbsp;2], the second set is not open in the aforementioned topology of [0, 2].
+*The union of [0,&nbsp;1) and (1,&nbsp;2] is disconnected; both of these intervals are open in the standard topological space [0,&nbsp;1)&nbsp;∪&nbsp;(1,&nbsp;2].
+* (0,&nbsp;1)&nbsp;∪&nbsp;{3} is disconnected.
+* A [[convex set]] is connected; it is actually [[simply connected set|simply connected]].
+* A [[Euclidean space|Euclidean plane]] excluding the origin, (0,&nbsp;0), is connected, but is not simply connected. The three-dimensional Euclidean space without the origin is connected, and even simply connected. In contrast, the one-dimensional Euclidean space without the origin is not connected.
+* A Euclidean plane with a straight line removed is not connected since it consists of two half-planes.
+* The space of [[real number]]s with the usual topology is connected.
+* Any [[topological vector space]] over a connected field is connected.
+* Every [[discrete topological space]] with at least two elements is disconnected, in fact such a space is [[totally disconnected space|totally disconnected]].  The simplest example is the [[discrete two-point space]].<ref>{{cite book|title=Introduction to Topology and Modern Analysis|author=George F. Simmons|publisher=McGraw Hill Book Company|year=1968|page=144|isbn=0-89874-551-9}}</ref>
+* On the other hand, a finite set might be connected. For example, the spectrum of a [[discrete valuation ring]] consists of two points and is connected. It is an example of a [[Sierpiński space]].
+* The [[Cantor set]] is totally disconnected; since the set contains uncountably many points, it has uncountably many components.
+* If a space ''X'' is [[homotopy|homotopy equivalent]] to a connected space, then ''X'' is itself connected.
+* The [[topologist's sine curve]] is an example of a set that is connected but is neither path connected nor locally connected.
+* The [[general linear group]] <math>\operatorname{GL}(n, \mathbf{R})</math> (that is, the group of ''n''-by-''n'' real matrices) consists of two connected components: the one with matrices of positive determinant and the other of negative determinant. In particular, it is not connected. In contrast, <math>\operatorname{GL}(n, \mathbf{C})</math> is connected. More generally, the set of invertible bounded operators on a (complex) Hilbert space is connected.
+* The spectra of commutative [[local ring]] and integral domains are connected. More generally, the following are equivalent<ref>[[Charles Weibel]], [http://www.math.rutgers.edu/~weibel/Kbook.html The K-book: An introduction to algebraic K-theory]</ref>
+*# The spectrum of a commutative ring ''R'' is connected
+*# Every [[finitely generated projective module]] over ''R'' has constant rank.
+*# ''R'' has no [[idempotent]] <math>\ne 0, 1</math> (i.e., ''R'' is not a product of two rings in a nontrivial way).
+
+== Path connectedness ==<!-- This section is linked from [[Covering space]] and [[path-connected]] -->
+[[File:Path-connected space.svg|thumb|This subspace of '''R'''² is path-connected, because a path can be drawn between any two points in the space.]]
+
+A '''[[path (topology)|path]]''' from a point ''x'' to a point ''y''  in a [[topological space]] ''X'' is  a [[continuous function (topology)|continuous function]] ''f'' from the [[unit interval]] [0,1] to ''X'' with ''f''(0) = ''x'' and ''f''(1) = ''y''. A '''path-component''' of ''X'' is an [[equivalence class]] of ''X'' under the [[equivalence relation]] which makes ''x''  equivalent to ''y'' if there is a path from ''x'' to ''y''. The space ''X'' is said to be '''path-connected''' (or '''pathwise connected''' or '''0-connected''') if there is at most one path-component, i.e. if there is a path joining any two points in ''X''. Again, many authors exclude the empty space.
+
+Every path-connected space is connected. The converse is not always true: examples of connected spaces that are not path-connected include the extended [[long line (topology)|long line]] ''L''* and the ''[[topologist's sine curve]]''.
+
+However, subsets of the [[real line]] '''R''' are connected [[if and only if]] they are path-connected; these subsets are the [[interval (mathematics)|intervals]] of '''R'''.
+Also, [[open subset]]s of '''R'''<sup>''n''</sup> or '''C'''<sup>''n''</sup> are connected if and only if they are path-connected.
+Additionally, connectedness and path-connectedness are the same for [[finite topological space]]s.
+
+== Arc connectedness == <!-- Connected_space#Arc_connectedness redirects to this subsection -->
+A space ''X'' is said to be '''arc-connected''' or '''arcwise connected''' if any two distinct points can be joined by an ''arc'', that is a path ''f'' which is a [[homeomorphism]] between the unit interval [0,&nbsp;1] and its image ''f''([0,&nbsp;1]). It can be shown any [[Hausdorff space]] which is path-connected is also arc-connected. An example of a space which is path-connected but not arc-connected is provided by adding a second copy 0' of 0 to the nonnegative real numbers <nowiki>[</nowiki>0,&nbsp;∞<nowiki>)</nowiki>. One endows this set with a [[partially ordered set|partial order]] by specifying that 0'<''a'' for any positive number ''a'', but leaving 0 and 0' incomparable. One then endows this set with the ''order topology'', that is one takes the open intervals
+(''a'',&nbsp;''b'') = {''x'' | ''a''&nbsp;<&nbsp;''x''&nbsp;<&nbsp;''b''}  and the half-open intervals <nowiki>[</nowiki>0,&nbsp;''a''<nowiki>)</nowiki> = {''x'' | 0&nbsp;≤&nbsp;x&nbsp;<&nbsp;''a''}, <nowiki>[</nowiki>0',&nbsp;''a''<nowiki>)</nowiki> = {''x'' | 0'&nbsp;≤&nbsp;''x''&nbsp;<&nbsp;''a''} as a [[base (topology)|base]] for the topology. The resulting space is a [[T1 space|T<sub>1</sub>]] space but not a [[Hausdorff space]]. Clearly 0 and 0' can be connected by a path but not by an arc in this space.
+
+== Local connectedness ==<!-- This section is linked from [[Covering space]] -->
+
+{{main|Locally connected space}}
+
+A topological space is said to be '''[[Locally connected space|locally connected]] at a point''' ''x'' if every neighbourhood of ''x'' contains a connected open neighbourhood. It is '''locally connected''' if it has a [[base (topology)|base]] of connected sets. It can be shown that a space ''X'' is locally connected if and only if every component of every open set of ''X'' is open. The [[topologist's sine curve]] is an example of a connected space that is not locally connected.
+
+Similarly, a topological space is said to be '''{{visible anchor|locally path-connected}}''' if it has a base of path-connected sets.
+An open subset of a locally path-connected space is connected if and only if it is path-connected.
+This generalizes the earlier statement about '''R'''<sup>''n''</sup> and '''C'''<sup>''n''</sup>, each of which is locally path-connected. More generally, any [[topological manifold]] is locally path-connected.
+
+== Theorems ==
+[[File:Union et intersection d'ensembles.svg|thumb|Examples of unions and intersections of connected sets]]
+*''Main theorem'': Let ''X'' and ''Y'' be topological spaces and let ''f'' : ''X'' → ''Y'' be a [[continuous (topology)|continuous function]]. If ''X'' is (path-)connected then the [[image (mathematics)|image]] ''f''(''X'') is (path-)connected. This result can be considered a generalization of the [[intermediate value theorem]].
+*If  <math>\{A_i\}_{i \in I}</math> is a family of connected subsets of a topological space ''X'' indexed by an arbitrary set <math>I</math> such that for all <math>i</math>, <math>j</math> in <math>I</math>,   <math> A_i \cap A_{j} </math> is nonempty, then <math> \cup A_i</math> is also connected.
+*If <math>\{A_\alpha\}</math> is a nonempty family of connected subsets of a topological space ''X'' such that <math> \cap A_\alpha </math> is nonempty, then <math> \cup A_\alpha</math> is also connected.
+*[[Connected_space/Proofs#Every_path-connected_space_is_connected|Every path-connected space is connected]].
+*Every locally path-connected space is locally connected.
+*[[Connected_space/Proofs#A_locally_path-connected_space_is_path-connected_if_and_only_if_it_is_connected|A locally path-connected space is path-connected if and only if it is connected]].
+*The [[closure (topology)|closure]] of a connected subset is connected.
+*The connected components are always [[closed set|closed]] (but in general not open)
+*The connected components of a locally connected space are also open.
+*The connected components of a space are disjoint unions of the path-connected components (which in general are neither open nor closed).
+*Every [[quotient space|quotient]] of a connected (resp. path-connected) space is connected (resp. path-connected).
+*Every  [[product topology|product]] of a family of connected (resp. path-connected) spaces is connected (resp. path-connected).
+*Every open subset of a locally connected (resp. locally path-connected) space is locally connected (resp. locally path-connected).
+*Every [[manifold]] is locally path-connected.
+
+==Graphs==
+[[Graph (mathematics)|Graphs]] have path connected subsets, namely those subsets for which every pair of points has a path of edges joining them.
+But it is not always possible to find a topology on the set of points which induces the same connected sets. The [[cyclic graph|5-cycle]] graph (and any ''n''-cycle with ''n''>3 odd) is one such example.
+
+As a consequence, a notion of connectedness can be formulated independently of the topology on a space. To wit, there is a category of connective spaces consisting of sets with collections of connected subsets satisfying connectivity axioms; their morphisms are those functions which map connected sets to connected sets {{harv|Muscat|Buhagiar|2006}}. Topological spaces and graphs are special cases of connective spaces; indeed, the finite connective spaces are precisely the finite graphs.
+
+However, every graph can be canonically made into a topological space, by treating vertices as points and edges as copies of the [[unit interval]] (see [[topological graph theory#Graphs as topological spaces]]). Then one can show that the graph is connected (in the graph theoretical sense) if and only if it is connected as a topological space.
+
+== Stronger forms of connectedness ==
+There are stronger forms of connectedness for [[topological space]]s, for instance: 
+* If there exist no two disjoint non-empty open sets in a topological space, ''X'', ''X'' must be connected, and thus [[hyperconnected space]]s are also connected.
+* Since a [[simply connected space]] is, by definition, also required to be path connected, any simply connected space is also connected. Note however, that if the "path connectedness" requirement is dropped from the definition of simple connectivity, a simply connected space does not need to be connected.
+*Yet stronger versions of connectivity include the notion of a [[contractible space]]. Every contractible space is path connected and thus also connected.
+
+In general, note that any path connected space must be connected but there exist connected spaces that are not path connected. The [[Comb space|deleted comb space]] furnishes such an example, as does the above mentioned [[topologist's sine curve]].
+
+== See also ==
+*[[uniformly connected space]]
+*[[locally connected space]]
+*[[connected component (graph theory)]]
+*[[n-connected|''n''-connected]]
+*[[Connectedness locus]]
+*[[Extremally disconnected space]]
+
+==References==
+
+===Notes===
+{{reflist}}
+
+===General references===
+{{refbegin}}
+* {{cite book | author= Munkres, James R. | authorlink=James Munkres  | title=Topology, Second Edition | publisher=Prentice Hall | year=2000 | isbn=0-13-181629-2}}
+*{{MathWorld|urlname=ConnectedSet|title=Connected Set}}
+*{{Springer|urlname=Connected_space|author=V. I. Malykhin}}
+*{{Cite journal|url=http://www.math.shimane-u.ac.jp/memoir/39/D.Buhagiar.pdf|last1=Muscat|first1=J|last2=Buhagiar|first2=D|title=Connective Spaces|journal=Mem. Fac. Sci. Eng. Shimane Univ., Series B: Math. Sc.|volume=39|year=2006|pages=1–13|ref=harv|postscript=<!--None-->}}.
+{{refend}}
+
+{{DEFAULTSORT:Connected Space}}
+[[Category:General topology]]
+[[Category:Properties of topological spaces]]
+
+[[he:קשירות (טופולוגיה)]]
+[[fi:Yhtenäisyys]]

@@ -1,0 +1,205 @@
+{{Infobox CVG system
+|title=Atari 7800 System
+|logo=
+|image=[[File:Atari-7800-Console-Set.png|300px|Atari 7800 System (American system with joystick controller)]]
+|manufacturer=[[Atari, Inc.]], [[Atari Corporation]]
+|type=[[Video game console]]
+|generation=[[History of video game consoles (third generation)|Third generation]]
+|release date={{Start date|1984|05|21}} (announcement)<ref name="press release"/><ref>"[http://query.nytimes.com/gst/fullpage.html?sec=technology&res=9F06E5D7163BF931A15756C0A962948260 Atari Video Game Unit Introduced]", ''New York Times''</ref><br /> US {{start date|1984|06}} (original release){{Citation needed|date=May 2010}}<br />US {{start date|1986|01}} (re-release)<br>EU {{Start date|1987}}
+|discontinued=January 1, [[1992 in video gaming|1992]]{{Citation needed|date=January 2008}}
+|CPU=Atari SALLY [[MOS Technology 6502|6502]] ("6502C") clocked at 1.19-1.79MHz,
+|memory=4KB [[RAM]], 4KB [[BIOS]] [[Read-only memory|ROM]], 48KB Cartridge ROM Space
+|display = 160×240, 320×240 (160×288/320×288 if [[PAL]]), 25 on-screen colours out of possible 256
+|media=[[ROM cartridge]]
+|onlineservice =
+|topgame = 
+|units sold = 3.77 million (North America)<ref>Matthew, Matt (May 26, 2009). [http://www.gamasutra.com/blogs/MattMatthews/20090526/1521/Atari_7800_Sales_Figures_1986__1990.php Atari 7800 Sales Figures (1986 - 1990)], Gamasutra.</ref>
+|topgame = 
+|compatibility = [[Atari 2600]]
+|predecessor = [[Atari 5200]]
+|successor=[[Atari XEGS|Atari XE Game System]]
+|price= US$140
+|gpu = MARIA custom graphics chip clocked at 7.16MHz
+}}
+The '''Atari 7800 ProSystem''', or simply the '''Atari 7800''', is a [[video game console]] officially released by [[Atari Corporation]] in January 1986.<ref>[http://www.ign.com/top-25-consoles/17.html Top 25 Videogame Consoles of All Time: Atari 7800 is Number 17], IGN.</ref> The 1986 launch is sometimes referred to as a "re-release" or "relaunch" because the Atari 7800 had originally been announced in May of 1984, to replace Atari Inc.'s [[Atari 5200]], but a general release was shelved due to the sale of the company.<ref>[http://atariage.com/7800/history.html AtariAge: Atari 7800 History], AtariAge.</ref> In January 1986, the 7800 was relaunched and would compete that year with the [[Nintendo Entertainment System]] and the [[Sega Master System]]. It had simple digital [[joystick]]s and was almost fully [[Backward compatibility|backward-compatible]] with the [[Atari 2600]], the first console to have backward compatibility without the use of additional modules. It was considered affordable at a price of US$140.
+
+In 2009, [[IGN]] chose the 7800 to be their 17th best video game console of all time. They justified this relatively low ranking (though higher than every other Atari console save the 2600) with the summary statement: "Its delayed release, its cancelled peripherals, and a lack of financial backing from the company's new owners all combined to ensure that Atari 7800 would never see any success beyond being a sexier way of playing Atari 2600 titles."<ref>(2009).[http://www.ign.com/top-25-consoles/17.html Top 25 Videogame Consoles of All Time: Atari 7800 is Number 17], IGN.</ref>
+
+== History ==
+
+The Atari 7800 ProSystem was the first game system from Atari Inc. designed by an outside company, [[General Computer Corporation]] (GCC). The system had been designed in 1983 through 1984 with an intended mass market rollout in June 1984, but was canceled shortly thereafter due to the sale of the company to [[Jack Tramiel|Tramel Technology Ltd]] on July 2, 1984. The project was originally called the Atari 3600, though was later renamed the Atari 7800.
+
+Several key factors influenced the design of the 7800. First, Atari had been facing mounting pressure from the [[ColecoVision]], which boasted graphics that more closely mirrored [[arcade games]] of the time than Atari’s reigning 2600 VCS system. Second, the Atari 5200 (the original intended successor to the Atari 2600 VCS) had been widely criticized for not being able to play Atari 2600 VCS games without an adapter. Finally, dropping prices of [[home computer]]s like the [[Commodore 64]] had caused many to believe that buying a home computer was a better investment because it provided more detailed gameplay and could be used for other purposes such as [[word processing]]. 
+
+Previous game consoles sometimes had a difficult time replicating the arcade experience in home versions of popular [[arcade game]]s. In particular, home versions of arcade games sometimes had problems with flickering and slow down when more than a few moving objects appeared on the screen at once. GCC, which had a background in creating arcade games, designed their new system with a graphical architecture similar to arcade machines of the time. The 7800 featured the ability to move around a tremendous amount of objects (75-to-100) that far exceeded previous consoles. Powering the system was an Atari SALLY [[MOS Technology 6502|6502]] (Atari's slightly custom 6502, sometimes described as a "6502C") processor running at 1.79&nbsp;MHz, similar to the processor found in home computers ([[Atari 8-bit]], [[Apple II series|Apple II]], Commodore 64) and other consoles (Atari 5200 and [[Nintendo Entertainment System]]).
+
+In response to the criticisms of the Atari 5200, the Atari 7800 could play almost all Atari 2600 games out of the box, without the need for an adapter. In addition, it featured a return to a digital controller.
+
+To address the concerns of parents that home computers were a better investment than consoles, the system was designed to be upgraded to a full-fledged home computer. A keyboard was developed, and the keyboard had an expansion port (which was the SIO port from Atari's 8-bit computer line, though the 7800 could not run Atari computer programs) that allowed for the addition of peripherals such as disk drives and printers. 
+
+To further enhance the gaming experience, GCC had also designed a "high score cartridge", a battery-backed [[RAM]] cartridge designed for storing game scores. On the side of the 7800 was an expansion port, reportedly for a planned connection with a [[laserdisc]] player.
+[[Image:Atari 7800 with cartridge and controller.jpg|thumb|225px|left|Atari 7800 System (PAL system with Joypad controller)]]
+
+=== Launch ===
+
+The 7800 was initially released in southern [[California]] in June 1984{{Citation needed|date=May 2010}}, following an announcement on May 21, 1984 at the Summer [[Consumer Electronics Show]].<ref name="press release">{{cite press release |title=Atari unveils advanced video game that is expandable to introductory computer |publisher=Atari, Inc. |url=http://www.atari7800.org/museum/PressDoc1s.htm |accessdate=2010-04-30 |date=1984-05-21}}</ref> 13 games were announced for the system's launch, including ''[[Ms. Pac-Man]]'', ''[[Pole Position II]]'', ''[[Centipede (video game)|Centipede]]'', ''[[Joust (video game)|Joust]]'', ''[[Dig Dug]]'', ''[[Desert Falcon]]'', ''[[Robotron: 2084]]'', ''[[Galaga]]'', ''[[Xevious]]'', ''[[Food Fight (video game)|Food Fight]]'', ''[[Ballblazer]]'', ''[[Rescue on Fractalus!]]'', and ''[[Track & Field (arcade game)|Track and Field]]''. Atari was a sponsor of the [[1984 Summer Olympics]] and planned to push the 7800 aggressively in time for Christmas that year.
+
+On July 2, 1984, [[Time Warner|Warner Communications]] sold Atari's Consumer Division to [[Jack Tramiel]].<ref>[Retrogamer Magazine, Issue #78, pp 53.]</ref> All projects were halted during an initial evaluation period. Modern publications have often incorrectly asserted that Jack Tramiel mothballed the Atari 7800 feeling video games were a past fad and subsequently asserted that he dusted off the Atari 7800 once the [[Nintendo NES]] became successful. The reality was that a contractual issue arose in that GCC had not been paid for their development of the 7800. Warner and Tramiel battled back and forth over who was accountable, with Tramiel believing that the 7800 should have been covered as part of his acquisition deal. In May 1985, Jack relented and paid GCC the overdue payment. This led to additional negotiations regarding the initial launch titles that GCC had developed and then an effort to find someone to lead their new video game division, which was completed in November 1985.<ref>[Retrogamer Magazine, Issue #78, pp 57]</ref> 
+
+The original production run of the Atari 7800 languished on warehouse shelves until it was re-introduced in January 1986 after strong 2600 sales the previous Christmas.<ref>[http://tnca.myrmid.com/art9.htm Atari, Sega, and Nintendo Plan Comeback for Video Games - HFD: The Weekly Home Furnishings Newspaper]</ref>
+
+Atari's launch of the 7800 under Tramiel was far more subdued than Warner had planned for the system in 1984 with a marketing budget of just $300,000. Additionally, the keyboard and high score cartridge were canceled, the expansion port was removed from later production runs of the system and, in lieu of new titles, the system was launched with titles intended for the 7800's debut in 1984.
+
+=== Marketplace challenges ===
+Atari's lineup for the 7800 emphasized high-quality versions of popular arcade games like ''[[Joust (video game)|Joust]]'' and ''[[Asteroids (video game)|Asteroids]]''.<ref name="cgw198808">{{cite news | title=Video Gaming World | work=Computer Gaming World | date=1988-08 | accessdate=3 November 2013 | author=Katz, Arnie; Kunkel, Bill; Worley, Joyce | pages=44}}</ref> This had been a primary reason for the success of the Atari 2600 VCS against systems like the [[Intellivision]].
+
+During the Atari 7800’s life cycle, Atari found themselves struggling to get developers to create 7800 versions of then-popular arcade titles because of a controversial policy employed by Nintendo. When Nintendo revived the industry, they signed up software development companies to create NES games under a strict license agreement which imposed serious restrictions on what they were allowed to do. One of the key clauses was that companies who made Nintendo games were not allowed to make that game on a competing system for a period of two years.<ref>{{cite book |title=Game Over |last=Sheff |first=David |authorlink=David Sheff |year=1993 |publisher=Random House |location=New York |isbn=0-679-40469-4 |pages=214–215}}</ref> Because of the market success of the NES, companies chose to develop for it first and were thus barred from developing the same games on competing systems for two years. The software libraries of the Atari 7800 and Sega Master System suffered tremendously as a result.
+
+Eleven titles were developed and sold by three third-party companies under their own labels for the 7800 ([[Absolute Entertainment]], [[Activision]], and [[Froggo]]) with the rest published by Atari themselves. However, most Atari development was contracted out.
+
+Some NES titles were developed by companies who had licensed their title from a different arcade manufacturer. While the creator of the NES version would be restricted from making a competitive version of an NES game, the original arcade copyright holder was not precluded from licensing out rights for a home version of an arcade game to multiple systems. Through this loophole, Atari 7800 conversions of ''[[Mario Bros.]]'', ''[[Double Dragon]]'', ''[[Commando (video game)|Commando]]'', ''[[Rampage (video game)|Rampage]]'', ''[[Xenophobe (video game)|Xenophobe]]'', ''[[Ikari Warriors]]'' and ''[[Kung Fu Master]]'' were licensed and developed.
+
+=== Demise ===
+The Atari 7800 remained officially active in the United States between 1986 and 1991 and in Europe between 1989 and 1991. On January 1, 1992, Atari Corp. formally announced that production of the Atari 7800, the Atari 2600, the Atari 8-bit computer line, and the Atari XE Game System would cease. By the time of the cancellation, Nintendo's NES dominated the North American market, controlling 80% while Atari Corp. controlled just 12%.<ref>{{cite news| url=http://query.nytimes.com/gst/fullpage.html?res=9E0CE3DD143EF935A25756C0A964958260 | work=The New York Times | title=COMPANY NEWS; Nintendo Suit by Atari Is Dismissed | date=May 16, 1992 | accessdate=April 25, 2010}}</ref> 
+ 
+Despite trailing the Nintendo Entertainment System in terms of number of units sold, the 7800 was a profitable enterprise for Atari Corp., benefiting largely from Atari’s name and the system's 2600 compatibility. Profits were strong owing to low investment in game development and marketing. Nonetheless, the 7800 failed to help Atari regain its dominance in the videogame industry.
+
+==Technical specifications==
+* CPU: Atari SALLY [[MOS Technology 6502|6502]] ("6502C")
+** Speed: 1.79&nbsp;MHz, drops to 1.19&nbsp;MHz when the TIA [[Television Interface Adaptor]] or RIOT ([[MOS Technology 6532|6532 RAM-I/O-Timer]]) chips are accessed
+** (note: Unlike a standard 6502, ''SALLY'' can be halted to allow other devices to control the bus)
+* [[RAM]]: 4 KB (2 6116 2Kx8 RAM ICs)
+* [[Read-only memory|ROM]]: built in 4 KB [[BIOS]] ROM, 48 KB Cartridge ROM space without [[bank switching]]
+* Graphics: MARIA custom graphics controller
+** 160×240 (160×288 [[PAL Region|PAL]]) resolution or 320×240/288 resolution
+** 25 color palette out of 256 colors (16 hues * 16 luma), different graphics modes restricted the number of usable colors and the number of colors per sprite
+** [[Direct Memory Access]] (DMA)
+** Graphics clock: 7.16&nbsp;MHz
+* I/O: Joystick and console switch IO handled by [[MOS Technology 6532|6532 RIOT]] and TIA
+* Ports: 2 joystick ports, 1 cartridge port, 1 expansion connector, power in, RF output
+* Sound: [[Television Interface Adaptor|TIA]] video and sound chip, same as the 2600. Only the sound is used in 7800 games. Both video and sound are used in 2600 games.
+** Optional [[Atari POKEY|POKEY]] sound chip on cartridge for improved sounds.
+
+=== Graphics ===
+The graphics are generated by a custom graphics chip called MARIA which is very different from other second and third generation consoles, and made it more difficult for game programmers to make the transition. Instead of a limited number of hardware sprites, the MARIA allows for a much larger number of sprites described in a list of display lists. Each display list contains sprite entries with pointers to graphics data, color information, and horizontal positioning. The same display list is used for multiple rasters with the pointers being automatically adjusted. However, managing and displaying a large number of sprites required much more [[CPU]] time (both directly and indirectly since the MARIA would halt the CPU when drawing sprites) than consoles with hardware sprites and backgrounds. 
+
+MARIA has a number of different graphics modes which are either 160 pixels wide or 320 pixels wide. While the 320 pixel modes theoretically enable the 7800 to create games at higher resolution than the 256 pixel wide graphics found in the [[Nintendo Entertainment System]] and [[Sega Master System]], the intense processing demands of MARIA typically meant that programmers created their games using the lower 160 pixel modes. 
+
+The 7800 features a broad (for its time) palette of 256 colors. Depending on various parameters, each individual sprite can use from 1 to 12 colors, with 3 colors (plus a 4th "transparency" color) being the most common. In this format, the sprite is referenced to one of 8 palettes, where each palette holds 3 assignable colors. There is also an assignable background color, which will be visible wherever another object has not covered it up. In total the system can utilize 25 colors on a scanline at one time.<ref name="atarimuseum.com">http://www.atarimuseum.com/ahs_archives/archives/archives-techdocs-7800.htm</ref>
+
+The graphics resolution, color palette assignments, and background color can be adjusted in between scanlines. This advanced programming technique is documented in the original 1983 "Atari 3600 Software Guide".<ref name="atarimuseum.com"/> Games often used this feature to render high resolution text in one area of the screen, while displaying more colorful graphics with less resolution in the gameplay area. Demos also exist which use this feature to place all 256 colors on the screen at the same time.
+
+The MARIA’s approach had advantages and disadvantages when it came to generating graphics in software during the lifespan of the 7800. It excelled at moving around large numbers of sprites on a static screen without the screen flickering that plagued other 8-bit systems. Its flexible design enabled it to play games which used display list manipulation to generate a pseudo 3D appearance such as ''[[Ballblazer]]'' (1987) and ''F-18 Hornet'' (1988). While side-scrolling games in the vein of ''[[Super Mario Bros.]]'' are possible on the system (1990's ''Scrapyard Dog'' is the best example), it is significantly harder to develop such a title than on a tile-based system such as the Nintendo Entertainment System.
+
+=== Sound ===
+
+A common criticism of the 7800 regards its use of the TIA to provide 2-channel sound effects and music, resulting in sound quality that is virtually identical to the Atari 2600 VCS from 1977. While the inclusion of 2600 hardware is required to maintain compatibility with the older system, this drove up production costs and reduced available space on the 7800’s motherboard. As such, the 7800 does not include additional hardware for generating sound as it does with graphics and the sound hardware is considered the weakest part of the system. 
+
+To compensate for this, GCC’s engineers allowed games to include a [[Atari POKEY|POKEY audio chip]] in the cartridge which substantially improved the audio quality. To ensure software developers had an economical means of producing better sound than TIA, GCC had originally planned to make a low-cost, high performance sound chip, GUMBY, which could also be placed in 7800 cartridges to enhance its sound capabilities further. This project was cancelled when Atari was sold to Jack Tramiel. 
+
+Despite having the capability to support sound chips in cartridges, almost no 7800 cartridges feature POKEY hardware for enhanced sound. ''Ballblazer'', released in 1987, uses the POKEY to generate all music and sound effects. Similarly, ''[[Commando (video game)|Commando]]'', released in 1989, uses a POKEY to generate in-game music while the TIA generates the game's sound effects for a total of 6 channels of sound.
+
+=== Lockout features ===
+
+Following the debate over ''[[Custer's Revenge]]'', an Atari 2600 VCS title with adult themes, Atari had concerns over similar adult titles finding their way onto the 7800 and displaying adult graphics on the significantly improved graphics of the MARIA chip. To combat this, they included a digital signature protection method which prevented unauthorized 7800 games from being played on the system. 
+
+When a cartridge was inserted into the system, the 7800 BIOS included code which would generate a digital signature of the cartridge ROM and compare it to the signature stored on the cartridge. If a correct signature was located on the cartridge, the 7800 would operate in 7800 mode, granting the game access to MARIA and other features. If a signature was not located, the 7800 remained in 2600 mode and MARIA was unavailable. All 7800 games released in North America had to be digitally signed by Atari. This digital signature code is not present in PAL 7800s, which use various heuristics to detect 2600 cartridges, due to export restrictions.{{Citation needed|date=October 2013}} The signing utility was found and released by Classic Gaming Expo in 2001.<ref>{{cite web|last=Boris|first=Dan|title=The Encryption Issue|url=http://atarihq.com/danb/a7800.shtml#encryption|work=Atari 7800 Tech Page|accessdate=2 October 2013}}</ref> 
+
+=== Backward compatibility ===
+The Atari 7800 differs from the 2600 in several key areas. It features a full Atari SALLY 6502 processor whereas the 2600 VCS has a stripped down 6507 processor running at a slower speed. It has additional [[RAM]] (Random Access Memory) and the ability to access more cartridge data at one time than the 2600. The most substantial difference, however, is a graphics architecture which differs markedly from either the Atari 2600 VCS or Atari’s 8-bit line of computers. 
+
+The 7800's compatibility with the Atari 2600 is made possible by including many of the same chips used in the Atari 2600. When operating in “2600” mode to play Atari 2600 titles, the 7800 uses a Television Interface Adapter (TIA) chip to generate graphics and sound. The processor is slowed to 1.19&nbsp;MHz, enabling the 7800 to mirror the performance of the 2600s stripped-down 6507 processor. RAM is limited to 128 bytes found in the RIOT and game data is accessed in 4K blocks. 
+
+When in “7800” mode (signified by the appearance of the full screen Atari logo), the graphics are generated entirely by the MARIA graphics processing unit, all system RAM is available and game data is accessed in larger 48K blocks. The system’s SALLY 6502 runs at its normal 1.79&nbsp;MHz instead of the reduced speed of 2600 mode. The 2600 chips are used in 7800 mode to generate sound as well as switch and controller interfaces.
+
+The Atari 7800 does not support backward compatibility for Atari 5200 games or accessories.
+
+===System revisions===
+Prototypes:
+*Atari 3600, original model number
+*Atari CX-9000 Video Computer System
+
+Production:
+*Atari CX7800, two joystick ports on lower front panel. Side expansion port for upgrades and add-ons. Bundled accessories included two CX24 Pro-Line joysticks, AC adapter, switchbox, RCA connecting cable, and [[Pole Position II]] cartridge.
+*Atari CX7800, second revision. Slightly revised motherboard, added an additional timing circuit. Expansion port connector removed from motherboard but is still etched. Shell has indentation of where expansion port was to be.
+*Atari CX7800, third revision. Same as above but with only a small blemish on the shell where the expansion port was.
+
+== Peripherals ==
+[[Image:Atari7800manette.png|thumb|200px|The [[gamepad]] of the Atari 7800.]]
+The Atari 7800 came bundled with the Atari Proline Joystick a two button controller with a joystick for movement. In response to criticism over ergonomic issues in the 7800’s Pro-Line controllers, Atari later released joypad controllers with European 7800s, which were similar in style to controllers found on Nintendo and Sega Systems. The Joypad was not available in the United States.
+
+Unlike the NES or Sega Master System, there were few add-on peripherals for the 7800, though its backwards compatibility feature allowed it to be compatible with most Atari 2600 peripherals. 
+
+The most notable exception was the XG-1 lightgun, which came bundled with the Atari XE Game System. The XG-1 was fully compatible with the 7800 and was sold separately for other Atari systems. Atari released four 7800 light gun games: ''[[Alien Brigade]]'', ''[[Crossbow (video game)|Crossbow]]'', ''[[Meltdown (video game)|Meltdown]]'', and ''[[Barnyard Blaster]]''.
+
+=== Canceled peripherals ===
+Due to the acquisition of the Atari Consumer Division by Jack Tramiel in 1984, a number of planned peripherals for the system were canceled.
+
+* The High Score Cartridge was designed to save player high scores for up to 65 separate games. The cartridge was intended as a pass-through device (similar to the later [[Game Genie]]). Nine games were programmed with the feature but the cartridge was canceled before it was released. In 1999, a limited run of cartridges were produced by Atari historian Curt Vendel using ROM code from Gary Rubio (the former Atari liaison to GCC on the Atari 7800 project). This feature has been included in many homebrew releases in recent years.
+
+* The 7800 included an expansion port which would have allowed for the addition of a planned computer keyboard, connection to laserdisc players and other peripherals. The expansion port was removed in the second and third revisions of the 7800.
+
+* A dual joystick holder was designed for games like ''[[Robotron 2084]]'' and future games like ''[[Battlezone (1980 video game)|Battlezone]]'' and others, but not produced.{{Citation needed|date=March 2009}}
+
+== Software library ==
+{{see also|List of Atari 7800 games|List of Atari 2600 games}}
+[[Image:Atari 7800 with Cartridge.jpg|thumb|upright|Atari 7800 with ''Donkey Kong Junior'' cartridge]]
+
+While the 7800 can actually play hundreds of titles due to its compatibility with the Atari 2600, there was limited third party support for the 7800 and fewer than 100 titles were specifically designed for it.
+
+===Unreleased games===
+As with most game consoles, there were many more games in development for the 7800 than were actually released. However, very few prototypes have been located, due to Tramiel Atari’s reluctance to make them in the first place. Atari 7800 prototypes tend to be highly coveted by collectors, often fetching hundreds of dollars when sold. Some collectors are unwilling to share the rare items publicly as doing so risks decreasing the value of their prototypes.
+
+Nonetheless, some unreleased Atari 7800 games, as well as early versions of released games have been released to the public. A few have been manufactured and sold. 
+
+These include
+*''[[Klax (video game)|Klax]]'' (Programmed by Blue Sky Software). The game was nearly completed when canceled.<ref>{{cite web | title = AtariProtos.com page | url=http://www.atariprotos.com/7800/software/klax/klax.htm}}</ref> For years, it was traded privately until a ROM was made available to the general public. Later, the developer appeared to create additional levels for the community.
+*''[[Gato (computer game)|Gato]]'' (Programmed by Ibid Inc Software). Released on the XE Game System, an Atari 7800 version was started but not completed beyond a simple demo.
+*''[[Missing in Action (arcade game)|Missing in Action]]'' (Programmed by Sculptured Software for TNT Games). A side scrolling adventure that was about 85% complete when cancelled. The game is mostly playable with some later collision detection issues requiring cheats to get past.
+*''[[Pit-Fighter]]'' (Programmed by Imagitec Design). An early demo of the game has been found, with crude graphics, no sound and poor collision detection.
+*''[[Rescue on Fractalus!]]'' (Programmed by GCC). A conversion of the popular computer game was released by GCC in 2004. The game was partially complete with a running engine but no enemies.<ref>{{cite web | title = AtariProtos.com page on RoF for Atari 7800 | url=http://www.atariprotos.com/7800/software/rof/rof.htm | accessdate = 2007-11-26| archiveurl= http://web.archive.org/web/20071123133141/http://www.atariprotos.com/7800/software/rof/rof.htm| archivedate= 23 November 2007 <!--DASHBot-->| deadurl= no}}</ref>
+*Other 7800 games remain lost, despite indications that development occurred. The most notable of these are ''[[Skyfox]]'' (shown on the back of the original system box) and ''[[Electrocop]]'' (artwork has since been uncovered).
+
+Engineering Notes list ''[[Tempest (video game)|Tempest]]'' as a game that was between 15–20% completed for the Atari 7800; no code to date has been found. The Atari Museum located and posted unreleased box art and notes for a 7800 version of ''[[Crystal Castles (video game)|Crystal Castles]]'', but no code to date has been found for that game, either. Atari's earlier 7800 games listing showed ''[[Millipede (video game)|Millipede]]'' as one of the games in the line up; however, it does not appear that it was ever started or worked on.
+
+===Source code release===
+The source code for 13 games, as well as the OS and development tools (for the [[Atari ST]] computer system) were discovered in a dumpster behind the Atari building in Sunnyvale, California.<ref>[http://www.atarimuseum.com/whatsnew/2009-JUN-11.html AtariMuseum - Site News: June 11, 2009], retrieved July 3, 2009</ref> Commented [[assembly language]] source code was made available for ''[[Centipede (video game)|Centipede]]'', ''Commando'', ''Crossbow'', ''Desert Falcon'', ''[[Dig Dug]]'', ''[[Food Fight (video game)|Food Fight]]'', ''[[Galaga]]'', ''[[Hat Trick (video game)|Hat Trick]]'', ''[[Joust (video game)|Joust]]'', ''[[Ms. Pac-Man]]'', ''[[Super Stunt Cycle]]'', ''Robotron: 2084'' and ''[[Xevious]]'' game titles.<ref>[http://www.atarimuseum.com/videogames/consoles/7800/games/ "7800 Games & Development"] at [http://www.atarimuseum.com/ The Atari History Museum website], retrieved July 3, 2009</ref>
+
+== Emulation and homebrew ==
+When emulators of 1980s video game consoles began to appear on home computers in the late 1990s, the Atari 7800 was one of the last to be emulated. The lack of awareness of the system, the lack of understanding of the hardware, and fears about the digital signature lockout initially caused concerns. Since that time, however, the 7800 has been emulated successfully and is now common on emulation sites. One such program is ProSystem, written in C/C++ for the [[Microsoft Windows]] operating system.<ref>{{cite book| last1         = Kohler| first1        = Chris| others        = foreword by [[Al Lowe]]| title         = Retro Gaming Hacks| edition       = 1st| date          = 2005-10-12| publisher     = [[O'Reilly Media]]| location      = Sebastopol, CA| isbn          = 0-596-00917-8| pages         = 156&nbsp;–  157|chapter       = Playing Classic Console Games}}</ref> It uses the Windows API and DirectX to display what it emulates in both [[PAL]] and [[NTSC]].
+
+The digital signature long prevented homebrew games from being developed until the original encryption generating software was discovered. When the original digital signature generating software was turned over to the Atari community, development of new Atari 7800 titles began. In addition, the Atari community has slowly uncovered the original 7800 development tools and released them into the public domain. New tools, documentation, source code and utilities for development have since been created which has sponsored additional homebrew development. Several new commercial Atari 7800 titles such as Beef Drop, B*nQ, Pac Man Collection, Combat 1990, Santa Simon, and Space War have been created and released.
+
+System compatible hardware has also been produced for the system. Among these was the Cuttle Cart II, a device that allowed the Atari 7800 to read MMC cards containing binary files of Atari 7800 programs. The Cuttle Cart II has enabled more people to play the entire 2600 and 7800 library on an original system as well as binaries of unreleased games and new homebrew titles. The Cuttle Cart II was a success by homebrew standards, selling out both production runs and commanding high prices on eBay.
+
+A more recent development is the Atari 7800 expansion module developed by Legacy Engineering with a high scores save feature (with compatible games), additional RAM capabilities, as well as vastly improved sound capabilities using the [[POKEY]] and [[YM2151]] sound chips. The Expansion module is designed as a pass-through device that sits on top of the console and requires no system modding.<ref>[http://www.atarimuseum.com/videogames/consoles/7800/expansion/]</ref>
+
+== Atari Flashback ==
+In 2004, Atari (now owned by Infogrames) released the first [[Atari Flashback]] console. This system resembled a miniature Atari 7800 and joysticks and had 20 built in games (five 7800 and fifteen 2600 titles). While the unit sold well, it was controversial among Atari fans. Atari had given the engineering firm, Legacy Engineering, extremely limited development timelines. The firm was forced to build the Flashback using [[Nintendo Entertainment System hardware clone|NES-On-A-Chip]] hardware instead of recreating the Atari 7800 hardware. As a result, the Flashback has been criticized for failing to properly replicate the actual Atari gaming experience. 
+
+Legacy Engineering was later commissioned to create another 7800 project that was subsequently cancelled after prototypes were made.<ref>[http://www.legacyengineer.com/portfolio-7800.html] Legacy 7800 remade</ref>
+
+==See also==
+* [[History of Atari]]
+* [[List of Atari 7800 games]]
+* [[List of Atari 2600 games]]
+
+==References==
+{{Reflist|35em}}
+
+==External links==
+{{Commons category|Atari 7800}}
+*[http://www.retrovideogamer.co.uk/index.php?page=reviews; Atari 7800 Games Review Guide]
+*[http://www.atariage.com/software_search.html?SystemID=7800 AtariAge &ndash; Comprehensive Atari 7800 database and information]
+*[http://www.atari7800.org Atari 7800 Information & Resources]
+*[http://archives.atarimuseum.com/archives/archives-techdocs-7800.htm Atari Museum &ndash; Technical files archive]
+*[http://www.atarimuseum.com/videogames/consoles/7800/7800menu/ Atari Museum &ndash; Full History of the Atari 7800]
+
+{{Atari hardware}}
+{{Third generation game consoles}}
+
+[[Category:Products introduced in 1984]]
+[[Category:Products introduced in 1986]]
+[[Category:Atari consoles|7800]]
+[[Category:Backward-compatible video game consoles]]
+[[Category:Third-generation video game consoles]]

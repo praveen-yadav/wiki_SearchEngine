@@ -1,0 +1,198 @@
+{{Infobox computer
+| Photo        = [[Image:Amiga500 system.jpg|380px|An Amiga 500 computer system, with 1084S RGB monitor and second A1010 floppy disk drive]]
+| Caption      = An Amiga 500 computer system, with 1084S RGB monitor and second A1010 floppy disk drive
+| Name         = Commodore Amiga 500
+| Type         = [[Home computer]]
+| Announced    = January 1987
+| Released     = October 1987
+| Price        = $699 [[United States dollar|USD]], £499&nbsp;[[Pound sterling|GBP]]
+| Discontinued = 1991
+| Processor    = [[Motorola 68000]] @ {{nowrap|7.16 MHz ([[NTSC]])}}<br> {{nowrap|7.09 MHz ([[PAL]])}}
+| Media        = 880 [[Kilobyte|kB]] floppy disks
+| Memory       = 512 kB 150&nbsp;ns (9&nbsp;[[Megabyte|MB]] maximum<ref>Official maximum is 9&nbsp;MB, various third party extensions exist that increase the 1&nbsp;MB Chip RAM/Slow RAM maximum.</ref>)
+| graphics     = 736x567i 4-bpp PAL (736x483i 4&nbsp;bpp NTSC), 368x567i 6&nbsp;bpp PAL (368x483i 6&nbsp;bpp NTSC)
+| Sound        = 4× 8-bit channels [[Pulse-code modulation|PCM]] at max {{nowrap|28 [[kHz]]}} with 6-bit volume in stereo.
+| OS           = [[AmigaOS]] v1.2 - 1.3
+| predecessor  = [[Amiga 1000]]
+| successor    = [[Amiga 500 Plus]]
+}}
+The '''Amiga 500''' - also known as the '''A500''' (or its code name "[[Rock Lobster]]") - was the first “low-end” [[Commodore International|Commodore]] [[Amiga]] [[16-bit|16]]/[[32-bit]] [[multimedia]] home/[[personal computer]]. It was announced at the winter [[Consumer Electronics Show]] in January 1987 - at the same time as the high-end [[Amiga 2000]] - and competed directly against the [[Atari ST|Atari 520ST]]. Before Amiga 500 was shipped, Commodore suggested that the list price of the Amiga 500 was {{nowrap|$595.95 [[United States dollar|USD]]}} without a monitor. At delivery in October 1987, Commodore announced that the Amiga 500 would carry a {{nowrap|$699 USD/£499 GBP}} list price.
+
+The Amiga 500 represented a return to Commodore's roots by being sold in the same mass retail outlets as the [[Commodore 64]] - to which it was a spiritual successor - as opposed to the computer-store-only [[Amiga 1000]].
+
+The original Amiga 500 proved to be Commodore’s best-selling Amiga model, enjoying particular success in Europe.<ref>{{cite web|author=Gareth Knight |url=http://www.amigau.com/aig/sales.html |title=Commodore-Amiga Sales Figures |publisher=amigau.com |date= |accessdate=2013-07-24}}</ref> Although popular with hobbyists, arguably its most widespread use was as a gaming machine, where its advanced graphics and sound for the time were of significant benefit.
+
+== Releases ==
+
+In October 1989, the Amiga 500 dropped its price from £499 [[Pound sterling|GBP]] to £399 and was bundled with the ''Batman Pack'' in the United Kingdom. This price drop helped Commodore to sell more than 1 million Amiga 500s in 1989.<ref>{{cite web|author=Gareth Knight |url=http://www.amigahistory.co.uk/a500batman.html |title=A500 Batman Bundle |publisher=Amigahistory.co.uk |date=2002-06-17 |accessdate=2013-07-24}}</ref>
+
+In late 1991, an enhanced model known as the [[Amiga 500+]] replaced the standard Amiga 500 in some markets, it was bundled with the ''Cartoon Classics'' pack in the United Kingdom at 399 GBP.<ref>{{cite web|author=Gareth Knight |url=http://www.amigahistory.co.uk/cartoon.html |title=Cartoon Classics Bundles |publisher=Amigahistory.co.uk |date=2002-10-21 |accessdate=2013-07-24}}</ref>
+
+The Amiga 500 series was discontinued in mid-1992 replaced by the similarly specified and priced [[Amiga 600]], although this new machine had originally been intended as a much cheaper budget model, which would have been the A300. In late 1992, Commodore released the “next-generation” [[Amiga 1200]], a machine closer in concept to the original Amiga 500, but featuring significant technical improvements. Despite this, neither the A1200 nor the A600 replicated the commercial success of its predecessor as, by this time, the market was definitively shifting from the [[home computer]] platforms of the past to commodity [[Wintel]] [[IBM PC compatible|PCs]] and the new "low-cost" [[Macintosh Classic]], [[Macintosh LC|LC]] and [[IIsi]] models.<ref>{{cite web|author=Gareth Knight |url=http://www.amigahistory.co.uk/commodore.html |title=Commodore History |publisher=Amigahistory.co.uk |date= |accessdate=2013-07-24}}</ref>
+
+== Description ==
+
+Outwardly resembling the [[Commodore 128]],<ref name="byte198706">{{cite news | url=https://archive.org/stream/byte-magazine-1987-06/1987_06_BYTE_12-06_CAD_Mice_12-MHz_ATs_IBM_PS2_Family#page/n55/mode/2up | title=Low-End Amiga | work=BYTE | date=1987-06 | accessdate=5 November 2013 | pages=52}}</ref> the Amiga 500 utilizes a Motorola 68000 microprocessor running at {{nowrap|7.15909 [[MHz]]}} (NTSC) or {{nowrap|7.09379 MHz}} (PAL). The CPU is 32-bit internally, but uses a 16-bit data bus and 24-bit address bus, providing a maximum of 16&nbsp;MB of [[address space]].
+
+The earliest Amiga 500 models used nearly the same [[Original Amiga chipset|OCS]] chipset as the Amiga 1000,<ref>Agnus was enhanced to control up to 1&nbsp;MB [[Random access memory|RAM]] and glue logic was integrated into [[Amiga custom chips#Gary|Gary]] to reduce costs.</ref> so graphics can be displayed in multiple resolutions and color depths, even on the same screen. Resolutions vary from 320x200 (up to 32 colors) to 640x200 (up to 16 colors) for NTSC (704x484 overscan) and 320x256 to 640x256 for PAL (704x576 overscan.)<ref name="displaysize">{{cite book|last1 = Peck|first1 = Robert|last2 = Deyl|first2 = Susan|last3 = Miner|first3 = Jay|last4 = Raymond|first4 = Chris|title = Amiga hardware reference manual|publisher = [[Addison Wesley]]|year = 1986|month = September|page = 72|isbn = 0-201-11077-6}}</ref> The system uses [[planar (computer graphics)|planar]] graphics, with up to five bitplanes (four in hires) allowing 2, 4, 8, 16, and 32-color screens, from a palette of 4096 colors. Two special graphics modes are also available: Extra HalfBrite, which uses a 6th bitplane as a mask to cut the brightness of any pixel in half, and {{nowrap|[[Hold And Modify]] (HAM)}} which allows all 4096 colors to be used on screen simultaneously (though only one color component &ndash; red, green, or blue &ndash; can be changed in the next pixel in this mode.)<ref name=bitplanes>{{cite book|last1 = Peck|first1 = Robert|last2 = Deyl|first2 = Susan|last3 = Miner|first3 = Jay|last4 = Raymond|first4 = Chris|title = Amiga hardware reference manual|publisher = [[Addison Wesley]]|year = 1986|month = September|page = 37|isbn = 0-201-11077-6}}</ref> Later revisions of the chipset are [[PAL]]/[[NTSC]] switchable in software.
+
+The sound chip produces four hardware-mixed channels, two to the left and two to the right, of 8-bit PCM at a sampling frequency of up to {{nowrap|28 kHz}}.  Each hardware channel has its own independent volume level and sampling rate, and can be designated to another channel where it can modulate both volume and frequency using its own output.  With [[Direct memory access|DMA]] disabled it's possible to output with a sampling frequency up to {{nowrap|56 kHz}}.  There's a widely known trick to output sound with 14-bit precision too that can be combined to output 14-bit {{nowrap|56 kHz}} sound.
+
+The stock system comes with [[AmigaOS]] version 1.2 or 1.3 and {{nowrap|512 kB}} of [[Amiga Chip RAM|Chip RAM]] (150 ns access time), one built-in double-density [[floppy disk drive]] that is completely programmable and can read {{nowrap|720 kB}} [[IBM PC]] disks, {{nowrap|880 kB}} standard Amiga disks, and up to {{nowrap|984 kB}} using custom formatting drivers.  The Amiga 500 houses the keyboard and CPU in one shell, similar to the design of the Commodore 64 and unlike the [[Amiga 1000]].
+
+Despite the lack of [[Amiga Zorro II|Amiga 2000-compatible internal expansion slots]], there are many ports and expansion options. There are two [[Atari 2600]] [[D-subminiature|DE9M]] sockets for [[joystick]]s or [[Mouse (computing)|mice]], stereo audio ([[RCA connector]]s 1&nbsp;V [[Peak-to-peak|p-p]]). There is a floppy drive port for daisy-chaining up to 3 extra floppy disk drives via an DB23F connector.<ref name=gbwxgm>{{cite web|title=Hi Res Version, Rear of Amiga 500 - 122K|url=http://amigahardware.mariomisic.de/download_photos/a500_4_big.jpg}} 070728 amigahardware.mariomisic.de</ref> The then-standard [[RS-232]] serial port (DB25M) and [[Centronics]] [[parallel port]] (DB25F) are also included. The power supply is ({{nowrap|+5V}}, {{nowrap|+/-12V}}).<ref name=itgehi>{{cite web|title=Amiga 500/600/1200 Power Connector|url=http://www.ntrautanen.fi/computers/hardware/misc/a500_power.htm}} 070808 ntrautanen.fi</ref> 
+The system displays video in analog [[component video|RGB]] {{nowrap|50 [[hertz|Hz]]}} PAL or {{nowrap|60 Hz}} NTSC through a proprietary DB23M connector and in NTSC mode the line frequency is {{nowrap|15,750 Hz}} [[Synchronization|HSync]] for standard video modes which is compatible with NTSC television and CVBS/RGB video, but out of range for most [[Video Graphics Array|VGA]]-compatible monitors. While a [[Multisync monitor]] is required for some of the higher resolutions.  This connection can also be [[genlock]]ed to an external video signal. The system was bundled with an [[RF modulator|RF adapter]] to provide output on [[television]]s with a coaxial input, while monochrome [[composite video]] is available via an [[RCA connector]]. There is also a [[Zorro II]] bus expansion on the left side (behind a plastic cover). Peripherals such as a hard drive can be added via the expansion slot and are configured automatically by the Amiga's [[AutoConfig]] standard, so that multiple devices do not conflict with each other. Up to {{nowrap|8 MB}} of “fast" RAM can be added using the side expansion slot.
+
+The Amiga 500 has a "trapdoor" slot on the underside for an upgrade of {{nowrap|512 kB}} of RAM. The extra RAM is classified as "fast" RAM, but is sometimes referred to as "slow" RAM since due to the design of the expansion bus it is actually on the chipset bus. Such upgrades usually include a battery-backed [[real-time clock]]. All versions of the A500 can have the additional RAM configured as Chip RAM by a simple hardware modification, which involves fitting a later model (8372A) [[MOS Technology Agnus|Agnus]] chip. Likewise, all versions of the A500 can be upgraded to {{nowrap|2 MB}} Chip RAM by fitting the {{nowrap|8372B Agnus}} chip and adding additional memory.
+
+The Amiga 500 also sports an unusual feature for a budget machine, socketed chips, which allow easy replacement of defective chips. The CPU can be directly upgraded to a [[Motorola 68010|68010]] or to a [[Motorola 68020|68020]], [[Motorola 68030|68030]], or [[Motorola 68040|68040]] via the side expansion slot. In fact, all the custom chips can be upgraded to the [[Amiga Enhanced Chip Set]] (ECS) versions.
+
+The case is made from [[Acrylonitrile butadiene styrene|ABS]] plastics which may become brown with time. This can be reversed by using the public domain chemical mix "[[Retr0bright]]".
+
+Whenever the computer is powered on a self diagnostic test is run that will show any failure with a specific colour where {{Background color|Green|&nbsp;&nbsp;}} Green means no Chip RAM found or is damaged, {{Background color|Red|&nbsp;&nbsp;}} Red means bad [[Kickstart (Amiga)|kickstart]]-[[Read-only memory|ROM]], {{Background color|#DFDF00|&nbsp;&nbsp;}} Yellow means mostly a bad [[Central processing unit|CPU]] (no trap routine) or a bad [[Amiga Zorro II|Zorro]] [[expansion card]].<ref>[http://eab.abime.net/showthread.php?t=497 abime.net - Question  blinking power led/no screen on amiga 500] read 2011-11-03</ref>
+{{Background color|Blue|&nbsp;&nbsp;}} Blue means custom chip problem ([[Denise (OCS)|Denise]] [[Paula (computer chip)|Paula]] [[Original Chip Set#Agnus|Agnus]]),
+{{Background color|Lime|&nbsp;&nbsp;}} {{nowrap|Light Green}} means [[MOS Technology CIA|CIA]] problem,
+{{Background color|Silver|&nbsp;&nbsp;}} {{nowrap|Light Grey}} means if stops at Grey that the CIA can be defective, {{nowrap|{{Background color|Black|&nbsp;}} {{Background color|Black|&nbsp;}} Black/stripes}}<!--verify?--> means ROM or [[MOS Technology CIA|CIA]] problem,
+{{Background color|Black|&nbsp;&nbsp;}} Black (no video) means really basic problem.<ref name=a3b>[http://amiga.serveftp.net/A3000_HardwareGuide/booting-problems.html amiga.serveftp.net - A3000 Booting Problems] read 2011-11-03</ref>
+The keyboard [[Light-emitting diode|LED]] uses blink codes where
+1-blink means the keyboard ROM has a checksum error,
+2-blinks means RAM failure,
+3-blinks means watchdog timer failure.<ref name=a3b/>
+Using [[caps lock]] key and getting a response means [[MOS Technology CIA|CIA]] and the CPU works.<ref name=a3b/>
+
+== Technical specifications ==
+[[Image:Amiga 1.3 and disks.jpg|thumb|right|The standard Amiga 500 requires floppies to boot]]
+* [[Original Amiga chipset|OCS]] (1.2 & 1.3 models) or [[Amiga Enhanced Chip Set|ECS]] (1.3 and 500+ 2.04 models) chipset. ECS revisions of the chipset made [[PAL]]/[[NTSC]] mode switchable in software.
+** Graphics can be of arbitrary dimensions, resolution and colour depth, even on the same screen.
+** Without using overscan, the graphics can be 320 or 640 pixels wide by 200/256 or 400/512 pixels tall.
+** [[Planar (computer graphics)|Planar]] graphics are used, with up to 5 bitplanes (4 in hires); this allowed 2, 4, 8, 16 and 32 colour screens, from a palette of 4096 colours. Two special graphics modes were also included: Extra HalfBrite, which used a 6th bitplane as a mask that halved the brightness of any colour seen, and [[Hold And Modify]] (HAM), which allowed all 4096 colours on screen at once.
+** [[Rhett Anderson]] developed the so-called ''Sliced HAM'' or ''SHAM'' mode, which was based on HAM mode, but used the [[Original Amiga chipset#Copper|Copper]] (part of the Agnus chip which could change hardware registers at given screen positions) to reprogram the color palette registers at each scanline. The advantage of SHM files was the ability to display all 4096 colors while eliminating the color blur of HAM compression.
+** Sound is 4 hardware-mixed channels of 8-bit sound at up to {{nowrap|28 kHz}}.<ref>{{cite web | title=Amiga 500|work=OldComputers.com| url=http://www.old-computers.com/MUSEUM/computer.asp?c=65&st=1| accessdate=December 15, 2009 }}</ref> The hardware channels had independent volumes (65 levels) and sampling rates, and mixed down to two fully left and fully right stereo outputs. A software controllable low-pass audio filter is also included.
+* 512&nbsp;kB of Chip RAM (150 ns access time).
+* [[AmigaOS]] 1.2 or 1.3
+* One double-density [[floppy disk drive]] is built in, which is completely programmable and thus can read {{nowrap|720 kB}} [[IBM PC]] disks, {{nowrap|880 kB}} standard Amiga disks, and up to {{nowrap|984 kB}} with custom formatting (such as Klaus Deppich’s [http://aminet.net/package/disk/misc/Diskspr3 diskspare.device]). Uses {{nowrap|300 rpm}} and {{nowrap|250 kbit/s}}.
+* Built in keyboard.
+* A two-button mouse is included.
+
+=== Graphics ===
+* [[PAL]] mode: 320 × 256, 640 × 256, 640 × 512 ([[Interlaced video|interlace]]), 704 × 576 in overscan.
+* [[NTSC]] mode: 320 × 200, 640 × 200, 640 × 400 (interlace), 704 × 484 in overscan.
+Max 6 [[Color depth|bpp]]. The Amiga could show multiple resolution modes at the same time, splitting the screen vertically. An additional mode called [[Hold-And-Modify]] (HAM) makes it possible to utilize {{nowrap|12 bpp}} over a {{nowrap|3 [[pixel]]s}} wide span. This works by letting each pixel position use the previous RGB value and modify one of the red, green or blue values to a new 4-bit value. This will cause some negligible colour artifacts however.
+
+=== Connectors ===
+[[Image:AMIGA500-3.jpg|thumb|290px|Backside with connectors]]
+[[Image:Amiga 520.jpg|thumb|right|The Amiga 520 adapter allowed for an [[RF modulator|RF modulated]] output, to be connected to a TV]]
+* Two [[DE-9 connector|DE9M]] sockets for [[joystick]]s or [[Mouse (computing)|mice]] (as popularized by the [[Atari 2600]]).
+* Stereo audio ([[RCA connector]]s 1&nbsp;V [[Peak-to-peak|p-p]]).
+* A floppy drive port (DB23F), for daisy-chaining up to 3 extra floppy disk drives via an [[D-subminiature|DB23F]] connector.<ref name="gbwxgm"/>
+* A standard [[RS-232]] serial port (DB25M).
+* A [[parallel port]] (DB25F).
+* Power inlet ({{nowrap|+5 V}}, {{nowrap|+/-12 V}}).<ref name = "itgehi" />
+* Analogue [[RGB color model|RGB]] 50 hertz|Hz PAL and {{nowrap|60 Hz}} NTSC video output, provided on an Amiga-specific [[DB23]]M [[Amiga video connector|video connector]]. Can drive video with {{nowrap|15,750 Hz}} [[Synchronization|HSync]] for standard Amiga video modes. This is not compatible with most [[Video Graphics Array|VGA]] monitors. A [[Multisync monitor]] is required for some higher resolutions. This connection can also be [[genlock]]ed to an external video signal. An [[RF modulator|RF adapter]] (A520) was frequently bundled with the machine to provide output on regular [[television]]s or on [[composite video|composite]] monitors. A digital 16 colour Red-Green-Blue-Intensity signal is available too on the same connector.
+* Monochrome video via an [[RCA connector]].
+* [[Zorro II]] bus expansion on the left side behind a plastic cover.
+* Trapdoor slot under the machine, for RAM expansion and [[real-time clock]].
+
+=== Expansions ===
+
+* Expansion ports are limited to a side expansion port and a trapdoor expansion on the underside of the machine. The casing can also be opened up (voiding the warranty), all larger chips are socketed rather than being [[Through-hole technology|TH]]/[[Surface Mount Device|SMD]] soldered directly to the motherboard, so they can be replaced by hand.
+* The CPU can be upgraded to a Motorola 68010 directly or to a 68020, 68030 or 68040 via the side expansion slot or a CPU socket adapter board.
+* The Chip RAM can be upgraded to 1&nbsp;MB directly on the motherboard, provided a [[Fat Agnus]] chip is also installed to support it.
+* Likewise, all the custom chips can be upgraded to the [[Extended chip set|ECS]] chipset.
+* The A500+ model instead allowed upgrading by {{nowrap|1 MB}} trapdoor Chip RAM without clock, but there was no visible means on board to map any of this as FAST, causing incompatibility with some stubbornly coded programs.
+* There were modification instructions available for the A500 to solder or socket another 512&nbsp;RAM on the board, then run extra address lines to the trapdoor slot to accommodate an additional {{nowrap|1 MB}} of Fast or Chip RAM depending on the installed chipset.
+* Up to 8&nbsp;MB of “Fast RAM” can be added via the side expansion slot, even more if an [[Hardware acceleration|accelerator]] with a non-EC (without reduced data/address bus) processor and 32-bit RAM is used.
+* Hard drive and other peripherals can be added via the side expansion slot.
+* Several companies provided combined CPU, memory and hard drive upgrades - or provided chainable expansions that extended the bus as they were added - as there is only one side expansion slot.
+* Expansions are configured automatically by [[AutoConfig]] software, so multiple pieces of hardware did not conflict with each other.
+
+== Memory map ==
+{| class="wikitable"
+|-
+! Address    || Size in kB || Description
+|-
+|align="right"| 0x0000 0000 <!--0x0003FFFF-->
+|align="right"| 256.0 || Chip RAM
+|-
+|align="right"| 0x0004 0000 <!--0x0007FFFF-->
+|align="right"| 256.0 || Chip RAM ([[Amiga 1000|A1000]] option card)
+|-
+|align="right"| 0x0008 0000 <!--0x000FFFFF-->
+|align="right"| 512.0 || Chip RAM expansion
+|-
+|align="right"| 0x0010 0000 <!--0x001FFFFF-->
+|align="right"| 1024.0 || Extended Chip RAM for [[Amiga Enhanced Chip Set|ECS]]/[[Amiga Advanced Graphics Architecture|AGA]].
+|-
+|align="right"| 0x0020 0000 <!--0x009FFFFF-->
+|align="right"| 8192.0 || Primary auto-config space (Fast RAM)
+|-
+|align="right"| 0x00A0 0000 <!--0x00BEFFFF-->
+|align="right"| 1984.0 || Reserved
+|-
+|align="right"| 0x00BF D000 <!--0x00BFDF00-->
+|align="right"| 3.8 || [[MOS Technology CIA|8520-B]] (even-byte addresses)
+|-
+|align="right"| 0x00BF E001 <!--0x00BFEF01-->
+|align="right"| 3.8 || 8520-A (odd-byte addresses)
+|-
+|align="right"| 0x00C0 0000 <!--0x00D7FFFF-->
+|align="right"| 1536.0 || Internal expansion memory (pseudo-fast, Slow RAM on Amiga 500)
+|-
+|align="right"| 0x00D8 0000 <!--0x00DBFFFF-->
+|align="right"| 256.0 || Reserved
+|-
+|align="right"| 0x00DC 0000 <!--0x00DCFFFF-->
+|align="right"| 64.0 || [[Real-time clock|Real time clock]]
+|-
+|align="right"| 0x00DD 0000 <!--0x00DFEFFF-->
+|align="right"| 188.0 || Reserved
+|-
+|align="right"| 0x00DF F000 <!--0x00DFFFFF-->
+|align="right"| 4.0 || Custom chip registers
+|-
+|align="right"| 0x00E0 0000 <!--0x00E7FFFF-->
+|align="right"| 512.0 || Reserved
+|-
+|align="right"| 0x00E8 0000 <!--0x00E8FFFF-->
+|align="right"| 64.0 || [[Amiga Zorro II|Zorro II]] auto-config space (before relocation)
+|-
+|align="right"| 0x00E9 0000 <!--0x00EFFFFF-->
+|align="right"| 448.0 || Secondary auto-config space (usually 64K I/O boards)
+|-
+|align="right"| 0x00F0 0000 <!--0x00F7FFFF-->
+|align="right"| 512.0 || 512K System ROM (reserved for extended ROM image e.g. CDTV or CD³²)
+|-
+|align="right"| 0x00F8 0000 <!--0x00FBFFFF-->
+|align="right"| 256.0 || 256K System ROM ([[Kickstart (Amiga)|Kickstart]] 2.04 or higher)<!-- According to the linked wikipage, contradicts "ntrautanen_fi-amiga_memory" -->
+|-
+|align="right"| 0x00FC 0000 <!--0x00FFFFFF-->
+|align="right"| 256.0 || 256K System ROM
+|}<ref name="ntrautanen_fi-amiga_memory">{{cite web|title=Amiga System Memory Map|url=http://www.ntrautanen.fi/computers/hardware/misc/amiga_memory.htm}} 090501 ntrautanen.fi Source: Amiga Hardware Reference Manual</ref>
+
+== Trapdoor expansion 501 ==
+[[Image:RAM 512K for Amiga 500 ubt.jpeg|thumb|An A501 compatible expansion]]
+A popular expansion for the Amiga 500 was the Amiga 501 circuit board that could be installed underneath the computer behind a plastic cover. It contains {{nowrap|512 kB}} RAM configured by default as “[[Amiga Chip RAM#Fast RAM|Slow RAM]]” or “Trapdoor RAM” and a battery-backed [[real-time clock]] (RTC). However the RAM was pseudo Fast RAM, only accessible by the processor but still as slow as Chip RAM. The motherboard can be modified to relocate the trapdoor RAM to the Chip memory pool, provided a compatible [[MOS Technology Agnus|Agnus]] chip is fitted on the motherboard.
+
+== Notable uses ==
+* [[Digital hardcore]] group [[EC8OR]] recorded their premier title album using only an Amiga 500 and a [[microphone]].
+* [[Skam]] group [[Team Doyobi]] recorded their premier album [[Cryptoburners]] using only an Amiga 500 and no microphone.
+* [[Aggrotech]] artist [[X-fusion]] also recorded music from 1989-1992 using an Amiga 500 (and occasionally Kawai K4 and/or Roland JD-800)[http://soundcloud.com/x-fusion/sets/early-recordings-techno-1989#]
+
+== See also ==
+* [[Amiga models and variants]]
+* [[Minimig]] - FPGA implementation
+
+== References ==
+{{reflist}}
+
+== External links ==
+* [http://amigahardware.mariomisic.de/cgi-bin/showhardware_en.cgi?HARDID=8 amigahardware.mariomisic.de Amiga 500 photos]
+*[http://wigilius.se/amiga/ Famous Amiga Uses]
+
+{{CBM computers}}
+{{Amiga hardware}}
+{{AmigaOS}}
+{{commons category|Amiga 500}}
+
+[[Category:Amiga]]
+[[Category:Products introduced in 1987]]

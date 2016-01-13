@@ -1,0 +1,42 @@
+A '''conditional proof''' is a [[formal proof|proof]] that takes the form of asserting a [[Material conditional|conditional]], and proving that the [[antecedent (logic)|antecedent]] of the conditional necessarily leads to the [[consequent]]. 
+
+The assumed antecedent of a conditional proof is called the ''conditional proof assumption'' (CPA).  Thus, the goal of a conditional proof is to demonstrate that if the CPA were true, then the desired conclusion [[Logical consequence|necessarily follows]]. The validity of a conditional proof does not require that the CPA is actually true, only that ''if it were true'' it would lead to the consequent.
+
+Conditional proofs are of great importance in [[mathematics]]. Conditional proofs exist linking several otherwise unproven [[conjecture]]s, so that a proof of one conjecture may immediately imply the validity of several others. It can be much easier to show a proposition's truth to follow from another proposition than to prove it independently.
+
+A famous network of conditional proofs is the [[NP-complete]] class of complexity theory.  There are a [[List of NP-complete problems|large number]] of interesting tasks, and while it is not known if a polynomial-time solution exists for any of them, it is known that if such a solution exists for any of them, one exists for all of them. Similarly, the [[Riemann hypothesis]] has a large number of consequences already proven.
+
+== Symbolic logic ==
+As an example of a conditional proof in [[Mathematical logic|symbolic logic]], suppose we want to prove A → C (if A, then C) from the first two premises below:
+
+{|
+|-
+|align=right| 1. || A → B&nbsp;&nbsp;&nbsp; || ("If A, then B")
+|-
+|align=right| 2. || B → C || ("If B, then C")
+|-
+|colspan=3| <hr>
+|-
+|align=right| 3. || A ||(conditional proof assumption, "Suppose A is true")
+|-
+|align=right| 4. || B || (follows from lines 1 and 3, [[modus ponens]]; "If A then B; A, therefore B")
+|-
+|align=right| 5. || C || (follows from lines 2 and 4, [[modus ponens]]; "If B then C; B, therefore C")
+|-
+|align=right| 6. || A → C || (follows from lines 3–5, conditional proof; "If A, then C")
+|}
+
+==See also== 
+* [[Deduction theorem]]
+* [[Logical consequence]]
+* [[Propositional calculus]]
+
+== References ==
+* Robert L. Causey, ''Logic, sets, and recursion'', Jones and Barlett, 2006.
+* Dov M. Gabbay, Franz Guenthner (eds.), ''Handbook of philosophical logic'', Volume 8, Springer, 2002.
+
+{{DEFAULTSORT:Conditional Proof}}
+[[Category:Logic]]
+[[Category:Conditionals]]
+[[Category:Mathematical proofs]]
+[[Category:Methods of proof]]

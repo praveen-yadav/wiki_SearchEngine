@@ -1,0 +1,116 @@
+{{Refimprove|date=February 2011}}
+[[Image:Cyclotron motion wider view.jpg|thumb|upright=1.5|A beam of cathode rays bent into a circle by a [[magnetic field]].  Cathode rays are normally invisible; in this tube enough residual gas has been left that the gas atoms glow from ''fluorescence'' when struck by the fast moving electrons.]]
+
+'''Cathode rays''' (also called an '''electron beam''' or '''e-beam''') are streams of [[electron]]s observed in [[vacuum tube]]s. If an evacuated glass tube is equipped with two [[electrode]]s and a [[voltage]] is applied, the glass opposite of the negative electrode is observed to glow, due to electrons emitted from and travelling perpendicular to the [[cathode]] (the electrode connected to the negative terminal of the voltage supply).  They were first observed in 1869 by German physicist [[Johann Hittorf]], and were named in 1876 by [[Eugen Goldstein]] ''kathodenstrahlen'', or cathode rays.<ref>Joseph F. Keithley '' The story of electrical and magnetic measurements: from 500 B.C. to the 1940s'' John Wiley and Sons, 1999 ISBN 0-7803-1193-0, page  205</ref>
+
+Electrons were first discovered as the constituents of cathode rays.  In 1897 British physicist [[J. J. Thomson]] showed the rays were composed of a previously unknown negatively charged particle, which was later named the ''electron''. [[Cathode ray tube]]s (CRTs) use a focused beam of electrons deflected by electric or magnetic fields to create the image in a classic television set.
+
+==Description==
+[[Image:Crookes tube2 diagram.svg|thumb||250px|right|A diagramatic Crookes tube showing the connections for the high voltage supply.  The Maltese cross has no external electrical connection.]]
+
+Cathode rays are so named because they are emitted by the negative electrode, or cathode, in a vacuum tube.  To release electrons into the tube, they first must be detached from the [[atom]]s of the cathode.  In the early [[cold cathode]] vacuum tubes, called [[Crookes tube]]s, this was done by using a high electrical potential between the anode and the cathode to ionize the residual gas in the tube; the ions were accelerated by the electric field and released electrons when they collided with the cathode.  Modern vacuum tubes use [[thermionic emission]], in which the cathode is made of a thin wire [[Electrical filament|filament]] which is heated by a separate [[electric current]] passing through it.  The increased random heat motion of the filament atoms knocks electrons out of the atoms at the surface of the filament, into the evacuated space of the tube.
+
+Since the electrons have a negative charge, they are repelled by the cathode and attracted to the anode.  They travel in straight lines through the empty tube.  The voltage applied between the electrodes accelerates these low mass particles to high velocities.   Cathode rays are invisible, but their presence was first detected in early vacuum tubes when they struck the glass wall of the tube, exciting the atoms of the glass and causing them to emit light, a glow called [[fluorescence]].  Researchers noticed that objects placed in the tube in front of the cathode could cast a shadow on the glowing wall, and realized that something must be travelling in straight lines from the cathode.  After the electrons reach the anode, they travel through the anode wire to the power supply and back to the cathode, so cathode rays carry electric current through the tube.
+
+The current in a beam of cathode rays through a tube can be controlled by passing it through a metal screen of wires (a [[Control grid|grid]]) to which a small voltage is applied.  The electric field of the wires deflects some of the electrons, preventing them from reaching the anode.  Thus a small voltage on the grid can be made to control a much larger voltage on the anode.  This is the principle used in [[vacuum tube]]s to [[Amplifier|amplify]] electrical signals.   High speed beams of cathode rays can also be steered and manipulated by [[electric field]]s created by additional metal plates in the tube to which voltage is applied, or [[magnetic field]]s created by coils of wire ([[electromagnet]]s).  These are used in cathode ray tubes, found in televisions and computer monitors, and in [[electron microscope]]s.
+
+<gallery widths="150">
+  File:Katódsugarak mágneses mezőben(1).jpg|Crookes tube
+  File:Katódsugarak mágneses mezőben(2).jpg|Cathode rays travel from the cathode at the rear of the tube, striking the glass front, making it glow green by [[fluorescence]].  A metal cross in the tube casts a shadow, demonstrating that the rays travel in straight lines.
+  File:Katódsugarak mágneses mezőben(3).jpg|A magnet creates a horizontal magnetic field through the neck of the tube, bending the rays up, so the shadow of the cross is higher.
+  File:Katódsugarak mágneses mezőben(4).jpg|When the magnet is reversed, it bends the rays down, so the shadow is lower.
+</gallery>
+
+==History==
+After the 1690 invention of the [[vacuum pump]] by [[Otto von Guericke]], physicists began to experiment with passing high voltage electricity through [[rarefied air]].  In 1705, it was noted that [[electrostatic generator]] sparks travel a longer distance through low pressure air than through atmospheric pressure air.
+
+===Gas discharge tubes===
+In 1838, [[Michael Faraday]] passed a current through a rarefied air filled glass tube and noticed a strange light arc with its beginning at the [[cathode]] (negative electrode) and its end almost at the anode (positive electrode).  In 1857, German physicist and glassblower [[Heinrich Geissler]] sucked even more air out with an improved pump, to a pressure of around 10<sup>−3</sup> [[atmosphere (unit)|atm]] and found that, instead of an arc, a glow filled the tube.  The voltage applied between the two electrodes of the tubes, generated by an [[induction coil]], was anywhere between a few [[kilovolt]]s and 100 kV.  These were called [[Geissler tube]]s, similar to today's [[neon sign]]s.
+
+The explanation of these effects was that the high voltage accelerated electrically charged atoms (ions) naturally present in the air of the tube{{Citation needed|date=June 2012}}.  At low pressure, there was enough space between the gas atoms that the ions could accelerate to high enough speeds that when they struck another atom they knocked electrons off of it, creating more positive ions and free electrons in a chain reaction{{Citation needed|date=June 2012}}.  The positive ions were all attracted to the cathode.  When they struck it they knocked many electrons out of the metal{{Citation needed|date=June 2012}}.  The free electrons were all attracted to the anode.
+
+Due to the primitive vacuum pumps of the time, Geissler tubes had so much air in them that the electrons could only travel a tiny distance before colliding with an atom.  The electrons in these tubes moved in a slow [[diffusion]] process, never gaining much speed, so these tubes didn't produce cathode rays.  Instead they produced a colorful [[glow discharge]] (as in a modern [[neon light]]), caused when the electrons or ions struck gas atoms, exciting their orbital electrons to higher energy levels.  The electrons released this energy as light.  This process is called [[fluorescence]].
+
+===Cathode rays===
+[[Image:Crookes tube two views.jpg|thumb|A Crookes tube.  The cathode rays travel in straight lines from the cathode ''(left)'' and strike the right wall of the tube, making it glow by fluorescence.]]
+
+By the 1870s, British physicist [[William Crookes]] and others were able to evacuate tubes to a lower pressure, below 10<sup>−6</sup> atm.  These were called [[Crookes tube]]s.  Faraday had been the first to notice a dark space just in front of the cathode, where there was no luminescence.  This came to be called the "cathode dark space", "Faraday dark space" or "Crookes dark space".  Crookes found that as he pumped more air out of the tubes, the Faraday dark space spread down the tube from the cathode toward the anode, until the tube was totally dark.  But at the anode (positive) end of the tube, the glass of the tube itself began to glow.
+
+What was happening was that as more air was pumped from the tubes, the electrons could travel farther, on average, before they struck a gas atom.  By the time the tube was dark, most of the electrons could travel in straight lines from the cathode to the anode end of the tube without a collision.  With no obstructions, these low mass particles were accelerated to high velocities by the voltage between the electrodes.  These were the cathode rays.
+
+When they reached the anode end of the tube, they were travelling so fast that, although they were attracted to it, they often flew past the anode and struck the back wall of the tube.  When they struck atoms in the glass wall, they excited their orbital electrons to higher energy levels, causing them to [[fluoresce]].  Later researchers painted the inside back wall with fluorescent chemicals such as [[zinc sulfide]], to make the glow more visible.
+
+Cathode rays themselves are invisible, but this accidental fluorescence allowed researchers to notice that objects in the tube in front of the cathode, such as the anode, cast sharp-edged shadows on the glowing back wall.  In 1869, German physicist [[Johann Hittorf]] was first to realize that something must be travelling in straight lines from the cathode to cast the shadows.  [[Eugen Goldstein]] named them ''cathode rays''.
+
+===Discovery of the electron===
+At this time, atoms were the smallest particles known, and were believed to be indivisible.  What carried electric currents was a mystery.  During the last quarter of the 19th century many experiments were done to determine what cathode rays were.  There were two theories.  Crookes and Artur Shuster believed they were particles of "radiant matter", that is, electrically charged atoms.  German scientists Eilhard Wiedemann, [[Heinrich Hertz]] and Goldstein believed they were "aether waves", some new form of [[electromagnetic radiation]], and were separate from what carried the electric current through the tube.
+
+The debate was resolved in 1897 when [[J. J. Thomson]] measured the mass of cathode rays, showing they were made of particles, but were around 1800 times lighter than the lightest atom, [[hydrogen]].  Therefore they were not atoms, but a new particle, the first ''[[subatomic particle|subatomic]]'' particle to be discovered, which he originally called "''corpuscle''" but was later named ''electron'', after particles postulated by [[George Johnstone Stoney]] in 1874.  He also showed they were identical with particles given off by [[Photoelectric effect|photoelectric]] and radioactive materials.<ref name="Thomson">{{cite journal
+  | last = Thomson
+  | first = J. J.
+  | authorlink =
+  | coauthors =
+  | title = On bodies smaller than atoms
+  | journal = The Popular Science Monthly
+  | volume =
+  | issue =
+  | pages = 323–335
+  | publisher = Bonnier Corp.
+  | location =
+  |date=August 1901| url = http://books.google.com/?id=3CMDAAAAMBAJ&pg=PA323
+  | doi =
+  | id =
+  | accessdate = 2009-06-21}}</ref>  It was quickly recognised that they are the particles that carry electric currents in metal wires, and carry the negative electric charge of the atom.
+
+Thomson was given the 1906 [[Nobel prize]] for physics for this work.  [[Philipp Lenard]] also contributed a great deal to cathode ray theory, winning the Nobel prize for physics in 1905 for his research on cathode rays and their properties.
+
+===Vacuum tubes===
+The gas ionization (or [[cold cathode]]) method of producing cathode rays used in Crookes tubes was unreliable, because it depended on the pressure of the residual air in the tube.  Over time, the air was adsorbed by the walls of the tube, and it stopped working.
+
+A more reliable and controllable method of producing cathode rays was investigated by Hittorf and Goldstein,{{citation needed|date=November 2011}} and rediscovered by [[Thomas Edison]] in 1880.  A cathode made of a wire filament heated red hot by a separate current passing through it would release electrons into the tube by a process called [[thermionic emission]].  The first true electronic vacuum tubes, invented in 1904, used this [[hot cathode]] technique, and they superseded Crookes tubes.  These tubes didn't need gas in them to work, so they were evacuated to a lower pressure, around  10<sup>−9</sup> atm (10<sup>−4</sup> P).  The ionization method of creating cathode rays used in Crookes tubes is today only used in a few specialized [[gas discharge tube]]s such as [[krytron]]s.
+
+[[Lee De Forest]] in 1906 found that a small voltage on a grid of metal wires could control a much larger current in a beam of cathode rays passing through a vacuum tube.  His invention, called the [[triode]], was the first device that could [[amplifier|amplify]] electric signals, and founded the field of ''[[electronics]]''.   Vacuum tubes made [[radio broadcasting|radio]] and [[television broadcasting]] possible, as well as [[radar]], talking movies, audio recording, and long distance telephone service, and were the foundation of consumer electronic devices until the 1960s when the [[transistor]] brought the era of vacuum tubes to a close.
+
+Cathode rays are now usually called electron beams.  The technology of manipulating electron beams pioneered in these early tubes was applied practically in the design of vacuum tubes, particularly in the invention of the cathode ray tube by [[Ferdinand Braun]] in 1897 and is today employed in sophisticated devices such as [[electron microscope]]s, [[electron beam lithography]] and  [[particle accelerator]]s.
+
+==Properties of cathode rays==
+Like a wave, cathode rays travel in straight lines, and produce a shadow when obstructed by objects. [[Ernest Rutherford]] demonstrated that rays could pass through thin metal foils, behavior expected of a particle. These conflicting properties caused disruptions when trying to classify it as a wave or particle. Crookes insisted it was a particle, while Hertz maintained it was a wave. The debate was resolved when an electric field was used to deflect the rays by J. J. Thomson. This evidence that the beams were composed of particles  because scientists knew it was impossible to deflect electromagnetic waves with an electric field. These can also create mechanical effects, fluorescence, etc.
+
+[[Louis de Broglie]] later (1924) showed in his doctoral dissertation that electrons are in fact much like photons in the respect that they act both as waves and as particles in a [[Wave–particle duality|dual manner]] as [[Einstein]] had shown earlier for light. The wave-like behaviour of Cathode Ray particles was later directly demonstrated using a crystal lattice by [[Davisson–Germer experiment|Davisson and Germer]] in 1927.
+
+==See also==
+*[[Alpha particle|α (alpha) particles]]
+*[[Beta particle|β (beta) particles]]
+*[[Electron beam processing]]
+*[[Electron microscope]]
+*[[Electron beam melting]]
+*[[Electron beam welding]]
+*[[Electron gun]]
+*[[Electron irradiation]]
+*[[Ionising radiation]]
+*[[Particle accelerator]]
+*Rays:
+**[[gamma ray|γ (gamma) rays]]
+**[[neutron radiation|n (neutron) rays]]
+**[[delta ray|δ (delta) rays]]
+**[[epsilon ray|ε (epsilon) rays]]
+*[[Sterilisation (microbiology)]]
+*[[Electron beam technology]]
+*[[phosphorescent screen]]
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.crtsite.com/page3.html The Cathode Ray Tube site]
+*[http://www.youtube.com/watch?v=Xt7ZWEDZ_GI Crookes tube with maltese cross operating]
+
+===Animations and Simulations===
+*[http://www.bigs.de/BLH/en/index.php?option=com_content&view=category&layout=blog&id=117&Itemid=293 The simulation show electrons in crossed fields] made by BIGS
+
+{{DEFAULTSORT:Cathode Ray}}
+[[Category:Electromagnetism]]
+[[Category:Electron beam]]
+[[Category:Television technology]]
+
+{{Link FA|he}}

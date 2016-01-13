@@ -1,0 +1,109 @@
+{{Distinguish2|a star orbited by two planets, called a [[double-planet system]]}}
+{{More footnotes|date=June 2010}}
+[[Image:Moon Earth Comparison.png|thumb|250px|right|The [[Earth]]–[[Moon]] system{{spaced ndash}}sometimes informally referred to as a double planet<ref name="esa-double"/>]]
+
+In astronomy, '''double planet''' and '''binary planet''' are informal terms used to describe a [[Binary system (astronomy)|binary system]] where both [[astronomical object|objects]] are of [[planemo|planetary mass]]. Though not an official classification, the [[European Space Agency]] has referred to the [[Earth]]–[[Moon]] system as a double planet.<ref name="esa-double">{{cite web  |date=2003-10-05 |title=Welcome to the double planet |publisher=[[European Space Agency|ESA]] |url=http://www.esa.int/esaMI/SMART-1/SEMO1VMKPZD_0.html |accessdate=2009-11-12}}</ref>  The [[International Astronomical Union#The XXVIth General Assembly and the definition of a planet|IAU General Assembly]] in August 2006 considered a proposal that [[Pluto]] and [[Charon (moon)|Charon]] be reclassified as a double planet, but the proposal was abandoned.<ref name="Draft Resolution 5">{{cite web|title=The IAU draft definition of "planet" and "plutons"|url=http://www.iau.org/public_press/news/release/iau0601/|publisher=International Astronomical Union|date=2006-08-16|accessdate=2008-05-17}}</ref>
+
+There are also double [[Asteroid group|minor planet]]s, such as [[binary asteroid]]s [[90 Antiope]] and binary [[Kuiper belt object]]s (KBOs) [[79360 Sila–Nunam]] and {{mpl|1998 WW|31}}.
+
+== Definition of a double planet ==
+There has been debate on where to draw the line between a double planet and a planet–moon system. In most cases, this is not an issue because most satellites have small masses relative to their planets. In particular, with the exception of the Earth–Moon system, all satellites of planets in the [[Solar System]] have masses less than 0.00025 ({{frac|4000}}) the mass of the host planet. The Moon-to-Earth mass ratio is 0.01230 (≈ {{frac|81}}). In comparison, the Charon-to-Pluto mass ratio is 0.117 (≈ {{frac|9}}).
+
+=== Co-accretion definition ===
+The now-abandoned co-accretion hypothesis of the [[origin of the Moon]] is also called the double-planet hypothesis. The idea is that two bodies should be considered a double planet if they accreted together directly from the proto-planetary disk, much as a [[double star]] typically forms together. 
+
+Once it was realized that both the Earth's Moon and Pluto's Charon likely formed from [[giant impact hypothesis|giant impact]]s, this parallel was noted when calling them double planets. However, an impact may also produce tiny satellites, such as the small outer satellites of Pluto, so this does not determine where the line should be drawn.
+
+=== Center-of-mass definition ===
+[[Image:DoublePlanet.gif|thumb|300px|Two fictional planets orbit their common center of gravity (red).]]
+A common proposal for a double planet is a system where the [[center of mass]] lies outside the primary. This was the basis for the argument that the Pluto–Charon system be considered a double planet when the IAU was debating whether dwarf planets should be considered a class of planet. Under this definition, the Earth–Moon system is not a double planet. However, the center of mass varies with the distance between the bodies. As the Moon migrates outward from the Earth, the center of mass of the system will migrate outward as well, until in a few hundred million years Earth will fit the definition. It has been suggested that such a definition would call into question Jupiter's status as a planet, as the center of mass of the Jupiter–Sun system lies outside the surface of the Sun.<ref>{{cite book
+|author=Herbst, T. M.; Rix, H.-W.|year=1999
+|editor=Guenther, Eike; Stecklum, Bringfried; Klose, Sylvio|title=Star Formation and Extrasolar Planet Studies with Near-Infrared Interferometry on the LBT
+|booktitle=Optical and Infrared Spectroscopy of Circumstellar Matter, ASP Conference Series, Vol. 188.
+|isbn=1-58381-014-5|pages=341–350
+|bibcode=1999ASPC..188..341H
+|publisher=Astronomical Society of the Pacific
+|location=San Francisco, Calif.}}</ref>
+
+=== Tug-of-war definition ===
+[[Isaac Asimov]] suggested a distinction between planet–moon and double-planet structures based in part on what he called a "tug-of-war" value, which does not consider their relative sizes.<ref name="Asimov">[[Isaac Asimov|Asimov, Isaac]] (1975). "Just Mooning Around", collected in ''[http://www.univeros.com/usenet/cache/alt.binaries.ebooks/10.000.SciFi.and.Fantasy.Ebooks/Isaac%20Asimov/Isaac%20Asimov%20-%20Of%20Time%20and%20Space%20and%20Other%20Things.pdf Of Time and Space, and Other Things]''. Avon. Formula derived on p. 89 of book. p. 55 of .pdf file. Retrieved 2012-01-20.</ref> This quantity is simply the relationships between the masses of the primary planet and the Sun combined with the squared distances between the smaller object and its planet and the Sun: 
+
+:'''{{math|tug-of-war value {{=}} <big>{{frac|m<sub>1</sub>|m<sub>2</sub>}}</big> × (<big>{{frac|d<sub>1</sub>|d<sub>2</sub> )</big><sup>2</sup>}}}}'''
+
+where m<sub>1</sub> is the mass of the larger body, m<sub>2</sub> is the mass of the Sun, d<sub>1</sub> is the distance between the smaller body and the Sun, and d<sub>2</sub> is the distance between the smaller body and the larger body.<ref name="Asimov"/> Note that the tug-of-war value does not rely on the mass of the satellite or smaller body. 
+
+This formula actually reflects the relation of the [[gravitation]]al effects on the smaller body from the larger body and from the Sun. The tug-of-war figure for Saturn's moon [[Titan (moon)|Titan]] is 380, which means that Saturn's hold on Titan is 380 times as strong as the Sun's hold on Titan. Titan's tug-of-war value may be compared with that of Saturn's moon [[Phoebe (moon)|Phoebe]], which has a tug-of-war value of just 3.5. So Saturn's hold on Phoebe is only 3.5 times as strong as the Sun's hold on Phoebe. 
+
+Asimov calculated tug-of-war values for several satellites of the planets. He showed that even the largest gas giant, Jupiter, had only a slightly better hold than the Sun on its outer captured satellites, some with tug-of-war values not much higher than one. Yet in nearly every case the tug-of-war value was found to be greater than one, so in every case the Sun loses the tug-of-war with the planets. The one exception was Earth's Moon, where the Sun wins the tug-of-war with a value of 0.46, which means that Earth's hold on the Moon is less than half the Sun's hold. Since the Sun's gravitational effect on the Moon is more than twice that of Earth's, Asimov reasoned that the Earth and Moon form a binary-planet structure. This was one of several arguments in Asimov's writings for considering the Moon to be a planet rather than a satellite.<ref name="Asimov"/>
+
+{{quote|We might look upon the Moon, then, as neither a true satellite of the Earth nor a captured one, but as a planet in its own right, moving about the Sun in careful step with the Earth. To be sure, from within the Earth–Moon system, the simplest way of picturing the situation is to have the Moon revolve about the Earth; but if you were to draw a picture of the orbits of the Earth and Moon about the Sun exactly to scale, you would see that the Moon's orbit is everywhere concave toward the Sun. It is always "falling toward" the Sun. All the other satellites, without exception, "fall away" from the Sun through part of their orbits, caught as they are by the superior pull of their primary planets{{spaced ndash}}but not the Moon.<ref name="Asimov"/><ref name="Aslaksen">{{Cite web |title=The Orbit of the Moon around the Sun is Convex! |last=Aslaksen |first=Helmer |url=http://www.math.nus.edu.sg/aslaksen/teaching/convex.html |year=2010 |location=National University of Singapore |publisher=Department of Mathematics |postscript=. |accessdate=2012-01-23}}</ref><ref name="PoV" group="Footnote">Asimov uses the term "[[Wikt:concave|concave]]" to describe the Earth–Moon orbital pattern around the Sun, whereas Aslaksen uses "[[Wikt:convex|convex]]" to describe the exact same pattern. Which term one uses relies solely upon the perspective of the observer. From the point-of-view of the Sun, the Moon's orbit is concave; from outside the Moon's orbit, say, from planet Mars, it is convex.</ref>| Isaac Asimov}}
+See the [[Orbit of the Moon#Path of Earth and Moon around Sun|Path of Earth and Moon around Sun]] section in the "Orbit of the Moon" article for a more detailed explanation.
+
+Note that this definition of "double planet" depends primarily on the two-body structure's distance from the Sun. If the Earth–Moon system happened to orbit farther away from the Sun than it does now, then Earth would win the tug of war.  From the orbit of Mars, the Moon's tug-of-war value would be 1.05, so the Sun would no longer win the tug of war with Earth. Also, several tiny moons discovered since Asimov's argument would qualify as double planets. Neptune's small outer moons [[Neso (moon)|Neso]] and [[Psamathe (moon)|Psamanthe]], for example, have tug-of-war values of 0.42 and 0.44, less than that of Earth's Moon. Yet their masses are tiny compared to Neptune's, with an estimated ratio of 1.5{{e|-9}} ({{frac|700,000,000}}) and 0.4{{e|-9}} ({{frac|2,500,000,000}}).
+
+==See also==
+{{Wiktionary}}
+{{cmn|2|
+*[[2006 definition of planet]]
+*[[3753 Cruithne]]
+*[[Co-orbital configuration]]
+*[[Definition of planet|Definition of a planet]]
+*[[Ecliptic]]
+*[[Hill sphere]]
+*[[Natural satellite]]
+*[[Orbit of the Moon]]
+}}
+
+==Footnotes==
+{{Reflist|group="Footnote"}}
+
+==Notes==
+{{Reflist}}
+
+==References==
+*  {{Cite journal
+| last1 = Stern | first =  S. Alan
+| title = Clyde Tombaugh (1906–97) Astronomer who discovered the Solar System's ninth planet
+| journal = Nature 
+| volume = 385
+| issue = 6619
+| pages = 778
+| doi = 10.1038/385778a0
+| date = 27 February 1997
+| postscript = {{nbsp}}Pluto–Charon is "the only known example of a true double planet".
+|bibcode = 1997Natur.385..778S }}
+
+* {{Cite journal
+| last1 = Lissauer | first1 = Jack J.
+| title = It's not easy to make the Moon
+| journal = Nature 
+| volume = 389 
+| issue = 6649 
+| pages = 327–328
+| doi = 10.1038/38596 
+| date = 25 September 1997 
+| postscript = {{nbsp}}Compares the double-planet theories of Earth–Moon and Pluto–Charon formations.
+|bibcode = 1997Natur.389..327L }}
+
+==Further reading==
+* {{Cite journal
+| last1 = Cabrera | first1 = J. 
+| last2 = Schneider | first2 = J. 
+| doi = 10.1051/0004-6361:20066111 
+| title = Detecting companions to extrasolar planets using mutual events 
+| journal = Astronomy and Astrophysics 
+| volume = 464 
+| issue = 3 
+| pages = 1133–1138 
+| year = 2007 
+| arxiv = astro-ph/0703609
+|bibcode = 2007A&A...464.1133C }}
+
+{{The Moon}}
+{{Earth}}
+{{Solar System}}
+{{Exoplanet}}
+
+{{DEFAULTSORT:Double Planet}}
+[[Category:Types of planet]]
+[[Category:Bodies of the Solar System]]

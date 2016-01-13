@@ -1,0 +1,255 @@
+{{about|the microprocessors|the sports magazine|Athlon Sports}}
+{{Use mdy dates|date=May 2013}}
+{{Infobox CPU
+| name           = Athlon
+| image          = AMD Athlon Processor Logo.svg
+| caption        = AMD Athlon logo
+| produced-start = mid-1999
+| produced-end   = 2005
+| slowest        = 500   | slow-unit      = MHz
+| fastest        = 2.33  | fast-unit      = GHz
+| fsb-slowest    = 200   | fsb-slow-unit  = MT/s
+| fsb-fastest    = 400   | fsb-fast-unit  = MT/s
+| size-from      = 0.25&nbsp;µm
+| size-to        = 0.13&nbsp;µm
+| manuf1         = AMD
+| core1          = K7 (Argon)
+| core2          = K75 (Pluto/Orion)
+| core3          = Thunderbird
+| core4          = Palomino
+| core5          = Thoroughbred A/B
+| core6          = Barton/Thorton
+| predecessor    = [[AMD K6-III|K6-III]]
+| successor      = [[K8 (microarchitecture)|K8]]
+| sock1          = [[Slot A]]
+| sock2          = [[Socket A]]
+| sock3          = [[Socket 563]]
+| arch           = x86
+}}
+
+'''Athlon''' is the brand name applied to a series of [[x86|x86-compatible]] [[microprocessor]]s designed and manufactured by [[Advanced Micro Devices]] (AMD). The original Athlon (now called ''Athlon Classic'') was the first seventh-generation x86 processor and, in a first, retained the initial performance lead it had over [[Intel Corporation|Intel]]'s competing processors for a significant period of time. The original Athlon also had the distinction of being the first desktop processor to reach speeds of one gigahertz (GHz). AMD has continued using the ''Athlon'' name with the [[Athlon 64]], an eighth-generation processor featuring [[x86-64]] (later renamed AMD64) architecture, and the [[Athlon II]].
+
+The Athlon made its debut on June 23, 1999. Athlon comes from the ancient Greek ''άθλος'' (''athlos'') meaning ″contest″.
+
+==Background==
+AMD ex-CEO and founder [[Jerry Sanders (businessman)|Jerry Sanders]] developed strategic partnerships during the late 1990s to improve AMD's presence in the PC market based on the success of the [[AMD K6]] architecture. One major partnership announced in 1998 paired AMD with semiconductor giant [[Motorola]].<ref>{{cite web |url=http://www.hpcwire.com/hpc-bin/artread.pl?direction=Current&articlenumber=13625 |title=Motorola Prepares to Manufacture AMD's Upcoming K7 Chip |publisher=HP |date=August 7, 1998 |archiveurl=http://web.archive.org/web/20070928004540/http://www.hpcwire.com/hpc-bin/artread.pl?direction=Current&articlenumber=13625 |archivedate=September 28, 2007}}</ref> In the announcement, Sanders referred to the partnership as creating a "virtual gorilla" that would enable AMD to compete with Intel on fabrication capacity while limiting AMD's financial outlay for new facilities. This partnership also helped to co-develop [[Copper-based chips|copper-based semiconductor technology]], which would become a cornerstone of the K7 [[Semiconductor device fabrication|production process]].
+
+In August 1999, AMD released the Athlon (K7) processor. Notably, the design team was led by [[Dirk Meyer]], who had worked as a lead engineer on multiple [[DEC Alpha|Alpha]] microprocessors during his employment at [[Digital Equipment Corporation|DEC]]. Jerry Sanders had approached many of the engineering staff to work for AMD as DEC wound down their semiconductor business, and brought in a near-complete team of engineering experts. The balance of the Athlon design team comprised [[AMD K5]] and [[AMD K6|K6]] veterans.
+
+By working with Motorola, AMD was able to refine copper interconnect manufacturing to the production stage about one year before Intel. The revised process permitted [[180 nm|180-nanometer]] processor production. The accompanying die-shrink resulted in lower power consumption, permitting AMD to increase Athlon clock speeds to the 1&nbsp;GHz range.<ref>{{citation |url=http://www.amd.com/us/press-releases/Pages/Press_Release_729.aspx |title=AMD Announces First Revenue Shipments From Dresden "MEGAFAB" |publisher=AMD Press Release |date=June 5, 2000 |accessdate=January 6, 2012}}</ref> Yields on the new process exceeded expectations, permitting AMD to deliver high speed chips in volume in March 2000.
+
+==General architecture==
+[[Image:Athlon arch.png|right|thumb|350px|Athlon architecture]]
+
+Internally, the Athlon is a fully seventh generation x86 processor, the first of its kind. Like the AMD K5 and K6, the Athlon dynamically buffers internal micro-instructions at runtime resulting from parallel x86 instruction decoding. The CPU is an [[Out-of-order execution|out-of-order]] design, again like previous post-5x86 AMD CPUs. The Athlon utilizes the [[Alpha 21264]]'s EV6 bus architecture with [[double data rate]] (DDR) technology. This means that at 100&nbsp;MHz, the Athlon front side bus actually transfers at a rate similar to a 200&nbsp;MHz single data rate bus (referred to as 200&nbsp;[[Transfer (computing)|MT/s]]), which was superior to the method used on Intel's [[Pentium III]] (with SDR bus speeds of 100&nbsp;MHz and 133&nbsp;MHz).
+
+AMD designed the CPU with more robust x86 instruction decoding capabilities than that of K6, to enhance its ability to keep more data in-flight at once. The Athlon's three decoders could potentially decode three x86 instructions to six microinstructions per clock, although this was somewhat unlikely in real-world use.<ref name=PaulHsieh>{{citation |author=Paul Hsieh |url=http://www.azillionmonkeys.com/qed/cpujihad.shtml |title=7th Generation CPU Comparisons |date=August 11, 1999 |accessdate=January 6, 2012}}</ref> The critical branch predictor unit, essential to keeping the pipeline busy, was enhanced compared to what was on board the K6. Deeper pipelining with more stages allowed higher clock speeds to be attained.<ref>De Gelas, Johan. [http://web.archive.org/web/20011124231810/http://www.aceshardware.com/Spades/read.php?article_id=50 The Secrets of High Performance CPUs, Part 1], Ace's Hardware, September 29, 1999.</ref> Whereas the [[AMD K6-III]]+ topped out at 570&nbsp;MHz due to its short pipeline, even when built on the 180&nbsp;nm process, the Athlon was capable of clocking much higher.
+
+AMD ended its long-time handicap with [[floating point]] [[x87]] performance by designing a super-[[Pipeline (computing)|pipelined]], out-of-order, triple-issue [[floating point unit]].<ref name=PaulHsieh /> Each of its three units was tailored to be able to calculate an optimal type of instructions with some redundancy. By having separate units, it was possible to operate on more than one floating point instruction at once.<ref name=PaulHsieh /> This FPU was a huge step forward for AMD. While the K6 FPU had looked anemic compared to the Intel [[P6 (microarchitecture)|P6]] FPU, with Athlon this was no longer the case.<ref>{{citation |author=Pabst, Thomas |url=http://www.tomshardware.com/reviews/performance,124-7.html |title=Performance-Showdown between Athlon and Pentium III |publisher=Tom's Hardware |date=August 23, 1999 |accessdate=January 6, 2012}}</ref>
+
+The [[3DNow!]] [[floating point]] [[SIMD]] technology, again present, received some revisions and a name change to "Enhanced 3DNow!". Additions included [[digital signal processing|DSP]] instructions and an implementation of the extended [[MMX (instruction set)|MMX]] subset of [[Streaming SIMD Extensions|Intel SSE]].<ref>{{citation |author=Womack, Tom |url=http://www.tom.womack.net/x86FAQ/faq_features.html |title=Extensions to the x86 architecture |accessdate=January 6, 2012}}</ref>
+
+The Athlon's [[CPU cache]] consisted of the typical two levels. Athlon was the first x86 processor with a 128&nbsp;[[kilobyte|kB]]<ref>{{BDprefix|p=b}}</ref> split level 1 cache; a [[CPU cache|2-way associative]], later 16-way, cache separated into 2×64&nbsp;kB for data and instructions ([[Harvard architecture]]).<ref name=PaulHsieh /> This cache was double the size of K6's already large 2×32&nbsp;kB cache, and quadruple the size of [[Pentium II]] and III's 2×16&nbsp;kB L1 cache. The initial Athlon (Slot A, later called Athlon Classic) used 512&nbsp;kB of level 2 cache separate from the CPU, on the processor cartridge board, running at 50% to 33% of core speed. This was done because the 250&nbsp;nm manufacturing process was too large to allow for on-die cache while maintaining cost-effective die size. Later Athlon CPUs, afforded greater transistor budgets by smaller [[180 nanometer|180&nbsp;nm]] and [[130 nanometer|130&nbsp;nm]] process nodes, moved to on-die L2 cache at full CPU clock speed.
+
+===Athlon "Classic"===
+[[Image:Argonathlon.jpg|right|thumb|Athlon Slot A cartridge. Note heat sink and cooling fan assembly on rear side.]]
+[[Image:Amd athlon classic.jpg|right|thumb|Logo on Slot A Athlon cartridge.]]
+[[Image:Slot-A Athlon.jpg|right|thumb|An open Slot A cartridge. MPU die is in the center.]]
+
+The AMD Athlon processor launched on June 23, 1999, with general availability by August '99. It launched with superior performance over all other x86 processors available at the time, including Intel's flagship Pentium III, in every benchmark.<ref>{{citation |author=Lal Shimpi, Anand |url=http://www.anandtech.com/show/355 |title=AMD Athlon |date=August 9, 1999 |accessdate=January 6, 2012}}</ref>
+
+The Athlon Classic is a cartridge-based processor, named [[Slot A]] and similar to Intel's cartridge [[Slot 1]] used for Pentium II and Pentium III. It used the same, commonly available, physical 242 pin connector used by Intel Slot 1 processors but rotated by 180 degrees to connect the processor to the [[motherboard]]. The reversal served to make the slot keyed to prevent installation of the wrong CPU, as the Athlon and Intel processors used fundamentally different (and incompatible) signaling standards for their [[Bus (computing)|Front Side Bus]]. The cartridge assembly allowed the use of higher speed cache memory modules than could be put on (or reasonably bundled with) motherboards at the time. Similar to the Pentium II and the Katmai-based Pentium III, the Athlon Classic contained 512&nbsp;kB of L2 cache. This high-speed SDRAM cache was run at a divisor of the processor clock and was accessed via its own 64-bit bus, known as a "[[back-side bus]]" allowing the processor to both service system front side bus requests (the rest of the system) and cache accesses simultaneously verses the traditional approach of pushing ''everything'' through the [[front-side bus]].<ref>{{citation |author=De Gelas, Johan |url=http://aceshardware.com/read.jsp?id=71 |archiveurl=http://web.archive.org/web/20011225163156/http://aceshardware.com/read.jsp?id=71 |title=Clash of Silicon, The Athlon 650 |publisher=Ace's Hardware |date=September 29, 1999 |archivedate=December 25, 2011 |accessdate=January 6, 2012}}</ref>
+
+One limitation (also afflicting the Intel Pentium III) is that [[Static Random Access Memory|SRAM]] cache designs at the time were incapable of keeping up with the Athlon's clock scalability, due both to manufacturing limitations of the cache chips and the difficulty of routing electrical connections to the cache chips themselves. It became increasingly difficult to reliably run an external processor cache to match the processor speeds being released—and in fact it became impossible. Thus initially the [[level 2 cache|Level 2]] cache ran at half of the CPU clock speed up to 700&nbsp;MHz (350&nbsp;MHz cache). Faster Slot-A processors had to compromise further and run at 2/5 (up to 850&nbsp;MHz, 340&nbsp;MHz cache) or 1/3 (up to 1&nbsp;GHz, 333&nbsp;MHz cache).<ref>{{citation |author=Lal Shimpi, Anand |url=http://www.anandtech.com/showdoc.aspx?i=1189&p=2 |title=AMD Athlon 1&nbsp;GHz, 950&nbsp;MHz, 900&nbsp;MHz |publisher=Anandtech |page=2 |date=March 6, 2000}}</ref> This later race to 1Ghz (1000&nbsp;MHz) by AMD and Intel further exacerbated this bottleneck as ever higher speed processors demonstrated decreasing gains in overall performance—stagnant SDRAM cache memory speeds choked further improvements in overall speed. This directly lead to the development of integrating L2 cache onto the '''processor itself''' and remove the dependence on external cache chips. AMD's integration of the cache onto the Athlon processor itself would later result in the [[Athlon#Thunderbird_.28T-Bird.29|Athlon Thunderbird]].
+
+The Slot-A Athlons were the first multiplier-locked CPUs from AMD. This was partly done to hinder CPU remarking being done by questionable resellers around the globe. AMD's older CPUs could simply be set to run at whatever clock speed the user chose on the motherboard, making it trivial to relabel a CPU and sell it as a faster grade than it was originally intended. These relabeled CPUs were not always stable, being overclocked and not tested properly, and this was damaging to AMD's reputation. Although the Athlon was multiplier locked, crafty enthusiasts eventually discovered that a connector on the PCB of the cartridge could control the multiplier. Eventually a product called the "Goldfingers device" was created that could unlock the CPU, named after the gold connector pads on the processor board that it attached to.<ref>{{citation |author=Jim Noonan; James Rolfe |url=http://www.overclockers.com.au/techstuff/r_gfd1/ |title=Athlon Gold-Finger Devices |publisher=Overclockers.com.au |date=March 21, 2000 |archiveurl=http://web.archive.org/web/20090201190219/http://www.overclockers.com.au/techstuff/r_gfd1/ |archivedate=February 1, 2009 |accessdate=January 6, 2012}}</ref>
+
+In commercial terms, the Athlon "Classic" was an enormous success—not just because of its own merits, but also because Intel endured a series of major production, design, and quality control issues at this time. In particular, Intel's transition to the 180&nbsp;nm production process, starting in late 1999 and running through to mid-2000, suffered delays. There was a shortage of Pentium III parts. In contrast, AMD enjoyed a remarkably smooth process transition and had ample supplies available, causing Athlon sales to become quite strong.
+
+The Argon-based Athlon contained 22 million transistors and measured 184&nbsp;mm<sup>2</sup>. It was fabricated by AMD in a slightly modified version of their CS44E process, a 0.25&nbsp;µm [[complementary metal–oxide–semiconductor]] (CMOS) process with six levels of aluminium interconnect.<ref name="JSSC-1999-11-11">{{citation |author=Golden, Michael et al. |year=1999 |title=A Seventh-Generation x86 Microprocessor |journal=[[IEEE Journal of Solid-State Circuits]] |volume=34 |issue=11 |pages=1466–1477 |doi=10.1109/4.799851}}</ref><ref name="MPR-1998-10-26">{{citation |author=[[Keith Diefendorff]] |title=K7 Challenges Intel |journal=[[Microprocessor Report]] |date=October 26, 1998 |volume=12 |issue=14 |url=http://www3.hi.is/~hh/kennsla/ht/Athlon.pdf |accessdate=January 6, 2012}}</ref> "Pluto" and "Orion" Athlons were fabricated in a 0.18&nbsp;µm process.
+
+;Specifications
+* L1-Cache: 64 + 64&nbsp;kB (Data + Instructions)
+* L2-Cache: 512&nbsp;kB, external chips on CPU module with 50%, 40% or 33% of CPU speed
+* [[MMX (instruction set)|MMX]], [[3DNow!]]
+* [[Slot A]] (EV6)
+* [[Front side bus]]: 200&nbsp;MT/s (100&nbsp;MHz double-pumped)
+* VCore: 1.6&nbsp;V (K7), 1.6–1.8&nbsp;V (K75)
+* First release: June 23, 1999 (K7), November 29, 1999 (K75)
+* Clockrate: 500–700&nbsp;MHz (K7), 550–1000&nbsp;MHz (K75)
+
+===Thunderbird (T-Bird)===
+[[File:KL AMD Athlon XP Thunderbird.jpg|right|thumb|150px|Athlon "Thunderbird"]]
+[[File:Athlon Tbird 900 slot A.jpg|right|thumb|Open Athlon Thunderbird slot A cartridge]]
+[[File:AMD Athlon Pencil Trick.jpg|thumb|AMD Athlon]]
+
+The second generation Athlon, the ''Thunderbird'', debuted on June 5, 2000. This version of the Athlon shipped in a more traditional [[Pin grid array|pin-grid array]] (PGA) format that plugged into a socket ("[[Socket A]]") on the motherboard (it also shipped in the slot A package). It was sold at speeds ranging from 600&nbsp;MHz to 1.4&nbsp;GHz (Athlon Classics using the Slot A package could clock up to 1&nbsp;GHz). The major difference, however, was cache design. Just as Intel had done when they replaced the old Katmai-based [[Pentium III]] with the much faster Coppermine-based Pentium III, AMD replaced the 512&nbsp;kB external reduced-speed cache of the Athlon Classic with 256&nbsp;kB of on-chip, full-speed exclusive cache. As a general rule, more cache improves performance, but faster cache improves it further still.<ref name=SandpileK7>{{citation |url=http://www.sandpile.org/impl/k7.htm |title=K7 microarchitecture information |publisher=Sandpile.org |archiveurl=http://web.archive.org/web/19991013102053/http://sandpile.org/impl/k7.htm |archivedate=October 13, 1999 |accessdate=January 6, 2012}}</ref>
+
+AMD changed cache design significantly with the Thunderbird core. With the older Athlon CPUs, the CPU caching was of an inclusive design where data from the L1 is duplicated in the L2 cache. Thunderbird moved to an [[CPU cache#Multi-level caches|exclusive design]] where the L1 cache's contents are not duplicated in the L2. This increases total cache size of the processor and effectively makes caching behave as if there is a very large L1 cache with a slower region (the L2) and a very fast region (the L1).<ref>{{citation |author=Stokes, John |url=http://arstechnica.com/old/content/2005/02/amd-hammer-1.ars/9 |title=Inside AMD's Hammer: the 64-bit architecture behind the Opteron and Athlon 64 |publisher=Ars Technica |page=9 |date=February 1, 2005 |accessdate=January 6, 2012}}</ref> Because of Athlon's very large L1 cache and the exclusive design, which turns the L2 cache into basically a "[[CPU cache#Victim cache|victim cache]]", the need for high L2 performance and size was lessened. AMD kept the 64-bit L2 cache data bus from the older Athlons, as a result, and allowed it to have a relatively high latency. A simpler L2 cache reduced the possibility of the L2 cache causing clock scaling and yield issues. Still, instead of the [[CPU cache#Associativity|2-way associative]] scheme used in older Athlons, Thunderbird did move to a more efficient 16-way associative layout.<ref name=SandpileK7 />
+
+The Thunderbird was AMD's most successful product since the [[Am386|Am386DX-40]] ten years earlier. Mainboard designs had improved considerably by this time, and the initial trickle of Athlon mainboard makers had swollen to include every major manufacturer. AMD's new [[Fab (semiconductors)|fab]] in [[Dresden]] came online, allowing further production increases, and the process technology was improved by a switch to copper interconnects. In October 2000, the Athlon "C" was introduced, raising the mainboard [[front side bus]] speed from 100&nbsp;MHz to 133&nbsp;MHz (266 [[MT/s]]) and providing roughly 10% extra performance per clock over the "B" model Thunderbird.
+
+;Specifications
+* L1-Cache: 64 + 64&nbsp;kB (Data + Instructions)
+* L2-Cache: 256&nbsp;kB, fullspeed
+* [[MMX (instruction set)|MMX]], [[3DNow!]]
+* [[Slot A]] & [[Socket A]] (EV6)
+* [[Front side bus]]: 100&nbsp;MHz (Slot-A, B-models), 133&nbsp;MHz (C-models) (200&nbsp;MT/s, 266&nbsp;MT/s)
+* VCore: 1.70–1.75&nbsp;V
+* First release: June 5, 2000
+* Transistor count: 37 million
+* Manufacturing Process: 0.18&nbsp;µm/180&nbsp;nm
+* Clockrate:
+** [[Slot A]]: 650–1000&nbsp;MHz
+** [[Socket A]], 100&nbsp;MHz FSB (B-models): 600–1400&nbsp;MHz
+** [[Socket A]], 133&nbsp;MHz FSB (C-models): 1000–1400&nbsp;MHz
+
+==Athlon XP/MP==
+[[File:AMD Athlon XP Logo.jpg|right|thumb|150px|Athlon XP logo]]
+
+===Palomino=== <!-- This section is linked from [[Duron]] -->
+[[File:KL AMD Athlon XP Palomino.jpg|right|150px|Athlon XP "Palomino" 2000+]]
+
+AMD released the third-generation Athlon, code-named "Palomino", on October 9, 2001 as the ''Athlon XP''. The "XP" suffix is interpreted to mean ''extended performance'' and also as an unofficial reference to Microsoft [[Windows XP]].<ref>{{citation |url=http://www.amd.com/us-en/assets/content_type/DownloadableAssets/25626A__Sales-Reference-AhtlonXP.pdf |title=Introducing the AMD Athlon XP Processor |publisher=Advanced Micro Devices, Inc. |archiveurl=http://web.archive.org/web/20070927060202/http://www.amd.com/us-en/assets/content_type/DownloadableAssets/25626A__Sales-Reference-AhtlonXP.pdf |archivedate=September 27, 2007 |accessdate=January 6, 2012}}</ref> The ''Athlon XP'' was marketed using a [[Performance Rating|PR]] system, which compared its relative performance to an Athlon utilizing the earlier "Thunderbird" core. ''Athlon XP'' launched at speeds between 1.33&nbsp;GHz (PR1500+) and 1.53&nbsp;GHz (PR1800+), giving AMD the x86 performance lead with the 1800+ model. Less than a month later, it enhanced that lead with the release of the 1600&nbsp;MHz 1900+,<ref>{{citation |author=Wasson, Scott |url=http://techreport.com/articles.x/3086/1 |title=AMD's Athlon XP 1900+ processor: Pouring it on |publisher=The Tech Report |page=1 |date=November 5, 2001 |accessdate=January 6, 2012}}</ref> and subsequent 1.67&nbsp;GHz Athlon XP 2000+ in January 2002.
+
+Palomino was the first K7 core to include the full [[Streaming SIMD Extensions|SSE]] instruction set from the Intel [[Pentium III]], as well as AMD's [[3DNow!|3DNow! Professional]]. It is roughly 10% faster than Thunderbird at the same clock speed, thanks in part to the new SIMD functionality and to several additional improvements. The core has enhancements to the K7's [[Translation Lookaside Buffer|TLB]] architecture and added a hardware data [[prefetching|prefetch]] mechanism to take better advantage of available memory bandwidth.<ref name=Athlon4Anand>{{citation |author=Lal Shimpi, Anand |url=http://www.anandtech.com/show/766/4 |title=AMD Athlon 4 – The Palomino is Here |publisher=Anandtech |pages=4–5 |date=May 14, 2001 |accessdate=January 6, 2012}}</ref> Palomino was also the first socketed Athlon officially supporting dual processing, with chips certified for that purpose branded as the '''Athlon MP'''.<ref>{{citation |author=Lal Shimpi, Anand |url=http://www.anandtech.com/show/780 |title=AMD 760MP & Athlon MP – Dual Processor Heaven |publisher=Anandtech |date=June 5, 2001 |accessdate=January 6, 2012}}</ref>
+
+Changes in core layout also resulted in Palomino being more frugal with its electrical demands, consuming approximately 20% less power than its predecessor, and thus reducing heat output comparatively as well.<ref>{{citation |author=Wasson, Scott |url=http://techreport.com/articles.x/2975/1 |title=AMD's Athlon XP 1800+ processor: 1533 > 1800 |publisher=The Tech Report |date=October 9, 2001 |accessdate=January 6, 2012}}</ref> While the preceding Athlon "Thunderbird" was capable of clock speeds exceeding 1400&nbsp;MHz, the power and thermal considerations required to reach those speeds would have made it increasingly impractical as a marketable product. Thus, Palomino's goals of lowered power consumption (and resultant heat produced) allowed AMD to increase performance within a reasonable power envelope. Palomino's design also allowed AMD to continue using the same 180&nbsp;nm manufacturing process node and core voltages as Thunderbird.
+
+Interestingly, the Palomino core actually debuted earlier in the mobile market—branded as '''Mobile Athlon 4''' with the codename "Corvette". It distinctively used a [[Pin grid array|ceramic]] [[interposer]] much like the Thunderbird instead of the [[organic pin grid array]] package used on all later Palomino processors.<ref name=Athlon4Anand />
+
+;Specifications
+* L1-Cache: 64 + 64&nbsp;kB (Data + Instructions)
+* L2-Cache: 256&nbsp;kB, fullspeed
+* [[MMX (instruction set)|MMX]], [[3DNow!]], [[Streaming SIMD Extensions|SSE]]
+* [[Socket A]] (EV6)
+* [[Front side bus]]: 133&nbsp;MHz (266&nbsp;MT/s)
+* VCore: 1.50 to 1.75&nbsp;V
+* Power consumption: 68&nbsp;W
+* First release: October 9, 2001
+* Clockrate:
+** Athlon 4: 850–1400&nbsp;MHz
+** Athlon XP: 1333–1733&nbsp;MHz (1500+ to 2100+)
+** Athlon MP: 1000–1733&nbsp;MHz
+
+===Thoroughbred (T-Bred)===
+[[File:KL AMD Athlon XP Thoroughbred.jpg|right|150px|Athlon XP "Thoroughbred B" 2400+]]
+
+The fourth-generation Athlon ''Thoroughbred'' was released on June 10, 2002 at 1.8&nbsp;GHz (Athlon XP [[Performance Rating|PR]]2200+). The "Thoroughbred" core marked AMD's first production 130&nbsp;nm silicon, resulting in a significant reduction in die size compared to its 180&nbsp;nm predecessor.
+
+There came to be two [[Stepping level|steppings]] (revisions) of this core commonly referred to as Tbred-A ([[cpuid]]:6 8 0) and Tbred-B ([[cpuid]]:6 8 1).<ref name="TbredCoreStep">{{citation |url=http://www.cpu-world.com/Cores/Thoroughbred.html |title=AMD Athlon Thoroughbred core |date=May 2, 2011 |accessdate=January 6, 2012}}</ref> The initial version (later known as A) was simply a direct [[die shrink]] of the Palomino, and demonstrated that AMD had successfully transitioned to a 130&nbsp;nm process. While successful in reducing the production cost per processor, the unmodified Palomino design did not demonstrate the expected reduction in heat and clock scalability usually seen when a design is shrunk to a smaller process. As a result, AMD was not able to increase Thoroughbred-A clock speeds much above those of the Palomino it was to replace. Tbred-A was only sold in versions from 1333&nbsp;MHz to 1800&nbsp;MHz, and was only able to displace the more production-costly Palomino from AMD's lineup.
+
+AMD thus reworked the Thoroughbred's design to better match the process node on which it was produced, in turn creating the Thoroughbred-B. A significant aspect of this redesign was the addition of another ninth "metal layer" to the already quite complex eight-layered Thoroughbred-A. For comparison, the competing Pentium 4 Northwood only utilized six, and its successor Prescott seven layers. While the addition of more layers itself does not improve performance, it gives more flexibility for chip designers routing electrical pathways within a chip, and importantly for the Thoroughbred core, more flexibility in working around electrical bottlenecks that prevented the processor from attaining higher clock speeds. The Tbred-B offered a startling improvement in headroom over the Tbred-A, which made it very popular for [[overclocking]]. The Tbred-A often struggled to reach clock speeds above 1.9&nbsp;GHz, while the Tbred-B often could easily reach 2.3&nbsp;GHz and above.<ref name="AnandTbredB">{{citation |author=Lal Shimpi, Anand |url=http://www.anandtech.com/show/972/3 |title=Introducing Thoroughbred Revision B |publisher=Anandtech |date=August 21, 2002 |accessdate=January 6, 2012}}</ref>
+
+The Thoroughbred line received an increased front side bus clock during its lifetime, from 133&nbsp;MHz (266 MT/s) to 166&nbsp;MHz (333&nbsp;MT/s) improving the processor's ability to access memory and I/O efficiency, and resulted in improved per-clock performance. AMD shifted their PR rating scheme accordingly, making lower clock speeds equate to higher PR ratings.
+
+The Thoroughbred-B was the ''direct'' basis for its successor—the Tbred-B with an ''additional'' 256&nbsp;kB of L2 cache (for 512&nbsp;kB total) became the Barton core.
+
+;Specifications
+* L1-Cache: 64 + 64&nbsp;kB (Data + Instructions)
+* L2-Cache: 256&nbsp;kB, fullspeed
+* [[MMX (instruction set)|MMX]], [[3DNow!]], [[Streaming SIMD Extensions|SSE]]
+* [[Socket A]] (EV6)
+* [[Front side bus]]: 133/166&nbsp;MHz (266/333&nbsp;MT/s)
+* VCore: 1.50–1.65&nbsp;V
+* First release: June 10, 2002 (A), August 21, 2002 (B)
+* Clockrate:
+** Thoroughbred "A": 1400–1800&nbsp;MHz (1600+ to 2200+)
+** Thoroughbred "B": 1400–2250&nbsp;MHz (1600+ to 2800+)
+** 133&nbsp;MHz FSB: 1400–2133&nbsp;MHz (1600+ to 2600+)
+** 166&nbsp;MHz FSB: 2083–2250&nbsp;MHz (2600+ to 2800+)
+
+===Barton and Thorton===
+[[File:KL AMD Athlon XP Barton.jpg|thumb|225px|Athlon XP "Barton" 2500+]]
+
+Fifth-generation Athlon ''Barton''-core processors released in early 2003 with [[Performance Rating|PR]] ratings of 2500+, 2600+, 2800+, 3000+, and 3200+. While not operating at higher clock rates than ''Thoroughbred''-core processors, they were marked with higher PR-ratings by featuring an increased 512&nbsp;kB L2 cache; later models additionally supported an increased 200&nbsp;MHz (400&nbsp;MT/s) front side bus.<ref name=AceBarton>{{citation |author=De Gelas, Johan |url=http://www.aceshardware.com/read.jsp?id=50000364 |archiveurl=http://web.archive.org/web/20030324002539/http://www.aceshardware.com/read.jsp?id=50000364 |title=Barton: 512 kB Athlon XP Reviewed |publisher=Ace's Hardware |date=February 10, 2003 |archivedate=March 24, 2003 |accessdate=January 6, 2012}}</ref> The ''Thorton'' core was a later variant of the ''Barton'' with half of the L2 cache disabled, and thus was functionally identical to the ''Thoroughbred-B'' core. The name ''Thorton'' is a [[portmanteau]] of ''Thoroughbred'' and ''Barton''.
+
+By the time of Barton's release, the ''Northwood''-based [[Pentium 4]] had become more than competitive with AMD's processors.<ref name=BartonAnand>{{citation |author=Lal Shimpi, Anand |url=http://www.anandtech.com/show/1066 |title=AMD's Athlon XP 3000+: Barton cuts it close |publisher=AnandTech |date=February 10, 2003 |accessdate=January 6, 2012}}</ref> Unfortunately for AMD, a simple increase in size of the L2 cache to 512&nbsp;kB did not have nearly the same impact as it did for Intel's Pentium 4 line, as the Athlon architecture was not nearly as cache-constrained as the Pentium 4. The Athlon's exclusive-cache architecture and shorter pipeline made it less sensitive to L2 cache size, and the Barton only saw an increase of several percent gained in per-clock performance over the Thoroughbred-B it was derived from.<ref name=AceBarton /> While the increased performance was welcome, it was not sufficient to overtake the Pentium 4 line in overall performance. The PR rating also became somewhat inaccurate because some Barton models with lower clock rates were being given higher PR ratings than higher-clocked Thoroughbred processors. Instances where a computational task did not benefit more from the additional cache to make up for the loss in raw clock speed created situations where a lower rated (but faster clocked) Thoroughbred would outperform a higher-rated (but lower clocked) Barton.<ref name=BartonAnand />
+
+The Barton was also used to officially introduce a higher 400&nbsp;MT/s bus clock for the Socket A platform, which was used to gain some Barton models more efficiency (and increased PR ratings). However, it was clear by this time that Intel's quad-pumped bus was scaling well above AMD's double-pumped EV6 bus. The 800&nbsp;MT/s bus used by many later Pentium 4 processors was well out of the Athlon XP's reach. In order to reach the same bandwidth levels, the Athlon&nbsp;XP's bus would have to be clocked at levels simply unreachable.<ref name=AceBarton />
+
+By this point, the four-year-old Athlon EV6 bus architecture had scaled to its limit. To maintain or exceed the performance of Intel's newer processors would require a significant redesign.<ref name=AceBarton /> The K7 derived Athlons were replaced in March 2003 by the [[AMD K8|Athlon 64]] family, which featured an [[Memory controller|on-chip memory controller]] and a completely new [[HyperTransport]] bus to replace EV6.
+
+;Specifications:
+''Barton (130&nbsp;nm)''
+* L1-Cache: 64 + 64&nbsp;kB (Data + Instructions)
+* L2-Cache: 512&nbsp;kB, fullspeed
+* [[MMX (instruction set)|MMX]], [[3DNow!]], [[Streaming SIMD Extensions|SSE]]
+* [[Socket A]] (EV6)
+* [[Front side bus]]: 166/200&nbsp;MHz (333/400&nbsp;MT/s)
+* VCore: 1.65&nbsp;V
+* First release: February 10, 2003
+* Clockrate: 1833–2333&nbsp;MHz (2500+ to 3200+)
+** 166&nbsp;MHz FSB: 1833–2333&nbsp;MHz (2500+ to 3200+)
+** 200&nbsp;MHz FSB: 2100, 2200&nbsp;MHz (3000+, 3200+)
+
+''Thorton (130&nbsp;nm)''
+* L1-Cache: 64 + 64&nbsp;kB (Data + Instructions)
+* L2-Cache: 256&nbsp;kB, fullspeed
+* [[MMX (instruction set)|MMX]], [[3DNow!]], [[Streaming SIMD Extensions|SSE]]
+* [[Socket A]] (EV6)
+* [[Front side bus]]: 133/166/200&nbsp;MHz (266/333/400&nbsp;MT/s)
+* VCore: 1.50–1.65&nbsp;V
+* First release: September 2003
+* Clockrate: 1667–2200&nbsp;MHz (2000+ to 3100+)
+** 133&nbsp;MHz FSB: 1600–2133&nbsp;MHz (2000+ to 2600+)
+** 166&nbsp;MHz FSB: 2083&nbsp;MHz (2600+)
+** 200&nbsp;MHz FSB: 2200&nbsp;MHz (3100+)
+
+===Mobile Athlon XP=== <!-- This section is linked from [[Transmeta]] -->
+{{Refimprove|date=January 2012}}
+[[File:Athlon XPM 2400l.jpg|thumb|225px|Athlon XP Mobile "Barton" 2400+]]
+
+A Mobile Athlon XPs (''Athlon XP-M'') using a given core is physically identical to the equivalent desktop Athlon XPs counterpart, only differing by the configuration used to achieve a given performance level. Processors are usually binned and selected to become a mobile processor by their ability run a given processor speed while supplied with a lower (than desktop) voltage. This results in lower power consumption, longer battery life, and reduced heat over using a normal desktop part. Additionally Mobile XPs feature not being [[CPU multiplier|multiplier]]-locked and generally higher-rated maximum operating temperatures, requirements intended for better operation within the tight thermal constraints within a notebook PC—but also making them attractive for [[overclocking]].
+
+The Athlon XP-M replaced the older Mobile Athlon 4 based on the ''Palomino'' core, with the Athlon XP-M using the newer ''Thoroughbred'' and ''Barton'' cores. The Athlon XP-M was also offered in a compact microPGA [[socket 563]] version for space constrained applications as an alternative to the larger Socket A.
+
+Like their mobile [[AMD K6-III|K6-2+/III+]] predecessors, the CPUs were capable of dynamic clock adjustment for power optimization, and also was the reason for the unlocked multiplier. When the system is [[idle]], the CPU clocks itself down via lower bus multiplier and selects a lower voltage. When a program demands more computational resources, the CPU quickly (there is some latency) returns to an intermediate or maximum speed with appropriate voltage to meet the demand. This technology was marketed as "[[PowerNow!]]" and was similar to Intel's [[SpeedStep]] power saving technique. The feature was controlled by the CPU, motherboard [[BIOS]], and [[operating system]]. AMD later renamed the technology to [[Cool'n'Quiet]] on their K8-based CPUs ([[Athlon 64]], etc.), and introduced it for use on desktop PCs as well.
+
+Athlon XP-Ms were popular with desktop [[overclocking|overclockers]], as well as [[underclocking|underclockers]]. The lower voltage requirement and higher heat rating selected CPUs that were essentially "[[Cherry picking (fallacy)|cherry picked]]" from the manufacturing line. Being some of the best cores "off the line", these CPUs typically overclocked more reliably than their desktop-headed counterparts. Also, the fact that they were not locked to a single multiplier was a significant simplification in the overclocking process. Some ''Barton'' core Athlon XP-Ms have been successfully overclocked as high as 3.1&nbsp;GHz.
+
+The chips were also liked for their [[undervolting]] ability. Undervolting is a process of determining the lowest voltage at which a CPU can remain stable at a given clock speed. As Athlon XP-M CPUs were already rated running lower voltages than their desktop siblings, it was a better starting point for lowering voltage even further. A popular application was use in [[home theater PC]] systems due to high performance and low heat output resultant from low V<sub>core</sub> settings.
+
+Besides not being multiplier locked, XP-Ms curiously were not disabled from [[Symmetric multiprocessing|multi processor]] operation. Thus they could be used in place of the more expensive Athlon MP in dual socket A motherboards. Since those boards generally lacked multiplier and voltage adjustment, and normally only supported 133&nbsp;MHz FSB, adjustments would still be needed for full speed operation. One method of modification known as wire-modding involves connecting the appropriate CPU pins on the CPU socket with small lengths of wire to select the appropriate multiplier. A typical overclock of a mobile 2500+ CPU to 2.26&nbsp;GHz with 17x multiplier would result in being faster than highest official 2800+ MP CPU running at 2.13&nbsp;GHz.
+
+==Athlon competitors==
+* Intel [[Pentium III]], [[Pentium 4]], and [[Celeron]]
+* [[VIA C3]] and [[VIA C7|C7]]
+* [[Transmeta Efficeon]]
+
+==Supercomputers==
+The fastest supercomputers based on AthlonMP:
+* Rutgers University, Department of Physics & Astronomy. Machine: NOW Cluster—AMD Athlon. CPU: 512 AthlonMP (1.65&nbsp;GHz). Rmax: 794&nbsp;[[Gigaflops|GFLOPS]].
+
+==See also==
+* [[List of AMD microprocessors]]
+* [[List of AMD Athlon microprocessors]]
+* [[List of AMD Duron microprocessors]]
+* [[List of AMD Athlon XP microprocessors]]
+* [[List of AMD Athlon 64 microprocessors]]
+* [[List of AMD Athlon X2 microprocessors]]
+* [[List of AMD Phenom microprocessors]]
+* [[List of AMD Opteron microprocessors]]
+* [[List of AMD Sempron microprocessors]]
+* [[List of Intel microprocessors]]
+
+==References==
+{{FOLDOC}}
+{{Reflist|30em}}
+
+==External links==
+{{More footnotes|article|date=January 2012}}
+* [http://www.cpu-collection.de/?tn=0&l0=co&l1=AMD&l2=Athlon cpu-collection.de] AMD Athlon processor images and descriptions
+* [http://www.amdboard.com/amdid.html amdboard.com] AMD Athlon/Duron/Sempron CPU identification and OPN breakdown
+* [http://www.amd.com/gb-uk/assets/content_type/DownloadableAssets/K7_Electrical_Specification_Rev_ENG.pdf AMD's Technical Specifications] for 7th generation CPUs (.pdf)
+* [http://www.ocinside.de/html/workshop/amd_a64_product_id.html Easy identification with Interactive AMD product ID]
+* [http://www.xbitlabs.com/articles/cpu/display/amd-athlon.html#sect0 Xbit Labs EV6 vs GTL+ System Bus]
+* [http://www.motherboards.org/articlesd/how-to-guides/41_1.html motherboards.org] Unlocking the Duron and Athlon Using the Pencil Trick
+
+{{AMD_processors}}
+
+[[Category:1999 introductions]]
+[[Category:Advanced Micro Devices x86 microprocessors]]
+
+{{Link GA|ru}}
+[[hu:Advanced Micro Devices#Athlon]]

@@ -1,0 +1,90 @@
+[[Image:Color complex plot.jpg|right|thumb|Plot of the function
+{{math|''f''(''x'') {{=}} (''x''<sup>2</sup> − 1)(''x'' − 2 − ''i'')<sup>2</sup>}}
+{{math|/ (''x''<sup>2</sup> + 2 + 2''i'')}}. The [[hue]] represents the function [[Argument (complex analysis)|argument]], while the [[brightness]] represents the magnitude.]]
+
+'''Complex analysis''', traditionally known as the '''theory of functions of a complex variable''', is the branch of [[mathematical analysis]] that investigates [[Function (mathematics)|functions]] of [[complex numbers]]. It is useful in many branches of mathematics, including [[algebraic geometry]], [[number theory]], [[applied mathematics]]; as well as in [[physics]], including [[hydrodynamics]], [[thermodynamics]], [[mechanical engineering]] and [[electrical engineering]].
+
+[[Murray R. Spiegel]] described complex analysis as "one of the most beautiful as well as useful branches of Mathematics".
+
+Complex analysis is particularly concerned with the [[analytic function]]s of complex variables (or, more generally, [[meromorphic function]]s). Because the separate [[real number|real]] and [[imaginary number|imaginary]] parts of any analytic function must satisfy [[Laplace's equation]], complex analysis is widely applicable to two-dimensional problems in [[physics]].
+
+== History ==
+[[Image:Mandel zoom 00 mandelbrot set.jpg|right|300px|thumb|The [[Mandelbrot set]], a '''[[fractal]]'''.]]
+Complex analysis is one of the classical branches in mathematics with roots in the 19th century and just prior. Important mathematicians associated with complex analysis include [[Euler]], [[Carl Friedrich Gauss|Gauss]], [[Bernhard Riemann]], [[Cauchy]], [[Weierstrass]], and many more in the 20th century. Complex analysis, in particular the theory of [[conformal mapping]]s, has many physical applications and is also used throughout [[analytic number theory]]. In modern times, it has become very popular through a new boost from [[complex dynamics]] and the pictures of [[fractal]]s produced by iterating [[holomorphic functions]].  Another important application of complex analysis is in [[string theory]] which studies conformal invariants in [[quantum field theory]].
+
+== Complex functions ==<!-- This section is linked from [[Complex plane]] -->
+A complex function is one in which the [[independent variable]] and the [[dependent variable]] are both complex numbers. More precisely, a complex function is a function whose [[domain (mathematics)#Domain of a function|domain]] and [[range (mathematics)|range]] are [[subset]]s of the [[complex plane]].
+
+For any complex function, both the independent variable and the dependent variable may be separated into [[Real number|real]] and [[Imaginary number|imaginary]] parts:
+
+: <math>z = x + iy\,</math> and
+: <math>w = f(z) = u(x,y) + iv(x,y)\,</math>
+: where <math>x,y \in \mathbb{R}\,</math> and <math>u(x,y), v(x,y)\,</math> are real-valued functions.
+
+In other words, the components of the function ''f''(''z''),
+
+: <math>u = u(x,y)\,</math> and
+: <math>v = v(x,y),\,</math>
+
+can be interpreted as real-valued functions of the two real variables, ''x'' and ''y''.
+
+The basic concepts of complex analysis are often introduced by extending the elementary [[real function]]s (e.g., [[exponential function]]s, [[logarithmic function]]s, and [[trigonometric function]]s) into the complex domain.
+
+== Holomorphic functions ==
+{{main|Holomorphic function}}
+Holomorphic functions are complex functions defined on an [[open set|open subset]] of the complex plane that are [[differentiable function|differentiable]]. Complex differentiability has much stronger consequences than usual (real) differentiability. For instance, holomorphic functions are [[infinitely differentiable]], whereas some real differentiable functions are not. Most elementary functions, including the [[exponential function]], the [[trigonometric function]]s, and all [[polynomial|polynomial functions]], are holomorphic.
+
+''See also'': [[analytic function]], [[holomorphic sheaf]] and [[vector bundle]]s.
+
+== Major results ==
+One central tool in complex analysis is the [[line integral]]. The integral around a closed path of a function that is holomorphic everywhere inside the area bounded by the closed path is always zero; this is the [[Cauchy integral theorem]]. The values of a holomorphic function inside a disk can be computed by a certain path integral on the disk's boundary ([[Cauchy's integral formula]]). Path integrals in the complex plane are often used to determine complicated real integrals, and here the theory of [[residue (complex analysis)|residue]]s among others is useful (see [[methods of contour integration]]). If a function has a ''pole'' or [[isolated singularity]] at some point, that is, at that point where its values "blow up" and have no finite boundary, then one can compute the function's residue at that pole. These residues can be used to compute path integrals involving the function; this is the content of the powerful [[residue theorem]]. The remarkable behavior of holomorphic functions near essential singularities is described by [[Picard theorem#Big Picard|Picard's Theorem]]. Functions that have only poles but no [[Essential singularity|essential singularities]] are called [[meromorphic]]. [[Laurent series]] are similar to [[Taylor series]] but can be used to study the behavior of functions near singularities.
+
+A [[bounded function]] that is holomorphic in the entire complex plane must be constant; this is [[Liouville's theorem (complex analysis)|Liouville's theorem]]. It can be used to provide a natural and short proof for the [[Fundamental Theorem of Algebra|fundamental theorem of algebra]] which states that the [[field (mathematics)|field]] of complex numbers is [[algebraically closed field|algebraically closed]].
+
+If a function is holomorphic throughout a [[Connected space|connected]] domain then its values are fully determined by its values on any smaller subdomain.  The function on the larger domain is said to be [[analytic continuation|analytically continued]] from its values on the smaller domain.  This allows the extension of the definition of functions, such as the [[Riemann zeta function]], which are initially defined in terms of infinite sums that converge only on limited domains to almost the entire complex plane.  Sometimes, as in the case of the [[natural logarithm]], it is impossible to analytically continue a holomorphic function to a non-simply connected domain in the complex plane but it is possible to extend it to a holomorphic function on a closely related surface known as a [[Riemann surface]].
+
+All this refers to complex analysis in one variable. There is also a very rich theory of [[several complex variables|complex analysis in more than one complex dimension]] in which the analytic properties such as [[power series]] expansion carry over whereas most of the geometric properties of holomorphic functions in one complex dimension (such as [[conformality]]) do not carry over. The [[Riemann mapping theorem]] about the conformal relationship of certain domains in the complex plane, which may be the most important result in the one-dimensional theory, fails dramatically in higher dimensions.
+
+== See also ==
+
+* [[Complex dynamics]]
+* [[List of complex analysis topics]]
+* [[Real analysis]]
+* [[Runge's theorem]]
+* [[Several complex variables]]
+* [[Real-valued function]]
+* [[Function of a real variable]]
+* [[Real multivariable function]]
+
+== References ==
+{{reflist}}
+{{inline citations|date=June 2013}}
+*  Ahlfors.,''Complex Analysis'' (McGraw-Hill).
+*  C. Carathéodory, ''Theory of Functions of a Complex Variable'' (Chelsea, New York). [2 volumes.]
+*  [[Tristan Needham|Needham T]]., ''Visual Complex Analysis'' (Oxford, 1997).
+*  [[Peter Henrici (mathematician)|Henrici P.]], ''Applied and Computational Complex Analysis'' (Wiley).  [Three volumes: 1974, 1977, 1986.]
+* [[Erwin Kreyszig|Kreyszig, E.]], ''Advanced Engineering Mathematics, 9 ed.'', Ch.13-18 (Wiley, 2006).
+*  A.I.Markushevich.,''Theory of Functions of a Complex Variable'' (Prentice-Hall, 1965). [Three volumes.]
+*  Scheidemann, V., ''Introduction to complex analysis in several variables'' (Birkhauser, 2005)
+*  Shaw, W.T., ''Complex Analysis with Mathematica'' (Cambridge, 2006).
+* Spiegel, Murray R. ''Theory and Problems of Complex Variables - with an introduction to Conformal Mapping and its applications'' (McGraw-Hill, 1964).
+*  Marsden & Hoffman, ''Basic complex analysis'' (Freeman, 1999).
+
+== External links ==
+{{Commonscat}}
+{{Wiktionary}}
+*[http://www.math.gatech.edu/~cain/winter99/complex.html Complex Analysis -- textbook by George Cain]
+*[http://www.ima.umn.edu/~arnold/502.s97/ Complex analysis course web site] by [[Douglas N. Arnold]]
+*[http://www.exampleproblems.com/wiki/index.php/Complex_Variables Example problems in complex analysis]
+*[http://www.usfca.edu/vca/websites.html A collection of links to programs for visualizing complex functions (and related)]
+*[http://math.fullerton.edu/mathews/complex.html Complex Analysis Project by John H. Mathews]
+*[http://www.mai.liu.se/~halun/complex Hans Lundmark's complex analysis page (many links)]
+*[http://mathworld.wolfram.com/ComplexAnalysis.html Wolfram Research's MathWorld Complex Analysis Page]
+*[http://www.bigsigma.com/en/demo/tag/complex-functions Complex function demos]
+*[http://vadim-kataev.livejournal.com/135060.html Application of Complex Functions in 2D Digital Image Transformation]
+*[http://www.saunalahti.fi/mattpaa/complex/complex.html Complex Visualizer - Java applet for visualizing arbitrary complex functions]
+*[http://www.fortwain.com/complex.html JavaScript complex function graphing tool]
+*[http://www.economics.soton.ac.uk/staff/aldrich/Calculus%20and%20Analysis%20Earliest%20Uses.htm Earliest Known Uses of Some of the Words of Mathematics: Calculus & Analysis]
+
+{{DEFAULTSORT:Complex Analysis}}
+[[Category:Complex analysis| ]]

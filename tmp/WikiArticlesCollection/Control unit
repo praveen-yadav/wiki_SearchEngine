@@ -1,0 +1,46 @@
+{{About|the component of a computer's CPU}}
+{{Multiple issues|refimprove = June 2008|cleanup = June 2008|expert=Computing|date=November 2008}}
+
+The '''control unit''' is a component of a computer's [[central processing unit]] (CPU) which directs operation of the processor. It controls communication and co-ordination between input/output devices. It reads and interprets instructions and determines the sequence for processing the data.
+
+It directs the operation of the other units by providing timing and control signals.
+All computer resources are managed by the CU (Control Unit). It directs the flow of data between the Central Processing Unit (CPU) and the other devices
+The control unit was historically <!-- reluctant to write "first" for "historically" without further research which, sorry, I'm not bothering about right now --> defined as one distinct part of the 1946 reference model of [[Von Neumann architecture]]. In modern computer designs, the control unit is typically an internal part of the [[Central processing unit|CPU]]<!-- or other device that directs its operation--> with its overall role and operation unchanged.
+
+== Functions of the control unit ==
+The control unit implements the [[instruction set]] of the CPU. It performs the tasks of fetching, decoding, managing execution and, finally, storing results. The control unit may manage the translation of instructions (not data) to micro-instructions and manage scheduling the micro-instructions between the various execution units. On some processors, the control unit may be further broken down into other units, such as a scheduling unit to handle scheduling or a retirement unit to deal with results coming from the pipeline. The control unit handles the main functions of the CPU.
+
+The control unit is the circuitry that controls the flow of data through the processor, and coordinates the activities of the other units within it. In a way, it is the "brain within the brain", as it controls what happens inside the processor, which in turn controls the rest of the computer.
+The examples of devices that require a control unit are CPUs and graphics processing units (GPUs). The control unit receives external instructions or commands which it converts into a sequence of control signals that the control unit applies to the data path to implement a sequence of [[register-transfer level]] operations.<ref>{{cite book|last=Englander|first=Irv|title=The Architecture of Computer Hardware, Systems Software, & Networking, 4th Ed.|year=2009|publisher=John Wiley & Sons, Inc.|location=Hoboken, NJ|isbn=978-0471-71542-9|page=200}}</ref>
+
+== Hardwired control unit ==<!-- Front end processor redirects here -->
+
+Hardwired control units are implemented through use of [[sequential logic]] units, featuring a finite number of gates that can generate specific results based on the instructions that were used to invoke those responses. Hardwired  control units are generally faster than microprogrammed designs.
+
+Their design uses a fixed architecture&mdash;it requires changes in the wiring if the [[instruction set]] is modified or changed.
+This architecture is preferred in [[Reduced instruction set computing|reduced instruction 
+set computer]]s (RISC) as they use a simpler instruction set.
+
+A controller that uses this approach can operate at high speed; however, it has little flexibility, and the complexity of the instruction set it can implement is limited. 
+
+The hardwired approach has become less popular as computers have evolved. Previously, control units for CPUs used ad-hoc logic, and they were difficult to design.
+
+== Microprogram control unit ==
+{{main|Microcode}}
+
+The idea of microprogramming was introduced by [[Maurice Wilkes]] in 1951 as an intermediate level to execute computer program instructions. Microprograms were organized as a sequence of ''microinstructions'' and stored in special control memory. The algorithm for the microprogram control unit is usually specified by [[flowchart]] description.<ref>{{Cite book  | last1 = Barkalov | first1 = Alexander | title = Logic synthesis for FSM based control units / Alexander Barkalov and Larysa Titarenko | year = 2009 | publisher = Springer | location = Berlin | isbn = 978-3-642-04308-6 | pages =  }}</ref> The main advantage of the microprogram control unit is the simplicity of its structure. Outputs of the controller are organized in microinstructions and  they can be easily replaced.<ref>{{Cite book  | last1 = Wiśniewski | first1 = Remigiusz | title = Synthesis of compositional microprogram control units for programmable devices   | year = 2009 | publisher = University of Zielona Góra | location = Zielona Góra | isbn = 978-83-7481-293-1 | pages = 153 }}</ref>
+
+== See also ==
+*[[CPU design]]
+*[[Computer architecture]]
+*[[Richards controller]]
+*[[Controller (computing)]]
+
+==References==
+{{reflist}}
+
+{{CPU technologies}}
+
+{{DEFAULTSORT:Control Unit}}
+[[Category:Central processing unit]]
+[[Category:Digital electronics]]

@@ -1,0 +1,286 @@
+{{about|the geometric shape}}
+{{Reg polyhedra db|Reg polyhedron stat table|C}}
+In [[geometry]], a '''cube'''<ref>English ''cube'' from Old French < Latin ''cubus'' < Greek κύβος (''kubos'') meaning "a cube, a die, vertebra". In turn from [[PIE]] ''*keu(b)-'', "to bend, turn".</ref> is a [[three-dimensional space|three-dimensional]] solid object bounded by six [[square (geometry)|square]] faces, [[facet]]s or sides, with three meeting at each [[vertex (geometry)|vertex]].
+
+The cube is the only '''[[Regular polyhedron|regular]] [[hexahedron]]''' and is one of the five [[Platonic solid]]s.
+
+The cube is also a square [[parallelepiped]], an equilateral [[cuboid]] and a right [[rhombohedron]]. It is a regular square [[prism (geometry)|prism]] in three orientations, and a [[trigonal trapezohedron]] in four orientations.
+
+The cube is [[dual polyhedron|dual]] to the [[octahedron]]. It has cubical or [[octahedral symmetry]].
+
+==Orthogonal projections==
+The ''cube'' has four special [[orthogonal projection]]s, centered, on a vertex, edges, face and normal to its [[vertex figure]]. The first and third correspond to the A<sub>2</sub> and B<sub>2</sub> [[Coxeter plane]]s.
+{|class=wikitable width=360
+|+ Orthogonal projections
+|-
+!Centered by
+!Face
+!Vertex
+|- align=center
+!Coxeter planes
+|'''B<sub>2</sub>'''<BR>[[File:2-cube.svg|100px]]
+|'''A<sub>2</sub>'''<BR>[[File:3-cube t0.svg|100px]]
+|- align=center
+!Projective<BR>symmetry
+|[4]
+|[6]
+|-
+!Tilted views
+|[[File:Cube t0 e.png|100px]]
+|[[File:Cube t0 fb.png|100px]]
+|}
+
+==Cartesian coordinates==
+
+For a cube centered at the origin, with edges parallel to the axes and with an edge length of 2, the [[Cartesian coordinates]] of the vertices are
+:(±1, ±1, ±1)
+
+while the interior consists of all points (''x''<sub>0</sub>, ''x''<sub>1</sub>, ''x''<sub>2</sub>) with −1 < ''x''<sub>''i''</sub> < 1.
+
+==Equation in R<sup>3</sup>==
+
+In [[analytic geometry]], a cube's surface with center (''x''<sub>0</sub>, ''y''<sub>0</sub>, ''z''<sub>0</sub>) and edge length of ''2a'' is the [[Locus (mathematics)|locus]] of all points (''x'', ''y'', ''z'') such that
+
+:<math> \lim_{n \to \infty} (x - x_0 )^n + (y - y_0 )^n + ( z - z_0 )^n - a^n = 0.</math>
+
+==Formulae==
+For a cube of edge length <math>a</math>,
+{|class="wikitable"
+|-
+|[[area (mathematics)|surface area]]
+|align=center|<math>6 a^2\,</math>
+|-
+|[[volume]]
+|align=center|<math>a^3\,</math>
+|-
+|[[face diagonal]]
+|align=center|<math>\sqrt 2a</math>
+|-
+|[[space diagonal]]
+|align=center|<math>\sqrt 3a</math>
+|-
+|radius of [[circumscribed sphere]]
+|align=center|<math>\frac{\sqrt 3}{2} a</math>
+|-
+|radius of sphere tangent to edges
+|align=center|<math>\frac{a}{\sqrt 2}</math>
+|-
+|radius of [[inscribed sphere]]
+|align=center|<math>\frac{a}{2}</math>
+|-
+|[[dihedral angle|angles between faces]] (in [[radian]]s)
+|align=center|<math>\frac{\pi}{2}</math>
+|}
+
+As the volume of a cube is the third power of its sides <math>a \times a \times a</math>, [[third power]]s are called ''[[cube (algebra)|cube]]s'', by analogy with [[square (algebra)|square]]s and second powers.
+
+A cube has the largest volume among [[cuboid]]s (rectangular boxes) with a given [[surface area]]. Also, a cube has the largest volume among cuboids with the same total linear size (length+width+height).
+
+==Uniform colorings and symmetry==
+The cube has three uniform colorings, named by the colors of the square faces around each vertex: 111, 112, 123.
+
+The cube has three classes of symmetry, which can be represented by [[vertex-transitive]] coloring the faces. The highest octahedral symmetry O<sub>h</sub> has all the faces the same color. The [[Dihedral symmetry in three dimensions|dihedral symmetry]] D<sub>4h</sub> comes from the cube being a prism, with all four sides being the same color. The lowest symmetry D<sub>2h</sub> is also a prismatic symmetry, with sides alternating colors, so there are three colors, paired by opposite sides. Each symmetry form has a different [[Wythoff symbol]].
+{|class="wikitable"
+|- align=center
+!Name
+!Regular hexahedron
+!Square [[Prism (geometry)|prism]]
+![[Cuboid]]
+!Trigonal [[trapezohedron]]
+|- align=center
+![[Coxeter-Dynkin diagram|Coxeter diagram]]
+|{{CDD|node_1|4|node|3|node}}
+|{{CDD|node_1|4|node|2|node_1}}
+|{{CDD|node_1|2|node_1|2|node_1}}
+|{{CDD||node_fh|2|node_fh|6|node}}
+|- align=center
+![[Schläfli symbol]]
+|{4,3}
+|{4}×{}
+|{}×{}×{}
+|
+|- align=center
+![[Wythoff symbol]]
+|3 &#124; 4 2
+|4 2 &#124; 2
+|2 2 2 &#124;
+|
+|- align=center
+![[List of spherical symmetry groups|Symmetry]]
+|O<sub>h</sub><br>(*432)
+|D<sub>4h</sub><br>(*422)
+|D<sub>2h</sub><br>(*222)
+|D<sub>3d</sub><br>(2*3)
+|- align=center
+!Symmetry order
+|24
+|16
+|8
+|12
+|- align=center
+!Image<br>(uniform coloring)
+|[[Image:Hexahedron.png|100px]]<br>(111)
+|[[Image:Tetragonal prism.png|100px]]<br>(112)
+|[[Image:Uniform polyhedron 222-t012.png|100px]]<br>(123)
+|[[File:Trigonal trapezohedron.png|100px]]<br>(111), (112), (122), and (222)
+|}
+
+==Geometric relations==
+[[Image:Planificacao cubo.gif|thumb|250px|right|The 11 nets of the cube.]]
+[[Image:Stone Dice 17.JPG|right|thumb|150px|These familiar six-sided [[dice]] are cube-shaped.]]
+A cube has eleven [[net (polyhedron)|nets]] (one shown above): that is, there are eleven ways to flatten a hollow cube by cutting seven edges.<ref>{{mathworld |urlname=Cube |title=Cube}}</ref> To color the cube so that no two adjacent faces have the same color, one would need at least three colors.
+
+The cube is the cell of [[cubic honeycomb|the only regular tiling of three-dimensional Euclidean space]]. It is also unique among the Platonic solids in having faces with an even number of sides and, consequently, it is the only member of that group that is a [[zonohedron]] (every face has point symmetry).
+
+The cube can be cut into six identical [[square pyramid]]s. If these square pyramids are then attached to the faces of a second cube, a [[rhombic dodecahedron]] is obtained (with pairs of coplanar triangles combined into rhombic faces.)
+
+==Other dimensions==
+The analogue of a cube in four-dimensional [[Euclidean space]] has a special name—a [[tesseract]] or [[hypercube]]. More properly, a hypercube (or ''n''-dimensional cube or simply ''n''-cube) is the analogue of the cube in ''n''-dimensional Euclidean space and a tesseract is the order-4 hypercube. A hypercube is also called a ''measure polytope''.
+
+There are analogues of the cube in lower dimensions too: a [[Point (geometry)|point]] in dimension 0, a [[segment (mathematics)|segment]] in one dimension and a square in two dimensions.
+
+==Related polyhedra==
+[[Image:Dual Cube-Octahedron.svg|thumb|200px|right|The dual of a cube is an [[octahedron]].]]
+[[File:Hemicube2.PNG|200px|thumb|The [[Hemicube (geometry)|hemicube]] is the 2-to-1 quotient of the cube.]]
+The quotient of the cube by the [[Antipodal point|antipodal]] map yields a [[projective polyhedron]], the [[Hemicube (geometry)|hemicube]].
+
+If the original cube has edge length 1, its [[dual polyhedron]] (an [[octahedron]]) has edge length <math>\scriptstyle \sqrt{2}</math>.
+
+The cube is a special case in various classes of general polyhedra:
+{|class=wikitable
+!Name!!Equal edge-lengths?!!Equal angles?!!Right angles?
+|-
+|'''Cube'''||'''Yes'''||'''Yes'''||'''Yes'''
+|-
+|[[Rhombohedron]]||Yes||Yes||No
+|-
+|[[Cuboid]]||No||Yes||Yes
+|-
+|[[Parallelepiped]]||No||Yes||No
+|-
+|[[quadrilateral]]ly faced hexahedron||No||No||No
+|}
+
+The vertices of a cube can be grouped into two groups of four, each forming a regular [[tetrahedron]]; more generally this is referred to as a [[demicube]]. These two together form a regular [[polyhedral compound|compound]], the [[stella octangula]]. The intersection of the two forms a regular octahedron. The symmetries of a regular tetrahedron correspond to those of a cube which map each tetrahedron to itself; the other symmetries of the cube map the two to each other.
+
+One such regular tetrahedron has a volume of {{frac|1|2}} of that of the cube. The remaining space consists of four equal irregular tetrahedra with a volume of {{frac|1|6}} of that of the cube, each.
+
+The [[Rectification (geometry)|rectified]] cube is the [[cuboctahedron]]. If smaller corners are cut off we get a polyhedron with six [[octagon]]al faces and eight triangular ones. In particular we can get regular octagons ([[truncated cube]]). The [[rhombicuboctahedron]] is obtained by cutting off both corners and edges to the correct amount.
+
+A cube can be inscribed in a [[dodecahedron]] so that each vertex of the cube is a vertex of the dodecahedron and each edge is a diagonal of one of the dodecahedron's faces; taking all such cubes gives rise to the regular compound of five cubes.
+
+If two opposite corners of a cube are truncated at the depth of the three vertices directly connected to them, an irregular octahedron is obtained. Eight of these irregular octahedra can be attached to the triangular faces of a regular octahedron to obtain the cuboctahedron.
+
+The cube is topologically related to a series of spherical polyhedra and tilings with order-3 [[vertex figure]]s.
+{{Order-3 tiling table}}
+
+The cuboctahedron is one of a family of uniform polyhedra related to the cube and regular octahedron.
+{{Octahedral truncations}}
+
+The cube is topologically related as a part of sequence of regular tilings, extending into the [[List_of_regular_polytopes#Hyperbolic_tilings|hyperbolic plane]]: {4,p}, p=3,4,5...
+{{Regular square tiling table}}
+
+With [[dihedral symmetry]], Dih<sub>4</sub>, the cube is topologically related in a series of uniform polyhedra and tilings 4.2n.2n, extending into the hyperbolic plane:
+{{Truncated figure3 table}}
+
+All these figures have [[octahedral symmetry]].
+
+The cube is a part of a sequence of rhombic polyhedra and tilings with [''n'',3] [[Coxeter group]] symmetry. The cube can be seen as a rhombic hexahedron where the rhombi are squares.
+{{Quasiregular figure table}}
+
+The cube is a [[Prism (geometry)|square prism]]:
+{{UniformPrisms}}
+
+As a [[trapezohedron|trigonal trapezohedron]], the cube is related to the hexagonal dihedral symmetry family.
+{{Hexagonal dihedral truncations}}
+
+{|class=wikitable
+|+ Regular and uniform compounds of cubes
+|- align=center valign=top
+|[[Image:UC08-3 cubes.png|100px]]<br>[[Compound of three cubes]]
+|[[Image:Compound of five cubes.png|100px]]<br>[[Compound of five cubes]]
+|}
+
+===In uniform honeycombs and polychora===
+It is an element of 9 of 28 [[convex uniform honeycomb]]s: 
+{|class=wikitable width=500
+|- align=center valign=top
+|[[Cubic honeycomb]]<br>{{CDD|node_1|4|node|3|node|4|node}}<br>{{CDD|node_1|4|node|4|node|2|node_1|infin|node}}
+|[[Truncated square prismatic honeycomb]]<br>{{CDD|node_1|4|node_1|4|node|2|node_1|infin|node}}
+|[[Snub square prismatic honeycomb]]<br>{{CDD|node_h|4|node_h|4|node_h|2|node_1|infin|node}}
+|[[Elongated triangular prismatic honeycomb]]
+|[[Gyroelongated triangular prismatic honeycomb]]
+|- align=center
+|[[File:Partial cubic honeycomb.png|100px]]
+|[[File:Truncated square prismatic honeycomb.png|100px]]
+|[[File:Snub square prismatic honeycomb.png|100px]]
+|[[File:Elongated triangular prismatic honeycomb.png|100px]]
+|[[File:Gyroelongated triangular prismatic honeycomb.png|100px]]
+|- align=center
+|[[Cantellated cubic honeycomb]]<br>{{CDD|node|4|node_1|3|node|4|node_1}}
+|[[Cantitruncated cubic honeycomb]]<br>{{CDD|node|4|node_1|3|node_1|4|node_1}}
+|[[Runcitruncated cubic honeycomb]]<br>{{CDD|node_1|4|node|3|node_1|4|node_1}}
+|[[Runcinated alternated cubic honeycomb]]<br>{{CDD|nodes_10ru|split2|node|4|node_1}}
+|- align=center
+|[[File:HC A5-A3-P2.png|100px]]
+|[[File:HC A6-A4-P2.png|100px]]
+|[[File:HC A5-A2-P2-Pr8.png|100px]]
+|[[File:HC A5-P2-P1.png|100px]]
+|}
+
+It is also an element of five four-dimensional [[uniform polychora]]: 
+{|class=wikitable width=500
+|- align=center
+|[[Tesseract]]<br>{{CDD|node_1|4|node|3|node|3|node}}
+|[[Cantellated 16-cell]]<br>{{CDD|node|4|node_1|3|node|3|node_1}}
+|[[Runcinated tesseract]]<br>{{CDD|node_1|4|node|3|node|3|node_1}}
+|[[Cantitruncated 16-cell]]<br>{{CDD|node|4|node_1|3|node_1|3|node_1}}
+|[[Runcitruncated 16-cell]]<br>{{CDD|node_1|4|node|3|node_1|3|node_1}}
+|- align=center
+|[[File:4-cube t0.svg|100px]]
+|[[File:4-cube t13.svg|100px]]
+|[[File:4-cube t03.svg|100px]]
+|[[File:4-cube t123.svg|100px]]
+|[[File:4-cube t023.svg|100px]]
+|}
+
+==Combinatorial cubes==
+A different kind of cube is the ''cube graph'', which is the graph of vertices and edges of the geometrical cube. It is a special case of the [[hypercube graph]].
+
+An extension is the three dimensional ''k''-ary [[Hamming graph]], which for ''k'' = 2 is the cube graph. Graphs of this sort occur in the theory of [[parallel computing|parallel processing]] in computers.
+
+==See also==
+* [[Tesseract]]
+* [[Trapezohedron]]
+
+Miscellaneous cubes
+
+* [[Cube (film)]]
+* [[Emotion classification#Dimensional models of emotion|Lövheim cube of emotion]]
+* [[Gerardus Heymans|Cube of Heymans]]
+* [[Necker Cube]]
+* [[OLAP cube]]
+* [[Prince Rupert's cube]]
+* [[Rubik's Cube]]
+* [[The Cube (game show)]]
+* [[Unit cube]]
+* [[Yoshimoto Cube]]
+
+==References==
+{{reflist}}
+
+==External links==
+*{{mathworld |urlname=Cube |title=Cube}}
+*[http://polyhedra.org/poly/show/1/cube Cube: Interactive Polyhedron Model]*
+*[http://www.mathopenref.com/cubevolume.html Volume of a cube], with interactive animation
+*[http://www.software3d.com/Cube.php Cube] (Robert Webb's site)
+{{Convex polyhedron navigator|state=collapsed}}
+{{Polytopes|state=collapsed}}
+
+[[Category:Platonic solids]]
+[[Category:Prismatoid polyhedra]]
+[[Category:Space-filling polyhedra]]
+[[Category:Volume]]
+[[Category:Zonohedra]]
+[[Category:Elementary shapes]]
+[[Category:Cubes]]

@@ -1,0 +1,315 @@
+{{no epoch}}
+{{Refimprove|date=August 2010}}
+{{Infobox spaceflight
+| name                  = Apollo 9
+| image                 = Gumdrop Meets Spider - GPN-2000-001100.jpg
+| image_caption         = David Scott performs an EVA from Command Module ''Gumdrop'', seen from docked Lunar Module ''Spider''
+| insignia              = Apollo-9-patch.png
+
+| mission_type          = Lunar Module test flight
+| operator              = [[NASA]]<ref name="Orloff">{{cite book |last=Orloff |first=Richard W. |title=Apollo by the Numbers: A Statistical Reference |url=http://history.nasa.gov/SP-4029/SP-4029.htm |accessdate=June 27, 2013 |series=NASA History Series |origyear=First published 2000 |year=2004 |month=September |work=NASA History Division, Office of Policy and Plans |publisher=[[NASA]] |location=Washington, D.C. |isbn=0-16-050631-X |lccn=00-061677 |id=NASA SP-2000-4029 |chapter=Table of Contents |chapterurl=http://history.nasa.gov/SP-4029/Apollo_00g_Table_of_Contents.htm}}</ref>
+| COSPAR_ID             = CSM: 1969-018A<br/>LM: 1969-018C
+| SATCAT                = CSM: 3769<br/>LM: 3771
+| mission_duration      = 10&nbsp;days, 1&nbsp;hours, 54&nbsp;seconds
+| orbits_completed      = 
+
+| spacecraft            = [[Apollo Command/Service Module|Apollo CSM]]-104<br/>[[Apollo Lunar Module|Apollo LM]]-3
+| manufacturer          = CSM: [[Rockwell International|North American Rockwell]]<br/>LM: [[Grumman]]
+| launch_mass           = CSM: {{convert|26801|kg|lb}}<br/>LM: {{convert|14575|kg|lb}}
+| landing_mass          = 
+
+| launch_date           = {{start-date|March 3, 1969, 16:00:00|timezone=yes}}&nbsp;UTC 
+| launch_rocket         = [[Saturn V]] SA-504
+| launch_site           = [[Kennedy Space Center|Kennedy]] [[Kennedy Space Center Launch Complex 39|LC-39A]]
+
+| landing_date          = {{end-date|March 13, 1969, 17:00:54|timezone=yes}}&nbsp;UTC 
+| landing_site          = North Atlantic Ocean<br/>{{coord|23|15|N|67|56|W|type:event|name=Apollo 9 splashdown}}
+| decay_date            = {{nowrap|October 23, 1981 (LM)}}
+
+| orbit_epoch           = 
+| orbit_reference       = [[geocentric orbit|Geocentric]]
+| orbit_regime          = [[Low Earth orbit|Low Earth]]
+| orbit_periapsis       = {{convert|189.5|km|mi|sp=us}} 
+| orbit_apoapsis        = {{convert|192.4|km|mi|sp=us}} 
+| orbit_inclination     = 32.57&nbsp;degrees 
+| orbit_period          = 
+| apsis                 = gee
+
+| crew_size             = 3
+| crew_members          = [[James McDivitt|James A. McDivitt]]<br/>[[David Scott|David R. Scott]]<br/>[[Rusty Schweickart|Russell L. Schweickart]]
+| crew_callsign         = CSM: ''Gumdrop''<br/>LM: ''Spider''
+| crew_EVAs             = 1
+| crew_EVA_duration     = 77&nbsp;minutes
+| crew_photo            = Apollo9 Prime Crew.jpg
+| crew_photo_caption    = Left to right: McDivitt, Scott, Schweickart
+
+| docking               = 
+ {{Infobox spaceflight/Dock
+   | docking_target     = LM
+   | docking_type       = dock
+   | docking_date       = March 3, 1969, 19:01:59&nbsp;UTC
+   | undocking_date     = March 7, 1969, 12:39:06&nbsp;UTC
+   | time_docked        = 
+ }}
+ {{Infobox spaceflight/Dock
+   | docking_target     = LM Ascent Stage
+   | docking_type       = dock
+   | docking_date       = March 7, 1969, 19:02:26&nbsp;UTC
+   | undocking_date     = March 7, 1969, 21:22:45&nbsp;UTC
+   | time_docked        = 
+ }}
+
+| previous_mission      = [[Apollo 8]]
+| next_mission          = [[Apollo 10]]
+| programme             = [[Apollo program|Project Apollo]]<br/><small>Manned missions</small>
+}}
+
+'''Apollo 9''' was the third manned mission in the [[United States]] [[Apollo program|Apollo space program]] and the first flight of the [[Apollo Command/Service Module|Command/Service Module]] (CSM) with the [[Apollo Lunar Module|Lunar Module]] (LM). Its three-person crew, consisting of Commander [[James McDivitt]], Command Module Pilot [[David Scott]], and Lunar Module Pilot [[Rusty Schweickart]], tested several aspects critical to landing on the Moon, including the LM engines, backpack life support systems, navigation systems, and docking maneuvers. The mission was the second manned launch of a [[Saturn V]] [[rocket]].
+
+After launching on March 3, 1969, the crewmen spent ten days in low Earth orbit. They performed the first manned flight of a LM, the first docking and extraction of a LM, two [[Extra-vehicular activity|spacewalks]] (EVA), and the second docking of two manned [[spacecraft]]&mdash;two months after the [[Soviet Union|Soviets]] performed a spacewalk crew transfer between [[Soyuz 4]] and [[Soyuz 5]]. The mission proved the LM worthy of manned spaceflight. Further tests on the [[Apollo 10]] mission would prepare the LM for its ultimate goal, landing on the Moon.
+
+==Crew==
+{{Spaceflight crew
+|terminology      = Astronaut
+|position1        = Commander
+|crew1_up         = [[James McDivitt|James A. McDivitt]]
+|flights1_up      = Second and last
+|position2        = Command Module Pilot
+|crew2_up         = [[David Scott|David R. Scott]]
+|flights2_up      = Second
+|position3        = Lunar Module Pilot
+|crew3_up         = [[Rusty Schweickart|Russell L. Schweickart]]
+|flights3_up      = Only
+|notes            = Like [[Apollo 8]], the crew of Apollo 9 consisted of two [[Project Gemini|Gemini]]<br/>veterans and one rookie.
+}}
+
+===Backup crew===
+{{Spaceflight crew
+|terminology      = Astronaut
+|position1        = Commander
+|crew1_up         = [[Pete Conrad|Charles Conrad, Jr]],
+|position2        = Command Module Pilot
+|crew2_up         = [[Richard F. Gordon, Jr.]]
+|position3        =  Lunar Module Pilot
+|crew3_up         = [[Clifton Williams|Clifton C. Williams]]{{efn|Originally, [[Clifton Williams|Clifton C. Williams]] was the Lunar Module pilot for the backup crew. He died on October 5, 1967, in a [[Northrop T-38 Talon|T-38]] crash. His spot was given to [[Alan Bean|Alan L. Bean]]. Later, when the backup crew flew [[Apollo 12]], a fourth star was added to their mission patch in remembrance of him.}}<br>[[Alan Bean|Alan L. Bean]]
+|notes            = The backup crew became the prime crew on [[Apollo 12]].
+}}
+
+===Support crew===
+* [[Fred Haise|Fred W. Haise, Jr]]
+* [[Jack R. Lousma]]
+* [[Edgar Mitchell|Edgar D. Mitchell]]
+* [[Alfred Worden|Alfred M. Worden]]
+
+===Flight directors===
+* [[Gene Kranz]], White team
+* [[Gerry Griffin]], Gold team
+* Pete Frank, Orange team
+
+==Mission parameters==
+* '''[[Mass]]:''' CSM 26,801&nbsp;kg; LM 14,575&nbsp;kg
+* '''[[Perigee]]:''' 189.5&nbsp;km
+* '''[[Apogee]]:''' 192.4&nbsp;km
+* '''[[Inclination]]:''' 32.57°
+* '''[[Orbital period|Period]]:''' 88.64 min
+
+===LM - CSM docking===
+* '''Undocked''': March 7, 1969 - 12:39:36 [[Coordinated Universal Time|UTC]]
+* '''Re-docked''':March 7, 1969 - 19:02:26 UTC
+
+===EVA===
+* ''Schweickart'' - [[Extra-vehicular activity|EVA]] - LM forward hatch
+** '''Start''': March 6, 1969, 16:45:00 UTC
+** '''End''': March 6, 1969, 17:52:00 UTC
+** '''Duration''': 1 hour, 07 minutes
+* ''Scott'' - Standup EVA - CM side hatch
+** '''Start''': March 6, 1969, 17:01:00 UTC
+** '''End''': March 6, 1969, 18:02:00 UTC
+** '''Duration''': 1 hour, 01 minute
+
+==Original mission profile==
+In April 1966, McDivitt, Scott, and Schweickart were selected as the backup crew to [[Gus Grissom]], [[Edward Higgins White|Ed White]], and [[Roger Chaffee]] for the planned first manned Earth orbital test flight of the Command/Service Module, designated '''[[Apollo 1|AS-204]]''' expected to fly in late 1966. This was to be followed by a second similar flight, '''AS-205''', to be crewed by [[Wally Schirra]], [[Walter Cunningham]], and [[Donn F. Eisele|Donn Eisele]].
+
+However, delays in the CSM development pushed AS-204 into 1967. By December 1966, the original AS-205 mission was cancelled, Schirra's crew was named as Grissom's backup, and McDivitt's crew was promoted to prime crew for a new second mission, to fly the complete [[Apollo (spacecraft)|Apollo spacecraft]], launching the CSM and LM on two separate [[Saturn IB]] vehicles into a low Earth orbit. They immediately began training for this flight, designated '''AS-205/208''', expected to occur in late 1967.<ref>
+{{cite web | title=Apollo Image Gallery: Early Apollo |work=Project Apollo Archive |publisher=Kipp Teague |url=http://www.apolloarchive.com/apollo_gallery.html |accessdate=August 3, 2010}}</ref>
+
+On January 27, 1967, Grissom's crew were conducting a launch-pad test for their planned February 21 mission, which they named [[Apollo 1]], when a fire broke out in the cabin, killing all three men and putting an 18-month hold on the manned program while the [[Apollo Command/Service Module#Command Module (CM)|Command Module]] (CM) was redesigned for safety.
+
+As it turned out, a 1967 launch of AS-205/208 would have been impossible even absent the Apollo 1 accident, as problems with the LM delayed its first unmanned test flight until January 1968. NASA was able to use the 18-month hiatus to catch up with development and unmanned testing of the LM and the Saturn V Moon launch vehicle.
+
+By October 1967, planning for manned flights resumed, with [[Apollo 7]] being the first Earth orbit CSM flight (now known as the '''C mission''') in October 1968 given to Schirra's crew, and McDivitt's mission (now known as the '''D Mission''') following as Apollo 8 in December 1968, using a single Saturn V instead of the two Saturn IBs. This would be followed by a higher Earth orbit flight ('''E Mission'''), to be crewed by [[Frank Borman]], [[Michael Collins (astronaut)|Michael Collins]], and [[William Anders]] in early 1969.
+
+However, continued LM production problems meant that the D Mission would not be able to fly until the spring of 1969, so NASA officials created another mission for Apollo 8 using the Saturn V to launch only the CSM on the first manned flight to orbit the Moon, and the E Mission was cancelled as unnecessary. Since McDivitt's crew had trained for the first LM mission, and he expressed the personal desire to fly it, the Borman and McDivitt crews were swapped, and the D mission became Apollo 9.
+
+The crew swap also affected who would be the first crew to land on the Moon; when the crews for Apollo 8 and 9 were swapped, their backup crews were also swapped. Since the rule of thumb was for backup crews to fly as prime crew three missions later, this put [[Neil Armstrong|Neil Armstrong's]] crew (Borman's backup) in position for the first landing mission [[Apollo 11]] instead of [[Pete Conrad|Pete Conrad's]] crew, who made the second landing on [[Apollo 12]].
+
+==Mission highlights==
+[[File:Apollo-9-Lancering.jpg|thumb|left|Apollo 9 launches from [[Kennedy Space Center]], March 3, 1969]]
+
+Apollo 9 was the first space test of the complete Apollo spacecraft, including the third critical piece of Apollo hardware besides the Command/Service Module and the Saturn V launch vehicle—the Lunar Module. It was also the first [[space rendezvous|space docking]] of two vehicles with an internal crew transfer between them. For ten days, the astronauts put both Apollo spacecraft through their paces in Earth orbit, including an undocking and redocking of the lunar lander with the command vehicle, just as the landing mission crew would perform in lunar orbit. Apollo 9 gave proof that the Apollo spacecraft were up to this critical task, on which the lives of lunar landing crews would depend.
+
+For this and all subsequent Apollo flights, the crews were allowed to name their own spacecraft (the last spacecraft to have been named was [[Gemini 3]]). The gangly LM was named ''Spider'', and the CSM was labeled ''Gumdrop'' because of the Command Module's shape, and also the blue wrapping in which the craft arrived at [[Kennedy Space Center]]. These names were required as radio call signs when the vehicles flew independently.
+
+Schweickart and Scott performed an EVA—Schweickart checked out the new [[Apollo/Skylab A7L|Apollo spacesuit]], the first to have its own life support system rather than being dependent on an umbilical connection to the spacecraft, while Scott filmed him from the Command Module hatch. Schweickart was due to carry out a more extensive set of activities to test the suit, and demonstrate that it was possible for astronauts to perform an EVA from the Lunar Module to the Command Module in an emergency, but as he had been suffering from [[Space adaptation syndrome|space sickness]] the extra tests were scratched.
+
+[[File:Apollo 9 approaches splashdown.jpg|thumb|right|Apollo 9 approaches [[splashdown (spacecraft landing)|splashdown]] in the [[Atlantic Ocean]], March 13, 1969]]
+
+McDivitt and Schweickart later test-flew the LM, and practiced separation and docking maneuvers in Earth orbit. They flew the LM up to {{convert|111|mi|km}} from ''Gumdrop'', using the engine on the descent stage to propel them originally, before jettisoning it and using the ascent stage to return. This test flight represented the first flight of a manned spacecraft that was not equipped to reenter the Earth's atmosphere.
+
+The splashdown point was 23 deg 15 min N, 67 deg 56 min W, 180&nbsp;miles (290&nbsp;km) east of [[The Bahamas]] and within sight of the recovery ship [[USS Guadalcanal (LPH-7)|USS ''Guadalcanal'']]. Apollo 9 was the last spacecraft to splash down in the Atlantic Ocean.
+
+The Command Module was displayed at the Michigan Space and Science Center, [[Jackson, Michigan]], until April 2004 when the center closed.{{Citation needed|date=June 2013}} In May 2004, it was moved to the [[San Diego Air & Space Museum|San Diego Aerospace Museum]] (now named the San Diego Air & Space Museum). The LM ascent stage orbit decayed on October 23, 1981, the LM descent stage (1969-018D) orbit decayed March 22, 1969. The [[S-IVB]] stage [[J-2 (rocket engine)|J-2]] engine was restarted after Lunar Module extraction and propelled the stage into solar orbit by burning to depletion.
+
+The crew sang the song "[[Happy Birthday to You]]" on March 8, 1969.
+
+After the [[translunar injection|insertion]] into trans-Lunar orbit, the [[S-IVB|Saturn IVB]] [[third stage]] became a [[:Category:Derelict satellites in heliocentric orbit|derelict]] [[space debris|object]] where it would continue to [[heliocentric orbit|orbit the Sun]] for many years.   {{asof|2013|09}}, it remains in orbit.<ref name=ha20130923>{{cite web |title=Saturn S-IVB-504N - Satellite Information |url=http://www.heavens-above.com/SatInfo.aspx?satid=3770&lat=0&lng=0&loc=Unspecified&alt=0&tz=UCT |work=Satellite database |publisher=Heavens-Above |accessdate=2013-09-23 }}</ref>
+
+==Mission insignia and spacecraft names==
+The circular patch shows a drawing of a Saturn V rocket with the letters USA on it. To its right, an Apollo CSM is shown next to an LM, with the CSM's nose pointed at the "front door" of the LM rather than at its top docking port. The CSM is trailing rocket fire in a circle. The crew's names are along the top edge of the circle, with APOLLO [[Roman numerals|IX]] at the bottom. The "D" in McDivitt's name is filled with red to mark that this was the "D mission" in the alphabetic sequence of Apollo missions. The patch was designed by Allen Stevens of [[Rockwell International]].<ref>{{cite web|first=Ed |last=Hengeveld |url=http://www.collectspace.com/news/news-052008a.html |title=The man behind the Moon mission patches |publisher=collectSPACE |date=May 20, 2008 |accessdate=July 18, 2009}} "A version of this article was published concurrently in the [[British Interplanetary Society]]'s ''[[Spaceflight (magazine)|Spaceflight]]'' magazine."</ref>
+
+For the first time since the first manned Gemini mission, the astronauts were allowed to name their spacecraft. This came about to avoid confusion when dealing with two separate craft flying at the same time. The crew dubbed the Lunar Module ''Spider'' for its buglike appearance, and the Command Module ''Gumdrop'' because of its shape.
+
+==Summary of maneuvers==
+{| class="wikitable" border="1"
+! T + Time
+! Event
+! Burn Time
+! Delta-Velocity
+! Orbit
+|-
+| T + 00:00:00 || Lift-off || || ||
+|-
+| T + 00:02:14.34 || [[S-IC]] center engine cut-off || 141 s || ||
+|-
+| T + 00:02:42.76 || S-IC engine cut-off || 169 s || ||
+|-
+| T + 00:02:45.16 || [[S-II]] ignition || || ||
+|-
+| T + 00:03:13.5 || S-II skirt separation || || ||
+|-
+| T + 00:03:18.3 || [[Launch escape system|LES]] jettison || || ||
+|-
+| T + 00:08:56.22 || S-II cut-off || || ||
+|-
+| T + 00:08:57 || S-II cutoff + separation, S-IVB ignition || || ||
+|-
+| T + 00:11:04.66 || [[S-IVB]] cutoff + orbital insertion || 127.4 s || ||191.3 × 189.5&nbsp;km
+|-
+| T + 02:41:16 || [[Apollo Command/Service Module|CSM]]/S-IVB separation || || ||
+|-
+| T + 03:01:59.3 || CSM/[[Apollo Lunar Module|LM]] docking || || ||
+|-
+| T + 04:08:09 || Spacecraft/S-IVB separation || || ||
+|-
+| T + 05:59:01.07 || First [[Apollo Command/Service Module#Service Module (SM)|Service Propulsion System]] (SPS) test || 5.1 s || +10.4&nbsp;m/s || 234.1 × 200.7&nbsp;km
+|-
+| T + 22:13:04.07 || Second SPS test || 110 s || +259.2&nbsp;m/s || 351.5 × 199.5&nbsp;km
+|-
+| T + 25:17:39.27 || Third SPS test || 281.6 s || +782.6&nbsp;m/s || 503.4 × 202.6&nbsp;km
+|-
+| T + 28:24:41.37 || Fourth SPS test || 28.2 s || -91.45&nbsp;m/s || 502.8 × 202.4&nbsp;km
+|-
+| T + 49:41:34.46 || Docked DPS test || 369.7 s || -530.1&nbsp;m/s || 499.3 × 202.2&nbsp;km
+|-
+| T + 54:26:12.27 || Fifth SPS test || 43.3 s || -175.6&nbsp;m/s || 239.3 × 229.3&nbsp;km
+|-
+| T + 92:39:36 || CSM/LM undocking || || ||
+|-
+| T + 93:02:54 || CSM separation maneuver || 10.9 s || -1.5&nbsp;m/s ||
+|-
+| T + 93:47:35.4 || LM [[Descent Propulsion System]] (DPS) phasing maneuver || 18.6 s || +27.6&nbsp;m/s || 253.5 × 207&nbsp;km
+|-
+| T + 95:39:08.6 || LM DPS insertion maneuver || 22.2 s || +13.1&nbsp;m/s || 257.2 × 248.2&nbsp;km
+|-
+| T + 96:16:06.54 || LM concentric sequence initiation maneuver/Descent stage jettison || 30.3 s || -12.2&nbsp;m/s || 255.2 × 208.9&nbsp;km
+|-
+| T + 96:58:15 || LM Ascent Propulsion System (APS) constant delta height maneuver || 2.9 s || -12.6&nbsp;m/s || 215.6 × 207.2&nbsp;km
+|-
+| T + 97:57:59 || LM terminal phase finalization maneuver || 34.7 s || +6.8&nbsp;m/s || 232.8 × 208.5&nbsp;km
+|-
+| T + 99:02:26 || CSM/LM docking || || ||
+|-
+| T + 101:22:45 || LM ascent stage jettison || || ||
+|-
+| T + 101:32:44 || Post-jettison CSM separation maneuver || 7.2 s || +0.9&nbsp;m/s || 235.7 × 224.6&nbsp;km
+|-
+| T + 101:53:15.4 || LM APS burn to depletion || 350 s || +1,643.2&nbsp;m/s || 6,934.4 × 230.6&nbsp;km
+|-
+| T + 123:25:06.97 || Sixth SPS test || 1.29 s || -11.5&nbsp;m/s || 222.6 × 195.2&nbsp;km
+|-
+| T + 169:39:00.36 || Seventh SPS test || 25 s || +199.6&nbsp;m/s || 463.4 × 181.1&nbsp;km
+|-
+| T + 240:31:14.84 || Deorbit burn (SPS) || 11.6 s || -99.1&nbsp;m/s || 442.2 × -7.8&nbsp;km
+|-
+| T + 240:36:03.8 ||[[Apollo Command/Service Module#Service Module (SM)|SM]] jettison || || ||
+|-
+| T + 241:00:54 || Splashdown || || ||
+|}
+
+<br style="clear: left"/>
+
+==Pictures==
+<center><gallery>
+File:AS09-19-2919 The lunar module awaits extraction from Apollo 9's S-IVB stage.jpg|The Lunar Module awaits extraction from Apollo 9's S-IVB stage
+Image:Gumdrop Meets Spider - GPN-2000-001100.jpg|David Scott stands in the opened Command Module hatch
+File:Schweickart spacer kosmiczny GPN-2000-001108.jpg|Rusty Schweickart stands on the porch of ''Spider'' during his extravehicular activity on the fourth day of the mission
+Image:Spider_in_Earth_Orbit_-_GPN-2000-001106.jpg|Apollo 9 LM ''Spider''
+Image:Spider_Over_The_Ocean_-_GPN-2000-001109.jpg|LM ''Spider'' over ocean
+File:Lunar Module Ascent Stage - GPN-2000-001110.jpg|The LM ''Spider'' ascent stage on the fifth day of the mission
+</gallery></center>
+
+==Spacecraft location==
+<!-- Deleted image removed: [[File:Apollo 9 on display.png|thumb|Apollo 9 on display at the [[San Diego Air & Space Museum]].]] -->
+The Apollo 9 Command Module ''Gumdrop'' (1969-018A) is on display at the [[San Diego Air & Space Museum]], [[San Diego|San Diego, California]]. Its [[Apollo Command/Service Module#Service Module (SM)|Service Module]] (SM) was jettisoned shortly after the deorbit burn and decayed during reentry of the Command Module.
+
+The ascent stage of LM-3 ''Spider'' (1969-018C) decayed on October 23, 1981.{{cn|date=September 2013}}
+
+The descent stage of LM-3 ''Spider'' (1969-018D) decayed March 22, 1969.{{cn|date=September 2013}}
+
+The upper stage of the Apollo 9 Saturn V, S-IVB-504N, (1969-018B) remains in [[heliocentric orbit|heliocentric]] (solar) orbit {{asof|2013}}.<ref name=ha20130923/>
+
+==See also==
+{{Portal|Spaceflight}}
+* [[Extra-vehicular activity]]
+* [[List of spacewalks and moonwalks 1965–1999]]
+* [[Splashdown (spacecraft landing)|Splashdown]]
+
+==Notes==
+{{Notes|}}
+
+==References==
+{{Include-NASA}}
+{{reflist}}
+
+==Bibliography==
+{{Refbegin}}
+*{{cite book |last=Baker |first=David |title=The History of Manned Space Flight |edition=1st |year=1982 |publisher=Crown Publishers |location=New York |isbn=0-517-54377-X |ref=Baker}}
+{{Refend}}
+
+==External links==
+{{Commons category|Apollo 9}}
+*[http://www.astronautix.com/flights/apollo9.htm "Apollo 9"] at Encyclopedia Astronautica
+*[http://nssdc.gsfc.nasa.gov/nmc/sc-query.html NSSDC Master Catalog] at NASA
+
+'''NASA reports'''
+*[http://history.nasa.gov/alsj/a410/A09_PressKit.pdf Apollo 9 Press Kit] (PDF), NASA, Release No. 69-29, February 23, 1969
+*[http://history.nasa.gov/SP-4012/vol3/table2.37.htm "Table 2-37. Apollo 9 Characteristics"] from ''NASA Historical Data Book: Volume III: Programs and Projects 1969–1978'' by Linda Neuman Ezell, NASA History Series, NASA SP-4012, (1988)
+*{{cite book |title=The Apollo Spacecraft: A Chronology |url=http://www.hq.nasa.gov/office/pao/History/SP-4009/contents.htm#Volume%20IV |accessdate=January 29, 2008 |volume=Volume IV |year=1978 |publisher=NASA |oclc=23818 |id=NASA SP-4009 |chapter=Appendix 6 - Crews and Support for Manned Apollo Flights |chapterurl=http://www.hq.nasa.gov/office/pao/History/SP-4009/v4app6.htm| archiveurl=http://web.archive.org/web/20080205020128/http://www.hq.nasa.gov/office/pao/History/SP-4009/contents.htm |archivedate=February 5, 2008 <!--DASHBot-->| deadurl= no}}
+*[http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19710011038_1971011038.pdf "Apollo 9 flight plan AS-504/CSM-104/LM-3 Final Report"] (PDF) by J. V. Rivers, NASA, February 1969
+*[http://www.hq.nasa.gov/office/pao/History/SP-4009/cover.htm ''The Apollo Spacecraft: A Chronology''] NASA, NASA SP-4009
+*[http://history.nasa.gov/apsr/apsr.htm "Apollo Program Summary Report"] (PDF), NASA, JSC-09423, April 1975
+
+'''Multimedia'''
+*[http://archive.org/details/apollo9_three_to_make_ready ''Apollo 9: Three To Make Ready''] Official NASA documentary film (1969)
+*[http://archive.org/details/Apollo0916mmOnboardFilm1 Apollo 9 16mm onboard film part 1], [http://archive.org/details/Apollo0916mmOnboardFilm2 part 2] raw footage taken from Apollo 9
+*[http://archive.org/details/Apollo9SpaceDuetOfSpidergumdrop ''Apollo 9: The Space Duet of Spider & Gumdrop''] Official NASA documentary film (1969), {{OCLC|7682161}}
+*[http://science.ksc.nasa.gov/mirrors/images/html/as9.htm Apollo 9 images] at NASA'S Kennedy Space Center
+*[http://www.apollotv.net Apollo launch and mission videos] at ApolloTV.net
+
+{{Apollo program}}
+
+{{DEFAULTSORT:Apollo 09}}
+[[Category:Human spaceflights]]
+[[Category:Apollo program]]
+[[Category:1969 in the United States]]
+[[Category:1969 in spaceflight]]

@@ -1,0 +1,103 @@
+In [[mathematics]] and [[computer science]], '''currying''' is the technique of transforming a [[function (mathematics)|function]] that takes multiple [[parameter (computer science)|arguments]] (or a [[tuple]] of arguments) in such a way that it can be called as a chain of functions, each with a single argument ([[partial application]]). It was originated by [[Moses Schönfinkel]]<ref>{{cite journal|first=Christopher|last=Strachey|authorlink=Christopher Strachey|title=Fundamental Concepts in Programming Languages|journal=[[Higher-Order and Symbolic Computation]]|volume=13|pages=11–49|year=2000|quote=There is a device originated by Schönfinkel, for reducing operators with several operands to the successive application of single operand operators.|doi=10.1023/A:1010000313106|ref=harv}} (Reprinted lecture notes from 1967.)</ref>
+and later worked out by [[Haskell Curry]].<ref>Henk Barendregt, Erik Barendsen, "[ftp://ftp.cs.ru.nl/pub/CompMath.Found/lambda.pdf Introduction to Lambda Calculus]", March 2000, page 8.</ref><ref>{{cite book|last=Curry|first=Haskell|coauthors=Feys, Robert|title=Combinatory logic|publisher=North-Holland Publishing Company |volume=I|edition=2|year=1958|location=Amsterdam, Netherlands}}</ref> Because of this, some say it would be [[Stigler's law of eponymy|more correct to name it]] ''schönfinkeling''.<ref>{{cite journal|first=John C.|last=Reynolds|authorlink=John C. Reynolds|title=Definitional Interpreters for Higher-Order Programming Languages |journal=[[Higher-Order and Symbolic Computation]]|volume=11|issue=4|page=374|doi=10.1023/A:1010027404223|quote=In the last line we have used a trick called Currying (after the logician H. Curry) to solve the problem of introducing a binary operation into a language where all functions must accept a single argument. (The referee comments that although “Currying” is tastier, “Schönfinkeling” might be more accurate.)|year=1998|ref=harv}}</ref><ref>Kenneth Slonneger and Barry L. Kurtz. ''Formal Syntax and Semantics of Programming Languages''. p. 144.</ref>
+
+'''Uncurrying''' is the [[Duality (mathematics)|dual]] transformation to currying, and can be seen as a form of [[defunctionalization]].  It takes a function ''f''('''x''') which returns another function ''g''('''y''') as a result, and yields a new function {{nowrap|1=''f''&prime;('''x''','''y''')}} which takes a number of additional parameters and applies them to the function returned by function ''f''.  The process can be iterated if necessary.
+
+==Motivation==
+Currying is similar to the process of calculating a function of multiple variables for some given values on paper.
+
+For example, given the function ''f(x,y)'' = ''y / x'':
+
+:To evaluate ''f''(2,3), first replace ''x'' with 2.
+
+:Since the result is a function of ''y'', this function ''g''(''y'') can be defined as ''g''(''y'') = ''f''(2,''y'') = ''y''/2.
+
+:Next, replace the ''y'' argument with 3, producing ''g''(3) = ''f''(2,3) = 3/2.
+
+On paper, using classical notation, this is usually done all in one step. However, each argument can be replaced sequentially as well. Each replacement results in a function taking exactly one argument. This produces a chain of functions as in [[lambda calculus]], and multi-argument functions are usually represented in curried form.
+
+Some [[programming language]]s almost always use curried functions to achieve multiple arguments; notable examples are [[ML programming language|ML]] and [[Haskell (programming language)|Haskell]], where in both cases all functions have exactly one argument.
+
+If we let ''f'' be a function
+:<math>f(x,y) = \frac{y}{x}</math>
+then the function ''h'' where
+:<math>h(x) = y \mapsto f(x,y)</math>
+is a curried version of <math>f</math>. Here, <math>\scriptstyle y \mapsto z</math> is a function that maps an argument ''y'' to result ''z''. In particular,
+:<math>g(y) = h(2) = y \mapsto f(2,y)</math>
+is the curried equivalent of the example above.  Note, however, that currying, while similar, [[#Contrast with partial function application|is not the same operation as partial function application]].
+
+== Definition ==
+Given a function ''f'' of type <math>\scriptstyle f \colon (X \times Y) \to Z </math>, '''currying''' it makes a function <math>\scriptstyle \text{curry}(f) \colon X \to (Y \to Z) </math>. That is, <math>\scriptstyle \text{curry}(f) </math> takes an argument of type <math>\scriptstyle X </math> and returns a function of type <math>\scriptstyle Y \to Z </math>. '''Uncurrying''' is the reverse transformation, and is most easily understood in terms of its right adjoint, [[apply]].
+
+The → operator is often considered [[right-associative]], so the curried function type <math>\scriptstyle X \to (Y \to Z)</math> is often written as <math>\scriptstyle X \to Y \to Z</math>.  Conversely,  [[function application]] is considered to be left-associative, so that <math>\scriptstyle f \; \langle x, y \rangle</math> is equivalent to <math>\scriptstyle\text{curry}(f) \; x \; y</math>.
+
+Curried functions may be used in any language that supports [[closure (computer science)|closure]]s; however, uncurried functions are generally preferred for efficiency reasons, since the overhead of partial application and closure creation can then be avoided for most function calls.
+
+== Mathematical view ==
+In [[theoretical computer science]], currying provides a way to study functions with multiple arguments in very simple theoretical models such as the [[lambda calculus]] in which functions only take a single argument.
+
+In a set-theoretic paradigm, currying is the natural correspondence between the set <math>\scriptstyle A^{B\times C}</math> of functions from <math>\scriptstyle B\times C</math> to <math>A</math>, and the set <math>\scriptstyle\left(A^C\right)^B</math> of functions from <math>\scriptstyle B</math> to the set of functions from <math>\scriptstyle C</math> to <math>\scriptstyle A</math>.  In [[category theory]], currying can be found in the [[universal property]] of an [[exponential object]], which gives rise to the following adjunction in [[cartesian closed category|cartesian closed categories]]: There is a [[Natural transformation|natural]] [[isomorphism]] between the [[morphism (category theory)|morphism]]s from a [[product (category theory)|binary product]] <math>\scriptstyle f \colon (X \times Y) \to Z </math> and the morphisms to an exponential object <math>\scriptstyle g \colon X \to Z^Y </math>.  In other words, currying is the statement that [[Product (category theory)|product]] and [[Hom functor|Hom]] are [[adjoint functors]]; that is, there is a [[natural transformation]]: 
+:<math> \hom(A\times B, C) \cong \hom(A, C^B) .</math>
+
+This is the key property of being a [[Cartesian closed category]], and more generally, a [[closed monoidal category]].<ref>{{nlab|id=currying|title=Currying}}</ref>  The latter, though more rarely discussed, is interesting, as it is the suitable setting for [[quantum computation]],<ref>Samson Abramsky and Bob Coecke, "A Categorical Semantics for Quantum Protocols", "[http://arxiv.org/abs/quantph/0402130/].</ref> whereas the former is sufficient for classical logic. The difference is that the [[Cartesian product]] can be interpreted simply as a pair of items (or a list), whereas the [[tensor product]], used to define a [[monoidal category]], is suitable for describing [[entangled quantum states]].<ref>John c. Baez and Mike Stay, "[http://math.ucr.edu/home/baez/rosetta/rose3.pdf Physics, Topology, Logic and Computation: A Rosetta Stone]", (2009) [http://arxiv.org/abs/0903.0340/ ArXiv 0903.0340] in ''New Structures for Physics'', ed. Bob Coecke, ''Lecture Notes in Physics'' vol. '''813''', Springer, Berlin, 2011, pp. 95-174.</ref>
+
+Under the [[Curry–Howard correspondence]], the existence of currying and uncurrying is equivalent to the logical theorem <math>\scriptstyle (A \and B) \to C \Leftrightarrow A \to (B \to C)</math>, as [[tuple]]s ([[product type]]) corresponds to conjunction in logic, and function type corresponds to implication.
+
+Curry is a [[continuous function]] in the [[Scott topology]].<ref>{{cite book |last1=Barendregt |first1=H.P. |authorlink1=Henk Barendregt |title=The Lambda Calculus |year=1984 |publisher=North-Holland |isbn=0-444-87508-5}} ''(See theorems 1.2.13, 1.2.14)''</ref>
+
+== Naming ==
+The name "currying", coined by [[Christopher Strachey]] in 1967, is a reference to logician [[Haskell Curry]].  The alternative name "Schönfinkelisation" has been proposed as a reference to [[Moses Schönfinkel]].<ref>I. Heim and A. Kratzer (1998). ''Semantics in Generative Grammar''. Blackwell.</ref>
+
+== Contrast with partial function application ==
+{{main|Partial application}}
+Currying and partial function application are often conflated.<ref>[http://www.uncarved.com/blog/not_currying.mrk Partial Function Application is not Currying]</ref>  One of the significant differences between the two is that a call to a partially applied function returns the result right away, not another function down the currying chain; this distinction can be illustrated clearly for functions whose [[arity]] is greater than two.<ref>[http://slid.es/gsklee/functional-programming-in-5-minutes Functional Programming in 5 Minutes]</ref>
+
+Given a function of type <math>\scriptstyle f \colon (X \times Y \times Z) \to N </math>, currying produces <math>\scriptstyle \text{curry}(f) \colon X \to (Y \to (Z \to N)) </math>.  That is, while an evaluation of the first function might be represented as <math>\scriptstyle f(1, 2, 3)</math>, evaluation of the curried function would be represented as <math>\scriptstyle f_\text{curried}(1)(2)(3)</math>, applying each argument in turn to a single-argument function returned by the previous invocation.  Note that after calling <math>\scriptstyle f_\text{curried}(1)</math>, we are left with a function that takes a single argument and returns another function, not a function that takes two arguments.
+
+In contrast, '''partial function application''' refers to the process of fixing a number of arguments to a function, producing another function of smaller arity.  Given the definition of <math>\scriptstyle f</math> above, we might fix (or 'bind') the first argument, producing a function of type <math>\scriptstyle\text{partial}(f) \colon (Y \times Z) \to N</math>.  Evaluation of this function might be represented as <math>\scriptstyle f_\text{partial}(2, 3)</math>.  Note that the result of partial function application in this case is a function that takes two arguments.
+
+Intuitively, partial function application says "if you fix the first [[parameter (computer science)|argument]]s of the function, you get a function of the remaining arguments". For example, if function ''div'' stands for the division operation ''x''/''y'', then ''div'' with the parameter ''x'' fixed at 1 (i.e., ''div'' 1) is another function: the same as the function ''inv'' that returns the multiplicative inverse of its argument, defined by ''inv''(''y'') =&nbsp;1/''y''.
+
+The practical motivation for partial application is that very often the functions obtained by supplying some but not all of the arguments to a function are useful; for example, many languages have a function or operator similar to <code>plus_one</code>. Partial application makes it easy to define these functions, for example by creating a function that represents the addition operator with 1 bound as its first argument.
+
+== See also ==
+* [[Lazy evaluation]]
+* [[Closure (computer science)]]
+* [[smn theorem|s<sub>mn</sub> theorem]]
+* [[Closed monoidal category]]
+
+== Notes ==
+{{reflist|2}}
+
+== References ==
+* {{cite journal|last=Schönfinkel|first=Moses|title=Uber die Bausteine der mathematischen Logik|journal=[[Math. Ann.]]|volume=92|year=1924|pages=305–316|doi=10.1007/BF01448013|issue=3–4|ref=harv}}
+* {{Cite journal
+  | last = Heim
+  | first = Irene
+  | author-link = 
+  | last2 = Kratzer
+  | first2 = Angelika
+  | author2-link = 
+  | title = Semantics in a Generative Grammar
+  | place = Malden
+  | publisher = Blackwall Publishers
+  | year = 1998
+  | volume = 
+  | edition = 
+  | url =
+  | doi = 
+  | id = 
+  | isbn =
+  | ref = harv
+  | postscript = <!-- Bot inserted parameter. Either remove it; or change its value to "." for the cite to end in a ".", as necessary. -->{{inconsistent citations}} }}
+
+== External links ==
+{{Wiktionary|currying}}
+*[http://www.cs.nott.ac.uk/~gmh/faq.html#currying Frequently Asked Questions for comp.lang.functional: Currying] by [[Graham Hutton]]
+*[http://c2.com/cgi/wiki?CurryingSchonfinkelling Currying Schonfinkelling] at the [[Portland Pattern Repository]]
+*[http://lambda-the-ultimate.org/node/2266 Currying != Generalized Partial Application!] - post at Lambda-the-Ultimate.org
+
+[[Category:Higher-order functions]]
+[[Category:Functional programming]]
+[[Category:Lambda calculus]]
+[[Category:Articles with example Java code]]

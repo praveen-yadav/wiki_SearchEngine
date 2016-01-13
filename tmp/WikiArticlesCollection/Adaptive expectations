@@ -1,0 +1,31 @@
+{{no footnotes|date=January 2013}}
+{{Economics sidebar}}
+In [[economics]], '''adaptive expectations''' is a hypothesized process by which people form their expectations about what will happen in the future based on what has happened in the past.  For example, if inflation has been higher than expected in the past, people would revise expectations for the future.
+
+One simple version of adaptive expectations is stated in the following equation, where <math>p^e</math> is the next year's rate of inflation that is currently expected; <math>p^e_{-1}</math>is this year's rate of inflation that was expected last year; and <math>p</math> is this year's actual rate of inflation:
+
+::<math>p^e = p^{e}_{-1} + \lambda (p - p^{e}_{-1})</math>
+
+where <math>\lambda</math> is between 0 and 1. This says that current expectations of future inflation reflect past expectations and an "error-adjustment" term, in which current expectations are raised (or lowered) according to the gap between actual inflation and previous expectations.  This error-adjustment is also called "''partial adjustment''."
+
+The theory of adaptive expectations can be applied to all previous periods so that current inflationary expectations equal:
+
+::<math>p^e = (1 - \lambda) \sum_{j = 0}^{\infty} (\lambda^j p_j)</math>
+
+where <math>p_j</math> equals actual inflation <math>j</math> years in the past. Thus, current expected inflation reflects a weighted average of all past inflation, where the weights get smaller and smaller as we move further in the past.
+
+Once a forecasting error is made by agents, due to a stochastic shock, they will be unable to correctly forecast the price level again even if the price level experiences no further shocks since they only ever incorporate part of their errors. The backward nature of expectation formulation and the resultant systematic errors made by agents (see [[Cobweb model]]) was unsatisfactory to economists such as [[John Muth]], who was pivotal in the development of an alternative model of how expectations are formed, called [[rational expectations]]. This has largely replaced adaptive expectations in macroeconomic theory since its assumption of optimality of expectations is consistent with economic theory.
+
+==See also==
+*[[Rational Expectations]]
+*[[Policy Ineffectiveness Proposition]]
+*[[Self-fulfilling prophecy]]
+*[[Problem of induction]]
+
+==References==
+*George W. Evans and Seppo Honkapohja (2001), ''Learning and Expectations in Macroeconomics''. Princeton University Press, ISBN 978-0-691-04921-2.
+
+{{economics}}
+
+{{DEFAULTSORT:Adaptive Expectations}}
+[[Category:Macroeconomics]]

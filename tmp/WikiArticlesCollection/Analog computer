@@ -1,0 +1,236 @@
+[[Image:Bifnordennomenclature.jpg|thumb|200px|A page from the ''Bombardier's Information File'' (BIF) that describes the components and controls of the [[Norden bombsight]]. The '''Norden bombsight''' was a highly sophisticated optical/mechanical analog computer used by the United States Army Air Force during [[World War II]], the [[Korean War]], and the [[Vietnam War]] to aid the pilot of a [[bomber]] aircraft in dropping [[bomb]]s accurately.]]
+
+An '''analog computer''' is a form of [[computer]] that uses the continuously changeable aspects of physical phenomena such as [[Electrical network|electrical]], [[Mechanics|mechanical]], or [[hydraulic]] quantities to [[Scientific modelling|model]] the problem being solved. In contrast, [[digital computer]]s represent varying quantities symbolically, as their numerical values change. As an analog computer does not use discrete values, but rather continuous values, processes cannot be reliably repeated with exact equivalence, as they can with [[Turing Machine|Turing machines]]. Analog computers do not suffer from the [[quantization noise]] inherent in digital computers, but are limited instead by [[Noise (electronics)|analog noise]].
+
+Analog computers were widely used in scientific and industrial applications where digital computers of the time lacked sufficient performance. Analog computers can have a very wide range of complexity. [[Slide rule]]s and [[nomograph]]s are the simplest, while naval gunfire control computers and large hybrid digital/analog computers were among the most complicated. Systems for [[process control]] and [[protective relay]]s used analog computation to perform control and protective functions.
+
+==Setup==
+Setting up an analog computer required scale factors to be chosen, along with initial conditions—that is, starting values. Another essential was creating the required network of interconnections between computing elements. Sometimes it was necessary to re-think the structure of the problem so that the computer would function satisfactorily. No variables could be allowed to exceed the computer's limits, and differentiation was to be avoided, typically by rearranging the "network" of interconnects, using integrators in a different sense.
+
+Running an electronic analog computer, assuming a satisfactory setup, started with the computer held with some variables fixed at their initial values. Moving a switch released the holds and permitted the problem to run. In some instances, the computer could, after a certain running time interval, repeatedly return to the initial-conditions state to reset the problem, and run it again.
+
+==Timeline of analog computers==
+
+===Precursors===
+This is a list of examples of early computation devices which are considered to be precursors of the modern computers. Some of them may even have been dubbed as 'computers' by the press, although they may fail to fit the modern definitions.
+
+The [[Antikythera mechanism]] is believed to be the earliest mechanical analog "computer", according to [[Derek J. de Solla Price]].<ref>[http://www.antikythera-mechanism.gr/project/general/the-project.html ''The Antikythera Mechanism Research Project''], The Antikythera Mechanism Research Project. Retrieved 1 July 2007.</ref> It was designed to calculate astronomical positions. It was discovered in 1901 in the [[Antikythera wreck]] off the Greek island of [[Antikythera]], between [[Kythera]] and [[Crete]], and has been dated to ''circa'' 100 BC. Devices of a level of complexity comparable to that of the Antikythera mechanism would not reappear until a thousand years later.
+
+Many mechanical aids to calculation and measurement were constructed for astronomical and navigation use. 
+The [[planisphere]] was a [[star chart]] invented by Abū Rayhān al-Bīrūnī in the early 11th century.<ref name=Wiet>G. Wiet, V. Elisseeff, P. Wolff, J. Naudu (1975). ''History of Mankind, Vol 3: The Great medieval Civilisations'', p. 649. George Allen & Unwin Ltd, [[UNESCO]].</ref> The [[astrolabe]] was invented in the [[Hellenistic civilization|Hellenistic world]] in either the 1st or 2nd centuries BC and is often attributed to [[Hipparchus]]. A combination of the planisphere and [[dioptra]], the astrolabe was effectively an analog computer capable of working out several different kinds of problems in [[spherical astronomy]]. An astrolabe incorporating a mechanical [[calendar]] computer <ref>Fuat Sezgin "Catalogue of the Exhibition of the Institute for the History of Arabic-Islamic Science (at the Johann Wolfgang Goethe University", Frankfurt, Germany) Frankfurt Book Fair 2004, p.35 & 38.</ref><ref>François Charette, Archaeology: High tech from Ancient Greece, Nature 444, 551-552(30 November 2006), doi:10.1038/444551a [http://www.nature.com/nature/journal/v444/n7119/fig_tab/444551a_F2.html]</ref> and [[gear]]-wheels was invented by Abi Bakr of [[Isfahan]], [[Persia]] in 1235.<ref>Silvio A. Bedini, Francis R. Maddison (1966). "Mechanical Universe: The Astrarium of Giovanni de' Dondi", ''Transactions of the American Philosophical Society'' '''56''' (5), p. 1-69.</ref> [[Abū Rayhān al-Bīrūnī]] invented the first mechanical geared [[lunisolar calendar]] astrolabe,<ref>D. De S. Price (1984). "A History of Calculating Machines", ''IEEE Micro'' '''4''' (1), p. 22-52.</ref> an early fixed-[[wire]]d knowledge processing [[machine]]<ref name=Oren>[[Tuncer Őren]] (2001). "Advances in Computer and Information Sciences: From Abacus to Holonic Agents", ''Turk J Elec Engin'' '''9''' (1), p. 63-70 [64].</ref> with a [[gear train]] and gear-wheels,<ref>[[Donald Routledge Hill]] (1985). "Al-Biruni's mechanical calendar", ''Annals of Science'' '''42''', p. 139-163.</ref> ''circa'' 1000 AD.
+
+The [[Sector (instrument)|sector]], a calculating instrument used for solving problems in proportion, trigonometry, multiplication and division, and for various functions, such as squares and cube roots, was developed in the late 16th century and found application in gunnery, surveying and navigation.
+
+The [[planimeter]] was a manual instrument to calculate the area of a closed figure by tracing over it with a mechanical linkage.
+
+[[Image:Sliderule 2005.png|thumb|A slide rule]]
+The [[slide rule]] was invented around 1620–1630, shortly after the publication of the concept of the [[logarithm]].  It is a hand-operated analog computer for doing multiplication and division. As slide rule development progressed, added scales provided reciprocals, squares and square roots, cubes and cube roots, as well as [[transcendental function]]s such as logarithms and exponentials, circular and hyperbolic trigonometry and other [[Function (mathematics)|functions]]. Aviation is one of the few fields where slide rules are still in widespread use, particularly for solving time-distance problems in light aircraft.
+
+The [[tide-predicting machine]] invented by [[William Thomson, 1st Baron Kelvin|Sir William Thomson]] in 1872 was of great utility to navigation in shallow waters. It used a system of pulleys and wires to automatically calculate predicted tide levels for a set period at a particular location.
+
+The [[differential analyser]], a mechanical analog computer designed to solve [[differential equations]] by [[integral|integration]], using wheel-and-disc mechanisms to perform the integration. In 1876 [[James Thomson (engineer)|Lord Kelvin]] had already discussed the possible construction of such calculators, but he had been stymied by the limited output torque of the [[ball-and-disk integrator]]s.<ref>Ray Girvan, [http://www.scientific-computing.com/scwmayjun03computingmachines.html "The revealed grace of the mechanism: computing after Babbage"], ''Scientific Computing World'', May/June 2003</ref> In a differential analyzer, the output of one integrator drove the input of the next integrator, or a graphing output. The [[torque amplifier]] was the advance that allowed these machines to work. Starting in the 1920s, [[Vannevar Bush]] and others developed mechanical differential analyzers.
+
+===Modern era===
+[[File:Heathkit Analog Computer.jpg|thumb| Heathkit EC-1 Educational Analog Computer]]
+By 1912 [[Arthur Pollen]] had developed an electrically driven mechanical analog computer for [[fire-control system]]s, based on the differential analyser. It was used by the [[Imperial Russian Navy]] in [[World War I]].{{Citation needed|date=October 2008}}
+
+Starting in 1929, [[Network analyzer (AC power)|AC network analyzers]] were constructed to solve calculation problems related to electrical power systems that were too large to solve with [[numerical method]]s at the time.<ref>Thomas Parke Hughes ''Networks of power: electrification in Western society, 1880-1930'' JHU Press, 1993 ISBN 0-8018-4614-5 page 376</ref> These were essentially scale models of the electrical properties of the full-size system. Since network analyzers could handle problems too large for analytic methods or hand computation, they were also used to solve problems in nuclear physics and in the design of structures. More than 50 large network analyzers were built by the end of the 1950s.
+
+[[World War II]] era gun [[Director (military)|directors]], [[gun data computer]]s, and [[bomb sight]]s used mechanical analog computers. Mechanical analog computers were very important in [[Fire control system|gun fire control]] in World War II, The Korean War and well past the Vietnam War; they were made in significant numbers.
+
+The [[FERMIAC]] was an analog computer invented by physicist Enrico Fermi in 1947 to aid in his studies of neutron transport.<ref>Metropolis, N. [http://www.fas.org/sgp/othergov/doe/lanl/pubs/00326866.pdf "The Beginning of the Monte Carlo Method."] Los Alamos Science, No. 15, p. 125</ref> [[Project Cyclone]] was an analog computer developed by Reeves in 1950 for the analysis and design of dynamic systems.<ref>Small, J. S. "The analogue alternative: The electronic analogue computer in Britain and the USA, 1930-1975" Psychology Press, 2001, p. 90</ref> [[Project Typhoon]] was an analog computer developed by RCA in 1952. It consisted of over 4000 electron tubes and used 100 dials and 6000 plug-in connectors to program.<ref>Small, J. S. "The analogue alternative: The electronic analogue computer in Britain and the USA, 1930-1975" Psychology Press, 2001, p. 93</ref> The [[MONIAC Computer]] was a hydraulic model of a national economy first unveiled in 1949.{{Citation needed|date=October 2008}}
+
+[[Computer Engineering Associates]] was spun out of [[Caltech]] in 1950 to provide commercial services using the "Direct Analogy Electric Analog Computer" ("the largest and most impressive general-purpose analyzer facility for the solution of field problems") developed there by Gilbert D. McCann, Charles H. Wilts, and [[Bart N. Locanthi|Bart Locanthi]].<ref>[http://www.me.caltech.edu/centennial/history/nastran.htm Caltech NASTRAN history]</ref><ref>[http://books.google.com/books?id=X0UYAAAAIAAJ&q=caltech+analog-computer+intitle:analog&dq=caltech+analog-computer+intitle:analog&as_brr=0&ei=sgbuRpeoJIfmpwL0rZi6Dw&pgis=1 ''Analog Simulation: Solution of Field Problems'']</ref>
+
+Educational analog computers illustrated the principles of analog calculation. The [[Heathkit]] [[Heathkit EC-1|EC-1]], a $199 educational analog computer was made by the Heath Company, USA c. 1960.<ref>{{cite book|last=Petersen|first=Julie K.|title=Fiber optics illustrated dictionary|publisher=CRC Press|year=2003|page=441|isbn= 0-8493-1349-X}}</ref> It was programmed using patch cords that connected nine operational amplifiers and other components<ref>{{cite web|url=http://www.computerhistory.org/VirtualVisibleStorage/artifact_main.php?tax_id=01.03.05.00|title=Heathkit EC - 1 Educational Analog Computer|publisher=Computer History Museum|accessdate=9 May 2010| archiveurl= http://web.archive.org/web/20100520214445/http://www.computerhistory.org/VirtualVisibleStorage/artifact_main.php?tax_id=01.03.05.00| archivedate= 20 May 2010 <!--DASHBot-->| deadurl= no}}</ref> General Electric also marketed an "educational" analog computer kit of a simple design in the early 1960s consisting of a two transistor tone generator and three potentiometers wired such that the frequency of the oscillator was nulled when the potentiometer dials were positioned by hand to satisfy an equation. The relative resistance of the potentiometer was then equivalent to the formula of the equation being solved. Multiplication or division could be performed depending on which dials were considered inputs and which was the output. Accuracy and resolution was limited and a simple slide rule was more accurate, however, the unit did demonstrate the basic principle.
+
+In industrial [[process control]], thousands of analog loop controllers were used to automatically regulate temperature, flow, pressure, or other process conditions. The technology of these controllers ranged from purely mechanical integrators, through vacuum-tube and solid-state devices, to emulation of analog controllers by microprocessors.
+
+==Electronic analog computers==
+[[Image:AKAT-1.JPG|thumb|250px|Polish analog computer [[AKAT-1]]]]
+
+The similarity between linear mechanical components, such as [[spring (device)|spring]]s and [[dashpot]]s (viscous-fluid dampers), and electrical components, such as [[capacitor]]s, [[inductor]]s, and [[resistor]]s is striking in terms of mathematics. They can be modeled using equations of the same form.
+
+However, the difference between these systems is what makes analog computing useful. If one considers a simple mass-spring system, constructing the physical system would require making or modifying the springs and masses. This would be followed by attaching them to each other and an appropriate anchor, collecting test equipment with the appropriate input range, and finally, taking measurements. In more complicated cases, such as suspensions for racing cars, experimental construction, modification, and testing is not so simple nor inexpensive.
+
+The electrical equivalent can be constructed with a few [[operational amplifier]]s (Op amps) and some passive linear components; all measurements can be taken directly with an [[oscilloscope]]. In the circuit, the (simulated) 'stiffness of the spring', for instance, can be changed by adjusting a [[potentiometer]]. The electrical system is an analogy to the physical system, hence the name, but it is less expensive to construct, generally safer, and typically much easier to modify.
+
+As well, an electronic circuit can typically operate at higher frequencies than the system being simulated. This allows the simulation to run faster than real time (which could, in some instances, be hours, weeks, or longer). Experienced users of electronic analog computers said that they offered a comparatively intimate control and understanding of the problem, relative to digital simulations.
+
+The drawback of the mechanical-electrical analogy is that electronics are limited by the range over which the variables may vary. This is called [[dynamic range]]. They are also limited by [[noise (physics)|noise levels]]. Floating-point digital calculations have comparatively huge dynamic range (good modern handheld scientific/engineering calculators have exponents of 500).
+
+These electric circuits can also easily perform a wide variety of simulations. For example, [[voltage]] can simulate [[water pressure]] and [[electric current]] can simulate [[rate of flow]] in terms of cubic metres per second (in fact, given the proper scale factors, all that is required would be a stable resistor, in that case). Given flow rate and accumulated volume of liquid, a simple integrator provides the latter; both variables are voltages. In practice, current was rarely used in electronic analog computers, because voltage is much easier to work with.
+
+Analog computers are especially well-suited to representing situations described by differential equations. Occasionally, they were used when a differential equation proved very difficult to solve by traditional means.
+
+The accuracy of an analog computer is limited by its computing elements as well as quality of the internal power and electrical interconnections. The precision of the analog computer readout was limited chiefly by the precision of the readout equipment used, generally three or four significant figures. The precision of a digital computer is limited by the word size; [[arbitrary-precision arithmetic]], while relatively slow, provides any practical degree of precision that might be needed.
+
+==Analog-digital hybrid computers==
+There is an intermediate device, a [[hybrid computer|'hybrid' computer]], in which an analog output is converted into  [[Numerical digit|digits]]. The information then can be sent into a standard digital computer for further computation. Because of their ease of use and because of technological breakthroughs in digital computers in the early 70s, the analog-digital hybrids were replacing the analog-only systems.
+
+Hybrid computers are used to obtain a very [[accurate]] but not very [[Accuracy and precision|mathematically precise]] 'seed' value, using an analog computer front-end, which value is then fed into a digital computer, using an [[iterative]] process to achieve the final desired degree of [[Arithmetic precision|precision]]. With a three or four digit precision, highly accurate numerical seed, the total computation time necessary to reach the desired precision is dramatically reduced, since many fewer digital iterations are required (and the analog computer front end reaches its result almost instantaneously). Or, for example, the analog computer might be used to solve a non-analytic differential equation problem for use at some stage of an overall computation (where precision is not very important). In any case, the hybrid computer is usually substantially faster than a digital computer, but can supply a far more precise computation than an analog computer. It is useful for [[real-time computing|real-time]] applications requiring such a combination (e.g., a high frequency [[phased-array radar]] or a weather system computation).
+[[Image:ELWAT.jpg|thumb|300px|Polish Analog computer [[ELWAT]].]]
+
+== Implementations ==
+{{unreferenced section|date=March 2013}}
+
+=== Electronic analog computers ===
+Electronic analog computers typically have front panels with numerous jacks (single-contact sockets) that permit patch cords (flexible wires with plugs at both ends) to create the interconnections which define the problem setup. In addition, there are precision high-resolution potentiometers (variable resistors) for setting up (and, when needed, varying) scale factors. In addition, there is likely to be a zero-center analog pointer-type meter for modest-accuracy voltage measurement. Stable, accurate voltage sources provide known magnitudes.
+
+Typical electronic analog computers contain anywhere from a few to a hundred or more [[operational amplifier]]s ("op amps"), named because they perform mathematical operations. Op amps are a particular type of feedback amplifier with very high gain and stable input (low and stable offset). They are always used with precision feedback components that, in operation, all but cancel out the currents arriving from input components. The majority of op amps in a representative setup are summing amplifiers, which add and subtract analog voltages, providing the result at their output jacks. As well, op amps with capacitor feedback are usually included in a setup; they integrate the sum of their inputs with respect to time.
+
+Integrating with respect to another variable is the nearly exclusive province of mechanical analog integrators; it is almost never done in electronic analog computers. However, given that a problem solution does not change with time, time can serve as one of the variables.
+
+Other computing elements include analog multipliers, nonlinear function generators, and analog comparators.
+
+Electrical elements such as inductors and capacitors used in electrical analog computers had to be carefully manufactured to reduce non-ideal effects.  For example, in the construction of [[Network analyzer (AC power)|AC power network analyzers]], one motive for using higher frequencies for the calculator (instead of the actual power frequency) was that higher-quality inductors could be more easily made. Many general-purpose analog computers avoided the use of inductors entirely, re-casting the problem in a form that could be solved using only resistive and capacitive elements, since high-quality capacitors are relatively easy to make.
+
+The use of electrical properties in analog computers means that calculations are normally performed in [[real-time computing|real time]] (or faster), at a speed determined mostly by the frequency response of the operational amplifiers and other computing elements. In the history of electronic analog computers, there were some special high-speed types.
+
+[[Nonlinear]] functions and calculations can be constructed to a limited precision (three or four digits) by designing [[function generator]]s — special circuits of various combinations of resistors and diodes to provide the nonlinearity. Typically, as the input voltage increases, progressively more diodes conduct.
+
+When compensated for temperature, the forward voltage drop of a transistor's base-emitter junction can provide a usably accurate logarithmic or exponential function. Op amps scale the output voltage so that it is usable with the rest of the computer.
+
+Any physical process which models some computation can be interpreted as an analog computer. Some examples, invented for the purpose of illustrating the concept of analog computation, include using a bundle of [[spaghetti]] as [[Spaghetti sort|a model of ''sorting numbers'']]; a board, a set of nails, and a rubber band as a model of finding the ''[[convex hull]] of a set of points''; and strings tied together as a model of ''finding the shortest path in a network''. These are all described ''in'' A.K. Dewdney (see [[#References|citation]] below).
+
+=== Mechanical analog computers ===
+While a wide variety of mechanisms have been developed throughout history, some stand out because of their theoretical importance, or because they were manufactured in significant quantities.
+
+Most practical mechanical analog computers of any significant complexity used rotating shafts to carry variables from one mechanism to another. Cables and pulleys  were used in a Fourier synthesizer, a [[tide-predicting machine]], which summed the individual harmonic components. Another category, not nearly as well known, used rotating shafts only for input and output, with precision racks and pinions. The racks were connected to linkages that performed the computation. At least one US Naval sonar fire control computer of the later 1950s, made by Librascope, was of this type, as was the principal computer in the Mk. 56 Gun Fire Control System.
+
+Online, there is a remarkably clear illustrated reference (OP 1140) that describes <ref>[http://hnsa.org/doc/op1140/index.htm World War II mechanical analog fire control computer mechanisms]</ref> the fire control computer mechanisms. 
+For adding and subtracting, precision miter-gear differentials were in common use in some computers; the Ford Instrument [[Mark I Fire Control Computer]] contained about 160 of them.
+
+Integration with respect to another variable was done by a rotating disc driven by one variable. Output came from a pickoff device (such as a wheel) positioned at a radius on the disc proportional to the second variable. (A carrier with a pair of steel balls supported by small rollers worked especially well. A roller, its axis parallel to the disc's surface, provided the output. It was held against the pair of balls by a spring.)
+
+Arbitrary functions of one variable were provided by cams, with gearing to convert follower movement to shaft rotation.
+
+Functions of two variables were provided by three-dimensional cams. In one good design, one of the variables rotated the cam. A hemispherical follower moved its carrier on a pivot axis parallel to that of the cam's rotating axis. Pivoting motion was the output. The second variable moved the follower along the axis of the cam. One practical application was ballistics in gunnery.
+
+Coordinate conversion from polar to rectangular was done by a mechanical resolver (called a "component solver" in US Navy fire control computers). Two discs on a common axis positioned a sliding block with pin (stubby shaft) on it. One disc was a face cam, and a follower on the block in the face cam's groove set the radius. The other disc, closer to the pin, contained a straight slot in which the block moved. The input angle rotated the latter disc (the face cam disc, for an unchanging radius, rotated with the other (angle) disc; a differential and a few gears did this correction).
+
+Referring to the mechanism's frame, the location of the pin corresponded to the tip of the vector represented by the angle and magnitude inputs. Mounted on that pin was a square block.
+
+Rectilinear-coordinate outputs (both sine and cosine, typically) came from two slotted plates, each slot fitting on the block just mentioned. The plates moved in straight lines, the movement of one plate at right angles to that of the other. The slots were at right angles to the direction of movement. Each plate, by itself, was like a [[Scotch yoke]], known to steam engine enthusiasts.
+
+During World War II, a similar mechanism converted rectilinear to polar coordinates, but it was not particularly successful and was eliminated in a significant redesign (USN, Mk. 1 to Mk. 1A).
+
+Multiplication was done by mechanisms based on the geometry of similar right triangles. Using the trig. terms for a right triangle, specifically opposite, adjacent, and hypotenuse, the adjacent side was fixed by construction. One variable changed the magnitude of the opposite side. In many cases, this variable changed sign; the hypotenuse could coincide with the adjacent side (a zero input), or move beyond the adjacent side, representing a sign change.
+
+Typically, a pinion-operated rack moving parallel to the (trig.-defined) opposite side would position a slide with a slot coincident with the hypotenuse. A pivot on the rack let the slide's angle change freely. At the other end of the slide (the angle, in trig, terms), a block on a pin fixed to the frame defined the vertex between the hypotenuse and the adjacent side.
+
+At any distance along the adjacent side, a line perpendicular to it intersects the hypotenuse at a particular point. The distance between that point and the adjacent side is some fraction that is the product of ''1'' the distance from the vertex, and ''2'' the magnitude of the opposite side.
+
+The second input variable in this type of multiplier positions a slotted plate perpendicular to the adjacent side. That slot contains a block, and that block's position in its slot is determined by another block right next to it. The latter slides along the hypotenuse, so the two blocks are positioned at a distance from the (trig.) adjacent side by an amount proportional to the product.
+
+To provide the product as an output, a third element, another slotted plate, also moves parallel to the (trig.) opposite side of the theoretical triangle. As usual, the slot is perpendicular to the direction of movement. A block in its slot, pivoted to the hypotenuse block positions it.
+
+A special type of integrator, used at a point where only moderate accuracy was needed, was based on a steel ball, instead of a disc. It had two inputs, one to rotate the ball, and the other to define the angle of the ball's rotating axis. That axis was always in a plane that contained the axes of two movement-pickoff rollers, quite similar to the mechanism of a rolling-ball computer mouse (in this mechanism, the pickoff rollers were roughly the same diameter as the ball). The pickoff roller axes were at right angles.
+
+A pair of rollers "above" and "below" the pickoff plane were mounted in rotating holders that were geared together. That gearing was driven by the angle input, and established the rotating axis of the ball. The other input rotated the "bottom" roller to make the ball rotate.
+
+Essentially, the whole mechanism, called a component integrator, was a variable-speed drive with one motion input and two outputs, as well as an angle input. The angle input varied the ratio (and direction) of coupling between the "motion" input and the outputs according to the sine and cosine of the input angle.
+
+Although they were did not accomplish any computation, electromechanical position servos were essential in mechanical analog computers of the "rotating-shaft" type for providing operating torque to the inputs of subsequent computing mechanisms, as well as driving output data-transmission devices such as large torque-transmitter synchros in naval computers.
+
+Other non-computational mechanisms included internal odometer-style counters with interpolating drum dials for indicating internal variables, and mechanical multi-turn limit stops.
+
+Considering that accurately controlled rotational speed in analog fire-control computers was a basic element of their accuracy, there was a motor with its average speed controlled by a balance wheel, hairspring, jeweled-bearing differential, a twin-lobe cam, and spring-loaded contacts (ship's AC power frequency was not necessarily accurate, nor dependable enough, when these computers were designed).
+
+== Components ==
+{{Unreferenced section|date=March 2013}}
+[[Image:NewmarkAnalogueComputer.jpg|thumb|A 1960 Newmark analogue computer, made up of five units. This computer was used to solve [[differential equation]]s and is currently housed at the Cambridge Museum of Technology.]]
+
+Analog computers often have a complicated framework, but they have, at their core, a set of key components which perform the calculations, which the operator manipulates through the computer's framework.
+
+Key hydraulic components might include pipes, valves and containers.
+
+Key mechanical components might include rotating shafts for carrying data within the computer, [[miter-gear]] [[differential (mechanical device)|differential]]s, disc/ball/roller integrators, [[cam]]s (2-D and 3-D), mechanical resolvers and multipliers, and torque servos.
+
+Key electrical/electronic components might include:
+* Precision resistors and capacitors
+* [[operational amplifier]]s
+* [[Analog multiplier|Multipliers]]
+* [[potentiometer]]s
+* fixed-[[function generator]]s
+
+The core mathematical operations used in an electric analog computer are:
+* [[summation]]
+* [[Integral|integration]] with respect to time
+* [[additive inverse|inversion]]
+* [[multiplication]]
+* [[exponentiation]]
+* [[logarithm]]
+* [[Division (mathematics)|division]], although multiplication is much preferred. Can be accomplished by placing the multiplier in the feedback path of an Operational Amplifier.
+
+Differentiation with respect to time is not frequently used, and in practice is avoided by redefining the problem when possible. It corresponds in the frequency domain to a high-pass filter, which means that high-frequency noise is amplified; differentiation also risks instability.
+
+== Limitations ==
+{{Unreferenced section|date=April 2012}}
+In general, analog computers are limited by non-ideal effects. An [[analog signal]] is composed of four basic components: DC and AC magnitudes, frequency, and phase. The real limits of range on these characteristics limit analog computers. Some of these limits include the operational amplifier offset, finite gain, and frequency response, [[noise floor]], [[non-linearity|non-linearities]], [[temperature coefficient]], and [[Microelectronics|parasitic effects]] within semiconductor devices. For commercially available electronic components, ranges of these aspects of input and output signals are always [[figures of merit]].
+
+== Current research ==
+Although digital computation is extremely popular, some research in analog computation is still being done. A few universities still use analog computers to teach [[Control theory|control system theory]]. The American company Comdyna manufactures small analog computers.<ref>[http://www.comdyna.com Comdyna home page retrieved 2011 Nov 18]</ref> At Indiana University Bloomington, [http://www.cs.indiana.edu/~jwmills/ANALOG.NOTEBOOK/klm/klm.html Jonathan Mills] has developed the Extended Analog Computer based on sampling voltages in a foam sheet. At the [http://hrl.harvard.edu/ Harvard Robotics Laboratory], analog computation is a research topic. [http://www.lyricsemiconductor.com/ Lyric Semiconductor]'s error correction circuits use analog probabilistic signals.
+
+==Practical examples==
+These are examples of analog computers that have been constructed or practically used:
+{{div col}}
+* [[Deltar]]
+* [[Kerrison Predictor]]
+* [[Librascope]], aircraft weight and balance computer
+* [[mechanical integrator]]s, for example, the [[planimeter]]
+* [[nomogram]]
+* [[Norden bombsight]]
+* [[Rangekeeper]] and related fire control computers
+* [[Scanimate]]
+* [[Torpedo Data Computer]]
+* [[Leonardo Torres y Quevedo]]'s Analogue Calculating Machines based on "fusee sans fin"
+* [[Torquetum]]
+* [[Water integrator]]
+* [[Mechanical computer]]
+* [[Boeing B-29 Superfortress]] Central Fire Control System
+{{div col end}}
+
+[[Analog synthesizer|Analog (audio) synthesizer]]s can also be viewed as a form of analog computer, and their technology was originally based in part on electronic analog computer technology. The [[ARP 2600]]'s Ring Modulator was actually a moderate-accuracy analog multiplier.
+
+The Simulation Council (or Simulations Council) was an association of analog computer users in USA. It is now known as the  The Society for Modeling and Simulation International. The Simulation Council newsletters from 1952 to 1963 are available online and show the concerns and technologies at the time, and the common use of analog computers for missilry.<ref>[http://scs.org/history/SimCouncilNewsletters/Default.htm Simulation Council newsletter]</ref>
+
+==In popular culture==
+*Among the most famous electrical analog computers are the so-called "Console" computers in the [[Brazil (1985 film)|1985 movie "Brazil"]].
+
+==See also==
+{{Commons category|Analog computers}}
+*[[Signal (electrical engineering)]]
+*[[Signal (computing)]]
+*[[Differential equation]]
+*[[Dynamical system]]
+*[[Chaos theory]]
+*[[Analogical models]]
+*[[Field-programmable analog array]]
+
+==Notes==
+{{Reflist}}
+
+==References==
+* A.K. Dewdney. "On the Spaghetti Computer and Other Analog Gadgets for Problem Solving", ''Scientific American'', 250(6):19-26, June 1984. Reprinted in ''The Armchair Universe'', by A.K. Dewdney, published by W.H. Freeman & Company (1988), ISBN 0-7167-1939-8.
+* Universiteit van Amsterdam Computer Museum. (2007). [http://www.science.uva.nl/museum/AnalogComputers.php ''Analog Computers''].
+* Jackson, Albert S., "Analog Computation". London & New York: McGraw-Hill, 1960. {{OCLC|230146450}}
+
+== External links ==
+* [http://www.nature.com/nature/journal/v444/n7119/fig_tab/444551a_F2.html Biruni's eight-geared lunisolar calendar in Archaeology: High tech from Ancient Greece, François Charette, Nature 444, 551-552(30 November 2006), doi:10.1038/444551a]
+* [http://www.computerhope.com/issues/ch000984.htm The first computers]
+* [http://www.analogmuseum.org Large collection of electronic analog computers with lots of pictures and documentation]
+* [http://www.oldcomputermuseum.com/index.html Large collection of old analog and digital computers at Old Computer Museum]
+* [http://oro.open.ac.uk/5795/1/bletchley_paper.pdf A great disappearing act: the electronic analogue computer] Chris Bissell, The Open University, Milton Keynes, UK Accessed February 2007
+* [http://technikum29.de/en/computer/analog German computer museum with still runnable analog computers]
+* [http://www.play-hookey.com/analog/ Analog computer basics]
+* [http://www.eetimes.com/story/OEG19981103S0017 Analog computer trumps Turing model]
+* [http://www.cs.indiana.edu/~jwmills/ANALOG.NOTEBOOK/klm/klm.html Jonathan W. Mills's Analog Notebook]
+* [http://hrl.harvard.edu/analog/ Harvard Robotics Laboratory Analog Computation]
+* [http://long-lines.net/other/electrical/ElectricalWorld-1955-12-12/009.html The Enns Power Network Computer] – an analog computer for the analysis of electric power systems (advertisement from 1955)
+* [http://www.cowardstereoview.com/analog/libra.htm Librascope Development Company] – Type LC-1 WWII Navy PV-1 "Balance Computor"
+
+{{DEFAULTSORT:Analog Computer}}
+[[Category:History of computing hardware]]
+[[Category:Analog computers| ]]
+[[Category:Greek inventions]]

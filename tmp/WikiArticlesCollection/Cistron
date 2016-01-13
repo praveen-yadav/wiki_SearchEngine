@@ -1,0 +1,13 @@
+A '''cistron''' is a [[gene]].<ref>{{cite book | last = Lewin | first = Benjamin | authorlink = Benjamin Lewin | title = Genes VII | year = 2000 | publisher = Oxford University Press and Cell Press | location = New York | isbn = 0-19-879276-X | page = 955}}</ref>  The term cistron is used to emphasize that genes exhibit a specific behavior in a [[complementation test|cis-trans test]]; distinct positions (or [[locus (genetics)|loci]]) within a [[genome]] are '''cistronic
+
+For example, suppose a [[mutation]] at a chromosome position <math>x</math> is responsible for a [[recessive trait]] in a [[diploid]] organism (where chromosomes come in pairs). We say that the mutation is recessive because the organism will exhibit the [[wild type]] [[phenotype]] (ordinary trait) unless both chromosomes of a pair have the mutation ([[homozygous]] mutation).  Similarly, suppose a mutation at another position, <math>y</math>, is responsible for the same recessive trait. The positions <math>x</math> and <math>y</math> are said to be within the same cistron when an organism that has the mutation at <math>x</math> on one chromosome and has the mutation at position <math>y</math> on the paired chromosome exhibits the recessive trait even though the organism is not homozygous for either mutation. When instead the wild type trait is expressed, the positions are said to belong to distinct cistrons / genes.
+
+For example, an [[operon]] is a stretch of DNA that is [[Transcription (genetics)|transcribed]] to create a contiguous segment of [[RNA]], but contains more than one cistron / gene. The operon is said to be '''polycistronic''', whereas ordinary genes are said to be '''monocistronic'''.
+
+==References==
+{{Reflist}}
+
+[[Category:Genetics]]
+
+{{molecular-cell-biology-stub}}
+{{genetics-stub}}

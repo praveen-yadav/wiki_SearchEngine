@@ -1,0 +1,539 @@
+{{Continuum mechanics}}
+'''Continuum mechanics''' is a branch of [[mechanics]] that deals with the analysis of the [[kinematics]] and the mechanical behavior of materials modeled as a continuous mass rather than as discrete particles. The French mathematician [[Augustin-Louis Cauchy]] was the first to formulate such models in the 19th century, but research in the area continues today.
+
+==Explanation==
+{{Classical mechanics|cTopic=Branches}}
+Modeling an object as a continuum assumes that the substance of the object completely fills the space it occupies. Modeling objects in this way ignores the fact that matter is made of [[atom]]s, and so is not continuous; however, on [[length scale]]s much greater than that of inter-atomic distances, such models are highly accurate. Fundamental physical laws such as the [[conservation of mass]], the [[conservation of momentum]], and the [[conservation of energy]] may be applied to such models to derive [[differential equations]] describing the behavior of such objects, and some information about the particular material studied is added through a [[constitutive relation]].
+
+Continuum mechanics deals with physical properties of solids and fluids which are independent of any particular [[coordinate system]] in which they are observed. These physical properties are then represented by [[tensor]]s, which are mathematical objects that have the required property of being independent of coordinate system. These tensors can be expressed in coordinate systems for computational convenience.
+
+==Concept of a continuum==
+Materials, such as solids, liquids and gases, are composed of [[molecules]] separated by "empty" space. On a macroscopic scale, materials have cracks and discontinuities. However, certain physical phenomena can be modeled assuming the materials exist as a '''continuum, meaning the matter in the body is continuously distributed and fills the entire region of space it occupies'''. A continuum is a body that can be continually sub-divided into [[infinitesimal]] elements with properties being those of the bulk material.
+
+The validity of the continuum assumption may be verified by a theoretical analysis, in which either some clear periodicity is identified or [[Homogeneity (statistics)|statistical homogeneity]] and [[ergodicity]] of the [[microstructure]] exists. More specifically, the continuum hypothesis/assumption hinges on the concepts of a [[Representative elementary volume|''representative volume element'' (RVE)]] (sometimes called "representative elementary volume") and ''separation of scales'' based on the [[Hill–Mandel condition]]. This condition provides a link between an experimentalist's and a theoretician's viewpoint on constitutive equations (linear and nonlinear elastic/inelastic or coupled fields) as well as a way of spatial and statistical averaging of the microstructure.<ref>{{cite book |title=Microstructural randomness and scaling in mechanics of materials |last=Ostoja-Starzewski |first=M. |year=2008 |publisher=CRC Press |isbn=1-58488-417-7 |chapter= 7-10 |url=http://books.google.co.uk/books?id=_Qyf1woZPNgC&printsec=frontcover&cd=1#v=onepage&q=&f=false}}</ref>
+
+When the separation of scales does not hold, or when one wants to establish a continuum of a finer resolution than that of the RVE size, one employs a ''statistical volume element'' (SVE), which, in turn, leads to random continuum fields. The latter then provide a micromechanics basis for stochastic finite elements (SFE). The levels of SVE and RVE link continuum mechanics to [[statistical mechanics]]. The RVE may be assessed only in a limited way via experimental testing: when the constitutive response becomes spatially homogeneous. 
+
+Specifically for [[fluid]]s, the [[Knudsen number]] is used to assess to what extent the approximation of continuity can be made.
+
+==Major areas of continuum mechanics==
+{{Continuum mechanics context}}
+
+==Formulation of models==
+[[Image:Continuum body.svg|200px|right|thumb|Figure 1. Configuration of a continuum body]]
+Continuum mechanics models begin by assigning a region in three dimensional [[Euclidean space]] to the material body <math>\mathcal B</math> being modeled. The points within this region are called particles or material points. Different ''configurations'' or states of the body correspond to different regions in Euclidean space. The region corresponding to the body's configuration at time <math>\ t</math> is labeled <math>\ \kappa_t(\mathcal B)</math>.
+
+A particular particle within the body in a particular configuration is characterized by a position vector <br />
+:<math>\ \mathbf x =\sum_{i=1}^3 x_i \mathbf e_i,</math>
+where <math>\mathbf e_i</math> are the [[coordinate vector]]s in some [[frame of reference]] chosen for the problem (See figure 1). This vector can be expressed as a [[function (mathematics)|function]] of the particle position <math>\mathbf X</math> in some ''reference configuration'', for example the configuration at the initial time, so that
+
+:<math>\mathbf{x}=\kappa_t(\mathbf X).</math>
+
+This function needs to have various properties so that the model makes physical sense. <math>\kappa_t(\cdot)</math> needs to be:
+* [[continuity (mathematics)|continuous]] in time, so that the body changes in a way which is realistic,
+* globally [[inverse function|invertible]] at all times, so that the body cannot intersect itself,
+* [[orientation-preserving]], as transformations which produce mirror reflections are not possible in nature.
+For the mathematical formulation of the model, <math>\ \kappa_t(\cdot)</math> is also assumed to be [[continuously differentiable|twice continuously differentiable]], so that differential equations describing the motion may be formulated.
+
+==Forces in a continuum==
+{{see also|Stress (mechanics)|Cauchy stress tensor}}
+Continuum mechanics deals with deformable bodies, as opposed to [[rigid bodies]]. A solid is a deformable body that possesses shear strength, ''sc.'' a solid can support shear forces (forces parallel to the material surface on which they act). Fluids, on the other hand, do not sustain shear forces. For the study of the mechanical behavior of solids and fluids these are assumed to be continuous bodies, which means that the matter fills the entire region of space it occupies, despite the fact that matter is made of atoms, has voids, and is discrete. Therefore, when continuum mechanics refers to a point or particle in a continuous body it does not describe a point in the interatomic space or an atomic particle, rather an idealized part of the body occupying that point.
+
+Following the classical dynamics of [[Isaac Newton|Newton]] and [[Leonhard Euler|Euler]], the motion of a material body is produced by the action of externally applied forces which are assumed to be of two kinds: surface forces <math>\mathbf F_C</math> and body forces <math>\mathbf F_B</math>.<ref name=Smith>Smith & Truesdell p.97</ref> Thus, the total force <math>\mathcal F</math> applied to a body or to a portion of the body can be expressed as:
+
+:<math>\mathcal F = \mathbf F_B + \mathbf F_C</math>
+
+''[[Surface forces]]'' or ''contact forces'', expressed as force per unit area, can act either on the bounding surface of the body, as a result of mechanical contact with other bodies, or on imaginary internal surfaces that bound portions of the body, as a result of the mechanical interaction between the parts of the body to either side of the surface ([[Cauchy stress tensor|Euler-Cauchy's stress principle]]). When a body is acted upon by external contact forces, internal contact forces are then transmitted from point to point inside the body to balance their action, according to [[Newton's laws of motion|Newton's second law of motion]] of conservation of [[linear momentum]] and [[angular momentum]] (for continuous bodies these laws are called the [[Euler's laws|Euler's equations of motion]]). The internal contact forces are related to the body's [[deformation (mechanics)|deformation]] through [[constitutive equations]]. The internal contact forces may be mathematically described by how they relate to the motion of the body, independent of the body's material makeup.<ref>Slaughter</ref>
+
+The distribution of internal contact forces throughout the volume of the body is assumed to be continuous. Therefore, there exists a ''contact force density'' or ''Cauchy traction field'' <ref name=Smith/> <math>\mathbf T(\mathbf n, \mathbf x, t)</math> that represents this distribution in a particular configuration of the body at a given time <math>t\,\!</math>. It is not a vector field because it depends not only on the position <math>\mathbf x</math> of a particular material point, but also on the local orientation of the surface element as defined by its normal vector <math>\mathbf n</math>.<ref name=Lubliner>Lubliner</ref>
+
+Any differential area <math>dS\,\!</math> with normal vector <math>\mathbf n</math> of a given internal surface area <math>S\,\!</math>, bounding a portion of the body, experiences a contact force <math>d\mathbf F_C\,\!</math> arising from the contact between both portions of the body on each side of <math>S\,\!</math>, and it is given by
+
+:<math>d\mathbf F_C= \mathbf T^{(\mathbf n)}\,dS</math>
+
+where <math>\mathbf T^{(\mathbf n)}</math> is the ''surface traction'',<ref name=Liu/> also called ''stress vector'',<ref name=Wu/> ''traction'',<ref name=Fung>Fung</ref> or ''traction vector''.<ref name=Mase>Mase</ref> The stress vector is a frame-indifferent vector (see [[Cauchy stress tensor|Euler-Cauchy's stress principle]]).
+
+The total contact force on the particular internal surface <math>S\,\!</math> is then expressed as the sum ([[surface integral]]) of the contact forces on all differential surfaces <math>dS\,\!</math>:
+
+:<math>\mathbf F_C=\int_S \mathbf T^{(\mathbf n)}\,dS</math>
+
+In continuum mechanics a body is considered stress-free if the only forces present are those inter-atomic forces ([[ionic bond|ionic]], [[metallic bond|metallic]], and [[van der Waals force]]s) required to hold the body together and to keep its shape in the absence of all external influences, including gravitational attraction.<ref name=Mase/><ref name=Atanackovic>Atanackovic</ref> Stresses generated during manufacture of the body to a specific configuration are also excluded when considering stresses in a body. Therefore, the stresses considered in continuum mechanics are only those produced by deformation of the body, ''sc.'' only relative changes in stress are considered, not the absolute values of stress.
+
+''[[Body forces]]'' are forces originating from sources outside of the body<ref name=Irgens>Irgens</ref> that act on the volume (or mass) of the body. Saying that body forces are due to outside sources implies that the interaction between different parts of the body (internal forces) are manifested through the contact forces alone.<ref name=Liu>Liu</ref> These forces arise from the presence of the body in force fields, ''e.g.'' [[gravitational field]] ([[gravitational force]]s) or electromagnetic field ([[electromagnetic force]]s), or from [[fictitious force|inertial forces]] when bodies are in motion. As the mass of a continuous body is assumed to be continuously distributed, any force originating from the mass is also continuously distributed. Thus, body forces are specified by vector fields which are assumed to be continuous over the entire volume of the body,<ref name=Chadwick>Chadwick</ref> ''i.e.'' acting on every point in it. Body forces are represented by a body force density <math>\mathbf b(\mathbf x, t)</math> (per unit of mass), which is a frame-indifferent vector field.
+
+In the case of gravitational forces, the intensity of the force depends on, or is proportional to, the mass density <math>\mathbf \rho (\mathbf x, t)\,\!</math> of the material, and it is specified in terms of force per unit mass (<math>b_i\,\!</math>) or per unit volume (<math>p_i\,\!</math>). These two specifications are related through the material density by the equation <math>\rho b_i = p_i\,\!</math>. Similarly, the intensity of electromagnetic forces depends upon the strength ([[electric charge]]) of the electromagnetic field.
+
+The total body force applied to a continuous body is expressed as
+
+:<math>\mathbf F_B=\int_V\mathbf b\,dm=\int_V \rho\mathbf b\,dV</math>
+
+Body forces and contact forces acting on the body lead to corresponding moments of force ([[torque]]s) relative to a given point. Thus, the total applied torque <math>\mathcal M</math> about the origin is given by
+
+:<math>\mathcal M= \mathbf M_B + \mathbf M_C</math>
+
+In certain situations, not commonly considered in the analysis of the mechanical behavior or materials, it becomes necessary to include two other types of forces: these are ''body moments'' and ''couple stresses''<ref>Maxwell pointed out that nonvanishing body moments exist in a magnet in a magnetic field and in a dielectric material in an electric field with different planes of polarization. Fung p.76.</ref><ref>Couple stresses and body couples were first explored by Voigt and Cosserat, and later reintroduced by Mindlin in 1960 on his work for Bell Labs on pure quartz crystals. Richards p.55.</ref> (surface couples,<ref name=Irgens/> contact torques<ref name=Chadwick/>). Body moments, or body couples, are moments per unit volume or per unit mass applied to the volume of the body. Couple stresses are moments per unit area applied on a surface. Both are important in the analysis of stress for a polarized dielectric solid under the action of an electric field, materials where the molecular structure is taken into consideration (''e.g.'' bones), solids under the action of an external magnetic field, and the dislocation theory of metals.<ref name=Wu>Wu</ref><ref name=Fung/><ref name=Irgens/>
+
+Materials that exhibit body couples and couple stresses in addition to moments produced exclusively by forces are called ''polar materials''.<ref name=Fung/><ref name=Chadwick/> ''Non-polar materials'' are then those materials with only moments of forces. In the classical branches of continuum mechanics the development of the theory of stresses is based on non-polar materials.
+
+Thus, the sum of all applied forces and torques (with respect to the origin of the coordinate system) in the body can be given by
+
+:<math>\mathcal F = \int_V \mathbf a\,dm = \int_S \mathbf T\,dS + \int_V \rho\mathbf b\,dV</math>
+:<math>\mathcal M = \int_S \mathbf r \times \mathbf T\,dS + \int_V \mathbf r \times \rho\mathbf b\,dV</math>
+
+==Kinematics: deformation and motion==
+[[Image:Displacement of a continuum.svg|400px|right|thumb|Figure 2. Motion of a continuum body.]]
+A change in the configuration of a continuum body results in a [[displacement field (mechanics)|displacement]]. The displacement of a body has two components: a rigid-body displacement and a [[Deformation (mechanics)|deformation]]. A rigid-body displacement consists of a simultaneous translation and rotation of the body without changing its shape or size. Deformation implies the change in shape and/or size of the body from an initial or undeformed configuration <math>\ \kappa_0(\mathcal B)</math> to a current or deformed configuration <math>\ \kappa_t(\mathcal B)</math> (Figure 2).
+
+The motion of a continuum body is a continuous time sequence of displacements. Thus, the material body will occupy different configurations at different times so that a particle occupies a series of points in space which describe a pathline.
+
+There is continuity during deformation or motion of a continuum body in the sense that:
+* The material points forming a closed curve at any instant will always form a closed curve at any subsequent time.
+* The material points forming a closed surface at any instant will always form a closed surface at any subsequent time and the matter within the closed surface will always remain within.
+
+It is convenient to identify a reference configuration or initial condition which all subsequent configurations are referenced from. The reference configuration need not be one that the body will ever occupy. Often, the configuration at <math>\ t=0</math> is considered the reference configuration, <math>\ \kappa_0 (\mathcal B)</math>. The components <math>\ X_i</math> of the position vector <math>\ \mathbf X</math> of a particle, taken with respect to the reference configuration, are called the material or reference coordinates.
+
+When analyzing the [[Deformation (mechanics)|deformation]] or motion of solids, or the [[fluid mechanics|flow]] of fluids, it is necessary to describe the sequence or evolution of configurations throughout time. One description for motion is made in terms of the material or referential coordinates, called material description or Lagrangian description.
+
+===Lagrangian description===
+In the Lagrangian description the position and physical properties of the particles are described in terms of the material or referential coordinates and time. In this case '''the reference configuration is the configuration at <math>\ t=0</math>'''. An observer standing in the referential frame of reference observes the changes in the position and physical properties as the material body moves in space as time progresses. The results obtained are independent of the choice of initial time and reference configuration, <math>\kappa_0(\mathcal B)</math>. This description is normally used in [[solid mechanics]].
+
+In the Lagrangian description, the motion of a continuum body is expressed by the mapping function <math>\ \chi(\cdot)</math> (Figure 2),
+
+:<math>\ \mathbf x=\chi(\mathbf X, t)</math>
+
+which is a mapping of the initial configuration <math>\kappa_0(\mathcal B)</math> onto the current configuration <math>\kappa_t(\mathcal B)</math>, giving a geometrical correspondence between them, i.e. giving the position vector <math>\ \mathbf{x}=x_i\mathbf e_i</math> that a particle <math>\ X</math>, with a position vector <math>\ \mathbf X</math> in the undeformed or reference configuration <math>\kappa_0(\mathcal B)</math>, will occupy in the current or deformed configuration <math>\kappa_t(\mathcal B)</math> at time <math>\ t</math>. The components <math>\ x_i</math> are called the spatial coordinates.
+
+Physical and kinematic properties <math>\ P_{ij\ldots}</math>, i.e. thermodynamic properties and velocity, which describe or characterize features of the material body, are expressed as continuous functions of position and time, i.e. <math>\  P_{ij\ldots}=P_{ij\ldots}(\mathbf X,t)</math>.
+
+The material derivative of any property <math>\ P_{ij\ldots}</math> of a continuum, which may be a scalar, vector, or tensor, is the time rate of change of that property for a specific group of particles of the moving continuum body. The material derivative is also known as the ''substantial derivative'', or ''comoving derivative'', or ''convective derivative''. It can be thought as the rate at which the property changes when measured by an observer traveling with that group of particles.
+
+In the Lagrangian description, the material derivative of <math>\ P_{ij\ldots}</math> is simply the partial derivative with respect to time, and the position vector <math>\ \mathbf X</math> is held constant as it does not change with time. Thus, we have
+
+:<math>\ \frac{d}{dt}[P_{ij\ldots}(\mathbf X,t)]=\frac{\partial}{\partial t}[P_{ij\ldots}(\mathbf X,t)]</math>
+
+The instantaneous position <math>\ \mathbf x</math> is a property of a particle, and its material derivative is the ''instantaneous velocity'' <math>\ \mathbf v</math> of the particle. Therefore, the velocity field of the continuum is given by
+
+:<math>\ \mathbf v = \dot{\mathbf x} =\frac{d\mathbf x}{dt}=\frac{\partial \chi(\mathbf X,t)}{\partial t} </math>
+
+Similarly, the acceleration field is given by
+
+:<math>\ \mathbf a= \dot{\mathbf v} = \ddot{\mathbf x} =\frac{d^2\mathbf x}{dt^2}=\frac{\partial^2 \chi(\mathbf X,t)}{\partial t^2} </math>
+
+Continuity in the Lagrangian description is expressed by the spatial and temporal continuity of the mapping from the reference configuration to the current configuration of the material points. All physical quantities characterizing the continuum are described this way. In this sense, the function <math>\chi(\cdot)</math> and <math>\ P_{ij\ldots}(\cdot)</math> are single-valued and continuous, with continuous derivatives with respect to space and time to whatever order is required, usually to the second or third.
+
+===Eulerian description===
+Continuity allows for the inverse of <math>\chi(\cdot)</math> to trace backwards where the particle currently located at <math>\mathbf x</math> was located in the initial or referenced configuration <math>\kappa_0(\mathcal B)</math>. In this case the description of motion is made in terms of the spatial coordinates, in which case is called the spatial description or Eulerian description, i.e. '''the current configuration is taken as the reference configuration'''.
+
+The Eulerian description, introduced by [[d'Alembert]], focuses on the current configuration <math>\kappa_t(\mathcal B)</math>, giving attention to what is occurring at a fixed point in space as time progresses, instead of giving attention to individual particles as they move through space and time. This approach is conveniently applied in the study of [[fluid mechanics|fluid flow]] where the kinematic property of greatest interest is the rate at which change is taking place rather than the shape of the body of fluid at a reference time.<ref name="Spencer83">{{cite book |title=Continuum Mechanics |last=Spencer |first=A.J.M. |year=1980 |publisher=Longman Group Limited (London) |isbn=0-582-44282-6 |page=83 |url=http://books.google.com/books?id=AJdfQL0rgrgC&printsec=frontcover#v=onepage&q=&f=false}}</ref>
+
+Mathematically, the motion of a continuum using the Eulerian description is expressed by the mapping function
+
+:<math>\mathbf X=\chi^{-1}(\mathbf x, t)</math>
+
+which provides a tracing of the particle which now occupies the position <math>\mathbf x</math> in the current configuration <math>\kappa_t(\mathcal B)</math> to its original position <math>\mathbf X</math> in the initial configuration <math>\kappa_0(\mathcal B)</math>.
+
+A necessary and sufficient condition for this inverse function to exist is that the determinant of the [[Jacobian matrix and determinant|Jacobian Matrix]], often referred to simply as the Jacobian, should be different from zero. Thus,
+
+:<math>\ J=\left | \frac{\partial \chi_i}{\partial X_J} \right |=\left | \frac{\partial x_i}{\partial X_J} \right |\neq0</math>
+
+In the Eulerian description, the physical properties <math>\ P_{ij\ldots}</math> are expressed as
+
+:<math>\ P_{ij \ldots}=P_{ij\ldots}(\mathbf X,t)=P_{ij\ldots}[\chi^{-1}(\mathbf x,t),t]=p_{ij\ldots}(\mathbf x,t)</math>
+
+where the functional form of <math>\ P_{ij \ldots}</math> in the Lagrangian description is not the same as the form of <math>\ p_{ij \ldots}</math> in the Eulerian description.
+
+The material derivative of <math>\ p_{ij\ldots}(\mathbf x,t)</math>, using the chain rule, is then
+
+:<math>\ \frac{d}{dt}[p_{ij\ldots}(\mathbf x,t)]=\frac{\partial}{\partial t}[p_{ij\ldots}(\mathbf x,t)]+ \frac{\partial}{\partial x_k}[p_{ij\ldots}(\mathbf x,t)]\frac{dx_k}{dt}</math>
+
+The first term on the right-hand side of this equation gives the ''local rate of change'' of the property <math>\ p_{ij\ldots}(\mathbf x,t)</math> occurring at position <math>\ \mathbf x</math>. The second term of the right-hand side is the ''convective rate of change'' and expresses the contribution of the particle changing position in space (motion).
+
+Continuity in the Eulerian description is expressed by the spatial and temporal continuity and continuous differentiability of the velocity field. All physical quantities are defined this way at each instant of time, in the current configuration, as a function of the vector position <math>\ \mathbf x</math>.
+
+===Displacement field===
+The vector joining the positions of a particle <math>\ P</math> in the undeformed configuration and deformed configuration is called the [[displacement (vector)|displacement vector]] <math>\ \mathbf u(\mathbf X,t)=u_i\mathbf e_i</math>, in the Lagrangian description, or <math>\ \mathbf U(\mathbf x,t)=U_J\mathbf E_J</math>, in the Eulerian description.
+ 
+A ''displacement field'' is a vector field of all displacement vectors for all particles in the body, which relates the deformed configuration with the undeformed configuration. It is convenient to do the analysis of deformation or motion of a continuum body in terms of the displacement field,  In general, the displacement field is expressed in terms of the material coordinates as
+
+:<math>\ \mathbf u(\mathbf X,t) = \mathbf b+\mathbf x(\mathbf X,t) - \mathbf X \qquad \text{or}\qquad u_i = \alpha_{iJ}b_J + x_i - \alpha_{iJ}X_J</math>
+
+or in terms of the spatial coordinates as
+
+:<math>\ \mathbf U(\mathbf x,t) = \mathbf b+\mathbf x - \mathbf X(\mathbf x,t) \qquad \text{or}\qquad U_J = b_J + \alpha_{Ji}x_i - X_J \,</math>
+
+where <math>\ \alpha_{Ji}</math> are the direction cosines between the material and spatial coordinate systems with unit vectors <math>\ \mathbf E_J</math> and <math>\mathbf e_i</math>, respectively. Thus
+
+:<math>\ \mathbf E_J \cdot \mathbf e_i = \alpha_{Ji}=\alpha_{iJ}</math>
+
+and the relationship between <math>\ u_i</math> and <math>\ U_J</math> is then given by
+
+:<math>\ u_i=\alpha_{iJ}U_J \qquad \text{or} \qquad U_J=\alpha_{Ji}u_i</math>
+
+Knowing that
+:<math>\ \mathbf e_i = \alpha_{iJ}\mathbf E_J</math>
+then
+:<math>\mathbf u(\mathbf X,t)=u_i\mathbf e_i=u_i(\alpha_{iJ}\mathbf E_J)=U_J\mathbf E_J=\mathbf U(\mathbf x,t)</math>
+
+It is common to superimpose the coordinate systems for the undeformed and deformed configurations, which results in <math>\ \mathbf b=0</math>,  and the direction cosines become [[Kronecker delta]]s, i.e.
+
+:<math>\ \mathbf E_J \cdot \mathbf e_i = \delta_{Ji}=\delta_{iJ}</math>
+
+Thus, we have
+
+:<math>\ \mathbf u(\mathbf X,t) = \mathbf x(\mathbf X,t) - \mathbf X \qquad \text{or}\qquad u_i = x_i - \delta_{iJ}X_J</math>
+
+or in terms of the spatial coordinates as
+
+:<math>\ \mathbf U(\mathbf x,t) = \mathbf x - \mathbf X(\mathbf x,t) \qquad \text{or}\qquad U_J = \delta_{Ji}x_i - X_J </math>
+
+<!--==Fundamental laws==
+===Conservation of mass===
+===Conservation of momentum===
+P<sub>i</sub>=P<sub>f</sub>
+
+===Conservation of energy=== -->
+
+==Governing equations==
+Continuum mechanics deals with the behavior of materials that can be approximated as continuous for certain length and time scales.  The equations that govern the mechanics of such materials include the balance laws for [[conservation of mass|mass]], [[conservation of momentum|momentum]], and [[conservation of energy|energy]].  [[Kinematic]] relations and [[constitutive equations]] are needed to complete the system of governing equations.  Physical restrictions on the form of the constitutive relations can be applied by requiring that the [[second law of thermodynamics]] be satisfied under all conditions.  In the continuum mechanics of solids, the second law of thermodynamics is satisfied if the [[Clausius–Duhem inequality|Clausius–Duhem]] form of the entropy inequality is satisfied.
+
+The balance laws express the idea that the rate of change of a quantity (mass, momentum, energy) in a volume must arise from three causes:
+  
+#the physical quantity itself flows through the surface that bounds the volume,
+#there is a source of the physical quantity on the surface of the volume, or/and,
+#there is a source of the physical quantity inside the volume.
+  
+Let <math>\Omega</math> be the body (an open subset of Euclidean space) and let   <math>\partial \Omega </math> be its surface (the boundary of <math>\Omega</math>).  
+  
+Let the motion of material points in the body be described by the map
+:<math>
+    \mathbf{x} = \boldsymbol{\chi}(\mathbf{X}) = \mathbf{x}(\mathbf{X})
+  </math>
+where <math>\mathbf{X}</math> is the position of a point in the initial configuration and <math>\mathbf{x}</math> is the location of the same point in the deformed configuration.
+
+The deformation gradient is given by
+:<math>
+    \boldsymbol{F} = \frac{\partial \mathbf{x}}{\partial \mathbf{X}} = \boldsymbol{\mathbf{x}} \cdot \nabla  ~.
+  </math>
+
+===Balance laws===
+Let <math>f(\mathbf{x},t)</math> be a physical quantity that is flowing through the body.  Let <math>g(\mathbf{x},t)</math> be sources on the surface of the body and let <math>h(\mathbf{x},t)</math> be sources inside the body.  Let <math>\mathbf{n}(\mathbf{x},t)</math> be the outward unit normal to the surface <math>\partial \Omega </math>.  Let <math>\mathbf{v}(\mathbf{x},t)</math> be the velocity of the physical particles that carry the physical quantity that is flowing.  Also, let the speed at which the bounding surface <math>\partial \Omega </math> is moving be <math>u_n</math> (in the direction <math>\mathbf{n}</math>).
+
+Then, balance laws can be expressed in the general form
+:<math>
+    \cfrac{d}{dt}\left[\int_{\Omega} f(\mathbf{x},t)~\text{dV}\right] = 
+      \int_{\partial \Omega } f(\mathbf{x},t)[u_n(\mathbf{x},t) - \mathbf{v}(\mathbf{x},t)\cdot\mathbf{n}(\mathbf{x},t)]~\text{dA} + 
+      \int_{\partial \Omega } g(\mathbf{x},t)~\text{dA} + \int_{\Omega} h(\mathbf{x},t)~\text{dV} ~.
+  </math>
+Note that the functions <math>f(\mathbf{x},t)</math>, <math>g(\mathbf{x},t)</math>, and <math>h(\mathbf{x},t)</math> can be scalar valued, vector valued, or tensor valued - depending on the physical quantity that the balance equation deals with.  If there are internal boundaries in the body, jump discontinuities also need to be specified in the balance laws.
+
+If we take the [[Eulerian]] point of view, it can be shown that the balance laws of mass, momentum, and energy for a solid can be written as (assuming the source term is zero for the mass, momentum and angular momentum equations)
+:<math>
+    {
+    \begin{align}
+      \dot{\rho} + \rho~\boldsymbol{\nabla} \cdot \mathbf{v} & = 0 
+          & & \qquad\text{Balance of Mass} \\
+      \rho~\dot{\mathbf{v}} - \boldsymbol{\nabla} \cdot \boldsymbol{\sigma} - \rho~\mathbf{b} & = 0 
+          & & \qquad\text{Balance of Linear Momentum (Cauchy's first law of motion)} \\
+      \boldsymbol{\sigma} & = \boldsymbol{\sigma}^T
+          & & \qquad\text{Balance of Angular Momentum (Cauchy's second law of motion)} \\
+      \rho~\dot{e} - \boldsymbol{\sigma}:(\boldsymbol{\nabla}\mathbf{v}) + \boldsymbol{\nabla} \cdot \mathbf{q} - \rho~s & = 0
+          & & \qquad\text{Balance of Energy.}
+    \end{align}
+    }
+  </math>
+
+In the above equations <math>\rho(\mathbf{x},t)</math> is the mass density (current),   <math>\dot{\rho}</math> is the material time derivative of <math>\rho</math>, <math>\mathbf{v}(\mathbf{x},t)</math> is the particle velocity, <math>\dot{\mathbf{v}}</math> is the material time derivative of <math>\mathbf{v}</math>, <math>\boldsymbol{\sigma}(\mathbf{x},t)</math> is the [[Cauchy stress tensor]], <math>\mathbf{b}(\mathbf{x},t)</math> is the body force density, <math>e(\mathbf{x},t)</math> is the internal energy per unit mass, <math>\dot{e}</math> is the material time derivative of <math>e</math>, <math>\mathbf{q}(\mathbf{x},t)</math> is the heat flux vector, and <math>s(\mathbf{x},t)</math> is an energy source per unit mass.
+  
+With respect to the reference configuration (the [[Lagrangian]] point of view), the balance laws can be written as
+:<math>
+    {
+    \begin{align}
+      \rho~\det(\boldsymbol{F}) - \rho_0 &= 0 & &  \qquad \text{Balance of Mass} \\
+      \rho_0~\ddot{\mathbf{x}} - \boldsymbol{\nabla}_{\circ}\cdot\boldsymbol{P}^T -\rho_0~\mathbf{b} & = 0  & & 
+        \qquad \text{Balance of Linear Momentum} \\
+      \boldsymbol{F}\cdot\boldsymbol{P}^T & = \boldsymbol{P}\cdot\boldsymbol{F}^T  & & 
+        \qquad \text{Balance of Angular Momentum} \\ 
+      \rho_0~\dot{e} - \boldsymbol{P}^T:\dot{\boldsymbol{F}} + \boldsymbol{\nabla}_{\circ}\cdot\mathbf{q} - \rho_0~s & = 0
+          & & \qquad\text{Balance of Energy.} 
+    \end{align}
+    }
+  </math>
+
+In the above, <math>\boldsymbol{P}</math> is the first [[Piola-Kirchhoff stress tensor]], and   <math>\rho_0</math> is the mass density in the reference configuration.  The first   Piola-Kirchhoff stress tensor is related to the Cauchy stress tensor by
+:<math>
+    \boldsymbol{P} = J~\boldsymbol{\sigma}\cdot\boldsymbol{F}^{-T}
+   ~\text{where}~ J = \det(\boldsymbol{F})
+  </math>
+
+We can alternatively define the nominal stress tensor <math>\boldsymbol{N}</math> which is the transpose of the first Piola-Kirchhoff stress tensor such that
+:<math>
+    \boldsymbol{N} = \boldsymbol{P}^T = J~\boldsymbol{F}^{-1}\cdot\boldsymbol{\sigma} ~.
+  </math>
+Then the balance laws become
+:<math>
+    {
+    \begin{align}
+      \rho~\det(\boldsymbol{F}) - \rho_0 &= 0 & &  \qquad \text{Balance of Mass} \\
+      \rho_0~\ddot{\mathbf{x}} - \boldsymbol{\nabla}_{\circ}\cdot\boldsymbol{N} -\rho_0~\mathbf{b} & = 0  & & 
+        \qquad \text{Balance of Linear Momentum} \\
+      \boldsymbol{F}\cdot\boldsymbol{N} & = \boldsymbol{N}^T\cdot\boldsymbol{F}^T  & & 
+        \qquad \text{Balance of Angular Momentum} \\ 
+      \rho_0~\dot{e} - \boldsymbol{N}:\dot{\boldsymbol{F}} + \boldsymbol{\nabla}_{\circ}\cdot\mathbf{q} - \rho_0~s & = 0
+          & & \qquad\text{Balance of Energy.} 
+    \end{align}
+    }
+  </math>
+
+The operators in the above equations are defined as such that
+:<math>
+    \boldsymbol{\nabla} \mathbf{v} = \sum_{i,j = 1}^3 \frac{\partial v_i}{\partial x_j}\mathbf{e}_i\otimes\mathbf{e}_j = 
+        v_{i,j}\mathbf{e}_i\otimes\mathbf{e}_j ~;~~
+    \boldsymbol{\nabla} \cdot \mathbf{v} =  \sum_{i=1}^3 \frac{\partial v_i}{\partial x_i} = v_{i,i} ~;~~
+    \boldsymbol{\nabla} \cdot \boldsymbol{S} = \sum_{i,j=1}^3 \frac{\partial S_{ij}}{\partial x_j}~\mathbf{e}_i 
+          = \sigma_{ij,j}~\mathbf{e}_i ~.
+  </math>
+where <math>\mathbf{v}</math> is a vector field, <math>\boldsymbol{S}</math> is a second-order tensor field, and <math>\mathbf{e}_i</math> are the components of an orthonormal basis in the current configuration.  Also,
+:<math>
+    \boldsymbol{\nabla}_{\circ} \mathbf{v} = \sum_{i,j = 1}^3 \frac{\partial v_i}{\partial X_j}\mathbf{E}_i\otimes\mathbf{E}_j = 
+        v_{i,j}\mathbf{E}_i\otimes\mathbf{E}_j ~;~~
+    \boldsymbol{\nabla}_{\circ}\cdot\mathbf{v} =  \sum_{i=1}^3 \frac{\partial v_i}{\partial X_i} = v_{i,i} ~;~~
+    \boldsymbol{\nabla}_{\circ}\cdot\boldsymbol{S} = \sum_{i,j=1}^3 \frac{\partial S_{ij}}{\partial X_j}~\mathbf{E}_i = S_{ij,j}~\mathbf{E}_i 
+  </math>
+where <math>\mathbf{v}</math> is a vector field, <math>\boldsymbol{S}</math> is a second-order tensor field, and <math>\mathbf{E}_i</math> are the components of an orthonormal basis in the reference configuration.
+
+The inner product is defined as
+:<math>
+    \boldsymbol{A}:\boldsymbol{B} = \sum_{i,j=1}^3 A_{ij}~B_{ij} = \operatorname{trace}(\boldsymbol{A}\boldsymbol{B}^T) ~.
+  </math>
+
+===Clausius&ndash;Duhem inequality===
+The [[Clausius&ndash;Duhem inequality]] can be used to express the second law of thermodynamics for elastic-plastic materials.  This inequality is a statement concerning the irreversibility of natural processes, especially when energy dissipation is involved.
+
+Just like in the balance laws in the previous section, we assume that there is a flux of a quantity, a source of the quantity, and an internal density of the quantity per unit mass.  The quantity of interest in this case is the entropy.  Thus, we assume that there is an entropy flux, an entropy source, and an internal entropy density per unit mass (<math>\eta</math>) in the region of interest.
+
+Let <math>\Omega</math> be such a region and let <math>\partial \Omega </math> be its boundary.  Then the second law of thermodynamics states that the rate of increase of  <math>\eta</math> in this region is greater than or equal to the sum of that supplied to <math>\Omega</math> (as a flux or from internal sources) and the change of the internal entropy density due to material flowing in and out of the region.
+  
+Let <math>\partial \Omega </math> move with a velocity <math>u_n</math> and let particles inside <math>\Omega</math> have velocities <math>\mathbf{v}</math>.  Let <math>\mathbf{n}</math> be the unit outward normal to the surface <math>\partial \Omega </math>.  Let <math>\rho</math> be the density of matter in the region, <math>\bar{q}</math> be the entropy flux at the surface, and <math>r</math> be the entropy source per unit mass.  
+Then the entropy inequality may be written as
+:<math>
+    \cfrac{d}{dt}\left(\int_{\Omega} \rho~\eta~\text{dV}\right) \ge
+    \int_{\partial \Omega} \rho~\eta~(u_n - \mathbf{v}\cdot\mathbf{n}) ~\text{dA} + 
+    \int_{\partial \Omega} \bar{q}~\text{dA} + \int_{\Omega} \rho~r~\text{dV}.
+  </math>
+The scalar entropy flux can be related to the vector flux at the surface by the relation <math>\bar{q} = -\boldsymbol{\psi}(\mathbf{x})\cdot\mathbf{n}</math>.  Under the assumption  of incrementally isothermal conditions, we have
+:<math>
+    \boldsymbol{\psi}(\mathbf{x}) = \cfrac{\mathbf{q}(\mathbf{x})}{T} ~;~~ r = \cfrac{s}{T}
+  </math>
+where <math>\mathbf{q}</math> is the heat flux vector, <math>s</math> is an energy source per unit mass, and <math>T</math> is the absolute temperature of a material point at <math>\mathbf{x}</math> at time <math>t</math>.
+
+We then have the Clausius&ndash;Duhem inequality in integral form:
+:<math>
+    {
+    \cfrac{d}{dt}\left(\int_{\Omega} \rho~\eta~\text{dV}\right) \ge
+    \int_{\partial \Omega} \rho~\eta~(u_n - \mathbf{v}\cdot\mathbf{n}) ~\text{dA} - 
+    \int_{\partial \Omega} \cfrac{\mathbf{q}\cdot\mathbf{n}}{T}~\text{dA} + \int_\Omega \cfrac{\rho~s}{T}~\text{dV}.
+    }
+  </math>
+We can show that the entropy inequality may be written in differential form as
+:<math>
+    {
+    \rho~\dot{\eta} \ge - \boldsymbol{\nabla} \cdot \left(\cfrac{\mathbf{q}}{T}\right)
+       + \cfrac{\rho~s}{T}.
+    }
+  </math>
+In terms of the Cauchy stress and the internal energy, the Clausius&ndash;Duhem inequality may be written as 
+:<math>
+    {
+      \rho~(\dot{e} - T~\dot{\eta}) - \boldsymbol{\sigma}:\boldsymbol{\nabla}\mathbf{v} \le 
+           - \cfrac{\mathbf{q}\cdot\boldsymbol{\nabla} T}{T}.
+    }
+  </math>
+
+==Applications==
+* [[Mechanics]]
+**[[Solid mechanics]]
+**[[Fluid mechanics]]
+* [[Engineering]]
+** [[Mechanical engineering]]
+** [[Chemical engineering]]
+** [[Civil engineering]]
+** [[Aerospace engineering]]
+
+==See also==
+*[[Finite deformation tensors]]
+*[[Finite strain theory]]
+*[[Stress (physics)]]
+*[[Stress measures]]
+*[[Hyperelastic material]]
+*[[Cauchy elastic material]]
+*[[Equation of state]]
+*[[Theory of elasticity]]
+*[[Bernoulli's principle]]
+*[[Peridynamics]] (a non-local continuum theory leading to integral equations)
+*[[Tensor calculus]]
+*[[Curvilinear coordinates]]
+*[[Tensor derivative (continuum mechanics)]]
+*[[Movable cellular automaton]]
+*[[Lagrangian and Eulerian specification of the flow field]]
+
+==Notes==
+<references/>
+
+==References==
+<!-- Please keep these in alphabetical order. -->
+
+*{{cite book |first=R. C. |last=Batra |year=2006 |title=Elements of Continuum Mechanics |publisher=AIAA |location=Reston, VA}}
+
+*{{Cite book
+| first = A. Cemel
+| last = Eringen 
+| publisher = Krieger Pub Co
+| year = 1980 
+| title = Mechanics of Continua 
+| edition = 2nd edition
+| isbn = 0-88275-663-X}}
+
+*{{cite book
+| last = Chen
+| first = Youping
+| coauthors = James D. Lee; Azim Eskandarian
+| title = Meshless Methods in Solid Mechanics
+| publisher = Springer New York
+| year = 2009
+|edition= First Edition
+| isbn = 1-4419-2148-6 }}
+
+*{{cite book
+| last = Dill | first = Ellis Harold
+| title =Continuum Mechanics: Elasticity, Plasticity, Viscoelasticity
+| publisher = CRC Press
+| year = 2006
+| location = Germany 
+| url = http://books.google.ca/books?id=Nn4kztfbR3AC&rview=1
+| isbn = 0-8493-9779-0}}
+
+*{{cite book
+| last = Dimitrienko | first = Yuriy
+| title = Nonlinear Continuum Mechanics and Large Inelastic Deformations
+| publisher = Springer
+| year = 2011
+| location = Germany 
+| isbn = 978-94-007-0033-8}}
+
+*{{cite book
+| last = Hutter | first = Kolumban
+| coauthors =  Klaus Jöhnk
+| title = Continuum Methods of Physical Modeling
+| publisher = Springer
+| year = 2004
+| location = Germany 
+| url = http://books.google.ca/books?id=B-dxx724YD4C
+| isbn = 3-540-20619-1}}
+
+*{{Cite book
+| last = Fung 
+| first = Y. C.
+| publisher = Prentice-Hall, Inc.
+| year = 1977 
+| title = A First Course in Continuum Mechanics 
+| edition = 2nd edition
+| isbn = 0-13-318311-4}}
+
+*{{cite book |first=M. E. |last=Gurtin |year=1981 |title=An Introduction to Continuum Mechanics |publisher=Academic Press |location=New York}}
+
+*{{Cite book
+|first = W. Michael
+|last = Lai
+|coauthors = David Rubin, Erhard Krempl
+|publisher = Elsevier, Inc.
+|year = 1996
+|title = Introduction to Continuum Mechanics
+|edition = 3rd edition
+|url = http://www.elsevierdirect.com/product.jsp?isbn=9780750628945
+|isbn = 978-0-7506-2894-5}}
+
+*{{cite book
+| last = Lubarda
+| first = Vlado A.
+| title = Elastoplasticity Theory
+| publisher = CRC Press
+| year = 2001
+| url = http://books.google.ca/books?id=1P0LybL4oAgC
+| isbn = 0-8493-1138-1 }}
+
+*{{cite book
+| last = Lubliner
+| first = Jacob
+| title = Plasticity Theory (Revised Edition)
+| publisher = Dover Publications
+| year = 2008
+| url = http://www.ce.berkeley.edu/~coby/plas/pdf/book.pdf
+| isbn = 0-486-46290-0}}
+
+*{{cite book
+| last = Malvern
+| first = Lawrence E.
+| year=1969
+| title=Introduction to the mechanics of a continuous medium
+| publisher = Prentice-Hall, Inc.
+| location=New Jersey}}
+
+*{{cite book
+| last = Mase
+| first = George E.
+| title = Continuum Mechanics
+| publisher = McGraw-Hill Professional
+| year = 1970
+| url = http://books.google.ca/books?id=bAdg6yxC0xUC&rview=1
+| isbn = 0-07-040663-4 }}
+
+*{{cite book
+| last = Mase
+| first = G. Thomas
+| coauthors = George E. Mase
+| title = Continuum Mechanics for Engineers
+| publisher = CRC Press
+| year = 1999
+|edition= Second Edition
+| url = http://books.google.ca/books?id=uI1ll0A8B_UC&rview=1
+| isbn = 0-8493-1855-6 }}
+
+*{{cite book |first=G. A. |last=Maugin |year=1999 |title=The Thermomechanics of Nonlinear Irreversible Behaviors: An Introduction |publisher=World Scientific |location=Singapore}}
+
+*{{cite book
+| last = Nemat-Nasser
+| first = Sia
+| title = Plasticity: A Treatise on Finite Deformation of Heterogeneous Inelastic Materials
+| publisher = Cambridge University Press
+| year = 2006
+| location = Cambridge
+| url = http://books.google.ca/books?id=5nO78Rt0BtMC
+| isbn = 0-521-83979-3}}
+
+*{{cite book
+| last = Ostoja-Starzewski
+| first = Martin 
+| title = Microstructural Randomness and Scaling in Mechanics of Materials
+| publisher = Chapman & Hall/CRC Press
+| year = 2008
+| location = Boca Raton, FL
+| url = http://www.crcpress.com/product/isbn/9781584884170
+| isbn = 978-1-58488-417-0}}
+
+*{{cite book
+| last = Rees 
+| first = David
+| title = Basic Engineering Plasticity - An Introduction with Engineering and Manufacturing Applications
+| publisher = Butterworth-Heinemann
+| year = 2006
+| url = http://books.google.ca/books?id=4KWbmn_1hcYC
+| isbn = 0-7506-8025-3}}
+
+*{{cite book |first=T. W. |last=Wright |year=2002 |title=The Physics and Mathematics of Adiabatic Shear Bands |publisher=Cambridge University Press |location=Cambridge, UK}}
+
+{{Physics-footer}}
+{{tensors}}
+
+{{DEFAULTSORT:Continuum Mechanics}}
+<!--Categories-->
+[[Category:Continuum mechanics| ]]

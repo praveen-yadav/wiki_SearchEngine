@@ -1,0 +1,123 @@
+{{Use dmy dates|date=August 2013}}
+'''CPAN''', the '''Comprehensive Perl Archive Network''', is an archive of over 124,000 [[modular programming|modules of software]] written in the [[Perl]] [[programming language]], as well as documentation for them.<ref name="home">{{cite web |title=CPAN front page|url=http://www.cpan.org/|accessdate=2012-10-09}}</ref>  It has a presence on the [[World Wide Web]] at [http://www.cpan.org/ www.cpan.org] and is [[mirror (computing)|mirrored]] worldwide at more than 200 locations.<ref name="mirror">{{cite web |url=http://mirrors.cpan.org/|accessdate=2009-05-15|title=CPAN Mirror}}</ref> ''CPAN'' can denote either the archive network itself, or the Perl program that acts as an interface to the network and as an automated software installer (somewhat like a [[package manager]]). Most software on CPAN is [[free and open source software]].<ref>{{cite web
+|url=http://www.cpan.org/misc/cpan-faq.html#How_is_Perl_licensed
+|title=How are Perl and the CPAN modules licensed?
+|quote=Most, though not all, modules on CPAN are licensed under the GNU General Public License (GPL) or the Artistic license...
+}}</ref> CPAN was conceived in 1993, and the first web-accessible mirror was launched in January 1997.<ref>{{cite web |url=http://history.perl.org/PerlTimeline.html |title=The Timeline of Perl and its Culture}}</ref>
+
+==Modules==
+
+Like many [[programming language]]s, Perl has mechanisms to use external [[library (computing)|libraries]] of code, making one file contain common routines used by several programs.  Perl calls these ''modules''.  [[Perl module]]s are typically installed in one of several [[directory (computing)|directories]] whose [[path (computing)|paths]] are placed in the Perl [[interpreter (computing)|interpreter]] when it is first [[compiler|compiled]]; on [[Unix-like]] [[operating system]]s, common paths include ''/usr/lib/perl5'', ''/usr/local/lib/perl5'', and several of their subdirectories.
+
+Perl comes with a small set of ''core modules''.  Some of these perform bootstrapping tasks, such as [[ExtUtils::MakeMaker]], which is used for building and installing other extension modules; others, like [[CGI.pm]], are merely commonly used.  The authors of Perl do not expect this limited group to meet every need, however.
+
+==Role==
+
+The CPAN's main purpose is to help programmers locate modules and programs not included in the Perl standard distribution.  Its structure is decentralized. Authors maintain and improve their own modules. Forking, and creating competing modules for the same task or purpose is common. There is no formal bug tracking system, but there is a third-party bug tracking system that CPAN designated as the suggested official method of reporting issues with modules. Continuous development on modules is rare; many are abandoned by their authors, or go years between new versions being released. Sometimes a maintainer will be appointed to an abandoned module. They can release new versions of the module, and accept patches from the community to the module as their time permits. CPAN has no [[revision control system]], although the source for the modules is often stored on [[GitHub]]. Also, the complete history of the CPAN and all its modules is available as the [https://github.com/gitpan GitPAN] project, allowing to easily see the complete history for all the modules and for easy maintenance of forks. CPAN is also used to distribute new versions of Perl, as well as related projects, such as [[Parrot virtual machine|Parrot]].
+
+The CPAN is an important resource for the professional Perl programmer. With over 23,000 modules (containing 20,000,000 lines of code) as of July 2011, the CPAN can save programmers weeks of time, and large Perl programs often make use of dozens of modules. Some of them, such as the [[Perl DBI|DBI]] family of modules used for interfacing with [[SQL]] [[database]]s, are nearly irreplaceable in their area of function; others, such as the [[List::Util]] module, are simply handy resources containing a few common functions.
+
+==Structure==
+Files on the CPAN are referred to as ''distributions''. A distribution may consist of one or more modules, documentation files, or programs packaged in a common archiving format, such as a [[gzip]]ped [[tar file format|tar]] archive or a [[ZIP file format|ZIP]] file. Distributions will often contain installation scripts (usually called ''Makefile.PL'' or ''Build.PL'') and test scripts which can be run to verify the contents of the distribution are functioning properly. New distributions are uploaded to the Perl Authors Upload Server, or PAUSE (see the section [[#Uploading distributions with PAUSE|Uploading distributions with PAUSE]]).
+
+In 2003, distributions started to include metadata files, called ''META.[[YAML|yml]]'', indicating the distribution's name, version, dependencies, and other useful information; however, not all distributions contain metadata. When metadata is not present in a distribution, the PAUSE's software will usually try to analyze the code in the distribution to look for the same information; this is not necessarily very reliable.
+
+With thousands of distributions, CPAN needs to be structured to be useful. Distributions on the CPAN are divided into 24 broad ''chapters'' based on their purpose, such as ''[[Internationalization]] and [[Locale]]''; ''[[Archiving]], [[data compression|Compression]], And [[data conversion|Conversion]]''; and ''[[Mail]] and [[Usenet]] News''. Distributions can also be browsed by author. Finally, the natural hierarchy of Perl module names (such as "Apache::DBI" or "Lingua::EN::Inflect") can sometimes be used to browse modules in the CPAN.
+
+CPAN module distributions usually have names in the form of ''CGI-Application-3.1'' (where the '''::''' used in the module's name has been replaced with a dash, and the version number has been appended to the name), but this is only a convention; many prominent distributions break the convention, especially those that contain multiple modules. Security restrictions prevent a distribution from ever being replaced, so virtually all distribution names do include a [[version number]].
+
+==Components==
+===Mirrors===
+
+The heart of CPAN is its worldwide network of  more than 260 mirrors in more than 60 countries.<ref name=mirror/> CPAN's master site has over 149 direct public mirrors.  Each site contains up to the full 3.9 [[gigabyte]]s of data, or a subset of it if the mirror's maintainer wishes to selectively choose.<ref name=home/>
+
+Most mirrors update themselves hourly, daily or bidaily from the CPAN master site.<ref>{{cite web |url=http://www.cs.uu.nl/stats/mirmon/cpan.html|title=CPAN Status and Statistics|accessdate=2010-05-09}}</ref>  Some sites are major FTP servers which mirror lots of other software, but others are simply servers owned by companies that use Perl heavily. There are at least two mirrors on every continent except Antarctica.
+
+For more information on CPAN mirrors, see [http://mirrors.cpan.org/ mirrors.cpan.org].
+
+===Search engines===
+<!-- [[Lua (programming language)]] links here. -->
+
+Several search engines have been written to help Perl programmers sort through the CPAN.  The most popular and official is [http://search.cpan.org/ search.cpan.org], which includes textual search, a browsable index of modules, and extracted copies of all distributions currently on the CPAN.  Other CPAN search engines that have been set up are:
+
+*[https://metacpan.org/ metacpan.org] -  A modern CPAN search site, with an open source backend.
+*[http://cpantools.com/ cpantools.com] - CPAN suggest as you type
+
+===Testers===
+
+CPAN Testers are a group of volunteers, who will download and test distributions as they are uploaded to CPAN. This enables the authors to have their modules tested on many platforms and environments that they would otherwise not have access to, thus helping to promote portability, as well as a degree of quality. Smoke testers send reports, which are then collated and used for a variety of presentation websites, including the main reports site, statistics and dependencies.
+*[http://www.cpantesters.org/ CPAN Testers Reports] co-ordinates and collects testing results for all CPAN uploads on various platforms.
+*[http://stats.cpantesters.org CPAN Testers Statistics] provides statistical analysis and monitoring of the CPAN Testing infrastructure.
+*[http://wiki.cpantesters.org CPAN Testers Wiki] contains useful help and advice for getting started as a smoke tester, as well as planning for CPAN Testers 2.0
+*[http://deps.cpantesters.org/ CPAN Dependencies], which combines data from META.yml files and the CPAN testers to graphically show a module's dependencies and attempt to calculate how likely it is to work on a particular platform.
+*[http://devel.cpantesters.org/ CPAN Testers Development] contains the links to all the supporting tools, data and source that are used to maintain the CPAN Testers infrastructure.
+
+===Other supporting websites===
+
+A family of other loosely integrated support websites have been created as the CPAN has grown in size and scale. These are created and managed by individual Perl developers, and provide data feeds to each other in various ad-hoc ways.
+*[http://cpanratings.perl.org CPANRatings] allows users to write short reviews and rate modules on a 5-star scale
+*[http://cpanforum.com CPAN::Forum] is a discussion forum where threads are classified by CPAN distribution
+*[http://annocpan.org AnnoCPAN] displays the documentation for all the modules on CPAN, along with user-contributed annotations
+*[http://rt.cpan.org rt.cpan.org] is a request tracker for bugs and features, and provide all 20,000 modules with their own ticket queue.
+*[http://cpants.cpanauthors.org CPANTS], the CPAN Testing Service, evaluates distributions automatically for quality assurance metrics of varying usefulness and assigns them a "[[kwalitee]]" rating.
+
+===CPAN.pm and CPANPLUS===
+
+There is also a Perl core module named CPAN; it is usually differentiated from the repository itself by using the name CPAN.pm.  CPAN.pm is mainly an interactive shell which can be used to search for, download, and install distributions.  An interactive shell called <tt>cpan</tt> is also provided in the Perl core, and is the usual way of running CPAN.pm. After a short configuration process and mirror selection, it uses tools available on the user's computer to automatically download, unpack, compile, test, and install modules.  It is also capable of updating itself.
+
+More recently, an effort to replace CPAN.pm with something cleaner and more modern has resulted in the CPANPLUS (or CPAN++) set of modules.  CPANPLUS separates the back-end work of downloading, compiling, and installing modules from the interactive shell used to issue commands.  It also supports several advanced features, such as cryptographic signature checking and test result reporting.  Finally, CPANPLUS can uninstall a distribution.  CPANPLUS was added to the Perl core in version 5.10.0.
+
+Both modules can check a distribution's [[coupling (computer science)|dependencies]] and can be set to recursively install any [[prerequisite]]s, either automatically or with individual user approval.  Both support FTP and HTTP and can work through firewalls and proxies.
+
+===Uploading distributions with PAUSE===
+
+Authors can upload new distributions to the CPAN through the ''Perl Authors Upload Server'' ([http://pause.perl.org/pause/query PAUSE]).  To do so, they must [https://pause.perl.org/pause/query?ACTION=request_id request a PAUSE account].  Registration information can be found at the [https://pause.perl.org/pause/query?ACTION=pause_04about#registering PAUSE faq]
+
+Registrations are manually reviewed, so the process may take a week or longer.
+
+Once registered, the new PAUSE account has a directory in the CPAN under ''authors/id/(first letter)/(first two letters)/(author ID)''.  They may use a web interface at [https://pause.perl.org pause.perl.org], or the PAUSE ftp server to upload files to their directory and delete them.  PAUSE will warn an administrator if a user uploads a module that already exists, unless they are listed as a ''co-maintainer''.  This can be specified through PAUSE's web interface.
+
+==Influence==
+
+Experienced Perl programmers often comment that half of Perl's power is in the CPAN. It has been called Perl's [[killer app]].
+<ref name="PERLmonks">{{cite web |title=Re: Killer Apps in PERL|url=http://www.perlmonks.org/bare/?node_id=187498|accessdate=2013-02-24}}</ref> Though the [[TeX]] typesetting language has an equivalent, the [[CTAN]] (and in fact the CPAN's name is based on the CTAN), few languages have an exhaustive central repository for libraries. The [[PHP]] language has [[PHP Extension Community Library|PECL]] and [[PHP Extension and Application Repository|PEAR]], [[Python (programming language)|Python]] has a [[PyPI]] (Python Package Index) repository, [[Ruby (programming language)|Ruby]] has [[RubyGems]], [[R (programming language)|R]] has [[CRAN (R programming language)|CRAN]], [[Node.js]] has [[npm (software)|npm]], [[Lua (programming language)|Lua]] has [[LuaRocks]], [[Haskell (programming language)|Haskell]] has [[Hackage]] and an associated installer/make clone [[Cabal (software)|cabal]]; but none of these are as large as the CPAN. Recently, [[Common Lisp]] has a de facto CPAN-like system—the Quicklisp repositories.  Other major languages, such as [[Java (programming language)|Java]] and [[C++]], have nothing similar to the CPAN (though for Java there is central [[Apache Maven|Maven]]).
+
+The CPAN has grown so large and comprehensive over the years that Perl users are known to express surprise when they start to encounter topics for which a CPAN module ''doesn't'' exist already.
+
+The CPAN's influence on Perl's eclectic culture should not be underestimated either.  As a hive of activity in the Perl world, the CPAN both shapes and is shaped by Perl culture.  Its "self-appointed master librarian", [[Jarkko Hietaniemi]], often takes part in the [[April Fools Day]] jokes so popular on the Internet; on 1 April 2002 the site was temporarily named to ''CJAN'', where the "J" stood for "Java".  In 2003, the [http://www.cpan.org www.cpan.org] domain name was redirected to [[Matt's Script Archive]], a site infamous in the Perl community for having badly written code.<ref>{{cite web
+|title=Elements of Programming with Perl
+|url=http://www.perlmonks.org/?node_id=36308
+|date=2000-10-12
+|accessdate=2013-04-25}}</ref><ref>{{cite web
+|title=Exploit this formmail.pl for fun and, well, fun
+|url=http://www.perlmonks.org/?node_id=102758
+|date=2001-08-07
+|accessdate=2013-04-25}}</ref><ref>{{cite web
+|title=Matt's Script Archive Strikes Again!
+|url=http://www.perlmonks.org/?node_id=93731
+|date=2001-07-04
+|accessdate=2013-04-25}}</ref>
+
+Beyond April Fools', however, some of the distributions on the CPAN are jokes in themselves.  The [[Acme Corporation|Acme]]:: hierarchy is reserved for joke modules; for instance, Acme::Don't adds a <code>don't</code> function that doesn't run the code given to it (to complement the <code>do</code> built-in, which does).  Even outside the Acme:: hierarchy, some modules are still written largely for amusement; one example is Lingua::Romana::Perligata, which can be used to write Perl programs in a subset of Latin.
+
+===Derivative works===
+
+In 2005, a group of Perl developers who also had an interest in JavaScript got together to create [[JSAN]], the JavaScript Archive Network. The JSAN is a near-direct port of the CPAN infrastructure for use with the JavaScript language, which for most of its lifespan did not have a cohesive "community".
+
+In 2008, after a chance meeting with CPAN admin [[Adam Kennedy (programmer)|Adam Kennedy]] at the Open Source Developers Conference, Linux kernel developer [[Rusty Russell]] created the [http://ccan.ozlabs.org CCAN], the Comprehensive C Archive Network. The CCAN is a direct port of the CPAN architecture for use with the C language.
+
+==References==
+{{Reflist}}
+
+==External links==
+{{Portal|Free software}}
+* {{official website|http://www.cpan.org}}
+* [https://metacpan.org MetaCPAN:] a free, open CPAN search engine
+* [http://www.cpan.org/misc/ZCAN.html ZCAN - "The Zen of Comprehensive Archive Networks"] - a document that aims to explain how and why CPAN succeeded and how to duplicate it in similar efforts. (9 January 2003 by [[Jarkko Hietaniemi]]).
+
+{{Perl}}
+
+{{DEFAULTSORT:Cpan}}
+[[Category:Perl]]
+[[Category:Archive networks]]
+[[Category:Package management systems]]

@@ -1,0 +1,220 @@
+{{multiple issues|
+{{original research|date=February 2011}}
+{{refimprove|date=September 2012}}
+{{metricate|date=november 2013}}
+}}
+
+[[File:Canon ir2270.jpg|thumb|A modern printer with scanning/copying capability (Actually this is known as a "Print Device", a printer is the software built into the operating systems that use them.)]]
+[[File:Nintendo PocketPrinter.JPG|thumb|The Game Boy Pocket Printer, a [[thermal printer]] released as a peripheral for the [[Nintendo]] [[Game Boy]]]]
+[[File:Epson Wide Carriage 9-pin printer - with legal paper 8.5x14.jpg|thumb|This is an example of a wide-carriage [[dot matrix printer]], designed for paper 14 inches wide, shown with legal paper loaded (8.5" x 14"). Wide carriage printers were often used in the field  of businesses, to print accounting records on 11" x 14" [[tractor-feed paper]]. They were also called "132-column printers"]]
+[[File:Printer.ogg|thumb|A video showing an [[inkjet printer]] while printing a page.]]
+
+In computing, a '''printer''' is a [[peripheral]] which makes a representation of an electronic document on physical media. Individual printers are designed to support local and network users at the same time. Some printers can print documents stored on [[memory card]]s or from [[digital camera]]s and [[image scanner|scanner]]s.
+
+Consumer and some commercial printers are designed for low-volume, short-turnaround [[print job]]s; requiring virtually no setup time to achieve a hard copy of a given document. However, printers are generally slow devices (30 pages per minute is considered fast, and many inexpensive consumer printers are far slower than that), and the cost per page is actually relatively high. However, this is offset by the on-demand convenience and project management costs being more controllable compared to an out-sourced solution. The [[printing press]] remains the machine of choice for high-volume, professional publishing.  However, as printers have improved in quality and performance, many jobs which used to be done on printing presses are now done by [[print on demand]] or by users on local printers; see [[desktop publishing]]. Local printers are also increasingly taking over the process of [[photofinishing]] as digital photo printers become commonplace.
+
+The world's first computer printer was a 19th-century mechanically driven apparatus invented by [[Charles Babbage]] for his [[difference engine]].<ref>{{citation | url = http://news.bbc.co.uk/1/hi/sci/tech/710950.stm | title = Babbage printer finally runs | publisher = BBC News | date = 13 April 2000}}</ref>
+
+A [[virtual printer]] is a piece of computer software whose user interface and [[Application programming interface|API]] resembles that of a printer driver, but which is not connected with a physical computer printer.
+
+== Technology ==
+
+Printers can be classified by the printer technology they employ, with many techniques being available as commercial products. The choice of print technology has a great effect on the cost of the printer and cost of operation, speed, quality and permanence of documents, and noise. Some printer technologies don't work with certain types of physical media, such as [[carbon paper]] or [[transparency (projection)|transparencies]].
+
+A second aspect of printer technology that is often forgotten is resistance to alteration: liquid [[ink]], such as from an inkjet head or fabric ribbon, becomes absorbed by the paper fibers, so documents printed with liquid ink are more difficult to alter than documents printed with toner or solid inks, which do not penetrate below the paper surface.
+
+Cheques can be printed with liquid ink or on special cheque paper with toner anchorage so that alterations may be detected.<ref>{{cite web|url=http://www.abagnale.com/pdf/protection_b.pdf|format=PDF|title=Protection Against Cheque Fraud|publisher=abagnale.com|author=Abagnale, Frank|authorlink=Frank Abagnale|year=2007|accessdate=2007-06-27}}</ref> The machine-readable lower portion of a cheque must be printed using [[magnetic ink character recognition|MICR]] toner or ink. Banks and other clearing houses employ automation equipment that relies on the [[magnetic flux]] from these specially printed characters to function properly.
+
+=== Modern print technology ===
+
+The following [[printing]] technologies are routinely found in modern printers:
+
+==== Toner-based printers ====
+{{main|Laser printer}}
+
+A [[laser printer]] rapidly produces high quality text and graphics. As with digital photocopiers and multifunction printers (MFPs), laser printers employ a [[xerography|xerographic]] printing process but differ from analog photocopiers in that the image is produced by the direct scanning of a [[laser]] beam across the printer's [[photodetector|photoreceptor]].
+
+Another toner-based printer is the [[LED printer]] which uses an array of [[light-emitting diode|LEDs]] instead of a [[laser]] to cause toner [[adhesion]] to the print drum.
+
+==== Liquid inkjet printers ====
+
+[[File:Ink-jet-cartridge.jpg|thumb|left|Liquid ink cartridge from Hewlett-Packard HP 845C inkjet printer]]
+[[Inkjet printer]]s operate by propelling variably sized droplets of liquid ink onto almost any sized page. They are the most common type of computer printer used by consumers.
+
+==== Solid ink printers ====
+{{main|Solid ink}}
+
+[[Solid ink]] printers, also known as phase-change printers, are a type of [[thermal transfer printer]]. They use solid sticks of [[CMYK color model|CMYK]]-coloured ink, similar in consistency to candle wax, which are melted and fed into a piezo crystal operated print-head. The printhead sprays the ink on a rotating, oil coated drum. The paper then passes over the print drum, at which time the image is immediately transferred, or transfixed, to the page. Solid ink printers are most commonly used as colour office printers, and are excellent at printing on transparencies and other non-porous media. Solid ink printers can produce excellent results. Acquisition and operating costs are similar to laser printers. Drawbacks of the technology include high [[energy conservation|energy consumption]] and long warm-up times from a cold state. Also, some users complain that the resulting prints are difficult to write on, as the wax tends to repel inks from [[pen]]s, and are difficult to feed through [[automatic document feeder]]s, but these traits have been significantly reduced in later models. In addition, this type of printer is only available from one manufacturer, [[Xerox]], manufactured as part of their [[Xerox Phaser]] office printer line. Previously, [[solid ink]] printers were manufactured by [[Tektronix]], but Tek sold the printing business to Xerox in 2001.
+
+==== Dye-sublimation printers ====
+{{main|Dye-sublimation printer}}
+
+[[Image:RGB dye sublimation panels.jpg|thumb|300px|A disassembled dye sublimation cartridge.]]
+A dye-sublimation printer (or dye-sub printer) is a printer which employs a printing process that uses heat to transfer dye to a medium such as a plastic card, paper or [[canvas print|canvas]]. The process is usually to lay one colour at a time using a ribbon that has colour panels. Dye-sub printers are intended primarily for high-quality colour applications, including colour photography; and are less well-suited for text. While once the province of high-end print shops, dye-sublimation printers are now increasingly used as dedicated consumer photo printers.
+
+==== Inkless printers{{anchor|Thermal printers}} ====
+[[File:Twitter receipt printer.jpg|thumb|Receipt printer printing a Twitter timeline]]
+[[Thermal printer]]s work by selectively heating regions of special heat-sensitive paper. Monochrome thermal printers are used in cash registers, [[Automated teller machine|ATMs]], [[Fuel dispenser|gasoline dispensers]] and some older inexpensive fax machines. Colours can be achieved with special papers and different temperatures and heating rates for different colours; these coloured sheets are not required in black-and-white output. One example is the ZINK technology (Zero INK Technology).<ref>{{cite web|url=https://www.zink.com/content/technology-0 |title=Technology–How it works &#124; ZINK &#124; Zero Ink |publisher=ZINK |date= |accessdate=2012-11-02}}</ref>
+
+=== Obsolete and special-purpose printing technologies ===
+[[File:Epson MX-80.jpg|thumb|Epson MX-80, a popular model of dot-matix printer in use for many years]]
+
+The following technologies are either obsolete, or limited to special applications though most were, at one time, in widespread use.
+
+{{anchor|Impact_printers}}'''Impact printers''' rely on a [[force|forcible]] impact to transfer ink to the media. The impact printer uses a print head that either hits the surface of the ink ribbon, pressing the ink ribbon against the paper (similar to the action of a [[typewriter]]), or hits the back of the paper, pressing the paper against the ink ribbon (the [[IBM 1403]] for example).  All but the [[dot matrix printer]] rely on the use of ''fully formed characters'', [[letterform]]s that represent each of the characters that the printer was capable of printing. In addition, most of these printers were limited to monochrome, or sometimes two-color, printing in a single typeface at one time, although [[emphasis (typography)|bolding]] and [[underlining]] of text could be done by "overstriking", that is, printing two or more impressions in the same character position. Impact printers varieties include, typewriter-derived printers, teletypewriter-derived printers, daisy wheel printers, dot matrix printers and line printers. Dot matrix printers remain in common use in businesses where multi-part forms are printed, such as car rental services. ''An overview of impact printing''<ref>{{cite web| url=http://www.research.ibm.com/journal/rd/416/zable.pdf| format=PDF-2031 KB | title=An overview of impact printing| publisher=[[IBM]] | work=Journal of Research and Development| author1=J. L. Zable |author2=H. C. Lee|  pages=651–668 | volume=Vol.41 | issue=Issue.6 | date=November 1997| doi=10.1147/rd.416.0651| issn=0018-8646}} {{subscription}}</ref> contains a detailed description of many of the technologies used.
+
+Pen-based plotters were an alternate printing technology once common in engineering and architectural firms. Pen-based plotters rely on contact with the paper (but not impact, per se) and special purpose pens that are mechanically run over the paper to create text and images.
+
+==== Typewriter-derived printers ====
+{{main|Friden Flexowriter|IBM Selectric typewriter}}
+
+[[File:IBM Selectric typeball.jpg|thumb|left|typeball print element from IBM Selectric-type printer]]
+Several different computer printers were simply computer-controllable versions of existing electric typewriters. The [[Friden Flexowriter]] and [[IBM Selectric typewriter|IBM Selectric-based]] printers were the most-common examples. The Flexowriter printed with a conventional typebar mechanism while the Selectric used IBM's well-known "golf ball" printing mechanism. In either case, the letter form then struck a ribbon which was pressed against the paper, printing one character at a time. The maximum speed of the Selectric printer (the faster of the two) was 15.5 characters per second.
+
+==== Teletypewriter-derived printers ====
+{{main|Teleprinter}}
+
+The common [[teleprinter]] could easily be interfaced to the computer and became very popular except for those computers manufactured by [[IBM]]. Some models used a "typebox" that was positioned, in the X- and Y-axes, by a mechanism and the selected letter form was struck by a hammer. Others used a type cylinder in a similar way as the Selectric typewriters used their type ball. In either case, the letter form then struck a ribbon to print the letterform. Most teleprinters operated at ten characters per second although a few achieved 15 CPS.
+
+==== Daisy wheel printers ====
+{{main|Daisy wheel printer}}
+
+[[File:Daisywheel 1.jpg|thumb|left|"daisy wheel"  print element]]
+Daisy wheel printers operate in much the same fashion as a [[typewriter]]. A hammer strikes a wheel with petals, the "daisy wheel", each petal containing a letter form at its tip. The letter form strikes a ribbon of [[ink]], depositing the ink on the page and thus printing a character. By rotating the daisy wheel, different characters are selected for printing. These printers were also referred to as ''letter-quality printers'' because, during their heyday, they could produce text which was as clear and crisp as a typewriter, though they were nowhere near the quality of [[printing press]]es. The fastest letter-quality printers printed at 30 characters per second.
+
+==== Dot-matrix printers ====
+{{main|Dot matrix printer}}
+
+[[File:Dot matrix example text.png|thumb|right|sample output from  9-pin dot matrix printer (one character expanded to show detail)]]
+In the general sense many printers rely on a [[matrix (mathematics)|matrix]] of [[pixel]]s, or [[decimal mark|dot]]s, that together form the larger image. However, the term [[dot matrix printer]] is specifically used for impact printers that use a matrix of small [[pin]]s to create precise dots. The advantage of dot-matrix over other impact printers is that they can produce [[graphic design|graphical]] images in addition to text; however the text is generally of poorer quality than impact printers that use letterforms (''type'').
+
+Dot-matrix printers can be broadly divided into two major classes:
+
+* Ballistic wire printers
+* [[Stored energy printer]]s
+
+Dot matrix printers can either be [[character (computing)|character]]-based or line-based (that is, a single horizontal series of pixels across the page), referring to the configuration of the print head.
+
+At one time, dot matrix printers were one of the more common types of printers used for general use, such as for home and small office use. Such printers would have either 9 or 24 pins on the print head. 24-pin print heads were able to print at a higher quality. Once the price of inkjet printers dropped to the point where they were competitive with dot matrix printers, dot matrix printers began to fall out of favor for general use.
+
+Some dot matrix printers, such as the NEC P6300, can be upgraded to print in colour. This is achieved through the use of a four-colour ribbon mounted on a mechanism (provided in an upgrade kit that replaces the standard black ribbon mechanism after installation) that raises and lowers the ribbons as needed. Colour graphics are generally printed in four passes at standard resolution, thus slowing down printing considerably. As a result, colour graphics can take up to four times longer to print than standard monochrome graphics, or up to 8-16 times as long at high resolution mode.
+
+Dot matrix printers are still commonly used in low-cost, low-quality applications like [[cash register]]s, or in demanding, very high volume applications like [[invoice]] printing. The fact that they use an impact printing method allows them to be used to print multi-part documents using [[carbonless copy paper]], like sales invoices and [[credit card]] receipts, whereas other printing methods are unusable with paper of this type. Dot-matrix printers are now (as of 2005) rapidly being superseded even as receipt printers.
+
+==== Line printers ====
+{{main|Line printer}}
+[[File:PrinterIBM1403 090325.jpg|thumb|left|IBM 1403 line printer]]
+
+Line printers, as the name implies, print an entire line of text at a time. Four principal designs existed. 
+*''Drum printers'', where a horizontally mounted rotating drum carries the entire character set of the printer repeated in each printable character position.  The [[IBM 1132]] printer is an example of a drum printer.
+*''Chain or train printers'', where the character set is arranged multiple times around a linked chain or a set of character slugs in a track traveling horizontally past the print line.  The [[IBM 1403]] is perhaps the must popular, and came in both chain and train varieties.  The ''band printer'' is a later variant where the characters are embossed on a flexible steel band.  The LP27 from Digital Equipment Corporation is a band printer.
+*''Bar printers'', where the character set is attached to a solid bar that moves horizontally along the print line, such as the [[IBM 1443]].<ref>{{cite book|last=IBM Corporation|title=IBM 1443 PRINTER for 1620/1710 Systems|url=http://bitsavers.informatik.uni-stuttgart.de/pdf/ibm/1620/A26-5730-2_1443_printer_for_1620.pdf}}</ref>
+*A fourth design, used mainly on very early printers such as the IBM 402, featured independent type bars, one for each printable position Each bar contained the character set to be printed.  The bars moved vertically to position the character to be printed in front of the print hammer.<ref>{{cite book|last=IBM Corporation|title=IBM 402, 403 and 419 Accounting Machines Manual of Operation|year=1963|url=http://bitsavers.informatik.uni-stuttgart.de/pdf/ibm/punchedCard/AccountingMachine/224-1614-13_402-403-419.pdf}}</ref>
+
+In each case, to print a line, precisely timed hammers strike against the back of the paper at the exact moment that the correct character to be printed is passing in front of the paper. The paper presses forward against a ribbon which then presses against the character form and the impression of the character form is printed onto the paper.
+
+*''Comb printers'', also called ''[[line matrix printer]]s'', represent the fifth major design. These printers were a hybrid of [[dot matrix printing]] and line printing. In these printers, a comb of hammers printed a portion of a row of pixels at one time, such as every eighth pixel. By shifting the comb back and forth slightly, the entire pixel row could be printed, continuing the example, in just eight cycles. The paper then advanced and the next pixel row was printed. Because far less motion was involved than in a conventional dot matrix printer, these printers were very fast compared to dot matrix printers and were competitive in speed with formed-character line printers while also being able to print dot matrix graphics.  The [[Printronix]] P7000  series of line matrix printers are still manufactured as of 2013.
+
+Line printers were the fastest of all impact printers and were used for bulk printing in large computer centres. A line printer could print at 1100 lines per minute or faster, frequently printing pages more rapidly than many current laser printers.  On the other hand, the mechanical components of line printers operated with tight tolerances and required regular [[preventive maintenance]] (PM) to produce top quality print. They were virtually never used with [[personal computer]]s and have now been replaced by high-speed [[laser printer]]s.  The legacy of line printers lives on in many computer [[operating system]]s, which use the abbreviations "lp", "lpr", or "LPT" to refer to printers.
+
+==== Liquid ink electrostatic printer ====
+{{refimprove section|date=May 2012}}
+
+Liquid ink electrostatic printer use a chemical coated paper, which is charged by the print head according to the image of the document. The paper is passed near a pool of liquid ink with the opposite charge. The charged areas of the paper attract the ink and thus form the image. This process was developed from the process of [[electrofax|electrostatic copying]].<ref>{{cite web|url=http://cms.ironk12.org/TeacherWebsites/RyanDurfee/USHistory/HistoryStudentsWebsites/MadisonAlgerHISTORYWEBSITE/electrostaticprinter.html |title=Madison's website on Renn Zaphiropoulos |publisher=Cms.ironk12.org |date= |accessdate=2012-11-02}}</ref> Color reproduction is very accurate, and because there is no heating the scale distortion is less than  ±0.1%. (All laser printers have an accuracy of ±1%).
+
+Worldwide, most survey offices used this printer before color inkjet plotters become popular. Liquid ink electrostatic printers were mostly available in 36 inches to 54 inches width and also 6 color printing. These were also used to print large billboards. It was first introduced by Versatec, which was later bought by [[Xerox]]. [[3M]] also used to make these printers.<ref>{{cite web|url=http://www.wide-format-printers.org/3M_Scotchprint_Printer_2000/3M_Scotchprint_2000_signs.htm |title=Introduction to the 3M Scotchprint 2000 electrostatic printer |publisher=Wide-format-printers.org |date= |accessdate=2012-11-02}}</ref>
+
+==== Pen-based plotters ====
+{{main|Plotter}}
+
+[[File:Reiss Plotter K6418.JPG|thumb|right|X-Y flatbed plotter]]
+Plotters are not normally classified as printers, although they have the capability to produce alphanumeric output as well as graphics.  A plotter is a [[vector graphics]] output device which operates by moving a pen over the surface of paper.  There are two types of plotters, flat bed and drum.  Plotters have been used in applications such as [[computer-aided design]], though they are rarely used since the introduction of [[raster graphics]] printers, which have sufficient resolution to render high-quality vector graphics using a [[rasterized]] print engine. It is commonplace to refer to such wide-format printers as "plotters", even though such usage is technically incorrect.
+
+=== Other printers ===
+
+A number of other sorts of printers are important for historical reasons, or for special purpose uses:
+
+* [[Minilab|Digital minilab]] ([[photographic paper]])
+* [[VT52|Electrolytic printers]]
+* [[Spark printer]]
+* Barcode printer multiple technologies, including: [[thermal printing]], [[inkjet printing]], and [[laser printing]] [[barcode]]s
+* Billboard / sign paint spray printers
+* Laser etching (product packaging) industrial printers
+* Microsphere (special paper)
+
+== Attributes ==
+
+=== Printer controls ===
+Most printers other than line printers accept [[control character]]s or unique character sequences to control various printer functions.  These may range from shifting from lower to upper case or from black to red ribbon on typewriter printers to switching fonts and changing character sizes and colors on raster printers. Early printer controls were not standardized, with each manufacturer's equipment having its own set.  The IBM [[Personal Printer Data Stream]] (PPDS) became a commonly used command set for dot-matrix printers.  Most laser printers offered compatibility with Hewlett-Packard's [[Printer Command Language]] (PCL). As printers incorporated more computing power [[page description language]]s such as [[PostScript]] have become more widely used.
+
+=== Printing speed ===
+
+The speed of early printers was measured in units of ''characters per second'' (cps) for character printers, or ''lines per minute'' (lpm) for line printers. More modern printers are measured in ''pages per minute''. These measures are used primarily as a marketing tool, and are not as well standardised as [[ISO/IEC 19752|toner yields]]. Usually pages per minute refers to sparse monochrome office documents, rather than dense pictures which usually print much more slowly, especially colour images. PPM are most of the time referring to [[ISO 216|A4 paper]] in Europe and [[letter (paper size)|letter]] paper in the United States, resulting in a 5-10% difference.
+
+=== Sales ===
+
+Since 2005, the world's top selling brand of [[inkjet]] and [[laser printer]]s has been [[HP]] which now has 46% of sales in inkjet and 55.5% in laser printers.<ref>{{Citation |url=http://money.cnn.com/2009/02/27/news/companies/lashinsky_hurd.fortune/index.htm |title=Mark Hurd's moment |first=Adam |last=Lashinsky |date=March 3, 2009 |work=[[CNNMoney.com]]}}</ref>
+
+=== Printing mode ===
+
+The data received by a printer may be:
+
+* [[plain text|A string of characters]]
+* [[raster graphics|A bitmapped image]]
+* [[vector graphics|A vector image]]
+* A [[computer program]] written in a [[page description language]], such as [[page description language|PCL]] or [[PostScript]]
+
+Some printers can process all three types of data, others not.
+
+* Character printers, such as [[daisy wheel printer]]s, can handle only plain text data or rather simple point plots.
+* Pen [[plotter]]s typically process [[vector image]]s. Inkjet based plotters can adequately reproduce all four{{citation needed|date=September 2013}}.
+* Modern printing technology, such as [[laser printer]]s and [[inkjet printer]]s, can adequately reproduce all four. This is especially true of printers equipped with support for PCL or PostScript, which includes the vast majority of printers produced today.
+
+Today it is possible to print everything (even plain text) by sending ready bitmapped images to the printer. This allows better control over formatting, especially among machines from different vendors. Many [[printer driver]]s do not use the text mode at all, even if the printer is capable of it.{{citation needed|date=August 2012}}
+
+=== Monochrome, colour and photo printers ===
+
+A [[monochrome]] printer can only produce an [[image]] consisting of one [[colour]], usually black. A monochrome printer may also be able to produce various tones of that color, such as a [[grayscale|grey-scale]]. A colour printer can produce images of multiple colours. A photo printer is a colour printer that can produce images that mimic the [[gamut|colour range]] (gamut) and [[image resolution|resolution]] of prints made from [[photographic film]]. Many can be used on a standalone basis without a computer, using a [[memory card]] or [[Universal Serial Bus|USB]] connector.
+
+=== Business model ===
+
+Often the [[freebie marketing|"razor and blades" business model]] is applied. That is, a company may sell a printer at cost, and make profits on the [[ink cartridge]], paper, or some other [[spare part|replacement part]]. This has caused legal disputes regarding the right of companies other than the printer manufacturer to sell [[computer compatibility|compatible]] ink cartridges. To protect their business model, several manufacturers invest heavily in developing new cartridge technology and patenting it.
+
+Other manufacturers, in reaction to the challenges from using this business model, choose to make more money on printers and less on the ink, promoting the latter through their advertising campaigns. Finally, this generates two clearly different proposals: "cheap printer&nbsp;– expensive ink" or "expensive printer&nbsp;– cheap ink". Ultimately, the consumer decision depends on their reference [[interest rate]] or their [[time preference]]. From an [[economics]] viewpoint, there is a clear [[trade-off]] between cost per copy and cost of the printer.<ref>[http://www.officenet.com.ar/impresoras/ Cost per Page versus Printer cost in currently available printers<!-- could not find an English version, only Spanish or Portuguese http://www.officenet.com.br/impresoras/-->]</ref>
+
+=== Printer steganography ===
+[[File:Printer Steganography Illustration.png|thumb|An illustration showing small yellow tracking dots on white paper, generated by a color laser printer]]
+{{Main|Printer steganography}}
+
+Printer steganography is a type of [[steganography]] &ndash; "hiding data within data"<ref>{{cite journal|last=Artz|first=D|title=Digital steganography: hiding data within data|journal=IEEE Xplore|year=2001|month=May/Jun|volume=5|issue=3|pages=75, 80|url=http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=935180&isnumber=20242|accessdate=April 11, 2013}}</ref> &ndash; produced by color printers, including [[Brother Industries|Brother]], Canon, Dell, Epson, [[HP]], IBM, [[Konica Minolta]], Kyocera, Lanier, Lexmark, Ricoh, Toshiba and [[Xerox]]<ref>{{cite web|title=List of Printers Which Do or Do Not Display Tracking Dots|url=https://www.eff.org/pages/list-printers-which-do-or-do-not-display-tracking-dots|publisher=[[Electronic Frontier Foundation]]}} Retrieved 11 March 2011.</ref> brand color laser printers, where tiny yellow dots are added to each page. The dots are barely visible and contain encoded printer serial numbers, as well as date and time stamps.
+
+== See also ==
+
+* [[3D printing]]
+* [[Cardboard modeling]]
+* [[List of printer companies]]
+* [[Print (command)]]
+* [[Print screen]]
+* [[Print server]]
+* [[Printable version]]
+*[[Label printer]]
+* [[Printer friendly]]
+* [[Printer point]]
+* [[Printer (publishing)]]
+* [[Printmaking]]
+* [[Printer consumables]]
+* [[Printer supplies]]
+
+== References ==
+
+{{reflist|30em}}
+
+== External links ==
+
+* {{commonscat-inline|Printers}}
+
+{{Basic computer components}}
+
+[[Category:Computer printers| ]]
+[[Category:Office equipment]]
+[[Category:Typography]]

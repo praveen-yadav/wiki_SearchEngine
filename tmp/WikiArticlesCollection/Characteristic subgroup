@@ -1,0 +1,74 @@
+In [[mathematics]], particularly in the area of [[abstract algebra]] known as [[group theory]], a '''characteristic subgroup''' is a [[subgroup]] that is [[invariant (mathematics)|invariant]] under all [[automorphism]]s of the parent [[group (mathematics)|group]].<ref>{{cite book | last1=Dummit | first1=David S. | last2=Foote | first2=Richard M. | title=Abstract Algebra | publisher=[[John Wiley & Sons]] | year=2004 | edition=3rd | isbn=0-471-43334-9}}</ref><ref>{{cite book | last=Lang | first=Serge | authorlink=Serge Lang | title=Algebra | publisher=[[Springer Science+Business Media|Springer]] | series=[[Graduate Texts in Mathematics]] | year=2002 | isbn=0-387-95385-X}}</ref>  Because [[inner automorphism|conjugation]] is an automorphism, every characteristic subgroup is [[normal subgroup|normal]], though not every normal subgroup is characteristic.  Examples of characteristic subgroups include the [[commutator subgroup]] and the [[center of a group]].
+
+== Definitions ==
+A '''characteristic subgroup''' of a [[group (mathematics)|group]] ''G'' is a [[subgroup]] ''H'' that is invariant under each [[automorphism]] of ''G''. That is,
+:<math>\varphi(H) = H</math>
+for every automorphism ''&phi;'' of ''G'' (where ''&phi;''(''H'') denotes the [[Image (mathematics)|image]] of ''H'' under ''&phi;'').
+
+The statement “''H'' is a characteristic subgroup of ''G''” is written
+:<math>H\;\mathrm{char}\;G.</math>
+
+== Characteristic vs. normal ==
+If ''G'' is a group, and ''g'' is a fixed element of ''G'', then the conjugation map
+:<math>x \mapsto g x g^{-1}</math>
+is an automorphism of ''G'' (known as an [[inner automorphism]]).  A subgroup of ''G'' that is invariant under all inner automorphisms is called [[normal subgroup|normal]].  Since a characteristic subgroup is invariant under all automorphisms, every characteristic subgroup is normal.
+
+Not every normal subgroup is characteristic.  Here are several examples:
+* Let ''H'' be a group, and let ''G'' be the [[direct product of groups|direct product]] ''H''&nbsp;&times;&nbsp;''H''.  Then the subgroups {1}&nbsp;&times;&nbsp;''H'' and ''H''&nbsp;&times;&nbsp;{1} are both normal, but neither is characteristic.  In particular, neither of these subgroups is invariant under the automorphism (''x'',&nbsp;''y'')&nbsp;→&nbsp;(''y'',&nbsp;''x'') that switches the two factors.
+* For a concrete example of this, let ''V'' be the [[Klein four-group]] (which is [[group isomorphism|isomorphic]] to the direct product [[cyclic group|'''Z'''<sub>2</sub>]]&nbsp;&times;&nbsp;[[cyclic group|'''Z'''<sub>2</sub>]]).  Since this group is [[abelian group|abelian]], every subgroup is normal; but every permutation of the three non-identity elements is an automorphism of ''V'', so the three subgroups of order 2 are not characteristic.Here <math> V=\left\{e,a,b,ab\right\}</math> Consider H={e,a} and consider the automorphism <math> T(e)=e, T(a)=b, T(b)=a, T(ab)=ab </math>.Then ''T(H)'' is not contained in ''H''.
+* In the [[quaternion group]] of order 8, each of the cyclic subgroups of order 4 is normal, but none of these are characteristic.  However, the subgroup {1,&nbsp;&minus;1} is characteristic, since it is the only subgroup of order 2.
+Note: If ''H'' is the unique subgroup of a group ''G'', then ''H'' is characteristic in ''G''.
+* If ''n'' is even, the [[dihedral group]] of order 2''n'' has three subgroups of [[index of a subgroup|index]] two, all of which are normal.  One of these is the cyclic subgroup, which is characteristic.  The other two subgroups are dihedral; these are permuted by an [[outer automorphism group|outer automorphism]] of the parent group, and are therefore not characteristic.
+* "Normality" is not transitive, but Characteristic has a transitive property, namely if ''H'' Char ''K'' and ''K'' normal in ''G'' then ''H'' normal in ''G''.
+
+== Comparison to other subgroup properties ==
+=== Distinguished subgroups ===
+A related concept is that of a '''distinguished subgroup'''. In this case the subgroup ''H'' is invariant under the applications of [[surjective]] [[endomorphism]]s. For a [[finite group]] this is the same, because surjectivity implies injectivity, but not for an infinite group: a surjective endomorphism is not necessarily an automorphism.
+
+=== Fully invariant subgroups ===
+For an even stronger constraint, a [[fully characteristic subgroup]] (also called a '''fully invariant subgroup''') ''H'' of a group ''G'' is a group remaining invariant under every endomorphism of ''G''; in other words, if ''f'' : ''G'' → ''G'' is any [[group homomorphism|homomorphism]], then ''f''(''H'') is a subgroup of ''H''.
+
+=== Verbal subgroups ===
+An even stronger constraint is [[verbal subgroup]], which is the image of a fully invariant subgroup of a [[free group]] under a homomorphism.
+
+=== Containments ===
+Every subgroup that is fully characteristic is certainly distinguished and therefore characteristic; but a characteristic or even distinguished subgroup need not be fully characteristic.
+
+The [[center of a group]] is always a distinguished subgroup, but it is not always fully characteristic.  The finite group of order 12, Sym(3) × '''Z'''/2'''Z''' has a homomorphism taking (''π'', ''y'') to ( (1,2)<sup>''y''</sup>, ''0'') which takes the center 1 × '''Z'''/2'''Z''' into a subgroup of Sym(3) × 1, which meets the center only in the identity.
+
+The relationship amongst these subgroup properties can be expressed as:
+
+:[[subgroup]] ⇐ [[normal subgroup]] ⇐ '''characteristic subgroup''' ⇐ distinguished subgroup ⇐ [[fully characteristic subgroup]] ⇐ [[verbal subgroup]]
+
+==Examples==
+=== Finite example ===
+Consider the group ''G'' = S<sub>3</sub> × Z<sub>2</sub> (the group of order 12 which is the direct product of the [[symmetric group]] of order 6 and a [[cyclic group]] of order 2). The center of ''G'' is its second factor Z<sub>2</sub>. Note that the first factor S<sub>3</sub> contains subgroups isomorphic to Z<sub>2</sub>, for instance {identity,(12)}; let ''f'': Z<sub>2</sub> → S<sub>3</sub> be the morphism mapping Z<sub>2</sub> onto the indicated subgroup. Then the composition of the projection of ''G'' onto its second factor Z<sub>2</sub>, followed by ''f'', followed by the inclusion of S<sub>3</sub> into ''G'' as its first factor, provides an endomorphism of ''G'' under which the image of the center Z<sub>2</sub> is not contained in the center, so here the center is not a fully characteristic subgroup of ''G''.
+
+=== Cyclic groups ===
+Every subgroup of a cyclic group is characteristic.
+
+=== Subgroup functors ===
+The [[derived subgroup]] (or commutator subgroup) of a group is a verbal subgroup.  The [[torsion subgroup]] of an [[abelian group]] is a fully invariant subgroup.
+
+=== Topological groups ===
+The [[identity component]] of a [[topological group]] is always a characteristic subgroup.
+
+== Transitivity ==
+The property of being characteristic or fully characteristic is [[transitive relation|transitive]]; if ''H'' is a (fully) characteristic subgroup of ''K'', and ''K'' is a (fully) characteristic subgroup of ''G'', then ''H'' is a (fully) characteristic subgroup of ''G''.
+
+Moreover, while it is not true that every normal subgroup of a normal subgroup is normal, it is true that every characteristic subgroup of a normal subgroup is normal. Similarly, while it is not true that every distinguished subgroup of a distinguished subgroup is distinguished, it is true that every fully characteristic subgroup of a distinguished subgroup is distinguished.
+
+==Map on Aut and End==
+If <math>H\,\mathrm{char}\,G.</math>, then every automorphism of ''G'' induces an automorphism of the quotient group ''G/H'', which yields a map <math>\mbox{Aut}\,G \to \mbox{Aut}\, G/H</math>.
+
+If ''H'' is fully characteristic in ''G'', then analogously, every endomorphism of ''G'' induces an endomorphism of ''G/H'', which yields a map
+<math>\mbox{End}\,G \to \mbox{End}\, G/H</math>.
+
+==See also==
+* [[Characteristically simple group]]
+
+==References==
+{{reflist}}
+
+[[Category:Group theory]]
+[[Category:Subgroup properties]]

@@ -1,0 +1,109 @@
+{{Infobox scientist
+| name = Atle Selberg
+| image = Atle Selberg.jpg
+| image_size = 200px
+| birth_date = {{Birth date|1917|6|14|df=y}}
+| birth_place = [[Langesund]], [[Norway]]
+| death_date = {{Death date and age|2007|8|6|1917|6|14|df=y}}
+| death_place = [[Princeton, New Jersey|Princeton]], [[New Jersey]], [[United States]]
+| residence =
+| nationality = Norwegian
+| field = [[Mathematician|Mathematics]]
+| alma_mater = [[University of Oslo]]
+| academic_advisors = 
+| known_for = [[Chowla–Selberg formula]] <br /> [[Critical line theorem]] <br /> [[Maass–Selberg relations]] <br /> [[Selberg class]] <br /> [[Selberg's conjecture]] <br /> [[Selberg integral]] <br /> [[Selberg trace formula]] <br /> [[Selberg zeta function]] <br /> [[Selberg sieve]]
+| awards = [[Abel Prize]] (honorary) <br /> [[Fields Medal]] <br /> [[Wolf Prize]] <br /> [[Gunnerus Medal]]
+| influences = [[Srinivasa Ramanujan]]
+}}
+'''Atle Selberg''' (14 June 1917 &ndash; 6 August 2007) was a [[Norway|Norwegian]] [[mathematician]] known for his work in [[analytic number theory]], and in the theory of [[automorphic form]]s, in particular bringing them into relation with [[spectral theory]]. He was awarded the [[Fields Medal]] in 1950.
+
+== Early years ==
+Selberg was born in [[Langesund]], [[Norway]], the son of teacher Anna Kristina Selberg and mathematician [[Ole Michael Ludvigsen Selberg]]. Two of his brothers also went on to become mathematicians as well, and the remaining one became a professor of engineering. 
+<!-- There seems to be no source for the following anecdote, and the reference given does not mention Selberg:
+His first result came at age 14 when he found[[Johann Bernoulli]]'s  remarkable 1697 formula
+:<math>\sum_{n=1}^\infty n^{-n} = \int_0^1 x^{-x} dx\quad\quad(=1.291285997...)</math>
+which he published as a problem in the book ''Problems and Theorems in Analysis'' (part I, problem 160) by [[Pólya]] and [[Gábor Szegö]].
+-->
+While he was still at school he was influenced by the work of [[Srinivasa Ramanujan]] and he found the exact analytical formula for the [[Partition (number theory)#Partition function|partition function]] as suggested by the works of Ramanujan; however, this result was first published by [[Hans Rademacher]]. During the war he fought against the German invasion of Norway, and was imprisoned several times. 
+He studied at the [[University of Oslo]] and completed his [[Ph.D.]] in 1943.
+
+== World War II ==
+During [[World War II]], Selberg worked in isolation due to the [[German occupation of Norway]]. After the war his accomplishments became known, including a proof that a positive proportion of the zeros of the [[Riemann zeta function]] lie on the line <math>\Re(s)=\tfrac{1}{2}</math>. 
+ 
+After the war, he turned to [[sieve theory]], a previously neglected topic which Selberg's work brought into prominence. In a 1947 paper he introduced the [[Selberg sieve]], a method well adapted in particular to providing auxiliary upper bounds, and which contributed to [[Chen's theorem]], among other important results. 
+
+In March 1948, Selberg established, by elementary means, the asymptotic formula
+:<math>\vartheta \left( x \right)\log \left( x \right) + \sum\limits_{p \le x} {\log \left( p \right)} \vartheta \left( {\frac{x}{p}} \right) = 2x\log \left( x \right) + O\left( x \right)</math>
+where
+:<math>\vartheta \left( x \right) = \sum\limits_{p \le x} {\log \left( p \right)}</math>
+for primes <math>p</math>. By July of that year, Selberg and [[Paul Erdős]] had each obtained [[elementary proof]]s of the [[prime number theorem]], both using Selberg's then unpublished asymptotic formula as a starting point.<ref>{{cite journal|author=Spencer, Joel|author2=Graham, Ronald|title=The Elementary Proof of the Prime Number Theorem|journal=The Mathematical Intelligencer|year=2009|volume=31|issue=3|pages=18–23|url=http://www.cs.nyu.edu/spencer/erdosselberg.pdf}}</ref> Circumstances leading up to the proofs, as well as publication disagreements, led to a bitter dispute between the two mathematicians.<ref name=goldfeld>{{Cite journal | last = Goldfeld | first = Dorian | year = 2003 | title = The Elementary Proof of the Prime Number Theorem: an Historical Perspective | journal = Number Theory: New York Seminar | pages = 179–192}}</ref><ref name=interview>{{Cite journal|url=http://www.ams.org/bull/2008-45-04/S0273-0979-08-01223-8/S0273-0979-08-01223-8.pdf |first=Nils A.|last= Baas|first2= Christian F.|last2= Skau |journal= Bull. Amer. Math. Soc. |volume=45 |year=2008|pages= 617–649 |title=The lord of the numbers, Atle Selberg. On his life and mathematics|doi=10.1090/S0273-0979-08-01223-8|issue=4|postscript=<!-- Bot inserted parameter. Either remove it; or change its value to "." for the cite to end in a ".", as necessary. -->{{inconsistent citations}}}}</ref> 
+
+For his fundamental accomplishments during the 1940s, Selberg received the 1950 [[Fields Medal]].
+
+== Institute for Advanced Study ==
+Selberg moved to the [[United States]] and settled at the [[Institute for Advanced Study]] in [[Princeton, New Jersey]] in the 1950s where he remained until his death. During the 1950s he worked on introducing [[spectral theory]] into [[number theory]], culminating in his development of the [[Selberg trace formula]], the most famous and influential of his results. In its simplest form, this establishes a duality between the lengths of [[closed geodesic]]s on a [[compact Riemann surface]] and the [[eigenvalue]]s of the [[Laplace-Beltrami operator|Laplacian]], which is analogous to the duality between the [[prime number]]s and the zeros of the zeta function.
+
+He was awarded the 1986 [[Wolf Prize in Mathematics]]. He was also awarded an honorary [[Abel Prize]] in 2002, its founding year, before the awarding of the regular prizes began.
+
+Selberg received many distinctions for his work in addition to the [[Fields Medal]], the [[Wolf Prize]] and the [[Gunnerus Medal]]. He was elected to the [[Norwegian Academy of Science and Letters]], the [[Royal Danish Academy of Sciences and Letters]] and the [[American Academy of Arts and Sciences]].
+
+Selberg had two children, Ingrid Selberg and Lars Selberg. Ingrid Selberg is married to playwright [[Mustapha Matura]].
+
+He died at home in Princeton on 6 August 2007 of heart failure.<ref>{{cite news |first= |last= |authorlink= |coauthors= |title=Atle Selberg, 90, Lauded Mathematician, Dies |publisher=[[New York Times]] |date=2007-08-17|url=http://www.nytimes.com/2007/08/17/nyregion/17selberg.html}}</ref>
+
+== Selected publications ==
+* ''Atle Selberg Collected Papers: 1'' (Springer-Verlag, Heidelberg), ISBN 0-387-18389-2
+* ''Collected Papers'' (Springer-Verlag, Heidelberg Mai 1998), ISBN 3-540-50626-8
+
+== References ==
+{{reflist}}
+* Donald J. Albers & Gerald L. Alexanderson (2011) ''Fascinating Mathematical People: interviews and memoirs'', "Atle Selberg", pp 254–73, [[Princeton University Press]], ISBN 978-0-691-14829-8 .
+
+==Further reading==
+* {{Cite journal|url=http://www.ams.org/bull/2008-45-04/S0273-0979-08-01223-8/
+|first=Nils A.|last= Baas|first2= Christian F.|last2= Skau
+|journal= Bull. Amer. Math. Soc. |volume=45 |year=2008|pages= 617–649
+|title=The lord of the numbers, Atle Selberg. On his life and mathematics|doi=10.1090/S0273-0979-08-01223-8|issue=4|postscript=<!-- Bot inserted parameter. Either remove it; or change its value to "." for the cite to end in a ".", as necessary. -->{{inconsistent citations}}}} Interview with Selberg
+*{{Cite journal | author = [[Dennis Hejhal|Hejhal, Dennis]] | year = 2009 | month = June/July | title = Remembering Atle Selberg, 1917–2007 | journal = [[Notices of the American Mathematical Society]] | volume = 56
+  | issue = 6 | pages = 692–710 | url = http://www.ams.org/notices/200906/rtx090600692p-corrected.pdf
+  | format = PDF}}
+* {{Cite web|last=Selberg |url=http://www.ias.ac.in/resonance/Dec1996/pdf/Dec1996Reflections.pdf |title=Reflections Around the Ramanujan Centenary|year=1996|postscript=<!-- Bot inserted parameter. Either remove it; or change its value to "." for the cite to end in a ".", as necessary. -->{{inconsistent citations}}}}
+
+==External links==
+* {{Britannica|533117}}
+* {{MacTutor Biography|id=Selberg}}
+* {{MathGenealogy|id=121277}}
+* [http://publications.ias.edu/selberg  Atle Selberg Archive webpage]
+* [http://www.ias.edu/newsroom/announcements/view/1186683853.html Obituary at IAS]
+* [http://www.timesonline.co.uk/tol/comment/obituaries/article2477242.ece Obituary in ''The Times'']
+
+
+{{Fields medalists}}
+{{Wolf Prize in Mathematics}}
+
+{{Authority control|PND=117725161|LCCN=n/88/118373|VIAF=24667118|SELIBR=}}
+
+{{Persondata <!-- Metadata: see [[Wikipedia:Persondata]]. -->
+| NAME              = Selberg, Atle
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Mathematician
+| DATE OF BIRTH     = 14 June 1917
+| PLACE OF BIRTH    = [[Langesund]], [[Norway]]
+| DATE OF DEATH     = 6 August 2007
+| PLACE OF DEATH    = [[Princeton, New Jersey]], [[United States]]
+}}
+{{DEFAULTSORT:Selberg, Atle}}
+[[Category:1917 births]]
+[[Category:2007 deaths]]
+[[Category:20th-century mathematicians]]
+[[Category:American mathematicians]]
+[[Category:Fields Medalists]]
+[[Category:Institute for Advanced Study faculty]]
+[[Category:Members of the Royal Danish Academy of Sciences and Letters]]
+[[Category:Members of the Norwegian Academy of Science and Letters]]
+[[Category:Norwegian emigrants to the United States]]
+[[Category:Norwegian mathematicians]]
+[[Category:Number theorists]]
+[[Category:People from Bamble]]
+[[Category:University of Oslo alumni]]
+[[Category:Wolf Prize in Mathematics laureates]]

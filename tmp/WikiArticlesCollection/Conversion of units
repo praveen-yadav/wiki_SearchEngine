@@ -1,0 +1,2661 @@
+{{Refimprove|date=January 2011}}
+'''Conversion of units''' is the conversion between different [[units of measurement]] for the same [[quantity]], typically through multiplicative '''conversion factors'''.
+
+==Techniques==
+
+=== Process ===
+
+The process of conversion depends on the specific situation and the intended purpose.  This may be governed by regulation, [[contract]],  [[Technical specifications]] or other published [[Technical standard|standard]]s.  Engineering judgment may include such factors as:
+* The [[precision and accuracy]] of measurement and the associated [[uncertainty of measurement]]
+* The statistical [[confidence interval]] or [[tolerance interval]] of the initial measurement
+* The number of [[significant figures]] of the measurement
+* The intended use of the measurement including the [[engineering tolerance]]s
+* Historical definitions of the units and their derivatives used in old measurements e.g. International Foot vs US Survey Foot
+
+Some conversions from one system of units to another need to be exact, without increasing or decreasing the precision of the first measurement.  This is sometimes called ''soft conversion''.  It does not involve changing  the physical configuration of the item being measured.
+
+By contrast, a ''hard conversion'' or an ''adaptive conversion''  may not be exactly equivalent.  It changes the measurement to convenient and workable numbers and units in the new system. It sometimes involves a slightly different configuration, or size substitution, of the item.  [[Real versus nominal value|Nominal values]] are sometimes allowed and used.
+
+=== Multiplication factors ===
+Conversion between units in the [[metric system]] can be discerned by their [[SI prefix|prefixes]] (for example, 1 kilogram = 1000&nbsp;grams, 1 milligram = 0.001&nbsp;grams) and are thus not listed in this article. Exceptions are made if the unit is commonly known by another name (for example, 1 micron = 10<sup>−6</sup> metre).
+
+=== Table ordering ===
+Within each table, the units are listed alphabetically, and the [[SI]] units (base or derived) are highlighted.
+
+== Tables of conversion factors ==
+This article gives lists of conversion factors for each of a number of physical quantities, which are listed in the index. For each physical quantity, a number of different units (some only of historical interest) are shown and expressed in terms of the corresponding SI unit.
+
+{| class="wikitable"
+|+ Legend
+! Symbol
+! Definition
+|-
+! ≡
+| exactly equal to
+|-
+! ≈
+| approximately equal to
+|-
+! <var>{{overline|digits}}</var>
+| indicates that <var>digits</var> repeat infinitely (e.g. {{gaps|8.294|{{overline|369}}}} corresponds to {{gaps|8.294|369|369|369|369|…}})
+|-
+! (H)
+| of chiefly historical interest
+|}
+
+===Length===
+{| class="wikitable"
+|+ [[Length]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[ångström]] || Å
+| ≡ {{val|1|e=-10|u=m}}
+| ≡ 0.1&nbsp;nm
+|-
+| [[astronomical unit]] || AU
+| ≡ {{gaps|149|597|870|700}}&nbsp;m ≈ Distance from Earth to Sun
+| ≡ {{gaps|149|597|870|700}}&nbsp;m <ref>{{cite web|author=jobs |url=http://www.nature.com/news/the-astronomical-unit-gets-fixed-1.11416 |title=The astronomical unit gets fixed : Nature News & Comment |doi=10.1038/nature.2012.11416 |publisher=Nature.com |date=2012-09-14 |accessdate=2013-08-31}}</ref>
+|-
+| [[Barleycorn (unit)|barleycorn]] (H) || &nbsp;
+| = ⅓ [[inch|in]] (see note above about rounding)
+| ≈ 8.4{{overline|6}}{{e|-3}} m
+|-
+| bohr, [[atomic units|atomic unit of length]] || a<sub>0</sub>
+| ≡ [[Bohr radius]] of hydrogen
+| ≈ {{val|5.2917720859|e=-11}}&nbsp;±&nbsp;{{val|3.6|e=-20|u=m}} <ref>"[http://physics.nist.gov/cgi-bin/cuu/Value?bohrrada0|search_for=Bohr+radius NIST Reference on Constants, Units, and Uncertainty."](2006). [[National Institute of Standards and Technology]]. Retrieved February 22, 2008.</ref>
+|-
+| cable length (imperial) || &nbsp;
+| ≡ 608 [[foot (length)|ft]]
+| ≈ 185.3184 m
+|-
+| [[cable length]] (International) || &nbsp;
+| ≡ 1/10 [[nautical mile|nmi]]
+| ≡ 185.2 m
+|-
+| cable length (US) || &nbsp;
+| ≡ 720 [[foot (length)|ft]]
+| = 219.456 m
+|-
+| [[chain (unit)|chain]] ([[Edmund Gunter|Gunter's]]; Surveyor's) || ch
+| ≡ 66 [[foot (length)|ft]](US) ≡ 4 [[rod (length)|rods]] <ref name=nist>[http://www.nist.gov/pml/wmd/pubs/upload/appc-13-hb44-final.pdf U.S. National Institute of Standards and Technology Handbook 44 Appendix C - General Tables of Units of Measurement 2013 Edition]</ref>
+| ≈ {{val|20.11684|u=m}}
+|-
+| [[cubit]] (H) || &nbsp;
+| ≡ Distance from fingers to elbow ≈ 18 in
+| ≈ 0.5 m
+|-
+| [[ell]] (H) || ell
+| ≡ 45 in <ref name=CRC71>Lide, D. (Ed.). (1990). ''Handbook of Chemistry and Physics'' (71st ed). Boca Raton, FL: CRC Press. Section 1.</ref> (In England usually)
+| = 1.143 m
+|-
+| [[fathom]] || fm
+| ≡ 6&nbsp;ft <ref name=CRC71/>
+| = 1.8288 m
+|-
+| [[Fermi (unit)|fermi]] || fm
+| ≡ {{val|1|e=-15|u=m}}<ref name=CRC71/>
+| ≡ {{val|1|e=-15|u=m}}
+|-
+| finger || &nbsp;
+| ≡ 7/8 in
+| = {{val|0.022225|u=m}}
+|-
+| finger (cloth) || &nbsp;
+| ≡ 4½ in
+| = 0.1143 m
+|-
+| [[foot (length)|foot]] (Benoît) (H) || ft (Ben)
+|
+| ≈ {{val|0.304799735|u=m}}
+|-
+| foot (Cape) (H) || &nbsp;
+|Legally defined as 1.033 English feet in 1859
+| ≈ {{val|0.314858|u=m}}
+|-
+| foot (Clarke's) (H) || ft (Cla)
+|
+| ≈ {{val|0.3047972654|u=m}}
+|-
+| foot (Indian) (H) || ft Ind
+|
+| ≈ {{val|0.304799514|u=m}}
+|-
+| foot (International) || ft
+| ≡ 0.3048 m ≡ 1/3 yd ≡ 12&nbsp;inches
+| ≡ 0.3048 m
+|-
+| foot (Sear's) (H) || ft (Sear)
+|
+| ≈ {{val|0.30479947|u=m}}
+|-
+| foot (US Survey) || ft (US)
+| ≡ {{frac|1200|3937}} m <ref name="nbs">National Bureau of Standards. (June 30, 1959). ''Refinement of values for the yard and the pound''. Federal Register, viewed September 20, 2006 at [http://www.ngs.noaa.gov/PUBS_LIB/FedRegister/FRdoc59-5442.pdf National Geodetic Survey web site].</ref>
+| ≈ {{val|0.304800610|u=m}}
+|-
+| [[french catheter scale|french]]; charriere || F
+| ≡ {{frac|3}} mm
+| = 0.{{overline|3}} {{e|-3}} m
+|-
+| [[furlong]] || fur
+| ≡ 10 chains = 660&nbsp;ft = 220 yd <ref name=CRC71/>
+| = 201.168 m
+|-
+| [[hand (length)|hand]] || &nbsp;
+| ≡ 4 in <ref name=CRC71/>
+| ≡ 0.1016 m
+|-
+| [[inch]] (International) || in
+| ≡ 2.54&nbsp;cm ≡ 1/36 yd ≡ 1/12&nbsp;ft
+| ≡ .0254 m
+|-
+| [[league (unit)|league]] (land) || lea
+| ≈ 1 hour walk, Currently defined in US as 3 Statute miles,<ref name=nist/> but historically varied from 2 to 9&nbsp;km
+| ≈ {{gaps|4|828}} m
+|-
+| [[light-day]] || &nbsp;
+| ≡ 24 light-hours
+| ≡ {{val|2.59020683712|e=13|u=m}}
+|-
+| [[light-hour]] || &nbsp;
+| ≡ 60 light-minutes
+| ≡ {{val|1.0792528488|e=12|u=m}}
+|-
+| [[light-minute]] || &nbsp;
+| ≡ 60 light-seconds
+| ≡ {{val|1.798754748|e=10|u=m}}
+|-
+| [[light second|light-second]] || &nbsp;
+| ≡ Distance light travels in one second in vacuum
+| ≡ {{gaps|299|792|458}} m
+|-
+| [[light year|light-year]] || ly
+| ≡ Distance light travels in vacuum in 365.25 days <ref>[http://www.iau.org/public_press/themes/measuring/ The International Astronomical Union and Astronomical Units]</ref>
+| = {{val|9.4607304725808|e=15|u=m}}
+|-
+| [[line (unit)|line]] || ln
+| ≡ 1/12 in <ref>
+Klein, Herbert Arthur.
+(1988). ''The Science of Measurement: a Historical Survey''. Mineola, NY: Dover Publications [[Special:BookSources/0486258394|0-4862-5839-4]].</ref>
+| = {{gaps|0.002|11{{overline|6}}}} m
+|-
+| [[link (unit)|link]] (Gunter's; Surveyor's) || lnk
+| ≡ 1/100 ch <ref name=CRC71/> ≡ 0.66&nbsp;ft ≡ 7.92in
+| = {{val|0.201168|u=m}}
+|-
+| link (Ramsden's; Engineer's) || lnk
+| ≡ 1&nbsp;ft <ref name=CRC71/>
+| = 0.3048 m
+|- style="background:#dfd;"
+| [[metre]] ([[SI base unit]])<br /><small>(meter)</small> || m
+| ≡ Distance light travels in {{frac|{{gaps|299|792|458}}}} of a second in vacuum.<ref name=sibaseunits>{{citation | title=The International System of Units, Section 2.1 | publisher=[[Bureau International des Poids et Mesures]] | url=http://www.bipm.org/en/si/si_brochure/chapter2/2-1/ | edition=8 | year=2006 | accessdate=August 26, 2009}}</ref><br/> ≈ {{frac|{{gaps|10|000|000}}}} of the distance from equator to pole.
+| ≡ 1 m
+|-
+| mickey || &nbsp;
+| ≡ {{frac|200}} in
+| = {{val|1.27|e=-4|u=m}}
+|-
+| [[micrometre|micron]]|| µ
+|
+| ≡ {{val|1|e=-6|u=m}}
+|-
+| mil; [[thou (unit of length)|thou]] || mil
+| ≡ {{val|1|e=-3|u=in}}
+| ≡ {{val|2.54|e=-5|u=m}}
+|-
+| [[Norwegian/Swedish mil|mil]] (Sweden and Norway) || mil
+| ≡ 10&nbsp;km
+| = {{gaps|10|000}} m
+|-
+| [[geographical mile|mile (geographical)]] (H) || <!--Please provide a reference for any symbols-->
+| ≡ {{gaps|6|082}} ft
+| = {{gaps|1|853.7936}} m
+|-
+| [[mile]] (international) || mi
+| ≡ 80 chains ≡ {{gaps|5|280}} ft ≡ {{gaps|1|760}} yd
+| ≡ {{gaps|1|609.344}} m
+|-
+| [[mile]] (tactical or data) ||
+| ≡ {{gaps|6|000}}&nbsp;ft
+| ≡ {{gaps|1|828.8}}&nbsp;m
+|-
+| mile (telegraph) (H) || mi
+| ≡ {{gaps|6|087}} ft
+| = {{gaps|1|855.3176}} m
+|-
+| mile (US Survey) || mi
+| ≡ {{gaps|5|280}} US Survey feet ≡ ({{gaps|5|280}} × {{frac|{{gaps|1|200}}|{{gaps|3|937}}}}) m
+| ≈ {{gaps|1|609.347|219}} m
+|-
+| nail (cloth) || &nbsp;
+| ≡ 2¼ in <ref name=CRC71/>
+| = {{nowrap|0.057 15}} m
+|-
+| nanometer || nm
+| ≡ {{val|1|e=-9|u=m}}
+| ≡ {{val|1|e=-9|u=m}}
+|-
+| nautical league || NL; nl
+| ≡ 3 nmi <ref name=CRC71/>
+| = {{nowrap|5556}} m
+|-
+| nautical mile (Admiralty) || NM (Adm); nmi (Adm)
+| = {{nowrap|6080}} ft
+| = {{nowrap|1853.184}} m
+|-
+| [[nautical mile]] (international) || NM; nmi
+| ≡ {{nowrap|1852}} m <ref name=Table8>[http://www.bipm.org/en/si/si_brochure/chapter4/table8.html ''International System of Units,''] 8th ed. (2006), [[Bureau International des Poids et Mesures]], Section 4.1 Table 8.</ref>
+| ≡ {{nowrap|1852}} m
+|-
+| nautical mile (US pre 1954) ||
+|  ≡ 1853.248 m
+| ≡ 1853.248 m
+|-
+| pace || &nbsp;
+| ≡ 2.5&nbsp;ft <ref name=CRC71/>
+| = 0.762 m
+|-
+| [[Palm (length)|palm]] || &nbsp;
+| ≡ 3 in <ref name=CRC71/>
+| = 0.0762 m
+|-
+| [[parsec]] || pc
+| Distance of star with '''''par'''''allax shift of one arc '''''sec'''''ond from a base of one astronomical unit
+| ≈ {{nowrap|3.085 677 82{{e|16}}}} ± 6{{e|6}} m <ref name=Seidelmann>P. Kenneth Seidelmann, Ed. (1992). ''Explanatory Supplement to the Astronomical Almanac.'' Sausalito, CA: University Science Books. p. 716 and s.v. parsec in Glossary.</ref>
+|-
+| [[Pica (typography)|pica]] || &nbsp;
+| ≡ 12 points
+| Dependent on point measures.
+|-
+| [[point (typography)|point]] (American, English) <ref name=whitelaw>Whitelaw, Ian. (2007). [http://books.google.com/books?id=3zgGEWM5-iAC ''A Measure of All Things: The Story of Man and Measurement'']. New York: Macmillan [[Special:BookSources/0312370261|0-312-37026-1]]. p. 152.
+</ref><ref name=DeVinne>De Vinne, Theodore Low (1900). [http://books.google.com/books?id=R4-DjphIpLMC ''The practice of typography: a treatise on the processes of type-making, the point system, the names, sizes, styles and prices of plain printing types''] 2nd ed. New York: The Century Co. p. 142&ndash;150.</ref> || pt
+| ≡ 1/72.272 [[inch|in]]
+| ≈ {{nowrap|0.000 351 450}} m
+|-
+| point (Didot; European) <ref name=DeVinne/><ref>Pasko, Wesley Washington (1894). [http://books.google.com/books?id=Z_QUAAAAIAAJ ''American dictionary of printing and bookmaking'']. (1894). New York: Howard Lockwood. p. 521.</ref> || pt
+| ≡ 1/12 × 1/72 of [[Foot (length)#Obsolete use in different countries|pied du roi]];<br /><br />After 1878:<br />≡ 5/133&nbsp;cm
+| ≈ {{nowrap|0.000 375 97}} m;<br /><br />After 1878:<br />≈ {{nowrap|0.000 375 939 85}} m
+|-
+| point ([[PostScript]]) <ref name=whitelaw/>|| pt
+| ≡ 1/72 [[inch|in]]
+| = {{nowrap|0.000 352 {{overline|7}}}} m
+|-
+| point ([[TeX]]) <ref name=whitelaw/>|| pt
+| ≡ 1/72.27 [[inch|in]]
+| = {{nowrap|0.00{{overline|0 351 4598}}}} m
+|-
+| quarter || &nbsp;
+| ≡ ¼ yd
+| = 0.2286 m
+|-
+| [[rod (unit)|rod]]; pole; perch (H) || rd
+| ≡ 16½ ft
+| = 5.0292 m
+|-
+| [[Rope (unit)|rope]] (H) || rope
+| ≡ 20&nbsp;ft <ref name=CRC71/>
+| = 6.096 m
+|-
+| span (H) || &nbsp;
+| ≡ 9 in <ref name=CRC71/>
+| = 0.2286 m
+|-
+| [[spat (unit)|spat]] <ref name=howmany>{{citation | last=Rowlett | first=Russ | url=http://www.unc.edu/~rowlett/units/index.html | title=How Many? A Dictionary of Units of Measurement | year=2005}}</ref> ||
+|
+| ≡ 1{{e|12}} m
+|-
+| stick (H) || &nbsp;
+| ≡ 2 in
+| = 0.0508 m
+|-
+| stigma; bicron ([[picometre]]) || pm
+|
+| ≡ 1{{e|−12}} m
+|-
+| [[twip]] || twp
+| ≡ {{nowrap|1/1440}} in
+| = 1.763{{overline|8}}{{e|−5}} m
+|-
+| [[x unit]]; siegbahn || xu
+|
+| ≈ 1.0021{{e|−13}} m <ref name=CRC71/>
+|-
+| [[yard]] (International) || yd
+| ≡ 0.9144 m <ref name="nbs"/> ≡ 3&nbsp;ft ≡ 36 in
+| ≡ 0.9144 m
+|}
+
+===Area===
+{| class="wikitable"
+|+ [[Surface area|Area]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[acre]] (international) || ac
+| ≡ 1&nbsp;ch × 10&nbsp;ch = {{nowrap|4840}} sq yd
+| ≡ {{nowrap|4 046.856 4224}} m<sup>2</sup>
+|-
+| [[acre]] (U. S. survey) || ac
+| ≡ 10 sq ch = {{nowrap|4840}} sq yd, also 43560 sq ft.
+| ≈ {{nowrap|4 046.873}} m<sup>2</sup> <ref>Thompson, A. and Taylor, B.N. (2008). ''Guide for the Use of the International System of Units (SI)''. [[National Institute of Standards and Technology]] Special Publication 811. p. 57.</ref>
+|-
+| [[Hectare#Are|are]] || a
+| ≡ 100 m<sup>2</sup>
+| = 100 m<sup>2</sup>
+|-
+| [[barn (unit)|barn]] || b
+| ≡ 10<sup>−28</sup> m<sup>2</sup>
+| = 10<sup>−28</sup> m<sup>2</sup>
+|-
+| barony || &nbsp;
+| ≡ {{nowrap|4000}} ac
+| ≈ {{nowrap|1.618 742{{e|7}}}} m<sup>2</sup>
+|-
+| board || bd
+| ≡ 1 in × 1&nbsp;ft
+| = {{nowrap|7.741 92{{e|−3}}}} m<sup>2</sup>
+|-
+| boiler horsepower equivalent direct radiation || bhp EDR
+| ≡ (1&nbsp;ft<sup>2</sup>) (1&nbsp;bhp) / (240 BTU<sub>IT</sub>/h)
+| ≈ {{nowrap|12.958 174}} m<sup>2</sup>
+|-
+| circular [[inch]] || circ in
+| ≡ π/4 sq in
+| ≈ {{nowrap|5.067 075{{e|−4}}}} m<sup>2</sup>
+|-
+| circular mil; circular thou || circ mil
+| ≡ π/4 mil<sup>2</sup>
+| ≈ {{nowrap|5.067 075{{e|−10}}}} m<sup>2</sup>
+|-
+| cord || &nbsp;
+| ≡ 192 bd
+| = {{nowrap|1.486 448 64}} m<sup>2</sup>
+|-
+| [[dunam]] || &nbsp;
+| ≡ {{nowrap|1 000}} m<sup>2</sup>
+| = {{nowrap|1 000}} m<sup>2</sup>
+|-
+| [[guntha]] || &nbsp;
+| ≡ 121 sq yd
+| ≈ 101.17  m<sup>2</sup>
+|-
+| [[hectare]] || ha
+| ≡ {{nowrap|10 000}} m<sup>2</sup>
+| ≡ {{nowrap|10 000}} m<sup>2</sup>
+|-
+| [[hide (unit)|hide]] || &nbsp;
+| ≈ 120 ac (variable)<!-- Definition is "amount of land required to support one peasant family" -->
+| ≈ {{nowrap|5{{e|5}}}} m<sup>2</sup>
+|-
+| rood || ro
+| ≡ ¼ ac
+| = {{nowrap|1 011.714 1056}} m<sup>2</sup>
+|-
+| section ||
+| ≡ 1&nbsp;mi × 1&nbsp;mi
+| = {{nowrap|2.589 988 110 336{{e|6}}}} m<sup>2</sup>
+|-
+| [[shed (physics)|shed]] || &nbsp;
+| ≡ 10<sup>−52</sup> m<sup>2</sup>
+| = 10<sup>−52</sup> m<sup>2</sup>
+|-
+| square (roofing) ||
+| ≡ 10&nbsp;ft × 10&nbsp;ft
+| = {{nowrap|9.290 304}} m<sup>2</sup>
+|-
+| square chain (international) || sq ch
+| ≡ 66&nbsp;ft × 66&nbsp;ft = 1/10 ac
+| ≡ {{nowrap|404.685 642 24}} m<sup>2</sup>
+|-
+| square chain (US Survey) || sq ch
+| ≡ 66&nbsp;ft(US) × 66&nbsp;ft(US) = 1/10 ac
+| ≈ {{nowrap|404.687 3}} m<sup>2</sup>
+|-
+| [[square foot]] || sq ft
+| ≡ 1&nbsp;ft × 1&nbsp;ft
+| ≡ {{nowrap|9.290 304{{e|−2}}}} m<sup>2</sup>
+|-
+| square [[foot (length)|foot]] (US Survey) || sq ft
+| ≡ 1&nbsp;ft (US) × 1&nbsp;ft (US)
+| ≈ {{nowrap|9.290 341 161 327 49{{e|-2}}}} m<sup>2</sup>
+|-
+| [[square inch]] || sq in
+| ≡ 1 in × 1 in
+| ≡ 6.4516{{e|−4}} m<sup>2</sup>
+|-
+| [[square kilometre]] || km<sup>2</sup>
+| ≡ 1&nbsp;km × 1&nbsp;km
+| = 10<sup>6</sup> m<sup>2</sup>
+|-
+| square link (Gunter's)(International) || sq lnk
+| ≡ 1 lnk × 1 lnk ≡ 0.66&nbsp;ft × 0.66&nbsp;ft
+| = {{nowrap|4.046 856 4224{{e|−2}}}} m<sup>2</sup>
+|-
+| square link (Gunter's)(US Survey) || sq lnk
+| ≡ 1 lnk × 1 lnk ≡ 0.66&nbsp;ft(US) × 0.66&nbsp;ft(US)
+| ≈ {{nowrap|4.046 872{{e|−2}}}} m<sup>2</sup>
+|-
+| square link (Ramsden's) || sq lnk
+| ≡ 1 lnk × 1 lnk ≡ 1&nbsp;ft × 1&nbsp;ft
+| = {{nowrap|0.09290304}} m<sup>2</sup>
+|- style="background:#dfd;"
+| [[square metre]] (SI unit) || m<sup>2</sup>
+| ≡ 1 [[Metre|m]] × 1 m
+| = 1 m<sup>2</sup>
+|-
+| square mil; square thou || sq mil
+| ≡ 1 mil × 1 mil
+| = 6.4516{{e|−10}} m<sup>2</sup>
+|-
+| square [[mile]] || sq mi
+| ≡ 1&nbsp;mi × 1&nbsp;mi
+| = {{nowrap|2.589 988 110 336{{e|6}}}} m<sup>2</sup>
+|-
+| square [[mile]] (US Survey) || sq mi
+| ≡ 1&nbsp;mi (US) × 1&nbsp;mi (US)
+| ≈ {{nowrap|2.589 998 47{{e|6}}}} m<sup>2</sup>
+|-
+| square rod/pole/perch || sq rd
+| ≡ 1 rd × 1 rd
+| = {{nowrap|25.292 852 64}} m<sup>2</sup>
+|-
+| [[square yard]] (International) || sq yd
+| ≡ 1 yd × 1 yd
+| ≡ {{nowrap|0.836 127 36}} m<sup>2</sup>
+|-
+| [[stremma]] || &nbsp;
+| ≡ {{nowrap|1 000}} m<sup>2</sup>
+| = {{nowrap|1 000}} m<sup>2</sup>
+|-
+| [[survey township|township]] || &nbsp;
+| ≡ 36 sq mi (US)
+| ≈ {{nowrap|9.323 994{{e|7}}}} m<sup>2</sup>
+|-
+| [[virgate|yardland]] || &nbsp;
+| ≈ 30 ac
+| ≈ {{nowrap|1.2{{e|5}}}} m<sup>2</sup>
+|}
+
+===Volume===
+{| class="wikitable"
+|+ [[Volume]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[acre-foot]] || ac ft
+| ≡ 1 ac x 1&nbsp;ft = {{nowrap|43 560}} ft<sup>3</sup>
+| = {{nowrap|1 233.481 837 547 52}} m<sup>3</sup>
+|-
+| acre-inch || &nbsp;
+| ≡ 1 ac × 1 in
+| = {{nowrap|102.790 153 128 96}} m<sup>3</sup>
+|-
+| [[barrel (unit)|barrel]] (imperial) || bl (imp)
+| ≡ 36 gal (imp)
+| = {{nowrap|0.163 659 24}} m<sup>3</sup>
+|-
+| barrel (petroleum) || bl; bbl
+| ≡ 42 gal (US)
+| = {{nowrap|0.158 987 294 928}} m<sup>3</sup>
+|-
+| barrel (US dry) || bl (US)
+| ≡ 105 qt (US) = 105/32 bu (US lvl)
+| = {{nowrap|0.115 628 198 985 075}} m<sup>3</sup>
+|-
+| barrel (US fluid) || fl bl (US)
+| ≡ 31½ gal (US)
+| = {{nowrap|0.119 240 471 196}} m<sup>3</sup>
+|-
+| [[board-foot]] || fbm
+| ≡ 144 cu in
+| ≡ {{nowrap|2.359 737 216{{e|−3}}}} m<sup>3</sup>
+|-
+| bucket (imperial) || bkt
+| ≡ 4 gal (imp)
+| = {{nowrap|0.018 184 36}} m<sup>3</sup>
+|-
+| [[bushel]] (imperial) || bu (imp)
+| ≡ 8 gal (imp)
+| = {{nowrap|0.036 368 72}} m<sup>3</sup>
+|-
+| bushel (US dry heaped) || bu (US)
+| ≡ 1 ¼ bu (US lvl)
+| = {{nowrap|0.044 048 837 7086}} m<sup>3</sup>
+|-
+| bushel (US dry level) || bu (US lvl)
+| ≡ 2 150.42 cu in
+| = {{nowrap|0.035 239 070 166 88}} m<sup>3</sup>
+|-
+| [[butt (unit)|butt]], pipe || &nbsp;
+| ≡ 126 gal (wine)
+| = {{nowrap|0.476 961 884 784}} m<sup>3</sup>
+|-
+| [[coomb (unit)|coomb]] || &nbsp;
+| ≡ 4 bu (imp)
+| = {{nowrap|0.145 474 88}} m<sup>3</sup>
+|-
+| cord ([[Cord Measure|firewood]]) || &nbsp;
+| ≡ 8&nbsp;ft × 4&nbsp;ft × 4&nbsp;ft
+| = {{nowrap|3.624 556 363 776}} m<sup>3</sup>
+|-
+| cord-foot || &nbsp;
+| ≡ 16 cu ft
+| = {{nowrap|0.453 069 545 472}} m<sup>3</sup>
+|-
+| cubic [[fathom]] || cu fm
+| ≡ 1 fm × 1 fm × 1 fm
+| = {{nowrap|6.116 438 863 872}} m<sup>3</sup>
+|-
+| [[cubic foot]] || cu ft
+| ≡ 1&nbsp;ft × 1&nbsp;ft × 1&nbsp;ft
+| ≡ {{nowrap|0.028 316 846 592}} m<sup>3</sup>
+|-
+| cubic [[inch]] || cu in
+| ≡ 1 in × 1 in × 1 in
+| ≡ {{nowrap|16.387 064{{e|−6}}}} m<sup>3</sup>
+|- style="background:#dfd;"
+| [[cubic metre]] (SI unit) || m<sup>3</sup>
+| ≡ 1 m × 1 m × 1 m
+| ≡ 1 m<sup>3</sup>
+|-
+| cubic [[mile]] || cu mi
+| ≡ 1&nbsp;mi × 1&nbsp;mi × 1&nbsp;mi
+| ≡ {{nowrap|4 168 181 825.440 579 584}} m<sup>3</sup>
+|-
+| cubic [[yard]] || cu yd
+| ≡ 27 cu ft
+| ≡ {{nowrap|0.764 554 857 984}} m<sup>3</sup>
+|-
+| [[cup (unit)|cup]] (breakfast) || &nbsp;
+| ≡ 10 fl oz (imp)
+| = {{nowrap|284.130 625{{e|−6}}}} m<sup>3</sup>
+|-
+| cup (Canadian) || c (CA)
+| ≡ 8 fl oz (imp)
+| = 227.3045{{e|−6}} m<sup>3</sup>
+|-
+| cup (metric) || c
+| ≡ 250.0{{e|−6}} m<sup>3</sup>
+| = 250.0{{e|−6}} m<sup>3</sup>
+|-
+| cup (US customary) || c (US)
+| ≡ 8 US fl oz ≡ 1/16 gal (US)
+| = {{nowrap|236.588 2365{{e|−6}}}} m<sup>3</sup>
+|-
+| cup (US food nutrition labeling) || c (US)
+| ≡ 240&nbsp;mL<ref name=cfr21>{{citation | url=http://ecfr.gpoaccess.gov/cgi/t/text/text-idx?c=ecfr&rgn=div8&view=text&node=21:2.0.1.1.2.1.1.6&idno=21 | title=US Code of Federal Regulations, Title 21, Section 101.9, Paragraph (b)(5)(viii) | accessdate=August 29, 2009}}</ref>
+| = {{val|2.4|e=-4|u=m<sup>3</sup>}}
+|-
+| dash (imperial) || &nbsp;
+| ≡ 1/384 gi (imp) = ½ pinch (imp)
+| = {{nowrap|369.961 751 302 08 {{overline|3}}{{e|−9}}}} m<sup>3</sup>
+|-
+| dash (US) || &nbsp;
+| ≡ 1/96 US fl oz = ½ US pinch
+| = {{nowrap|308.057 599 609 375{{e|−9}}}} m<sup>3</sup>
+|-
+| [[dessertspoon]] (imperial) || &nbsp;
+| ≡ 1/12 gi (imp)
+| = {{nowrap|11.838 776 041{{overline|6}}{{e|−6}}}} m<sup>3</sup>
+|-
+| [[drop (unit)|drop]] (imperial) || gtt
+| ≡ 1/288 fl oz (imp)
+| = {{nowrap|98.656 467 013 {{overline|8}}{{e|−9}}}} m<sup>3</sup>
+|-
+| drop (imperial) (alt) || gtt
+| ≡ {{nowrap|1/1 824}} gi (imp)
+| ≈ {{nowrap|77.886 684{{e|−9}}}} m<sup>3</sup>
+|-
+| drop (medical) || &nbsp;
+| ≡ 0.9964/12 ml
+| = 83.0{{overline|3}}{{e|−9}} m<sup>3</sup>
+|-
+| drop (medical) || &nbsp;
+| ≡ 1/12 ml
+| = 83.{{overline|3}}{{e|−9}} m<sup>3</sup>
+|-
+| drop (metric) || &nbsp;
+| ≡ 1/20 mL
+| = 50.0{{e|−9}} m<sup>3</sup>
+|-
+| drop (US) || gtt
+| ≡ 1/360 US fl oz
+| = {{nowrap|82.148 693 2291{{overline|6}}{{e|−9}}}} m<sup>3</sup>
+|-
+| drop (US) (alt) || gtt
+| ≡ 1/456 US fl oz
+| ≈ {{nowrap|64.854 231 496 71{{e|−9}}}} m<sup>3</sup>
+|-
+| drop (US) (alt) || gtt
+| ≡ 1/576 US fl oz
+| ≈ {{nowrap|51.342 933 268 23{{e|−9}}}} m<sup>3</sup>
+|-
+| fifth || &nbsp;
+| ≡ 1/5 US gal
+| = {{nowrap|757.082 3568{{e|−6}}}} m<sup>3</sup>
+|-
+| [[English brewery cask units#Firkin|firkin]] || &nbsp;
+| ≡ 9 gal (US)
+| = {{nowrap|0.034 068 706 056}} m<sup>3</sup>
+|-
+| [[dram (unit)|fluid drachm]] (imperial) || fl dr
+| ≡ ⅛ fl oz (imp)
+| = {{nowrap|3.551 632 8125{{e|−6}}}} m<sup>3</sup>
+|-
+| [[dram (unit)|fluid dram]] (US); US fluidram || fl dr
+| ≡ ⅛ US fl oz
+| = {{nowrap|3.696 691 195 3125{{e|−6}}}} m<sup>3</sup>
+|-
+| [[fluid scruple]] (imperial) || fl s
+| ≡ 1/24 fl oz (imp)
+| = {{nowrap|1.183 877 6041{{overline|6}}{{e|−6}}}} m<sup>3</sup>
+|-
+| [[gallon]] (beer) || beer gal
+| ≡ 282 cu in
+| = {{nowrap|4.621 152 048{{e|−3}}}} m<sup>3</sup>
+|-
+| gallon (imperial) || gal (imp)
+| ≡ {{nowrap|4.546  09}} L
+| ≡ {{nowrap|4.546 09{{e|−3}}}} m<sup>3</sup>
+|-
+| gallon (US dry) || gal (US)
+| ≡ ⅛ bu (US lvl)
+| = {{nowrap|4.404 883 770 86{{e|−3}}}} m<sup>3</sup>
+|-
+| gallon (US fluid; Wine) || gal (US)
+| ≡ 231 cu in
+| ≡ {{nowrap|3.785 411 784{{e|−3}}}} m<sup>3</sup>
+|-
+| [[gill]] (imperial); Noggin || gi (imp); nog
+| ≡ 5 fl oz (imp)
+| = {{nowrap|142.065 3125{{e|−6}}}} m<sup>3</sup>
+|-
+| gill (US) || gi (US)
+| ≡ 4 US fl oz
+| = {{nowrap|118.294 118 25{{e|−6}}}} m<sup>3</sup>
+|-
+| [[hogshead]] (imperial) || hhd (imp)
+| ≡ 2 bl (imp)
+| = {{nowrap|0.327 318 48}} m<sup>3</sup>
+|-
+| hogshead (US) || hhd (US)
+| ≡ 2 fl bl (US)
+| = {{nowrap|0.238 480 942 392}} m<sup>3</sup>
+|-
+| [[jigger (bartending)]] || &nbsp;
+| ≡ 1½ US fl oz
+| ≈ 44.36{{e|−6}} m<sup>3</sup>
+|-
+| [[kilderkin]] || &nbsp;
+| ≡ 18 gal (imp)
+| = {{nowrap|0.081 829 62}} m<sup>3</sup>
+|-
+| [[lambda (unit)|lambda]] || λ
+| ≡ 1&nbsp;mm<sup>3</sup>
+| = 1{{e|−9}} m<sup>3</sup>
+|-
+| [[last (unit)|last]] || &nbsp;
+| ≡ 80 bu (imp)
+| = {{nowrap|2.909 4976}} m<sup>3</sup>
+|-
+| [[litre]]<br /><small>(liter)</small> || L
+| ≡ 1 dm<sup>3</sup> <ref name=specpub330>Barry N. Taylor, Ed.,[http://physics.nist.gov/Pubs/SP330/sp330.pdf ''NIST Special Publication 330: The International System of Units (SI)''] (2001 Edition), Washington: US Government Printing Office, 43,"The 12th Conference Generale des Poids et Mesures (CGPM)…declares that the word “litre” may be employed as a special name for the cubic decimetre".</ref>
+| ≡ 0.001 m<sup>3</sup>
+|-
+| load || &nbsp;
+| ≡ 50 cu ft
+| = {{nowrap|1.415 842 3296}} m<sup>3</sup>
+|-
+| [[minim (unit)|minim]] (imperial) || min
+| ≡ 1/480 fl oz (imp) = 1/60 fl dr (imp)
+| = {{nowrap|59.193 880 208 {{overline|3}}{{e|−9}}}} m<sup>3</sup>
+|-
+| minim (US) || min
+| ≡ 1/480 US fl oz = 1/60 US fl dr
+| = {{nowrap|61.611 519 921 875{{e|−9}}}} m<sup>3</sup>
+|-
+| [[fluid ounce|ounce]] (fluid imperial) || fl oz (imp)
+| ≡ 1/160 gal (imp)
+| ≡ {{nowrap|28.413 0625{{e|−6}}}} m<sup>3</sup>
+|-
+| [[fluid ounce|ounce]] (fluid US customary) || US fl oz
+| ≡ 1/128 gal (US)
+| ≡ {{nowrap|29.573 529 5625{{e|−6}}}} m<sup>3</sup>
+|-
+| ounce (fluid US food nutrition labeling) || US fl oz
+| ≡ 30&nbsp;mL<ref name="cfr21"/>
+| ≡ {{val|3|e=-5|u=m<sup>3</sup>}}
+|-
+| [[peck]] (imperial) || pk
+| ≡ 2 gal (imp)
+| = {{nowrap|9.092 18{{e|−3}}}} m<sup>3</sup>
+|-
+| peck (US dry) || pk
+| ≡ ¼ US lvl bu
+| = {{nowrap|8.809 767 541 72{{e|−3}}}} m<sup>3</sup>
+|-
+| [[perch (length)|perch]] || per
+| ≡ 16½ ft × 1½ ft × 1&nbsp;ft
+| = {{nowrap|0.700 841 953 152}} m<sup>3</sup>
+|-
+| pinch (imperial) || &nbsp;
+| ≡ 1/192 gi (imp) = ⅛ tsp (imp)
+| = {{nowrap|739.923 502 6041{{overline|6}}{{e|−9}}}} m<sup>3</sup>
+|-
+| pinch (US) || &nbsp;
+| ≡ 1/48 US fl oz = ⅛ US tsp
+| = {{nowrap|616.115 199 218 75{{e|−9}}}} m<sup>3</sup>
+|-
+| [[pint]] (imperial) || pt (imp)
+| ≡ ⅛ gal (imp)
+| = {{nowrap|568.261 25{{e|−6}}}} m<sup>3</sup>
+|-
+| pint (US dry) || pt (US dry)
+| ≡ 1/64 bu (US lvl) ≡ ⅛ gal (US dry)
+| = {{nowrap|550.610 471 3575{{e|−6}}}} m<sup>3</sup>
+|-
+| pint (US fluid) || pt (US fl)
+| ≡ ⅛ gal (US)
+| = {{nowrap|473.176 473{{e|−6}}}} m<sup>3</sup>
+|-
+| pony || &nbsp;
+| ≡ 3/4 US fl oz
+| = {{nowrap|22.180 147 171 875{{e|−6}}}} m<sup>3</sup>
+|-
+| pottle; quartern || &nbsp;
+| ≡ ½ gal (imp) = 80 fl oz (imp)
+| = {{nowrap|2.273 045{{e|−3}}}} m<sup>3</sup>
+|-
+| [[quart]] (imperial) || qt (imp)
+| ≡ ¼ gal (imp)
+| = {{nowrap|1.136 5225{{e|−3}}}} m<sup>3</sup>
+|-
+| quart (US dry) || qt (US)
+| ≡ 1/32 bu (US lvl) = ¼ gal (US dry)
+| = {{nowrap|1.101 220 942 715{{e|−3}}}} m<sup>3</sup>
+|-
+| quart (US fluid) || qt (US)
+| ≡ ¼ gal (US fl)
+| = {{nowrap|946.352 946{{e|−6}}}} m<sup>3</sup>
+|-
+| quarter; pail || &nbsp;
+| ≡ 8 bu (imp)
+| = {{nowrap|0.290 949 76}} m<sup>3</sup>
+|-
+| register ton || &nbsp;
+| ≡ 100 cu ft
+| = {{nowrap|2.831 684 6592}} m<sup>3</sup>
+|-
+| sack (imperial); bag || &nbsp;
+| ≡ 3 bu (imp)
+| = {{nowrap|0.109 106 16}} m<sup>3</sup>{{Citation needed|date=April 2010}}
+|-
+| sack (US) || &nbsp;
+| ≡ 3 bu (US lvl)
+| = {{nowrap|0.105 717 210 500 64}} m<sup>3</sup>
+|-
+| seam || &nbsp;
+| ≡ 8 bu (US lvl)
+| = {{nowrap|0.281 912 561 335 04}} m<sup>3</sup>{{Citation needed|date=April 2010}}
+|-
+| shot (US) || &nbsp;
+| usually 1.5 US fl oz<ref name=howmany/>
+| ≈ 44{{e|−6}} m<sup>3</sup>
+|-
+| strike (imperial) || &nbsp;
+| ≡ 2 bu (imp)
+| = {{nowrap|0.072 737 44}} m<sup>3</sup>
+|-
+| strike (US) || &nbsp;
+| ≡ 2 bu (US lvl)
+| = {{nowrap|0.070 478 140 333 76}} m<sup>3</sup>
+|-
+| [[tablespoon]] (Australian metric) || &nbsp;
+|
+| ≡ 20.0{{e|−6}} m<sup>3</sup>
+|-
+| tablespoon (Canadian) || tbsp
+| ≡ ½ fl oz (imp)
+| = {{nowrap|14.206 531 25{{e|−6}}}} m<sup>3</sup>
+|-
+| tablespoon (imperial) || tbsp
+| ≡ 5/8 fl oz (imp)
+| = {{nowrap|17.758 164 0625{{e|−6}}}} m<sup>3</sup>
+|-
+| tablespoon (metric) || &nbsp;
+|
+| ≡ 15.0{{e|−6}} m<sup>3</sup>
+|-
+| tablespoon (US customary) || tbsp
+| ≡ ½ US fl oz
+| = {{nowrap|14.786 764 7825{{e|−6}}}} m<sup>3</sup>
+|-
+| tablespoon (US food nutrition labeling) || tbsp
+| ≡ 15&nbsp;mL<ref name="cfr21"/>
+| = {{val|1.5|e=-5|u=m<sup>3</sup>}}
+|-
+| [[teaspoon]] (Canadian) || tsp
+| ≡ 1/6 fl oz (imp)
+| = {{nowrap|4.735 510 41{{overline|6}}{{e|−6}}}} m<sup>3</sup>
+|-
+| teaspoon (imperial) || tsp
+| ≡ 1/24 gi (imp)
+| = {{nowrap|5.919 388 0208{{overline|3}}{{e|−6}}}} m<sup>3</sup>
+|-
+| teaspoon (metric) || &nbsp;
+| ≡ 5.0{{e|−6}} m<sup>3</sup>
+| = 5.0{{e|−6}} m<sup>3</sup>
+|-
+| teaspoon (US customary) || tsp
+| ≡ 1/6 US fl oz
+| = {{nowrap|4.928 921 595{{e|−6}}}} m<sup>3</sup>
+|-
+| teaspoon (US food nutrition labeling) || tsp
+| ≡ 5&nbsp;mL<ref name="cfr21"/>
+| = {{val|5|e=-6|u=m<sup>3</sup>}}
+|-
+| [[timber foot]] || &nbsp;
+| ≡ 1 cu ft
+| = {{nowrap|0.028 316 846 592}} m<sup>3</sup>
+|-
+| [[ton]] (displacement) || &nbsp;
+| ≡ 35 cu ft
+| = {{nowrap|0.991 089 630 72}} m<sup>3</sup>
+|-
+| ton (freight) || &nbsp;
+| ≡ 40 cu ft
+| = {{nowrap|1.132 673 863 68}} m<sup>3</sup>
+|-
+| ton (water) || &nbsp;
+| ≡ 28 bu (imp)
+| = {{nowrap|1.018 324 16}} m<sup>3</sup>
+|-
+| [[ton|tun]] || &nbsp;
+| ≡ 252 gal (wine)
+| = {{nowrap|0.953 923 769 568}} m<sup>3</sup>
+|-
+| [[wey (unit)|wey]] (US) || &nbsp;
+| ≡ 40 bu (US lvl)
+| = {{nowrap|1.409 562 806 6752}} m<sup>3</sup>
+|}
+
+===Plane angle===
+{| class="wikitable"
+|+ [[Angle|Plane angle]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[angular mil]] || µ
+| ≡ {{nowrap|2π/6400}} rad
+| ≈ {{nowrap|0.981 748{{e|-3}} }} rad
+|-
+| [[minute of arc|arcminute]]; MOA|| '
+| ≡ 1°/60
+| ≈ {{nowrap|0.290 888{{e|-3}} }} rad
+|-
+| [[arcsecond]] || "
+| ≡ {{nowrap|1°/3600}}
+| ≈ {{nowrap|4.848 137{{e|-6}} }} rad
+|-
+| [[centesimal]] [[minute of arc]] || '
+| ≡ 1 grad/100
+| ≈ {{nowrap|0.157 080{{e|-3}} }} rad
+|-
+| [[centesimal]] [[second of arc]] || "
+| ≡ {{nowrap|1 grad/(10 000)}}
+| ≈ {{nowrap|1.570 796{{e|-6}} }} rad
+|-
+| [[degree (angle)|degree (of arc)]] || °
+| ≡ 1/360 of a revolution ≡ π/180 rad
+| ≈ {{nowrap|17.453 293{{e|-3}} }} rad
+|-
+| [[grad (angle)|grad]]; gradian; gon || grad
+| ≡ 1/400 of a revolution ≡ 2π/400 rad ≡ 0.9°
+| {{nowrap|≈ 15.707 963{{e|-3}} rad}} <!-- Extended nowrap here to prevent wrapping of units for entire column -->
+|-
+| [[octant (plane geometry)|octant]] || &nbsp;
+| ≡ 45°
+| ≈ {{nowrap|0.785 398}} rad
+|-
+| [[Circular sector|quadrant]] || &nbsp;
+| ≡ 90°
+| ≈ {{nowrap|1.570 796}} rad
+|- style="background:#dfd;"
+| [[radian]] (SI unit) || rad
+| The angle subtended at the center of a circle by an arc whose length is equal to the circle's radius. One full revolution encompasses 2π radians.
+| = 1 rad
+|-
+| sextant || &nbsp;
+| ≡ 60°
+| ≈ {{nowrap|1.047 198}} rad
+|-
+| sign || &nbsp;
+| ≡ 30°
+| ≈ {{nowrap|0.523 599}} rad
+|}
+
+===Solid angle===
+{| class="wikitable"
+|+ [[Solid angle]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[square degree]] || deg²; sq.deg.; (°)²
+| {{nowrap|≡ (π/180)² sr}}
+| {{nowrap|≈ 0.30462{{e|-3}} sr}}
+|- style="background:#dfd;"
+| [[steradian]] (SI unit) || sr
+| The solid angle subtended at the center of a sphere of radius r by a portion of the surface of the sphere having an area r<sup>2</sup>. A sphere encompasses 4π sr.<ref name="howmany"/>
+| = 1 sr
+|}
+
+===Mass===
+Notes:
+* See [[Weight]] for detail of mass/weight distinction and conversion.
+* [[Avoirdupois]] is a system of mass based on a pound of 16 ounces, while [[Troy weight]] is the system of mass where 12 troy ounces equals one troy pound.
+* In this table, the unit ''gee'' is used to denote [[standard gravity]] in order to avoid confusion with the "g" symbol for grams.
+* In [[physics]], the [[pound (mass)|pound of mass]] is sometimes written '''lbm''' to distinguish it from the [[pound-force]] ('''lbf'''). It should not be read as the mongrel unit "pound metre".
+{| class="wikitable"
+|+ [[Mass]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[unified atomic mass unit|atomic mass unit, unified]] || u; AMU
+|
+| ≈ {{nowrap|1.660 538 73{{e|−27}}}} ± 1.3{{e|−36}} kg
+|-
+| [[atomic units|atomic unit of mass]], [[electron]] rest mass || m<sub>e</sub>
+|
+| ≈ {{nowrap|9.109 382 15{{e|−31}}}} ± 45{{e|−39}} kg <ref>[http://physics.nist.gov/cgi-bin/cuu/Value?ttme|search_for=atomic+unit+of+mass ''CODATA Value: atomic unit of mass.''] (2006). [[National Institute of Standards and Technology]]. Retrieved 16 September 2008.</ref>
+|-
+| bag ([[coffee]]) || &nbsp;
+| ≡ 60&nbsp;kg
+| = 60&nbsp;kg
+|-
+| bag ([[Portland cement]])|| &nbsp;
+| ≡ 94&nbsp;lb av
+| = {{nowrap|42.637 682 78}} kg
+|-
+| barge || &nbsp;
+| ≡ 22½ sh tn
+| = {{nowrap|20 411.656 65}} kg
+|-
+| [[Carat (unit)|carat]] || kt
+| ≡ 3 1/6 gr
+| ≈ {{nowrap|205.196 548 333}} mg
+|-
+| [[Carat (unit)|carat]] (metric) || ct
+| ≡ 200&nbsp;mg
+| = 200&nbsp;mg
+|-
+| [[clove (unit of mass)|clove]] || &nbsp;
+| ≡ 8&nbsp;lb av
+| = {{nowrap|3.628 738 96}} kg
+|-
+| [[crith]] || &nbsp;
+|
+| ≈ 89.9349&nbsp;mg
+|-
+| [[dalton (unit)|dalton]] || Da
+|
+| ≈ {{nowrap|1.660 902 10{{e|−27}}}} ± 1.3{{e|−36}} kg
+|-
+| [[dram (unit)|dram]] (apothecary; [[troy weight|troy]]) || dr t
+| ≡ 60 gr
+| = {{nowrap|3.887 9346}} g
+|-
+| [[Avoirdupois|dram]] (avoirdupois) || dr av
+| ≡ {{nowrap|27 11/32}} gr
+| = {{nowrap|1.771 845 195 3125}} g
+|-
+| [[electronvolt]] || eV
+| ≡ 1 eV (energy unit) / c<sup>2</sup>
+| = 1.7826{{e|-36}} kg
+|-
+| [[gamma (unit)|gamma]] || γ
+| ≡ 1 μg
+| = 1 μg
+|-
+| [[grain (measure)|grain]] || gr
+| ≡ 1/7000&nbsp;lb av
+| ≡ {{nowrap|64.798 91}} mg
+|-
+| [[Grave (mass)|grave]] || G
+| grave was the original name of the kilogram
+| ≡ 1&nbsp;kg
+|-
+| [[hundredweight]] (long) || long cwt or cwt
+| ≡ 112&nbsp;lb av
+| = {{nowrap|50.802 345 44}} kg
+|-
+| [[hundredweight]] (short); cental || sh cwt
+| ≡ 100&nbsp;lb av
+| = {{nowrap|45.359 237}} kg
+|- style="background:#dfd;"
+| [[kilogram]]<br /><small>(kilogramme)</small>|| kg
+| ≡ mass of the prototype near Paris (≈ mass of 1L of water)
+| ≡ 1&nbsp;kg ([[SI base unit]])<ref name="sibaseunits"/>
+|-
+| [[kip (unit)|kip]] || kip
+| ≡ {{nowrap|1000}} lb av<!--KIloPound-->
+| = {{nowrap|453.592 37}} kg
+|-
+| [[mark (unit of mass)|mark]] || &nbsp;
+| ≡ 8 oz t
+| = {{nowrap|248.827 8144}} g
+|-
+| [[mite (unit)|mite]] || &nbsp;
+| ≡ 1/20 gr
+| = {{nowrap|3.239 9455}} mg
+|-
+| [[mite (unit)|mite]] (metric) || &nbsp;
+| ≡ 1/20 g
+| = 50&nbsp;mg
+|-
+| [[troy ounce|ounce (apothecary; troy)]] || oz t
+| ≡ 1/12&nbsp;lb t
+| = {{nowrap|31.103 4768}} g
+|-
+| [[ounce]] ([[avoirdupois]]) || oz av
+| ≡ 1/16&nbsp;lb
+| = {{nowrap|28.349 523 125}} g
+|-
+| ounce (US food nutrition labeling) || oz
+| ≡ 28&nbsp;g<ref name="cfr21"/>
+| = 28&nbsp;g
+|-
+| [[pennyweight]] || dwt; pwt
+| ≡ 1/20 oz t
+| = {{nowrap|1.555 173 84}} g
+|-
+| [[point (unit of mass)|point]] || &nbsp;
+| ≡ 1/100 ct
+| = 2&nbsp;mg
+|-
+| [[pound (mass)|pound]] || lb
+| ≡ slug·ft/s<sup>2</sup>
+| = {{nowrap|0.45359237 }} kg
+|-
+| [[pound (mass)|pound (avoirdupois)]] || lb av
+| ≡ {{nowrap|0.453 592 37}} kg = 7000 grains
+| ≡ {{nowrap|0.453 592 37}} kg
+|-
+| [[pound (mass)|pound (metric)]] || &nbsp;
+| ≡ 500 g
+| = 500 g
+|-
+| [[pound (mass)|pound (troy)]] || lb t
+| ≡ {{nowrap|5 760}} grains
+| = {{nowrap|0.373 241 7216}} kg
+|-
+| quarter (imperial) || &nbsp;
+| ≡ 1/4 long cwt = 2 st = 28&nbsp;lb av
+| = {{nowrap|12.700 586 36}} kg
+|-
+| quarter (informal)|| &nbsp;
+| ≡ ¼ short tn
+| = {{nowrap|226.796 185}} kg
+|-
+| quarter, long (informal)|| &nbsp;
+| ≡ ¼ long tn
+| = {{nowrap|254.011 7272}} kg
+|-
+| [[quintal (unit of mass)|quintal]] (metric) || q
+| ≡ 100&nbsp;kg
+| = 100&nbsp;kg
+|-
+| [[apothecaries' system|scruple]] ([[apothecary]]) || s ap
+| ≡ 20 gr
+| = {{nowrap|1.295 9782}} g
+|-
+| [[sheet (unit)|sheet]] || &nbsp;
+| ≡ 1/700&nbsp;lb av
+| = 647.9891&nbsp;mg
+|-
+| [[slug (mass)|slug]]; geepound; hyl || slug
+| ≡ 1 gee × 1&nbsp;lb av × 1 s<sup>2</sup>/ft
+| ≈ {{nowrap|14.593 903}} kg
+|-
+| [[stone (weight)|stone]] || st
+| ≡ 14&nbsp;lb av
+| = {{nowrap|6.350 293 18}} kg
+|-
+| [[assay ton|ton, assay]] (long) || AT
+| ≡ 1&nbsp;mg × 1 long tn ÷ 1 oz t
+| ≈ {{nowrap|32.666 667}} g
+|-
+| [[assay ton|ton, assay]] (short) || AT
+| ≡ 1&nbsp;mg × 1 sh tn ÷ 1 oz t
+| ≈ {{nowrap|29.166 667}} g
+|-
+| [[long ton|ton, long]]|| long tn or ton
+| ≡ {{nowrap|2 240}} lb
+| = {{nowrap|1 016.046 9088}} kg
+|-
+| [[short ton|ton, short]] || sh tn
+| ≡ {{nowrap|2 000}} lb
+| = {{nowrap|907.184 74}} kg
+|-
+| [[tonne]] ([[Metre-tonne-second system of units|mts]] unit) || t
+| ≡ {{nowrap|1 000}} kg
+| = {{nowrap|1 000}} kg
+|-
+| [[wey (unit)|wey]] || &nbsp;
+| ≡ 252&nbsp;lb = 18 st
+| = {{nowrap|114.305 277 24}} kg (variants exist)
+|-
+| Zentner || Ztr.
+| Definitions vary; see <ref>The Swiss Federal Office for Metrology gives ''Zentner'' on a German language web page [http://www.metas.ch/de/scales/systemch.html] and ''quintal'' on the English translation of that page [http://www.metas.ch/en/scales/systemch.html]; the unit is marked "spécifiquement suisse !"</ref> and.<ref name="howmany"/>
+|
+|}
+
+=== Density ===
+{| class="wikitable"
+|+ [[Density]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| gram per millilitre
+| g/mL
+| ≡ g/mL
+| = {{val|1000|u=kg/m<sup>3</sup>}}
+|- style="background:#dfd;"
+| kilogram per cubic metre (SI unit)
+| kg/m<sup>3</sup>
+| ≡ kg/m<sup>3</sup>
+| = 1&nbsp;kg/m<sup>3</sup>
+|-
+| kilogram per litre
+| kg/L
+| ≡ kg/L
+| = {{val|1000|u=kg/m<sup>3</sup>}}
+|-
+| ounce (avoirdupois) per cubic foot
+| oz/ft<sup>3</sup>
+| ≡ oz/ft<sup>3</sup>
+| ≈ {{val|1.001153961|u=kg/m<sup>3</sup>}}
+|-
+| ounce (avoirdupois) per cubic inch
+| oz/in<sup>3</sup>
+| ≡ oz/in<sup>3</sup>
+| ≈ {{val|1.729994044|e=3|u=kg/m<sup>3</sup>}}
+|-
+| ounce (avoirdupois) per gallon (imperial)
+| oz/gal
+| ≡ oz/gal
+| ≈ {{val|6.236023291|u=kg/m<sup>3</sup>}}
+|-
+| ounce (avoirdupois) per gallon (US fluid)
+| oz/gal
+| ≡ oz/gal
+| ≈ {{val|7.489151707|u=kg/m<sup>3</sup>}}
+|-
+| pound (avoirdupois) per cubic foot
+| lb/ft<sup>3</sup>
+| ≡ lb/ft<sup>3</sup>
+| ≈ {{val|16.01846337|u=kg/m<sup>3</sup>}}
+|-
+| pound (avoirdupois) per cubic inch
+| lb/in<sup>3</sup>
+| ≡ lb/in<sup>3</sup>
+| ≈ {{val|2.767990471|e=4|u=kg/m<sup>3</sup>}}
+|-
+| pound (avoirdupois) per gallon (imperial)
+| lb/gal
+| ≡ lb/gal
+| ≈ {{val|99.77637266|u=kg/m<sup>3</sup>}}
+|-
+| pound (avoirdupois) per gallon (US fluid)
+| lb/gal
+| ≡ lb/gal
+| ≈ {{val|119.8264273|u=kg/m<sup>3</sup>}}
+|-
+| [[slug (mass)|slug]] per cubic foot
+| slug/ft<sup>3</sup>
+| ≡ slug/ft<sup>3</sup>
+| ≈ {{val|515.3788184|u=kg/m<sup>3</sup>}}
+|}
+
+===Time===
+{| class="wikitable"
+|+ [[Time]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[atomic units|atomic unit of time]] || au
+| ≡ [[Bohr radius|a<sub>0</sub>]]/([[fine structure constant|α]]·c)
+| ≈ {{nowrap|2.418 884 254{{e|−17}}}} s
+|-
+| [[Callippic cycle]] || &nbsp;
+| ≡ 441 mo (hollow) + 499 mo (full) = 76 a of 365.25 d
+| = {{nowrap|2.398 3776{{e|9}}}} s
+|-
+| [[century]] || c
+| ≡ 100 a (see below for definition of year length)
+| = 100 years
+|-
+| [[day]] || d
+| = 24 h
+| = 1440 min = {{gaps|86|400|u=s}}
+|-
+| [[day]] (sidereal) || d
+| ≡ Time needed for the Earth to rotate once around its axis, determined from successive transits of a very distant astronomical object across an observer's meridian ([[International Celestial Reference Frame]])
+| ≈ {{nowrap|86 164.1}} s
+|-
+| [[decade]] || dec
+| ≡ 10 a (see below for definition of year length)
+| = 10 years
+|-
+| [[fortnight]] || fn
+| ≡ 2 wk
+| = {{nowrap|1 209 600}} s
+|-
+| [[helek]] ||
+| ≡ {{nowrap|1/1 080}} h
+| = 3.{{overline|3}} s
+|-
+| [[Hipparchic cycle]] || &nbsp;
+| ≡ 4 Callippic cycles - 1 d
+| = {{nowrap|9.593 424{{e|9}}}} s
+|-
+| [[hour]] || h
+| ≡ 60 min
+| = {{nowrap|3 600}} s
+|-
+| [[jiffy (time)|jiffy]] || j
+| ≡ 1/60 s
+| = .01{{overline|6}} s
+|-
+| jiffy (alternate) || ja
+| ≡ 1/100 s
+| = 10 ms
+|-
+| [[ke (unit)|ke]] (quarter of an hour) || &nbsp;
+| ≡ ¼ h = 1/96 d
+| = 60 × 60 / 4 s = 900 s = 60 / 4 min = 15 min
+|-
+| [[ke (unit)|ke]] (traditional) || &nbsp;
+| ≡ 1/100 d
+| = 24 × 60 × 60 / 100 s = 864 s = 24 * 60 / 100 min = 14.4 min
+|-
+| lustre; lustrum || &nbsp;
+| ≡ 5 a of 365 d
+| = 1.5768{{e|8}} s
+|-
+| [[Metonic cycle]]; enneadecaeteris || &nbsp;
+| ≡ 110 mo (hollow) + 125 mo (full) = 6940 d ≈ 19 a
+| = {{nowrap|5.996 16{{e|8}}}} s
+|-
+| [[millennium]] || &nbsp;
+| ≡ {{nowrap|1 000}} a (see below for definition of year length)
+| = 1000 years
+|-
+| [[Metric time#Alternative units|milliday]] || md
+| ≡ 1/{{nowrap|1 000}} d
+| = 24 × 60 × 60 / {{nowrap|1 000}} s = 86.4 s
+|-
+| [[minute]] || min
+| ≡ 60 s, due to [[leap second]]s sometimes 59 s or 61 s,
+| = 60 s
+|-
+| [[moment (time)|moment]] || &nbsp;
+| ≡ 90 s
+| = 90 s
+|-
+| [[month]] (full) || mo
+| ≡ 30 d<ref name="PedersenGloss">Pedersen O. (1983). "Glossary" in [[George Coyne|Coyne, G.]], Hoskin, M., and Pedersen, O. ''Gregorian Reform of the Calendar: Proceedings of the Vatican Conference to Commemorate its 400th Anniversary''. Vatican Observatory. Available from [[Astrophysics Data System]].</ref>
+| = {{nowrap|2 592 000}} s
+|-
+| [[month]] (Greg. av.) || mo
+| Average Gregorian month = 1 a (Gregorian average) / 12 = {{nowrap|365.242 5}} d / 12 = {{nowrap|30.436 875}} d
+| ≈ {{nowrap|2.6297{{e|6}}}} s
+|-
+| [[month]] (hollow) || mo
+| ≡ 29 d<ref name="PedersenGloss"/>
+| = {{nowrap|2 505 600}} s
+|-
+| [[month]] (synodic) || mo
+| Cycle time of moon phases ≈ {{nowrap|29.530 589}} d (Average)
+| ≈ {{nowrap|2.551{{e|6}}}} s
+|-
+| [[octaeteris]] || &nbsp;
+| = 48 mo (full) + 48 mo (hollow) + 3 mo (full)<ref>{{Citation | last=Richards | first=E.G. | title=Mapping Time | year=1998 | pages=94–95 | publisher=Oxford University Press | isbn=0-19-850413-6}}</ref><ref>{{Citation | last=Steel | first=Duncan | title=Marking Time | year=2000 | page=46 | publisher=John Wiley & Sons | isbn=0-471-29827-1}}</ref> = 8 a of 365.25 d = 2922 d
+| = {{nowrap|2.524 608{{e|8}}}} s
+|-
+| [[Planck time]] || &nbsp;
+| ≡ ([[gravitational constant|G]][[reduced Planck constant|{{Unicode|ℏ}}]]/''[[speed of light|c]]''<sup>5</sup>)<sup>½</sup>
+| ≈ {{nowrap|1.351 211 868{{e|−43}}}} s
+|- style="background:#dfd;"
+| [[second]] || s
+| time of {{nowrap|9 192 631 770}} periods of the radiation corresponding to the transition between the 2 hyperfine levels of the ground state of the caesium 133 atom at 0 K<ref name="sibaseunits"/> (but other seconds are sometimes used in astronomy). Also that time it takes for light to travel a distance of 299,792,458 meters.
+| ([[SI base unit]])
+|-
+| [[shake (time)|shake]] || &nbsp;
+| ≡ 10<sup>−8</sup> s
+| = 10 ns
+|-
+| sigma || &nbsp;
+| ≡ 10<sup>−6</sup> s
+| = 1 μs
+|-
+| [[Sothic cycle]] || &nbsp;
+| ≡ {{nowrap|1 461}} a of 365 d
+| = {{nowrap|4.607 4096{{e|10}}}} s
+|-
+| [[svedberg]] || S
+| ≡ 10<sup>−13</sup> s
+| = 100 fs
+|-
+| [[week]] || wk
+| ≡ 7 d
+| =  168 h = {{nowrap|10 080}} min = {{nowrap|604 800}} s
+|-
+| [[year]] (common) || a, y, ''or'' yr || 365 d || = {{nowrap|31 536 000}} s<ref name=Richards>Richards, E. G. (2013). "Calendars" in S. E. Urban & P. K. Seidelmann, eds. ''Explanatory Supplement to the Astronomical Almanac''. Mill Valley, CA: University Science Books.</ref>
+|-
+| [[year]] (Gregorian) || a, y, ''or'' yr
+| = 365.2425 d average, calculated from common years (365 d) plus leap years (366 d) on most years divisible by 4. See [[leap year]] for details.
+| = {{nowrap|31 556 952}} s
+|-
+| year (Julian) || a, y, ''or'' yr
+| = 365.25 d average, calculated from common years (365 d) plus one leap year (366 d) every four years
+| = {{nowrap|31 557 600}} s
+|-
+| [[Leap year|year (leap)]]|| a, y, ''or'' yr || 366 d || = {{nowrap|31 622 400}} s<ref name = Richards/>
+|-
+| [[tropical year|year (mean tropical)]] || a, y, ''or'' yr
+| Conceptually, length of time it takes for the Sun to return to the same position in the cycle of seasons<ref group=Converter>The technical definition of tropical year is the period of time for the ecliptic longitude of the Sun to increase 360 degrees. (Urban & Seidelmann 2013, Glossary, s.v. year, tropical)</ref>
+| ≈ {{nowrap|365.24219}} d, each day being 86,400 SI seconds<ref>Richards, E. G. (2013). "Calendars" in S. E. Urban & P. K. Seidelmann, eds. ''Explanatory Supplement to the Astronomical Almanac''. Mill Valley, CA: University Science Books. p. 587.</ref>
+≈ {{nowrap|31 556 925}} s
+|-
+| [[sidereal year|year]] (sidereal) || a, y, ''or'' yr
+| ≡ time taken for Sun to return to the same position with respect to the stars of the celestial sphere
+| ≈ {{nowrap|365.256 363}} d ≈ {{nowrap|31 558 149.7632}} s
+|-
+|COLSPAN="4"|Where [[UTC]] is observed, the length of time units longer than 1 s may increase or decrease by 1 s if a [[leap second]] occurs during the time interval of interest.
+|}
+
+===Frequency===
+{| class="wikitable"
+|+ Frequency
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|- style="background:#dfd;"
+| [[hertz]] (SI unit) || Hz
+| ≡ Number of cycles per second
+| = 1&nbsp;Hz = 1/s
+|-
+| [[revolutions per minute]] || rpm
+| ≡ One unit rpm equals one rotation completed around a fixed axis in one minute of time.
+| ≈ {{val|0.104719755|u=rad/s}}
+|}
+
+===Speed or velocity===
+{| class="wikitable"
+|+ [[Speed]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[foot (length)|foot]] per [[hour]] || fph
+| ≡ 1&nbsp;ft/h
+| ≈ {{nowrap|8.466 667{{e|−5}}}} m/s
+|-
+| [[foot (length)|foot]] per [[minute]] || fpm
+| ≡ 1&nbsp;ft/min
+| = 5.08{{e|−3}} m/s
+|-
+| [[foot (length)|foot]] per [[second]] || fps
+| ≡ 1&nbsp;ft/s
+| = 3.048{{e|−1}} m/s
+|-
+| [[furlong]] per [[fortnight]] || &nbsp;
+| ≡ furlong/fortnight
+| ≈ {{nowrap|1.663 095{{e|−4}}}} m/s
+|-
+| [[inch]] per [[hour]] || iph
+| ≡ 1 in/hr
+| ≈ {{nowrap|7.05 556{{e|−6}}}} m/s
+|-
+| [[inch]] per [[minute]] || ipm
+| ≡ 1 in/min
+| ≈ {{nowrap|4.23 333{{e|−4}}}} m/s
+|-
+| [[inch]] per [[second]] || ips
+| ≡ 1 in/s
+| = 2.54{{e|−2}} m/s
+|-
+| [[kilometre per hour]] || km/h
+| ≡ 1&nbsp;km/h
+| = {{nowrap|1/3.6}} m/s {{nowrap|≈ 2.777 778{{e|−1}}}} m/s
+|-
+| [[knot (unit)|knot]] || kn
+| ≡ 1 [[nautical mile|nmi]]/h = 1.852&nbsp;km/h
+| ≈ {{nowrap|0.514 444}} m/s
+|-
+| [[knot (unit)|knot]] (Admiralty) || kn
+| ≡ 1 NM (Adm)/h = {{nowrap|1.853 184}} km/h {{Citation needed|date=September 2008}}
+| = {{nowrap|0.514 77{{overline|3}}}} m/s
+|-
+| [[mach number]] || ''M''
+| Ratio of the speed to the speed of sound in the medium. Varies especially with temperature. About 1225&nbsp;km/h (761&nbsp;mph) in air at sea level to about 1062&nbsp;km/h (660&nbsp;mph) at jet altitudes ({{convert|12200|m|ft}}).<ref>Tom Benson. (2010.) [http://www.grc.nasa.gov/WWW/K-12/airplane/mach.html "Mach Number"] in ''Beginner's Guide to Aeronautics''. [[NASA]].</ref> Unitless
+| ≈ 340 to 295&nbsp;m/s for aircraft
+|- style="background:#dfd;"
+| [[metre per second]] (SI unit)|| m/s
+| ≡ 1&nbsp;m/s
+| = 1&nbsp;m/s
+|-
+| [[mile per hour]] || mph
+| ≡ 1&nbsp;mi/h
+| = {{nowrap|0.447 04}} m/s
+|-
+| [[mile]] per [[minute]] || mpm
+| ≡ 1&nbsp;mi/min
+| = 26.8224&nbsp;m/s
+|-
+| [[mile]] per [[second]] || mps
+| ≡ 1&nbsp;mi/s
+| = {{nowrap|1 609.344}} m/s
+|-
+| [[speed of light]] in vacuum || ''c''
+| ≡ {{nowrap|299 792 458}} m/s
+| = {{nowrap|299 792 458}} m/s
+|-
+| [[speed of sound]] in air || ''s''
+| Varies especially with temperature. About 1225&nbsp;km/h (761&nbsp;mph) in air at sea level to about 1062&nbsp;km/h (660&nbsp;mph) at jet altitudes.
+| ≈ 340 to 295&nbsp;m/s at aircraft altitudes
+|}
+A [[velocity]] consists of a speed combined with a direction; the speed part of the velocity takes units of speed.
+
+===Flow (volume)===
+{| class="wikitable"
+|+ Flow
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| cubic foot per minute
+| CFM{{Citation needed|date=August 2011}}
+| ≡ 1&nbsp;ft<sup>3</sup>/min
+| = {{val|4.719474432|e=-4|u=m<sup>3</sup>/s}}
+|-
+| cubic foot per second
+| ft<sup>3</sup>/s
+| ≡ 1&nbsp;ft<sup>3</sup>/s
+| = {{val|0.028316846592|u=m<sup>3</sup>/s}}
+|-
+| cubic inch per minute
+| in<sup>3</sup>/min
+| ≡ 1 in<sup>3</sup>/min
+| = {{val|2.731177}}{{overline|3}}{{e|-7}}&nbsp;m<sup>3</sup>/s
+|-
+| cubic inch per second
+| in<sup>3</sup>/s
+| ≡ 1 in<sup>3</sup>/s
+| = {{val|1.6387064|e=-5|u=m<sup>3</sup>/s}}
+|- style="background:#dfd;"
+| cubic metre per second (SI unit)
+| m<sup>3</sup>/s
+| ≡ 1 m<sup>3</sup>/s
+| = 1 m<sup>3</sup>/s
+|-
+| gallon (US fluid) per day
+| GPD{{Citation needed|date=August 2011}}
+| ≡ 1 gal/d
+| = {{val|4.38126363}}{{overline|8}}{{e|-8}}&nbsp;m<sup>3</sup>/s
+|-
+| gallon (US fluid) per hour
+| GPH{{Citation needed|date=August 2011}}
+| ≡ 1 gal/h
+| = {{val|1.05150327}}{{overline|3}}{{e|-6}}&nbsp;m<sup>3</sup>/s
+|-
+| gallon (US fluid) per minute
+| GPM{{Citation needed|date=August 2011}}
+| ≡ 1 gal/min
+| = {{val|6.30901964|e=-5|u=m<sup>3</sup>/s}}
+|-
+| litre per minute
+| LPM{{Citation needed|date=August 2011}}
+| ≡ 1 L/min
+| = 1.{{overline|6}}{{e|-5}} m<sup>3</sup>/s
+|}
+
+===Acceleration===
+{| class="wikitable"
+|+ [[Acceleration]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[foot (length)|foot]] per [[hour]] per [[second]] || fph/s
+| ≡ 1&nbsp;ft/(h·s)
+| ≈ {{nowrap|8.466 667{{e|−5}}}} m/s<sup>2</sup>
+|-
+| [[foot (length)|foot]] per [[minute]] per [[second]] || fpm/s
+| ≡ 1&nbsp;ft/(min·s)
+| = 5.08{{e|−3}} m/s<sup>2</sup>
+|-
+| [[foot (length)|foot]] per [[second]] squared || fps<sup>2</sup>
+| ≡ 1&nbsp;ft/s<sup>2</sup>
+| = 3.048{{e|−1}} m/s<sup>2</sup>
+|-
+| [[gal (acceleration)|gal]]; galileo || Gal
+| ≡ 1&nbsp;cm/s<sup>2</sup>
+| = 10<sup>−2</sup> m/s<sup>2</sup>
+|-
+| [[inch]] per [[minute]] per [[second]] || ipm/s
+| ≡ 1 in/(min·s)
+| ≈ {{nowrap|4.233 333{{e|−4}}}} m/s<sup>2</sup>
+|-
+| [[inch]] per [[second]] squared || ips<sup>2</sup>
+| ≡ 1 in/s<sup>2</sup>
+| = 2.54{{e|−2}} m/s<sup>2</sup>
+|-
+| [[knot (unit)|knot]] per [[second]] || kn/s
+| ≡ 1 kn/s
+| ≈ {{nowrap|5.144 444{{e|−1}}}} m/s<sup>2</sup>
+|- style="background:#dfd;"
+| [[metre per second squared]] (SI unit)|| m/s<sup>2</sup>
+| ≡ 1&nbsp;m/s<sup>2</sup>
+| = 1&nbsp;m/s<sup>2</sup>
+|-
+| [[mile]] per [[hour]] per [[second]] || mph/s
+| ≡ 1&nbsp;mi/(h·s)
+| = 4.4704{{e|−1}} m/s<sup>2</sup>
+|-
+| [[mile]] per [[minute]] per [[second]] || mpm/s
+| ≡ 1&nbsp;mi/(min·s)
+| = 26.8224&nbsp;m/s<sup>2</sup>
+|-
+| [[mile]] per [[second]] squared || mps<sup>2</sup>
+| ≡ 1&nbsp;mi/s<sup>2</sup>
+| = {{nowrap|1.609 344{{e|3}}}} m/s<sup>2</sup>
+|-
+| [[standard gravity]] || ''g''
+| ≡ {{nowrap|9.806 65}} m/s<sup>2</sup>
+| = {{nowrap|9.806 65}} m/s<sup>2</sup>
+|}
+
+===Force===
+{| class="wikitable"
+|+ [[Force (physics)|Force]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[atomic units|atomic unit of force]] ||
+| ≡ m<sub>e</sub>·[[fine structure constant|α]]<sup>2</sup>·''[[speed of light|c]]''<sup>2</sup>/[[Bohr radius|a<sub>0</sub>]]
+| ≈ {{nowrap|8.238 722 06{{e|−8}}}} N <ref>[http://physics.nist.gov/cuu/Constants/ ''CODATA Value: atomic unit of force'']. (2006). [[National Institute of Standards and Technology]]. Retrieved September 14, 2008.</ref>
+|-
+| [[dyne]] ([[cgs unit]]) || dyn
+| ≡ g·cm/s<sup>2</sup>
+| = 10<sup>−5</sup> N
+|-
+| [[kilogram-force]]; kilopond; [[grave (mass)|grave]]-force || kgf; kp; Gf
+| ≡ ''g'' × 1&nbsp;kg
+| = {{nowrap|9.806 65}} N
+|-
+| [[kip (unit)|kip]]; kip-force || kip; kipf; klbf
+| ≡ ''g'' × 1 000&nbsp;lb
+| = {{nowrap|4.448 221 615 2605{{e|3}}}} N
+|-
+| [[grave (mass)|milligrave]]-force, gravet-force || mGf; gf
+| ≡ ''''[[standard gravity|g]]'''' × 1 g
+| = {{nowrap|9.806 65}} mN
+|- style="background:#dfd;"
+| [[newton (unit)|newton]] (SI unit) || N
+| A force capable of giving a mass of one kg an acceleration of one metre per second, per second.<ref name=cipm1946>{{citation | title=Comité International des Poids et Mesures, Resolution 2 | url=http://www.bipm.org/en/CIPM/db/1946/2/ | year=1946 | accessdate=August 26, 2009}}</ref>
+| = 1&nbsp;N = 1&nbsp;kg·m/s<sup>2</sup>
+|-
+| [[ounce-force]] || ozf
+| ≡ ''g'' × 1 oz
+| = {{nowrap|0.278 013 850 953 7812}} N
+|-
+| [[pound-force]] || [[lbf]]
+| ≡ ''g'' × 1&nbsp;lb
+| = {{nowrap|4.448 221 615 2605}} N
+|-
+| [[poundal]] || pdl
+| ≡ 1&nbsp;lb·ft/s<sup>2</sup>
+| = {{nowrap|0.138 254 954 376}} N
+|-
+| sthene ([[Metre-tonne-second system of units|mts]] unit) || sn
+| ≡ 1 t·m/s<sup>2</sup>
+| = 1{{e|3}} N
+|-
+| [[ton]]-force || tnf
+| ≡ ''g'' × 1 sh tn
+| = {{nowrap|8.896 443 230 521{{e|3}}}} N
+|}
+''See also:'' [[Weight#Conversion between weight (force) and mass|Conversion between weight (force) and mass]]
+
+===Pressure or mechanical stress===
+{| class="wikitable"
+|+ [[Pressure]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[atmosphere (unit)|atmosphere]] (standard) || atm
+|
+| ≡ {{nowrap|101 325}} Pa <ref name=press811>Barry N. Taylor, (April 1 995), [http://physics.nist.gov/cuu/pdf/sp811.pdf ''Guide for the Use of the International System of Units (SI)''] (NIST Special Publication 811), Washington, DC: US Government Printing Office, pp. 57&ndash;68.</ref>
+|-
+| [[atmosphere (unit)|atmosphere]] (technical) || at
+| ≡ 1 kgf/cm<sup>2</sup>
+| = {{nowrap|9.806 65{{e|4}}}} Pa <ref name=press811/>
+|-
+| [[bar (unit)|bar]] || bar
+|
+| ≡ 10<sup>5</sup> Pa
+|-
+| barye ([[cgs unit]]) || &nbsp;
+| ≡ 1 dyn/cm<sup>2</sup>
+| = 0.1 Pa
+|-
+| centimetre of mercury || cmHg
+| ≡ 13 595.1&nbsp;kg/m<sup>3</sup> × 1&nbsp;cm × ''g''
+| ≈ {{nowrap|1.333 22{{e|3}}}} Pa <ref name=press811/>
+|-
+| centimetre of [[water]] (4 °C) || cmH<sub>2</sub>O
+| ≈ 999.972&nbsp;kg/m<sup>3</sup> × 1&nbsp;cm × ''g''
+| ≈ 98.063 8 Pa <ref name=press811/>
+|-
+| [[foot (length)|foot]] of mercury (conventional)|| ftHg
+| ≡ {{nowrap|13 595.1}} kg/m<sup>3</sup> × 1&nbsp;ft × ''g''
+| ≈ {{nowrap|40.636 66{{e|3}}}} Pa <ref name=press811/>
+|-
+| [[foot (length)|foot]] of [[water]] (39.2 °F) || ftH<sub>2</sub>O
+| ≈ 999.972&nbsp;kg/m<sup>3</sup> × 1&nbsp;ft × ''g''
+| ≈ {{nowrap|2.988 98{{e|3}}}} Pa <ref name=press811/>
+|-
+| [[inch]] of mercury (conventional) || inHg
+| ≡ {{nowrap|13 595.1}} kg/m<sup>3</sup> × 1 in × ''g''
+| ≈ {{nowrap|3.386 389{{e|3}}}} Pa <ref name=press811/>
+|-
+| [[inch]] of [[water]] (39.2 °F) || inH<sub>2</sub>O
+| ≈ 999.972&nbsp;kg/m<sup>3</sup> × 1 in × ''g''
+| ≈ 249.082 Pa <ref name=press811/>
+|-
+| kilogram-force per square millimetre || kgf/mm<sup>2</sup>
+| ≡ 1 kgf/mm<sup>2</sup>
+| = {{nowrap|9.806 65{{e|6}}}} Pa <ref name=press811/>
+|-
+| [[kip (unit)|kip]] per square [[inch]] || ksi
+| ≡ 1 kipf/sq in
+| ≈ {{nowrap|6.894 757{{e|6}}}} Pa <ref name=press811/>
+|-
+| micron (micrometre) of mercury || <math>\mu</math>mHg
+| ≡ {{nowrap|13 595.1}} kg/m<sup>3</sup> × 1 <math>\mu</math>m × ''g'' ≈ 0.001 torr
+| ≈ {{nowrap|0.133 322 4}} Pa <ref name=press811/>
+|-
+| [[torr|millimetre of mercury]] || [[mmHg]]
+| ≡ {{nowrap|13 595.1}} kg/m<sup>3</sup> × 1&nbsp;mm × ''g'' ≈ 1 torr
+| ≈ 133.3224 Pa <ref name=press811/>
+|-
+| millimetre of [[water]] (3.98 °C) || mmH<sub>2</sub>O
+| ≈ 999.972&nbsp;kg/m<sup>3</sup> × 1&nbsp;mm × ''g'' = {{nowrap|0.999 972}} kgf/m<sup>2</sup>
+| = {{nowrap|9.806 38}} Pa
+|- style="background:#dfd;"
+| [[pascal (unit)|pascal]] (SI unit) || Pa
+| ≡ N/m<sup>2</sup> = kg/(m·s<sup>2</sup>)
+| = 1 Pa <ref>Barry N. Taylor, (April 1995), ''Guide for the Use of the International System of Units (SI)'' (NIST Special Publication 811), Washington, DC: US Government Printing Office, p. 5.</ref>
+|-
+| pièze ([[Metre-tonne-second system of units|mts]] unit) || pz
+| ≡ {{nowrap|1 000}} kg/m·s<sup>2</sup>
+| = 1{{e|3}} Pa = 1 kPa
+|-
+| [[pound force|pound]] per square [[foot (length)|foot]] || psf
+| ≡ 1&nbsp;lbf/ft<sup>2</sup>
+| ≈ {{nowrap|47.880 26}} Pa <ref name=press811/>
+|-
+| [[Pound-force per square inch|pound per square inch]] || psi
+| ≡ 1&nbsp;lbf/in<sup>2</sup>
+| ≈ {{nowrap|6.894 757{{e|3}}}} Pa <ref name=press811/>
+|-
+| [[poundal]] per square [[foot (length)|foot]] || pdl/sq ft
+| ≡ 1 pdl/sq ft
+| ≈ {{nowrap|1.488 164}} Pa <ref name=press811/>
+|-
+| short [[ton]] per square [[foot (length)|foot]] || &nbsp;
+| ≡ 1 sh tn × ''g'' / 1 sq ft
+| ≈ {{nowrap|95.760 518{{e|3}}}} Pa
+|-
+| [[torr]] || torr
+| ≡ {{nowrap|101 325/760}} Pa
+| ≈ 133.322 4 Pa <ref name=press811/>
+|}
+
+===Torque or moment of force===<!-- not equivalent to energy -->
+{| class="wikitable"
+|+ [[Torque]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[foot-pound force]] || ft lbf
+| ≡ ''g'' × 1&nbsp;lb × 1&nbsp;ft
+| = {{nowrap|1.355 817 948 331 4004}} N·m
+|-
+| [[foot (length)|foot]]-poundal || ft pdl
+| ≡ 1&nbsp;lb·ft<sup>2</sup>/s<sup>2</sup>
+| = {{nowrap|4.214 011 009 380 48{{e|−2}}}} N·m
+|-
+| [[inch-pound force]] || in lbf
+| ≡ ''g'' × 1&nbsp;lb × 1 in
+| = {{nowrap|0.112 984 829 027 6167}} N·m
+|-
+| [[metre]] [[kilogram]] || m kg
+| ≡ N × m / ''g''
+| ≈ {{nowrap|0.101 971 621}} N·m
+|- style="background:#dfd;"
+| [[Newton metre]] (SI unit) || N·m
+| ≡ N × m<!-- ≠ J --> = kg·m<sup>2</sup>/s<sup>2</sup>
+| = 1 N·m
+|}
+
+===Energy===<!--work, heat, etc. not torque -->
+{| class="wikitable"
+|+ [[Energy]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[barrel of oil equivalent]] || boe
+| ≈ 5.8{{e|6}} BTU<sub>59 °F</sub>
+| ≈ 6.12{{e|9}} J
+|-
+| [[British thermal unit]] (ISO) || BTU<sub>ISO</sub>
+| ≡ 1.0545{{e|3}} J
+| = 1.0545{{e|3}} J
+|-
+| British thermal unit (International Table) || BTU<sub>IT</sub>
+|
+| = {{nowrap|1.055 055 852 62{{e|3}}}} J
+|-
+| British thermal unit (mean) || BTU<sub>mean</sub>
+|
+| ≈ {{nowrap|1.055 87{{e|3}}}} J
+|-
+| British thermal unit (thermochemical) || BTU<sub>th</sub>
+|
+| ≈ {{nowrap|1.054 350{{e|3}}}} J
+|-
+| British thermal unit (39 °F) || BTU<sub>39 °F</sub>
+|
+| ≈ {{nowrap|1.059 67{{e|3}}}} J
+|-
+| British thermal unit (59 °F) || BTU<sub>59 °F</sub>
+| ≡ {{nowrap|1.054 804{{e|3}}}} J
+| = {{nowrap|1.054 804{{e|3}}}} J
+|-
+| British thermal unit (60 °F) || BTU<sub>60 °F</sub>
+|
+| ≈ {{nowrap|1.054 68{{e|3}}}} J
+|-
+| British thermal unit (63 °F) || BTU<sub>63 °F</sub>
+|
+| ≈ 1.0546{{e|3}} J
+|-
+| [[calorie]] (International Table) || cal<sub>IT</sub>
+| ≡ 4.1868 J
+| = 4.1868 J
+|-
+| calorie (mean) || cal<sub>mean</sub>
+| {{frac|100}} of the energy required to warm one gram of air-free water from 0&nbsp;°C to 100&nbsp;°C @ 1&nbsp;atm
+| ≈ {{nowrap|4.190 02}} J
+|-
+| calorie (thermochemical) || cal<sub>th</sub>
+| ≡ 4.184 J
+| = 4.184 J
+|-
+| Calorie (US; [[FDA]])
+| Cal
+| ≡ 1 kcal
+| = 1000 cal = 4184 J
+|-
+| calorie (3.98 °C) || cal<sub>3.98 °C</sub>
+|
+| ≈ 4.2045 J
+|-
+| calorie (15 °C) || cal<sub>15 °C</sub>
+| ≡ 4.1855 J
+| = 4.1855 J
+|-
+| calorie (20 °C) || cal<sub>20 °C</sub>
+|
+| ≈ 4.1819 J
+|-
+| [[Celsius]] heat unit (International Table) || CHU<sub>IT</sub>
+| ≡ 1 BTU<sub>IT</sub> × 1 K/°R
+| = {{nowrap|1.899 100 534 716{{e|3}}}} J
+|-
+| cubic centimetre of [[atmosphere (unit)|atmosphere]]; standard cubic centimetre || cc atm; scc
+| ≡ 1 atm × 1&nbsp;cm<sup>3</sup>
+| = {{nowrap|0.101 325}} J
+|-
+| cubic [[foot (length)|foot]] of atmosphere; standard cubic foot || cu ft atm; scf
+| ≡ 1 atm × 1&nbsp;ft<sup>3</sup>
+| = {{nowrap|2.869 204 480 9344{{e|3}}}} J
+|-
+| cubic foot of natural gas || &nbsp;
+| ≡ {{nowrap|1 000}} BTU<sub>IT</sub>
+| = {{nowrap|1.055 055 852 62{{e|6}}}} J
+|-
+| cubic [[yard]] of atmosphere; standard cubic yard || cu yd atm; scy
+| ≡ 1 atm × 1 yd<sup>3</sup>
+| = {{nowrap|77.468 520 985 2288{{e|3}}}} J
+|-
+| [[electron volt|electronvolt]] || eV
+| ≡ ''[[elementary charge|e]]'' × 1 V
+| ≈ {{nowrap|1.602 177 33{{e|−19}}}} ± 4.9{{e|-26}} J
+|-
+| [[erg]] ([[cgs unit]]) || erg
+| ≡ 1 g·cm<sup>2</sup>/s<sup>2</sup>
+| = 10<sup>−7</sup> J
+|-
+| [[foot-pound force]] || ft lbf
+| ≡ ''g'' × 1&nbsp;lb × 1&nbsp;ft
+| = {{nowrap|1.355 817 948 331 4004}} J
+|-
+| foot-poundal || ft pdl
+| ≡ 1&nbsp;lb·ft<sup>2</sup>/s<sup>2</sup>
+| = {{nowrap|4.214 011 009 380 48{{e|−2}}}} J
+|-
+| [[gallon]]-atmosphere (imperial) || imp gal atm
+| ≡ 1 atm × 1 gal (imp)
+| = {{nowrap|460.632 569 25}} J
+|-
+| gallon-atmosphere (US) || US gal atm
+| ≡ 1 atm × 1 gal (US)
+| = {{nowrap|383.556 849 0138}} J
+|-
+| [[hartree]], [[atomic units|atomic unit of energy]] || E<sub>h</sub>
+| ≡ m<sub>e</sub>·[[fine structure constant|α]]<sup>2</sup>·''[[speed of light|c]]''<sup>2</sup> (= 2 Ry)
+| ≈ {{nowrap|4.359 744{{e|−18}}}} J
+|-
+| [[horsepower-hour]] || hp·h
+| ≡ 1&nbsp;hp × 1 h
+| = {{nowrap|2.684 519 537 696 172 792{{e|6}}}} J
+|-
+| [[inch-pound force]] || in lbf
+| ≡ ''g'' × 1&nbsp;lb × 1 in
+| = {{nowrap|0.112 984 829 027 6167}} J
+|- style="background:#dfd;"
+| [[joule]] (SI unit) || J
+| The work done when a force of one newton moves the point of its application a distance of one metre in the direction of the force.<ref name="cipm1946"/>
+| = 1&nbsp;J = 1&nbsp;m·N = 1&nbsp;kg·m<sup>2</sup>/s<sup>2</sup> = 1&nbsp;C·V = 1&nbsp;W·s
+|-
+| kilocalorie; large [[calorie]] || kcal; Cal
+| ≡ {{nowrap|1 000}} cal<sub>IT</sub>
+| = 4.1868{{e|3}} J
+|-
+| [[kilowatt-hour]]; Board of Trade Unit || kW·h; B.O.T.U.
+| ≡ 1&nbsp;kW × 1 h
+| = 3.6{{e|6}} J
+|-
+| [[litre]]-[[atmosphere (unit)|atmosphere]] || l atm; sl
+| ≡ 1 atm × 1 L
+| = 101.325 J
+|-
+| [[quad (energy)|quad]] || &nbsp;
+| ≡ 10<sup>15</sup> BTU<sub>IT</sub>
+| = {{nowrap|1.055 055 852 62{{e|18}}}} J
+|-
+| [[Johannes Robert Rydberg|rydberg]] || Ry
+| ≡ ''[[Rydberg constant|R<sub>∞</sub>]]''·[[Planck constant|ℎ]]·''[[speed of light|c]]''
+| ≈ {{nowrap|2.179 872{{e|−18}}}} J
+|-
+| [[therm]] (E.C.) || &nbsp;
+| ≡ {{nowrap|100 000}} BTU<sub>IT</sub>
+| = {{nowrap|105.505 585 262{{e|6}}}} J
+|-
+| [[therm]] (US) || &nbsp;
+| ≡ {{nowrap|100 000}} BTU<sub>59 °F</sub>
+| = 105.4804{{e|6}} J
+|-
+| thermie || th
+| ≡ 1 Mcal<sub>IT</sub>
+| = 4.1868{{e|6}} J
+|-
+| [[ton of coal equivalent]] || TCE
+| ≡ 7 Gcal<sub>th</sub>
+| = 29.288{{e|9}} J
+|-
+| [[ton of oil equivalent]] || TOE
+| ≡ 10 Gcal<sub>th</sub>
+| = 41.84{{e|9}} J
+|-
+| [[ton]] of [[trinitrotoluene|TNT]] || tTNT
+| ≡ 1 Gcal<sub>th</sub>
+| = 4.184{{e|9}} J
+|}
+
+===Power or heat flow rate===
+{| class="wikitable"
+|+ [[Power (physics)|Power]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[atmosphere (unit)|atmosphere]]-cubic centimetre per [[minute]] || atm ccm
+| ≡ 1 atm × 1&nbsp;cm<sup>3</sup>/min
+| = {{nowrap|1.688 75{{e|−3}}}} W
+|-
+| atmosphere-cubic centimetre per [[second]] || atm ccs
+| ≡ 1 atm × 1&nbsp;cm<sup>3</sup>/s
+| = {{nowrap|0.101 325}} W
+|-
+| atmosphere-cubic [[foot (length)|foot]] per [[hour]] || atm cfh
+| ≡ 1 atm × 1 cu ft/h
+| = {{nowrap|0.797 001 244 704}} W
+|-
+| atmosphere-cubic foot per minute || atm·cfm
+| ≡ 1 atm × 1 cu ft/min
+| = {{nowrap|47.820 074 682 24}} W
+|-
+| atmosphere-cubic foot per second || atm cfs
+| ≡ 1 atm × 1 cu ft/s
+| = {{nowrap|2.869 204 480 9344{{e|3}}}} W
+|-
+| [[BTU]] (International Table) per hour || BTU<sub>IT</sub>/h
+| ≡ 1 BTU<sub>IT</sub>/h
+| ≈ {{nowrap|0.293 071}} W
+|-
+| BTU (International Table) per minute || BTU<sub>IT</sub>/min
+| ≡ 1 BTU<sub>IT</sub>/min
+| ≈ {{nowrap|17.584 264}} W
+|-
+| BTU (International Table) per second || BTU<sub>IT</sub>/s
+| ≡ 1 BTU<sub>IT</sub>/s
+| = {{nowrap|1.055 055 852 62{{e|3}}}} W
+|-
+| [[calorie]] (International Table) per second || cal<sub>IT</sub>/s
+| ≡ 1 cal<sub>IT</sub>/s
+| = 4.1868 W
+|-
+| erg per second || erg/s
+| ≡ 1 erg/s
+| = 10<sup>−7</sup> W
+|-
+| foot-[[pound-force]] per hour || ft lbf/h
+| ≡ 1&nbsp;ft lbf/h
+| ≈ {{nowrap|3.766 161{{e|−4}}}} W
+|-
+| foot-pound-force per minute || ft lbf/min
+| ≡ 1&nbsp;ft lbf/min
+| = {{nowrap|2.259 696 580 552 334{{e|−2}}}} W
+|-
+| foot-pound-force per second || ft lbf/s
+| ≡ 1&nbsp;ft lbf/s
+| = {{nowrap|1.355 817 948 331 4004}} W
+|-
+| [[horsepower]] (boiler) || bhp
+| ≈ 34.5&nbsp;lb/h × 970.3 BTU<sub>IT</sub>/lb
+| ≈ {{nowrap|9.810 657{{e|3}}}} W
+|-
+| horsepower (European electrical) || hp
+| ≡ 75 kp·m/s
+| = 736 W
+|-
+| horsepower (imperial electrical) || hp
+| ≡ 746 W
+| = 746 W
+|-
+| horsepower (imperial mechanical) || hp
+| ≡ 550&nbsp;ft lbf/s
+| = {{nowrap|745.699 871 582 270 22}} W
+|-
+| horsepower (metric) || hp
+| ≡ 75 m kgf/s
+| = {{nowrap|735.498 75}} W
+|-
+| [[litre]]-atmosphere per minute || L·atm/min
+| ≡ 1 atm × 1 L/min
+| = {{nowrap|1.688 75}} W
+|-
+| litre-atmosphere per second || L·atm/s
+| ≡ 1 atm × 1 L/s
+| = 101.325 W
+|-
+| lusec || lusec
+| ≡ 1 L·µmHg/s <ref name="howmany"/>
+| ≈ 1.333{{e|−4}} W
+|-
+| [[poncelet]] || p
+| ≡ 100 m kgf/s
+| = 980.665 W
+|-
+| square foot equivalent direct radiation || sq ft EDR
+| ≡ 240 BTU<sub>IT</sub>/h
+| ≈ {{nowrap|70.337 057}} W
+|-
+| [[ton]] of air conditioning || &nbsp;
+| ≡ 2000&nbsp;lbs of ice melted / 24 h
+| ≈ {{nowrap|3 504 }} W
+|-
+| ton of refrigeration (imperial) || &nbsp;
+| ≡ 2240&nbsp;lb × ice<sub>IT</sub> / 24 h: ice<sub>IT</sub> = 144°F × 2326 J/kg.°F
+| ≈ {{nowrap|3.938 875{{e|3}}}} W
+|-
+| ton of refrigeration (IT) || &nbsp;
+| ≡ 200&nbsp;lbs × ice<sub>IT</sub> / 24 h: ice<sub>IT</sub> = 144° × 2326 J/kg.°F
+| ≈ {{nowrap|3.516 853{{e|3}}}} W
+|- style="background:#dfd;"
+| [[watt]] (SI unit) || W
+| The power which in one second of time gives rise to one joule of energy.<ref name="cipm1946"/>
+| = 1&nbsp;W = 1&nbsp;J/s = 1&nbsp;N·m/s = 1&nbsp;kg·m<sup>2</sup>/s<sup>3</sup>
+|}
+
+===Action===
+{| class="wikitable"
+|+ Action
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+<!--- previous entry was:
+|-----
+| [[atomic unit of action]] || au
+| [[reduced Planck constant|<math>\hbar</math>]] = [[Planck constant|<math>h</math>]]/2[[Pi|<math>\pi</math>]] 1.054 571 596{{e|−34}} J·s
+--->
+|-
+| [[Action (physics)|atomic unit of action]] || au
+| ≡ [[Reduced Planck constant|ℏ]] ≡ [[Planck constant|ℎ]]/2[[Pi|π]]
+| ≈ {{nowrap|1.054 571 68{{e|−34}}}} J·s<ref>[http://www.bipm.org/en/si/si_brochure/chapter4/table7.html ''International System of Units,''] 8th ed. (2006), [[Bureau International des Poids et Mesures]], Section 4.1 Table 7.</ref>
+|}
+
+===Dynamic viscosity===
+{| class="wikitable"
+|+ Dynamic [[viscosity]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|- style="background:#dfd;"
+| [[pascal second]] (SI unit) || Pa·s
+| ≡ N·s/m<sup>2</sup>, kg/(m·s)
+| = 1 Pa·s
+|-
+| [[poise]] ([[cgs unit]]) || P
+| ≡ 1 barye·s
+| = 0.1 Pa·s
+|-
+| pound per foot hour || lb/(ft·h)
+| ≡ 1&nbsp;lb/(ft·h)
+| ≈ {{gaps|4.133 789{{e|-4}} }} Pa·s
+|-
+| pound per foot second || lb/(ft·s)
+| ≡ 1&nbsp;lb/(ft·s)
+| ≈ {{val|1.488164}}&nbsp;Pa·s
+|-
+| pound-force second per square foot || lbf·s/ft<sup>2</sup>
+| ≡ 1&nbsp;lbf·s/ft<sup>2</sup>
+| ≈ {{val|47.88026}}&nbsp;Pa·s
+|-
+| pound-force second per square inch || lbf·s/in<sup>2</sup>
+| ≡ 1&nbsp;lbf·s/in<sup>2</sup>
+| ≈ {{val|6894.757}}&nbsp;Pa·s
+|}
+
+===Kinematic viscosity===
+{| class="wikitable"
+|+ Kinematic [[viscosity]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to [[SI|SI units]]
+|-
+| square foot per second || ft<sup>2</sup>/s
+| ≡ 1&nbsp;ft<sup>2</sup>/s
+| = {{val|0.09290304|u=m<sup>2</sup>/s}}
+|- style="background:#dfd;"
+| square metre per second (SI unit) || m<sup>2</sup>/s
+| ≡ 1&nbsp;m<sup>2</sup>/s
+| = 1&nbsp;m<sup>2</sup>/s
+|-
+| [[stokes (unit)|stokes]] ([[cgs unit]]) || St
+| ≡ 10<sup>−4</sup>&nbsp;m<sup>2</sup>/s
+| = 10<sup>−4</sup>&nbsp;m<sup>2</sup>/s
+|}
+
+===Electric current===
+{| class="wikitable"
+|+ [[Electric current]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|- style="background:#dfd;"
+| [[ampere]] ([[SI base unit]]) || A
+| ≡ The constant current needed to produce a force of 2 {{e|-7}} newton per metre between two straight parallel conductors of infinite length and negligible circular cross-section placed one metre apart in a vacuum.<ref name="sibaseunits"/>
+| = 1 A = 1 C/s
+|-
+| [[electromagnetic unit]]; abampere ([[cgs unit]]) || abamp
+| ≡ 10 A
+| = 10 A
+|-
+| [[esu per second]]; statampere ([[cgs unit]]) || esu/s
+| ≡ (0.1 A·m/s) / ''[[speed of light|c]]''
+| ≈ {{val|3.335641|e=-10|u=A}}
+|}
+
+===Electric charge===
+{| class="wikitable"
+|+ [[Electric charge]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[abcoulomb]]; electromagnetic unit ([[cgs unit]]) || abC; emu
+| ≡ 10 C
+| = 10 C
+|-
+| [[atomic units|atomic unit of charge]] || au
+| ≡ ''[[elementary charge|e]]''
+| ≈ {{nowrap|1.602 176 462{{e|−19}}}} C
+|- style="background:#dfd;"
+| [[coulomb]] || C
+| ≡ The amount of electricity carried in one second of time by one ampere of current.<ref name="cipm1946"/>
+| = 1 C = 1 A·s
+|-
+| [[faraday constant|faraday]] || F
+| ≡ 1&nbsp;mol × ''[[Avogadro's number|N<sub>A</sub>]]''·''[[elementary charge|e]]''
+| ≈ {{nowrap|96 485.3383}} C
+|-
+| [[ampere-hour|milliampere hour]] || mA·h
+| ≡ 0.001 A × 1 h
+| = 3.6 C
+|-
+| [[statcoulomb]]; [[franklin (unit)|franklin]]; electrostatic unit ([[cgs unit]]) || statC; Fr; esu
+| ≡ (0.1 A·m) / ''[[speed of light|c]]''
+| ≈ {{nowrap|3.335 641{{e|−10}}}} C
+|}
+
+===Electric dipole===
+{| class="wikitable"
+|+ [[Electric dipole]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| atomic unit of electric dipole moment || ''[[elementary charge|e]]''[[Bohr radius|''a''<sub>0</sub>]]
+| &nbsp;
+| ≈ {{nowrap|8.478 352 81{{e|-30}} }} C·m<ref>{{citation | url=http://physics.nist.gov/cgi-bin/cuu/Value?auedm | year=2006 | title=The NIST Reference on Constants, Units, and Uncertainty | accessdate=August 26, 2009}}</ref>
+|- style="background:#dfd;"
+| coulomb meter || C·m
+| &nbsp;
+| = 1 C · 1 m
+|-
+| [[debye]] || D
+| = 10<sup>−10</sup> esu·Å
+| = 3.33564095{{e|-30}} C·m <ref>Robert G. Mortimer ''Physical chemistry'',Academic Press, 2000 ISBN 0-12-508345-9, page 677</ref>
+|}
+
+===Electromotive force, electric potential difference===
+{| class="wikitable"
+|+ [[Voltage]], electromotive force
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[abvolt]] ([[cgs unit]]) || abV
+| ≡ 1{{e|-8}} V
+| = 1{{e|-8}} V
+|-
+| [[statvolt]] ([[cgs unit]]) || statV
+| ≡ ''[[speed of light|c]]''· (1 μJ/A·m)
+| = {{nowrap|299.792 458}} V
+|- style="background:#dfd;"
+| [[volt]] (SI unit) || V
+| The difference in electric potential across two points along a conducting wire carrying one ampere of constant current when the power dissipated between the points equals one watt.<ref name="cipm1946"/>
+| = 1 V = 1 W/A = {{nowrap|1 kg·m<sup>2</sup>/(A·s<sup>3</sup>)}}
+|}
+
+===Electrical resistance===
+{| class="wikitable"
+|+ [[Electrical resistance]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|- style="background:#dfd;"
+| [[ohm (unit)|ohm]] (SI unit) || Ω
+| The resistance between two points in a conductor when one volt of electric potential difference, applied to these points, produces one ampere of current in the conductor.<ref name="cipm1946"/>
+| = 1 Ω = 1 V/A = {{nowrap|1 kg·m<sup>2</sup>/(A<sup>2</sup>·s<sup>3</sup>)}}
+|}
+
+===Capacitance===
+{| class="wikitable"
+|+ [[Capacitor]]'s ability to store [[electric charge|charge]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|- style="background:#dfd;"
+|[[farad]] (SI unit)
+|F
+|The capacitance between two parallel plates that results in one volt of potential difference when charged by one coulomb of electricity.<ref name="cipm1946"/>
+| = 1 F = 1 C/V = {{nowrap|1 A<sup>2</sup>·s<sup>4</sup>/(kg·m<sup>2</sup>)}}
+|}
+
+===Magnetic flux===
+{| class="wikitable"
+|+ [[magnetic flux]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[maxwell (unit)|maxwell]] (CGS unit)
+| Mx
+| ≡ 10<sup>−8</sup> Wb<ref name=nistguide>{{citation | title=NIST Guide to SI Units, Appendix B.9 | url=http://physics.nist.gov/Pubs/SP811/appenB9.html | accessdate=August 27, 2009}}</ref>
+| = 1{{e|-8}} Wb
+|- style="background:#dfd;"
+| [[weber (unit)|weber]] (SI unit)
+| Wb
+| Magnetic flux which, linking a circuit of one turn, would produce in it an electromotive force of 1 volt if it were reduced to zero at a uniform rate in 1 second.<ref name="cipm1946"/>
+| = 1 Wb = 1 V·s = {{nowrap|1 kg·m<sup>2</sup>/(A·s<sup>2</sup>)}}
+|}
+
+===Magnetic flux density===
+{| class="wikitable"
+|+ What physicists call [[Magnetic field]] is called [[Magnetic flux]] density by electrical engineers and magnetic induction by applied mathematicians and electrical engineers.
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[gauss (unit)|gauss]] (CGS unit) || G
+| ≡ [[maxwell (unit)|Mx]]/cm<sup>2</sup> = 10<sup>−4</sup> T
+| = 1{{e|-4}} T <ref name="SI-10">''Standard for the Use of the International System of Units (SI): The Modern Metric System'' IEEE/ASTM SI 10-1997. (1997). New York and West Conshohocken, PA: [[Institute of Electrical and Electronics Engineers]] and [[American Society for Testing and Materials]]. Tables A.1 through A.5.</ref>
+|- style="background:#dfd;"
+| [[tesla (unit)|tesla]] (SI unit) || T
+| ≡ [[weber (unit)|Wb]]/[[square metre|m<sup>2</sup>]]
+| = 1 T = 1 Wb/m<sup>2</sup> = {{nowrap|1 kg/(A·s<sup>2</sup>)}}
+|}
+
+===Inductance===
+{| class="wikitable"
+|+ [[Inductance]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|- style="background:#dfd;"
+| [[henry (unit)|henry]] (SI unit) || H
+| The inductance of a closed circuit that produces one volt of electromotive force when the current in the circuit varies at a uniform rate of one ampere per second.<ref name="cipm1946"/>
+| = 1 H = 1 Wb/A = {{nowrap|1 kg·m<sup>2</sup>/(A·s)<sup>2</sup>}}
+|}
+
+===Temperature===
+{{details|Conversion of units of temperature}}
+{| class="wikitable"
+|+ [[Temperature]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| degree [[Celsius]] || °C
+| °C ≡ K − 273.15
+| [K] ≡ [°C] + 273.15
+|-
+| degree [[Delisle scale|Delisle]] || °De
+|
+| [K] = 373.15 − [°De] × 2/3
+|-
+| degree [[Fahrenheit]] || °F
+| °F ≡ °C × 9/5 + 32
+| [K] ≡ ([°F] + 459.67) × 5/9
+|-
+| degree [[Newton scale|Newton]] || °N
+|
+| [K] = [°N] × 100/33 + 273.15
+|-
+| degree [[Rankine scale|Rankine]] || °R;
+| °R ≡ K × 9/5
+| [K] ≡ [°R] × 5/9
+|-
+| degree [[Réaumur scale|Réaumur]] || °Ré
+|
+| [K] = [°Ré] × 5/4 + 273.15
+|-
+| degree [[Rømer scale|Rømer]] || °Rø
+|
+| [K] = ([°Rø] − 7.5) × 40/21 + 273.15
+|-
+| Regulo [[Gas Mark]] || GM;
+| °F ≡ GM × 25 + 300
+| [K] ≡ [GM] × 125/9 + 422.038
+|- style="background:#dfd;"
+| [[kelvin]] (SI base unit) || K
+| ≡ 1/273.16 of the [[thermodynamic temperature]] of the [[triple point of water]].<ref name="sibaseunits"/>
+| ≡ 1 K
+|}
+
+===Information entropy===
+
+{| class="wikitable"
+|+ [[Information entropy]]
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+!Relation to bits
+|-
+| SI unit || J/K
+| ≡ J/K
+| = 1 J/K
+|
+|-
+| [[nat (information)|nat]]; nip; nepit || nat
+| ≡ ''k<sub>B</sub>''
+| = {{nowrap|1.380 650 5(23){{e|-23}}}} J/K
+|
+|-
+| [[bit]]; shannon || bit; b; Sh
+| ≡ ln(2) × ''k<sub>B</sub>''
+| = {{nowrap|9.569 940 (16){{e|-24}}}} J/K
+| = 1 bit
+|-
+| [[ban (information)|ban]]; hartley || ban; Hart
+| ≡ ln(10) × ''k<sub>B</sub>''
+| = {{nowrap|3.179 065 3(53){{e|-23}}}} J/K
+|
+|-
+| [[nibble]] ||
+| ≡ 4 bits
+| = {{nowrap|3.827 976 0(64){{e|-23}}}} J/K
+| = 2<sup>2</sup> bit
+|-
+| [[byte]] || B
+| ≡ 8 bits
+| = {{nowrap|7.655 952 (13){{e|-23}}}} J/K
+| = 2<sup>3</sup> bit
+|-
+| [[kilobyte]] (decimal) || kB
+| ≡ {{nowrap|1 000}} B
+| = {{nowrap|7.655 952 (13){{e|-20}}}} J/K
+| = 8{{e|3}} bit = 8000 bit
+|-
+| [[kilobyte]] ([[kibibyte]]) || KB; KiB
+| ≡ {{nowrap|1 024}} B
+| = {{nowrap|7.839 695 (13){{e|-20}}}} J/K
+| = 2<sup>13</sup> bit = 8192 bit
+|}
+Often, information entropy is measured in [[Claude Shannon|shannon]]s, whereas the (discrete) storage space of digital devices is measured in bits. Thus, uncompressed redundant data occupy more than one bit of storage per shannon of information entropy. The multiples of a bit listed above are usually used with this meaning. Other times the bit is used as a measure of information entropy and is thus a synonym of shannon.
+
+===Luminous intensity===
+The candela is the preferred nomenclature for the SI unit.
+{| class="wikitable"
+|+ [[Luminous intensity]]
+|-
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|- style="background:#dfd;"
+| [[candela]] (SI base unit); candle
+| cd
+| The luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540{{e|12}} hertz and that has a radiant intensity in that direction of 1/683 watt per steradian.<ref name="sibaseunits"/>
+| = 1&nbsp;cd
+|-
+| [[candlepower]] (new)
+| cp
+| ≡ cd The use of ''candlepower'' as a unit is discouraged due to its ambiguity.
+| = 1&nbsp;cd
+|-
+| [[candlepower]] (old, pre-1948)
+| cp
+| Varies and is poorly reproducible.<ref>{{citation | title=The NIST Reference on Constants, Units, and Uncertainty | url=http://physics.nist.gov/cuu/Units/candela.html | accessdate=August 28, 2009}}</ref> Approximately 0.981&nbsp;cd.<ref name="howmany"/>
+| ≈ 0.981&nbsp;cd
+|}
+
+===Luminance===
+{| class="wikitable"
+|+ [[Luminance]]
+|-
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| candela per square foot
+| cd/ft<sup>2</sup>
+| ≡ cd/ft<sup>2</sup>
+| ≈ {{val|10.763910417|u=cd/m<sup>2</sup>}}
+|-
+| candela per square inch
+| cd/in<sup>2</sup>
+| ≡ cd/in<sup>2</sup>
+| ≈ {{val|1550.0031|u=cd/m<sup>2</sup>}}
+|- style="background:#dfd;"
+| [[candela per square metre]] (SI unit); nit (deprecated<ref name="howmany"/>)
+| cd/m<sup>2</sup>
+| ≡ cd/m<sup>2</sup>
+| = 1&nbsp;cd/m<sup>2</sup>
+|-
+| [[foot-lambert|footlambert]]
+| fL
+| ≡ (1/π) cd/ft<sup>2</sup>
+| ≈ {{val|3.4262590996|u=cd/m<sup>2</sup>}}
+|-
+| [[lambert (unit)|lambert]]
+| L
+| ≡ (10<sup>4</sup>/π) cd/m<sup>2</sup>
+| ≈ {{val|3183.0988618|u=cd/m<sup>2</sup>}}
+|-
+| [[stilb (luminance)|stilb]] (CGS unit)
+| sb
+| ≡ 10<sup>4</sup> cd/m<sup>2</sup>
+| ≈ 1{{e|4}}&nbsp;cd/m<sup>2</sup>
+|}
+
+===Luminous flux===
+{| class="wikitable"
+|+ [[Luminous flux]]
+|-
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|- style="background:#dfd;"
+| [[lumen (unit)|lumen]] (SI unit)
+| lm
+| ≡ cd·sr
+| = 1&nbsp;lm = 1&nbsp;cd·sr
+|}
+
+===Illuminance===
+{| class="wikitable"
+|+ [[Illuminance]]
+|-
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[Foot-candle|footcandle]]; lumen per square foot
+| fc
+| ≡ lm/ft<sup>2</sup>
+| = {{val|10.763910417|u=lx}}
+|-
+| lumen per square inch
+| lm/in<sup>2</sup>
+| ≡ lm/in<sup>2</sup>
+| ≈ {{val|1550.0031|u=lx}}
+|- style="background:#dfd;"
+| [[lux]] (SI unit)
+| lx
+| ≡ lm/m<sup>2</sup>
+| = 1&nbsp;lx = 1&nbsp;lm/m<sup>2</sup>
+|-
+| [[phot]] (CGS unit)
+| ph
+| ≡ lm/cm<sup>2</sup>
+| = 1{{e|4}} lx
+|}
+
+===Radiation - source activity===
+{| class="wikitable"
+|+ [[Radioactivity]]
+|-
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|- style="background:#dfd;"
+| [[becquerel]] (SI unit) || Bq
+| ≡ Number of disintegrations per second
+| = 1 Bq = 1/s
+|-
+| [[curie]] || Ci
+| ≡ 3.7{{e|10}} Bq
+| = 3.7{{e|10}} Bq <ref name="SP811-2008">Ambler Thompson & Barry N. Taylor. (2008). [http://physics.nist.gov/cuu/pdf/sp811.pdf ''Guide for the Use of the International System of Units (SI)''.] Special Publication 811. Gaithersburg, MD: [[National Institute of Standards and Technology]]. p. 10.</ref>
+|-
+| [[rutherford (unit)|rutherford]] (H) || rd
+| ≡ 1 MBq
+| = 1{{e|6}} Bq
+|}
+Please note that although becquerel (Bq) and hertz (Hz) both ultimately refer to the same SI base unit (s<sup>−1</sup>), Hz is used only for periodic phenomena, and Bq is only used for stochastic processes associated with radioactivity.<ref name=sibrochure222>{{citation | url=http://www.bipm.org/en/si/si_brochure/chapter2/2-2/table3.html | title=The International System of Units, Section 2.2.2., Table 3 | edition=8 | publisher=[[Bureau International des Poids et Mesures]] | year=2006 | accessdate=August 27, 2009}}</ref>
+
+===Radiation - exposure===
+{| class="wikitable"
+|+ Radiation - exposure
+|-
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[Roentgen (unit)|roentgen]] || R
+| 1 R ≡ 2.58{{e|-4}} C/kg<ref name="nistguide"/>
+| = 2.58{{e|-4}} C/kg
+|}
+The roentgen is not an SI unit and the [[National Institute of Standards and Technology|NIST]] strongly discourages its continued use.<ref>{{citation | url=http://physics.nist.gov/Pubs/SP811/sec05.html#5.2 | title=The NIST Guide to the SI (Special Publication 811), section 5.2 | year=2008 | accessdate=August 27, 2009}}</ref>
+
+===Radiation - absorbed dose===
+{| class="wikitable"
+|+ Radiation - [[absorbed dose]]
+|-
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|- style="background:#dfd;"
+| [[gray (unit)|gray]] (SI unit) || Gy
+| ≡ 1 J/kg = 1 m<sup>2</sup>/s<sup>2</sup> <ref>Ambler Thompson & Barry N. Taylor. (2008). [http://physics.nist.gov/cuu/pdf/sp811.pdf ''Guide for the Use of the International System of Units (SI)''.] Special Publication 811. Gaithersburg, MD: [[National Institute of Standards and Technology]]. p. 5.</ref>
+| = 1 Gy
+|-
+| [[rad (unit)|rad]] || rad
+| ≡ 0.01 Gy<ref name="nistguide"/>
+| = 0.01 Gy
+|}
+
+===Radiation - equivalent dose===
+{| class="wikitable"
+|+ Radiation - [[equivalent dose]]
+|-
+!Name of unit
+!Symbol
+!Definition
+!Relation to SI units
+|-
+| [[Röntgen equivalent man]] || rem
+| ≡ 0.01 Sv
+| = 0.01 Sv
+|- style="background:#dfd;"
+| [[sievert]] (SI unit) || Sv
+| ≡ 1 J/kg<ref name="sibrochure222"/>
+| = 1 Sv
+|}
+Although the definitions for sievert (Sv) and gray (Gy) would seem to indicate that they measure the same quantities, this is not the case. The effect of receiving a certain dose of radiation (given as Gy) is variable and depends on many factors, thus a new unit was needed to denote the biological effectiveness of that dose on the body; this is known as the equivalent dose and is shown in Sv. The general relationship between absorbed dose and equivalent dose can be represented as
+:''H = Q · D''
+where ''H'' is the equivalent dose, ''D'' is the absorbed dose, and ''Q'' is a dimensionless quality factor. Thus, for any quantity of ''D'' measured in Gy, the numerical value for ''H'' measured in Sv may be different.<ref>{{citation | url=http://www.bipm.org/en/CIPM/db/2002/2/ | title=Comité international des poids et mesures, 2002, Recommendation 2 | accessdate=August 27, 2009}}</ref>
+
+== Software tools ==
+Home and office computers come with converters in bundled spreadsheet applications or can access free converters via the Internet. Units and measurements can be easily converted using these tools, but only if the units are explicitly defined and the conversion is compatible (e.g., cmHg to kPa).
+
+===General commercial sources of converters===
+*[[calculator|Advanced electronic calculators]] have unit-conversion functionality.
+*[[Spreadsheet]] programs usually provide conversion [[function (computer science)|function]]s or [[formula]]s or the user can write their own.
+*Commercial mathematical, scientific and technical applications often include converters.
+
+==In fiction==
+When a measure is converted to another unit in a fiction work like a novel or film, the value often loses meaning (as in [[numerology]]) or gets too many significant digits ("40 miles" turns into "64 km"). For this reason, authors sometimes choose numbers that can be converted easily. Most notably, distances measured in miles often begin with 3 or 5, so the value converted to km also has one significant digit (5 or 8).
+
+== See also ==
+{{multicol}}
+*[[Accuracy and precision]]
+*[[Conversion of units of temperature]]
+*[[English units]]
+*[[False precision]]
+*[[Imperial units]]
+*[[International System of Units]]
+*[[Mesures usuelles]]
+*[[Metric system]]
+{{multicol-break}}
+*[[Natural units]]
+*[[Rounding]]
+*[[Significant figures]]
+*[[Metric prefix]] (e.g. "kilo-" prefix)
+*[[United States customary units]]
+*[[Units (software)]]
+*[[Units conversion by factor-label]]
+*[[Units of measurement]]
+{{multicol-end}}
+
+== Notes and references ==
+{{Reflist|2}}
+;Notes
+{{Reflist|group=Converter}}
+
+== External links ==
+{{Wikibooks|FHSST Physics Units:How to Change Units}}
+{{Wikivoyage|Metric and Imperial equivalents}}
+<!-- ATTENTION! Please do not add links without discussion and consensus on the talk page. Undiscussed links will be removed. -->
+
+*{{UK SI|title=Units of measurement regulations 1995|year=1995|number=1804|showsldlink=yes}}
+*[http://www.unc.edu/~rowlett/units/ ''How Many? A dictionary of units of measurement'']
+*{{PDFlink|[http://physics.nist.gov/cuu/Document/nonsi_in_1998.pdf NIST: Fundamental physical constants — Non-SI units]|35.7&nbsp;KB}}
+*[http://physics.nist.gov/Pubs/SP811/appenB9.html NIST Guide to SI Units] Many conversion factors listed.
+*[http://aurora.rg.iupui.edu/~schadow/units/UCUM/ucum.html The Unified Code for Units of Measure]
+*[http://w3.energistics.org/uom/poscUnits22.xml Units, Symbols, and Conversions XML Dictionary]
+*{{dmoz|Science/Reference/Units_of_Measurement/Software/|Units of Measurement Software}}
+*{{dmoz|Science/Reference/Units_of_Measurement/Online_Conversion/|Units of Measurement Online Conversion}}
+
+{{Systems of measurement}}
+{{SI units}}
+
+{{DEFAULTSORT:Conversion Of Units}}
+[[Category:Units of measurement| ]]
+[[Category:Metrication]]
+[[Category:Conversion of units of measurement]]

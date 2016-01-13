@@ -1,0 +1,351 @@
+{{Infobox scientist
+|name              = Claude Shannon
+|image             = Claude Elwood Shannon (1916-2001).jpg
+|image_size        = 200px
+|caption           = Claude Elwood Shannon (1916–2001)
+|birth_date        = {{BirthDeathAge|B|1916|4|30|2001|2|24|}}
+|birth_place       = [[Petoskey, Michigan]]
+|death_date        = {{BirthDeathAge||1916|4|30|2001|2|24|}}
+|death_place       = [[Medford, Massachusetts]]
+|residence         = [[United States]]
+|citizenship       =
+|nationality       = American
+|ethnicity         =
+|fields            = [[Mathematics]] and [[electronic engineering]]
+|workplaces        = [[Bell Laboratories]]<br>[[Massachusetts Institute of Technology]]<br>[[Institute for Advanced Study]]
+|alma_mater        = [[University of Michigan]]<br>[[Massachusetts Institute of Technology]]
+|doctoral_advisor  = [[Frank Lauren Hitchcock]]
+|academic_advisors =
+|doctoral_students =[[Danny Hillis]]<br> [[Ivan Sutherland]]<br>[[Bert Sutherland]]<br>Heinrich Arnold Ernst
+|notable_students  =
+|known_for         =
+{{collapsible list|title={{nbsp}}|
+[[Information theory]]<br>
+[[A Mathematical Theory of Communication]]<br>
+[[A Symbolic Analysis of Relay and Switching Circuits]]<br>
+[[Beta distribution]]<br>
+[[Binary code]]<br>
+[[Block cipher]]<br>
+[[Boolean algebra]]<br>
+[[Channel capacity]]<br>
+[[Computer chess]]<br>
+[[Data compression]]<br>
+[[Digital electronics]]<br>
+[[Digital Revolution]]<br>
+[[Digital subscriber line]]
+[[Edge coloring]]<br>
+[[Entropy in thermodynamics and information theory|Entropy in information theory]]<br>
+[[Entropy (information theory)]]
+[[Entropy power inequality]]<br>
+[[Error-correcting codes with feedback]]<br>
+[[Evaluation function]]<br>
+[[Financial signal processing]]<br>
+[[Information processing]]<br>
+[[Information-theoretic security]]<br>
+[[Innovation (signal processing)]]<br>
+[[Key size]]<br>
+[[Logic gate]]<br>
+[[Logic synthesis]]<br>
+[[Models of communication]]<br>
+[[n-gram]]<br>
+[[Noisy channel coding theorem]]<br>
+[[Nyquist–Shannon sampling theorem]]<br>
+[[One-time pad]]<br>
+[[Product cipher]]<br>
+[[Pulse-code modulation]]<br>
+[[Rate–distortion theory]]<br>
+[[Sampling (signal processing)|Sampling]]
+[[Shannon–Fano coding]]<br>
+[[Shannon–Hartley law]]<br>
+[[Shannon capacity]]<br>
+[[Shannon entropy]]<br>
+[[Shannon's expansion]]<br>
+[[Shannon index]]<br>
+[[Shannon's Maxim]]<br>
+[[Shannon multigraph]]<br>
+[[Shannon number]]<br>
+[[Shannon security]]<br>
+[[Shannon's source coding theorem]]<br>
+[[Shannon switching game]]<br>
+[[Shannon–Weaver model|Shannon-Weaver model of communication]]<br>
+[[Stream cipher]]<br>
+[[Switching circuit theory]]<br>
+[[Symbolic dynamics]]<br>
+[[Uncertainty coefficient]]<br>
+[[Units of information]]<br>
+[[Useless machine]]<br>
+[[Wearable computer]]<br>
+[[Whittaker–Shannon interpolation formula]]<br>
+[[Y (game)]]}}
+|author_abbrev_bot =
+|author_abbrev_zoo =
+|influences        =
+|influenced        =
+|awards            = [[IEEE Medal of Honor]] (1966)<br> [[National Medal of Science]] (1966)<br> [[Harvey Prize]] (1972)<br> [[Kyoto Prize]] (1985)<br> [[National Inventors Hall of Fame]] (2004)
+
+|signature         =  <!--(filename only)-->
+|footnotes         =
+}}
+
+'''Claude Elwood Shannon''' (April 30, 1916 – February 24, 2001) was an [[U.S.|American]] [[mathematician]], [[electronic engineer]], and [[cryptographer]] known as "the father of [[information theory]]".<ref>{{cite doi|10.1098/rsbm.2009.0015}}</ref><ref name="Bell Labs acknowledgement">[http://www.bell-labs.com/news/2006/october/shannon.html Bell Labs website: "For example, Claude Shannon, the father of Information Theory, had a passion..." ]</ref>
+
+Shannon is famous for having founded information theory with a landmark paper that he published in 1948. However, he is also credited with founding both [[digital computer]] and [[digital circuit]] design theory in 1937, when, as a 21-year-old [[master's degree]] student at the [[Massachusetts Institute of Technology]] (MIT), he wrote his [[thesis or dissertation|thesis]] demonstrating that electrical applications of [[boolean algebra (logic)|boolean algebra]] could construct and resolve any logical, numerical relationship. It has been claimed that this was the most important master's thesis of all time.<ref name="Fortune">{{cite book |last= Poundstone |first=William |title=Fortune's Formula : The Untold Story of the Scientific Betting System That Beat the Casinos and Wall Street |location= |publisher=Hill & Wang |year=2005 |isbn=978-0-8090-4599-0 }}</ref> Shannon contributed to the field of [[cryptanalysis]] for national defense during [[World War II]], including his basic work on codebreaking and secure [[telecommunications]].
+
+==Biography==
+
+Shannon was born in [[Petoskey, Michigan]]. His father, Claude, Sr. (1862 – 1934), a descendant of early settlers of [[New Jersey]], was a self-made businessman, and for a while, a Judge of [[Probate]]. Shannon's mother, Mabel Wolf Shannon (1890 – 1945), was a language teacher, and for a number of years she was the principal of [[Gaylord High School]]. Most of the first 16 years of Shannon's life were spent in [[Gaylord, Michigan]], where he attended public school, graduating from Gaylord High School in 1932. Shannon showed an inclination towards mechanical and electrical  things. His best subjects were science and mathematics, and at home he constructed such devices as models of planes, a radio-controlled model boat and a wireless [[telegraph]] system to a friend's house a half-mile away. While growing up, he also worked as a messenger for the [[Western Union]] company.
+
+His childhood hero was [[Thomas Edison]], whom he later learned was a distant cousin. Both were descendants of [[John Ogden]]{{Disambiguation needed|date=March 2013}}, a colonial leader and an ancestor of many distinguished people.<ref name="MIT obituary">[http://web.mit.edu/newsoffice/2001/shannon.html MIT Professor Claude Shannon dies; was founder of digital communications], MIT&nbsp;— News office, Cambridge, Massachusetts, February 27, 2001</ref><ref name= "CLAUDE ELWOOD SHANNON, Collected Papers">CLAUDE ELWOOD SHANNON, Collected Papers, Edited by N.J.A Sloane and Aaron D. Wyner, IEEE press, ISBN 0-7803-0434-9</ref>
+
+On his political and religious views, Shannon was apolitical and an atheist.<ref>{{cite book|title=Fortune's Formula: The Untold Story of the Scientific Betting System|year=2010|publisher=Macmillan|isbn=9780374707088|page=18|author=William Poundstone|accessdate=13 July 2013|quote=Shannon described himself as an atheist and was outwardly apolitical.}}</ref> 
+
+===Boolean theory and beyond===
+
+In 1932, Shannon entered the [[University of Michigan]], where he took a course that introduced him to the work of [[George Boole]]. He graduated in 1936 with two [[bachelor's degree]]s, one in [[electrical engineering]] and one in [[mathematics]]. He soon began his graduate studies in electrical engineering at the [[Massachusetts Institute of Technology]] (MIT), where he worked on [[Vannevar Bush]]'s [[differential analyzer]], an early [[analog computer]].<ref>{{cite web |url=http://www.ieeeghn.org/wiki/index.php/Oral-History:Claude_E._Shannon |title=Claude E. Shannon, an oral history |author=Robert Price |work=IEEE Global History Network |year=1982 |publisher=IEEE |accessdate=14 July 2011}}</ref>
+
+While studying the complicated ''ad hoc'' circuits of the differential analyzer, Shannon saw that Boole's concepts could be used to great utility. A paper drawn from his 1937 [[master's degree]] thesis, ''[[A Symbolic Analysis of Relay and Switching Circuits]]'',<ref>Claude Shannon, [http://dspace.mit.edu/bitstream/handle/1721.1/11173/34541425.pdf?sequence=1 "A Symbolic Analysis of Relay and Switching Circuits,"] unpublished MS Thesis, Massachusetts Institute of Technology, August  10, 1937.</ref> was published in the 1938 issue of the ''[[Transactions of the American Institute of Electrical Engineers]]''.<ref>{{ cite journal
+|last = Shannon
+|first = C. E.
+|authorlink = Claude Elwood Shannon
+|title = A Symbolic Analysis of Relay and Switching Circuits
+|journal = Trans. AIEE
+|year = 1938
+|volume = 57 |issue=12
+|pages = 713–723
+|doi= 10.1109/T-AIEE.1938.5057767
+}}</ref> It also earned Shannon the <!-- PLEASE DO ''not'' CONFUSE WITH THE NOBEL PRIZE -->[[Alfred Noble Prize|Alfred Noble American Institute of American Engineers Award]] in 1939. [[Howard Gardner]] called Shannon's thesis "possibly the most important, and also the most famous, master's thesis of the century."<ref>{{cite book |title=The Mind's New Science: A History of the Cognitive Revolution |first=Howard |last=Gardner |authorlink=Howard Gardner |publisher=Basic Books |year=1987 |isbn=0-465-04635-5 |page=144}}</ref>
+
+[[Victor Shestakov]] of the [[Moscow State University]], had proposed a theory of systems of [[electrical switch]]es based on Boolean logic earlier than Shannon in 1935, but the first publication of Shestakov's result was in 1941, after the publication of Shannon's thesis in America.
+
+In this work, Shannon proved that [[boolean algebra (logic)|boolean algebra]] and [[binary arithmetic]] could be used to simplify the arrangement of the [[electromechanical]] [[relay]]s that were used then in [[public switched telephone network|telephone call routing switches]]. He next expanded this concept, and he also proved that it would be possible to use arrangements of relays to solve problems in Boolean algebra.
+
+Using this property of electrical switches to do logic is the basic concept that underlies all [[Computer|electronic digital computers]]. Shannon's work became the foundation of practical [[digital circuit|digital circuit design]] when it became widely known in the electrical engineering community during and after [[World War II]]. The theoretical rigor of Shannon's work completely replaced the ''ad hoc'' methods that had previously prevailed.
+
+Vannevar Bush suggested that Shannon, flush with this success, work on his dissertation at the [[Cold Spring Harbor Laboratory]], funded by the [[Carnegie Institution]], headed by Bush, to develop similar mathematical relationships for [[Gregor Mendel|Mendelian]] [[genetics]]. This research resulted in Shannon's [[doctor of philosophy]] (Ph.D.) thesis at MIT in 1940, called ''An Algebra for Theoretical Genetics.<ref>C. E. Shannon, "An algebra for theoretical genetics", (Ph.D. Thesis, Massachusetts Institute of Technology, 1940), MIT-THESES//1940–3 [http://hdl.handle.net/1721.1/11174 Online text at MIT]</ref>''
+
+In 1940, Shannon became a National Research Fellow at the [[Institute for Advanced Study]] in [[Princeton, New Jersey]]. In Princeton, Shannon had the opportunity to discuss his ideas with influential scientists and [[mathematician]]s such as [[Hermann Weyl]] and [[John von Neumann]], and he even had an occasional encounter with [[Albert Einstein]] or [[Kurt Gödel]]. Shannon worked freely across disciplines, and began to shape the ideas that would become [[Information Theory]].<ref>Erico Marui Guizzo, “The Essential Message: Claude Shannon and the Making of Information Theory” (M.S. Thesis, Massachusetts Institute of Technology, Dept. of Humanities, Program in Writing and Humanistic Studies, 2003), 14.</ref>
+
+===Wartime research===
+
+Shannon then joined [[Bell Labs]] to work on [[fire-control system]]s and [[cryptography]] during World War II, under a contract with section D-2 (Control Systems section) of the National Defense Research Committee ([[National Defense Research Committee|NDRC]]).
+
+Shannon met his wife Betty when she was a numerical analyst at [[Bell Labs]]. They were married in 1949.<ref name=SW/>
+
+For two months early in 1943, Shannon came into contact with the leading British cryptanalyst and mathematician [[Alan Turing]]. Turing had been posted to Washington to share with the [[U.S. Navy]]'s cryptanalytic service the methods used by the [[Government Communications Headquarters|British Government Code and Cypher School]] at [[Bletchley Park]] to break the ciphers used by the [[Kriegsmarine]] [[U-boat]]s in the [[North Atlantic Ocean]].<ref name=Hodges1992>{{Citation | last = Hodges | first = Andrew | author-link = Andrew Hodges | year = 1992 | title = Alan Turing: The Enigma | publication-place = London | publisher = Vintage | pages = 243–252 | isbn = 978-0-09-911641-7}}</ref> He was also interested in the encipherment of speech and to this end spent time at Bell Labs. Shannon and Turing met at teatime in the cafeteria.<ref name=Hodges1992/> Turing showed Shannon his 1936 paper that defined what is now known as the "[[Universal Turing machine]]"<ref>{{Citation | last= Turing | first= A.M. | publication-date = 1937 | year = 1936 | title = On Computable Numbers, with an Application to the Entscheidungsproblem | periodical = Proceedings of the London Mathematical Society | series = 2 | volume = 42 | pages = 230–65 | doi= 10.1112/plms/s2-42.1.230 }}</ref><ref>{{Citation | last = Turing | first = A.M. | publication-date = 1937 | title = On Computable Numbers, with an Application to the Entscheidungsproblem: A correction | periodical = Proceedings of the London Mathematical Society | series = 2 | volume = 43 | pages = 544–6 | doi = 10.1112/plms/s2-43.6.544 | year = 1938 | issue = 6 }}</ref>; this impressed Shannon, as many of its ideas complemented his own.
+
+In 1945, as the war was coming to an end, the NDRC was issuing a summary of technical reports as a last step prior to its eventual closing down. Inside the volume on fire control a special essay titled ''Data Smoothing and Prediction in Fire-Control Systems'', coauthored by Shannon, [[Ralph Beebe Blackman]], and [[Hendrik Wade Bode]], formally treated the problem of smoothing the data in fire-control by analogy with "the problem of separating a signal from interfering noise in communications systems."<ref>David A. Mindell, ''Between Human and Machine: Feedback, Control, and Computing Before Cybernetics'', (Baltimore: Johns Hopkins University Press), 2004, pp. 319-320. ISBN 0-8018-8057-2.</ref> In other words it modeled the problem in terms of [[Data processing|data]] and [[signal processing]] and thus heralded the coming of the [[Information Age]].
+
+Shannon's work on cryptography was even more closely related to his later publications on [[communication theory]].<ref>David Kahn, ''The Codebreakers'', rev. ed., (New York: Simon and Schuster), 1996, pp. 743-751. ISBN 0-684-83130-9.</ref> At the close of the war, he prepared a classified memorandum for Bell Telephone Labs entitled "A Mathematical Theory of Cryptography," dated September 1945. A declassified version of this paper was published in 1949 as "[[Communication Theory of Secrecy Systems]]" in the ''[[Bell System Technical Journal]]''. This paper incorporated many of the concepts and mathematical formulations that also appeared in his ''[[A Mathematical Theory of Communication]]''. Shannon said that his wartime insights into communication theory and cryptography developed simultaneously and that "they were so close together you couldn’t separate them".<ref>quoted in Kahn, ''The Codebreakers'', p. 744.</ref> In a footnote near the beginning of the classified report, Shannon announced his intention to "develop these results ... in a forthcoming memorandum on the transmission of information." <ref>quoted in Erico Marui Guizzo, [http://dspace.mit.edu/bitstream/1721.1/39429/1/54526133.pdf "The Essential Message: Claude Shannon and the Making of Information Theory,"] unpublished MS thesis, Massachusetts Institute of Technology, 2003, p. 21.</ref>
+
+While he was at Bell Labs, Shannon proved that the [[cryptographic]] [[one-time pad]] is unbreakable in his classified research that was later published in October 1949. He also proved that any unbreakable system must have essentially the same characteristics as the one-time pad: the key must be truly random, as large as the plaintext, never reused in whole or part, and be kept secret.<ref>Shannon, Claude (1949). "Communication Theory of Secrecy Systems". Bell System Technical Journal 28 (4): 656–715.</ref>
+
+Later on in the American [[Venona project]], a supposed "one-time pad" system by the [[Soviets]] was partially broken by the [[National Security Agency]], but this was because of misuses of the one-time pads by Soviet [[cryptographic]] technicians in the United States and Canada. The Soviet technicians made the mistake of using the same pads more than once sometimes, and this was noticed by American [[cryptanalyst]]s.
+
+===Postwar contributions===
+
+In 1948 the promised memorandum appeared as "[[A Mathematical Theory of Communication]]", an article in two parts in the July and October issues of the ''Bell System Technical Journal''. This work focuses on the problem of how best to encode the [[information]] a sender wants to transmit. In this fundamental work he used tools in probability theory, developed by [[Norbert Wiener]], which were in their nascent stages of being applied to communication theory at that time. Shannon developed [[information entropy]] as a measure for the uncertainty in a message while essentially inventing the field of [[information theory]].
+
+The book, co-authored with [[Warren Weaver]], ''The Mathematical Theory of Communication'', reprints Shannon's 1948 article and Weaver's popularization of it, which is accessible to the non-specialist. Warren Weaver pointed out that, the word [[information]] in communication theory is not related to what you do say, but to what you could say. That is, information is a measure of one's freedom of choice when one selects a message. Shannon's concepts were also popularized, subject to his own proofreading, in [[John Robinson Pierce]]'s ''Symbols, Signals, and Noise''.
+
+Information theory's fundamental contribution to [[natural language processing]] and [[computational linguistics]] was further established in 1951, in his article "Prediction and Entropy of Printed English", showing upper and lower bounds of entropy on the statistics of English - giving a statistical foundation to language analysis. In addition, he proved that treating [[Whitespace (computer science)|whitespace]] as the 27th letter of the alphabet actually lowers uncertainty in written language, providing a clear quantifiable link between cultural practice and probabilistic cognition.
+
+Another notable paper published in 1949 is "[[Communication Theory of Secrecy Systems]]", a declassified version of his wartime work on the mathematical theory of [[cryptography]], in which he proved that all theoretically unbreakable ciphers must have the same requirements as the [[one-time pad]]. He is also credited with the introduction of [[Nyquist-Shannon sampling theorem|sampling theory]], which is concerned with representing a continuous-time signal from a (uniform) discrete set of samples. This theory was essential in enabling telecommunications to move from analog to digital transmissions systems in the 1960s and later.
+
+He returned to MIT to hold an endowed chair in 1956.
+
+===Hobbies and inventions===
+
+Outside of his academic pursuits, Shannon was interested in [[juggling]], [[unicycling]], and [[chess]]. He also invented many devices, including rocket-powered [[flying disc]]s, a motorized [[pogo stick]], and a flame-throwing trumpet for a science exhibition{{Citation needed|reason=Septober 2010|date=January 2010}}. One of his more humorous devices was a box kept on his desk called the "Ultimate Machine", based on an idea by [[Marvin Minsky]]. Otherwise featureless, the box possessed a single switch on its side. When the switch was flipped, the lid of the box opened and a mechanical hand reached out, flipped off the switch, then retracted back inside the box. Renewed interest in the "Ultimate Machine" has emerged on [[YouTube]] and [[MakerBot Industries|Thingiverse]]. In addition he built a device that could solve the [[Rubik's Cube]] puzzle.<ref name="MIT obituary" />
+
+He is also considered the co-inventor of the first [[wearable computer]] along with [[Edward O. Thorp]].<ref name="Wearable computer">[http://www1.cs.columbia.edu/graphics/courses/mobwear/resources/thorp-iswc98.pdf The Invention of the First Wearable Computer Online paper by Edward O. Thorp of Edward O. Thorp & Associates]</ref> The device was used to improve the odds when playing [[roulette]].
+
+===Legacy and tributes===
+
+Shannon came to MIT in 1956 to join its faculty and to conduct work in the [[Research Laboratory of Electronics at MIT|Research Laboratory of Electronics]] (RLE). He continued to serve on the MIT faculty until 1978. To commemorate his achievements, there were celebrations of his work in 2001, and there are currently six statues of Shannon sculpted by [[Eugene L. Daub]]: one at the [[University of Michigan]]; one at MIT in the [[MIT Laboratory for Information and Decision Systems|Laboratory for Information and Decision Systems]]; one in Gaylord, Michigan; one at the [[University of California at San Diego]]; one at [[Bell Labs]]; and another at [[AT&T Laboratories|AT&T Shannon Labs]].<ref>[http://www.eecs.umich.edu/shannonstatue/ Shannon Statue Dedications]</ref> After the [[Bell System divestiture|breakup]] of the Bell system, the part of Bell Labs that remained with [[AT&T Corporation]] was named Shannon Labs in his honor.
+
+According to [[Neil Sloane]], an AT&T Fellow who co-edited Shannon's large collection of papers in 1993, the perspective introduced by Shannon's [[communication theory]] (now called [[information theory]]) is the foundation of the digital revolution, and every device containing a [[microprocessor]] or [[microcontroller]] is a conceptual descendant of Shannon's publication in 1948:<ref name="shannon paper">C. E. Shannon: ''A mathematical theory of communication.'' Bell System Technical Journal, vol. 27, pp. 379–423 and 623–656, July and October, 1948</ref> "He's one of the great men of the century. Without him, none of the things we know today would exist. The whole [[digital revolution]] started with him."<ref name="star ledger">Bell Labs digital guru dead at 84&nbsp;— Pioneer scientist led high-tech revolution (''[[Star-Ledger|The Star-Ledger]]'', obituary by Kevin Coughlin 27 February 2001)</ref>
+
+Shannon developed [[Alzheimer's disease]], and spent his last years in a nursing home in [[Massachusetts]] oblivious to the marvels of the digital revolution he had helped create. He was survived by his wife, Mary Elizabeth Moore Shannon, his son, Andrew Moore Shannon, his daughter, Margarita Shannon, his sister, Catherine Shannon Kay, and his two granddaughters.<ref name =SW>[http://scienceworld.wolfram.com/biography/Shannon.html Shannon, Claude Elwood (1916-2001)]</ref><ref>[http://www.thocp.net/biographies/shannon_claude.htm Claude Elwood Shannon April 30, 1916]</ref> His wife stated in his obituary that, had it not been for Alzheimer's disease, "He would have been bemused" by it all.<ref name="star ledger"/>
+
+==Other work==
+
+[[Image:Shannonmouse.PNG|thumb|Shannon and his famous [[electromechanical]] mouse ''Theseus'' (named after [[Theseus]] from Greek mythology) which he tried to have solve the maze in one of the first experiments in [[artificial intelligence]]]]
+
+===Shannon's mouse===
+
+Theseus, created in 1950, was a magnetic mouse controlled by a relay circuit that enabled it to move around a [[maze]] of 25 squares. Its dimensions were the same as an average mouse.<ref name="Bell Labs acknowledgement"/> The maze configuration was flexible and it could be modified at will.<ref name="Bell Labs acknowledgement"/> The mouse was designed to search through the corridors until it found the target. Having travelled through the maze, the mouse would then be placed anywhere it had been before and because of its prior experience it could go directly to the target. If placed in unfamiliar territory, it was programmed to search until it reached a known location and then it would proceed to the target, adding the new knowledge to its memory thus learning.<ref name="Bell Labs acknowledgement"/> Shannon's mouse appears to have been the first artificial learning device of its kind.<ref name="Bell Labs acknowledgement"/>
+
+===Shannon's computer chess program===
+
+In 1950 Shannon published a paper on [[computer chess]] entitled ''Programming a Computer for Playing Chess''. It describes how a machine or computer could be made to play a reasonable game of [[chess]]. His process for having the computer decide on which move to make is a [[minimax]] procedure, based on an [[evaluation function]] of a given chess position. Shannon gave a rough example of an evaluation function in which the value of the black position was subtracted from that of the white position. ''Material'' was counted according to the usual relative [[chess piece relative value]] (1 point for a pawn, 3 points for a knight or bishop, 5 points for a rook, and 9 points for a queen).<ref>
+{{Citation
+ | title = Artificial dreams: the quest for non-biological intelligence
+ | author = Hamid Reza Ekbia
+ | year = 2008
+ | isbn = 978-0-521-87867-8
+ | page = 46
+ | publisher = Cambridge University Press
+ }}</ref> He considered some positional factors, subtracting ½ point for each [[doubled pawn]]s, [[backward pawn]], and [[isolated pawn]]. Another positional factor in the evaluation function was ''[[mobility (chess)|mobility]]'', adding 0.1 point for each legal move available. Finally, he considered [[checkmate]] to be the capture of the king, and gave the king the artificial value of 200 points. Quoting from the paper:
+
+:The coefficients .5 and .1 are merely the writer's rough estimate. Furthermore, there are many other terms that should be included. The formula is given only for illustrative purposes. Checkmate has been artificially included here by giving the king the large value 200 (anything greater than the maximum of all other terms would do).
+
+The evaluation function is clearly for illustrative purposes, as Shannon stated. For example, according to the function, pawns that are doubled as well as isolated would have no value at all, which is clearly unrealistic.
+
+===The Las Vegas connection: information theory and its applications to game theory===
+Shannon and his wife Betty also used to go on weekends to [[Las Vegas Valley|Las Vegas]] with [[M.I.T.]] mathematician [[Edward O. Thorp|Ed Thorp]],<ref name="Elwyn article">[http://www.americanscientist.org/template/BookReviewTypeDetail/assetid/47321;jsessionid=aaa9har2OmrE7K American Scientist online: Bettor Math, article and book review by Elwyn Berlekamp]</ref> and made very successful forays in [[blackjack]] using [[game theory]] type methods co-developed with fellow Bell Labs associate, physicist [[John Larry Kelly, Jr|John L. Kelly Jr.]] based on principles of information theory.<ref name="John L. Kelly">[http://home.williampoundstone.net/Kelly.htm John Kelly by William Poundstone website]</ref> They made a fortune, as detailed in the book ''Fortune's Formula'' by [[William Poundstone]] and corroborated by the writings of [[Elwyn Berlekamp]],<ref name="Elwyn bio">[http://www.americanscientist.org/template/AuthorDetail/authorid/1554 Elwyn Berlekamp (Kelly's Research Assistant) Bio details]</ref> Kelly's research assistant in 1960 and 1962.<ref name="Fortune"/> Shannon and Thorp also applied the same theory, later known as the ''[[Kelly criterion]]'', to the stock market with even better results.<ref name="Poundstone">[http://home.williampoundstone.net/ William Poundstone website]</ref>  Claude Shannon's card count techniques were explained in ''[[Bringing Down the House (book)|Bringing Down the House]]'', the best-selling book published in 2003 about the [[MIT Blackjack Team]] by [[Ben Mezrich]]. In 2008, the book was adapted into a [[drama film]] titled ''[[21 (2008 film)|21]]''.
+
+===Shannon's maxim===
+
+Shannon formulated a version of [[Kerckhoffs's principle|Kerckhoffs' principle]] as "The enemy knows the system". In this form it is known as "Shannon's maxim".
+
+==Awards and honors list==
+
+{{Multicol}}
+* [[Alfred Noble Prize]], 1939  <!-- PLEASE DO ''not'' CONFUSE WITH THE NOBEL PRIZE-->
+* [[Morris Liebmann Memorial Prize]] of the [[Institute of Radio Engineers]], 1949<ref name="IEEE-Liebmann-Award-Recipients">{{cite web|url=http://www.ieee.org/documents/liebmann_rl.pdf |title=IEEE Morris N. Liebmann Memorial Award Recipients |publisher=[[IEEE]] |accessdate={{Start date|2011|2|27}}}}</ref>
+* [[Yale University]] (Master of Science), 1954
+* [[Stuart Ballantine Medal]] of the [[Franklin Institute]], 1955
+* [[Research Corporation Award]], 1956
+* [[University of Michigan]], honorary doctorate, 1961
+* [[Rice University]] Medal of Honor, 1962
+* [[Princeton University]], honorary doctorate, 1962
+* [[Marvin J. Kelly Award]], 1962
+* [[University of Edinburgh]], honorary doctorate, 1964
+* [[University of Pittsburgh]], honorary doctorate, 1964
+* [[IEEE Medal of Honor|Medal of Honor]] of the [[Institute of Electrical and Electronics Engineers]], 1966<ref>{{cite web|url=http://www.ieee.org/documents/moh_rl.pdf |title=IEEE Medal of Honor Recipients |publisher=[[IEEE]] |accessdate={{Start date|2011|2|27}}}}</ref>
+* [[National Medal of Science]], 1966, presented by President [[Lyndon B. Johnson]]
+* [[Academy of Achievement | Golden Plate Award]], 1967
+{{multicol-break}}
+* [[Northwestern University]], honorary doctorate, 1970
+* [[Harvey Prize]], the [[Technion]] of [[Haifa]], [[Israel]], 1972
+* [[Royal Netherlands Academy of Arts and Sciences]] (KNAW), foreign member, 1975
+* [[University of Oxford]], honorary doctorate, 1978
+* [[Joseph Jacquard]] Award, 1978
+* [[Harold Pender]] Award, 1978
+* [[University of East Anglia]], honorary doctorate, 1982
+* [[Carnegie Mellon University]], honorary doctorate, 1984
+* [[Audio Engineering Society]] Gold Medal, 1985
+* [[Kyoto Prize]], 1985
+* [[Tufts University]], honorary doctorate, 1987
+* [[University of Pennsylvania]], honorary doctorate, 1991
+* [[Eduard Rhein Award|Basic Research Award]], [[Eduard Rhein Foundation]], [[Germany]], 1991<ref>{{cite web|url=http://www.eduard-rhein-stiftung.de/html/Preistraeger_e.html |title=Award Winners (chronological) |publisher=[[Eduard Rhein Foundation]] |accessdate={{Start date|2011|2|20}}}}</ref>
+* [[National Inventors Hall of Fame]] inducted, 2004
+{{multicol-end}}
+
+==See also==
+
+{{multicol}}
+* [[Shannon–Fano coding]]
+* [[Shannon–Hartley theorem]]
+* [[Nyquist–Shannon sampling theorem]]
+* [[Noisy channel coding theorem]]
+* [[Rate distortion theory]]
+* [[Information theory]]
+* [[Channel capacity]]
+* [[Confusion and diffusion]]
+* [[One-time pad]]
+{{multicol-break}}
+{{Portal|Systems science}}
+* [[Shannon switching game]]
+* [[Shannon number]]
+* [[Claude E. Shannon Award]]
+* [[Shannon index]]
+* [[Shannon's source coding theorem]]
+* [[Information entropy]]
+* [[Shannon's expansion]]
+{{multicol-end}}
+
+==References==
+{{Reflist|30em}}
+
+==Further reading==
+
+* Claude E. Shannon: ''A Mathematical Theory of Communication'', Bell System Technical Journal, Vol. 27, pp.&nbsp;379–423, 623–656, 1948. [http://www.alcatel-lucent.com/bstj/vol27-1948/articles/bstj27-3-379.pdf] [http://www.alcatel-lucent.com/bstj/vol27-1948/articles/bstj27-4-623.pdf]
+* Claude E. Shannon and Warren Weaver: ''The Mathematical Theory of Communication.'' The University of Illinois Press, Urbana, Illinois, 1949. ISBN 0-252-72548-4
+* Rethnakaran Pulikkoonattu&nbsp;— Eric W. Weisstein: Mathworld biography of Shannon, Claude Elwood (1916–2001) [http://scienceworld.wolfram.com/biography/Shannon.html]
+* Claude E. Shannon: ''Programming a Computer for Playing Chess'', Philosophical Magazine, Ser.7, Vol. 41, No. 314, March 1950. (Available online under ''External links'' below)
+* David Levy: ''Computer Gamesmanship: Elements of Intelligent Game Design'', Simon & Schuster, 1983. ISBN 0-671-49532-1
+* Mindell, David A., "Automation's Finest Hour: Bell Labs and Automatic Control in World War II", [[IEEE]] Control Systems, December 1995, pp.&nbsp;72–80.
+* David Mindell, Jérôme Segal, Slava Gerovitch, "From Communications Engineering to Communications Science: Cybernetics and Information Theory in the United States, France, and the Soviet Union" in Walker, Mark (Ed.), ''Science and Ideology: A Comparative History'', Routledge, London, 2003, pp.&nbsp;66–95.
+* Poundstone, William, ''Fortune's Formula'', Hill & Wang, 2005, ISBN 978-0-8090-4599-0
+* [[James Gleick|Gleick, James]], ''[[The Information: A History, a Theory, a Flood|The Information: A History, A Theory, A Flood]]'', Pantheon, 2011, ISBN 978-0-375-42372-7
+
+==External links==
+{{External links|date=March 2013}}
+{{wikiquote|Claude Elwood Shannon}}
+*[http://hdl.handle.net/1721.1/11174 C. E. Shannon, ''An algebra for theoretical genetics,'' Massachusetts Institute of Technology, Ph.D. Thesis, MIT-THESES//1940–3 (1940) Online text at MIT]
+*[http://www.genealogy.math.ndsu.nodak.edu/id.php?id=42920 Shannon's math genealogy]
+*[http://www.nndb.com/people/934/000023865/ Shannon's NNDB profile]
+*{{worldcat id|lccn-n92-78142}}
+*[http://cm.bell-labs.com/cm/ms/what/shannonday/paper.html ''A Mathematical Theory of Communication'']
+*[http://netlab.cs.ucla.edu/wiki/files/shannon1949.pdf ''Communication Theory of Secrecy Systems'']
+*[http://www.stanford.edu/class/ee104/shannonpaper.pdf ''Communication in the Presence of Noise'']
+*[http://www.alcatel-lucent.com/wps/portal/!ut/p/kcxml/04_Sj9SPykssy0xPLMnMz0vM0Y_QjzKLd4w3MfQFSYGYRq6m-pEoYgbxjgiRIH1vfV-P_NxU_QD9gtzQiHJHR0UAAD_zXg!!/delta/base64xml/L0lJayEvUUd3QndJQSEvNElVRkNBISEvNl9BXzdNVC9lbl93dw!!?LMSG_CABINET=Bell_Labs&LMSG_CONTENT_FILE=News_Features/News_Feature_Detail_000160.xml Summary of Shannon's life and career]
+*[http://neilsloane.com/doc/shannonbio.html Biographical summary from Shannon's collected papers]
+*[http://www.ucsd.tv/search-details.asp?showID=6090 Video documentary: "Claude Shannon - Father of the Information Age"]
+*[http://web.mit.edu/6.933/www/Fall2001/Shannon1.pdf Mathematical Theory of Claude Shannon] In-depth MIT class paper on the development of Shannon's work to 1948.
+*[http://www.engin.umich.edu/150th/alum-legends/shannon.html Retrospective at the University of Michigan]
+*[http://www.engin.umich.edu/alumni/engineer/04SS/achievements/advances.html#shannon Shannon's University of Michigan profile]
+*[http://www.nightgarden.com/infosci.htm Notes on Computer-Generated Text]
+*[http://www2.bc.edu/~lewbel/Shannon.html Shannon's Juggling Theorem and Juggling Robots]
+*[http://stanstudio.com/Boston_Photo_Blog/claude-e-shannon-juggler Color photos of Shannon]
+*[http://www.pi.infn.it/%7Ecarosi/chess/shannon.txt Shannon's paper on computer chess, text]
+*{{PDF|[http://www.ascotti.org/programming/chess/Shannon%20-%20Programming%20a%20computer%20for%20playing%20chess.pdf Shannon's paper on computer chess]|175&nbsp;[[Kibibyte|KiB]]<!-- application/pdf, 179879 bytes -->}}
+*[http://www.dcc.uchile.cl/~cgutierr/cursos/IA/shannon.txt Shannon's paper on computer chess, text, alternate source]
+*[http://neilsloane.com/doc/shannonbib.html A Bibliography of His Collected Papers]
+*[http://memory.loc.gov/cgi-bin/query/r?faid/faid:@field(DOCID+ms003071) A Register of His Papers in the Library of Congress]
+*[http://www.kk.org/thetechnium/archives/2008/03/the_unspeakable.php The Technium: The (Unspeakable) Ultimate Machine]
+*[http://www.kugelbahn.ch/sesam_e.htm The Most Beautiful Machine.] (aka the "Ultimate Machine") It's a communication based on the functions ON and OFF.
+*[http://dspace.mit.edu/bitstream/1721.1/39429/1/54526133.pdf Guizzo, "The Essential Message: Claude Shannon and the Making of Information Theory"]
+*[http://www.fortunesformula.com  Claude Shannon, Edward O. Thorp, Fortune's Formula]
+*[http://www.vigyanprasar.gov.in/dream/dec2006/Eng%20December.pdf Claude Shannon : Founding Father of Electronic Communication age,Dream 2047, December,2006, Shivaprasad Khened]
+
+===Shannon videos===
+* [http://www.youtube.com/watch?v=sBHGzRxfeJY Shannon's video machines]
+* [http://www.youtube.com/watch?v=z2Whj_nL-x8 Shannon - father of the information age]
+* [http://techchannel.att.com/play-video.cfm/2011/4/19/Tech-Icons-Claude-Shannon AT&T Tech Channel's Tech Icons - Claude Shannon]
+
+{{IEEE Medal of Honor Laureates 1951-1975}}
+{{Cybernetics}}
+{{Systems}}
+{{Winners of the National Medal of Science|engineering}}
+
+{{Authority control|VIAF=41924253}}
+{{Persondata <!-- Metadata: see [[Wikipedia:Persondata]]. -->
+| NAME              = Shannon, Claude E.
+| ALTERNATIVE NAMES = 
+| SHORT DESCRIPTION = American mathematician
+| DATE OF BIRTH     =  April 30, 1916
+| PLACE OF BIRTH    = [[Petoskey, Michigan]], [[United States]]
+| DATE OF DEATH     =  February 24, 2001
+| PLACE OF DEATH    = [[Medford, Massachusetts|Medford]], [[Massachusetts]], [[United States]]
+}}
+{{DEFAULTSORT:Shannon, Claude E.}}
+[[Category:1916 births]]
+[[Category:2001 deaths]]
+[[Category:American atheists]]
+[[Category:American engineers]]
+[[Category:American mathematicians]]
+[[Category:American computer scientists]]
+[[Category:American electrical engineers]]
+[[Category:Control theorists]]
+[[Category:Deaths from Alzheimer's disease]]
+[[Category:IEEE Medal of Honor recipients]]
+[[Category:American information theorists]]
+[[Category:Internet pioneers]]
+[[Category:Massachusetts Institute of Technology alumni]]
+[[Category:Massachusetts Institute of Technology faculty]]
+[[Category:National Medal of Science laureates]]
+[[Category:Pre-computer cryptographers]]
+[[Category:Scientists at Bell Labs]]
+[[Category:Fellows of the Royal Society]]
+[[Category:Systems scientists]]
+[[Category:Modern cryptographers]]
+[[Category:University of Michigan alumni]]
+[[Category:Researchers in stochastics]]
+[[Category:Probability theorists]]
+[[Category:Communication theorists]]
+[[Category:Unicyclists]]
+[[Category:Foreign Members of the Royal Society]]
+[[Category:Computer chess people]]
+[[Category:People from Otsego County, Michigan]]

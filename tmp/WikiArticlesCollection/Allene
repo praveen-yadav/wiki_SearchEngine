@@ -1,0 +1,55 @@
+{{for|the organic compound with the common name allene|propadiene}}
+[[Image:Allene.png|right|thumb|[[Propadiene]], the simplest allene, is also known as allene.]]
+An '''allene''' is a [[Chemical compound|compound]] in which one [[carbon]] atom has [[double bond]]s with each of its two adjacent carbon centres. Allenes are classified as [[polyene]]s with [[diene#Classes|cumulated dienes]]. The parent compound of allene is [[propadiene]]. Compounds with an allene-type structure but with more than three carbon atoms are called [[cumulene]]s. Allenes are much more reactive than most other [[alkene]]s. For example, their reactivity with gaseous [[chlorine]] is more like the reactivity of [[alkyne]]s than that of alkenes.
+
+==Structure and bonding==
+===Geometry===
+[[Image:Allene3D.png|thumb|right|3D view of propadiene (allene).]]
+The central carbon of allene forms two [[sigma bond]]s and two [[pi bond]]s. The central carbon is [[Orbital hybridization#sp hybrids|sp-hybridized]], and the two terminal carbons are [[Orbital hybridization#sp2 hybrids|sp<sup>2</sup>-hybridized]]. The bond angle formed by the three carbons is 180°, indicating linear geometry for the carbons of allene. It can also be viewed as an "extended tetrahedral" with a similar shape to [[methane]].
+
+===Symmetry===
+[[Image:Allene symmetry.png|none|left|300px]]
+The symmetry and isomerism of allenes has long fascinated organic chemists.<ref>{{March6th}}</ref>  For allenes with four identical substituents, there exist two twofold axes of rotation through the center carbon, inclined at 45° to the CH<sub>2</sub> planes at either end of the molecule. The molecule can thus be thought of as a two-bladed [[propeller]]. A third twofold axis of rotation passes through the C=C=C bonds, and there is a mirror plane passing through both CH<sub>2</sub> planes. Thus this class of molecules belong to the D<sub>2d</sub> [[point group]]. Because of the symmetry, an unsubstituted allene has no net [[Bond dipole moment|dipole moment]].
+{{-}}
+{{multiple image
+| align     = left
+| image1    = Allene chirality.png
+| width1    = 300
+| image2    = Allenes_chirality_depiction.png
+| width2    = 300
+| footer    = ''R'' and ''S'' configurations are determined by precedences of the groups attached to the axial section of the molecule when viewed along that axis. The front plane is given higher priority over the other and the final assignment is given from priority 2 to 3 (i.e. the relationship between the two planes).
+}}
+{{-}}
+An allene with two different substituents on each of the two carbons will be [[chirality (chemistry)|chiral]] because there will no longer be any mirror planes. Where '''A''' has a greater priority than '''B''' according to the [[Cahn-Ingold-Prelog priority rule]], the configuration of the [[axial chirality]] can be determined by considering the substituents on the front atom followed by the back atom when viewed along the allene axis. For the bottom, only the group of higher priority need be considered. Chiral allenes have been recently used as building blocks in the construction of organic materials with exceptional chiroptical properties.<ref>Angew Chem Int Ed Engl. 2012 Mar 19;51(12):2818-28. doi: 10.1002/anie.201108001</ref> 
+{{-}}
+
+==Synthesis==
+Although allenes often require specialized syntheses, the parent, propadiene is produced on a large scale as an equilibrium mixture with [[methylacetylene]]:
+:H<sub>2</sub>C=C=CH<sub>2</sub> {{eqm}} CH<sub>3</sub>C&equiv;CH
+This mixture, known as [[MAPP gas]], is commercially available.
+
+Laboratory methods for the formation of allenes include:
+* from geminal dihalocyclopropanes and organolithium compounds in the [[Skattebøl rearrangement]].
+* from reaction of certain terminal [[alkyne]]s with [[formaldehyde]], [[copper(I) bromide]] and added base<ref>[[Organic Syntheses]], Coll. Vol. 7, p.276 (1990); Vol. 63, p.203 (1985). [http://www.orgsynth.org/orgsyn/pdfs/CV7P0276.pdf Link]</ref>
+* from [[dehydrohalogenation]] of certain [[halide|dihalides]].<ref>[[Organic Syntheses]], Coll. Vol. 5, p.22 (1973); Vol. 42, p.12 (1962) [http://www.orgsynth.org/orgsyn/pdfs/CV5P0022.pdf Link]</ref>
+* from reaction of a triphenylphosphinyl ester with an acid halide, a [[Wittig reaction]] accompanied by dehydrohalogenation<ref>[[Helv. Chim. Acta]], 63, 438 (1980); Org. Synth. Coll., 7, 232 (1990)</ref>
+
+==See also==
+* Compounds with three or more adjacent carbon-carbon double bonds are called [[cumulene]]s.
+* The allene motif is frequently encountered in [[carbomer]]s.
+* Using a suitable catalyst (e.g. [[Wilkinson's catalyst]]), it is possible to reduce just one of the double bonds of an allene.<ref>{{cite journal | author = Bhagwat; Devaprabhakara | journal = [[Tetrahedron Lett.]] | pages = 1391 | year = 1972 | doi = 10.1016/S0040-4039(01)84636-0 | title = Selective hydrogenation of allenes with chlorotris-(triphenylphosphine) rhodium catalyst | volume = 13 | issue = 15}}</ref>
+
+==References==
+{{reflist}}
+
+==Further reading==
+* {{GoldBookRef | title = allenes | file = A00238}}
+* ''Allene chemistry''  Kay M. Brummond (Editor) [http://www.beilstein-journals.org/bjoc/browse/singleSeries.htm?sn=14 Thematic Series] in the Open Access [[Beilstein Journal of Organic Chemistry]]
+
+==External links==
+*[http://www.sparknotes.com/chemistry/organic3/stereochemistry/section2.rhtml Stereochemistry study guide]
+*[http://www.organic-chemistry.org/synthesis/C1C/chains/allenes.shtm Synthesis of allenes]
+
+[[Category:Dienes]]
+[[Category:Functional groups]]
+[[Category:Allenes|*]]

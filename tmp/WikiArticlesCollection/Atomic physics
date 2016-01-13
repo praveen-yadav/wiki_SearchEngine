@@ -1,0 +1,98 @@
+{{Modern physics}}
+'''Atomic physics''' is the field of [[physics]] that studies atoms as an isolated system of [[electron]]s and an [[atomic nuclei|atomic nucleus]]. It is primarily concerned with the [[Electron configuration|arrangement of electrons around the nucleus]] and
+the processes by which these arrangements change. This includes [[ions]] as well as neutral atoms and, unless otherwise stated, for the purposes of this discussion it should be assumed that the term ''atom'' includes ions.
+
+The term ''atomic physics'' is often associated with [[nuclear power]] and [[nuclear bomb]]s, due to the [[synonym]]ous use of ''atomic'' and ''nuclear'' in [[standard English]]. However, physicists distinguish between atomic physics — which deals with the atom as a system consisting of a nucleus and electrons — and [[nuclear physics]], which considers [[atomic nucleus|atomic nuclei]] alone.
+
+As with many scientific fields, strict delineation can be highly contrived and atomic physics is often considered in the wider context of ''[[atomic, molecular, and optical physics]]''. Physics research groups are usually so classified.
+
+==Isolated atoms==
+Today, atomic physics primarily considers atoms in isolation. Atomic models will consist of a single nucleus that may be surrounded by one or more bound electrons. It is not concerned with the formation of [[molecule]]s (although much of the physics is identical), nor does it examine atoms in a [[solid state physics|solid state]] as [[condensed matter]]. It is concerned with processes such as [[ionization]] and [[excited state|excitation]] by photons or collisions with atomic particles.
+
+While modelling atoms in isolation may not seem realistic, if one considers atoms in a [[gas]] or [[Plasma (physics)|plasma]] then the time-scales for atom-atom interactions are huge in comparison to the atomic processes that are generally considered. This means that the individual atoms can be treated as if each were in isolation, as the vast majority of the time they are.  By this consideration atomic physics provides the underlying theory in [[plasma (physics)|plasma physics]] and [[atmospheric physics]], even though both deal with very large numbers of atoms.
+
+==Electronic configuration==
+Electrons form notional [[Electron shells|shells]] around the nucleus. These are naturally in a [[ground state]] but can be excited
+by the absorption of energy from light ([[photon]]s), magnetic fields, or interaction with a colliding particle (typically other electrons).
+
+Electrons that populate a shell are said to be in a [[bound state]].  The energy necessary to remove an electron from its shell (taking it to infinity) is called the [[binding energy]].  Any quantity of energy absorbed by the electron in excess of this amount is converted to [[kinetic energy]] according to the [[conservation of energy]].  The atom is said to have undergone the process of [[ionization]].
+
+In the event the electron absorbs a quantity of energy less than the binding energy, it will transition to an [[excited state]]. After a statistically sufficient quantity of time, an electron in an excited state will undergo a transition to a lower state.  The change in energy between the two energy levels must be accounted for (conservation of energy).  In a neutral atom, the system will emit a photon of the difference in energy.  However, if the excited atom has been previously ionized, in particular if one of its inner shell electrons has been removed, a phenomenon known as the [[Auger effect]] may take place where the quantity of energy is transferred to one of the bound electrons causing it to go into the continuum.  This allows one to multiply ionize an atom with a single photon.
+
+There are rather strict [[selection rules]] as to the electronic configurations that can be reached by excitation by light—however there are no such rules for excitation by collision processes.
+
+==History and developments==
+{{Main|Atomic theory}}
+The majority of fields in physics can be divided between theoretical work and experimental work,
+and atomic physics is no exception. It is usually the case, but not always, that progress goes
+in alternate cycles from an experimental observation, through to a theoretical explanation
+followed by some predictions that may or may not be confirmed by experiment, and so on. Of course, the current state of technology at any given time can put limitations on what can be achieved experimentally and theoretically so it may take considerable time for theory to be refined.
+
+One of the earliest steps towards atomic physics was the recognition that matter was composed
+of ''atoms'', in the modern sense of the basic unit of a [[chemical element]]. This theory was developed by the British chemist and physicist [[John Dalton]] in the 18th century. At this stage, it wasn't clear what atoms were although they could be described and classified by their properties (in bulk) in a [[periodic table]].
+
+The true beginning of atomic physics is marked by the discovery of [[spectral line]]s and attempts to describe the phenomenon, most notably by [[Joseph von Fraunhofer]]. The study of these lines led to the [[Bohr atom model]] and to the birth of [[quantum mechanics]]. In seeking to explain atomic spectra an entirely new mathematical model of matter was revealed. As far as atoms and their electron shells were concerned, not only did this yield a better overall description, i.e. the [[atomic orbital model]], but it also provided a new theoretical basis for [[chemistry]]
+([[quantum chemistry]]) and [[spectroscopy]].
+
+Since the [[World War II|Second World War]], both theoretical and experimental fields have advanced at a rapid pace. This can be attributed to progress in computing technology, which has allowed larger and more sophisticated models of atomic structure and associated collision processes.  Similar technological advances in accelerators, detectors, magnetic field generation and [[laser]]s have greatly assisted experimental work.
+<!-- Perhaps create to a category list instead and embed names in history/theory section later -->
+
+==Significant atomic physicists==
+{{Columns-list|2|
+; Pre quantum mechanics
+* [[John Dalton]]
+* [[Joseph von Fraunhofer]]
+* [[Johannes Rydberg]]
+* [[J.J. Thomson]]
+
+; Post quantum mechanics
+* [[Alexander Dalgarno]]
+* [[David Bates (physicist)|David Bates]]
+* [[Niels Bohr]]
+* [[Max Born]]
+* [[Clinton Joseph Davisson]]
+* [[Enrico Fermi]]
+* [[Charlotte Froese Fischer]]
+* [[Vladimir Fock]]
+* [[Douglas Hartree]]
+* [[Ernest M. Henley]]
+* [[Ratko Janev]]
+* [[Harrie Massey|Harrie S. Massey]]
+* [[Nevill Mott]]
+* [[M. J. Seaton|Mike Seaton]]
+* [[John C. Slater]]
+* [[George Paget Thomson]]
+}}
+
+==See also==
+*[[Particle physics]]
+*[[Isomeric shift]]
+
+==References==
+{{Reflist|2}}
+
+== Bibliography ==
+* {{Cite book|title=Physics of Atoms and Molecules|author=Bransden, BH|coauthors=Joachain, CJ|
+    year=2002|publisher=Prentice Hall|edition=2nd|isbn=0-582-35692-X}}
+* {{Cite book|title=Atomic Physics|author=Foot, CJ|year=2004|
+    publisher=Oxford University Press|isbn=0-19-850696-1}}
+*{{Cite book|last=Herzberg |first=Gerhard |title=Atomic Spectra and Atomic Structure
+    |year= 1979|origyear=1945 |publisher=Dover |location=New York |isbn=0-486-60115-3}}
+* {{Cite book|title=The Theory of Atomic Spectra|author=Condon, E.U. and Shortley, G.H.|year=1935|
+    publisher=Cambridge University Press|isbn=0-521-09209-4}}
+* {{Cite book|title=The Theory of Atomic Structure and Spectra|author=Cowan, Robert D.|year=1981|
+    publisher=University of California Press|isbn=0-520-03821-5}}
+* {{Cite book|title=Atomic Many-Body Theory|author=Lindgren, I. and Morrison, J.|year=1986|
+    edition=Second|publisher=Springer-Verlag|isbn=0-387-16649-1}}
+
+==External links==
+{{Commons category|Atomic physics}}
+* [http://jqi.umd.edu Joint Quantum Institute at University of Maryland and NIST]
+* [http://plasma-gate.weizmann.ac.il/API.html Atomic Physics on the Internet]
+* [http://jila.colorado.edu/research_highlights JILA (Atomic Physics)]
+* [http://www.phy.ornl.gov ORNL Physics Division]
+
+{{Physics-footer}}
+{{DEFAULTSORT:Atomic Physics}}
+[[Category:Atomic physics| ]]
+[[Category:Atomic, molecular, and optical physics]]

@@ -1,0 +1,447 @@
+{{For|the usage in formal language theory|Convolution (computer science)}}
+
+[[File:Comparison convolution correlation.svg|thumb|300px|Visual comparison of convolution, [[cross-correlation]] and [[autocorrelation]].]]
+
+In [[mathematics]] and, in particular, [[functional analysis]], '''convolution''' is a [[operation (mathematics)|mathematical operation]] on two [[function (mathematics)|function]]s ''f'' and ''g'', producing a third function that is typically viewed as a modified version of one of the original functions, giving the area overlap between the two functions as a function of the amount that one of the original functions is [[Translation (geometry)|translated]].  Convolution is similar to [[cross-correlation]].  It has applications that include [[probability]], [[statistics]], [[computer vision]], [[image processing|image]] and [[signal processing]], [[electrical engineering]], and [[differential equations]].
+
+The convolution can be defined for functions on [[group (mathematics)|groups]] other than [[Euclidean space]].  For example, [[periodic function]]s, such as the [[discrete-time Fourier transform]], can be defined on a [[circle]] and convolved by ''periodic convolution''. (See row 10 at [[DTFT#Properties]].)&nbsp; And ''discrete convolution'' can be defined for functions on the set of [[integers]].  Generalizations of convolution have applications in the field of [[numerical analysis]] and [[numerical linear algebra]], and in the design and implementation of [[finite impulse response]] filters in signal processing.
+
+Computing the inverse of the convolution operation is known as [[deconvolution]].
+
+==Definition==
+
+The convolution of ''f'' and ''g'' is written ''f''∗''g'', using an [[asterisk]] or star. It is defined as the integral of the product of the two functions after one is reversed and shifted. As such, it is a particular kind of [[integral transform]]:
+
+:{|
+|<math>(f * g )(t)\ \ \,</math> &nbsp;
+|<math>\stackrel{\mathrm{def}}{=}\ \int_{-\infty}^\infty f(\tau)\, g(t - \tau)\, d\tau</math>
+|-
+|
+|<math>= \int_{-\infty}^\infty f(t-\tau)\, g(\tau)\, d\tau.</math> &nbsp; &nbsp; &nbsp; ([[#Properties|commutativity]])
+|}
+
+While the symbol ''t'' is used above, it need not represent the time domain.  But in that context, the convolution formula can be described as a weighted average of the function ''f''(''τ'') at the moment ''t'' where the weighting is given by ''g''(&minus;''τ'') simply shifted by amount ''t''.  As ''t'' changes, the weighting function emphasizes different parts of the input function.
+
+For the multi-dimensional formulation of convolution, see [[#Domain of definition|Domain of definition]] (below).
+
+=== Derivations ===
+
+Convolution describes the output (in terms of the input) of an important class of operations known as ''linear time-invariant'' (LTI).  See [[LTI_system_theory#Overview|LTI system theory]] for a derivation of convolution as the result of LTI constraints.  In terms of the [[Fourier transforms]] of the input and output of an LTI operation, no new frequency components are created.  The existing ones are only modified (amplitude and/or phase).  In other words, the output transform is the pointwise product of the input transform with a third transform (known as a [[transfer function]]).  See [[Convolution theorem]] for a derivation of that property of convolution.  Conversely, convolution can be derived as the inverse Fourier transform of the pointwise product of two Fourier transforms.
+
+{| class="wikitable"
+|-
+!colspan=2 |'''Visual explanations of convolution'''<br />
+|-
+|
+# Express each function in terms of a [[Free variables and bound variables|dummy variable]] <math>\tau.</math>
+# Reflect one of the functions: <math>g(\tau)</math>→<math>g(-\tau).</math>
+# Add a time-offset, ''t'', which allows <math>g(t-\tau)</math> to slide along the <math>\tau</math>-axis.
+# Start ''t'' at −∞ and slide it all the way to +∞.  Wherever the two functions intersect, find the integral of their product.  In other words, compute a <u>sliding</u>, weighted-average of function <math>f(\tau)</math>, where the weighting function is <math>g(-\tau).</math>
+:The resulting waveform (not shown here) is the convolution of functions ''f'' and ''g''.
+
+:If ''f''(''t'') is a [[unit impulse]], the result of this process is simply ''g''(''t''), which is therefore called the [[impulse response]].  Formally''':'''
+
+::<math>\int_{-\infty}^\infty \delta(\tau)\, g(t - \tau)\, d\tau = g(t)</math>
+|[[File:Convolution3.PNG|right|400px]]
+|-
+|
+:In this example, the red-colored "pulse", <math> g(\tau),</math> is a symmetrical function <math>(\ g(-\tau)=g(\tau)\ ),</math> so convolution is equivalent to correlation.  A snapshot of this "movie" shows functions <math> g(\tau-t)</math> and <math> f(\tau)</math> (in blue) for some value of parameter <math> t,</math> which is arbitrarily defined as the distance from the <math> \tau=0</math> axis to the center of the red pulse.  The amount of yellow is the area of the product <math> f(\tau)\cdot g(\tau-t),</math> computed by the convolution/correlation integral.  The movie is created by continuously changing <math> t</math> and recomputing the integral.  The result (shown in black) is a function of <math> t,</math> but is plotted on the same axis as <math> \tau,</math>&nbsp; for convenience and comparison.
+|[[File:Convolution of box signal with itself2.gif|thumb|right|475px]]
+|-
+|
+:In this depiction, <math>f(\tau)</math> could represent the response of an RC circuit to a narrow pulse that occurs at <math>\tau=0.</math>  In other words, if <math>g(\tau)=\delta(\tau),</math> the result of convolution is just <math>f(t).</math>  But when <math>g(\tau)</math> is the wider pulse (in red), the response is a "smeared" version of <math>f(t).</math>  It begins at &nbsp;<math>t=-0.5,</math> because we defined <math> t</math> as the distance from the <math> \tau=0</math> axis to the <u>center</u> of the wide pulse (instead of the leading edge).
+|[[File:Convolution of spiky function with box2.gif|thumb|right|475px]]
+|}
+
+==Historical developments==
+According to ''Origin and history of convolution'',<ref>Dominguez-Torres, p 2</ref> "Probably one of the first occurrences of the real convolution integral took place in the year 1754 when the mathematician [[Jean-le-Rond D'Alembert]] derived Taylor's expansion theorem on page 50 of Volume 1 of his book 'Recherches sur differents points importants du systeme du monde'".
+
+Also, an expression of the type:
+
+:<math>\int f(u)\cdot g(x-u) du</math>
+
+is used by [[Sylvestre François Lacroix]] on page 505 of his book entitled ''Treatise on differences and series'', which is the last of 3 volumes of the encyclopedic series: ''Traité du calcul différentiel et du calcul intégral'', Chez Courcier, Paris, 1797-1800.<ref>Dominguez-Torres, p 4</ref>  Soon thereafter, convolution operations appear in the works of [[Pierre Simon Laplace]], [[Jean Baptiste Joseph Fourier]], [[Siméon Denis Poisson]], and others.  The term itself did not come into wide use until the 1950s or 60s.  Prior to that it was sometimes known as ''faltung'' (which means ''folding'' in [[German language|German]]), ''composition product'', ''superposition integral'', and ''Carson's integral''.<ref>
+{{Citation
+ | chapter = Early work on imaging theory in radio astronomy
+ | author = R. N. Bracewell
+ | editor = W. T. Sullivan
+ | title = The Early Years of Radio Astronomy: Reflections Fifty Years After Jansky's Discovery
+ | edition = 
+ | publisher = Cambridge University Press
+ | year = 2005
+ | isbn = 978-0-521-61602-7
+ | page = 172
+ | url = http://books.google.com/books?id=v2SqL0zCrwcC&pg=PA172
+ }}</ref>
+Yet it appears as early as 1903, though the definition is rather unfamiliar in older uses.<ref>
+{{Citation
+ | title = The algebra of invariants
+ | author = John Hilton Grace and Alfred Young
+ | publisher = Cambridge University Press
+ | year = 1903
+ | page = 40
+ | url = http://books.google.com/books?id=NIe4AAAAIAAJ&pg=PA40
+ }}</ref><ref>
+{{Citation
+ | title = Algebraic invariants
+ | author = Leonard Eugene Dickson
+ | publisher = J. Wiley
+ | year = 1914
+ | page = 85
+ | url = http://books.google.com/books?id=LRGoAAAAIAAJ&pg=PA85
+ }}</ref>
+
+The operation:
+
+:<math>\int_0^t\varphi(s)\psi(t-s) \, ds, \qquad  0\le t<\infty,</math>
+
+is a particular case of composition products considered by the Italian mathematician [[Vito Volterra]] in 1913.<ref>
+According to
+[Lothar von Wolfersdorf (2000), "Einige Klassen quadratischer Integralgleichungen",
+''Sitzungsberichte der Sächsischen Akademie der Wissenschaften zu Leipzig'',
+''Mathematisch-naturwissenschaftliche Klasse'', volume '''128''', number 2, 6–7], the source is Volterra, Vito (1913),
+"Leçons sur les fonctions de linges". Gauthier-Villars, Paris 1913.</ref>
+
+== Circular convolution ==
+{{Main|Circular convolution}}
+
+When a function ''g''<sub>''T''</sub> is periodic, with period ''T'', then for functions, ''f'', such that ''f''∗''g''<sub>''T''</sub> exists, the convolution is also periodic and identical to:
+
+:<math>(f * g_T)(t) \equiv \int_{t_0}^{t_0+T} \left[\sum_{k=-\infty}^\infty f(\tau + kT)\right] g_T(t - \tau)\, d\tau,</math>
+
+where ''t''<sub>o</sub> is an arbitrary choice.  The summation is called a [[periodic summation]] of the function&nbsp;''f''.
+
+When ''g''<sub>''T''</sub> is a [[periodic summation]] of another function, ''g'', then ''f''∗''g''<sub>''T''</sub> is known as a ''circular'' or ''cyclic'' convolution of ''f'' and ''g''.<br>
+And if the periodic summation above is replaced by ''f''<sub>''T''</sub>, the operation is called a ''periodic'' convolution of ''f''<sub>''T''</sub> and ''g''<sub>''T''</sub>.
+
+==Discrete convolution==
+
+For complex-valued functions ''f'', ''g'' defined on the set '''Z''' of integers, the '''discrete convolution''' of ''f'' and ''g'' is given by:<ref>{{harvnb|Damelin|Miller|2011|p=232}}</ref>
+
+:<math>(f * g)[n]\ \stackrel{\mathrm{def}}{=}\ \sum_{m=-\infty}^\infty f[m]\, g[n - m]</math>
+::::<math>= \sum_{m=-\infty}^\infty f[n-m]\, g[m].</math> &nbsp; &nbsp; &nbsp; ([[#Properties|commutativity]])
+
+The convolution of two finite sequences is defined by extending the sequences to finitely supported functions on the set of integers.  When the sequences are the coefficients of two [[polynomial]]s, then the coefficients of the ordinary product of the two polynomials are the convolution of the original two sequences.  This is known as the [[Cauchy product]] of the coefficients of the sequences.
+
+Thus when ''g'' has finite support in the set <math>\{-M,-M+1,\dots,M-1,M\}</math> (representing, for instance, a [[finite impulse response]]), a finite summation may be used:<ref>{{cite book |last1=Press |first1=William H. |last2=Flannery |first2=Brian P.|last3=Teukolsky |first3=Saul A. |last4=Vetterling |first4=William T. |title= Numerical Recipes in Pascal|edition= |year=1989 |publisher=Cambridge University Press |isbn=0-521-37516-9|page=450}}</ref>
+:<math>(f*g)[n]=\sum_{m=-M}^M f[n-m]g[m].</math>
+
+==Circular discrete convolution==
+
+When a function ''g<sub>N</sub>'' is periodic, with period ''N'', then for functions, ''f'', such that ''f''∗''g<sub>N</sub>'' exists, the convolution is also periodic and identical to:
+
+:<math>(f * g_N)[n] \equiv \sum_{m=0}^{N-1} \left(\sum_{k=-\infty}^\infty {f}[m+kN] \right) g_N[n-m].\,</math>
+
+The summation on ''k'' is called a [[periodic summation]] of the function ''f''.
+
+If ''g<sub>N</sub>'' is a [[periodic summation]] of another function, ''g'', then ''f''∗''g<sub>N</sub>'' is known as a [[circular convolution]] of ''f'' and ''g''.
+
+When the non-zero durations of both ''f'' and ''g'' are limited to the interval [0,&nbsp;''N''&nbsp;−&nbsp;1], ''f''∗''g<sub>N</sub>'' reduces to these common forms:
+
+{{NumBlk|:|<math>\begin{align}
+(f * g_N)[n] &= \sum_{m=0}^{N-1} f[m]\ g_N[n-m]\\
+             &= \sum_{m=0}^n f[m]\ g[n-m] + \sum_{m\,=\,n+1}^{N-1} f[m]\ g[N+n-m]\\
+             &= \sum_{m=0}^{N-1} f[m]\ g[(n-m)_{\bmod{N}}] \equiv (f *_N g)[n]
+\end{align}</math>|{{EquationRef|Eq.1}}}}
+
+The notation (''f'' ∗<sub>''N''</sub> ''g'') for ''cyclic convolution'' denotes convolution over the [[cyclic group]] of [[modular arithmetic|integers modulo ''N'']].
+
+Circular convolution arises most often in the context of fast convolution with an [[Fast Fourier transform|FFT]] algorithm.
+
+===Fast convolution algorithms===
+
+In many situations, discrete convolutions can be converted to circular convolutions so that fast transforms with a convolution property can be used to implement the computation.  For example, convolution of digit sequences is the kernel operation in [[multiplication]] of multi-digit numbers, which can therefore be efficiently implemented with transform techniques ({{harvnb|Knuth|1997|loc=§4.3.3.C}}; {{harvnb|von zur Gathen|Gerhard|2003|loc=§8.2}}).
+
+{{EquationNote|Eq.1}} requires ''N'' arithmetic operations per output value and ''N''<sup>2</sup> operations for ''N'' outputs.  That can be significantly reduced with any of several fast algorithms.  [[Digital signal processing]] and other applications typically use fast convolution algorithms to reduce the cost of the convolution to O(''N''&nbsp;log&nbsp;''N'') complexity.
+
+The most common fast convolution algorithms use [[fast Fourier transform]] (FFT) algorithms via the [[Discrete Fourier transform#Circular convolution theorem and cross-correlation theorem|circular convolution theorem]]. Specifically, the [[circular convolution]] of two finite-length sequences is found by taking an FFT of each sequence, multiplying pointwise, and then performing an inverse FFT.  Convolutions of the type defined above are then efficiently implemented using that technique in conjunction with zero-extension and/or discarding portions of the output.  Other fast convolution algorithms, such as the [[Schönhage–Strassen algorithm]] or the Mersenne transform,<ref name=Rader1972>{{cite journal|last=Rader|first=C.M.|title=Discrete Convolutions via Mersenne Transforms|journal=IEEE Transactions on Computers|date=December|year=1972|volume=21|issue=12|pages=1269–1273|doi=10.1109/T-C.1972.223497|url=http://doi.ieeecomputersociety.org/10.1109/T-C.1972.223497|accessdate=17 May 2013}}</ref> use fast Fourier transforms in other [[ring (mathematics)|ring]]s.
+
+If one sequence is much longer than the other, zero-extension of the shorter sequence and fast circular convolution is not the most computationally efficient method available.<ref name=Madisetti1999>{{cite book|last=Madisetti|first=Vijay K.|title="Fast Convolution and Filtering" in the "Digital Signal Processing Handbook"|year=1999|publisher=CRC Press LLC|isbn=9781420045635|page=Section 8|url=ftp://idc18.seu.edu.cn/Pub2/EBooks/Books_from_EngnetBase/pdf/2135/08.PDF}}</ref> Instead, decomposing the longer sequence into blocks and convolving each block allows for faster algorithms such as the [[Overlap–save method]] and [[Overlap–add method]].<ref name=Juang2004>{{cite web|last=Juang|first=B.H.|title=Lecture 21:  Block Convolution|url=http://users.ece.gatech.edu/~juang/4270/BHJ4270-21.pdf|publisher=EECS at the Georgia Institute of Technology|accessdate=17 May 2013}}</ref> A hybrid convolution method that combines block and FIR algorithms allows for a zero input-output latency that is useful for real-time convolution computations.<ref name=Gardner1994>{{cite journal|last=Gardner|first=William G.|title=Efficient Convolution without Input/Output Delay|journal=Audio Engineering Society Convention 97|year=1994|month=November|series=Paper 3897|url=http://www.cs.ust.hk/mjg_lib/bibs/DPSu/DPSu.Files/Ga95.PDF|accessdate=17 May 2013}}</ref>
+
+==Domain of definition==
+
+The convolution of two complex-valued functions on '''R'''<sup>''d''</sup>, defined by:
+
+:<math>(f * g )(x) = \int_{\mathbf{R}^d} f(y)g(x-y)\,dy = \int_{\mathbf{R}^d} f(x-y)g(y)\,dy,</math>
+
+is well-defined only if ''f'' and ''g'' decay sufficiently rapidly at infinity in order for the integral to exist.  Conditions for the existence of the convolution may be tricky, since a blow-up in ''g'' at infinity can be easily offset by sufficiently rapid decay in ''f''.  The question of existence thus may involve different conditions on ''f'' and ''g'':
+
+===Compactly supported functions===
+If ''f'' and ''g'' are [[compact support|compactly supported]] [[continuous function]]s, then their convolution exists, and is also compactly supported and continuous {{harv|Hörmander|1983|loc=Chapter 1}}. More generally, if either function (say ''f'') is compactly supported and the other is [[locally integrable function|locally integrable]], then the convolution ''f''∗''g'' is well-defined and continuous.
+
+Convolution of ''f'' and ''g'' is also well defined when both functions are locally square integrable on '''R''' and supported on an interval of the form [a,&nbsp;+&infin;) (or both supported on [-&infin;,&nbsp;a]).
+
+===Integrable functions===
+The convolution of ''f'' and ''g'' exists if ''f'' and ''g'' are both [[Lebesgue integral|Lebesgue integrable functions]] in [[Lp space|L<sup>1</sup>('''R'''<sup>''d''</sup>)]], and in this case ''f''∗''g'' is also integrable {{harv|Stein|Weiss|1971|loc=Theorem 1.3}}.  This is a consequence of [[Fubini's theorem#Tonelli's theorem|Tonelli's theorem]].  This is also true for functions in <math>\ell^1</math>, under the discrete convolution, or more generally for the [[#Convolution on groups|convolution on any group]].
+
+Likewise, if ''f''&nbsp;∈&nbsp;''L''<sup>1</sup>('''R'''<sup>''d''</sup>) and ''g''&nbsp;∈&nbsp;''L''<sup>''p''</sup>('''R'''<sup>''d''</sup>) where 1&nbsp;≤&nbsp;''p''&nbsp;≤&nbsp;∞, then ''f''∗''g''&nbsp;∈&nbsp;''L''<sup>''p''</sup>('''R'''<sup>''d''</sup>) and
+
+:<math>\|{f}*g\|_p\le \|f\|_1\|g\|_p. \,</math>
+
+In the particular case ''p''&nbsp;= 1, this shows that ''L''<sup>1</sup> is a [[Banach algebra]] under the convolution (and equality of the two sides holds if ''f'' and ''g'' are non-negative almost everywhere).
+
+More generally, [[Young's inequality#Young's inequality for convolutions|Young's inequality]] implies that the convolution is a continuous bilinear map between suitable ''L''<sup>''p''</sup> spaces.  Specifically, if 1&nbsp;≤&nbsp;''p'',''q'',''r''&nbsp;≤&nbsp;∞ satisfy
+
+:<math>\frac{1}{p}+\frac{1}{q}=\frac{1}{r}+1,</math>
+
+then
+
+:<math>\|f*g\|_r\le \|f\|_p\|g\|_q,\quad f\in L^p,\ g\in L^q,</math>
+
+so that the convolution is a continuous bilinear mapping from ''L''<sup>''p''</sup>&times;''L''<sup>''q''</sup> to ''L''<sup>''r''</sup>.
+The Young inequality for convolution is also true in other contexts (circle group, convolution on '''Z'''). The preceding inequality is not sharp on the real line: when {{nowrap| 1 &lt; ''p'', ''q'', ''r'' &lt; &infin;}}, there exists a constant {{nowrap|''B''<sub>''p'', ''q''</sub> &lt; 1}} such that the ''L''<sup>''r''</sup>('''R''') norm of {{nowrap|''f'' ∗ ''g''}} is bounded by {{nowrap|''B''<sub>''p'', ''q''</sub>}} times the product of norms ||''f''||<sub>''p''</sub>&nbsp;||''g''||<sub>''q''</sub>. The optimal value of {{nowrap|''B''<sub>''p'', ''q''</sub>}} was discovered in 1975.<ref>
+[[William Beckner (mathematician)|Beckner, William]] (1975), "Inequalities in Fourier analysis", Ann. of Math. (2) '''102''': 159&ndash;182. Independently, Brascamp, Herm J. and [[Elliott H. Lieb|Lieb, Elliott H.]] (1976), "Best constants in Young's inequality, its converse, and its generalization to more than three functions", Advances in Math. '''20''': 151&ndash;173. See [[Brascamp–Lieb inequality]]</ref>
+
+A stronger estimate is true provided {{nowrap| 1 &lt; ''p'', ''q'', ''r'' &lt; &infin;&thinsp;}}:
+:<math>\|f*g\|_r\le C_{p,q}\|f\|_p\|g\|_{q,w}</math>
+where <math>\|g\|_{q,w}</math> is the [[Lp space#Weak Lp|weak ''L<sup>q</sup>'']] norm.  Convolution also defines a bilinear continuous map <math>L^{p,w}\times L^{q.w}\to L^{r,w}</math> for <math>1< p,q,r<\infty</math>, owing to the weak Young inequality:<ref>{{harvnb|Reed|Simon|1975|loc=IX.4}}</ref>
+:<math>\|f*g\|_{r,w}\le C_{p,q}\|f\|_{p,w}\|g\|_{r,w}.</math>
+
+===Functions of rapid decay===
+In addition to compactly supported functions and integrable functions, functions that have sufficiently rapid decay at infinity can also be convolved.  An important feature of the convolution is that if ''f'' and ''g'' both decay rapidly, then ''f''∗''g'' also decays rapidly.  In particular, if ''f'' and ''g'' are [[rapidly decreasing function]]s, then so is the convolution ''f''∗''g''.  Combined with the fact that convolution commutes with differentiation (see '''Properties'''), it follows that the class of [[Schwartz function]]s is closed under convolution {{harv|Stein|Weiss|1971|loc=Theorem 3.3}}.
+
+===Distributions===
+{{Main|Distribution (mathematics)}}
+Under some circumstances, it is possible to define the convolution of a function with a distribution, or of two distributions.  If ''f'' is a compactly supported function and ''g'' is a distribution, then ''f''∗''g'' is a smooth function defined by a distributional formula analogous to
+
+:<math>\int_{\mathbf{R}^d} {f}(y)g(x-y)\,dy.</math>
+
+More generally, it is possible to extend the definition of the convolution in a unique way so that the associative law
+
+:<math>f*(g*\varphi) = (f*g)*\varphi\,</math>
+
+remains valid in the case where ''f'' is a distribution, and ''g'' a compactly supported distribution {{harv|Hörmander|1983|loc=§4.2}}.
+
+===Measures===
+
+The convolution of any two [[Borel measure]]s μ and ν of [[bounded variation]] is the measure λ defined by {{harv|Rudin|1962}}
+:<math>\int_{\mathbf{R}^d} f(x)d\lambda(x) = \int_{\mathbf{R}^d}\int_{\mathbf{R}^d}f(x+y)\,d\mu(x)\,d\nu(y).</math>
+This agrees with the convolution defined above when μ and ν are regarded as distributions, as well as the convolution of L<sup>1</sup> functions when μ and ν are absolutely continuous with respect to the Lebesgue measure.
+
+The convolution of measures also satisfies the following version of Young's inequality
+:<math>\|\mu*\nu\|\le \|\mu\|\|\nu\| \, </math>
+where the norm is the [[total variation]] of a measure.  Because the space of measures of bounded variation is a [[Banach space]], convolution of measures can be treated with standard methods of [[functional analysis]] that may not apply for the convolution of distributions.
+
+==Properties==
+
+===Algebraic properties===
+{{See also|Convolution algebra}}
+The convolution defines a product on the [[linear space]] of integrable functions.  This product satisfies the following algebraic properties, which formally mean that the space of integrable functions with the product given by convolution is a [[commutative algebra]] without [[identity element|identity]] {{harv|Strichartz|1994|loc=§3.3}}.  Other linear spaces of functions, such as the space of continuous functions of compact support, are [[closure (mathematics)|closed]] under the convolution, and so also form commutative algebras.
+
+;[[Commutativity]]
+: <math>f * g = g * f  \,</math>
+
+;[[Associativity]]
+: <math>f  * (g  * h) = (f  * g)  * h \,</math>
+
+;[[Distributivity]]
+: <math>f  * (g + h) = (f  * g) + (f  * h) \,</math>
+
+;Associativity with scalar multiplication
+: <math>a (f  * g) = (a f)  * g \,</math>
+for any real (or complex) number <math>{a}\,</math>.
+
+;[[Multiplicative identity]]
+No algebra of functions possesses an identity for the convolution.  The lack of identity is typically not a major inconvenience, since most collections of functions on which the convolution is performed can be convolved with a [[Dirac delta|delta distribution]] or, at the very least (as is the case of ''L''<sup>1</sup>) admit [[Nascent delta function|approximations to the identity]].  The linear space of compactly supported distributions does, however, admit an identity under the convolution.  Specifically,
+:<math>f*\delta = f\,</math>
+where δ is the delta distribution.
+
+;Inverse element
+
+Some distributions have an [[inverse element]] for the convolution, ''S''<sup>(&minus;1)</sup>, which is defined by
+: <math>S^{(-1)} * S = \delta. \,</math>
+The set of invertible distributions forms an [[abelian group]] under the convolution.
+
+;Complex conjugation
+
+: <math>\overline{f * g} = \overline{f} * \overline{g} \!\ </math>
+
+===Integration===
+If ''f'' and ''g'' are integrable functions, then the integral of their convolution on the whole space is simply obtained as the product of their integrals:
+
+:<math>\int_{\mathbf{R}^d}(f*g)(x) \, dx=\left(\int_{\mathbf{R}^d}f(x) \, dx\right)\left(\int_{\mathbf{R}^d}g(x) \, dx\right).</math>
+
+This follows from [[Fubini's theorem]].  The same result holds if ''f'' and ''g'' are only assumed to be nonnegative measurable functions, by [[Fubini's theorem#Tonelli's theorem|Tonelli's theorem]].
+
+===Differentiation===
+In the one-variable case,
+
+: <math>\frac{d}{dx}(f * g) = \frac{df}{dx}  * g = f * \frac{dg}{dx} \,</math>
+
+where ''d''/''dx'' is the [[derivative]].  More generally, in the case of functions of several variables, an analogous formula holds with the [[partial derivative]]:
+
+:<math>\frac{\partial}{\partial x_i}(f * g) = \frac{\partial f}{\partial x_i} * g = f * \frac{\partial g}{\partial x_i}.</math>
+
+A particular consequence of this is that the convolution can be viewed as a "smoothing" operation: the convolution of ''f'' and ''g'' is differentiable as many times as ''f'' and ''g'' are in total.
+
+These identities hold under the precise condition that ''f'' and ''g'' are absolutely integrable and at least one of them has an absolutely integrable (L<sup>1</sup>) weak derivative, as a consequence of [[Young's inequality]].  For instance, when ''f'' is continuously differentiable with compact support, and ''g'' is an arbitrary locally integrable function,
+:<math>\frac{d}{dx}({f} * g) = \frac{df}{dx}  * g.</math>
+These identities also hold much more broadly in the sense of tempered distributions if one of ''f'' or ''g'' is a compactly supported distribution or a Schwartz function and the other is a tempered distribution. On the other hand, two positive integrable and infinitely differentiable functions may have a nowhere continuous convolution.
+
+In the discrete case, the [[difference operator]] ''D''&nbsp;''f''(''n'')&nbsp;=&nbsp;''f''(''n''&nbsp;+&nbsp;1)&nbsp;&minus;&nbsp;''f''(''n'') satisfies an analogous relationship:
+
+:<math>D(f*g) = (Df)*g = f*(Dg).\,</math>
+
+===Convolution theorem===
+The [[convolution theorem]] states that
+
+:<math> \mathcal{F}\{f * g\} = k\cdot \mathcal{F}\{f\}\cdot \mathcal{F}\{g\}</math>
+
+where <math> \mathcal{F}\{f\}\,</math> denotes the [[Fourier transform]] of <math>f</math>, and <math>k</math> is a constant that depends on the specific [[Normalizing constant|normalization]] of the Fourier transform (see “[[Fourier transform#Properties of the Fourier transform|Properties of the Fourier transform]]”). Versions of this theorem also hold for the [[Laplace transform]], [[two-sided Laplace transform]], [[Z-transform]] and [[Mellin transform]].
+
+See also the less trivial [[Titchmarsh convolution theorem]].
+
+===Translation invariance===
+The convolution commutes with translations, meaning that
+
+:<math>\tau_x ({f}*g) = (\tau_x f)*g = {f}*(\tau_x g)\,</math>
+
+where τ<sub>''x''</sub>f is the translation of the function ''f'' by ''x'' defined by
+
+:<math>(\tau_x f)(y) = f(y-x).\,</math>
+
+If ''f'' is a [[Schwartz function]], then τ<sub>''x''</sub>''f'' is the convolution with a translated Dirac delta function τ<sub>''x''</sub>''f''&nbsp;=&nbsp;''f''∗''τ''<sub>''x''</sub>&nbsp;''δ''. So translation invariance of the convolution of Schwartz functions is a consequence of the associativity of convolution.
+
+Furthermore, under certain conditions, convolution is the most general translation invariant operation.  Informally speaking, the following holds
+
+* Suppose that ''S'' is a [[linear operator]] acting on functions which commutes with translations:  ''S''(τ<sub>''x''</sub>''f'')&nbsp;=&nbsp;τ<sub>''x''</sub>(''Sf'') for all ''x''.  Then ''S'' is given as convolution with a function (or distribution) ''g''<sub>''S''</sub>; that is  ''Sf''&nbsp;=&nbsp;''g''<sub>''S''</sub>∗''f''.
+
+Thus any translation invariant operation can be represented as a convolution.  Convolutions play an important role in the study of [[time-invariant system]]s, and especially [[LTI system theory]].  The representing function ''g''<sub>''S''</sub> is the [[impulse response]] of the transformation&nbsp;''S''.
+
+A more precise version of the theorem quoted above requires specifying the class of functions on which the convolution is defined, and also requires assuming in addition that ''S'' must be a [[continuous linear operator]] with respect to the appropriate [[topology]].  It is known, for instance, that every continuous translation invariant continuous linear operator on ''L''<sup>1</sup> is the convolution with a finite [[Borel measure]].  More generally, every continuous translation invariant continuous linear operator on ''L''<sup>''p''</sup> for 1&nbsp;≤&nbsp;''p''&nbsp;<&nbsp;∞ is the convolution with a [[Distribution (mathematics)#Tempered distributions and Fourier transform|tempered distribution]] whose [[Fourier transform]] is bounded.  To wit, they are all given by bounded [[Fourier multiplier]]s.
+
+==Convolutions on groups==
+If ''G'' is a suitable [[group (mathematics)|group]] endowed with a [[measure (mathematics)|measure]] λ, and if ''f'' and ''g'' are real or complex valued [[Lebesgue integral|integrable]] functions on&nbsp;''G'', then we can define their convolution by
+
+:<math>(f * g)(x) = \int_G f(y) g(y^{-1}x)\,d\lambda(y). \,</math>
+
+In typical cases of interest ''G'' is a [[locally compact]] [[Hausdorff space|Hausdorff]] [[topological group]] and λ is a (left-) [[Haar measure]].  In that case, unless ''G'' is [[unimodular group|unimodular]], the convolution defined in this way is not the same as <math>\textstyle{\int f(xy^{-1})g(y) \, d\lambda(y)}</math>.  The preference of one over the other is made so that convolution with a fixed function ''g'' commutes with left translation in the group:
+
+:<math>L_h(f*g) = (L_hf)*g.</math>
+
+Furthermore, the convention is also required for consistency with the definition of the convolution of measures given below.  However, with a right instead of a left Haar measure, the latter integral is preferred over the former.
+
+On locally compact [[abelian group]]s, a version of the [[convolution theorem]] holds: the Fourier transform of a convolution is the pointwise product of the Fourier transforms. The [[circle group]] '''T''' with the Lebesgue measure is an immediate example.  For a fixed ''g'' in ''L''<sup>1</sup>('''T'''), we have the following familiar operator acting on the [[Hilbert space]] ''L''<sup>2</sup>('''T'''):
+
+:<math>T {f}(x) =  \frac{1}{2 \pi} \int_{\mathbf{T}} {f}(y) g( x - y) \, dy.</math>
+
+The operator ''T'' is [[compact operator on Hilbert space|compact]]. A direct calculation shows that its adjoint ''T*'' is convolution with
+
+:<math>\bar{g}(-y). \, </math>
+
+By the commutativity property cited above, ''T'' is [[normal operator|normal]]: ''T''*''T'' = ''TT''*. Also, ''T'' commutes with the translation operators.  Consider the family ''S'' of operators consisting of all such convolutions and the translation operators.  Then ''S'' is a commuting family of normal operators. According to [[compact operator on Hilbert space|spectral theory]], there exists an orthonormal basis {''h<sub>k</sub>''} that simultaneously diagonalizes ''S''. This characterizes convolutions on the circle. Specifically, we have
+
+:<math>h_k (x) = e^{ikx}, \quad k \in \mathbb{Z},\;</math>
+
+which are precisely the [[Character (mathematics)|character]]s of&nbsp;'''T'''.  Each convolution is a compact [[multiplication operator]] in this basis.  This can be viewed as a version of the convolution theorem discussed above.
+
+A discrete example is a finite [[cyclic group]] of order&nbsp;''n''.  Convolution operators are here represented by [[circulant matrices]], and can be diagonalized by the [[discrete Fourier transform]].
+
+A similar result holds for compact groups (not necessarily abelian): the matrix coefficients of finite-dimensional [[unitary representation]]s form an orthonormal basis in ''L''<sup>2</sup> by the [[Peter–Weyl theorem]], and an analog of the convolution theorem continues to hold, along with many other aspects of [[harmonic analysis]] that depend on the Fourier transform.
+
+==Convolution of measures==
+Let ''G'' be a topological group.
+If μ and ν are finite [[Borel measure]]s on ''G'', then their convolution μ∗ν is defined by
+<!--PLEASE READ THIS BEFORE EDITING:
+
+Groups are written multiplicatively, so please don't change this from multiplication in the group to "+".-->:<math>(\mu * \nu)(E) = \int\!\!\!\int 1_E(xy) \,d\mu(x) \,d\nu(y)</math>
+
+for each measurable subset ''E'' of ''G''.  The convolution is also a finite measure, whose [[total variation]] satisfies
+:<math>\|\mu * \nu\| \le \|\mu\| \|\nu\|. \, </math>
+
+In the case when ''G'' is [[locally compact]] with (left-)[[Haar measure]] λ, and μ and ν are [[absolute continuity|absolutely continuous]] with respect to a λ, [[Radon–Nikodym theorem|so that each has a density function]], then the convolution μ∗ν is also absolutely continuous, and its density function is just the convolution of the two separate density functions.
+
+If μ and ν are [[probability measure]]s on the topological group  {{nowrap|('''R''',+),}} then the convolution μ∗ν is the [[probability distribution]] of the sum ''X''&nbsp;+&nbsp;''Y'' of two [[statistical independence|independent]] [[random variable]]s ''X'' and ''Y'' whose respective distributions are μ and ν.
+
+==Bialgebras==
+Let (''X'',&nbsp;Δ,&nbsp;∇,&nbsp;''ε'',&nbsp;''η'') be a [[bialgebra]] with comultiplication Δ, multiplication ∇, unit η, and counit ε.  The convolution is a product defined on the [[endomorphism algebra]] End(''X'') as follows.  Let φ, ψ&nbsp;∈&nbsp;End(''X''), that is, φ,ψ&nbsp;:&nbsp;''X''&nbsp;→&nbsp;''X'' are functions that respect all algebraic structure of ''X'', then the convolution φ∗ψ is defined as the composition
+
+:<math>X \xrightarrow{\Delta} X\otimes X \xrightarrow{\phi\otimes\psi} X\otimes X \xrightarrow{\nabla} X. \, </math>
+
+The convolution appears notably in the definition of [[Hopf algebra]]s {{harv|Kassel|1995|loc=§III.3}}.  A bialgebra is a Hopf algebra if and only if it has an antipode: an endomorphism ''S'' such that
+:<math>S * \operatorname{id}_X = \operatorname{id}_X * S = \eta\circ\varepsilon.</math>
+
+==Applications==
+[[File:Halftone, Gaussian Blur.jpg|thumb|right|[[Gaussian blur]] can be used in order to obtain a smooth grayscale digital image of a [[halftone]] print]]
+Convolution and related operations are found in many applications in science, engineering and mathematics.
+* In image processing
+{{See also|digital signal processing}}
+::In [[digital image processing]] convolutional filtering plays an important role in many important [[algorithm]]s in [[edge detection]] and related processes.
+::In [[optics]], an out-of-focus photograph is a convolution of the sharp image with a lens function. The photographic term for this is [[bokeh]].
+::In [[image processing]] applications such as adding blurring.
+*In digital data processing
+:{{main|Savitzky–Golay smoothing filter|Numerical smoothing and differentiation}}
+::In [[analytical chemistry]], Savitzky–Golay filters are used for the analysis of spectroscopic data. They can improve [[signal-to-noise ratio]] with minimal distortion of the spectra.<!-- <ref name=Scafer2011>{{cite journal|last=Schafer|first=Ronald W.|title=What Is a Savitzky–Golay Filter?|journal=Signal Processing Magazine, IEEE|year=2011|month=July|volume=28|issue=4|pages=111-117|doi=10.1109/MSP.2011.941097|url=http://www-inst.eecs.berkeley.edu/~ee123/fa12/docs/SGFilter.pdf|accessdate=18 May 2013}}</ref> -->
+:: In [[statistics]], a weighted [[moving average model|moving average]] is a convolution.
+*In [[acoustics]], [[reverberation]] is the convolution of the original sound with [[echo (phenomenon)|echos]] from objects surrounding the sound source.
+:: In [[digital signal processing]], convolution is used to map the [[impulse response]] of a real room on a digital audio signal.
+:: In [[electronic music]] convolution is the imposition of a [[Spectrum|spectral]] or rhythmic structure on a sound. Often this envelope or structure is taken from another sound. The convolution of two signals is the filtering of one through the other.<ref>Zölzer, Udo, ed. (2002). ''DAFX:Digital Audio Effects'', p.48–49. ISBN 0471490784.</ref>
+*In [[electrical engineering]], the convolution of one function (the [[Signal (electrical engineering)|input signal]]) with a second function (the [[impulse response]]) gives the output of a [[linear time-invariant system]] (LTI).  At any given moment, the output is an accumulated effect of all the prior values of the input function, with the most recent values typically having the most influence (expressed as a multiplicative factor).  The impulse response function provides that factor as a function of the elapsed time since each input value occurred.
+* In [[physics]], wherever there is a [[linear system]] with a "[[superposition principle]]", a convolution operation makes an appearance. For instance, in [[spectroscopy]] line broadening due to the Doppler effect on its own gives a [[Normal distribution|Gaussian]] [[spectral line shape]] and collision broadening alone gives a [[Cauchy distribution|Lorentzian]] line shape. When both effects are operative, the line shape is a convolution of Gaussian and Lorentzian, a [[Voigt function]].
+:: In [[Time-resolved spectroscopy|Time-resolved fluorescence spectroscopy]], the excitation signal can be treated as a chain of delta pulses, and the measured fluorescence is a sum of exponential decays from each delta pulse.
+:: In [[computational fluid dynamics]], the [[large eddy simulation]] (LES) [[turbulence model]] uses the convolution operation to lower the range of length scales necessary in computation thereby reducing computational cost.
+* In [[probability theory]], the [[probability distribution]] of the sum of two [[independent (probability)|independent]] [[random variable]]s is the convolution of their individual distributions.
+:: In [[kernel density estimation]], a distribution is estimated from sample points by convolution with a kernel, such as an isotropic Gaussian. {{harv|Diggle|1995}}.
+* In radiotherapy treatment planning systems, most part of all modern codes of calculation applies a convolution-superposition algorithm..{{Clarify|date=May 2013}}
+
+==See also==
+*[[Analog signal processing]]
+*[[Circulant matrix]]
+*[[Convolution for optical broad-beam responses in scattering media]]
+*[[Convolution power]]
+*[[Cross-correlation]]
+*[[Deconvolution]]
+*[[Dirichlet convolution]]
+*[[Jan Mikusinski]]
+*[[List of convolutions of probability distributions]]
+*[[LTI system theory#Impulse response and convolution]]
+*[[Scaled correlation]]
+*[[Titchmarsh convolution theorem]]
+*[[Toeplitz matrix]] (convolutions can be considered a Toeplitz matrix operation where each row is a shifted copy of the convolution kernel)
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{citation | author=Bracewell, R.| title=The Fourier Transform and Its Applications| edition=2nd |
+publisher=McGraw–Hill | year=1986 | isbn=0-07-116043-4}}.
+* {{citation|last1=Damelin|first1=S.|last2=Miller|first2=W.|title=The Mathematics of Signal Processing|publisher=Cambridge University Press| isbn=978-1107601048 | year=2011}}
+* {{citation|last=Diggle|first=P. J. |title=A kernel method for smoothing point process data|journal=Journal of the Royal Statistical Society, Series C  | volume = 34 | pages = 138–147}}
+* Dominguez-Torres, Alejandro (Nov 2, 2010). "Origin and history of convolution". 41 pgs. http://www.slideshare.net/Alexdfar/origin-adn-history-of-convolution. Cranfield, Bedford MK43 OAL, UK. Retrieved Mar 13, 2013.
+*{{Citation | last1=Hewitt | first1=Edwin | last2=Ross | first2=Kenneth A. | title=Abstract harmonic analysis. Vol. I | publisher=[[Springer-Verlag]] | location=Berlin, New York | edition=2nd | series=Grundlehren der Mathematischen Wissenschaften [Fundamental Principles of Mathematical Sciences] | isbn=978-3-540-09434-0 | mr=551496 | year=1979 | volume=115}}.
+*{{Citation | last1=Hewitt | first1=Edwin | last2=Ross | first2=Kenneth A. | title=Abstract harmonic analysis. Vol. II: Structure and analysis for compact groups. Analysis on locally compact Abelian groups | publisher=[[Springer-Verlag]] | location=Berlin, New York | series=Die Grundlehren der mathematischen Wissenschaften, Band 152 | mr=0262773 | year=1970}}.
+* {{citation|mr=0717035|first=L.|last= Hörmander|authorlink=Lars Hörmander|title=The analysis of linear partial differential operators I|series= Grundl. Math. Wissenschaft. |volume= 256 |publisher= Springer  |year=1983|isbn=3-540-12104-8 }}.
+* {{Citation | last1=Kassel | first1=Christian | title=Quantum groups | publisher=[[Springer-Verlag]] | location=Berlin, New York | series=Graduate Texts in Mathematics | isbn=978-0-387-94370-1 | mr=1321145 | year=1995 | volume=155}}.
+* {{citation|first=Donald|last=Knuth|authorlink=Donald Knuth|title=Seminumerical Algorithms|edition=3rd.|publication-place=Reading, Massachusetts|publisher=Addison–Wesley|year=1997|isbn=0-201-89684-2}}.
+*{{citation |last=Reed|first= Michael|last2= Simon|first2= Barry|author2-link=Barry Simon |title=Methods of modern mathematical physics. II. Fourier analysis, self-adjointness |publisher=Academic Press Harcourt Brace Jovanovich, Publishers|publication-place=New York-London|year= 1975|pages= xv+361|isbn =0-12-585002-6|mr=0493420}}
+* {{Citation | last1=Rudin | first1=Walter | author1-link=Walter Rudin | title=Fourier analysis on groups | publisher=Interscience Publishers (a division of John Wiley and Sons), New York–London | series=Interscience Tracts in Pure and Applied Mathematics, No. 12 | mr=0152834 | year=1962 | isbn=0-471-52364-X}}.
+* {{springer|id=C/c026430|title=Convolution of functions|year=2001|first=V.I.|last=Sobolev}}.
+* {{citation|first1=Elias|last1=Stein|authorlink1=Elias Stein|first2=Guido|last2=Weiss|title=Introduction to Fourier Analysis on Euclidean Spaces|publisher=Princeton University Press|year=1971|isbn=0-691-08078-X}}.
+* {{citation|first=R.|last=Strichartz|year=1994|title=A Guide to Distribution Theory and Fourier Transforms|publisher=CRC Press|isbn=0-8493-8273-4}}.
+* {{citation|last=Titchmarsh|first=E|authorlink=Edward Charles Titchmarsh|title=Introduction to the theory of Fourier integrals|isbn=978-0-8284-0324-5|year=1948|edition=2nd|publication-date=1986|publisher=Chelsea Pub. Co.|location=New York, N.Y.}}.
+* {{citation|last=Uludag|first=A. M. |authorlink=A. Muhammed Uludag|title=On possible deterioration of smoothness under the operation of convolution|journal=J. Math. Anal. Appl. 227 no. 2, 335–358|year=1998}}
+*{{citation|first=François|last=Treves|title=Topological Vector Spaces, Distributions and Kernels|publisher=Academic Press|year=1967|isbn=0-486-45352-9}}.
+*{{citation|first1=J.|last1=von zur Gathen|first2=J.|last2=Gerhard|title=Modern Computer Algebra|isbn=0-521-82646-2|year=2003|publisher=Cambridge University Press}}.
+
+==External links==
+{{Wiktionary|convolution}}
+{{Commons category|Convolution}}
+* [http://jeff560.tripod.com/c.html Earliest Uses: The entry on Convolution has some historical information.]
+*[http://rkb.home.cern.ch/rkb/AN16pp/node38.html#SECTION000380000000000000000 Convolution], on [http://rkb.home.cern.ch/rkb/titleA.html The Data Analysis BriefBook]
+* http://www.jhu.edu/~signals/convolve/index.html Visual convolution Java Applet
+* http://www.jhu.edu/~signals/discreteconv2/index.html Visual convolution Java Applet for discrete-time functions
+*[http://www.archive.org/details/Lectures_on_Image_Processing Lectures on Image Processing: A collection of 18 lectures in pdf format from Vanderbilt University. Lecture 7 is on 2-D convolution.], by Alan Peters
+** http://archive.org/details/Lectures_on_Image_Processing
+* [http://micro.magnet.fsu.edu/primer/java/digitalimaging/processing/kernelmaskoperation/ Convolution Kernel Mask Operation Interactive tutorial]
+* [http://mathworld.wolfram.com/Convolution.html Convolution] at [[MathWorld]]
+* [http://freeverb3.sourceforge.net/ Freeverb3 Impulse Response Processor]: Opensource zero latency impulse response processor with VST plugins
+* Stanford University CS 178 [http://graphics.stanford.edu/courses/cs178/applets/convolution.html interactive Flash demo ] showing how spatial convolution works.
+* [http://www.youtube.com/watch?v=IW4Reburjpc A video lecture on the subject of convolution] given by [[Salman Khan (educator)|Salman Khan]]
+* [http://www.onmyphd.com/?p=convolution A Javascript interactive plot of the convolution with several functions]
+
+[[Category:Functional analysis]]
+[[Category:Image processing]]
+[[Category:Binary operations]]
+[[Category:Fourier analysis]]
+[[Category:Bilinear operators]]
+[[Category:Feature detection]]

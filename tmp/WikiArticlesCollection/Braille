@@ -1,0 +1,434 @@
+{{About|the writing system used by the blind and the visually impaired}}
+{{Infobox writing system
+| name = ''' Braille'''
+| altname = {{Braille cell|type=6dot|b|r|a|i|l|l|e|size=20px}}
+| type = [[Alphabet]]
+| typedesc = ([[non-linear writing|non-linear]])
+| time = 1824 to the present
+| languages = Several
+| fam1 = [[Night writing]]
+| fam2 = [[1829 braille|Early braille]]
+| sisters = [[New York Point]]
+| children = [[French Braille]]<br>[[English Braille]]<br>[[Bharati Braille]]<br>[[Mainland Chinese Braille|Chinese Braille]]<br>[[Japanese Braille]]<br>[[Korean Braille]]<br>''etc.''
+| creator = [[Louis Braille]]
+| sample = Braille closeup.jpg
+| imagesize = 312px
+| unicode = [http://www.unicode.org/charts/PDF/U2800.pdf U+2800 to U+28FF]
+| iso15924 = Brai
+| note = none
+}}
+{{BrailleChars}}
+{{Spoken Wikipedia|En-Braille-article.ogg|2006-09-06}}
+
+'''Braille''' {{IPAc-en|ˈ|b|r|eɪ|l}}{{efn|"Braille" is not a proper noun and is preferably not capitalized when not part of a proper name.<ref>{{cite web |url=http://www.brailleauthority.org/capitalization/capitalization.pdf |title=Capitalization Style for the Word "braille" |author=Braille Authority of North America |format=PDF |year=2006 |publisher=Brailleauthority.org |accessdate=7 November 2011 }}</ref>}} is a tactile [[writing system]] used by the [[Blindness|blind]] and the [[Visual impairment|visually impaired]]. It is traditionally written with embossed paper.  Braille-users can read computer screens and other electronic supports thanks to [[refreshable braille display]]s. They can write braille with the original [[slate and stylus]] or type it on a [[braille writer]], such as a portable [[braille note-taker]], or on a computer that prints with a [[braille embosser]].  
+
+Braille is named after its creator, Frenchman [[Louis Braille]], who went blind following a childhood accident. In 1824, at the age of 15, Braille developed his code for the [[French alphabet]] as an improvement on [[night writing]]. He published his system, which subsequently included [[musical notation]], in 1829.<ref>Louis Braille, 1829, ''Method of Writing Words, Music, and Plain Songs by Means of Dots, for Use by the Blind and Arranged for Them''</ref> The second revision, published in 1837, was the first [[Digital data|digital]] (binary) form of writing.
+
+Braille characters are small rectangular blocks called ''cells'' that contain tiny palpable bumps called ''raised dots''. The number and arrangement of these dots distinguish one character from another. Since the various braille alphabets originated as [[Transcription (linguistics)|transcription]] codes of printed writing systems, the mappings (sets of character designations) vary from language to language. Furthermore, in [[English Braille]] there are three levels of encoding: Grade 1, a letter-by-letter transcription used for basic literacy; Grade 2, an addition of abbreviations and contractions; and Grade 3, various non-standardized personal [[shorthand]]s.
+
+In the face of [[screen reader|screen-reader]] software, braille usage has declined. However, braille education remains important for [[Learning to read|developing reading skills]] among blind and visually impaired children, and [[braille literacy]] correlates with higher employment rates.
+
+==History==
+[[File:DSC 4050-MR-Braille.jpg|thumb|Braille code where the word {{lang|fr-Brai|{{bc|⠏|⠗|⠑|⠍|⠊|⠑|⠗}}}} ({{lang|fr|''premier''}}, [[French language|French]] for "first") can be read.]]
+Braille was based on a tactile military [[code]] called [[night writing]], developed by [[Charles Barbier]] in response to [[Napoleon]]'s demand for a means for soldiers to communicate silently at night and without light. In Barbier's system, sets of 12 embossed dots encoded 36 different sounds. It proved to be too difficult for soldiers to recognize by touch, and was rejected by the military. In 1821 Barbier visited the Royal Institute for the Blind in [[Paris]], where he met Louis Braille. Braille identified two major defects of the code: first, by representing only sounds, the code was unable to render the orthography of the words; second, the human finger could not encompass the whole 12-dot symbol without moving, and so could not move rapidly from one symbol to another. Braille's solution was to use 6-dot cells and to assign a specific pattern to each letter of the alphabet.<ref name = " Noëlle Roy ">{{Citation
+ | url = http://www.avh.asso.fr/download.php?chemin=rubriques/association/dwnld/&filename=Bio_Br_Paris_GB_060109.pdf
+ | title = Louis Braille 1809–1852, a French genius
+ | author = Roy, Noëlle
+ | journal = Valentin Haüy Association website
+ | accessdate = 2011-02-05
+}}</ref>
+At first, braille was a one-to-one transliteration of French orthography, but soon various abbreviations, contractions, and even [[logogram]]s were developed, creating a system much more like shorthand.<ref name=digital/> The expanded English system, called Grade 2 Braille, was complete by 1905. For the blind today, braille is an independent writing system rather than a code of printed orthography.<ref name=D&B/>
+
+===Derivation===
+Braille is derived from the Latin alphabet, albeit indirectly. In Braille's original system, the points were assigned according to the position of the letter within the [[collating sequence|alphabetic order]] of the French alphabet, with [[diacritic]] letters and ''w'' sorted at the end.<ref>Madeleine Loomis, 1942, ''The Braille Reference Book [for Grades I, I½, and II].''</ref>
+
+The first ten letters of the alphabet, ''a–j,'' use the upper four dot positions, 1, 2, 4, 5: {{Braille cell|type=text|⠁|⠃|⠉|⠙|⠑|⠋|⠛|⠓|⠊|⠚}} (black dots in the table below). These stand for the ten numerals ''1–9+0'' in a system parallel to Hebrew [[gematria]] and Greek [[isopsephy]]. (Though the dots are assigned in no obvious order, the first three letters and lowest numerals, ''abc~ 123'' {{Braille cell|type=text|⠁|⠃|⠉}}, and the vowels, ''aei'' {{Braille cell|type=text|⠁|⠑|⠊}}, have the fewest dots, whereas the even numerals ''4680'' are corners, {{Braille cell|type=text|⠙|⠋|⠓|⠚}}.) The next ten letters, ''k–t,'' are identical to ''a–j,'' respectively, apart from the addition of a dot at position 3: {{Braille cell|type=text|⠅|⠇|⠍|⠝|⠕|⠏|⠟|⠗|⠎|⠞}} (red dots below):
+
+{|class=wikitable
+|+Derivation of the 26 letters of the alphabet from the 10 numeric digits
+|- align=center
+|[[File:Braille A1.svg|40px]]||[[File:Braille B2.svg|40px]]||[[File:Braille C3.svg|40px]]||[[File:Braille D4.svg|40px]]||[[File:Braille E5.svg|40px]]||[[File:Braille F6.svg|40px]]||[[File:Braille G7.svg|40px]]||[[File:Braille H8.svg|40px]]||[[File:Braille I9.svg|40px]]||[[File:Braille J0.svg|40px]]
+|- align=center
+|[[a]]/[[1 (number)|1]]||[[b]]/[[2 (number)|2]]||[[c]]/[[3 (number)|3]]||[[d]]/[[4 (number)|4]]||[[e]]/[[5 (number)|5]]||[[f]]/[[6 (number)|6]]||[[g]]/[[7 (number)|7]]||[[h]]/[[8 (number)|8]]||[[i]]/[[9 (number)|9]]||[[j]]/[[0 (number)|0]]
+|- align=center
+|[[File:Braille K colored.svg|40px]]||[[File:Braille L colored.svg|40px]]||[[File:Braille M colored.svg|40px]]||[[File:Braille N colored.svg|40px]]||[[File:Braille O colored.svg|40px]]||[[File:Braille P colored.svg|40px]]||[[File:Braille Q colored.svg|40px]]||[[File:Braille R colored.svg|40px]]||[[File:Braille S colored.svg|40px]]||[[File:Braille T colored.svg|40px]]
+|- align=center
+|[[k]]||[[l]]||[[m]]||[[n]]||[[o]]||[[p]]||[[q]]||[[r]]||[[s]]||[[t]]
+|- align=center
+|[[File:Braille U colored.svg|40px]]||[[File:Braille V colored.svg|40px]]||[[File:Braille X colored.svg|40px]]||[[File:Braille Y colored.svg|40px]]||[[File:Braille Z colored.svg|40px]]||rowspan=2 colspan=4| ||[[File:Braille W colored.svg|40px]]
+|- align=center
+|[[u]]||[[v]]||[[x]]||[[y]]||[[z]]||[[w]]
+|}
+
+The next ten letters (the next "[[wikt:decade#English|decade]]") are the same again, but with dots at both 3 and 6 (green dots). Here ''w'' was left out as not being part of the basic French alphabet; the order is ''u v x y z ç é à è ù'' {{Braille cell|type=text|⠥|⠧|⠭|⠽|⠵|⠯|⠿|⠷|⠮|⠾}}.<ref>The values of the letters after ''z'' differ from language to language; these are Braille's assignments for French.</ref> The next ten, ending in ''w'', are the same again, except that for this series position 6 (purple dot) is used without position 3. These are ''â ê î ô û ë ï ü ö w'' {{Braille cell|type=text|⠡|⠣|⠩|⠹|⠱|⠫|⠻|⠳|⠪|⠺}}.<ref>''W'' had been tacked onto the 39 letters of the French alphabet to accommodate English.</ref> The ''a–j'' series lowered in dot space become punctuation; in English Braille these are: comma, semicolon, colon, period, (not used), exclamation point, parentheses, question mark/open quotation, (not used), close quotation: {{Braille cell|type=text|⠂|⠆|⠒|⠲|⠢|⠖|⠶|⠦|⠔|⠴}}. ''A'' and ''c'', which only use the top row, were lowered two spaces for the apostrophe and hyphen: {{Braille cell|type=text|⠄|⠤}}. (Along with the space, these are the zero characters of the first through third decade, at left in the table below.) In addition, patterns based on the first decade shifted to the right were assigned to non-French letters (''ì ä ò'' {{Braille cell|type=text|⠌|⠜|⠬}}) or serve non-letter functions: {{Braille cell|type=text|⠈}} (superscript; in English the accent mark), {{Braille cell|type=text|⠘}} (currency prefix), {{Braille cell|type=text|⠨}} (capital, in English the decimal point), {{Braille cell|type=text|⠼}} (number sign), {{Braille cell|type=text|⠸}} (emphasis mark), {{Braille cell|type=text|⠐}} (symbol prefix).
+
+:{| class=wikitable
+|+The 64 braille cells{{anchor|upper-half cells}}{{efn|The characters have been arranged by decade, with decade diacritics listed at left, and supplementary characters included on the right according to their diacritic. See [[1829 braille]], where the 12 characters listed in the first line are used for shorthand and are found in this order for the 12 notes of plainsong notation, and [[French Braille]], where the 'final' form of Braille's alphabet is laid out in the same way. However, modern tables often organize the supplementary characters differently: Those with a dot 3 are listed as a 6th group of 6 characters, and those with dots only on the right side are listed as a 7th group of 7, without anything in common with the columns the characters are listed under.}}
+!colspan=2|decade||rowspan=6|&nbsp;&nbsp; ||colspan=10|numeric sequence ||rowspan=6|&nbsp;&nbsp; ||colspan=2|shift right
+|- align=center
+!1st
+|[[File:Braille NULL.svg|40px]]
+|[[File:Braille A1.svg|40px]]
+|[[File:Braille B2.svg|40px]]
+|[[File:Braille C3.svg|40px]]
+|[[File:Braille D4.svg|40px]]
+|[[File:Braille E5.svg|40px]]
+|[[File:Braille F6.svg|40px]]
+|[[File:Braille G7.svg|40px]]
+|[[File:Braille H8.svg|40px]]
+|[[File:Braille I9.svg|40px]]
+|[[File:Braille J0.svg|40px]]
+|[[File:Braille Accent.svg|40px]]
+|[[File:Braille Currency.svg|40px]]
+|- align=center
+!2nd
+|[[File:Braille Apostrophe colored.svg|40px]]
+|[[File:Braille K colored.svg|40px]]
+|[[File:Braille L colored.svg|40px]]
+|[[File:Braille M colored.svg|40px]]
+|[[File:Braille N colored.svg|40px]]
+|[[File:Braille O colored.svg|40px]]
+|[[File:Braille P colored.svg|40px]]
+|[[File:Braille Q colored.svg|40px]]
+|[[File:Braille R colored.svg|40px]]
+|[[File:Braille S colored.svg|40px]]
+|[[File:Braille T colored.svg|40px]]
+|[[File:Braille ST colored.svg|40px]]
+|[[File:Braille Ä colored.svg|40px]]
+|- align=center
+!3rd
+|[[File:Braille Hyphen colored.svg|40px]]
+|[[File:Braille U colored.svg|40px]]
+|[[File:Braille V colored.svg|40px]]
+|[[File:Braille X colored.svg|40px]]
+|[[File:Braille Y colored.svg|40px]]
+|[[File:Braille Z colored.svg|40px]]
+|[[File:Braille Ç colored.svg|40px]]
+|[[File:Braille É colored.svg|40px]]
+|[[File:Braille À colored.svg|40px]]
+|[[File:Braille È colored.svg|40px]]
+|[[File:Braille Ù colored.svg|40px]]
+|[[File:Braille Ò colored.svg|40px]]
+|[[File:Braille Number colored.svg|40px]]
+|- align=center
+!4th
+|[[File:Braille Capital colored.svg|40px]]
+|[[File:Braille Â colored.svg|40px]]
+|[[File:Braille Ê colored.svg|40px]]
+|[[File:Braille Î colored.svg|40px]]
+|[[File:Braille Ô colored.svg|40px]]
+|[[File:Braille Û colored.svg|40px]]
+|[[File:Braille Ë colored.svg|40px]]
+|[[File:Braille Ï colored.svg|40px]]
+|[[File:Braille Ü colored.svg|40px]]
+|[[File:Braille Ö colored.svg|40px]]
+|[[File:Braille W colored.svg|40px]]
+|[[File:Braille Decimal colored.svg|40px]]
+|[[File:Braille Cursive colored.svg|40px]]
+|- align=center
+!5th
+! <span style="color:#006060">shift<br>down</span>
+|[[File:Braille Comma colored.svg|40px]]
+|[[File:Braille Semicolon colored.svg|40px]]
+|[[File:Braille Colon colored.svg|40px]]
+|[[File:Braille Period colored.svg|40px]]
+|[[File:Braille QuestionMark colored.svg|40px]]
+|[[File:Braille ExclamationPoint colored.svg|40px]]
+|[[File:Braille Bracket colored.svg|40px]]
+|[[File:Braille QuoteOpen colored.svg|40px]]
+|[[File:Braille Asterisk colored.svg|40px]]
+|[[File:Braille QuoteClose colored.svg|40px]]
+|[[File:Braille ContractionPrefix colored.svg|40px]]
+|[[File:Braille Correction colored.svg|40px]]
+|}
+
+Originally there had been nine decades. The fifth through ninth used dashes as well as dots, but proved to be impractical and were soon abandoned. These could be substituted with what we now know as the number sign, though that only caught on for the digits (1st decade → 5th decade). The dash of the sixth decade was simply dropped, producing the modern fifth decade. See [[1829 braille]].
+
+Historically, there have been three ways of applying braille to a [[Linear writing|linear script]]. Under international agreement, most braille alphabets follow the original French sorting order for the 26 letters of the [[ISO basic Latin alphabet|basic Latin alphabet]], and there have been attempts at uniformity for letters beyond these 26 (see [[international braille]]), though divergences remain, as in [[German Braille]] and the ligatures of [[English Braille]]. The agreement was made to avoid the chaos of each nation reordering the braille code to match the sorting order of its print alphabet, as happened in [[Algerian Braille]], where braille codes were numerically reassigned to match the order of the Arabic alphabet. (Compare modern [[Arabic Braille]], which uses the French sorting order.) A third application was to assign braille codes according to frequency, with the simplest patterns (and therefore quickest ones to write) assigned to the most frequent letters of the alphabet. Such frequency-based alphabets were used in Germany and the United States in the 19th century (see [[American Braille]]), but none are attested in modern use. A convention for the extended letters seen in some alphabets is to exploit the physical symmetry of braille patterns iconically, for example, by assigning a reversed ''n'' to ''ñ'' or an inverted ''s'' to ''sh''. (See [[Hungarian Braille]] and [[Bharati Braille]], which do this to some extent.) Finally, there are braille scripts which don't order the codes numerically at all, such as [[Japanese Braille]] and [[Korean Braille]], which are based on more abstract principles of syllable composition.
+
+Academic texts are sometimes written in a script of eight dots per cell rather than six, enabling them encode a greater number of symbols. (See [[Gardner–Salinas braille codes]].)  [[Luxembourgish Braille]] has adopted eight-dot cells for general use; for example, it adds a dot below each letter to derive its capital variant.
+
+==Form==
+[[File:Alianca braille.JPG|thumb|Silver wedding bands with names ''Henri(que)'' and ''Tita'' written in braille]]
+Braille can be seen as the world's first [[Binary numeral system|binary]] [[Character encoding|encoding]] scheme for representing the [[grapheme|characters]] of a [[writing system]].<ref name=digital>Peter Daniels, 1996, "Analog and Digital Writing", in ''The World's Writing Systems,'' p 886</ref> The system as devised by Braille consists of two parts:<ref name=D&B>Daniels & Bright, 1996, ''The World's Writing Systems'', p 817–818</ref>
+#A [[character encoding]] for mapping characters of the [[French alphabet]] to [[tuple]]s of six [[bit]]s or ''dots''.
+#A way of physically representing six-bit characters as raised dots in a braille cell.<ref>Originally by means of raised dots and lines, as in night writing.</ref>
+
+Within an individual cell, the possible dot positions are organized into two columns of three positions each. A raised dot can appear in any of the six positions to form sixty-four (2<sup>6</sup>) possible subsets, including the arrangement in which there are no raised dots. For reference purposes, a particular arrangement may be described by naming the positions where dots are raised, the positions being universally numbered 1 to 3, from top to bottom, on the left, and 4 to 6, from top to bottom, on the right. For example, dots 1-3-4 ({{Braille cell|type=text|⠍}}) would describe a cell with three dots raised, at the top and bottom in the left column and on top of the right column, i.e., the letter ''m''. The lines of horizontal braille text are separated by a space, much like visible printed text, so that the dots of one line can be differentiated from the braille text above and below. Punctuation is represented by its own unique set of characters.Today different braille codes (or [[code page]]s) are used to map character sets of different languages to the six bit cells. Different braille codes are also used for different uses like mathematics and music. However, because the six-dot braille cell only offers 64 patterns (2<sup>6</sup>, including the space), many braille characters have different meanings based on their context. That is, character mapping is not one-to-one.
+
+In addition to simple encoding, modern braille transcription uses contractions to increase reading speed. (See: [[English Braille#Contractions|Contracted braille]])
+
+==Writing braille==
+[[File:Braille Writer.jpg|thumb|Braille typewriter]]
+Braille may be produced by hand using a [[slate and stylus]] in which each dot is created from the back of the page, writing in mirror image, or it may be produced on a [[braille typewriter]] or [[Perkins Brailler]]. Because braille letters cannot be effectively erased and written over if an error is made, an error is overwritten with all six dots ({{bc|⠿}}). ''Interpoint'' refers to braille printing that is offset, so that the paper can be embossed on both sides, with the dots on one side appearing between the divots that form the dots on the other (see the photo in the box at the top of this article for an example).
+
+Braille may also be produced using a computer with [[braille translator|braille translation]] software and a [[braille embosser]] or a [[refreshable braille display]].
+
+{{anchor|Eight-dot braille}}Braille has been extended to an 8-dot code, particularly for use with braille embossers and refreshable braille displays. In 8-dot braille the additional dots are added at the bottom of the cell, giving a matrix 4 dots high by 2 dots wide. The additional dots are given the numbers 7 (for the lower-left dot) and 8 (for the lower-right dot). Eight-dot braille has the advantages that the case of an individual letter is directly coded in the cell containing the letter and that all the printable [[ASCII]] characters can be represented in a single cell. All 256 (2<sup>8</sup>) possible combinations of 8 dots are encoded by the [[Unicode]] standard. Braille with six dots is frequently stored as [[Braille ASCII]].
+
+===Letters===
+The first 25 braille letters, up through the first half of the 3rd decade, transcribe ''a–z'' (skipping ''w''). In English Braille, the rest of that decade is rounded out with the ligatures ''and, for, of, the,'' and ''with''. Omitting dot 3 from these forms the 4th decade, the ligatures ''ch, gh, sh, th, wh, ed, er, ou, ow'' and the letter ''w''.
+
+{|class=wikitable
+|- align=center
+|{{Braille cell|type=6dot|ch}}
+|{{Braille cell|type=6dot|sh}}
+|{{Braille cell|type=6dot|th}}
+|- align=center
+|ch
+|sh
+|th
+|}
+(See [[English Braille]].)
+
+===Formatting===
+Various formatting marks modify the letters that follow them. They have no direct equivalent in print. The most important in English Braille are:
+
+{|class=wikitable
+|- align=center
+|{{Braille cell|type=6dot|size=40px|CAP}}
+|{{Braille cell|type=6dot|size=40px|#}}
+|- align=center
+|[[Capital letter|Capital]]<br>follows
+|[[Number]]<br>follows
+|}
+That is, {{Braille cell|type=text|cap|a}} is read as capital 'A', and {{Braille cell|type=text|num|a}} as the digit '1'.
+
+===Punctuation===
+Basic punctuation marks in English Braille include:
+
+{|class=wikitable
+|- align=center
+|{{Braille cell|type=6dot|size=40px|,}}
+|{{Braille cell|type=6dot|size=40px|;}}
+|{{Braille cell|type=6dot|size=40px|'}}
+|{{Braille cell|type=6dot|size=40px|:}}
+|{{Braille cell|type=6dot|size=40px|-}}
+|{{Braille cell|type=6dot|size=40px|decimal}}
+|- align=center
+|[[Comma]]
+|[[Semicolon]]
+|[[Apostrophe]]
+|[[Colon (punctuation)|Colon]]
+|[[Hyphen]]
+|[[Decimal point]]
+|- align=center
+|{{Braille cell|type=6dot|size=40px|dd}}
+|{{Braille cell|type=6dot|size=40px|!}}
+|{{Braille cell|type=6dot|size=40px|hh}}
+|{{Braille cell|type=6dot|size=40px|356}}
+|{{Braille cell|type=6dot|size=40px|gg}}
+|{{Braille cell|type=6dot|size=40px|st}}
+|- align=center
+|[[Full stop|Full stop <br>(Period)]]
+|[[Exclamation point|Exclamation <br>point]]
+|Open [[quotation mark|quote]], <br>[[question mark]]
+|Close <br>[[quotation mark|quote]]
+|[[Bracket|Bracket <br>(Parentheses)]]
+|[[Virgule|Slash<br>(Fraction)]]
+|}
+
+{{Braille cell|type=text|hh}} is both the question mark and the opening quotation mark. Its placement before or after a word determines its reading.
+
+{{Braille cell|type=text|()}} is used for both opening and closing parentheses. Its placement relative to spaces and other characters determines its interpretation.
+
+Punctuation varies from language to language. For example, [[French Braille]] uses {{Braille cell|26|type=text}} for its question mark and swaps the quotation marks and parentheses (to {{Braille cell|type=unicode|()}} and {{Braille cell|type=unicode|hh|jj}}); it uses the period ({{Braille cell|type=unicode|dd}}) for the decimal point, as in print, and the decimal point ({{Braille cell|type=unicode|decimal}}) to mark capitalization.
+
+===Contractions===
+{{For|a full list of abbreviations and contractions in English|English Braille}}
+
+Braille contractions are words and affixes that are shortened so that they take up fewer cells. In English Braille, for example, the word ''afternoon'' is written with just three letters, {{bc|⠁|⠋|⠝}} {{angle bracket|afn}}, much like [[stenoscript]]. There are also several abbreviation marks that create what are effectively [[logogram]]s.<ref name=D&B/> The most common of these is dot 5, which combines with the first letter of words. With the letter {{bc|⠍}} ''m'', the resulting word is {{bc|⠐|⠍}} ''mother''. There are also [[ligature (typography)|ligature]]s ("contracted" letters), which are single letters in braille but correspond to more than one letter in print. The letter {{bc|⠯}} ''and'', for example, is used to write words with the sequence ''a-n-d'' in them, such as {{bc|⠓|⠯}} ''hand''.
+
+{|class=wikitable
+|{{Braille cell|type=6dot|a|f|n}}||{{Braille cell|type=6dot|5|m}}||{{Braille cell|type=6dot|h|and}}
+|-
+|''afternoon<br>(a-f-n)''||''mother<br>(dot 5-m)''||''hand<br>(h-and)''
+|}
+
+===Unicode rendering table===
+{{main|Braille Patterns (Unicode)}}
+The Unicode standard encodes 8-dot braille glyphs according to their binary appearance, rather than following their assigned numeric order. Unicode defines the "braille Patterns" character block in the hex codepoint range from 2800 to 28FF. Dot 1 corresponds to the [[least significant bit]] of the low byte of the Unicode scalar value, and dot 8 to the high bit of that byte.
+
+Most [[braille embosser]]s and [[refreshable braille display]]s do not yet support the Unicode rendering table; instead they use [[braille ASCII]] for 6-dot braille.  Some embossers have proprietary control codes for 8-dot braille or for full graphics mode (where dots may be placed anywhere on the page without leaving any space between braille cells, hence continuous lines can be drawn in diagrams) but these are rarely used and are not standard.
+
+===Page dimensions===
+Most [[braille embosser]]s support between 34 and 37 cells per line, and between 25 and 28 lines per page.
+
+A manually operated Perkins braille typewriter supports a maximum of 42 cells per line (its margins are adjustable), and typical paper allows 25 lines per page.
+
+A large interlining Stainsby has 36 cells per line and 18 lines per page.
+
+An A4-sized Marburg braille frame, which allows interpoint braille (dots on both sides of the page, positioned out of [[:wikt:phase|phase]] so they do not interfere with each other) has 30 cells per line and 27 lines per page.
+
+==Literacy==
+{{Main|Braille literacy}}
+
+A sighted child who is reading at a basic level should be able to understand common words and answer simple questions about the information  presented.<ref name=Grover>{{Citation |  url = http://www.childrenofthecode.org/ | title = Research:  Evidence Based Education Science and the Challenge of Learning to Read | author = Dr. Grover (Russ) Whitehurst | accessdate = 2009-04-20}}</ref>  The child should also have enough fluency to get through the material in a timely manner. Over the course of a child's education, these foundations are built upon in order to teach higher levels of math, science, and comprehension skills.<ref name="Grover"/> Children who are blind not only have the educational disadvantage of not being able to see, but they also miss out on the very fundamental parts of early and advanced education if not provided with the necessary tools.
+
+===U.S. braille literacy statistics===
+
+In 1960, 50% of [[legally blind]], school-age children were able to read braille in the U.S.<ref>{{Citation
+ | url = http://www.braille.org/papers/jvib0696/vb960329.htm
+ | title = Estimated Number of Adult Braille Readers in the United States
+ | journal = International Braille Research Center (IBRC)
+ | last1 = American Foundation for the Blind: Programs and Policy Research
+ | accessdate = 2009-04-15}}</ref><ref name=Ranalli2008>{{Citation
+ |  url = http://www.boston.com/news/local/articles/2008/01/05/a_boost_for_braille/
+ | title = A Boost for Braille
+ | author = Ranalli, Ralph
+ | journal = The Boston Globe
+ | accessdate = 2009-04-17
+ | date=2008-01-05
+}}</ref> According to the 2011 ''Annual Report'' from the [[American Printing House for the Blind]], there are approximately 58,939 legally blind children in the U.S aged 0-21. Of these, about 9% prefer braille as their primary reading medium; 27% are visual readers, 8% are auditory readers, 21% are pre-readers, and 34% are non-readers.<ref name=Blind2013>{{Citation
+ | url = http://www.afb.org/section.aspx?FolderID=2&SectionID=15&TopicID=411&DocumentID=4897
+ | title = School Experience for Children and Youth with Vision Loss
+ | year = 2013
+ | author = American Printing House for the Blind
+ | journal = American Foundation for the Blind
+ | accessdate = 2013-10-8
+}}</ref>
+
+There are numerous causes for the decline in braille usage, including school budget constraints, technology advancement, and different philosophical views over how [[blindness|blind]] children should be educated.<ref name = "Ruby Riles">{{Citation
+ | url = http://www.braille.org/papers/jvib0696/vb960311.htm
+ | title = The Impact of Braille Reading Skills on Employment, Income, Education, and Reading Habits
+ | author = Riles, Ruby
+ | journal = Braille Research Center
+ | accessdate = 2009-04-15
+}}</ref>
+
+A key turning point for braille literacy was the passage of the [[Rehabilitation Act of 1973]], an [[act of Congress]] that moved thousands of children from specialized schools for the blind into [[mainstreaming (education)|mainstream]] public schools.<ref name="Ranalli2008"/> Because only a small percentage of public schools could afford to train and hire braille-qualified teachers, braille literacy has declined since the law took effect.{{Clarify|date=November 2011}}<ref name="Ranalli2008"/> Braille literacy rates have improved slightly since the bill was passed,{{Clarify|date=November 2011}} in part because of pressure from consumers and advocacy groups that has led 27 states to pass legislation mandating that children who are legally blind be given the opportunity to learn braille.<ref name="Ruby Riles" />
+
+In 1998–99, there were approximately 55,200 legally blind children in the United States, but only 5,500 of them used braille as their primary reading medium.<ref name=Blind1999>{{Citation
+ | url = http://www.aph.org
+ | title = APH maintains an annual register of legally blind persons in educational settings below the college level
+ | year = 1999
+ | author = American Printing House for the Blind (A.P.H.)
+ | accessdate = 2009-04-15
+}}</ref><ref name=Ebnet2001>{{Citation
+ |  url = http://articles.latimes.com/2001/jun/30/local/me-16960
+ | title = Braille Challenge Gives Young Blind Students a Chance to Shine
+ | author = Ebnet, Matthew
+ | accessdate = 2009-04-15
+| journal=The Los Angeles Times
+| date=2001-06-30
+}}</ref>  Early Braille education is crucial to literacy for a visually impaired child. A study conducted in the state of Washington found that people who learned braille at an early age did just as well, if not better, than their sighted peers in several areas, including vocabulary and comprehension.  In the preliminary adult study, while evaluating the correlation between adult literacy skills and employment, it was found that 44% of the participants who had learned to read in braille were unemployed, compared to the 77% unemployment rate of those who had learned to read using print.<ref name=Ph2004>{{Citation
+ |  url = http://www.nfb.org/Images/nfb/Publications/fr/fr14/fr04se22.htm
+ | title = Research Study: Early Braille Education Vital
+ | year = 2004
+ | author = Riles Ph.D., Ruby
+ | journal = Future Reflections
+ | accessdate = 2009-04-15
+}}</ref>  Currently, among the estimated 85,000 blind adults in the United States, 90% of those who are braille-literate are employed. Among adults who do not know braille, only 33% are employed.<ref name="Ranalli2008"/> Statistically, history has proven that braille reading proficiency provides an essential skill set that allows visually impaired children not only to compete with their sighted peers in a school environment, but also later in life as they enter the workforce.<ref name="Ruby Riles" />
+
+===United Kingdom===
+
+Though braille is thought to be the main way blind people read and write, in Britain (for example) out of the reported 2 million visually impaired population, it is estimated that only around 15–20 thousand people use braille.<ref>{{cite web |url=http://www.bbc.co.uk/news/magazine-16984742 |title=Braille is spreading but who's using it? |author=Damon Rose|year=2012 |publisher=bbc.co.uk|accessdate=14 October 2013 }}</ref> Younger people are turning to electronic text on computers with [[screen reader]] software instead, a more portable communication method that they can also use with their friends. A debate has started on how to make braille more attractive and for more teachers to be available to teach it.
+
+==Braille transcription==
+{{anchor|keyboard}}
+[[File:Braille on tablet box.JPG|thumb|right|Braille on a box of tablets. The raised Braille reads 'P L A V I X'.]]
+[[File:Braille book.JPG|thumb|right|Braille book and the same book in standard inkprint]]
+Although it is possible to transcribe print by simply substituting the equivalent braille character for its printed equivalent, in English such a character-by-character transcription (known as ''uncontracted braille'') is only used by beginners.
+
+Braille characters are much larger than their printed equivalents, and the standard 11" by 11.5" (28&nbsp;cm &times; 30&nbsp;cm) page has room for only 25 lines of 43 characters. To reduce space and increase reading speed, most braille alphabets and orthographies use ligatures, abbreviations, and contractions. Virtually all English Braille books are transcribed in this ''contracted braille,'' which adds an additional layer of complexity to English orthography: The Library of Congress's ''Instruction Manual for Braille Transcribing''<ref>Risjord, Constance (2009). [https://nfb.org/images/nfb/documents/pdf/nls-5th-ed-electronicversion.pdf Instruction Manual for Braille Transcribing], Library of Congress, 5th ed. ISBN 0-8444-1227-9</ref> runs to over 300 pages and braille transcribers must pass certification tests.
+
+Fully contracted braille is known as ''Grade 2 Braille''. There is an intermediate form between Computer Braille—one-for-one identity with print—and Grade 2, which is called Grade 1 Braille.  In Grade 1 the capital-sign and Number sign are used, and most punctuation marks are shown using their Grade 2 values.
+
+The system of [[contraction (grammar)|contraction]]s in English Braille begins with a set of 23 words which are contracted to single characters. Thus the word ''but'' is contracted to the single letter ''b,'' ''can'' to ''c'', ''do'' to ''d'', and so on. Even this simple rule creates issues requiring special cases; for example, ''d'' is, specifically, an abbreviation of the verb ''do;'' the noun ''do'' representing the note of the musical scale is a different word, and must be spelled out.
+
+Portions of words may be contracted, and many rules govern this process. For example, the character with dots 2-3-5 (the letter "f" lowered in the braille cell) stands for "ff" when used in the middle of a word. At the beginning of a word, this same character stands for the word "to"; the character is written in braille with no space following it. (This contraction was removed in the [[Unified English Braille Code]].) At the end of a word, the same character represents an exclamation point.
+
+Some contractions are more similar than their print equivalents. For example, the contraction {{angle bracket|lr}}, meaning 'letter', differs from {{angle bracket|ll}}, meaning 'little', only in adding one dot to the second {{angle bracket|l}}: {{bc|⠇|⠇}} ''little'', {{bc|⠇|⠗}} ''letter''. This causes greater confusion between the braille spellings of these words and can hinder the learning process of contracted braille.<ref>Hampshire, Barry. ''Working with Braille.'' Paris: Unesco, 1981.</ref>
+
+The contraction rules take into account the linguistic structure of the word; thus, contractions are generally not to be used when their use would alter the usual braille form of a base word to which a prefix or suffix has been added. Some portions of the transcription rules are not fully codified and rely on the judgment of the transcriber. Thus, when the contraction rules permit the same word in more than one way, preference is given to "the contraction that more nearly approximates correct pronunciation."
+
+''Grade 3 Braille''<ref>[http://web.archive.org/web/20050329073830/http:/www.geocities.com/jyyne_2000/grade3.htm Grade 3 Braille]. geocities.com (June 2000). Retrieved on 2012-12-21.</ref> is a variety of non-standardized systems that include many additional shorthand-like contraction. They are not used for publication, but by individuals for their personal convenience.
+
+==Braille translation software==
+When people produce braille, this is called braille transcription. When computer software produces braille, this is called braille
+translation. Braille translation software exists to handle most of the common languages of the world, and many technical areas,
+such as math, music, and tactile graphics.
+
+==Braille-reading techniques==
+Since braille is one of the few writing systems where tactile perception is used, as opposed to visual perception, a braille reader must develop new skills.  One skill important for braille readers is the ability to create smooth and even pressures when running one's fingers along the words.  There are many different styles and techniques used for the understanding and development of braille, even though a study by B. F. Holland<ref>B.F. Holland, 'Speed and Pressure Factors in Braille Reading', ''Teachers Forum,'' Vol. 7, September 1934 pp. 13–17</ref> suggests that there is no specific technique that is superior to any other.
+
+Another study by Lowenfield & Abel<ref>B. Lowenfield and G. L. Abel, ''Methods of Teaching Braille Reading Efficiency of Children in Lower Senior Classes.'' Birmingham, Research Centre for the Education of the Visually Handicapped, 1977</ref> shows that braille could be read "the fastest and best... by students who read using the index fingers of both hands."  Another important reading skill emphasized in this study is to finish reading the end of a line with the right hand and to find the beginning of the next line with the left hand simultaneously.  One final conclusion drawn by both Lowenfield and Abel is that children have difficulty using both hands independently where the right hand is the dominant hand.  But this hand preference does not correlate to other activities.
+
+==International uniformity==
+{{Main|International uniformity of braille}}
+{{anchor|Grade 1 braille}}
+[[File:Rapperswil - Duftrosengarten 20080222 005.jpg|thumb|Braille plate in ''Duftrosengarten'' in [[Rapperswil]], Switzerland]]
+
+When braille was first adapted to languages other than French, many schemes were adopted, including mapping the native alphabet to the alphabetical order of French – e.g. in English W, which was not in the French alphabet at the time, is mapped to braille X, X to Y, Y to Z, and Z to the first French accented letter – or completely rearranging the alphabet such that common letters are represented by the simplest braille patterns. Needless to say, mutual intelligibility was greatly hindered by this state of affairs. In 1878, the International Congress on Work for the Blind, held in Paris, proposed an international braille standard, where braille codes for different languages and scripts would be based, not on the order of a particular alphabet, but on phonetic correspondence and transliteration to Latin.<ref name=IntlBraille>{{cite web|title=International Meeting on Braille Uniformity|url=http://unesdoc.unesco.org/images/0007/000711/071103eb.pdf|publisher=UNESCO|accessdate=2012-04-24}}</ref>
+
+This unified braille has been applied to the languages of India and Africa, Arabic, Vietnamese, Hebrew, Russian, and Armenian, as well as nearly all Latin-script languages. Greek, for example, ''gamma'' is written as Latin ''g'', despite the fact that it has the alphabetic position of ''c''; Hebrew ''bet'', the second letter of the alphabet and [[cognate]] with the Latin letter ''b'', is sometimes pronounced /b/ and sometimes /v/, and is written ''b'' or ''v'' accordingly; Russian ''ts'' is written as ''c'', which is the usual letter for /ts/ in those Slavic languages that use the Latin alphabet; and Arabic ''f'' is written as ''f'', despite being historically ''p'', and occurring in that part of the Arabic alphabet (between historic ''o'' and ''q'').
+
+==Other braille adaptations==
+
+Other systems for assigning value to braille patterns are also followed, including the simple mapping of the alphabetical order onto the original French order. Some systems of braille start with [[unified braille]], and then diverge significantly based on the phonology and structure of the target languages, while still other braille systems are completely novel, adopting positional forms, or even [[abugida|syllabic]] braille cells composed of separate vowel and consonant patterns.
+
+In the various Chinese systems, traditional braille values are used for initial consonants and the simple vowels. In both [[Mainland Chinese Braille|Mandarin]] and [[Cantonese braille|Cantonese]] Braille, however, characters have different readings depending on whether they are placed in syllable-initial (onset) or syllable-final (rime) position. For instance, the cell for Latin ''k'', {{Braille cell|type=text|K}}, represents Cantonese ''k'' (''g'' in [[Yale romanization of Cantonese|Yale]] and other modern romanizations) when initial, but ''aak'' when final, while Latin ''j'', {{Braille cell|type=text|J}}, represents Cantonese initial ''j'' but final ''oei''.
+
+Novel systems of braille mapping include Korean, which adopts separate syllable-initial and syllable-final forms for its consonants, explicitly grouping braille cells into syllabic groups in the same way as [[hangul]]. Japanese, meanwhile, combines independent vowel dot patterns and modifier consonant dot patterns into a single braille cell – an [[abugida]] representation of each Japanese [[Mora (linguistics)#Japanese|mora]].
+
+==Uses==
+<!-- Deleted image removed: [[File:500 lira coin with braille.jpg|thumb|500-lira coin with braille ("L. 500.") on the reverse.]] -->
+
+The current series of [[Banknotes of the Canadian dollar|Canadian banknotes]] has a [[Canadian currency tactile feature|tactile feature]] consisting of raised dots that indicate the denomination, allowing bills to be easily identified by visually impaired people. It does not use standard braille; rather, the feature uses a system developed in consultation with blind and visually impaired Canadians after research indicated that braille was not sufficiently robust and that not all potential users read braille. [[Mexican peso#Series D|Mexican bank notes]], [[Indian Rupee]] notes, [[Israeli New Shekel]] notes<ref>[http://www.boi.org.il/en/Currency/BanknoteSecurityFeatures/Pages/intaglio.aspx Bank of Israel - Banknote Security Features - Raised print (intaglio)]. boi.org.il. Retrieved on 2013-01-11.</ref> and Russian Ruble notes also have special raised symbols to make them identifiable by the visually impaired.
+
+In [[India]] there are instances where the parliament acts have been published in braille, such as ''The Right to Information Act''.<ref>[http://www.hindu.com/2006/07/04/stories/2006070402351200.htm National : Right to Information Act in Braille]. The Hindu (2006-07-04). Retrieved on 2012-12-21.</ref>
+
+In the United States, the [[Americans with Disabilities Act of 1990]]<ref>[http://www.ada.gov/ ada.gov]. ada.gov. Retrieved on 2012-12-21.</ref> requires various building signage to be in braille.
+
+==Unicode==
+{{Main|Unicode braille patterns}}
+
+Braille was added to the [[Unicode]] Standard in September, 1999 with the release of version 3.0.
+
+The Unicode block for braille is U+2800 ... U+28FF:
+
+{{Unicode chart Braille Patterns}}
+
+==See also==
+{{div col|cols = 2}}
+*[[Accessible publishing]]
+*[[Braille literacy]]
+*[[Braille music]]
+*[[Braille technology]]
+*[[Braille translator]]
+*[[Braille Watch]]
+*[[List of binary codes]]
+*[[List of international common standards]]
+*[[Moon type]]
+*[[Needle punch]]
+*[[Nemeth Braille]] (for math)
+*[[Refreshable Braille display]]
+*[[Tactile alphabets for the blind]]
+*[[Tactile graphic]]
+*[[Tangible symbol systems]]
+{{div col end}}
+
+==Notes==
+{{notelist}}
+
+==References==
+{{Reflist|35em}}
+
+==External links==
+{{Commons category|Braille}}
+*[http://www.avh.asso.fr/rubrics/association/association.php?langue=eng& Association Valentin Haüy]
+*[http://www.atpc.net/ Alternate Text Production Center]
+
+{{Braille}}
+{{ISO 15924/footer}}
+{{list of writing systems}}
+{{Use dmy dates|date=February 2011}}
+
+[[Category:Assistive technology]]
+[[Category:Augmentative and alternative communication]]
+[[Category:Blindness]]
+[[Category:Braille| ]]
+[[Category:Character sets]]
+[[Category:Latin-alphabet representations]]
+[[Category:French inventions]]
+[[Category:Digital typography]]

@@ -1,0 +1,199 @@
+[[Image:Atomprobe 00 as-prepared Cu-NiFe-W01.jpg|thumb|Visualisation of data obtained from an atom probe, each point represents a reconstructed atom position from detected evaporated ions.]]
+
+The '''atom probe''' is a microscope used in [[material science]] that was invented in 1967 by [[Erwin Wilhelm Müller]], [[J. A. Panitz]], and [[S. Brooks McLane]].<ref>{{cite journal|last1=Müller|first1=Erwin W.|authorlink1=Erwin Wilhelm Müller|authorlink2=J. A. Panitz|last2=Panitz|first2=John A.|authorlink3=S. Brooks McLane|last3=McLane|first3=S. Brooks|year=1968|title=The Atom-Probe Field Ion Microscope|journal=Review of Scientific Instruments|volume=39|issue=1|pages=83–86|issn=0034-6748|doi=10.1063/1.1683116|bibcode = 1968RScI...39...83M }}</ref> The atom probe is closely related to the method of Field Ion Microscopy, which is the first microscopic method to achieve atomic resolution, occurring in 1951.<ref name="Tsong">{{cite book|author=Tsong, T| title=Atom probe field Ion Microscopy: Field Ion emission and Surfaces and interfaces at atomic resolution|year=1990|publisher=Cambridge University Press|isbn=0-521-36379-9}}</ref>
+
+Atom probes are unlike conventional optical or [[electron microscope]]s, in that the magnification effect comes from the magnification provided by a highly curved electric field, rather than by the manipulation of radiation paths. Technically, the method is destructive in nature removing ions from a sample surface in order to image and identify them, generating magnifications sufficient to observe individual atoms as they are removed from the sample surface. Through coupling of this magnification method with [[time of flight mass spectrometry]], ions evaporated by application of electric pulses can have their mass-to-charge ratio computed.<ref name="Müller70">{{cite journal|author=Müller, E. W. |title=The Atom-Probe Field Ion Microscope |series=Naturwissenschaften|year=1970|volume=5|pages=222–230}}</ref>
+
+Through successive evaporation of material, layers of atoms are removed from a specimen, allowing for probing not only of the surface, but also through the material itself.<ref name="MillerSmith">{{cite book|title=Atom Probe Microanalysis: Principles and Applications to Materials Problems|year=1989|publisher=Materials Research Society|author8=Miller, M and Smith, G.|isbn=0-931837-99-5}}</ref> Computer methods are utilised to rebuild a three dimensional view of the sample, prior to it being evaporated, providing atomic scale information on the structure of a sample, as well as providing the type atomic species information.<ref name=Miller>{{cite book|author=Miller, M.|title=Atom Probe Tomography: Analysis at the Atomic Level |publisher=Kluwer Academic/Plenum Publishers|year=2000|isbn=0-306-46415-2}}</ref> The instrument allows the three-dimensional reconstruction of up to hundreds of millions of [[atom]]s from a sharp tip (corresponding to specimen volumes of 10,000-1,000,000&nbsp;[[nanometer|nm]]<sup>3</sup>).
+
+== Overview ==
+Atom probe samples are shaped to implicitly provide a highly curved electric potential to induce the resultant magnification, as opposed to direct use of lensing, such as via [[magnetic lens]]es. Furthermore, in normal operation (as opposed to a field ionization modes) the atom probe does not utilize a secondary source to probe the sample. Rather, the sample is evaporated in a controlled manner (field evaporation) and the evaporated ions are impacted onto a detector, which may be up to several meters from the specimen.
+
+The samples used in atom probe are usually  a metallic or semi-conducting material, with the needle geometry produced by [[electropolishing]], or [[focused ion beam]] methods. Preparation is done, often by hand, to manufacture a tip radius sufficient to induce a high electric field, with radii on the order of 100&nbsp;[[nanometer|nm]].
+
+To conduct an atom probe experiment, such a needle is placed in an [[ultra high vacuum]] chamber. After introduction into the vacuum system, the sample is reduced to cryogenic temperatures (typically 20-100&nbsp;K) and manipulated such that the needle's point is aimed towards an ion detector. A pulsed high voltage source (typically 1-2&nbsp;kV) is generated and applied to the specimen, with pulse repetition rates in the hundreds of kilohertz range. The application of the pulsed voltage to the sample allows for individual ions at the sample surface to have their electric field, and hence atomic bonding, temporarily disrupted. This results in ejection of an ionised atom from the sample surface at a known time. The delay between application of the pulse and detection of the ion allows for the computation of a mass-to-charge ratio.
+
+Whilst the uncertainty in the atomic mass computed by time-of-flight methods in atom probe is sufficiently small to allow for detection of individual isotopes within a material this uncertainty may still, in some cases, confound definitive identification of atomic species. Effects such as superposition of differing ions with multiple electrons removed, or through the presence of complex species formation during evaporation may cause two or more species to have sufficiently close time-of-flights to make definitive identification impossible.
+
+== History ==
+
+=== Field Ion Microscopy ===
+{{main|Field ion microscopy}}
+Field ion microscopy techniques were initially construed as a modification of [[field emission]], a technique which allows for a stream of electrons to be emitted from a sharp needle when subjected to a sufficiently high electric field (~3-6&nbsp;V/nm).<ref name="Gomer">{{cite book|title=Field emission and field ionization|author=Gomer, R|publisher=Harvard University Press|year=1961|isbn=1-56396-124-5}}</ref> The needle is oriented towards a phosphor screen to create a projected image of the tip's [[work function]], near the specimen surface. Whilst providing a projected image, the technique has limited resolution (2-2.5&nbsp;nm), due to both quantum mechanical effects and lateral variation in electron velocity.<ref name="Tsong"/>
+
+In field ion and atom probe methods, the polarity of the electric field is reversed, with a high positive field applied to the sample. For field ion microscopy a gas is introduced, known as the imaging gas, into the chamber at very low pressures. By application of a voltage during the presence of this gas, gas ions in the vicinity of the tip undergo ionisation, with greater numbers of ions generated immediately above atoms occupying edge or planar sites.
+
+==Imaging atom probe (IAP)==
+The '''imaging atom probe''' ('''IAP'''), invented in 1974 by [[J. A. Panitz]], decreased the need to move the tip. In the IAP, ions emitted from the surface are recorded and mass analyzed at a detector placed within 12&nbsp;cm of the tip (to provide a reasonably large field of view). By "time-gating" the detector for the arrival of a particular species of interest its crystallographic distribution on the surface, and as a function of depth, can be determined. Without time-gating all of the species reaching the detector are analyzed.<ref>{{cite journal|last=Panitz|first=John A.|authorlink=J. A. Panitz|year=1974|title=The Crystallographic Distribution of Field-Desorbed Species|journal=Journal of Vacuum Science and Technology|volume=11|issue=1|pages=207–210|issn=0022-5355|doi=10.1116/1.1318570|bibcode = 1974JVST...11..206P }}</ref><ref>{{cite journal|last=Panitz|first=John A.|authorlink=J. A. Panitz|year=1978|title=Imaging Atom-Probe Mass Spectroscopy|journal=Progress in Surface Science|volume=8|issue=6|pages=219–263|issn=0079-6816|doi=10.1016/0079-6816(78)90002-3|bibcode = 1978PrSS....8..219P }}</ref>
+
+===Atom-probe tomography (APT)===
+Atom-probe tomography (APT) uses a position-sensitive detector to deduce the lateral location of atoms. This allows 3-D reconstructions to be generated. The idea of the APT, inspired by J. A. Panitz's patent, was developed by Mike Miller starting in 1983 and culminated with the first prototype in 1986.<ref name="Miller"/> Various refinements were made to the instrument, including the use of a so-called position-sensitive (PoS) detector by Alfred Cerezo, Terence Godfrey, and George D. W. Smith at Oxford University in 1988. The Tomographic Atom Probe (TAP), developed by researchers at the University of Rouen in France in 1993, introduced a multichannel timing system and multianode array. Both instruments (PoSAP and TAP) were commercialized by [[Oxford Instruments|Oxford Nanoscience]] and [[Cameca]] respectively. Since then, there have been many refinements to increase the field of view, mass and position resolution, and data acquisition rate of the instrument.  In 2005, the commercialization of the pulsed laser atom probe (PLAP) expanded the avenues of research from highly conductive materials (metals) to poor conductors (semiconductors like silicon) and even insulating materials.<ref>{{cite journal|last1=Bunton|first1=J.|last2=Lenz|first2=D|last3=Olson|first3=J|last4=Thompson|first4=K|last5=Ulfig|first5=R|last6=Larson|first6=D|last7=Kelly|first7=T|year=2006|title=Instrumentation Developments in Atom Probe Tomography: Applications in Semiconductor Research|journal=Microscopy and Microanalysis (2006)|volume=12|issue=2|pages=1730–1731|issn=14319276|doi=10.1017/S1431927606065809|bibcode = 2006MiMic..12.1730B }}</ref>  [[AMETEK]] acquired [[Cameca]] in 2007 and [[Imago Scientific Instruments]] (Madison, WI) in 2010, making the company the sole commercial developer of APTs.
+
+The first few decades of work with APT focused on metals. However, more recent work has been done on semiconductors, ceramic and geologic materials, and organic biomaterials.<ref name=annrev>{{cite doi|10.1146/annurev-matsci-070511-155007}}</ref> The most advanced study of biological material to date using APT<ref name=annrev/> involved analyzing the chemical structure of teeth of the [[radula]] of [[chiton]] ''[[Chaetopleura apiculata]]''.<ref name="Gordon 2011">Gordon L. M. & Joester D. (2011). "Nanoscale chemical tomography of buried organic–inorganic interfaces in the chiton tooth". ''[[Nature (journal)|Nature]]'' '''469''': 194-197. {{doi|10.1038/nature09686}}.</ref> In this study, the use of APT showed chemical maps of organic fibers in the surrounding nano-crystalline [[magnetite]] in the chiton teeth, fibers which were often co-located with [[sodium]] or [[magnesium]].<ref name="Gordon 2011"/> This method could be used for further study of [[Tooth enamel|enamel]] and [[dentin]] of [[Tooth (human)|human teeth]] and [[bone]]s.<ref name="Gordon 2011"/>
+
+== Theory ==
+
+=== Field evaporation ===
+Field evaporation is an effect that can occur when an atom bonded at the surface of a material is in the presence of a sufficiently high and appropriately directed electric field, where the electric field is the differential of electric potential (voltage) with respect to distance. Once this condition is met, it is sufficient that local bonding at the specimen surface is capable of being overcome by the field, allowing for evaporation of an atom from the surface to which it is otherwise bonded.
+
+=== Ion flight ===
+
+Whether evaporated from the material itself, or ionised from the gas, the ions that are evaporated are accelerated by electrostatic force, acquiring most of their energy within a few tip-radii of the sample{{citation needed|date=April 2013}}.
+
+Subsequently, the accelerative force on any given ion is controlled by the [[electrostatic equation]], where ''n'' is the ionisation state of the ion, and ''e'' is the fundamental electric charge.
+
+:<math>F=ne \nabla \phi</math>
+
+This can be equated with the mass of the ion, ''m'', via Newton's law (F=ma):
+
+:<math> ma = q \nabla \phi</math>
+
+:<math> a = \frac{q}{m} \nabla \phi</math>
+
+Relativistic effects in the ion flight are usually ignored, as realisable ion speeds are only a very small fraction of the speed of light.
+
+Assuming that the ion is accelerated during a very short interval, the ion can be assumed to be travelling at constant velocity. As the ion will travel from the tip at voltage V<sub>1</sub> to some nominal ground potential, the speed at which the ion is travelling can be estimated by the energy transferred into the ion during (or near) ionisation. Therefore the ion speed can be computed with the following equation, which relates kinetic energy to energy gain due to the electric field{{citation needed|date=April 2013}}.
+
+:<math>E = \frac{1}{2}mU_{\mathrm{ion}}^2 = neV_1</math>
+
+Where ''U'' is the ion velocity. Solving for ''U'', the following relation is found:
+
+:<math> U =\sqrt{ \frac{ 2neV_1}{m}}</math>
+
+For a singly charged [[hydrogen]] ion, ionised at 8&nbsp;kV, the resulting velocity would be X&nbsp;ms<sup>−1</sup>. For a singly charged [[deuterium]] ion, the velocity would be Y&nbsp;ms<sup>−1</sup>. If a detector was placed at a distance of 1&nbsp;m, the ion flight times would be X and Y&nbsp;ns. Thus, the time of the ion arrival can be used to infer the ion type itself, if the evaporation time is known.
+
+From the above equation, it can be re-arranged to show that
+
+:<math> \frac{m}{n} = \frac{2eV_1}{U^2} </math>
+
+given a known flight distance. F, for the ion, and a known flight time, t,
+
+:<math> U = \frac{f}{t}</math>
+
+and thus one can substitute these values to obtain the mass-to-charge for the ion.
+
+:<math> \frac{m}{n} = 2eV_1 \left(\frac{t}{f}\right)^2 </math>
+
+Thus for an ion which traverses a 1&nbsp;m flight path, across a time of 2000&nbsp;ns, given an initial accelerating voltage of 5000&nbsp;V and noting that one amu is 1×10<sup>−27</sup>&nbsp;kg, the mass-to-charge ratio (more correctly the mass-to-ionisation value ratio) becomes Z amu/charge.
+
+=== Magnification ===
+The magnification in an atom is due to the projection of ions radially away from the small, sharp tip. Subsequently, in the far field, the ions will be greatly magnified. This magnification is sufficient to observe field variations due to individual atoms, thus allowing in field ion and field evaporation modes for the imaging of single atoms.
+
+The standard projection model for the atom probe is an emitter geometry that is based upon a revolution of a [[conic section]], such as a sphere, [[hyperboloid]] or [[paraboloid]]. For these tip models, solutions to the field may be approximated or obtained analytically. The magnification for a spherical emitter is inversely proportional to the radius of the tip, given a projection directly onto a spherical screen, the following equation can be obtained geometrically.
+
+:<math>M = \frac{r_{screen}}{r_{tip}}. </math>
+
+Where r<sub>screen</sub> is the radius of the detection screen from the tip centre, and r<sub>tip</sub> the tip radius. Practical tip to screen distances may range from several centimeters to several meters, with increased detector area required at larger to subtend the same [[field of view]].
+
+Practically speaking, the usable magnification will be limited by several effects, such as lateral vibration of the atoms prior to evaporation.
+
+Whilst the magnification of both the field ion and atom probe microscopes is extremely high, the exact magnification is dependant upon conditions specific to the examined specimen, so unlike for conventional [[electron microscope]]s, there is often little direct control on magnification, and furthermore, obtained images may have strongly variable magnifications due to fluctuations in the shape of the electric field at the surface.
+
+=== Reconstruction ===
+The computational conversion of the ion sequence data, as obtained from a  position sensitive detector, to a three dimensional visualisation of atomic types, is termed "reconstruction". Reconstruction algorithms are typically geometrically based, and have several literature formulations. Most models for reconstruction assume that the tip is a spherical object, and utilise empirical corrections to [[stereographic projection]] to convert detector positions back to a 2D surface embedded in R<sup>3</sup>. By sweeping this surface through R<sup>3</sup> as a function of the ion sequence input data, such as via ion-ordering, a volume is generated onto which positions the 2D detector positions can be computed and placed three-dimensional space.
+
+Typically the sweep takes the simple form of an advancement of the surface, such that the surface is expanded in a symmetric manner about its advancement axis, with the advancement rate set by some nominal volume attributed to each event, representative of the atomic volume of the atom prior to evaporation. This causes the final reconstructed volume to assume a rounded-conical shape, similar to a badminton [[shuttlecock]]. The detected events thus become a [[point cloud]] data with attributed experimentally measured values, such as ion time of flight or experimentally derived quantities, e.g. time of flight or detector data.
+
+This form of data manipulation allows for rapid computer visualisation and analysis, with data presented as point cloud data with additional information, such as each ion's mass to charge (as computed from the velocity equation above), voltage or other auxiliary measured quantity or computation therefrom.
+
+=== Data features ===
+
+The canonical feature of atom probe data its high spatial resolution in the direction through the material, which has been attributed to an ordered evaporation sequence. This data can therefore image near atomically sharp interfaces with the associated chemical information.
+
+The data obtained from the evaporative process is however not without artefacts that form the physical evaporation or ionisation process. A key feature of the evaporation or field ion images is that the data density is highly inhomogeneous, due to the corrugation of the specimen surface at the atomic scale. This corrugation gives rise to strong electric field gradients in the near-tip zone (on the order of an atomic radii or less from the tip), which during ionisation deflects ions away from the electric field normal.
+
+The resultant deflection means that in these regions of high curvature, atomic terraces are belied by a strong anisotropy in the detection density. Where this occurs due to a few atoms on a surface is usually referred to as a "pole", as these are coincident with the crystallographic axes of the specimen ([[Cubic crystal system|FCC]], [[Cubic crystal system|BCC]], [[Close-packing of spheres|HCP]]) etc.  Where the edges of an atomic terrace causes deflection, a low density line is formed and is termed a "zone line".
+
+These poles and zone-lines, whilst inducing fluctuations in data density in the reconstructed datasets, which can prove problematic during post-analysis, are critical for determining information such as angular magnification, as the crystallographic relationships between features are typically well known.
+
+When reconstructing the data, owing to the evaporation of successive layers of material from the sample, the lateral and in-depth reconstruction values are highly anisotropic. Determination of the exact resolution of the instrument is of limited use, as the resolution of the device is set by the physical properties of the material under analysis.
+
+== Systems ==
+Atom probe devices have only relatively recently been produced commercially, and many designs have been constructed since the method's inception. Initial field ion microscopes, precursors to modern atom probes, were usually glass blown devices developed by individual research laboratories.
+
+=== System layout ===
+At a minimum, an atom probe will consist of several key pieces of equipment.
+
+* A vacuum system for maintaining the low pressures (~10<sup>−8</sup> to 10<sup>−10</sup>&nbsp;Pa) required.
+* A system for manipulation of samples inside the vacuum, including sample viewing systems. Samples may be required to be cooled anywhere between room temperature to as low as 15&nbsp;K.
+* A cooling system to reduce atomic motion, such as a helium refrigeration circuit.
+* A high voltage system to raise the sample voltage.
+* A detection system for single ions for field evaporation.
+
+Optionally, an atom probe may also include laser-optical systems for laser beam preparation, targeting and pulsing, if using laser-evaporation methods. Staged vacuum systems are regularly employed  to ensure that the system vacuum conditions remain stable. In-situ reaction systems may also be employed for some studies.
+
+=== Performance ===
+
+Collectable ion volumes were previously limited to several thousand, or tens of thousands of ionic events. Subsequent electronics and instrumentation development has increased the rate of data accumulation, with datasets of several tens of million atoms (dataset volumes of 10<sup>5</sup>&nbsp;nm<sup>3</sup>)
+
+== Applications ==
+
+=== Metallurgy ===
+Atom probe has typically been employed in the chemical analysis of alloy systems at the atomic level. This has arisen as a result of voltage pulsed atom probes providing good chemical and sufficient spatial information in these materials. Metal samples from large grained alloys may be simple to fabricate, particularly from wire samples, with hand-electropolishing techniques giving good results.
+
+Subsequently, atom probe has been used in the analysis of the chemical composition of a wide range of alloys.
+
+Such data is critical in determining the effeto of alloy constituents in a bulk material, identification of solid-state reaction features, such as solid phase precipitates. Such information may not be amenable to analysis by other means (e.g. [[Transmission electron microscopy|TEM]]) owing to the difficulty in generating a three dimensional dataset with composition.
+
+=== Semiconductors ===
+Semi-conductor materials are often analysable in atom probe, however sample preparation may be more difficult, and interpretation of results may be more complex, particularly if the semi-conductor contains phases which evaporate at differing electric field strengths.
+
+Applications such as ion implantation may be used to identify the distribution of dopants inside a semi-conducting material, which is increasingly critical in the correct design of modern nanometre scale electronics.
+
+== Limitations ==
+
+* Materials implicitly control achievable, spatial resolution
+* Specimen geometry is uncontrolled, yet controls projection behaviour, hence little control over the magnification. This may induce strong distortions into the computer generated 3D model dataset.
+* Limited volume selectability, unlike EM methods. Site specific preparation methods, e.g. using [[Focussed ion beam]] preparation, although more time consuming, may be used to bypass such limitations.
+* Features of interest may evaporate in a physically different manner to the bulk sample, altering projection geometry and the magnification of the reconstructed volume.
+* Ion overlap in some samples (e.g. between oxygen and ) may result in ambiguous analysed species. This may be mitigated by selection of experiment temperature or laser input energy to influence the ionisation number (+, ++, 3+ etc.) of the ionised groups.
+* Low molecular weight gases (Hydrogen & helium) may be difficult to remove from the analysis chamber, and may be adsorbed and emitted from the specimen, even though not present in the original specimen. This may also limit identification of Hydrogen in some samples. However [[deuterated]] samples have been used to overcome this limitation.
+* Results may be contingent on the parameters used to convert the 2D detected data into  3D. Subsequently spatial measurements can be greatly affected, and careful analysis of the reconstructed volume is needd to ensure the correct results. In more problematic materials, correct reconstruction may be impossible due to limited knowledge of the true magnification; particularly if zone or pole regions cannot be observed.
+
+== References ==
+<references/>
+
+==Further reading==
+* Michael K. Miller, George D.W. Smith, Alfred Cerezo, Mark G. Hetherington (1996) [http://global.oup.com/academic/product/atom-probe-field-ion-microscopy-9780198513872;jsessionid=F53061A5E14E4B2E48E85768EFDF3FD3?cc=at&lang=en& Atom Probe Field Ion Microscopy ] Monographs on the Physics and Chemistry of Materials, Oxford: Oxford University Press. ISBN 9780198513872.
+* Michael K. Miller (2000) ''Atom Probe Tomography: Analysis at the Atomic Level.'' New York: Kluwer Academic. ISBN 0306464152
+* Baptiste Gault, Michael P. Moody, Julie M. Cairney, SImon P. Ringer (2012) [http://www.springer.com/materials/characterization+%26+evaluation/book/978-1-4614-3435-1 Atom Probe Microscopy], Springer Series in Materials Science, Vol. 160, New York: Springer. ISBN 978-1-4614-3436-8
+
+
+==External links==
+* [http://atomprobes.com/background/movie.html Video demonstrating Field Ion images, and pulsed ion evaporation]
+* [http://www.atomprobe.com www.atomprobe.com - A CAMECA provided community resource with contact information and an interactive FAQ]
+
+===Research groups and facilities===
+
+====Americas====
+* [http://atomprobe.mines.edu Colorado School of Mines]
+* [http://emalserver.engin.umich.edu/facilities_instruments/north/CamecaAtomprobe.html University of Michigan]
+* [http://www.news.iastate.edu/news/2007/may/atomprobe.shtml Iowa State University]
+* [http://arc.nucapt.northwestern.edu/ Northwestern University Center for Atom-Probe Tomography]
+* [http://www.ca.sandia.gov/8700/capabilities/content.php?cid=225 Sandia National Laboratories]
+* [http://caf.ua.edu/ The University of Alabama's Central Analytical Facility]
+* [http://cart.unt.edu/Facilities/LEAP.html University of North Texas's Center for Advanced Research and Technology]
+* [http://www.emsl.pnl.gov/news/arra/leap.jsp DOE's Environmental Molecular Sciences Laboratory]
+National Institute of Standards and Technology, Boulder, Colorado
+
+====Asia====
+* [http://www.nims.go.jp/apfim/ Metallic Nanostructure group of the National Institute for Materials Science (Japan)]
+
+====Australia====
+* [http://sydney.edu.au/acmm/facilities/atom_probe/index.shtml Australian Centre for Microscopy & Microanalysis, The University of Sydney]
+
+====Europe====
+*[http://www.uni-muenster.de/Physik.MP/Schmitz/en/Forschung/Arbeitsgebiete/APT/index.html, Institute of Materials Physics, WWU Münster (Germany)]
+* [http://gpm.labos.univ-rouen.fr/ Groupe de Physique des Matériaux (FRANCE)]
+* [http://www.material.physik.uni-goettingen.de/index.php?site=alkassab&lang=en Atom Probe Tomography Group, Göttingen University (Germany)]
+* [http://www.chalmers.se/ap/EN/research/microscopy-microanalysis Division of Microscopy and Microanalysis, Chalmers University of Technology (Sweden)]
+* [http://www.materials.ox.ac.uk/fim/ Field Ion Microscopy Group University of Oxford (United Kingdom)]
+* [http://www.imec.be IMEC, Materials and Component Analysis group, Leuven, Belgium]
+
+===Instrument Manufacturers===
+* [http://www.cameca.com Cameca]
+
+{{DEFAULTSORT:Atom Probe}}
+[[Category:Scientific techniques]]
+[[Category:Microscopes]]
+[[Category:Nanotechnology]]

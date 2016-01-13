@@ -1,0 +1,403 @@
+{{Redirect|Bash (software)|other software|Bash (disambiguation)}}
+{{Infobox software
+| name                   = Bash
+| logo                   =
+| screenshot             = [[Image:Bash screenshot.png|250px]]
+| caption                = Screenshot of Bash and [[Bourne shell|sh]] sessions demonstrating some features
+| author                 = [[Brian Fox (computer programmer)|Brian Fox]]
+| released               = {{start date and age|1989|6|7}}
+| frequently updated     = yes
+| programming language   = [[C (programming language)|C]]
+| operating system       = [[Cross-platform]]
+| platform               = [[GNU]]
+| language               = English, multilingual ([[gettext]])
+| status                 = Active
+| genre                  = [[Unix shell]]
+| source model           = [[Free software]]
+| license                = [[GPL v3]]+<ref name="license">{{cite web
+| author                 = GNU Project
+| authorlink             = GNU Project
+| title                  = README file
+| url                    = {{URL|http://www.gnu.org/software/bash}}
+| quote                  = Bash is free software, distributed under the terms of the [GNU] General Public License as published by the Free Software Foundation, version 3 of the License (or any later version).
+}}</ref>
+| website                = {{url|http://www.gnu.org/software/bash/}}
+}}
+
+'''Bash''' is a [[Unix shell]] written by [[Brian Fox (computer programmer)|Brian Fox]] for the [[GNU Project]] as a [[free software]] replacement for the [[Bourne shell]] (sh).<ref name="GNUBSD">
+{{Cite newsgroup
+  | title = GNU + BSD = ?
+  | author = [[Richard Stallman]] (forwarded with comments by Chet Ramey)
+  | date = February 10, 1988
+  | newsgroup = comp.unix.questions
+  | id =2362@mandrill.CWRU.Edu
+  | url=https://groups.google.com/forum/#!original/comp.unix.questions/iNjWwkyroR8/yedr9yDWSuQJ
+  | accessdate = Mar 22, 2011
+  | quote = For a year and a half, the GNU shell was "just about done".  The author made repeated promises to deliver what he had done, and never kept them.  Finally I could no longer believe he would ever deliver anything.  So Foundation staff member Brian Fox is now implementing an imitation of the Bourne shell.
+}}
+</ref><ref>
+{{Citation
+  | last = Hamilton
+  | first = Naomi
+  | author-link = http://www.computerworld.com.au/author/97635374/naomi-hamilton/articles
+  | title = The A-Z of Programming Languages: BASH/Bourne-Again Shell
+  | journal = Computerworld
+  | page = 2
+  | date = May 30, 2008
+  | accessdate = Mar 21, 2011
+  | url = http://www.computerworld.com.au/article/222764/a-z_programming_languages_bash_bourne-again_shell/?pp=2&fp=16&fpid=1
+  | quote = When Richard Stallman decided to create a full replacement for the then-encumbered Unix systems, he knew that he would eventually have to have replacements for all of the common utilities, especially the standard shell, and those replacements would have to have acceptable licensing.
+}}
+</ref>  Released in 1989,<ref name=BashBeta>
+{{Cite newsgroup
+  | title = Bash is in beta release!
+  | author = Brian Fox (forwarded by Leonard H. Tower Jr.)
+  | date = June 8, 1989
+  | newsgroup = gnu.announce
+  | url = http://groups.google.com/group/gnu.announce/msg/a509f48ffb298c35?hl=en
+  | accessdate = Oct 28 2010
+}}
+</ref> it has been distributed widely as the shell for the [[GNU operating system]] and as a default shell on [[Linux]] and {{nowrap|[[Mac OS X]]}}.  It has been ported to [[Microsoft Windows]] and distributed with [[Cygwin]] and [[MinGW]], to [[DOS]] by the [[DJGPP]] project, to [[Novell NetWare]] and to [[Android (operating system)|Android]] via various terminal emulation applications.
+
+Bash is a [[Command-line interpreter|command processor]], typically run in a text window, allowing the user to type commands which cause actions. Bash can also read commands from a file, called a  [[Shell script|script]].  Like all Unix shells, it supports  filename [[Wildcard character|wildcarding]], [[Pipeline (Unix)|piping]], [[here document]]s, [[command substitution]], [[Variable (programming)|variables]] and [[control flow|control structures]] for [[Conditional (programming)|condition-testing]] and [[iteration]].<ref>
+{{cite journal
+  | last = Bourne
+  | first = S. R.
+  | authorlink = Stephen R. Bourne
+  | title = The UNIX Shell
+  | journal = The Bell System Technical Journal
+  | volume = 57
+  | issue = 6
+  | pages = 1971&ndash;1990
+  | publisher = American Telephone and Telegraph Company
+  | location = Short Hills, NJ
+  | date = July/August 1978
+  | issn = 0005-8580
+  | quote = The lines between <code><<!</code> and <code>!</code> are called a ''here'' document; they are read by the shell and made available as the standard input.}}</ref>  The [[Keyword (computer programming)|keywords]], [[Syntax (programming languages)|syntax]] and other basic features of the [[Language (computer science)|language]] were all copied from sh.  Other features, e.g., [[C shell#History|history]], were copied from [[C shell|csh]] and [[Korn shell|ksh]].  Bash is a [[POSIX]] shell but with a number of extensions.
+
+The name itself is an [[acronym]], a [[pun]], and a description.  As an acronym, it stands for ''Bourne-again shell'', referring to its objective as a free replacement for the Bourne shell.<ref>[http://www.ddj.com/cpp/184404693 C Programming] by Al Stevens, [[Dr. Dobb's Journal]], July 1, 2001</ref>
+As a pun, it expressed that objective in a phrase that sounds similar to ''[[Born again (Christianity)|born again]]'', a term for spiritual rebirth.<ref>
+{{cite web
+  | author = [[Richard Stallman]]
+  | title = About the GNU Project
+  | publisher = [[Free Software Foundation]]
+  | date =  Nov 12, 2010
+  | url = http://www.gnu.org/gnu/thegnuproject.html
+  | quote = “Bourne Again Shell” is a play on the name “Bourne Shell”, which was the usual shell on Unix.
+  | accessdate = Mar 13, 2011
+| archiveurl= http://web.archive.org/web/20110424064815/http://www.gnu.org/gnu/thegnuproject.html| archivedate= 24 April 2011 <!--DASHBot-->| deadurl= no}}
+</ref><ref>
+{{Citation
+  | last = Gattol
+  | first = Markus
+  | title = Bourne-again Shell
+  | date = Mar 13, 2011
+  | url = http://www.markus-gattol.name/ws/bash.html
+  | quote = The name is a pun on the name of the Bourne shell (sh), an early and important Unix shell written by Stephen Bourne and distributed with Version 7 Unix circa 1978, and the concept of being "born again".
+  | accessdate = Mar 13, 2011
+}}
+</ref> The name is also descriptive of what it did, ''bashing together'' the features of sh, csh and ksh.<ref>
+{{Cite newsgroup
+  | title = at&t-free ksh (was: job control is a bug, not a feature)
+  | author = Ian Darwin
+  | date = June 13, 1989
+  | newsgroup = comp.os.minix
+  | id =
+  | url = http://groups.google.com/group/comp.os.minix/msg/63c036d82ceca4d6?hl=en
+  | accessdate = Mar 21, 2011
+  | quote = Yup, the gnu project's Born Again Shell ("bash") is an attempt at bashing all the features of sh together with many of those from both csh and ksh.
+}}
+</ref>
+
+== History ==
+Brian Fox began [[Computer programming|coding]] Bash on January 10, 1988<ref>
+{{Citation
+  | author = Brian Fox
+  | title = shell.c
+  | place =
+  | publisher = [[Free Software Foundation]]
+  | date = August 29, 1996
+  | url = http://ftp.gnu.org/gnu/bash/bash-1.14.7.tar.gz
+  | quote = Birthdate:  Sunday, January 10th, 1988.  Initial author:  Brian Fox
+ }}
+</ref> after [[Richard Stallman]] became dissatisfied with the lack of progress being made by a prior developer.<ref name=GNUBSD/>  Stallman and the [[Free Software Foundation]] (FSF) considered a free shell that could run existing sh scripts so strategic to a completely free system built from BSD and GNU code that this was one of the few projects they funded themselves, with Fox undertaking the work as an employee of FSF.<ref name=GNUBSD/><ref>
+{{cite web
+  | author = [[Richard Stallman]]
+  | title = About the GNU Project
+  | publisher = [[Free Software Foundation]]
+  | date =  October 3, 2010
+  | url = http://www.gnu.org/gnu/thegnuproject.html
+  | accessdate = Mar 21, 2011
+  | quote = Free Software Foundation employees have written and maintained a number of GNU software packages. Two notable ones are the C library and the shell. ...  We funded development of these programs because the GNU Project was not just about tools or a development environment. Our goal was a complete operating system, and these programs were needed for that goal.
+| archiveurl= http://web.archive.org/web/20110424064815/http://www.gnu.org/gnu/thegnuproject.html| archivedate= 24 April 2011 <!--DASHBot-->| deadurl= no}}
+</ref> Fox released Bash as a beta, version .99, on June 7, 1989<ref name=BashBeta/> and remained the primary maintainer until sometime between mid-1992<ref>
+{{Cite newsgroup
+  | title = January 1993 GNU's Bulletin
+  | author = len (g...@prep.ai.mit.edu)
+  | date = April 20, 1993
+  | newsgroup = gnu.announce
+  | id = gnusenet930421bulletin@prep.ai.mit.edu
+  | url = http://groups.google.com/group/gnu.misc.discuss/msg/4f42c739cd7e8bd8
+  | accessdate = Oct 28 2010
+}}
+</ref> and mid-1994,<ref name="Bourne shell grammar">{{cite web|first=Chet|last=Ramey|title=Bash - the GNU shell (Reflections and Lessons Learned)|url=http://www.linuxjournal.com/article/2800#N0xa50890.0xb46380|accessdate=2008-11-13| date=1994-08-01|work=[[Linux Journal]]| archiveurl= http://web.archive.org/web/20081205082152/http://www.linuxjournal.com/article/2800| archivedate= 5 December 2008 <!--DASHBot-->| deadurl= no}}</ref> when he was laid off from FSF<ref>
+{{Citation
+  | title = Dates in your Computerworld interview
+  | author = Chet Ramey
+  | date = October 31, 2010
+  | url = http://www.scribd.com/doc/40556434/2010-10-31-Chet-Ramey-Early-Bash-Dates
+  | accessdate = Oct 31 2010
+}}
+</ref> and his responsibility was transitioned to another early contributor, Chet Ramey.<ref>
+{{Cite newsgroup
+  | title = Bash 0.99 fixes & improvements
+  | author = Chet Ramey
+  | date = June 12, 1989
+  | newsgroup = gnu.bash.bug
+  | id =
+  | url = http://groups.google.com/group/gnu.bash.bug/msg/1fc7b688f5d44438?hl=en
+  | accessdate = Nov 1 2010
+}}
+</ref><ref>
+{{Cite newsgroup
+  | title = Some bash-1.02 fixes
+  | author = Chet Ramey
+  | date = July 24, 1989
+  | newsgroup = gnu.bash.bug
+  | id =
+  | url = http://groups.google.com/group/gnu.bash.bug/msg/072a03645663caea?hl=en
+  | accessdate = Oct 30 2010
+}}
+</ref><ref>
+{{Cite newsgroup
+  | title = Availability of bash 1.05
+  | author = Brian Fox
+  | date = March 2, 1990
+  | newsgroup = gnu.bash.bug
+  | id =
+  | url = http://groups.google.com/group/gnu.bash.bug/msg/e6112ccc8866e2f4?hl=en
+  | accessdate = Oct 30 2010
+}}
+</ref>
+
+==Features==
+The Bash [[command (computing)|command]] syntax is a [[superset]] of the Bourne shell command syntax. The vast majority of Bourne shell scripts can be executed by Bash without modification, with the exception of Bourne shell scripts stumbling into fringe syntax behavior interpreted differently in Bash or attempting to run a system command matching a newer Bash builtin, etc.  Bash command syntax includes ideas drawn from the [[Korn shell]] (ksh) and the [[C shell]] (csh) such as command line editing, [[command history]], the directory stack, the <tt>$RANDOM</tt> and <tt>$PPID</tt> variables, and POSIX [[command substitution]] syntax <tt>$(…)</tt>. When used as an interactive command shell and pressing the [[tab key]], Bash automatically uses [[command line completion]] to match partly typed program names, filenames and variable names.  The Bash command-line completion system is very flexible and customizable, and is often packaged with functions that complete arguments and filenames for specific programs and tasks.
+
+Bash's syntax has many extensions which the Bourne shell lacks. Bash can perform integer calculations without spawning external processes, unlike the Bourne shell. Bash uses the <tt>((…))</tt> command and the <tt>$((…))</tt> variable syntax for this purpose. Bash syntax simplifies [[redirection (computing)|I/O redirection]] in ways that are not possible in the traditional Bourne shell. For example, Bash can redirect [[standard out]]put (stdout) and [[Standard error stream|standard error]] (stderr) at the same time using the <tt>&></tt> operator. This is simpler to type than the Bourne shell equivalent '<tt>command > file 2>&1</tt>'.  Bash supports [[process substitution]] using the <tt><(command)</tt>syntax, which substitutes the output of (or input to) a command where a filename is normally used.
+
+When using the 'function' keyword, Bash function declarations are not compatible with Bourne/Korn/POSIX scripts (the Korn shell has the same problem when using 'function'), but Bash accepts the same function declaration syntax as the Bourne and Korn shells, and is POSIX-conformant. Due to these and other differences, Bash shell scripts are rarely runnable under the Bourne or Korn shell interpreters unless deliberately written with that compatibility in mind, which is becoming less common as Linux becomes more widespread.  But in POSIX mode,<ref name="GNUBASHREF">
+{{Citation
+  | title = The GNU Bash Reference Manual, for Bash, Version 4.1
+  | place =
+  | publisher =
+  | origyear =
+  | date = December 23, 2009
+  | volume =
+  | edition =
+  | chapter = 6.11 Bash POSIX Mode
+  | chapterurl = http://www.gnu.org/software/bash/manual/html_node/Bash-POSIX-Mode.html
+  | accessdate = Oct 26 2010
+
+  | url = http://www.gnu.org/software/bash/manual/html_node/index.html
+| archiveurl= http://web.archive.org/web/20101203065400/http://www.gnu.org/software/bash/manual/html_node/index.html| archivedate= 3 December 2010 <!--DASHBot-->| deadurl= no}}
+</ref> Bash conformance with POSIX is nearly perfect.
+
+Bash supports [[here document]]s just as the Bourne shell always has. In addition, since version 2.05b Bash can redirect [[Stdin|standard input]] (stdin) from a "here string" using the <tt><<<</tt> operator.
+
+Bash 3.0 supports in-process [[regular expression]] matching using a syntax reminiscent of [[Perl]].<ref>The syntax matches that shown on the <code>[http://www.tin.org/bin/man.cgi?section=7&topic=regex regex(7)]</code> [[man page]].</ref>
+
+Bash 4.0 introduced support for associative arrays.<ref name=GNUBASHREF/><ref>"The shell provides associative array variables, with the appropriate support to create, delete, assign values to, and expand them." http://tiswww.case.edu/php/chet/bash/NEWS</ref> Associative arrays allow a fake support for multi-dimensional (indexed) arrays, in a similar way to [[AWK]]:
+
+<source lang="bash">
+declare -A a         # declare an associative array 'a' faking a bi-dimensional indexed array
+i=1; j=2             # initialize some indices
+a[$i,$j]=5           # associate value "5" to key "$i,$j" (i.e. "1,2")
+echo ${a[$i,$j]}     # print the stored value at key "$i,$j"
+</source>
+
+===Brace expansion===
+
+Brace expansion, also called alternation, is a feature copied from the [[C shell]] that generates a set of alternative combinations. The generated results need not exist as files. The results of each expanded string are not sorted and left to right order is preserved:
+
+<source lang="bash">
+echo a{p,c,d,b}e # ape ace ade abe
+echo {a,b,c}{d,e,f} # ad ae af bd be bf cd ce cf
+</source>
+Brace expansions should not be used in portable shell scripts, because the Bourne shell will not produce the same output.
+
+<source lang="bash">
+#!/bin/sh
+
+# A traditional shell does not produce the same output
+echo a{p,c,d,b}e # a{p,c,d,b}e
+</source>
+
+When brace expansion is combined with wildcards, the braces are expanded first, and then the resulting wildcards are substituted normally.  Hence, a listing of JPEG and PNG images in the current directory could be obtained with:
+
+<source lang="bash">
+ls *.{jpg,jpeg,png}    # expands to *.jpg *.jpeg *.png - after which,
+                       # the wildcards are processed
+</source>
+
+===Startup scripts===
+When Bash starts, it executes the commands in a variety of dot files.  Though similar to Bash shell script commands, which have execute permission enabled and an [interpreter directive] of <tt>#!/bin/bash</tt>, the default dot files used by Bash require neither.
+
+====Execution order of startup files====
+<!-- A little margin for readability -->
+<div style="margin: 1.5em 3em">
+
+=====When started as an interactive login shell=====
+Bash reads and executes <tt>/etc/profile</tt> (if it exists). (Often this file calls <tt>/etc/bash.bashrc</tt>.)
+
+After reading that file, it looks for <tt>~/.bash_profile</tt>, <tt>~/.bash_login</tt>, and <tt>~/.profile</tt> ''in that order'', and reads and executes the first one that exists and is readable.
+
+=====When a login shell exits=====
+Bash reads and executes <tt>~/.bash_logout</tt> (if it exists).
+
+=====When started as an interactive shell (but not a login shell)=====
+Bash reads and executes <tt>~/.bashrc</tt> (if it exists). This may be inhibited by using the <tt>--norc</tt> option. The <tt>--rcfile file</tt> option will force Bash to read and execute commands from <tt>file</tt> instead of <tt>~/.bashrc</tt>.
+</div>
+
+====Comparison with the Bourne shell and csh startup sequences====
+
+Elements of Bash were derived from the [[Bourne shell]] and [[csh]], and allow limited startup file sharing with the Bourne shell and provide some startup features familiar to users of the csh.
+
+<!-- A little margin for readability -->
+<div style="margin: 1.5em 3em">
+
+=====Setting inheritable environment variables=====
+In the Bourne shell, the <tt>~/.profile</tt> is used at login for setting environment variables which are then inherited by subprocesses.  For Bash, the <tt>~/.profile</tt> can still be used in a compatible way, by executing it explicitly from the Bash-specific <tt>~/.bash_profile</tt> or <tt>~/.bash_login</tt> with the line below.  Bash-specific syntax can be kept out of the <tt>~/.profile</tt> to keep the latter compatible with the Bourne shell.
+<source lang="bash">. ~/.profile</source>
+
+=====Aliases and Functions=====
+These two facilities, [[alias (command)|aliases]] from csh and the more general functions largely superseding them from Bourne shell, were not typically inheritable from the login shell and had to be redefined in each subshell spawned from the login shell.  Although there is an <tt>ENV</tt> environment variable that could be applied to the problem, both csh and Bash support per-subshell startup files which address it directly.  In Bash, the <tt>~/.bashrc</tt> is called for interactive subshells.  If user-defined functions from the <tt>~/.bashrc</tt> are desired in the login shell as well, the <tt>~/.bash_login</tt> can include the line below after any setting up of environment variables:
+<source lang="bash">. ~/.bashrc</source>
+
+=====Commands performed only at login and logout=====
+The csh supports a <tt>~/.login</tt> file for purposes of tasks performed only during initial login, such as displaying system load, disk status, whether email has come in, logging the login time, etc.  The Bourne shell can emulate this in the <tt>~/.profile</tt>, but doesn't predefine a file name.  To achieve similar semantics to the csh model, the <tt>~/.bash_profile</tt> can contain the line below, after the environment setup and function setup:
+<source lang="bash">. ~/.bash_login</source> 
+Likewise, the csh has a <tt>~/.logout</tt> file run only when the login shell exits.  The Bash equivalent is <tt>~/.bash_logout</tt>, and requires no special setup.  In the Bourne shell, the <tt>trap</tt> built-in can be used to achieve a similar effect. 
+</div>
+
+=====Legacy-compatible Bash startup example=====
+
+The skeleton <tt>~/.bash_profile</tt> below is compatible with the Bourne shell and gives semantics similar to csh for the <tt>~/.bashrc</tt> and <tt>~/.bash_login</tt>.  The <tt>[ -r ''filename'' ]<tt> are tests to see if the ''filename'' exists and is readable, simply skipping the part after the <tt>&&</tt> if it's not.
+
+<source lang="bash">
+[ -r ~/.profile ] && . ~/.profile             # set up environment, once, Bourn-sh syntax only.
+if [ -n "$PS1" ] ; then                       # are we interactive?
+   [ -r ~/.bashrc     ] && . ~/.bashrc        # tty/prompt/function setup for interactive shells.
+   [ -r ~/.bash_login ] && . ~/.bash_login    # any at-login tasks for login shell only.
+fi
+</source>
+
+====Operating system issues in Bash startup====
+
+Some versions of [[Unix]] and [[Linux]] contain Bash system startup scripts, generally under the <tt>/etc</tt> directories, which are called as part of standard Bash initialization but which themselves may read in other startup files in a different order than that in the documented Bash startup sequence.  The default content of the root user's files may also have issues, as well as the skeleton files provided to new user accounts upon setup.  The startup scripts that launch the [[X window system]] may also do surprising things with the user's Bash startup scripts in an attempt to set up the user's environment variables before launching the [[window manager]], but are often addressable using a <tt>~/.xsession</tt> or <tt>~/.xprofile</tt> file to read the <tt>~/.profile</tt>, which the provides the environment variables needed for the Bash shell windows spawned from the window manager, such as [[xterm]] or [[Gnome Terminal]].
+
+===Portability===
+Invoking Bash with the <code>--posix</code> option or stating <code>set -o posix</code> in a script causes Bash to conform very closely to the [[Posix#POSIX.2|POSIX 1003.2 standard]].<ref name=tldp />
+Bash shell scripts intended for [[portability (computer science)|portability]] should at least take into account the Bourne shell it intends to replace.  
+Bash has certain features that the traditional Bourne shell lacks. Among these are:<ref name=tldp>{{cite web|author=Mendel Cooper|title=Portability Issues|url=http://tldp.org/LDP/abs/html/portabilityissues.html|work=The Linux Documentation Project|publisher=ibiblio.org}}</ref>
+*Certain extended invocation options
+*Command substitution using $( ) notation (this feature is part of the POSIX 1003.2 standard though)
+*Brace expansion
+*Certain array operations, and associative arrays
+*The double brackets extended test construct
+*The double-parentheses arithmetic-evaluation construct
+*Certain string manipulation operations
+*Process substitution
+*A Regular Expression matching operator
+*Bash-specific builtins
+*Coprocesses
+
+===Keyboard shortcuts===
+The following shortcuts work when using default ([[Emacs]]) key bindings. [[Vi-binding]]s can be enabled by running <code>set -o vi</code>.<ref>[http://www.hypexr.org/bash_tutorial.php#emacs BASH Help - A Bash Tutorial]. Hypexr.org (2012-10-05). Retrieved on 2013-07-21.</ref>
+
+Note: For shortcuts involving {{key press|Alt}}, you may be able to use {{key press|Esc}} instead.
+
+Note: Sometimes, you must use {{key press|Esc}} instead of {{key press|Alt}}, because the {{key press|Alt}} shortcut conflicts with another shortcut. For example, in [[Trisquel|Trisquel 5.0]] (a distribution of Linux), pressing {{key press|Alt|f}} will not move the cursor forward one word, but will activate "File" in the menu of the terminal window.
+
+{{See also|Readline}}
+
+* {{key press|TAB}} : [[Autocomplete]]s from the cursor position.
+* {{key press|Ctrl|a}} : Moves the cursor to the line start (equivalent to the key {{key press|[[home key|Home]]}}).
+* {{key press|Ctrl|b}} : Moves the cursor back one character (equivalent to the key {{key press|[[arrow keys|Left]]}}).
+* {{key press|Ctrl|c}} : Sends the signal [[SIGINT (POSIX)|SIGINT]] to the current task, which aborts and closes it.
+* {{key press|Ctrl|d}}
+** Sends an EOF marker, which (unless disabled by an option) closes the current [[shell (computing)|shell]] (equivalent to the command <code>[[exit (command)|exit]]</code>). (Only if there is no text on the current line)
+** If there is text on the current line, deletes the current character (then equivalent to the key {{key press|[[Delete key|Delete]]}}).
+* {{key press|Ctrl|e}} : ([[wikt:end|end]]) moves the cursor to the line end (equivalent to the key {{key press|[[end key|End]]}}).
+* {{key press|Ctrl|f}} : Moves the cursor forward one character (equivalent to the key {{key press|[[arrow keys|Right]]}}).
+* {{key press|Ctrl|g}} : Abort the research and restore the original line.
+* {{key press|Ctrl|h}} : Deletes the previous character (same as backspace).
+* {{key press|Ctrl|i}} : Equivalent to the tab key.
+* {{key press|Ctrl|j}} : Equivalent to the enter key.
+* {{key press|Ctrl|k}} : Clears the line content after the cursor and copies it into the [[clipboard (software)|clipboard]].
+* {{key press|Ctrl|l}} : Clears the screen content (equivalent to the command <code>[[clear (Unix)|clear]]</code>).
+* {{key press|Ctrl|n}} : ([[wikt:next|next]]) recalls the next command (equivalent to the key {{key press|[[arrow keys|Down]]}}).
+* {{key press|Ctrl|o}} : Executes the found command from history, and fetch the next line relative to the current line from the history for editing.
+* {{key press|Ctrl|p}} : ([[wikt:previous|previous]]) recalls the prior command (equivalent to the key {{key press|[[arrow keys|Up]]}}).
+* {{key press|Ctrl|r}} : ([[wikt:research|research]]) recalls the last command including the specified character(s). A second {{key press|Ctrl|r}} recalls the next anterior command which corresponds to the research
+* {{key press|Ctrl|s}} : Go back to the next more recent command of the research (beware to not execute it from a terminal because this command also launches its XOFF). If you changed that XOFF setting, use {{key press|Ctrl|q}} to return.
+* {{key press|Ctrl|t}} : Transpose the previous two characters.
+* {{key press|Ctrl|u}} : Clears the line content before the cursor and copies it into the [[clipboard (software)|clipboard]].
+* {{key press|Ctrl|v}} : If the next input is also a control sequence, type it literally (e. g. * {{key press|Ctrl|v}} {{key press|Ctrl|h}} types "^H", a literal backspace.)
+* {{key press|Ctrl|w}} : Clears the word before the cursor and copies it into the [[clipboard (software)|clipboard]].
+* {{key press|Ctrl|x}} {{key press|Ctrl|e}} : Edits the current line in the $EDITOR program, or [[vi]] if undefined.
+* {{key press|Ctrl|x}} {{key press|Ctrl|r}} : Read in the contents of the inputrc file, and incorporate any bindings or variable assignments found there.
+* {{key press|Ctrl|x}} {{key press|Ctrl|u}} : Incremental undo, separately remembered for each line.
+* {{key press|Ctrl|x}} {{key press|Ctrl|v}} : Display version information about the current instance of bash.
+* {{key press|Ctrl|x}} {{key press|Ctrl|x}} : Alternates the cursor with its old position. (C-x, because x has a crossing shape).
+* {{key press|Ctrl|y}} : ([[wikt:yank|yank]]) adds the [[clipboard (software)|clipboard]] content from the cursor position.
+* {{key press|Ctrl|z}} : Sends the signal [[SIGTSTP]] to the current task, which suspends it. To execute it in background one can enter <code>bg</code>. To bring it back from background or suspension <code>fg ['process name or job id']</code> ([[foreground process|foreground]]) can be issued.
+* {{key press|Ctrl|_}} : Incremental undo, separately remembered for each line.
+* {{key press|Alt|b}} : ([[wikt:backward|backward]]) moves the cursor backward one word.
+* {{key press|Alt|c}} : Capitalizes the character under the cursor and moves to the end of the word.
+* {{key press|Alt|d}} : Cuts the word after the cursor.
+* {{key press|Alt|f}} : ([[wikt:forward|forward]]) moves the cursor forward one word.
+* {{key press|Alt|l}} : Lowers the case of every character from the cursor's position to the end of the current word.
+* {{key press|Alt|r}} : Cancels the changes and puts back the line as it was in the history.
+* {{key press|Alt|u}} : Capitalizes every character from the cursor's position to the end of the current word.
+* {{key press|Alt|.}} : Insert the last argument to the previous command (the last word of the previous history entry).
+
+==See also==
+{{Portal|Free software}}
+
+* [[Comparison of command shells]]
+
+==References==
+{{Reflist}}
+
+==External links==
+{{wikibooks|Bash Shell Scripting}}
+* {{official website|http://www.gnu.org/software/bash/bash.html}}
+* [http://www.gnu.org/software/bash/manual/ Bash Reference Manual]&nbsp; ([http://www.gnu.org/software/bash/manual/html_node/index.html HTML] [http://www.gnu.org/software/bash/manual/bash.ps.gz PS] [http://www.gnu.org/software/bash/manual/bash.pdf PDF])
+
+* {{tldp|LDP/Bash-Beginners-Guide|Bash Guide for Beginners}}
+* {{tldp|LDP/abs|Advanced Bash Scripting Guide}}
+* [http://bash.cyberciti.biz/guide/Main_Page Linux Shell Scripting Tutorial (LSST) v2.0 wiki]
+* [http://www.bashcookbook.com/bashinfo/ "The Comprehensive List of bash Reference Documentation and Examples"]
+* [http://spsneo.com/blog/2009/09/19/bash-history-tips-and-tricks/ Useful Bash History Tips and Tricks]
+* [http://www.computerworld.com.au/index.php/id;1591223321;fp;16;fpid;1;pf;1 2008 interview with GNU Bash's maintainer, Chet Ramey]
+* [http://www.geeksww.com/tutorials/operating_systems/linux/tips_and_tricks/working_bash_environment_variables_beginners_linux.php Working with BASH environment variables]
+* [http://www.galatech.co.uk/index.php/tutorials/viewpost/100 Video Tutorial for Creating a Bash Script]
+* [http://www.shell-fu.org/lister.php?tag=bash Bash commands and examples]
+* [http://www.markus-gattol.name/ws/bash.html#colorized_shell_prompt Colorized Bash prompt] - how to set up a colorized Bash prompt based on the current connection method (SSH, telnet, etc.).
+* [http://code.google.com/p/jbash/ jBash Project is a Java Parser for the Bourne Again Shell]
+* [http://mywiki.wooledge.org/EnglishFrontPage The 'official' channel FAQ for freenode's #bash channel is BashFAQ.]
+* [http://bashdb.sourceforge.net/ BASHDB - Bash with a built-in debugger.]
+* [http://www.digilife.be/quickreferences/QRC/Bash%20Quick%20Reference.pdf Bash Quick Reference card]
+* [http://linuxtutorial.todolistme.net Beginner Linux Command Line Tutorial] - Covers the basics, all the way up to scripting.
+
+{{GNU}}
+{{Unix Shells}}
+
+{{DEFAULTSORT:Bash (Unix Shell)}}
+[[Category:Text-oriented programming languages]]
+[[Category:Scripting languages]]
+[[Category:Unix shells]]
+[[Category:GNU Project software]]
+[[Category:Free software programmed in C]]
+[[Category:Cross-platform free software]]
+[[Category:1989 software]]

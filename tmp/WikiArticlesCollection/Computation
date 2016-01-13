@@ -1,0 +1,48 @@
+{{Refimprove|date=May 2011}}
+'''Computation''' is any type of [[calculation]]<ref>http://www.merriam-webster.com/dictionary/computation</ref> or use of computing technology in [[information processing]].<ref>[http://www.merriam-webster.com/dictionary/computation Computation] from the Free Merriam-Webster Dictionary</ref><ref>http://www.answers.com/topic/computation</ref> Computation is a process following a well-defined [[Model (abstract)|model]] understood and expressed as, for example, an [[algorithm]], or a [[Protocol (computing)|protocol]].
+
+The study of computation is paramount to the discipline of [[computer science]].
+
+{{Wiktionary|computation}}
+
+== Classification ==
+Computation can be classified by mainly three unique criteria: [[Digital data|digital]] versus [[analog electronics|analog]], [[sequential]] versus [[parallel computation|parallel]] versus [[Concurrency (computer science)|concurrent]], [[batch processing|batch]] versus [[interactive computation|interactive]].
+
+In practice, digital computation aids simulation of natural processes (for example, [[evolutionary computation]]), including those that are naturally described by analog models of computation (for example, [[artificial neural network]]). 
+
+== Physical phenomenon ==
+A computation can be seen as a purely physical phenomenon occurring inside a closed [[physical system]] called a [[computer]].
+Examples of such physical systems include [[digital computer]]s, [[mechanical computer]]s, [[quantum computer]]s, [[DNA computer]]s, [[molecular computer]]s, [[analog computer]]s or [[wetware computer]]s.
+This point of view is the one adopted by the branch of theoretical physics called the [[physics of computation]].
+
+An even more radical point of view is the postulate of [[digital physics]] that the evolution of the universe itself is a computation - [[pancomputationalism]].
+
+== Mathematical models ==
+In the [[theory of computation]], a diversity of mathematical models of computers have been developed.
+Typical mathematical [[Model of computation|models of computers]] are the following:
+* State models including [[Turing machine]], [[push-down automaton]], [[finite state automaton]], and [[Parallel random access machine|PRAM]]
+* Functional models including [[lambda calculus]]
+* Logical models including [[logic programming]]
+* Concurrent models including [[actor model]] and [[process calculi]]
+
+== History ==
+The word computation has an archaic meaning (from its [[Latin language|Latin]] etymological roots), but the word has come back in use with the arising of a new scientific discipline: computer science.
+
+=== Comparison to calculation ===
+* See [[Calculation#Comparison to computation]]
+
+== See also ==
+{{Portal| Computer Science }}
+* [[Computing]]
+* [[Physical information]]
+* [[Real computation]]
+* [[Reversible computation]]
+* [[Hypercomputation]]
+
+==References==
+{{Reflist}}
+
+[[Category:Theoretical computer science]]
+[[Category:Computability theory]]
+[[Category:Articles lacking sources from June 2009]]
+[[Category:All articles lacking sources]]

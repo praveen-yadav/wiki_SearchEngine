@@ -1,0 +1,40 @@
+{{Pi box}}
+'''Circumference''' is the linear distance around the [[Edge_(geometry)|edge]] of a closed [[curve]] or circular object.<ref>{{cite web | url=http://www-rohan.sdsu.edu/~pwbrock/files/UNIT9.3.pdf | title =Perimeter, Area and Circumference | author =[[San Diego State University]] | publisher =[[Addison-Wesley]] | year =2004}}</ref> The circumference of a [[circle]] is of special importance in geometry and trigonometry. However "circumference" may also refer to the edge of elliptical closed curve. Circumference is a special case of [[perimeter]] in that the perimeter is typically around a polygon while circumference is around a closed curve.
+
+== Circumference of a circle ==
+[[File:Circle-withsegments.svg|thumb|210px|left|Circle illustration with circumference (C) in black, diameter (D) in cyan, radius (R) in red, and centre or origin (O) in magenta. Circumference = {{pi}} × diameter = 2 × {{pi}} × radius.]]
+The circumference of a circle is the distance around it. The term is used when measuring physical objects, as well as when considering abstract geometric forms.
+[[File:2pi-unrolled.gif|thumb|320px|center|When a circle's [[radius]] is 1, its circumference is 2{{pi}}.]]
+[[File:Pi-unrolled-720.gif|thumb|320px|center|When a circle's [[diameter]] is 1, its circumference is {{pi}}.]]
+=== Relationship with Pi ===
+
+The circumference of a [[circle]] relates to one of the most important [[mathematical constant]]s in all of [[mathematics]]. This [[Constant (mathematics)|constant]], [[pi]], is represented by the [[Greek letter]] [[Pi (letter)|{{pi}}]]. The numerical value of {{pi}} is 3.14159 26535 89793 ... (see {{OEIS2C|id=A000796}}), and is defined by two [[Proportionality_(mathematics)#Direct_proportionality|proportionality constants]]. The first constant is the [[ratio]] of a circle's circumference to its [[diameter]] and equals {{pi}}. While the second constant is the ratio of the diameter and two times the [[radius]] and is used as to convert the diameter to radius in the same ratio as the first, {{pi}}. Both proportionality constants combine in respect with circumference {{math|''c''}}, diameter {{math|''d''}}, and radius {{math|''r''}} to become:
+
+:<math>{C}=\pi\cdot{d}=2\pi\cdot{r}.\!</math>
+
+The use of the mathematical constant {{pi}} is ubiquitous in mathematics, engineering, and science. While the constant ratio of circumference to radius <math>{C}/{r} = 2\pi</math> also has many uses in mathematics, engineering, and science, it is not formally named. These uses include but are not limited to [[radian]]s, [[computer programming]], and [[physical constants]].
+
+== Circumference of an ellipse ==
+The [[ellipse#Circumference|circumference of an ellipse]] can be expressed in terms of the [[complete elliptic integral of the second kind]].
+
+== Circumference of a graph ==
+In [[graph theory]] the circumference of a [[graph (mathematics)|graph]] refers to the longest [[cycle (graph theory)|cycle]] contained in that graph.
+
+== See also ==
+* [[Arclength]]
+* [[Area]]
+* [[Caccioppoli set]]
+* [[Isoperimetric inequality]]
+* [[Pythagorean Theorem]]
+* [[Volume]]
+
+==References==
+{{Reflist}}
+
+== External links ==
+{{wikibooks|Geometry|Circles/Arcs|Arcs}}
+{{Wiktionary|circumference}}
+* [http://www.numericana.com/answer/ellipse.htm#elliptic Numericana - Circumference of an ellipse]
+* [http://www.mathopenref.com/circumference.html Circumference of a circle] With interactive applet and animation
+
+[[Category:Geometric measurement]]

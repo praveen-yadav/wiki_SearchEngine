@@ -1,0 +1,43 @@
+In mathematics, the '''ascending chain condition (ACC)''' and '''descending chain condition (DCC)''' are finiteness properties satisfied by some algebraic structures, most importantly, [[Ideal (ring theory)|ideal]]s in certain [[commutative ring]]s.<ref>Hazewinkel, Gubareni & Kirichenko (2004), p.6, Prop. 1.1.4.</ref><ref>Fraleigh & Katz (1967), p. 366, Lemma 7.1</ref><ref>Jacobson (2009), p. 142 and 147</ref> These conditions played an important role in the development of the structure theory of commutative rings in the works of [[David Hilbert]], [[Emmy Noether]], and [[Emil Artin]].
+The conditions themselves can be stated in an abstract form, so that they make sense for any [[partially ordered set]]. This point of view is useful in abstract algebraic dimension theory due to Gabriel and Rentschler.
+
+== Definition ==
+A [[partially ordered set]] (poset) ''P'' is said to satisfy the '''ascending chain condition''' (ACC) if every strictly ascending sequence of elements [[Eventually (mathematics)|eventually]] terminates.  Equivalently, given any sequence
+:<math>a_1 \,\leq\, a_2 \,\leq\, a_3 \,\leq\, \cdots,</math>
+there exists a positive [[integer]] ''n'' such that
+:<math>a_n = a_{n+1} = a_{n+2} = \cdots.</math>
+Similarly, ''P'' is said to satisfy the '''descending chain condition''' (DCC) if every strictly descending sequence of elements eventually terminates, that is, there is no [[infinite descending chain]]. Equivalently every descending sequence
+:<math>\cdots \,\leq\, a_3 \,\leq\, a_2 \,\leq\, a_1</math>
+of elements of ''P'', eventually stabilizes.
+
+=== Comments ===
+*A subtly different and stronger condition than "containing no infinite ascending/descending chains" is "contains no arbitrarily long ascending/descending chains (optionally, 'based at a given element')". For instance, the disjoint union of the posets {0}, {0,1}, {0,1,2}, etc., satisfies both the ACC and the DCC, but has arbitrarily long chains. If one further identifies the 0 in all of these sets, then every chain is finite, but there are arbitrarily long chains based at 0.
+
+*The descending chain condition on ''P'' is equivalent to ''P'' being [[well-founded]]: every nonempty subset of ''P'' has a minimal element (also called the '''minimal condition''').
+
+*Similarly, the ascending chain condition is equivalent to ''P'' being converse well-founded: every nonempty subset of ''P'' has a maximal element (the '''maximal condition''').
+
+*Every finite poset satisfies both ACC and DCC.
+
+* A [[total order|totally ordered set]] that satisfies the descending chain condition is called a [[well-order|well-ordered set]].
+
+== See also ==
+* [[Artinian]]
+* [[Noetherian]]
+* [[Krull dimension]]
+* [[Ascending chain condition for principal ideals]]
+* [[Maximal condition on congruences]]
+
+== Notes ==
+<references/>
+
+== References ==
+* [[M. F. Atiyah|Atiyah, M. F.]], and I. G. MacDonald, ''[[Introduction to Commutative Algebra]]'', Perseus Books, 1969, ISBN 0-201-00361-9
+* [[Michiel Hazewinkel]], Nadiya Gubareni, V. V. Kirichenko. ''Algebras, rings and modules''. [[Kluwer Academic Publishers]], 2004. ISBN 1-4020-2690-0
+* John B. Fraleigh, Victor J. Katz. ''A first course in abstract algebra''. Addison-Wesley Publishing Company. 5 ed., 1967. ISBN 0-201-53467-3
+* [[Nathan Jacobson]]. Basic Algebra I. Dover, 2009. ISBN 978-0-486-47189-1
+
+{{DEFAULTSORT:Ascending Chain Condition}}
+[[Category:Commutative algebra]]
+[[Category:Order theory]]
+[[Category:Wellfoundedness]]

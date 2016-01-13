@@ -1,0 +1,222 @@
+{{drugbox | Watchedfields = changed
+| verifiedrevid = 455343638
+| IUPAC_name = (2''S'',5''R'',6''R'')-6-{[(2''R'')-2-amino-2-(4-hydroxyphenyl)-acetyl]amino}-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid
+| image = Amoxicillin.svg
+| width = 250
+| image2 = Amoxicillin-3D-balls.png
+
+<!--Clinical data-->
+| tradename = Actimoxi, Alphamox, Amocla,Tycil, Amoxil, Trimox, among others
+| Drugs.com = {{drugs.com|monograph|amoxicillin}}
+| MedlinePlus = a685001
+| pregnancy_AU = A
+| pregnancy_US = B
+| legal_UK = POM
+| legal_US = Rx-only
+| routes_of_administration = [[Wiktionary:oral|Oral]], [[intravenous therapy|intravenous]]
+
+<!--Pharmacokinetic data-->
+| bioavailability = 95% oral
+| metabolism = less than 30% biotransformed in [[liver]]
+| elimination_half-life = 61.3 minutes
+| excretion = [[renal]]
+
+<!--Identifiers-->
+| CASNo_Ref = {{cascite|correct|CAS}}
+| CAS_number_Ref = {{cascite|correct|??}}
+| CAS_number = 26787-78-0
+| ATC_prefix = J01
+| ATC_suffix = CA04
+| ATC_supplemental =  {{ATCvet|G51|AA03}}
+| ChEBI_Ref = {{ebicite|correct|EBI}}
+| ChEBI = 2676
+| PubChem = 33613
+| DrugBank_Ref = {{drugbankcite|correct|drugbank}}
+| DrugBank = DB01060
+| ChemSpiderID_Ref = {{chemspidercite|correct|chemspider}}
+| ChemSpiderID = 31006
+| UNII_Ref = {{fdacite|correct|FDA}}
+| UNII = 9EM05410Q9
+| KEGG_Ref = {{keggcite|correct|kegg}}
+| KEGG = D07452
+| ChEMBL_Ref = {{ebicite|correct|EBI}}
+| ChEMBL = 1082
+
+<!--Chemical data-->
+| C=16 | H=19 | N=3 | O=5 | S=1
+| molecular_weight = 365.4 g/[[Mole (unit)|mol]]
+| smiles = O=C(O)[C@@H]2N3C(=O)[C@@H](NC(=O)[C@@H](c1ccc(O)cc1)N)[C@H]3SC2(C)C
+| InChI = 1/C16H19N3O5S/c1-16(2)11(15(23)24)19-13(22)10(14(19)25-16)18-12(21)9(17)7-3-5-8(20)6-4-7/h3-6,9-11,14,20H,17H2,1-2H3,(H,18,21)(H,23,24)/t9-,10-,11+,14-/m1/s1
+| StdInChI_Ref = {{stdinchicite|correct|chemspider}}
+| StdInChI = 1S/C16H19N3O5S/c1-16(2)11(15(23)24)19-13(22)10(14(19)25-16)18-12(21)9(17)7-3-5-8(20)6-4-7/h3-6,9-11,14,20H,17H2,1-2H3,(H,18,21)(H,23,24)/t9-,10-,11+,14-/m1/s1
+| StdInChIKey_Ref = {{stdinchicite|correct|chemspider}}
+| StdInChIKey = LSQZJLSUYDQPKJ-NJBDSQKTSA-N
+}}
+[[Image:Amoxicillin.JPG|thumb|right|Amoxicillin BP]]
+'''Amoxicillin''' ([[International Nonproprietary Name|INN]]), formerly '''amoxycillin''' ([[British Approved Name|BAN]]), and abbreviated '''amox''', is a moderate-spectrum, bacteriolytic, [[beta-lactam antibiotic|β-lactam]] [[antibiotic]] used to treat [[bacterial]] [[infection]]s caused by susceptible [[microorganism]]s. It is usually the drug of choice within the class because it is better absorbed, following oral administration, than other β-lactam antibiotics. Amoxicillin is one of the most common [[antibiotic]]s prescribed for children.  The drug first became available in [[Timeline of antibiotics|1972]].
+
+Amoxicillin is susceptible to degradation by [[beta-lactamase|β-lactamase]]-producing bacteria, which are resistant to a broad spectrum of β-lactam antibiotics, such as [[penicillin]].  For this reason, it is often combined with [[clavulanic acid]], a β-lactamase inhibitor. This increases effectiveness by reducing its susceptibility to β-lactamase resistance.<ref>{{cite web|title=Amoxicillin Susceptibility and Resistance Data|url=http://www.toku-e.com/Assets/MIC/AmoxicillinClavulanate%20augmentin.pdf|accessdate=20 July 2013}}</ref>
+ 
+
+==Medical uses==
+Amoxicillin is used in the treatment of a number of infections, including [[acute otitis media]], [[Streptococcal pharyngitis]], [[pneumonia]], [[Cellulitis|skin infections]], [[Urinary tract infection|urinary-tract infections]], ''[[Salmonella]]'', [[Lyme disease]], and [[Chlamydia infection|chlamydia]] infections.<ref name=AHFS>{{cite web|title=Amoxicillin|url=http://www.drugs.com/monograph/amoxicillin.html|work=The American Society of Health-System Pharmacists|accessdate=3 April 2011}}</ref> It is also used to prevent [[bacterial endocarditis]] in high-risk people who are having dental work done, to prevent ''[[Streptococcus pneumoniae]]'' and other encapsulated bacterial infections in those without [[spleen]]s, such as people with [[sickle-cell disease]], and for both the prevention and the treatment of [[anthrax]].<ref name=AHFS/> The [[United Kingdom]] recommends against its use for infectious endocarditis prophylaxis.<ref>{{cite web|title=CG64 Prophylaxis against infective endocarditis: Full guidance|url=http://www.nice.org.uk/nicemedia/live/11938/40039/40039.pdf|work=NICE|accessdate=8 June 2011}}</ref> These recommendations have not appeared to have changed the rates of infection.<ref>{{cite journal|last=Thornhill|first=MH|coauthors=Dayer, MJ, Forde, JM, Corey, GR, Chu, VH, Couper, DJ, Lockhart, PB|title=Impact of the NICE guideline recommending cessation of antibiotic prophylaxis for prevention of infective endocarditis: before and after study|journal=BMJ (Clinical research ed.)|date=2011-05-03|volume=342|pages=d2392|pmid=21540258|doi=10.1136/bmj.d2392|pmc=3086390}}</ref>
+
+Amoxicillin and amoxicillin-clavulanate are recommended by guidelines as the first-choice drug for ''bacterial'' [[sinusitis]]. But most sinusitis is caused by viruses, for which amoxicillin and amoxicillin-clavulanate are ineffective.<ref name="AAAAIfive">{{Cite journal |author1 = American Academy of Allergy, Asthma, and Immunology |author1-link = American Academy of Allergy, Asthma, and Immunology |date = |title = Five Things Physicians and Patients Should Question |publisher = [[American Academy of Allergy, Asthma, and Immunology]] |work = Choosing Wisely: an initiative of the [[ABIM Foundation]] |page = |url = http://choosingwisely.org/wp-content/uploads/2012/04/5things_12_factsheet_AAAAI.pdf |accessdate = August 14, 2012 }}</ref><ref name="antibioticssinusitis">{{cite doi|10.1002/14651858.CD000243.pub2}}</ref> Amoxicillin is occasionally used for the treatment of skin infections, such as [[acne vulgaris]].<ref>{{cite web | title = Adolescent Acne: Management | url = http://www.medscape.com/viewarticle/430534_5}}</ref>  Amoxicillin is often an effective treatment for cases of acne vulgaris that have responded poorly to other antibiotics, such as [[doxycycline]] and [[minocycline]].<ref>{{cite web|url=http://scienceofacne.com/amoxicillin/|title=Amoxicillin and Acne Vulgaris |publisher=scienceofacne.com |date=2012-09-05 |accessdate=2012-08-17}}</ref>
+
+==Adverse effects==
+[[Adverse drug reaction|Side-effect]]s are as those for other [[Beta-lactam antibiotic#Adverse effects|beta-lactam antibiotic]]s.
+Side-effects include [[nausea]], vomiting, rashes, and antibiotic-associated [[colitis]]. Loose bowel movements (diarrhea) may also occur. Rarer side-effects include mental changes, lightheadedness, insomnia, confusion, anxiety, sensitivity to lights and sounds, and unclear thinking. Immediate medical care is required upon the first signs of these side-effects.
+
+The onset of an allergic reaction to amoxicillin can be very sudden and intense; emergency medical attention must be sought as quickly as possible. The initial onset of such a reaction often starts with a change in mental state, skin rash with intense itching (often beginning in fingertips and around groin area and rapidly spreading), and sensations of fever, nausea, and vomiting. Any other symptoms that seem even remotely suspicious must be taken very seriously.  However, more mild allergy symptoms, such as a rash, can occur at any time during treatment, even up to a week after treatment has ceased.  For some people who are allergic to amoxicillin the side-effects can be deadly.
+
+Use of the amoxicillin/clavulanic acid combination for more than one week has caused mild [[hepatitis]] in some patients. Young children having ingested acute overdoses of amoxicillin manifested [[lethargy]], vomiting and [[Renal failure|renal dysfunction]].<ref>{{cite journal | title = Amoxicillin-clavulanic acid-induced hepatitis | journal = Amer. J. Otolaryngol. | volume = 28 | pages = 28–30| year = 2007 | author = Cundiff j | first = Joe S. | doi = 10.1016/j.amjoto.2006.06.007 | pmid = 17162128 | last2 = Joe | first2 = S | issue = 1}}</ref><ref>{{cite book | author = R. Baselt | title = Disposition of Toxic Drugs and Chemicals in Man | edition = 8th | publisher = Biomedical Publications | location = Foster City, CA | year = 2008 | pages = 81–83}}</ref>
+
+===Nonallergic amoxicillin rash===
+Somewhere between 3% and 10% of children taking amoxicillin (or [[ampicillin]]) show a late-developing (>72 hours after beginning medication and having never taken penicillin-like medication previously) rash, which is sometimes referred to as the "amoxicillin rash." The rash can also occur in adults.
+
+The rash is described as [[maculopapular]] or morbilliform ([[Measles|measles-like]]; therefore, in medical literature, it is called "amoxicillin-induced morbilliform rash"<ref>{{cite web|url=http://cat.inist.fr/?aModele=afficheN&cpsidt=2654598 |title=Role of delayed cellular hypersensitivity and adhesion molecules in amoxicillin-induced morbilliform rashes |publisher=Cat.inist.fr |date= |accessdate=2010-11-13}}</ref>). It starts on the trunk and can spread from there. This rash is unlikely to be a true allergic reaction, and is not a contraindication for future amoxicillin usage, nor should the current regimen necessarily be stopped. However, this common amoxicillin rash and a dangerous allergic reaction cannot easily be distinguished by inexperienced persons, and therefore a healthcare professional is often required to distinguish between the two.<ref>{{cite journal |author=Pichichero ME |title=A review of evidence supporting the American Academy of Pediatrics recommendation for prescribing cephalosporin antibiotics for penicillin-allergic patients |journal=Pediatrics |volume=115 |issue=4 |pages=1048–57 |year=2005 |month=April |pmid=15805383 |doi=10.1542/peds.2004-1276 |url=http://pediatrics.aappublications.org/cgi/content/full/115/4/1048}}</ref><ref>{{cite book |author=Schmitt, Barton D. |title=Your child's health: the parents' one-stop reference guide to symptoms, emergencies, common illnesses, behavior problems, healthy development |edition=2nd |publisher=Bantam Books |location=New York |year=2005 |pages= |isbn=0-553-38369-8 |oclc= |doi= |accessdate=}}</ref>
+
+A nonallergic amoxicillin rash may also be an indicator of [[infectious mononucleosis]]: Some studies indicate approximately 80-90% of patients with acute [[Epstein Barr virus]] infection treated with amoxicillin or [[ampicillin]] develop such a rash.<ref>{{cite journal | last=Kagan | first=B | title=Ampicillin rash |journal=Western Journal of Medicine |volume=126 |issue=4 |pages=333–335 |year=1977 | pmid=855325 | pmc=1237570}}</ref>
+
+<gallery>
+Image:Amoxicillin rash 3 hours after 17th dose.JPG|Nonallergic amoxicillin rash eight days after first dose, 24 hours after rash began.
+Image:Amoxicillin rash 11 hours after 17th dose.JPG|Eight hours after first photo, individual spots have grown and begun to merge.
+Image:Amoxicillin rash 26 hours after 17th dose.JPG|23 hours after first photo, the color appears to be fading, and much of rash has spread to confluence.
+</gallery>
+
+===Interaction===
+
+Amoxicillin may interact with the following groups of drugs:
+
+* Anticoagulants (e.g. warfarin, pradaxa)<ref name="bnf57">British National Formulary 57 March 2009</ref>
+* Allopurinol (gout treatment)
+* Birth control pills{{citation needed|date=November 2011}}
+* Certain antibiotics
+* Cancer treatment (methotrexate)
+* Uricosuric drugs
+* Typhoid vaccine
+
+==Mechanism of action==
+{{Main|Beta-lactam antibiotic}}
+This drug acts by inhibiting the synthesis of bacterial [[cell wall]]s. It inhibits [[cross-link]]age between the linear peptidoglycan polymer chains that make up a major component of the [[cell wall]]s of both [[Gram-positive bacteria|Gram-positive]] and [[Gram-negative bacteria]].
+
+It has two [[ionizable]] groups in the physiological range (the amino group in alpha-position to the amide carbonyl group and the carboxyl group).
+
+== Spectrum of microorganism susceptibility and resistance ==
+''Streptococci, Bacillus subtilis, Enterococcus, Haemophilus, Helicobacter'' and ''Moraxella'' are generally susceptible to amoxicillin, while ''Citrobacter, Klebsiella'' and ''Pseudomonas aeruginosa'' are resistant to amoxicillin.<ref>{{cite web|title=Amoxicillin spectrum of bacterial susceptibility and Resistance|url=http://www.toku-e.com/Assets/MIC/Amoxicillin%20sodium%20salt.pdf |accessdate=8 April 2012}}</ref> Some ''E. coli'' and most clinical isolates of ''Staphylococcus aureus'' have developed resistance to amoxicillin to varying degrees.
+
+==History==
+{{see also|Timeline of antibiotics}}
+Amoxicillin was one of several [[semisynthesis|semisynthetic]] derivatives of 6-aminopenicillanic acid ([[6-APA]]) developed at [[Beecham Group|Beecham]] in the 1960s. It became available in 1972, and was the second [[aminopenicillin]] to reach the market (after [[ampicillin]] in 1961).<ref name=Ravina>{{cite book |last=Raviña |first=E |title=The Evolution of Drug Discovery |publisher=Wiley-VCH |location=Weinheim |year=2011 |page=262 |isbn=9783527326693}}</ref><ref>{{cite book |last=Bruggink |first=A |title=Synthesis of β-lactam antibiotics |publisher=Springer |year=2001 |page=17 |isbn=0-7923-7060-0}}</ref> [[Coamoxiclav|Co-amoxiclav]] became available in 1981.<ref name=Ravina/>
+
+== Formulations ==
+
+=== Modes of delivery ===
+Pharmaceutical manufacturers make amoxicillin in [[Hydrate|trihydrate]] form  available as capsules, chewable and dispersible [[Tablet (pharmacy)|tablets]] plus syrup and [[pediatrics|pediatric]] [[Suspension (chemistry)|suspension]] for oral use, and as the sodium salt for [[intravenous]] administration, although the IV formulation is not available in the United States.{{full|date=March 2013}}
+
+Amoxicillin is most commonly taken orally. The liquid forms are helpful where the patient might find it difficult to take tablets or capsules.
+
+Research with mice (published in 2010) indicates successful delivery using [[intraperitoneally]] injected amoxicillin-bearing [[microparticles]].<ref>{{cite journal | title = Amoxicillin-bearing microparticles: potential in the treatment of Listeria monocytogenes infection in Swiss albino mice | url = http://www.bioscirep.org/bsr/031/bsr0310265.htm | journal = Bioscience Reports | year = 2011 | volume = 31 | issue = 4 | doi = 10.1042/BSR20100027 | last1 = Farazuddin | first1 = Mohammad | last2 = Chauhan | first2 = Arun | last3 = Khan | first3 = Raza M.M. | last4 = Owais | first4 = Mohammad | pages = 265–72 | pmid = 20687896}}</ref>
+
+===Proprietary preparations===
+{{Unreferenced section|date=February 2010}}
+[[File:NOVAMOXIN antibiotic.jpg|right|thumb|Novamoxin prescription drug—500mg ''Amoxicillin trihydrate'']]
+Amoxicillin is one of the semisynthetic penicillins discovered by [[Beecham (pharmaceutical company)|Beecham]] scientists. The patent for amoxicillin has expired, thus amoxicillin is marketed under many trade names, including:
+
+{|
+|-
+|style="width: 250px;"|
+*Actimoxi
+*Alphamox
+*Amimox
+*Amocla
+*AMK
+*Amoksibos
+*Amorion
+*Amoxiclav Sandoz
+*Amoxidal
+*Amoxil
+*Amoxin
+*Amoksiklav (with [[clavulanic acid]])
+*Amoxibiotic
+*Amoxicilina
+*Amoxidal
+*Apo-Amoxi
+*Arsogil
+*Augmentin (with [[potassium clavulanate ]])
+|style="width: 250px;"|
+*Bactox
+*Betalaktam
+*Bioxidona
+*Cilamox
+*Clamoxyl
+*Clonamox
+*Curam
+*Dedoxil
+*Dispermox
+*Duomox
+*Defender 625&nbsp;mg (with [[clavulanic acid]])
+*E-Mox
+*Enhancin
+*Ezymox 500&nbsp;mg
+*Ezymox-DC (Dicloxacin)
+*Gimalxina
+*Geramox
+*Hiconcil
+*Isimoxin
+*Klavax
+|style="width: 250px;"|
+*Klavocin
+*Klavox
+*Lamoxy
+*Largopen
+*Moxatag
+*Moxilen
+*Moxypen
+*Moxyvit
+*Nobactam
+*Novamoxin
+*Ospamox
+*Panklav (with [[clavulanic acid]])
+*Optamox
+*Pamoxicillin
+*Panamox
+*Polymox
+|style="width: 250px;"|
+*Polymoxyl (PPM Product, Cambodia)
+*Samthongcillin
+*Senox
+*Sinacilin
+*Spektramox (with [[clavulanic acid]])
+*Starmox
+*Trimox
+*Tolodina
+*Tormoxin
+*Unimox
+*Wedemox
+*Wymox
+*Yucla
+*Zerrsox
+*Zimox
+*Zoxicillin (Zafa)
+|}
+
+==References==
+{{Reflist|30em}}
+
+==Further reading==
+* {{cite book |author=Neal, M. J. |title=Medical pharmacology at a glance |publisher=Blackwell Science |location=Oxford |edition=4th |year=2002 |pages= |isbn=0-632-05244-9 |oclc= |doi= |accessdate=}}
+
+* [[British National Formulary]] ''45'' March 2003
+
+==External links==
+* [http://www.med.umich.edu/1libr/pa/pa_ampirash_hhg.htm University of Michigan Mott's Children's Hospital article about "amoxicillin rash."]{{dead link|date=May 2012}} (Very similar to Schmitt 2005 content){{Dead link|date=March 2011}}
+* [http://druginfo.nlm.nih.gov/drugportal/dpdirect.jsp?name=Amoxicillin+anhydrous U.S. National Library of Medicine: Drug Information Portal - Amoxicillin]
+
+{{PenicillinAntiBiotics}}
+{{GlaxoSmithKline}}
+
+[[Category:Beta-lactam antibiotics]]
+[[Category:Enantiopure drugs]]
+[[Category:World Health Organization essential medicines]]
+[[Category:Phenols]]

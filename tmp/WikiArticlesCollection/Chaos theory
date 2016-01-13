@@ -1,0 +1,361 @@
+{{Redirect3|Disorganized}}
+{{other uses|Chaos Theory (disambiguation)}}
+[[File:Lorenz attractor yb.svg|thumb|right|A plot of the [[Lorenz attractor]] for values {{nowrap|''r'' {{=}} 28}}, {{nowrap|σ {{=}} 10}}, {{nowrap|''b'' {{=}} 8/3}}]]
+[[File:Double-compound-pendulum.gif|thumb|A [[double pendulum|double rod pendulum]] animation showing chaotic behavior.  Starting the pendulum from a slightly different initial condition would result in a completely different trajectory.  The double rod pendulum is one of the simplest dynamic systems that has chaotic solutions.]]
+
+'''Chaos theory''' is a field of study in [[mathematics]], with applications in several disciplines including [[meteorology]], [[physics]], [[engineering]], [[economics]] and [[biology]]. Chaos theory studies the behavior of [[dynamical system]]s that are highly sensitive to initial conditions—an effect which is popularly referred to as the [[butterfly effect]]. Small differences in initial conditions (such as those due to rounding errors in numerical computation) yield widely diverging outcomes for such dynamical systems, rendering long-term prediction impossible in general.<ref>{{cite book |last=Kellert |first=Stephen H. |title=In the Wake of Chaos: Unpredictable Order in Dynamical Systems |publisher=University of Chicago Press |year=1993 |isbn=0-226-42976-8 |page=32 |ref=harv}}</ref> This happens even though these systems are [[deterministic system (mathematics)|deterministic]], meaning that their future behavior is fully determined by their initial conditions, with no [[randomness|random]] elements involved.<ref>{{harvnb|Kellert|1993|p=56}}</ref> In other words, the deterministic nature of these systems does not make them predictable.<ref>{{harvnb|Kellert|1993|p=62}}</ref><ref name="WerndlCharlotte">{{cite journal |author=Werndl, Charlotte |title=What are the New Implications of Chaos for Unpredictability? |journal=The British Journal for the Philosophy of Science |volume=60 |issue=1 |pages=195–220 |year=2009 |url=http://bjps.oxfordjournals.org/cgi/content/abstract/60/1/195 |doi=10.1093/bjps/axn053}}</ref>  This behavior is known as '''deterministic chaos''', or simply ''chaos''.  This was summarised by [[Edward Lorenz]] as follows:<ref>{{cite web |url=http://mpe2013.org/2013/03/17/chaos-in-an-atmosphere-hanging-on-a-wall |title=Chaos in an Atmosphere Hanging on a Wall |last1=Danforth |first1=Christopher M. |date=April 2013 |work=Mathematics of Planet Earth 2013 |accessdate=4 April 2013}}</ref>
+<blockquote>
+Chaos: When the present determines the future, but the approximate present does not approximately determine the future.
+</blockquote>
+
+Chaotic behavior can be observed in many natural systems, such as weather.<ref name=Lorenz1961/><ref>{{cite book|last=Ivancevic|first=Vladimir G.|title=Complex nonlinearity: chaos, phase transitions, topology change, and path integrals|year=2008|publisher=Springer|isbn=978-3-540-79356-4|coauthors=Tijana T. Ivancevic}}</ref>  Explanation of such behavior may be sought through analysis of a chaotic [[mathematical model]], or through analytical techniques such as [[recurrence plot]]s and [[Poincaré map]]s.
+
+==Chaotic dynamics==
+[[File:Chaos Sensitive Dependence.svg|thumb|right|The map defined by <span style="white-space: nowrap;">''x'' → 4 ''x'' (1 – ''x'')</span> and <span style="white-space: nowrap;">''y'' → ''x'' + ''y'' if ''x'' + ''y'' < 1 (''x'' + ''y'' – 1 otherwise)</span> displays sensitivity to initial conditions. Here two series of ''x'' and ''y'' values diverge markedly over time from a tiny initial difference.]]
+In common usage, "chaos" means "a state of disorder".<ref>Definition of {{linktext|chaos}} at [[Wiktionary]];</ref> However, in chaos theory, the term is defined more precisely. Although there is no universally accepted mathematical definition of chaos, a commonly used definition says that, for a dynamical system to be classified as chaotic, it must have the following properties:<ref>{{cite book|title=A First Course in Dynamics: With a Panorama of Recent Developments|last=Hasselblatt|first=Boris|coauthors=Anatole Katok|year=2003|publisher=Cambridge University Press|isbn=0-521-58750-6}}</ref>
+
+# it must be sensitive to initial conditions;
+# it must be [[topological mixing|topologically mixing]]; and
+# its [[periodic orbit]]s must be [[dense set|dense]]{{where|date=July 2013}}.
+
+The requirement for sensitive dependence on initial conditions implies that there is a set of initial conditions of positive measure which do not converge to a cycle of any length.
+
+===Sensitivity to initial conditions===
+''Sensitivity to initial conditions'' means that each point in such a system is arbitrarily closely approximated by other points with significantly different future trajectories. Thus, an arbitrarily small perturbation of the current trajectory may lead to significantly different future behaviour.  However, it has been shown that the last two properties in the list above actually imply sensitivity to initial conditions<ref>{{cite book |author=Elaydi, Saber N. |title=Discrete Chaos |publisher=Chapman & Hall/CRC |year=1999 |isbn=1-58488-002-3 |page=117 }}</ref><ref>{{cite book |author=Basener, William F. |title=Topology and its applications |publisher=Wiley |year=2006 |isbn=0-471-68755-3 |page=42 }}</ref> and if attention is restricted to [[Interval (mathematics)|intervals]], the second property implies the other two<ref>{{cite journal |author=Vellekoop, Michel; Berglund, Raoul |title=On Intervals, Transitivity = Chaos |journal=The American Mathematical Monthly |volume=101 |issue=4 |pages=353–5 |date=April 1994 |jstor=2975629 |doi=10.2307/2975629}}</ref> (an alternative, and in general weaker, definition of chaos uses only the first two properties in the above list).<ref>{{cite book |author=Medio, Alfredo; Lines, Marji |title=Nonlinear Dynamics: A Primer |publisher=Cambridge University Press |year=2001 |isbn=0-521-55874-3 |page=165 }}</ref> It is interesting that the most practically significant condition, that of sensitivity to initial conditions, is actually redundant in the definition, being implied by two (or for intervals, one) purely [[Topology|topological]] conditions, which are therefore of greater interest to mathematicians.
+
+Sensitivity to initial conditions is popularly known as the "[[butterfly effect]]", so called because of the title of a paper given by [[Edward Lorenz]] in 1972 to the [[American Association for the Advancement of Science]] in Washington, D.C. entitled ''Predictability: Does the Flap of a Butterfly’s Wings in Brazil set off a Tornado in Texas?'' The flapping wing represents a small change in the initial condition of the system, which causes a chain of events leading to large-scale phenomena. Had the butterfly not flapped its wings, the trajectory of the system might have been vastly different.
+
+A consequence of sensitivity to initial conditions is that if we start with only a finite amount of information about the system (as is usually the case in practice), then beyond a certain time the system will no longer be predictable. This is most familiar in the case of weather, which is generally predictable only about a week ahead.<ref name="RGW">{{cite book |author=Watts, Robert G. |title=Global Warming and the Future of the Earth |publisher=Morgan & Claypool |year=2007 |page=17 }}</ref>
+
+The [[Lyapunov exponent]] characterises the extent of the sensitivity to initial conditions. Quantitatively, two [[trajectory|trajectories]] in [[phase space]] with initial separation <math>\delta \mathbf{Z}_0</math> diverge
+
+:<math> | \delta\mathbf{Z}(t) | \approx e^{\lambda t} | \delta \mathbf{Z}_0 |\ </math>
+
+where λ is the Lyapunov exponent.  The rate of separation can be different for different orientations of the initial separation vector. Thus, there is a whole spectrum of Lyapunov exponents — the number of them is equal to the number of dimensions of the phase space. It is common to just refer to the largest one, i.e. to the Maximal Lyapunov exponent (MLE), because it determines the overall predictability of the system. A positive MLE is usually taken as an indication that the system is chaotic.
+
+There are also measure-theoretic mathematical conditions (discussed in [[ergodicity|ergodic]] theory) such as mixing or being a K-system which relate to sensitivity of initial conditions and chaos.<ref name="WerndlCharlotte" />
+
+===Topological mixing===
+[[File:Chaos Topological Mixing.png|thumb|right|The map defined by <span style="white-space: nowrap;">''x'' → 4 ''x'' (1 – ''x'')</span> and <span style="white-space: nowrap;">''y'' → ''x'' + ''y'' if ''x'' + ''y'' < 1 (''x'' + ''y'' – 1 otherwise)</span> also displays [[topological mixing]]. Here the blue region is transformed by the dynamics first to the purple region, then to the pink and red regions, and eventually to a cloud of points scattered across the space.]]
+''[[Topological mixing]]'' (or topological ''transitivity'') means that the system will evolve over time so that any given region or [[open set]] of its [[phase space]] will eventually overlap with any other given region. This mathematical concept of "mixing" corresponds to the standard intuition, and the mixing of colored [[dye]]s or fluids is an example of a chaotic system.
+
+Topological mixing is often omitted from popular accounts of chaos, which equate chaos with sensitivity to initial conditions. However, sensitive dependence on initial conditions alone does not give chaos. For example, consider the simple dynamical system produced by repeatedly doubling an initial value. This system has sensitive dependence on initial conditions everywhere, since any pair of nearby points will eventually become widely separated. However, this example has no topological mixing, and therefore has no chaos. Indeed, it has extremely simple behaviour: all points except 0 will tend to positive or negative infinity.
+
+===Density of periodic orbits===
+''[[Dense set|Density]] of [[periodic orbit]]s'' means that every point in the space is approached arbitrarily closely by periodic orbits.<ref>{{harvnb|Devaney|2003}}</ref> The one-dimensional [[logistic map]] defined by <span style="white-space: nowrap;">''x'' → 4 ''x'' (1 – ''x'')</span> is one of the simplest systems with density of periodic orbits.  For example, <math>\tfrac{5-\sqrt{5}}{8}</math>&nbsp;→ <math>\tfrac{5+\sqrt{5}}{8}</math>&nbsp;→ <math>\tfrac{5-\sqrt{5}}{8}</math> (or approximately 0.3454915&nbsp;→ 0.9045085&nbsp;→ 0.3454915) is an (unstable) orbit of period 2, and similar orbits exist for periods 4, 8, 16, etc. (indeed, for all the periods specified by [[Sharkovskii's theorem]]).<ref>{{harvnb|Alligood|Sauer|Yorke|1997}}</ref>
+
+Sharkovskii's theorem is the basis of the Li and Yorke<ref>{{cite journal |last1=Li |first1=T.Y. |last2=Yorke |first2=J.A. |title=Period Three Implies Chaos |journal=[[American Mathematical Monthly]] |volume=82 |pages=985–92 |year=1975 |url=http://pb.math.univ.gda.pl/chaos/pdf/li-yorke.pdf |format=PDF |author-link=Tien-Yien Li |doi=10.2307/2318254 |issue=10 |author2-link=James A. Yorke}}</ref> (1975) proof that any one-dimensional system which exhibits a regular cycle of period three will also display regular cycles of every other length as well as completely chaotic orbits.
+
+===Strange attractors===
+[[File:TwoLorenzOrbits.jpg|thumb|right|The [[Lorenz attractor]] displays chaotic behavior.  These two plots demonstrate sensitive dependence on initial conditions within the region of phase space occupied by the attractor.]]
+Some dynamical systems, like the one-dimensional [[logistic map]] defined by <span style="white-space: nowrap;">''x'' → 4 ''x'' (1 – ''x''),</span> are chaotic everywhere, but in many cases chaotic behaviour is found only in a subset of phase space. The cases of most interest arise when the chaotic behaviour takes place on an [[attractor]], since then a large set of initial conditions will lead to orbits that converge to this chaotic region.
+
+An easy way to visualize a chaotic attractor is to start with a point in the [[basin of attraction]] of the attractor, and then simply plot its subsequent orbit. Because of the topological transitivity condition, this is likely to produce a picture of the entire final attractor, and indeed both orbits shown in the figure on the right give a picture of the general shape of the Lorenz attractor.  This attractor results from a simple three-dimensional model of the [[Edward Lorenz|Lorenz]] weather system. The Lorenz attractor is perhaps one of the best-known chaotic system diagrams, probably because it was not only one of the first, but it is also one of the most complex and as such gives rise to a very interesting pattern which looks like the wings of a butterfly.
+
+Unlike [[Attractor#Fixed point|fixed-point attractors]] and ''[[limit cycle]]s'', the attractors which arise from chaotic systems, known as ''[[strange attractor]]s'', have great detail and complexity.  Strange attractors occur in both [[continuous function|continuous]] dynamical systems (such as the Lorenz system) and in some [[discrete mathematics|discrete]] systems (such as the [[Hénon map]]). Other discrete dynamical systems have a repelling structure called a [[Julia set]] which forms at the boundary between basins of attraction of fixed points – Julia sets can be thought of as strange ''repellers''. Both strange attractors and Julia sets typically have a [[fractal]] structure, and a [[fractal dimension]] can be calculated for them.
+
+===Minimum complexity of a chaotic system===
+[[File:LogisticMap BifurcationDiagram.png|thumb|right|[[Bifurcation diagram]] of the [[logistic map]] <span style="white-space: nowrap;">''x'' → ''r'' ''x'' (1 – ''x'').</span>  Each vertical slice shows the attractor for a specific value of ''r''.  The diagram displays [[Period-doubling bifurcation|period-doubling]] as ''r'' increases, eventually producing chaos.]]
+Discrete chaotic systems, such as the logistic map, can exhibit strange attractors whatever their [[dimension]]ality. In contrast, for [[continuous function (topology)|continuous]] dynamical systems, the [[Poincaré–Bendixson theorem]] shows that a strange attractor can only arise in three or more dimensions.  [[Dimension (vector space)|Finite dimensional]] [[linear system]]s are never chaotic; for a dynamical system to display chaotic behaviour it has to be either [[nonlinearity|nonlinear]], or infinite-dimensional.
+
+The [[Poincaré–Bendixson theorem]] states that a two dimensional differential equation has very regular behavior. The Lorenz attractor discussed above is generated by a system of three differential equations with a total of seven terms on the right hand side, five of which are linear terms and two of which are quadratic (and therefore nonlinear). Another well-known chaotic attractor is generated by the [[Rossler map|Rossler equations]] with seven terms on the right hand side, only one of which is (quadratic) nonlinear. Sprott<ref>
+{{cite journal
+ |last=Sprott |first=J.C.
+ |year=1997
+ |title=Simplest dissipative chaotic flow
+ |journal=[[Physics Letters A]]
+ |volume=228
+ |issue=4–5 |page=271
+ |doi=10.1016/S0375-9601(97)00088-1
+|bibcode = 1997PhLA..228..271S }}</ref> found a three dimensional system with just five terms on the right hand side, and with just one quadratic nonlinearity, which exhibits chaos for certain parameter values. Zhang and Heidel<ref>
+{{cite journal
+ |last=Fu |first=Z. |last2=Heidel |first2=J.
+ |year=1997
+ |title=Non-chaotic behaviour in three-dimensional quadratic systems
+ |journal=[[Nonlinearity (journal)|Nonlinearity]]
+ |volume=10
+ |issue=5 |page=1289
+ |doi=10.1088/0951-7715/10/5/014
+|bibcode = 1997Nonli..10.1289F }}</ref><ref>
+{{cite journal
+ |last=Heidel |first=J. |last2=Fu |first2=Z.
+ |year=1999
+ |title=Nonchaotic behaviour in three-dimensional quadratic systems II. The conservative case
+ |journal=Nonlinearity
+ |volume=12
+ |issue=3 |page=617
+ |doi=10.1088/0951-7715/12/3/012
+|bibcode = 1999Nonli..12..617H }}</ref> showed that, at least for dissipative and conservative quadratic systems, three dimensional quadratic systems with only three or four terms on the right hand side cannot exhibit chaotic behavior.  The reason is, simply put, that solutions to such systems are asymptotic to a two dimensional surface and therefore solutions are well behaved.
+
+While the Poincaré–Bendixson theorem means that a continuous dynamical system on the Euclidean [[plane (mathematics)|plane]] cannot be chaotic, two-dimensional continuous systems with [[non-Euclidean geometry]] can exhibit chaotic behaviour.{{Citation needed|date=December 2009}}  Perhaps surprisingly, chaos may occur also in linear systems, provided they are infinite-dimensional.<ref>{{cite journal
+ |last=Bonet |first=J. |last2=Martínez-Giménez |first2=F. |last3=Peris |first3=A.
+ |year=2001
+ |title=A Banach space which admits no chaotic operator
+ |journal=Bulletin of the London Mathematical Society
+ |volume=33
+ |issue=2 |pages=196–8
+ |doi=10.1112/blms/33.2.196
+}}</ref>  A theory of linear chaos is being developed in a branch of mathematical analysis known as [[functional analysis]].
+
+==History==
+[[File:Barnsley fern plotted with VisSim.PNG|thumb|upright|[[Barnsley fern]] created using the [[chaos game]]. Natural forms (ferns, clouds, mountains, etc.) may be recreated through an [[Iterated function system]] (IFS).]]
+
+An early proponent of chaos theory was [[Henri Poincaré]]. In the 1880s, while studying the [[three-body problem]], he found that there can be orbits which are nonperiodic, and yet not forever increasing nor approaching a fixed point.<ref>{{cite journal |author=Poincaré, Jules Henri |title=Sur le problème des trois corps et les équations de la dynamique. Divergence des séries de M. Lindstedt |journal=Acta Mathematica |volume=13 |pages=1–270 |year=1890 |doi=10.1007/BF02392506 }}</ref><ref>{{cite book |author=Diacu, Florin; Holmes, Philip |title=Celestial Encounters: The Origins of Chaos and Stability |publisher=[[Princeton University Press]] |year=1996 }}</ref> In 1898 [[Jacques Hadamard]] published an influential study of the chaotic motion of a free particle gliding frictionlessly on a surface of constant negative curvature.<ref>{{cite journal|first = Jacques|last = Hadamard|year = 1898|title = Les surfaces à courbures opposées et leurs lignes géodesiques|journal = Journal de Mathématiques Pures et Appliquées|volume = 4|pages = 27–73}}</ref> In the system studied, "[[Hadamard's billiards]]", Hadamard was able to show that all trajectories are unstable in that all particle trajectories diverge exponentially from one another, with a positive [[Lyapunov exponent]].
+
+Much of the earlier theory was developed almost entirely by mathematicians, under the name of [[ergodic theory]]. Later studies, also on the topic of nonlinear differential equations, were carried out by [[George David Birkhoff|G.D. Birkhoff]],<ref>George D. Birkhoff, ''Dynamical Systems,'' vol.&nbsp;9 of the American Mathematical Society Colloquium Publications (Providence, Rhode Island: American Mathematical Society, 1927)</ref> {{nowrap|[[Andrey Nikolaevich Kolmogorov|A. N. Kolmogorov]]}},<ref>{{cite journal| last=Kolmogorov | first=Andrey Nikolaevich | authorlink=Andrey Nikolaevich Kolmogorov | year=1941 | title=Local structure of [[turbulence]] in an incompressible fluid for very large Reynolds numbers | journal=[[Doklady Akademii Nauk SSSR]] | volume=30 | issue=4 | pages=301–5 |bibcode = 1941DoSSR..30..301K }} Reprinted in: {{cite journal |journal=Proceedings of the Royal Society A |volume=434 |pages=9–13 |year=1991 |doi=10.1098/rspa.1991.0075 |title=The Local Structure of Turbulence in Incompressible Viscous Fluid for Very Large Reynolds Numbers |last1=Kolmogorov |first1=A. N. |issue=1890 |bibcode=1991RSPSA.434....9K}}</ref><ref>{{cite journal| last=Kolmogorov | first=A. N. | year=1941 | title=On degeneration of isotropic turbulence in an incompressible viscous liquid | journal=Doklady Akademii Nauk SSSR | volume=31 | issue=6 | pages=538–540}} Reprinted in: {{cite journal |journal=Proceedings of the Royal Society A |volume=434 |pages=15–17 |year=1991 |doi=10.1098/rspa.1991.0076 |title=Dissipation of Energy in the Locally Isotropic Turbulence |last1=Kolmogorov |first1=A. N. |issue=1890 |bibcode=1991RSPSA.434...15K}}</ref><ref>{{cite journal| last=Kolmogorov | first=A. N. | year=1954 | title=Preservation of conditionally periodic movements with small change in the Hamiltonian function | journal=Doklady Akademii Nauk SSSR | volume=98 | pages=527–530| bibcode=1979LNP....93...51K| doi=10.1007/BFb0021737| series=Lecture Notes in Physics| isbn=3-540-09120-3}} See also [[Kolmogorov–Arnold–Moser theorem]]</ref> [[Mary Lucy Cartwright|M.L. Cartwright]] and [[John Edensor Littlewood|J.E. Littlewood]],<ref>{{cite journal |last1=Cartwright |first1=Mary L. |last2=Littlewood |first2=John E. |title=On non-linear differential equations of the second order, I: The equation ''y''" + ''k''(1−''y''<sup>2</sup>)''y<nowiki>'</nowiki>'' + ''y'' = ''b''λkcos(λ''t'' + ''a''), ''k'' large |journal=Journal of the London Mathematical Society |volume=20 |pages=180–9 |year=1945 |doi=10.1112/jlms/s1-20.3.180 |issue=3 }} See also: [[Van der Pol oscillator]]</ref> and [[Stephen Smale]].<ref>{{cite journal |author=Smale, Stephen |title=Morse inequalities for a dynamical system |journal=Bulletin of the American Mathematical Society |volume=66 |pages=43–49 |date=January 1960 |doi=10.1090/S0002-9904-1960-10386-2 }}</ref> Except for Smale, these studies were all directly inspired by physics: the three-body problem in the case of Birkhoff, turbulence and astronomical problems in the case of Kolmogorov, and radio engineering in the case of Cartwright and Littlewood.{{Citation needed|date=July 2008}} Although chaotic planetary motion had not been observed, experimentalists had encountered turbulence in fluid motion and nonperiodic oscillation in radio circuits without the benefit of a theory to explain what they were seeing.
+
+Despite initial insights in the first half of the twentieth century, chaos theory became formalized as such only after mid-century, when it first became evident for some scientists that [[linear theory]], the prevailing system theory at that time, simply could not explain the observed behaviour of certain experiments like that of the [[logistic map]]. What had been beforehand excluded as measure imprecision and simple "[[noise]]" was considered by chaos theories as a full component of the studied systems.
+
+The main catalyst for the development of chaos theory was the electronic computer. Much of the mathematics of chaos theory involves the repeated [[iteration]] of simple mathematical formulas, which would be impractical to do by hand. Electronic computers made these repeated calculations practical, while figures and images made it possible to visualize these systems.
+
+[[File:Airplane vortex edit.jpg|thumb|left|[[Turbulence]] in the [[Wingtip vortices|tip vortex]] from an [[airplane]] wing. Studies of the critical point beyond which a system creates turbulence were important for Chaos theory, analyzed for example by the [[Soviet physicists|Soviet physicist]] [[Lev Landau]] who developed the [[Landau-Hopf theory of turbulence]]. [[David Ruelle]] and [[Floris Takens]] later predicted, against Landau, that [[fluid turbulence]] could develop through a [[strange attractor]], a main concept of chaos theory.]]
+
+An early pioneer of the theory was [[Edward Lorenz]] whose interest in chaos came about accidentally through his work on [[meteorology|weather prediction]] in 1961.<ref name=Lorenz1961>{{cite journal |author=Lorenz, Edward N. |title=Deterministic non-periodic flow |journal=Journal of the Atmospheric Sciences |volume=20 |pages=130–141 |year=1963 |doi=10.1175/1520-0469(1963)020<0130:DNF>2.0.CO;2 |issue=2 |bibcode=1963JAtS...20..130L}}</ref> Lorenz was using a simple digital computer, a [[Royal McBee]] [[LGP-30]], to run his weather simulation. He wanted to see a sequence of data again and to save time he started the simulation in the middle of its course. He was able to do this by entering a printout of the data corresponding to conditions in the middle of his simulation which he had calculated last time.
+
+To his surprise the weather that the machine began to predict was completely different from the weather calculated before. Lorenz tracked this down to the computer printout. The computer worked with 6-digit precision, but the printout rounded variables off to a 3-digit number, so a value like 0.506127 was printed as 0.506. This difference is tiny and the consensus at the time would have been that it should have had practically no effect. However Lorenz had discovered that small changes in initial conditions produced large changes in the long-term outcome.<ref>{{cite book|title=[[Chaos: Making a New Science]]|last=Gleick|first=James|year=1987|publisher=Cardinal|location=London|page=17|isbn=0-434-29554-X}}</ref> Lorenz's discovery, which gave its name to [[Lorenz attractor]]s, showed that even detailed atmospheric modelling cannot in general make long-term weather predictions. Weather is usually predictable only about a week ahead.<ref name="RGW"/>
+
+In 1963, [[Benoît Mandelbrot]] found recurring patterns at every scale in data on cotton prices.<ref>{{cite journal|first = Benoît|last = Mandelbrot|year = 1963|title = The variation of certain speculative prices|journal = Journal of Business|volume = 36|pages = 394–419|doi = 10.1086/294632|issue = 4}}</ref> Beforehand, he had studied [[information theory]] and concluded noise was patterned like a [[Cantor set]]: on any scale the proportion of noise-containing periods to error-free periods was a constant – thus errors were inevitable and must be planned for by incorporating redundancy.<ref>{{cite journal | author = Berger J.M., Mandelbrot B. | year = 1963 | title = A new model for error clustering in telephone circuits | journal = I.B.M. Journal of Research and Development | volume = 7 | pages = 224–236 }}</ref> Mandelbrot described both the "Noah effect" (in which sudden discontinuous changes can occur) and the "Joseph effect" (in which persistence of a value can occur for a while, yet suddenly change afterwards).<ref>{{cite book |author=Mandelbrot, B. |title=The Fractal Geometry of Nature |publisher=Freeman |location=New York |year=1977 |page=248 }}</ref><ref>See also: {{cite book |last1=Mandelbrot |first1=Benoît B. |last2=Hudson |first2=Richard L. |title=The (Mis)behavior of Markets: A Fractal View of Risk, Ruin, and Reward |publisher=Basic Books |location=New York |year=2004 |page=201 }}</ref> This challenged the idea that changes in price were [[normal distribution|normally distributed]]. In 1967, he published "[[How Long Is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension|How long is the coast of Britain? Statistical self-similarity and fractional dimension]]", showing that a coastline's length varies with the scale of the measuring instrument, resembles itself at all scales, and is infinite in length for an [[infinitesimal]]ly small measuring device.<ref>{{cite journal |last=Mandelbrot |first=Benoît |title=How Long Is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension |journal=Science |volume=156 |issue=3775 |pages=636–8 |date=5 May 1967 |doi=10.1126/science.156.3775.636 |pmid=17837158 |bibcode = 1967Sci...156..636M }}</ref> Arguing that a ball of twine appears to be a point when viewed from far away (0-dimensional), a ball when viewed from fairly near (3-dimensional), or a curved strand (1-dimensional), he argued that the dimensions of an object are relative to the observer and may be fractional. An object whose irregularity is constant over different scales ("self-similarity") is a [[fractal]] (for example, the [[Menger sponge]], the [[Sierpiński gasket]] and the [[Koch curve]] or "snowflake", which is infinitely long yet encloses a finite space and has a [[fractal dimension]] of circa 1.2619). In 1975 Mandelbrot published ''[[The Fractal Geometry of Nature]]'', which became a classic of chaos theory. Biological systems such as the branching of the circulatory and bronchial systems proved to fit a fractal model.<ref>{{cite book |last1=Buldyrev |first1=S.V. |last2=Goldberger |first2=A.L. | last3=Havlin |first3=S. | authorlink3=Shlomo Havlin|last4=Peng |first4=C.K. | last5=Stanley | first5=H.E. |authorlink5=H. Eugene Stanley|editor1-first=Armin |editor1-last=Bunde  |editor2-first=Shlomo | editor2-last=Havlin | editor2-link=Shlomo Havlin |title=Fractals in Science |publisher=Springer |year=1994 |pages=49–89 |chapter=Fractals in Biology and Medicine: From DNA to the Heartbeat |isbn=3-540-56220-6}}</ref>
+
+Chaos was observed by a number of experimenters before it was recognized; e.g., in 1927 by van der Pol<ref>{{cite journal |last1=van der Pol |first1=B. |last2=van der Mark |first2=J. |title=Frequency demultiplication |journal=Nature |volume=120 |pages=363–4 |year=1927 |doi=10.1038/120363a0 |issue=3019 |bibcode = 1927Natur.120..363V }} See also: Van der Pol oscillator</ref> and in 1958 by R.L. Ives.<ref>{{cite journal |author=Ives, R.L. |title=Neon oscillator rings |journal=Electronics |volume=31 |pages=108–115 |date=10 October 1958 }}</ref><ref>See p. 83 of Lee W. Casperson, "Gas laser instabilities and their interpretation," pages 83–98 in: N.&nbsp;B. Abraham, F.&nbsp;T. Arecchi, and L.&nbsp;A. Lugiato, eds., ''Instabilities and Chaos in Quantum Optics II: Proceedings of the NATO Advanced Study Institute, Il Ciocco, Italy, June 28–July 7, 1987'' (N.Y., N.Y.: Springer Verlag, 1988).</ref> However, as a graduate student in [[Chihiro Hayashi]]'s laboratory at Kyoto University, [[Yoshisuke Ueda]] was experimenting with analog computers and noticed, on Nov. 27, 1961, what he called "randomly transitional phenomena".  Yet his advisor did not agree with his conclusions at the time, and did not allow him to report his findings until 1970.<ref>{{harvnb|Abraham|Ueda|2001|loc=See Chapters 3 and 4}}</ref><ref>{{harvnb|Sprott|2003|p=[http://books.google.com/books?id=SEDjdjPZ158C&pg=PA89 89]}}</ref>
+
+In December 1977, the [[New York Academy of Sciences]] organized the first symposium on Chaos, attended by David Ruelle, [[Robert May, Baron May of Oxford|Robert May]], [[James A. Yorke]] (coiner of the term "chaos" as used in mathematics), [[Robert Shaw (physicist)|Robert Shaw]] (a physicist, part of the [[Eudaemons]] group with [[J. Doyne Farmer]] and [[Norman Packard]] who tried to find a mathematical method to beat [[roulette]], and then created with them the [[Dynamical Systems Collective]] in [[Santa Cruz, California|Santa Cruz]], [[California]]), and the meteorologist Edward Lorenz.
+
+The following year, independently the French [[Pierre Coullet]] and [[Charles Tresser]] with the article "Iterations d'endomorphismes et groupe de renormalisation" and the American [[Mitchell Feigenbaum]] with the article "Quantitative Universality for a Class of Nonlinear Transformations" described logistic maps.<ref>{{cite journal |first=Mitchell |last=Feigenbaum |title=Quantitative universality for a class of nonlinear transformations |journal=Journal of Statistical Physics |volume=19 |issue=1 |pages=25–52 |date=July 1978 |doi=10.1007/BF01020332 |bibcode=1978JSP....19...25F}}</ref><ref>Coullet, Pierre, and Charles Tresser. "Iterations d'endomorphismes et groupe de renormalisation." Le Journal de Physique Colloques 39.C5 (1978): C5-25</ref>  They notably discovered the universality in chaos, permitting an application of chaos theory to many different phenomena.
+
+In 1979, [[Albert J. Libchaber]], during a symposium organized in Aspen by [[Pierre Hohenberg]], presented his experimental observation of the [[Bifurcation theory|bifurcation]] cascade that leads to chaos and turbulence in [[Rayleigh–Bénard convection]] systems. He was awarded the [[Wolf Prize in Physics]] in 1986 along with [[Mitchell J. Feigenbaum]] "for his brilliant experimental demonstration of the transition to turbulence and chaos in dynamical systems".<ref>{{cite web|url = http://www.wolffund.org.il/cat.asp?id=25&cat_title=PHYSICS|title = The Wolf Prize in Physics in 1986.}}</ref>
+
+Then in 1986, the New York Academy of Sciences co-organized with the [[National Institute of Mental Health]] and the [[Office of Naval Research]] the first important conference on Chaos in biology and medicine. There, [[Bernardo Huberman]] presented a mathematical model of the [[eye tracking disorder]] among [[schizophrenics]].<ref>{{cite journal |authorlink=Bernardo Huberman |author=Huberman, B.A. |title=A Model for Dysfunctions in Smooth Pursuit Eye Movement |journal=Annals of the New York Academy of Sciences |volume=504 Perspectives in Biological Dynamics and Theoretical Medicine |pages=260–273 |date=July 1987 |doi=10.1111/j.1749-6632.1987.tb48737.x |url=http://onlinelibrary.wiley.com/doi/10.1111/j.1749-6632.1987.tb48737.x/abstract|bibcode = 1987NYASA.504..260H }}</ref> This led to a renewal of [[physiology]] in the 1980s through the application of chaos theory, for example in the study of pathological [[cardiac cycle]]s.
+
+In 1987, [[Per Bak]], [[Chao Tang]] and [[Kurt Wiesenfeld]] published a paper in ''[[Physical Review Letters]]''<ref>{{cite journal |author=Bak, Per; Tang, Chao; Wiesenfeld, Kurt |title=Self-organized criticality: An explanation of the 1/f noise |journal=Physical Review Letters |volume=59 |issue=4 |pages=381–4 |date=27 July 1987 |doi=10.1103/PhysRevLett.59.381 |bibcode=1987PhRvL..59..381B}} However, the conclusions of this article have been subject to dispute. {{cite web |url=http://www.nslij-genetics.org/wli/1fnoise/1fnoise_square.html |title=? |author= |date= |work= |publisher= |accessdate=}}. See especially: {{cite journal |author=Laurson, Lasse; Alava, Mikko J.; Zapperi, Stefano |title=Letter: Power spectra of self-organized critical sand piles |journal=Journal of Statistical Mechanics: Theory and Experiment |volume=0511 |id=L001 |date=15 September 2005 }}</ref> describing for the first time [[self-organized criticality]] (SOC), considered to be one of the mechanisms by which [[complexity]] arises in nature.
+
+Alongside largely lab-based approaches such as the [[Bak–Tang–Wiesenfeld sandpile]], many other investigations have focused on large-scale natural or social systems that are known (or suspected) to display [[scale invariance|scale-invariant]] behaviour. Although these approaches were not always welcomed (at least initially) by specialists in the subjects examined, SOC has nevertheless become established as a strong candidate for explaining a number of natural phenomena, including: [[earthquake]]s (which, long before SOC was discovered, were known as a source of scale-invariant behaviour such as the [[Gutenberg–Richter law]] describing the statistical distribution of earthquake sizes, and the [[Aftershock|Omori law]]<ref>{{cite journal |author=Omori, F. |title=On the aftershocks of earthquakes |journal=Journal of the College of Science, Imperial University of Tokyo |volume=7 |pages=111–200 |year=1894 }}</ref> describing the frequency of aftershocks); [[solar flare]]s; fluctuations in economic systems such as [[financial market]]s (references to SOC are common in [[econophysics]]); [[landscape formation]]; [[forest fire]]s; [[landslide]]s; [[epidemic]]s; and [[biological evolution]] (where SOC has been invoked, for example, as the dynamical mechanism behind the theory of "[[punctuated equilibrium|punctuated equilibria]]" put forward by [[Niles Eldredge]] and [[Stephen Jay Gould]]). Given the implications of a scale-free distribution of event sizes, some researchers have suggested that another phenomenon that should be considered an example of SOC is the occurrence of [[war]]s. These "applied" investigations of SOC have included both attempts at modelling (either developing new models or adapting existing ones to the specifics of a given natural system), and extensive data analysis to determine the existence and/or characteristics of natural scaling laws.
+
+This same year 1987, [[James Gleick]] published ''Chaos: Making a New Science'', which became a best-seller and introduced the general principles of chaos theory as well as its history to the broad public, (though his history under-emphasized important Soviet contributions){{Citation needed|reason=please share missing contributions with "such as..."|date=May 2013}}. At first the domain of work of a few, isolated individuals, chaos theory progressively emerged as a transdisciplinary and institutional discipline, mainly under the name of [[nonlinear system]]s analysis. Alluding to [[Thomas Kuhn]]'s concept of a [[paradigm shift]] exposed in ''[[The Structure of Scientific Revolutions]]'' (1962), many "chaologists" (as some described themselves) claimed that this new theory was an example of such a shift, a thesis upheld by J. Gleick.
+
+The availability of cheaper, more powerful computers broadens the applicability of chaos theory. Currently, chaos theory continues to be a very active area of research,<ref>Motter A. E. and  Campbell D. K., [http://www.physicstoday.org/resource/1/phtoad/v66/i5/p27_s1?bypassSSO=1 Chaos at fifty], Phys. Today 66(5), 27-33 (2013).</ref> involving many different disciplines ([[mathematics]], [[topology]], [[physics]], [[social systems]], [[population biology]], [[biology]], [[meteorology]], [[astrophysics]], [[information theory]], [[computational neuroscience]], etc.).
+
+==Distinguishing random from chaotic data==
+It can be difficult to tell from data whether a physical or other observed process is random or chaotic, because in practice no [[time series]] consists of pure 'signal.' There will always be some form of corrupting noise, even if it is present as round-off or truncation error. Thus any real time series, even if mostly deterministic, will contain some randomness.<ref name=prov>{{cite journal |author=Provenzale, A., ''et al.'' |title=Distinguishing between low-dimensional dynamics and randomness in measured time-series |journal=Physica D |volume=58 |pages=31–49 |year=1992 |doi=10.1016/0167-2789(92)90100-2 |bibcode = 1992PhyD...58...31P }}</ref><ref>{{cite journal |author=Brock, W.A. |title=Distinguishing random and deterministic systems: Abridged version |journal=[[Journal of Economic Theory]] |volume=40 |pages=168–195 |date=October 1986 |doi=10.1016/0022-0531(86)90014-1 }}</ref>
+
+All methods for distinguishing deterministic and stochastic processes rely on the fact that a deterministic system always evolves in the same way from a given starting point.<ref name=prov /><ref>{{cite journal | author = Sugihara G., May R. | year = 1990 | title = Nonlinear forecasting as a way of distinguishing chaos from measurement error in time series | url = http://deepeco.ucsd.edu/~george/publications/90_nonlinear_forecasting.pdf | format = PDF | journal = Nature | volume = 344 | issue = 6268| pages = 734–741 |doi=10.1038/344734a0 | pmid = 2330029|bibcode = 1990Natur.344..734S }}</ref> Thus, given a time series to test for determinism, one can:
+# pick a test state;
+# search the time series for a similar or 'nearby' state; and
+# compare their respective time evolutions.
+
+Define the error as the difference between the time evolution of the 'test' state and the time evolution of the nearby state. A deterministic system will have an error that either remains small (stable, regular solution) or increases exponentially with time (chaos). A stochastic system will have a randomly distributed error.<ref>{{cite journal |last=Casdagli |first=Martin |title=Chaos and Deterministic ''versus'' Stochastic Non-linear Modelling |journal=Journal of the Royal Statistical Society, Series B |volume=54 |issue=2 |pages=303–328 |year=1991 |jstor=2346130}}</ref>
+
+Essentially, all measures of determinism taken from time series rely upon finding the closest states to a given 'test' state (e.g., correlation dimension, Lyapunov exponents, etc.). To define the state of a system one typically relies on phase space embedding methods.<ref>{{cite journal |author=Broomhead, D.S.; King, G.P. |title=Extracting qualitative dynamics from experimental data |journal=Physica D |volume=20 |issue=2–3 |pages=217–236 |date=June–July 1986 |doi=10.1016/0167-2789(86)90031-X |url=http://www.sciencedirect.com/science/article/pii/016727898690031X|bibcode = 1986PhyD...20..217B }}</ref>
+Typically one chooses an embedding dimension, and investigates the propagation of the error between two nearby states. If the error looks random, one increases the dimension. If you can increase the dimension to obtain a deterministic looking error, then you are done. Though it may sound simple it is not really. One complication is that as the dimension increases the search for a nearby state requires a lot more computation time and a lot of data (the amount of data required increases exponentially with embedding dimension) to find a suitably close candidate. If the embedding dimension (number of measures per state) is chosen too small (less than the 'true' value) deterministic data can appear to be random but in theory there is no problem choosing the dimension too large – the method will work.
+
+When a non-linear deterministic system is attended by external fluctuations, its trajectories present serious and permanent distortions. Furthermore, the noise is amplified due to the inherent non-linearity and reveals totally new dynamical properties. Statistical tests attempting to separate noise from the deterministic skeleton or inversely isolate the deterministic part risk failure. Things become worse when the deterministic component is a non-linear feedback system.<ref>{{cite journal | author = Kyrtsou C | year = 2008 | title = Re-examining the sources of heteroskedasticity: the paradigm of noisy chaotic models | journal = Physica A | volume = 387 | issue = 27| pages = 6785–9 | doi = 10.1016/j.physa.2008.09.008 |bibcode = 2008PhyA..387.6785K }}</ref> In presence of interactions between nonlinear deterministic components and noise, the resulting nonlinear series can display dynamics that traditional tests for nonlinearity are sometimes not able to capture.<ref>{{cite journal |author=Kyrtsou, C. |title=Evidence for neglected linearity in noisy chaotic models |journal=International Journal of Bifurcation and Chaos |volume=15 |issue=10 |pages=3391–4 |year=2005 |doi=10.1142/S0218127405013964 |bibcode = 2005IJBC...15.3391K }}</ref>
+
+The question of how to distinguish deterministic chaotic systems from stochastic systems has also been discussed in philosophy. It has been shown that they might be
+observationally equivalent.<ref>{{cite journal |author=Werndl, Charlotte |title=Are Deterministic Descriptions and Indeterministic Descriptions Observationally Equivalent? |journal=Studies in History and Philosophy of Modern Physics |volume=40 |pages=232–242 |year=2009 |doi= 10.1016/j.shpsb.2009.06.004|url=http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6VH6-4X1GG4G-1&_user=10&_coverDate=08%2F31%2F2009&_rdoc=1&_fmt=high&_orig=gateway&_origin=gateway&_sort=d&_docanchor=&view=c&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=4433c2dcaed0b2a60cc7cbcfae7664ff&searchtype=a |issue=3}}</ref>
+
+==Applications==
+{{speculation|section|date=July 2013}}
+{{refimprove section|date=April 2013}}
+[[File:Textile cone.JPG|thumb|left|A [[conus textile]] shell, similar in appearance to [[Rule 30]], a [[cellular automaton]] with chaotic behaviour.<ref>{{cite web |url=https://www.maths.nottingham.ac.uk/personal/sc/pdfs/Seashells09.pdf |title=The Geometry and Pigmentation of Seashells |author=Stephen Coombes |year=2009 |month=February |work=www.maths.nottingham.ac.uk |publisher=[[University of Nottingham]] |accessdate=2013-04-10}}</ref>]]
+Chaos theory is applied in many scientific disciplines, including: [[geology]], [[mathematics]], [[microbiology]], [[biology]], [[computer science]], [[economics]],<ref>{{cite journal | author = Kyrtsou C., Labys W. | year = 2006 | title = Evidence for chaotic dependence between US inflation and commodity prices | journal = Journal of Macroeconomics | volume = 28 | issue = 1| pages = 256–266 |doi=10.1016/j.jmacro.2005.10.019 }}</ref><ref>{{cite journal | author = Kyrtsou C., Labys W. | year = 2007 | title = Detecting positive feedback in multivariate time series: the case of metal prices and US inflation | doi =10.1016/j.physa.2006.11.002 | journal = Physica A | volume = 377 | issue = 1| pages = 227–229 |bibcode = 2007PhyA..377..227K }}</ref><ref>{{cite book |author=Kyrtsou, C.; Vorlow, C. |chapter=Complex dynamics in macroeconomics: A novel approach |editor=Diebolt, C.; Kyrtsou, C. |title=New Trends in Macroeconomics |publisher=Springer Verlag |year=2005 }}</ref> [[engineering]],<ref>[http://www.dspdesignline.com/218101444;jsessionid=Y0BSVTQJJTBACQSNDLOSKH0CJUNN2JVN?pgno=1 Applying Chaos Theory to Embedded Applications]</ref> [[finance]],<ref>{{cite journal |author=Hristu-Varsakelis, D.; Kyrtsou, C. |title=Evidence for nonlinear asymmetric causality in US inflation, metal and stock returns |journal=Discrete Dynamics in Nature and Society |id=138547 |year=2008 |doi=10.1155/2008/138547 |volume=2008 |pages=1 }}</ref><ref>{{Cite journal | doi = 10.1023/A:1023939610962 | author = Kyrtsou, C. and M. Terraza, | year = 2003 | title = Is it possible to study chaotic and ARCH behaviour jointly? Application of a noisy Mackey-Glass equation with heteroskedastic errors to the Paris Stock Exchange returns series | journal = Computational Economics | volume = 21 | issue = 3| pages = 257–276 }}</ref> [[algorithmic trading]],<ref>{{cite book|last=Williams|first=Bill Williams, Justine|title=Trading chaos : maximize profits with proven technical techniques|year=2004|publisher=Wiley|location=New York|isbn=9780471463085|edition=2nd }}</ref><ref>{{cite book|last=Peters|first=Edgar E.|title=Fractal market analysis : applying chaos theory to investment and economics|year=1994|publisher=Wiley|location=New York u.a.|isbn=978-0471585244|edition=2. print.}}</ref><ref>{{cite book|last=Peters|first=/ Edgar E.|title=Chaos and order in the capital markets : a new view of cycles, prices, and market volatility|year=1996|publisher=John Wiley & Sons|location=New York|isbn=978-0471139386|edition=2nd }}</ref> [[meteorology]], [[philosophy]], [[physics]], [[politics]], [[population dynamics]],<ref>{{cite journal | author = Dilão, R.; Domingos, T. | year = 2001 | title = Periodic and Quasi-Periodic Behavior in Resource Dependent Age Structured Population Models | journal = Bulletin of Mathematical Biology | volume = 63 |pages = 207–230|doi=10.1006/bulm.2000.0213 | issue = 2 | pmid = 11276524}}</ref> [[psychology]], and [[BEAM robotics|robotics]].
+
+Chaotic behavior has been observed in the laboratory in a variety of systems, including [[electrical circuits]],<ref>{{cite journal | author = Cascais, J.; Dilão, R.; Noronha da Costa, A. | year = 1983| title = Chaos and Reverse Bifurcations in a RCL circuit | journal = Physics Letters A | volume = 93 | pages = 213–6 |doi=10.1016/0375-9601(83)90799-5|bibcode=1983PhLA...93..213C | issue = 5}}</ref>
+[[lasers]], [[Oscillation#Chemical|oscillating]] [[chemical reactions]], [[fluid dynamics]], and mechanical and magneto-mechanical devices, as well as computer models of chaotic processes. Observations of chaotic behavior in nature include changes in weather, the planet orbits in the [[solar system]],<ref>{{cite journal |last=Laskar |first=Jacques |year=1989 |title=A numerical experiment on the chaotic behaviour of the Solar System |journal=Nature |volume=338 |pages=237-238 |doi=10.1038/338237a0}}</ref> the time evolution of the [[magnetic field of celestial bodies]], population growth in [[ecology]], the dynamics of the [[action potentials]] in [[neuron]]s, and [[molecular vibration]]s. There is some controversy over the existence of chaotic dynamics in [[plate tectonics]]{{citation needed|date=April 2013}} and in economics.<ref>{{cite journal |author=Serletis, Apostolos; Gogas, Periklis |title=Purchasing Power Parity Nonlinearity and Chaos |journal=Applied Financial Economics |volume=10 |pages=615–622 |year=2000 |url=http://www.informaworld.com/smpp/content~content=a713761243~db=all~order=page |doi=10.1080/096031000437962 |issue=6}}</ref><ref>{{cite journal |author=Serletis, Apostolos; Gogas, Periklis |title=The North American Gas Markets are Chaotic |journal=The Energy Journal |volume=20 |pages=83–103 |year=1999 |url=http://mpra.ub.uni-muenchen.de/1576/01/MPRA_paper_1576.pdf |format=PDF |doi=10.5547/ISSN0195-6574-EJ-Vol20-No1-5}}</ref><ref>{{cite journal |author=Serletis, Apostolos; Gogas, Periklis |title=Chaos in East European Black Market Exchange Rates |journal=Research in Economics |volume=51 |pages=359–385 |year=1997 |url=http://ideas.repec.org/a/eee/reecon/v51y1997i4p359-385.html |doi=10.1006/reec.1997.0050 |issue=4}}</ref>
+
+Chaos theory is currently being applied to medical studies of [[epilepsy]], specifically to the prediction of seemingly random seizures by observing initial conditions.<ref>{{cite web |url= <!-- http://www.comdig.org/index.php?id_issue=1999.06#194 Complexity Digest 199.06] --> http://comdig.unam.mx/index.php?id_issue=1999.06 |title= Chaos Theory Helps To Predict Epileptic Seizures, U. Florida |author= Victoria White, Office Of Public Information, University Of Florida Health Science Center }}</ref>
+
+[[Quantum chaos]] theory studies how the [[correspondence principle|correspondence]] between [[quantum mechanics]] and [[classical mechanics]] works in the context of chaotic systems.<ref>Michael Berry, "Quantum Chaology," pp 104–5 of ''Quantum: a guide for the perplexed'' by Jim Al-Khalili (Weidenfeld and Nicolson 2003).{{cite web |url=http://www.physics.bristol.ac.uk/people/berry_mv/the_papers/Berry358.pdf |title=? |author= |date= |work= |publisher= |accessdate=}}</ref> [[Relativistic chaos]] describes chaotic systems under [[general relativity]].<ref>{{cite journal |author=Motter, A.E. |title=Relativistic chaos is coordinate invariant |journal=Phys. Rev. Lett. |volume=91 |issue=23 |page=231101 |year=2003 |url=http://prola.aps.org/abstract/PRL/v91/i23/e231101 |bibcode=2003PhRvL..91w1101M |doi=10.1103/PhysRevLett.91.231101|arxiv = gr-qc/0305020 }}</ref>
+
+The motion of a system of three or more stars interacting gravitationally (the [[N-body problem|gravitational ''N''-body problem]]) is generically chaotic.<ref>{{Cite journal
+  | last = Hemsendorf
+  | first = M.
+  | last2 = Merritt
+  | first2 = D.
+  | author2-link = David Merritt
+  | title = Instability of the Gravitational N-Body Problem in the Large-N Limit
+  | journal = The Astrophysical Journal
+  | volume = 580
+  | issue =1| pages = 606–9
+  | date = November 2002
+  | bibcode = 2002ApJ...580..606H
+  | doi = 10.1086/343027
+  | postscript = <!--None-->|arxiv = astro-ph/0205538 }}
+</ref>
+
+In electrical engineering, chaotic systems are used in communications, [[random number generators]], and [[encryption]] systems.
+
+In [[numerical analysis]], the [[Newton-Raphson]] method of approximating the [[root of a function|roots]] of a function can lead to chaotic iterations if the function has no real roots.<ref>{{cite journal |author=Strang, Gilbert |title=A chaotic search for ''i'' |journal=The College Mathematics Journal |volume=22 |issue=1 |pages=3–12 |date=January 1991 |doi=10.2307/2686733 }}</ref>
+
+In [[civil engineering]], a [[Traffic flow|traffic model]] was developed showing that under certain conditions the system dynamics can become chaotic.<ref name="SafonovTomer2002">{{cite journal|last1=Safonov|first1=Leonid A.|last2=Tomer|first2=Elad|last3=Strygin|first3=Vadim V.|last4=Ashkenazy|first4=Yosef|last5=Havlin|first5=Shlomo|authorlink5=Shlomo Havlin|title=Multifractal chaotic attractors in a system of delay-differential equations modeling road traffic|journal=Chaos: An Interdisciplinary Journal of Nonlinear Science|volume=12|issue=4|year=2002|pages=1006|issn=10541500|doi=10.1063/1.1507903|bibcode = 2002Chaos..12.1006S }}</ref>
+
+==Cultural references==
+{{Refimprove section|date=July 2011}}
+Chaos theory has been mentioned in movies and works of literature, including [[Michael Crichton]]'s novel ''[[Jurassic Park (novel)|Jurassic Park]]'' as well as its [[Jurassic Park (film)|film adaptation]], the films ''[[Chaos (2006 film)|Chaos]]'' and ''[[The Butterfly Effect]]'', the Indian movie "[[Dasavatharam]]" starring Kamal Hassan, the sitcoms ''[[Community (TV series)|Community]]'' and ''[[Spaced]]'', [[Tom Stoppard]]'s play ''[[Arcadia (play)|Arcadia]]'' and the video games [[Tom Clancy]]'s [[Splinter Cell: Chaos Theory]] and [[Assassin's Creed (video game)|Assassin's Creed]]. In the computer game [[The Secret World]] the Dragon secret society uses chaos theory to achieve political dominance. [[Ray Bradbury|Ray Bradbury's]] short story "[[A Sound of Thunder]]" explores chaos theory.  Chaos theory was the subject of the BBC documentaries ''High Anxieties — The Mathematics of Chaos'' directed by [[David Malone (independent filmmaker)|David Malone]], and ''The Secret Life of Chaos'' presented by [[Jim Al-Khalili]]. Cultural permutations of chaos theory are explored in the book ''The Unity of Nature'' by Alan Marshall (Imperial College Press, London, 2002).
+
+==See also==
+{{multicol}}
+;Examples of chaotic systems
+* [[Contour advection|Advected contours]]
+* [[Arnold's cat map]]
+* [[Bouncing ball dynamics]]
+* [[Chua's circuit]]
+* [[Cliodynamics]]
+* [[Coupled map lattice]]
+* [[Double pendulum]]
+* [[Dynamical billiards]]
+* [[Economic bubble]]
+* [[Chaotic scattering#Gaspard–Rice system|Gaspard-Rice system]]
+* [[Hénon map]]
+* [[Horseshoe map]]
+* [[List of chaotic maps]]
+* [[Logistic map]]
+* [[Rössler attractor]]
+* [[Standard map]]
+* [[Swinging Atwood's machine]]
+* [[Tilt A Whirl]]
+{{multicol-break}}
+;Other related topics
+* [[Amplitude death]]
+* [[Anosov diffeomorphism]]
+* [[Bifurcation theory]]
+* [[Catastrophe theory]]
+* [[Chaos theory in organizational development]]
+* [[Chaotic mixing]]
+* [[Chaotic scattering]]
+* [[Complexity]]
+* [[Control of chaos]]
+* [[Edge of chaos]]
+* [[Emergence]]
+* [[Fractal]]
+** [[Julia set]]
+** [[Mandelbrot set]]
+* [[Ill-conditioning]]
+* [[Ill-posedness]]
+* [[Nonlinear system]] 
+* [[Patterns in nature]]
+* [[Predictability]]
+* [[Quantum chaos]]
+* [[Santa Fe Institute]]
+* [[Synchronization of chaos]]
+* [[Unintended consequence]]
+{{multicol-break}}
+;People
+* [[Ralph Abraham]]
+* [[Michael Berry (physicist)|Michael Berry]]
+* [[Leon O. Chua]]
+* [[Ivar Ekeland]]
+* [[Doyne Farmer]]
+* [[Mitchell Feigenbaum]]
+* [[Martin Gutzwiller]]
+* [[Brosl Hasslacher]]
+* [[Michel Hénon]]
+* [[Edward Lorenz]]
+* [[Aleksandr Lyapunov]]
+* [[Ian Malcolm (Jurassic Park character)]]
+* [[Benoît Mandelbrot]]
+* [[Norman Packard]]
+* [[Henri Poincaré]]
+* [[Otto Rössler]]
+* [[David Ruelle]]
+* [[Oleksandr Mikolaiovich Sharkovsky]]
+* [[Robert Shaw (physicist)|Robert Shaw]]
+* [[Floris Takens]]
+* [[James A. Yorke]]
+* [[George M. Zaslavsky]]
+{{multicol-break}}
+{{Portal|Systems science|Mathematics}}
+{{multicol-end}}
+
+==References==
+{{Reflist|2}}
+
+==Scientific literature==
+
+===Articles===
+* {{cite journal |first=A.N. |last=Sharkovskii |authorlink=Oleksandr Mykolaiovych Sharkovsky |title=Co-existence of cycles of a continuous mapping of the line into itself |journal=Ukrainian Math. J. |volume=16 |pages=61–71 |year=1964 }}
+* {{cite journal |authorlink1=Tien-Yien Li |last1=Li |first1=T.Y. |authorlink2=James A. Yorke |last2=Yorke |first2=J.A. |title=Period Three Implies Chaos |journal=[[American Mathematical Monthly]] |volume=82 |pages=985–92 |year=1975 |bibcode=1975AmMM...82..985L |doi=10.2307/2318254 |issue=10 }}
+* {{Cite journal |date = December 1986|author=[[James P. Crutchfield|Crutchfield, J.P.]], [[J. Doyne Farmer|Farmer, J.D.]], [[Norman Packard|Packard, N.H.]], & [[Robert Shaw (physicist)|Shaw, R.S]] |title=Chaos |journal=[[Scientific American]] |volume=255 |issue=6 |pages=38–49 (bibliography p.136) |postscript=<!--None-->|bibcode = 1986SciAm.255...38T |last2 = Tucker |last3 = Morrison }} [http://cse.ucdavis.edu/~chaos/courses/ncaso/Readings/Chaos_SciAm1986/Chaos_SciAm1986.html Online version] (Note: the volume and page citation cited for the online text differ from that cited here. The citation here is from a photocopy, which is consistent with other citations found online, but which don't provide article views. The online content is identical to the hardcopy text. Citation variations will be related to country of publication).
+* {{cite journal |author=Kolyada, S.F. |title=Li-Yorke sensitivity and other concepts of chaos |journal=Ukrainian Math. J. |volume=56 |pages=1242–57 |year=2004 |url=http://www.springerlink.com/content/q00627510552020g/?p=93e1f3daf93549d1850365a8800afb30&pi=3 |doi=10.1007/s11253-005-0055-4 |issue=8 }}
+* {{cite journal |first1=C. |last1=Strelioff |first2=A. |last2=Hübler |title=Medium-Term Prediction of Chaos |journal=Phys. Rev. Lett. |volume=96 |issue=4 |id=044101 |year=2006 |doi=10.1103/PhysRevLett.96.044101 |url=http://www.ccsr.illinois.edu/web/Techreports/2005-08/CCSR-05-4.pdf |format=PDF |pmid=16486826 |pages=044101|bibcode = 2006PhRvL..96d4101S }}
+* {{cite journal |author=Hübler, A.; Foster, G.; Phelps, K. |title=Managing Chaos: Thinking out of the Box |journal=Complexity |volume=12 |pages=10–13 |year=2007 |url=http://server17.how-why.com/blog/ManagingChaos.pdf |format=PDF |doi=10.1002/cplx.20159 |issue=3}}
+
+===Textbooks===
+* {{cite book |last1=Alligood |first1=K.T. |last2=Sauer |first2=T. |last3=Yorke |first3=J.A. |title=Chaos: an introduction to dynamical systems |publisher=Springer-Verlag |year=1997 |isbn=0-387-94677-2 |ref=harv |url=http://books.google.com/books?id=48YHnbHGZAgC}}
+* {{cite book| author=Baker, G. L.| title=Chaos, Scattering and Statistical Mechanics| publisher=Cambridge University Press| year=1996| isbn=0-521-39511-9}}
+* {{cite book |author=Badii, R.; Politi A. |title=Complexity: hierarchical structures and scaling in physics |publisher=Cambridge University Press |year=1997 |isbn=0-521-66385-7 |url=http://www.cambridge.org/gb/knowledge/isbn/item6494119/?site_locale=en_GB}}
+* {{cite book |editor1-last=Bunde  |editor2-first=Shlomo | editor2-last=Havlin | editor2-link=Shlomo Havlin |title=Fractals and Disordered Systems |publisher=Springer |year=1996 |isbn=3642848702}} and {{cite book |editor1-last=Bunde  |editor2-first=Shlomo | editor2-last=Havlin | editor2-link=Shlomo Havlin |title=Fractals in Science |publisher=Springer |year=1994 |isbn=3-540-56220-6}}
+* {{cite book| author=Collet, Pierre, and [[Jean-Pierre Eckmann|Eckmann, Jean-Pierre]]| title=Iterated Maps on the Interval as Dynamical Systems | publisher=Birkhauser | year=1980 |isbn=0-8176-4926-3}}
+* {{cite book |last=Devaney |first=Robert L. |title=An Introduction to Chaotic Dynamical Systems |edition=2nd |publisher=Westview Press |year=2003 |isbn=0-8133-4085-3 |url=http://books.google.com/books?id=CjAnY99LwTgC}}
+* {{cite book |author=Gollub, J. P.; Baker, G. L. |title=Chaotic dynamics |publisher=Cambridge University Press |year=1996 |isbn=0-521-47685-2 |url=http://books.google.com/books?id=n1qnekRPKtoC}}
+* {{cite book |author=Guckenheimer, J.; Holmes P. |title=Nonlinear Oscillations, Dynamical Systems, and Bifurcations of Vector Fields |publisher=Springer-Verlag  |year=1983 |isbn=0-387-90819-6}}
+* {{cite book| author=Gulick, Denny| title=Encounters with Chaos| publisher=McGraw-Hill| year=1992| isbn=0-07-025203-3}}
+* {{cite book |author=Gutzwiller, Martin |title=Chaos in Classical and Quantum Mechanics |publisher=Springer-Verlag |year=1990 |isbn=0-387-97173-4 |url=http://books.google.com/books?id=fnO3XYYpU54C}}
+* {{cite book |author=Hoover, William Graham |title=Time Reversibility, Computer Simulation, and Chaos |publisher=World Scientific |year=1999,2001 |isbn=981-02-4073-2 |url=http://books.google.com/books?id=24kEKsdl0psC}}
+* {{cite book |author=Kautz, Richard |title=Chaos: The Science of Predictable Random Motion |publisher=Oxford University Press |year=2011 |isbn=978-0-19-959458-0 |url=http://books.google.com/books?id=x5YbNZjulN0C}}
+* {{cite book |author=Kiel, L. Douglas; Elliott, Euel W. |title=Chaos Theory in the Social Sciences |publisher=Perseus Publishing |year=1997 |isbn=0-472-08472-0 |url=http://books.google.com/books?id=K46kkMXnKfcC}}
+* {{cite book |author=Moon, Francis |title=Chaotic and Fractal Dynamics |publisher=Springer-Verlag |year=1990 |isbn=0-471-54571-6 |url=http://books.google.com/books?id=Ddz-CI-nSKYC}}
+* {{cite book |author=Ott, Edward |title=Chaos in Dynamical Systems |publisher=Cambridge University Press  |year=2002 |isbn=0-521-01084-5 |url=http://books.google.com/books?id=nOLx--zzHSgC}}
+* {{cite book| author=Strogatz, Steven| title=Nonlinear Dynamics and Chaos| publisher=Perseus Publishing| year=2000| isbn=0-7382-0453-6}}
+* {{cite book |last=Sprott |first=Julien Clinton |title=Chaos and Time-Series Analysis |publisher=Oxford University Press |year=2003 |isbn=0-19-850840-9 |ref=harv |url=http://books.google.com/books?id=SEDjdjPZ158C}}
+* {{cite book |author=Tél, Tamás; Gruiz, Márton |title=Chaotic dynamics: An introduction based on classical mechanics |publisher=Cambridge University Press |year=2006 |isbn=0-521-83912-2 |url=http://books.google.com/books?id=P2JL7s2IvakC}}
+* {{cite book| author=Thompson J M T, Stewart H B | title=Nonlinear Dynamics And Chaos| publisher=John Wiley and Sons Ltd| year=2001| isbn=0-471-87645-3}}
+* {{cite book| author1-link=Nicholas Tufillaro |last1=Tufillaro |last2=Reilly| title=An experimental approach to nonlinear dynamics and chaos| publisher=Addison-Wesley | year=1992| isbn=0-201-55441-0}}
+* {{cite book| author=Zaslavsky, George M.| title=Hamiltonian Chaos and Fractional Dynamics| publisher=Oxford University Press| year=2005| isbn=0-19-852604-0}}
+
+===Semitechnical and popular works===
+* [[Christophe Letellier]], ''Chaos in Nature'', World Scientific Publishing Company, 2012, ISBN 978-981-4374-42-2.
+* {{cite book |editor1-first=Ralph H. |editor1-last=Abraham |editor2-first=Yoshisuke |editor2-last=Ueda |title=The Chaos Avant-Garde: Memoirs of the Early Days of Chaos Theory |url=http://books.google.com/books?id=0E667XpBq1UC |year=2000 |publisher=World Scientific |isbn=978-981-238-647-2 |ref=harv}}
+* {{cite book |authorlink=Michael F. Barnsley |first=Michael F. |last=Barnsley |title=Fractals Everywhere |url=http://books.google.com/books?id=oh7NoePgmOIC |year=2000 |publisher=Morgan Kaufmann |isbn=978-0-12-079069-2}}
+* {{cite book |first=Richard J. |last=Bird |title=Chaos and Life: Complexit and Order in Evolution and Thought |url=http://books.google.com/books?id=fv3sltQBS54C |year=2003 |publisher=Columbia University Press |isbn=978-0-231-12662-5}}
+* [[John Briggs (author)|John Briggs]] and David Peat, ''Turbulent Mirror: : An Illustrated Guide to Chaos Theory and the Science of Wholeness'', Harper Perennial 1990, 224 pp.
+* John Briggs and David Peat, ''Seven Life Lessons of Chaos: Spiritual Wisdom from the Science of Change'', Harper Perennial 2000, 224 pp.
+* {{cite journal |author=Cunningham, Lawrence A. |title=From Random Walks to Chaotic Crashes: The Linear Genealogy of the Efficient Capital Market Hypothesis |journal=George Washington Law Review |volume=62 |pages=546 |year=1994 }}
+* Predrag Cvitanović, ''Universality in Chaos'', Adam Hilger 1989, 648 pp.
+* [[Leon Glass]] and Michael C. Mackey, ''From Clocks to Chaos: The Rhythms of Life,'' Princeton University Press 1988, 272 pp.
+* [[James Gleick]], ''[[Chaos: Making a New Science]]'', New York: Penguin, 1988. 368 pp.
+* {{cite book |author=John Gribbin |title=Deep Simplicity |series=Penguin Press Science |publisher=Penguin Books}}
+* L Douglas Kiel, Euel W Elliott (ed.), ''Chaos Theory in the Social Sciences: Foundations and Applications'', University of Michigan Press, 1997, 360 pp.
+* Arvind Kumar, ''Chaos, Fractals and Self-Organisation; New Perspectives on Complexity in Nature '', National Book Trust, 2003.
+* Hans Lauwerier, ''Fractals'', Princeton University Press, 1991.
+* [[Edward Lorenz]], ''The Essence of Chaos'', University of Washington Press, 1996.
+* Alan Marshall (2002) The Unity of Nature: Wholeness and Disintegration in Ecology and Science, Imperial College Press: London
+* [[Heinz-Otto Peitgen]] and [[Dietmar Saupe]] (Eds.), ''The Science of Fractal Images'', Springer 1988, 312 pp.
+* [[Clifford A. Pickover]], ''Computers, Pattern, Chaos, and Beauty: Graphics from an Unseen World '', St Martins Pr 1991.
+* [[Ilya Prigogine]] and Isabelle Stengers, ''Order Out of Chaos'', Bantam 1984.
+* Heinz-Otto Peitgen and P. H. Richter, ''The Beauty of Fractals : Images of Complex Dynamical Systems'', Springer 1986, 211 pp.
+* [[David Ruelle]], ''Chance and Chaos'', Princeton University Press 1993.
+* [[Ivars Peterson]], ''Newton's Clock: Chaos in the Solar System'', Freeman, 1993.
+* {{cite book |author= Ian Roulstone and John Norbury |title=Invisible in the Storm: the role of mathematics in understanding weather |url=http://books.google.co.uk/books/about/Invisible_in_the_Storm.html?id=qnMrFEHMrWwC&redir_esc=y|year=2013 |publisher=Princeton University Press}}
+* David Ruelle, ''Chaotic Evolution and Strange Attractors'', Cambridge University Press, 1989.
+* Peter Smith, ''Explaining Chaos'', Cambridge University Press, 1998.
+* [[Ian Stewart (mathematician)|Ian Stewart]], ''Does God Play Dice?: The Mathematics of Chaos '', Blackwell Publishers, 1990.
+* [[Steven Strogatz]], ''Sync: The emerging science of spontaneous order'', Hyperion, 2003.
+* Yoshisuke Ueda, ''The Road To Chaos'', Aerial Pr, 1993.
+* M. Mitchell Waldrop, ''Complexity : The Emerging Science at the Edge of Order and Chaos'', Simon & Schuster, 1992.
+* Sawaya, Antonio (2010). ''Financial time series analysis : Chaos and neurodynamics approach''.
+
+==External links==
+{{Commons category|Chaos theory}}
+* {{springer|title=Chaos|id=p/c021480}}
+* [http://lagrange.physics.drexel.edu Nonlinear Dynamics Research Group] with Animations in Flash
+* [http://www.chaos.umd.edu The Chaos group at the University of Maryland]
+* [http://hypertextbook.com/chaos/ The Chaos Hypertextbook]. An introductory primer on chaos and fractals
+* [http://chaosbook.org/ ChaosBook.org] An advanced graduate textbook on chaos (no fractals)
+* [http://www.societyforchaostheory.org/ Society for Chaos Theory in Psychology & Life Sciences]
+* [http://www.csdc.unifi.it/mdswitch.html?newlang=eng Nonlinear Dynamics Research Group at CSDC], [[Florence]] [[Italy]]
+* [http://physics.mercer.edu/pendulum/ Interactive live chaotic pendulum experiment], allows users to interact and sample data from a real working damped driven chaotic pendulum
+* [http://www.creatingtechnology.org/papers/chaos.htm Nonlinear dynamics: how science comprehends chaos], talk presented by Sunny Auyang, 1998.
+* [http://www.egwald.ca/nonlineardynamics/index.php Nonlinear Dynamics]. Models of bifurcation and chaos by Elmer G. Wiens
+* [http://www.around.com/chaos.html Gleick's ''Chaos'' (excerpt)]
+* [http://www.eng.ox.ac.uk/samp Systems Analysis, Modelling and Prediction Group] at the University of Oxford
+* [http://www.mgix.com/snippets/?MackeyGlass A page about the Mackey-Glass equation]
+* [http://www.youtube.com/user/thedebtgeneration?feature=mhum High Anxieties — The Mathematics of Chaos] (2008) BBC documentary directed by [[David Malone (independent filmmaker)|David Malone]]
+* [http://www.newscientist.com/article/mg20827821.000-the-chaos-theory-of-evolution.html The chaos theory of evolution] - article published in Newscientist featuring similarities of evolution and non-linear systems including fractal nature of life and chaos.
+* Jos Leys, [[Étienne Ghys]] et Aurélien Alvarez,  [http://www.chaos-math.org/en ''Chaos, A Mathematical Adventure'']. Nine films about dynamical systems, the butterfly effect and chaos theory, intended for a wide audience.
+
+{{Systems}}
+{{Chaos theory}}
+
+{{DEFAULTSORT:Chaos Theory}}
+[[Category:Chaos theory| ]]
+
+{{Link GA|de}}

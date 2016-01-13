@@ -1,0 +1,166 @@
+{{newsrelease |date=June 2012}}    
+ 
+The '''Capability Maturity Model (CMM)'''<ref>CMM is a registered [[service mark]] of [[Carnegie Mellon University]] (CMU).</ref> is a development model created after study of data collected from organizations that contracted with the [[U.S. Department of Defense]], who funded the research.  This model became the foundation from which Carnegie Mellon created the [[Software Engineering Institute]] (SEI). The term "maturity" relates to the degree of formality and optimization of processes, from ''[[ad hoc]]'' practices, to formally defined steps, to managed result metrics, to active optimization of the processes.
+
+The model's aim is to improve existing [[software development|software-development]] processes, but it can also be applied to other processes.
+
+==Overview==
+The Capability Maturity Model   was originally developed as a tool for objectively assessing the ability of government contractors' ''processes'' to perform a contracted software project. The model is based on the process maturity framework first described in the 1989 book ''Managing the Software Process'' by [[Watts Humphrey]]. It was later published in a report in 1993<ref name="sei93cmm">{{Cite journal
+ |last1=Paulk |first1=Mark C. |author-link=
+ |last2=Weber |first2=Charles V |author2-link=
+ |last3=Curtis |first3=Bill |author3-link=Dr Bill Curtis
+ |last4=Chrissis |first4=Mary Beth |author4-link=
+ |title=Capability Maturity Model for Software (Version 1.1)
+ |journal=Technical Report
+ |location=Pittsburgh, PA
+ |publisher=Software Engineering Institute, Carnegie Mellon University
+ |year=1993
+ |month=February
+ |id=[http://www.sei.cmu.edu/library/abstracts/reports/93tr024.cfm CMU/SEI-93-TR-024] ESC-TR-93-177
+ |url=http://www.sei.cmu.edu/reports/93tr024.pdf
+}}</ref> and as a book by the same authors in 1995.
+
+Though the model comes from the field of [[software development]], it is also used as a general model to aid in   business processes generally, and has been used extensively worldwide in government offices, commerce, industry and software-development organizations.{{Citation needed|date=January 2011}}
+
+==History==
+===Prior need for software processes===
+In the 1960s, the use of computers grew more widespread, more flexible and less costly. Organizations began to adopt computerized information systems, and the demand for [[software development]] grew significantly. Many processes for software development were in their infancy, with few standard or "best practice" approaches defined.
+
+As a result, the growth was accompanied by growing pains: project failure was common, and the field of [[computer science]] was still in its early years, and the ambitions for project scale and complexity exceeded the market capability to deliver adequate products within a planned budget. Individuals such as [[Edward Yourdon]], [[Larry Constantine]], [[Gerald Weinberg]], [[Tom DeMarco]], and [[David Parnas]] began to publish articles and books with research results in an attempt to professionalize the software-development processes.{{citation needed |date=June 2012}} 
+
+In the 1980s, several US military projects involving software subcontractors ran over-budget and were completed far later than planned, if at all. In an effort to determine why this was occurring, the [[United States Air Force]] funded a study at the SEI.
+
+===Precursor===
+The [[Quality Management Maturity Grid]] was developed by [[Philip B. Crosby]] in his book ''Quality is Free'',<ref name=crosby79qif/> which advanced the position that quality-improvement activities paid for themselves by reducing the related costs.
+
+The first application of a staged maturity model to IT was not by CMM/SEI, but rather by [[Richard L. Nolan]], who, in 1973 published the [[stages of growth model]] for IT organizations.<ref>{{cite doi|10.1145/362280.362284}}</ref>
+
+[[Watts Humphrey]] began developing his process maturity concepts during the later stages of his 27 year career at IBM.{{Citation needed|date=September 2011}}
+
+===Development at Software Engineering Institute===
+Active development of the model by the US Department of Defense Software Engineering Institute (SEI) began in 1986 when Humphrey joined the [[Software Engineering Institute]] located at  Carnegie Mellon University  in [[Pittsburgh, Pennsylvania]] after retiring from IBM. At the request of the U.S. Air Force he began formalizing his Process Maturity Framework to aid the U.S. Department of Defense in evaluating the capability of software contractors as part of awarding contracts.
+
+The result of the Air Force study was a model for the military to use as an objective evaluation of software subcontractors' process capability maturity. Humphrey based this framework on the earlier Quality Management Maturity Grid developed by [[Philip B. Crosby]] in his book "Quality is Free".<ref name=crosby79qif>{{cite book
+ |last1=Crosby |first1=P. B. |authorlink1=Philip B. Crosby
+ |title=Quality is Free
+ |location=New York
+ |publisher=[[New American Library]]
+ |year=1979
+ |isbn=0-451-62247-2
+}}</ref> Humphrey's approach differed because of his unique insight that organizations mature their processes in stages based on solving process problems in a specific order. Humphrey based his approach on the staged evolution of a system of software development practices within an organization, rather than measuring the maturity of each separate development process independently. The CMM has thus been used by different organizations as a general and powerful tool for understanding and then improving general business process performance.
+
+Watts Humphrey's Capability Maturity Model (CMM) was published in 1988<ref>{{cite doi|10.1109/52.2014}}</ref> and as a book in 1989, in ''Managing the Software Process''.<ref name=watts89msp>{{cite book
+ |last1=Humphrey |first1=W. S. |authorlink1=Watts Humphrey
+ |title=Managing the Software Process
+ |year=1989
+ |location=Reading, Mass.
+ |publisher=[[Addison-Wesley]]
+ |series=SEI series in software engineering
+ |isbn=0-201-18095-2
+}}</ref>
+
+Organizations were originally assessed using a process maturity questionnaire and a Software Capability Evaluation method devised by Humphrey and his colleagues at the Software Engineering Institute  
+
+The full representation of the Capability Maturity Model as a set of defined process areas and practices at each of the five maturity levels was initiated in 1991, with Version 1.1 being completed in January 1993.<ref name="sei93cmm"/> The CMM was published as a book<ref>{{Cite book
+ |last1=Paulk |first1=Mark C. |author-link=
+ |last2=Weber |first2=Charles V |author2-link=
+ |last3=Curtis |first3=Bill |author3-link=Dr Bill Curtis
+ |last4=Chrissis |first4=Mary Beth |author4-link=
+ |title=The Capability Maturity Model: Guidelines for Improving the Software Process
+ |place=Reading, Mass.
+ |publisher=[[Addison-Wesley]]
+ |series=SEI series in software engineering
+ |year=1995
+ |isbn=0-201-54664-7
+}}</ref> in 1995 by its primary authors, Mark C. Paulk, Charles V. Weber, [[Dr Bill Curtis|Bill Curtis]], and Mary Beth Chrissis.
+
+===  CMMI===
+The CMM model's application in software development has sometimes been problematic. Applying multiple models that are not integrated within and across an organization could be costly in training, appraisals, and improvement activities. The [[Capability Maturity Model Integration]] (CMMI) project was formed to sort out the problem of using multiple models for software development processes, thus the CMMI model has superseded the CMM model, though the CMM model continues to be a general theoretical process capability model used in the public domain.{{Citation needed|date=March 2012}}
+
+===Adapted to other processes===
+The CMM was originally intended as a tool to evaluate the ability of government contractors to perform a contracted software project. Though it comes from the area of software development, it can be, has been, and continues to be widely applied as a general model of the maturity of ''process'' (e.g., [[IT service management]] processes) in IS/IT (and other) organizations.
+
+==Model topics==
+===Maturity model===
+A maturity model can be viewed as a set of [[structured]] levels that describe how well the behaviors, practices and processes of an organization can reliably and sustainably produce required outcomes.
+
+A maturity model can be used as a benchmark for comparison and as an aid to understanding - for example, for comparative assessment of different organizations where there is something in common that can be used as a basis for comparison. In the case of the CMM, for example, the basis for comparison would be the organizations' software development processes.
+
+===Structure===
+The model involves five aspects:
+* ''Maturity Levels:'' a 5-level process maturity continuum - where the uppermost (5th) level is a notional ideal state where processes would be systematically managed by a combination of process optimization and continuous process improvement.
+* ''Key Process Areas:'' a Key Process Area  identifies a cluster of related activities that, when performed together, achieve a set of goals considered important.
+* ''Goals:'' the goals of a key process area summarize the states that must exist for that key process area to have been implemented in an effective and lasting way. The extent to which the goals have been accomplished is an indicator of how much capability the organization has established at that maturity level. The goals signify the scope, boundaries, and intent of each key process area.
+* ''Common Features:'' common features include practices that implement and institutionalize a key process area. There are five types of common features: commitment to perform, ability to perform, activities performed, measurement and analysis, and verifying implementation.
+* ''Key Practices:'' The key practices describe the elements of infrastructure and practice that contribute most effectively to the implementation and institutionalization of the area.
+
+===Levels===
+There are five levels defined along the continuum of the model and, according to the SEI: "Predictability, effectiveness, and control of an organization's software processes are believed to improve as the organization moves up these five levels. While not rigorous, the empirical evidence to date supports this belief".{{Citation needed|date=October 2011}}
+# ''Initial'' (chaotic, ad hoc, individual heroics) - the starting point for use of a new or undocumented repeat process.
+# ''Repeatable'' - the process is at least documented sufficiently such that repeating the same steps may be attempted.
+#''Defined'' - the process is defined/confirmed as a standard business process, and decomposed to levels 0, 1 and 2 (the last being Work Instructions).
+# ''Managed'' - the process is quantitatively managed in accordance with agreed-upon metrics.
+# ''Optimizing'' - process management includes deliberate process optimization/improvement.
+
+Within each of these maturity levels are Key Process Areas  which characterise that level, and for each such area there are five factors:  goals,  commitment,  ability,  measurement,  and verification. These  are not necessarily unique to CMM, representing — as they do — the stages that organizations must go through on the way to becoming mature.
+
+The model provides a theoretical continuum along which process maturity can be developed incrementally from one level to the next. Skipping levels is not allowed/feasible.
+
+; Level 1 - ''Initial (Chaotic)'': It is characteristic of processes at this level that they are (typically) undocumented and in a state of dynamic change, tending to be driven in an ''ad hoc'', uncontrolled and reactive manner by users or events. This provides a chaotic or unstable environment for the processes.
+
+; Level 2 - ''Repeatable'': It is characteristic of processes at this level that some processes are repeatable, possibly with consistent results. Process discipline is unlikely to be rigorous, but where it exists it may help to ensure that existing processes are maintained during times of stress.
+
+; Level 3 - ''Defined'': It is characteristic of processes at this level that there are sets of defined and documented standard processes established and subject to some degree of improvement over time. These standard processes are in place ([[id est|i.e.]], they are the [[As is|AS-IS]] processes) and used to establish consistency of process performance across the organization.
+
+; Level 4 - ''Managed'': It is characteristic of processes at this level that, using process metrics, management can effectively control the [[As is|AS-IS]] process ([[exempli gratia|e.g.]], for software development ). In particular, management can identify ways to adjust and adapt the process to particular projects without measurable losses of quality or deviations from specifications. Process Capability is established from this level.
+
+; Level 5 - ''Optimizing'': It is a characteristic of processes at this level that the focus is on continually improving process performance through both incremental and innovative technological changes/improvements.
+
+At maturity level 5, processes are concerned with addressing statistical ''common causes'' of process variation and changing the process (for example, to shift the mean of the process performance) to improve process performance. This would be done at the same time as maintaining the likelihood of achieving the established quantitative process-improvement objectives.
+
+===Critique===
+The model was originally intended  to evaluate the ability of government contractors to perform a software project. It has been used for and may be suited to that purpose, but critics pointed out that process maturity according to the CMM was not necessarily mandatory for successful software development. Real-life examples where the CMM was arguably irrelevant to successful software development include many ''shrinkwrap'' companies (also called ''commercial-off-the-shelf'' or "COTS" firms or ''software package'' firms). Such firms would have included  Claris, Apple, Symantec, Microsoft, and Lotus. Though these companies have successfully developed their software, they   have not considered or defined or managed their processes as the CMM described as level 3 or above, and so would have fitted level 1 or 2 of the model.
+
+===Software process framework===
+The software process framework documented is intended to guide those wishing to assess an organization's or project's consistency with the Key Process Areas. For each maturity level there are five checklist types:
+
+:{| class="wikitable"
+|-
+! Type
+! Description
+|-
+| Policy
+|Describes the policy contents and KPA goals recommended by the Key Process Areas.
+|-
+| Standard
+|Describes the recommended content of select work products described in the Key Process Areas.
+|-
+| Process
+| Describes the process information content recommended by the Key Process Areas. These   are refined into checklists for:
+* Roles,  entry criteria, inputs, activities, outputs, exit criteria, reviews and audits, work products managed and controlled, measurements, documented procedures,  training, and  tools
+|-
+| Procedure
+| Describes the recommended content of documented procedures described in the Key Process Areas.
+|-
+| Level overview
+| Provides an overview of an entire maturity level. These are further refined into checklists for:
+* Key Process Areas purposes, goals,   policies,  and standards;  process descriptions; procedures; training; tools; reviews and audits; work products; measurements
+|}
+
+==See also==
+*[[Capability Immaturity Model]]
+*[[Capability Maturity Model Integration]]
+*[[People Capability Maturity Model]]
+*[[Testing Maturity Model]]
+
+==References==
+{{reflist|2}}
+
+==External links==
+{{Commons category|Capability Maturity Model Integration}}
+* [http://cmmiinstitute.com/ CMMI Institute]
+* {{dmoz|Computers/Programming/Methodologies/Capability_Maturity_Model}}
+
+[[Category:Software development process]]
+[[Category:Maturity models]]
+[[Category:Information technology management]]

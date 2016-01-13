@@ -1,0 +1,355 @@
+{{Refimprove |date=May 2011}}
+[[Image:Beta-minus Decay.svg|thumb|240px|{{SubatomicParticle|Beta-}}&nbsp;decay in an [[atomic nucleus]] (the accompanying antineutrino is omitted). The inset shows beta decay of a free neutron. In both processes, the intermediate emission of a virtual {{SubatomicParticle|W boson-|link=yes}} boson (which then decays to electron and antineutrino) is not shown.]]
+{{Nuclear physics}} 
+In [[nuclear physics]], '''beta decay''' (β decay) is a type of [[radioactive decay]] in which a [[beta particle]] (an [[electron]] or a [[positron]]) is emitted from an atomic nucleus. Beta decay is a process which allows the atom to obtain the optimal [[proton–neutron ratio|ratio of protons and neutrons]].<ref name="konya74">
+{{cite book
+ |last1=Konya |first1=J.
+ |last2=Nagy |first2=N. M.
+ |year=2012
+ |title=Nuclear and Radiochemistry
+ |page=74-75
+ |publisher=[[Elsevier]]
+ |isbn=978-0-12-391487-3
+}}</ref>
+
+Beta decay is mediated by the [[Weak interaction|weak force]]. There are two types: ''beta minus'' and ''beta plus''. In the case of beta decay that produces an electron emission, it is referred to as beta minus (β<sup>−</sup>), while in the case of a [[positron emission]] as beta plus (β<sup>+</sup>).
+
+An example of β<sup>−</sup> decay is shown when [[carbon-14]] decays into [[nitrogen-14]]:
+
+:{{nuclide2|carbon|14}} → {{nuclide2|nitrogen|14}} + {{subatomic particle|electron}} + {{subatomic particle|electron antineutrino}}
+
+Notice how, in electron emission, an [[electron antineutrino]] is also emitted. In this form of decay, the original element has decayed into a new element with an unchanged [[mass number]] {{mvar|A}} but an [[atomic number]] {{mvar|Z}} that has increased by one.
+
+An example of positron (β<sup>+</sup> decay) is shown with [[magnesium-23]] decaying into [[sodium-23]]:
+
+:{{nuclide2|Magnesium|23}} → {{nuclide2|Sodium|23}} + {{subatomic particle|positron}} + {{subatomic particle|electron neutrino}}
+
+In contrast to electron emission, positron emission is accompanied by the emission of an [[electron neutrino]]. Similar to electron emission,  positron decay results in [[nuclear transmutation]], changing an atom of a chemical element into an atom of an element with an unchanged mass number. However, in positron decay, the resulting element has an [[atomic number]] that has decreased by one.
+
+Emitted beta particles have a continuous [[kinetic energy]] spectrum, ranging from 0 to the maximal available energy ([[Q value (nuclear science)|{{mvar|Q}}]]), which depends on the parent and daughter nuclear states that participate in the decay. The continuous energy spectra of beta particle occurs because {{mvar|Q}} is shared between the beta particle and a neutrino.<ref name="konya74"/> A typical {{mvar|Q}} is around 1&nbsp;[[MeV]], but it can range from a few [[keV]] to a few tens of MeV. Since the [[Mass-energy equivalence|rest mass energy]] of the electron is 511&nbsp;keV, the most energetic beta particles are [[Ultrarelativistic limit|ultrarelativistic]], with speeds very close to the [[speed of light]].
+
+Sometimes [[electron capture]] decay is included as a type of beta decay (and is referred to as "inverse beta decay"), because the basic process, mediated by the [[weak force]] is the same. However, no beta particle is emitted, but only an electron neutrino. Instead of beta-plus emission, an inner atomic electron is captured by a proton in the nucleus. An example of electron capture involves [[krypton-81]] becoming [[bromine-81]] and producing an electron neutrino:
+
+:{{nuclide2|Krypton|81}} + {{subatomic particle|electron}} → {{nuclide2|Bromine|81}} + {{subatomic particle|electron neutrino}}
+
+This type of decay is therefore analogous to positron emission (and also happens, as an alternative decay route, in all positron-emitters). However, the route of electron capture is the ''only'' type of decay that is allowed in proton-rich nuclides that ''do not'' have sufficient energy to emit a positron (and neutrino). These may still reach a lower energy state, by the equivalent process of electron capture and neutrino emission.
+
+== β<sup>−</sup> decay ==
+[[Image:Beta Negative Decay.svg|thumb|The [[Feynman diagram]] for {{SubatomicParticle|Beta-}}&nbsp;decay of a [[neutron]] into a [[proton]], [[electron]], and [[electron antineutrino]] via an intermediate [[W boson|{{SubatomicParticle|W boson-}} boson]].]]
+In {{SubatomicParticle|Beta-}}&nbsp;decay, the [[weak interaction]] converts an [[atomic nucleus]] into a nucleus with one higher [[atomic number]] while emitting an electron ({{SubatomicParticle|Electron|link=yes}}) and an electron antineutrino ({{SubatomicParticle|Electron antineutrino}}):
+
+: {{Physics particle|TL={{mvar|A}}|BL={{mvar|Z}}|''N''}} → {{Physics particle|TL={{mvar|A}}|BL={{math|''Z''+1}}|''N’''}} + {{SubatomicParticle|Electron}} + {{SubatomicParticle|Electron Antineutrino}} <ref name="konya74"/>
+where {{mvar|A}} and {{mvar|Z}} are the [[mass number]] and [[atomic number]]<!-- "charge" is linked from another place. "mass number" is paired with "atomic number" -->  of the decaying nucleus.
+
+Another example is when the [[free neutron]] ({{Nuclide2|neutronium|1}}) decays by {{SubatomicParticle|Beta-}}&nbsp;decay into a proton ({{SubatomicParticle|Proton}}):
+: {{SubatomicParticle|Neutron}} → {{SubatomicParticle|Proton}} + {{SubatomicParticle|Electron}} + {{SubatomicParticle|Electron Antineutrino}}.
+<!-- never use <math> for it, because symbols of particles may not be italicized! -->
+
+At the [[fundamental particle|fundamental]] level (as depicted in the [[Feynman diagram]] on the right), this is caused by the conversion of the negatively charged [[down quark]] to the positively charged [[up quark]] by emission of a [[W boson|{{SubatomicParticle|W boson-}} boson]]; the {{SubatomicParticle|W boson-}} boson subsequently decays into an electron and an electron antineutrino:
+:{{Subatomic particle|down quark}} → {{Subatomic particle|up quark}} + {{SubatomicParticle|Electron}} + {{SubatomicParticle|Electron Antineutrino}}.
+
+{{SubatomicParticle|Beta-}}&nbsp;decay generally occurs in neutron-rich nuclei.
+
+== β<sup>+</sup> decay ==
+{{main|Positron emission}}
+[[Image:Beta decay spectrum.gif|thumb|Energy spectrum of beta particle in beta decay]] 
+In {{SubatomicParticle|Beta+}}&nbsp;decay, or "positron emission", the weak interaction converts a nucleus into its next-lower neighbor on the periodic table while emitting a positron ({{SubatomicParticle|Positron}}) and an electron neutrino ({{SubatomicParticle|Electron neutrino}}):
+
+: {{Physics particle|TL={{mvar|A}}|BL={{mvar|Z}}|''N''}} → {{Physics particle|TL={{mvar|A}}|BL={{math|''Z''−1}}|''N’''}} + {{SubatomicParticle|Positron}} + {{SubatomicParticle|Electron Neutrino}} <ref name="konya74"/>
+
+{{SubatomicParticle|Beta+}}&nbsp;decay cannot occur in an isolated proton because it requires energy due to the [[mass]] of the neutron being greater than the mass of the proton. {{SubatomicParticle|Beta+}}&nbsp;decay can only happen inside nuclei when the daughter nucleus has a greater [[nuclear binding energy|binding energy]] (and therefore a lower total energy) than the mother nucleus. The difference between these energies goes into the reaction of converting a proton into a neutron, a positron and a neutrino and into the kinetic energy of these particles. In an opposite process to negative beta decay, the weak interaction converts a proton into a neutron by converting an up quark into a down quark by having it emit a {{SubatomicParticle|W boson+}} or absorb a {{SubatomicParticle|W boson-}}.
+
+== Electron capture (K-capture) ==
+{{main|Electron capture}}
+In all cases where {{SubatomicParticle|Beta+}}&nbsp;decay of a nucleus is allowed energetically, the [[electron capture]] process is also allowed, in which the same nucleus captures an atomic electron with the emission of a neutrino:
+
+: {{Physics particle|TL={{mvar|A}}|BL={{mvar|Z}}|''N''}} + {{SubatomicParticle|Electron}} → {{Physics particle|TL={{mvar|A}}|BL={{math|''Z''−1}}|''N’''}} + {{SubatomicParticle|Electron Neutrino}}
+
+The emitted neutrino is mono-energetic. In proton-rich nuclei where the energy difference between initial and final states is less than {{math|2''m''<sub>e</sub>''c''<sup>2</sup>}}, {{SubatomicParticle|Beta+}}&nbsp;decay is not energetically possible, and electron capture is the sole decay mode.
+
+This decay is also called K-capture because the innermost electron of an atom belongs to the K-shell of the [[electronic configuration]] of the atom, and this has the highest probability to interact with the nucleus.
+
+There is an analogous process possible in theory in antimatter: antiproton-rich antimatter radioisotopes might decay via an analogous process of positron capture{{citation needed|date=June 2012}}, but in practice no such complex antimatter nuclides have either been discovered or artificially constructed.
+
+== Nuclear transmutation ==
+[[File:Table isotopes en.svg|250px|right]]
+If the proton and neutron are part of an [[atomic nucleus]], these decay processes [[Nuclear transmutation|transmute]] one chemical element into another. For example:
+
+<!-- Autogenerated using Phykiformulae 0.11 by SkyLined]]
+Cs-137 _ _  -> Ba-137 + e- + !ve (beta_minus_decay)
+Na-22  _ _  -> Ne-22  + e+ + ve  (beta_plus_decay)
+Na-22  + e- -> Ne-22  + ve _ _   (electron_capture)
+-->:{| border="0"
+|- style="height:2em;"
+|{{Nuclide2|link=yes|caesium|137}}&nbsp;||&nbsp;||&nbsp;||→&nbsp;||{{Nuclide2|link=yes|barium|137}}&nbsp;||+&nbsp;||{{SubatomicParticle|link=yes|Electron}}&nbsp;||+&nbsp;||{{SubatomicParticle|link=yes|Electron Antineutrino}}&nbsp;||(beta minus decay)
+|- style="height:2em;"
+|{{Nuclide2|link=yes|sodium|22}}&nbsp;||&nbsp;||&nbsp;||→&nbsp;||{{Nuclide2|link=yes|neon|22}}&nbsp;||+&nbsp;||{{SubatomicParticle|link=yes|Positron}}&nbsp;||+&nbsp;||{{SubatomicParticle|link=yes|Electron Neutrino}}&nbsp;||(beta plus decay)
+|- style="height:2em;"
+|{{Nuclide|link=yes|sodium|22}}&nbsp;||+&nbsp;||{{SubatomicParticle|link=yes|Electron}}&nbsp;||→&nbsp;||{{Nuclide2|link=yes|neon|22}}&nbsp;||+&nbsp;||{{SubatomicParticle|link=yes|Electron Neutrino}}&nbsp;||&nbsp;||&nbsp;||(electron capture)
+|}
+
+Beta decay does not change the number&nbsp;{{mvar|A}} of [[nucleon]]s in the nucleus but changes only its [[electric charge|charge]]&nbsp;{{mvar|Z}}. Thus the set of all [[nuclide]]s with the same&nbsp;{{mvar|A}} can be introduced; these [[isobar (nuclide)|''isobaric'' nuclides]] may turn into each other via beta decay. Among them, several nuclides (at least one for any given mass number {{mvar|A}}) are beta stable, because they present local minima of the [[mass excess]]: if such a nucleus has {{math|(''A'', ''Z'')}} numbers, the neighbour nuclei {{math|(''A'', ''Z''−1)}} and {{math|(''A'', ''Z''+1)}} have higher mass excess and can beta decay into {{math|(''A'', ''Z'')}}, but not vice versa. For all odd mass numbers {{mvar|A}} the global minimum is also the unique local minimum. For even&nbsp;{{mvar|A}}, there are up to three different beta-stable isobars experimentally known; for example, {{Nuclide2|zirconium|96}}, {{Nuclide2|Molybdenum|96}}, and {{Nuclide2|Ruthenium|96}} are all beta-stable, though the first one can undergo a very rare double beta decay (see below)<!-- and the last also!! but who cares this very special A=96 behaviour HERE?-->. There are about 355 known [[beta-decay stable isobars|beta-decay stable nuclides]] total.
+
+Usually unstable nuclides are clearly either "neutron rich" or "proton rich", with the former undergoing beta decay and the latter undergoing electron capture (or more rarely, due to the higher energy requirements, positron decay). However, in a few cases of odd-proton, odd-neutron radionuclides, it may be energetically favorable for the radionuclide to decay to an even-proton, even-neutron isobar either by undergoing beta-positive or beta-negative decay. An often-cited example is {{Nuclide2|copper|64|link=yes}}, which decays by positron emission 61% of the time to {{Nuclide2|nickel|64}}, and 39% of the time by (negative) beta decay to {{Nuclide2|zinc|64}}.
+
+A beta-stable nucleus may undergo other kinds of radioactive decay ([[alpha decay]], for example). In nature, most isotopes are beta stable, but a few exceptions exist with [[half-life|half-lives]] so long that they have not had enough time to decay since the moment of their [[nucleosynthesis]]. One example is the odd-proton odd-neutron nuclide {{Nuclide2|link=yes|Potassium|40}}, which undergoes all three types of beta decay ({{SubatomicParticle|Beta-}}, {{SubatomicParticle|Beta+}} and electron capture) with a half-life of {{val|1.277|e=9|u=years}}.
+
+== Double beta decay ==
+{{main|Double beta decay}}
+Some nuclei can undergo double beta decay (ββ&nbsp;decay) where the charge of the nucleus changes by two units. Double beta decay is difficult to study in most practically interesting cases, because both β&nbsp;decay and ββ&nbsp;decay are possible, with probability favoring β&nbsp;decay; the rarer ββ&nbsp;decay process is masked by these events. Thus, ββ&nbsp;decay is usually studied only for beta stable nuclei. Like single beta decay, double beta decay does not change {{mvar|A}}; thus, at least one of the nuclides with some given {{mvar|A}} has to be stable with regard to both single and double beta decay.
+
+==Bound-state β<sup>−</sup> decay==
+For fully ionized atoms (bare nuclei), it is possible for electrons to be emitted from the nucleus into low-lying atomic bound states (orbitals). This can not occur for neutral atoms whose low-lying bound states are already filled.
+
+The phenomenon was first observed for <sup>163</sup>Dy<sup>66+</sup> in 1992 by Jung et al. of the Darmstadt Heavy-Ion Research group. Although neutral <sup>163</sup>Dy is a stable isotope, the fully ionized <sup>163</sup>Dy<sup>66+</sup> undergoes β&nbsp;decay into the K and L shells with a half-life of 47&nbsp;days.<ref>
+{{cite journal
+ |last1=Jung |first1=M.
+ |coauthors=''et al.''
+ |year=1992
+ |title=First observation of bound-state β<sup>&minus;</sup> decay
+ |journal=[[Physical Review Letters]]
+ |volume=69 |issue=15 |pages=2164–2167
+ |bibcode=1992PhRvL..69.2164J
+ |doi=10.1103/PhysRevLett.69.2164
+ |pmid=10046415
+}}</ref>
+
+Another possibility is that a fully ionized atom undergoes greatly accelerated β&nbsp;decay, as observed for <sup>187</sup>Re by Bosch et al., also at Darmstadt. Neutral <sup>187</sup>Re does undergo β&nbsp;decay with a half-life of 42&nbsp;×&nbsp;10<sup>9</sup>&nbsp;years, but for fully ionized <sup>187</sup>Re<sup>75+</sup> this is shortened by a factor of 10<sup>9</sup> to only 32.9&nbsp;years.<ref>
+{{cite journal
+ |last1=Bosch |first1=F.
+ |coauthors=''et al.''
+ |year=1996
+ |title=Observation of bound-state beta minus decay of fully ionized <sup>187</sup>Re: <sup>187</sup>Re–<sup>187</sup>Os Cosmochronometry
+ |journal=[[Physical Review Letters]]
+ |volume=77 |issue=26 |pages=5190–5193
+ |bibcode=1996PhRvL..77.5190B
+ |doi=10.1103/PhysRevLett.77.5190
+ |pmid=10062738
+}}</ref> For comparison the variation of decay rates of other nuclear processes due to chemical environment is [[radioactive decay#Changing decay rates|less than 1%]].
+
+==Forbidden transitions==
+Beta decays can be classified according to the [[Angular momentum operator|{{mvar|L}}-value]] of the emitted radiation. When {{math|''L'' > 0}}, the decay is referred to as [[forbidden transition|"forbidden"]]. Nuclear [[selection rules]] require high L-values to be accompanied by changes in [[nuclear spin]]&nbsp;({{mvar|J}}) and [[Parity (physics)|parity]]&nbsp;(π). The selection rules for the {{mvar|L}}<sup>th</sup> forbidden transitions are:
+
+:<math>\Delta J = L-1, L, L+1; \Delta \pi = (-1)^L, </math>
+
+where {{math|1=Δπ = 1}} or {{math|−1}} corresponds to no parity change or parity change, respectively. The special case of a 0<sup>+</sup> → 0<sup>+</sup> transition (which in gamma decay is absolutely forbidden) is referred to as "superallowed" for beta decay, and proceeds very quickly by this decay route. The following table lists the Δ{{mvar|J}} and Δπ values for the first few values of&nbsp;{{mvar|L}}:
+
+{| class="wikitable"
+|-
+! Forbiddenness !! Δ{{mvar|J}} !! Δπ
+|-
+| Superallowed || 0<sup>+</sup> → 0<sup>+</sup> || no
+|-
+| Allowed || 0, 1 || no
+|-
+| First forbidden || 0, 1, 2 || yes
+|-
+| Second forbidden || 1, 2, 3 || no
+|-
+| Third forbidden || 2, 3, 4 || yes
+|}
+
+==Beta emission spectrum==
+
+Beta decay can be considered as a [[Perturbation theory (quantum mechanics)|perturbation]] as described in quantum mechanics, and thus [[Fermi's Golden Rule]] can be applied. This leads to an expression for the kinetic energy spectrum {{math|''N''(''T'')}} of emitted betas as follows:<ref>
+{{cite web
+ |last=Nave |first=C. R.
+ |date=
+ |title=Energy and Momentum Spectra for Beta Decay
+ |url=http://hyperphysics.phy-astr.gsu.edu/hbase/nuclear/beta2.html
+ |work=[[HyperPhysics]]
+ |accessdate=2013-03-09
+}}</ref>
+
+:<math>
+N(T) = C_L(T) F(Z,T) p E (Q-T)^2
+</math>
+
+where {{mvar|T}} is the kinetic energy, {{mvar|C<sub>L</sub>}} is a shape function that depends on the forbiddenness of the decay (it is constant for allowed decays), {{math|''F''(''Z'', ''T'')}} is the Fermi Function (see below) with ''Z'' the charge of the final-state nucleus, {{math|1=''E'' = ''T'' + ''mc''<sup>2</sup>}} is the total energy, {{math|1=''p'' = }}{{sqrt|(''E''/''c'')<sup>2</sup> − (''mc'')<sup>2</sup>}} is the momentum, and {{mvar|Q}} is the [[Q value (nuclear science)|Q value]] of the decay. The kinetic energy of the emitted neutrino is given approximately by {{mvar|Q}} minus the kinetic energy of the beta.
+
+===Fermi function===
+
+The Fermi function that appears in the beta spectrum formula accounts for the Coulomb attraction / repulsion between the emitted beta and the final state nucleus. Approximating the associated wavefunctions to be spherically symmetric, the Fermi function can be analytically calculated to be:<ref>
+{{cite journal
+ |last1=Fermi |first1=E.
+ |year=1934
+ |title=Versuch einer Theorie der &beta;-Strahlen. I
+ |journal=[[Zeitschrift für Physik]]
+ |volume=88 |issue=3–4 |pages=161–177
+ |bibcode=1934ZPhy...88..161F
+ |doi=10.1007/BF01351864
+}}</ref>
+
+:<math>
+F(Z,T) = \frac{2 (1+S)}{\Gamma(1+2S)^2} (2 p \rho)^{2S-2} e^{\pi \eta} |\Gamma(S+i \eta)|^2,
+</math>
+
+where {{math|1=''S'' = }}{{sqrt|1 − α<sup>2</sup> ''Z''<sup>2</sup>}} (α is the [[fine-structure constant]]), {{math|1= ''η'' = ± α''ZE''/''pc''}} (+ for electrons, − for positrons), {{math|1=''ρ'' = ''r''<sub>''N''</sub>/ℏ}} ({{mvar|r<sub>N</sub>}} is the radius of the final state nucleus), and Γ is the [[Gamma function]].
+
+For non-relativistic betas ({{math|''Q'' ≪ ''m''<sub>e</sub>''c''<sup>2</sup>}}), this expression can be approximated by:<ref>
+{{cite book
+ |last1=Mott |first1=N. F.
+ |last2=Massey |first2=H. S. W.
+ |year=1933
+ |title=The Theory of Atomic Collisions
+ |publisher=[[Clarendon Press]]
+ |lccn=34001940
+}}</ref>
+
+:<math>
+F(Z,T) \approx \frac{2 \pi \eta}{1 - e^{- 2 \pi \eta}}.
+</math>
+
+Other approximations can be found in the literature.<ref>
+{{cite journal
+ |last1=Venkataramaiah |first1=P.
+ |last2=Gopala |first2=K.
+ |last3=Basavaraju |first3=A.
+ |last4=Suryanarayana |first4=S. S.
+ |last5=Sanjeeviah |first5=H.
+ |year=1985
+ |title=A simple relation for the Fermi function
+ |journal=[[Journal of Physics G]]
+ |volume=11 |issue=3 |pages=359–364
+ |bibcode=1985JPhG...11..359V
+ |doi=10.1088/0305-4616/11/3/014
+}}</ref><ref>
+{{cite journal
+ |last1=Schenter |first1=G. K.
+ |last2=Vogel |first2=P.
+ |year=1983
+ |title=A simple approximation of the fermi function in nuclear beta decay
+ |journal=[[Nuclear Science and Engineering]]
+ |volume=83 |issue=3 |pages=393–396
+ |arxiv=
+ |bibcode=
+ |doi=
+ |osti=5307377
+}}</ref>
+
+===Kurie plot=== <!-- Note: Kurie is correct (see References below); no relation to the Curies -->
+
+A '''Kurie plot''' (also known as a '''Fermi–Kurie plot''') is a graph used in studying beta decay developed by [[Franz N. D. Kurie]], in which the square root of the number of beta particles whose momenta (or energy) lie within a certain narrow range, divided by the Fermi function, is plotted against beta-particle energy. It is a straight line for allowed transitions and some forbidden transitions, in accord with the Fermi beta-decay theory. The energy-axis (x-axis) intercept of a Kurie plot corresponds to the maximum energy imparted to the electron/positron (the decay's {{mvar|Q}}-value).
+
+==History==
+
+===Discovery and characterization of β<sup>−</sup> decay===
+Radioactivity was discovered in 1896 by [[Henri Becquerel]] in uranium, and subsequently observed by [[Marie Curie|Marie]] and [[Pierre Curie]] in thorium and in the new elements polonium and radium.
+In 1899 [[Ernest Rutherford]] separated radioactive emissions into two types: alpha and beta (now beta minus), based on penetration of objects and ability to cause ionization. Alpha rays could be stopped by thin sheets of paper or aluminium, whereas beta rays could penetrate several millimetres of aluminium. (In 1900 [[Paul Villard]] identified a still more penetrating type of radiation, which Rutherford identified as a fundamentally new type in 1903, and termed [[gamma ray]]s).
+
+In 1900 Becquerel measured the [[mass-to-charge ratio]] ({{math|''m''/''e''}}) for beta particles by the method of [[J.J.&nbsp;Thomson]] used to study cathode rays and identify the electron. He found that {{math|''m''/''e''}} for a beta particle is the same as for Thomson’s electron, and therefore suggested that the beta particle is in fact an electron.
+
+In 1901 Rutherford and [[Frederick Soddy]] showed that alpha and beta radioactivity involves the [[Nuclear transmutation|transmutation]] of atoms into atoms of other chemical elements. In 1913, after the products of more radioactive decays were known, Soddy and [[Kazimierz Fajans]] independently proposed their [[Radioactive displacement law of Fajans and Soddy|radioactive displacement law]], which states that beta (i.e. {{SubatomicParticle|Beta-}})&nbsp;emission from one element produces another element one place to the right in the [[periodic table]], while alpha emission produces an element two places to the left.
+
+===Neutrinos in beta decay===
+
+Historically, the study of beta decay provided the first physical evidence of the [[neutrino]]. In 1911 [[Lise Meitner]] and [[Otto Hahn]] performed an experiment that showed that the energies of electrons emitted by beta decay had a continuous rather than discrete spectrum.  This was in apparent contradiction to the [[law of conservation of energy]], as it appeared that energy was lost in the beta decay process.  A second problem was that the [[spin (physics)|spin]] of the [[nitrogen-14]] atom was 1, in contradiction to the Rutherford prediction of ½.
+
+In 1920–1927, [[Charles Drummond Ellis]] (along with [[James Chadwick]] and colleagues) established clearly that the beta decay spectrum is really continuous, ending all controversies. It also had an effective upper bound in energy, which was a severe blow to Bohr's suggestion that conservation of energy might be true only in a statistical sense, and might be violated in any given decay. Now the problem of how to account for the variability of energy in known beta decay products, as well as for conservation of momentum and angular momentum in the process, became acute.
+
+In a [[Electron neutrino#Pauli's letter|famous letter]] written in 1930 [[Wolfgang Pauli]] suggested that in addition to electrons and protons atoms also contained an extremely light neutral particle which he called the neutron. He suggested that this "neutron" was also emitted during beta decay (thus accounting for the known missing energy, momentum, and angular momentum) and had simply not yet been observed. In 1931 [[Enrico Fermi]] renamed Pauli's "neutron" to neutrino, and in 1934 Fermi published a very successful [[Fermi's interaction|model of beta decay]] in which neutrinos were produced. The neutrino interaction with matter was so weak that detecting it proved a severe experimental challenge, and was not accomplished until 1956. However, the properties of neutrinos were (with a few minor modifications) as predicted by Pauli and Fermi.
+
+===Discovery of other types of beta decay===
+In 1934 [[Frédéric Joliot-Curie|Frédéric]] and [[Irène Joliot-Curie]] bombarded aluminium with alpha particles to effect the nuclear reaction {{Nuclide2|Helium|4}}&nbsp;+&nbsp;{{Nuclide2|Aluminium|27}}&nbsp;→ {{Nuclide2|Phosphorus|30}}&nbsp;+&nbsp;{{Nuclide2|neutronium|1}}, and observed that the product isotope {{Nuclide2|Phosphorus|30}} emits a positron identical to those found in cosmic rays by [[Carl David Anderson]] in 1932. This was the first example of {{SubatomicParticle|Beta+}}&nbsp;decay ([[positron emission]]), which they termed artificial radioactivity since {{Nuclide2|Phosphorus|30}} is a short-lived nuclide which does not exist in nature.
+
+The theory of [[electron capture]] was first discussed by [[Gian-Carlo Wick]] in a 1934 paper, and then developed by [[Hideki Yukawa]] and others. K-electron capture was first observed in 1937 by [[Luis Walter Alvarez|Luis Alvarez]], in the nuclide <sup>48</sup>V.<ref name=k>
+{{cite book
+ |last=Segré |first=E.
+ |year=1987
+ |chapter=K-Electron Capture by Nuclei
+ |editor1-last=Trower |editor1-first=P. W.
+ |title=Discovering Alvarez: Selected Works of Luis W. Alvarez
+ |pages=11–12
+ |publisher=[[University of Chicago Press]]
+ |isbn=978-0-226-81304-2
+}}</ref><ref>
+{{cite web
+ |title=The Nobel Prize in Physics 1968: Luis Alvarez
+ |url=http://nobelprize.org/nobel_prizes/physics/laureates/1968/alvarez-bio.html
+ |publisher=[[The Nobel Foundation]]
+ |accessdate=2009-10-07
+}}</ref><ref>
+{{cite journal
+ |last1=Alvarez |first1=L. W.
+ |year=1937
+ |title=Nuclear K Electron Capture
+ |journal=[[Physical Review]]
+ |volume=52 |issue=2 |pages=134–135
+ |bibcode=1937PhRv...52..134A
+ |doi=10.1103/PhysRev.52.134
+}}</ref> Alvarez went on to study electron capture in <sup>67</sup>Ga and other nuclides.<ref name=k /><ref>
+{{cite journal
+ |last1=Alvarez |first1=L. W.
+ |year=1938
+ |title=Electron Capture and Internal Conversion in Gallium 67
+ |journal=[[Physical Review]]
+ |volume=53 |issue=7 |pages=606
+ |bibcode=1938PhRv...53..606A
+ |doi=10.1103/PhysRev.53.606
+}}</ref><ref>
+{{cite journal
+ |last1=Alvarez|first1=L. W.
+ |year=1938
+ |title=The Capture of Orbital Electrons by Nuclei
+ |journal=[[Physical Review]]
+ |volume=54 |issue=7 |pages=486–497
+ |arxiv=
+ |bibcode=1938PhRv...54..486A
+ |doi=10.1103/PhysRev.54.486
+}}</ref>
+
+==See also==
+
+*[[Double beta decay]]
+*[[Electron capture]]
+*[[Neutrino]]
+*[[Alpha decay]]
+*[[Betavoltaics]]
+*[[Particle radiation]]
+*[[Radionuclide]]
+*[[Tritium illumination]], a form of [[fluorescent lighting]] powered by beta decay
+
+==References==
+{{ref begin}}
+* {{cite journal
+ |last1=Kurie |first1=F. N. D. |authorlink=Franz N. D. Kurie
+ |last2=Richardson |first2=J. R.
+ |last3=Paxton |first3=H. C.
+ |year=1936
+ |title=The Radiations Emitted from Artificially Produced Radioactive Substances. I. The Upper Limits and Shapes of the β-Ray Spectra from Several Elements
+ |journal=[[Physical Review]]
+ |volume=49 |issue=5 |pages=368–381
+ |bibcode=1936PhRv...49..368K
+ |doi=10.1103/PhysRev.49.368
+}}
+*{{cite journal
+ |last1=Kurie |first1=F. N. D. |authorlink=Franz N. D. Kurie
+ |year=1948
+ |title=On the Use of the Kurie Plot
+ |journal=[[Physical Review]]
+ |volume=73 |issue=10 |page=1207
+ |bibcode=1948PhRv...73.1207K
+ |doi=10.1103/PhysRev.73.1207
+}} 
+*{{cite book
+ |last=Tuli |first=J. K.
+ |title=Nuclear Wallet Cards
+ |url=http://www.nndc.bnl.gov/wallet/wall35.pdf
+ |edition=8th
+ |year=2011
+ |publisher=[[Brookhaven National Laboratory]]
+}}
+{{reflist}}
+{{ref end}}
+
+== External links ==
+* [[Image:Ndslivechart.png]] '''[http://www-nds.iaea.org/livechart The Live Chart of Nuclides - IAEA ]''' with filter on decay type
+* [http://thesciencedictionary.org/beta-disintegration-energy/ Definition of Beta Disintegration (Decay)] at [http://thesciencedictionary.org Science Dictionary]
+
+{{Nuclear processes}}
+
+{{DEFAULTSORT:Beta Decay}}
+[[Category:Nuclear physics]]
+[[Category:Radioactivity]]
+
+[[de:Betazerfall]]

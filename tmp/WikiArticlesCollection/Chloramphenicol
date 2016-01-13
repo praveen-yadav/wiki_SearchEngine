@@ -1,0 +1,227 @@
+{{Drugbox| Watchedfields = changed
+| verifiedrevid = 443513464
+| IUPAC_name = 2,2-dichloro-N-[1,3-dihydroxy-1-(4-nitrophenyl)propan-2-yl]acetamide
+| image = Chloramphenicol-2D-skeletal.svg
+| image2 = Chloramphenicol-3D-vdW.png
+
+<!--Clinical data-->
+| Drugs.com = {{drugs.com|monograph|chloramphenicol}}
+| MedlinePlus = a608008
+| pregnancy_category = C (systemic), A (topical)
+| legal_status = Ocular P, else POM <small>([[United Kingdom|UK]])</small>
+| routes_of_administration = [[Topical]] ([[Wiktionary:ocular|ocular]]), oral, [[intravenous therapy|IV]], [[intramuscular injection|IM]]
+
+<!--Pharmacokinetic data-->
+| bioavailability = 75–90%
+| metabolism = [[Liver|Hepatic]]
+| elimination_half-life = 1.5–4.0 hours
+| excretion = [[Kidney|Renal]]
+
+<!--Identifiers-->
+| CASNo_Ref = {{cascite|correct|CAS}}
+| CAS_number_Ref = {{cascite|correct|??}}
+| CAS_number = 56-75-7
+| ATC_prefix = D06
+| ATC_suffix = AX02
+| ATC_supplemental =  {{ATC|D10|AF03}} {{ATC|G01|AA05}} {{ATC|J01|BA01}} {{ATC|S01|AA01}} {{ATC|S02|AA01}} {{ATC|S03|AA08}} {{ATCvet|J51|BA01}}
+| ChEBI_Ref = {{ebicite|correct|EBI}}
+| ChEBI = 17698
+| PubChem = 298
+| DrugBank_Ref = {{drugbankcite|correct|drugbank}}
+| DrugBank = DB00446
+| ChemSpiderID_Ref = {{chemspidercite|correct|chemspider}}
+| ChemSpiderID = 5744
+| UNII_Ref = {{fdacite|correct|FDA}}
+| UNII = 66974FR9Q1
+| KEGG_Ref = {{keggcite|correct|kegg}}
+| KEGG = D00104
+| ChEMBL_Ref = {{ebicite|correct|EBI}}
+| ChEMBL = 130
+
+<!--Chemical data-->
+| C=11 | H=12 | Cl=2 | N=2 | O=5 
+| molecular_weight = 323.1320 g/mol
+| smiles = c1cc(ccc1[C@H]([C@@H](CO)NC(=O)C(Cl)Cl)O)[N+](=O)[O-]
+| InChI = 1/C11H12Cl2N2O5/c12-10(13)11(18)14-8(5-16)9(17)6-1-3-7(4-2-6)15(19)20/h1-4,8-10,16-17H,5H2,(H,14,18)/t8-,9-/m1/s1
+| StdInChI_Ref = {{stdinchicite|correct|chemspider}}
+| StdInChI = 1S/C11H12Cl2N2O5/c12-10(13)11(18)14-8(5-16)9(17)6-1-3-7(4-2-6)15(19)20/h1-4,8-10,16-17H,5H2,(H,14,18)/t8-,9-/m1/s1
+| StdInChIKey_Ref = {{stdinchicite|correct|chemspider}}
+| StdInChIKey = WIIZWVCIJKGZOK-RKDXNWHRSA-N
+}}
+
+'''Chloramphenicol''' ([[International Nonproprietary Name|INN]]) is a [[bacteriostatic]] [[antimicrobial]] that became available in 1949. It is considered a prototypical [[broad-spectrum antibiotic]], alongside the [[Tetracycline antibiotics|tetracycline]]s, and as it is both cheap and easy to manufacture it is frequently an antibiotic of choice in the [[Developing World]].
+
+Chloramphenicol, also known as chlornitromycin, is effective against a wide variety of [[Gram-positive bacteria|Gram-positive]] and [[Gram-negative bacteria|Gram-negative]] [[bacteria]], including most [[anaerobic organism]]s. Due to resistance and safety concerns, it is no longer a [[first-line agent]] for any infection in developed nations, with the notable exception of topical treatment of bacterial [[conjunctivitis]]. Nevertheless, the global problem of advancing bacterial resistance to newer drugs has led to renewed interest in its use.<ref name=Falagas>{{cite journal | author = Falagas, M. E.; Grammatikos, A. P.; Michalopoulos, A. | title = Potential of old-generation antibiotics to address current need for new antibiotics | journal = Expert Review of Anti Infective Therapy | volume = 6 | issue = 5 | pages = 593–600 | year = 2008 | month = October | pmid = 18847400 | doi = 10.1586/14787210.6.5.593 | url = http://www.future-drugs.com/doi/abs/10.1586/14787210.6.5.593?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dncbi.nlm.nih.gov }}</ref> In low-income countries, chloramphenicol is still widely used because it is inexpensive and readily available.
+
+The most serious [[adverse drug reaction|adverse effect]] associated with chloramphenicol treatment is [[bone marrow]] toxicity, which may occur in two distinct forms: [[bone marrow suppression]], which is a direct toxic effect of the drug and is usually reversible, and [[aplastic anemia]], which is [[idiosyncratic drug reaction|idiosyncratic]] (rare, unpredictable, and unrelated to dose) and generally fatal.<ref name="Rich1950">{{cite journal | author = Rich, M.; Ritterhoff, R.; Hoffmann, R. | title = A fatal case of aplastic anemia following chloramphenicol (chloromycetin) therapy | journal = Annals of Internal Medicine | volume = 33 | issue = 6 | pages = 1459–1467 | year = 1950 | month = December | pmid = 14790529 | doi = 10.7326/0003-4819-33-6-1459 }}</ref>
+
+[[File:Sample of Chloramphenicol.jpg|thumb|200px|right|Pure chloramphenicol]]
+
+==History==
+Chloramphenicol was originally derived from the [[bacterium]] ''[[Streptomyces venezuelae]]'', isolated by [[David Gottlieb]], and introduced into clinical practice in 1949, under the trade name '''Chloromycetin'''. It was the first antibiotic to be manufactured synthetically on a large scale.
+
+==Spectrum of activity==
+Because it functions by inhibiting bacterial [[protein]] synthesis, the drug chloramphenicol has a very broad spectrum of activity: it is active against [[Gram-positive]] bacteria (including most strains of [[Methicillin-resistant Staphylococcus aureus|MRSA]]), [[Gram-negative]] bacteria and [[anaerobes]].<ref name=Baron>{{cite book | author = Neu, H. C.; Gootz, T. D. | chapter = Antimicrobial Chemotherapy:Antimicrobial Inhibitors of Ribosome Function | title = Baron's Medical Microbiology  | editor = Baron, S. ''et al.'' | edition = 4th | publisher = University of Texas Medical Branch | year = 1996 | chapterurl = http://www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=mmed.section.688 | isbn = 0-9631172-1-1 | pmid = 21413283 }}</ref> It is not active against ''[[Pseudomonas aeruginosa]]'', [[Chlamydiae]], or ''[[Enterobacter]]'' species.  It has some activity against ''[[Burkholderia pseudomallei]]'', but is no longer routinely used to treat infections caused by this organism (it has been superseded by [[ceftazidime]] and [[meropenem]]).  In the West, chloramphenicol is mostly restricted to topical uses because of the worries about the risk of [[aplastic anaemia]].
+
+==Therapeutic uses==
+The original indication of chloramphenicol was in the treatment of [[typhoid]], but the now almost universal presence of multiple drug-resistant ''[[Salmonella typhi]]'' has meant it is seldom used for this indication except when the organism is known to be sensitive.  Chloramphenicol may be used as a second-line agent in the treatment of [[tetracycline]]-resistant [[cholera]]. 
+
+Because of its excellent [[blood-brain barrier]] penetration (far superior to any of the [[cephalosporins]]), chloramphenicol remains the first choice treatment for [[Staphylococcus aureus|staphylococcal]] [[brain abscess]]es.  It is also useful in the treatment of brain abscesses due to mixed organisms or when the causative organism is not known.
+
+Chloramphenicol is active against the three main bacterial causes of [[meningitis]]: ''[[Neisseria meningitidis]]'', ''[[Streptococcus pneumoniae]]'' and ''[[Haemophilus influenzae]]''.  In the West, chloramphenicol remains the drug of choice in the treatment of meningitis in patients with severe [[penicillin]] or [[cephalosporin]] allergy and [[General Practitioner|GP]]s are recommended to carry intravenous chloramphenicol in their bag.  In low income countries, the WHO recommend that oily chloramphenicol be used first-line to treat [[meningitis]].
+
+Chloramphenicol has been used in the U.S. in the initial [[empirical treatment]] of children with fever and a [[petechial rash]], when the [[differential diagnosis]] includes both ''[[Neisseria meningitidis]]'' [[septicaemia]] as well as [[Rocky Mountain spotted fever]], pending the results of diagnostic investigations.
+
+Chloramphenicol is also effective against ''[[Enterococcus faecium]]'', which has led to its being considered for treatment of [[vancomycin-resistant enterococcus]].
+
+Although unpublished, recent research suggests chloramphenicol could also be applied to frogs to prevent their widespread destruction from fungal infections.<ref>{{cite news | author = Griggs, K. | title = Frog killer fungus 'breakthrough' | url = http://news.bbc.co.uk/2/hi/science/nature/7067613.stm | date = 2007-10-30 | publisher = BBC News }}</ref>  Chloramphenicol has recently been discovered to be a life-saving cure for [[chytridiomycosis]] in [[amphibians]].<ref>{{cite web | url = http://www.nzfrogs.org/site/nzfrog/files/poulter.pdf | format = pdf | title = Chloramphenicol cures chytridiomycosis | author = Poulter, R. T. M.; Busby, J. N.; Bishop, P. J.;  Butler, M. I.; Speare, R. | publisher = NZ Frogs }}</ref> Chytridiomycosis is a fungal disease, blamed for the extinction of one-third of the 120 frog species lost since 1980.
+
+==Adverse effects==
+===Aplastic anemia===
+
+The most serious [[adverse drug reaction|side effect]] of chloramphenicol treatment is [[aplastic anaemia]].<ref name="Rich1950"/>  This effect is rare and is generally fatal:  there is no treatment and no way of predicting who may or may not get this side effect.  The effect usually occurs weeks or months after chloramphenicol treatment has been stopped, and there may be a genetic predisposition.<ref>{{cite journal | doi = 10.1056/NEJM196907032810102 | author = Nagao, T.; Mauer, A. | title = Concordance for drug-induced aplastic anemia in identical twins | journal = New England Journal of Medicine | volume = 281 | issue = 1 | pages = 7–11 | year = 1969 | pmid = 5785754 | month = July }}</ref>  It is not known whether monitoring the [[blood count]]s of patients can prevent the development of aplastic anaemia, but patients are recommended to have a blood count check twice weekly while on treatment.{{Citation needed|date=January 2012}}  The highest risk is with oral chloramphenicol<ref>{{cite journal | author = Holt, R. | journal = Lancet | title = The bacterial degradation of chloramphenicol | year = 1967 | volume = 289 | pages = 1259–1260 | doi = 10.1016/S0140-6736(67)92720-1 | pmid = 4165044 | issue = 7502 }}</ref> (affecting 1 in 24,000–40,000)<ref>{{cite journal | author = Wallerstein, R.; Condit, P.; Kasper, C.; Brown, J.; Morrison, F. | title = Statewide study of chloramphenicol therapy and fatal aplastic anemia | journal = JAMA | volume = 208 | issue = 11 | pages = 2045–2050 | year = 1969 | month = June | pmid = 5818983 | doi = 10.1001/jama.208.11.2045 }}</ref> and the lowest risk occurs with eye drops (affecting less than 1 in 224,716 prescriptions).<ref name="Lancaster1998"/>
+
+[[Thiamphenicol]], a related compound with a similar spectrum of activity, is available in Italy and China for human use, and has never been associated with aplastic anaemia {{Citation needed|date=November 2009}}.  [[Thiamphenicol]] is available in the U.S. and Europe as a [[veterinary]] antibiotic, and is not approved for use in humans.
+
+===Bone marrow suppression===
+Chloramphenicol may cause [[bone marrow suppression]] during treatment; this is a direct toxic effect of the drug on human [[mitochondria]].<ref name="pmid2486534">{{cite journal |author=Yunis AA |title=Chloramphenicol toxicity: 25 years of research |journal=Am. J. Med. |volume=87 |issue=3N |pages=44N–48N |year=1989 |month=September |pmid=2486534 }}</ref> This effect manifests first as a fall in [[hemoglobin]] levels, which occurs quite predictably once a cumulative dose of 20 g has been given. The anaemia is fully reversible once the drug is stopped and does not predict future development of aplastic anaemia. Studies in mice have suggested that existing marrow damage may compound any marrow damage resulting from the toxic effects of chloramphenicol.<ref>{{cite journal|last=Morley|first=Alec|coauthors=Trainor, Kevin; Remes, Judith|title=Residual Marrow Damage: Possible Explanation for Idiosyncrasy to Chloramphenicol|journal=British Journal of Haematology|date=1 April 1976|volume=32|issue=4|pages=525–532|doi=10.1111/j.1365-2141.1976.tb00955.x}}</ref>
+
+===Leukemia===
+Leukemia is a type of cancer of the blood or bone marrow characterized by an abnormal increase of immature white blood cells. There is an increased risk of childhood [[leukemia]], as demonstrated in a Chinese [[case-controlled study]],<ref>{{cite journal | author = Shu, X.; Gao, Y.; Linet, M.; Brinton, L.; Gao, R.; Jin, F.; Fraumeni, J. | title = Chloramphenicol use and childhood leukaemia in Shanghai | journal = Lancet | volume = 2 | issue = 8565 | pages = 934–937 | year = 1987 | month = October | pmid = 2889862 | doi = 10.1016/S0140-6736(87)91420-6 }}</ref> and the risk increases with length of treatment.
+
+===Gray baby syndrome===
+Intravenous chloramphenicol use has been associated with the so-called [[gray baby syndrome]].<!--
+  --><ref name=McIntyre_2004>{{cite journal | author = McIntyre, J.; Choonara, I. | title = Drug toxicity in the neonate | journal = Biology of the Neonate | volume = 86 | issue = 4 | pages = 218–221 | year = 2004 | pmid = 15249753 | doi = 10.1159/000079656 }}</ref>
+This phenomenon occurs in newborn infants because they do not yet have fully functional liver enzymes (i.e. UDP-glucuronyl transferase), so chloramphenicol remains unmetabolized in the body.<!--
+  --><ref name=Piñeiro-Carrero_2004>{{cite journal | author = Piñeiro-Carrero, V.; Piñeiro, E. | title = Liver | journal = Pediatrics | volume = 113 | issue = 4 Supplement | pages = 1097–1106 | year = 2004 | pmid = 15060205 | url = http://pediatrics.aappublications.org/content/113/Supplement_3/1097.full.pdf | format = pdf }}</ref>
+This causes several adverse effects, including [[hypotension]] and [[cyanosis]]. The condition can be prevented by using the drug at the recommended doses, and monitoring blood levels.<!--
+  --><ref>{{cite journal | author = Feder, H. | title = Chloramphenicol: what we have learned in the last decade | journal = Southern Medical Journal | volume = 79 | issue = 9 | pages = 1129–1134 | year = 1986 | pmid = 3529436 | doi = 10.1097/00007611-198609000-00022 }}</ref><!--
+  --><ref>{{cite journal | author = Mulhall, A.; de Louvois J.; Hurley, R. | title = Chloramphenicol toxicity in neonates: its incidence and prevention | journal = British Medical Journal (Clinical Research Edition) | volume = 287 | issue = 6403 | pages = 1424–1427 | year = 1983 | pmid = 6416440 | pmc = 1549666 | doi = 10.1136/bmj.287.6403.1424 }}</ref><!--
+  --><ref>{{cite journal | author = Forster, J.; Hufschmidt, C.; Niederhoff, H.; Künzer, W. | title = [Need for the determination of chloramphenicol levels in the treatment of bacterial-purulent meningitis with chloramphenicol succinate in infants and small children] | language = german | journal = Monatsschrift Kinderheilkunde | volume = 133 | issue = 4 | pages = 209–213 | year = 1985 | pmid = 4000136 }}</ref>
+
+==Pharmacokinetics==
+Chloramphenicol is extremely lipid soluble; it remains relatively [[plasma protein binding|unbound to protein]] and is a small molecule. It has a large apparent [[volume of distribution]] of 100 litres{{Citation needed|date=September 2012}}, and penetrates effectively into all tissues of the body, including the brain.  The concentration achieved in brain and [[cerebrospinal fluid]] (CSF) is around 30 to 50%, even when the meninges are not inflamed; this increases to as high as 89% when the meninges are inflamed.
+
+Chloramphenicol increases the absorption of [[Human iron metabolism|iron]].<ref>{{cite encyclopedia | encyclopedia = Pill Book, The | title = Iron Supplements | pages = 593–596 | editor = Harold M. Silverman, Pharm.D. (editor-in-chief) | publisher = Bantam Dell | location = New York | edition = 12th revised | year = 2006 | isbn = 978-0-553-58892-7 }}</ref>
+
+===Use in special populations===
+Chloramphenicol is metabolized by the liver to chloramphenicol [[glucuronic acid|glucuronate]] (which is inactive).  In liver impairment, the dose of chloramphenicol must therefore be reduced.  There is no standard dose reduction for chloramphenicol in liver impairment, and the dose should be adjusted according to measured plasma concentrations.  
+
+The majority of the chloramphenicol dose is excreted by the kidneys as the inactive metabolite, chloramphenicol glucuronate.  Only a tiny fraction of the chloramphenicol is excreted by the kidneys unchanged.  Plasma levels should be monitored in patients with renal impairment, but this is not mandatory.  Chloramphenicol succinate ester (an intravenous [[prodrug]] form) is readily excreted unchanged by the kidneys, more so than chloramphenicol base, and this is the major reason why levels of chloramphenicol in the blood are much lower when given intravenously than orally.{{Citation needed|date=November 2009}}
+
+Chloramphenicol passes into [[breast milk]], so should therefore be avoided during breast feeding, if possible.<ref name=kidsgrowth>[http://www.kidsgrowth.org/resources/articledetail.cfm?id=471 kidsgrowth.org --> Drugs and Other Substances in Breast Milk] Retrieved on June 19, 2009</ref>
+
+===Dose monitoring===
+[[Blood plasma|Plasma]] levels of chloramphenicol must be monitored in neonates and in patients with abnormal liver function.  Plasma levels should be monitored in all children under the age of four, the elderly and patients with renal failure.
+Peak levels (one hour after the dose is given) should be 15–25&nbsp;[[Wiktionary:milligram|mg]]/[[Wiktionary:litre|l]]; trough levels (taken immediately before a dose) should be less than 15&nbsp;mg/l.{{Citation needed|date=November 2009}}
+
+===Drug interactions===
+Administration of chloramphenicol concomitantly with bone marrow depressant drugs is contraindicated, although concerns over [[aplastic anaemia]] associated with ocular chloramphenicol have largely been discounted.<ref>[http://www.rpsgb.org.uk/pdfs/otcchlorampheneyedropsguid.pdf PRACTICE GUIDANCE: OTC CHLORAMPHENICOL EYE DROPS] June 2005. Royal Pharmaceutical Society of Great Britain (RPSGB)</ref>
+
+Chloramphenicol is a potent inhibitor of the [[cytochrome P450]] [[isoforms]] [[CYP2C19]] and [[CYP3A4]] in the liver.<ref>{{cite journal | author = Park, J. Y.; Kim, K. A.; Kim, S. L. | title = Chloramphenicol Is a Potent Inhibitor of Cytochrome P450 Isoforms CYP2C19 and CYP3A4 in Human Liver Microsomes | journal = Antimicrobial Agents and Chemotherapy | volume = 47 | issue = 11 | pages = 3464–3469 | year = 2003 | month = November | pmid = 14576103 | pmc = 253795 | doi = 10.1128/AAC.47.11.3464-3469.2003 | url = }}</ref> Inhibition of CYP2C19 causes decreased metabolism and therefore increased levels of, for example, [[antidepressants]], [[antiepileptics]] and [[proton pump inhibitors]] if they are given concomitantly. Inhibition of CYP3A4 causes increased levels of, for example, [[calcium channel blockers]], [[immunosuppressants]], [[chemotherapeutic drugs]], [[benzodiazepines]], azole [[antifungals]], [[tricyclic antidepressant]]s, [[macrolide]] antibiotics, [[Selective serotonin reuptake inhibitor|SSRI]]s, [[statins]] and [[PDE5 inhibitor]]s.<ref name=FASS>{{cite web | url = http://www.fass.se/LIF/produktfakta/fakta_lakare_artikel.jsp?articleID=18352 | title = Facts for prescribers (Fakta för förskrivare) | language = swedish | publisher = FASS - Swedish National Drug Formulary }}</ref>
+
+==Mechanism of action==
+
+Chloramphenicol is a [[Bacteriostatic agent|bacteriostatic]] drug that stops bacterial growth by [[protein synthesis inhibitor|inhibiting protein synthesis]].  Chloramphenicol prevents [[protein synthesis|protein chain elongation]] by inhibiting the [[peptidyl transferase]] activity of the bacterial [[ribosome]]. It specifically binds to A2451 and A2452 residues in the [[23S ribosomal RNA|23S rRNA]] of the 50S ribosomal subunit, preventing peptide bond formation.<ref>{{cite web | url = http://merck.com/mmpe/sec14/ch170/ch170d.html | title = Chloramphenicol | work = The Merck Manual | publisher = Merck }}</ref> While chloramphenicol and the [[macrolide]] class of antibiotics both interact with  ribosomes, chloramphenicol is not a macrolide. It directly interferes with substrate binding, whereas macrolides sterically block the progression of the growing peptide. 
+<ref>{{cite journal | url = http://www.jbc.org/content/238/7/2498.full.pdf | format = pdf | title = Studies on the Mechanism of Action of Chloramphenicol - The Conformation of Chloramphenicol in Solution | date = July 1963 | journal = The Journal of Biological Chemistry | volume = 238 | issue = 7 | author = Jardetzky, O. | pmid = 13957484 | pages = 2498–2508 }}</ref> 
+<ref>{{cite pmid | 14289020 }}</ref>
+<ref>{{cite pmid | 14353832 }}</ref>
+
+==Resistance==
+
+There are three mechanisms of [[Antibiotic resistance|resistance]] to chloramphenicol: reduced membrane permeability, mutation of the 50S ribosomal subunit and elaboration of chloramphenicol acetyltransferase.  It is easy to select for reduced membrane permeability to chloramphenicol ''in vitro'' by serial passage of bacteria, and this is the most common mechanism of low-level chloramphenicol resistance.  High-level resistance is conferred by the ''cat''-gene; this [[gene]] codes for an [[enzyme]] called [[chloramphenicol acetyltransferase]], which inactivates chloramphenicol by covalently linking one or two [[acetyl]] groups, derived from acetyl-S-coenzyme A, to the [[hydroxyl]] groups on the chloramphenicol molecule. The acetylation prevents chloramphenicol from binding to the ribosome.  Resistance-conferring mutations of the 50S ribosomal subunit are rare.
+
+Chloramphenicol resistance may be carried on a plasmid that also codes for resistance to other drugs.  One example is the [[ACCoT]] plasmid (A=[[ampicillin]], C=chloramphenicol, Co=[[co-trimoxazole]], T=[[tetracycline]]), which mediates multiple-drug resistance in typhoid (also called [[R factors]]).
+
+Currently, some ''[[Enterococcus faecium]]'' and'' [[Pseudomonas aeruginosa]]'' strains are resistant to chloramphenicol. Some ''[[Veillonella]]'' app. and ''[[Staphylococcus capitis]]'' strains have also developed resistance to chloramphenicol to varying degrees. <ref>{{cite web|title=Chloramphenicol spectrum of bacterial susceptibility and Resistance|url=http://www.toku-e.com/Upload/Products/PDS/20120618001452.pdf |accessdate=15 May 2012}}</ref>
+
+==Formulations==
+Chloramphenicol is available as 250&nbsp;mg capsules or as a liquid (125&nbsp;mg/5&nbsp;mL).  In some countries, it is sold as chloramphenicol [[palmitate]] [[ester]] (CPE).  CPE is inactive, and is [[hydrolysis|hydrolysed]] to active chloramphenicol in the [[small intestine]].  There is no difference in [[bioavailability]] between chloramphenicol and CPE.
+
+Manufacture of oral chloramphenicol in the U.S. stopped in 1991, because the vast majority of chloramphenicol-associated cases of [[aplastic anaemia]] are associated with the oral preparation.  There is now no oral formulation of chloramphenicol available in the U.S.
+
+In molecular biology, chloramphenicol is prepared as 25–50&nbsp;mg/mL stock in ethanol.
+
+===Intravenous===
+The [[intravenous]] (IV) preparation of chloramphenicol is the [[succinate]] [[ester]], because pure chloramphenicol does not dissolve in water.  This creates a problem: Chloramphenicol succinate ester is an inactive [[prodrug]] and must first be hydrolysed to chloramphenicol; however, the hydrolysis process is often incomplete, and 30% of the dose is lost and removed in the urine.  Serum concentrations of IV chloramphenicol are only 70% of those achieved when chloramphenicol is given orally.<ref>{{cite journal | author = Glazko, A. J.; Dill, W. A.; Kinkel, A. W. | title = Absorption and excretion of parenteral doses of chloramphenicol sodium succinate in comparison with per oral doses of chloramphenicol (abstract) | journal = Clinical Pharmacological Therapy | year = 1977 | volume = 21 | pages = 104 }}</ref>  For this reason, the dose needs to be increased to 75&nbsp;mg/kg/day when administered IV to achieve levels equivalent to the oral dose.<ref>{{cite journal | author = Bhutta, Z.; Niazi, S.; Suria, A. | title = Chloramphenicol Clearance in Typhoid Fever: Implications for Therapy | journal = Indian Journal of Pediatry | volume = 59 | issue = 2 | pages = 213–219 | year = 1992 | month = March–April | pmid = 1398851 | doi = 10.1007/BF02759987 }}</ref>
+
+===Oily===
+Oily chloramphenicol (or chloramphenicol oil suspension) is a long-acting preparation of chloramphenicol first introduced by Roussel in 1954; marketed as Tifomycine, it was originally used as a treatment for [[typhoid]].  Roussel stopped production of oily chloramphenicol in 1995; the [[International Dispensary Association]] has manufactured it since 1998, first in [[Malta]] and then in [[India]] from December 2004.<ref>{{cite journal | author = Lewis, R. F.; Dorlencourt, F.; Pinel, J. | title = Long-acting oily Chloramphenicol for Meningococcal Meningitis | journal = Lancet | volume = 352 | issue = 9130 | page = 823 | year = 1998 | pmid = 9737323 | doi = 10.1016/S0140-6736(05)60723-4 }}</ref>
+
+Oily chloramphenicol is recommended by the [[World Health Organization]] (WHO) as the first-line treatment of [[meningitis]] in low-income countries, and appears on the [[WHO Model List of Essential Medicines|WHO essential drugs list]].  It was first used to treat meningitis in 1975<ref>{{cite journal | author = Rey, M.; Ouedraogo, L.; Saliou, P.; Perino, L. | title = Traitement minute de la méningite cérébrospinale épidémique par injection intramusculaire unique de  chloramphénicol (suspension huileuse) | journal = Médecine et Maladies Infectieuses | language = french | year = 1976 | volume = 6 | pages = 120–124 | doi = 10.1016/S0399-077X(76)80134-5 | issue = 4 }}</ref> and numerous studies since have demonstrated its efficacy.<ref>{{cite journal | author = Wali, S.; Macfarlane, J.; Weir, W.; Cleland, P.; Ball, P.; Hassan-King, M.; Whittle, H.; Greenwood, B. | title = Single injection treatment of meningococcal meningitis. 2. Long-acting chloramphenicol | journal = Transactions of the Royal Society for Tropical Medicine and Hygiene | volume = 73 | issue = 6 | pages = 698–702 | year = 1979 | pmid = 538813 | doi = 10.1016/0035-9203(79)90024-5 }}</ref><ref>{{cite journal | author = Puddicombe, J.; Wali, S.; Greenwood, B. | title = A field trial of a single intramuscular injection of long-acting chloramphenicol in the treatment of meningococcal meningitis | journal = Transactions of the Royal Society for Tropical Medicine and Hygiene | volume = 78 | issue = 3 | pages = 399–403 | year = 1984 | pmid = 6464136 | doi = 10.1016/0035-9203(84)90132-9 }}</ref><ref>{{cite journal | author = Pécoulm B.; Varaine, F.; Keita, M.; Soga, G.; Djibo, A.; Soula, G.; Abdou, A.; Etienne, J.; Rey, M. | title = Long-acting chloramphenicol versus intravenous ampicillin for treatment of bacterial meningitis | journal = Lancet | volume = 338 | issue = 8771 | pages = 862–866 | year = 1991 | month = October | pmid = 1681224 | doi = 10.1016/0140-6736(91)91511-R }}</ref>  It is the cheapest treatment available for meningitis (US$5 per treatment course, compared to US$30 for [[ampicillin]] and US$15 for five days of [[ceftriaxone]]).  It has the great advantage of requiring only a single injection, whereas ceftriaxone is traditionally given daily for five days.  This recommendation may yet change, now that a single dose of ceftriaxone (cost US$3) has been shown to be equivalent to one dose of oily chloramphenicol.<ref>{{cite journal | title = Ceftriaxone as effective as long-acting chloramphenicol in short-course treatment of meningococcal meningitis during epidemics: a randomised non-inferiority study | journal = Lancet | author = Nathan, N.; Borel, T.; Djibo, A. | year = 2005 | volume = 366 | issue = 9482 | pages = 308–313 | pmid = 16039333 | doi=10.1016/S0140-6736(05)66792-X }}</ref>
+
+===Eye drops===
+In [[Western World|the West]], chloramphenicol is still widely used in topical preparations ([[ointment]]s and [[eye drop]]s) for the treatment of bacterial [[conjunctivitis]].  Isolated case reports of [[aplastic anaemia]] following use of chloramphenicol eyedrops exist, but the risk is estimated to be less than 1 in 224,716 prescriptions.<ref name="Lancaster1998">{{cite journal | author = Lancaster, T.; Stewart, A. M.; Jick, H. | title = Risk of serious haematological toxicity with use of chloramphenicol eye drops in a British general practice database | journal = British Medical Journal | year = 1998 | volume = 316 | pages = 667 | pmid = 9522792 | url = http://bmj.bmjjournals.com/cgi/content/full/316/7132/667 | issue = 7132 | pmc = 28473 | doi = 10.1136/bmj.316.7132.667 }}</ref> In [[Mexico]], this is the treatment used prophylactically in newborns.
+
+===Trade names===
+Chloramphenicol has a long history and therefore a multitude of trade names in many different countries:
+{{colbegin|2}}
+*Alficetyn
+*Amphicol
+*Archifen (Thailand, ear drops)
+*Biomicin
+*Chlornitromycin
+*Chloromycetin (U.S., intravenous preparation)
+*Chlorsig (U.S., Australia, eye drops)
+*Dispersadron C (Greece, eye drops)
+*Edrumycetin 250&nbsp;mg (Bangladesh, capsule)
+*Fenicol
+*Kemicetine (UK, intravenous preparation)
+*Kloramfenikol (Denmark, eye drops)
+*Laevomycetin
+*UK as an eye treatment
+**Brochlor (Aventis Pharma Ltd)
+**Chloramphenicol (TUBILUX PHARMA S.p.A)
+**Chloromycetin Redidrops (Goldshield Pharmaceuticals Ltd)
+**Golden Eye (Typharm Ltd)
+**Optrex Infected Eyes
+*Ocupol-D (eye ointment, India)
+*Oftan Chlora (eye ointment)
+*Optacloran (Bolivia, eye drops)
+*'' Paraxin
+*Phenicol (Jordan, eye ointment/drops)
+*Phenicol
+*Posifenicol 1% (Germany, eye ointment)
+*Medicom
+*Nevimycin
+*Renicol (India,eye drops)
+*Silmycetin (Thailand, eye drops)
+*Synthomycine (Israel, eye ointment and skin ointment)
+*Tifomycine (France, oily chloramphenicol)
+*Unison (Thailand, skin ointment)
+*Vanmycetin (Hong Kong, eye drops)
+*Vernacetin
+*Veticol
+*Orchadexoline (Orchidia pharmaceutical ind., Egypt, eye drops)
+*Isoptophenicol (Egypt, eye drops)
+*Cedoctine (Egypt, intravenous preparation)
+*Chloramex (South Africa, eye ointment)
+*Cloranfenicol (Portugal)
+{{colend}}
+
+==References==
+{{reflist}}
+
+== Further reading ==
+* {{cite journal | author = Jardetzky, O. | title = Studies on the Mechanism of Action of Chloramphenicol | journal = Journal of Biological Chemistry | volume = 238 | issue = 7 | pages = 2498–2508 | year = 1963 }}
+
+==External links==
+* [http://www.ebi.ac.uk/pdbe-srv/PDBeXplore/ligand/?ligand=CLM Chloramphenicol bound to proteins] in the [[Protein Data Bank|PDB]]
+* {{MedlinePlusDrugInfo|uspdi|202125}}
+* [http://www.uphs.upenn.edu/bugdrug/antibiotic_manual/chloro.htm University of Pennsylvania]
+
+{{Antibiotics and chemotherapeutics for dermatological use}}
+{{Gynecological anti-infectives and antiseptics}}
+{{Amphenicols}}
+{{Otologicals}}
+
+[[Category:Organochlorides]]
+[[Category:Nitrobenzenes]]
+[[Category:World Health Organization essential medicines]]
+[[Category:IARC Group 2A carcinogens]]
+[[Category:Halogen-containing natural products]]
+[[Category:Diols]]
+[[Category:Acetamides]]
+[[Category:Phenethylamines]]
+[[Category:Amphenicols]]
+[[Category:Otologicals]]

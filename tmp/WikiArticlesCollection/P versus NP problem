@@ -1,0 +1,274 @@
+{{pp-move-indef}}
+{{unsolved|computer science|If the solution to a problem can be quickly verified by a computer, can the computer also solve that problem quickly?}}
+{{Millennium Problems}}
+[[File:Complexity classes.svg|thumb|250px|Diagram of complexity classes provided that '''P''' [[≠]] '''NP'''. The existence of problems within '''NP''' but outside both '''P''' and '''NP'''-complete, under that assumption, was established by [[NP-intermediate|Ladner's theorem]].<ref name="Ladner75">R. E. Ladner "On the structure of polynomial time reducibility," [[Journal of the ACM]], 22, pp. 151–171, 1975. Corollary 1.1. [http://portal.acm.org/citation.cfm?id=321877&dl=ACM&coll=&CFID=15151515&CFTOKEN=6184618 ACM site].</ref>]]
+
+The '''P versus NP problem''' is a major [[List of unsolved problems in computer science|unsolved problem in computer science]].  Informally, it asks whether every  problem whose solution can be quickly verified by a computer can also be quickly solved by a computer.  It was introduced in 1971 by [[Stephen Cook]] in his seminal paper "The complexity of theorem proving procedures"<ref>{{Cite book|last=Cook|first=Stephen|authorlink=Stephen Cook|year=1971|chapter=The complexity of theorem proving procedures|chapterurl=http://portal.acm.org/citation.cfm?coll=GUIDE&dl=GUIDE&id=805047|title=Proceedings of the Third Annual ACM Symposium on Theory of Computing|pages=151–158}}</ref> and is considered by many to be the most important open problem in the field.<ref>[[Lance Fortnow]], [http://www.cs.uchicago.edu/~fortnow/papers/pnp-cacm.pdf ''The status of the '''P''' versus '''NP''' problem''], Communications of the ACM 52 (2009), no.&nbsp;9, pp.&nbsp;78–86. {{doi|10.1145/1562164.1562186}}</ref>  It is one of the seven [[Millennium Prize Problems]] selected by the [[Clay Mathematics Institute]] to carry a US$1,000,000 prize for the first correct solution.
+
+The informal term ''quickly'' used above means the existence of an algorithm for the task that runs in [[polynomial time]]. The general class of questions for which some algorithm can provide an answer in polynomial time is called "class '''P'''" or just "'''[[P (complexity)|P]]'''". For some questions, there is no known way to find an answer quickly, but if one is provided with information showing what the answer is, it may be possible to verify the answer quickly. The class of questions for which an answer can be ''verified'' in polynomial time is called '''[[NP (complexity)|NP]]'''.
+
+Consider the [[subset sum problem]], an example of a problem that is easy to verify, but whose answer may be difficult to compute. Given a set of [[integer]]s, does some nonempty [[subset]] of them sum to 0? For instance, does a subset of the set {{nowrap| {−2, −3, 15, 14, 7, −10} }} add up to 0? The answer "yes, because {{nowrap| {−2, −3, −10, 15} }} adds up to zero" can be quickly verified with three additions.  However, there is no known algorithm to find such a subset in polynomial time (there is one, however, in [[exponential time]], which consists of 2<sup>''n''</sup>-1 tries), and indeed such an algorithm can only exist if '''P''' = '''NP'''; hence this problem is in '''NP''' (quickly checkable) but not necessarily in '''P''' (quickly solvable).
+
+An answer to the '''P'''&nbsp;=&nbsp;'''NP''' question would determine whether problems that can be verified in polynomial time,  like the subset-sum problem,  can also be solved in polynomial time. If it turned out that '''P''' ≠ '''NP''', it would mean that there are problems in '''NP''' (such as [[NP-complete|'''NP'''-complete]] problems) that are harder to compute than to verify: they could not be solved in polynomial time, but the answer could be verified in polynomial time.
+
+Aside from being an important problem in computational theory, a proof either way would have profound implications for mathematics, cryptography, algorithm research, [[artificial intelligence]], [[game theory]], multimedia processing and many other fields.
+
+==Context==
+The relation between the [[complexity class]]es '''P''' and '''NP''' is studied in [[computational complexity theory]], the part of the [[theory of computation]] dealing with the resources required during computation to solve a given problem. The most common resources are time (how many steps it takes to solve a problem) and space (how much memory it takes to solve a problem).
+
+In such analysis, a model of the computer for which time must be analyzed is required. Typically such models assume that the computer is ''[[Deterministic computation|deterministic]]'' (given the computer's present state and any inputs, there is only one possible action that the computer might take) and ''sequential'' (it performs actions one after the other).
+
+In this theory, the class '''P''' consists of all those ''[[decision problem]]s'' (defined [[#Formal definitions for P and NP|below]]) that can be solved on a deterministic sequential machine in an amount of time that is [[polynomial]] in the size of the input; the class '''[[NP (complexity)|NP]]''' consists of all those decision problems whose positive solutions can be verified in [[polynomial time]] given the right information, or equivalently, whose solution can be found in polynomial time on a [[Non-deterministic Turing machine|non-deterministic]] machine.<ref>Sipser, Michael: ''Introduction to the Theory of Computation, Second Edition, International Edition'', page 270. Thomson Course Technology, 2006. Definition 7.19 and Theorem 7.20.</ref> Clearly, '''P''' ⊆ '''NP'''. Arguably the biggest open question in [[theoretical computer science]] concerns the relationship between those two classes:
+:Is '''P''' equal to '''NP'''?
+In a 2002 poll of 100 researchers, 61 believed the answer to be no, 9 believed the answer is yes, and 22 were unsure; 8 believed the question may be [[independent (mathematical logic)|independent]] of the currently accepted axioms and therefore is impossible to prove or disprove.<ref name="poll">{{Cite journal|author=William I. Gasarch|title=The P=?NP poll.|journal=SIGACT News|volume=33|issue=2|pages=34–47|month=June | year=2002| url=http://www.cs.umd.edu/~gasarch/papers/poll.pdf|doi=10.1145/1052796.1052804|format=PDF|accessdate=29 December 2008}}</ref>
+
+==NP-complete==
+[[File:P np np-complete np-hard.svg|thumb|300px|right|[[Euler diagram]] for '''[[P (complexity)|P]]''', '''[[NP (complexity)|NP]]''', '''NP'''-complete, and '''NP'''-hard set of problems]]
+{{Main|NP-complete}}
+To attack the '''P''' = '''NP''' question the concept of '''NP'''-completeness is very useful. '''NP'''-complete problems are a set of problems to each of which any other '''NP'''-problem can be reduced in polynomial time, and whose solution may still be verified in polynomial time. That is, any '''NP''' problem can be transformed into any of the '''NP'''-complete problems. Informally, an '''NP'''-complete problem is an '''NP '''problem that is at least as "tough" as any other problem in '''NP'''.
+
+[[NP-hard|'''NP'''-hard]] problems are those at least as hard as '''NP''' problems, i.e., all '''NP''' problems can be reduced (in polynomial time) to them. '''NP'''-hard problems need not be in '''NP''', i.e., they need not have solutions verifiable in polynomial time.
+
+For instance, the [[boolean satisfiability problem]] is '''NP'''-complete by the [[Cook–Levin theorem]], so ''any'' instance of ''any'' problem in '''NP''' can be transformed mechanically into an instance of the boolean satisfiability problem in polynomial time. The boolean satisfiability problem is one of many such '''NP'''-complete problems. If any '''NP'''-complete problem is in '''P''', then it would follow that '''P''' = '''NP'''. Unfortunately, many important problems have been shown to be '''NP'''-complete, and not a single fast algorithm for any of them is known.
+
+Based on the definition alone it is not obvious that '''NP'''-complete problems exist. A trivial and contrived '''NP'''-complete problem can be formulated as: given a description of a Turing machine M guaranteed to halt in polynomial time, does there exist a polynomial-size input that M will accept?<ref name="Scott">{{Cite web|author=Scott Aaronson|title=PHYS771 Lecture 6: P, NP, and Friends|url=http://www.scottaaronson.com/democritus/lec6.html |accessdate=27 August 2007}}</ref> It is in '''NP''' because (given an input) it is simple to check whether M accepts the input by simulating M; it is '''NP'''-complete because the verifier for any particular instance of a problem in '''NP''' can be encoded as a polynomial-time machine M that takes the solution to be verified as input. Then the question of whether the instance is a yes or no instance is determined by whether a valid input exists.
+
+The first natural problem proven to be '''NP'''-complete was the [[boolean satisfiability problem]]. As noted above, this is the [[Cook–Levin theorem]]; its proof that satisfiability is '''NP'''-complete contains technical details about Turing machines as they relate to the definition of '''NP'''. However, after this problem was proved to be '''NP'''-complete, [[reduction (complexity)|proof by reduction]] provided a simpler way to show that many other problems are also '''NP'''-complete, including the [[subset-sum problem]] discussed earlier. Thus, a vast class of seemingly unrelated problems are all reducible to one another, and are in a sense "the same problem".
+
+==Harder problems==
+{{See also|Complexity class}}
+
+Although it is unknown whether '''P''' = '''NP''', problems outside of '''P''' are known. A number of succinct problems (problems that operate not on normal input, but on a computational description of the input) are known to be [[EXPTIME#EXPTIME-complete|'''EXPTIME'''-complete]]. Because it can be shown that '''P''' ⊊ '''[[EXPTIME]]''', these problems are outside '''P''', and so require more than polynomial time. In fact, by the [[time hierarchy theorem]], they cannot be solved in significantly less than exponential time. Examples include finding a perfect strategy for chess (on an ''N'' × ''N'' board)<ref name="Fraenkel1981">{{Cite journal| author = [[Aviezri Fraenkel]] and D. Lichtenstein| title = Computing a perfect strategy for n×n chess requires time exponential in n| journal = J. Comb. Th. A| issue = 31| year = 1981| pages = 199–214}}</ref> and some other board games.<ref>{{Cite web|title=Computational Complexity of Games and Puzzles |url=http://www.ics.uci.edu/~eppstein/cgt/hard.html |author=[[David Eppstein]]}}</ref>
+
+The problem of deciding the truth of a statement in [[Presburger arithmetic]] requires even more time. Fischer and [[Michael O. Rabin|Rabin]] proved in 1974 that every algorithm that decides the truth of Presburger statements has a runtime of at least <math>2^{2^{cn}}</math> for some constant ''c''. Here, ''n'' is the length of the Presburger statement. Hence, the problem is known to need more than exponential run time. Even more difficult are the [[undecidable problem]]s, such as the [[halting problem]]. They cannot be completely solved by any algorithm, in the sense that for any particular algorithm there is at least one input for which that algorithm will not produce the right answer; it will either produce the wrong answer, finish without giving a conclusive answer, or otherwise run forever without producing any answer at all.
+
+==Problems in NP not known to be in P or NP-complete==
+{{Main|NP-intermediate}}
+It was shown by Ladner that if '''P''' ≠ '''NP''' then there exist problems in '''NP''' that are neither in '''P''' nor '''NP'''-complete.<ref name="Ladner75" /> Such problems are called '''NP'''-intermediate problems. The [[graph isomorphism problem]], the [[discrete logarithm problem]] and the [[integer factorization problem]] are examples of problems believed to be '''NP'''-intermediate. They are some of the very few '''NP''' problems not known to be in '''P''' or to be '''NP'''-complete.
+
+The [[graph isomorphism problem]] is the computational problem of determining whether two finite [[Graph (mathematics)|graph]]s are [[graph isomorphism|isomorphic]]. An important unsolved problem in complexity theory is whether the graph isomorphism problem is in '''P''', '''NP'''-complete, or '''NP'''-intermediate. The answer is not known, but it is believed that the problem is at least not '''NP'''-complete.<ref name="AK06">{{cite journal
+ | first1 = Vikraman
+ | last1 = Arvind
+ | first2 = Piyush P.
+ | last2 = Kurur
+ | title = Graph isomorphism is in SPP
+ | journal = Information and Computation
+ | volume = 204
+ | issue = 5
+ | year = 2006
+ | pages = 835–852
+ | doi = 10.1016/j.ic.2006.02.002
+ | postscript = .}}</ref> If graph isomorphism is '''NP'''-complete, the [[polynomial time hierarchy]] collapses to its second level.<ref>[[Uwe Schöning]], "Graph isomorphism is in the low hierarchy", Proceedings of the 4th Annual [[Symposium on Theoretical Aspects of Computer Science]], 1987, 114–124; also: ''Journal of Computer and System Sciences'', vol. 37 (1988), 312–323</ref> Since it is widely believed that the polynomial hierarchy does not collapse to any finite level, it is believed that graph isomorphism is not '''NP'''-complete. The best algorithm for this problem, due to [[Laszlo Babai]] and [[Eugene Luks]] has run time 2<sup>O(√''n''log(''n''))</sup> for graphs with ''n'' vertices.
+
+The [[integer factorization problem]] is the computational problem of determining the [[prime factorization]] of a given integer. Phrased as a decision problem, it is the problem of deciding whether the input has a factor less than ''k''. No efficient integer factorization algorithm is known, and this fact forms the basis of several modern cryptographic systems, such as the [[RSA (algorithm)|RSA]] algorithm. The integer factorization problem is in '''NP''' and in '''[[co-NP]]''' (and even in '''UP''' and '''co-UP'''<ref>[[Lance Fortnow]]. Computational Complexity Blog: [http://weblog.fortnow.com/2002/09/complexity-class-of-week-factoring.html Complexity Class of the Week: Factoring]. 13 September 2002.</ref>). If the problem is '''NP'''-complete, the polynomial time hierarchy will collapse to its first level (i.e., '''NP''' = '''co-NP'''). The best known algorithm for integer factorization is the [[general number field sieve]], which takes expected time
+
+:<math>O\left (\exp \left ( \left (\tfrac{64n}{9} \log(2) \right )^{\frac{1}{3}} \left ( \log(n\log(2)) \right )^{\frac{2}{3}} \right) \right )</math>
+
+to factor an ''n''-bit integer. However, the best known [[quantum algorithm]] for this problem, [[Shor's algorithm]], does run in polynomial time. Unfortunately, this fact doesn't say much about where the problem lies with respect to non-quantum complexity classes.
+
+==Does P mean "easy"?==
+[[File:KnapsackEmpComplexity.GIF|thumb|310 px|The graph shows time (average of 100 instances in ms using a 933 MHz Pentium III) vs.problem size for knapsack problems for a state-of-the-art specialized algorithm. Quadratic fit suggests that empirical algorithmic complexity for instances with 50–10,000 variables is O((log(''n''))<sup>2</sup>).<ref name=Pisinger2003>Pisinger, D. 2003. "Where are the hard knapsack problems?" Technical Report 2003/08, Department of Computer Science, University of Copenhagen, Copenhagen, Denmark</ref>]]
+All of the above discussion has assumed that '''P''' means "easy" and "not in '''P'''" means "hard", an assumption known as ''[[Cobham's thesis]]''. It is a common and reasonably accurate assumption in complexity theory; however, it has some caveats.
+
+First, it is not always true in practice. A theoretical polynomial algorithm may have extremely large  constant factors or exponents thus rendering it impractical. On the other hand, even if a problem is shown to be '''NP'''-complete, and even if '''P''' ≠ '''NP''', there may still be effective approaches to tackling the problem in practice. There are algorithms for many '''NP'''-complete problems, such as the [[knapsack problem]], the [[traveling salesman problem]] and the [[boolean satisfiability problem]], that can solve to optimality many real-world instances in reasonable time. The empirical [[average-case complexity]] (time vs. problem size) of such algorithms can be surprisingly low.  A famous example is the [[simplex algorithm]] in [[linear programming]], which works surprisingly well in practice; despite having exponential worst-case [[time complexity]] it runs on par with the best known polynomial-time algorithms.<ref>{{cite book|last1=Gondzio|first1=Jacek|last2=Terlaky|first2=Tamás|chapter=3 A computational view of interior point methods |mr=1438311 |title=Advances in linear and integer programming|pages=103–144|editor=J.&nbsp;E. Beasley|location=New York|publisher=Oxford University Press|year=1996|series=Oxford Lecture Series in Mathematics and its Applications |volume=4 |url=http://www.maths.ed.ac.uk/~gondzio/CV/oxford.ps |ref=harv|id=[http://www.maths.ed.ac.uk/~gondzio/CV/oxford.ps Postscript file at website of Gondzio] and [http://www.cas.mcmaster.ca/~terlaky/files/dut-twi-94-73.ps.gz at McMaster University website of Terlaky]|eprint=Oxford-Clarendon Press}}</ref>
+
+Second, there are types of computations which do not conform to the Turing machine model on which '''P''' and '''NP''' are defined, such as [[quantum computation]] and [[randomized algorithm]]s.
+
+==Reasons to believe P ≠ NP==
+According to polls,<ref name="poll"/><ref>{{cite journal|title='''P''' vs. '''NP''' poll results|journal=Communications of the ACM|date=May 2012|volume=55|issue=5|page=10|first=Jack|last=Rosenberger|url=http://mags.acm.org/communications/201205?pg=12}}</ref> many computer scientists believe that '''P'''&nbsp;≠&nbsp;'''NP'''. A key reason for this belief is that after decades of studying these problems no one has been able to find a polynomial-time algorithm for any of more than 3000 important known '''NP'''-complete problems (see [[List of NP-complete problems|List of '''NP'''-complete problems]]). These algorithms were sought long before the concept of '''NP'''-completeness was even defined ([[Karp's 21 NP-complete problems|Karp's 21 '''NP'''-complete problems]], among the first found, were all well-known existing problems at the time they were shown to be '''NP'''-complete). Furthermore, the result '''P''' = '''NP''' would imply many other startling results that are currently believed to be false, such as '''NP''' = '''[[co-NP]]''' and '''P''' = '''[[PH (complexity)|PH]]'''.
+
+It is also intuitively argued that the existence of problems that are hard to solve but for which the solutions are easy to verify matches real-world experience.<ref>{{Cite web|url=http://scottaaronson.com/blog/?p=122 |author=Scott Aaronson |title=Reasons to believe}}, point 9.</ref>
+{{quote|If '''P''' <nowiki>=</nowiki> '''NP''', then the world would be a profoundly different place than we usually assume it to be. There would be no special value in "creative leaps," no fundamental gap between solving a problem and recognizing the solution once it's found. Everyone who could appreciate a symphony would be Mozart; everyone who could follow a step-by-step argument would be Gauss...| [[Scott Aaronson]], [[MIT]]}}
+
+On the other hand, some researchers believe that there is overconfidence in believing '''P''' ≠ '''NP''' and that researchers should explore proofs of '''P''' = '''NP''' as well. For example, in 2002 these statements were made:<ref name="poll" />
+{{quote|The main argument in favor of '''P'''&nbsp;≠&nbsp;'''NP''' is the total lack of fundamental progress in the area of exhaustive search. This is, in my opinion, a very weak argument. The space of algorithms is very large and we are only at the beginning of its exploration. [...] The resolution of [[Fermat's Last Theorem]] also shows that very simple questions may be settled only by very deep theories.|[[Moshe Y. Vardi]], [[Rice University]]}}
+{{quote|Being attached to a speculation is not a good guide to research planning. One should always try both directions of every problem. Prejudice has caused famous mathematicians to fail to solve famous problems whose solution was opposite to their expectations, even though they had developed all the methods required.|[[Anil Nerode]], [[Cornell University]]}}
+
+==Consequences of the resolution of the problem==
+One of the reasons the problem attracts so much attention is the consequences of the answer.  Either direction of resolution would advance theory enormously, and perhaps have huge practical consequences as well.
+
+===P = NP===
+A proof that '''P''' = '''NP''' could have stunning practical consequences, if the proof leads to efficient methods for solving some of the important problems in '''NP'''. It is also possible that a proof would not lead directly to efficient methods, perhaps if the proof is [[non-constructive proof|non-constructive]], or the size of the bounding polynomial is too big to be efficient in practice. The consequences, both positive and negative, arise since various '''NP'''-complete problems are fundamental in many fields.
+
+Cryptography, for example, relies on certain problems being difficult. A constructive and efficient solution<ref group="Note">Exactly how efficient a solution must be to pose a threat to cryptography depends on the details.  A solution of <math>O(N^2)</math> or better and a reasonable constant term would be catastrophic.  On the other hand, a solution that is <math>\Omega(N^4)</math> or worse in almost all cases would not pose an immediate practical danger. </ref> to an '''NP'''-complete problem such as [[Boolean satisfiability problem#3-satisfiability|3-SAT]] would break most existing cryptosystems including:
+* [[public-key cryptography]],<ref>See {{cite journal |title=Hard instance generation for SAT |author=Horie, S. and Watanabe, O. |journal=Algorithms and Computation |pages=22–31 |year=1997
+|publisher=Springer |arxiv=cs/9809117 |bibcode=1998cs........9117H |last2=Watanabe |doi=10.1007/3-540-63890-3_4 |series=Lecture Notes in Computer Science |isbn=978-3-540-63890-2 |volume=1350}} for a reduction of factoring to SAT.  A 512 bit factoring problem (8400 MIPS-years when factored) translates to a SAT problem of 63,652 variables and 406,860 clauses.</ref> a foundation for many modern security applications such as secure economic transactions over the Internet; and
+* [[symmetric cipher]]s such as [[Advanced Encryption Standard|AES]] or [[Triple DES|3DES]],<ref>See, for example, {{cite journal |title=Logical cryptanalysis as a SAT problem |author=Massacci, F. and Marraro, L. |journal=Journal of Automated Reasoning |volume=24 |issue=1 |pages=165–203 |year=2000 |publisher=Springer |id = {{citeseerx|10.1.1.104.962}} |doi=10.1023/A:1006326723002}} in which an instance of DES is encoded as a SAT problem with 10336 variables and 61935 clauses.  A 3DES problem instance would be about 3 times this size.</ref> used for the encryption of communications data.
+These would need to be modified or replaced by [[information-theoretic security|information-theoretically secure]] solutions.
+
+On the other hand, there are enormous positive consequences that would follow from rendering tractable many currently mathematically intractable problems. For instance, many problems in [[operations research]] are '''NP'''-complete, such as some types of [[integer programming]], and the [[travelling salesman problem]], to name two of the most famous examples. Efficient solutions to these problems would have enormous implications for logistics. Many other important problems, such as some problems in [[protein structure prediction]], are also '''NP'''-complete;<ref name="Berger">{{Cite journal|author=Berger B, Leighton T |title=Protein folding in the hydrophobic-hydrophilic (HP) model is '''NP'''-complete |journal=J. Comput. Biol. |volume=5 |issue=1 |pages=27–40 |year=1998 |pmid=9541869 |doi=10.1089/cmb.1998.5.27 }}</ref> if these problems were efficiently solvable it could spur considerable advances in biology.
+
+But such changes may pale in significance compared to the revolution an efficient method for solving '''NP'''-complete problems would cause in mathematics itself. According to [[Stephen Cook]],<ref name="Official Problem Description">{{Cite journal|last=Cook|first=Stephen|authorlink=Stephen Cook|title=The '''P''' versus '''NP''' Problem|publisher=[[Clay Mathematics Institute]] |year=2000|month=April |url=http://www.claymath.org/millennium/P_vs_NP/pvsnp.pdf |accessdate=18 October 2006}}</ref>
+
+{{quote|...it would transform mathematics by allowing a computer to find a formal proof of any theorem which has a proof of a reasonable length, since formal proofs can easily be recognized in polynomial time. Example problems may well include all of the [[Clay Math Institute#Millennium Prize Problems|CMI prize problems]].}}
+
+Research mathematicians spend their careers trying to prove theorems, and some proofs have taken decades or even centuries to find after problems have been stated—for instance, [[Fermat's Last Theorem]] took over three centuries to prove. A method that is guaranteed to find proofs to theorems, should one exist of a "reasonable" size, would essentially end this struggle.
+
+===P ≠ NP===
+A proof that showed that '''P''' ≠ '''NP''' would lack the practical computational benefits of a proof that '''P''' = '''NP''', but would nevertheless represent a very significant advance in computational complexity theory and provide guidance for future research. It would allow one to show in a formal way that many common problems cannot be solved efficiently, so that the attention of researchers can be focused on partial solutions or solutions to other problems. Due to widespread belief in '''P''' ≠ '''NP''', much of this focusing of research has already taken place.<ref>{{Cite journal|title=The Heuristic Problem-Solving Approach |author=L. R. Foulds |journal=[[Journal of the Operational Research Society]] |volume=34 |issue=10 |month=October | year=1983 |pages=927–934 |jstor=2580891 |doi=10.2307/2580891}}</ref>
+
+Also '''P''' ≠ '''NP''' still leaves open the [[average-case complexity]] of hard problems in '''NP'''.  For example, it is possible that SAT requires exponential time in the worst case, but that almost all randomly selected instances of it are efficiently solvable.  [[Russell Impagliazzo]] has described five hypothetical "worlds" that could result from different possible resolutions to the average-case complexity question.<ref>R. Impagliazzo, [http://cseweb.ucsd.edu/~russell/average.ps "A personal view of average-case complexity,"] sct, pp.134, 10th Annual Structure in Complexity Theory Conference (SCT'95), 1995</ref>  These range from "Algorithmica", where '''P''' = '''NP''' and problems like SAT can be solved efficiently in all instances, to "Cryptomania", where '''P''' ≠ '''NP''' and generating hard instances of problems outside '''P''' is easy, with three intermediate possibilities reflecting different possible distributions of difficulty over instances of '''NP-hard''' problems.  The "world" where '''P''' ≠ '''NP''' but all problems in '''NP''' are tractable in the average case is called "Heuristica" in the paper. A [[Princeton University]] workshop in 2009 studied the status of the five worlds.<ref>http://intractability.princeton.edu/blog/2009/05/program-for-workshop-on-impagliazzos-worlds/</ref>
+
+==Results about difficulty of proof==
+Although the '''P''' = '''NP'''? problem itself remains open despite a million-dollar prize and a huge amount of dedicated research, efforts to solve the problem have led to several new techniques.  In particular, some of the most fruitful research related to the '''P''' = '''NP''' problem has been in showing that existing proof techniques are not powerful enough to answer the question, thus suggesting that novel technical approaches are required.
+
+As additional evidence for the difficulty of the problem, essentially all known proof techniques in [[computational complexity]] theory fall into one of the following classifications, each of which is known to be insufficient to prove that '''P''' ≠ '''NP''':
+{| class="wikitable"
+|-
+!Classification
+!Definition
+|-
+|[[Relativizing proof]]s
+|Imagine a world where every algorithm is allowed to make queries to some fixed subroutine called an [[oracle machine|oracle]], and the running time of the oracle is not counted against the running time of the algorithm. Most proofs (especially classical ones) apply uniformly in a world with oracles regardless of what the oracle does. These proofs are called ''relativizing''. In 1975, Baker, Gill, and [[Robert M. Solovay|Solovay]] showed that '''P''' = '''NP''' with respect to some oracles, while '''P''' ≠ '''NP''' for other oracles.<ref>T. P. Baker, J. Gill, R. Solovay. ''Relativizations of the '''P''' =? '''NP''' Question''. [[SIAM Journal on Computing]], 4(4): 431–442 (1975)</ref> Since relativizing proofs can only prove statements that are uniformly true with respect to all possible oracles, this showed that relativizing techniques cannot resolve '''P''' = '''NP'''.
+|-
+|[[Natural proof]]s
+|In 1993, [[Alexander Razborov]] and [[Steven Rudich]] defined a general class of proof techniques for circuit complexity lower bounds, called ''[[natural proof]]s''. At the time all previously known circuit lower bounds were natural, and circuit complexity was considered a very promising approach for resolving '''P''' = '''NP'''. However, Razborov and Rudich showed that, if [[one-way functions]] exist, then no natural proof method can distinguish between '''P''' and '''NP'''. Although one-way functions have never been formally proven to exist, most mathematicians believe that they do, and a proof or disproof of their existence would be a much stronger statement than the quantification of '''P''' relative to '''NP'''. Thus it is unlikely that natural proofs alone can resolve '''P''' = '''NP'''.
+|-
+|Algebrizing proofs
+|After the Baker-Gill-Solovay result, new non-relativizing proof techniques were successfully used to prove that [[IP (complexity)|IP]] = [[PSPACE]]. However, in 2008, [[Scott Aaronson]] and [[Avi Wigderson]] showed that the main technical tool used in the '''IP''' = '''PSPACE''' proof, known as ''arithmetization'', was also insufficient to resolve '''P''' = '''NP'''.<ref>{{cite conference |author=S. Aaronson and A. Wigderson |title=Algebrization: A New Barrier in Complexity Theory |conference=Proceedings of ACM STOC'2008 |year=2008 |url=http://www.scottaaronson.com/papers/alg.pdf |doi=10.1145/1374376.1374481 |pages=731–740}}</ref>
+|}
+
+These barriers are another reason why '''NP'''-complete problems are useful: if a polynomial-time algorithm can be demonstrated for an '''NP'''-complete problem, this would solve the '''P''' = '''NP''' problem in a way not excluded by the above results.
+
+These barriers have also led some computer scientists to suggest that the '''P''' versus '''NP''' problem may be [[Independence (mathematical logic)|independent]] of standard axiom systems like [[ZFC]] (cannot be proved or disproved within them). The interpretation of an independence result could be that either no polynomial-time algorithm exists for any '''NP'''-complete problem, and such a proof cannot be constructed in (e.g.) ZFC, or that polynomial-time algorithms for '''NP'''-complete problems may exist, but it's impossible to prove in ZFC that such algorithms are correct.<ref>{{Cite web|url=http://www.scottaaronson.com/papers/pnp.pdf|first=Scott|last=Aaronson|authorlink=Scott Aaronson|title=Is '''P''' Versus '''NP''' Formally Independent?|postscript=<!-- Bot inserted parameter. Either remove it; or change its value to "." for the cite to end in a ".", as necessary. -->{{inconsistent citations}}}}.</ref> However, if it can be shown, using techniques of the sort that are currently known to be applicable, that the problem cannot be decided even with much weaker assumptions extending the [[Peano axioms]] (PA) for integer arithmetic, then there would necessarily exist nearly-polynomial-time algorithms for every problem in '''NP'''.<ref>{{Cite journal|title=On the independence of P versus NP|first1=Shai|last1=Ben-David |first2=Shai|last2=Halevi |series=Technical Report|volume=714|publisher=Technion|year=1992|url=http://www.cs.technion.ac.il/~shai/ph.ps.gz|postscript=<!-- Bot inserted parameter. Either remove it; or change its value to "." for the cite to end in a ".", as necessary. -->{{inconsistent citations}}}}.</ref> Therefore, if one believes (as most complexity theorists do) that not all problems in '''NP''' have efficient algorithms, it would follow that proofs of independence using those techniques cannot be possible. Additionally, this result implies that proving independence from PA or ZFC using currently known techniques is no easier than proving the existence of efficient algorithms for all problems in '''NP'''.
+
+==Claimed solutions <span id="Deolalikar"/>==
+While the '''P''' versus '''NP''' problem is generally considered unsolved,<ref>{{Cite web|author=[[John Markoff]] |url=http://www.nytimes.com/2009/10/08/science/Wpolynom.html |title=Prizes Aside, the P-NP Puzzler Has Consequences|work=The New York Times|date=8 October 2009}}</ref> many amateur and some professional researchers have claimed solutions.  Woeginger (2010) has a comprehensive list.<ref>{{Cite web|title=The P-versus-NP page|url=http://www.win.tue.nl/~gwoegi/P-versus-NP.htm|author=Gerhard J. Woeginger|date=9 August 2010|accessdate=12 August 2010}}</ref> An August 2010 claim of proof that '''P''' ≠ '''NP''', by Vinay Deolalikar, researcher at [[HP Labs]], [[Palo Alto]], received heavy Internet and press attention after being initially described as "{{nowrap|seem[ing]}} to be a relatively serious attempt" by two leading specialists.<ref name="NYT2010">{{Cite news|last=Markoff|first=John|title=Step 1: Post Elusive Proof. Step 2: Watch Fireworks. |url=http://www.nytimes.com/2010/08/17/science/17proof.html?_r=1 |accessdate=20 September 2010|newspaper=The New York Times|date=16 August 2010}}</ref> The proof has been reviewed publicly by academics,<ref>{{Cite web |url=http://michaelnielsen.org/polymath1/index.php?title=Deolalikar_P_vs_NP_paper |author=[[Polymath Project]] wiki |title=Deolalikar's '''P''' vs '''NP''' paper}}</ref><ref>Science News, [http://www.sciencenews.org/index/generic/activity/view/id/63252/title/Crowdsourcing_peer_review "Crowdsourcing peer review"]</ref> and [[Neil Immerman]], an expert in the field, had pointed out two possibly fatal errors in the proof.<ref>{{Cite web |title=Fatal Flaws in Deolalikar's Proof?
+ |url=http://rjlipton.wordpress.com/2010/08/12/fatal-flaws-in-deolalikars-proof/ |author=[[Richard J. Lipton|Dick Lipton]] |date=12 August 2010}}</ref>
+As of 15 September 2010, Deolalikar was reported to be working on a detailed expansion of his attempted proof.<ref>{{Cite web
+|url=http://rjlipton.wordpress.com/2010/09/15/an-update-on-vinay-deolalikars-proof/ |title=An Update on Vinay Deolalikar's Proof
+|author=[[Richard J. Lipton|Dick Lipton]] |date=15 September 2010 |accessdate=31 December 2010 }}</ref> However, opinions expressed by several notable theoretical computer scientists indicate that the attempted proof is neither correct nor a significant advancement in the understanding of the problem.<ref>Gödel’s Lost Letter and P=NP, [http://rjlipton.wordpress.com/2010/08/10/update-on-deolalikars-proof-that-p%E2%89%A0np/#comment-4885 Update on Deolalikar’s Proof that P≠NP]</ref>
+
+==Logical characterizations==
+The '''P''' = '''NP''' problem can be restated in terms of expressible certain classes of logical statements, as a result of work in [[descriptive complexity]].
+
+Consider all language of finite structures with a fixed [[signature (logic)|signature]] including a [[linear order]] relation. Then, all such languages in '''P''' can be expressed in [[first-order logic]] with the addition of a suitable least [[fixed-point combinator]]. Effectively, this, in combination with the order, allows the definition of recursive functions. As long as the signature contains at least one predicate or function in addition to the distinguished order relation, so that the amount of space taken to store such finite structures is actually polynomial in the number of elements in the structure, this precisely characterizes '''P'''.
+
+Similarly, '''NP''' is the set of languages expressible in existential [[second-order logic]]—that is, second-order logic restricted to exclude [[universal quantification]] over relations, functions, and subsets. The languages in the [[polynomial hierarchy]], '''[[PH (complexity)|PH]]''', correspond to all of second-order logic. Thus, the question "is '''P''' a proper subset of '''NP'''" can be reformulated as "is existential second-order logic able to describe languages (of finite linearly ordered structures with nontrivial signature) that first-order logic with least fixed point cannot?".<ref>Elvira Mayordomo. [http://www.unizar.es/acz/05Publicaciones/Monografias/MonografiasPublicadas/Monografia26/057Mayordomo.pdf "P versus NP"] ''Monografías de la Real Academia de Ciencias de Zaragoza'' '''26''': 57–68 (2004).</ref> The word "existential" can even be dropped from the previous characterization, since '''P''' = '''NP''' if and only if '''P''' = '''PH''' (as the former would establish that '''NP''' = '''co-NP''', which in turn implies that '''NP''' = '''PH''').
+
+==Polynomial-time algorithms==
+No algorithm for any '''NP'''-complete problem is known to run in polynomial time. However, there are algorithms for '''NP'''-complete problems with the property that if '''P''' = '''NP''', then the algorithm runs in polynomial time (although with enormous constants, making the algorithm impractical). The following algorithm, due to [[Leonid Levin|Levin]] (without any citation), is such an example below. It correctly accepts the '''NP'''-complete language [[subset sum problem|SUBSET-SUM]]. It runs in polynomial time if and only if '''P''' = '''NP''':
+
+ // Algorithm that accepts the '''NP'''-complete language SUBSET-SUM.
+ //
+ // this is a polynomial-time algorithm if and only if '''P''' = '''NP'''.
+ //
+ // "Polynomial-time" means it returns "yes" in polynomial time when
+ // the answer should be "yes", and runs forever when it is "no".
+ //
+ // Input: S = a finite set of integers
+ // Output: "yes" if any subset of S adds up to 0.
+ // Runs forever with no output otherwise.
+ // Note: "Program number P" is the program obtained by
+ // writing the integer P in binary, then
+ // considering that string of bits to be a
+ // program. Every possible program can be
+ // generated this way, though most do nothing
+ // because of syntax errors. <br />
+ FOR N = 1...∞
+   FOR P = 1...N
+     Run program number P for N steps with input S
+     IF the program outputs a list of distinct integers
+       AND the integers are all in S
+       AND the integers sum to 0<br />
+     THEN
+       OUTPUT "yes" and HALT
+
+If, and only if, '''P''' = '''NP''', then this is a polynomial-time algorithm accepting an '''NP'''-complete language. "Accepting" means it gives "yes" answers in polynomial time, but is allowed to run forever when the answer is "no" (also known as a ''semi-algorithm'').
+
+This algorithm is enormously impractical, even if '''P''' = '''NP'''. If the shortest program that can solve SUBSET-SUM in polynomial time is ''b'' bits long, the above algorithm will try at least 2<sup>''b''</sup>−1 other programs first.
+
+==Formal definitions for P and NP==
+Conceptually a ''decision problem'' is a problem that takes as input some [[String (computer science)|string]] ''w'' over an alphabet Σ, and outputs "yes" or "no". If there is an [[algorithm]] (say a [[Turing machine]], or a [[Computer programming|computer program]] with unbounded memory) that can produce the correct answer for any input string of length ''n'' in at most ''cn<sup>k</sup>'' steps, where ''k'' and ''c'' are constants independent of the input string, then we say that the problem can be solved in ''polynomial time'' and we place it in the class '''P'''. Formally, '''P''' is defined as the set of all languages that can be decided by a deterministic polynomial-time Turing machine. That is,
+:<math>\mathbf{P} = \{ L : L=L(M) \text{ for some deterministic polynomial-time Turing machine } M \}</math>
+where
+:<math>L(M) = \{ w\in\Sigma^{*}: M \text{ accepts } w \}</math>
+and a deterministic polynomial-time Turing machine is a deterministic Turing machine ''M'' that satisfies the following two conditions:
+
+# ''M'' halts on all input ''w'' and
+# there exists <math>k \in N</math> such that <math>T_M(n)\in O(n^{k})</math>, where O refers to the [[Big O notation#Formal definition|big O notation]] and
+::<math>T_M(n) = \max\{ t_M(w) : w\in\Sigma^{*}, \left|w\right| = n \}</math>
+::<math>t_M(w) = \text{ number of steps }M\text{ takes to halt on input }w.</math>
+
+'''NP''' can be defined similarly using nondeterministic Turing machines (the traditional way). However, a modern approach to define '''NP''' is to use the concept of ''[[Certificate (complexity)|certificate]]'' and ''verifier''. Formally, '''NP''' is defined as the set of languages over a finite alphabet that have a verifier that runs in polynomial time, where the notion of "verifier" is defined as follows.
+
+Let ''L'' be a language over a finite alphabet, Σ.
+
+''L'' ∈ '''NP''' if, and only if, there exists a binary relation <math>R\subset\Sigma^{*}\times\Sigma^{*}</math> and a positive integer ''k'' such that the following two conditions are satisfied:
+
+# For all <math>x\in\Sigma^{*}</math>, <math>x\in L \Leftrightarrow\exists y\in\Sigma^{*}</math> such that (''x'', ''y'') ∈ ''R'' and <math>|y|\in O(|x|^{k})</math>; and
+# the language <math>L_{R} = \{ x\# y:(x,y)\in R\}</math> over <math>\Sigma\cup\{\#\}</math> is decidable by a Turing machine in polynomial time.
+
+A Turing machine that decides ''L<sub>R</sub>'' is called a ''verifier'' for ''L'' and a ''y'' such that (''x'', ''y'') ∈ ''R'' is called a ''certificate of membership'' of ''x'' in ''L''.
+
+In general, a verifier does not have to be polynomial-time. However, for ''L'' to be in '''NP''', there must be a verifier that runs in polynomial time.
+
+===Example===
+Let
+:<math>\mathrm{COMPOSITE} = \left \{x\in\mathbb{N} | x=pq \;\text{for integers}\; p, q > 1 \right \}</math>
+:<math>R = \left \{(x,y)\in\mathbb{N} \times\mathbb{N} | 1<y \leq \sqrt x\; \text{and} \;y\; \text{divides}\; x \right \}.</math>
+Clearly, the question of whether a given ''x'' is a [[Composite number|composite]] is equivalent to the question of whether ''x'' is a member of COMPOSITE. It can be shown that COMPOSITE ∈ '''NP''' by verifying that it satisfies the above definition (if we identify natural numbers with their binary representations).
+
+COMPOSITE also happens to be in '''P'''.<ref name="Agrawal">{{Cite web|author=M. Agrawal, N. Kayal, N. Saxena|title=Primes is in P|url=http://www.cse.iitk.ac.in/users/manindra/algebra/primality_v6.pdf|format=PDF|accessdate=29 December 2008}}</ref><ref>[[AKS primality test]]</ref>
+
+==Formal definition for NP-completeness==
+There are many equivalent ways of describing '''NP'''-completeness.
+
+Let ''L'' be a language over a finite alphabet Σ.
+
+''L'' is '''NP'''-complete if, and only if, the following two conditions are satisfied:
+
+# ''L'' ∈ '''NP'''; and
+# any ''L′'' in '''NP''' is polynomial-time-reducible to ''L'' (written as <math>L' \leq_{p} L</math>), where <math>L' \leq_{p} L</math> if, and only if, the following two conditions are satisfied:
+## There exists ''f'' : Σ* → Σ* such that for all ''w'' in Σ* we have: <math>(w\in L' \Leftrightarrow f(w)\in L)</math>; and
+## there exists a polynomial-time Turing machine that halts with ''f''(''w'') on its tape on any input ''w''.
+
+==Popular culture==
+The film ''[[Travelling Salesman (2012 film)|Travelling Salesman]]'', by director Timothy Lanzone, is the story of four mathematicians hired by the US government to solve the P vs. NP problem.<ref>{{cite web|last=Geere|first=Duncan|title='Travelling Salesman' movie considers the repercussions if P equals NP|url=http://www.wired.co.uk/news/archive/2012-04/26/travelling-salesman|publisher=Wired|accessdate=26 April 2012}}</ref>
+
+In the CBS series ''[[Numbers (TV series)|Numbers]]'', it was said that Charlie Epps spent the last three months of his mother's life in the garage, unable to face her, working on P vs NP, misguidedly thinking that he may be able to cure her sickness.
+
+In the CBS series ''[[Elementary (TV series)|Elementary]]'', season 2, episode 2, broadcast October 3, 2013, the search for a solution to the problem and its value to the computer world is used as a motive for a double homicide.
+
+==See also==
+* [[Game complexity]]
+* [[Unique games conjecture]]
+* [[Unsolved problems in computer science]]
+* [[Unsolved problems in mathematics]]
+
+==References==
+{{Reflist|colwidth=30em}}
+
+==Notes==
+{{reflist|group=Note}}
+
+==Further reading==
+* {{cite doi|10.1007/3-540-10843-2_23}}
+* {{cite book | last1 = Garey | first1 = Michael | last2 = Johnson | first2 = David | title = Computers and Intractability:
+A Guide to the Theory of NP-Completeness | publisher = [[W. H. Freeman and Company]] | location = San Francisco | year = 1979 | isbn = 0-7167-1045-5 }}
+* {{cite book | last = Goldreich | first = Oded | title = P, Np, and Np-Completeness | publisher = Cambridge University Press | location = Cambridge | year = 2010 | isbn = 978-0-521-12254-2 }} [http://www.wisdom.weizmann.ac.il/~oded/bc-drafts.html Online drafts] 
+* {{Cite journal | last1 = Immerman | first1 = N. | title = Languages which capture complexity classes | pages = 760&ndash;778 | year = 1987 | journal=SIAM Journal of Computing | volume=16 | issue = 4 |doi=10.1137/0216051| url=http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.50.4936}}
+* {{cite book | last = Cormen | first = Thomas | title = [[Introduction to Algorithms]] | publisher = [[MIT Press]] | location = Cambridge | year = 2001 | isbn = 0-262-03293-7 }}
+* {{cite book | last = Papadimitriou | first = Christos | title = Computational Complexity | publisher = Addison-Wesley | location = Boston | year = 1994 | isbn = 0-201-53082-1 }}
+* {{cite doi | 10.1145/1562164.1562186}}
+* {{cite web | last1= Fortnow | first1 = L. | last2 = Gasarch | first2 = W. | title = Computational complexity | url =  http://weblog.fortnow.com }}
+* Fortnow, Lance. ''[http://press.princeton.edu/titles/9937.html The Golden Ticket: P, NP, and the Search for the Impossible]'' ISBN 9780691156491. Princeton University Press. Princeton, NJ (2013)
+
+==External links==
+{{Spoken Wikipedia|En-P versus NP problem.ogg|2013-08-12}}
+* [http://www.claymath.org/millennium/ The Clay Mathematics Institute Millennium Prize Problems]
+* {{PDF|[http://www.claymath.org/millennium/P_vs_NP/Official_Problem_Description.pdf The Clay Math Institute Official Problem Description]|118&nbsp;KB}}
+* Gerhard J. Woeginger. [http://www.win.tue.nl/~gwoegi/P-versus-NP.htm The P-versus-NP page]. A list of links to a number of purported solutions to the problem. Some of these links state that P equals NP, some of them state the opposite. It is probable that all these alleged solutions are incorrect.
+* {{CZoo|Class P|P#p}}, {{CZoo|Class NP|N#np}}
+* [[Scott Aaronson]] [http://scottaaronson.com/blog/?p=122 's Shtetl Optimized blog: Reasons to believe], a list of justifications for the belief that P ≠ NP
+{{ComplexityClasses}}
+
+{{Use dmy dates|date=May 2012}}
+
+{{DEFAULTSORT:P Versus Np Problem}}
+[[Category:Structural complexity theory]]
+[[Category:Mathematical optimization]]
+[[Category:Conjectures]]
+[[Category:Unsolved problems in mathematics]]
+[[Category:Unsolved problems in computer science]]
+[[Category:Millennium Prize Problems]]

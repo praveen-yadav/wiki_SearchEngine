@@ -1,0 +1,187 @@
+A '''bulletin board system''', or '''BBS''', is a [[computer]] [[host (network)|system]] running [[list of BBS software|software]] that allows [[User (computing)|users]] to [[Telecommunication circuit|connect]] and [[Logging (computer security)|log in]]to the system using a [[terminal program]]. <!-- arguably, any access software will do, such as a program designed to dial up, log in, exchange QWK packets, and log off. --> Once logged in, a [[User (computing)|user]] can perform functions such as [[uploading and downloading]] software and data, reading news and bulletins, and exchanging messages with other [[User (computing)|users]], either through [[email]], public [[message boards]], and sometimes via direct [[synchronous conferencing|chatting]]. Many BBSes also offer [[BBS door|on-line games]], in which users can compete with each other, and BBSes with multiple phone lines often provide [[chat room]]s, allowing users to interact with each other.
+
+Originally BBSes were accessed only over a [[public switched telephone network|phone line]] using a [[modem]], but by the early 1990s some BBSes allowed access via a [[Telnet]], [[packet switched network]], or [[packet radio]] connection.
+
+[[Ward Christensen]] coined the term "bulletin board system" as a reference to the traditional cork-and-pin [[bulletin board]] often found in entrances of supermarkets, schools, libraries or other public areas where people can post messages, advertisements, or community news.  By "computerizing" this method of communications, the name of the first BBS system was born: CBBS - Computerized Bulletin Board System. During their heyday from the late 1970s to the mid-1990s, most BBSes were run as a [[hobby]] free of charge by the system operator (or "[[sysop]]"), while other BBSes charged their users a subscription fee for access, or were operated by a business as a means of supporting their customers. Bulletin board systems were in many ways a precursor to the modern form of the [[World Wide Web]], [[social network service]]s and other aspects of the [[Internet]].
+
+As the use of the Internet became more widespread in the mid to late 1990s, traditional BBSes rapidly faded in popularity. Today, [[Internet forum]]s occupy much of the same social and technological space as BBSes did, and the term BBS is often used to refer to any online forum or message board. Although BBSing survives only as a niche hobby in most parts of the world, it is still an extremely popular form of communication for Taiwanese youth (see [[PTT Bulletin Board System]]) and in China.<ref>http://thinkingchinese.com/chinese-bbs-the-social-activity-that-never-grows-old</ref> Most BBSes are now accessible over [[Telnet]] and typically offer free email accounts, FTP services, [[Internet Relay Chat|IRC]] and all of the [[Communications protocol|protocols]] commonly used on the Internet. Some offer access through [[packet switched network]]s, or [[packet radio]] connections.
+
+Early BBSes were often a local phenomenon (in countries with free local phone calls), as one had to dial into a BBS with a phone line and would have to pay additional long distance charges for a BBS out of the local calling area. Thus, many [[User (computing)|users]] of a given BBS usually lived in the same area, and activities such as ''BBS meets'' or ''get togethers'' were common, where users of the board would gather at a local restaurant, the sysop’s home or similar venue and meet face to face.
+
+==History==
+
+===Early examples===
+A precursor to the public bulletin board system was [[Community Memory]], started in August, 1973 in [[Berkeley, California]], using hardwired terminals located in neighborhoods.<ref>{{cite journal|last=Crosby|first=Kip|date=November 1995|title=CONVIVIAL CYBERNETIC DEVICES|journal=The ANALYTICAL ENGINE|publisher=Computer History Association of California|volume=3|issue=1|issn=1071-6351|url=http://www.opencollector.org/history/homebrew/engv3n1.html}}</ref> Community Memory allowed the user to type messages into a terminal after inserting a coin, and offered a "pure" bulletin board experience with public messages only (no email or other features). It did offer the ability to tag messages with keywords, which the user could search on.
+
+The first public [[dial-up]] BBS was developed by [[Ward Christensen]] and [[Randy Suess]]. According to an early interview, with the city snowed under during the [[Great Blizzard of 1978]] in Chicago, the two began preliminary work on the [[Computerized Bulletin Board System]], or [[CBBS]]. CBBS went online on February 16, 1978 in [[Chicago|Chicago, Illinois]].<ref name=ward>[http://www.bbsdocumentary.com/software/AAA/AAA/CBBS/memories.txt Collection of Memories of writing and running the first BBS by Ward Christensen (Circa 1992)], ''BBSDocumentary.com'', retrieved June 30, 2007</ref> CBBS, which kept a count of callers, reportedly connected 253,301 callers before it was finally retired.{{Citation needed|date=November 2010}}
+[[File:Koala Country BBS Login Screen.jpg|400px|thumb|BBS ANSI Login Screen example]]
+
+The first public system in the UK was [[Forum 80]]{{citation needed|date=October 2013}} which was developed on the Forum 80 software imported from the US by Frederick Brown, John Laurence and Neil Barnby, in Kingston upon Hull. This BBS ran throughout the 1980s and eventually joined the [[Fidonet]] network. The three also started AFPAS (The Association of Free Public Access Systems), which provided information to the public on BBS systems and how to connect to them.
+
+===Increasing speeds and practical use===
+A key innovation required for the BBS was the [[Hayes Microcomputer Products#The Smartmodem|Hayes Smartmodem]]. Prior to the Smartmodem, modems were almost entirely manual in operation, having developed from [[acoustic coupler]]s that used a traditional telephone for dialing and hanging up. Such systems were largely useless for BBS systems, because they could not disconnect after the call completed without the user physically hanging up the phone. The Smartmodem included a small [[microcontroller]] that listened for key words in the data, allowing it to pick up the phone, dial numbers, and hang up again, all without any operator intervention. The Smartmodem was not necessary for BBS use, other modems could be left in "answer mode", but the Smartmodem made operation dramatically simpler on the user end by allowing the easy dialing of any number of BBS systems.
+
+With the original 110 and 300 [[baud]] modems of the late 1970s, BBSes were particularly slow and file transfers were typically limited to text files (lists of BBS systems were a common example) and small software applications, typically [[terminal program]]s for accessing BBSes. Speed improved with the introduction of 1200 [[Bits per second|bit/s]] modems in the [[Modem#Increasing speeds|early 1980s]], and this led to a substantial increase in popularity. The demand for complex ANSI and ASCII screens and larger file transfers taxed available [[channel capacity]], which in turn propelled demand for faster modems. 1200 bit/s gave way to 2400 bit/s fairly rapidly, followed by a delay before 9600 bit/s became common. 9600 bit/s was not even established as a strong standard before [[V.32bis]]14.4&nbsp;kbit/s took over. Another delay followed due to a long [[List of ITU-T V-Series Recommendations|V.34]] standards process before 28.8 kbit/s was released, only to be quickly replaced by 33.6 kbit/s.
+
+Most of the [[information]] was displayed using ordinary [[ASCII]] text or [[ANSI art]], though some BBSes experimented with higher resolution visual formats such as the innovative but obscure [[Remote Imaging Protocol]]. Many systems became quite sophisticated in graphic presentation, especially considering that the system was confined to ASCII codes. Several systems attempted to simulate the appearance of GUI displays which were just appearing as DOS add-ons or Apple systems. Probably the ultimate development of graphic presentations was the Dynamic page implementation of the [[University of Southern California]] BBS (USCBBS) by Susan Biddlecomb, which predated the implementation of the [[HTML]] [[Dynamic web page]]. A complete "[[Dynamic web page]]" implementation was accomplished using [[The Bread Board System|TBBS]] with a [[TDBS]] add-on presenting a complete menu system individually customized for each user.
+
+===Widespread use and rapid disappearance===
+Towards the early 1990s, the BBS industry became so popular that it spawned three monthly magazines, ''[[Boardwatch]]'', ''[[BBS Magazine]]'', and in Asia and Australia, ''[[Chips 'n Bits Magazine]]'' which devoted extensive coverage of the software and technology innovations and people behind them, and listings to US and worldwide BBSes.<ref name=ChipsnBits>[http://catalogue.nla.gov.au/Record/54469 Chips 'n' Bits : the Northern Territory Computer Users' newsletter], ''catalogue.nla.gov.au'', retrieved March 15, 2009</ref> In addition, in the USA, a major monthly magazine, ''[[Computer Shopper (US magazine)|Computer Shopper]]'', carried a list of BBSes along with a brief abstract of each of their offerings.
+
+According to the [[FidoNet]] Nodelist, BBSes reached their peak usage around 1996, which was the same period that the [[World Wide Web]] suddenly became mainstream. BBSes rapidly declined in popularity thereafter, and were replaced by systems using the [[Internet]] for connectivity. Some of the larger commercial BBSes, such as MaxMegabyte and [[ExecPC BBS]], evolved into [[Internet Service Providers]].
+
+The website ''[[textfiles.com]]'' serves as an archive that documents the history of the BBS. The [http://bbslist.textfiles.com/ historical BBS list] on ''textfiles.com'' contains over 105,000 BBSes that have existed over a span of 20 years in North America alone. The owner of ''textfiles.com'', [[Jason Scott Sadofsky|Jason Scott]], also produced ''[[BBS: The Documentary]]'', a [[DVD]] film that chronicles the history of the BBS and features interviews with well-known people (mostly from the [[United States]]) from the heyday BBS era.
+
+==Software and hardware==
+Unlike modern websites and [[online services]] that are typically hosted by third-party companies in commercial [[data center]]s, BBS computers (especially for smaller boards) were typically operated from the SysOp's home. As such, access could be unreliable, and in many cases only one user could be on the system at a time. Only larger BBSs with multiple phone lines using specialized hardware, multitasking software, or a [[LAN]] connecting multiple computers, could host multiple simultaneous users.
+
+The first BBSes used homebrew software,<ref group="nb">CBBS Chicago (which [[Ward Christensen]] programmed) was about 20,000 lines of 8080 assembler.</ref> quite often written or customized by the SysOps themselves, running on early [[S-100 bus|S-100]] [[microcomputer]] systems such as the [[Altair 8800|Altair]], [[IMSAI 8080|IMSAI]] and [[Cromemco]] under the [[CP/M]] operating system. Soon after, BBS software was being written for all of the major [[home computer]] systems of the late 1970s era - the [[Apple II]], [[Atari 8-bit family|Atari]], [[Commodore International|Commodore]] and [[TRS-80]] being some of the most popular.
+
+A few years later, in 1981, IBM introduced the first [[DOS]] based [[personal computer|IBM PC]], and due to the overwhelming popularity of PCs and their [[IBM PC Compatible|clones]], DOS soon became the operating system on which the majority of BBS programs were run. [[RBBS-PC]], [[porting|ported]] over from the CP/M world, and ''Fido'' BBS, created by [[Tom Jennings]] (who later founded [[FidoNet]]) were the first notable DOS BBS programs. There were many successful commercial BBS programs developed for DOS, such as [[PCBoard| PCBoard BBS]], [[RemoteAccess|RemoteAccess BBS]], and [[Wildcat! BBS]]. Some popular freeware BBS programs for MS-DOS included [[Telegard|Telegard BBS]] and [[Renegade (BBS)|Renegade BBS]], which both had early origins from leaked [[WWIV|WWIV BBS]] source code. There were several dozen other BBS programs developed over the DOS era, and many were released under the shareware concept, while some were released as freeware including iniquity.
+
+During the mid-1980s, many sysops opted for the less expensive, ubiquitous [[Commodore 64]] (introduced in 1982), which became popular among [[Commodore 64 software#Software Piracy|software pirate groups.]] Popular commercial BBS programs were [[Blue Board]], [[Ivory BBS]], [[Color64]] and [[C-Net DS2|CNet 64]]. In the early 1990s a small number of BBSes were also running on the Commodore [[Amiga]] models [[Amiga 500|500]], [[Amiga 1000|1000]] and [[Amiga 1200|1200]] (using external hard drives), and the [[Amiga 2000]], [[Amiga 3000]] and [[Amiga 4000]] (which had built-in hard drives). Popular BBS software for the Amiga were ABBS, [[Amiexpress]], C-Net, StormforceBBS, [[Infinity (software)|Infinity]] and Tempest. There was also a small faction of devoted Atari BBSes that used the Atari 800, then the 800XL, and eventually the 1040ST.
+
+MS-DOS continued to be the most popular operating system for BBS use up until the mid-1990s, and in the early years most multi-node BBSes were running under a DOS based multitasker such as [[DESQview]] or consisted of multiple computers connected via a [[LAN]]. (Around 1990, OS/2 came out with "preemptive multitasking" of DOS, an alternative to DESQview for multi-node BBS.) In the late 1980s, a handful of BBS developers implemented multitasking communications routines which, although run under MS-DOS, allowed multiple phone lines and multiple users to connect to the same physical BBS computer. These included Galacticomm's [[MajorBBS]] (later WorldGroup), eSoft [[The Bread Board System|TBBS]], and [[Falken]]. Though most BBS software had been written in [[BASIC language|BASIC]] or [[Pascal (programming language)|Pascal]] (with some low-level routines written in [[assembly language]]), the [[C (language)|C]] language was starting to gain popularity.
+
+By 1995, many of the DOS-based BBSes had begun switching to modern [[Computer multitasking|multitasking]] operating systems, such as [[OS/2]], [[Windows 95]], and [[Linux]]. TCP/IP networking allowed most of the remaining BBSes to evolve and include Internet hosting capabilities. Recent BBS software, such as [[Synchronet]], [[Mystic BBS]], EleBBS, [[Dave's own version of Citadel|DOC]] or [[Wildcat! BBS]] provide access using the [[Telnet]] protocol rather than dialup, or by using legacy MS-DOS based BBS software with a [[FOSSIL]]-to-Telnet redirector such as [[NetFoss]].
+
+==Presentation==
+[[File:Neon2.png|thumb|Welcome screen of Neon#2 BBS (Tornado)]]
+BBSes were generally text-based, rather than [[Graphical User Interface|GUI]]-based, and early BBSes conversed using the simple [[ASCII]] character set. However, some home computer manufacturers extended the ASCII character set to take advantage of the advanced color and graphics capabilities of their systems. BBS software authors included these extended character sets in their software, and terminal program authors included the ability to display them when a compatible system was called. Atari's native character set was known as [[ATASCII]], while most Commodore BBSes supported [[PETSCII]]. PETSCII was also supported by the nationwide online service [[Quantum Link]].<ref group="nb">Quantum Link and parts of [[AppleLink]] went on to become [[America Online]].</ref>
+
+The use of these custom character sets was generally incompatible between manufacturers. Unless a caller was using terminal emulation software written for, and running on, the same type of system as the BBS, the session would simply fall back to simple ASCII output. For example, a Commodore 64 user calling an Atari BBS would use ASCII rather than the machine's native character set. As time progressed, most terminal programs began using the [[ANSI X3.64|ANSI]] standard, but could use their native character set if it was available.
+
+COCONET, a BBS system made by Coconut Computing, Inc., was released in 1988 and only supported a GUI (no text interface was initially available but eventually became available around 1990), and worked in EGA/VGA graphics mode, which made it stand out from the text-based BBS systems. COCONET's bitmap and vector graphics and support for multiple type fonts were inspired by the [[PLATO system]], and the graphics capabilities were based on what was available in the Borland BGI graphics library. A number of companies wanted Coconut Computing to freely give away its COCONET communications protocol specification and GUI technology, but the company did not do so. According to the company's founder, Brian Dear, no company ever requested to license the technology, they all wanted Coconut to give it away for free. As a result, a competing approach called [[Remote Imaging Protocol]] (RIP) emerged and was promoted by Telegrafix in the early to mid-1990s but it never became widespread. A similar technology called [[NAPLPS]] was also considered, and although it became the underlying graphics technology behind the [[Prodigy (online service)|Prodigy service]], it never gained popularity in the BBS market.
+
+There were several GUI-based BBSes on the [[Apple Macintosh]] platform, including [[TeleFinder]] and [[FirstClass]], but these remained widely used only in the Mac market. The first BBS using the [[Apple Macintosh]] platform was the [[Austin Arts BBS]], which was a [[dial-up]] system developed by Bill Hood of the School of Screenprinting in 1983. The [[Computerized Bulletin Board System]] supplied news to the arts and [[screen printing]] community not only in [[Austin, Texas]] where it was based, but to the world.<ref name="ReferenceA">L. A. Heberlein, L. A. "The Rough Guide to Internet Radio 1". Rough Guides. 2002-05-16. ISBN 1858289610</ref> The small BBS was the first to market to an industry - [[screen printing]]. It was also the first BBS to produce audio for its visitors, broadcasting news about [[screen printing]] and music in a pre-recorded method in what was the precursor to [[Internet Radio]].<ref name="ReferenceA"/><ref>Michaels, David R. "Listening Benefits of Internet Radio Stations". Yahoo Voices. Retrieved 2007-10-28.</ref>
+
+In the UK, the [[BBC Micro]] based OBBS software, available from [[Pace Micro Technology|Pace]] for use with their modems, optionally allowed for colour and graphics using the [[Teletext]] based graphics mode available on that platform. Other systems used the [[Viewdata]] protocols made popular in the UK by [[British Telecom|British Telecom's]] [[Prestel]] service, and the on-line magazine [[Micronet800|Micronet 800]] whom were busy giving away modems with their subscriptions.
+
+The most popular form of online graphics was [[ANSI art]], which combined the [[Extended ASCII|IBM Extended ASCII]] character set's blocks and symbols with [[ANSI X3.64|ANSI]] [[escape sequence]]s to allow changing colors on demand, provide cursor control and screen formatting, and even basic musical tones. During the late 1980s and early 1990s, most BBSes used ANSI to make elaborate welcome screens, and colorized menus, and thus, ANSI support was a sought-after feature in terminal client programs. The development of ANSI art became so popular that it spawned an entire BBS "[[artscene]]" [[subculture]] devoted to it.
+
+The [[Amiga]] ''Skyline BBS'' software was the first in 1987 featuring a script [[markup language]] communication protocol called [[Skypix]] which was capable of giving the user a complete graphical interface, featuring rich graphic content, changeable fonts, mouse-controlled actions, animations and sound.<ref name=Skyline>{{cite web | title = BBSDocumentary, An Overview of BBS Programs | url = http://www.bbsdocumentary.com/software/expanded.html | publisher = [[Jason Scott Sadofsky|Jason Scott]] for [[Wired (magazine)|Wired]] Magazine (?) | author = Scott Lee | accessdate = 2005}}</ref>
+
+Today, most BBS software that is still actively supported, such as Worldgroup, [[Wildcat! BBS]] and [[Citadel/UX]], is Web-enabled, and the traditional text interface has been replaced (or operates concurrently) with a Web-based user interface. For those more nostalgic for the true BBS experience, one can use NetSerial (Windows) or [[DOSBox]] (Windows/*nix) to redirect DOS COM port software to telnet, allowing them to connect to Telnet BBSes using 1980s and 1990s era modem [[terminal emulator|terminal emulation]] software, like [[Telix]], [[Terminate (software)|Terminate]], [[Qmodem]] and [[Procomm Plus]]. Modern 32-bit terminal emulators such as mTelnet and [[Synchronet#SyncTerm|SyncTerm]] include native telnet support.
+
+==Content and access==
+Since early BBSes were frequently run by computer hobbyists, they were typically technical in nature with user communities revolving around hardware and software discussions.
+
+As the BBS phenomenon grew, so did the popularity of special interest boards. Bulletin Board Systems could be found for almost every hobby and interest. Popular interests included politics, religion, music, [[matchmaker.com|dating]], and [[alternative lifestyle]]s. Many SysOps also adopted a [[Theme (computing)|theme]] in which they customized their entire BBS (welcome screens, prompts, menus, and so on) to reflect that theme. Common themes were based on [[fantasy]], or were intended to give the user the illusion of being somewhere else, such as in a [[sanatorium]], wizard's castle, or on a [[pirate ship]].
+
+In the early days, the file download library consisted of files that the SysOps obtained themselves from other BBSes and friends. Many BBSes inspected every file uploaded to their public file download library to ensure that the material did not violate copyright law. As time went on, [[shareware]] CD-ROMs were sold with up to thousands of files on each [[CD-ROM]]. Small BBSes copied each file individually to their hard drive. Some systems used a CD-ROM drive to make the files available. Advanced BBSes used Multiple CD-ROM disc changer units that switched 6 CD-ROM disks on demand for the caller(s). Large systems used all 26 DOS drive letters with multi-disk changers housing tens of thousands of copyright-free shareware or freeware files available to all callers. These BBSes were generally more family friendly, avoiding the seedier side of BBSes. Access to these systems varied from single to multiple modem lines with some requiring little or no confirmed registration.
+
+Some BBSes, called elite, WaReZ or pirate boards, were exclusively used for distributing [[pirated software]], [[phreaking]], and other questionable or unlawful content. These BBSes often had multiple modems and phone lines, allowing several users to upload and download files at once. Most elite BBSes used some form of new user verification, where new users would have to apply for membership and attempt to prove that they were not a law enforcement officer or a ''[[lamer]].'' The largest elite boards accepted users by invitation only. Elite boards also spawned their own subculture and gave rise to the [[slang]] known today as [[leet]]speak.
+
+Another common type of board was the "support BBS" run by a manufacturer of computer products or software. These boards were dedicated to supporting users of the company's products with question and answer forums, news and updates, and downloads. Most of them were not a free call. Today, these services have moved to the web.
+
+Some general purpose Bulletin Board Systems had special levels of access that were given to those who paid extra money, uploaded useful files or knew the SysOp personally. These specialty and pay BBSes usually had something special to offer their users such as large file libraries, [[warez]], [[pornography]], [[chat rooms]] or [[Internet]] access.
+
+Pay BBSes such as The [[WELL (virtual community)|WELL]] and Echo NYC (now Internet forums rather than dial-up), [[ExecPC BBS|ExecPC]], PsudNetwork and [[MindVox]] (which folded in 1996) were admired for their tight-knit communities and quality discussion forums. However, many "free" BBSes also maintained close knit communities, and some even had annual or bi-annual events where users would travel great distances to meet face-to-face with their on-line friends. These events were especially popular with BBSes that offered [[chat rooms]].
+
+Some of the BBSes that provided access to illegal content did wind up in trouble. On July 12, 1985, in conjunction with a [[credit card fraud]] investigation, the [[Middlesex County, New Jersey|Middlesex County, NJ]] Sheriff's department raided and seized The Private Sector BBS, which was the official BBS for [[grey hat]] hacker quarterly [[2600 Magazine]] at the time.<ref name=Psector>[http://thegreatgeekmanual.com/blog/this-day-in-geek-history-july-12 This Day in Geek History: July12], ''thegreatgeekmanual.com'', retrieved March 26, 2009</ref> The notorious [[Rusty n Edie's BBS]], in [[Boardman, Ohio|Boardman]], [[Ohio]], was raided by the FBI in January 1993 for software piracy, and later sued by [[Playboy]] for copyright infringement in November 1997. In [[Flint, Michigan|Flint]], [[Michigan]], a 21 year old man was charged with distributing [[child pornography]] through his BBS in March 1996.<ref name="flintj">{{cite news|title=Man Says Kiddie Porno Made Computer Site Popular|publisher=[[The Flint Journal]]|date=1996-03-20|author=Doran, Tim}}</ref>
+
+==Networks==
+Most early BBSes operated as individual systems. Information contained on that BBS never left the system, and users would only interact with the information and user community on that BBS alone. However, as BBSes became more widespread, there evolved a desire to connect systems together to share messages and files with distant systems and users. The largest such network was [[FidoNet]].
+
+As is it was prohibitively expensive for the hobbyist SysOp to have a dedicated connection to another system, FidoNet was developed as a [[store and forward]] network. Private email (Netmail), public message boards (Echomail) and eventually even file attachments on a FidoNet-capable BBS would be bundled into one or more archive files over a set time interval. These archive files were then compressed with [[ARC (file format)|ARC]] or [[ZIP (file format)|ZIP]] and forwarded to (or polled by) another nearby node or hub via a dialup [[Xmodem]] session. Messages would be relayed around various FidoNet hubs until they were eventually delivered to their destination. The hierarchy of FidoNet BBS nodes, hubs, and zones was maintained in a routing table called a Nodelist. Some larger BBSes or regional FidoNet hubs would make several transfers per day, some even to multiple nodes or hubs, and as such, transfers usually occurred at night or early morning when toll rates were lowest. In Fido's heyday, sending a Netmail message to a user on a distant FidoNet node, or participating in an Echomail discussion could take days, especially if any FidoNet nodes or hubs in the message's route only made one transfer call per day.
+
+FidoNet was platform-independent and would work with any BBS that was written to use it. BBSes that did not have integrated FidoNet capability could usually add it using an external FidoNet [[front-end]] mailer such as FrontDoor, BinkleyTerm, InterMail or D'Bridge, and a mail processor such as [[FastEcho]] or [[Squish (FidoNet)|Squish]]. The front-end mailer would conduct the periodic FidoNet transfers, while the mail processor would usually run just before and just after the mailer ran. This program would scan for and pack up new outgoing messages, and then unpack, sort and "toss" the incoming messages into a BBS user's local email box or into the BBS's local message bases reserved for Echomail. As such, these mail processors were commonly called "scanner/tosser/packers."
+
+Many other BBS networks followed the example of FidoNet, using the same standards and the same software. These were called FidoNet Technology Networks (FTNs). They were usually smaller and targeted at selected audiences. Some networks used [[QWK (file format)|QWK]] doors, and others such as [[RelayNet]] (RIME) and [[WWIVnet]] used non-Fido software and standards.
+
+Before commercial Internet access became common, these [[computer network|networks]] of BBSes provided regional and international [[e-mail]] and message bases. Some even provided [[Gateway (computer networking)|gateways]], such as UFGATE, by which members could send/receive e-mail to/from the [[Internet]] via [[UUCP]], and many FidoNet discussion groups were shared via [[Usenet]]. Elaborate schemes allowed users to download binary files, search [[Gopher (protocol)|gopherspace]], and interact with distant [[Computer program|programs]], all using plain text e-mail.
+
+As the volume of FidoNet Mail increased and newsgroups from the early days of the Internet became available, satellite data downstream services became viable for larger systems. The satellite service provided access to FidoNet and Usenet newsgroups in large volumes at a reasonable fee. By connecting a small dish & receiver, a constant downstream of thousands of FidoNet and Usenet newsgroups could be received. The local BBS only needed to upload new outgoing messages via the modem network back to the satellite service. This method drastically reduced phone data transfers while dramatically increasing the number of message forums.
+
+FidoNet is still in use today, though in a much smaller form, and many Echomail groups are still shared with Usenet via FidoNet to Usenet gateways. Widespread abuse of Usenet with [[spam (electronic)|spam]] and [[pornography]] has led to many of these FidoNet gateways to cease operation completely.
+
+==Shareware and freeware==
+{{Main|shareware}}
+Much of the [[shareware]] movement was started via user distribution of software through BBSes. A notable example was [[Phil Katz]]'s PKARC (and later [[PKZIP]], using the same ".zip" [[algorithm]] that [[WinZip]] and other popular archivers now use); also other concepts of software distribution like [[freeware]], [[postcardware]] like [[JPEGview]] and [[donationware]] like [[Red Ryder (software)|Red Ryder]] for the Macintosh first appeared on BBS sites. [[Doom (video game)|Doom]] from [[id Software]] and nearly all [[3D Realms|Apogee Software]] games were distributed as shareware (Apogee is, in fact, credited for adding an order form to a shareware demo) {{citation needed|date=December 2012}}. The Internet has largely erased the distinction of shareware - most users now download the software directly from the developer's website rather than receiving it from another BBS user 'sharing' it. Today shareware is commonly used to mean electronically distributed software from a small developer.
+
+Many commercial BBS software companies that continue to support their old BBS software products switched to the shareware model or made it entirely free. Some companies were able to make the move to the Internet and provide commercial products with BBS capabilities.
+
+==Features==
+A classic BBS had:
+* A [[computer]]
+* One or more [[modem]]s
+* One or more phone lines, with more allowing for increased concurrent users
+* A [[List of BBS software|BBS software package]]
+* A [[sysop]] - system operator
+* A user community
+
+The BBS software usually provides:
+* Menu Systems
+* One or more [[Message board|message base]]s
+* File areas
+* SysOp side, live viewing of all caller activity
+* Voting - opinion booths
+* Statistics on message posters, top uploaders / downloaders
+* [[Online game]]s (usually single [[Player (game)|player]] or only a single active player at a given time)
+* A [[BBS door|doorway]] to third-party online games
+* Usage auditing capabilities
+* Multi-user chat (only possible on multi-line BBSes)
+* Internet email (more common in later Internet-connected BBSes)
+* Networked message boards
+* Most modern BBSes allow [[telnet]] access over the Internet using a telnet server and a virtual [[FOSSIL]] driver.
+* A "yell for SysOp" page (The original chat, before multi-line systems) caller side menu item that sounded an audible alarm to the SysOp. If chosen, the SysOp could then initiate a text-to-text chat with the caller; similar to what commercial websites have used to sell and support products.
+* Primitive social networking features, such as leaving messages on a users profile
+
+==See also==
+{{multicol}}
+* [[ANSI art]]
+* ''[[BBS: The Documentary]]''
+* [[Internet forum]]
+* [[KOM (BBS)]]
+* [[List of BBS software]]
+* [[List of bulletin board systems]]
+{{col-break}}
+{{Portal|internet}}
+* [[Minitel]]
+* [[PODSnet]]
+* [[Terminal emulator]]
+* [[UGC]]
+* [[Usenet]]
+* [[Warez]]
+{{col-end}}
+
+==Footnotes==
+{{Reflist|group="nb"}}
+
+==References==
+{{Reflist}}
+
+===Sources===
+{{Refbegin}}
+* {{cite book | title = Encyclopedia of New Media: An Essential Reference to Communication and Technology | isbn = 0-7619-2382-9 }}
+* {{cite book | title = The Columbia Reader on Lesbians and Gay Men in Media, Society, and Politics | isbn = 0-231-10446-4 }}
+* {{cite book | title = Modems for Dummies | isbn = 1-56884-001-2 }}
+* {{cite book | title = Going On-Line with Your Micro | publisher = Tab Books | year = 1984 | first = Lou | last = Haas | isbn = 0-8306-0746-3 }}
+* {{cite book | title = Compute | publisher = Compute! Publications | date = October 1989 - Sep 1994 | author = University of Michigan }}
+* {{cite book | title = The Computer Phone Book | first = Mike | last = Cane | year = 1986 | publisher = New American Library }}
+* {{cite book | title = Christians in a .Com World: Getting Connected Without Being Consumed | isbn = 1-58134-218-7 }}
+* {{cite book | title = Beam Me Up Scottie | first = Patrick | last = Pippen | isbn = 1-4116-0987-5 }}
+{{Refend}}
+
+==External links==
+{{Commons category|Bulletin board systems}}
+*[http://thebbs.org/ The BBS organization (longest running bbs services site)]
+*[http://archives.thebbs.org/ The BBS Archives]
+*[http://www.bbsdocumentary.com/ The BBS Documentary] - [http://www.archive.org/details/bbs_documentary/ (Video Collection)]
+*[http://www.bbscorner.com/ The BBS Corner]
+*[http://bbses.info/ BBSes.info BBS services EST. 2006]
+*[http://bbs-scene.org/ BBS-Scene.org] - BBS related services
+*[http://www.telnetbbsguide.com/ The Telnet BBS Guide]
+*[http://www.bbsfinder.net/ BBSfinder real time BBS lister]
+*[http://bbsmates.com/ BBSmates community and resource site]
+*[http://bbsnews.org/ BBS News site established 1996 (domain est 2004)]
+*{{dmoz|Computers/Bulletin_Board_Systems/|Bulletin Board Systems}}
+*[http://textfiles.com/ Textfiles.com] - Collection of historical BBS documents, files and history
+*[http://www.sosge.com/ sosge.com] - Collection of historical IT news documents, files and history
+
+{{DEFAULTSORT:Bulletin Board System}}
+[[Category:American inventions]]
+[[Category:Bulletin board systems| ]]
+[[Category:Online chat]]
+[[Category:Pre–World Wide Web online services]]
+[[Category:Obsolete technologies]]

@@ -1,0 +1,51 @@
+{{two other uses||text reconstruction|Conjecture (textual criticism)|the annual science fiction convention held in San Diego|Conjecture (convention)}}
+{{More footnotes|date=August 2010}}
+A '''conjecture''' is a [[Proposition (philosophy)|proposition]] that is [[Formal proof|unproven]]. [[Karl Popper]] pioneered the use of the term "conjecture" in [[scientific philosophy]].<ref>{{cite book|last=Popper|first=Karl|title=Conjectures and refutations : the growth of scientific knowledge|year=2004|publisher=Routledge|location=London|isbn=0-415-28594-1}}</ref> Conjecture is contrasted by [[hypothesis]] (hence ''[[theory]], [[axiom]], [[principle]]''), which is a testable statement based on accepted grounds. In [[mathematics]], a conjecture is an unproven [[proposition]] that appears correct.<ref>Schwartz JL (1995). ''Shuttling between the particular and the general: reflections on the role of conjecture and hypothesis in the generation of knowledge in science and mathematics.'' [http://books.google.com/books?id=JyKelnvECc4C&pg=PA93&lpg=PA93&dq=%22although+counterpoint+between+the+particular+and+the+general%22&source=bl&ots=hIvE9Onw06&sig=U3DTIi0tkie-oZdllilyAT4y1DE&hl=en&sa=X&ei=rAEwUJeZLazqigK3_IHABQ&ved=0CDUQ6AEwAA#v=onepage&q=%22although%20counterpoint%20between%20the%20particular%20and%20the%20general%22&f=false Link] pg 93.
+</ref>
+
+==Famous conjectures==
+* The [[P versus NP problem]]
+* [[Beal's conjecture]]
+* The [[Poincaré theorem]]  (proven by [[Grigori Perelman]])
+* [[Goldbach's conjecture]]
+* The [[Riemann hypothesis]]
+* The [[Collatz conjecture]]
+* The [[Maldacena conjecture]]
+* [[Fermat's Last Theorem]] ([[Wiles'_proof_of_Fermat's_Last_Theorem|proven]] by [[Andrew Wiles]])
+The [[Langlands program]]<ref>{{citation|last=Langlands|first=Robert|title=Letter to Prof. Weil|year=1967|url=http://publications.ias.edu/rpl/section/21}}</ref> is a far-reaching web of these ideas  of '[[unifying conjecture]]s' that link different subfields of mathematics, e.g. [[number theory]] and [[representation theory]] of [[Lie group]]s; some of these conjectures have since been proved.
+
+==Counter examples==
+
+Formal mathematics is based on ''provable'' truth. In mathematics, any number of cases supporting a conjecture, no matter how large, is insufficient for establishing the conjecture's veracity, since a single [[counterexample]] would immediately bring down the conjecture. Conjectures disproven through counterexample are sometimes referred to as ''false conjectures'' (cf. [[Pólya conjecture]]).
+
+Mathematical journals sometimes publish the minor results of research teams having extended a given search farther than previously done.  For instance, the [[Collatz conjecture]], which concerns whether or not certain [[sequence]]s of [[integer]]s terminate, has been tested for all integers up to 1.2 &times; 10<sup>12</sup> (over a trillion).  In practice, however, it is extremely rare for this type of work to yield a counterexample and such efforts are generally regarded<ref>For example, see the 1997 [[Four color_theorem#Proof_by_computer]], which was initially doubted, as proof by brute force, but which was eventually proven in 2005 by theorem-proving software.</ref> as mere displays of [[computational science|computing power]], rather than meaningful contributions to formal mathematics.
+
+==Use of conjectures in conditional proofs==
+
+Sometimes a conjecture is called a ''hypothesis'' when it is used frequently and repeatedly as an assumption in proofs of other results. For example, the [[Riemann hypothesis]] is a conjecture from [[number theory]] that (amongst other things) makes predictions about the distribution of [[prime number]]s. Few number theorists doubt that the Riemann hypothesis is true (it is said that [[Atle Selberg]] was once a sceptic, and [[J. E. Littlewood]] always was){{citation needed|date=November 2012}}. In anticipation of its eventual proof, some have proceeded to develop further proofs which are contingent on the truth of this conjecture. These are called ''[[conditional proof]]s'': the conjectures assumed appear in the hypotheses of the theorem, for the time being.
+
+These "proofs", however, would fall apart if it turned out that the hypothesis was false, so there is considerable interest in verifying the truth or falsity of conjectures of this type.
+
+==Undecidable conjectures==
+
+Not every conjecture ends up being proven true or false.<ref>[[Imre Lakatos]]' posthumous 1976 book, ''[[Proofs and Refutations]]'' shows that the philosophical position is an important factor for the mathematician producing an attempted proof.</ref> The [[continuum hypothesis]], which tries to ascertain the relative [[cardinal number|cardinality]] of certain [[infinite set]]s, was eventually shown to be [[Independence (mathematical logic)|undecidable]] (or independent) from the generally accepted set of [[Zermelo–Fraenkel axioms|axioms of set theory]]. It is therefore possible to adopt this statement, or its negation, as a new [[axiom]] in a consistent manner (much as we can take [[Euclid]]'s [[parallel postulate]] as either true or false).
+
+In this case, if a proof uses this statement, researchers will often look for a new proof that ''doesn't'' require the hypothesis (in the same way that it is desirable that statements in [[Euclidean geometry]] be proved using only the axioms of neutral geometry, i.e. no parallel postulate.) The one major exception to this in practice is the [[axiom of choice]]—unless studying this axiom in particular, the majority of researchers do not usually worry whether a result requires the axiom of choice.
+
+==See also==
+*[[Hypothesis]]
+*[[Hypotheticals]]
+*[[List of conjectures]]
+
+==References==
+
+{{reflist}}
+
+==External links==
+{{Wiktionary|conjecture}}
+*[http://garden.irmacs.sfu.ca/ Open Problem Garden]
+*[http://unsolvedproblems.org/ Unsolved Problems web site]
+
+[[Category:Conjectures| ]]
+[[Category:Statements]]
+[[Category:Philosophical concepts]]

@@ -1,0 +1,171 @@
+[[File:LG L194WT-SF LCD monitor.jpg|thumb|upright=1.3|A {{convert|19|in|cm|adj=on}}, 16:10 widescreen [[LCD monitor]]]]
+A '''monitor''' or a '''display''' is an [[electronic visual display]] for [[computer]]s. The monitor comprises the display device, [[electronic circuit|circuitry]] and an enclosure. The display device in modern monitors is typically a [[thin film transistor liquid crystal display]] (TFT-LCD) thin panel, while older monitors used a [[cathode ray tube]] (CRT) about as deep as the screen size.
+
+Originally, computer monitors were used for [[data processing]] while [[television receiver]]s were used for entertainment. From the 1980s onwards, computers (and their monitors) have been used for both data processing and entertainment, while televisions have implemented some computer functionality. The common [[aspect ratio]] of televisions, and then computer monitors, has also changed from 4:3 to 16:9 (and 16:10).
+
+{{TOC limit|2}}
+
+==History==
+Early electronic computers were fitted with a panel of light bulbs where the state of each particular bulb would indicate the on/off state of a particular register [[bit]] inside the computer. This allowed the engineers operating the computer to monitor the internal state of the machine, so this panel of lights came to be known as the 'monitor'.  As early monitors were only capable of displaying a very limited amount of information, and were very transient, they were rarely considered for programme output. Instead, a line printer was the primary output device, while the monitor was limited to keeping track of the programme's operation.
+
+In time this array of light bulbs was replaced by a [[cathode ray tube]] which could display the equivalent of several dozen light bulbs with greater reliability.
+
+As technology developed it was realised that the output of a CRT display was more flexible than a panel of light bulbs and eventually, by giving control of what was displayed to the programme itself, the monitor itself became a powerful output device in its own right.
+
+==Technologies==
+{{Further|Comparison of CRT, LCD, Plasma, and OLED|History of display technology}}
+Multiple technologies have been used for computer monitors. Until the 21st century most used cathode ray tubes but they have largely been superseded by [[LCD monitors]].
+
+===Cathode ray tube===
+The first computer monitors used [[cathode ray tube]]s (CRT). Until the early 1980s, they were known as video display terminals and were physically attached to the computer and keyboard. The monitors were [[monochrome]], flickered and the image quality was poor.{{citation needed|date=October 2011}} In 1981, IBM introduced the [[Color Graphics Adapter]], which could display four colors with a resolution of 320 by 200 pixels, or it could produce 640 by 200 pixels with two colors. In 1984 IBM introduced the [[Enhanced Graphics Adapter]] which was capable of producing 16 colors and had a resolution of 640 by 350.<ref>{{cite web |url=http://www.infodingo.com/electronics/computer-monitors/types-of-computer-monitors/crt/ |title=Cathode Ray Tube (CRT) Monitors |publisher=Infodingo.com |date= |accessdate=2011-05-20}}</ref>
+
+CRT technology remained dominant in the PC monitor market into the new millennium partly because it was cheaper to produce and offered viewing angles close to 180 degrees.<ref name="pctech1">{{cite web |url=http://www.pctechguide.com/crt-monitors |title=CRT Monitors |publisher=PCTechGuide.Com |date= |accessdate=2011-05-20}}</ref>
+
+===Liquid crystal display{{anchor|Liquid Crystal}}===
+{{Main|Liquid crystal display|TFT LCD}}
+There are multiple technologies that have been used to implement liquid crystal displays (LCD). Throughout the 1990s, the primary use of LCD technology as computer monitors was in laptops where the lower power consumption, lighter weight, and smaller physical size of LCDs justified the higher price versus a CRT. Commonly, the same laptop would be offered with an assortment of display options at increasing price points: (active or passive) monochrome, passive color, or active matrix color (TFT). As volume and manufacturing capability have improved, the monochrome and passive color technologies were dropped from most product lines.
+
+[[TFT-LCD]] is a variant of LCD which is now the dominant technology used for computer monitors.<ref>{{cite web |url=http://www.tftcentral.co.uk/articles/content/panel_technologies_content.htm |title=TFT Central |publisher=TFT Central |date=2011-04-30 |accessdate=2011-05-20}}</ref>
+
+The first standalone LCD displays appeared in the mid-1990s selling for high prices. As prices declined over a period of years they became more popular, and by 1997 were competing with CRT monitors. Among the first desktop LCD computer monitors was the Eizo L66 in the mid-1990s, the Apple Studio Display in 1998, and the Apple Cinema Display in 1999. In 2003, TFT-LCDs outsold CRTs for the first time, becoming the primary technology used for computer monitors.<ref name="pctech1"/> The main advantages of LCDs over CRT displays are that LCDs consume less power, take up much less space, and are considerably lighter. The now common active matrix TFT-LCD technology also has less flickering than CRTs, which reduces eye strain.<ref>{{cite web |url=http://www.infodingo.com/electronics/computer-monitors/types-of-computer-monitors/lcd/why-choose-an-lcd.aspx |title=Is the LCD monitor right for you? |publisher=Infodingo.com |date= |accessdate=2011-05-20}}</ref> On the other hand, CRT monitors have superior contrast, have superior response time, are able to use multiple screen resolutions natively, and there is no discernible flicker if the refresh rate is set to a sufficiently high value. LCD monitors have now very high temporal accuracy and can be used for vision research.<ref>Wang, P. and D. Nikolić (2011) An LCD monitor with sufficiently precise timing for research in vision. ''Frontiers in Human Neuroscience'', 5:85. http://www.frontiersin.org/human_neuroscience/10.3389/fnhum.2011.00085/abstract</ref>
+
+===Organic light-emitting diode===
+[[Organic light-emitting diode]] (OLED) monitors provide higher contrast and better viewing angles than LCDs but they require more power when displaying documents with white or bright backgrounds. In 2011, a {{convert|25|in|cm|adj=on}} OLED monitor cost $7500, but the prices are expected to drop.<ref>{{cite web |author=Agoraquest, LLC – The only place for the Sony Enthusiast |url=http://www.agoraquest.com/article.php?sid=615 |title=Sony's Outs Two New OLED Monitors |publisher=Agoraquest |date= |accessdate=2011-05-20}}</ref>
+
+==Measurements of performance==
+The performance of a monitor is measured by the following parameters:
+*[[Luminance]] is measured in candelas per square meter (cd/m<sup>2</sup> also called a Nit).
+*[[Aspect ratio (image)|Aspect ratio]] is the ratio of the horizontal length to the vertical length. Monitors usually have the aspect ratio [[4:3]], [[5:4]], [[16:10]] or [[16:9]].
+*[[Viewable image size]] is usually measured diagonally, but the actual widths and heights are more informative since they are not affected by the aspect ratio in the same way. For CRTs, the viewable size is typically {{convert|1|in|mm|abbr=on}} smaller than the tube itself.
+*[[Display resolution]] is the number of distinct pixels in each dimension that can be displayed. Maximum resolution is limited by dot pitch.
+*[[Dot pitch]] is the distance between subpixels of the same color in millimeters. In general, the smaller the dot pitch, the sharper the picture will appear.
+*[[Refresh rate]] is the number of times in a second that a display is illuminated. Maximum refresh rate is limited by response time.
+*[[Response time (technology)|Response time]] is the time a pixel in a monitor takes to go from active (white) to inactive (black) and back to active (white) again, measured in milliseconds. Lower numbers mean faster transitions and therefore fewer visible image artifacts.
+*[[Contrast ratio]] is the ratio of the luminosity of the brightest color (white) to that of the darkest color (black) that the monitor is capable of producing.
+*[[Power consumption]] is measured in watts.
+*[[Color difference|Delta-E]]: Color accuracy is measured in delta-E; the lower the delta-E, the more accurate the color representation. A delta-E of below 1 is imperceptible to the human eye. Delta-Es of 2 to 4 are considered good and require a sensitive eye to spot the difference.
+*[[Viewing angle]] is the maximum angle at which images on the monitor can be viewed, without excessive degradation to the image. It is measured in degrees horizontally and vertically.
+
+===Size===
+{{Main|Display size}}
+[[File:Diameter-rectangle.svg|thumb|left|upright=0.45|For any rectangular section on a round tube, the diagonal measurement is also the diameter of the tube.]]
+[[File:Screens png.png|thumb|right|upright=1.2|The area, height and width of displays with identical diagonal measurements vary dependent on [[aspect ratio]].]]
+On [[two-dimensional display device]]s such as computer monitors the display size or viewable image size is the actual amount of screen space that is available to display a [[picture]], [[video]] or working space, without obstruction from the case or other aspects of the unit's [[design]]. The main measurements for display devices are: width, height, total area and the diagonal.
+
+The size of a display is usually by monitor manufacturers given by the diagonal, i.e. the distance between two opposite screen corners. This method of measurement is inherited from the method used for the first generation of CRT television, when picture tubes with circular faces were in common use. Being circular, only their diameter was needed to describe their size. Since these circular tubes were used to display rectangular images, the diagonal measurement of the rectangle was equivalent to the diameter of the tube's face. This method continued even when cathode ray tubes were manufactured as rounded rectangles; it had the advantage of being a single number specifying the size, and was not confusing when the aspect ratio was universally 4:3.
+
+The estimation of the monitor size by the distance between opposite corners does not take into account the display [[Aspect ratio (image)|aspect ratio]], so that for example a 16:9 {{convert|21|in|cm|adj=on}} [[widescreen]] display has less [[area]], than a {{convert|21|in|cm|adj=on}} 4:3 screen. The 4:3 screen has dimensions of {{convert|16.8|×|12.6|in|cm|abbr=on}} and area {{convert|211|sqin|cm2|abbr=on}}, while the widescreen is {{convert|18.3|×|10.3|in|cm|abbr=on}}, {{convert|188|sqin|cm2|abbr=on}}.
+
+===Aspect ratio===
+{{Main|Display aspect ratio}}
+Until about 2003, most computer monitors had a [[4:3]] [[aspect ratio (image)|aspect ratio]] and some had [[5:4]]. Between 2003 and 2006, monitors with [[16:9]] and mostly [[16:10]] (8:5) aspect ratios became commonly available, first in [[laptop]]s and later also in standalone monitors. Reasons for this transition was productive uses for such monitors, i.e. besides [[Field of view in video games|widescreen computer game play]] and movie viewing, are the word processor display of two standard letter pages side by side, as well as CAD displays of large-size drawings and CAD application menus at the same time.<ref>NEMATech Computer Display Standards http://www.millertech.com/Technical_Specs.htm</ref><ref>{{cite web |archiveurl=http://web.archive.org/web/20070315085244/http://www.necdisplay.com/support/css/monitortechguide/index05.htm |archivedate=2007-03-15 |url=http://www.necdisplay.com/support/css/monitortechguide/index05.htm |title=Introduction—Monitor Technology Guide |publisher=necdisplay.com}} (currently offline)</ref> In 2008 16:10 became the most common sold aspect ratio for [[LCD monitor]]s and the same year 16:10 was the mainstream standard for [[laptop]]s and [[notebook]]s.<ref name="displaysearch1">{{cite web |url=http://www.displaysearch.com/cps/rde/xchg/SID-0A424DE8-28DF6E59/displaysearch/hs.xsl/070108_16by9_PR.asp |title=Product Planners and Marketers Must Act Before 16:9 Panels Replace Mainstream 16:10 and Monitor LCD Panels, New DisplaySearch Topical Report Advises |publisher=DisplaySearch |date=2008-07-01 |accessdate=2011-05-20}}</ref>
+
+In 2010 the computer industry started to move over from [[16:10]] to [[16:9]] because 16:9 was chosen by the cinema industry and it's cheaper to manufacture 16:9 displays, so monitors with resolutions like 1920x1200 became extinct.<ref name="mybroadband1"/>
+
+In 2011 non-widescreen displays with 4:3 aspect ratios were only being manufactured in small quantities. According to Samsung this was because the "Demand for the old 'Square monitors' has decreased rapidly over the last couple of years," and "I predict that by the end of 2011, production on all 4:3 or similar panels will be halted due to a lack of demand."<ref name="mybroadband1">[http://mybroadband.co.za/news/hardware/17621-Widescreen-monitors-Where-did-1920x1200.html Widescreen monitors: Where did 1920×1200 go?] Mybroadband.co.za (2011-01-10). Retrieved on 2011-12-24.</ref>
+
+===Resolution===
+{{Main|Display resolution}}
+The resolution for computer monitors has increased over time. From 320×200 during the early 1980s, to 800×600 during the late 1990s. Since 2009, the most commonly sold resolution for computer monitors is 1920×1080.<ref>[http://skinflint.co.uk/eu/?cat=monlcd19wide&sort=n&bpmax=&asuch=&v=e&plz=&dist=&filter=+update+list+&xf= Monitors/TFT 16:9/16:10 | Skinflint Price Comparison EU]. Skinflint.co.uk. Retrieved on 2011-12-24.</ref> Top-end consumer products are limited to 2560×1600 at {{convert|30|in|cm|abbr=on}}.<ref>[http://www.extremetech.com/computing/130605-where-are-all-the-high-resolution-desktop-displays Where are all the high-resolution desktop displays? extremetech.com June 8, 2012]</ref> Apple introduced 2880×1800 with Retina MacBook Pro at {{convert|15|in|cm|abbr=on}} on June 12, 2012.
+
+==Additional features==
+
+===Power saving===
+Most modern monitors will switch to a power-saving mode if no video-input signal is received. This allows modern operating systems to turn off a monitor after a specified period of inactivity. This also extends the monitor's service life.
+
+Some monitors will also switch themselves off after a time period on standby.
+
+Most modern laptops provide a method of screen dimming after periods of inactivity or when the battery is in use. This extends battery life and reduces wear.
+
+===Integrated accessories===
+Many monitors have other accessories (or connections for them) integrated. This places [[Computer port (hardware)|standard ports]] within easy reach and eliminates the need for another separate [[USB hub|hub]], [[Webcam|camera]], [[microphone]], or set of [[Computer speaker|speakers]]. These monitors have advanced microprocessors which contain codec information, Windows Interface drivers and other small software which help in proper functioning of these functions.
+
+===Glossy screen===
+{{Main|Glossy display}}
+Some displays, especially newer LCD monitors, replace the traditional anti-glare matte finish with a glossy one. This increases [[color saturation]] and sharpness but reflections from lights and windows are very visible. Anti-reflective coatings are sometimes applied to help reduce reflections, although this only mitigates the effect.
+
+===Curved designs===
+In about 2009, NEC/Alienware together with Ostendo were offering a curved (concave) {{convert|43|in|cm|adj=on}} monitor that allows better viewing angles near the edges, covering 75% of peripheral vision. This monitor had 2880x900 resolution, LED backlight and was marketed as suitable both for gaming and office work, while for $6499 it was rather expensive.<ref>[http://www.desktopreview.com/default.asp?newsID=868 R. Nelson (2009)]. NEC/Alienware Curved Display Now Available</ref> As of 2013, the monitor seems no longer available.
+
+===Directional screen===
+Narrow viewing angle screens are used in some security conscious applications.
+
+===3D===
+{{main|Stereo display}}
+Newer monitors are able to [[Stereoscopy|display a different image for each eye]], often with the help of special glasses, giving the perception of depth.
+;Active shutter
+{{main|Active shutter 3D system}}
+
+;Polarized
+{{main|Polarized 3D system}}
+
+;Autostereoscopic
+{{Main|Autostereoscopy}}
+
+A directional screen which generates 3D images without headgear.
+
+===Touch screen===
+{{Main|Touchscreen}}
+These monitors use touching of the screen as an input method. Items can be selected or moved with a finger, and finger gestures may be used to convey commands. The screen will need frequent cleaning due to image degradation from fingerprints.
+
+===Tablet screens===
+{{Main|Graphics tablet/screen hybrid}}
+A combination of a monitor with a [[graphics tablet]]. Such devices are typically unresponsive to touch without the use of one or more special tools' pressure. Newer models however are now able to detect touch from any pressure and often have the ability to detect tilt and rotation as well.
+
+Touch and tablet screens are used on LCD displays as a substitute for the light pen, which can only work on CRTs.
+
+==Manufacturers==
+{{Multicol}}
+*{{flagicon|Taiwan}} [[Acer Inc.|Acer]]
+*{{flagicon|Taiwan}} [[AOC International|AOC]]
+*{{flagicon|United States}} [[Apple Inc]]
+*{{flagicon|Taiwan}} [[Asus]]
+*{{flagicon|Germany}} [[Belinea]]
+*{{flagicon|Taiwan}} [[BenQ]]
+*{{flagicon|Taiwan}} [[Chimei Innolux Corporation]]
+*{{flagicon|United States}} [[Dell]] ([[Dell monitors]])
+*{{flagicon|Japan}} [[Eizo]]
+*{{flagicon|United States}} [[Gateway, Inc.|Gateway]]
+{{Multicol-break}}
+*{{flagicon|Taiwan}} [[HannStar Display Corporation]]
+*{{flagicon|United States}} [[Hewlett-Packard]]
+*{{flagicon|Japan}} [[Iiyama Corporation]]
+*{{flagicon|Australia}} [[Kogan Technologies]]
+*{{flagicon|China}} [[Lenovo Group Limited|Lenovo]]
+*{{flagicon|South Korea}} [[LG]]
+*{{flagicon|Japan}} [[NEC]]
+*{{flagicon|Netherlands}} [[Packard Bell]] (Maestro)
+*{{flagicon|Netherlands}} [[Philips]]
+{{Multicol-break}}
+*{{flagicon|United States}} [[Planar Systems]]
+*{{flagicon|South Korea}} [[Samsung]]
+*{{flagicon|United States}} [[Sceptre Incorporated]]
+*{{flagicon|Japan}} [[Sony]]
+*{{flagicon|Japan}} [[Toshiba]]
+*{{flagicon|United States}} [[Tyco Electronics]]
+*{{flagicon|United States}} [[ViewSonic]]
+*{{flagicon|Germany}} [[Wortmann]]
+*{{flagicon|South Korea}} [[Zalman]]
+{{Multicol-end}}
+
+==See also==
+*[[History of display technology]]
+*[[Flat panel display]]
+*[[Multi-monitor]]
+*[[Vector monitor]]
+*[[Virtual desktop]]
+
+==References==
+{{Reflist|35em}}
+
+==External links==
+{{Commons category|Computer monitors}}
+*[http://tftcentral.co.uk/ TFT Central]
+*[http://gadgets.softpedia.com/news/History-of-the-PC-Display-041-01.html History of the PC Display]
+
+{{Basic computer components}}
+
+{{DEFAULTSORT:Computer Monitor}}
+[[Category:Computer hardware]]
+[[Category:Computer peripherals]]
+[[Category:Display devices| ]]

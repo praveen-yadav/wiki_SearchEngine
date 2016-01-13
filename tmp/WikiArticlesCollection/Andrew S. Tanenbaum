@@ -1,0 +1,195 @@
+{{Infobox scientist
+| name        = Andrew S. Tanenbaum
+| image       = AndrewTanenbaum2.png
+| image_size        = 
+| alt               = 
+| caption           = [[Computer scientist]], Professor Andy Tanenbaum of [[Vrije Universiteit]], Amsterdam
+| birth_date  = {{Birth date and age|1944|03|16}}
+| birth_place = [[New York City]], [[United States]]
+| death_date        = <!-- {{Death date and age|YYYY|MM|DD|YYYY|MM|DD}} (death date then birth date) -->
+| death_place       = 
+| resting_place             = 
+| resting_place_coordinates = <!-- {{Coord|LAT|LONG|type:landmark|display=inline,title}} -->
+| residence         = [[Amsterdam, Netherlands]]
+| citizenship       = 
+| nationality       = American
+| fields            = [[Distributed computing]]<ref>{{cite doi|10.1145/72551.72552}}</ref><ref name="dspp"/><br>[[Operating system]]s<ref name="mos"/><ref name="dos"/>
+| workplaces        = 
+| alma_mater        = [[Massachusetts Institute of Technology]]<br />[[University of California, Berkeley]]
+| thesis_title      = A Study of the Five Minute Oscillations, Supergranulation, and Related Phenomena in the Solar Atmosphere
+| thesis_url        = http://search.proquest.com/docview/302548423/
+| thesis_year       = 1971
+| doctoral_advisor  = [[John M. Wilcox]]
+| doctoral_students = [[Henri Bal]]{{citation needed|date=April 2013}}<br>[[Frans Kaashoek]]<br>Sape Mullender<br>Robbert van Renesse<br>Leendert van Doorn{{citation needed|date=April 2013}}<br>[[Werner Vogels]]<ref name="vogelsphd">{{cite thesis |degree=PhD |first=Werner|last=Vogels |title=Scalable Cluster Technologies for Mission Critical Enterprise Computing |publisher=Vrije Universiteit |date=2003 |url=http://hdl.handle.net/1871/10357|authorlink= Werner Vogels}}</ref>
+| notable_students  = 
+| known_for         = [[MINIX]]<br>[[Microkernel]]s<br>[[Electoral-vote.com]]
+| awards            = 
+| signature         = <!--(filename only)-->
+| signature_alt     = 
+| website           = {{URL|http://www.cs.vu.nl/~ast}}<br>{{URL|http://www.pearsonhighered.com/tanenbaum}}
+| footnotes         = 
+| spouse            = 
+| children          = 
+}}
+
+'''Andrew Stuart "Andy" Tanenbaum''' (sometimes referred to by the handle '''ast''')<ref name="AndyTanenbaumFirstPost">{{cite newsgroup
+| author = A. S. Tanenbaum
+| title = LINUX is obsolete
+| date = 1992-01-29
+| newsgroup = comp.os.minix
+| id = 12595@star.cs.vu.nl
+| url=https://groups.google.com/forum/#!original/comp.os.minix/wlhw16QWltI/XdksCA1TR_QJ
+| accessdate = 2006-11-27 }}</ref> (born March 16, 1944) is an American computer scientist and [[professor]] of [[computer science]] at the [[Vrije Universiteit]], [[Amsterdam]] in the [[Netherlands]].<ref>{{OL author|id=OL236786A}}</ref><ref name="dblp">{{DBLP|id=Tanenbaum:Andrew_S=}}</ref><ref name="microsoft">{{AcademicSearch|1695414}}</ref><ref name="googlescholar">{{GoogleScholar|TvjaNqkAAAAJ}}</ref>
+
+He is best known as the author of [[MINIX]], a free [[Unix-like]] [[operating system]] for teaching purposes, and for his computer science textbooks, regarded as standard texts in the field. He regards his teaching job as his most important work.<ref name=teach>[http://www.cs.vu.nl/~ast/brown/followup/ 2004 article] about Linux, the Usenet debate, and the [[Alexis de Tocqueville Institution]]</ref> Since 2004 he has operated [[Electoral-vote.com]], a [[website]] dedicated to analysis of polling data in federal elections in the [[United States]].
+
+==Biography==
+He was born in [[New York City]] and grew up in suburban [[White Plains, New York]]. 
+
+He received his [[bachelor of Science]] degree in [[Physics]] from [[Massachusetts Institute of Technology|MIT]] in 1965 and  his Ph.D. degree in physics from the [[University of California, Berkeley]] in 1971. Tanenbaum also served as a lobbyist for the [[Sierra Club]].<ref name="AP">{{cite news
+|url=http://www.informationweek.com/news/showArticle.jhtml?articleID=51201889
+|title=Man Comes Forward As Web Site Originator
+|date=November 1, 2004
+|agency=Associated Press
+}}</ref>
+
+He moved to the Netherlands to live with his wife, who is Dutch, but he retains his [[Citizenship in the United States|United States citizenship]]. He teaches courses about Computer Organization and Operating Systems and supervises the work of [[Ph.D. candidate]]s at the [[Vrije Universiteit|VU University Amsterdam]].
+
+==Teaching==
+
+===Books===
+He is well recognized for his textbooks on computer science:
+* ''Computer Networks,'' co-authored with David J. Wetherall <ref name="cn">{{cite book |author=David Wetherall; Tanenbaum, Andrew S. |title=Computer networks |publisher=Pearson Prentice Hall |location=Upper Saddle River, NJ |year=2011 |pages= |isbn=0-13-212695-8 |oclc= |doi= |accessdate=}}</ref>
+* ''[[Operating Systems: Design and Implementation]],'' co-authored with Albert Woodhull,<ref>{{cite book |author=Albert S Woodhull; Tanenbaum, Andrew S. |title=Operating systems: design and implementation |publisher=Pearson Prentice Hall |location=Upper Saddle River, NJ |year=2006 |pages= |isbn=0-13-142938-8 |oclc= |doi= |accessdate=}}</ref>
+* ''[[Modern Operating Systems]],''<ref name="mos">{{cite book |author=Tanenbaum, Andrew S. |title=Modern operating systems |publisher=Pearson Prentice Hall |location=Upper Saddle River, NJ |year=2008 |pages= |isbn=0-13-600663-9 |oclc= |doi= |accessdate=}}</ref>
+* ''Distributed Operating Systems,'' <ref name="dos">{{cite book |author=Tanenbaum, Andrew S. |title=Distributed operating systems |publisher=Prentice Hall |location=Englewood Cliffs, N.J |year=1995 |pages= |isbn=0-13-219908-4 |oclc= |doi= |accessdate=}}</ref>
+* ''Structured Computer Organization,'' <ref name="sco">{{cite book |author=Tanenbaum, Andrew S. |title=Structured computer organization |publisher=Pearson Prentice Hall |location=Upper Saddle River, NJ |year=2006 |pages= |isbn=0-13-148521-0 |oclc= |doi= |accessdate=}}</ref>
+* ''Distributed Systems: Principles and Paradigms,'' co-authored with Maarten van Steen,<ref name="dspp">{{cite book |author=Steen, Maarten van; Tanenbaum, Andrew S. |title=Distributed systems: principles and paradigms |publisher=Pearson Prentice Hall |location=Upper Saddle River, NJ |year=2007 |pages= |isbn=0-13-239227-5 |oclc= |doi= |accessdate=}}</ref>
+
+''Operating Systems: Design and Implementation'' and MINIX<ref>[http://www.minix3.org/ The MINIX 3 Operating System]</ref> were [[Linus Torvalds]]' inspiration for the [[Linux]] kernel. In his autobiography ''[[Just for Fun]]'', Torvalds describes it as "the book that launched me to new heights".
+
+His books have been translated into many languages including Arabic, Basque, Bulgarian, Chinese, Dutch, French, German, Greek, Hebrew, Hungarian, Italian, Japanese, Korean, Macedonian, Mexican Spanish, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Spanish.<ref>[http://www.cs.vu.nl/~ast/home/faq.html Andrew S. Tanenbaum's FAQ]</ref> They have appeared in over 120 editions and are used at universities around the world.<ref>[http://www.cs.vu.nl/~ast/publications Andrew S. Tanenbaum - Publications]</ref>
+
+===Doctoral students===
+Tanenbaum has had a number of [[Ph.D.]] students who themselves have gone on to become widely known computer science researchers.
+These include:
+* [[Henri Bal]], a professor at the [[Vrije Universiteit]] in [[Amsterdam]];
+* [[Frans Kaashoek]], a professor at [[MIT]];
+* Sape Mullender, a researcher at [[Bell Labs]];
+* Robbert van Renesse, a professor at [[Cornell University]];
+* Leendert van Doorn, a fellow at the [[AMD]] Corporation;
+* [[Werner Vogels]],<ref name="vogelsphd"/> the Chief Technology Officer at [[Amazon.com]].
+
+===Dean of the Advanced School for Computing and Imaging===
+In the early 1990s, the Dutch government began setting up a number of thematically oriented research schools that spanned multiple universities. These schools were intended to bring professors and Ph.D. students from different Dutch (and later, foreign) universities together to help them cooperate and enhance their research.
+
+Tanenbaum was one of the cofounders and first Dean of the Advanced School for Computing and Imaging (ASCI). This school initially consisted of nearly 200 faculty members and Ph.D. students from the [[Vrije Universiteit]], [[University of Amsterdam]], [[Delft University of Technology]], and [[Leiden University]] working in the areas of advanced computer systems, especially parallel computing, and image analysis and processing.
+
+Tanenbaum remained Dean for 12 years, until 2005, when he was awarded an Academy Professorship by the [[Royal Netherlands Academy of Arts and Sciences]], at which time he became a full-time research professor. ASCI has since grown to include researchers from nearly a dozen universities in The Netherlands, Belgium, and France. ASCI offers Ph.D. level courses, has an annual conference, and runs various workshops every year.
+
+==Projects==
+
+===Amsterdam Compiler Kit===
+The [[Amsterdam Compiler Kit]] is a toolkit for producing portable compilers. It was started sometime before 1981,<ref>[http://www.cs.vu.nl/~ast/publications/ Andrew S. Tanenbaum - Publications, Colloquia section]</ref> and Andrew Tanenbaum was the architect from the start until version 5.5.
+
+===MINIX===
+In 1987, Tanenbaum wrote a clone of [[UNIX]], called [[MINIX]] (MIni-uNIX), for the [[IBM PC]]. It was targeted at students and others who wanted to learn how an operating system worked. Consequently, he wrote a book<ref>[http://www.amazon.com/dp/0131429388 Amazon.com: Operating Systems Design and Implementation (3rd Edition) (Prentice Hall Software Series): Andrew S Tanenbaum, Albert S Woodhull: Books]</ref> that listed the source code in an appendix and described it in detail in the text. The source code itself was available on a set of floppy disks. Within three months, a [[USENET]] newsgroup, comp.os.minix,<ref>news:comp.os.minix</ref> had sprung up with over 40,000 subscribers discussing and improving the system. One of these subscribers was a Finnish student named [[Linus Torvalds]] who began adding new features to MINIX and tailoring it to his own needs. On October 5, 1991, Torvalds announced his own ([[POSIX]] like) kernel, called [[Linux]], which originally used the MINIX file system, but it is not based on MINIX code.<ref>[http://www.cs.vu.nl/~ast/brown/ Some notes on the "Who wrote Linux" Kerfuffle] {{WebCite|url=http://www.webcitation.org/5sfayBi29|date =2010-09-11}}</ref>
+
+Although MINIX and Linux have diverged, MINIX continues to be developed, now as a production system as well as an educational one.<ref>[http://www.usenix.org/publications/login/2006-04/openpdfs/herder.pdf USENIX April 06]</ref> The focus is on building a highly modular, reliable, and secure, operating system. The system is based on a [[microkernel]], with only 5000 lines of code<ref>[http://www.few.vu.nl/~ast/ Andrew S. Tanenbaum, Professor at the Vrije Universiteit]</ref> running in kernel mode. The rest of the operating system runs as a number of independent processes in user mode, including processes for the file system, process manager, and each device driver. The system continuously monitors each of these processes, and when a failure is detected is often capable of automatically replacing the failed process without a reboot, without disturbing running programs, and without the user even noticing. [[MINIX 3]], as the current version is called, is available under the [[BSD license]] for free.
+
+===Research projects===
+Tanenbaum has also been involved in numerous other research projects in the areas of operating systems, distributed systems, and ubiquitous computing, often as supervisor of Ph.D. students or a [[postdoctoral researcher]]. These projects include:
+* [[Amoeba distributed operating system|Amoeba]]<ref>{{cite doi|10.1145/96267.96281}}</ref>
+* Globe<ref>{{cite doi|10.1109/4434.749137}}</ref>
+* Mansion{{citation needed|date=April 2013}}
+* Orca<ref name="orca">{{cite doi|10.1109/32.126768}}</ref>
+* Paramecium<ref>{{cite doi|10.1109/HOTOS.1995.513460}}</ref>
+* [[Radio-frequency identification|RFID]] Guardian<ref>{{cite doi|10.1007/s10796-009-9210-z}}</ref>
+* [[Turtle F2F]]
+
+===Electoral-vote.com===
+In 2004, Tanenbaum created [[Electoral-vote.com]], a web site analyzing [[opinion polls]] for the [[2004 U.S. Presidential Election]], using them to project the outcome in the [[U.S. Electoral College|Electoral College]]. He stated that he created the site as an American who "knows first hand what the world thinks of America and it is not a pretty picture at the moment. I want people to think of America as the land of freedom and democracy, not the land of arrogance and blind revenge. I want to be proud of America again."<ref name="EVFAQ">[http://web.archive.org/web/20041102014915/www.electoral-vote.com/info/votemaster-faq.html The Votemaster FAQ]</ref> The site provided a color-coded map, updated each day with projections for each state's electoral votes. Through most of the campaign period Tanenbaum kept his identity secret, referring to himself as "the Votemaster" and acknowledging only that he personally preferred [[John Kerry]]. A [[Libertarianism|libertarian]] who supports the [[United States Democratic Party|Democrats]], he revealed his identity on November 1, 2004, the day prior to the election, also stating his reasons and qualifications for running the website.<ref name="EVFAQ" /> 
+
+Through the site he also covered the [[United States general elections, 2006|2006 midterm elections]], correctly predicting the winner of all 33 Senate races that year.
+
+For the 2008 elections, he got every state right except for Indiana, which he said McCain would win by 2% (Obama won by 1%) and Missouri, which he said was too close to call (McCain won by 0.1%). He correctly predicted all the winners in the Senate except for Minnesota, where he predicted a 1% win by [[Norm Coleman]] over [[Al Franken]]. After 7 months of legal battling and recounts, Franken won by 312 votes (0.01%).
+
+In 2010, he correctly projected 35 out of 37 Senate races in the Midterm elections on the website. The exceptions were [[Colorado]] and [[Nevada]].
+
+==Tanenbaum–Torvalds debate==
+The [[Tanenbaum–Torvalds debate]] was a famous friendly debate between Tanenbaum and Linus Torvalds regarding kernel design on [[Usenet]] in 1992.
+
+==Awards==
+* Fellow of the [[Association for Computing Machinery|ACM]]
+* Fellow of the [[Institute of Electrical and Electronics Engineers|IEEE]]
+* Member of the [[Royal Netherlands Academy of Arts and Sciences]]
+* Honorary doctorate from Petru Maior University, Targu Mures, Romania
+* Winner of the 2010 TAA [[William Holmes McGuffey#McGuffey awards|McGuffey award]] for classic textbooks for Modern Operating Systems
+* Coauthor of the Best Paper Award at the LADC Conference, 2009
+* Winner of a 2.5 million euro [[European Research Council]] Advanced Grant, 2008
+* [[USENIX]] Flame Award 2008 <ref>[http://www.usenix.org/about/flame.html USENIX Flame Award]</ref> for his many contributions to systems design and to openness both in discussion and in source.
+* Honorary doctorate from Polytechnic University of Bucharest, Romania
+* Coauthor of the Best Paper Award at the Real-Time and Network Systems Conf., 2008
+* Winner of the 2007 [[IEEE James H. Mulligan, Jr. Education Medal]]<ref>{{cite web|url=http://www.ieee.org/documents/education_rl.pdf |title=IEEE James H. Mulligan, Jr. Education Medal Recipients |publisher=IEEE |accessdate={{Format date|2010|11|24}}}}</ref>
+* Coauthor of the Best Paper Award at the USENIX LISA Conf., 2006
+* Coauthor of the Best Paper for High Impact at the IEEE Percom Conf., 2006
+* Academy Professor, 2004
+* Winner of the 2003 TAA [[William Holmes McGuffey#McGuffey awards|McGuffey award]] for classic textbooks for Computer Networks
+* Winner of the 2002 TAA Texty Award for new textbooks
+* Winner of the 1997 ACM [[SIGCSE]] for contributions to computer science education
+* Winner of the 1994 ACM Karl V. Karlstrom Outstanding Educator Award
+* Coauthor of the 1984 ACM [[SOSP]] Distinguished Paper Award
+
+===Honorary doctorates===
+[[File:Tanenbaum-Honorary-Doctorate-UPM.jpg|thumb|right|Tanenbaum in Târgu Mureș]]
+[[File:Tanenbaum-honorary-doctorate-Romania.jpg|thumb|right|Tanenbaum is 4th from left]]
+* On October 7, 2011, Universitatea Petru Maior din Târgu Mureș ([[Petru Maior University of Târgu Mureș]]) granted Tanenbaum the Doctor Honoris Causa (honorary doctorate) title for his remarkable work in the field of computer science and achievements in education. The academic community is hereby honoring his devotion to teaching and research with this award. At the ceremony, the Chancellor, the Rector, the Dean of the Faculty of Sciences and Letters, and others all spoke about Tanenbaum and his work. The pro-rector then read the 'laudatio,' summarizing Tanenbaum's achievements. These include his work developing MINIX (the predecessor to Linux), the RFID Guardian, his work on Globe, Amoeba, and other systems, and his many books on computer science, which have been translated in many languages, including Romanian, and which are used at Petru Maior University.
+* On May 12, 2008, Tanenbaum received an [[honorary doctorate]] from [[Politehnica University of Bucharest|Universitatea Politehnica din București]]. The award was given in the academic senate chamber, after which Tanenbaum gave a lecture on his vision of the future of the computer field. The degree was given in recognition of Tanenbaum's career work, which includes about 150 published papers, 18 books (which have been translated into over 20 languages), and the creation of a large body of open-source software, including the Amsterdam Compiler Kit, Amoeba, Globe, and MINIX.
+
+==Keynote talks==
+Tanenbaum has been keynote speaker at numerous conferences, most recently
+* [http://www.nwo.nl/nwohome.nsf/pages/NWOP_889BS7 SIREN 2010] Veldhoven, The Netherlands, Nov. 2, 2010
+* [[FOSDEM]] Brussels, Belgium, Feb 7, 2010
+* [http://neteng.nudt.edu.cn/NSCNE09/cfp2.html NSCNE '09] Changsha, China, Nov. 5, 2009
+* [http://www.e-democracy2009.gr E-Democracy 2009 Conference] Athens, Greece, Sept. 25, 2009
+* [http://www.froscon.org Free and Open Source Conference] Sankt Augustin, Germany, August 23, 2008
+* XV [http://www.sinfo.ist.utl.pt/en/ Semana Informática] of the [[Instituto Superior Técnico]], Lisbon, Portugal, March 13, 2008
+* [[NLUUG]] [http://www.nluug25.nl/en/programma/tanenbaum.php 25 year anniversary] conference, Amsterdam, November 7, 2007
+* [[linux.conf.au]] in Sydney, Australia, January 17, 2007
+* Academic IT Festival in Cracow, Poland, February 23, 2006 (2nd edition)
+* [http://www.sigops.org/sosp/sosp05/default.htm ACM Symposium on Operating System Principles], Brighton, England, October 24, 2005
+
+==References==
+{{reflist|30em}}
+
+==External links==
+{{wikiquote}}
+{{commons category|Andrew S. Tanenbaum}}
+* [http://www.freesoftwaremagazine.com/articles/minix Minix Article in Free Software Magazine] contains an interview with Andrew Tanenbaum
+*{{MathGenealogy |id=69777 }}
+
+{{Persondata <!-- Metadata: see [[Wikipedia:Persondata]]. -->
+| NAME =Tanenbaum, Andrew S.
+| ALTERNATIVE NAMES = Tanenbaum, Andrew Stuart
+| SHORT DESCRIPTION = Dutch computer scientist
+| DATE OF BIRTH =March 16, 1944
+| PLACE OF BIRTH =[[New York City]]
+| DATE OF DEATH =
+| PLACE OF DEATH =
+}}
+{{DEFAULTSORT:Tanenbaum, Andrew S.}}
+[[Category:1944 births]]
+[[Category:American political writers]]
+[[Category:American libertarians]]
+[[Category:American technology writers]]
+[[Category:Computer systems researchers]]
+[[Category:Dutch computer scientists]]
+[[Category:Fellows of the Association for Computing Machinery]]
+[[Category:Fellow Members of the IEEE]]
+[[Category:Free software programmers]]
+[[Category:Kernel programmers]]
+[[Category:Living people]]
+[[Category:Massachusetts Institute of Technology alumni]]
+[[Category:People from New York]]
+[[Category:University of California, Berkeley alumni]]
+[[Category:Vrije Universiteit faculty]]

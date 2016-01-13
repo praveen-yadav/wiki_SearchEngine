@@ -1,0 +1,123 @@
+{{Refimprove|date=February 2008}}
+<!-- editorial notes need to be hidden NB: the following contains mathematical corrections to a previous erroneous entry.  The derivation section and the text still need tidying up.
+-->
+[[File:Beer–Lambert law in solution.JPG|thumb|An example of Beer–Lambert law: green laser light in a solution of [[Rhodamine B|Rhodamine 6B]]. The beam intensity becomes weaker as it passes through solution]]
+In [[optics]], the '''Beer–Lambert law''', also known as '''Beer's law''' or the '''Lambert–Beer law''' or the '''Beer–Lambert–Bouguer law''' (named after [[August Beer]], [[Johann Heinrich Lambert]], and [[Pierre Bouguer]]) relates the [[Absorption (electromagnetic radiation)|absorption]] of [[light]] to the properties of the material through which the light is traveling.
+==Equations==
+The law states that there is a logarithmic dependence between the transmission (or transmissivity), ''T'', of light through a substance and the product of the [[absorption coefficient]] of the substance, ''α'', and the distance the light travels through the material (i.e., the path length), ''ℓ''. The absorption coefficient can, in turn, be written as a product of either a [[molar absorptivity]] (extinction coefficient) of the absorber, ''ε'', and the [[molar concentration]] ''c'' of absorbing species in the material, or an [[absorption cross section]], ''σ'', and the (number) density ''N' of absorbers.
+In some chemistry applications for liquids these relations are usually written as:
+:<math> T = {I\over I_{0}} = 10^{-\alpha\, \ell} = 10^{-\varepsilon\ell  c} </math>
+whereas in biology and physics, they are normally written
+:<math> T = {I\over I_{0}} = e^{-\alpha'\, \ell} = e^{-\sigma \ell N} </math>
+where <math>I_0</math> and <math>I</math> are the [[intensity (physics)|intensity]] ([[power (physics)|power]] per unit area) of the incident light and the transmitted light, respectively; σ is cross section of light absorption by a single particle and N is the density (number per unit volume) of absorbing particles.
+The [[common logarithm|base 10]] and [[natural logarithm|base ''e'']] conventions must not be confused because they give different values for the absorption coefficient: <math>\alpha\neq\alpha'</math>. However, it is easy to convert one to the other, using
+:<math>\alpha' = \alpha \ln(10)\approx 2.303\alpha. \, </math>
+The transmission (or transmissivity) is expressed in terms of an [[absorbance]] which, for liquids, is defined as
+:<math> A = -\log_{10} \left( \frac{I}{I_0} \right)</math>
+whereas, for gases, it is usually defined as
+:<math> A' = -\ln  \left( \frac{I}{I_0} \right).</math>
+This implies that the [[absorbance]] becomes linear with the concentration (or number density of absorbers) according to
+:<math> A = \varepsilon \ell c = \alpha\ell \,</math>
+and
+:<math> A' = \sigma \ell  N = \alpha' \ell \,</math>
+for the two cases, respectively.
+Thus, if the path length and the [[molar absorptivity]] (or the [[absorption cross section]]) are known and the [[absorbance]] is measured, the concentration of the substance (or the number density of absorbers) can be deduced.
+Although several of the expressions above often are used as Beer–Lambert law, the name should strictly speaking only be associated with the latter two. The reason is that historically, the Lambert law states that absorption is proportional to the light path length, whereas the Beer law states that absorption is proportional to the concentration of absorbing species in the material.<ref>J. D. J. Ingle and S. R. Crouch, ''Spectrochemical Analysis'', Prentice Hall, New Jersey (1988)</ref>
+If the concentration is expressed as a [[mole fraction]] i.e., a dimensionless fraction, the molar absorptivity (''ε'') takes the same dimension as the absorption coefficient, i.e., [[reciprocal length]] (e.g., m<sup>−1</sup>). However, if the concentration is expressed in [[mole (unit)|moles]] per unit [[volume]], the molar absorptivity (''ε'') is used in [[liter|L]]·mol<sup>−1</sup>·cm<sup>−1</sup>, or sometimes in converted SI units of m<sup>2</sup>·mol<sup>−1</sup>.
+The [[absorption coefficient]] ''α''<nowiki>'</nowiki> is one of many ways to describe the absorption of electromagnetic waves. For the others, and their interrelationships, see the article: [[Mathematical descriptions of opacity]]. For example, ''α''<nowiki>'</nowiki> can be expressed in terms of the [[imaginary part]] of the [[refractive index]], ''κ'', and the [[wavelength]] of the light (in free space), ''λ''<sub>0</sub>, according to
+:<math> \alpha' = \frac{4 \pi \kappa}{\lambda_{0}}.</math>
+In molecular absorption spectrometry, the absorption cross section ''σ'' is expressed in terms of a linestrength, ''S'', and an (area-normalized) lineshape function, ''Φ''. The frequency scale in molecular spectroscopy is often in cm<sup>−1</sup>, where the lineshape function is expressed in units of 1/cm<sup>−1</sup>. Since ''N'' is given as a number density in units of 1/cm<sup>3</sup>, the linestrength is often given in units of cm<sup>2</sup>cm<sup>−1</sup>/molecule. A typical linestrength in one of the vibrational overtone bands of smaller molecules, e.g., around 1.5 μm in CO or CO<sub>2</sub>, is around 10<sup>−23</sup> cm<sup>2</sup>cm<sup>−1</sup>, although it can be larger for species with strong transitions, e.g., C<sub>2</sub>H<sub>2</sub>. The linestrengths of various transitions can be found in large databases, e.g., HITRAN. The lineshape function often takes a value around a few 1/cm<sup>−1</sup>, up to around 10/cm<sup>−1</sup> under low pressure conditions, when the transition is Doppler broadened, and below this under atmospheric pressure conditions, when the transition is collision broadened. It has also become commonplace to express the linestrength in units of cm<sup>−2</sup>/atm since then the concentration is given in terms of a pressure in units of atm. A typical linestrength is then often in the order of 10<sup>−3</sup> cm<sup>−2</sup>/atm. Under these conditions, the detectability of a given technique is often quoted in terms of ppm•m.
+The fact that there are two commensurate definitions of absorbance (in base 10 or e) implies that the [[absorbance]] and the [[absorption coefficient]] for the cases with gases, ''A''<nowiki>'</nowiki> and ''α''<nowiki>'</nowiki>, are ln&nbsp;10 (approximately 2.3) times as large as the corresponding values for liquids, i.e., ''A'' and ''α'', respectively.  Therefore, care must be taken when interpreting data that the correct form of the law is used.
+The law tends to break down at very high concentrations, especially if the material is highly [[scattering]]. If the light is especially intense, [[nonlinear optics|nonlinear optical]] processes can also cause variances. The main reason, however, is the following. At high concentrations, the molecules are closer to each other and begin to interact with each other. This interaction will change several properties of the molecule, and thus will change the molar absorptivity. If the absorbtivity is different at higher concentrations than at lower ones, then the plot of the absorbance will not be linear, as is suggested by the equation, so you can only use it when all the concentrations you are working with are low enough that the absorbtivity is the same for all of them.
+
+==Derivation==
+Classically, the Beer–Lambert law was first devised independently where Lambert's law stated that absorbance is directly proportional to the thickness of the sample, and Beer's law stated that absorbance is proportional to the concentration of the sample. The modern derivation of the Beer–Lambert law combines the two laws and correlate the absorbance to both, the concentration as well as the thickness (path length) of the sample.<ref>[http://pharmaxchange.info/press/2012/04/ultraviolet-visible-uv-vis-spectroscopy-%E2%80%93-derivation-of-beer-lambert-law/ Derivation of Beer–Lambert Law]</ref>
+In concept, the derivation of the Beer–Lambert law is straightforward.  Divide the absorbing sample into thin slices that are perpendicular to the beam of light.  The light that emerges from a slice is slightly less intense than the light that entered because some of the photons have run into molecules in the sample and did not make it to the other side.  For most cases where measurements of absorption are needed, a vast majority of the light entering the slice leaves without being absorbed.  Because the physical description of the problem is in terms of differences—intensity before and after light passes through the slice—we can easily write an ordinary differential equation model for absorption.  The difference in intensity due to the slice of absorbing material <math>dI</math> is reduced; leaving the slice, it is a fraction <math>\beta</math> of the light entering the slice <math>I</math>.  The thickness of the slice is <math>dz</math>, which scales the amount of absorption (thin slice does not absorb much light but a thick slice absorbs a lot).  In symbols, <math>dI = \beta I dz</math>, or <math>dI/dz = \beta I </math>.  This conceptual overview uses <math>\beta</math> to describe how much light is absorbed.  All we can say about the value of this constant is that it will be different for each material.  Also, its values should be constrained between −1 and 0.  The following paragraphs cover the meaning of this constant and the whole derivation in much greater detail.
+Assume that particles may be described as having an absorption cross section (i.e., area), ''σ'', perpendicular to the path of light through a solution, such that a photon of light is absorbed if it strikes the particle, and is transmitted if it does not.
+Define ''z'' as an axis parallel to the direction that photons of light are moving, and ''A'' and ''dz'' as the area and thickness  (along the ''z'' axis) of a 3-dimensional slab of space through which light is passing.
+We assume that ''dz'' is sufficiently small that one particle in the slab cannot obscure another particle in the slab when viewed along the ''z'' direction. The concentration of particles in the slab is represented by ''N''.
+It follows that the fraction of photons absorbed when passing through this slab is equal to the total opaque area of the particles in the slab, ''σAN&nbsp;dz'', divided by the area of the slab ''A'', which yields ''σN&nbsp;dz''.   Expressing the number of photons absorbed by the slab as ''dI''<sub>''z''</sub>,  and the total number of photons incident on the slab as  ''I''<sub>''z''</sub>,  the number of photons absorbed by the slab is given by
+:<math> dI_z = - \sigma N\,I_z\,dz  .</math>
+Note that because there are fewer photons which pass through the slab than are incident on it, ''dI''<sub>''z''</sub> is actually negative (It is proportional in magnitude to the number of photons absorbed).
+The solution to this simple differential equation is obtained by integrating both sides to obtain ''I''<sub>''z''</sub> as a function of ''z''
+:<math> \ln(I_z) = - \sigma N z  +  C . \,</math>
+The difference of intensity for a slab of real thickness ℓ is ''I''<sub>0</sub> at ''z''&nbsp;=&nbsp;0, and ''I''<sub>l</sub> at ''z''&nbsp;=&nbsp;''ℓ''. Using the previous equation, the difference in intensity can be written as,
+:<math>\ln(I_l) - \ln(I_0) = (- \sigma \ell N + C) - ( - \sigma 0 N + C) = - \sigma \ell  N \,</math>
+rearranging and exponentiating yields,
+:<math>\ T  = \frac{I_l}{I_0} = e ^ {- \sigma \ell  N} = e ^ {- \alpha'\ell} .</math>
+This implies that
+:<math> A' = - \ln\left( \frac{I_l}{I_0} \right) = \alpha' \ell = \sigma\ell  N \,</math>
+and
+:<math> A = - \log_{10}\left( \frac{I_l}{I_0} \right) = \frac{\alpha'\ell}{2.303} = \alpha \ell = \varepsilon \ell  c. \,</math>
+
+The derivation assumes that every absorbing particle behaves independently with respect to the light and is not affected by other particles. While it is commonly thought that error is introduced when particles are lying along the same optical path such that some particles are in the ''shadow'' of others, this is actually a key part of the derivation and why integration is used.
+
+==Deviations from Beer–Lambert law==
+Under certain conditions Beer–Lambert law fails to maintain a linear relationship between absorbance and concentration of analyte.<ref>Mehta A.[http://pharmaxchange.info/press/2012/05/ultraviolet-visible-uv-vis-spectroscopy-%E2%80%93-limitations-and-deviations-of-beer-lambert-law/ Limitations and Deviations of Beer–Lambert Law]</ref> These deviations are classified into three categories:
+# Real – fundamental deviations due to the limitations of the law itself.
+# Chemical  – deviations observed due to specific chemical species of the sample which is being analyzed.
+# Instrument – deviations which occur due to how the absorbance measurements are made.
+==Prerequisites==
+There are at least six conditions that need to be fulfilled in order for Beer’s law to be valid. These are:
+# The absorbers must act independently of each other;
+# The absorbing medium must be homogeneous in the interaction volume
+# The absorbing medium must not scatter the radiation – no [[turbidity]];
+# The incident radiation must consist of parallel rays, each traversing the same length in the absorbing medium;
+# The incident radiation should preferably be [[monochromatic]], or have at least a width that is narrower than that of the absorbing transition; and
+# The incident flux must not influence the atoms or molecules; it should only act as a non-invasive probe of the species under study. In particular, this implies that the light should not cause optical saturation or optical pumping, since such effects will deplete the lower level and possibly give rise to stimulated emission.
+If any of these conditions are not fulfilled, there will be deviations from Beer’s law.
+== Chemical analysis ==
+Beer's law can be applied to the analysis of a mixture by spectrophotometry, without the need for extensive pre-processing of the sample. An example is the determination of [[bilirubin]] in blood plasma samples. The spectrum of pure bilirubin is known, so the molar absorption coefficient is known. Measurements are made at one wavelength that is nearly unique for bilirubin and at a second wavelength in order to correct for possible interferences.The concentration is given by ''c''&nbsp;=&nbsp;''A''<sup>corrected</sup>&nbsp;/&nbsp;''ε''.
+For a more complicated example, consider a mixture in solution containing two components at concentrations ''c''<sub>1</sub> and ''c''<sub>2</sub>. The absorbance at any wavelength, λ is, for unit path length, given by
+:<math>A(\lambda)=c_1\ \varepsilon_1(\lambda)+c_2\ \varepsilon_2(\lambda).</math>
+Therefore, measurements at two wavelengths yields two equations in two unknowns and will suffice to determine the concentrations ''c''<sub>1</sub> and ''c''<sub>2</sub> as long as the molar absorbances of the two components, ''ε''<sub>1</sub> and ''ε''<sub>2</sub> are known at both wavelengths. This two system equation can be solved using [[Cramer's rule]]. In practice it is better to use [[linear least squares (mathematics)|linear least squares]] to determine the two concentrations from measurements made at more than two wavelengths. Mixtures containing more than two components can be analyzed in the same way, using a minimum of ''n'' wavelengths for a mixture containing ''n'' components.
+The law is used widely in [[infra-red spectroscopy]] and [[near-infrared spectroscopy]] for analysis of [[polymer degradation]] and [[oxidation]] (also in biological tissue). The [[carbonyl group]] absorption at about 6 micrometres can be detected quite easily, and degree of oxidation of the [[polymer]] calculated.
+
+==Beer–Lambert law in the atmosphere==
+This law is also applied to describe the attenuation of solar or stellar radiation as it travels through the atmosphere. In this case, there is scattering of radiation as well as absorption. The Beer–Lambert law for the atmosphere is usually written
+:<math>I = I_0\,\exp(-m(\tau_a+\tau_g+\tau_{\rm NO_2}+\tau_w+\tau_{\rm O_3}+\tau_r)),</math>
+where each <math>\tau_{x}</math> is the [[optical depth]] whose subscript identifies the source of the absorption or scattering it describes:
+*<math>a</math> refers to [[Particulate|aerosols]] (that absorb and scatter)
+*<math>g</math> are uniformly mixed gases (mainly [[carbon dioxide]] (<math>\mathrm{CO}_2</math>)  and molecular [[oxygen]] (<math>\mathrm{O}_2</math>) which only absorb)
+*<math>\mathrm{NO}_2</math> is [[nitrogen dioxide]], mainly due to urban pollution (absorption only)
+*<math>w</math> is [[water vapour]] [[water absorption|absorption]]
+*<math>\mathrm{O}_3</math> is [[ozone]] (absorption only)
+*<math>r</math> is [[Rayleigh scattering]] from molecular [[oxygen]] (<math>\mathrm{O}_2</math>) and [[nitrogen]] (<math>\mathrm{N}_2</math>) (responsible for the blue color of the sky).
+<math>m</math> is the ''optical mass'' or ''[[airmass|airmass factor]]'', a term approximately equal (for small and moderate values of <math>\theta</math>) to <math>1/\cos(\theta)</math>, where <math>\theta</math> is the observed object's [[celestial coordinate system|zenith angle]] (the angle measured from
+the direction perpendicular to the Earth's surface at the observation site).
+This equation can be used to retrieve <math>\tau_{a}</math>, the aerosol [[optical depth|optical thickness]],
+which is necessary for the correction of satellite images and also important in accounting for the role of
+aerosols in climate.
+When the path taken by the light is through the atmosphere, the density of the absorbing gas is not constant, so the original equation must be modified as follows:
+:<math> T = {I_{1}\over I_{0}} = e^{-\int\alpha'\, dz} = e^{-\sigma\int N dz} </math>
+where z is the distance along the path through the atmosphere, all other symbols are as defined above.<ref>ISBN 0-521-33956-1 Houghton, J.T. The Physics of Atmospheres 2nd ed. Chapter 2</ref>  This is taken into account in each <math>\tau_{x}</math> in the atmospheric equation above.
+==History==
+The law was discovered by [[Pierre Bouguer]] before 1729.<ref>Pierre Bouguer, [http://books.google.co.uk/books?id=JNkTAAAAQAAJ&pg=PA1 ''Essai d'Optique, sur la gradation de la lumière''] (Paris, France:  Claude Jombert, 1729) pp. 16–22.</ref> It is often attributed to [[Johann Heinrich Lambert]], who cited Bouguer's ''Essai d'Optique sur la Gradation de la Lumiere'' (Claude Jombert, Paris, 1729) — and even quoted from it — in his ''[[Photometria]]'' in 1760.<ref>J.H. Lambert, [http://imgbase-scd-ulp.u-strasbg.fr/displayimage.php?album=53&pos=1 ''Photometria sive de mensura et gradibus luminis, colorum et umbrae''] [Photometry, or, On the measure and gradations of light, colors, and shade] (Augsburg ("Augusta Vindelicorum"), Germany:  Eberhardt Klett, 1760). See especially [http://imgbase-scd-ulp.u-strasbg.fr/displayimage.php?album=53&pos=405&lang=english p. 391].</ref> Much later, [[August Beer]] extended the exponential absorption law in 1852 to include the concentration of solutions in the absorption coefficient.<ref>Beer (1852) [http://books.google.com/books?id=PNmXAAAAIAAJ&pg=PA78 "Bestimmung der Absorption des rothen Lichts in farbigen Flüssigkeiten"] (Determination of the absorption of red light in colored liquids), ''Annalen der Physik und Chemie'', vol. 86, pp. 78–88.</ref>
+==See also==
+{{colbegin|3}}
+*[[Applied spectroscopy]]
+*[[Atomic absorption spectroscopy]]
+*[[Absorption spectroscopy]]
+*[[Cavity ring-down spectroscopy]]
+*[[Infra-red spectroscopy]]
+*[[Job plot]]
+*[[Laser absorption spectrometry]]
+*[[Logarithm]]
+*[[Polymer degradation]]
+*[[Scientific laws named after people]]
+*[[Quantification of nucleic acids]]
+*[[Tunable diode laser absorption spectroscopy]]
+{{colend}}
+==References==
+{{reflist}}
+== External links ==
+*[http://www.changbioscience.com/calculator/BeerLambert.html Beer–Lambert Law Calculator]
+<!-- * [http://www.canberra.edu.au/irps/blbalaw.html Origin of the law(s)] (Bad link)-->
+<!-- See also L. Gerward, The Bouguer–Lambert–Beer Absorption Law. IRPS Bulletin. Newsletter of the International Radiation Physics Society 21(1) (2007) 4–8 -->
+*[http://www.chemguide.co.uk/analysis/uvvisible/beerlambert.html Beer–Lambert Law Simpler Explanation]
+*[http://www.files.chem.vt.edu/chem-ed/spec/beerslaw.html Reasons for Deviations from Beer–Lambert Law]
+{{DEFAULTSORT:Beer-Lambert Law}}
+[[Category:Scattering, absorption and radiative transfer (optics)]]
+[[Category:Spectroscopy]]
+[[Category:Electromagnetic radiation]]
+[[Category:Visibility]]

@@ -1,0 +1,228 @@
+{{About||the scientific journal|Cladistics (journal)|phylogenetic nomenclature, often called "cladistic nomenclature" or "cladistic terminology"|Phylogenetic nomenclature}}
+{{Use dmy dates|date=July 2012}}
+{{Evolutionary biology}}
+
+'''Cladistics''' (from [[Greek language|Greek]] {{lang|grc|κλάδος}}, ''klados'', i.e. "branch"<ref name="OnlineEtDict">{{cite web|title=clade|url=http://www.etymonline.com/index.php?allowed_in_frame=0&search=clade&searchmode=none|publisher=[[Online Etymology Dictionary]]}}</ref>) is an approach to biological classification in which organisms are grouped together based on whether or not they have one or more shared unique characteristics that come from the group's [[last common ancestor]] and are not present in more distant ancestors. Therefore, members of the same group are thought to share a common history and are considered to be more closely related.<ref name=ce>Columbia Encyclopedia</ref><ref name=ucmp>http://www.ucmp.berkeley.edu/clad/clad1.html</ref><ref name=ode>Oxford Dictionary of English</ref><ref name=oed>Oxford English Dictionary</ref>
+
+The original methods used in cladistic analysis and the school of taxonomy derived from it originated in the work of the German [[entomologist]] [[Willi Hennig]], who referred to it as '''phylogenetic systematics''' (also the title of his 1966 book); the use of the terms "cladistics" and "clade" was popularized by other researchers. Cladistics in the original sense refers to a particular set of methods used in [[Phylogenetics|phylogenetic analysis]], although it is now sometimes used to refer to the whole field.{{sfn|ps=|Brinkman|Leipe|2001|p=323}}
+
+The techniques of cladistics, and sometimes the terminology, have been successfully applied in other disciplines: for example, to determine the relationships between the surviving manuscripts of the ''[[Canterbury Tales]]'',<ref>{{cite web| title=Canterbury Tales Project |url=http://www.canterburytalesproject.org|accessdate=4 July 2009}}</ref> or also between 53 manuscripts of the Sanskrit ''[[Charaka Samhita]]''.<ref name="Maas 2010">{{Harvnb|Maas|2010}}</ref>
+
+==History of cladistics==
+{{expand section|date=September 2012}}
+What is now called the cladistic method appeared as early as 1901 with a work by P.C. Mitchell (for birds)<ref>Schuh, Randall. 2000. Biological Systematics: Principles and Applications, p.7 (citing Nelson and Platnick, 1981). Cornell U. Press (books.google)</ref><ref>Folinsbee, Kaila et al. 2007. 5 Quantitative Approaches to Phylogenetics, p. 172. Rev. Mex. Div. 225-52 (kfolinsb.public.iastate.edu)</ref> and subsequently by [[Robert John Tillyard]] (for insects) in 1921,<ref>Folinsbee, Kaila et al. 2007. 5 Quantitative Approaches to Phylogenetics, p.172. Rev. Mex. Div. 225-52 (kfolinsb.public.iastate.edu)</ref> and W. Zimmermann (for plants) in 1943.<ref>Schuh, Randall. 2000. Biological Systematics: Principles and Applications, p.7. Cornell U. Press</ref>
+The term "[[clade]]" was introduced in 1958 by [[Julian Huxley]] after having been coined by [[Lucien Cuénot]] in 1940,<ref>{{Harvnb|Cuénot|1940}}</ref> cladogenesis" in 1958,<ref name="ReferenceA">Webster's 9th New Collegiate Dictionary</ref> "cladistic" by [[Arthur Cain|Cain]] and Harrison in 1960,<ref>{{Harvnb|Cain|Harrison|1960}}</ref> "cladist" (for an adherent of Hennig's school) by [[Ernst Mayr|Mayr]] in 1965,<ref>{{harvnb|Dupuis|1984}}</ref> and "cladistics" in 1966.<ref name="ReferenceA"/> Hennig referred to his own approach as "phylogenetic systematics". From the time of his original formulation until the end of the 1970s, cladistics competed as an analytical and philosophical approach to phylogenetic inference with [[phenetics]] and so-called [[evolutionary taxonomy]]. Phenetics was championed at this time by the numerical taxonomists [[Peter Sneath]] and [[Robert Sokal]] and the evolutionary taxonomist [[Ernst Mayr]].
+
+In the 1990s, the development of effective [[polymerase chain reaction]] techniques allowed the application of cladistic methods to [[biochemical]] and [[molecular genetics|molecular genetic]] traits of organisms, as well as to anatomical ones, vastly expanding the amount of data available for phylogenetics. At the same time, cladistics rapidly became the dominant set of methods of phylogenetics in evolutionary biology, because [[computer]]s made it possible to process large quantities of data about organisms and their characteristics.
+
+The way for [[computational phylogenetics]] was paved by [[phenetics]],<ref>{{harvnb|Mayr|1982|p=221}}</ref> a set of methods commonly used from the 1950s to 1980s and to some degree later. Phenetics did not try to reconstruct phylogenetic trees; rather, it tried to build [[dendrograms]] from similarity data; its algorithms required less computer power than phylogenetic ones.
+
+==Methodology==
+{{main|Phylogenetics}}
+{{main|Cladogram}}
+{{see also|Phylogenetic tree}}
+
+The cladistic method interprets each character state transformation implied by the distribution of shared character states among taxa (or other terminals) as a potential piece of evidence for grouping. The outcome of a cladistic analysis is a [[cladogram]] – a [[Tree (graph theory)|tree]]-shaped diagram (dendrogram<ref>{{Harvnb|Weygoldt|1998}}</ref>) that is interpreted to represent the best hypothesis of phylogenetic relationships. Although traditionally such cladograms were generated largely on the basis of morphological characters and originally calculated by hand, [[DNA sequencing|genetic sequencing]] data and [[computational phylogenetics]] are now commonly used in phylogenetic analyses, and the parsimony criterion has been abandoned by many phylogeneticists in favor of more "sophisticated" but less parsimonious evolutionary models of character state transformation. Cladists contend that these models are unjustified.{{Clarify|reason=why?|date=May 2013}}
+
+Every cladogram is based on a particular dataset analyzed with a particular method. Datasets are tables consisting of [[Molecular phylogenetics|molecular]], morphological, [[Ethology|ethological]]<ref>{{Harvnb|Jerison|2003|p=254}}</ref> and/or other characters and a list of [[operational taxonomic unit]]s (OTUs) which may be genes, individuals, populations, species, or larger taxa that are presumed to be monophyletic and therefore to form, all together, one large clade; phylogenetic analysis infers the branching pattern within that clade. Different datasets and different methods, not to mention violations of the mentioned assumptions, often result in different cladograms. Only scientific investigation can show which is more likely to be correct.
+
+Until recently, for example, cladograms like the following have generally been accepted as accurate representations of the ancestral relations among turtles, lizards, crocodilians, and birds:<ref>{{Citation |title=Vertebrate Palaeontology |last=Benton |first=Michael J. |authorlink=Michael Benton |year=2005 |publisher=Blackwell |isbn=978-0-632-05637-8 |pages=214, 233}}</ref>
+<center>
+{{clade
+  |label1=&nbsp;&nbsp;{{color|LimeGreen|▼}}
+  |{{clade
+       |label1=[[Turtle|Testudines]]&nbsp;&nbsp;
+       |1=[[turtle]]s
+       |label2=[[Diapsid]]a&nbsp;&nbsp;&nbsp;{{font|size=150%|color=OrangeRed|text=♦}}
+       |2={{clade
+            |label1=[[Lepidosauria]]&nbsp;&nbsp;
+            |1=[[lizard]]s
+            |label2=[[Archosaur]]ia
+            |2={{clade
+                 |label1=[[Crocodylomorpha]]&nbsp;&nbsp;
+                 |1=[[crocodilia]]ns
+                 |label2=[[Dinosaur]]ia
+                 |2=[[bird]]s
+               }}
+          }}
+     }} 
+}}
+</center>
+
+If this phylogenetic hypothesis is correct, then the last common ancestor of turtles and birds, at the ⊣ connection near the {{color|LimeGreen|▼}} (a ⊤ in [[Template:Clade#Browser differences|some browsers]]) lived earlier than the last common ancestor of lizards and birds, near the {{font|size=150%|color=OrangeRed|text=♦}}. Most [[Molecular phylogenetics|molecular]] evidence, however, produces cladograms more like this:<ref>{{Citation |last1=Lyson |first1=Tyler |last2=Gilbert |first2=Scott F. |year=2009 |title=Turtles all the way down: loggerheads at the root of the chelonian tree |journal=Evolution & Development |volume=11 |issue=2 |pages=133–135 |doi=10.1111/j.1525-142X.2009.00325.x |url=http://www.mrfdigs.com/publications/2009_lyson-gilbert-loggerheads.pdf}}</ref>
+<center>
+{{clade
+  |label1=[[Diapsid]]a&nbsp;&nbsp;&nbsp;{{font|size=150%|color=OrangeRed|text=♦}}
+  |{{clade
+        |label1=[[Lepidosauria]]&nbsp;&nbsp;
+        |1=[[lizard]]s
+        |label2={{color|white|Lepidosauria}}{{color|LimeGreen|▼}}
+        |2={{clade
+             |label1=[[Turtle|Testudines]]&nbsp;&nbsp;
+             |1=[[turtle]]s
+             |label2=[[Archosaur]]ia&nbsp;&nbsp;
+             |2={{clade
+                  |label1=[[Crocodylomorpha]]&nbsp;&nbsp;
+                  |1=[[crocodilia]]ns
+                  |label2=[[Dinosaur]]ia
+                  |2=[[bird]]s
+                 }}
+           }}
+     }}
+}}
+</center>
+
+If this is accurate, then the last common ancestor of turtles and birds lived later than the last common ancestor of lizards and birds. Since the cladograms provide competing accounts of real events, at most one of them is correct.
+
+[[File:Monophyly, paraphyly, polyphyly.png|thumb|400px|right|Cladogram of the [[primate]]s, showing a [[Monophyly|monophyletic]] taxon (a [[clade]]: the simians or Anthropoidea, in yellow), a [[Paraphyly|paraphyletic]] taxon (the prosimians, in blue, including the red patch), and a [[Polyphyly|polyphyletic]] taxon (the nocturnal primates – the [[loris]]es and the [[tarsier]]s – in red)]]
+
+The cladogram to the right represents the current universally accepted hypothesis that all [[primate]]s, including [[Strepsirrhini|strepsirrhines]] like the [[lemur]]s and [[loris]]es, had a common ancestor all of whose descendants were primates, and so form a clade; the name Primates is therefore recognized for this clade. Within the primates, all anthropoids (monkeys, apes and humans) are hypothesized to have had a common ancestor all of whose descendants were anthropoids, so they form the clade called Anthropoidea. The "prosimians", on the other hand, form a paraphyletic taxon. The name Prosimii is not used in [[phylogenetic nomenclature]], which names only clades; the "prosimians" are instead divided between the clades [[Strepsirrhini|Strepsirhini]] and [[Haplorhini]], where the latter contains Tarsiiformes and Anthropoidea.
+
+==Terminology for character states==
+The following terms, coined by Hennig, are used to identify shared or distinct character states among groups:<ref name="Patterson 1982">{{harvnb|Patterson|1982|pp=21–74}}</ref><ref name="Patterson 1988">{{Harvnb|Patterson|1988}}</ref><ref name="de Pinna 1991">{{Harvnb|de Pinna|1991}}</ref>
+* {{anchor|plesiomorphy}} A '''[[plesiomorphy]]''' ("close form") or '''ancestral state''' is a character state that a taxon has retained from its ancestors. When two or more taxa that are not nested within each other share a plesiomorphy, it is a '''symplesiomorphy''' (from ''syn-'', "together"). Symplesiomorphies do not mean that the taxa that exhibit that character state are necessarily closely related. For example, Reptilia is traditionally characterized by (among other things) being [[Poikilotherm|cold-blooded]] (i.e. not maintaining a constant high body temperature), whereas birds are [[Homeothermy|warm-blooded]]. Since cold-bloodedness is a plesiomorphy, inherited from the common ancestor of traditional reptiles and birds, and thus a symplesiomorphy of turtles, snakes and crocodiles (among others), it does not mean that turtles, snakes and crocodiles form a clade that excludes the birds.
+* {{anchor|apomorphy}}{{anchor|synapomorphy}} An '''[[apomorphy]]''' ("separate form") or '''derived state''' is an innovation. It can thus be used to diagnose a clade – or even to help define a clade name in [[phylogenetic nomenclature]]. Features that are derived in individual taxa (a single species or a group that is represented by a single terminal in a given phylogenetic analysis) are called '''autapomorphies''' (from ''auto-'', "self").  Autapomorphies express nothing about relationships among groups; clades are identified (or defined) by '''synapomorphies''' (from ''syn-'', "together"). For example, the possession of [[Digit (anatomy)|digits]] that are [[Homology (biology)|homologous]] with those of ''Homo sapiens'' is a synapomorphy within the vertebrates.  The [[tetrapod]]s can be singled out as consisting of the first vertebrate with such digits homologous to those of ''Homo sapiens'' together with all descendants of this vertebrate (an apomorphy-based [[Phylogenetic nomenclature|phylogenetic definition]]).<ref name="LaurinAnderson2004">{{Harvnb|Laurin|Anderson|2004}}</ref> Importantly, snakes and other tetrapods that do not have digits are nonetheless tetrapods: other characters, such as amniotic eggs and diapsid skulls, indicate that they descended from ancestors that possessed digits which are homologous with ours.
+* A character state is '''homoplastic''' or "an instance of '''[[homoplasy]]'''" if it is shared by two or more organisms but is absent from their common ancestor or from a later ancestor in the lineage leading to one of the organisms. It is therefore inferred to have evolved by convergence or reversal. Both mammals and birds are able to maintain a high constant body temperature (i.e. they are warm-blooded). However, the accepted cladogram explaining their significant features indicates that their common ancestor is in a group lacking this character state, so the state must have evolved independently. Warm-bloodedness is separately a synapomorphy of mammals (or a larger clade) and of birds (or a larger clade), but it is not a synapomorphy of any group including both these clades.  Hennig's Auxiliary Principle <ref name="Hennig 1966">{{Harvnb|Hennig|1966}}</ref> states that shared character states should be considered evidence of grouping unless they are contradicted by the weight of other evidence; thus, homoplasy of some feature among members of a group may only be inferred after a phylogenetic hypothesis for that group has been established.
+
+The terms plesiomorphy and apomorphy are relative; their application depends on the position of a group within a tree. For example, when trying to decide whether the tetrapods form a clade, an important question is whether having four limbs is a synapomorphy of the earliest taxa to be included within Tetrapoda: did all the earliest members of the Tetrapoda inherit four limbs from a common ancestor, whereas all other vertebrates did not, or at least not homologously? By contrast, for a group within the tetrapods, such as birds, having four limbs is a plesiomorphy. Using these two terms allows a greater precision in the discussion of homology, in particular allowing clear expression of the hierarchical relationships among different homologous features.
+
+It can be difficult to decide whether a character state is in fact the same and thus can be classified as a synapomorphy which may identify a monophyletic group or whether it only appears to be the same and is thus a homoplasy which cannot identify such a group. There is a danger of circular reasoning: assumptions about the shape of a phylogenetic tree are used to justify decisions about character states, which are then used as evidence for the shape of the tree.<ref>{{Harvnb|James|Pourtless IV|2009|p=25}}: "Synapomorphies are invoked to defend the hypothesis; the hypothesis is invoked to defend the synapomorphies."</ref> [[Phylogenetics]] uses various forms of [[parsimony]] to decide such questions; the conclusions reached often depend on the dataset and the methods.  Such is the nature of empirical science, and for this reason, most cladists refer to their cladograms as hypotheses of relationship.  Cladograms that are supported by a large number and variety of different kinds of characters are viewed as more robust than those based on more limited evidence.
+
+==Terminology for taxa==
+Mono-, para- and polyphyletic taxa can be understood based on the shape of the tree (as done above), as well as based on their character states.<ref name="Patterson 1988"/><ref name="de Pinna 1991"/><ref>{{Harvnb|Patterson|1982}}</ref> These are compared in the table below.
+
+{| class="wikitable" border="1"
+|+
+! Term
+! Node-based definition
+! Character-based definition
+|- valign="top"
+| [[Monophyly]]
+| A [[clade]], a monophyletic taxon, is a taxon which includes all descendants of a particular ancestor.
+| A clade is characterized by one or more '''apomorphies''': derived character states present in the first member of the taxon, inherited by its descendants (unless secondarily lost), and not inherited by any other taxa.
+|- valign="top"
+| [[Paraphyly]]
+| A paraphyletic assemblage is one which is constructed by taking a clade and removing one or more smaller clades.<ref>Many sources give a verbal definition of 'paraphyletic' which does not require the missing groups to be monophyletic. However, when diagrams are presented representing paraphyletic groups, these invariably show the missing groups as monophyletic. See e.g.{{Harvnb|Wiley|Siegel-Causey|Brooks|Funk|1991|p=4}}.</ref> (Removing one clade produces a singly paraphyletic assemblage, removing two a doubly paraphylectic assemblage, and so on.<ref>{{Harvnb|Taylor|2003}}</ref>)
+| A paraphyletic assemblage is characterized by one or more '''plesiomorphies''': character states inherited from ancestors but not present in all of their descendants. As a consequence, a paraphyletic assemblage is truncated, in that it excludes one or more clades from an otherwise monophyletic taxon. An alternative name is ''[[evolutionary grade]]'', referring to an ancestral character state within the group.  While paraphyletic assemblages are popular among paleontologists and evolutionary taxonomists, cladists do not recognize paraphyletic assemblages as having any formal information content - they are merely parts of clades.
+|- valign="top"
+| [[Polyphyly]]
+| A polyphyletic assemblage is one which is neither monophyletic nor paraphyletic.
+| A polyphyletic assemblage is characterized by one or more '''[[Homoplasy|homoplasies]]''': character states which have converged or reverted so as to be the same but which have not been inherited from a common ancestor.  No systematist recognizes polyphyletic assemblages as taxonomically meaningful entities, although ecologists sometimes consider them meaningful labels for functional participants in ecological communities (e. g., primary producers, detritivores, etc.). 
+|}
+
+==Criticism==
+
+Cladistics, either generally or in specific applications, has been criticized from its beginnings. Decisions as to whether particular character states are [[Homology (biology)|homologous]], a precondition of their being synapomorphies, have been challenged as involving circular reasoning and subjective judgements.<ref name="AdraEdgeLieb02">{{Harvnb|Adrain|Edgecombe|Lieberman|2002|pp=56–57}}</ref>
+
+However,  homology is usually determined from analysis of the results which are evaluated with homology measures, mainly the CI (consistency index) and RI (retention index), which, it has been claimed{{by who?|date=October 2013}}, makes the process objective. Also, homology can be equated to synapomorphy, which is what Patterson has done.<ref>Forey, Peter et al. 1992. Cladistics,1st ed., p. 9, Oxford U. Press.</ref>
+
+==Application to disciplines other than biology==
+The comparisons used to acquire data on which [[cladograms]] can be based are not limited to the field of biology.<ref>{{Harvnb|Mace|Clare|Shennan|2005|p=1}}</ref> Any group of individuals or classes that are hypothesized to have a common ancestor, and to which a set of common characteristics may or may not apply, can be compared pairwise. Cladograms can be used to depict the hypothetical descent relationships within groups of items in many different academic realms. The only requirement is that the items have characteristics that can be identified and measured.
+
+Recent attempts to use cladistic methods outside of biology address the reconstruction of lineages in:
+* [[Cultural anthropology|Anthropology]] and [[archaeology]]:<ref>{{Harvnb|Lipo|O'Brien|Collard|Shennan|2006}}</ref> Cladistic methods have been used to reconstruct the development of cultures or artifacts using groups of cultural traits or artifact features.
+* [[Historical linguistics]]:<ref>{{Harvnb|Oppenheimer|2006|pp=290–300, 340–56}}</ref> Cladistic methods have been used to reconstruct the phylogeny of languages using linguistic features. This is similar to the traditional [[comparative method]] of historical linguistics, but is more explicit in its use of [[parsimony]] and allows much faster analysis of large datasets ([[computational phylogenetics]]).
+* [[Textual criticism]] or [[stemmatics]]:<ref name="Maas 2010"/><ref>{{Harvnb|Robinson|O’Hara|1996}}</ref> Cladistic methods have been used to reconstruct the phylogeny of manuscripts of the same work (and reconstruct the lost original) using distinctive copying errors as apomorphies. This differs from traditional historical-comparative linguistics in enabling the editor to evaluate and place in genetic relationship large groups of manuscripts with large numbers of variants that would be impossible to handle manually. It also enables [[Maximum parsimony (phylogenetics)|parsimony]] analysis of contaminated traditions of transmission that would be impossible to evaluate manually in a reasonable period of time.
+* [[Astrophysics]]<ref>{{Harvnb|Fraix-Burnet|Choler|Douzery|Verhamme|2006}}</ref> infers the history of relationships between galaxies to create branching diagram hypotheses of galaxy diversification.
+
+==See also==
+<div class="references-small">
+{{col-begin}}
+{{col-break|width=33%}}
+* [[Bioinformatics]]
+* [[Biomathematics]]
+* [[Coalescent theory]]
+* [[Common descent]]
+* [[Computational phylogenetics]]
+* [[Dendrogram]]
+* [[Language family]]
+* [[Last common ancestor]]
+{{col-break|width=33%}}
+* [[Maximum parsimony]]
+* [[Molecular phylogenetics]]
+* [[Patrocladogram]]
+* [[Phylogenetic comparative methods]]
+* [[Phylogenetic network]]
+* [[Phylogenetic nomenclature]]
+* [[Phylogenetics]]
+* [[List of phylogenetics software|Phylogenetics software]]
+{{col-break|width=33%}}
+* [[Phylogenomics]]
+* [[Phylogeography]]
+* [[Scientific classification]]
+* [[Stratocladistics]]
+* [[Systematics]]
+* [[Three-taxon analysis]]
+* [[Tree model]]
+* [[Tree structure]]
+{{col-end}}
+</div>
+
+==Notes and references==
+{{reflist|30em}}
+
+==Bibliography==
+<div class="references-small">
+* {{Citation |last=Adrain |first=Jonathan M. |last2=Edgecombe |first2=Gregory D. |last3=Lieberman |first3=Bruce S. |year=2002 |title=Fossils, Phylogeny, and Form: An Analytical Approach |publication-place=New York |publisher=Kluwer Academic |isbn=978-0-306-46721-9 |url=http://books.google.co.uk/books?id=fpnV7NTcnuAC&lpg=PR3&pg=PA56#v=onepage&q&f=false |accessdate=2012-08-15 |lastauthoramp=yes }}
+* {{Citation |last=Baron |first=C. |last2=Høeg |first2=J.T. |year=2005 |editor-last=Koenemann |editor-first=S. |editor2-last=Jenner |editor2-first=R.A. |contribution=Gould, Scharm and the paleontologocal perspective in evolutionary biology |title=Crustacea and Arthropod Relationships |pages=3–14 |publisher=CRC Press |isbn=978-0-8493-3498-6 |url=http://books.google.com/?id=LalmQ4346O0C&dq=Nielsen,+C.+2001+%22Animal+evolution%22+Chelicerata |accessdate=15 October 2008 |lastauthoramp=yes }}
+* {{Citation |last=Benton |first=M. J. |authorlink=Michael Benton |year=2000 |title=Stems, nodes, crown clades, and rank-free lists: is Linnaeus dead? |journal=Biological Reviews |volume=75 |issue=4 |pages=633–648 |url=http://palaeo.gly.bris.ac.uk/Benton/reprints/2000phylocode.pdf|doi=10.1111/j.1469-185X.2000.tb00055.x |pmid=11117201 }}
+* {{Citation |last=Benton |first=M. J.|authorlink=Michael Benton |year=2004 |title=Vertebrate Palaeontology |edition=3rd |publication-place=Oxford |publisher=Blackwell Science |isbn=978-0-632-05637-8 }}
+* {{Citation |last1=Brinkman |first1=Fiona S.L. |last2=Leipe |first2=Detlef D. |year=2001 |editor-last=Baxevanis |editor-first=Andreas D. |editor2-last=Ouellette |editor2-first=B.F. Francis |title=Phylogenetic analysis |encyclopedia=Bioinformatics: a practical guide to the analysis of genes and proteins |pages=323–358 |url=http://www.bioon.com/book/biology/Bioinformatics/chapter-14.pdf |accessdate=2013-10-19 |edition=2nd |lastauthoramp=yes }}
+* {{Citation | last=Cain | first=A. J. |last2=Harrison | first2 = G. A. |year=1960| title=Phyletic weighting |journal=Proceedings of the Zoological Society of London | volume=35 | pages=1–31 }}
+* {{Citation | last=Cuénot | first=Lucien | authorlink=Lucien Cuénot | year=1940 | title=Remarques sur un essai d'arbre généalogique du règne animal | journal=Comptes Rendus de l'Académie des Sciences de Paris | volume=210 | pages=23–27 | ref=harv | postscript=.}} Available free online at http://gallica.bnf.fr (No direct URL). This is the paper credited by {{Harvnb|Hennig|1979}} for the first use of the term 'clade'.
+* {{Citation | last=Dupuis | first=Claude | year=1984 | title=Willi Hennig's impact on taxonomic thought | journal=Annual Review of Ecology and Systematics |volume=15 |pages=1–24 |issn=0066-4162 |ref=CITEREFDupuis1984 | postscript=.}}
+* {{Citation |last=Farris |first=James S. |year = 1977 |contribution=On the phenetic approach to vertebrate classification |editor-last=Hecht |editor-first=M. K. |editor2-last=Goody |editor2-first=P. C.| editor3-last=Hecht |editor3-first=B. M.| title=Major Patterns in Vertebrate Evolution |pages=823–850 |publisher=Plenum, New York}}
+* {{Citation |last=Farris |first=James S. |year = 1979a |title=On the naturalness of phylogenetic classification |journal=Systematic Zoology |volume=28 |pages=200–214}}
+* {{Citation |last=Farris |first=James S. |year = 1979b |title=The information content of the phylogenetic system |journal=Systematic Zoology |volume=28 |pages=483–519}}
+* {{Citation |last=Farris |first=James S. |year = 1980 |title=The efficient diagnoses of the phylogenetic system |journal=Systematic Zoology |volume=29 |pages=386–401}}
+* {{Citation |last=Farris |first=James S. |year = 1983 |contribution=The logical basis of phylogenetic analysis |editor-last=Platnick |editor-first=Norman I. |editor2-last=Funk |editor2-first=Vicki A.| title=Advances in Cladistics, vol. 2 |pages=7–36 |publisher=Columbia University Press, New York}}
+* {{Citation |last=Fraix-Burnet |first=D. |last2=Choler |first2=P. |last3=Douzery |first3=E.J.P. |last4=Verhamme |first4=A. |year=2006 |title=Astrocladistics: A Phylogenetic Analysis of Galaxy Evolution II. Formation and Diversification of Galaxies |journal=Journal of Classification|volume=23 |issue=1 |pages=57–78 |doi=10.1007/s00357-006-0004-4 | ref=CITEREFFraix-Burnet2006|arxiv = astro-ph/0602580 |bibcode = 2006JClas..23...57F }}
+* {{Citation | last=Hennig | first=Willi | authorlink=Willi_Hennig | year=1966 | title=Phylogenetic systematics (tr. D. Dwight Davis and Rainer Zangerl) | publisher=Univ. of Illinois Press (reprinted 1979 and 1999) | location=Urbana, IL | isbn=0-252-06814-9 }}
+* {{Citation | last=Hennig | first=Willi | authorlink=Willi_Hennig | year=1975 | title='Cladistic analysis or cladistic classification?': a reply to Ernst Mayr | journal=Systematic Zoology | volume=24 |pages=244–256 | url=http://joelvelasco.net/teaching/systematics/Hennig%201974%20-%20Cladistic%20Analysis%20or%20Cladistic%20Classification.pdf |doi=10.2307/2412765 | issue=2 |ref=CITEREFHennig1975 |jstor=2412765 | postscript=,}} responding to {{harvnb|Mayr|1974}}.
+* {{Citation | last=Hennig | first=Willi | authorlink=Willi_Hennig | year=1999 | title=Phylogenetic systematics (3rd edition of 1966 book) | isbn=0-252-06814-9 | publisher=University of Illinois Press | location=Urbana |ref=CITEREFHennig1979}} Translated from manuscript in German eventually published in 1982 (Phylogenetische Systematik, Verlag Paul Parey, Berlin).
+* {{Citation |last=Hull |first=David |author-link=David Hull |year=1988 |title=Science as a Process |publisher=University of Chicago Press |isbn=978-0-226-36051-5 }}
+* {{Citation |last=James |first=Frances C. |last2=Pourtless IV |first2=John A. |year=2009 |title=Cladistics and the Origin of Birds: A Review and Two New Analyses|publisher=American Ornithologists' Union |isbn=978-0-943610-85-6 |url=http://www.bio.fsu.edu/James/Ornithological%20Monographs%202009.pdf |accessdate=14 December 2010|series=Ornithological Monographs, No. 66 |lastauthoramp=yes }}
+* {{Citation |last=Jerison |first=Harry J. |year=2003 |editor-last=Sternberg |editor-first=Robert J. |editor2-last=Kaufman |editor2-first=James C. |contribution=On Theory in Comparative Psychology |title=The Evolution of Intelligence |publication-place=Mahwah, NJ |publisher=Lawrence Erlbaum Associates, Inc. |isbn=0-12-385250-1 }}
+* {{Citation |last=Laurin |first=M. |last2=Anderson |first2=J. |year=2004 |title=Meaning of the Name Tetrapoda in the Scientific Literature: An Exchange |journal=Systematic Biology |volume=53 |issue=1 |pages=68–80 |doi=10.1080/10635150490264716 |url=http://sysbio.oxfordjournals.org/content/53/1/68.full.pdf |lastauthoramp=yes |pmid=14965901 }}
+* {{Citation |year=2006 |editor-last=Lipo |editor-first=Carl |editor2-last=O'Brien |editor2-first=Michael J. |editor3-last=Collard |editor3-first=Mark |editor4-last=Shennan |editor4-first=Stephen J. |title=Mapping Our Ancestors: Phylogenetic Approaches in Anthropology and Prehistory |publication-place=Piscataway |publisher=Transaction Publishers |isbn=978-0-202-30751-0 }}
+* {{Citation |last=Maas |first=Philipp |editor-last=Jürgen |editor-first=Hanneder |editor2-last=Maas |editor2-first=Philipp |location=Vienna|publisher=Austrian Academy of Sciences
+|contribution=Computer Aided Stemmatics — The Case of Fifty-Two Text Versions of Carakasasaṃhitā Vimānasthāna 8.67-157 |booktitle=Text Genealogy, Textual Criticism and Editorial Technique |pages=63–120
+|year=2010  |doi=10.1553/wzks2009-2010s63 |journal=Wiener Zeitschrift für die Kunde Südasiens |volume=52-53}}
+* {{Citation |year=2005 |editor-last=Mace |editor-first=Ruth |editor2-last=Clare |editor2-first=Clare J. |editor3-last=Shennan |editor3-first=Stephen |title=The Evolution of Cultural Diversity: A Phylogenetic Approach |publication-place=Portland |publisher=Cavendish Press |isbn=978-1-84472-099-6 }}
+* {{Citation |last=Mayr |first=Ernst |year=1974 |title=Cladistic analysis or cladistic classification? |journal=Zeitschrift fűr Zoologische Systematik und Evolutionforschung |volume=12 |pages=94–128 |url=http://courses.cit.cornell.edu/jdv55/teaching/systematics/mayr%2074%20-%20cladistic%20analysis%20or%20cladistic%20classification.pdf |accessdate=14 December 2010 |doi=10.1111/j.1439-0469.1974.tb00160.x }}
+* {{Citation | last=Mayr | first=Ernst | authorlink=Ernst Mayr | title=Evolution and the diversity of life (Selected essays) | year=1976 |publisher=Harvard University Press | location=Cambridge, MA | isbn=0-674-27105-X |ref=CITEREFMayr1976}} Reissued 1997 in paperback. Includes a reprint of Mayr's 1974 anti-cladistics paper at pp.&nbsp;433–476, "Cladistic analysis or cladistic classification." This is the paper to which {{harvnb|Hennig|1975}} is a response.
+* {{Citation|last=Mayr|first=Ernst |year=1978|title=Origin and history of some terms in systematic and evolutionary biology|journal=Systematic Zoology |volume=27|pages=83–88|ref=CITEREFMayr1978|doi=10.2307/2412818|issue=1|jstor=2412818|postscript=.}}
+* {{Citation | last=Mayr | first=Ernst | authorlink=Ernst Mayr | title=The growth of biological thought: diversity, evolution and inheritance | year=1982 |publisher=Harvard University Press | location=Cambridge, MA | isbn=0-674-36446-5 |ref=CITEREFMayr1982}}
+* {{Citation |last=Oppenheimer |first=Stephen |year=2006 |title=The Origins of the British |publication-place=London |publisher=Robinson |isbn=978-0-7867-1890-0 }}
+* {{Citation | last=Patterson | first=Colin | year=1982 | contribution=Morphological characters and homology | editor-last=Joysey |editor-first=Kenneth A|editor2-first=A. E. |editor2-last=Friday | title=Problems in Phylogenetic Reconstruction | publisher=Academic Press | location=London |series=Systematics Association Special Volume 21| isbn=0-12-391250-4|ref=CITEREFPatterson1982 | postscript=<!--None-->}}.
+* {{Citation |last=Patterson |first=Colin |year=1988 |title=Homology in classical and molecular biology |journal=Molecular Biology and Evolution |volume=5 |issue=6 |pages=603–625 |pmid=3065587 }}
+* {{Citation |last=de Pinna |first=M.G.G |year=1991 |title=Concepts and tests of homology in the cladistic paradigm |journal=Cladistics |volume=7 |pages=367–394 |doi=10.1111/j.1096-0031.1991.tb00045.x |issue=4 }}
+* {{Citation |last=de Queiroz |first=K. |last2=Gauthier |first2=J. |year=1992 |title=Phylogenetic taxonomy |journal=Annual Review of Ecology and Systematics|volume=23 |pages=449–480 |url=http://www.faculty.biol.ttu.edu/strauss/Phylogenetics/Readings/deQueirozGauthier1992.pdf |lastauthoramp=yes}}
+* {{Citation |last=Robinson |first=Peter M.W. |last2=O’Hara |first2=Robert J. |year=1996 |title=Cladistic analysis of an Old Norse manuscript tradition |journal=Research in Humanities Computing |volume=4 |pages=115–137 |url=http://rjohara.net/cv/1996-rhc |accessdate=13 December 2010 |lastauthoramp=yes }}
+* {{Citation |last=Schuh |first=Randall T. |last2=Brower |first2=Andrew V.Z. |year=2009 |title=Biological Systematics: Principles and Applications |edition=2nd |publisher=Cornell University Press |isbn=978-0-8014-4799-0 |lastauthoramp=yes }}
+* {{Citation |last=Taylor |first=Mike |year=2003 |title=What do terms like monophyletic, paraphyletic and polyphyletic mean? |url=http://www.miketaylor.org.uk/dino/faq/s-class/phyletic/ |accessdate=13 December 2010 }}
+* {{Citation |last=Tremblay |first=Frederic |year=2013 |title=Nicolai Hartmann and the Metaphysical Foundation of Phylogenetic Systematics |journal=Biological Theory |volume=7 |issue=1 |pages=56–68 |doi=10.1007/s13752-012-0077-8 }}
+* {{Citation |last=Weygoldt |first=P. |year=1998 |title=Evolution and systematics of the Chelicerata |journal=Experimental and Applied Acarology |volume=22 |issue=2 |pages=63–79 |doi=10.1023/A:1006037525704 |month=February }}
+* {{Citation |last=Wheeler |first=Quentin |year=2000 |title=Species Concepts and Phylogenetic Theory: A Debate |publisher=Columbia University Press |isbn=978-0-231-10143-1 }}
+* {{Citation |last=Wiley |first=E.O. |last2=Siegel-Causey |first2=D. |last3=Brooks |first3=D.R. |last4=Funk |first4=V.A. |year=1991 |contribution=Chapter 1 Introduction, terms and concepts |title=The Compleat Cladist: A Primer of Phylogenetic Procedures |publisher=The University of Kansas Museum of Natural History |isbn=978-0-89338-035-9 |url=http://www.amnh.org/learn/pd/fish_2/pdf/compleat_cladist.pdf |accessdate=13 December 2010 |lastauthoramp=yes }}
+* {{Citation |last=Williams |first=P.A. |year=1992 |title=Confusion in cladism |journal=Synthese |volume=01 |pages=135–132 |doi=10.1007/BF00484973 }}
+</div>
+
+==External links==
+{{Spoken Wikipedia|Cladistics.ogg|2005-04-30}}
+* [http://www.cladistics.org/ Willi Hennig Society]
+* [http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1096-0031 Cladistics] (scholarly journal of the Willi Hennig Society)
+* {{cite web|first=Allen G.|last=Collins|first2=Rob|last2=Guralnick|first3=Dave|last3=Smith|title=Journey into Phylogenetic Systematics|url=http://www.ucmp.berkeley.edu/clad/clad4.html|date=1994–2005|publisher=University of California Museum of Paleontology|accessdate=21 January 2010}}
+* {{cite web|first=Joe|last=Felsenstein|title=Phylogeny Programs|location=Seattle|publisher=University of Washington|accessdate=21 January 2010|url=http://evolution.gs.washington.edu/phylip/software.html}}
+* {{cite web|first=Dennis|last=O'Neil|date=1998–2008|title=Classification of Living Things|location=San Marcos CA|publisher=Palomar College|accessdate=21 January 2010|url=http://anthro.palomar.edu/animal/default.htm}}
+* {{cite web|first=Peter|last=Robinson|first2=Robert J.|last2=O'Hara|title=Report on the Textual Criticism Challenge 1991|year=1992|publisher=rjohara.net|url=http://rjohara.net/darwin/files/bmcr|accessdate=21 January 2010}}
+* {{cite web|first=Douglas|last=Theobald|date=1999–2004|title=Phylogenetics Primer|url=http://www.talkorigins.org/faqs/comdesc/phylo.html|publisher=The TalkOrigins Archive|accessdate=21 January 2010}}
+
+{{Phylogenetics}}
+
+[[Category:Phylogenetics]]
+[[Category:Evolutionary biology]]
+[[Category:Zoology]]
+[[Category:Philosophy of biology]]
+
+{{Link GA|uk}}

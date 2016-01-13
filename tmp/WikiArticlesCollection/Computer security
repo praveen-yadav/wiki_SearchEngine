@@ -1,0 +1,275 @@
+{{About|computer security through design and engineering|computer security exploits and defenses|computer insecurity}}
+{{Refimprove|date=September 2010}}
+{{Computer security}}
+
+'''Computer security '''(Also known as cybersecurity or IT Security) is [[information security]] as applied to [[computer]]s and networks.
+
+The field covers all the processes and mechanisms by which computer-based equipment, information and services are protected from unintended or unauthorized access, change or destruction. Computer security also includes protection from unplanned events and natural disasters.
+
+== Security by design ==
+{{Main|Security by design}}
+
+One way to think of computer security is to reflect security as one of the main features
+
+Some of the techniques in this approach include:
+* The [[principle of least privilege]], where each part of the system has only the privileges that are needed for its function. That way even if an [[attacker]] gains access to that part, they have only limited access to the whole system.
+* [[Automated theorem proving]] to prove the correctness of crucial software subsystems.
+* [[Code review]]s and [[unit testing]] are approaches to make modules more secure where formal correctness proofs are not possible.
+* [[Defense in depth (computing)|Defense in depth]], where the design is such that more than one subsystem needs to be violated to compromise the integrity of the system and the information it holds.
+* Default secure settings, and design to "fail secure" rather than "fail insecure" (see [[fail-safe]] for the equivalent in [[safety engineering]]). Ideally, a secure system should require a deliberate, conscious, knowledgeable and free decision on the part of legitimate authorities in order to make it insecure.
+* [[Audit trail]]s tracking system activity, so that when a security breach occurs, the mechanism and extent of the breach can be determined. Storing audit trails remotely, where they can only be appended to, can keep intruders from covering their tracks.
+* [[Full disclosure]] to ensure that when bugs are found the "[[vulnerability (computing)|window of vulnerability]]" is kept as short as possible.
+
+== Security architecture ==
+Security Architecture can be defined as the design artifacts that describe how the security controls (security countermeasures) are positioned, and how they relate to the overall information technology architecture. These controls serve to maintain the system's quality attributes: [[confidentiality]], [[integrity]], [[availability]], [[accountability]] and [[assurance services]].<ref>[http://opensecurityarchitecture.com Definitions: IT Security Architecture]. SecurityArchitecture.org, Jan, 2006</ref>
+
+== Hardware mechanisms that protect computers and data ==
+{{see also|Computer security compromised by hardware failure}}
+While hardware may be a source of insecurity,<ref>[http://www.scientificamerican.com/article.cfm?id=the-hacker-in-your-hardware ''The Hacker in Your Hardware: The Next Security Threat''] August 4, 2010 [[Scientific American]]</ref><ref>{{Citation| last1 = Waksman  | first1 = Adam | last2 = Sethumadhavan | first2 = Simha | title = Tamper Evident Microprocessors  | volume = | pages =  | periodical = Proceedings of the IEEE Symposium on Security and Privacy | location = Oakland, California  | url = http://www.cs.columbia.edu/~waksman/PDFs/Oakland_2010.pdf | year = 2010  | issn =  | doi =  | isbn = }}</ref> hardware based or assisted computer security also offers an alternative to software-only computer security. Devices such as [[dongle]]s, [[trusted platform module]]s, case intrusion detection, drive locks, disabling USB ports, and other hardware may be considered more secure due to the physical access (or sophisticated backdoors) required in order to be compromised.
+
+== Secure operating systems ==
+{{Main|Security-focused operating system}}
+One use of the term "computer security" refers to technology that is used to implement secure [[operating system]]s. Much of this technology is based on science developed in the 1980s and used to produce what may be some of the most impenetrable operating systems ever. Though still valid, the technology is in limited use today, primarily because it imposes some changes to system management and also because it is not widely understood. Such ultra-strong secure operating systems are based on [[operating system kernel]] technology that can guarantee that certain security policies are absolutely enforced in an operating environment. An example of such a [[Computer security policy]] is the [[Bell-LaPadula model]]. The strategy is based on a coupling of special [[microprocessor]] hardware features, often involving the [[memory management unit]], to a special correctly implemented operating system kernel. This forms the foundation for a secure operating system which, if certain critical parts are designed and implemented correctly, can ensure the absolute impossibility of penetration by hostile elements. This capability is enabled because the configuration not only imposes a security policy, but in theory completely protects itself from corruption. Ordinary operating systems, on the other hand, lack the features that assure this maximal level of security. The design methodology to produce such secure systems is precise, deterministic and logical.
+
+Systems designed with such methodology represent the state of the art{{Clarify|date=February 2009}}<!--WHAT ART?--> of computer security although products using such security are not widely known. In sharp contrast to most kinds of software, they meet specifications with verifiable certainty comparable to specifications for size, weight and power. Secure operating systems designed this way are used primarily to protect national security information, military secrets, and the data of international financial institutions. These are very powerful security tools and very few secure operating systems have been certified at the highest level ([[Trusted Computer System Evaluation Criteria|Orange Book]] A-1) to operate over the range of "Top Secret" to "unclassified" (including Honeywell SCOMP, USAF SACDIN, NSA Blacker and Boeing MLS LAN.) The assurance of security depends not only on the soundness of the design strategy, but also on the assurance of correctness of the implementation, and therefore there are degrees of security strength defined for COMPUSEC. The [[Common Criteria]] quantifies security strength of products in terms of two components, security functionality and assurance level (such as EAL levels), and these are specified in a [[Protection Profile]] for requirements and a [[Security Target]] for product descriptions. None of these ultra-high assurance secure general purpose operating systems have been produced for decades or certified under Common Criteria.
+
+In USA parlance, the term High Assurance usually suggests the system has the right security functions that are implemented robustly enough to protect DoD and DoE classified information. Medium assurance suggests it can protect less valuable information, such as income tax information. Secure operating systems designed to meet medium robustness levels of security functionality and assurance have seen wider use within both government and commercial markets. Medium robust systems may provide the same security functions as high assurance secure operating systems but do so at a lower assurance level (such as Common Criteria levels EAL4 or EAL5). Lower levels mean we can be less certain that the security functions are implemented flawlessly, and therefore less dependable. These systems are found in use on web servers, guards, database servers, and management hosts and are used not only to protect the data stored on these systems but also to provide a high level of protection for network connections and routing services.
+
+== Secure coding ==
+{{Main|Secure coding}}
+If the operating environment is not based on a secure operating system capable of maintaining a domain for its own execution, and capable of protecting application code from malicious subversion, and capable of protecting the system from subverted code, then high degrees of security are understandably not possible. While such secure operating systems are possible and have been implemented, most commercial systems fall in a 'low security' category because they rely on features not supported by secure operating systems (like portability, and others). In low security operating environments, applications must be relied on to participate in their own protection. There are 'best effort' secure coding practices that can be followed to make an application more resistant to malicious subversion.
+
+In commercial environments, the majority of software subversion [[vulnerability (computing)|vulnerabilities]] result from a few known kinds of coding defects. Common software defects include [[buffer overflows]], [[format string vulnerabilities]], [[integer overflow]], and [[Code injection|code/command injection]]. These defects can be used to cause the target system to execute putative data. However, the "data" contain executable instructions, allowing the attacker to gain control of the processor.
+
+Some common languages such as C and C++ are vulnerable to all of these defects (see Seacord, ''"Secure Coding in C and C++"'').<ref>{{cite web|url=http://www.cert.org/books/secure-coding |title=Secure Coding in C and C++, Second Edition |publisher=Cert.org |date= |accessdate=2013-09-25}}</ref>  Other languages, such as Java, are more resistant to some of these defects, but are still prone to code/command injection and other software defects which facilitate subversion.
+
+Recently another bad coding practice has come under scrutiny; [[dangling pointer]]s. The first known exploit for this particular problem was presented in July 2007. Before this publication the problem was known but considered to be academic and not practically exploitable.<ref>[http://searchsecurity.techtarget.com/originalContent/0,289142,sid14_gci1265116,00.html New hacking technique exploits common programming error]. SearchSecurity.com, July 2007</ref>
+
+Unfortunately, there is no theoretical model of "secure coding" practices, nor is one practically achievable, insofar as the code (ideally, read-only) and data (generally read/write) generally tends to have some form of defect.
+
+== Capabilities and access control lists ==
+{{Main|Access control list|Capability (computers)}}
+Within computer systems, two security models capable of enforcing privilege separation are [[access control list]]s (ACLs) and [[capability-based security]]. The semantics of ACLs have been proven to be insecure in many situations, for example, the [[confused deputy problem]]. It has also been shown that the promise of ACLs of giving access to an object to only one person can never be guaranteed in practice. Both of these problems are resolved by capabilities. This does not mean practical flaws exist in all ACL-based systems, but only that the designers of certain utilities must take responsibility to ensure that they do not introduce flaws.{{Citation needed|date=August 2010}}
+
+Capabilities have been mostly restricted to research [[operating system]]s and commercial OSs still use ACLs. Capabilities can, however, also be implemented at the language level, leading to a style of programming that is essentially a refinement of standard object-oriented design. An open source project in the area is the [[E programming language|E language]].
+
+The most secure computers are those not connected to the Internet and shielded from any interference. In the real world, the most secure systems are [[operating system]]s where [[security]] is not an add-on.
+
+== Applications ==
+Computer security is critical in almost any technology-driven industry which operates on computer systems. The issues of computer based systems and addressing their countless vulnerabilities are an integral part of maintaining an operational industry.<ref name="FAA Computer Security">J. C. Willemssen, "FAA Computer Security". GAO/T-AIMD-00-330. Presented at Committee on Science, House of Representatives, 2000.</ref>
+
+=== Cloud computing security ===
+Security in the cloud is challenging,{{citation needed|date=December 2010}} due to varied degrees of security features and management schemes within the cloud entities. In this connection one logical protocol base needs to evolve so that the entire gamut of components operates synchronously and securely.{{or|date=December 2010}}
+
+=== Aviation ===
+The aviation industry is especially important when analyzing computer security because the involved risks include human life, expensive equipment, cargo, and transportation infrastructure. Security can be compromised by hardware and software malpractice, human error, and faulty operating environments. Threats that exploit computer vulnerabilities can stem from sabotage, espionage, industrial competition, terrorist attack, mechanical malfunction, and human error.<ref name="Computer Security in Aviation">P. G. Neumann, "Computer Security in Aviation," presented at International Conference on Aviation Safety and Security in the 21st Century, White House Commission on Safety and Security, 1997.</ref>
+
+The consequences of a successful deliberate or inadvertent misuse of a computer system in the aviation industry range from loss of confidentiality to loss of system integrity, which may lead to more serious concerns such as data theft or loss, network and [[air traffic control]] outages, which in turn can lead to airport closures, loss of aircraft, loss of passenger life. [[Military]] systems that control munitions can pose an even greater risk.
+
+A proper attack does not need to be very high tech or well funded; for a power outage at an airport alone can cause repercussions worldwide.<ref>J. Zellan, Aviation Security. Hauppauge, NY: Nova Science, 2003, pp. 65–70.</ref> One of the easiest and, arguably, the most difficult to trace security vulnerabilities is achievable by transmitting unauthorized communications over specific radio frequencies. These transmissions may spoof air traffic controllers or simply disrupt communications altogether. These incidents are very common, having altered flight courses of commercial aircraft and caused panic and confusion in the past.{{Citation needed|date=April 2009}} Controlling aircraft over oceans is especially dangerous because radar surveillance only extends 175 to 225 miles offshore. Beyond the radar's sight controllers must rely on periodic radio communications with a third party.
+
+Lightning, power fluctuations, surges, [[Brownout (electricity)|brownout]]s, blown fuses, and various other power outages instantly disable all computer systems, since they are dependent on an electrical source. Other accidental and intentional faults have caused significant disruption of safety critical systems throughout the last few decades and dependence on reliable communication and electrical power only jeopardizes computer safety.{{Citation needed|date=April 2009}}
+
+==== Notable system accidents ====
+In 1994, over a hundred intrusions were made by unidentified crackers into the Rome Laboratory, the US Air Force's main command and research facility. Using [[trojan horse (computing)|trojan horses]], hackers were able to obtain unrestricted access to Rome's networking systems and remove traces of their activities. The intruders were able to obtain classified files, such as air tasking order systems data and furthermore able to penetrate connected networks of [[National Aeronautics and Space Administration]]'s Goddard Space Flight Center, Wright-Patterson Air Force Base, some Defense contractors, and other private sector organizations, by posing as
+a trusted Rome center user.<ref>[http://www.fas.org/irp/gao/aim96084.htm Information Security]. United States Department of Defense, 1986</ref>
+
+==Cybersecurity breach stories==
+One true story that shows what mainstream [[generative programming|generative]] technology leads to in terms of online security breaches is the story of the Internet's first [[Computer worm|worm]].
+
+In 1988, 60,000 computers were connected to the Internet, but not all of them were PCs. Most were mainframes, minicomputers and professional workstations. On November 2, 1988, the computers acted strangely. They started to slow down, because they were running a malicious code that demanded processor time and that spread itself to other computers. The purpose of such software was to transmit a copy to the machines and run in parallel with existing software and repeat all over again. It exploited a flaw in a common e-mail transmission program running on a computer by rewriting it to facilitate its entrance or it guessed users' password, because, at that time, passwords were simple (e.g. username 'harry' with a password '...harry') or were obviously related to a list of 432 common passwords tested at each computer.<ref name="multiple">Jonathan Zittrain, 'The Future of The Internet', Penguin Books, 2008</ref>
+
+The software was traced back to 23 year old [[Cornell University]] graduate student [[Robert Tappan Morris, Jr.]]. When questioned about the motive for his actions, Morris said 'he wanted to count how many machines were connected to the Internet'.<ref name="multiple" /> His explanation was verified with his code, but it turned out to be buggy, nevertheless.
+
+==Computer security policy==
+{{globalize|section|date=December 2010}}
+
+===United States===
+(See also [[Cyber security standards|Cybersecurity Standards]])
+
+====Cybersecurity Act of 2010====
+On July 1, 2009, Senator [[Jay Rockefeller]] (D-WV) introduced the "Cybersecurity Act of 2009 - S. 773"<ref>{{cite web|url=http://www.opencongress.org/bill/111-s773/text |title=Text of S.773 as Reported in Senate: Cybersecurity Act of 2009 - U.S. Congress |publisher=OpenCongress |date= |accessdate=2013-09-25}}</ref> in the [[United States Senate|Senate]]; the bill, co-written with Senators [[Evan Bayh]] (D-IN), [[Barbara Mikulski]] (D-MD), [[Bill Nelson]] (D-FL), and [[Olympia Snowe]] (R-ME), was referred to the [[Committee on Commerce, Science, and Transportation]], which approved a revised version of the same bill (the "Cybersecurity Act of 2010") on March 24, 2010.<ref name="computerworldapproval">[http://www.computerworld.com/s/article/9174065/Cybersecurity_bill_passes_first_hurdle Cybersecurity bill passes first hurdle], Computer World, March 24, 2010. Retrieved on June 26, 2010.</ref> The bill seeks to increase collaboration between the public and the private sector on cybersecurity issues, especially those private entities that own infrastructures that are critical to national security interests (the bill quotes [[John O. Brennan|John Brennan]], the Assistant to the President for Homeland Security and Counterterrorism: "our nation’s security and economic prosperity depend on the security, stability, and integrity of communications and [[information infrastructure]] that are largely privately owned and globally operated" and talks about the country's response to a "cyber-[[Hurricane Katrina|Katrina]]"),<ref name="cybersecurity2010">[http://www.opencongress.org/bill/111-s773/text Cybersecurity Act of 2009], OpenCongress.org, April 1, 2009. Retrieved on June 26, 2010.</ref> increase public awareness on cybersecurity issues, and foster and fund cybersecurity research. Some of the most controversial parts of the bill include Paragraph 315, which grants the [[President of the United States|President]] the right to "order the limitation or shutdown of Internet traffic to and from any compromised Federal Government or United States critical infrastructure information system or network."<ref name="cybersecurity2010"/> The [[Electronic Frontier Foundation]], an international [[non-profit]] [[digital rights]] advocacy and legal organization based in the [[United States]], characterized the bill as promoting a "potentially dangerous approach that favors the dramatic over the sober response".<ref name="notsober">{{cite web |url=http://www.eff.org/deeplinks/2009/04/cybersecurity-act |title=Federal Authority Over the Internet? The Cybersecurity Act of 2009 |publisher= Eff.org |date=April 10, 2009 |accessdate=June 26, 2010}}</ref>
+
+====International Cybercrime Reporting and Cooperation Act====
+On March 25, 2010, Representative [[Yvette Clarke]] (D-NY) introduced the "International Cybercrime Reporting and Cooperation Act - H.R.4962"<ref>{{cite web|url=http://www.opencongress.org/bill/111-h4962/text |title=Text of H.R.4962 as Introduced in House: International Cybercrime Reporting and Cooperation Act - U.S. Congress |publisher=OpenCongress |date= |accessdate=2013-09-25}}</ref> in the [[United States House of Representatives|House of Representatives]]; the bill, co-sponsored by seven other representatives (among whom only one [[Republican Party (United States)|Republican]]), was referred to three [[United States congressional committee|House committees]].<ref name="reportingandcooperation">[http://www.opencongress.org/bill/111-h4962/show H.R.4962 - International Cybercrime Reporting and Cooperation Act], OpenCongress.org. Retrieved on June 26, 2010.</ref> The bill seeks to make sure that the administration keeps [[United States Congress|Congress]] informed on information infrastructure, [[cybercrime]], and end-user protection worldwide. It also "directs the President to give priority for assistance to improve legal, judicial, and enforcement capabilities with respect to cybercrime to countries with low information and communications technology levels of development or utilization in their critical infrastructure, telecommunications systems, and financial industries"<ref name="reportingandcooperation"/> as well as to develop an action plan and an annual compliance assessment for countries of "cyber concern".<ref name="reportingandcooperation"/>
+
+====Protecting Cyberspace as a National Asset Act of 2010====
+On June 19, 2010, [[United States Senate|United States Senator]] [[Joe Lieberman]] (I-CT) introduced a bill called "Protecting Cyberspace as a National Asset Act of 2010 - S.3480"<ref>http://hsgac.senate.gov/public/index.cfm?FuseAction=Files.View&FileStore_id=4ee63497-ca5b-4a4b-9bba-04b7f4cb0123</ref> which he co-wrote with Senator [[Susan Collins]] (R-ME) and Senator [[Thomas Carper]] (D-DE). If signed into law, this controversial bill, which the American media dubbed the "''[[Kill switch#Cybersecurity policy|Kill switch bill]]''", would grant the [[President of the United States|President]] emergency powers over the Internet. However, all three co-authors of the bill issued a statement claiming that instead, the bill "[narrowed] existing broad Presidential authority to take over telecommunications networks".<ref name="nokillswitch">{{cite web |url=http://www.informationweek.com/news/government/security/showArticle.jhtml?articleID=225701368&subSection=News |title=Senators Say Cybersecurity Bill Has No Kill Switch |publisher= Informationweek.com |date=June 24, 2010 |accessdate=June 25, 2010}}</ref>
+
+====White House proposes cybersecurity legislation====
+On May 12, 2011, the White House sent Congress a proposed cybersecurity law designed to force companies to do more to fend off cyberattacks, a threat that has been reinforced by recent reports about vulnerabilities in systems used in power and water utilities.<ref>Declan McCullagh, CNET. "[http://news.cnet.com/8301-31921_3-20062277-281.html?part=rss&subj=news&tag=2547-1_3-0-20 White House proposes cybersecurity legislation]." May 12, 2011. Retrieved May 12, 2011.</ref>
+
+[[Executive order]] [[s:Executive Order 13636|13636]] ''Improving Critical Infrastructure Cybersecurity'' was signed February 12, 2013.
+
+===Germany===
+
+====Berlin starts National Cyber Defense Initiative====
+On June 16, 2011, the German Minister for Home Affairs, officially opened the new German NCAZ (National Center for Cyber Defense) [[National Cyberdefence Centre|Nationales Cyber-Abwehrzentrum]], which is located in Bonn. The NCAZ closely cooperates with BSI (Federal Office for Information Security) [[Federal Office for Information Security|Bundesamt für Sicherheit in der Informationstechnik]], BKA (Federal Police Organisation) [[Federal Criminal Police Office (Germany)|Bundeskriminalamt (Deutschland)]], BND (Federal Intelligence Service) [[Bundesnachrichtendienst]], MAD (Military Intelligence Service) [[Militärischer Abschirmdienst|Amt für den Militärischen Abschirmdienst]] and other national organisations in Germany taking care of national security aspects. According to the Minister the primary task of the new organisation founded on February 23, 2011, is to detect and prevent attacks against the national infrastructure and mentioned incidents like [[Stuxnet]].
+
+===South Korea===
+Following cyberattacks in the first half of 2013, whereby government, news-media, television station, and bank websites were compromised, the national government committed to the training of 5,000 new cybersecurity experts by 2017. The South Korean government blamed its northern counterpart on these attacks, as well as incidents that occurred in 2009, 2011, and 2012, but Pyongyang denies the accusations.<ref name="Jun">{{cite news|title=Seoul Puts a Price on Cyberdefense|url=http://blogs.wsj.com/korearealtime/2013/09/23/seoul-puts-a-price-on-cyberdefense/|accessdate=24 September 2013|newspaper=Wall Street Journal|date=23 September 2013|author=Kwanwoo Jun|agency=Dow Jones & Company, Inc}}</ref>
+
+Seoul, March 7, 2011 - South Korean police have contacted 35 countries to ask for cooperation in tracing the origin of a massive cyber attack on the Web sites of key government and financial institutions, amid a nationwide cyber security alert issued against further threats.
+The Web sites of about 30 key South Korean government agencies and financial institutions came under a so-called distributed denial-of-service (DDoS) attack for two days from Friday, with about 50,000 "zombie" computers infected with a virus seeking simultaneous access to selected sites and swamping them with traffic.
+As soon as the copies of overseas servers are obtained, the cyber investigation unit will analyse the data to track down the origin of the attacks made from countries, including the United States, Russia, Italy and Israel, the NPA noted.<ref name =<ref name="South Korean news agency Yonhap">{{cite news|title=South Korea seeks global support in cyber attack probe|accessdate=27 October 2013|newspaper=BBC Monitoring Asia Pacific|date=7 March 2011}}</ref>
+
+In late September 2013, a computer-security competition jointly sponsored by the defense ministry and the National Intelligence Service was announced. The winners will be announced on September 29, 2013 and will share a total prize pool of 80 million won ([[United States dollar|US$]]74,000).<ref name="Jun" />
+
+==Hacking back==
+There has been a significant debate regarding the legality of hacking back against digital attackers (who attempt to or successfully breach an individual's, entity's, or nation's computer). The arguments for such counter-attacks are based on notions of equity, active defense, vigilantism, and the [[Computer Fraud and Abuse Act]] (CFAA). The arguments against the practice are primarily based on the legal definitions of "intrusion" and "unauthorized access", as defined by the CFAA. As of October 2012, the debate is ongoing.<ref>{{cite web|title=Hacking Back - are you authorized? A discussion of whether it's an invitation to federal prison or a justified reaction/strategy?|url=http://www.cybercrimereview.com/2012/10/hacking-back-are-you-authorized.html|work=Cybercrime Review|publisher=Cybercrime Review|accessdate=24 September 2013|author=Justin P. Webb|date=16 October 2012}}</ref>
+
+==Social engineering==
+In the world of Information Technology there are different types of cyber-attack like code injection to a website or utilising malware (malicious software) such as virus, trojans, or similar. These kind of attacks are counteracted managing or improving the damaged product. But there is one last type, Social Engineering, which does not affects directly the pc´s but the users also known as “the weakest link”. This type of attack is able to reach similar results to other class of cyber attack, it goes through the infrastructure established to resist malicious software. Since it is more difficult to calculate or prevent, it is a more efficient assault.
+
+The main target is to convince the user by means of psychological ways to disclose his or her personal information such as passwords, card numbers, etc. by impersonating the services company or the bank for example.<ref>{{cite web|last=Arcos Sergio|title=Social Engineering|url=http://upcommons.upc.edu/pfc/bitstream/2099.1/12289/1/73827.pdf}}</ref>
+
+== Terminology ==
+{{cleanup|section|date=November 2010}}
+The following terms used in engineering secure systems are explained below.
+* [[Authentication]] techniques can be used to ensure that communication end-points are who they say they are.
+* [[Automated theorem proving]] and other verification tools can enable critical algorithms and code used in secure systems to be mathematically proven to meet their specifications.
+* [[Capability (computers)|Capability]] and [[access control list]] techniques can be used to ensure privilege separation and mandatory access control. [[Computer security#Capabilities vs. ACLs|This section]] discusses their use.
+* [[Chain of trust]] techniques can be used to attempt to ensure that all software loaded has been certified as authentic by the system's designers.
+* [[Cryptography|Cryptographic]] techniques can be used to defend data in transit between systems, reducing the probability that data exchanged between systems can be intercepted or modified.
+* [[Firewall (computing)|Firewall]]s can provide some protection from online intrusion.
+
+* A [[Microkernel#Microkernel|microkernel]] is a carefully crafted, deliberately small corpus of software that underlies the operating system ''per se'' and is used solely to provide very low-level, very precisely defined primitives upon which an operating system can be developed. A simple example with considerable didactic value is the early '90s GEMSOS (Gemini Computers), which provided extremely low-level primitives, such as "segment" management, atop which an operating system could be built. The theory (in the case of "segments") was that&mdash;rather than have the operating system itself worry about mandatory access separation by means of military-style labeling&mdash;it is safer if a low-level, independently scrutinized module can be charged '''solely''' with the management of individually labeled segments, be they memory "segments" or file system "segments" or executable text "segments." If software below the visibility of the operating system is (as in this case) charged with labeling, there is no theoretically viable means for a clever hacker to subvert the labeling scheme, since the operating system ''per se'' does '''not''' provide mechanisms for interfering with labeling: the operating system is, essentially, a client (an "application," arguably) atop the microkernel and, as such, subject to its restrictions.
+
+* [[Endpoint security]] software helps networks to prevent data theft and virus infection through portable storage devices, such as USB drives.
+
+* [[Confidentiality]] is the nondisclosure of information except to another authorized person.<ref>{{cite web|title=Confidentiality|url=http://medical-dictionary.thefreedictionary.com/confidentiality|accessdate=2011-10-31}}</ref>
+
+* [[Data integrity]] is the accuracy and consistency of stored data, indicated by an absence of any alteration in data between two updates of a data record.<ref>{{cite web|title=Data Integrity|url=http://www.businessdictionary.com/definition/data-integrity.html|accessdate=2011-10-31}}</ref>
+
+''Some of the following items may belong to the [[computer insecurity]] article:''
+<div id="unpatched"></div> <!-- the previous div tag is needed by some articles that link to that part of the article -->
+
+* Access [[authorization]] restricts access to a computer to group of users through the use of [[authentication]] systems. These systems can protect either the whole computer – such as through an interactive [[login]] screen – or individual services, such as an [[File Transfer Protocol|FTP]] server. There are many methods for identifying and authenticating users, such as [[password]]s, [[identification card]]s, and, more recently, [[smart card]]s and [[biometric]] systems.
+* [[Anti-virus software]] consists of computer programs that attempt to identify, thwart and eliminate [[computer viruses]] and other malicious software ([[malware]]).
+* [[Application software|Applications]] with known security flaws should not be run. Either leave it turned off until it can be patched or otherwise fixed, or delete it and replace it with some other application. Publicly known flaws are the main entry used by [[Computer worm|worms]] to automatically break into a system and then spread to other systems connected to it. The security website [[Secunia]] provides a search tool for unpatched known flaws in popular products.
+* [[Backup]]s are a way of securing information; they are another copy of all the important computer files kept in another location. These files are kept on hard disks, [[CD-R]]s, [[CD-RW]]s, and [[Magnetic tape data storage|tapes]]. Suggested locations for backups are a fireproof, waterproof, and heat proof safe, or in a separate, offsite location than that in which the original files are contained. Some individuals and companies also keep their backups in [[safe deposit box]]es inside [[bank vault]]s. There is also a fourth option, which involves using one of the [[file hosting service]]s that backs up files over the [[Internet]] for both business and individuals.
+** Backups are also important for reasons other than security. Natural disasters, such as earthquakes, hurricanes, or tornadoes, may strike the building where the computer is located. The building can be on fire, or an explosion may occur. There needs to be a recent backup at an alternate secure location, in case of such kind of disaster. Further, it is recommended that the alternate location be placed where the same disaster would not affect both locations. Examples of alternate disaster recovery sites being compromised by the same disaster that affected the primary site include having had a primary site in [[World Trade Center]] I and the recovery site in [[7 World Trade Center]], both of which were destroyed in the [[9/11]] attack, and having one's primary site and recovery site in the same coastal region, which leads to both being vulnerable to hurricane damage (for example, primary site in New Orleans and recovery site in [[Jefferson Parish]], both of which were hit by [[Hurricane Katrina]] in 2005). The backup media should be moved between the geographic sites in a secure manner, in order to prevent them from being stolen.
+[[File:Encryption - decryption.svg|thumb|300px|[[Cryptography|Cryptographic]] techniques involve transforming information, scrambling it so it becomes unreadable during transmission. The intended recipient can unscramble the message, but eavesdroppers cannot, ideally.]]
+* [[Encryption]] is used to protect the message from the eyes of others. [[Cryptography|Cryptographically]] secure [[cipher]]s are designed to make any practical attempt of [[cryptanalysis|breaking]] infeasible. [[symmetric-key algorithm|Symmetric-key]] ciphers are suitable for bulk encryption using [[shared key]]s, and [[public-key encryption]] using [[digital certificate]]s can provide a practical solution for the problem of securely communicating when no key is shared in advance.
+* [[Firewall (networking)|Firewalls]] are an important method for control and security on the Internet and other networks. A network firewall can be  a communications processor, typically a router, or a dedicated server, along with firewall software. A firewall serves as a gatekeeper system that protects a company's intranets and other computer networks from intrusion by providing a filter and safe transfer point for access to and from the Internet and other networks. It screens all network traffic for proper passwords or other security codes and only allows authorized transmission in and out of the network. Firewalls can deter, but not completely prevent, unauthorized access (hacking) into computer networks.   
+* [[Honeypot (computing)|Honey pots]] are computers that are either intentionally or unintentionally left vulnerable to attack by crackers. They can be used to catch crackers or fix vulnerabilities.
+* [[Intrusion-detection system]]s can scan a network for people that are on the network but who should not be there or are doing things that they should not be doing, for example trying a lot of passwords to gain access to the network.
+* [[Ping (networking utility)|Ping]]ing The ping application can be used by potential crackers to find if an IP address is reachable. If a cracker finds a computer, they can try a port scan to detect and attack services on that computer.
+* [[Social engineering (computer security)|Social engineering]] awareness keeps employees aware of the dangers of social engineering and/or having a policy in place to prevent social engineering can reduce successful breaches of the network and servers.
+
+==Legal issues and global regulation==
+Some of the main challenges and complaints about the antivirus industry are the lack of global web regulations, a global base of common rules to judge, and eventually punish, [[cyber crimes]] and [[cyber criminals]]. In fact, nowadays, even if an antivirus firm locates the cyber criminal behind the creation of a particular [[Virus (computer)|virus]] or piece of [[malware]] or again one form of [[Cyber-Attacks|cyber attack]], often the local authorities cannot take action due to lack of laws under which to prosecute.<ref name="ted.com">{{cite web|title=Mikko Hypponen: Fighting viruses, defending the net|url=http://www.ted.com/talks/mikko_hypponen_fighting_viruses_defending_the_net.html|publisher=TED}}</ref><ref>{{cite web|title=Mikko Hypponen - Behind Enemy Lines |url=https://www.youtube.com/watch?v=0TMFRO66Wv4|publisher=Hack In The Box Security Conference}}</ref> This is mainly caused by the fact that mostly every country has their own regulations regarding [[cyber crimes]].
+
+"[Computer viruses] switch from one country to another, from one jurisdiction to another — moving around the world, using the fact that we don't have the capability to globally police operations like this. So the Internet is as if someone [had] given free plane tickets to all the online criminals of the world."<ref name="ted.com"/> ([[Mikko Hyppönen]])
+
+Businesses are eager to expand to less developed countries due to the low cost of labor, says White et al. (2012). However, these countries are the ones with the least amount of Internet safety measures, and the Internet Service Providers are not so focused on implementing those safety measures (2010). Instead, they are putting their main focus on expanding their business, which is indeed, exposing it to an increase in criminal activity. <ref>White, G., & Long, J. (2010). Global information security factors. International Journal of Information Security and Privacy (IJISP), 4(2), 49-60. doi:10.4018/jisp.2010040104</ref>
+
+Due to some of the [[European Union|European]]'s antivirus firms (e.g. [[BullGuard]], [[F-Secure]], [[FRISK Software International|Frisk]], [[Panda Security|Panda]], [[Sophos]], [[TG Soft]], [[Comparison of antivirus software|...]]) to solve this problem, the [[European Commission]] has decided to establish the [[European Cybercrime Centre]] (EC3).<ref>{{cite web|title=European Cybercrime Centre set for launch|url=http://www.virusbtn.com/news/2013/01_09.xml?rss|publisher=VirusBulletin}}</ref> The EC3 effectively opened on 1 January 2013 and will be the focal point in the EU's fight against cyber crime, contributing to faster reaction to online crimes. It will support member states and the EU's institutions in building an operational and analytical capacity for investigations, as well as cooperation with international partners.<ref>{{cite web|title=European Cybercrime Centre (EC3)|url=https://www.europol.europa.eu/ec3|publisher=Europol}}</ref>
+
+Cyber Security is a growing field. This field is one that many other people are not aware of and the jobs are increasing throughout the years. Since technology is improving every year, the number of jobs in cybersecurity is increasing as well. Cyber security has to do with making sure that hackers and data breaches do not happen. These are things that could cause a serious threat to our government and it is important to keep files disclosed. These threats happen everyday, the most common is probably identity theft. There are many cybersecurity student programs out there that can help you pursue a career.<ref>{{cite web | url=http://www.dhs.gov/join-dhs-cybersecurity | title=Current Job Opportunities at DHS | publisher=U.S. Department of Homeland Security | accessdate=2013-05-05}}</ref>
+
+Below are job titles and descriptions to give you an idea of the job roles.
+*'''Security Analyst''': analyzes and assesses vulnerabilities in the infrastructure (software, hardware, networks), investigates available tools and countermeasures to remedy the detected vulnerabilities, and recommends solutions and best practices. Analyzes and assesses damage to the data/infrastructure as a result of security incidents, examines available recovery tools and processes, and recommends solutions. Tests for compliance with security policies and procedures. May assist in the creation, implementation, and/or management of security solutions.
+*'''Security Engineer:''' Performs security monitoring, security and data/logs analysis, and forensic analysis, to detect security incidents, and mounts incident response. Investigates and utilizes new technologies and processes to enhance security capabilities and implement improvements.
+*'''Security Architect:''' Designs a security system or major components of a security system, and may head a security design team building a new security system.
+*'''Security Administrator:''' Installs and manages organization-wide security systems. May also take on some of the tasks of a security analyst in smaller organizations.
+*'''Chief Information Security Officer:''' a high-level management position responsible for the entire information security division/staff. The position may include hands-on technical work.
+*'''Security Consultant/Specialist:''' Broad titles that encompass any one or all of the other roles/titles, tasked with protecting computers, networks, software, data, and/or information systems against viruses, worms, spyware, malware, intrusion detection, unauthorized access, denial-of-service attacks, and an ever increasing list of attacks by hackers acting as individuals or as part of organized crime or foreign governments.<ref>{{cite web|title=Department of Computer Science|url=http://www.cs.gwu.edu/academics/graduate_programs/master/cybersecurity/cybersecurity-jobs|accessdate=April 30, 2013}}</ref>
+<!-- PLEASE RESPECT ALPHABETICAL ORDER -->
+
+==Scholars in the field==
+{{multicol}}
+*[[Ross J. Anderson]]
+*[[Annie Anton]]
+*[[Adam Back]]
+*[[Daniel J. Bernstein]]
+*[[Stefan Brands]]
+*[[L. Jean Camp]]
+*[[Lance Cottrell]]
+*[[Lorrie Cranor]]
+*[[Cynthia Dwork]]
+{{multicol-break}}
+*[[Deborah Estrin]]
+*[[Joan Feigenbaum]]
+*[[Ian Goldberg]]
+*[[Peter Gutmann (computer scientist)|Peter Gutmann]]
+*[[Monica S. Lam]]
+*[[Kevin Mitnick]]
+*[[Bruce Schneier]]
+*[[Gene Spafford]]
+*[[Brian LaMacchia]]
+*[[Dawn Song]]
+{{multicol-end}}
+
+== See also ==
+{{Portal|Computer security}}
+{{multicol}}
+* [[Attack tree]]
+* [[Authentication]]
+* [[Authorization]]
+* [[CAPTCHA]]
+* [[CERT Coordination Center|CERT]]
+* [[CertiVox]]
+* [[Cloud computing security]]
+* [[Computer insecurity]]
+* [[Computer security compromised by hardware failure]]
+* [[Computer security model]]
+* [[Content security (disambiguation)|Content security]]
+* [[Countermeasure (computer)]]
+* [[Cryptography]]
+* [[Cyber security standards]]
+* [[Dancing pigs]]
+* [[Data loss prevention products]]
+* [[Data security]]
+* [[Differentiated security]]
+* [[Disk encryption]]
+* [[Exploit (computer security)]]
+* [[Fault tolerance]]
+* [[Firewall (networking)|Firewalls]]
+* [[Full disclosure]]
+* [[Human-computer interaction (security)]]
+{{multicol-break}}
+* [[Identity theft]]
+* [[Identity management]]
+* [[Information Leak Prevention]]
+* [[Information security]]
+* [[Internet privacy]]
+* [[ISO/IEC 15408]]
+* [[IT risk]]
+* [[Mobile security]]
+* [[Network security]]
+* [[Network Security Toolkit]]
+* [[Open security]]
+* [[OWASP]]
+* [[Penetration test]]
+* [[Physical information security]]
+* [[Physical security]]
+* [[Presumed security]]
+* [[Privacy software]]
+* [[Proactive Cyber Defence]]
+* [[Sandbox (computer security)]]
+* [[Security Architecture]]
+* [[Separation of protection and security]]
+* [[Threat (computer)]]
+* [[Vulnerability (computing)]]
+{{multicol-end}}
+
+== Notes ==
+{{Reflist|2}}
+
+== External links ==
+{{Commons category}}
+* [http://www.dmoz.org/Computers/Security/Advisories_and_Patches/ Security advisories links] from the [[Open Directory Project]]
+* {{cite book|last=Arcos Sergio|title=Social Engineering|publisher=Sancho Rivera}}
+* Lumension (2008) 7 things every CEO should know about Information Security [video]
+* Perez J. y Badía E. (s.f.) Privacidad y Seguridad en la red. Fundación Telefónica.
+
+{{DEFAULTSORT:Computer Security}}
+[[Category:Computer security| ]]
+[[Category:E-commerce]]
+[[Category:Secure communication]]
+[[Category:Computer network security]]
+[[Category:Crime prevention]]
+[[Category:National security]]
+
+{{Link FA|pl}}

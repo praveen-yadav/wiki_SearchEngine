@@ -1,0 +1,117 @@
+In [[computational complexity theory]], '''BPP''', which stands for '''bounded-error probabilistic polynomial time''' is the class of [[decision problem]]s solvable by a [[probabilistic Turing machine]] in [[polynomial time]], with an error [[probability]] of at most 1/3 for all instances.
+
+{| class="wikitable" style="float:right; text-align:center; margin: 1em 0 1em 1em;"
+|-
+!colspan="3"|BPP algorithm (1 run)
+|-
+|
+|colspan="2"|Answer produced
+|-
+| Correct<br />answer
+| YES
+| NO
+|-
+| YES
+| ≥ 2/3
+| ≤ 1/3
+|-
+| NO
+| ≤ 1/3
+| ≥ 2/3
+|-
+!colspan="3"|BPP algorithm (''k'' runs)
+|-
+|
+|colspan="2"|Answer produced
+|-
+| Correct<br />answer
+| YES
+| NO
+|-
+| YES
+| > 1 − 2<sup>−''ck''</sup>
+| < 2<sup>−''ck''</sup>
+|-
+| NO
+| < 2<sup>−''ck''</sup>
+| > 1 − 2<sup>−''ck''</sup>
+|-
+|colspan="3" style="font-size:85%"|for some constant ''c'' > 0
+|}
+
+Informally, a problem is in '''BPP''' if there is an algorithm for it that has the following properties:
+*It is allowed to flip coins and make random decisions
+*It is guaranteed to run in polynomial time
+*On any given run of the algorithm, it has a probability of at most 1/3 of giving the wrong answer, whether the answer is YES or NO.
+
+==Introduction==
+'''BPP''' is one of the largest ''practical'' classes of problems, meaning most problems of interest in '''BPP''' have efficient [[probabilistic algorithm]]s that can be run quickly on real modern machines. For this reason it is of great practical interest which problems and classes of problems are inside '''BPP'''. '''BPP''' also contains '''P''', the class of problems solvable in polynomial time with a deterministic machine, since a deterministic machine is a special case of a probabilistic machine.
+
+In practice, an error probability of 1/3 might not be acceptable, however, the choice of 1/3 in the definition is arbitrary. It can be any [[mathematical constant|constant]] between 0 and 1/2 (exclusive) and the set '''BPP''' will be unchanged. It does not even have to be constant: the same class of problems is defined by allowing error as high as 1/2 − ''n''<sup>−''c''</sup> on the one hand, or requiring error as small as 2<sup>−''n<sup>c</sup>''</sup> on the other hand, where ''c'' is any positive constant, and ''n'' is the length of input. The idea is that there is a probability of error, but if the algorithm is run many times, the chance that the majority of the runs are wrong [[exponential decay|drops off exponentially]] as a consequence of the [[Chernoff bound]].<ref>[http://www.cs.sfu.ca/~kabanets/cmpt710/lec16.pdf]</ref> This makes it possible to create a highly accurate algorithm by merely running the algorithm several times and taking a "majority vote" of the answers. For example, if one defined the class with the restriction that the algorithm can be wrong with probability at most 1/2<sup>100</sup>, this would result in the same class of problems.
+
+== Definition ==
+A language ''L'' is in '''BPP''' if and only if there exists a probabilistic Turing machine ''M'', such that
+* ''M'' runs for polynomial time on all inputs
+* For all ''x'' in ''L'', ''M'' outputs 1 with probability greater than or equal to 2/3
+* For all ''x'' not in ''L'', ''M'' outputs 1 with probability less than or equal to 1/3
+Unlike the complexity class '''[[ZPP (complexity)|ZPP]]''', the machine ''M'' is required to run for polynomial time on all inputs, regardless of the outcome of the random coin flips.
+
+Alternatively, '''BPP''' can be defined using only deterministic Turing machines. A language ''L'' is in '''BPP''' if and only if there exists a polynomial ''p'' and deterministic Turing machine ''M'', such that
+* ''M'' runs for polynomial time on all inputs
+* For all ''x'' in ''L'', the fraction of strings ''y'' of length ''p''(|''x''|) which satisfy ''M(x,y)'' = 1 is greater than or equal to 2/3
+* For all ''x'' not in ''L'', the fraction of strings ''y'' of length ''p''(|''x''|) which satisfy ''M(x,y)'' = 1 is less than or equal to 1/3
+In this definition, the string ''y'' corresponds to the output of the random coin flips that the probabilistic Turing machine would have made. For some applications this definition is preferable since it does not mention probabilistic Turing machines.
+
+== Problems ==
+{{unsolved|computer science|Is '''P''' {{=}} '''BPP''' ?}}
+Besides the problems in '''P''', which are obviously in '''BPP''', many problems were known to be in '''BPP''' but not known to be in '''P'''. The number of such problems is decreasing, and it is conjectured that '''P''' = '''BPP'''.
+
+For a long time, one of the most famous problems that was known to be in '''BPP''' but not known to be in '''P''' was the problem of [[primality test|determining]] whether a given number is [[prime number|prime]]. However, in the 2002 paper ''[[AKS primality test|PRIMES is in '''P''']]'', [[Manindra Agrawal]] and his students [[Neeraj Kayal]] and [[Nitin Saxena]] found a deterministic polynomial-time algorithm for this problem, thus showing that it is in '''P'''.
+
+An important example of a problem in '''BPP''' (in fact in '''[[RP (complexity)|co-RP]]''') still not known to be in '''P''' is [[polynomial identity testing]], the problem of determining whether a polynomial is identically equal to the zero polynomial. In other words, is there an assignment of variables such that when the polynomial is evaluated the result is nonzero? It suffices to choose each variable's value uniformly at random from a finite subset of at least ''d'' values to achieve bounded error probability, where ''d'' is the total degree of the polynomial.<ref>Madhu Sudan and Shien Jin Ong. Massachusetts Institute of Technology: 6.841/18.405J Advanced Complexity Theory: [http://people.csail.mit.edu/madhu/ST03/scribe/lect06.pdf Lecture 6: Randomized Algorithms, Properties of BPP]. February 26, 2003.</ref>
+
+== Related classes ==
+If the access to randomness is removed from the definition of '''BPP''', we get the complexity class '''P'''. In the definition of the class, if we replace the ordinary [[Turing machine]] with a [[quantum computer]], we get the class '''[[BQP]]'''.
+
+Adding [[postselection]] to '''BPP''', or allowing computation paths to have different lengths, gives the class '''BPP'''<sub>path</sub>.<ref>[http://qwiki.stanford.edu/index.php/Complexity_Zoo:B#bpppath]</ref> '''BPP'''<sub>path</sub> is known to contain '''NP''', and it is contained in its quantum counterpart '''[[PostBQP]]'''.
+
+A [[Monte Carlo algorithm]] is a [[randomized algorithm]] which is likely to be correct. Problems in the class '''BPP''' have Monte Carlo algorithms with polynomial bounded running time. This is compared to a [[Las Vegas algorithm]] which is a randomized algorithm which either outputs the correct answer, or outputs "fail" with low probability. Las Vegas algorithms with polynomial bound running times are used to define the class '''[[ZPP (complexity)|ZPP]]'''. Alternatively, '''ZPP''' contains probabilistic algorithms that are always correct and have expected polynomial running time. This is weaker than saying it is a polynomial time algorithm, since it may run for super-polynomial time, but with very low probability.
+
+== Complexity-theoretic properties ==
+[[File:Randomized Complexity Classes.svg|thumb|BPP in relation to other probabilistic complexity classes]]
+
+It is known that '''BPP''' is closed under [[Complement (complexity)|complement]]; that is, '''BPP''' = '''co-BPP'''. '''BPP''' is [[low (complexity)|low]] for itself, meaning that a '''BPP''' machine with the power to solve '''BPP''' problems instantly (a '''BPP''' [[oracle machine]]) is not any more powerful than the machine without this extra power. In symbols, '''BPP'''<sup>'''BPP'''</sup> = '''BPP'''.
+
+The relationship between '''BPP''' and '''[[NP (complexity)|NP]]''' is unknown: it is not known if '''BPP''' is a [[subset]] of '''[[NP (complexity)|NP]]''', '''NP''' is a subset of '''BPP''' or if they are incomparable. If '''NP''' is contained in '''BPP''', which is considered unlikely since it would imply practical solutions for [[NP-complete]] problems, then '''NP''' = '''RP''' and '''[[PH (complexity)|PH]]''' ⊆ '''BPP'''.<ref>[http://weblog.fortnow.com/2005/12/pulling-out-quantumness.html]</ref>
+
+It is known that '''[[RP (complexity)|RP]]''' is a subset of '''BPP''', and '''BPP''' is a subset of '''[[PP (complexity)|PP]]'''.  It is not known whether those two are strict subsets, since we don't even know if '''P''' is a strict subset of '''PSPACE'''. '''BPP''' is contained in the second level of the [[polynomial hierarchy]] and therefore it is contained in '''PH'''. More precisely, the [[Sipser–Lautemann theorem]] states that <math>\ BPP \subseteq \Sigma_2 \cap \Pi_2 </math>. As a result, '''P''' = '''NP''' leads to '''P''' = '''BPP''' since '''PH''' collapses to '''P''' in this case. Thus either '''P''' = '''BPP''' or '''P''' ≠ '''NP''' or both.
+
+[[Adleman's theorem]] states that membership in any language in '''BPP''' can be determined by a family of polynomial-size [[Boolean circuit]]s, which means '''BPP''' is contained in '''[[P/poly]]'''.<ref>{{cite conference | author = [[Leonard Adleman|Adleman, L. M.]] | title = Two theorems on random polynomial time | booktitle = Proceedings of the Nineteenth Annual IEEE Symposium on Foundations of Computing | year = 1978 | pages = 75–83}}</ref> Indeed, as a consequence of the proof of this fact, every '''BPP''' algorithm operating on inputs of bounded length can be derandomized into a deterministic algorithm using a fixed string of random bits. Finding this string may be expensive, however.
+
+Relative to oracles, we know that there exist oracles A and B, such that '''P'''<sup>A</sup> = '''BPP'''<sup>A</sup> and '''P'''<sup>B</sup> ≠ '''BPP'''<sup>B</sup>. Moreover, relative to a [[random oracle]] with probability 1,  '''P''' = '''BPP''' and '''BPP''' is strictly contained in '''NP''' and '''co-NP'''.<ref>{{Citation | last1=Bennett | first1=Charles H. | author1-link=Charles H. Bennett (computer scientist) | last2=Gill | first2=John | title=Relative to a Random Oracle A, P^A != NP^A != co-NP^A with Probability 1 | year=1981 | journal=SIAM Journal on Computing | issn=1095-7111 | volume=10 | issue=1 | pages=96–113}}</ref>
+
+== Derandomization ==
+The existence of certain strong [[pseudorandom number generators]] is [[conjecture]]d by most experts of the field. This conjecture implies that randomness does not give additional computational power to polynomial time computation, that is, '''P''' = '''RP''' = '''BPP'''. Note that ordinary generators are not sufficient to show this result; any probabilistic algorithm implemented using a typical random number generator will always produce incorrect results on certain inputs irrespective of the seed (though these inputs might be rare).
+
+[[László Babai]], [[Lance Fortnow]], [[Noam Nisan]], and [[Avi Wigderson]] showed that unless '''[[EXPTIME]]''' collapses to '''[[MA (complexity)|MA]]''', '''BPP''' is contained in<ref name="Babai">László Babai, Lance Fortnow, Noam Nisan, and Avi Wigderson (1993). "'''BPP''' has subexponential time simulations unless '''EXPTIME''' has publishable proofs". ''Computational Complexity'', 3:307–318.</ref> 
+:<math>\mathbf{i.o.-SUBEXP} = \bigcap\nolimits_{\varepsilon>0} \mathbf{i.o.-DTIME} \left (2^{n^\varepsilon} \right).</math> 
+The class '''i.o.-SUBEXP''', which stands for infinitely often '''SUBEXP''', contains problems which have [[sub-exponential time]] algorithms for infinitely many input sizes. They also showed that '''P''' = '''BPP''' if the exponential-time hierarchy, which is defined in terms of the [[polynomial hierarchy]] and '''E''' as '''E<sup>PH</sup>''', collapses to '''E'''; however, note that the exponential-time hierarchy is usually conjectured ''not'' to collapse.
+
+[[Russell Impagliazzo]] and Avi Wigderson showed that if any problem in '''[[E (complexity)|E]]''', where 
+:<math>\mathbf{E} = \mathbf{DTIME} \left( 2^{O(n)} \right),</math> 
+has circuit complexity 2<sup>Ω(''n'')</sup> then '''P''' = '''BPP'''.<ref>Russell Impagliazzo and Avi Wigderson (1997). "'''P'''&nbsp;=&nbsp;'''BPP''' if E requires exponential circuits: Derandomizing the XOR Lemma". ''Proceedings of the Twenty-Ninth Annual ACM Symposium on Theory of Computing'', pp. 220–229. {{doi|10.1145/258533.258590}}</ref>
+
+== References ==
+<references />
+* <span id="Kabanets">Valentine Kabanets (2003). "CMPT 710 – Complexity Theory: Lecture 16". [[Simon Fraser University]].</span>
+* {{cite book|author = [[Christos Papadimitriou]] | year = 1993 | title = Computational Complexity | publisher = Addison Wesley | edition = 1st edition | isbn = 0-201-53082-1}} Pages 257–259 of section 11.3: Random Sources. Pages 269–271 of section 11.4: Circuit complexity.
+* {{cite book|author = [[Michael Sipser]] | year = 1997 | title = Introduction to the Theory of Computation | publisher = PWS Publishing | isbn = 0-534-94728-X}} Section 10.2.1: The class BPP, pp.&nbsp;336–339.
+
+== External links ==
+* [http://www.cs.princeton.edu/courses/archive/fall03/cs597E/ Princeton CS 597E: Derandomization paper list]
+* [http://www.courses.fas.harvard.edu/~cs225/ Harvard CS 225: Pseudorandomness]
+
+{{ComplexityClasses}}
+
+{{DEFAULTSORT:Bpp}}
+[[Category:Probabilistic complexity classes]]

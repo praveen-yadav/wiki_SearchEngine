@@ -1,0 +1,38 @@
+'''William Frederick Schelter''' (1947<ref>[http://www.utexas.edu/faculty/council/2004-2005/memorials/schelter/schelter.html In memoriam]. Access in 2007-07-05.</ref> – July 30, 2001) was a professor of [[mathematics]] at [[University of Texas at Austin|The University of Texas at Austin]] and a [[Lisp programming language|Lisp]] [[software developer|developer]] and [[programmer]].  Schelter is credited with the development of the [[GNU Common Lisp]] (gcl) implementation of [[Common Lisp]] and the GPL'd version of the [[computer algebra system]] [[Macsyma]] called [[Maxima (software)|Maxima]]. Schelter authored Austin Kyoto Common Lisp (AKCL) under contract with IBM. AKCL formed the foundation for [[Axiom (computer algebra system)|Axiom]], another computer algebra system. AKCL eventually became GNU Common Lisp. He is also credited with the first port of the GNU C [[compiler]] to the [[IA-32|Intel 386]] architecture, used in the original implementation of the [[Linux]] kernel [http://alamos.math.arizona.edu/symcomp/announcement.txt].
+
+Schelter obtained his [[Doctor of Philosophy|Ph.D.]] at [[McGill University]] in 1972.   His mathematical specialties were [[noncommutative ring]]  theory and [[symbolic computation|computational algebra]] and its applications, including [[automated theorem proving]] in geometry.
+
+In the summer of 2001, age 54, he died suddenly of a [[myocardial infarction|heart attack]] while traveling in [[Russia]].
+
+==References==
+* S. Chou and W. Schelter. ''Proving Geometry Theorems with Rewrite Rules'' Journal of Automated Reasoning, 1986.
+
+===Notes===
+<references />
+
+==External links==
+* {{MathGenealogy|id=13017}}
+* [http://maxima.sourceforge.net/ Maxima homepage. Maxima is now available under GPL].
+
+{{Persondata
+|NAME=Schelter, William
+|ALTERNATIVE NAMES=Schelter, Bill
+|SHORT DESCRIPTION=American mathematician and programmer
+|DATE OF BIRTH=1947
+|PLACE OF BIRTH=[[Canada]]
+|DATE OF DEATH= July 30, 2001
+|PLACE OF DEATH=
+}}
+{{DEFAULTSORT:Schelter, Bill}}
+[[Category:1947 births]]
+[[Category:2001 deaths]]
+[[Category:Lisp people]]
+[[Category:20th-century mathematicians]]
+[[Category:21st-century mathematicians]]
+[[Category:Computer programmers]]
+[[Category:University of Texas at Austin faculty]]
+
+
+{{UTexas-stub}}
+{{US-academic-bio-stub}}
+{{US-mathematician-stub}}

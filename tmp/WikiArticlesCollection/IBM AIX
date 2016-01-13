@@ -1,0 +1,263 @@
+{{Redirect|AIX}}
+{{multiple issues|
+{{external links|date=December 2012}}
+{{refimprove|date=February 2010}}
+}}
+
+{{Infobox OS
+| name                   = AIX
+| logo                   = [[Image:IBM-AIX logo20080906.png|150px]]
+| caption                =
+| developer              = [[IBM]]
+| source_model           = [[Closed source]]
+| kernel_type            = [[Monolithic kernel|Dynamic Extendable]]
+| supported_platforms    = [[ROMP]], [[POWER Instruction Set Architecture|IBM POWER]], [[PowerPC]], [[IBM PS/2]], [[System/370]], [[ESA/390]]
+| ui                     = [[Common Desktop Environment]],<br>([[KDE Plasma Workspaces|Plasma Workspaces]] and [[GNOME]] optional)
+| family                 = [[Unix]]
+| released               = 1986
+| latest_release_version = 7.1 TL2
+| latest_release_date    = {{Release date and age|2012|11|09}}
+| marketing_target       = [[Computer workstation|Workstation]], [[Server (computing)|Server]]
+| programmed_in          = [[C (programming language)|C]]
+| prog_language          = [[C (programming language)|C]]
+| language               = [[English language|English]]
+| updatemodel            =
+| package_manager        =
+| working_state          = Current
+| license                = [[Proprietary software|Proprietary]]
+| website                = {{url|http://www.ibm.com/aix}}
+}}
+
+'''AIX''' ('''Advanced Interactive eXecutive''', pronounced {{IPAc-en|ˌ|eɪ|aɪ|ˈ|ɛ|k|s|}}<ref>[http://tehtable.wordpress.com/2010/01/29/unix-pronunciation Unix Pronunciation « Around Teh Table]</ref>) is a series of [[Proprietary software|proprietary]] [[Unix]] [[operating system]]s developed and sold by [[IBM]] for several of its computer platforms.  Originally released for the [[IBM 6150 RT|IBM 6150]] [[RISC]] [[workstation]], AIX now supports or has supported a wide variety of hardware platforms, including the IBM [[RS/6000]] series and later [[IBM POWER microprocessors|POWER]] and [[PowerPC]]-based systems, [[IBM System i]], [[System/370]] mainframes, [[IBM Personal System/2|PS/2]] [[personal computer]]s, and the [[Apple Network Server]].   AIX is based on [[UNIX System V]] with [[4.3BSD]]-compatible extensions.  It is one of four commercial operating systems that are presently certified to [[The Open Group]]'s UNIX 03 standard.  (The others are Mac [[OS X]], [[Solaris (operating system)|Solaris]] and [[HP-UX]].)<ref>{{cite web|url=http://www.opengroup.org/openbrand/register/|title=The Open Brand Register of Certified Products|accessdate=2011-02-09|publisher=The Open Group|date=2011-02-09}}</ref>
+
+The AIX family of operating systems debuted in 1986, became the standard operating system for the [[RS/6000]] series on its launch in 1990, and is still actively developed by IBM.  It is currently supported on [[IBM Power Systems]] alongside [[IBM i]] and [[Linux]].  AIX was the first operating system to utilize [[journaling file system]]s, and IBM has continuously enhanced the software with features like processor, disk and network [[virtualization]], dynamic hardware resource allocation (including fractional processor units), and [[reliability engineering]] ported from its [[mainframe computer|mainframe]] designs.<ref>{{cite web|url=http://www.ibm.com/developerworks/aix/library/au-unix40/#aixhistory|title=UNIX turns 40|accessdate=2011-02-09|publisher=IBM Corporation|date=2011-02-09}}</ref>
+
+==History==
+AIX Version 1, introduced in 1986 for the [[IBM 6150 RT]] [[computer workstation|workstation]], was based on [[UNIX System V]] Releases 1 and 2.  In developing AIX, IBM and [[Interactive Systems Corporation]] (whom IBM contracted) also incorporated source code from 4.2 and 4.3 [[BSD]] UNIX.
+
+Among other variants, IBM later produced AIX Version 3 (also known as '''AIX/6000'''), based on System V Release 3, for their [[IBM POWER Instruction Set Architecture|POWER]]-based [[RS/6000]] platform. Since 1990, AIX has served as the primary operating system for the RS/6000 series (later renamed ''[[IBM eServer]] pSeries'', then ''[[IBM System p]]'', and now ''[[IBM Power Systems]]''). AIX Version 4, introduced in 1994, added [[symmetric multiprocessing]] with the introduction of the first RS/6000 SMP servers and continued to evolve through the 1990s, culminating with AIX 4.3.3 in 1999. Version 4.1, in a slightly modified form, was also the standard operating system for the [[Apple Network Server]] systems sold by [[Apple Computer]] to complement the [[Macintosh]] line.
+
+In the late 1990s, under [[Project Monterey]], IBM and the [[Santa Cruz Operation]] planned to integrate AIX and [[UnixWare]] into a single [[32-bit]]/[[64-bit]] multiplatform UNIX with particular emphasis on running on [[Intel]] [[Itanium|IA-64]] (Itanium) architecture CPUs.  A [[beta test]] version of AIX 5L for IA-64 systems was released, but according to documents released in the ''[[SCO v. IBM]]'' lawsuit, less than forty licenses for the finished Monterey Unix were ever sold before the project was terminated in 2002.<ref name="grok"/> In 2003, the [[SCO Group]] alleged that (among other infractions) IBM had misappropriated licensed [[source code]] from [[UNIX System V]] Release 4 for incorporation into AIX; SCO subsequently withdrew IBM's license to develop and distribute AIX.  IBM maintains that their license was irrevocable, and continued to sell and support the product until the litigation was adjudicated.
+
+AIX was a component of the 2003 ''[[SCO v. IBM]]'' lawsuit, in which the [[SCO Group]] filed a lawsuit against IBM, alleging IBM contributed SCO's [[intellectual property]] to the [[Linux kernel|Linux]] codebase.  The [[SCO Group]], who argued they were the rightful owners of the copyrights covering the [[Unix]] operating system, attempted to revoke IBM's license to sell or distribute the AIX operating system.  In March, 2010 a jury returned a verdict finding that [[Novell]], not the SCO Group, owns the rights to Unix.<ref name="Jury verdict 2010">{{cite web | url=http://www.groklaw.net/article.php?story=20100330152829622 | title=Novell Wins Again&nbsp;— Jury Rules Copyrights Didn't Go to SCO | accessdate=2010-03-30 | date=2010-03-30}}</ref>
+
+AIX 6 was announced in May 2007 and ran an open beta from June 2007 until the general availability (GA) of AIX 6.1 on November 9, 2007.  Major new features in AIX 6.1 included full [[role-based access control]], [[workload partitions]] (which enable application mobility), enhanced security (Addition of AES encryption type for NFS v3 and v4) and [[Live Partition Mobility]] on the POWER6 hardware.
+
+In April 2010, IBM published an announcement about the upcoming 7.1 release. Support is planned to continue on POWER4 or later hardware generations. Several new features, including better scalability, enhanced clustering and management capabilities are mentioned. The ability to run older versions of AIX as a WPAR keeps the opportunity to continue using 5.2 where the hardware doesn't support it. IBM intends to make 7.1 available with an Open Beta program again.<ref>
+{{cite web
+|url=http://www-03.ibm.com/systems/power/software/aix/
+|title=IBM AIX 7 preview
+|accessdate=2010-04-16
+|publisher=IBM Corporation
+|date=2010-04-16
+}}
+</ref>
+
+==Supported hardware platforms==
+
+===IBM 6150 RT===
+The original AIX (sometimes called '''AIX/RT''') was developed for the IBM 6150 RT workstation by IBM in conjunction with [[Interactive Systems Corporation]], who had previously ported [[UNIX System III]] to the [[IBM PC]] for IBM as [[PC/IX]].  Installation media consisted of eight [[Floppy disk|1.2M floppy disk]]s.  The RT was based on the [[ROMP]] [[microprocessor]], the first commercial [[RISC]] chip. This was based on a design pioneered at IBM Research (the [[IBM 801]]) .
+
+One of the novel aspects of the RT design was the use of a [[microkernel]], called Virtual Resource Manager (VRM).  The keyboard, mouse, display, disk drives and network were all controlled by a microkernel.  One could "hotkey" from one operating system to the next using the Alt-Tab key combination. Each OS in turn would get possession of the keyboard, mouse and display. Besides AIX v2, the [[PICK OS]] also utilized this microkernel.
+
+Much of the AIX v2 kernel was written in the [[PL/I]] programming language, which proved troublesome during the migration to AIX v3.{{Citation needed|date=June 2008}}  AIX v2 included full [[TCP/IP]] networking, as well as [[Systems Network Architecture|SNA]] and two networking file systems: [[Network File System (protocol)|NFS]], licensed from [[Sun Microsystems]], and [[Distributed Services]] (DS).  DS had the distinction of being built on top of SNA, and thereby being fully compatible with DS on the IBM midrange [[IBM System i|AS/400]] and mainframe systems.  For the graphical user interfaces, AIX v2 came with the X10R3 and later the X10R4 and X11 versions of the [[X Window System]] from MIT, together with the [[Xaw|Athena widget set]].  Compilers for [[Fortran]] and [[C (programming language)|C]] were available.  One of the more popular desktop applications was the [[PageMaker]] [[desktop publishing]] software.
+
+===IBM PS/2 series===
+[[Image:aixps2.gif|thumb|alt=AIX PS/2 running on Virtual PC|AIX PS/2 running on Virtual PC]]
+'''AIX PS/2''' (also known as '''AIX/386''') was developed by [[Locus Computing Corporation]] under contract to IBM.  AIX PS/2, first released in 1989, ran on [[IBM PS/2]] [[personal computer]]s with [[Intel 386]] and compatible processors.
+
+===IBM mainframes===
+In 1988, IBM announced '''AIX/370''', also developed by Locus Computing.  AIX/370 was IBM's third attempt to offer [[Unix-like]] functionality for their mainframe line, specifically the [[System/370]] (the prior versions were a [[TSS/360|TSS/370]] based Unix system developed jointly with AT&T c.1980,<ref>{{cite journal
+ | author=Felton et al.  | title=A Unix System Implementation for System/370
+ | journal=AT&T Bell Labs Technical Journal | volume=63 | issue=8 | month=October | year=1984}}</ref> and '''VM/IX''', a [[VM/370]] based system developed jointly with [[Interactive Systems Corporation]] c.1984).  AIX/370 was released in 1990 with functional equivalence to System V Release 2 and 4.3BSD as well as IBM enhancements.  With the introduction of the [[ESA/390]] architecture, AIX/370 was replaced by '''AIX/ESA''' in 1991, which was based on [[OSF/1]], and also ran on the [[System/390]] platform.  This development effort was made partly to allow IBM to compete with [[Amdahl Corporation|Amdahl]] [[UTS (Mainframe UNIX)|UTS]].{{Citation needed|date=June 2008}}  Unlike AIX/370, AIX/ESA ran both natively as the host operating system, and as a guest under [[VM (Operating system)|VM]].  AIX/ESA, while technically advanced, had little commercial success, partially because UNIX functionality was added as an option to the existing mainframe operating system, [[MVS]], which became [[MVS/ESA|MVS/ESA OpenEdition]] in 1999.{{Citation needed|date=June 2008}}
+<!-- Blaxthos copyedit anchor, will return soon -->
+
+===POWER/PowerPC-based systems===
+The release of AIX version 3 (sometimes called '''AIX/6000''') coincided with the announcement of the first [[POWER1]]-based IBM [[RS/6000]] models in 1990. The RS/6000 was unique in that it not only outperformed all other machines in integer compute performance, but also beat the competition by a ''factor of 10'' in floating-point performance. {{Citation needed|date=February 2007}}  The competition consisted of [[Unix workstation]]s from the vendors [[Sun]], [[Hewlett-Packard|HP]] and [[Silicon Graphics|SGI]], and, to a lesser degree, those from [[Intergraph]] and others. The machines were all roughly comparable, retailing in the $10K to $100K price range, and offering similar amounts of RAM, disk and networking, and roughly comparable graphics subsystems.  The novelty of the [[floating-point unit]] was that it was tied into the integer pipeline, and performed a single [[multiply-add]] instruction per cycle (more precisely, in 3 cycles with a 3-cycle deep pipeline).  The  'common wisdom' of the era was that only integer performance mattered, oddly belying the fact that many customers were running floating-point intensive numeric [[scientific computing]] workloads.
+
+Releases of AIX version 3 also took advantage of the developments in the POWER architecture.
+
+AIX v3 innovated in several ways on the software side. It was the first operating system to introduce the idea of a [[journaling file system]], [[IBM Journaled File System 2 (JFS2)|JFS]], which allowed for fast boot times by avoiding the need to ensure the consistency of the file systems on disks (see [[fsck]]) on every reboot. Another innovation was [[shared library|shared libraries]] which avoid the need for static linking from an application to the libraries it used. The resulting smaller binaries used less of the hardware RAM to run, and used less disk space to install. Besides improving performance, it was a boon to developers: executable binaries could be in the tens of [[kilobyte]]s instead of a megabyte for an executable statically linked to the [[C library]]. AIX v3 also scrapped the microkernel of AIX v2, a contentious move that resulted in v3 containing no PL/I code and being somewhat more "pure" than v2.
+
+Other notable subsystems included:
+* [[IRIS GL]], a 3D rendering library, the progenitor of [[OpenGL]]. IRIS GL was licensed by IBM from [[Silicon Graphics|SGI]] in 1987, then still a small company which had sold only one thousand machines to date. SGI also provided the low-end graphics card for the RS/6000, capable of drawing 20,000 [[Gouraud shading|gouraud-shaded]] triangles per second. The high-end graphics card was designed by IBM, a follow-on to the mainframe-based [[IBM 5080]], capable of rendering 990,000 vectors per second.
+* [[PHIGS]], another 3D rendering API, popular in automotive CAD/CAM circles, and at the core of [[CATIA]].
+* Full implementation of version 11 of the [[X Window System]], together with [[Motif (software)|Motif]] as the recommended widget collection and window manager.
+* Network file systems: [[Network File System (protocol)|NFS]] from [[Sun]]; AFS, the [[Andrew File System]]; and DFS, the [[DCE Distributed File System|Distributed File System]].
+* NCS, the [[Network Computing System]], licensed from [[Apollo Computer]] (later acquired by [[Hewlett-Packard|HP]]).
+* [[Display PostScript|DPS]] on-screen display system. This was notable as a "plan B" in case the X11+Motif combination failed in the marketplace. However, it was highly proprietary, supported only by Sun, [[NeXT]], and IBM. This cemented its failure in the marketplace in the face of the [[Open system (computing)|open system]]s challenge of X11+Motif and its lack of 3D capability.
+
+As of 2011, AIX runs on IBM [[IBM Power Systems|Power]], [[System p]], [[System i]], System p5, System i5, eServer p5, eServer pSeries and eServer i5 server product lines, as well as IBM [[BladeCenter]] blades based on Power Architecture technology.<ref>{{cite web
+| url = http://www-03.ibm.com/systems/power/software/aix/v71/index.html
+| title = AIX Version 7.1
+| accessdate = 2011-05-03
+}}</ref>
+
+====POWER7 AIX Features====
+Performance Optimization With Enhanced RISC (POWER) version 7 enables a unique performance advantage for AIX OS. POWER7 features new capabilities using multiple cores and multiple CPU threads, creating a pool of virtual CPUs. Typically IBM POWER7 processors have eight cores with four threads per core, for a total capacity of 32 simultaneous threads or 32 virtual CPUs per processor circuit, while still using the same electricity consumption as the POWER6 processor circuit which could only support 8 virtual CPUs. AIX can harness POWER7's ability to execute instructions out-of-order instead of in-order, by using POWER7's  aggressive out-of-order instruction set which drives highly efficient use of available execution paths.
+ 
+AIX 7 includes a new built-in clustering capability called Cluster Aware AIX. AIX is able to organize multiple LPARs through the multipath communications channel to neighboring CPUs, enabling very high-speed communication between processors. This enables multi-terabyte memory address range and page table access to support global petabyte shared memory space for AIX POWER7 clusters so that software developers can program a cluster as if it were a single system, without using message passing (i.e. semaphore-controlled Inter-process Communication). AIX administrators can use this new capability to cluster a pool of AIX nodes. By default, AIX V7.1 pins kernel memory and includes support to allow applications to pin their kernel stack. Pinning kernel memory and the kernel stack for applications with real-time requirements can provide performance improvements by ensuring that the kernel memory and kernel stack for an application is not paged out.
+
+AIX POWER7 systems include the Active Memory Expansion feature, which increases system flexibility where system administrators can configure logical partitions (LPARs) to use less physical memory. For example, an LPAR running AIX appears to the OS applications be configured with 80 GB of physical memory but the hardware actually only consumes 60 GB of physical memory. Active Memory Expansion employs memory compression technology to transparently compress in-memory data, allowing more data to be placed into memory and thus expanding the memory capacity of POWER7 systems. Utilizing Active Memory Expansion can improve system utilization and increase a system’s throughput. AIX 7 automatically manages the size of memory pages used to automatically use 4K, 64K or a combination of those page sizes. This self-tuning feature results in optimized performance without administrative effort.
+
+====Apple Network Servers====
+The [[Apple Network Server]] systems were PowerPC-based systems designed by [[Apple Computer]] to have numerous high-end features that standard Apple hardware did not have, including swappable hard drives, redundant power supplies, and external monitoring capability. These systems were more or less based on the [[Power Macintosh]] hardware available at the time but were designed to use AIX (versions 4.1.4 or 4.1.5) as their native operating system in a specialized version specific to the ANS.
+
+AIX was only compatible with the Network Servers and was not ported to standard Power Macintosh hardware. Not to be confused is [[A/UX]], Apple's earlier version of Unix for [[68k]]-based [[Macintosh]]es.
+
+===IA-64 systems===
+As part of [[Project Monterey]], IBM released a [[beta test]] version of AIX 5L for the IA-64 ([[Itanium]]) architecture in 2001, but this never became an official product due to lack of interest.<ref name="grok">{{cite web
+| url = http://www.groklaw.net/article.php?story=2005082506163768
+| title = 2002 IBM Internal Email on Project Monterey - "No One Wants It"
+| accessdate = 2007-05-20
+| last = Jones
+| first = Pamela
+| authorlink = Pamela Jones
+| date = August 25, 2005
+| work = [[Groklaw]]
+}}</ref>
+
+==Versions==
+[[Image:IBM AIX 53.PNG|thumb|alt=AIX 5.3 welcome banner|The default login banner for AIX 5.3 on Power PC]]
+
+===POWER/PowerPC releases===
+* AIX V7.1, Sept 10, 2010<ref>{{cite web|url=http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=an&subtype=ca&appname=GPA&htmlfid=872/ENUSAP10-0184# |title=IBM AP Announcement Letter |publisher=IBM.com |date= |accessdate=2010-12-27}}</ref>
+** Support for 256 cores / 1024 threads in a single virtual machine
+** The ability to run AIX V 5.2 or V 5.3 inside of a Workload Partition
+** An XML profile based system configuration management utility
+** Support for export of Fibre Channel adapters to WPARs
+** VIOS disk support in a WPAR
+** Cluster Aware AIX
+** AIX Event infrastructure
+** Role-based access control (RBAC) with domain support for multi-tenant environments
+* AIX V6.1, November 9, 2007<ref>{{cite web|url=http://www-03.ibm.com/systems/p/os/aix/v61/index.html |title=IBM AIX Version 6.1 operating system: Overview |publisher=IBM.com |date= |accessdate=2010-12-27}}</ref>
+** [[Workload Partitions]] (WPARs) [[operating system-level virtualization]]
+** [[Live Application Mobility]]
+** [[Live Partition Mobility]]
+** Security
+*** Role Based Access Control [[RBAC]]
+*** [[AIX Security Expert]] - A system and network security hardening tool
+*** Encrypting [[JFS2]] filesystem
+*** [[Trusted AIX]]
+*** [[Trusted Execution]]
+** Integrated Electronic Service Agent(tm) for auto error reporting
+** Concurrent Kernel Maintenance
+** Kernel exploitation of [[POWER6]] storage keys
+** [[ProbeVue]] dynamic tracing
+** Systems Director Console for AIX
+** Integrated [[Snapshot (computer storage)|filesystem snapshot]]
+** Requires [[POWER4]] or newer CPUs
+* AIX 5L 5.3, August 13, 2004,<ref name="www-306.ibm.com">{{cite web|url=http://www-306.ibm.com/software/support/systemsp/lifecycle/ |title=System p product lifecycle dates |publisher=IBM Software Support |date= |accessdate=2010-12-27}}</ref> end of support 30 April 2012
+** [[Network File System (protocol)|NFS]] Version 4
+** Advanced Accounting
+** Virtual [[SCSI]]
+** Virtual Ethernet
+** Exploitation of [[Simultaneous multithreading]] (SMT)
+** [[Micro-Partitioning]] enablement
+** POWER5 exploitation
+** [[IBM Journaled File System 2 (JFS2)|JFS2]] quotas
+** Ability to shrink a [[JFS2]] filesystem
+** [[kernel scheduler]] has been enhanced to dynamically increase and decrease the use of virtual processors.
+* AIX 5L 5.2, October 18, 2002,<ref name="www-306.ibm.com"/> end of support April 30, 2009<ref>{{cite web|url=http://www-01.ibm.com/software/support/systemsp/lifecycle/#GA |title=System p product lifecycle dates |publisher=IBM Software Support |date= |accessdate=2010-12-27}}</ref>
+** Ability to run on the IBM [[BladeCenter]] JS20 with the [[PowerPC 970]].
+** Minimum level required for POWER5 hardware
+** [[multipath I/O|MPIO]] for [[Fibre Channel]] disks
+** [[iSCSI]] Initiator software
+** Participation in [[Dynamic Logical Partitioning|Dynamic LPAR]]
+** [[Concurrent I/O]] (CIO) feature introduced for [[JFS2]] released in Maintenance Level 01 in May 2003<ref>[http://www.ibm.com/servers/aix/whitepapers/db_perf_aix.pdf Improving Database Performance With AIX Concurrent I/O - White Paper]</ref>
+* AIX 5L 5.1, May 4, 2001 (Support discontinued April 1, 2006)<ref>[http://www-01.ibm.com/software/support/lifecycle/rss/PLCWeeklyXMLDownload.xml IBM Software Support Lifecycle (XML)]<!-- via http://www-111.ibm.com/software/support/lifecycle/xmldownload.jsp --></ref>
+** Ability to run on an [[IA-64]] architecture processor, although this never went beyond beta<ref>[http://www.unigroup.org/unigroup-0404.html Unigroup Next Meeting Announcement]</ref>
+** Minimum level required for POWER4 hardware and the last release that worked on the [[Micro Channel architecture]]
+** [[64-bit]] [[Kernel (computer science)|kernel]], installed but not activated by default
+** JFS2
+** Ability to run in a [[LPAR|Logical Partition]] on [[POWER4]]
+** The L stands for [[Linux]] affinity
+** [[Trusted Computing Base]] (TCB)
+** Support for mirroring with striping
+* AIX 4.3.3, September 17, 1999
+** Online [[backup]] function
+** [[Workload Manager]] (WLM)
+** Introduction of [[topas]] utility
+* AIX 4.3.2, October 23, 1998
+* AIX 4.3.1, April 24, 1998
+* AIX 4.3, October 31, 1997
+** Ability to run on 64-bit [[CPU design|architecture]] CPUs
+** [[IPv6]]
+** [[Web-based System Manager]]
+* AIX 4.2.1, April 25, 1997
+** [[Network File System (protocol)|NFS]] Version 3
+* AIX 4.2, May 17, 1996
+* AIX 4.1.5, November 8, 1996
+* AIX 4.1.4, October 20, 1995
+* AIX 4.1.3, July 7, 1995
+** [[Common Desktop Environment|CDE]] 1.0 became the default GUI environment, replacing [[Motif Window Manager]].
+* AIX 4.1.1, October 28, 1994
+* AIX 4.1, August 12, 1994
+* AIX 4.0, 1994
+** Run on RS/6000 systems with [[PowerPC]] processors and [[Peripheral Component Interconnect|PCI]] busses.
+* AIX 3.2 1992
+* AIX 3.1, February 1990
+** Journaled File System ([[IBM Journaled File System 2 (JFS2)|JFS]]) filesystem type
+* AIX 3.0 1989
+** LVM ([[Logical Volume Manager (AIX)|Logical Volume Manager]]) was incorporated into OSF/1, and in 1995 for HP-UX,<ref>[http://web.archive.org/web/19961020154920/http://byte.com/art/9504/sec14/art2.htm How HP improved the performance, reliability, and ease of use of its flagship PA-RISC operating system]</ref> and the Linux LVM implementation is similar to the HP-UX LVM implementation.<ref>http://www.usenix.org/events/usenix01/freenix01/full_papers/teigland/teigland_html/index.html</ref>
+** [[IBM AIX SMIT|SMIT]] was introduced.
+
+===IBM PS/2 releases===
+* AIX PS/2 v1.1, 1989
+** last version was 1.3, 1992.
+
+===IBM 6150 RT releases===
+* AIX v2.0
+** last version was 2.2.1.
+* AIX v1.0, 1986
+
+==User interfaces==
+The default shell was [[Bourne shell]] up to AIX version 3, but was changed to [[Korn shell]] (ksh88) in version 4 in view of [[XPG4]] and [[POSIX]] compliance.<ref name="CannonTrent1999">{{cite book|author1=Casey Cannon|author2=Scott Trent|author3=Carolyn Jones|title=Simply AIX 4.3|year=1999|publisher=Prentice Hall PTR|isbn=978-0-13-021344-0|page=21}}</ref>
+
+===Graphical===
+The [[Common Desktop Environment]] (CDE) is AIX's default [[graphical user interface]]. As part of Linux Affinity and the free AIX Toolboxes for Linux Applications (ATLA), open-source [[KDE Plasma Workspaces]] and [[GNOME]] desktop are also available.
+
+===System Management Console===
+[[IBM AIX SMIT|SMIT]] is the System Management Interface Tool for AIX. It allows a user to navigate a menu hierarchy of commands, rather than using the command line. Invocation is typically achieved with the command <code>smit</code>. Experienced system administrators make use of the <code>F6</code> function key which generates the command line that SMIT will invoke to complete it.
+SMIT also generates a log of commands that are performed in the <code>smit.script</code> file. The <code>smit.script</code> file automatically records the commands with the command flags and parameters used. The <code>smit.script</code> file can be used as an executable shell script to rerun system configuration tasks. SMIT also creates the <code>smit.log</code> file, which contains additional detailed information that can be used by programmers in extending the SMIT system.
+
+<code>smit</code> and <code>smitty</code> refer to the same program, though <code>smitty</code> invokes the text-based version, while <code>smit</code> will invoke an X Window System based interface if possible; however, if <code>smit</code> determines that X Window System capabilities are not present, it will present the text-based version instead of failing.  Determination of X Window System capabilities is typically performed by checking for the existence of the <code>DISPLAY</code> variable.
+
+==See also==
+* [[Academic Operating System|AOS]], IBM's educational-market port of [[Berkeley Software Distribution|4.3BSD]]
+* [[List of Unix systems]]
+* [[nmon]]
+* [[Operating systems timeline]]
+
+==References==
+{{Reflist|30em}}
+
+==External links==
+* [http://www.ibm.com/developerworks/aix/ AIX & UNIX dW Zone]
+* [http://www.ibm.com/eserver/support/fixes/fixcentral/main/pseries/aix AIX Fix Central]
+* [http://www.ibm.com/developerworks/forums/dw_forum.jsp?forum=747&cat=56 AIX Forum]
+* [http://www.ibm.com/community/usergroups AIX User Groups]
+* [http://www.aixhealthcheck.com/ AIX Health Check]
+* [http://community.common.org/home/ Submit AIX Requirements]
+* [http://www.ibm.com/servers/aix/products/aixos/linux/ AIX Toolbox for Linux Applications]
+* [http://publib.boulder.ibm.com/infocenter/pseries/v5r3/index.jsp AIX version 5.3 Documentation]
+* [http://publib.boulder.ibm.com/infocenter/systems/scope/aix/index.jsp AIX version 6.1 information center]
+* [http://www-03.ibm.com/systems/p/os/aix/v61/index.html AIX version 6.1 overview]
+* [http://www.ibm.com/developerworks/wikis/display/WikiPtype/Home AIX Wiki]
+* [http://www.elink.ibmlink.ibm.com/public/applications/publications/cgibin/pbi.cgi?CTY=US&FNC=SRX&PBL=GC23-3059-01 AIX/ESA V2R2 General Information]
+* [http://www-03.ibm.com/systems/power/software/aix/ IBM AIX page]
+* [http://ibmsystemsmag.com/aix/ IBM Systems AIX Magazine] 
+* [http://www.ibm.com/support/electronic IBM Electronic Service Agent]
+* [http://rootvg.net/index.php Rootvg.net - Independent Portal for AIX & POWER]
+* [http://www.pseriestech.org/forum/aix-for-power-systems/ pSeriesTech.Org AIX Support Forum]
+* [http://icancompute.ca/aix AIX Commands, Tools, Scripts and Explanations]
+
+{{IBM}}
+{{IBM operating systems}}
+{{unix-like}}
+
+{{DEFAULTSORT:Aix}}
+[[Category:UNIX System V|IBM Aix]]
+[[Category:IBM operating systems]]
+[[Category:Power operating systems]]
+[[Category:PowerPC operating systems]]

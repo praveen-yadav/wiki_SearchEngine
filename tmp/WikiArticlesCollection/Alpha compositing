@@ -1,0 +1,174 @@
+{{Refimprove|date=May 2010}}
+
+[[Image:Hue alpha 2.svg|thumb|This image's alpha channel falls off to zero at its base. A checkered backdrop is often used to signal transparency.]]
+
+In [[computer graphics]], '''alpha compositing''' is the process of combining an image with a background to create the appearance of partial or full transparency. It is often useful to render image elements in separate passes, and then combine the resulting multiple [[2D computer graphics|2D]] images into a single, final image in a process called the [[compositing|composite]]. For example, compositing is used extensively when combining computer-rendered image elements with live footage.
+
+In order to combine these image elements correctly, it is necessary to keep an associated ''[[matte (filmmaking)|matte]]'' for each element. This matte contains the coverage information—the shape of the geometry being drawn—making it possible to distinguish between parts of the image where the geometry was actually drawn and other parts of the image which are empty.
+
+==Description==
+To store matte information, the concept of an '''alpha channel''' was introduced by [[Alvy Ray Smith]] in the late 1970s, and fully developed in a 1984 paper by Thomas Porter and [[Tom Duff]].<ref>{{cite journal|last=Porter|first=Thomas|coauthors=Tom Duff|year=1984|title=Compositing Digital Images|journal=Computer Graphics|volume=18|issue=3|pages=253–259|doi=10.1145/800031.808606|isbn=0-89791-138-5}}</ref> In a 2D image element, which stores a color for each pixel, additional data is stored in the alpha channel with a value between 0 and 1. A value of 0 means that the pixel does not have any coverage information and is transparent; i.e. there was no color contribution from any geometry because the geometry did not overlap this pixel. A value of 1 means that the pixel is opaque because the geometry completely overlapped the pixel.
+
+If an alpha channel is used in an image, it is common to also multiply the color by the alpha value, to save on additional multiplications during compositing. This is usually referred to as ''premultiplied alpha''.
+
+Assuming that the pixel color is expressed using ''straight'' (non-premultiplied) RGBA [[tuple]]s, a pixel value of (0.0, 0.5, 0.0, 0.5) implies a pixel which has 50% of the maximum green intensity and 50% opacity. If the color were fully green, its RGBA would be (0, 1, 0, 0.5).
+
+However, if this pixel uses premultiplied alpha, all of the RGB values (0, 1, 0) are multiplied by 0.5 and then the alpha is appended to the end to yield (0, 0.5, 0, 0.5). In this case, the 0.5 value for the G channel actually indicates 100% green intensity (with 50% opacity). For this reason, knowing whether a file uses premultiplied or straight alpha is essential to correctly process or composite it.
+
+Premultiplied alpha has some practical advantages over normal alpha blending because premultiplied alpha blending is [[Associativity|associative]] and [[interpolation]] gives better results. Ordinary interpolation without premultiplied alpha leads to RGB information leaking out of fully transparent (A=0) regions, even though this RGB information is ideally invisible. When interpolating images with abrupt borders between transparent and opaque regions, this can result in borders of unusual colors that were not visible in the original image.<ref>http://home.comcast.net/~tom_forsyth/blog.wiki.html#[[Premultiplied alpha]]</ref>
+Premultiplication causes a loss of precision in the RGB values, so that a noticeable loss of quality can result if the color information is later brightened or if the alpha channel is removed. This loss of precision also makes premultiplied images easier to [[Data compression|compress]], as they do not record the color variations hidden inside transparent regions.
+
+With the existence of an alpha channel, it is possible to express compositing image operations using a ''compositing algebra''. For example, given two image elements A and B, the most common compositing operation is to combine the images such that A appears in the foreground and B appears in the background. This can be expressed as A '''over''' B. In addition to '''over''', Porter and Duff defined the compositing operators '''in''', '''held out by''' (usually abbreviated '''out'''), '''atop''', and '''xor''' (and the reverse operators '''rover''', '''rin''', '''rout''', and '''ratop''') from a consideration of choices in blending the colors of two pixels when their coverage is, conceptually, overlaid orthogonally:
+
+[[Image:Alpha compositing.svg]]
+
+The '''over''' operator is, in effect, the normal painting operation (see [[Painter's algorithm]]). The '''in''' operator is the alpha compositing equivalent of [[Clipping (computer graphics)|clipping]].
+
+As an example, the '''over''' operator can be accomplished by applying the following formula to each pixel value:
+
+:<math>C_o = C_a \alpha_a + C_b \alpha_b \left(1 - \alpha_a\right)</math>
+
+where <math>C_o</math> is the result of the operation, <math>C_a</math> is the color of the pixel in element A, <math>C_b</math> is the color of the pixel in element B, and <math>\alpha_a</math> and <math>\alpha_b</math> are the alpha of the pixels in elements A and B respectively.  If it is assumed that all color values are premultiplied by their alpha values (<math>c_i = \alpha_i C_i</math>), we can rewrite the equation for output color as:
+
+:<math>C_o = c_a + c_b \left(1 - \alpha_a\right)</math>
+and resulting alpha channel value is 
+:<math>\alpha_o = \frac{c_o}{C_o} = \alpha_a + \alpha_b \left(1 - \alpha_a\right)</math>
+
+However, this operation may not be appropriate for all applications, since it is not [[associative]].
+The associative version of this operation is very similar; simply take the newly computed color value and divide it by its new alpha value, as follows:
+
+:<math>c_o = \frac{1}{\alpha_o}\left[C_a \alpha_a + C_b \alpha_b \left(1 - \alpha_a\right)\right]</math>
+
+Image editing applications that allow merging of layers generally prefer this second approach.
+
+==Analytical derivation of the over operator==
+
+Porter and Duff gave a geometric interpretation of the alpha compositing formula by studying orthogonal coverages. Another derivation of the formula, based on a physical [[reflectance]]/[[transmittance]] model, can be found in a 1981 paper by [[Bruce A. Wallace]].<ref>{{cite journal|last=Wallace|first=Bruce|year=1981|title=Merging and transformation of raster images for cartoon animation|journal=SIGGRAPH Computer Graphics|volume=15|issue=3|pages=253–262|doi=10.1145/800224.806813|isbn=0-89791-045-1}}</ref>
+
+A third approach is found by starting out with two very simple assumptions. For simplicity, we shall here use the shorthand notation <math>a \odot b</math> for representing the '''over''' operator.
+
+The first assumption is that in the case where the background is opaque (i.e. <math>\alpha_b = 1</math>), the over operator represents the [[convex combination]] of <math>a</math> and <math>b</math>:
+
+:<math>C_o = \alpha_a C_a + (1 - \alpha_a) C_b</math>
+
+The second assumption is that the operator must respect the associative rule:
+
+:<math>(a \odot b) \odot c = a \odot (b \odot c)</math>
+
+Now, let us assume that <math>a</math> and <math>b</math> have variable transparencies, whereas <math>c</math> is opaque. We're interested in finding
+
+:<math>o = a \odot b</math>.
+
+We know from the associative rule that the following must be true:
+
+:<math>o \odot c = a \odot (b \odot c)</math>
+
+We know that <math>c</math> is opaque and thus follows that <math>b \odot c</math> is opaque, so in the above equation, each <math>\odot</math> operator can be written as a convex combination:
+
+:<math>
+\begin{align}
+  \alpha_o C_o + (1 - \alpha_o) C_c &= \alpha_a C_a + (1 - \alpha_a) (\alpha_b C_b + (1 - \alpha_b) C_c) \\
+  &= \alpha_a C_a + (1 - \alpha_a) \alpha_b C_b + (1 - \alpha_a) (1 - \alpha_b) C_c
+\end{align}
+</math>
+
+Hence we see that this represents an equation of the form <math>X_0 + Y_0 C_c = X_1 + Y_1 C_c</math>. By setting <math>X_0 = X_1</math> and <math>Y_0 = Y_1</math> we get
+
+:<math>
+\begin{align}
+  \alpha_o &= 1 - (1 - \alpha_a) (1 - \alpha_b),\\
+  C_o &= \frac{\alpha_a C_a + (1 - \alpha_a)\alpha_b C_b}{\alpha_o},
+\end{align}
+</math>
+which means that we have analytically derived a formula for the output alpha and the output color of <math>a \odot b</math>.
+
+An even more compact representation is given by noticing that <math>(1 - \alpha_a)\alpha_b = \alpha_o - \alpha_a</math>:
+
+:<math>
+  C_o = \frac{\alpha_a}{\alpha_o} C_a + \left(1 - \frac{\alpha_a}{\alpha_o}\right) C_b
+</math>
+
+It is also interesting to note that the <math>\odot</math> operator fulfills all the requirements of a [[non-commutative]] [[monoid]], where the [[identity element]] <math>e</math> is chosen such that <math>e \odot a = a \odot e = a</math> (i.e. the identity element can be any tuple <math>\langle C,\alpha\rangle</math> with <math>\alpha = 0</math>.)
+
+==Alpha blending==
+
+Alpha blending is the process of combining a translucent foreground color with a background color, thereby producing a new blended color. The degree of the foreground color's translucency may range from completely transparent to completely opaque. If the foreground color is completely transparent, the blended color will be the background color. Conversely, if it is completely opaque, the blended color will be the foreground color. Of course, the translucency can range between these extremes, in which case the blended color is computed as a weighted average of the foreground and background colors.
+
+Alpha blending is a [[convex combination]] of two [[color]]s allowing for [[Transparency (graphic)|transparency]] effects in [[computer graphics]]. The value of <code>alpha</code> in the color code ranges from 0.0 to 1.0, where 0.0 represents a fully transparent color, and 1.0 represents a fully opaque color. This alpha value also corresponds to the ratio of "SRC over DST" in Porter and Duff equations.
+
+The value of the resulting color is given by:
+
+:<math>
+\begin{cases}
+\mathrm{out}_A = \mathrm{src}_A + \mathrm{dst}_A (1 - \mathrm{src}_A) \\
+\mathrm{out}_{RGB} = \bigl( \mathrm{src}_{RGB} \mathrm{src}_A + \mathrm{dst}_{RGB} \mathrm{dst}_A \left( 1 - \mathrm{src}_A \right) \bigr) \div \mathrm{out}_A \\
+\mathrm{out}_A = 0 \Rightarrow \mathrm{out}_{RGB} = 0
+\end{cases}
+</math>
+
+If the destination background is opaque, then <math>dst_A = 1</math>, and if you enter it to the upper equation:
+
+:<math>
+\begin{cases}
+\mathrm{out}_A = 1 \\
+\mathrm{out}_{RGB} = \mathrm{src}_{RGB} \mathrm{src}_A + \mathrm{dst}_{RGB} (1 - \mathrm{src}_A)
+\end{cases}
+</math>
+
+The alpha component may be used to blend to [[red]], [[green]] and [[blue]] components equally, as in [[32-bit]] [[RGBA color space|RGBA]], or, alternatively, there may be three alpha values specified corresponding to each of the [[primary color]]s for [[spectral color]] [[filter (optics)|filtering]].
+
+Note that the RGB color may be premultiplied, hence saving the additional multiplication before RGB in the equation above. This can be a considerable saving in processing time given that images are often made up of millions of pixels.
+
+==Other transparency methods==
+
+Although used for similar purposes, [[Palette (computing)#Transparent color in palettes|transparent color]]s and [[Mask (computing)#Image masks|image mask]]s do not permit the smooth blending of the superimposed image pixels with those of the background (only whole image pixels or whole background pixels allowed).
+
+A similar effect can be achieved with a 1-bit alpha channel, as found in the 16-bit RGBA [[Highcolor]] mode of the [[Truevision TGA]] [[image file format]] and related [[TARGA]] and [[AT-Vista]]/[[NU-Vista]] display adapters' Highcolor graphic mode. This mode devotes 5 bits for every primary RGB color ([[List of monochrome and RGB palettes#15-bit RGB|15-bit RGB]]) plus a remaining bit as the "alpha channel".
+
+==Applications==
+
+Alpha blending is used in a variety of applications. It is natively supported by most operating systems/GUIs for drawing windows (where applicable) or widgets:
+* [[Bluebottle OS|A2]]
+* [[AmigaOS 4.1]]
+* [[Android (operating system)|Android]]
+* [[BeOS]], [[magnussoft ZETA]], [[Haiku (operating system)|Haiku]]
+* [[Inferno (operating system)|Inferno]]
+* [[Mac OS X]], [[iOS (Apple)|iOS]]
+* [[MorphOS]]
+* [[Plan 9 from Bell Labs|Plan 9]]
+* [[QNX]] Neutrino
+* [[RISC OS#RISC OS Select and Adjust|RISC OS Adjust]]
+* [[Syllable (operating system)|Syllable]]
+* [[webOS]]
+* [[Windows 2000]] or later, [[Windows CE|CE]], [[Windows Mobile|Mobile]]
+* The [[XRender]] extension to the [[X Window System]] (this includes modern [[UNIX]] and [[Linux]] systems)
+* [[GNOME]] 3.0
+* [[Unity (user interface)|Unity]]
+* [[KDE Plasma Workspaces]] (4.0 or later)
+* [[Xfce]]
+* [[Google Chrome OS#New window manager and graphics engine|Aura]] interface on [[Google Chrome OS]]
+
+Other software may use alpha blended transparent elements in the GUI independently of OS provided APIs by precomposing elements in an off-screen memory buffer before displaying them.  (Such as when displaying partially transparent composited elements in an embedded system which provides only a simple frame buffer.) [[Compositing software]] is used to combine images, and makes extensive use of alpha compositing techniques.
+
+==See also==
+*[[RGBA color space]]
+*[[Digital compositing]]
+*[[Transparency (graphic)]]
+*[[Palette (computing)#Transparent color in palettes|Transparent color in palettes]]
+*[[Mask (computing)#Image masks|Image masks]]
+*[[Portable Network Graphics]]
+*[[Truevision TGA]]
+*[[Magic Pink]]
+*[[Texture splatting]]
+*[[Alpha to coverage]]
+
+==References==
+{{reflist}}
+
+==External links==
+* [http://www.cs.princeton.edu/courses/archive/fall00/cs426/papers/smith95a.pdf Image Compositing Fundamentals]
+* [http://www.svgopen.org/2005/papers/abstractsvgopen/ Understand Compositing and Color extensions in SVG 1.2 in 30 minutes!]
+* [http://dvd-hq.info/alpha_matting.php Alpha Matting and Premultiplication]
+
+{{DEFAULTSORT:Alpha Compositing}}
+[[Category:Computer graphics algorithms]]

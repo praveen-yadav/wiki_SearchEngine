@@ -1,0 +1,401 @@
+{{about|the compiled programming language}}
+{{Infobox programming language
+| name                   = COBOL
+| logo                   =
+| paradigm               = [[Procedural programming|procedural]],<br> [[Object-oriented programming|object-oriented]]
+| year                   = {{start-date|1959}}
+| designer               = [[Grace Hopper]], William Selden, Gertrude Tierney, Howard Bromberg, Howard Discount, Vernon Reeves, [[Jean E. Sammet]]
+| latest release version = COBOL 2002
+| latest release date    = 2002
+| typing                 = [[strong typing|strong]], [[static typing|static]]
+| implementations        = [[OpenCOBOL]], [[Micro Focus International]] (e.g. the [[Eclipse (software)|Eclipse]]-plug-in ''Micro Focus Net Express'')
+| dialects               = HP3000 COBOL/II, COBOL/2, IBM OS/VS COBOL, IBM COBOL/II, IBM COBOL SAA, IBM Enterprise COBOL, IBM COBOL/400, IBM ILE COBOL, Unix COBOL X/Open, Micro Focus COBOL, Microsoft COBOL, Ryan McFarland RM/COBOL, Ryan McFarland RM/COBOL-85, DOSVS COBOL, UNIVAC COBOL, Realia COBOL, Fujitsu COBOL, ICL COBOL, ACUCOBOL-GT, isCOBOL, COBOL-IT, DEC COBOL-10, DEC VAX COBOL, Wang VS COBOL, Visual COBOL, Tandem (NonStop) COBOL85, Tandem (NonStop) SCOBOL (a COBOL74 variant for creating screens on text-based terminals)
+| influenced_by          = [[FLOW-MATIC]], [[COMTRAN]], [[FACT computer language|FACT]]
+| influenced             = [[PL/I]], [[CobolScript]], [[ABAP]]
+| wikibooks              = COBOL
+}}
+'''COBOL''' {{IPAc-en|ˈ|k|oʊ|b|ɒ|l}} is one of the oldest [[programming language]]s, primarily designed by [[Grace Hopper]]. Its name is an [[acronym]] for '''CO'''mmon '''B'''usiness-'''O'''riented '''L'''anguage, defining its primary domain in [[business]], finance, and administrative systems for companies and governments.
+
+The COBOL 2002 standard includes support for [[object-oriented programming]] and other modern language features.<ref>{{cite book | last = Oliveira | first = Rui | title = The Power of Cobol | publisher = BookSurge Publishing | location = City | year = 2006 | isbn = 0-620-34652-3}}</ref>
+
+==History and specification==
+The ''COBOL'' specification was created by a committee of researchers  from private industry, universities, and government during the second half of 1959. The specifications were to a great extent inspired by the [[FLOW-MATIC]] language invented by [[Grace Hopper]], commonly referred to as "the mother of the COBOL language." The IBM [[COMTRAN]] language invented by [[Bob Bemer]] was also drawn upon, but the [[FACT computer language|FACT]] language specification from [[Honeywell]] was not distributed to committee members until late in the process and had relatively little impact. [[FLOW-MATIC]]'s status as the only language of the bunch to have actually been implemented made it particularly attractive to the committee.<ref name=cisn>{{cite journal
+  | last = Sammet
+  | first = Jean
+  | authorlink = Jean_Sammet
+  | coauthors =
+  | title = The Early History of COBOL
+  | journal = ACM SIGPLAN Notices
+  | volume = 13
+  | issue = 8
+  | pages = 121–161
+  | publisher = Association for Computing Machinery, Inc.
+  | location =
+  | year = 1978
+  | url =http://portal.acm.org/citation.cfm?id=1198367
+  | issn =
+  | doi =
+  | id =
+  | accessdate = 14 January 2010
+  | pmid = }}</ref>
+
+The scene was set on April 8, 1959 at a Conference on Data Systems Languages ([[CODASYL]]) for computer manufacturers, users, and university people, at the [[University of Pennsylvania]] Computing Center. The [[United States Department of Defense]] subsequently agreed to sponsor and oversee the next activities. A meeting chaired by Charles A. Phillips was held at [[the Pentagon]] on May 28 and 29 of 1959 (exactly one year after the [[Zürich]] [[ALGOL 58]] meeting); there it was decided to set up three committees: short, intermediate and long range (the last one was never actually formed). It was the Short Range Committee, chaired by Joseph Wegstein of the US National Bureau of Standards, that during the following months created a description of the first version of COBOL.<ref>{{cite book | last = Garfunkel | first = Jerome | title = The Cobol 85 Example Book | publisher = Wiley | location = New York | year = 1987 | isbn = 0-471-80461-4}}</ref> The committee was formed to recommend a short range approach to a common business language. The committee was made up of members representing six computer manufacturers and three government agencies. The six computer manufacturers were [[Burroughs Corporation]], [[IBM]], Minneapolis-[[Honeywell]] (Honeywell Labs), [[RCA]], [[Sperry Rand]], and [[Sylvania Electric Products]]. The three government agencies were the [[US Air Force]], the Navy's [[David Taylor Model Basin]], and the [[National Bureau of Standards]] (now [[National Institute of Standards and Technology]]). The intermediate-range committee was formed but never became operational. In the end a sub-committee of the Short Range Committee developed the specifications of the COBOL language. This sub-committee was made up of six individuals:
+
+* William Selden and Gertrude Tierney of [[IBM]]
+* Howard Bromberg and Howard Discount of [[RCA]]
+* Vernon Reeves and [[Jean E. Sammet]] of [[Sylvania Electric Products]]<ref>{{cite book | last = Wexelblat | first = Richard | title = History of Programming Languages | publisher = Academic Press | location = Boston | year = 1981 | isbn = 0-12-745040-8}}</ref>
+
+The decision to use the name "COBOL" was made at a meeting of the committee held on 18 September 1959. The subcommittee completed the specifications for COBOL in December 1959.
+
+The first [[compiler]]s for COBOL were subsequently implemented in 1960, and on December 6 and 7, essentially the same COBOL program ran on two different computer makes, an RCA computer and a Remington-Rand [[Univac]] computer, demonstrating that compatibility could be achieved.
+
+=== ANS COBOL 1968 ===
+After 1959 COBOL underwent several modifications and improvements. In an attempt to overcome the problem of incompatibility between different versions of COBOL, the American National Standards Institute ([[ANSI]]) developed a standard form of the language in 1968 after the version COBOL-61 release which has become the cornerstone for further versions. This version was known as American National Standard (ANS) COBOL.
+
+=== COBOL 1974 ===
+In 1974, ANSI published a revised version of (ANS) COBOL, containing a number of features that were not in the 1968 version.
+
+=== COBOL 1985 ===
+In 1985, ANSI published still another revised version that had new features not in the 1974 standard, most notably structured language constructs ("scope terminators"), including <code>END-IF</code>, <code>END-PERFORM</code>, <code>END-READ</code>, etc.
+
+===COBOL 2002 and object-oriented COBOL===
+The language continues to evolve today.  In the early 1990s it was decided to add object-orientation in the next full revision of COBOL.  The initial estimate was to have this revision completed by 1997 and an [[International Organization for Standardization|ISO]] CD (Committee Draft) was available by 1997.  Some vendors (including [[Micro Focus International|Micro Focus]], [[Fujitsu]], [[Veryant]], and [[IBM]]) introduced object-oriented syntax based on the 1997 or other drafts of the full revision.  The final approved [[ISO standard]] (adopted as an ANSI standard by [[INCITS]]) was approved and made available in 2002.
+
+Like the [[C++]] and [[Java (programming language)|Java]] programming languages, object-oriented COBOL compilers are available even as the language moves toward standardization. [[Fujitsu]], [[Micro Focus]] and [[Raincode]] currently support object-oriented COBOL compilers targeting the [[.NET framework]].<ref>[http://www.adtools.com/products/windows/netcobol.html NetCOBOL for .NET supports COBOL migration and software development in the .NET environment]</ref>
+
+COBOL 2002 included many other features beyond object-orientation. These included (but are not limited to):
+
+* National language support (including but not limited to [[Unicode]] support)
+* Locale-based processing
+* [[User-defined function]]s
+* CALL (and function) [[function prototype|prototypes]] (for compile-time parameter checking)
+* [[Pointer (computer programming)|Pointers]] and syntax for getting and freeing storage
+* Calling conventions to and from non-COBOL languages such as [[C (programming language)|C]]
+* Support for execution within [[Application framework|framework environments]] such as Microsoft's [[.NET Framework|.NET]] and [[Java (programming language)|Java]] (including COBOL instantiated as [[Enterprise JavaBean]]s)
+* [[Bit]] and [[Boolean data type|Boolean]] support
+* "True" [[Binary data|binary]] support (up until this enhancement, binary items were truncated based on the ([[base-10]]) specification within the Data Division)
+* [[Floating-point]] support
+* Standard (or portable) arithmetic results
+* [[XML]] generation and parsing
+
+===History of COBOL standards===
+The specifications approved by the full Short Range Committee were approved by the Executive Committee on January 3, 1960, and sent to the government printing office, which edited and printed these specifications as ''COBOL 60''.
+
+The [[American National Standards Institute]] (ANSI) produced several revisions of the COBOL standard, including:
+
+* [[COBOL#ANS_COBOL_1968|COBOL-68]]
+* [[COBOL#COBOL_1974|COBOL-74]]
+* [[COBOL#COBOL_1985|COBOL-85]]
+* Intrinsic Functions Amendment - 1989
+* Corrections Amendment - 1991
+
+After the Amendments to the 1985 ANSI Standard (which were adopted by ISO), primary development and ownership was taken over by ISO.  The following editions and TRs (Technical Reports) have been issued by ISO (and adopted as ANSI) Standards:
+
+* [[COBOL#COBOL_2002_and_object-oriented_COBOL|COBOL 2002]]
+* Finalizer Technical Report - 2003
+* Native XML syntax Technical Report - 2006
+* Object Oriented Collection Class Libraries - pending final approval...
+
+From 2002, the [[International Organization for Standardization|ISO]] standard is also available to the public coded as ISO/IEC 1989.
+
+Work progresses on the next full revision of the COBOL Standard. Approval and availability was expected early 2010s.  For information on this revision, to see the latest draft of this revision, or to see what other works is happening with the COBOL Standard, see [http://www.cobolstandard.info the COBOL Standards Website].
+
+===Legacy===
+COBOL programs are in use globally in governmental and military agencies and in commercial enterprises, and are running on operating systems such as IBM's [[z/OS]] and [[z/VSE]], the [[POSIX]] families ([[Unix]]/[[Linux]] etc.), and Microsoft's [[Microsoft Windows|Windows]] as well as [[International Computers Limited|ICL]]'s [[ICL VME|VME]] operating system and [[Unisys]]' [[Unisys OS 2200 operating system|OS 2200]].  In 1997, the [[Gartner Group]] reported that 80% of the world's business ran on COBOL with over 200 billion lines of code in existence and with an estimated 5 billion lines of new code annually.<ref>{{cite journal |url=http://proc.isecon.org/2000/126/ISECON.2000.Kizior.pdf | title=Does COBOL Have a Future? |accessdate=2012-09-30 |first1=Ronald J. |last1=Kizior |first2=Donald |last2=Carr |first3=Paul |last3=Halpern |journal=The Proceedings of the Information Systems Education Conference 2000 |volume=17 |issue=126}}<!-- http://web.archive.org/web/20101101222605/http://www.cobolportal.com/developer/future.asp http://proc.isecon.org/2000/126/index.html --></ref>
+
+Near the end of the twentieth century the [[year 2000 problem]] was the focus of significant COBOL programming effort, sometimes by the same programmers who had designed the systems decades before.  The particular level of effort required for COBOL code has been attributed both to the large amount of business-oriented COBOL, as COBOL is by design a business language and business applications use dates heavily, and to constructs of the COBOL language such as the <code>PICTURE</code> clause, which can be used to define fixed-length numeric fields, including two-digit fields for years.{{Citation needed|date=May 2010}} Because of the clean-up effort put into these COBOL programs for Y2K, many of them have been kept in use for years since then.{{Citation needed|date=June 2011}}
+
+===Competitors===
+As COBOL was developed during the [[Cold War]], it was part of the arms race between the [[United States]] and the [[Soviet Union]].{{citation needed|date=July 2013}} The high level language that the Soviets used in their ballistic missiles was [[Address programming language]].
+
+==Features==
+{{unreferenced section|date=June 2013}}
+COBOL as defined in the original specification included a [[picture clause|<code>PICTURE</code> clause]] for detailed field specification.  It did not support local variables, recursion, dynamic memory allocation, or [[structured programming]] constructs.  Support for some or all of these features has been added in later editions of the COBOL standard. COBOL has many [[reserved word]]s (over 400), called [[keyword (computing)|keywords]].
+
+===Self-modifying code===
+The original COBOL specification supported the infamous "<code>ALTER X TO PROCEED TO Y</code>" statement, for which many compilers generated [[self-modifying code]]. <code>X</code> and <code>Y</code> are paragraph labels, and any "<code>GO TO X</code>" statements executed after such an <code>ALTER</code> statement have the meaning "<code>GO TO Y</code>" instead. Most{{Citation needed|date=July 2010}} compilers still support it, but it should not be used in new programs as it was deprecated in COBOL 1985.{{Citation needed|date=December 2011}}
+
+===Syntactic features===
+COBOL provides an update-in-place syntax, for example
+
+<syntaxhighlight lang="cobol">
+      ADD YEARS TO AGE
+</syntaxhighlight>
+
+The equivalent construct in many procedural languages would be
+
+<syntaxhighlight lang="cobol">
+age = age + years
+</syntaxhighlight>
+
+This syntax is similar to the compound assignment operator later adopted by C:
+
+<syntaxhighlight lang="c">
+age += years
+</syntaxhighlight>
+
+The abbreviated conditional expression
+
+<syntaxhighlight lang="cobol">
+      IF SALARY > 9000 OR SUPERVISOR-SALARY OR = PREV-SALARY
+</syntaxhighlight>
+
+is equivalent to
+
+<syntaxhighlight lang="cobol">
+      IF SALARY > 9000
+          OR SALARY > SUPERVISOR-SALARY
+          OR SALARY = PREV-SALARY
+</syntaxhighlight>
+
+COBOL provides "named conditions" (so-called 88-levels). These are declared as sub-items of another item (the conditional variable). The named condition can be used in an <code>IF</code> statement, and tests whether the conditional variable is equal to any of the values given in the named condition's <code>VALUE</code> clause. The <code>SET</code> statement can be used to make a named condition <code>TRUE</code> (by assigning the first of its values to the conditional variable).
+
+COBOL allows identifiers up to 30 characters long. When COBOL was introduced, much shorter lengths (e.g., 6 characters for Fortran) were prevalent.
+
+COBOL introduced the concept of ''[[copybook (programming)|copybooks]]''— chunks of code that can be inserted into a larger program. COBOL does this with the <code>COPY<code> statement, which also allows other code to replace parts of the copybook's code with other code (using the <code>REPLACING ... BY ...<code> clause).
+
+===Data types===
+Standard COBOL provides the following [[data type]]s:
+
+{| class="wikitable" style="width:90%;"
+|-
+!style="width:30%"| Data type
+!style="width:30%"| Sample declaration
+!style="width:40%"| Notes
+|-
+|Character
+|<code>[[picture clause|PIC]] X(20)<br>PIC A(4)9(5)X(7)</code>
+|Alphanumeric and alphabetic-only<br>Single-byte character set (SBCS)
+|-
+|Edited character
+|<code>[[picture clause|PIC]] X99BAXX</code>
+|Formatted and inserted characters
+|-
+|Numeric fixed-point binary
+|<code>[[picture clause|PIC]] S999V99<br> [USAGE] COMPUTATIONAL</code><br>or<br><code>BINARY</code>
+|Binary 16, 32, or 64 bits (2, 4, or 8 bytes)<br> Signed or unsigned.  Conforming compilers limit the maximum value of variables based on the [[picture clause|<code>PICTURE</code>]] clause and not the number of bits reserved for storage.
+|-
+|Numeric fixed-point [[packed decimal]]
+|<code>[[picture clause|PIC]] S999V99</code><br><code>PACKED-DECIMAL</code>
+|1 to 18 decimal digits (1 to 10 bytes)<br> Signed or unsigned
+|-
+|Numeric fixed-point [[zoned decimal]]
+|<code>[[picture clause|PIC]] S999V99<br><nowiki>[</nowiki>USAGE DISPLAY<nowiki>]</nowiki></code>
+|1 to 18 decimal digits (1 to 18 bytes)<br> Signed or unsigned<br> Leading or trailing sign, overpunch or separate
+|-
+|Numeric floating-point
+|<code>[[picture clause|PIC]] S9V999ES99</code>
+|Binary floating-point
+|-
+|Edited numeric
+|<code>[[picture clause|PIC]] +Z,ZZ9.99<br>[[picture clause|PIC]] $***,**9.99CR</code>
+|Formatted characters and digits
+|-
+|Group ''([[Record (computer science)|record]])''
+|<code>01 CUST-NAME.<br> &nbsp;&nbsp;05 CUST-LAST [[picture clause|PIC]] X(20).<br> &nbsp;&nbsp;05 CUST-FIRST [[picture clause|PIC]] X(20).</code>
+|Aggregated elements
+|-
+|[[Table (information)|Table]] ''([[Array data type|array]])''
+|<code>OCCURS 12 TIMES</code>
+|Fixed-size array, row-major order<br> Up to 7 dimensions
+|-
+|[[Variable-length array|Variable-length table]]
+|<code>OCCURS 0 to 12 TIMES<br> DEPENDING ON CUST-COUNT</code>
+|Variable-sized array, row-major order<br> Up to 7 dimensions
+|-
+|Renames ''([[variant record|variant]] or [[union (computer science)|union]] data)''
+|<code>66 RAW-RECORD<br> &nbsp;&nbsp;RENAMES CUST-RECORD</code>
+|Character data overlaying other variables
+|-
+|Condition name
+|<code>88 IS-RETIRED-AGE<br> &nbsp;&nbsp;VALUES 65 THRU 150</code>
+|Boolean value<br> dependent upon another variable
+|-
+|Array index
+|<code>[USAGE] INDEX</code>
+|Index (subscript) of a table element<br> May be associated with a specific table using <code>INDEXED&nbsp;BY</code>
+|}
+
+Most vendors provide additional types, such as:
+
+{| class="wikitable" style="width:90%;"
+|-
+!style="width:30%"| Data type
+!style="width:30%"| Sample declaration
+!style="width:40%"| Notes
+|-
+|Numeric floating-point<br> single precision
+|<code>[[picture clause|PIC]] S9V9999999ES99</code><br> <code>[USAGE] COMPUTATIONAL-1</code>
+|Binary floating-point (32 bits, 7+ digits)<br>(IBM extension)
+|-
+|Numeric floating-point<br> double precision
+|<code>[[picture clause|PIC]] S9V999ES99</code><br> <code>[USAGE] COMPUTATIONAL-2</code>
+|Binary floating-point (64 bits, 16+ digits)<br>(IBM extension)
+|-
+|Numeric fixed-point [[packed decimal]]<br>
+|<code>[[picture clause|PIC]] S9V999</code><br> <code>[USAGE] COMPUTATIONAL-3</code>
+|Same as <code>PACKED DECIMAL</code><br>(IBM extension)
+|-
+|Numeric fixed-point binary
+|<code>[[picture clause|PIC]] S999V99<br> [USAGE] COMPUTATIONAL-4</code>
+|Same as <code>COMPUTATIONAL</code> or <code>BINARY</code><br>(IBM extension)
+|-
+|Numeric fixed-point binary<br>(native binary)
+|<code>[[picture clause|PIC]] S999V99<br> [USAGE] COMPUTATIONAL-5</code>
+|Binary 16, 32, or 64 bits (2, 4, or 8 bytes)<br> Signed or unsigned. The maximum value of variables based on the number of bits reserved for storage and not on the [[picture clause|<code>PICTURE</code>]] clause.<br>(IBM extension)
+|-
+|Numeric fixed-point binary<br> in native byte order
+|<code>[[picture clause|PIC]] S999V99<br> [USAGE] COMPUTATIONAL-4</code>
+|Binary 16, 32, or 64 bits (2, 4, or 8 bytes)<br> Signed or unsigned
+|-
+|Numeric fixed-point binary<br> in [[big-endian]] byte order
+|<code>[[picture clause|PIC]] S999V99<br> [USAGE] COMPUTATIONAL-5</code>
+|Binary 16, 32, or 64 bits (2, 4, or 8 bytes)<br> Signed or unsigned
+|-
+|Wide character
+|<code>[[picture clause|PIC]] G(20)</code>
+|Alphanumeric<br>Double-byte character set (DBCS)
+|-
+|Edited wide character
+|<code>[[picture clause|PIC]] G99BGGG</code>
+|Formatted and inserted wide characters
+|-
+|Edited floating-point
+|<code>[[picture clause|PIC]] +9.9(6)E+99</code>
+|Formatted characters, decimal digits, and exponent
+|-
+|[[Pointer (computer programming)|Data pointer]]
+|<code>[USAGE] POINTER</code>
+|Data memory address
+|-
+|[[Function pointer|Code pointer]]
+|<code>[USAGE] PROCEDURE-POINTER</code>
+|Code memory address
+|-
+|Bit field
+|<code>[[picture clause|PIC]] 1(''n'') [USAGE] COMPUTATIONAL-5</code>
+|''n'' can be from 1 to 64, defining an ''n''-bit integer<br> Signed or unsigned
+|}
+
+===Hello, world===
+An example of the "[[Hello, world]]" program in COBOL:
+<syntaxhighlight lang="cobol">
+      IDENTIFICATION DIVISION.
+      PROGRAM-ID. HELLO-WORLD.
+      PROCEDURE DIVISION.
+          DISPLAY 'Hello, world'.
+          STOP RUN.
+</syntaxhighlight>
+<!-- I haven't tested this reformatted version, as my COBOL compiler doesn't seem to handle the "EXIT PROGRAM"/"END PROGRAM..." syntax, but I'm pretty damn sure that if it worked before, it'll still work now. If you copy and paste this example then be careful to preserve the indentation, as indentation is relevant to (at least) older COBOL compilers.  If you're trying to compile this example on an older compiler and it fails to compile or produces no output when run, you may want to try a example.<ref>http://www.cuillin.demon.co.uk/nazz/trivia/hw/hw_cobol.html more simple</ref> offline -->
+
+There are various dialects of COBOL. Some compilers, for example, allow the use of double quotes in addition to standard single quotes:
+<syntaxhighlight lang="cobol">
+      DISPLAY "Hello, world".
+</syntaxhighlight>
+
+====Hello, OS/360 circa 1972====
+On an [[System 360|IBM System/360]] running OS/360 MVT 21.8f, circa 1972 (which predates the tradition of using Hello, world for introductory examples), [[Hello, world]] would have been punched onto 80-column cards, containing source code similar to:
+<syntaxhighlight lang="cobol">
+//COBUCLG  JOB CLASS=A,MSGCLASS=A,MSGLEVEL=(1,1)
+//HELOWRLD EXEC COBUCLG,PARM.COB='MAP,LIST,LET'
+//COB.SYSIN DD *
+  001  IDENTIFICATION DIVISION.
+  002  PROGRAM-ID.  'HELLO'.
+  003  ENVIRONMENT DIVISION.
+  004  CONFIGURATION SECTION.
+  005  SOURCE-COMPUTER.  IBM-360.
+  006  OBJECT-COMPUTER.  IBM-360.
+  0065 SPECIAL-NAMES.
+  0066     CONSOLE IS CNSL.
+  007  DATA DIVISION.
+  008  WORKING-STORAGE SECTION.
+  009  77  HELLO-CONST   PIC X(12) VALUE 'HELLO, WORLD'.
+  075  PROCEDURE DIVISION.
+  090  000-DISPLAY.
+  100      DISPLAY HELLO-CONST UPON CNSL.
+  110      STOP RUN.
+//LKED.SYSLIB DD DSNAME=SYS1.COBLIB,DISP=SHR
+//            DD DSNAME=SYS1.LINKLIB,DISP=SHR
+//GO.SYSPRINT DD SYSOUT=A
+//
+</syntaxhighlight>
+
+The "//" source lines are [[Job Control Language|JCL]] statements, surrounding the COBOL sequence-numbered source code. The ANS COBOL Compile, Link, and Go module "COBUCLG" was typically utilized to compile and execute the code.  The resulting "HELLO, WORLD" output would have then been displayed on the operator's console.
+
+==Criticism and defense==
+
+===Lack of structurability===
+In his letter to an editor in 1975 entitled "How do we tell truths that might hurt?" which was critical of several programming languages contemporaneous with COBOL, computer scientist and [[Turing Award]] recipient [[Edsger Dijkstra]] remarked that "The use of COBOL cripples the mind; its teaching should, therefore, be regarded as a criminal offense."<ref name="Dijkstra1">{{cite web|url=http://www.cs.utexas.edu/users/EWD/transcriptions/EWD04xx/EWD498.html|title=E. W. Dijkstra Archive: How do we tell truths that might hurt? (EWD498)|accessdate=August 29, 2007|publisher=University of Texas at Austin|year=2006|author=Dijkstra }}</ref>
+
+In his dissenting response to Dijkstra's article and the above "offensive statement," computer scientist Howard E. Tompkins defended structured COBOL: "COBOL programs with convoluted control flow indeed tend to 'cripple the mind'," but this was because "There are too many such business application programs written by programmers that have never had the benefit of structured COBOL taught well..."<ref>"''In Defense of Teaching Structured COBOL as Computer Science''," Howard E. Tompkins, ACM SIGPLAN Notices, Vol. 18, Issue 4, April 1983.</ref>
+
+Additionally, the introduction of OO-COBOL has added support for [[object-oriented programming|object-oriented]] code as well as user-defined functions and user-defined data types to COBOL's repertoire.
+
+===Compatibility issues after standardization===
+COBOL-85 was not fully compatible with earlier versions, resulting in the "caesarean birth" of COBOL-85.  Joseph T. Brophy, [[Chief Information Officer|CIO]], [[St. Paul Travelers|Travelers Insurance]], spearheaded an effort to inform users of COBOL of the heavy reprogramming costs of implementing the new standard.  As a result the [[American National Standards Institute|ANSI COBOL Committee]] received more than 3,200 letters from the public, mostly negative, requiring the committee to make changes.  On the other hand, conversion to COBOL-85 was thought to increase productivity in future years, thus justifying the conversion costs.<ref>{{cite book|title =The COBOL 85 example book|first = Jerome|last = Garfunkel|publisher = Wiley|location = New York|year = 1987|isbn = 0-471-80461-4}}</ref>
+
+===Verbose syntax===
+COBOL syntax has often been criticized for its verbosity. However, proponents note that this was intentional in the language design, and many consider it one of COBOL's strengths. One of the design goals of COBOL was that non-programmers—managers, supervisors, and users—could read and understand the code. This is why COBOL has an English-like syntax and structural elements—including: nouns, verbs, clauses, sentences, sections, and divisions. Consequently, COBOL is considered by at least one source to be "The most readable, understandable and self-documenting programming language in use today. [...] Not only does this readability generally assist the maintenance process but the older a program gets the more valuable this readability becomes."<ref name="cobol-intro">[http://www.csis.ul.ie/cobol/course/COBOLIntro.htm#part1 COBOL Tutorial - Introduction to COBOL]</ref>  On the other hand, the mere ability to read and understand a few lines of COBOL code does not grant to an executive or end user the experience and knowledge needed to design, build, and maintain large software systems.
+
+===Other defenses===
+
+Additionally, traditional COBOL is a simple language with a limited scope of function (with no pointers, no user-defined types, and no user-defined functions), encouraging a straightforward coding style. This has made it well-suited to its primary domain of business computing—where the program complexity lies in the business rules that need to be encoded rather than sophisticated algorithms or data structures. And because the standard does not belong to any particular vendor, programs written in COBOL are highly portable. The language can be used on a wide variety of hardware platforms and operating systems. And the rigid hierarchical structure restricts the definition of external references to the Environment Division, which simplifies platform changes in particular.<ref name="cobol-intro" />
+
+==See also==
+* [[Generational list of programming languages#COBOL based|Programming language genealogies]]
+* [[Alphabetical list of programming languages]]
+* [[Comparison of programming languages]]
+* [[OpenCOBOL]]
+* [[CODASYL]]
+
+==References==
+{{Reflist}}
+<!--See [[Wikipedia:Footnotes]] for an explanation of how to generate footnotes using the <ref(erences/)> tags-->
+
+==Sources==
+* Ebbinkhuijsen, Wim B.C., ''COBOL'' Alphen aan den Rijn/Diegem: Samson Bedrijfsinformatie bv, 1990. ISBN 90-14-04560-3. (Dutch)
+
+==External links==
+{{wikibooks}}
+{{External links|date=March 2013}}
+Reference manuals:
+* [http://publibfp.boulder.ibm.com/cgi-bin/bookmgr/Shelves/igy3sh50 IBM Enterprise COBOL for z/OS V4R2 Bookshelf]
+* [http://pic.dhe.ibm.com/infocenter/comphelp/v111v131/index.jsp?nav=%2F4 IBM COBOL for AIX, V4.1.1 documentation]
+* [http://publibz.boulder.ibm.com/cgi-bin/bookmgr_OS390/Shelves/IGYSH007 IBM VS COBOL II V1R4.0 Bookshelf]
+* [http://publib.boulder.ibm.com/iseries/v5r2/ic2924/index.htm?info/rzahgcobol.htm IBM COBOL documentation (iSeries Information Center)]
+* {{PDFlink|[http://publib.boulder.ibm.com/infocenter/iseries/v5r4/topic/books/sc092540.pdf IBM ILE COBOL Programmer's Guide]|6.8&nbsp;MB}}
+* {{PDFlink|[http://publib.boulder.ibm.com/infocenter/iseries/v5r4/topic/books/sc092539.pdf IBM ILE COBOL Language Reference]|7.0&nbsp;MB}}
+* {{PDFlink|[http://h71000.www7.hp.com/doc/82final/6296/aa-q2g0h-tk.pdf Hewlett Packard Cobol Reference Manual for OPEN VMS]|1.6&nbsp;MB}}
+* {{PDFlink|[http://opencobol.add1tocobol.com/OpenCOBOL%20Programmers%20Guide.pdf OpenCOBOL Programmer's Guide]|3.3&nbsp;MB}}
+
+Compilers and other products:
+* [http://www.ibm.com/software/products/us/en/cobocompfami/ IBM COBOL compilers]
+* [https://www.ibm.com/developerworks/community/groups/service/html/communityview?communityUuid=31c890c6-ace1-4eeb-af6b-5950f3a1a5d1 IBM COBOL Cafe]
+* [http://www.dell.com/learn/us/en/555/services/migrate-cobol-applications Dell Enterprise Cobol]
+* [http://www.elasticcobol.com/ Elastic COBOL] Cloud-based Elastic COBOL from Heirloom Computing allows application development and maintenance framework as well as deployment of applications onto an Enterprise Legacy Platform-as-a-Service.
+* [http://www.netcobol.com/ Fujitsu] Fujitsu NetCOBOL, COBOL development, deployment and modernization.
+* [http://www.microfocus.com/products/micro-focus-developer/visual_cobol/ Micro Focus] Micro Focus Visual COBOL, COBOL development, deployment and modernization.
+* [http://www.veryant.com Veryant], affordable COBOL maintenance and modernization platform
+* [http://www.cobol-it.com COBOL-IT], The Enterprise-Class Open Source COBOL Compiler
+* [http://cobos.metrixware.org Cobos], Open Source IDE for COBOL / Mainframe development
+* [http://www.redversconsulting.com/tools.php Redvers Consulting], Open Source COBOL Tools
+* [http://www.opencobol.org OpenCOBOL], an open-source COBOL compiler.
+* [http://opencobol.add1tocobol.com OpenCOBOL FAQ], and collection of code samples.
+* [http://tiny-cobol.sourceforge.net/ TinyCOBOL], an open-source COBOL compiler based on the COBOL-85 standards
+* [http://www.softwaremining.com SoftwareMining], COBOL Rule Extraction Toolkit.
+* [http://www.vintagebigblue.org/Compilerator/COBOL/dosvsCOBOLCompile.php The Compilerator], Online COBOL compiler for small experiments
+* [http://www.raincode.com RainCode COBOL], .NET Legacy compiler
+
+Exhibitions:
+* [http://americanhistory.si.edu/exhibitions/artifact-walls-cobol] An online exhibition from the National Museum of American History, Smithsonian Institution
+* [http://mainframewizard.com/content/what-cobol What is COBOL] Small Definition of COBOL
+
+{{Major programming languages}}<!--Need a more specific "3rd-generation" prog lang templ-->
+{{Computer language}}<!--Need a more specific "3rd-generation" prog lang templ-->
+
+{{DEFAULTSORT:Cobol}}
+[[Category:COBOL| ]]
+[[Category:Object-oriented programming languages]]
+[[Category:.NET programming languages]]
+[[Category:Programming languages created in the 1950s]]
+[[Category:Programming languages with an ISO standard]]

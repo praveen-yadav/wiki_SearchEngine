@@ -1,0 +1,777 @@
+In [[number theory]], an '''arithmetic''', '''arithmetical''', or '''number-theoretic function'''<ref>{{harvtxt|Long|1972|p=151}}</ref><ref>{{harvtxt|Pettofrezzo|Byrkit|1970|p=58}}</ref> is a real or complex valued [[Function (mathematics)|function]] ''ƒ''(''n'') defined on the set of [[natural number]]s (i.e. [[positive number|positive]] [[integer]]s) that "expresses some arithmetical property of ''n''."<ref>Hardy & Wright, intro. to Ch. XVI</ref>
+
+An example of an arithmetic function is the non-principal character (mod 4) defined by
+
+:<math>
+\chi(n) =
+\left(\frac{-4}{n}\right)= 
+\begin{cases}
+\;\;\,0 & \mbox{if } n \mbox{ is even}, \\
+\;\;\, 1 & \mbox{if } n \equiv 1 \mod 4, \\
+ -1 & \mbox{if } n \equiv 3 \mod 4.
+\end{cases}
+</math> &nbsp; &nbsp; where <math>(\tfrac{-4}{n})\ </math> is the [[Kronecker symbol]].
+
+To emphasize that they are being thought of as functions rather than sequences, values of an arithmetic function are usually denoted by ''a''(''n'') rather than ''a''<sub>''n''</sub>.
+
+There is a larger class of number-theoretic functions that do not fit the above definition, e.g. the [[Prime counting function|prime-counting functions]]. This article provides links to functions of both classes.
+
+==Notation==
+
+<math>\sum_p f(p)\;</math> &nbsp; and &nbsp; <math>\prod_p f(p)\;</math> &nbsp; mean that the sum or product is over all prime numbers:
+
+:<math>\sum_p f(p) = f(2) + f(3) + f(5) + \cdots</math> &nbsp; &nbsp; <math>\prod_p f(p)= f(2)f(3)f(5)\ldots.</math>
+
+Similarly, &nbsp; <math>\sum_{p^k} f(p)\;</math> &nbsp; and &nbsp; <math>\prod_{p^k} f(p)\;</math> &nbsp; mean that the sum or product is over all prime powers with strictly positive exponent (so 1  is not counted):
+
+:<math>\sum_{p^k} f(p) = f(2) + f(3) + f(4) +f(5) +f(7)+f(8)+f(9)+\cdots</math>
+
+<math>\sum_{d|n} f(d)\;</math> &nbsp; and &nbsp; <math>\prod_{d|n} f(d)\;</math> &nbsp; mean that the sum or product is over all positive divisors of ''n'', including 1 and ''n''. E.g., if ''n'' = 12,
+
+:<math>\prod_{d|12} f(d) = f(1)f(2) f(3)  f(4)  f(6)  f(12).\ </math>
+
+The notations can be combined: &nbsp; <math>\sum_{p|n} f(p)\;</math> &nbsp; and &nbsp; <math>\prod_{p|n} f(p)\;</math> &nbsp; mean that the sum or product is over all prime divisors of ''n''. E.g., if ''n'' = 18,
+
+:<math>\sum_{p|18} f(p) = f(2) + f(3),\ </math>
+
+and similarly &nbsp; <math>\sum_{p^k|n} f(p^k)\;</math> &nbsp; and &nbsp; <math>\prod_{p^k|n} f(p^k)\;</math> &nbsp; mean that the sum or product is over all prime powers dividing ''n''. E.g., if ''n'' = 24,
+
+:<math>\prod_{p^k|24} f(p^k) = f(2) f(3)  f(4) f(8).\ </math>
+
+== Multiplicative and additive functions ==
+
+An arithmetic function ''a'' is
+
+*'''[[Completely additive function|completely additive]]''' if ''a''(''mn'') = ''a''(''m'') + ''a''(''n'') for all natural numbers ''m'' and ''n'';
+
+* '''[[Completely multiplicative function|completely multiplicative]]''' if ''a''(''mn'') = ''a''(''m'')''a''(''n'') for all natural numbers ''m'' and ''n'';
+
+Two whole numbers ''m'' and ''n'' are called [[coprime]] if their [[greatest common divisor]] is 1; i.e., if there is no [[prime number]] that divides both of them.
+
+Then an arithmetic function ''a'' is
+
+* '''[[Additive function|additive]]''' if ''a''(''mn'') = ''a''(''m'') + ''a''(''n'') for all coprime natural numbers ''m'' and ''n'';
+
+* '''[[Multiplicative function|multiplicative]]''' if ''a''(''mn'') = ''a''(''m'')''a''(''n'') for all coprime natural numbers ''m'' and ''n''.
+
+==Ω(''n''), ω(''n''), ν<sub>''p''</sub>(''n'') – prime power decomposition==
+
+The [[fundamental theorem of arithmetic]] states that any positive integer ''n'' can be represented uniquely as a product of powers of primes: &nbsp; <math> n = p_1^{a_1}\ldots p_k^{a_k} </math> &nbsp; where  ''p''<sub>1</sub> < ''p''<sub>2</sub> < ... < ''p''<sub>''k''</sub> are primes and the ''a<sub>j</sub>'' are positive integers. (1 is given by the empty product.)
+
+It is often convenient to write this as an infinite product over all the primes, where all but a finite number have a zero exponent. Define '''ν<sub>''p''</sub>(''n'')''' as the exponent of the highest power of the prime ''p'' that divides ''n''. I.e. if ''p'' is one of the ''p''<sub>''i''</sub> then ν<sub>''p''</sub>(''n'') = ''a''<sub>''i''</sub>, otherwise it is zero. Then
+
+:<Math>n=\prod_p p^{\nu_p(n)}.</math>
+
+In terms of the above the functions ω and Ω are defined by
+
+:'''[[Prime factor|ω(''n'')]] = ''k''''',
+:'''Ω(''n'') = a<sub>1</sub> +    a<sub>2</sub> + ... + a<sub>''k''</sub>'''.
+
+To avoid repetition, whenever possible formulas for the functions listed in this article are given in terms of ''n'' and the corresponding ''p''<sub>''i''</sub>, ''a''<sub>''i''</sub>, ω, and Ω.
+
+[[File:PrimeFactorAmounts.svg|thumb|none|upright=3.5|The chaotic course of Ω(''n'') through the natural numbers ({{OEIS2C|A001222}}): Beginning on the height of the red line the two least significant ''binary'' digits of Ω(''n'') of all positive ''odd'' n below 1200 are represented by a line up (digit 1) or a line down (digit 0). The additional replacement of the “↗↘” of the semiprimes without prime factors below 5 by only one line down (here <span style="color:#0080FF">'''blue'''</span>) even almost brings a balance between the ups and downs. The prime numbers are marked <span style="color:#e08000">'''orange'''</span>: orange lines for the [[Gaussian prime]]s and for the other primes p additional the number x in orange so that p = x² + y² = (x + y{{math|i}}) (x – y{{math|i}}) = –{{math|i}} (x + y{{math|i}}) (y + x{{math|i}}) and x < y for natural x and y ({{OEIS2C|A002331}}).]]
+
+==Multiplicative functions==
+
+===σ<sub>''k''</sub>(''n''), τ(''n''), ''d''(''n'') – divisor sums===
+
+'''[[divisor function|σ<sub>''k''</sub>(''n'')]]''' is the sum of the ''k''th powers of the positive divisors of ''n'', including 1 and ''n'', where ''k'' is a complex number.
+
+'''σ<sub>1</sub>(''n'')''', the sum of the (positive) divisors of ''n'', is usually denoted by '''σ(''n'')'''.
+
+Since a positive number to the zero power is one, '''σ<sub>0</sub>(''n'')''' is therefore the number of (positive) divisors of ''n''; it is usually denoted by '''''d''(''n'')''' or '''τ(''n'')''' (for the German ''Teiler'' = divisors).
+
+:<math>\sigma_k(n) = \prod_{i=1}^{\omega(n)} \frac{p_i^{(a_i+1)k}-1}{p_i^k-1}
+= \prod_{i=1}^{\omega(n)} \left(1 + p_i^k + p_i^{2k} + \cdots + p_i^{a_i k}\right).
+</math>
+
+Setting ''k'' = 0 in the second product gives
+
+:<math>\tau(n) = d(n) = (1 + a_{1})(1+a_{2})\cdots(1+a_{\omega(n)}).</math>
+
+===φ(''n'') – Euler totient function===
+
+'''[[Euler totient function|φ(''n'')]]''', the Euler totient function, is the number of positive integers not greater than ''n'' that are coprime to ''n''.
+
+:<math>\varphi(n) = n \prod_{p|n} \left(1-\frac{1}{p}\right)
+=n \left(\frac{p_1 - 1}{p_1}\right)\left(\frac{p_2 - 1}{p_2}\right) \ldots \left(\frac{p_{\omega(n)} - 1}{p_{\omega(n)}}\right)
+.</math>
+
+===J<sub>''k''</sub>(''n'') – Jordan totient function===
+
+'''[[Jordan totient function|J<sub>''k''</sub>(''n'')]]''', the Jordan totient function, is the number of ''k''-tuples of positive integers all less than or equal to ''n'' that form a coprime (''k'' + 1)-tuple together with ''n''. It is a generalization of Euler's  totient, {{nowrap|φ(''n'')  {{=}} J<sub>1</sub>(''n'')}}.
+:<math>J_k(n) = n^k \prod_{p|n} \left(1-\frac{1}{p^k}\right)
+=n^k \left(\frac{p^k_1 - 1}{p^k_1}\right)\left(\frac{p^k_2 - 1}{p^k_2}\right) \ldots \left(\frac{p^k_{\omega(n)} - 1}{p^k_{\omega(n)}}\right)
+.</math>
+
+===μ(''n'') - Möbius function===
+
+'''[[Möbius function|μ(''n'')]]''', the Möbius function, is important because of the [[Möbius inversion]] formula. See [[#Dirichlet convolution|Dirichlet convolution]], below.
+
+:<math>\mu(n)=\begin{cases} (-1)^{\omega(n)}=(-1)^{\Omega(n)} &\mbox{if }\; \omega(n) = \Omega(n)\\
+0&\mbox{if }\;\omega(n) \ne \Omega(n).\end{cases}</math>
+
+This implies that μ(1) = 1. (Because Ω(1) =  ω(1) = 0.)
+
+===τ(''n'') – Ramanujan tau function===
+
+'''[[Tau-function|τ(''n'')]]''', the Ramanujan tau function, is defined by its [[generating function]] identity:
+
+:<math>\sum_{n\geq 1}\tau(n)q^n=q\prod_{n\geq 1}(1-q^n)^{24}.</math>
+
+Although it is hard to say exactly what  "arithmetical property of ''n''" it "expresses",<ref>Hardy, ''Ramanujan'', § 10.2</ref> (τ(''n'') is (2π)<sup>−12</sup> times the ''n''th Fourier coefficient in the [[q-expansion]] of the [[Modular discriminant#Modular discriminant|modular discriminant]] function)<ref>Apostol, ''Modular Functions ...'', § 1.15, Ch. 4, and ch. 6</ref> it is included among the arithmetical functions because it is multiplicative and it occurs in identities involving certain σ<sub>''k''</sub>(''n'') and ''r''<sub>''k''</sub>(''n'') functions (because these are also coefficients in the expansion of [[modular form]]s).
+
+===''c''<sub>''q''</sub>(''n'') – Ramanujan's sum===
+
+'''[[Ramanujan's sum|''c''<sub>''q''</sub>(''n'')]]''', Ramanujan's sum, is the sum of the ''n''th powers of the primitive ''q''th [[roots of unity]]:
+
+:<math>c_q(n)=
+\sum_{\stackrel{1\le a\le q}{ \gcd(a,q)=1}}
+e^{2 \pi i \tfrac{a}{q} n}
+.
+</math>
+
+Even though it is defined as a sum of complex numbers (irrational for most values of ''q''), it is an integer. For a fixed value of ''n'' it is multiplicative in ''q'':
+
+:'''If ''q'' and ''r'' are coprime''', <math>c_q(n)c_r(n)=c_{qr}(n).\;
+</math>
+
+Many of the functions mentioned in this article have expansions as series involving these sums; see the article [[Ramanujan's sum]] for examples.
+
+==Completely multiplicative functions==
+
+===λ(''n'') – Liouville function===
+
+'''[[Liouville function|λ(''n'')]]''', the Liouville function, is  defined by
+
+:<math>\lambda (n) = (-1)^{\Omega(n)}.\;</math>
+
+===χ(''n'') – characters===
+
+All '''[[Dirichlet character]]s χ(''n'')''' are completely multiplicative. An example is the non-principal character (mod 4) defined in the introduction. Two characters have special notations:
+
+The '''principal character (mod ''n'')''' is denoted by χ<sub>0</sub>(''a'') (or  χ<sub>1</sub>(''a'')). It is defined as
+
+:<math> \chi_0(a) = \begin{cases} 1 & \mbox{if } \gcd(a,n) = 1, \\ 0 & \mbox{if } \gcd(a,n) \ne 1.
+\end{cases} </math>
+
+The '''quadratic character (mod ''n'')''' is denoted by the [[Jacobi symbol]] for odd ''n'' (it is not defined for even ''n''.):
+
+:<math>\Bigg(\frac{a}{n}\Bigg) = \left(\frac{a}{p_1}\right)^{a_1}\left(\frac{a}{p_2}\right)^{a_2}\cdots \left(\frac{a}{p_{\omega(n)}}\right)^{a_{\omega(n)}}.</math>
+
+<br/>
+In this formula <math>(\tfrac{a}{p})</math> is the [[Legendre symbol]], defined for all integers ''a'' and all odd primes ''p'' by
+
+:<math>
+\left(\frac{a}{p}\right) = \begin{cases}
+\;\;\,0\mbox{ if } a \equiv 0 \pmod{p}
+\\+1\mbox{ if }a \not\equiv 0\pmod{p} \mbox{ and for some integer }x, \;a\equiv x^2\pmod{p}
+\\-1\mbox{ if there is no such } x. \end{cases}</math>
+
+Following the normal convention for the empty product, <math>\left(\frac{a}{1}\right) = 1.</math>
+
+==Additive functions==
+
+===ω(''n'') – distinct prime divisors===
+
+'''ω(''n'')''', defined above as the number of distinct primes dividing ''n'', is additive
+
+==Completely additive functions==
+
+===Ω(''n'') – prime divisors===
+
+'''[[Prime factor|Ω(''n'')]]''', defined above as the number of prime factors of ''n'' counted with multiplicities, is completely additive.
+
+===ν<sub>''p''</sub>(''n'') – prime power dividing ''n''===
+
+For a fixed prime ''p'', '''ν<sub>''p''</sub>(''n'')''', defined above as the exponent of the largest power of ''p'' dividing ''n'', is completely additive.
+
+==Neither multiplicative nor additive==
+
+===π(''x''), Π(''x''), θ(''x''), ψ(''x'') – prime count functions===
+Unlike the other functions listed in this article, these are defined for non-negative real (not just integer) arguments. They are used in the statement and proof of the [[prime number theorem]].
+
+'''[[prime counting function|π(''x'')]]''', the prime counting function, is the number of primes not exceeding ''x''.
+
+:<math>\pi(x) = \sum_{p\le x}1
+</math>
+
+A related function counts prime powers with weight 1 for primes, 1/2 for their squares, 1/3 for cubes, ...
+
+:<math>\Pi(x) = \sum_{p^k\le x}\frac{1}{k}.
+</math>
+
+'''[[Chebyshev function|θ(x)]]''' and '''ψ(x)''', the Chebyshev functions
+are defined as sums of the natural logarithms of the primes not exceeding ''x'':
+
+:<math>\vartheta(x)=\sum_{p\le x} \log p,</math>
+
+:<math> \psi(x) = \sum_{p^k\le x} \log p.</math>
+
+===Λ(''n'') – von Mangoldt function===
+
+'''[[von Mangoldt function|Λ(''n'')]]''', the von Mangoldt function, is 0 unless the argument is a prime power, in which case it is the natural log of the prime:
+
+:<math>\Lambda(n) = \begin{cases}\log p &\mbox{if } n = 2,3,4,5,7,8,9,11,13,16,\ldots=p^k \mbox{ is a prime power}\\
+0&\mbox{if } n=1,6,10,12,14,15,18,20,21,\dots \;\;\;\;\mbox{ is not a prime power}.
+\end{cases}
+</math>
+
+===''p''(''n'') – partition function===
+'''[[partition function (number theory)|''p''(''n'')]]''', the partition function, is the number of ways of representing ''n'' as a sum of positive integers, where two representations with the same summands in a different order are not counted as being different:
+
+:<math>
+p(n) = |\left\{ (a_1, a_2,\dots a_k): 0 < a_1 \le a_2 \le \ldots \le a_k\; \and \;n=a_1+a_2+\cdots +a_k  \right\}|.
+</math>
+
+===λ(''n'') – Carmichael function===
+
+'''[[Carmichael function|λ(''n'')]]''', the Carmichael function, is the smallest positive number such that <math>a^{\lambda(n)}\equiv 1 \pmod{n}</math> &nbsp; for all ''a'' coprime to ''n''. Equivalently, it is the [[least common multiple]] of the orders of the elements of the [[Multiplicative group of integers modulo n|multiplicative group of integers modulo ''n'']].
+
+For powers of odd primes and for 2 and 4, λ(''n'') is equal to the Euler totient function of ''n''; for powers of 2 greater than 4 it is equal to one half of the Euler totient function of ''n'':
+
+:<math>\lambda(n) =
+\begin{cases}
+\;\;\phi(n) &\mbox{if }n = 2,3,4,5,7,9,11,13,17,19,23,25,27,\dots\\
+\tfrac12\phi(n)&\text{if }n=8,16,32,64,\dots
+\end{cases}
+</math>
+
+and for general ''n'' it is the least common multiple of λ of each of the prime power factors of ''n'':
+
+:<math>\lambda(p_1^{a_1}p_2^{a_2} \dots p_{\omega(n)}^{a_{\omega(n)}}) = \operatorname{lcm}[\lambda(p_1^{a_1}),\;\lambda(p_2^{a_2}),\dots,\lambda(p_{\omega(n)}^{a_{\omega(n)}}) ].
+
+</math>
+
+===''h''(''n'') – Class number===
+
+'''[[Ideal class group|''h''(''n'')]]''', the class number function, is the order of the ideal class group of an algebraic extension of the rationals with [[discriminant]] ''n''. The notation is ambiguous, as there are in general many extensions with the same discriminant. See [[quadratic field]] and [[cyclotomic field]] for classical examples.
+
+===''r''<sub>''k''</sub>(''n'') – Sum of ''k'' squares===
+
+''r''<sub>''k''</sub>(''n'') is the number of ways ''n'' can be represented as the sum of ''k'' squares, where representations that differ only in the order of the summands or in the signs of the square roots are counted as different.
+
+:<math>r_k(n) = |\{(a_1, a_2,\dots,a_k):n=a_1^2+a_2^2+\cdots+a_k^2\}|
+</math>
+
+== Summation functions ==
+
+Given an arithmetic function ''a(n)'', its '''summation function''' ''A(x)'' is defined by
+:<math> A(x) := \sum_{n \le x} a(n) .</math>
+''A'' can be regarded as a function of a real variable. Given a positive integer ''m'', ''A'' is constant along [[open interval]]s ''m'' < ''x'' < ''m'' + 1, and has a [[Classification of discontinuities|jump discontinuity]] at each integer for which ''a(m)'' ≠ 0.
+
+Since such functions are often represented by series and integrals, to achieve pointwise convergence it is usual to define the value at the discontinuities as the average of the values to the left and right:
+
+:<math> A_0(m) := \frac12\left(\sum_{n < m} a(n) +\sum_{n \le m} a(n)\right) = A(m) - \frac12 a(m) .</math>
+
+Individual values of arithmetic functions may fluctuate wildly – as in most of the above examples. Summation functions "smooth out" these fluctuations. In some cases it may be possible to find [[Asymptotic analysis|asymptotic behaviour]] for the summation function for large ''x''.
+
+A classical example of this phenomenon<ref>Hardy & Wright, §§ 18.1–18.2</ref> is given by the [[divisor summatory function]], the summation function of ''d''(''n''), the number of divisors of ''n'':
+
+:<math>\liminf_{n\to\infty}d(n) = 2
+</math>
+
+:<math>\limsup_{n\to\infty}\frac{\log d(n) \log\log n}{\log n} = \log 2
+</math>
+
+:<math>\lim_{n\to\infty}\frac{d(1) + d(2)+ \cdots +d(n)}{\log(1) + \log(2)+ \cdots +\log(n)} = 1.
+</math>
+
+The '''[[average order of an arithmetic function]]''' is some simpler or better-understood function which has the same summation function asmyptotically, and hence takes the same values "on average".  We say that the ''average order'' of ''f'' is ''g'' if
+
+:<math> \sum_{n \le x} f(n) \sim \sum_{n \le x} g(n) </math>
+
+as ''x'' tends to infinity.  The example above shows that ''d''(''n'') has the average order log(''n'').<ref>{{cite book | title=Introduction to Analytic and Probabilistic Number Theory | author=Gérald Tenenbaum | series=Cambridge studies in advanced mathematics | volume=46 | publisher=[[Cambridge University Press]] | pages=36–55 | year=1995 | isbn=0-521-41261-7 }}</ref>
+
+==Dirichlet convolution==
+
+Given an arithmetic function ''a(n)'', let ''F<sub>a</sub>(s)'', for complex ''s'', be the function defined by the corresponding [[Dirichlet series]] (where it [[Convergent series|converges]]):<ref>Hardy & Wright, § 17.6, show how the theory of generating functions can be constructed in a purely formal manner with no attention paid to convergence.</ref>
+:<math> F_a(s) := \sum_{n=1}^{\infty} \frac{a(n)}{n^s} .</math>
+''F<sub>a</sub>(s)'' is called a [[generating function]] of ''a(n)''. The simplest such series, corresponding to the constant function ''a''(''n'') = 1 for all ''n'', is ς(''s'') the [[Riemann zeta function]].
+
+The generating function of the Möbius function is the inverse of the zeta function:
+
+:<math>
+\zeta(s)\,\sum_{n=1}^\infty\frac{\mu(n)}{n^s}=1, \;\;\mathfrak{R} \,s >0.
+</math>
+
+Consider two arithmetic functions ''a'' and ''b'' and their respective generating functions ''F''<sub>''a''</sub>(''s'') and ''F''<sub>''b''</sub>(''s''). The product ''F''<sub>''a''</sub>(''s'')''F''<sub>''b''</sub>(''s'') can be computed as follows:
+:<math> F_a(s)F_b(s) = \left( \sum_{m=1}^{\infty}\frac{a(m)}{m^s} \right)\left( \sum_{n=1}^{\infty}\frac{b(n)}{n^s} \right) . </math>
+
+It is a straightforward exercise to show that if ''c''(''n'') is defined by
+
+:<math> c(n) := \sum_{ij = n} a(i)b(j) = \sum_{i|n}a(i)b\left(\frac{n}{i}\right) , </math>
+
+then
+
+:<math>F_c(s) =F_a(s) F_b(s).\;
+</math>
+
+This function ''c'' is called the [[Dirichlet convolution]] of ''a'' and ''b'', and is denoted by <math>a*b</math>.
+
+A particularly important case is convolution with the constant function ''a''(''n'') = 1 for all ''n'', corresponding to multiplying the generating function by the zeta function:
+
+:<math>
+g(n) = \sum_{d|n}f(d).\;
+</math>
+
+Multiplying by the inverse of the zeta function gives the [[Möbius inversion]] formula:
+
+:<math>
+f(n) = \sum_{d|n}\mu\left(\frac{n}{d}\right)g(d).
+</math>
+
+If ''f'' is multiplicative, then so is ''g''. If ''f'' is completely multiplicative, then ''g'' is multiplicative, but may or may not be completely multiplicative. The article [[Multiplicative function#The Dirichlet convolution of two multiplicative functions is multiplicative|multiplicative function]] has a short proof.
+
+==Relations among the functions==
+
+There are a great many formulas connecting arithmetical functions with each other and with the functions of analysis, especially powers, roots, and the exponential and log functions.
+
+Here are a few examples:
+
+===Dirichlet convolutions===
+
+:<math>
+\sum_{\delta\mid n}\mu(\delta)=
+\sum_{\delta\mid n}\lambda\left(\frac{n}{\delta}\right)|\mu(\delta)|=
+\begin{cases}
+&1\mbox{ if } n=1\\
+&0\mbox{ if } n\ne1.
+\end{cases}
+</math> &nbsp; &nbsp; where λ is the Liouville function. &nbsp; &nbsp;<ref>Hardy & Wright, Thm. 263</ref>
+
+:<math>
+\sum_{\delta\mid n}\varphi(\delta)=
+n.
+</math> &nbsp; &nbsp; &nbsp;<ref>Hardy & Wright, Thm. 63</ref>
+
+::<math>\varphi(n)
+=\sum_{\delta\mid n}\mu\left(\frac{n}{\delta}\right)\delta
+=n\sum_{\delta\mid n}\frac{\mu(\delta)}{\delta}.
+</math> &nbsp; &nbsp; &nbsp;  Möbius inversion
+
+:<math>
+\sum_{d | n } J_k(d) = n^k. \, 
+</math> &nbsp; &nbsp; &nbsp;<ref>see references at [[Jordan's totient function]]</ref>
+
+::<math>
+J_k(n)
+=\sum_{\delta\mid n}\mu\left(\frac{n}{\delta}\right)\delta^k
+=n^k\sum_{\delta\mid n}\frac{\mu(\delta)}{\delta^k}.
+</math> &nbsp; &nbsp; &nbsp;  Möbius inversion
+
+:<math>
+\sum_{\delta\mid n}\delta^sJ_r(\delta)J_s\left(\frac{n}{\delta}\right) = J_{r+s}(n)
+</math> &nbsp; &nbsp; &nbsp;<ref>Holden et al in external links The formula is Gegenbauer's</ref>
+
+:<math>
+\sum_{\delta\mid n}\varphi(\delta)d\left(\frac{n}{\delta}\right)=
+\sigma(n).
+</math> &nbsp; &nbsp; &nbsp;<ref>Hardy & Wright, Thm. 288–290</ref><ref>Dineva in external links, prop. 4</ref>
+
+:<math>
+\sum_{\delta\mid n}|\mu(\delta)|=
+2^{\omega(n)}.
+</math> &nbsp; &nbsp; &nbsp;<ref>Hardy & Wright, Thm. 264</ref>
+
+::<math>|\mu(n)|=\sum_{\delta\mid n}\mu\left(\frac{n}{\delta}\right)2^{\omega(\delta)}.
+</math> &nbsp; &nbsp; &nbsp;  Möbius inversion
+
+:<math>
+\sum_{\delta\mid n}2^{\omega(\delta)}=
+d(n^2).
+</math> &nbsp; &nbsp; &nbsp;
+
+::<math>2^{\omega(n)}=\sum_{\delta\mid n}\mu\left(\frac{n}{\delta}\right)d(\delta^2).
+</math> &nbsp; &nbsp; &nbsp;  Möbius inversion
+
+:<math>
+\sum_{\delta\mid n}d(\delta^2)=
+d^2(n).
+</math> &nbsp; &nbsp; &nbsp;
+
+::<math>d(n^2)=\sum_{\delta\mid n}\mu\left(\frac{n}{\delta}\right)d^2(\delta).
+</math> &nbsp; &nbsp; &nbsp;  Möbius inversion
+
+:<math>
+\sum_{\delta\mid n}d\left(\frac{n}{\delta}\right)2^{\omega(\delta)}=
+d^2(n).
+</math> &nbsp; &nbsp; &nbsp;
+
+:<math>
+\sum_{\delta\mid n}\lambda(\delta)=\begin{cases}
+&1\mbox{ if } n \mbox{ is a square }\\
+&0\mbox{ if } n \mbox{ is not  square.}
+\end{cases}
+</math>  &nbsp; &nbsp;  where λ is the [[Liouville function]].
+
+:<math>
+\sum_{\delta\mid n}\Lambda(\delta)=
+\log n.
+</math> &nbsp; &nbsp; &nbsp;<ref>Hardy & Wright, Thm. 296</ref>
+
+::<math>\Lambda(n)=\sum_{\delta\mid n}\mu\left(\frac{n}{\delta}\right)\log(\delta).
+</math> &nbsp; &nbsp; &nbsp;  Möbius inversion
+
+===Sums of squares===
+
+:<math>
+\mbox{If }k \ge 4,\;\;\; r_k(n) > 0.</math> &nbsp; &nbsp; ([[Lagrange's four-square theorem]]).
+
+:<math>
+r_2(n) = 4\sum_{d|n}\chi(d),\;</math> &nbsp; &nbsp; where χ is the non-principal character (mod 4) defined in the introduction.<ref>Hardy & Wright, Thm. 278</ref>
+
+There is a formula for r<sub>3</sub> in the section on [[#Class number related|class numbers]] below.
+
+:<math>
+r_4(n) =
+8 \sum_{\stackrel{d\,|\,n}{ 4\, \nmid \,d}}d =
+8 (2+(-1)^n)\sum_{\stackrel{d\,|\,n}{ 2\, \nmid \,d}}d =
+\begin{cases}
+8\sigma(n)&\mbox{if } n \mbox{ is odd }\\
+24\sigma\left(\frac{n}{2^{\nu}}\right)&\mbox{if } n \mbox{ is even }
+\end{cases},
+</math> &nbsp; &nbsp; where '''ν = ν<sub>2</sub>(''n'')'''. &nbsp; &nbsp;<ref>Hardy & Wright, Thm. 386</ref><ref>Hardy, ''Ramanujan'', eqs 9.1.2, 9.1.3</ref><ref>Koblitz, Ex. III.5.2</ref>
+
+:<math>
+r_6(n) = 16 \sum_{d|n} \chi\left(\frac{n}{d}\right)d^2 - 4\sum_{d|n} \chi(d)d^2.
+</math> &nbsp; &nbsp;<ref name="Hardy & Wright, § 20.13">Hardy & Wright, § 20.13</ref>
+
+Define the function '''σ<sub>''k''</sub><sup>*</sup>(''n'')''' as<ref>Hardy, ''Ramanujan'', § 9.7</ref>
+
+:<math>\sigma_k^*(n) = (-1)^{n}\sum_{d|n}(-1)^d d^k=
+\begin{cases}
+\sum_{d\,|\,n} d^k=\sigma_k(n)&\mbox{if } n \mbox{ is odd }\\
+\sum_{\stackrel{d\,|\,n}{ 2\, \mid \,d}}d^k -\sum_{\stackrel{d\,|\,n}{ 2\, \nmid \,d}}d^k&\mbox{if } n \mbox{ is even}.
+\end{cases}
+</math>
+
+That is, if ''n'' is odd, '''σ<sub>''k''</sub><sup>*</sup>(''n'')''' is  the sum of the ''k''th powers of the divisors of ''n'', i.e. '''σ<sub>''k''</sub>(''n''),''' and if ''n'' is even it is the sum of the ''k''th  powers of the even divisors of ''n'' minus the sum of the ''k''th  powers of the odd divisors of ''n''.
+
+:<math>
+r_8(n) = 16\sigma_3^*(n).\;
+</math> &nbsp; &nbsp;<ref name="Hardy & Wright, § 20.13" /><ref>Hardy, ''Ramanujan'', § 9.13</ref>
+
+Adopt the convention that Ramanujan's '''τ(''x'') = 0 if ''x'' is not an integer.'''
+
+:<math>
+r_{24}(n) = \frac{16}{691}\sigma_{11}^*(n) + \frac{128}{691}\left\{
+(-1)^{n-1}259\tau(n)-512\tau\left(\frac{n}{2}\right)\right\}
+</math> &nbsp; &nbsp;<ref>Hardy, ''Ramanujan'', § 9.17</ref>
+
+===Divisor sum convolutions===
+
+Here "convolution" does not mean "Dirichlet convolution" but instead refers to the formula for the coefficients of the [[Power series#Multiplication and division|product of two power series]]:
+
+:<math>  \left(\sum_{n=0}^\infty a_n x^n\right)\left(\sum_{n=0}^\infty b_n x^n\right)
+= \sum_{i=0}^\infty \sum_{j=0}^\infty  a_i b_j x^{i+j}
+= \sum_{n=0}^\infty \left(\sum_{i=0}^n a_i b_{n-i}\right) x^n
+= \sum_{n=0}^\infty c_n x^n
+.</math>
+
+The sequence <math>c_n = \sum_{i=0}^n a_i b_{n-i}\;</math> is called the [[convolution]] or the [[Cauchy product]] of the seqences ''a''<sub>''n''</sub> and ''b''<sub>''n''</sub>. 
+<br>See [[Eisenstein series]] for a discussion of the series and functional identities involved in these formulas.<ref>The paper by Huard, Ou, Spearman, and Williams in the external links also has proofs.</ref>
+
+:<math>
+\sigma_3(n) = \frac{1}{5}\left\{6n\sigma_1(n)-\sigma_1(n) + 12\sum_{0<k<n}\sigma_1(k)\sigma_1(n-k)\right\}.\;
+</math> &nbsp; &nbsp;<ref name="Ramanujan, p. 146">Ramanujan, ''On Certain Arithmetical Functions'', Table IV; ''Papers'', p. 146</ref>
+
+:<math>
+\sigma_5(n) = \frac{1}{21}\left\{10(3n-1)\sigma_3(n)+\sigma_1(n) + 240\sum_{0<k<n}\sigma_1(k)\sigma_3(n-k)\right\}.\;
+</math> &nbsp; &nbsp;<ref name="Koblitz, ex. III.2.8">Koblitz, ex. III.2.8</ref>
+
+:<math>
+\begin{align}
+\sigma_7(n)
+&=\frac{1}{20}\left\{21(2n-1)\sigma_5(n)-\sigma_1(n) + 504\sum_{0<k<n}\sigma_1(k)\sigma_5(n-k)\right\}\\
+&=\sigma_3(n) + 120\sum_{0<k<n}\sigma_3(k)\sigma_3(n-k).
+\end{align}
+</math> &nbsp; &nbsp;<ref name="Koblitz, ex. III.2.8" /><ref>Koblitz, ex. III.2.3</ref>
+
+:<math>
+\begin{align}
+\sigma_9(n)
+&= \frac{1}{11}\left\{10(3n-2)\sigma_7(n)+\sigma_1(n) + 480\sum_{0<k<n}\sigma_1(k)\sigma_7(n-k)\right\}\\
+&= \frac{1}{11}\left\{21\sigma_5(n)-10\sigma_3(n) + 5040\sum_{0<k<n}\sigma_3(k)\sigma_5(n-k)\right\}.\;
+\end{align}
+</math> &nbsp; &nbsp;<ref name="Ramanujan, p. 146" /><ref>Koblitz, ex. III.2.2</ref>
+
+:<math>
+\tau(n) = \frac{65}{756}\sigma_{11}(n) + \frac{691}{756}\sigma_{5}(n) - \frac{691}{3}\sum_{0<k<n}\sigma_5(k)\sigma_5(n-k),\;
+</math> &nbsp; &nbsp; where τ(''n'') is Ramanujan's function. &nbsp; &nbsp;<ref>Koblitz, ex. III.2.4</ref><ref>Apostol, ''Modular Functions ...'', Ex. 6.10</ref>
+
+Since σ<sub>k</sub>(''n'') (for natural number ''k'') and τ(''n'') are integers, the above formulas can be used to prove congruences<ref>Apostol, ''Modular Functions...'', Ch. 6 Ex. 10</ref> for the functions. See [[Tau-function]] for some examples.
+
+Extend the domain of the partition function by setting '''''p''(0) = 1.'''
+
+:<math>
+p(n)=\frac{1}{n}\sum_{1\le k\le n}\sigma(k)p(n-k).
+</math> &nbsp; &nbsp;<ref>G.H. Hardy, S. Ramannujan, ''Asymptotic Formulæ in Combinatory Analysis'', § 1.3; in Ramannujan, ''Papers'' p. 279</ref> &nbsp; This recurrence can be used to compute ''p''(''n'').
+
+===Class number related===
+
+[[Peter Gustav Lejeune Dirichlet]] discovered formulas that relate the class number ''h'' of [[quadratic number field]]s to the Jacobi symbol.<ref>Landau, p. 168, credits Gauss as well as Dirichlet</ref>
+
+An integer ''D'' is called a '''fundamental discriminant''' if it is the [[discriminant]] of a quadratic number field. This is equivalent to ''D'' ≠  1 and either a) ''D'' is [[squarefree]] and ''D'' ≡ 1 (mod 4) or b) ''D'' ≡ 0 (mod 4), ''D''/4  is squarefree, and ''D''/4 ≡ 2 or 3 (mod 4).<ref>Cohen, Def. 5.1.2</ref>
+
+Extend the Jacobi symbol to accept even numbers in the "denominator" by defining the [[Kronecker symbol]]:
+
+:<math>
+\left(\frac{a}{2}\right) = \begin{cases}
+\;\;\,0&\mbox{ if } a \mbox{ is even}
+\\(-1)^{\frac{a^2-1}{8}}&\mbox{ if }a \mbox{ is odd. }
+\end{cases}</math>
+
+Then if ''D'' < −4 is a fundamental discriminant<ref>Cohen, Corr. 5.3.13</ref><ref>see Edwards, § 9.5 exercises for more complicated formulas.</ref>
+
+:<math>
+\begin{align}
+h(D) & = \frac{1}{D} \sum_{r=1}^{|D|}r\left(\frac{D}{r}\right)\\
+     & = \frac{1}{2-\left(\tfrac{D}{2}\right)} \sum_{r=1}^{|D|/2}\left(\frac{D}{r}\right).
+\end{align}
+</math>
+
+There is also a formula relating ''r''<sub>3</sub> and ''h''. Again, let ''D'' be a fundamental discriminant, ''D'' < −4. Then<ref>Cohen, Prop 5.10.3</ref>
+
+:<math>
+r_3(|D|) = 12\left(1-\left(\frac{D}{2}\right)\right)h(D).
+</math>
+
+===Prime-count related===
+
+Let <math>H_n = 1 + \frac12 + \frac13 + \cdots +\frac{1}{n}</math> &nbsp; be the  ''n''th [[harmonic number]].   &nbsp; Then
+
+:<math> \sigma(n) \le H_n + e^{H_n}\log H_n</math> &nbsp; is true for every natural number ''n'' if and only if the [[Riemann hypothesis]] is true. &nbsp; &nbsp;<ref>See [[Divisor function#Approximate growth rate|Divisor function]].</ref>
+
+The Riemann hypothesis is also equivalent to the statement that, for all ''n'' > 5040, 
+ 
+:<math>\sigma(n) < e^\gamma n \log \log n \,</math> &nbsp; &nbsp; (where γ is the [[Euler–Mascheroni constant]]).  &nbsp; &nbsp; This is [[Divisor function#Approximate growth rate|Robin's theorem]].
+
+:<math>
+\sum_{p}\nu_p(n) = \Omega(n).\;
+</math>
+
+:<math>
+\psi(x)=\sum_{n\le x}\Lambda(n). \;
+</math> &nbsp; &nbsp;<ref>Hardy & Wright, eq. 22.1.2</ref>
+
+:<math>
+\Pi(x)= \sum_{n\le x}\frac{\Lambda(n)}{\log n}.\;
+</math> &nbsp; &nbsp;<ref>See [[Prime counting function#Other prime-counting functions|prime counting functions]].</ref>
+
+:<math>
+e^{\theta(x)}=\prod_{p\le x}p.\;
+</math> &nbsp; &nbsp;<ref>Hardy & Wright, eq. 22.1.1</ref>
+
+:<math>
+e^{\psi(x)}= \operatorname{lcm}[1,2,\dots,\lfloor x\rfloor].\;
+</math> &nbsp; &nbsp;<ref>Hardy & Wright, eq. 22.1.3</ref>
+
+===Menon's identity===
+
+In 1965 P. Kesava Menon proved<ref>László Tóth, ''Menon's Identity and Arithmetical Sums ...'', [[#External links]], eq. 1</ref>
+:<math>
+\sum_{\stackrel{1\le k\le n}{ \gcd(k,n)=1}} \gcd(k-1,n)
+=\varphi(n)d(n).
+</math>
+
+This has been generalized by a number of mathematicians, e.g.:
+
+B. Sury<ref>Tóth, eq. 5</ref>
+:<math>
+\sum_{\stackrel{1\le k_1, k_2, \dots, k_s\le n}{ \gcd(k_1,n)=1}} \gcd(k_1-1,k_2,\dots,k_s,n)
+=\varphi(n)\sigma_{s-1}(n).
+</math>
+
+N. Rao<ref>Tóth, eq. 3</ref>
+:<math>
+\sum_{\stackrel{1\le k_1, k_2, \dots, k_s\le n}{ \gcd(k_1,k_2,\dots,k_s,n)=1}} \gcd(k_1-a_1,k_2-a_2,\dots,k_s-a_s,n)^s
+=J_s(n)d(n),
+</math>
+where ''a''<sub>1</sub>, ''a''<sub>2</sub>, ..., ''a''<sub>''s''</sub> are integers, gcd(''a''<sub>1</sub>, ''a''<sub>2</sub>, ..., ''a''<sub>''s''</sub>, ''n'') = 1.
+
+L. Tóth<ref>Tóth, eq. 35</ref>
+:<math>
+\sum_{\stackrel{1\le k\le m}{ \gcd(k,m)=1}} \gcd(k^2-1,m_1)\gcd(k^2-1,m_2)
+=\varphi(n)\sum_{\stackrel{d_1\mid m_1} {d_2\mid m_2}} \varphi(\gcd(d_1, d_2))2^{\omega(\operatorname{lcm}(d_1, d_2))},
+</math>
+where ''m''<sub>1</sub> and ''m''<sub>2</sub> are odd, ''m'' = lcm(''m''<sub>1</sub>, ''m''<sub>2</sub>).
+
+In fact, if ''f'' is any arithmetical function<ref>Tóth, eq. 2</ref><ref>Tóth states that Menon proved this for multiplicative ''f'' in 1965 and V. Sita Ramaiah for general ''f''.</ref>
+:<math>
+\sum_{\stackrel{1\le k\le n}{ \gcd(k,n)=1}} f(\gcd(k-1,n))
+=\varphi(n)\sum_{d\mid n}\frac{(\mu*f)(d)}{\varphi(d)},
+</math>
+where * stands for Dirichlet convolution.
+
+===Miscellaneous===
+
+Let ''m'' and ''n'' be distinct, odd, and positive. Then the Jacobi symbol satisfies the Law of [[Quadratic Reciprocity]]:
+
+:<math> \left(\frac{m}{n}\right) \left(\frac{n}{m}\right) = (-1)^{(m-1)(n-1)/4}.</math>   &nbsp; &nbsp;
+
+:<math>\begin{align}&|\lambda(n)|\;\mu(n) \\&=\lambda(n)\;|\mu(n)|\\& = \mu(n), \end{align}
+</math>  &nbsp; &nbsp; and  &nbsp; &nbsp; <math>\begin{align}&\lambda(n)\mu(n) \\&= |\mu(n)| \\&=\mu^2(n).\end{align}
+</math> &nbsp; &nbsp; where λ(''n'') is Liouville's function.
+:<math>
+2^{\omega(n)}\le d(n)\le2^{\Omega(n)}.\;
+</math> &nbsp; &nbsp;<ref>Hardy ''Ramanujan'', eq. 3.10.3</ref><ref>Hardy & Wright, § 22.13</ref>
+:<math>\lambda(n)\mid \phi(n)</math>  &nbsp; &nbsp; where λ(''n'') is Carmichael's function. Further,
+
+:<math>\lambda(n)= \phi(n) \mbox{ if and only if }n=\begin{cases}1,2, 4\\
+3,5,7,9,11, \ldots \mbox{ i.e. } p^k \mbox{ where }p\mbox{ is an odd prime}\\
+6,10,14,18,\ldots \mbox{ i.e. } 2p^k\mbox{ where }p\mbox{ is an odd prime}
+\end{cases}
+</math> &nbsp; &nbsp; &nbsp;<ref>See [[Multiplicative group of integers modulo n]] and [[Primitive root modulo n]].</ref>
+
+:<math>
+\frac{6}{\pi^2}<\frac{\phi(n)\sigma(n)}{n^2}<1.\;
+</math> &nbsp; &nbsp;<ref>Hardy & Wright, Thm. 329</ref>
+
+:<math>
+\begin{align}
+c_q(n)
+&=\frac{\mu\left(\frac{q}{\gcd(q, n)}\right)}{\phi\left(\frac{q}{\gcd(q, n)}\right)}\phi(q)\\
+&=\sum_{\delta|\gcd(q,n)}\mu\left(\frac{q}{\delta}\right)\delta.
+\end{align}
+</math> &nbsp; &nbsp;<ref>Hardy & Wright, Thms. 271, 272</ref> &nbsp; &nbsp; Note that &nbsp;<math>\phi(q) = \sum_{\delta|q}\mu\left(\frac{q}{\delta}\right)\delta.</math> &nbsp; &nbsp;<ref>Hardy & Wright, eq. 16.3.1</ref>
+
+:<math>c_q(1) = \mu(q).\;
+</math>
+
+:<math>c_q(q) = \phi(q).\;
+</math>
+
+:<math>
+\sum_{\delta|n}d^{\;3}(\delta) = \left(\sum_{\delta|n}d(\delta)\right)^2.\;
+</math> &nbsp; &nbsp;<ref>Ramanujan, ''Some Formulæ in the Analytic Theory of Numbers'', eq. (C); ''Papers'' p.133. A footnote says that Hardy told Ramanujan it also appears in an 1857 paper by Liouville.</ref> &nbsp; Compare this with '''1<sup>3</sup> + 2<sup>3</sup> + 3<sup>3</sup> + ... + ''n''<sup>3</sup> = (1 + 2 + 3 + ... + ''n'')<sup>2</sup>'''
+
+:<math>d(uv) = \sum_{\delta\;|\gcd(u,v)}\mu(\delta)d\left(\frac{u}{\delta}\right)d\left(\frac{v}{\delta}\right).\;
+</math> &nbsp; &nbsp;<ref>Ramanujan, ''Some Formulæ in the Analytic Theory of Numbers'', eq. (F); ''Papers'' p.134</ref>
+
+:<math>\sigma_k(u)\sigma_k(v) = \sum_{\delta\;|\gcd(u,v)}\delta^k\sigma_k\left(\frac{uv}{\delta^2}\right).\;
+</math>  &nbsp; &nbsp;<ref>Apostol, ''Modular Functions ...'', ch. 6 eq. 4</ref>
+
+:<math>\tau(u)\tau(v) = \sum_{\delta\;|\gcd(u,v)}\delta^{11}\tau\left(\frac{uv}{\delta^2}\right),\;
+</math>  &nbsp; &nbsp; where τ(''n'') is Ramanujan's function.  &nbsp; &nbsp;<ref>Apostol, ''Modular Functions ...'', ch. 6 eq. 3</ref>
+
+==Notes==
+{{reflist|colwidth=30em}}
+
+== References ==
+
+*{{Citation
+|title=Introduction to Analytic Number Theory
+|authorlink=Tom M. Apostol
+|author=Tom M. Apostol
+|year=1976
+|publisher=Springer Undergraduate Texts in Mathematics
+|isbn=0-387-90163-9}}
+
+*{{Citation
+  | last1 = Apostol  | first1 = Tom M.
+  | title = Modular Functions and Dirichlet Series in Number Theory (2nd Edition)
+  | publisher = Springer
+  | location = New York
+  | year = 1989
+  | isbn = 0-387-97127-0}}
+
+*{{citation
+  | last1 = Cohen  | first1 = Henri
+  | title = A Course in Computational Algebraic Number Theory
+  | publisher = [[Springer Publishing|Springer]]
+  | location = Berlin
+  | year = 1993
+  | isbn = 3-540-55640-0}}
+
+*{{cite book
+  | last = Edwards
+  | first = Harold
+  | authorlink = Harold Edwards (mathematician)
+  | title = Fermat's Last Theorem
+  | publisher = [[Springer Publishing|Springer]]
+  | location = New York
+  | year = 1977
+  | isbn = 0-387-90230-9}}
+
+*{{Citation
+  | author1-link = G. H. Hardy
+  | last1 = Hardy  | first1 = G. H.
+  | title = Ramanujan: Twelve Lectures on Subjects Suggested by his Life and work
+  | publisher = AMS / Chelsea
+  | location = Providence RI
+  | year = 1999
+  | isbn = 978-0-8218-2023-0}}
+
+*{{Citation
+  | author2-link = E. M. Wright
+  | last1 = Hardy  | first1 = G. H.
+  | last2 = Wright | first2 = E. M.
+  | title = An Introduction to the Theory of Numbers (Fifth edition)
+  | publisher = [[Oxford University Press]]
+  | location = Oxford
+  | year = 1980
+  | isbn = 978-0-19-853171-5}}
+
+*{{Citation
+|title=The Prime Number Theorem
+|author=G. J. O. Jameson
+|year=2003
+|publisher=Cambridge University Press
+|isbn=0-521-89110-8}}
+
+*{{Citation
+  | last1 = Koblitz | first1 = Neal
+  | title = Introduction to Elliptic Curves and Modular Forms
+  | publisher = Springer
+  | location = New York
+  | year = 1984
+  | isbn = 0-387-97966-2}}
+
+*{{citation
+  | last1 = Landau | first1 = Edmund
+  | title = Elementary Number Theory
+  | publisher = Chelsea
+  | location = New York
+  | year = 1966}}
+
+*{{Citation
+|title=Fundamentals of Number Theory
+|author=William J. LeVeque
+|authorlink=William J. LeVeque
+|year=1996
+|publisher=Courier Dover Publications
+|isbn=0-486-68906-9}}
+
+* {{citation | first1 = Calvin T. | last1 = Long | year = 1972 | title = Elementary Introduction to Number Theory | edition = 2nd | publisher = [[D. C. Heath and Company]] | location = Lexington | lccn = 77-171950 }}
+
+*{{Citation
+|title=Introduction to Mathematical Logic
+|author=Elliott Mendelson
+|year=1987
+|publisher=CRC Press
+|isbn=0-412-80830-7}}
+
+* {{citation | first1 = Anthony J. | last1 = Pettofrezzo | first2 = Donald R. | last2 = Byrkit | year = 1970 | title = Elements of Number Theory | publisher = [[Prentice Hall]] | location = Englewood Cliffs | lccn = 77-81766 }}
+
+*{{Citation
+  | last1 = Ramanujan  | first1 = Srinivasa
+  | title = Collected Papers
+  | publisher = AMS / Chelsea
+  | location = Providence RI
+  | year = 2000
+  | isbn = 978-0-8218-2076-6}}
+
+==External links==
+* {{springer|title=Arithmetic function|id=p/a013300}}
+
+* Matthew Holden, Michael Orrison, Michael Varble [http://www.math.hmc.edu/~orrison/research/papers/totient.pdf Yet another Generalization of Euler's Totient Function]
+
+* Huard, Ou, Spearman, and Williams. [http://mathstat.carleton.ca/~williams/papers/pdf/249.pdf Elementary Evaluation of Certain Convolution Sums Involving Divisor Functions] Elementary (i.e. not relying on the theory of modular forms) proofs of divisor sum convolutions, formulas for the number of ways of representing a number as a sum of triangular numbers, and related results.
+
+*Dineva, Rosica, [http://www.mtholyoke.edu/~robinson/reu/reu05/rdineva1.pdf The Euler Totient, the Möbius, and the Divisor Functions]
+
+* László  Tóth, [http://arxiv.org/PS_cache/arxiv/pdf/1103/1103.5861v2.pdf Menon's Identity and arithmetical sums representing functions of several variables]
+
+{{DEFAULTSORT:Arithmetic Function}}
+[[Category:Arithmetic functions|*]]

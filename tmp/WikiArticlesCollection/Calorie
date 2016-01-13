@@ -1,0 +1,135 @@
+{{about|the units of energy||Food energy|and|Calorie (disambiguation)}}
+
+The name '''calorie''' is used for two [[unit of energy|units of energy]].
+* The '''small calorie''' or '''gram calorie''' (symbol: cal) is the approximate amount of energy needed to raise the temperature of one [[gram]] of water by one degree [[Celsius]].<ref name=Webster/>
+* The '''large calorie''', '''kilogram calorie''', '''dietary calorie''', '''nutritionist's calorie''' or '''food calorie''' (symbol: Cal, equiv: kcal) is the amount of energy needed to raise the temperature of one kilogram of water by one degree Celsius.  The large calorie is thus equal to 1000 small calories or one kilocalorie (symbol: kcal).<ref name=Webster/> 
+
+Although these units are part of the [[metric system]], they now have been superseded in the [[International System of Units]] by the [[joule]].  One small calorie is approximately<!--4.2 not 4.186 see below --> 4.2 joules (one large calorie or kilocalorie is therefore approximately 4.2 kilojoules).  The factors used to [[Conversion of units of energy|convert]] calories to joules are numerically equivalent to expressions of the [[specific heat capacity]] of water in joules per gram or per kilogram.  The conversion factor depends on the definition adopted. 
+
+In spite of its non-official status, the large calorie is still widely used as a unit of [[food energy]] in the US, UK and some other Western countries.  The small calorie is also often used in [[chemistry]] as the method of measurement is fairly straightforward in most reactions, though the amounts involved are typically recorded in kilocalories, an equivalent unit to the large calorie.
+
+The calorie was first defined by [[Nicolas Clément]] in 1824 as a unit of [[heat]],<ref name=Hist/> and entered French and English dictionaries between 1841 and 1867. The word comes from Latin ''calor'' meaning "heat".
+
+==Precise definitions==
+The energy needed to increase the temperature of a given mass of water by 1&nbsp;°C depends on the atmospheric pressure and the starting temperature, and is difficult to measure precisely. Accordingly, there have been several definitions of the calorie that attempt to make the definition more precise. 
+
+The pressure is usually taken to be the [[standard atmospheric pressure]] ({{convert|1|atm|kPa|3|disp=output only}}).  The temperature increase is often stated to be one [[kelvin]], which by current definitions is exactly equal to an increment of one degree Celsius.
+
+{|class=wikitable
+|-
+! Name !! Symbol !! Conversions !! Notes
+|- valign=top
+| [[Thermochemistry|Thermochemical]] calorie || cal<sub>th</sub> 
+| ≡ {{val|4.184|ul=J}}
+≈&nbsp;{{val|0.003964|ul=BTU}}
+≈&nbsp;{{val|1.163|e=-6|ul=kWh}}
+≈&nbsp;{{val|2.611|e=19|ul=eV}}
+| the amount of energy equal to exactly 4.184 joules <ref name="iso31-4"/><ref name=FAO/><ref name=Rossini/>
+|- valign=top
+| 4&nbsp;°C calorie || cal<sub>4</sub> 
+| ≈ 4.204 J 
+≈&nbsp;<!-- {{convert|4.204|J|BTU|disp=output only}} -->{{val|0.003985|u=BTU}}
+≈&nbsp;{{convert|4.204|J|kWh|disp=output only}}
+≈&nbsp;{{convert|4.204|J|eV|disp=output only}}
+| the amount of energy required to warm one gram of air-free water from 3.5&nbsp;°C to 4.5&nbsp;°C at standard atmospheric pressure.
+|- valign=top
+| 15&nbsp;°C calorie || cal<sub>15</sub> 
+| ≈ 4.1855 J
+≈&nbsp;<!-- {{convert|4.1855|J|BTU|disp=output only}} -->{{val|0.0039671|u=BTU}}
+≈&nbsp;{{convert|4.1855|J|kWh|disp=output only}}
+≈&nbsp;{{convert|4.1855|J|eV|disp=output only}}
+| the amount of energy required to warm one gram of air-free water from 14.5&nbsp;°C to 15.5&nbsp;°C at standard atmospheric pressure. Experimental values of this calorie ranged from 4.1852&nbsp;J to 4.1858&nbsp;J. The [[CIPM]] in 1950 published a mean experimental value of 4.1855&nbsp;J, noting an uncertainty of 0.0005&nbsp;J.<ref name="iso31-4"/>
+|- valign=top
+| 20&nbsp;°C calorie || cal<sub>20</sub> 
+| ≈ 4.182 J
+≈&nbsp;<!-- {{convert|4.182|J|BTU|disp=output only}} -->{{val|0.003964|u=BTU}}
+≈&nbsp;{{convert|4.182|J|kWh|disp=output only}}
+≈&nbsp;{{convert|4.182|J|eV|disp=output only}}
+| the amount of energy required to warm one gram of air-free water from 19.5&nbsp;°C to 20.5&nbsp;°C at standard atmospheric pressure.
+|- valign=top
+| Mean calorie || cal<sub>mean</sub> 
+| ≈ 4.190 J
+≈&nbsp;<!-- {{convert|4.19|J|BTU|disp=output only}} -->{{val|0.003971|u=BTU}}
+≈&nbsp;{{convert|4.190|J|kWh|disp=output only}}
+≈&nbsp;{{convert|4.190|J|eV|disp=output only}}
+| {{frac|100}} of the amount of energy required to warm one gram of air-free water from 0&nbsp;°C to 100&nbsp;°C at standard atmospheric pressure.
+|- valign=top
+| International [[Steam table]] calorie (1929) || 
+| ≈ 4.1868 J
+≈&nbsp;<!-- {{convert|4.1868|J|BTU|disp=output only}} -->{{val|0.0039683|u=BTU}}
+≈&nbsp;{{convert|4.1868|J|kWh|disp=output only}}
+≈&nbsp;{{convert|4.1868|J|eV|disp=output only}}
+| {{frac|860}} ''international watt hours'' = {{frac|180|43}} ''international joules'' exactly.{{refn|group=note|The figure depends on the conversion factor between ''international joules'' and ''absolute'' (modern) ''joules''. Using the mean international ohm and volt (1.00049&nbsp;Ω, 1.00034&nbsp;V<ref name=iupac/>), the international joule is about 1.00019&nbsp;J, using the US international ohm and volt (1.000495&nbsp;Ω, 1.000330&nbsp;V) it is about 1.000165&nbsp;J, giving 4.18684&nbsp;J and 4.18674&nbsp;J, respectively.}}
+|- valign=top
+| International Steam Table calorie (1956) || cal<sub>IT</sub> 
+| ≡ 4.1868 J
+≈&nbsp;<!-- {{convert|4.1868|J|BTU|disp=output only}} -->{{val|0.0039683|u=BTU}}
+≈&nbsp;{{convert|4.1868|J|kWh|disp=output only}}
+≈&nbsp;{{convert|4.1868|J|eV|disp=output only}}
+| 1.163&nbsp;mW·h = 4.1868&nbsp;J exactly. This definition was adopted by the Fifth International Conference on Properties of Steam (London, July 1956).<ref name="iso31-4"/>
+|}
+
+{{reflist|group=note}}
+:{{resize|90%|2. The two definitions most common in older literature appear to be the ''15&nbsp;°C calorie'' and the ''thermochemical calorie''.}}
+
+==Usage==
+The calorie was first defined specifically to measure energy in the form of heat, especially in experimental [[calorimetry]].
+
+===Nutrition===
+In nutritional contexts, the kilojoule (kJ) is the [[SI]] unit of food energy. However, calorie and kilocalorie are still in common use.<ref>{{cite web|title=Prospects improve for food energy labelling using SI units|url=http://metricviews.org.uk/2012/02/prospects-improve-for-food-energy-labelling-using-si-units/|work=Metric Views|publisher=[[UK Metric Association]]|accessdate=17 April 2013|date=24 February 2012}}</ref> 
+
+In these contexts, confusingly, the word "calorie" and "kilocalorie" refer to equivalent units (the former to the large calorie and the latter to {{gaps|1|000}} small calories). Sometimes, in an attempt to avoid confusion, the large calorie is written as "Calorie" (with a capital "C").  This convention is not always followed, and not explained to the average person clearly.
+
+These quantities are often used for the total amount of food energy (e.g., in a meal) and for the [[specific energy]], namely amount of energy per unit of mass (e.g. "calories per gram", "calories per serving").  Nutritional requirements or intakes are often expressed in calories per day.
+
+===Chemistry===
+In scientific contexts, the term ''calorie'' almost always refers to the small calorie. Even though it is not an SI unit, it is still used in chemistry. For example, the energy released in a [[chemical reaction]] per [[mole (unit)|mole]] of reagent is occasionally expressed in [[kilocalorie per mole]].<ref name=CCDaily/><ref name=Zvi/> This use is largely due to the ease with which it can be calculated in laboratory reactions, especially in aqueous solution; a volume of reagent dissolved in water forming a solution, with concentration expressed in moles per liter (1 liter weighing 1 kg), will induce a temperature change in degrees Celsius in the total volume of water solvent, and these quantities (volume, molar concentration and temperature change) can then be used to calculate kcal/mol. It is also occasionally used to specify energy quantities that relate to reaction energy, such as [[bond energy|enthalpy of formation]] and the size of [[activation barrier]]s.  However, its use is being superseded by the SI joule unit.
+
+== See also ==
+* [[Empty calorie]]
+* [[Basal metabolic rate]]
+* [[wikt:frigorie|Frigorie]]
+* [[Food energy]]
+* [[Nutrition facts label]]
+* [[Conversion of units of energy]]
+
+== References ==
+<references>
+
+<ref name=Rossini>
+  {{cite journal|last=Rossini|first=Fredrick| title=Excursion in Chemical Thermodynamics, from the Past into the Future|journal=Pure and Applied Chemistry|year=1964|volume=8|issue=2|page=107|doi=10.1351/pac196408020095 |url=http://iupac.org/publications/pac/8/2/0095/|accessdate=21 January 2013|authorlink=Frederick Rossini|quote=both the IT calorie and the thermochemical calorie are completely independent of the heat capacity of water.}}
+</ref>
+
+<ref name=Webster>
+  Merriam-Webster's Online Dictionary Def 1a http://www.merriam-webster.com/dictionary/calorie
+</ref>
+
+<ref name=iupac>
+  {{cite book|title=Compendium of Analytical Nomenclature|year=1997|author=International Union of Pure and Applied Chemistry (IUPAC)|author-link=International Union of Pure and Applied Chemistry| isbn=0-86542-615-5| url=http://iupac.org/publications/analytical_compendium/Cha01sec6.pdf|edition=3|accessdate=31 August 2013|chapter=1.6 Conversion tables for units}}
+</ref>
+
+<ref name=CCDaily>
+  [http://www.chemistrydaily.com/chemistry/Calorie Chemistry Daily].
+</ref>
+
+<ref name=Zvi>
+  Zvi Rappoport ed. (2007), [http://books.google.com.br/books?id=4PdYwo25VP8C&pg=PA12 "The Chemistry of Peroxides"], Volume 2 page 12. 
+</ref>
+
+<ref name=FAO>
+  {{cite web |url=http://www.fao.org/docrep/meeting/009/ae906e/ae906e17.htm |author=FAO |authorlink=FAO |title=The adoption of joules as units of energy |year=1971 |quote=The  'Thermochemical calorie' was defined by Rossini simply as 4.1833 international joules in order to avoid the difficulties associated with uncertainties about the heat capacity of water (it has been redefined as 4.1840 J exactly).}}
+</ref>
+
+<ref name=Hist>
+  {{cite journal|last=Hargrove|first=James L|title=Does the history of food energy units suggest a solution to "Calorie confusion"? |journal=Nutrition Journal |year=2007|volume=6|issue=44|doi=10.1186/1475-2891-6-44 |url=http://www.nutritionj.com/content/6/1/44|accessdate=31 August 2013}}
+</ref>
+
+<ref name="iso31-4">
+  International Standard [[ISO 31-4]]: Quantities and units, Part 4: Heat. Annex B (informative): Other units given for information, especially regarding the conversion factor. [[International Organization for Standardization]], 1992.
+</ref>
+
+</references>
+
+[[Category:Units of energy]]
+[[Category:Heat transfer]]
+[[Category:Non-SI metric units]]

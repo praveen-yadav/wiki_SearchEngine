@@ -1,0 +1,111 @@
+{{Infobox software
+| name                   = Apache HTTP Server
+| logo                   = [[File:ASF-logo.svg|160px]]
+| screenshot             =
+| caption                =
+| author                 = Robert McCool
+| developer              = [[Apache Software Foundation]]
+| released               = 1995<ref>{{cite web | url=http://httpd.apache.org/ABOUT_APACHE.html | title=About the Apache HTTP Server Project | publisher=[[Apache Software Foundation]] | accessdate=2008-06-25 | archiveurl= http://web.archive.org/web/20080607122013/http://httpd.apache.org/ABOUT_APACHE.html| archivedate= 7 June 2008 <!--DASHBot-->| deadurl= no}}</ref>
+| frequently updated     = yes
+| status                 = Active
+| programming language   = [[C (programming language)|C]]<ref>{{cite web|title=Apache HTTP Server|url=http://www.ohloh.net/p/apache/analyses/latest|work=Ohloh.net}}</ref>
+| operating system       = [[Cross-platform]]
+| language               = English
+| genre                  = [[Web server]]
+| license                = [[Apache License]] 2.0
+| website                = {{URL|https://httpd.apache.org/}}
+}}
+
+The '''Apache [[Hypertext Transfer Protocol|HTTP]] Server''', commonly referred to as '''Apache''' ({{IPAc-en|ə|ˈ|p|æ|tʃ|iː}} {{Respell|ə|PA|chee}}), is a [[web server]] application notable for playing a key role in the initial growth of the [[World Wide Web]].<ref>[http://news.netcraft.com/archives/web_server_survey.html Netcraft Market Share] for Top Servers Across All Domains August 1995 - today (monthly updated)</ref> Originally based on the [[NCSA HTTPd]] server, development of Apache began in early 1995 after work on the NCSA code stalled. Apache quickly overtook NCSA HTTPd as the dominant HTTP server, and has remained the most popular HTTP server in use since April 1996. In 2009, it became the first web server software to serve more than 100 million websites.<ref name="100millionsites">{{cite web |url=http://news.netcraft.com/archives/2009/02/18/february_2009_web_server_survey.html |title=February 2009 Web Server Survey |publisher=[[Netcraft]] |accessdate=2009-03-29| archiveurl= http://web.archive.org/web/20090226092501/http://news.netcraft.com//archives//2009//02//18//february_2009_web_server_survey.html| archivedate= 26 February 2009 <!--DASHBot-->| deadurl= no}}</ref>
+
+Apache is developed and maintained by an open community of developers under the auspices of the [[Apache Software Foundation]]. Most commonly used on a [[Unix-like]] system,<ref>https://secure1.securityspace.com/s_survey/data/man.200907/apacheos.html</ref> the software is available for a wide variety of [[operating system]]s, including [[Unix]], [[FreeBSD]], [[Linux]], [[Solaris (operating system)|Solaris]], [[Novell NetWare]], [[OS X]], [[Microsoft Windows]], [[OS/2]], [[Transaction Processing Facility|TPF]], [[OpenVMS]] and [[eComStation]]. Released under the [[Apache License]], Apache is [[open-source software]].
+
+{{As of|2013|06}}, Apache was estimated to serve 54.2% of all active [[website]]s and 53.3% of the top servers across all domains.<ref name="netcraft">{{cite web|title=June 2013 Web Server Survey|url=http://news.netcraft.com/archives/2013/06/06/june-2013-web-server-survey-3.html|publisher=[[Netcraft]]|accessdate=2013-06-12}}</ref><ref>[http://w3techs.com/technologies/overview/web_server/all sage of web servers for websites]</ref><ref>Information about the Apache Web Server. (n.d.). Web Hosting Services, VPS Servers and Domain Names by NTC Hosting. Retrieved November 12, 2012, from
+http://www.ntchosting.com/apache-web-server.html
+</ref><ref>Mitchell, B. (n.d.). What Is The Apache Web Server?. Networking - Computer and Wireless Networking Basics - Home Networks Tutorials. Retrieved November 12, 2012, from http://compnetworking.about.com/cs/webserver</ref><ref>Apache Server Definition. (n.d.). Module for hosting (mod_hosting) for apache 2 servers. Retrieved November 12, 2012, from http://www.modulehosting.com/apache.html</ref>
+
+==Name==
+According to the FAQ in the Apache project website, the name Apache was chosen out of respect to the Native American tribe [[Apache]] and its superior skills in warfare and strategy. The name was widely believed to be a pun on A Patchy Server (since it was a set of [[Patch (computing)|software patches]]), but this is erroneous.<ref>{{cite web
+ | url = http://wiki.apache.org/httpd/FAQ#Why_the_name_.22Apache.22.3F
+ | title = Why the name 'Apache'?
+ | work = HTTPd Frequently Asked Questions
+}}</ref> Official documentation used to give this very explanation of the name,<ref>{{cite web
+ | url = http://web.archive.org/web/19970415054031/www.apache.org/info.html
+ | title = Information on the Apache HTTP Server Project
+ | date = 1997-04-15
+}}</ref> but in a 2000 interview, [[Brian Behlendorf]], one of the creators of Apache, set the record straight:
+{{quote|The name literally came out of the blue. I wish I could say that it was something fantastic, but it was out of the blue. I put it on a page and then a few months later when this project started, I pointed people to this page and said: "Hey, what do you think of that idea?" ... Someone said they liked the name and that it was a really good pun. And I was like, "A pun? What do you mean?" He said, "Well, we're building a server out of a bunch of software patches, right? So it's a patchy Web server." I went, "Oh, all right." ... When I thought of the name, no. It just sort of connoted: "Take no prisoners. Be kind of aggressive and kick some ass."|Brian Behlendorf|<ref>http://www.linux-mag.com/id/472/</ref>}}
+
+==Features==
+Apache supports a variety of features, many implemented as [[Compiler|compiled]] [[Modular programming|modules]] which extend the core functionality. These can range from server-side programming language support to authentication schemes. Some common language interfaces support <!-- ATTENTION AUTO-EDITORS, THESE UNDERSCORES ARE INTENTIONAL -->[[mod_perl|Perl]], [[mod_python|Python]], [[Tcl]], and [[PHP]]. Popular authentication modules include mod_access, mod_auth, mod_digest, and mod_auth_digest, the successor to mod_digest. A sample of other features include [[Secure Sockets Layer]] and [[Transport Layer Security]] support ([[mod_ssl]]), a [[proxy server|proxy]] module ([[mod_proxy]]), a [[URL rewriting|URL rewriter]] (mod_rewrite), custom log files (mod_log_config), and filtering support (mod_include and mod_ext_filter).
+
+Popular compression methods on Apache include the external extension module, mod_gzip<!-- redirects to here -->, implemented to help with reduction of the size (weight) of web pages served over [[HTTP]]. [[ModSecurity]] is an open source intrusion detection and prevention engine for web applications. Apache logs can be analyzed through a web browser using free scripts such as [[AWStats]]/[[W3Perl]] or [[Visitors (program)|Visitors]].
+
+[[Virtual hosting]] allows one Apache installation to serve many different websites. For example, one machine with one Apache installation could simultaneously serve www.example.com, www.example.org, test47.test-server.example.edu, etc.
+
+Apache features configurable error messages, [[Database management system|DBMS]]-based authentication databases, and [[content negotiation]]. It is also supported by several [[graphical user interface]]s (GUIs).
+
+It supports password authentication and [[digital certificate]] authentication. Because the source code is freely available, anyone can adapt the server for specific needs, and there is a large public library of Apache add-ons.<ref>What is Apache Web server? - A Word Definition From the Webopedia Computer Dictionary. (n.d.). Webopedia: Online Computer Dictionary for Computer and Internet Terms and Definitions. Retrieved November 12, 2012, from
+http://www.webopedia.com/TERM/A/Apache_Web_server.html
+</ref><ref>Welcome to The Apache Software Foundation!.
+http://www.apache.org/
+</ref>
+
+==Performance==
+[[File:LAMP software bundle.svg|thumb|400px|The [[LAMP (software bundle)|LAMP software bundle]] (here additionally with [[Squid (software)|Squid]]). A high performance and high-availability solution for a hostile environment]]
+Although the main design goal of Apache is not to be the "fastest" web server, Apache does have performance similar to other "high-performance" web servers. Instead of implementing a single architecture, Apache provides a variety of MultiProcessing Modules (MPMs) which allow Apache to run in a process-based, hybrid (process and thread) or event-hybrid mode, to better match the demands of each particular infrastructure. This implies that the choice of correct MPM and the correct configuration is important. Where compromises in performance need to be made, the design of Apache is to reduce latency and increase [[throughput]], relative to simply handling more requests, thus ensuring consistent and reliable processing of requests within reasonable time-frames.
+
+The Apache 2.2 series was considered significantly slower than [[nginx]] for delivering static pages, although remaining significantly faster for dynamic pages. To address this issue, the Apache version considered by the Apache Foundation as providing high-performance is the multi-threaded version which mixes the use of several processes and several threads per process.<ref>[http://httpd.apache.org/docs/2.2/mod/worker.html Apache MPM worker]</ref> This architecture, and the way it was implemented in the Apache 2.4 series, provides for performance equivalent or slightly better than event-based webservers.<ref>http://people.apache.org/~jim/presos/ACNA11/Apache_httpd_cloud.pdf Apache httpd 2.4</ref>
+
+==Licensing==
+The Apache HTTP Server [[codebase]] was relicensed to the [[Apache License|Apache 2.0 License]] (from the previous 1.1 license) in January 2004,<ref>{{cite web|url=https://www.apache.org/licenses/LICENSE-2.0.html|title=Apache License, Version 2.0|publisher=The Apache Software Foundation|date=January 2004|accessdate=2013-05-21}}</ref> and Apache HTTP Server 1.3.31 and 2.0.49 were the first [[Software release life cycle|releases]] using the new license.<ref>{{cite newsgroup|url=|title=FYI: Apache HTTP Server 2.0.49 Released|last=Burton|first=Richard Antony|newsgroup=alt.apache.configuration|accessdate=2013-05-23}}</ref> Some Apache users did not like the change and continued the use of pre-2.0 Apache versions (typically 1.3.x). For example, the [[OpenBSD]] project effectively forked Apache 1.3.x for its purposes.<ref>{{cite mailing list|url=http://marc.info/?l=openbsd-misc&m=107714762916291|title=The new apache license|last=de Raadt|first=Theo|authorlink=Theo de Raadt|mailinglist=openbsd-misc|date=18 February 2004|accessdate=2013-05-21}}</ref><ref>{{cite web|url=http://www.openbsd.org/policy.html|title=Copyright Policy|publisher=OpenBSD|accessdate=2013-05-12}}</ref>
+
+==Apache HTTP Server Project==
+
+The Apache HTTP Server Project is a collaborative software development effort aimed at creating a robust, commercial-grade, feature-rich and freely-available source code implementation of an HTTP (Web) server. The project is jointly managed by a group of volunteers located around the world, using the Internet and the Web to communicate, plan, and develop the server and its related documentation. This project is part of the Apache Software Foundation. In addition, hundreds of users have contributed ideas, code, and documentation to the project.<ref>Netcraft. (n.d.). About the Apache HTTP Server Project - The Apache HTTP Server Project. Welcome! - The Apache HTTP Server Project. Retrieved November 12, 2012, from http://httpd.apache.org/ABOUT_APACHE.html</ref><ref>The Apache HTTP Server Open Source Project on Ohloh. (n.d.). Ohloh, the open source network. Retrieved November 12, 2012, from
+http://www.ohloh.net/p/apache
+</ref><ref>Chapter 4. The Apache HTTP Server. (n.d.). Fedora Documentation. Retrieved November 12, 2012, from http://docs.fedoraproject.org/en-US/Fedora/13/html/Managing_Confined_Services/chap-Managing_Confined_Services-The_Apache_HTTP_Server.html</ref>
+
+==See also==
+{{Portal|Free software}}
+* [[List of Apache modules]]
+* [[.htaccess]] & [[.htpasswd]]
+* [[ApacheBench]]
+* [[POSSE project]]
+* [[XAMPP]]
+* [[WAMP (software bundle)|WAMP]]
+* [[LAMP (software bundle)|LAMP]]
+* [[suEXEC]] — allows users to run CGI and SSI applications as a different user
+* [[IBM HTTP Server]] — a modified version of Apache httpd made for use with [[IBM WebSphere Application Server]]
+
+; Overview and discussions
+* [[Comparison of web server software]]
+* [[Comparison of lightweight web servers]]
+* [[Web accelerator]] which discusses host-based HTTP acceleration
+* [[Proxy server]] which discusses client-side proxies
+* [[Reverse proxy]] which discusses origin-side proxies
+* [[Internet Cache Protocol]]
+
+; Apache-style configuration file parsers
+* [http://www.azzit.de/dotconf/ Dotconf] - an open-source project for Apache-style configuration file parser. Dotconf is written in C language and distributed under LGPL.
+* qLibc - general purpose C library. It provides Apache-style configuration file parser in C language API. qLibc is distributed under BSD license.
+* Apache::ConfigFile
+
+==References==
+{{Reflist|30em}}
+
+==External links==
+* {{Official website|https://httpd.apache.org/}}
+
+{{Apache}}
+{{Web server software}}
+{{Web interfaces}}
+
+{{DEFAULTSORT:Apache Http Server}}
+[[Category:1995 software]]
+[[Category:Apache Software Foundation|HTTP Server]]
+[[Category:Cross-platform software]]
+[[Category:Free software programmed in C]]
+[[Category:Free web server software]]
+[[Category:Reverse proxy]]
+[[Category:Unix network-related software]]

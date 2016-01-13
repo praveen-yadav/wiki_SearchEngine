@@ -1,0 +1,269 @@
+{{Use dmy dates|date=July 2013}}
+{{Infobox unit
+| bgcolour =
+| name = astronomical unit
+| standard = [[Astronomical system of units]]<br>[[Non-SI units mentioned in the SI|(Accepted for use with the SI)]]
+| quantity = [[length]]
+| symbol = au
+| units1 = [[kilometres|km]]
+| inunits1 = {{val|149.6||e=6}}
+| units2 = [[mile|mi]]
+| inunits2 ={{val|92.956|e=6}}
+| units3 = [[parsec|pc]]
+| inunits3 = {{val|4.8481|e=-6}}
+| units4 = [[lightyear|ly]]
+| inunits4 = {{val|15.813|e=-6}}
+}}
+An '''astronomical unit''' (abbreviated as '''au''';<ref>{{citation | contribution = RESOLUTION B2 on the re-definition of the astronomical unit of length | title = RESOLUTION B2 | editor-first = International Astronomical Union | publisher = [[International Astronomical Union]] | place = Beijing, Kina | date = 31 August 2012 | contribution-url = http://www.iau.org/static/resolutions/IAU2012_English.pdf | accessdate = 2013-05-11 | quote = The XXVIII General Assembly of International Astronomical Union recommends [adopted] … that the unique symbol “au” be used for the astronomical unit.}}</ref> other abbreviations that are sometimes used include {{unicode|㍳}}, a.u. and ua<ref name="Bureau International des Poids et Mesures 2006 126">{{Citation | author = Bureau International des Poids et Mesures | author-link = Bureau International des Poids et Mesures | title = The International System of Units (SI) | place =  | publisher = Organisation Intergouvernementale de la Convention du Mètre | year = 2006 | edition = 8th | page = 126 | url = http://www.bipm.org/utils/common/pdf/si_brochure_8_en.pdf}}</ref>) is a [[unit of measurement|unit]] of [[length]] now defined as exactly {{val|149597870700}}&nbsp;m ({{convert|149597870700|m|mi|adj=off|disp=output only}}),<ref>{{citation | contribution = RESOLUTION B2 on the re-definition of the astronomical unit of length | title = RESOLUTION B2 | editor-first = International Astronomical Union | publisher = [[International Astronomical Union]] | place = Beijing, Kina | date = 31 August 2012 | contribution-url = http://www.iau.org/static/resolutions/IAU2012_English.pdf | accessdate = 2012-09-19 | quote = The XXVIII General Assembly of International Astronomical Union recommends [adopted] that the astronomical unit be re-defined to be a conventional unit of length equal to exactly 149 597 870 700 meters, in agreement with the value adopted in IAU 2009 Resolution B2}}</ref> or roughly the average [[Earth]]–[[Sun]] distance.
+
+==Definition==
+{{See also|Earth's orbit}}
+
+The astronomical unit was originally defined as the length of the [[semi-major axis]] of the [[Earth]]'s elliptical orbit around the [[Sun]].
+
+In 1976 for greater precision, the [[International Astronomical Union]] (IAU) formally adopted [[IAU (1976) System of Astronomical Constants|the definition]] that "the astronomical unit of length is that length (''A'') for which the [[Gaussian gravitational constant]] (''k'') takes the value {{val|0.01720209895}} when the units of measurement are the astronomical units of length, mass and time".<ref name="IAU76">Resolution No. 10 of the [http://www.iau.org/static/resolutions/IAU1976_French.pdf XVIth General Assembly of the International Astronomical Union], Grenoble, 1976</ref><ref name="Trümper">{{Citation |title= Astronomy, astrophysics, and cosmology — Volume VI/4B ''Solar System''|url=http://books.google.com/?id=wgydrPWl6XkC&pg=RA1-PA4 |page=4 |year=2009 |author=H. Hussmann, F. Sohl, J. Oberst |chapter=§4.2.2.1.3: Astronomical units |editor= Joachim E Trümper |isbn=3-540-88054-2 |publisher=Springer}}</ref><ref name= Fairbridge>{{Citation |title=Encyclopedia of planetary sciences |author=Gareth V Williams |editor=James H. Shirley, Rhodes Whitmore Fairbridge |chapter=Astronomical unit |url=http://books.google.com/books?id=dw2GadaPkYcC&pg=PA48 |page=48 |isbn=0-412-06951-2 |year=1997 |publisher=Springer}}</ref> An equivalent definition is the radius of an unperturbed circular Newtonian orbit about the Sun of a particle having infinitesimal mass, moving with an [[angular frequency]] of {{val|0.01720209895}} radians per day;<ref name=SIbrochure>{{SIbrochure8th|page=126}}</ref> or that length such that, when used to describe the positions of the objects in the Solar System, the [[standard gravitational parameter|heliocentric gravitational constant]] (the product ''GM''<sub>☉</sub>) is equal to ({{val|0.01720209895}})<sup>2</sup>&nbsp;au<sup>3</sup>/d<sup>2</sup>.
+
+In the [[International Earth Rotation and Reference Systems Service|IERS]] numerical standards, the [[speed of light]] in a vacuum is defined as ''c''<sub>0</sub> = {{val|299792458|u=m/s}}, in accordance with the [[SI units]]. The time to traverse an au is found to be τ<sub>A</sub> = {{val|499.0047838061|0.00000001|u=s}}, resulting in the astronomical unit in metres as ''c''<sub>0</sub>τ<sub>A</sub> = {{val|149597870700|3|u=m}}.<ref name=IERS>{{cite web |title=Table 1.1: IERS numerical standards |work=IERS technical note no. 36: General definitions and numerical standards |author=Gérard Petit and Brian Luzum, eds. {{what|date=November 2013}} |url=ftp://tai.bipm.org/iers/conv2010/chapter1/tn36_c1.pdf |publisher=[[International Earth Rotation and Reference Systems Service]] |year=2010}} For complete document see {{cite book |title=IERS Conventions (2010): IERS technical note no. 36 |author=Gérard Petit and Brian Luzum, eds. {{what|date=November 2013}} |isbn=978-3-89888-989-6 |url=http://www.iers.org/nn_11216/IERS/EN/Publications/TechnicalNotes/tn36.html |publisher=International Earth Rotation and Reference Systems Service |year=2010}}</ref> It is approximately equal to the distance from the Earth to the Sun.
+
+The 1976 value of the astronomical unit was indirectly derived from physical analysis of the motion of the Earth around the Sun, while it had since become possible to measure the distance to celestial bodies directly.<ref name=Captaine>{{Citation | last = Capitaine | first = Nicole | author-link = | last2 = Klioner | first2 = Sergei | author2-link = | last3 = McCarthy | first3 = Dennis | author3-link = Dennis McCarthy (scientist) | title = IAU Joint Discussion 7: Space-Time Reference Systems for Future Research | place = Beijing, China | year = 2012 | chapter = The re-definition of the astronomical unit of length:reasons and consequences  | chapterurl = http://referencesystems.info/uploads/3/0/3/0/3030024/jd7_5-06.pdf | url = http://referencesystems.info/iau-joint-discussion-7.html | accessdate = 16-May-2013 | bibcode = 2012IAUJD...7E..40C}}</ref><ref name=AU_NIST>{{cite web  |title=Table 6: Units outside the SI that are accepted for use with the SI |work=The NIST reference on constants, units, and uncertainty: International system of units (SI) | url=http://physics.nist.gov/cuu/Units/outside.html |publisher={{abbr|NIST|National Institute of Standards and Technology}}, USA |accessdate=2012-01-16}}</ref> Furthermore, it was subject to relativity and thus was not constant for all observers.  Therefore, in 2012 the IAU redefined the astronomical unit as a conventional unit of length directly tied to the meter, with a length of exactly {{val|149597870700|u=m}} and the official abbreviation of au.<ref name=Captaine/><ref name=Nature2012>{{cite web | url = http://www.nature.com/news/the-astronomical-unit-gets-fixed-1.11416 | title = The astronomical unit gets fixed: Earth–Sun distance changes from slippery equation to single number. | author = Geoff Brumfiel | date = 14-Sep-2012 | accessdate = 14-Sep-2012}}</ref>
+
+To gain a sense of scale as to how far one au is, if the Sun were to be scaled down to the size of an NBA basketball (24&nbsp;cm diameter) then the Earth would be half the diameter of a .177 caliber BB pellet, and at this scale one au is the distance between the two hoops on a [[basketball court]].
+
+==Modern determinations==
+Precise measurements of the relative positions of the [[Solar System#Inner planets|inner planets]] can be made by [[radar]] and by [[telemetry]] from [[space probe]]s. As with all radar measurements, these rely on measuring the time taken for [[photons]] to be reflected from an object. These measured positions are then compared with those calculated by the laws of [[celestial mechanics]]: an assembly of calculated positions is often referred to as an [[ephemeris]], in which distances are commonly calculated in astronomical units. One of several ephemeris computation services is provided by the [[Jet Propulsion Laboratory]].<ref name=Horizons>
+
+{{cite web |title=HORIZONS System |url=http://ssd.jpl.nasa.gov/?horizons |work=Solar system dynamics |date=4 January 2005 |accessdate=2012-01-16 |publisher=NASA: Jet Propulsion Laboratory}}
+</ref>
+
+The comparison of the ephemeris with the measured positions leads to a value for the [[speed of light]] in astronomical units, which is {{nowrap|173.144 632 6847(69)}}&nbsp;au/d ([[Barycentric Dynamical Time|TDB]]).<ref>"[http://asa.usno.navy.mil/SecK/2009/Astronomical_Constants_2009.pdf 2009 Selected Astronomical Constants]" in {{citation|title=The Astronomical Almanac Online|url=http://asa.usno.navy.mil/|publisher=[[United States Naval Observatory|USNO]]–[[United Kingdom Hydrographic Office|UKHO]]}}</ref> As the speed of light in meters per second ([http://physics.nist.gov/cgi-bin/cuu/Value?c ''c''<sub>0</sub>]) is fixed in the [[International System of Units]], this measurement of the speed of light in au/d (''c''<sub>AU</sub>) also determines the value of the astronomical unit in meters (''A''):
+:<math>A = 86\,400 \frac{c_{\rm 0}}{c_{\rm AU}}.</math>
+
+The best current (2009) estimate of the [[International Astronomical Union]] (IAU) for the value of the astronomical unit in meters is ''A''&nbsp;= {{nowrap|149 597 870 700(3)}}&nbsp;m, based on a comparison of [[Jet Propulsion Laboratory|JPL]] and [[Russian Academy of Sciences|IAA–RAS]] ephemerides.<ref name="IAU">{{citation|title=IAU WG on NSFA Current Best Estimates|url=http://maia.usno.navy.mil/NSFA/CBE.html|accessdate = 25 September 2009}}</ref><ref name="Pitjeva09">{{citation|last1=Pitjeva|first1=E. V.|authorlink1=Elena V. Pitjeva|last2=Standish|first2=E. M.|authorlink2=E. Myles Standish|year=2009|title=Proposals for the masses of the three largest asteroids, the Moon-Earth mass ratio and the Astronomical Unit|url=http://www.springerlink.com/content/21885q7262104u76/|journal=[[Celestial Mechanics and Dynamical Astronomy|Celest. Mech. Dynam. Astron.]]|volume=103|issue=4|pages=365–72|doi=10.1007/s10569-009-9203-8|bibcode = 2009CeMDA.103..365P }}</ref><ref>{{citation|url=http://www.astronomy2009.com.br/10.pdf|newspaper=Estrella d'Alva|date=14 August 2009|page=1|title=The Final Session of the General Assembly}}</ref>
+
+==Usage==
+With the definitions used before 2012, the astronomical unit was dependent on the [[heliocentric gravitational constant]], that is the product of the [[gravitational constant]] ''G'' and the solar mass ''M''<sub>☉</sub>. Neither ''G'' nor ''M''<sub>☉</sub> can be measured to high accuracy in SI units, but the value of their product is known very precisely from observing the relative positions of planets ([[Kepler's Third Law]] expressed in terms of Newtonian gravitation). Only the product is required to calculate planetary positions for an ephemeris, which explains why ephemerides are calculated in astronomical units and not in SI units.
+
+The calculation of ephemerides also requires a consideration of the effects of [[general relativity]]. In particular, time intervals measured on the surface of the Earth ([[terrestrial time]], TT) are not constant when compared to the motions of the planets: the terrestrial second (TT) appears to be longer in Northern Hemisphere winter and shorter in Northern Hemisphere summer when compared to the "planetary second" (conventionally measured in [[barycentric dynamical time]], TDB). This is because the distance between the Earth and the Sun is not fixed (it varies between {{nowrap|0.983&thinsp;289&thinsp;8912}}&nbsp;au and {{nowrap|1.016&thinsp;710&thinsp;3335}}&nbsp;au) and, when the Earth is closer to the Sun ([[perihelion]]), the Sun's gravitational field is stronger and the Earth is moving faster along its [[Earth's orbit|orbital path]]. As the meter is defined in terms of the second, and the speed of light is constant for all observers, the terrestrial meter appears to change in length compared to the "planetary meter" on a periodic basis.
+
+The meter is defined to be a unit of [[proper length]], but the SI definition does not specify the [[metric tensor (general relativity)|metric tensor]] to be used in determining it. Indeed, the [[International Committee for Weights and Measures]] (CIPM) notes that "its definition applies only within a spatial extent sufficiently small that the effects of the non-uniformity of the gravitational field can be ignored."<ref>{{SIbrochure8th|pages=166–67}}</ref> As such, the meter is undefined for the purposes of measuring distances within the Solar System. The 1976 definition of the astronomical unit was incomplete, in particular because it does not specify the [[frame of reference]] in which time is to be measured, but proved practical for the calculation of ephemerides: a fuller definition that is consistent with general relativity was proposed,<ref name="Huang">{{citation|author=Huang, T.-Y.; Han, C.-H.; Yi, Z.-H.; Xu, B.-X.|year=1995|title=What is the astronomical unit of length?|bibcode=1995A&A...298..629H|journal=[[Astronomy and Astrophysics|Astron. Astrophys.]]|volume=298|pages=629–33|last2=Han|last3=Yi|last4=Xu}}</ref> and "vigorous debate" ensued <ref name=Dodd>{{cite book |title=Using SI Units in Astronomy |author=Richard Dodd |publisher=Cambridge University Press |year=2011 |page=76 |url=http://books.google.com/books?id=UC_1_804BXgC&pg=PA76 |chapter=§6.2.3: Astronomical unit: ''Definition of the astronomical unit, future versions'' |isbn=0-521-76917-5}} and also p. 91, ''Summary and recommendations''.</ref> until in August 2012 the [[International Astronomical Union]] adopted the current definition of 1 astronomical unit = 149597870700 [[meter]]s.
+
+The au is too small for interstellar distances, where the [[parsec]] is commonly used. See the article [[cosmic distance ladder]]. The [[light year]] is often used in popular works, but is not an approved non-SI unit.<ref name=Dodd1>See, for example, the work cited above: {{cite book |title=Using SI Units in Astronomy |author=Richard Dodd |page=82 |url=http://books.google.com/books?id=UC_1_804BXgC&pg=PA82 |chapter=§6.2.8: Light year |isbn=0-521-76917-5}}</ref>
+
+==History==
+According to [[Archimedes]] in the ''[[Sand Reckoner|Sandreckoner]]'' (2.1), [[Aristarchus of Samos]] estimated the distance to the Sun to be 10,000 times the Earth's radius (the true value is about 23,000).<ref name=Gomez>Gomez, A. G. (2013) [http://www.authorhouse.co.uk/Bookstore/BookDetail.aspx?BookId=SKU-000625467 '' Aristarchos of Samos, the Polymath''] AuthorHouse, ISBN 9781481789493.</ref> However, the book ''[[On the Sizes and Distances of the Sun and Moon]]'', which has long been ascribed to Aristarchus, says that he calculated the distance to the sun to be between 18 and 20 times the [[Lunar distance (astronomy)|distance to the Moon]], whereas the true ratio is about 389.174. The latter estimate was based on the angle between the [[Lunar phase|half moon]] and the Sun, which he estimated as 87° (the true value being close to 89.853°). Depending on the distance Van Helden assumes Aristarchus used for the distance to the Moon, his calculated distance to the Sun would fall between 380 and 1,520 Earth radii.<ref>{{Citation|last=Van Helden|first=Albert|title=Measuring the Universe: Cosmic Dimensions from Aristarchus to Halley|place=Chicago|publisher=University of Chicago Press|year=1985|pages=5–9|isbn=0-226-84882-5}}</ref>
+
+According to [[Eusebius of Caesarea]] in the ''[[Preparation for the Gospel|Praeparatio Evangelica]]'' (Book XV, Chapter 53), [[Eratosthenes]] found the distance to the sun to be "σταδιων μυριαδας τετρακοσιας και οκτωκισμυριας" (literally "of ''stadia'' [[myriad]]s 400 and 80000" but with the additional note that in the Greek text the [[Agreement (linguistics)|grammatical agreement]] is between ''myriads'' (not ''stadia'') on the one hand and both ''400'' and ''80000'' on the other, as in Greek, unlike English, all three or all four if one were to include ''stadia'', words are [[Inflection|inflected]]). This has been translated either as 4,080,000 ''[[stadion (unit of length)|stadia]]'' (1903 translation by [[Edwin Hamilton Gifford]]), or as 804,000,000 ''stadia'' (edition of [[Édouard des Places]], dated 1974–1991). Using the Greek stadium of 185 to 190 meters,<ref>{{citation|last=Engels|first=Donald|year=1985|title=The Length of Eratosthenes' Stade|journal=Am. J. Philol.|volume=106|issue=3|pages=298–311|doi=10.2307/295030|publisher=The Johns Hopkins University Press|jstor=295030}}</ref><ref>{{citation|first=Edward|last=Gulbekian|year=1987|title=The origin and value of the stadion unit used by Eratosthenes in the third century B.C.|url=http://www.springerlink.com/content/n7n7u7tj18676374/|journal=Archive for History of Exact Sciences|volume=37|issue=4|pages=359–63|doi=10.1007/BF00417008|doi_brokendate=2010-01-09
+}}</ref> the former translation comes to a far too low 755,000&nbsp;km whereas the second translation comes to 148.7 to 152.8 million km (accurate within 2%).<ref>{{citation|first=D.|last=Rawlins|year=2008|title=Eratothenes' large earth and tiny universe|journal=DIO|volume=14|pages=3–12|url=http://www.dioi.org/vols/we0.pdf}}</ref> [[Hipparchus]] also gave an estimate of the distance of the Sun from the Earth, quoted by [[Pappus of Alexandria|Pappus]] as equal to 490 Earth radii. According to the conjectural reconstructions of [[Noel Swerdlow]] and [[G. J. Toomer]], this was derived from his assumption of a "least perceptible" solar parallax of 7 arc minutes.<ref>{{cite doi|10.1007/BF00329826}}</ref>
+
+A Chinese mathematical treatise, the ''[[Zhou Bi Suan Jing|Zhoubi suanjing]]'' (c. 1st century BCE), shows how the distance to the Sun can be computed geometrically, using the different lengths of the noontime shadows observed at three places 1000 [[Li (length)|li]] apart and the assumption that the Earth is flat.<ref>{{citation|first=G. E. R.|last=Lloyd|authorlink=G. E. R. Lloyd|title=Adversaries and Authorities: Investigations into Ancient Greek and Chinese Science|publisher=Cambridge University Press|year=1996|pages=59–60|isbn=0-521-55695-3}}</ref>
+{|class="wikitable" style="float:right; margin:0 0 0 0.5em;"
+|-
+! &nbsp;
+! [[Solar parallax|Solar<br/>parallax]]
+! Earth<br/>radii
+|-
+| [[Archimedes]] in ''[[The Sand Reckoner|Sandreckoner]]''<br>(3rd century BC)
+| align=left | 40″
+| align=right | 10,000
+|-
+| [[Aristarchus of Samos|Aristarchus]] in ''[[Aristarchus On the Sizes and Distances|On Sizes]]'' (3rd century BC)
+| align=left | 
+| align=right | 380-1,520
+|-
+| [[Hipparchus]] (2nd century BC)
+| align=left | 7′ 
+| align=right | 490
+|-
+| [[Ptolemy]] (2nd century)
+| align=left | 2′ 50″
+| align=right | 1,210
+|-
+| [[Godefroy Wendelin]] (1635)
+| align=left | 15″
+| align=right | 14,000
+|-
+| [[Jeremiah Horrocks]] (1639)
+| align=left | 15″
+| align=right | 14,000
+|-
+| [[Christiaan Huygens]] (1659)
+| align=left | 8.6″
+| align=right | 24,000
+|-
+| [[Giovanni Domenico Cassini|Cassini]] & [[Jean Richer|Richer]] (1672)
+| align=left | 9½″
+| align=right | 21,700
+|-
+| [[Jérôme Lalande]] (1771)
+| align=left | 8.6″
+| align=right | 24,000
+|-
+| [[Simon Newcomb]] (1895)
+| align=left | 8.80″
+| align=right | 23,440
+|-
+| [[Arthur Robert Hinks|Arthur Hinks]] (1909)
+| align=left | 8.807″
+| align=right | 23,420
+|-
+| [[Harold Spencer Jones|H. Spencer Jones]] (1941)
+| align=left | 8.790″
+| align=right | 23,466
+|-
+| modern
+| align=left| 8.794143″
+| align=right | 23,455
+|}
+In the 2nd century CE, [[Ptolemy]] estimated the mean distance of the Sun as 1,210 times the [[Earth radius]].<ref>{{citation|first=Bernard R.|last=Goldstein|title=The Arabic Version of Ptolemy's ''Planetary Hypotheses''|journal=Trans. Am. Phil. Soc.|volume=57|issue=4|year=1967|pages=9–12}}</ref><ref>{{Citation|last=van Helden|first=Albert|title=Measuring the Universe: Cosmic Dimensions from Aristarchus to Halley|place=Chicago|publisher=University of Chicago Press|year=1985|pages=15–27|isbn=0-226-84882-5}}</ref> To determine this value, Ptolemy started by measuring the Moon's parallax, finding what amounted to a horizontal lunar parallax of 1° 26′, which was much too large. He then derived a maximum lunar distance of 64 1/6 Earth radii. Because of cancelling errors in his parallax figure, his theory of the Moon's orbit, and other factors, this figure was approximately correct.<ref name=vh1619>pp. 16–19, van Helden 1985</ref><ref>p. 251, ''Ptolemy's Almagest'',
+translated and annotated by G. J. Toomer, London: Duckworth, 1984, ISBN 0-7156-1588-2</ref> He then measured the apparent sizes of the Sun and the Moon and concluded that the apparent diameter of the Sun was equal to the apparent diameter of the Moon at the Moon's greatest distance, and from records of lunar eclipses, he estimated this apparent diameter, as well as the apparent diameter of the shadow cone of the Earth traversed by the Moon during a lunar eclipse. Given these data, the distance of the Sun from the Earth can be trigonometrically computed to be 1,210 Earth radii. This gives a ratio of solar to lunar distance of approximately 19, matching Aristarchus's figure. Although Ptolemy's procedure is theoretically workable, it is very sensitive to small changes in the data, so much so that changing a measurement by a few percent can make the solar distance infinite.<ref name=vh1619/>
+
+After Greek astronomy was transmitted to the medieval Islamic world, astronomers made some changes to Ptolemy's cosmological model, but did not greatly change his estimate of the Earth–Sun distance. For example, in his introduction to Ptolemaic astronomy, [[al-Farghānī]] gave a mean solar distance of 1,170 Earth radii, while in his ''[[zij]]'', [[al-Battānī]] used a mean solar distance of 1,108 Earth radii. Subsequent astronomers, such as [[al-Bīrūnī]], used similar values.<ref>pp. 29–33, van Helden 1985</ref> Later in Europe, [[Nicolaus Copernicus|Copernicus]] and [[Tycho Brahe]] also used comparable figures (1,142 Earth radii and 1,150 Earth radii), and so Ptolemy's approximate Earth–Sun distance survived through the 16th century.<ref>pp. 41–53, van Helden 1985</ref>
+
+[[Johannes Kepler]] was the first to realize that Ptolemy's estimate must be significantly too low (according to Kepler, at least by a factor of three) in his ''[[Rudolphine Tables]]'' (1627). [[Kepler's laws of planetary motion]] allowed astronomers to calculate the relative distances of the planets from the Sun, and rekindled interest in measuring the absolute value for the Earth (which could then be applied to the other planets). The invention of the [[telescope]] allowed far more accurate measurements of angles than is possible with the naked eye. Flemish astronomer [[Godefroy Wendelin]] repeated Aristarchus' measurements in 1635, and found that Ptolemy's value was too low by a factor of at least eleven.
+
+A somewhat more accurate estimate can be obtained by observing the [[transit of Venus]].<ref name=Bell>
+
+An extended historical discussion of this method is provided by {{cite web |title=Quest for the astronomical unit |author =Trudy E Bell |url=http://www.tbp.org/pages/publications/bent/features/su04bell.pdf |work=The Bent of Tau Beta Pi, Summer 2004, p. 20 |accessdate=2012-01-16}}
+
+</ref> By measuring the transit in two different locations, one can accurately calculate the [[parallax]] of Venus and from the relative distance of the Earth and Venus from the Sun, the [[Parallax#Solar_parallax|solar parallax]] ''α'' (which cannot be measured directly<ref name="Weaver">{{citation|last=Weaver|first=Harold F.|title=The Solar Parallax|bibcode=1943ASPL....4..144W|year=1943|journal=Astronomical Society of the Pacific Leaflets|volume=4|pages=144–51}}</ref>). [[Jeremiah Horrocks]] had attempted to produce an estimate based on [[Transit of Venus, 1639|his observation of the 1639 transit]] (published in 1662), giving a solar parallax of 15 [[arcsecond]]s, similar to Wendelin's figure. The solar parallax is related to the Earth–Sun distance as measured in [[Earth radius|Earth radii]] by
+:<math>A = {\cot\alpha}.</math>
+The smaller the solar parallax, the greater the distance between the Sun and the Earth: a solar parallax of 15" is equivalent to an Earth–Sun distance of 13,750 Earth radii.
+
+[[Christiaan Huygens]] believed the distance was even greater: by comparing the apparent sizes of Venus and [[Mars]], he estimated a value of about 24,000 Earth radii,<ref>{{citation|last=Goldstein|first=S. J., Jr.|title=Christiaan Huygens' Measurement of the Distance to the Sun|bibcode=1985Obs...105...32G|journal=Observatory|year=1985|volume=105|pages=32–33}}</ref> equivalent to a solar parallax of 8.6". Although Huygens' estimate is remarkably close to modern values, it is often discounted by historians of astronomy because of the many unproven (and incorrect) assumptions he had to make for his method to work; the accuracy of his value seems to be based more on luck than good measurement, with his various errors cancelling each other out.
+
+[[File:Venustransit 2004-06-08 07-44.jpg|thumb|right|Transits of Venus across the face of the Sun were, for a long time, the best method of measuring the astronomical unit, despite the difficulties (here, the so-called "[[black drop effect]]") and the rarity of observations.]]
+[[Jean Richer]] and [[Giovanni Domenico Cassini]] measured the parallax of Mars between [[Paris]] and [[Cayenne]] in [[French Guiana]] when Mars was at its closest to Earth in 1672. They arrived at a figure for the solar parallax of 9½", equivalent to an Earth–Sun distance of about 22,000 Earth radii. They were also the first astronomers to have access to an accurate and reliable value for the radius of the Earth, which had been measured by their colleague [[Jean Picard]] in 1669 as 3,269 thousand ''[[toise]]s''. Another colleague, [[Ole Rømer]], discovered the finite [[speed of light]] in 1676: the speed was so great that it was usually quoted as the time required for light to travel from the Sun to the Earth, or "light time per unit distance", a convention that is still followed by astronomers today.
+
+A better method for observing Venus transits was devised by [[James Gregory (astronomer and mathematician)|James Gregory]] and published in his ''[[Optica Promata]]'' (1663). It was strongly advocated by [[Edmond Halley]]<ref>{{citation|last=Halley|first=E.|authorlink=Edmond Halley|year=1716|title=A new Method of determining the Parallax of the Sun, or his Distance from the Earth|journal=Philosophical Transactions of the Royal Society|volume=29|pages=454–64|url=http://www.dsellers.demon.co.uk/venus/ven_ch8.htm}}</ref> and was applied to the transits of Venus observed in 1761 and 1769, and then again in 1874 and 1882. Transits of Venus occur in pairs, but less than one pair every century, and observing the transits in 1761 and 1769 was an unprecedented international scientific operation. Despite the [[Seven Years' War]], dozens of astronomers were dispatched to observing points around the world at great expense and personal danger: several of them died in the endeavour.<ref>{{citation|last=Pogge|first=Richard|title=How Far to the Sun? The Venus Transits of 1761 & 1769|url=http://www.astronomy.ohio-state.edu/~pogge/Ast161/Unit4/venussun.html|date=May 2004|publisher=Ohio State University|accessdate=15 November 2009}}</ref> The various results were collated by [[Jérôme Lalande]] to give a figure for the solar parallax of 8.6″.
+
+{| class="wikitable" style="float:right; margin:0 0 0 0.5em;"
+|-
+! Date
+! Method
+! ''A''/Gm
+! Uncertainty
+|-
+| 1895
+| aberration
+| 149.25
+| 0.12
+|-
+| 1941
+| parallax
+| 149.674
+| 0.016
+|-
+| 1964
+| radar
+| 149.5981
+| 0.001
+|-
+| 1976
+| telemetry
+| 149.597 870
+| 0.000 001
+|-
+| 2009
+| telemetry
+| 149.597 870 700
+| 0.000 000 003
+|}
+Another method involved determining the constant of [[aberration of light|aberration]], and [[Simon Newcomb]] gave great weight to this method when deriving his widely accepted value of 8.80″ for the solar parallax (close to the modern value of 8.794143″), although Newcomb also used data from the transits of Venus. Newcomb also collaborated with [[Albert Abraham Michelson|A.&nbsp;A.&nbsp;Michelson]] to measure the speed of light with Earth-based equipment; combined with the constant of aberration (which is related to the light time per unit distance) this gave the first direct measurement of the Earth–Sun distance in kilometers. Newcomb's value for the solar parallax (and for the constant of aberration and the [[Gaussian gravitational constant]]) were incorporated into the first international system of [[astronomical constant]]s in 1896,<ref>Conférence internationale des étoiles fondamentales, Paris, 18–21 May 1896</ref> which remained in place for the calculation of [[ephemeris|ephemerides]] until 1964.<ref>Resolution No. 4 of the [http://www.iau.org/static/resolutions/IAU1964_French.pdf XIIth General Assembly of the International Astronomical Union], Hamburg, 1964</ref> The name "astronomical unit" appears first to have been used in 1903.<ref>[http://www.merriam-webster.com/dictionary/astronomical%20unit astronomical unit] Merriam-Webster's Online Dictionary</ref>
+
+The discovery of the [[near-Earth asteroid]] [[433 Eros]] and its passage near the Earth in 1900–1901 allowed a considerable improvement in parallax measurement.<ref>{{citation|last=Hinks|first=Arthur R.|authorlink=Arthur Robert Hinks|title=Solar Parallax Papers No. 7: The General Solution from the Photographic Right Ascensions of Eros, at the Opposition of 1900|journal=Month. Not. R. Astron. Soc.|volume=69|issue=7|pages=544–67|year=1909|bibcode=1909MNRAS..69..544H}}</ref> Another international project to measure the parallax of 433 Eros was undertaken in 1930–1931.<ref name="Weaver"/><ref>{{citation|last=Spencer Jones|first=H.|authorlink=Harold Spencer Jones|title=The Solar Parallax and the Mass of the Moon from Observations of Eros at the Opposition of 1931|journal=Mem. R. Astron. Soc.|volume=66|year=1941|pages=11–66}}</ref>
+
+Direct radar measurements of the distances to Venus and Mars became available in the early 1960s. Along with improved measurements of the speed of light, these showed that Newcomb's values for the solar parallax and the constant of aberration were inconsistent with one another.<ref>{{citation|last=Mikhailov|first=A. A.|year=1964|title=The Constant of Aberration and the Solar Parallax|bibcode=1964SvA.....7..737M|journal=Sov. Astron.|volume=7|issue=6|pages=737–39}}</ref>
+
+==Developments==
+[[Image:Stellarparallax parsec1.svg|thumb|right|The astronomical distance unit [[parsec]] uses the au as a baseline and an angle of one [[arcsecond]] for [[parallax]]. 1 au and 1 pc not to scale. (See also [[stellar parallax]])]]
+The unit distance ''A'' (the value of the astronomical unit in meters) can be expressed in terms of other [[astronomical constant]]s:
+:<math>A^3 = \frac{G M_\odot D^2}{k^2}</math>
+where ''G'' is the [[Newtonian gravitational constant]], ''M''<sub>☉</sub> is the [[solar mass]], ''k'' is the numerical value of [[Gaussian gravitational constant]] and ''D'' is the time period of one day.
+The Sun is constantly losing mass by radiating away energy,<ref>{{citation|author=Noerdlinger, Peter D.|arxiv=0801.3807|title=Solar Mass Loss, the Astronomical Unit, and the Scale of the Solar System|journal=[[Celestial Mechanics and Dynamical Astronomy|Celest. Mech. Dynam. Astron.]]|bibcode = 2008arXiv0801.3807N|volume=0801|year=2008|pages=3807 }}</ref> so the orbits of the planets are steadily expanding outward from the Sun. This has led to calls to abandon the astronomical unit as a unit of measurement.<ref>{{citation|url=http://space.newscientist.com/article/dn13286-astronomical-unit-may-need-to-be-redefined.html?feedId=online-news_rss20|title=AU may need to be redefined|newspaper=New Scientist|date=6 February 2008}}</ref> There have also been calls to redefine the astronomical unit in terms of a fixed number of meters.<ref>{{cite arXiv|last1=Capitaine|first1=N|last2=Guinot|first2=B|eprint=0812.2970|title=The astronomical units|year=2008|version=v1|class=astro-ph}}</ref>
+
+As the [[speed of light]] has an exact defined value in SI units and the Gaussian gravitational constant ''k'' is fixed in the [[astronomical system of units]], measuring the light time per unit distance is exactly equivalent to measuring the product ''GM''<sub>☉</sub> in SI units. Hence, it is possible to construct ephemerides entirely in SI units, which is increasingly becoming the norm.
+
+A 2004 analysis of radiometric measurements in the inner Solar System suggested that the [[secular variation|secular increase]] in the unit distance was much larger than can be accounted for by solar radiation, +15±4&nbsp;meters per century.<ref>{{citation|author=Krasinsky, G. A.; Brumberg, V. A.|title=Secular increase of astronomical unit from analysis of the major planet motions, and its interpretation|url=http://www.springerlink.com/content/g5051650115444k9/|journal=Celest. Mech. Dynam. Astron.|volume=90|issue=3–4|year=2004|doi=10.1007/s10569-011-9377-8|page=363|bibcode = 2011CeMDA.111..363F|arxiv = 1108.5546 }}</ref><ref name=Anderson>{{Citation |title=Astrometric Solar-System Anomalies;§2: Increase in the astronomical unit |arxiv=0907.2469 |author=John D. Anderson and Michael Martin Nieto |year=2009 |postscript=. |bibcode = 2009IAU...261.0702A |volume=261 |pages=0702 |journal=American Astronomical Society }}</ref>
+
+The measurements of the secular variations of the astronomical unit are not confirmed by other authors and are quite controversial. 
+Furthermore, since 2010, the astronomical unit is not yet estimated by the planetary ephemerides.<ref>{{citation|author=Fienga, A.et al.|title=The INPOP10a planetary ephemeris and its applications in fundamental physics|url=http://www.springerlink.com/content/k5456227385812m7/?MUD=MP|journal=Celest. Mech. Dynam. Astron.|volume=111|issue=3|year=2011|doi=10.1007/s10569-011-9377-8|page=363|bibcode = 2011CeMDA.111..363F|arxiv = 1108.5546 }}</ref>
+
+==Examples==
+The distances are approximate mean distances. It has to be taken into consideration that the distances between [[astronomical object|celestial bodies]] change in [[time]] due to their [[orbit]]s and other factors.
+
+*The [[Moon]] is 0.0026 ± 0.0001 au from the Earth
+*[[Mercury (planet)|Mercury]] is 0.39 ± 0.09 au from the [[Sun]]
+*[[Venus]] is 0.72 ± 0.01 au from the Sun
+*The [[Earth]] is '''1.00 ± 0.02 au''' from the Sun
+*[[Mars]] is 1.52 ± 0.14 au from the Sun
+*[[Ceres (dwarf planet)|Ceres]] is 2.77 ± 0.22 au from the Sun
+*[[Jupiter]] is 5.20 ± 0.25 au from the Sun
+*5.5 au: the mean diameter of [[Betelgeuse]] (or 822 800 000&nbsp;km)
+*[[NML Cygni]], the largest known star, has a radius of 7.67 au
+*[[Saturn]] is 9.58 ± 0.53 au from the Sun
+*[[Uranus]] is 19.23 ± 0.85 au from the Sun
+*The ''[[New Horizons]]'' spacecraft is about 27.15 au from the Sun ({{As of|2013|08|lc=y}}), as it makes its way to Pluto for a flyby.
+*[[Neptune]] is 30.10 ± 0.34 au from the Sun
+*The [[Kuiper belt]] begins at roughly 30 au <ref>{{Citation | url=http://www.iop.org/EJ/article/0004-637X/490/2/879/36659.html | author=Alan Stern | title=Collisional Erosion in the Primordial Edgeworth-Kuiper Belt and the Generation of the 30–50 au Kuiper Gap | journal=The [[Astrophysical Journal]] | volume=490 | issue=2 | pages=879–882 | year=1997 | doi=10.1086/304912 | last2=Colwell | first2=Joshua E. | bibcode=1997ApJ...490..879S | postscript=.}}</ref>
+*[[Pluto]] is 39.3 ± 9.6 au from the Sun
+*Beginning of the [[scattered disk]] at 45 au (10 au overlap with Kuiper Belt)
+*Ending of Kuiper belt at 50–55 au
+*[[Eris (dwarf planet)|Eris]] is 68.01 ± 29.64 au from the Sun
+*[[90377 Sedna]]'s orbit ranges between 76 and 942 au from the Sun; Sedna is currently ({{As of|2012|lc=y}}) about 87 au from the Sun<ref name="AstDys-Sedna">{{cite web |title = AstDys (90377) Sedna Ephemerides |publisher = Department of Mathematics, University of Pisa, Italy |url = http://hamilton.dm.unipi.it/astdys/index.php?pc=1.1.3.0&n=Sedna |accessdate = 2011-05-05}}</ref>
+*94 au: [[Heliosphere#Termination shock|termination shock]] between [[solar wind]]s/[[stellar wind|interstellar winds]]/[[interstellar medium]]
+*96.7 au: the distance of dwarf planet [[Eris (dwarf planet)|Eris]] from the Sun, {{As of|2009|lc=y}}. Eris and its moon are currently the most distant known objects in the Solar System apart from [[long-period comet]]s and [[space probe]]s.<ref>{{Citation|title=Spacecraft escaping the Solar System|publisher=Heavens-Above|author=Chris Peat|url=http://www.heavens-above.com/solar-escape.asp|accessdate=25 January 2008}}</ref>
+*100 au: [[heliosheath]]
+*125 au: {{As of|2013|08|lc=y}}, ''[[Voyager 1]]'' is the furthest human-made object from the Sun; it is currently traveling at about 3½ au/yr.<ref>[http://voyager.jpl.nasa.gov/where/index.html Voyager 1], Where are the Voyagers – NASA Voyager 1</ref>
+*100–1000 au: mostly populated by objects from the [[scattered disc]]
+*1000–3000 au: beginning of [[Hills cloud]]/inner [[Oort cloud]]
+*20,000 au: ending of Hills cloud/inner Oort cloud, beginning of outer Oort cloud
+*50,000 au: possible closest estimate of the outer Oort cloud limits 
+*63,241.077 au: a [[light-year]], the distance light travels in 1 year
+*100,000 au: possible farthest estimate of the outer Oort cloud limits (1.6 ly)
+*206,264.81 au: one [[parsec]]
+*230,000 au: maximum extent of influence of the Sun's [[gravitational field]] ([[Hill sphere|Hill/Roche sphere]])<ref name=Chebotarev1964>{{Citation|last=Chebotarev|first=G.A.|title=Gravitational Spheres of the Major Planets, Moon and Sun|journal=Soviet Astronomy|volume=7|issue=5|pages=618–622|year=1964|bibcode=1964SvA.....7..618C}}</ref>—beyond this is true [[interstellar medium]]. This distance is {{convert|1.1|pc|ly|abbr=off}}.<ref name=Chebotarev1964/>
+*[[Proxima Centauri]] (the nearest [[star]] to [[Earth]], excluding the Sun) is ~268 000 au from the Sun
+*The distance from the Sun to the [[Galactic Center|center]] of the [[Milky Way]] is approximately 1.7{{e|9}} au
+
+==Conversion factors==
+*'''1 au''' = 149,597,870.700 &nbsp;km ≈ 92,955,807.273 &nbsp;mi ≈ 8.317 [[light-year|light minutes]] ≈ 499 [[light-second]]s <ref>[http://www.iau.org/static/resolutions/IAU2012_English.pdf], Resolutions adopted at the 2012 General Assembly of the IAU</ref>
+*1 [[light-second]] ≈ 0.002 au
+*1 [[gigameter]] ≈ 0.0067 au
+*1 [[light-year]] ≈ 63,241.077 au
+*1 [[parsec]] = 648,000/π ≈ 206,264.8 au
+
+== Other views ==
+In 2006 the [[International Bureau of Weights and Measures|BIPM]] defined the astronomical unit as 1.495 978 706 91 (6) × 10^11 m, and recommended "ua" as the symbol for the unit.<ref name="Bureau International des Poids et Mesures 2006 126"/>
+
+==See also==
+{{Portal|Time}}
+*[[Orders of magnitude (length)]]
+
+==Notes and references==
+{{Reflist|2}}
+
+== Bibliography ==
+*{{citation
+ |last1=Williams |first1=D.
+ |last2=Davies |first2=R. D.
+ |year=1968
+ |title=A radio method for determining the astronomical unit
+ |journal=[[Monthly Notices of the Royal Astronomical Society]]
+ |volume=140|page=537
+ |bibcode= 1968MNRAS.140..537W
+ |doi=
+}}
+
+==External links==
+*[http://www.iau.org/public_press/themes/measuring/ The IAU and astronomical units]
+*[http://www.iau.org/Units.234.0.html Recommendations concerning Units] (HTML version of the IAU Style Manual)
+*[http://www.sil.si.edu/exhibitions/chasing-venus/intro.htm Chasing Venus, Observing the Transits of Venus]
+*[http://www.transitofvenus.org/ Transit of Venus]
+
+
+{{Units of length used in Astronomy}}
+{{SI units}}
+
+{{DEFAULTSORT:Astronomical Unit}}
+[[Category:Celestial mechanics]]
+[[Category:Units of measurement in astronomy]]

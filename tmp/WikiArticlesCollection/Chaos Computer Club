@@ -1,0 +1,129 @@
+{{Use mdy dates|date=October 2012}}
+{{Expand German|Chaos Computer Club|date=April 2012}}
+{{Infobox organization
+| name          = Chaos Computer Club
+| bgcolor       = <!-- header background color -->
+| fgcolor       = <!-- header text color -->
+| image         = Logo_CCC.svg
+| image_border  =
+| size          = 225px
+| alt           = <!-- alt text; see [[WP:ALT]] -->
+| caption       = CCC Logo (''Chaosknoten'')
+| map           = <!-- optional -->
+| msize         = <!-- map size, optional, default 250px -->
+| malt          = <!-- map alt text -->
+| mcaption      = <!-- optional -->
+| map2          =
+| abbreviation  =
+| motto         =
+| predecessor   =
+| successor     =
+| formation     = 1981
+| extinction    =
+| type          = <!-- [[Governmental organization|GO]], NGO, [[Intergovernmental organization|IGO]], [[International nongovernmental organization|INGO]], etc -->
+| status        =
+| purpose       = [[Hacker (computer security)|Hacking]]
+| headquarters  =
+| location      = [[DACH]]
+| coords        = <!-- Coordinates of location using a coordinates template -->
+| region_served =
+| membership    =
+| language      = <!-- official languages -->
+| general       = <!-- Secretary General -->
+| leader_title  = Origin
+| leader_name   = Berlin
+| leader_title2 = Platforms
+| leader_name2  =
+| leader_title3 = Founders
+| leader_name3  = [[Wau Holland]]
+| leader_title4 = Products
+| leader_name4  = [[Datenschleuder]]<br />[[Chaos Communication Congress]]<br />[[Chaos Communication Camp]]<br />[http://chaosradio.ccc.de/ Chaosradio]<br />[[Project Blinkenlights]]
+| key_people    =
+| main_organ    = <!-- gral. assembly, board of directors, etc -->
+| parent_organization = <!-- if one -->
+| affiliations  =
+| budget        =
+| num_staff     =
+| num_volunteers =
+| website       = [http://www.ccc.de/en/?language=en ccc.de]
+| remarks       =
+| former name   =
+}}
+
+The '''Chaos Computer Club''' ('''CCC''') is Europe's largest association of [[Hacker (computer security)|hackers]].<ref>http://www.ccc.de/en/</ref> The CCC is based in Germany and other German-speaking countries.
+
+The CCC describes itself as "a galactic community of life forms, independent of age, sex, race or societal orientation, which strives across borders for freedom of information...." In general, the CCC advocates more transparency in government, freedom of information, and the [[human rights|human right]] to communication. Supporting the principles of the [[hacker ethic]], the club also fights for free universal access to computers and technological infrastructure.<ref>''[http://www.ccc.de/en/satzung Satzung des CCC e.V. (German).]'' Accessed September 23, 2013.</ref>
+
+==History==
+The CCC was founded in Berlin on September 12, 1981 at a table which had previously belonged to the [[Kommune 1]] in the rooms of the newspaper [[Die Tageszeitung]] by [[Wau Holland]] and others in anticipation of the prominent role that information technology would play in the way people live and communicate.
+
+The CCC became world famous when they drew public attention to the security flaws of the German [[Bildschirmtext]] computer network by causing it to debit [[Deutsche Mark|DM]] 134,000 in a Hamburg bank in favor of the club. The money was returned the next day in front of the press. Prior to the incident, the system provider had failed to react to proof of the security flaw provided by the CCC, claiming to the public that their system was safe. Bildschirmtext was the biggest commercially available online system targeted at the general public in its region at that time, run and heavily advertised by the German telecommunications agency [[Deutsche Bundespost]] which also strove to keep up-to-date alternatives out of the market.{{Citation needed|date=January 2010}}
+
+In 1989, the CCC was peripherally involved in the first [[cyberespionage]] case to make international headlines.  A group of [[West Germany|German]] hackers led by [[Hagbard (Karl Koch)|Karl Koch]], who was loosely affiliated with the CCC, was arrested for breaking into US government and corporate computers and selling operating-system source code to the Soviet [[KGB]].
+
+Several of the CCC's early exploits are documented in a paper,<ref>{{citation | first = Kent | last = Anderson | title = Hacktivism and Politically Motivated Computer Crime   | year = 2006 | url = http://www.aracnet.com/~kea/Papers/Politically%20Motivated%20Computer%20Crime.pdf | accessdate = 2008-05-14}}</ref> written by [[Digital Equipment Corporation]]'s lead European Investigator of the CCC's activities in the 1980s and 1990s.  These include the CCC protests against [[French nuclear tests]] and members of the CCC involved with the [[German Green Party]].
+
+The CCC is more widely known for its public demonstrations of security risks. In 1996, CCC members demonstrated an attack against [[Microsoft]]'s [[ActiveX]] technology, changing personal data in a [[Quicken]] database. In April 1998, the CCC successfully demonstrated the cloning of a [[GSM]] customer card, breaking the COMP128 [[encryption]] algorithm used at that time by many GSM [[Subscriber Identity Module|SIM]]s.<ref>[http://www.ccc.de/gsm/ CCC | CCC klont D2 Kundenkarte<!-- Bot generated title -->]</ref>
+
+In 2001, the CCC celebrated its twentieth birthday with an interactive light installation dubbed [[Project Blinkenlights]] that turned the building [[Haus des Lehrers]] in Berlin into a giant computer screen. A follow up installation (dubbed "[[Video arcade|Arcade]]") at the [[Bibliothèque nationale de France]] was the world's biggest light installation.
+
+In March 2008, the CCC acquired and published the fingerprints of German [[Minister of the Interior (Germany)|Minister of the Interior]] [[Wolfgang Schäuble]]. The magazine also included the fingerprint on a film that readers could use to fool [[fingerprint reader]]s.<ref>[http://www.h-online.com/newsticker/news/item/CCC-publishes-fingerprints-of-German-Home-Secretary-734713.html CCC publishes fingerprints of Wolfgang Schäuble, the German Home Secretary], ''[[Heise Online]]'', published 2008-03-31, Retrieved 2008-04-17</ref> This was done to protest the use of biometric data in German identity devices such as [[Biometric passport|e-passports]].<ref>[http://www.heise.de/security/CCC-publiziert-die-Fingerabdruecke-von-Wolfgang-Schaeuble-Update--/news/meldung/105701 CCC publiziert die Fingerabdrücke von Wolfgang Schäuble [Update&#93; – heise Security<!-- Bot generated title -->]</ref>
+
+Later in October 2008, CCC's [[Project Blinkenlights]] went to [[Toronto]], Canada with project Stereoscope.<ref>http://blinkenlights.net/stereoscope</ref>
+
+===Staatstrojaner===
+The Staatstrojaner (''Federal [[Trojan horse (computing)|Trojan horse]]'') is a [[computer surveillance]] program installed secretly on a suspect's computer, which the German police uses to [[wiretap]] [[Internet telephony]]. This "source wiretapping" is the only feasible way to wiretap in this case, since Internet telephony programs will usually [[encryption|encrypt]] the data when it leaves the computer. The [[Federal Constitutional Court of Germany]] has ruled that the police may only use such programs for telephony wiretapping, and for no other purpose, and that this restriction should be enforced through technical and legal means.
+
+On October 8, 2011, the CCC published an analysis of the Staatstrojaner software. The software was found to have the ability to remote control the target computer, to capture [[screenshots]], and to fetch and run arbitrary extra code. The CCC says that having this functionality built in is in direct contradiction to the ruling of the constitutional court.
+
+In addition, there were a number of security problems with the implementation. The software was controllable over the Internet, but the commands were sent completely unencrypted, with no checks for authentication or integrity. This leaves any computer under surveillance using this software vulnerable to attack. The captured screenshots and audio files were encrypted, but so incompetently that the encryption was ineffective. All captured data was sent over a proxy server in the United States, which is problematic since the data is then temporarily outside the German [[jurisdiction]].
+
+The CCC's findings were widely reported in the German press.<ref>{{cite web|url=http://ccc.de/en/updates/2011/staatstrojaner|title=Chaos Computer Club analyzes government malware|date=2011-10-08|accessdate=2011-10-10|publisher=Chaos Computer Club}}</ref><ref>{{cite web|url=http://www.spiegel.de/netzwelt/netzpolitik/0,1518,790756,00.html|title=CCC findet Sicherheitslücken in Bundestrojaner|work=[[Der Spiegel]] |accessdate=2011-10-10|date=2011-10-09}}</ref><ref>{{cite web|url=http://www.spiegel.de/international/germany/0,1518,790944,00.html|title=Electronic Surveillance Scandal Hits Germany|work=Der Spiegel|accessdate=2011-10-31|date=2011-10-10}}</ref>
+
+==Events==
+[[File:Ccc2003PirateTent.jpg|right|thumb|CCC 2003 camp near Berlin]]
+
+The CCC hosts the annual [[Chaos Communication Congress]], Europe's biggest hacker congress. Every four years, the [[Chaos Communication Camp]] is the outdoor alternative for hackers worldwide.
+
+The CCC started a new yearly conference called SIGINT in May 2009 in [[Cologne]], Germany.<ref>https://events.ccc.de/sigint/2009/wiki/Hauptseite SIGINT Willkommen  2009</ref>
+
+Another yearly CCC event taking place on the Easter weekend is the [[Easterhegg]], which is more workshop oriented than the other events.
+
+Members of the CCC also participate in various technological and political conferences around the planet.
+
+==Publications==
+The CCC publishes the quarterly magazine [[Datenschleuder]] (''data slingshot'') since 1984, and the CCC in Berlin also produces a monthly radio show called {{ill|de|Chaosradio}} which picks up various technical and political topics in a two-hour [[talk radio]] show. The program is aired on a local radio station named {{ill|de|Fritz (radio){{!}}Fritz|Fritz (Hörfunksender)}}. There is also a podcast spin-off named ''Chaosradio Express'', an international podcast called ''Chaosradio International'' (which as of 2012 has been inactive for several years), and other radio programs offered by some regional Chaos Groups.
+
+==Members==
+Famous members are co-founder [[Wau Holland]] and [[Andy Müller-Maguhn]], who was a member of the [[ICANN]] board of directors for Europe until 2002, and [[Karl Koch (hacker)|Karl Koch]], who was a [[Cold War]]-era hacker featured in the movie [[23 (movie)|23]]. Former [[WikiLeaks]] spokesman [[Daniel Domscheit-Berg]] was expelled from CCC in August 2011, during its quadrennial camp.<ref>[http://www.spiegel.de/international/germany/0,1518,780289,00.html Top German Hacker Slams OpenLeaks Founder], ''[[Der Spiegel]]'', August 15, 2011</ref><ref>Heather Brooke, [http://www.guardian.co.uk/technology/2011/aug/24/inside-secret-world-of-hackers Inside the secret world of hackers], ''[[The Guardian]]'', August 25, 2011</ref> This decision was revoked on February 2012.<ref>[http://www.ccc.de/de/updates/2012/amv2012 CCC revokes decision to expel Domscheit-Berg]</ref>
+
+==Chaos Computer Club France==
+The '''Chaos Computer Club France''' (CCCF) was a fake hacker organization created in 1989 in [[Lyon]] (France) by [[w:fr:Jean-Bernard Condat|Jean-Bernard Condat]], under the command of Jean-Luc Delacour, an agent of the [[Direction de la surveillance du territoire]] governmental agency. The primary goal of the CCCF was to watch and to gather information about the French hacker community.<ref>''[[Phrack]]'' No. 64, [http://www.phrack.org/issues.html?issue=64&id=17 "A personal view of the french underground (1992–2007)"], 2007: ''"A good example of this was the fake hacking meeting created in the middle 1990' so called the CCCF (Chaos Computer Club France) where a lot of hackers got busted under the active participation of a renegade hacker so called Jean-Bernard Condat."''</ref> Journalist Jean Guisnel said that this organization also worked with the [[Gendarmerie Nationale (France)|French National Gendarmerie]].
+
+The name of the organization is directly inspired by the name of the German Chaos Computer Club organization, which in contrast is a real hacker organization.
+
+The CCCF had an [[Digital edition|electronic]] magazine called ''Chaos Digest (ChaosD)''. Between January 4, 1993 and August 5, 1993, seventy-three issues were published ({{ISSN|1244-4901}}).
+
+==See also==
+*[[23 (film)|''23'' (film)]]
+*''[[2600: The Hacker Quarterly]]''
+*[[Cult of the Dead Cow]]
+*[[The Hacker's Choice]]
+*''[[Hack-Tic]]''
+*[[L0pht]]
+*[[Hackathon]]
+*[[Hackerspace]]
+*[[Operation High Roller]]
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{official website|1=http://www.ccc.de/}} {{en icon}} {{de icon}}
+*[http://events.ccc.de/ CCC Events Blog]
+*[http://chaosradio.ccc.de/ Chaosradio Podcast Network]
+*[http://news.bbc.co.uk/2/hi/programmes/click_online/9393571.stm Chaos Computer Club hackers 'have a conscience'], ''[[BBC News]]'', February 11, 2011
+
+[[Category:Computer clubs in Germany]]
+[[Category:Hacker groups]]
+[[Category:Organisations based in Hamburg]]

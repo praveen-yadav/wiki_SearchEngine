@@ -1,0 +1,75 @@
+:''Not to be confused with [[Bite]], [[Bight (disambiguation)]]. This article is about the unit of information. For other uses, see [[Byte (disambiguation)]].''
+
+The '''byte''' {{IPAc-en|ˈ|b|aɪ|t}} is a [[units of information|unit of digital information]] in [[computing]] and [[telecommunications]] that most commonly consists of eight [[bit]]s. Historically, the byte was the number of bits used to encode a single [[character (computing)|character]] of text in a computer<ref name = Bemer1962>{{citation
+|url=http://archive.computerhistory.org/resources/text/IBM/Stretch/pdfs/Buchholz_102636426.pdf
+|title=Planning a Computer System – Project Stretch
+| first1 = RW | last1 = Bemer | first2 = Werner | last2 = Buchholz
+| editor-first = Werner | editor-last = Buchholz
+|year=1962 | chapter = 4, Natural Data Units | format = PDF | pages= 39–40 }}</ref><ref>{{citation | first = RW | last = Bemer | title = A proposal for a generalized card code of 256 characters | journal = Communications of the ACM | volume = 2 | number = 9 | pages = 19–23 | year = 1959}}</ref> and for this reason it is the smallest [[address space|addressable]] unit of [[memory]] in many [[computer architecture]]s.
+The size of the byte has historically been hardware dependent and no definitive standards existed that mandated the size. The [[de facto standard|''de facto'' standard]] of eight bits is a convenient [[power of two]] permitting the values 0 through 255 for one byte.  The international standard [[IEC 80000-13]] codified this common meaning. Many types of applications use information representable in eight or fewer bits and processor designers optimize for this common usage. The popularity of major commercial computing architectures has aided in the ubiquitous acceptance of the 8-bit size.<ref>{{cite web|url=http://www.computerhistory.org/internet_history/#1964|title=Computer History Museum - Exhibits - Internet History - 1964|publisher = Computer History Museum}}</ref>
+
+The unit [[Octet (computing)|octet]] was defined to explicitly denote a sequence of 8 bits because of the ambiguity associated at the time with the byte.<ref>{{cite web|url=http://www.tcpipguide.com/free/t_BinaryInformationandRepresentationBitsBytesNibbles-3.htm|title=The TCP/IP Guide - Binary Information and Representation}}</ref>
+
+==History==
+The term ''byte'' was coined by [[Werner Buchholz]] in July 1956, during the early design phase for the [[IBM 7030|IBM Stretch]] computer.<ref>{{cite web | url = http://archive.computerhistory.org/resources/text/IBM/Stretch/102636400.txt|title= Timeline of the IBM Stretch/Harvest era (1956–1961) | publisher = Computer History | date=July 1956|author=Werner Buchholz}}</ref><ref>{{cite web|url=http://catb.org/~esr/jargon/html/B/byte.html|title=byte definition}}</ref>
+It is a deliberate respelling of ''bite'' to avoid accidental mutation to ''bit''.<ref name=Bemer1962/>
+
+Early computers used a variety of 4-bit [[binary coded decimal]] (BCD) representations and the [[Sixbit|6-bit]] codes for printable graphic patterns common in the [[U.S. Army]] ([[Fieldata]]) and Navy. These representations included alphanumeric characters and special graphical symbols. These sets were expanded in 1963 to 7 bits of coding, called the [[ASCII|American Standard Code for Information Interchange]] (ASCII) as the [[Federal Information Processing Standard]] which replaced the incompatible teleprinter codes in use by different branches of the U.S. government. ASCII included the distinction of upper and lower case alphabets and a set of [[control character]]s to facilitate the transmission of written language as well as printing device functions, such as page advance and line feed, and the physical or logical control of data flow over the transmission media. During the early 1960s, while also active in ASCII standardization, IBM simultaneously introduced in its product line of [[System/360]] the 8-bit [[Extended Binary Coded Decimal Interchange Code]] (EBCDIC), an expansion of their [[BCD (6-bit)|6-bit binary-coded decimal (BCDIC)]] representation used in earlier card punches.<ref name="ibmebcdic">{{cite web
+|url=http://publib.boulder.ibm.com/infocenter/zos/v1r9/index.jsp?topic=/com.ibm.zos.r9.adms700/adms7a05158.htm 
+|title=IBM confirms the use of EBCDIC in their mainframes as a default practice  
+|year=2008 
+|accessdate=2008-06-16 
+|publisher=IBM
+}}</ref> The prominence of the System/360 led to the ubiquitous adoption of the 8-bit storage size, while in detail the EBCDIC and ASCII encoding schemes are different.
+
+In the early 1960s, AT&T introduced [[digital telephony]] first on long-distance [[trunk line]]s.  These used the 8-bit [[µ-law algorithm|µ-law encoding]].  This large investment promised to reduce transmission costs for 8-bit data.  The use of 8-bit codes for digital telephony also caused 8-bit data octets to be adopted as the basic data unit of the early [[Internet]].{{Citation needed|date=June 2011}}
+
+The development of [[8-bit]] [[microprocessor]]s in the 1970s popularized this storage size. Microprocessors such as the [[Intel 8008]], the direct predecessor of  the [[Intel 8080|8080]] and the [[Intel 8086|8086]], used in early personal computers, could also perform a small number of operations on [[4bit|four bits]], such as the DAA (decimal add adjust) instruction, and the [[Auxiliary flag|auxiliary carry]] (AC/NA) flag, which were used to implement decimal arithmetic routines. These four-bit quantities are sometimes called [[nibble]]s, and correspond to [[hexadecimal]] digits.
+
+The term [[Octet (computing)|''octet'']] is used to unambiguously specify a size of eight bits, and is used extensively in [[Protocol (computing)|protocol]] definitions, for example.
+
+==Unit symbol==
+{{Bit and byte prefixes}}
+The unit symbol for the byte is specified in IEC 80000-13, [[IEEE 1541]] and the Metric Interchange Format<ref>[http://people.csail.mit.edu/jaffer/MIXF Metric-Interchange-Format]</ref> as the upper-case character ''B''.
+
+In the [[International System of Units]] (SI), B is the symbol of the [[Decibel|bel]], a unit of logarithmic power ratios named after [[Alexander Graham Bell]]. The usage of B for byte therefore conflicts with this definition. It is also not consistent with the SI convention that only units named after persons should be capitalized. However, there is little danger of confusion because the bel is a rarely used unit. It is used primarily in its decadic fraction, the [[decibel]] (dB), for [[signal strength]] and [[sound pressure level]] measurements, while a unit for one tenth of a byte, i.e. the decibyte, is never used.
+
+The unit symbol kB is commonly used for [[kilobyte]], but may be confused with the still often-used abbreviation of kb for [[kilobit]]. IEEE 1541 specifies the lower case character b as the symbol for [[bit]]; however, IEC 80000-13 and Metric-Interchange-Format specify the abbreviation bit (e.g., Mbit for megabit) for the symbol, providing disambiguation from B for byte.
+
+The lowercase letter o for [[Octet (computing)|octet]] is defined as the symbol for octet in IEC 80000-13 and is commonly used in several non-English languages (e.g., [[French language|French]]<ref>{{cite web |url=http://www.iec.ch/zone/si/si_bytes.htm |title=When is a kilobyte a kibibyte? And an MB an MiB? | date= |work=The International System of Units and the IEC |publisher=[[International Electrotechnical Commission]] |accessdate=August 30, 2010}})</ref> and [[Romanian language|Romanian]]), and is also used with metric prefixes (for example, ''ko'' and ''Mo'')
+
+==Unit multiples==
+[[File:Binaryvdecimal.svg|thumb|right|175px|Percentage difference between decimal and binary interpretations of the unit prefixes grows with increasing storage size]]
+
+{{See also|Binary prefix}}
+Considerable confusion exists about the meanings of the [[SI prefix|SI (or metric) prefixes]] used with the unit byte, especially concerning prefixes such as kilo (k or K) and mega (M) as shown in the chart ''Prefixes for bit and byte''. Computer memory is designed with binary logic, multiples are expressed in [[power of two|powers of 2]]. Some portions of the software and computer industries often use powers-of-2 [[approximation]]s of the SI-prefixed quantities, while producers of computer storage devices prefer strict adherence to SI powers-of-10 values. This is the reason for specifying computer hard drive capacities of, say, 100&nbsp;GB, when it contains 93&nbsp;GiB of storage space.
+
+While the numerical difference between the decimal and binary interpretations is relatively small for the prefixes [[Kilo-|kilo]] and [[Mega-|mega]], it grows to over 20% for prefix [[yotta]], illustrated in the linear-log graph (at right) of difference versus storage size.
+
+==Common uses==
+The byte is also defined as a [[data type]] in certain [[programming language]]s. The [[C (programming language)|C]] and [[C++]] programming languages, for example, define ''byte'' as an "''addressable unit of data storage large enough to hold any member of the basic character set of the execution environment''" (clause 3.6 of the C standard). The C standard requires that the <code>char</code> integral data type is capable of holding at least 256 different values, and is represented by at least 8 bits (clause 5.2.4.2.1). Various implementations of C and C++ reserve 8, 9, 16, 32, or 36 bits for the storage of a byte.<ref>[http://www.parashift.com/c++-faq-lite/intrinsic-types.html#faq-26.4 [26&#93; Built-in / intrinsic / primitive data types, C++ FAQ Lite<!-- Bot generated title -->]</ref><ref>[http://home.att.net/~jackklein/c/inttypes.html#char Integer Types In C and C++]</ref> The actual number of bits in a particular implementation is documented as <code>CHAR_BIT</code> as implemented in the <code>[[limits.h]]</code> file. [[Java (programming language)|Java's]] primitive <code>byte</code> data type is always defined as consisting of 8 bits and being a signed data type, holding values from −128 to 127. The C# programming language, along with other .NET-languages, has both the unsigned byte (named <code>byte</code>) and the signed byte (named <code>sbyte</code>), holding values from 0 to 255 and -128 to 127, respectively.
+
+In addition, the C and C++ standards require that there are no "gaps" between two bytes. This means every bit in memory is part of a byte.<ref>
+Marshall Cline.
+[http://www.parashift.com/c++-faq-lite/bytes-review.html "C++ FAQ: the rules about bytes, chars, and characters"].
+</ref>
+
+In data transmission systems, a byte is defined as a contiguous sequence of binary bits in a serial data stream, such as in modem or satellite communications, which is the smallest meaningful unit of data. These bytes might include start bits, stop bits, or [[parity bit]]s, and thus could vary from 7 to 12 bits to contain a single 7-bit ASCII code.{{Citation needed|date=June 2011}}
+
+==See also==
+* [[Data hierarchy]]
+* [[Octet (computing)]]
+* [[Primitive data type]]
+
+==References==
+{{reflist}}
+{{refimprove|date=June 2011}}
+
+{{Computer Storage Volumes}}
+{{Data types}}
+
+[[Category:Data types]]
+[[Category:Units of information]]
+[[Category:Computer memory]]
+[[Category:Data unit]]
+[[Category:Primitive types]]

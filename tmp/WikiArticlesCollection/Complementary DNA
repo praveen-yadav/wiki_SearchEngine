@@ -1,0 +1,66 @@
+{{redirect|CDNA|the football club|CSKA Sofia|the C form of DNA|C-DNA}}
+{{about||the general property of complementarity in molecular biology|Complementarity (molecular biology)|complementation tests used in genetics research|Complementation (genetics)}}
+{{refimprove|date=October 2010}}
+
+[[Image:Cdnaarray.jpg|thumb|right|250px|Output from a '''cDNA''' [[DNA microarray|microarray]] used in testing]]
+
+In [[genetics]], '''complementary DNA''' ('''cDNA''') is [[DNA]] synthesized from a messenger RNA ([[mRNA]]) template in a reaction catalysed by the enzymes [[reverse transcriptase]] and [[DNA polymerase]].<ref>
+{{cite web
+|url=http://dictionary.reference.com/browse/cDNA
+|title=cDNA - Definitions from Dictionary.com
+|publisher=dictionary.reference.com
+|accessdate=2008-04-26
+|last=
+|first=
+}}
+</ref> cDNA is often used to clone [[eukaryote|eukaryotic]] [[gene]]s in [[prokaryote]]s.  When scientists want to express a specific [[protein]] in a cell that does not normally [[Gene expression|express]] that protein (i.e., [[heterologous]] expression), they will transfer the cDNA that codes for the protein to the recipient cell.  cDNA is also produced naturally by [[retroviruses]] (such as [[HIV-1]], [[HIV-2]], [[Simian Immunodeficiency Virus]], etc.) and then integrated into the host's genome where it creates a [[provirus]].
+
+==Overview==
+According to the [[central dogma of molecular biology]], when synthesizing a protein, a gene's [[DNA]] is [[transcription (genetics)|transcribed]] into [[mRNA]] which is then [[translation (genetics)|translated]] into protein. One difference between eukaryotic and prokaryotic genes is that eukaryotic genes can contain [[intron]]s (intervening DNA sequences) which are not coding sequences, in contrast with [[exon]]s, which are DNA coding sequences. During transcription, all intron RNA is cut from the RNA primary transcript and the remaining pieces of the RNA primary transcript are spliced back together to become mRNA. The mRNA code is then translated into an amino acid chain (sequence) that comprises the newly made protein. Prokaryotic genes have no introns, thus their RNA is not subject to cutting and [[splicing (genetics)|splicing]].
+
+Often it is desirable to make prokaryotic cells express eukaryotic genes. An approach one might consider is to add eukaryotic DNA directly into a prokaryotic cell, and let it make the protein. However, because eukaryotic DNA has introns, and prokaryotes lack the machinery for removing introns from transcribed RNA, to make this approach work, all intron sequences must be removed from eukaryotic DNA prior to transferring it into the host. This 'intron-free' DNA is constructed using 'intron-free' mRNA as a template. It is therefore a 'complementary' copy of the mRNA, and is thus called complementary DNA (cDNA). To obtain [[gene expression|expression]] of the protein encoded by the cDNA, prokaryotic regulatory sequences would also be required (e.g. a [[Promoter (biology)|promoter]]).
+
+==Synthesis==
+Though there are several methods for doing so, cDNA is most often synthesized from mature (fully spliced) mRNA using the enzyme [[reverse transcriptase]]. This enzyme, which naturally occurs in retroviruses, operates on a single strand of mRNA, generating its complementary DNA based on the pairing of RNA [[base pair]]s (A, U, G and C) to their DNA complements (U, A, C and G respectively).
+
+To obtain eukaryotic cDNA whose introns have been removed:
+# A eukaryotic cell transcribes the DNA (from genes) into RNA ([[pre-mRNA]]).
+# The same cell processes the pre-mRNA strands by removing introns, and adding a [[Polyadenylation|poly-A tail]] and [[5' cap|5’ Methyl-Guanine cap]] (this is known as [[post-transcriptional modification]])
+# This mixture of mature mRNA strands is extracted from the cell. The [[Polyadenylation|Poly-A tail]] of the post transcription mRNA can be taken advantage of with oligo(dT) beads in an [[affinity chromatography]] assay.
+# A poly-[[thymine|T]] [[oligonucleotide]] [[Primer (molecular biology)|primer]] is hybridized onto the [[Polyadenylation|poly-A tail]]  of the mature mRNA template, or [[random hexamer]] primers can be added which contain every possible 6 base single strand of DNA and can therefore hybridize anywhere on the RNA (Reverse transcriptase requires this double-stranded segment as a primer to start its operation.)
+# [[Reverse transcriptase]] is added, along with [[deoxynucleotide triphosphate]]s ([[Adenine|A]], T, [[Guanine|G]], C). This synthesizes one complementary strand of DNA hybridized to the original mRNA strand.
+# To synthesize an additional DNA strand, traditionally one would digest the RNA of the hybrid strand, using an enzyme like [[RNase H]], or through alkali digestion method. 
+# After digestion of the RNA, a single stranded DNA (ssDNA) is left and because single stranded nucleic acids are hydrophobic, it tends to loop around itself. It is likely that the ssDNA forms a [[hairpin loop]] at the 3' end.
+# From the hairpin loop, a DNA polymerase can then use it as a primer to transcribe a complementary sequence for the ss cDNA.
+# Now, you should be left with a double stranded cDNA with identical sequence as the mRNA of interest.
+
+The reverse transcriptase scans the mature mRNA and synthesizes a sequence of DNA that complements the mRNA template. This strand of DNA is complementary DNA.
+
+==Applications==
+Complementary DNA is often used in [[clone (genetics)|gene cloning]] or as [[gene probe]]s or in the creation of a [[cDNA library]]. When scientists transfer a gene from one cell into another cell in order to express the new genetic material as a protein in the recipient cell, the cDNA will be added to the recipient (rather than the entire gene), because the DNA for an entire gene may include DNA that does not code for the protein or that interrupts the coding sequence of the protein (e.g., [[intron]]s). Partial sequences of cDNAs are often obtained as [[expressed sequence tag]]s. 
+
+With amplification of DNA sequences via Polymerase Chain Reaction (PCR) now commonplace, one will typically conduct reverse transcription as an initial step, followed by PCR to obtain an exact sequence of cDNA for intra-cellular expression. This is achieved by designing sequence-specific DNA primers that hybridize to the 5' and 3' ends of a cDNA region coding for a protein. Once amplified, the sequence can be cut at each end with nucleases and inserted into one of many small circular DNA sequences known as expression vectors. Such vectors allow for self-replication inside cells, and potentially integration in the host DNA. They typically also contain a strong promoter to drive transcription of the target cDNA into mRNA, which is then translated into protein.
+
+On June 13, 2013, the [[United States Supreme Court]] ruled in ''[[Association for Molecular Pathology v. Myriad Genetics]]'' that while human genes cannot be [[patent]]ed, cDNA can be.<ref>{{cite news|last=Liptak|first=Adam|title=Supreme Court Rules Human Genes May Not Be Patented|url=http://www.nytimes.com/2013/06/14/us/supreme-court-rules-human-genes-may-not-be-patented.html|accessdate=14 June 2013|newspaper=[[The New York Times]]|date=13 June 2013}}</ref> 
+
+==Viruses==
+Some viruses also use cDNA to turn their viral RNA into mRNA (viral RNA → cDNA → mRNA). The mRNA is used to make viral proteins to take over the host cell.
+
+==See also==
+
+*[[cDNA library]]
+*[[cDNA microarray]]
+*[[RNA-Seq]]
+
+==References==
+{{reflist}}
+
+== External links ==
+* [http://www.h-invitational.jp/ H-Invitational Database]
+* [http://fantom.gsc.riken.jp/ Functional Annotation of the Mouse database]
+* [http://www.maxanim.com/genetics/cDNA/cDNA.htm cDNA Animation] (Flash)
+* [http://www.bugaco.com/calculators/dna_reverse_complement.php Complementary DNA tool]
+{{Nucleic acids}}
+
+{{DEFAULTSORT:Complementary Dna}}
+[[Category:DNA]]

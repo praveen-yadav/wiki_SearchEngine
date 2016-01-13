@@ -1,0 +1,267 @@
+{{Use mdy dates|date=October 2011}}
+{{Infobox scientist
+| name = Dennis MacAlistair Ritchie
+| image = Dennis MacAlistair Ritchie .jpg
+| image_size =
+| caption = Dennis Ritchie, 1999
+| birth_date = {{birth date|1941|9|9}}
+| birth_place = [[Bronxville, New York]], U.S.
+| death_date = {{circa}} {{death date and age|2011|10|12|1941|9|9}}
+| death_place = [[Berkeley Heights, New Jersey]], U.S.
+| residence =
+| citizenship =
+| nationality = American 
+| ethnicity = 
+| field = [[Computer science]]
+| work_institutions = [[Lucent Technologies]]<br>[[Bell Labs]]
+| alma_mater = [[Harvard University]]
+| doctoral_advisor =
+| doctoral_students =
+| known_for = [[ALTRAN]]<br>[[B (programming language)|B]]<br>[[BCPL]]<br>[[C (programming language)|C]]<br>[[Multics]]<br>[[Unix]]
+| prizes = [[Turing Award]]<br>[[National Medal of Technology]]
+| footnotes =
+}}
+'''Dennis MacAlistair Ritchie''' (September 9, 1941 – {{circa}} October 12, 2011)<ref name="NYTimes">
+{{Citation
+| last = Lohr
+| first = Steve
+| author-link = 
+| last2 = 
+| first2 = 
+| author2-link = 
+| title = Dennis Ritchie, Programming Trailblazer, Dies at 70
+| newspaper=The New York Times
+| date = October 12, 2011
+| url = http://www.nytimes.com/2011/10/14/technology/dennis-ritchie-programming-trailblazer-dies-at-70.html?hp
+| quote = Dennis M. Ritchie, who helped shape the modern digital era by creating software tools that power things as diverse as search engines like Google and smartphones, was found dead on Wednesday at his home in Berkeley Heights, N.J. He was 70.  Mr. Ritchie, who lived alone, was in frail health in recent years after treatment for prostate cancer and heart disease, said his brother Bill.
+| accessdate = October 13, 2011}}
+</ref><ref name="BBC">
+{{cite web
+ | url=http://www.bbc.co.uk/news/technology-15287391
+ | title=Unix creator Dennis Ritchie dies aged 70
+ | date=October 13, 2011
+ | accessdate=2011-10-14
+ |publisher=BBC News
+ | quote = Pioneering computer scientist Dennis Ritchie has died after a long illness. ...  The first news of Dr Ritchie's death came via Rob Pike, a former colleague who worked with him at Bell Labs. Mr Ritchie's passing was then confirmed in a statement from Alcatel Lucent which now owns Bell Labs. }}
+</ref><ref name=RobPike>
+{{Citation
+  | author=[[Rob Pike]]
+  | title = (untitled post to Google+)
+  | date = October 12, 2011
+  | url = https://plus.google.com/u/0/101960720994009339267/posts/ENuEDDYfvKP?hl=en#101960720994009339267/posts/ENuEDDYfvKP
+  | quote = I just heard that, after a long illness, Dennis Ritchie (dmr) died at home this weekend. I have no more information.
+  | accessdate = October 14, 2011 }}
+</ref><ref name="Guardian">
+{{Citation
+| last = Campbell-Kelly
+| first = Martin
+| author-link =
+| last2 = 
+| first2 = 
+| author2-link = 
+| title = Dennis Ritchie obituary
+| newspaper=The Guardian
+| date = October 13, 2011
+| url = http://www.guardian.co.uk/technology/2011/oct/13/dennis-ritchie
+| quote = Dennis MacAlistair Ritchie, computer scientist, born 9 September 1941; died 12 October 2011
+| accessdate = October 13, 2011}}
+</ref> was an American [[computer science|computer scientist]] who "helped shape the digital era."<ref name=NYTimes/>  He created the [[C (programming language)|C programming language]] and, with long-time colleague [[Ken Thompson]], the [[Unix]] [[operating system]].<ref name=NYTimes/>  Ritchie and Thompson received the [[Turing Award]] from the [[Association for Computing Machinery|ACM]] in 1983, the [[IEEE Richard W. Hamming Medal|Hamming Medal]] from the [[Institute of Electrical and Electronics Engineers|IEEE]] in 1990 and the [[National Medal of Technology]] from [[Bill Clinton|President Clinton]] in 1999.  Ritchie was the head of [[Lucent Technologies]] [[System software|System Software]] Research Department when he retired in 2007.  He was the 'R' in [[The C Programming Language|K&R C]] and commonly known by his [[User (computing)|username]] '''<tt>dmr</tt>'''.
+
+==Early life==
+Ritchie was born in [[Bronxville, New York]]. His father was Alistair E. Ritchie, a longtime [[Bell Labs]] scientist and co-author of ''The Design of Switching Circuits'' on [[switching circuit theory]]. He moved with his family to [[Summit, New Jersey]], as a child, where he graduated from [[Summit High School (New Jersey)|Summit High School]].<ref>Keill, Liz. [http://www.nj.com/independentpress/index.ssf/2011/02/japan_prize_for_unix_was_a_sur.html "Berkeley Heights man wins Japan Prize for inventing UNIX operating system"], ''Independent Press'', February 1, 2011. Accessed October 17, 2011. "Ritchie, 69, has lived in Berkeley Heights for 15 years. He was born in Bronxville, New York, grew up in Summit and attended Summit High School before going to Harvard University."</ref>
+
+==Career==
+Ritchie graduated from [[Harvard University]] with [[academic degree|degree]]s in [[physics]] and [[applied mathematics]]. In 1967, he began working at the Bell Labs Computing Sciences Research Center, and in 1968, he received a PhD from Harvard under the supervision of [[Patrick C. Fischer]], his doctoral dissertation being "Program Structure and Computational Complexity".<ref>{{mathgenealogy|name=Dennis M. Ritchie|id=155881}}</ref>
+[[File:Ken n dennis.jpg|left|thumb|Ken Thompson (left) and Dennis Ritchie (right)]]
+Ritchie was best known as the creator of the [[C (programming language)|C programming language]], a key developer of the [[Unix]] operating system, and co-author of the book ''[[The C Programming Language]]'', and was the 'R' in ''K&R'' (a common reference to the book's authors [[Brian Kernighan|Kernighan]] and Ritchie).  Ritchie worked together with [[Ken Thompson]], the scientist credited with writing the original Unix; one of Ritchie's most important contributions to Unix was its porting to different machines and platforms.<ref>[Pioneer Programmer Shaped the Evolution of Computers, Wall Street Journal, October 14, 2011, p.A7]</ref>
+
+The C language is widely used today in application, [[operating system]], and [[embedded system]] development, and its influence is seen in most modern programming languages. Unix has also been influential, establishing concepts and principles that are now precepts of computing.
+
+==Awards==
+[[File:Medal lg.jpeg|thumb|left|[[Ken Thompson|Thompson]] (left) and Ritchie (center) receiving the National Medal of Technology from President [[Bill Clinton|Clinton]] in 1999]]
+In 1983, Ritchie and Thompson received the [[Turing Award]]<cite> for their development of generic operating systems theory and specifically for the implementation of the UNIX operating system.</cite> Ritchie's Turing Award lecture was titled "Reflections on Software Research".<ref>{{Citation
+  | last = Ritchie
+  | first = Dennis M.
+  | title = ACM Turing Award Lectures:  The First Twenty Years 1666–1985
+  | place = 
+  | publisher = Addison-Wesley Publishing Company
+  | series = ACM Press Anthology Series
+  | year = 1987
+  | month=
+  | edition = 
+  | chapter = 1983 Turing Award Lecture:  Reflections on Software Research
+  | chapterurl = http://awards.acm.org/images/awards/140/articles/2898606.pdf
+  | accessdate = Jan 30 2012
+  | pages = 163–169 }}
+</ref> In 1990, both Ritchie and Thompson received the [[IEEE Richard W. Hamming Medal]] from the [[Institute of Electrical and Electronics Engineers]] (IEEE), "for the origination of the UNIX operating system and the C programming language".<ref>{{cite web|url=http://www.ieee.org/documents/hamming_rl.pdf |title=IEEE Richard W. Hamming Medal Recipients |publisher=[[IEEE]] |accessdate={{Start date|2011|5|29}}}}</ref>
+
+In 1997, both Ritchie and Thompson were made Fellows of the [[Computer History Museum]], "for co-creation of the UNIX operating system, and for development of the C programming language."
+
+On April 21, 1999, Thompson and Ritchie jointly received the [[National Medal of Technology]] of 1998 from President [[Bill Clinton]] for co-inventing the UNIX operating system and the C programming language which, according to the citation for the medal, "led to enormous advances in computer hardware, software, and networking systems and stimulated growth of an entire industry, thereby enhancing American leadership in the Information Age".<ref name="NationalMedalAnnouncement">''[http://www.bell-labs.com/news/1998/december/9/1.html Ritchie and Thompson &#091;to&#093; Get National Medal of Technology]'' Bell Labs pre-announcement</ref><ref name="NationalMedalPressRelease">''[http://www.bell-labs.com/news/1999/april/28/1.html Ritchie and Thompson Receive National Medal of Technology from President Clinton]'' Bell Labs press release</ref>
+
+In 2005, the [[Industrial Research Institute]] awarded Ritchie with its [[IRI Achievement Award|Achievement Award]] in recognition of his contribution to science and technology, and to society generally, with his development of the Unix operating system.<ref>[http://www.alcatel-lucent.com/wps/portal/!ut/p/kcxml/04_Sj9SPykssy0xPLMnMz0vM0Y_QjzKLd4x3cg_SL8h2VAQAv8HY9g!!?LMSG_CABINET=Docs_and_Resource_Ctr&LMSG_CONTENT_FILE=News_Releases_LU_2005/LU_News_Article_005372.xml "Dennis Ritchie, Bell Labs Researcher and Co-Inventor of Unix, Receives 2005 Industrial Research Institute Achievement Award"], Alcatel/Lucent Press Release, Nov. 15, 2005, accessed Feb. 8, 2012.</ref>
+
+In 2011, Ritchie, along with Thompson, was awarded the [[Japan Prize|Japan Prize for Information and Communications]] for his work in the development of the Unix operating system.<ref>Evangelista, Benny, [http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/01/24/BUTI1HDJSA.DTL#ixzz1C5LtXdf3 "Ken Thompson, Dennis Ritchie win Japan Prize"], ''San Francisco Chronicle'', January 25, 2011</ref>
+
+==Death and legacy==
+Ritchie was found <!-- BEFORE CHANGING THE CIRCUMSTANCES Of DEATH PLEASE DISCUSS ON TALK PAGE FIRST AND PROVIDE A RELIABLE SOURCE! -->dead on October <!-- BEFORE CHANGING THE DEATH DATE PLEASE DISCUSS ON TALK PAGE FIRST AND PROVIDE A RELIABLE SOURCE -->12, 2011, at the age of 70 at his home in [[Berkeley Heights, New Jersey]], where he lived alone.<ref name=NYTimes/>  First news of his death came from his former colleague, [[Rob Pike]].<ref name=BBC/><ref name=RobPike/> The cause and exact time of death have not been disclosed.<ref>
+{{Citation
+| author=Associated Press
+| title = Summary Box: Dennis Ritchie, pioneer in computer programming at Bell Labs, dies at 70
+| newspaper=The Washington Post
+| date = October 13, 2011
+| url = http://www.washingtonpost.com/business/summary-box-dennis-ritchie-pioneer-in-computer-programming-at-bell-labs-dies-at-70/2011/10/13/gIQAFKC7hL_story.html
+| quote = NOT KNOWN:  Alcatel-Lucent confirmed his death to The Associated Press but would not disclose the cause of death or when Ritchie died.
+| accessdate = October 14, 2011 }}
+</ref>  He had been in frail health for several years following treatment for [[prostate cancer]] and [[heart disease]].<ref name=NYTimes/><ref name="BBC" /><ref>{{cite web|last=Gallagher|first=Sean|title=Dennis Ritchie, Father of C and Co-Developer of Unix, Dies|url=http://www.wired.com/wiredenterprise/2011/10/dennis-ritchie/ | publisher = [[Wired magazine]] |accessdate=October 13, 2011|date=October 13, 2011}} [http://www.webcitation.org/query?url=http%3A%2F%2Fwww.wired.com%2Fwiredenterprise%2F2011%2F10%2Fdennis-ritchie%2F&date=2012-01-27 mirror]</ref><ref>{{cite web|last=Binstock|first=Andrew|title=Dennis Ritchie, in Memoriam|url=http://drdobbs.com/cpp/231900742?cid=DDJ_nl_upd_2011-10-13_h|work=Dr. Dobb's Journal|publisher=Dr. Dobb's Journal|accessdate=October 14, 2011}} [http://www.webcitation.org/query?url=http%3A%2F%2Fdrdobbs.com%2Fcpp%2F231900742%3Fcid%3DDDJ_nl_upd_2011-10-13_h&date=2012-01-27 mirror]</ref>  His death came a week after the death of [[Steve Jobs]] but did not receive as much media coverage.
+<ref name=Humphrey>{{cite news|last=Humphrey|first=Michael|title=The Inevitable Steve Jobs vs. Dennis Ritchie Discussion|url=http://www.forbes.com/sites/michaelhumphrey/2011/10/14/the-inevitable-steve-jobs-vs-dennis-ritchie-discussion/|accessdate=October 14, 2011|newspaper=Forbes|date=2011-10-14}}</ref><ref name=Mearian>{{cite news|last=Mearian|first=Lucas|title=Dennis Ritchie and Steve Jobs&nbsp;– quite the juxtaposition|url=http://blogs.computerworld.com/19097/dennis_ritchie_and_steve_jobs_quite_the_juxtaposition|accessdate=October 14, 2011|newspaper=Computer World|date=October 13, 2011}}</ref><ref>{{cite web|last=Jeansoulin|first=Robert|title=Héritiers des sixties, deux innovateurs de l'informatique disparaissent. Deux modèles fort différents|url=http://www.bulletins-electroniques.com/actualites/067/67974.htm|accessdate=October 21, 2011|newspaper=Bulletins Electroniques|publisher=ADIT}}</ref>
+Computer historian [[Paul E. Ceruzzi]] said after his death: "Ritchie was under the radar. His name was not a household name at all, but... if you had a microscope and could look in a computer, you'd see his work everywhere inside."<ref>
+{{cite news
+|last=Langer
+|first=Emily
+|title=Dennis Ritchie, founder of Unix and C, dies at 70
+|url=http://www.washingtonpost.com/local/obituaries/dennis-ritchie-founder-of-unix-and-c-dies-at-70/2011/10/13/gIQAXsVXiL_story.html
+|accessdate=November 3, 2011
+|newspaper=Washington Post
+|date=October 14, 2011}}
+[http://www.webcitation.org/query?url=http%3A%2F%2Fwww.washingtonpost.com%2Flocal%2Fobituaries%2Fdennis-ritchie-founder-of-unix-and-c-dies-at-70%2F2011%2F10%2F13%2FgIQAXsVXiL_story.html&date=2012-01-28 mirror]
+</ref>
+
+In an interview shortly after Ritchie's death, long time colleague [[Brian Kernighan]] said Ritchie never expected C to be so significant.<ref name=ForbesKernighanInterview2011-11-04>
+{{cite news
+| url = http://forbesindia.com/interview/special/brian-kernighan-no-one-thought-c-would-become-so-big/29982/1| title = No one thought 'C' would become so big: Brian Kernighan
+| publisher = [[Forbes India]]
+| date = 2011-11-04
+| accessdate = 2011-11-28
+| quote = Q Did Dennis Ritchie or you ever think C would become so popular? [Kernighan] I don't think that at the time Dennis worked on Unix and C anyone thought these would become as big as they did. Unix, at that time, was a research project inside Bell Labs.
+| author = Shishir Prasad
+}}
+[http://www.webcitation.org/query?url=http%3A%2F%2Fforbesindia.com%2Finterview%2Fspecial%2Fbrian-kernighan-no-one-thought-c-would-become-so-big%2F29982%2F1&date=2012-01-28 mirror]
+</ref>
+Kernighan reminded readers of how important a role C and UNIX had played in the development of later high-profile projects, like the [[iPhone]].<ref>
+{{cite news
+| url = http://www.deccanherald.com/blog/?p=220
+| title = Myths of Steve Jobs
+| publisher = [[Deccan Herald]]
+| date = 2011-11-28
+| accessdate = 2011-11-28
+| quote = Dennis Ritchie, the inventor of the C language and co-inventor of the Unix operating system, died a few days after Steve Jobs. He was
+far more influential than Jobs.
+}}
+[http://www.webcitation.org/query?url=http%3A%2F%2Fwww.deccanherald.com%2Fblog%2F%3Fp%3D220&date=2012-01-28 mirror]
+</ref><ref>
+{{cite news
+| url = http://www.thehindu.com/news/states/karnataka/article2622056.ece
+| title = The tale of three deeply different technologists
+| publisher = [[The Hindu]]
+| date = 2011-11-14
+| accessdate = 2011-11-28
+| quote =
+| page =
+| author = Subhajit Datta
+}}
+[http://www.webcitation.org/query?url=http%3A%2F%2Fwww.thehindu.com%2Fnews%2Fstates%2Fkarnataka%2Farticle2622056.ece&date=2012-01-28 mirror]
+</ref>
+
+Other testimonials to his influence followed.<ref>
+{{cite news
+| url = http://www.extremetech.com/computing/102835-dennis-ritchie-creator-of-c-bids-goodbye-world
+| title = Dennis Ritchie, creator of C, bids "goodbye, world"
+| publisher = [[Extreme Tech]]
+| date = 2011-11-02
+| accessdate = 2011-11-28
+| quote = The book came off the shelf in service of teaching another generation a simple, elegant way to program that allows the developer to be directly in touch with the innards of the computer. The lowly integer variable—int—has grown in size over the years as computers have grown, but the C language and its sparse, clean, coding style live on. For that we all owe a lot to Dennis Ritchie.
+| author = David Cardinal
+}}
+[http://www.webcitation.org/query?url=http%3A%2F%2Fwww.extremetech.com%2Fcomputing%2F102835-dennis-ritchie-creator-of-c-bids-goodbye-world&date=2012-01-28 mirror]
+</ref><ref name=TheEconomist>
+{{cite news
+| url = http://www.economist.com/node/21536536
+| title = Dennis Ritchie and John McCarthy: Dennis Ritchie and John McCarthy, machine whisperers, died on October 8th and 24th respectively, aged 70 and 84
+| publisher = [[The Economist]]
+| date = 2011-11-05
+| accessdate = 2011-11-28
+| quote = NOW that digital devices are fashion items, it is easy to forget what really accounts for their near-magical properties. Without the operating systems which tell their different physical bits what to do, and without the languages in which these commands are couched, the latest iSomething would be a pretty but empty receptacle. The gizmos of the digital age owe a part of their numeric souls to Dennis Ritchie and John McCarthy.
+}}
+[http://www.webcitation.org/query?url=http%3A%2F%2Fwww.economist.com%2Fnode%2F21536536&date=2012-01-28 mirror]
+</ref><ref>
+{{cite news
+| url = http://www.newswise.com/articles/the-strange-birth-and-long-life-of-unix
+| title = The Strange Birth and Long Life of Unix
+| publisher = [[Newswise]]
+| date = 2011-11-23
+| accessdate = 2011-11-28
+| quote = Four decades ago, Ken Thompson, the late Dennis Ritchie, and others at AT&T's Bell Laboratories developed Unix, which turned out to be one of the most influential pieces of software ever written. Their work on this operating system had to be done on the sly, though, because their employer had recently backed away from operating-systems research.
+}}
+[http://www.webcitation.org/query?url=http%3A%2F%2Fwww.newswise.com%2Farticles%2Fthe-strange-birth-and-long-life-of-unix&date=2012-01-28 mirror]
+</ref><ref>
+{{cite news
+| url = http://www.ciol.com/News/News/News-Reports/The-forgotten-tech-luminaries/156641/0/
+| title = The forgotten tech luminaries: The new generation of the digital age owe a part of their numeric souls to Dennis Ritchie and John McCarthy
+| publisher = [[cybermedia]]
+| date = 2011-11-01
+| accessdate = 2011-11-28
+| quote = UNIX, to the development of which Ritchie greatly contributed, and whose C made it possible it to be ported to other machines, is, even today, in its different avatars, the de-facto OS for anything that is mission critical. Solaris, AIX, HP-UX, Linux—all these are derived from UNIX.
+| author = Shyamanuja Das
+}}
+[http://www.webcitation.org/query?url=http%3A%2F%2Fwww.ciol.com%2FNews%2FNews%2FNews-Reports%2FThe-forgotten-tech-luminaries%2F156641%2F0%2F&date=2012-01-28 mirror]
+</ref>
+
+The [[Fedora 16]] [[Linux distribution]], which was released about a month after he died, was dedicated to his memory.<ref name="F16Phoronix">{{cite web | url=http://www.phoronix.com/scan.php?page=news_item&px=MTAxMjg | title=Red Hat Releases Fedora 16 "Verne" | author=[[Phoronix]] | accessdate=2011-11-08 }}</ref>  [[FreeBSD]] 9.0, released January 12, 2012 was also dedicated in his memory.<ref name="FreeBSD">{{cite web |url=http://www.freebsd.org/releases/9.0R/announce.html |title=FreeBSD-9.0 Announcement | author=The FreeBSD project | accessdate=2012-01-12}}</ref>
+
+<center><gallery widths=230>
+File:Usenix84 3 Small.jpg|Ritchie engaged in conversation in a [[chalet]] in the mountains surrounding [[Salt Lake City]] at the 1984 [[Usenix]] conference.
+File:Usenix84 1.jpg|At the same Usenix 1984 conference, Dennis Ritchie is visible in the middle, behind the man wearing a hat.
+</gallery></center>
+
+==Notable books==
+*''[[Man page|Unix Programmer's Manual]]'' (1971)
+*''[[The C Programming Language]]'' (sometimes referred to as ''K&R''; 1978 with [[Brian Kernighan]])
+
+==References==
+{{Reflist|30em}}
+
+==External links==
+{{Commons category}}
+{{Wikiquote}}
+{{Spoken Wikipedia|Dennis Ritchie.ogg|June 17, 2006}}
+*[http://cm.bell-labs.com/cm/cs/who/dmr/ Dennis Ritchie's home page at Bell Labs]
+*[http://www.gotw.ca/publications/c_family_interview.htm "The C Family of Languages: Interview with Dennis Ritchie, Bjarne Stroustrup, and James Gosling" – article in Java Report, 5(7), July 2000 and C++ Report, 12(7), July/August 2000]
+*[http://www.linux-mag.com/id/801/ "The Guru" – article in Linux Magazine, June 2001]
+*[http://abcnews.go.com/Technology/video/unix-starting-point-personal-computer-13869282?tab=9482931&section=1206840&playlist=11496627&page=1 Dennis Ritchie's video interview June 2011]
+* {{worldcat id|lccn-n77-18721}}
+* {{Find a Grave|78320781}}
+* {{Dmoz|Computers/History/Pioneers/Ritchie,_Dennis|Dennis Ritchie}}
+
+{{Richard W. Hamming Medal recipients}}
+{{Turing award}}
+
+{{Authority control |VIAF=616522 |LCCN=n/77/18721}}
+
+{{Persondata <!-- Metadata: see [[Wikipedia:Persondata]] -->
+| NAME              = Ritchie, Dennis MacAlistair
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = American [[computer scientist]]
+| DATE OF BIRTH     = 1941-09-09
+| PLACE OF BIRTH    = Bronxville, New York, United States
+| DATE OF DEATH     = October 2011
+| PLACE OF DEATH    = Berkeley Heights, New Jersey, United States
+}}
+{{DEFAULTSORT:Ritchie, Dennis}}
+[[Category:American computer scientists]]
+[[Category:American technology writers]]
+[[Category:Harvard University alumni]]
+[[Category:Turing Award laureates]]
+[[Category:Unix people]]
+[[Category:Plan 9 people]]
+[[Category:Inferno (operating system) people]]
+[[Category:C programming language]]
+[[Category:Scientists at Bell Labs]]
+[[Category:National Medal of Technology recipients]]
+[[Category:Programming language designers]]
+[[Category:1941 births]]
+[[Category:2011 deaths]]
+[[Category:People from Bronxville, New York]]
+[[Category:Japan Prize laureates]]
+[[Category:People from Berkeley Heights, New Jersey]]
+[[Category:People from Summit, New Jersey]]

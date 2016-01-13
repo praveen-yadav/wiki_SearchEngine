@@ -1,0 +1,260 @@
+{{other uses}}
+{{Calculus |Differential}}
+
+In [[calculus]], the '''chain rule''' is a [[formula]] for computing the [[derivative]] of the [[functional composition|composition]] of two or more [[function (mathematics)|functions]]. That is, if ''f'' and ''g'' are functions, then the chain rule expresses the derivative of the [[Function composition|composite function]] {{nowrap|''f'' ∘ ''g''}} in terms of the derivatives of ''f'' and ''g'' and the [[pointwise product|product of functions]] · as follows:
+:<math>(f\circ g)'=(f'\circ g)\cdot g'.</math>
+If ''z'' is a function of a variable ''y'', which is itself a function of ''x'' (see [[dependent variable]]), then ''z'' is also a function of ''x'' and the chain rule may be written
+:<math>\frac {dz}{dx} = \frac {dz}{dy} \cdot \frac {dy}{dx} </math>
+
+In [[integral|integration]], the counterpart to the chain rule is the [[substitution rule]].
+
+== History ==
+
+The chain rule seems to have first been used by [[Gottfried Wilhelm Leibniz|Leibniz]]. He used it to calculate the derivative of <math>\sqrt{a + bz + cz^2}</math> as the composite of the square root function and the function <math>a + bz + cz^2</math>.  He first mentioned it in a memoir with various mistakes in it. The common notation of chain rule is due to Leibniz.<ref>{{cite journal|title=A Semiotic Reflection on the Didactics of the Chain Rule|journal=The Montana Mathematics Enthusiast|year=2010|volume=7|pages=321–332|url=http://www.math.umt.edu/tmme/vol7no2and3/9_RodriguezFernandez_TMMEvol7nos2and3_pp.321_332.pdf|issn= 1551-3440|issue=2–3
+|author=Omar Hernández Rodríguez and Jorge M. López Fernández
+}}</ref> [[Guillaume de l'Hôpital|L'Hôpital]] uses the chain rule implicitly in his ''[[Analyse des infiniment petits]]''. The chain rule does not appear in any of [[Leonhard Euler]]'s analysis books, even though they were written over a hundred years after Leibniz's discovery.
+
+== One dimension ==
+
+===First example===
+Suppose that a skydiver jumps from an aircraft.  Assume that ''t'' seconds after his jump, his height above sea level in meters is given by {{nowrap|1=''g''(''t'') = 4000 &minus; 4.9''t''<sup>2</sup>}}.  One model for the [[atmospheric pressure]] at a height ''h'' is {{nowrap|1=''f''(''h'') = {{gaps|101|325}} ''e''<sup>&minus;0.0001''h''</sup>}}.  These two equations can be differentiated and combined in various ways to produce the following data:
+*{{nowrap|1=''g''&prime;(''t'') = &minus;9.8''t''}} is the velocity of the skydiver at time ''t''.
+*{{nowrap|1=''f''&prime;(''h'') = &minus;10.1325''e''<sup>&minus;0.0001''h''</sup>}} is the rate of change in atmospheric pressure with respect to height at the height ''h'' and is proportional to the [[buoyancy|buoyant force]] on the skydiver at ''h'' meters above sea level.  (The true buoyant force depends on the volume of the skydiver.)
+*{{nowrap|(''f'' ∘ ''g'')(''t'')}} is the atmospheric pressure the skydiver experiences ''t'' seconds after his jump.
+*{{nowrap|(''f'' ∘ ''g'')&prime;(''t'')}} is the rate of change in atmospheric pressure with respect to time at ''t'' seconds after the skydiver's jump and is proportional to the buoyant force on the skydiver at ''t'' seconds after his jump.
+The chain rule gives a method for computing {{nowrap|(''f'' ∘ ''g'')&prime;(''t'')}} in terms of {{nowrap|''f''&prime;}} and {{nowrap|''g''&prime;}}.  While it is always possible to directly apply the definition of the derivative to compute the derivative of a composite function, this is usually very difficult.  The utility of the chain rule is that it turns a complicated derivative into several easy derivatives.
+
+The chain rule states that, under appropriate conditions,
+:<math>(f \circ g)'(t) = f'(g(t))\cdot g'(t).</math>
+In this example, this equals
+:<math>(f \circ g)'(t) = \big(\mathord{-}10.1325e^{-0.0001(4000 - 4.9t^2)}\big)\cdot\big(\mathord{-}9.8t\big).</math>
+
+In the statement of the chain rule, ''f'' and ''g'' play slightly different roles because ''f''&prime; is evaluated at ''g''(''t'') whereas ''g''&prime; is evaluated at ''t''.  This is necessary to make the units work out correctly.  For example, suppose that we want to compute the rate of change in atmospheric pressure ten seconds after the skydiver jumps.  This is {{nowrap|(''f'' ∘ ''g'')&prime;(10)}} and has units of [[Pascal (unit)|Pascal]]s per second.  The factor ''g''&prime;(10) in the chain rule is the velocity of the skydiver ten seconds after his jump, and it is expressed in meters per second.  ''f''&prime;(''g''(10)) is the change in pressure with respect to height at the height ''g''(10) and is expressed in Pascals per meter.  The product of ''f''&prime;(''g''(10)) and ''g''&prime;(10) therefore has the correct units of Pascals per second.  It is not possible to evaluate ''f'' anywhere else.  For instance, because the 10 in the problem represents ten seconds, the expression ''f''&prime;(10) represents the change in pressure at a height of ten seconds, which is nonsense.  Similarly, because {{nowrap|1=''g''&prime;(10) = &minus;98}} meters per second, the expression ''f''&prime;(''g''&prime;(10)) represents the change in pressure at a height of &minus;98 meters per second, which is also nonsense.  However, ''g''(10) is 3020 meters above sea level, the height of the skydiver ten seconds after his jump.  This has the correct units for an input to ''f''.
+
+===Statement===
+
+The simplest form of the chain rule is for real-valued functions of one [[real number|real]] variable.  It says that if ''g'' is a function that is differentiable at a point ''c'' (i.e.&nbsp;the derivative ''g''&prime;(''c'') exists) and ''f'' is a function that is differentiable at ''g''(''c''), then the composite function ''f''&nbsp;∘&nbsp;''g'' is differentiable at ''c'', and the derivative is<ref>{{cite book|title=Mathematical analysis|authorlink=Tom Apostol|first=Tom|last=Apostol|year=1974|edition=2nd|publisher=Addison Wesley|page=Theorem 5.5|nopp=true}}</ref>
+
+:<math> (f\circ g)'(c) = f'(g(c))\cdot g'(c). </math>
+
+The rule is sometimes abbreviated as
+
+:<math>(f\circ g)' = (f'\circ g) \cdot g'.\, </math>
+
+If {{nowrap|1=''y'' = ''f''(''u'')}} and {{nowrap|1=''u'' = ''g''(''x'')}}, then this abbreviated form is written in [[Leibniz notation]] as:
+
+:<math>\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}.</math>
+
+The points where the derivatives are evaluated may also be stated explicitly:
+
+:<math>\left.\frac{dy}{dx}\right|_{x=c} = \left.\frac{dy}{du}\right|_{u = g(c)} \cdot \left.\frac{du}{dx}\right|_{x=c}.\, </math>
+
+===Further examples===
+====Absence of formulas====
+It may be possible to apply the chain rule even when there are no formulas for the functions which are being differentiated.  This can happen when the derivatives are measured directly.  Suppose that a car is driving up a tall mountain.  The car's speedometer measures its speed directly.  If the [[grade (slope)|grade]] is known, then the rate of ascent can be calculated using [[trigonometry]].  Suppose that the car is ascending at 2.5&nbsp;km/h.  Standard models for the Earth's atmosphere imply that the temperature drops about 6.5&nbsp;°C per kilometer ascended (see [[lapse rate]]).  To find the temperature drop per hour, we apply the chain rule.  Let the function ''g''(''t'') be the altitude of the car at time ''t'', and let the function ''f''(''h'') be the temperature ''h'' kilometers above sea level.  ''f'' and ''g'' are not known exactly: For example, the altitude where the car starts is not known and the temperature on the mountain is not known.  However, their derivatives are known: ''f''&prime; is &minus;6.5&nbsp;°C/km, and ''g''&prime; is 2.5&nbsp;km/h.  The chain rule says that the derivative of the composite function is the product of the derivative of ''f'' and the derivative of ''g''.  This is {{nowrap|1=&minus;6.5 °C/km · 2.5&nbsp;km/h = &minus;16.25 °C/h}}.
+
+One of the reasons why this computation is possible is because ''f''&prime; is a constant function.  This is because the above model is very simple.  A more accurate description of how the temperature near the car varies over time would require an accurate model of how the temperature varies at different altitudes.  This model may not have a constant derivative.  To compute the temperature change in such a model, it would be necessary to know ''g'' and not just ''g''&prime;, because without knowing ''g'' it is not possible to know where to evaluate ''f''&prime;.
+
+====Composites of more than two functions====
+The chain rule can be applied to composites of more than two functions.  To take the derivative of a composite of more than two functions, notice that the composite of ''f'', ''g'', and ''h'' (in that order) is the composite of ''f'' with {{nowrap|''g'' ∘ ''h''}}.  The chain rule says that to compute the derivative of {{nowrap|''f'' ∘ ''g'' ∘ ''h''}}, it is sufficient to compute the derivative of ''f'' and the derivative of {{nowrap|''g'' ∘ ''h''}}.  The derivative of ''f'' can be calculated directly, and the derivative of {{nowrap|''g'' ∘ ''h''}} can be calculated by applying the chain rule again.
+
+For concreteness, consider the function
+:<math>y = e^{\sin {x^2}}.</math>
+This can be decomposed as the composite of three functions:
+:<math>\begin{align}
+y &= f(u) = e^u, \\
+u &= g(v) = \sin v, \\
+v &= h(x) = x^2.
+\end{align}</math>
+Their derivatives are:
+:<math>\begin{align}
+\frac{dy}{du} &= f'(u) = e^u, \\
+\frac{du}{dv} &= g'(v) = \cos v, \\
+\frac{dv}{dx} &= h'(x) = 2x.
+\end{align}</math>
+The chain rule says that the derivative of their composite at the point {{nowrap|1=''x'' = ''a''}} is:
+:<math>(f \circ g \circ h)'(a) = f'((g \circ h)(a))\cdot (g \circ h)'(a) = f'((g \circ h)(a))\cdot g'(h(a))\cdot h'(a).</math>
+In Leibniz notation, this is:
+:<math>\frac{dy}{dx} = \left.\frac{dy}{du}\right|_{u=g(h(a))}\cdot\left.\frac{du}{dv}\right|_{v=h(a)}\cdot\left.\frac{dv}{dx}\right|_{x=a},</math>
+or for short,
+:<math>\frac{dy}{dx} = \frac{dy}{du}\cdot\frac{du}{dv}\cdot\frac{dv}{dx}.</math>
+The derivative function is therefore:
+:<math>\frac{dy}{dx} = e^{\sin {x^2}}\cdot\cos{x^2}\cdot 2x.</math>
+
+Another way of computing this derivative is to view the composite function {{nowrap|''f'' ∘ ''g'' ∘ ''h''}} as the composite of {{nowrap|''f'' ∘ ''g''}} and ''h''.  Applying the chain rule to this situation gives:
+:<math>(f \circ g \circ h)'(a) = (f \circ g)'(h(a))\cdot h'(a) = f'(g(h(a)))\cdot g'(h(a))\cdot h'(a).</math>
+This is the same as what was computed above.  This should be expected because {{nowrap|1=(''f'' ∘ ''g'') ∘ ''h'' = ''f'' ∘ (''g'' ∘ ''h'')}}.
+
+====Quotient rule====
+{{see also|Quotient rule}}
+The chain rule can be used to derive some well-known differentiation rules.  For example, the quotient rule is a consequence of the chain rule and the product rule.  To see this, write the function ''f''(''x'')/''g''(''x'') as the product {{nowrap|''f''(''x'') &middot; 1/''g''(''x'')}}.  First apply the product rule:
+:<math>\begin{align}
+\frac{d}{dx}\left(\frac{f(x)}{g(x)}\right)
+&= \frac{d}{dx}\left(f(x)\cdot\frac{1}{g(x)}\right) \\
+&= f'(x)\cdot\frac{1}{g(x)} + f(x)\cdot\frac{d}{dx}\left(\frac{1}{g(x)}\right).
+\end{align}</math>
+To compute the derivative of 1/''g''(''x''), notice that it is the composite of ''g'' with the reciprocal function, that is, the function that sends ''x'' to 1/''x''.  The derivative of the reciprocal function is &minus;1/''x''<sup>2</sup>.  By applying the chain rule, the last expression becomes:
+:<math>f'(x)\cdot\frac{1}{g(x)} + f(x)\cdot\left(-\frac{1}{g(x)^2}\cdot g'(x)\right)
+= \frac{f'(x) g(x) - f(x) g'(x)}{g(x)^2},</math>
+which is the usual formula for the quotient rule.
+
+====Derivatives of inverse functions====
+{{main|inverse functions and differentiation}}
+Suppose that {{nowrap|1=''y'' = ''g''(''x'')}} has an [[inverse function]].  Call its inverse function ''f'' so that we have {{nowrap|1=''x'' = ''f''(''y'')}}.  There is a formula for the derivative of ''f'' in terms of the derivative of ''g''.  To see this, note that ''f'' and ''g'' satisfy the formula
+:<math>f(g(x)) = x.</math>
+Because the functions ''f''(''g''(''x'')) and ''x'' are equal, their derivatives must be equal.  The derivative of ''x'' is the constant function with value 1, and the derivative of ''f''(''g''(''x'')) is determined by the chain rule.  Therefore we have:
+:<math>f'(g(x)) g'(x) = 1.</math>
+To express ''f''&prime; as a function of an independent variable ''y'', we substitute ''f''(''y'') for ''x'' wherever it appears.  Then we can solve for ''f''&prime;.
+:<math>\begin{align}
+f'(g(f(y))) g'(f(y)) &= 1 \\
+f'(y) g'(f(y)) &= 1 \\
+f'(y) = \frac{1}{g'(f(y))}.
+\end{align}</math>
+
+For example, consider the function {{nowrap|1=''g''(''x'') = ''e''<sup>''x''</sup>}}.  It has an inverse {{nowrap|1=''f''(''y'') = ln ''y''}}.  Because {{nowrap|1=''g''&prime;(''x'') = ''e''<sup>''x''</sup>}}, the above formula says that
+:<math>\frac{d}{dy}\ln y = \frac{1}{e^{\ln y}} = \frac{1}{y}.</math>
+
+This formula is true whenever ''g'' is differentiable and its inverse ''f'' is also differentiable.  This formula can fail when one of these conditions is not true.  For example, consider {{nowrap|1=''g''(''x'') = ''x''<sup>3</sup>}}.  Its inverse is {{nowrap|1=''f''(''y'') = ''y''<sup>1/3</sup>}}, which is not differentiable at zero.  If we attempt to use the above formula to compute the derivative of ''f'' at zero, then we must evaluate 1/''g''&prime;(''f''(0)).  {{nowrap|1=''f''(0) = 0}} and {{nowrap|1=''g''&prime;(0) = 0}}, so we must evaluate 1/0, which is undefined.  Therefore the formula fails in this case.  This is not surprising because ''f'' is not differentiable at zero.
+
+===Higher derivatives===
+[[Faà di Bruno's formula]] generalizes the chain rule to higher derivatives.  Assuming that {{nowrap|''y'' {{=}} ''f''(''u'')}} and {{nowrap|''u'' {{=}} ''g''(''x'')}}, then the first few derivatives are:
+:<math>\frac{dy}{dx} = \frac{dy}{du} \frac{du}{dx}</math>
+:<math>
+  \frac{d^2 y }{d x^2}
+  = \frac{d^2 y}{d u^2} \left(\frac{du}{dx}\right)^2
+    + \frac{dy}{du} \frac{d^2 u}{dx^2}
+</math>
+:<math>
+  \frac{d^3 y }{d x^3}
+  = \frac{d^3 y}{d u^3} \left(\frac{du}{dx}\right)^3
+    + 3 \, \frac{d^2 y}{d u^2} \frac{du}{dx} \frac{d^2 u}{d x^2}
+    + \frac{dy}{du} \frac{d^3 u}{d x^3}
+</math>
+:<math>
+  \frac{d^4 y}{d x^4}
+  =\frac{d^4 y}{du^4} \left(\frac{du}{dx}\right)^4
+    + 6 \, \frac{d^3 y}{d u^3} \left(\frac{du}{dx}\right)^2 \frac{d^2 u}{d x^2}
+    + \frac{d^2 y}{d u^2} \left\{ 4 \, \frac{du}{dx} \frac{d^3 u}{dx^3}
+    + 3 \, \left(\frac{d^2 u}{dx^2}\right)^2\right\}
+    + \frac{dy}{du} \frac{d^4 u}{dx^4}.
+</math>
+
+===Proofs===
+====First proof====
+One proof of the chain rule begins with the definition of the derivative:
+:<math>(f \circ g)'(a) = \lim_{x \to a} \frac{f(g(x)) - f(g(a))}{x - a}.</math>
+Assume for the moment that ''g''(''x'') does not equal ''g''(''a'') for any ''x'' near ''a''.  Then the previous expression is equal to the product of two factors:
+:<math>\lim_{x \to a} \frac{f(g(x)) - f(g(a))}{g(x) - g(a)} \cdot \frac{g(x) - g(a)}{x - a}.</math>
+When ''g'' oscillates near ''a'', then it might happen that no matter how close one gets to ''a'', there is always an even closer ''x'' such that ''g''(''x'') equals ''g''(''a'').  For example, this happens for {{nowrap|1=''g''(''x'') = ''x''<sup>2</sup>sin(1 / ''x'')}} near the point {{nowrap|1=''a'' = 0}}.  Whenever this happens, the above expression is undefined because it involves [[division by zero]].  To work around this, introduce a function ''Q'' as follows:
+:<math>Q(y) = \begin{cases}
+\frac{f(y) - f(g(a))}{y - g(a)}, & y \neq g(a), \\
+f'(g(a)), & y = g(a).
+\end{cases}</math>
+We will show that the [[difference quotient]] for {{nowrap|''f'' ∘ ''g''}} is always equal to:
+:<math>Q(g(x)) \cdot \frac{g(x) - g(a)}{x - a}.</math>
+Whenever ''g''(''x'') is not equal to ''g''(''a''), this is clear because the factors of {{nowrap|''g''(''x'') − ''g''(''a'')}} cancel.  When ''g''(''x'') equals ''g''(''a''), then the difference quotient for {{nowrap|''f'' ∘ ''g''}} is zero because ''f''(''g''(''x'')) equals ''f''(''g''(''a'')), and the above product is zero because it equals ''f''&prime;(''g''(''a'')) times zero.  So the above product is always equal to the difference quotient, and to show that the derivative of {{nowrap|''f'' ∘ ''g''}} at ''a'' exists and to determine its value, we need only show that the limit as ''x'' goes to ''a'' of the above product exists and determine its value.
+
+To do this, recall that the limit of a product exists if the limits of its factors exist.  When this happens, the limit of the product of these two factors will equal the product of the limits of the factors.  The two factors are ''Q''(''g''(''x'')) and {{nowrap|(''g''(''x'') − ''g''(''a'')) / (''x'' − ''a'')}}.  The latter is the difference quotient for ''g'' at ''a'', and because ''g'' is differentiable at ''a'' by assumption, its limit as ''x'' tends to ''a'' exists and equals ''g''&prime;(''a'').
+
+It remains to study ''Q''(''g''(''x'')).  ''Q'' is defined wherever ''f'' is.  Furthermore, because ''f'' is differentiable at ''g''(''a'') by assumption, ''Q'' is continuous at ''g''(''a'').  ''g'' is continuous at ''a'' because it is differentiable at ''a'', and therefore {{nowrap|''Q'' ∘ ''g''}} is continuous at ''a''.  So its limit as ''x'' goes to ''a'' exists and equals ''Q''(''g''(''a'')), which is ''f''&prime;(''g''(''a'')).
+
+This shows that the limits of both factors exist and that they equal ''f''&prime;(''g''(''a'')) and ''g''&prime;(''a''), respectively.  Therefore the derivative of {{nowrap|''f'' ∘ ''g''}} at ''a'' exists and equals ''f''&prime;(''g''(''a''))''g''&prime;(''a'').
+
+====Second proof====
+Another way of proving the chain rule is to measure the error in the linear approximation determined by the derivative.  This proof has the advantage that it generalizes to several variables.  It relies on the following equivalent definition of differentiability at a point: A function ''g'' is differentiable at ''a'' if there exists a real number ''g''&prime;(''a'') and a function ε(''h'') that tends to zero as ''h'' tends to zero, and furthermore
+:<math>g(a + h) - g(a) = g'(a) h + \varepsilon(h) h.\,</math>
+Here the left-hand side represents the true difference between the value of ''g'' at ''a'' and at {{nowrap|''a'' + ''h''}}, whereas the right-hand side represents the approximation determined by the derivative plus an error term.
+
+In the situation of the chain rule, such a function ε exists because ''g'' is assumed to be differentiable at ''a''.  Again by assumption, a similar function also exists for ''f'' at ''g''(''a'').  Calling this function η, we have
+:<math>f(g(a) + k) - f(g(a)) = f'(g(a)) k + \eta(k) k.\,</math>
+The above definition imposes no constraints on η(0), even though it is assumed that η(''k'') tends to zero as ''k'' tends to zero.  If we set {{nowrap|1=&eta;(0) = 0}}, then η is continuous at 0.
+
+Proving the theorem requires studying the difference {{nowrap|''f''(''g''(''a'' + ''h'')) &minus; ''f''(''g''(''a''))}} as ''h'' tends to zero.  The first step is to substitute for {{nowrap|''g''(''a'' + ''h'')}} using the definition of differentiability of ''g'' at ''a'':
+:<math>f(g(a + h)) - f(g(a)) = f(g(a) + g'(a) h + \varepsilon(h) h) - f(g(a)).</math>
+The next step is to use the definition of differentiability of ''f'' at ''g''(''a'').  This requires a term of the form {{nowrap|''f''(''g''(''a'') + ''k'')}} for some ''k''.  In the above equation, the correct ''k'' varies with ''h''.  Set {{nowrap|1=''k''<sub>''h''</sub> = ''g''&prime;(''a'') ''h'' + &epsilon;(''h'') ''h''}} and the right hand side becomes {{nowrap|''f''(''g''(''a'') + ''k''<sub>''h''</sub>) &minus; ''f''(''g''(''a''))}}.  Applying the definition of the derivative gives:
+:<math>f(g(a) + k_h) - f(g(a)) = f'(g(a)) k_h + \eta(k_h) k_h.\,</math>
+To study the behavior of this expression as ''h'' tends to zero, expand ''k''<sub>''h''</sub>. After regrouping the terms, the right-hand side becomes:
+:<math>f'(g(a)) g'(a)h + [f'(g(a)) \varepsilon(h) + \eta(k_h) g'(a) + \eta(k_h) \varepsilon(h)] h.\,</math>
+Because <math>\varepsilon(h)</math> and <math>\eta(k_h)</math> tend to zero as ''h'' tends to zero, the first two bracketed terms tend to zero as ''h'' tends to zero.  Applying the same theorem on products of limits as in the first proof, the third bracketed term also tends zero.  Because the above expression is equal to the difference {{nowrap|''f''(''g''(''a'' + ''h'')) &minus; ''f''(''g''(''a''))}}, by the definition of the derivative {{nowrap|''f'' ∘ ''g''}} is differentiable at ''a'' and its derivative is {{nowrap|''f''&prime;(''g''(''a'')) ''g''&prime;(''a'').}}
+
+The role of ''Q'' in the first proof is played by η in this proof.  They are related by the equation:
+:<math>Q(y) = f'(g(a)) + \eta(y - g(a)). \,</math>
+The need to define ''Q'' at ''g''(''a'') is analogous to the need to define η at zero.
+
+==Higher dimensions==
+The simplest generalization of the chain rule to higher dimensions uses the [[total derivative]].  The total derivative is a linear transformation that captures how the function changes in all directions.  Fix differentiable functions {{nowrap|''f'' : '''R'''<sup>''m''</sup> &rarr; '''R'''<sup>''k''</sup>}} and {{nowrap|''g'' : '''R'''<sup>''n''</sup> &rarr; '''R'''<sup>''m''</sup>}} and a point '''a''' in '''R'''<sup>''n''</sup>.  Let ''D''<sub>'''a'''</sub>''g'' denote the total derivative of ''g'' at '''a''' and ''D''<sub>''g''('''a''')</sub>''f'' denote the total derivative of ''f'' at ''g''('''a''').  These two derivatives are linear transformations {{nowrap|'''R'''<sup>''n''</sup> &rarr; '''R'''<sup>''m''</sup>}} and {{nowrap|'''R'''<sup>''m''</sup> &rarr; '''R'''<sup>''k''</sup>}}, respectively, so they can be composed.  The chain rule for total derivatives says that their composite is the total derivative of {{nowrap|''f'' ∘ ''g''}} at '''a''':
+:<math>D_{\mathbf{a}}(f \circ g) = D_{g(\mathbf{a})}f \circ D_{\mathbf{a}}g,</math>
+or for short,
+:<math>D(f \circ g) = Df \circ Dg.</math>
+The higher-dimensional chain rule can be proved using a technique similar to the second proof given above.
+
+Because the total derivative is a linear transformation, the functions appearing in the formula can be rewritten as matrices.  The matrix corresponding to a total derivative is called a [[Jacobian matrix]], and the composite of two derivatives corresponds to the product of their Jacobian matrices.  From this perspective the chain rule therefore says:
+:<math>J_{\mathbf{a}}(f \circ g) = J_{g(\mathbf{a})}(f) J_{\mathbf{a}}(g).</math>
+That is, the Jacobian of the composite function is the product of the Jacobians of the composed functions.
+
+The higher-dimensional chain rule is a generalization of the one-dimensional chain rule.  If ''k'', ''m'', and ''n'' are 1, so that {{nowrap|''f'' : '''R''' &rarr; '''R'''}} and {{nowrap|''g'' : '''R''' &rarr; '''R'''}}, then the Jacobian matrices of ''f'' and ''g'' are {{nowrap|1 &times; 1}}.  Specifically, they are:
+:<math>\begin{align}
+J_a(g) &= \begin{pmatrix} g'(a) \end{pmatrix}, \\
+J_{g(a)}(f) &= \begin{pmatrix} f'(g(a)) \end{pmatrix}.
+\end{align}</math>
+The Jacobian of ''f'' ∘ ''g'' is the product of these {{nowrap|1 &times; 1}} matrices, so it is {{nowrap|''f''&prime;(''g''(''a''))⋅''g''&prime;(''a'')}}, as expected from the one-dimensional chain rule.  In the language of linear transformations, ''D''<sub>''a''</sub>(''g'') is the function which scales a vector by a factor of ''g''&prime;(''a'') and ''D''<sub>''g''(''a'')</sub>(''f'') is the function which scales a vector by a factor of ''f''&prime;(''g''(''a'')).  The chain rule says that the composite of these two linear transformations is the linear transformation {{nowrap|''D''<sub>''a''</sub>(''f'' ∘ ''g'')}}, and therefore it is the function that scales a vector by ''f''&prime;(''g''(''a''))⋅''g''&prime;(''a'').
+
+Another way of writing the chain rule is used when ''f'' and ''g'' are expressed in terms of their components as {{nowrap|1='''y''' = ''f''('''u''') = (''f''<sub>1</sub>('''u'''), ..., ''f''<sub>''k''</sub>('''u'''))}} and {{nowrap|1='''u''' = ''g''('''x''') = (''g''<sub>1</sub>('''x'''), ..., ''g''<sub>''m''</sub>('''x'''))}}.  In this case, the above rule for Jacobian matrices is usually written as:
+:<math>\frac{\partial(y_1, \ldots, y_k)}{\partial(x_1, \ldots, x_n)} = \frac{\partial(y_1, \ldots, y_k)}{\partial(u_1, \ldots, u_m)} \frac{\partial(u_1, \ldots, u_m)}{\partial(x_1, \ldots, x_n)}.</math>
+
+The chain rule for total derivatives implies a chain rule for partial derivatives.  Recall that when the total derivative exists, the partial derivative in the ''i''th coordinate direction is found by multiplying the Jacobian matrix by the ''i''th basis vector.  By doing this to the formula above, we find:
+:<math>\frac{\partial(y_1, \ldots, y_k)}{\partial x_i} = \frac{\partial(y_1, \ldots, y_k)}{\partial(u_1, \ldots, u_m)} \frac{\partial(u_1, \ldots, u_m)}{\partial x_i}.</math>
+Since the entries of the Jacobian matrix are partial derivatives, we may simplify the above formula to get:
+:<math>\frac{\partial(y_1, \ldots, y_k)}{\partial x_i} = \sum_{\ell = 1}^m \frac{\partial(y_1, \ldots, y_k)}{\partial u_\ell} \frac{\partial u_\ell}{\partial x_i}.</math>
+More conceptually, this rule expresses the fact that a change in the ''x''<sub>''i''</sub> direction may change all of ''g''<sub>1</sub> through ''g''<sub>''k''</sub>, and any of these changes may affect ''f''.
+
+In the special case where {{nowrap|1=''k'' = 1}}, so that ''f'' is a real-valued function, then this formula simplifies even further:
+:<math>\frac{\partial y}{\partial x_i} = \sum_{\ell = 1}^m \frac{\partial y}{\partial u_\ell} \frac{\partial u_\ell}{\partial x_i}.</math>
+This can be rewritten as a [[dot product]].  Recalling that {{nowrap|'''u''' {{=}} (''g''<sub>1</sub>, ..., ''g''<sub>''m''</sub>)}}, the partial derivative {{nowrap|∂'''u''' / ∂''x''<sub>''i''</sub>}} is also a vector, and the chain rule says that:
+:<math>\frac{\partial y}{\partial x_i} = \nabla f \cdot \frac{\partial \mathbf{u}}{\partial x_i}.</math>
+
+===Example===
+Given <math>\,u = x^2 + 2y</math> where <math>\,x = r \cdot \sin(t)</math> and <math>\,y = \sin^2(t)</math>, determine the value of <math>\frac{\partial u}{\partial r}</math> and <math>\frac{\partial u}{\partial t}</math> using the chain rule.
+:<math>\frac{\partial u}{\partial r}=\frac{\partial u}{\partial x} \frac{\partial x}{\partial r}+\frac{\partial u}{\partial y} \frac{\partial y}{\partial r} = \left(2x\right) \left(\sin(t)\right)+\left(2\right) \left(0\right)=2r \sin^2(t)</math>
+and
+:<math>\frac{\partial u}{\partial t}=\frac{\partial u}{\partial x} \frac{\partial x}{\partial t}+\frac{\partial u}{\partial y} \frac{\partial y}{\partial t} = \left(2x\right) \cdot \left(r \cos(t)\right)+\left(2\right) \left(2\sin(t) \cos(t)\right)</math>
+:<math> = 2\left(r \sin(t)\right) r \cdot \cos(t)+4\sin(t) \cos(t) = 2\left(r^2+2\right) \sin(t) \cos(t).</math>
+
+===Higher derivatives of multivariable functions===
+{{main|Faà di Bruno's formula#Multivariate version}}
+Faà di Bruno's formula for higher-order derivatives of single-variable functions generalizes to the multivariable case.  If {{nowrap|''y'' {{=}} ''f''(''u'')}} is a function of {{nowrap|1=''u'' = ''g''(''x'')}} as above, then the second derivative of {{nowrap|''f'' ∘ ''g''}} is:
+:<math>\frac{\partial^2 y}{\partial x_i \partial x_j} = \sum_k \frac{\partial y}{\partial u_k} \frac{\partial^2 u_k}{\partial x_i \partial x_j} + \sum_{k, \ell} \frac{\partial^2 y}{\partial u_k \partial u_\ell} \frac{\partial u_k}{\partial x_i} \frac{\partial u_\ell}{\partial x_j}.</math>
+
+==Further generalizations==
+All extensions of calculus have a chain rule. In most of these, the formula remains the same, though the meaning of that formula may be vastly different.
+
+One generalization is to [[manifold]]s. In this situation, the chain rule represents the fact that the derivative of {{nowrap|''f'' ∘ ''g''}} is the composite of the derivative of ''f'' and the derivative of ''g''. This theorem is an immediate consequence of the higher dimensional chain rule given above, and it has exactly the same formula.
+
+The chain rule is also valid for [[Fréchet derivative]]s in [[Banach space]]s.  The same formula holds as before. This case and the previous one admit a simultaneous generalization to [[Banach manifold]]s.
+
+In [[abstract algebra]], the derivative is interpreted as a morphism of modules of [[Kähler differential]]s. A [[ring homomorphism]] of [[commutative ring]]s {{nowrap|''f'' : ''R'' &rarr; ''S''}} determines a morphism of Kähler differentials {{nowrap|''Df'' : &Omega;<sub>''R''</sub> &rarr; &Omega;<sub>''S''</sub>}} which sends an element ''dr'' to ''d''(''f''(''r'')), the exterior differential of ''f''(''r''). The formula {{nowrap|1=''D''(''f'' ∘ ''g'') = ''Df'' ∘ ''Dg''}} holds in this context as well.
+
+The common feature of these examples is that they are expressions of the idea that the derivative is part of a [[functor]]. A functor is an operation on spaces and functions between them. It associates to each space a new space and to each function between two spaces a new function between the corresponding new spaces. In each of the above cases, the functor sends each space to its [[tangent bundle]] and it sends each function to its derivative. There is one requirement for such an operation to be a functor, namely that the derivative of a composite is the composite of the derivatives.  This is exactly the formula {{nowrap|1=''D''(''f'' ∘ ''g'') = ''Df'' ∘ ''Dg''}}.
+
+There are also chain rules in [[stochastic calculus]]. One of these, [[Itō's lemma]], expresses the composite of an Itō process (or more generally a [[semimartingale]]) ''dX''<sub>''t''</sub> with a twice-differentiable function ''f''.  In Itō's lemma, the derivative of the composite function depends not only on ''dX''<sub>''t''</sub> and the derivative of ''f'' but also on the second derivative of ''f''. The dependence on the second derivative is a consequence of the non-zero [[quadratic variation]] of the stochastic process, which broadly speaking means that the process can move up and down in a very rough way. This variant of the chain rule is not an example of a functor because the two functions being composed are of different types.
+
+==See also==
+*[[Integration by substitution]]
+*[[Leibniz integral rule]]
+*[[Quotient rule]]
+*[[Triple product rule]]
+
+==References==
+{{Reflist}}
+
+==External links==
+* {{springer|title=Leibniz rule|id=p/d031210}}
+* {{MathWorld | urlname=ChainRule | title=Chain Rule}}
+* [[Khan Academy]] [http://www.khanacademy.org/video/the-chain-rule?playlist=Calculus Lesson 1] [http://www.khanacademy.org/video/even-more-chain-rule?playlist=Calculus Lesson 3]
+* http://calculusapplets.com/chainrule.html
+* [https://sites.google.com/site/khanacnotes/the-chain-rule The Chain Rule explained]
+
+{{DEFAULTSORT:Chain Rule}}
+[[Category:Differentiation rules]]
+[[Category:Articles containing proofs]]
+[[Category:Theorems in calculus]]

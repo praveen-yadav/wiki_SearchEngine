@@ -1,0 +1,43 @@
+[[File:Key break.jpg|right|100px|thumb|Break/Pause key on PC keyboard]]
+The '''Break key''' is a key on a [[computer keyboard]]. The Break key originated with 19th century [[Telegraphy|telegraph]] practice. While the Break key might no longer have a well-defined purpose, it can be used by software to switch between multiple login sessions, to terminate a program, or to interrupt a modem connection. 
+
+Because the break key will send a software [[Interrupt]] halting the flow of code, the Break key is also called the Pause key. It can be used to pause some games, such as ''[[Deus Ex]]''. 
+
+==History==
+A standard telegraph circuit connects all the keys, sounders and batteries in a single series loop so the sounders actuate only when both keys are down (closed or "marking", after the ink marks made on paper tape by early printing telegraphs). The receiving operator thus has to hold his key down or close a built-in shorting switch to let the other operator send. The receiving operator could interrupt the sending operator by opening his key, breaking the circuit and forcing it into a "spacing" condition. Both sounders stop responding to the sender's keying, alerting the sender. (A physical break in the telegraph line would have the same effect.)
+
+===Teleprinter===
+The [[teleprinter]] operated in a very similar fashion except that the sending station kept the loop closed (logic 1 or "marking") even during short pauses between characters. Holding down a special "break" key opened the loop, forcing it into a continuous logic 0 or "spacing" condition. When this occurred, the teleprinter mechanisms continually actuated without printing anything as the all-0's character is the non-printing ''NUL'' in both [[Baudot code|Baudot]] and [[ASCII]]. The resulting noise got the sending operator's attention.
+
+This practice carried over to teleprinter use on [[time-sharing]] computers. A continuous spacing (logical 0) condition violates the rule that every valid character has to end with one or more logic 1 (marking) "stop" bits. The computer (specifically the [[UART]]) recognized this as a special "break" condition and generated an [[interrupt]] that typically stopped a running program or forced the operating system to prompt for a login. Although asynchronous serial telegraphy is now rare, the {{keypress|Break}} key once used with terminal emulators can still be used by software for similar purposes.
+
+==Sinclair==
+On the [[Sinclair ZX80]] and [[Sinclair ZX81|ZX81]] computers, the Break is accessed by pressing Space. On the [[Sinclair ZX Spectrum]] it is accessed by {{keypress|Caps Shift|Space}}. The Spectrum+ and later computers have a dedicated {{keypress|Break}} key. It does not trigger an interrupt but will halt any running BASIC program, or terminate the loading or saving of data to cassette tape. An interrupted BASIC program can usually be resumed with the <code>CONTINUE</code> command. The [[Sinclair QL]] computer, without a {{keypress|Break}} key, maps the function to {{keypress|Ctrl|Space}}.
+
+==BBC Micro==
+On a [[BBC Micro]] computer, the {{keypress|Break}} key generates an interrupt which would normally cause a [[warm restart]] of the computer. A [[cold restart]] is triggered by typing {{keypress|Ctrl|Break}}. If a DFS ROM is installed, {{keypress|Shift|Break}} will cause the computer to search for and load a file called <code>!boot</code> on the floppy disk in drive 0. The latter two behaviours were inherited by the successor to [[Acorn MOS]], [[RISC OS]].
+
+==Modern keyboards==
+On many modern [[personal computer|PCs]], ''Pause'' interrupts screen output by [[BIOS]] until another key is pressed. This is effective during [[booting|boot]] in [[text mode]] and in a [[DOS]] box in [[Microsoft Windows|Windows]] safe mode with 50 lines. On early keyboards without a {{keypress|Pause}} key (before the introduction of 101/102-key keyboards) the Pause function was assigned to {{keypress|Ctrl|NumLock}}, and the Break function to {{keypress|Ctrl|ScrLock}}; these key-combinations still work with most programs, even on modern PCs with modern keyboards. Pressing the dedicated {{keypress|Pause}} key on 101/102-key keyboards sends the same [[scancode]]s as pressing {{keypress|Ctrl}}, then {{keypress|NumLock}}, then releasing them in the reverse order would do; additionally, an E1<sub>hex</sub> prefix is sent which enables 101/102-key aware software to discern the two situations, while older software usually just ignores the prefix. The {{keypress|Pause}} key is different from all other keys in that it sends no scancodes at all on release; therefore it is not possible for any software to determine whether this key is being held down.<ref>{{cite book|title=PS/2 Hardware Interface Technical Reference|year=1990|publisher=IBM|url=http://www.mcamafia.de/pdf/ibm_hitrc11.pdf|page=19|chapter=Keyboard 101- and 102-Key|month=October|quote=Except for the Pause key, all keys are make/break.}}</ref> 
+
+On modern keyboards, the {{keypress|Break}} key is usually labeled ''Pause'' with ''Break'' below, sometimes separated by a line, or ''Pause'' on the top of the keycap and ''Break'' on the front. In most Windows environments, the key combination {{keypress|Win|Pause}} brings up the system properties. Compact and notebook keyboards often have the {{keypress|Pause/Break}} key mapped to a function command: for example {{keypress|Ctrl|Fn|F11}} or {{keypress|Fn|B}} or {{keypress|Fn|Ctrl|B}} (on certain Lenovo laptops).<ref>http://forum.thinkpads.com/viewtopic.php?f=60&t=98708</ref>
+
+[[Apple Keyboard]]s do not have the Pause or Break key. <ref>Computer Hope, Pause key http://www.computerhope.com/jargon/p/pausekey.htm</ref>
+
+== Usage for breaking the program's execution ==
+While both {{keypress|Ctrl|Break}} and {{keypress|Ctrl|C}} combination are commonly implemented as a way of breaking the execution of a console application, they are also used for similar effect in [[integrated development environment]]s.<ref>{{cite web|url=http://msdn.microsoft.com/en-us/library/ff540312.aspx |title=CTRL+C (Break) |publisher=Msdn.microsoft.com |date=2010-03-30 |accessdate=2010-10-22}}</ref><ref>{{cite web|url=http://msdn.microsoft.com/en-us/library/ff541727.aspx |title=Debug Break |publisher=Msdn.microsoft.com |date=2010-03-30 |accessdate=2010-10-22}}</ref> Although these two are often considered interchangeable,<ref>{{cite web|url=http://encyclopedia2.thefreedictionary.com/Ctrl-Break |title=Ctrl-Break definition of Ctrl-Break in the Free Online Encyclopedia |publisher=Encyclopedia2.thefreedictionary.com |date= |accessdate=2010-10-22}}</ref> compilers and execution environments usually assign different signals to these.<ref>http://www.gnu.org/software/emacs/windows/ntemacs/discuss/subproc-ctrl-c</ref> Additionally, in some kernels (e.g. miscellaneous DOS variants) {{keypress|Ctrl|C}} is detected only at the time OS tries reading from a keyboard buffer and only if it's the only key sequence in the buffer,<ref>{{cite web|url=http://vimdoc.sourceforge.net/htmldoc/os_dos.html#dos-CTRL-Break |title=Vim documentation: vim online |publisher=Vim.org |date= |accessdate=2010-10-22}}</ref><ref>{{cite web|url=http://www.ousob.com/ng/dos5/ng27979.php |title=ClipX&nbsp;— DOS 5.0 Ref. - int 23h ctrl-c handler |publisher=Ousob.com |date= |accessdate=2010-10-22}}</ref> while {{keypress|Ctrl|Break}} is often translated instantly (e.g. by [[BIOS call|INT 1Bh]] under DOS). Because of this, {{keypress|Ctrl|Break}} is usually a more effective choice under these operating systems; sensitivity for these two combinations can be enhanced by the <code>[[BREAK (CONFIG.SYS directive)|BREAK]]=ON</code> [[CONFIG.SYS]] statement.
+
+== References ==
+{{reflist}}
+
+== See also ==
+
+*[[SysRq]]
+*[[Scroll lock]]
+*[[Num lock]]
+{{Keyboard}}
+{{keyboard keys}}
+
+{{DEFAULTSORT:Break Key}}
+[[Category:Computer keys]]
+[[Category:Out-of-band management]]

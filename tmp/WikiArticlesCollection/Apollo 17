@@ -1,0 +1,355 @@
+{{Use dmy dates|date=July 2012}}
+{{good article}}
+{{Infobox spaceflight
+| name                  = Apollo 17
+| image                 = NASA Apollo 17 Lunar Roving Vehicle.jpg
+| image_caption         = Gene Cernan aboard the Lunar Rover during the first EVA of Apollo 17
+| insignia              = Apollo_17-insignia.png
+
+| mission_type          = Manned lunar landing
+| operator              = [[NASA]]<ref name="Orloff">{{cite book |last=Orloff |first=Richard W. |title=Apollo by the Numbers: A Statistical Reference |url=http://history.nasa.gov/SP-4029/SP-4029.htm |accessdate=24 July 2013 |series=NASA History Series |origyear=First published 2000 |year=2004 |month=September |work=NASA History Division, Office of Policy and Plans |publisher=[[NASA]] |location=Washington, D.C. |isbn=0-16-050631-X |lccn=00-061677 |id=NASA SP-2000-4029 |chapter=Table of Contents |chapterurl=http://history.nasa.gov/SP-4029/Apollo_00g_Table_of_Contents.htm|archiveurl=http://web.archive.org/web/20070823124845/http://history.nasa.gov/SP-4029/SP-4029.htm|archivedate=23 August 2007}}</ref>
+| COSPAR_ID             = CSM: 1972-096A<br/>LM: 1972-096C
+| SATCAT                = CSM: 6300<br/>LM: 6307
+| mission_duration      = 12&nbsp;days, 13&nbsp;hours, 51&nbsp;minutes, 59&nbsp;seconds
+
+| spacecraft            = [[Apollo Command/Service Module|Apollo CSM]]-114<br/>[[Apollo Lunar Module|Apollo LM]]-12
+| manufacturer          = CSM: [[Rockwell International|North American Rockwell]]<br/>LM: [[Grumman]]
+| launch_mass           = {{convert|103570|lb|kg|disp=flip}}<br/><small>CM: {{convert|12874|lb|kg|disp=flip}}<br/>SM: {{convert|54044|lb|kg|disp=flip}}<br/>LM: {{convert|36724|lb|kg|disp=flip}}</small>
+| landing_mass          = 
+
+| launch_date           = {{start-date|December 7, 1972, 05:33:00|timezone=yes}}&nbsp;UTC 
+| launch_rocket         = [[Saturn V]] SA-512
+| launch_site           = [[Kennedy Space Center|Kennedy]] [[Kennedy Space Center Launch Complex 39|LC-39A]]
+
+| landing_date          = {{end-date|December 19, 1972, 19:24:59|timezone=yes}}&nbsp;UTC 
+| landing_site          = South Pacific Ocean<br/>{{Nowrap|{{Coord|17.88|S|166.11|W|type:event|name=Apollo 17 splashdown}}}}
+
+| orbit_epoch           = December 11, 4:04 UTC
+| orbit_reference       = [[selenocentric orbit|Selenocentric]]
+| orbit_periapsis       = {{convert|14.5|nmi|km|disp=flip|sp=us}}
+| orbit_apoapsis        = {{convert|59.0|nmi|km|disp=flip|sp=us}}
+| orbit_inclination     = 
+| orbit_period          = 
+| apsis                 = selene
+
+|interplanetary         = 
+ {{Infobox spaceflight/IP
+   |type                = orbiter
+   |object              = [[Moon|Lunar]]
+   |component           = [[Apollo Command/Service Module|Command/Service Module]]
+   |orbits              = 75
+   |arrival_date        = December 10, 1972, 19:47:22&nbsp;UTC
+   |departure_date      = December 16, 1972, 23:35:09&nbsp;UTC
+ }}
+ {{Infobox spaceflight/IP
+   |type                = lander
+   |object              = [[Moon|Lunar]]
+   |component           = [[Apollo Lunar Module|Lunar Module]]
+   |arrival_date        = December 11, 1972, 19:54:57&nbsp;UTC
+   |departure_date      = December 14, 1972, 22:54:37&nbsp;UTC
+   |location            = [[Taurus–Littrow (lunar valley)|Taurus-Littrow]]<br/>{{Nowrap|{{Coord|20.19080|N|30.77168|E|globe:Moon|name=Apollo 17 landing}}}} 
+   |sample_mass         = {{convert|110.52|kg|lb}}
+   |surface_EVAs        = 3
+   |surface_EVA_time    = 22&nbsp;hours, 3&nbsp;minutes, 57&nbsp;seconds
+<small>First: 7&nbsp;hours, 11&nbsp;minutes, 53&nbsp;seconds<br/>Second: 7&nbsp;hours, 36&nbsp;minutes, 56&nbsp;seconds<br/>Third: 7&nbsp;hours, 15&nbsp;minutes, 8&nbsp;seconds</small>
+  }}
+ {{Infobox spaceflight/IP
+   |type                = rover
+   |object              = [[Moon|Lunar]]
+   |distance            = {{convert|35.74|km|sp=us}}
+ }}
+
+<!--Cargo parameters-->
+| payload_items         = [[Scientific Instrument Module]]<br>[[Lunar Roving Vehicle]]
+| cargo_mass            = SIM: <br>LRV: {{convert|463|lb|kg}}
+| instruments           = <!--a list of instruments on the satellite-->
+
+| docking               = 
+ {{Infobox spaceflight/Dock
+   | docking_target     = LM
+   | docking_type       = dock
+   | docking_date       = December 7, 1972, 09:30:10&nbsp;UTC
+   | undocking_date     = December 11, 1972, 17:20:56&nbsp;UTC
+   | time_docked        = 
+ }}
+ {{Infobox spaceflight/Dock
+   | docking_target     = LM Ascent Stage
+   | docking_type       = dock
+   | docking_date       = December 15, 1972, 01:10:15&nbsp;UTC
+   | undocking_date     = December 15, 1972, 04:51:31&nbsp;UTC
+   | time_docked        = 
+ }}
+
+| crew_size             = 3
+| crew_members          = [[Eugene Cernan|Eugene A. Cernan]]<br/>[[Ronald Evans (astronaut)|Ronald E. Evans]]<br/>[[Harrison Schmitt|Harrison H. Schmitt]]
+| crew_EVAs             = 1 in [[cislunar space]]<br/><small>Plus 3 on the lunar surface</small>
+| crew_EVA_duration     = 1&nbsp;hours, 5&nbsp;minutes, 44&nbsp;seconds<br/><small>Spacewalk to retrieve film cassettes</small>
+| crew_callsign         = CSM: ''America''<br/>LM: ''Challenger''
+| crew_photo            = Apollo 17 crew.jpg
+| crew_photo_caption    = Left to right: Schmitt, Cernan (seated), Evans
+
+| previous_mission      = [[Apollo 16]]
+| programme             = [[Apollo program|Project Apollo]]<br/><small>Manned missions</small>
+}}
+
+'''Apollo 17''' was the final mission of the [[United States]]' [[Apollo program|Apollo lunar landing program]], and was the sixth landing of humans on the [[Moon]]. Launched at 12:33 AM Eastern Standard Time (EST) on December 7, 1972, with a three-member crew consisting of Commander [[Eugene Cernan]], [[Apollo Command/Service Module|Command Module]] Pilot [[Ronald Evans (astronaut)|Ronald Evans]], and [[Apollo Lunar Module|Lunar Module]] Pilot [[Harrison Schmitt]], Apollo 17 remains the most recent manned [[Moon landing]] and the most recent crewed flight beyond [[low Earth orbit]].<ref name=astronautix/><ref name=alsjoverview>{{cite web|title=Apollo 17 Mission Overview|url=http://www.hq.nasa.gov/alsj/a17/a17ov.html|publisher=Apollo Lunar Surface Journal|accessdate=25 August 2011}}</ref> After Apollo 17, extra [[Apollo (spacecraft)|Apollo spacecraft]] were used in the [[Skylab]] and [[Apollo–Soyuz Test Project]] programs.
+
+Apollo 17 was the sixth Apollo lunar landing, the first night launch of a [[United States|U.S.]] human spaceflight and the final crewed launch of a [[Saturn V]] rocket. It was a "[[List of Apollo mission types|J-type mission]]," missions including three-day lunar surface stays, extended scientific capability, and the third [[Lunar Roving Vehicle]] (LRV). While Evans remained in [[lunar orbit]] above in the [[Apollo Command/Service Module|Command/Service Module]] (CSM), Cernan and Schmitt spent just over three days on the lunar surface in the [[Taurus–Littrow (lunar valley)|Taurus-Littrow valley]], conducting three periods of [[extra-vehicular activity]], or moonwalks, during which they collected lunar samples and deployed [[Apollo Lunar Surface Experiments Package|scientific instruments]]. Cernan, Evans, and Schmitt returned to Earth on December 19 after an approximately 12-day mission.<ref name=astronautix/>
+
+The decision to land in the Taurus-Littrow valley was made with the primary objectives for Apollo 17 in mind: to sample [[Lunar highlands|lunar highland]] material older than the impact that formed [[Mare Imbrium]] and investigating the possibility of relatively young [[Volcano|volcanic activity]] in the same vicinity. Taurus-Littrow was selected with the prospects of finding highland material in the valley's north and south walls and the possibility that several craters in the valley surrounded by dark material could be linked to volcanic activity.<ref name=lpi/>
+
+Apollo 17 also broke several records set by previous flights, including the longest manned lunar landing flight; the longest total lunar surface extravehicular activities; the largest lunar sample return, and the longest time in lunar orbit.<ref name=records>{{cite web|title=December 11, 1972 – Longest lunar stay by humans|url=http://todayinspacehistory.wordpress.com/2007/12/11/december-11-1972-longest-lunar-stay-by-humans/|work=Today in Space History|accessdate=25 August 2011}}</ref><ref name=evarecord>{{cite web|title=Extravehicular Activity|url=http://history.nasa.gov/SP-4029/Apollo_18-30_Extravehicular_Activity.htm|publisher=NASA|accessdate=25 August 2011|archiveurl=http://web.archive.org/web/20041118103553/http://history.nasa.gov/SP-4029/Apollo_18-30_Extravehicular_Activity.htm|archivedate=18 November 2004}}</ref>
+
+== Crew ==
+{{Spaceflight crew
+|terminology      = Astronaut
+|references       = <ref name=nasmcrew>{{cite web |url=http://www.nasm.si.edu/collections/imagery/apollo/as17/a17crew.htm |title=Apollo 17 Crew |work=The Apollo Program |publisher=[[National Air and Space Museum]] |location=Washington, D.C. |accessdate=26 August 2011}}</ref>
+|position1        = Commander
+|crew1_up         = [[Eugene Cernan|Eugene A. Cernan]]
+|flights1_up      = Third and last
+|position2        = Command Module Pilot
+|crew2_up         = [[Ronald Evans (astronaut)|Ronald E. Evans]]
+|flights2_up      = Only
+|position3        = Lunar Module Pilot
+|crew3_up         = [[Harrison Schmitt|Harrison H. Schmitt]]
+|flights3_up      = Only
+}}
+
+Eugene Cernan, Ronald Evans, and former [[North American X-15|X-15]] pilot [[Joe Engle]] were assigned to the backup crew of [[Apollo 14]].<ref name=a17pre>{{cite web|title=A Running Start – Apollo 17 up to Powered Descent Initiation|url=http://next.nasa.gov/alsj/a17/a17.prepdi.html|publisher=Apollo Lunar Surface Journal|accessdate=25 August 2011}}</ref> Engle flew sixteen X-15 flights, three of which exceeded the {{convert|50|mi|km|abbr=on}} border of space.<ref name=englebio>{{cite web|title=Astronaut Bio: Joe Henry Engle|url=http://www.jsc.nasa.gov/Bios/htmlbios/engle-jh.html|publisher=NASA|accessdate=25 August 2011}}</ref> Following the rotation pattern that a backup crew would fly as the prime crew three missions later, Cernan, Evans, and Engle would have flown Apollo 17. Harrison Schmitt served on the backup crew of [[Apollo 15]] and, following the crew rotation cycle, was slated to fly as Lunar Module Pilot on Apollo 18. However, [[Canceled Apollo missions|Apollo 18 was cancelled]] in September 1970. Following this decision, the scientific community pressured [[NASA]] to assign a [[geologist]] to an Apollo landing, as opposed to a pilot trained in geology. In light of this pressure, Harrison Schmitt, a professional geologist, was assigned the Lunar Module Pilot position on Apollo 17.<ref name=a17pre/>
+
+Subsequent to the decision to assign Schmitt to Apollo 17, there remained the question of which crew (the full backup crew of Apollo 15, [[Richard F. Gordon, Jr.|Dick Gordon]], [[Vance D. Brand|Vance Brand]], and Schmitt, or the backup crew of Apollo 14) would become prime crew of the mission. NASA Director of Flight Crew Operations [[Deke Slayton]] ultimately assigned the backup crew of Apollo 14 (Cernan and Evans), along with Schmitt, to the prime crew of Apollo 17.<ref name=a17pre/>
+
+=== Backup crew ===
+
+====Original====
+{{Spaceflight crew
+|terminology      = Astronaut
+|references       = <ref name=15dropped/>
+|position1        = Commander
+|crew1_up         = [[David Scott]]
+|position2        = Command Module Pilot
+|crew2_up         = [[Alfred Worden]]
+|position3        = Lunar Module Pilot
+|crew3_up         = [[James Irwin]]
+|notes            = This had been the Apollo 15 prime crew.
+}}
+
+====Replacement====
+{{Spaceflight crew
+|terminology      = Astronaut
+|references       = <ref name=15backup>{{cite news|title=Apollo crew warned about commercialism|url=http://news.google.com/newspapers?id=kAsUAAAAIBAJ&sjid=94oDAAAAIBAJ&pg=5667,8302&dq=apollo+17+backup+crew&hl=en|accessdate=26 August 2011|newspaper=The Free Lance-Star|date=1 August 1972}}</ref> 
+|references       = <ref name=nasmcrew/>
+|position1        = Commander
+|crew1_up         = [[John Young (astronaut)|John Young]]
+|position2        = Command Module Pilot
+|crew2_up         = [[Stuart Roosa]]
+|position3        = Lunar Module Pilot
+|crew3_up         = [[Charles Duke]]
+}}
+
+The Apollo 15 prime crew received the backup assignment since this was to be the last lunar mission and the backup crew would not rotate to another mission. However, when the [[Apollo 15 postage stamp incident]] became public in early 1972 the crew was reprimanded by NASA and the [[United States Air Force]] (they were active duty officers). Director of Flight Crew Operations Deke Slayton removed them from flight status and replaced them with Young and Duke from the [[Apollo 16]] prime crew and Roosa from the Apollo 14 prime and Apollo 16 backup crews.<ref name=15dropped>{{cite news|title=2 Astronauts Quitting Jobs And Military|url=http://news.google.com/newspapers?id=plwxAAAAIBAJ&sjid=6wEEAAAAIBAJ&pg=7112,4977778&dq=roosa+apollo+17&hl=en|accessdate=26 August 2011|agency=[[Associated Press]]|newspaper=[[Toledo Blade]]|date=24 May 1972}}</ref><ref>[[#Slayton & Cassutt|Slayton & Cassutt 1994]], p. 279</ref>
+
+=== Support crew ===
+* [[Robert F. Overmyer]]<ref>{{cite web|title=Astronaut Bio: Robert Overmyer|url=http://www.jsc.nasa.gov/Bios/htmlbios/overmyer.html|publisher=NASA|accessdate=26 August 2011}}</ref>
+* [[Robert A. Parker]]<ref>{{cite web|title=Astronaut Bio: Robert Allan Ridley Parker|url=http://www.jsc.nasa.gov/Bios/htmlbios/parker-rar.html|publisher=NASA|accessdate=26 August 2011}}</ref>
+* [[C. Gordon Fullerton]]<ref>{{cite web|title=Astronaut Bio: C. Gordon Fullerton|url=http://www.jsc.nasa.gov/Bios/htmlbios/fullerton-cg.html|publisher=NASA|accessdate=26 August 2011}}</ref>
+
+=== Mission insignia ===
+
+The insignia's most prominent feature is an image of the Greek sun god [[Apollo]] backdropped by a rendering of an [[Bald Eagle|American eagle]], the red bars on the eagle mirroring those on the [[flag of the United States]]. Three white stars above the red bars represent the three crewmen of the mission. The background includes the Moon, the planet [[Saturn]] and a galaxy or nebula. The wing of the eagle partially overlays the Moon, suggesting man's established presence there. The gaze of Apollo and the direction of the eagle's motion embody man's intention to explore further destinations in space.<ref name=insignia>{{cite web|title=Apollo Mission Insignias|url=http://history.nasa.gov/SP-4029/Apollo_18-18_Mission_Insignias.htm|publisher=NASA|accessdate=25 August 2011| archiveurl= http://web.archive.org/web/20110721234247/http://history.nasa.gov/SP-4029/Apollo_18-18_Mission_Insignias.htm| archivedate= 21 July 2011 <!--DASHBot-->| deadurl= no}}</ref>
+
+The patch includes, along with the colors of the U.S. flag (red, white, and blue), the color gold, representative of a "golden age" of spaceflight that was to begin with Apollo 17. The image of Apollo in the mission insignia is a rendering of the ''[[Apollo Belvedere]]'' sculpture. The insignia was designed by [[Robert McCall (artist)|Robert McCall]], with input from the crew.<ref name=insignia/>
+
+== Planning and training ==
+[[File:Apollo 17 - Gene Cernan training in Sudbury.jpg|thumb|right|Gene Cernan participates in geology training in [[Greater Sudbury|Sudbury, Ontario]] in May 1972]]
+Like Apollo 15 and Apollo 16, Apollo 17 was slated to be a "[[List of Apollo mission types|J-mission]]," an Apollo mission type that featured lunar surface stays of three days, higher scientific capability, and the usage of the Lunar Roving Vehicle. Since Apollo 17 was to be the final lunar landing of the Apollo program, high-priority landing sites that had not been visited previously were given consideration for potential exploration. A landing in the crater [[Copernicus (lunar crater)|Copernicus]] was considered, but was ultimately rejected because [[Apollo 12]] had already obtained samples from that impact, and three other Apollo expeditions had already visited the vicinity of Mare Imbrium. A landing in the lunar highlands near the crater [[Tycho (crater)|Tycho]] was also considered, but was rejected because of the rough terrain found there and a landing on the [[Far side of the Moon|lunar far side]] in the crater [[Tsiolkovskiy (crater)|Tsiolkovskiy]] was rejected due to technical considerations and the operational costs of maintaining communication during surface operations. A landing in a region southwest of [[Mare Crisium]] was also considered, but rejected on the grounds that a [[Soviet Union|Soviet]] spacecraft could easily access the site; [[Luna 20]] eventually did so shortly after the Apollo 17 site selection was made.<ref name=lpi>{{cite web|title=Landing Site Overview|url=http://www.lpi.usra.edu/lunar/missions/apollo/apollo_17/landing_site/|work=Apollo 17 Mission|publisher=[[Lunar and Planetary Institute]]|accessdate=23 August 2011}}</ref> 
+
+After the elimination of several sites, three sites made the final consideration for Apollo 17: [[Alphonsus (crater)|Alphonsus crater]], [[Gassendi (crater)|Gassendi crater]], and the Taurus-Littrow valley. In making the final landing site decision, mission planners took into consideration the primary objectives for Apollo 17: obtaining old highlands material from a substantial distance from Mare Imbrium, sampling material from young volcanic activity (i.e., less than three billion years), and having minimal ground overlap with the orbital ground tracks of Apollo 15 and Apollo 16 to maximize the amount of new data obtained.<ref name=lpi/>
+
+The Taurus-Littrow site was selected with the prediction that the crew would be able to obtain samples of old highland material from the remnants of a landslide event that occurred on the south wall of the valley and the possibility of relatively young, explosive volcanic activity in the area. Although the valley is similar to the [[Hadley–Apennine (Moon)|landing site of Apollo 15]] in that it is on the border of a [[lunar mare]], the advantages of Taurus-Littrow were believed to outweigh the drawbacks, thus leading to its selection as the Apollo 17 landing site.<ref name=lpi/>
+
+Apollo 17 was the first and only lunar landing mission to carry the Traverse [[Gravimeter]] Experiment (TGE), an experiment built by [[Charles Stark Draper Laboratory|Draper Laboratory]] at the [[Massachusetts Institute of Technology]] designed to provide relative gravity measurements throughout the landing site at various locations during the mission's moonwalks. Scientists would then use this data to gather information about the geological substructure of the landing site and the surrounding vicinity.<ref name=alsjtge>{{cite web|title=Apollo 17 Traverse Gravimeter Experiment|url=http://www.hq.nasa.gov/alsj/a17/a17-TGE.html|publisher=Apollo Lunar Surface Journal|accessdate=23 August 2011}}</ref>  
+
+As with previous lunar landings, the Apollo 17 astronauts underwent an extensive training program that included training to collect samples on the surface, usage of the [[Apollo/Skylab A7L|spacesuits]], navigation in the Lunar Roving Vehicle, field geology training, survival training, [[Splashdown (spacecraft landing)|splashdown]] and recovery training, and equipment training.<ref name=training>{{cite news|last=Mason|first=Betsy|title=The Incredible Things NASA Did to Train Apollo Astronauts|url=http://www.wired.com/wiredscience/2011/07/moon-landing-gallery/?pid=1688&viewall=true|work=[[Wired (magazine)|Wired Science]]|publisher=[[Condé Nast Publications]] |accessdate=23 August 2011|date=20 July 2011}}</ref>
+
+== Mission hardware and experiments ==
+
+=== Traverse Gravimeter ===
+
+Apollo 17 was the first and only Apollo lunar landing mission to carry the Traverse Gravimeter Experiment. As gravimeters have proven to be useful in the geologic investigation of the Earth, the objective of this experiment was to determine the feasibility of using the same techniques on the Moon to learn about its internal structure. The gravimeter was used to obtain readings at the landing site in the immediate vicinity of the Lunar Module (LM), as well as various locations on the mission's traverse routes. The TGE was carried on the Lunar Roving Vehicle; measurements were taken by the astronauts while the LRV was not in motion or after the gravimeter was placed on the surface.<ref name=presskit>{{cite web |url=https://mira.hq.nasa.gov/history/ws/hdmshrc/all/main/DDD/17980.PDF |title=Apollo 17 Press Kit |date=26 November 1972 |publisher=NASA |location=Washington, D.C. |format=PDF |id=72-220K |accessdate=26 August 2011 |archiveurl= http://web.archive.org/web/20110721080816/https://mira.hq.nasa.gov/history/ws/hdmshrc/all/main/DDD/17980.PDF |archivedate=21 July 2011 <!--DASHBot-->| deadurl=no}}</ref>
+
+A total of twenty-six measurements were taken with the TGE during the mission's three moonwalks, with productive results. As part of the [[Apollo Lunar Surface Experiments Package]] (ALSEP), the astronauts also deployed the Lunar Surface Gravimeter, a similar experiment, which ultimately failed to function properly.<ref name=alsjtge/>
+
+=== Scientific Instrument Module ===
+
+[[File:Apollo 17 CSM SIM bay.jpg|thumb|right|Apollo 17 SIM bay on the [[Apollo service module|Service Module]], seen from the Lunar Module in orbit around the Moon]]
+
+Sector one of the Apollo 17 [[Apollo service module|Service Module]] (SM) contained the Scientific Instrument Module (SIM) bay. The SIM bay housed three experiments for use in lunar orbit: a lunar sounder, an [[infrared]] scanning [[radiometer]], and a [[Ultraviolet|far-ultraviolet]] spectrometer. A mapping camera, panoramic camera, and a [[Lidar|laser altimeter]] were also included in the SIM bay.<ref name=presskit/>
+
+The lunar sounder beamed [[Electromagnetic radiation|electromagnetic]] impulses toward the lunar surface, which were designed with the objective of obtaining data to assist in developing a geological model of the interior of the Moon to an approximate depth of {{convert|1.3|km|mi|abbr=on}}.<ref name=presskit/>
+
+The Infrared Scanning Radiometer was designed with the objective of generating a temperature map of the lunar surface to aid in locating surface features such as rock fields, structural differences in the [[Internal structure of the Moon|lunar crust]], and volcanic activity.<ref name=presskit/>
+
+The Far-Ultraviolet Spectrometer was to be used to obtain data pertaining to the composition, density, and constituency of the [[Atmosphere of the Moon|lunar atmosphere]]. The spectrometer was also designed to detect far-UV radiation emitted by the [[Sun]] that has been reflected off the lunar surface.<ref name=presskit/>
+
+The Laser Altimeter was designed with the intention of measuring the altitude of the spacecraft above the lunar surface within approximately two meters (6.5&nbsp;feet), and providing altitude information to the panoramic and mapping cameras.<ref name=presskit/>
+
+=== Light flash phenomenon ===
+{{main|Cosmic ray visual phenomena}}
+
+Throughout the Apollo lunar missions, the crew members observed light flashes that penetrated closed eyelids. These flashes, described as "streaks" or "specks" of light, were usually observed by astronauts while the spacecraft was darkened during a sleep period. These flashes, while not observed on the lunar surface, would average about two per minute and were observed by the crew members during the trip out to the Moon, back to Earth, and in lunar orbit.<ref name=presskit/>
+
+The Apollo 17 crew conducted an experiment, also conducted on Apollo 16, with the objective of linking these light flashes with [[cosmic ray]]s. As part of an experiment conducted by NASA and the [[University of Houston]], one astronaut wore a device that recorded the time, strength, and path of high-energy atomic particles that penetrated the device. Analysis of the results concluded that the evidence supported the hypothesis that the flashes occurred when charged particles travelled through the [[retina]] in the eye.<ref name=presskit/><ref name=lightflash>{{cite book |last1=Osborne |first1=W. Zachary |last2=Pinsky |first2=Lawrence S. |last3=Bailey |first3=J. Vernon |editor-last1=Johnston |editor-first1=Richard S. |editor-last2=Dietlein |editor-first2=Lawrence F. |editor-last3=Berry |editor-first3=Charles A. |others=Foreword by [[Christopher C. Kraft, Jr.]] |title=Biomedical Results of Apollo |url=http://lsda.jsc.nasa.gov/books/apollo/cover.htm |accessdate=26 August 2011 |year=1975 |publisher=NASA |location=Washington, D.C. |id=NASA SP-368 |chapter=Apollo Light Flash Investigations |chapterurl=http://lsda.jsc.nasa.gov/books/apollo/S4CH2.htm}}</ref>
+
+=== Surface Electrical Properties Experiment ===
+
+[[File:Apollo 17 rover at final resting site.jpg|thumb|right|Apollo 17 lunar rover at its final resting place on the Moon. The Surface Electrical Properties (SEP) receiver is the antenna on the right-rear of the vehicle]]
+
+Apollo 17 was the first and only lunar surface expedition to include the Surface Electrical Properties (SEP) experiment. The experiment included two major components: a transmitting antenna deployed near the Lunar Module and a receiving antenna located on the Lunar Roving Vehicle. At different stops during the mission's traverses, electrical signals traveled from the transmitting device, through the ground, and received at the LRV. The electrical properties of the [[lunar soil]] could be determined by comparison of the transmitted and received electrical signals. The results of this experiment, which are consistent with [[Moon rock|lunar rock]] composition, show that the top {{convert|2|km|mi|abbr=on}} of the Moon are extremely dry.<ref name=sep/>
+
+=== Lunar Roving Vehicle ===
+
+Apollo 17 was the third mission (the others being Apollo 15 and Apollo 16) to make use of a Lunar Roving Vehicle. The LRV, in addition to being used by the astronauts for transport from station to station on the mission's three moonwalks, was used to transport the astronauts' tools, communications equipment, and samples.<ref name=presskit/> The Apollo 17 LRV was also used to carry experiments unique to the mission, such as the Traverse Gravimeter and Surface Electrical Properties experiment.<ref name=alsjtge/><ref name=sep>{{cite web|title=Surface Electrical Properties|url=http://www.lpi.usra.edu/lunar/missions/apollo/apollo_17/experiments/sep/|work=Apollo 17 Science Experiments|publisher=Lunar and Planetary Institute|accessdate=26 August 2011}}</ref> The Apollo 17 LRV traveled a cumulative distance of approximately {{convert|35.9|km|mi|abbr=on}} in a total drive time of about four hours and twenty-six minutes; the greatest distance Eugene Cernan and Harrison Schmitt traveled from the Lunar Module was about {{convert|7.6|km|mi|abbr=on}}.<ref name=lunarrover>{{cite web|title=The Apollo Lunar Roving Vehicle|url=http://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html|publisher=NASA|accessdate=26 August 2011| archiveurl= http://web.archive.org/web/20110715222253/http://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html| archivedate= 15 July 2011 <!--DASHBot-->| deadurl= no}}</ref>
+
+== Mission highlights ==
+
+=== Launch and outbound trip ===
+
+[[File:Apollo 17 liftoff.jpg|thumb|right|Apollo 17 launches on December 7, 1972]]
+
+Apollo 17 launched at 12:33 AM [[Eastern time|EST]] on December 7, 1972, from launch pad 39-A at the [[Kennedy Space Center]]. The launch was delayed two hours and forty minutes due to an automatic cutoff in the launch sequencer at the T-30 second mark in the countdown. The issue was quickly determined to be a minor technical error. The clock was reset and held at the T-22 minute mark while technicians worked around the malfunction in order to continue with the launch. This pause was the only launch delay in the Apollo program caused by this type of hardware failure. The count resumed and a normal low Earth orbit was achieved.<ref name=astronautix/><ref name=launchops>{{cite web|title=Apollo 17 Launch Operations|url=http://www.hq.nasa.gov/office/pao/History/SP-4204/ch23-7.html|publisher=NASA|accessdate=16 November 2011}}</ref> 
+
+Approximately 500,000 people were estimated to have observed the launch in the immediate vicinity of Kennedy Space Center, despite the early morning hour. The launch was visible as far away as {{convert|800|km|mi|abbr=on}}; observers in [[Miami|Miami, Florida]], saw a "red streak" crossing the northern sky.<ref name=launchops/>
+
+At 3:46 AM EST, the [[S-IVB]] third stage was [[Trans-lunar injection|re-ignited]] to propel the spacecraft towards the Moon.<ref name=astronautix>{{cite web|last=Wade|first=Mark|title=Apollo 17|url=http://www.astronautix.com/flights/apollo17.htm|publisher=Encyclopedia Astronautica|accessdate=22 August 2011}}</ref> 
+
+At approximately 2:47 PM EST on December 10, the [[Service Propulsion System]] engine on the Command/Service Module ignited to slow down the CSM/Lunar Module stack into lunar orbit. Following orbit insertion and orbital stabilization, the crew began preparations for landing in the Taurus-Littrow valley.<ref name=astronautix/>
+
+=== Landing ===
+
+After separating from the Command/Service Module, the Lunar Module ''Challenger'' and its crew of two, Eugene Cernan and Harrison Schmitt, adjusted their orbit and began preparations for the descent to [[Taurus-Littrow]]. While Cernan and Schmitt prepared for landing, Command Module Pilot Ron Evans remained in orbit to take observations, perform experiments and await the return of his crew-mates a few days later.<ref name=astronautix/><ref name=alsjland>{{cite web|title=Landing at Taurus-Littrow|url=http://www.hq.nasa.gov/alsj/a17/a17.landing.html|publisher=Apollo Lunar Surface Journal|accessdate=22 August 2011}}</ref> 
+
+Soon after completing their preparations for landing, Cernan and Schmitt began their descent to the [[Taurus-Littrow]] valley on the lunar surface. Several minutes after the descent phase was initiated, the Lunar Module pitched over, giving the crew their first look at the landing site during the descent phase and allowing Cernan to guide the spacecraft to a desirable landing target while Schmitt provided data from the flight computer essential for landing. The LM touched down on the lunar surface at 2:55 PM EST on December 11. Shortly thereafter, the two astronauts began re-configuring the LM for their stay on the surface and began preparations for the first moonwalk of the mission, or EVA-1.<ref name=astronautix/><ref name=alsjland/>
+
+=== Lunar surface ===
+
+[[File:Apollo 17 Cernan on moon.jpg|thumb|right|[[Eugene Cernan]] on the lunar surface, December 13, 1972]]
+
+The first moonwalk of the mission began approximately four hours after landing, at about 6:55 PM on December 11. The first task of the first lunar excursion was to offload the Lunar Roving Vehicle and other equipment from the Lunar Module. While working near the rover, a fender was accidentally broken off when Gene Cernan brushed up against it, his hammer getting caught under the right-rear fender, breaking off the rear extension. The same incident had also occurred on Apollo 16 as Commander [[John Young (astronaut)|John Young]] maneuvered around the rover. Although this was not a mission-critical issue, the loss of the fender caused Cernan and Schmitt to be covered with dust thrown up when the rover was in motion.<ref name=brokenfender>{{cite web|title=ALSEP Off-load|url=http://www.hq.nasa.gov/alsj/a17/a17.alsepoff.html|publisher=Apollo Lunar Surface Journal|accessdate=24 August 2011}}</ref> The crew used [[Duct tape|Duct Tape]] to fix the problem, but the dust picked up on the surface prevented the tape from sticking for the length of the exploration.<ref>{{cite web|url=http://science1.nasa.gov/science-news/science-at-nasa/2008/21apr_ducttape/ |title=USA.gov: The U.S. Government's Official Web Portal |publisher=Science1.nasa.gov |date=September 27, 2013 |accessdate=October 14, 2013}}</ref> The crew then deployed the Apollo Lunar Surface Experiments Package west of the immediate landing site. After completing this, Cernan and Schmitt departed on the first geologic traverse of the mission, during which they gathered {{convert|14|kg|lbs}} of samples; took seven gravimeter measurements; and deployed two explosive packages, which were later detonated remotely to test [[geophone]]s that had been placed by the astronauts and [[seismometer]]s that had been placed on previous Apollo missions.<ref>Brzostowski and Brzostowski, pp 414-416</ref> The EVA ended after seven hours and twelve minutes.<ref name=astronautix/><ref name=alsjeva1>{{cite web|title=The First EVA|url=http://www.hq.nasa.gov/alsj/a17/a17.html|publisher=Apollo Lunar Surface Journal|accessdate=22 August 2011| archiveurl= http://web.archive.org/web/20110716040118/http://www.hq.nasa.gov/alsj/a17/a17.html| archivedate= 16 July 2011 <!--DASHBot-->| deadurl= no}}</ref> 
+
+[[File:Apollo 17 LRO.jpg|right|thumb|Apollo 17 landing site, photographed in 2011 by [[Lunar Reconnaissance Orbiter]]]]
+[[File:Lunar Regolith 70050 from Apollo 17 in National Museum of Natural History.jpg|right|thumb|Lunar Regolith collected during Apollo 17]]
+On December 12, at 6:28 PM EST, Cernan and Schmitt began their second lunar excursion. One of the first tasks of the EVA was repairing the right-rear fender on the LRV, the rearward extension of which had been broken off the previous day. The pair did this by taping together four cronopaque maps with [[duct tape]] and clamping the replacement fender extension to the fender, thus providing a means of preventing dust from raining down upon them while in motion.<ref name=brokenfender/><ref name=fenderfix>{{cite web|title=Moondust and Duct Tape|url=http://science.nasa.gov/science-news/science-at-nasa/2008/21apr_ducttape/|publisher=NASA|accessdate=24 August 2011}}</ref><ref name=eva2prep>{{cite web|title=Preparations for EVA-2|url=http://www.hq.nasa.gov/alsj/a17/a17.eva2prep.html|publisher=Apollo Lunar Surface Journal|accessdate=24 August 2011}}</ref> During this EVA, the pair sampled several different types of geologic deposits found in the valley, including orange-colored soil. The crew completed this moonwalk after seven hours and thirty-seven minutes. They collected {{convert|34|kg|lbs}} of samples, deployed three more explosive packages and took seven gravimeter measurements.<ref name=astronautix/>
+
+The third moonwalk, the last of the Apollo program, began at 5:26 PM EST on December 13. During this excursion, the crew collected {{convert|66|kg|lbs}} of lunar samples and took nine gravimeter measurements. Before ending the moonwalk, the crew collected a rock, a [[breccia]], and dedicated it to several different nations which were represented in [[Christopher C. Kraft Jr. Mission Control Center#Houston (1965–present)|Mission Control Center]] in [[Houston|Houston, Texas]], at the time. A plaque located on the Lunar Module, commemorating the achievements made during the Apollo program, was then unveiled. Before reentering the LM for the final time, Gene Cernan expressed his thoughts:<ref name=astronautix/>
+
+{{bquote|...I'm on the surface; and, as I take man's last step from the surface, back home for some time to come - but we believe not too long into the future - I'd like to just [say] what I believe history will record. That America's challenge of today has forged man's destiny of tomorrow. And, as we leave the Moon at Taurus-Littrow, we leave as we came and, God willing, as we shall return, with peace and hope for all mankind. "Godspeed the crew of Apollo 17."<ref name=alsjeva3>{{cite web|title=EVA-3 Close-out|url=http://www.hq.nasa.gov/alsj/a17/a17.clsout3.html|publisher=Apollo Lunar Surface Journal|accessdate=22 August 2011| archiveurl= http://web.archive.org/web/20110718153102/http://www.hq.nasa.gov/alsj/a17/a17.clsout3.html| archivedate= 18 July 2011 <!--DASHBot-->| deadurl= no}}</ref>}}
+
+Cernan then followed Schmitt into the Lunar Module after spending approximately seven hours and 15 minutes outside during the mission's final lunar excursion.<ref name=astronautix/>
+
+=== Return to Earth ===
+
+[[File:Ap17-S72-55974.jpg|thumb|right|Apollo 17 post-landing recovery operations]]
+
+Eugene Cernan and Harrison Schmitt successfully lifted off from the lunar surface in the ascent stage of the Lunar Module on December 14, at 5:55 PM EST. After a successful rendezvous and docking with Ron Evans in the Command/Service Module in orbit, the crew transferred equipment and lunar samples between the LM and the CSM for return to Earth. Following this, the LM ascent stage was sealed off and jettisoned at 1:31 AM on December 15. The ascent stage was then deliberately crashed into the Moon in a collision recorded by [[seismometer]]s deployed on Apollo 17 and previous Apollo expeditions.<ref name=astronautix/><ref name=alsjreturn>{{cite web|title=Return to Earth|url=http://www.hq.nasa.gov/alsj/a17/a17.homeward.html|publisher=Apollo Lunar Surface Journal|accessdate=22 August 2011}}</ref> 
+
+On December 17, during the trip back to Earth, at 3:27 PM EST, Ron Evans successfully conducted a one hour and seven minute spacewalk to retrieve exposed film from the instrument bay on the exterior of the CSM.<ref name=astronautix/>
+
+On December 19, the crew jettisoned the no-longer-needed Service Module, leaving only the Command Module for return to Earth. The Apollo 17 spacecraft [[Atmospheric entry|reentered Earth's atmosphere]] and landed safely in the [[Pacific Ocean]] at 2:25 PM, {{convert|6.4|km|mi|sp=us}} from the recovery ship, the [[USS Ticonderoga (CV-14)|USS ''Ticonderoga'']]. Cernan, Evans and Schmitt were then retrieved by a recovery helicopter and were safely aboard the recovery ship 52 minutes after landing.<ref name=astronautix/><ref name=alsjreturn/>
+
+== Spacecraft locations ==
+The Command Module ''America'' is currently on display at [[Space Center Houston]] at the [[Lyndon B. Johnson Space Center]] in Houston, Texas.<ref name=currentloc>{{cite web|title=Apollo: Where are they now?|url=http://nssdc.gsfc.nasa.gov/planetary/lunar/apolloloc.html|publisher=NASA|accessdate=26 August 2011| archiveurl= http://web.archive.org/web/20110717164926/http://nssdc.gsfc.nasa.gov/planetary/lunar/apolloloc.html| archivedate= 17 July 2011 <!--DASHBot-->| deadurl= no}}</ref> 
+
+The ascent stage of lunar module ''Challenger'' impacted the Moon December 15, 1972 at 06:50:20.8 UT (1:50 AM EST), at {{Coord|19.96|N|30.50|E|globe:Moon|name=Apollo 17 LM ascent stage}}.<ref name=currentloc/> The descent stage remains on the Moon at the landing site, {{Coord|20.19080|N|30.77168|E|globe:Moon|name=Apollo 17 LM descent stage}}.<ref name="Orloff"/> 
+
+In 2009 and again in 2011, the [[Lunar Reconnaissance Orbiter]] photographed the landing site from increasingly low orbits.<ref>{{cite web |url=http://www.nasa.gov/mission_pages/LRO/news/apollo-sites.html |title=NASA Spacecraft Images Offer Sharper Views of Apollo Landing Sites |last1=Neal-Jones |first1=Nancy |last2=Zubritsky |first2=Elizabeth |last3=Cole |first3=Steve |editor-last=Garner |editor-first=Robert |date=September 6, 2011 |publisher=NASA |id=Goddard Release No. 11-058 (co-issued as NASA HQ Release No. 11-289) |accessdate=24 July 2013}}</ref>
+
+== Depiction of mission in fiction ==
+
+Portions of the Apollo 17 mission are dramatized in the 1998 [[HBO]] miniseries ''[[From the Earth to the Moon (TV miniseries)|From the Earth to the Moon]]'' episode entitled [[From the Earth to the Moon (TV miniseries)#Episodes|"Le Voyage dans la Lune."]]<ref name=hbomin>{{cite web|title=From the Earth to the Moon - Season 1, Episode 12: Le Voyage Dans La Lune|url=http://www.tv.com/from-the-earth-to-the-moon/le-voyage-dans-la-lune/episode/159367/summary.html|work=[[TV.com]]|publisher=[[CBS Interactive]]|location=San Francisco, CA|accessdate=26 August 2011}}</ref>
+
+The prologue to the 1999 novel ''[[Back to the Moon]]'', by [[Homer Hickham]], begins with a dramatized depiction of the end of the second Apollo 17 EVA. The orange soil then becomes the major driver of the plot of the rest of the story.<ref>Homer H. Hickham, Jr., ''[[Back to the Moon]]'', Island Books, New York, 1999, pp 3 - 8</ref>
+
+The 2005 novel ''[[Tyrannosaur Canyon]]'' by [[Douglas Preston]] opens with a depiction of the Apollo 17 moonwalks using quotes taken from the official mission transcript.<ref name=tycanyon>{{cite news|last=Anderson|first=Patrick|title=Rex Marks the Spot|url=http://www.washingtonpost.com/wp-dyn/content/article/2005/09/18/AR2005091801146.html|accessdate=24 August 2011|newspaper=[[The Washington Post]]|date=19 September 2005}}</ref> 
+
+Additionally, there have been fictional astronauts in film, literature and television who have been described as "the last man to walk on the Moon," implying they were crew members on Apollo 17. One such character was [[Steve Austin (fictional character)|Steve Austin]] in the television series ''[[The Six Million Dollar Man]]''. In the 1972 novel ''[[Cyborg (novel)|Cyborg]]'', upon which the series was based, Austin remembers watching the Earth "fall away during Apollo XVII."<ref>[[#Caidin|Caidin 1972]], p. 15</ref> In the 1998 film ''[[Deep Impact (film)|Deep Impact]]'' fictional astronaut Spurgeon "Fish" Tanner, portrayed by [[Robert Duvall]], was described at a Presidential press conference as the "last man to walk on the moon" by the President of the United States, portrayed by [[Morgan Freeman]].<ref>{{cite web |url=http://www.subzin.com/search.php?title=Deep+Impact&imdb=&q=You+were+the+last+man+to+walk+on+the+moon%2C+weren%27t+you&search_sort=Popularity&genre=-1&type=All |title=Deep Impact quotes |work=Subzin.com |accessdate=24 July 2013}}</ref>
+
+== Multimedia ==
+
+<gallery>
+image:Apollo 17 The Last Moon Shot Edit1.jpg|The Apollo 17 Saturn V awaits launch
+image:Spiro Agnew Congratulates Launch Control After Launch of Apollo 17 - GPN-2002-000058.jpg|[[Vice President of the United States|Vice President]] [[Spiro Agnew]] congratulates launch control after the launch
+image:The Earth seen from Apollo 17.jpg|Apollo 17 photo of the Earth as the spacecraft headed for the Moon (now known as "The [[Blue Marble]] photo")
+File:Taurus-Littrow valley 4078 h3.jpg|[[Lunar Orbiter 4]] image of the Taurus-Littrow valley, with the landing site near center.
+image:Ap17 schmitt falls.ogg|Astronaut [[Harrison Schmitt]] falls while on a moonwalk
+image:Astronaut Harrison 'Jack' Schmitt, American Flag, and Earth (Apollo 17 EVA-1).jpg|Harrison Schmitt posed with the [[American flag]] and [[Earth]] in the background during Apollo 17's first [[extra-vehicular activity|EVA]]. [[Eugene Cernan]] is visible reflected in Schmitt's helmet visor
+image:Waning crescent earth seen from the moon.jpg|View of the waning crescent Earth seen rising above the lunar horizon over the [[Ritz (crater)|Ritz Crater]]
+image:Moon-apollo17-schmitt boulder.jpg|Schmitt stands next to a large boulder during EVA-3
+image:AS17-145-22224.jpg|Cernan in the Lunar Module after EVA-3
+image:Harrison Schmitt inside LM on surface, Apollo 17.jpg|Schmitt in the Lunar Module after EVA-3
+image:Ap17-ascent.ogg|Apollo 17's Lunar Module blasts off and leaves the Moon
+File:Apollo 17 astronaut Ronald E. Evans performs an extravehicular  activity during the trans-Earth coast.jpg|Evans performs an EVA before returning home
+image:A17-plaque.JPG|The plaque left on the Moon by Apollo 17
+image:Apollo17UV.jpg|A model of the UV spectrometer used to take the first accurate measurements of the constituents of the Moon's atmosphere
+image:Challenger 4x.png|Landing site, as imaged by the Lunar Reconnaissance Orbiter in 2009
+image:Apollo 17 LM Challenger LRO.png|Narrow-angle image of the LM ''Challenger'' descent stage surrounded by LRV tracks and footprints, as imaged by the Lunar Reconnaissance Orbiter in 2011
+</gallery>
+
+== See also ==
+{{Portal|Spaceflight}}
+* [[Taurus–Littrow (lunar valley)]]
+* [[Apollo program]]
+* [[Apollo Lunar Module]]
+* [[Apollo Command/Service Module]]
+* [[Saturn V]]
+* [[Moon landing]]
+* ''[[The Case of the Missing Moon Rocks]]''
+* [[List of Apollo missions]]
+* [[List of NASA missions]]
+* [[List of human spaceflights]]
+* [[List of astronauts by year of selection]]
+* [[List of manned spacecraft]]
+* [[List of human spaceflight programs]]
+* [[List of landings on extraterrestrial bodies]]
+* [[List of spacewalks and moonwalks 1965–1999]]
+* [[List of Apollo mission types]]
+
+== References ==
+{{Include-NASA}}
+{{Reflist|colwidth=30em}}
+
+== Bibliography ==
+{{Refbegin}}
+* Brzostowski, M.A., and Brzostowski, A.C., ''Archiving the Apollo active seismic data'', The Leading Edge, Society of Exploration Geophysicists, April, 2009.
+* {{cite book |title=[[Cyborg (novel)|Cyborg]] |last=Caidin |first=Martin |authorlink=Martin Caidin |year=1972 |isbn=0-87795-025-3 |publisher=Warner Paperback Library |location=New York |lccn=73183758 |ref=Caidin}}
+* {{cite book |title=Deke! U.S. Manned Space: From Mercury to the Shuttle |last1=Slayton |first1=Donald K. "Deke" |authorlink1=Deke Slayton |last2=Cassutt |first2=Michael |authorlink2=Michael Cassutt |year=1994 |edition=1st |publisher=[[Tor Books|Forge]] |location=New York |isbn=0-312-85503-6 |oclc=29845663 |lccn=94-2463 |ref=Slayton & Cassutt}}
+{{Refend}}
+
+==External links==
+{{commons|Apollo 17}}
+* [http://www.astronautix.com/flights/apollo17.htm "Apollo 17"] at Encyclopedia Astronautica
+* [http://nssdc.gsfc.nasa.gov/planetary/lunar/apollo17info.html "Apollo 17"] Detailed mission information by Dr. David R. Williams, [[NASA Goddard Space Flight Center]]
+* [https://mira.hq.nasa.gov/history/ws/hdmshrc/all/main/DDD/17980.PDF Apollo 17 Press Kit] (PDF) NASA, Release No. 72-220K, 26 November 1972
+* [http://history.nasa.gov/SP-4012/vol3/table2.45.htm "Table 2-45. Apollo 17 Characteristics"] from ''NASA Historical Data Book: Volume III: Programs and Projects 1969–1978'' by Linda Neuman Ezell, NASA SP-4012, NASA History Series (1988)
+* [http://www.hq.nasa.gov/alsj/a17/a17.html Apollo 17 Lunar Surface Journal]
+* [http://www.lpi.usra.edu/lunar/missions/apollo/apollo_17/experiments/ Apollo 17 Mission Experiments Overview] at the [[Lunar and Planetary Institute]]
+* [http://www.lpi.usra.edu/lunar/documents/NASA%20CR-146107.pdf ''Apollo 17 Voice Transcript Pertaining to the Geology of the Landing Site''] (PDF) by N. G. Bailey and G. E. Ulrich, [[United States Geological Survey]], 1975
+* [http://history.nasa.gov/apsr/apsr.htm "Apollo Program Summary Report"] (PDF), NASA, JSC-09423, April 1975
+* [http://www.hq.nasa.gov/office/pao/History/SP-4209/appb.htm "Development of Manned Space Flight, American and Soviet"] from ''The Partnership: A History of the Apollo-Soyuz Test Project'' by Edward Clinton Ezell and Linda Neuman Ezell, NASA SP-4209, NASA History Series (1978)
+* [http://www.hq.nasa.gov/office/pao/History/SP-4009/cover.htm ''The Apollo Spacecraft: A Chronology''] NASA, NASA SP-4009
+*{{YouTube|id=YfmUYkkuUL8|title=Apollo 17 "On The Shoulders of Giants" - NASA Space Program & Moon Landings Documentary}}
+* [http://magma.nationalgeographic.com/ngm/0407/online_extra.html?c=Newsletters&n=2Q04_Insider2&t=internal "The Final Flight"] – excerpt from the September 1973 issue of ''[[National Geographic (magazine)|National Geographic]]'' magazine
+* [http://www.maniacworld.com/Apollo_17_Final_Reflections.htm "Apollo 17 Final Reflections on Apollo"] at Maniac World
+
+{{Apollo program| before=[[Apollo 16]]| after=[[Skylab 1]] [[Skylab 2]]}}
+{{Lunar rovers}}
+
+[[Category:Apollo program]]
+[[Category:Manned missions to the Moon]]
+[[Category:Missions to the Moon]]
+[[Category:Sample return missions]]
+[[Category:1972 in spaceflight]]
+[[Category:1972 in the United States]]
+[[Category:Lunar rovers]]
+
+{{Link GA|fr}}

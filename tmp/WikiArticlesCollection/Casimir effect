@@ -1,0 +1,237 @@
+{{Use dmy dates|date=June 2013}}
+[[File:Casimir plates.svg|thumb|Casimir forces on parallel plates]]
+[[File:Casimir plates bubbles.svg|thumb|Casimir forces on parallel plates]]
+[[File:Water wave analogue of Casimir effect.ogv|thumb|A water wave analogue of the Casimir effect. Two parallel plates are submerged into colored water contained in a [[Sonication|sonicator]]. When the sonicator is turned on, waves are excited imitating vacuum fluctuations; as a result, the plates attract to each other.]]
+
+In [[quantum field theory]], the '''Casimir effect''' and the '''Casimir–Polder force''' are physical [[force (physics)|forces]] arising from a [[quantization (physics)|quantized field]]. They are named after the Dutch physicist [[Hendrik Casimir]].
+
+The typical example is of two [[electric charge|uncharged]] metallic plates in a [[vacuum]], placed a few micrometers apart. In a [[classical electromagnetism|classical]] description, the lack of an external field also means that there is no field between the plates, and no force would be measured between them.<ref>Cyriaque Genet, Francesco Intravaia, Astrid Lambrecht and Serge Reynaud (2004) "[http://arxiv.org/PS_cache/quant-ph/pdf/0302/0302072v2.pdf Electromagnetic vacuum fluctuations, Casimir and Van der Waals forces]"</ref> When this field is instead studied using the [[QED vacuum]] of [[quantum electrodynamics]], it is seen that the plates do affect the [[virtual particle|virtual photons]] which constitute the field, and generate a net force<ref>[http://focus.aps.org/story/v2/st28 The Force of Empty Space], Physical Review Focus, 3 December 1998</ref>—either an attraction or a repulsion depending on the specific arrangement of the two plates. Although the Casimir effect can be expressed in terms of [[virtual particle]]s interacting with the objects, it is best described and more easily calculated in terms of the [[zero-point energy]] of a [[Quantum field theory|quantized field]] in the intervening space between the objects. This force has been measured, and is a striking example of an effect captured formally by [[second quantization]].<ref>A. Lambrecht, [http://physicsworld.com/cws/article/print/9747 The Casimir effect: a force from nothing], ''Physics World'', September 2002.</ref><ref>[http://www.aip.org/pnu/1996/split/pnu300-3.htm American Institute of Physics News Note 1996]</ref> However, the treatment of boundary conditions in these calculations has led to some controversy.
+In fact "Casimir's original goal was to compute the [[van der Waals force]] between [[dipolar polarization|polarizable molecules]]" of the metallic plates. Thus it can be interpreted without any reference to the zero-point energy (vacuum energy) or [[virtual particle]]s of quantum fields.<ref>{{cite journal|last1=Jaffe|first1=R.|title=Casimir effect and the quantum vacuum|arxiv=hep-th/0503158|journal=Physical Review D|volume=72|pages=021301|year=2005 
+|doi=10.1103/PhysRevD.72.021301|issue=2|bibcode=2005PhRvD..72b1301J }}</ref>
+
+[[Netherlands|Dutch]] physicists [[Hendrik Casimir|Hendrik B. G. Casimir]] and [[Dirk Polder]] at [[Philips Natuurkundig Laboratorium|Philips Research Labs]] proposed the existence of a force between two polarizable atoms and between such an atom and a conducting plate in 1947, and, after a conversation with Niels Bohr who suggested it had something to do with zero-point energy, Casimir alone formulated the theory predicting a force between neutral conducting plates in 1948; the former is called the Casimir–Polder force while the latter is the Casimir effect in the narrow sense. Predictions of the force were later extended to finite-conductivity metals and dielectrics by Lifshitz and his students, and recent calculations have considered more general geometries. It was not until 1997, however, that a direct experiment, by S. Lamoreaux, described above, quantitatively measured the force (to within 15% of the value predicted by the theory),<ref>[http://apod.nasa.gov/apod/ap061217.html Photo of ball attracted to a plate by Casimir effect]</ref>  although previous work [e.g. van Blockland and Overbeek (1978)] had observed the force qualitatively, and indirect validation of the predicted Casimir energy had been made by measuring the thickness of [[liquid helium]] films  by Sabisky and Anderson in 1972. Subsequent experiments approach an accuracy of a few percent.
+
+Because the strength of the force falls off rapidly with distance, it is measurable only when the distance between the objects is extremely small. On a submicron scale, this force becomes so strong that it becomes the dominant force between uncharged conductors. In fact, at separations of 10&nbsp;nm—about 100 times the typical size of an atom—the Casimir effect produces the equivalent of 1 [[atmosphere (unit)|atmosphere]] of pressure (101.325 [[Pascal (unit)|kPa]], 1.01325 [[Bar (unit)|bar]], 14.69595 [[Pounds per square inch|psi]]), the precise value depending on surface geometry and other factors.<ref>{{Cite web|url=http://physicsworld.com/cws/article/print/9747|title=The Casimir effect: a force from nothing|date=1 September 2002|accessdate=17 July 2009|publisher=physicsworld.com}}</ref>
+
+In modern [[theoretical physics]], the Casimir effect plays an important role in the [[nucleon#Models|chiral bag model]] of the [[nucleon]]; and in [[applied physics]], it is significant in some aspects of emerging [[microtechnologies]] and [[nanotechnologies]].<ref>Astrid Lambrecht,Serge Reynaud and Cyriaque Genet" [http://www.fisica.unipa.it/~cewqo2007/Archive/presentations/Genet.pdf Casimir In The Nanoworld]"</ref>
+
+Any medium supporting oscillations has an analogue of the Casimir effect. For example, beads on a string<ref>{{Cite doi|10.1119/1.1396620}}</ref><ref>{{Cite doi|10.1119/1.18907}}</ref> as well as plates submerged in noisy water<ref>{{Cite doi|10.1119/1.3211416}}</ref> or gas<ref>{{Cite doi|10.1016/S0375-9601(98)00652-5}}</ref> exhibit the Casimir force.
+
+==Overview==
+The Casimir effect can be understood by the idea that the presence of conducting metals and [[dielectric]]s alters the [[vacuum expectation value]] of the energy of the second quantized [[electromagnetic field]].<ref>E. L. Losada" [http://particulas.cnea.gov.ar/workshops/silafae/data/226.pdf Functional Approach to the Fermionic Casimir Effect]"</ref><ref name=Mohideen>
+
+{{cite book |title=Advances in the Casimir effect |author=Michael Bordag, Galina Leonidovna Klimchitskaya, Umar Mohideen |chapter=Chapter I; §3: Field quantization and vacuum energy in the presence of boundaries |url=http://books.google.com/books?id=CqE1f_s5PgYC&pg=PA33 |pages=33 ''ff'' |isbn=0-19-923874-X |year=2009 |publisher=Oxford University Press}}
+
+</ref> Since the value of this energy depends on the shapes and positions of the conductors and dielectrics, the Casimir effect manifests itself as a force between such objects.
+
+==Possible causes==
+===Vacuum energy=== <!-- This section is linked from [[Faster-than-light]] -->
+{{Quantum field theory}}
+{{Main|Vacuum energy}}
+The causes of the Casimir effect are described by [[quantum field theory]], which states that all of the various fundamental [[field (physics)|fields]], such as the [[electromagnetic field]], must be quantized at each and every point in space. In a simplified view, a "field" in physics may be envisioned as if space were filled with interconnected vibrating balls and springs, and the strength of the field can be visualized as the displacement of a ball from its rest position. Vibrations in this field propagate and are governed by the appropriate [[wave equation]] for the particular field in question. The [[second quantization]] of quantum field theory requires that each such ball-spring combination be quantized, that is, that the strength of the field be quantized at each point in space. At the most basic level, the field at each point in space is a [[Harmonic oscillator|simple harmonic oscillator]], and its quantization places a [[quantum harmonic oscillator]] at each point. Excitations of the field correspond to the [[elementary particle]]s of [[particle physics]]. However, even the [[vacuum]] has a vastly complex structure, so all calculations of quantum field theory must be made in relation to this model of the vacuum.
+
+The vacuum has, implicitly, all of the properties that a particle may have: [[spin (physics)|spin]], or [[polarization (waves)|polarization]] in the case of [[light]], [[energy]], and so on. On average, most of these properties cancel out: the vacuum is, after all, "empty" in this sense. One important exception is the [[vacuum energy]] or the [[vacuum expectation value]] of the energy. The quantization of a simple harmonic oscillator states that the lowest possible energy or [[zero-point energy]] that such an oscillator may have is
+
+:<math>{E} = \begin{matrix} \frac{1}{2} \end{matrix} \hbar \omega \ .</math>
+
+Summing over all possible oscillators at all points in space gives an infinite quantity. To remove this infinity, one may argue that only differences in energy are physically measurable; this argument is the underpinning of the theory of [[renormalization]]{{citation needed|date=April 2013}}. In all practical calculations, this is how the infinity is always handled{{citation needed|date=April 2013}}. In a deeper sense, however, renormalization is unsatisfying{{why|date=April 2013}}, and the removal of this infinity presents a challenge in the search for a [[Theory of Everything]]. Currently there is no compelling explanation for why this infinity should be treated as essentially zero; a non-zero value is essentially the [[cosmological constant]]{{citation needed|date=April 2013}} and any large value causes trouble in [[physical cosmology|cosmology]].
+
+===Relativistic van der Waals force===
+Alternatively, a 2005 paper by [[Robert Jaffe]] of MIT states that "Casimir effects
+can be formulated and Casimir forces can be computed without reference to zero-point energies.
+They are relativistic, quantum forces between charges and currents. The Casimir force (per unit
+area) between parallel plates vanishes as alpha, the fine structure constant, goes to zero, and the standard result, which appears to be independent of alpha, corresponds to the alpha → infinity limit," and that "The Casimir force is simply the (relativistic, [[retarded potential|retarded]]) [[van der Waals force]] between the metal plates."<ref>{{cite arxiv|title=The Casimir Effect and the Quantum Vacuum|author=R.L.Jaffe|year=2005|publisher=ArXiv preprint|eprint=hep-th/0503158v1.pdf}}</ref>
+
+==Effects==
+Casimir's observation was that the [[Canonical quantization|second-quantized]] quantum electromagnetic field, in the presence of bulk bodies such as metals or [[dielectric]]s, must obey the same [[Boundary value problem|boundary condition]]s that the classical electromagnetic field must obey. In particular, this affects the calculation of the vacuum energy in the presence of a [[Electrical conductor|conductor]] or dielectric.
+
+Consider, for example, the calculation of the vacuum expectation value of the electromagnetic field inside a metal cavity, such as, for example, a [[Cavity magnetron|radar cavity]] or a [[microwave]] [[waveguide]]. In this case, the correct way to find the zero-point energy of the field is to sum the energies of the [[standing wave]]s of the cavity. To each and every possible standing wave corresponds an energy; say the energy of the ''n''th standing wave is <math>E_n</math>. The vacuum expectation value of the energy of the electromagnetic field in the cavity is then
+
+:<math>\langle E \rangle = \frac{1}{2} \sum_n E_n</math>
+
+with the sum running over all possible values of ''n'' enumerating the standing waves. The factor of 1/2 corresponds to the fact that the zero-point energies are being summed (it is the same 1/2 as appears in the equation <math>E=\hbar \omega/2</math>). Written in this way, this sum is clearly divergent; however, it can be used to create finite expressions.
+
+In particular, one may ask how the zero-point energy depends on the shape ''s'' of the cavity. Each energy level <math>E_n</math> depends on the shape, and so one should write <math>E_n(s)</math> for the energy level, and <math>\langle E(s) \rangle</math> for the vacuum expectation value. At this point comes an important observation: the force at point ''p'' on the wall of the cavity is equal to the change in the vacuum energy if the shape ''s'' of the wall is perturbed a little bit, say by <math>\delta s</math>, at point ''p''. That is, one has
+
+:<math>F(p) = - \left. \frac{\delta \langle E(s) \rangle} {\delta s} \right\vert_p.\,</math>
+
+This value is finite in many practical calculations.<ref>For a brief summary, see the introduction in {{cite journal|last1=Passante|first1=R.|last2=Spagnolo|first2=S.|title=Casimir-Polder interatomic potential between two atoms at finite temperature and in the presence of boundary conditions|arxiv=0708.2240|journal=Physical Review A|volume=76|pages=042112|year=2007 |doi=10.1103/PhysRevA.76.042112|issue=4|bibcode = 2007PhRvA..76d2112P }}</ref>
+
+Attraction between the plates can be easily understood by focusing on the onedimensional situation. Suppose that a moveable conductive plate is positioned at a short distance ''a'' from one of two widely separated plates (distance ''L'' apart). With ''a'' << ''L'', the states within the slot of width ''a'' are highly constrained so that the energy ''E'' of any one mode is widely separated from that of the next. This is not the case in open region ''L'', where there is a large number (about ''L''/''a'') of states with energy evenly spaced between ''E'' and the next mode in the narrow slot---in other words, all slightly larger than ''E''. Now on shortening ''a'' by d''a'' (< 0), the mode in the slot shrinks in wavelength and therefore increases in energy proportional to -d''a''/''a'', whereas all the outside ''L''/''a'' states lengthen and correspondingly lower energy proportional to d''a''/''L'' (note the denominator). The net change is slightly negative, because all the ''L''/''a'' modes' energies are slightly larger than the single mode in the slot.
+
+==Derivation of Casimir effect assuming zeta-regularization==
+In the original calculation done by Casimir, he considered the space between a pair of conducting metal plates at distance <math>a</math> apart. In this case, the standing waves are particularly easy to calculate, because the transverse component of the electric field and the normal component of the magnetic field must vanish on the surface of a conductor. Assuming the parallel plates lie in the xy-plane, the standing waves are
+
+:<math>\psi_n(x,y,z;t) = e^{-i\omega_nt} e^{ik_xx+ik_yy} \sin \left(k_n z \right)</math>
+
+where <math>\psi</math> stands for the electric component of the electromagnetic field, and, for brevity, the polarization and the magnetic components are ignored here. Here, <math>k_x</math> and <math>k_y</math> are the [[wave vector]]s in directions parallel to the plates, and
+
+:<math>k_n = \frac{n\pi}{a}</math>
+
+is the wave-vector perpendicular to the plates. Here, ''n'' is an integer, resulting from the requirement that ψ vanish on the metal plates. The frequency of this wave is
+
+:<math>\omega_n = c \sqrt{{k_x}^2 + {k_y}^2 + \frac{n^2\pi^2}{a^2}}</math>
+
+where ''c'' is the [[speed of light]]. The vacuum energy is then the sum over all possible excitation modes
+
+:<math>\langle E \rangle = \frac{\hbar}{2} \cdot 2
+\int \frac{A dk_x dk_y}{(2\pi)^2} \sum_{n=1}^\infty \omega_n </math>
+
+where ''A'' is the area of the metal plates, and a factor of 2 is introduced for the two possible polarizations of the wave. This expression is clearly infinite, and to proceed with the calculation, it is convenient to introduce a [[regularization (physics)|regulator]] (discussed in greater detail below). The regulator will serve to make the expression finite, and in the end will be removed. The [[Zeta function regularization|zeta-regulated]] version of the energy per unit-area of the plate is
+
+:<math>\frac{\langle E(s) \rangle}{A} = \hbar
+\int \frac{dk_x dk_y}{(2\pi)^2} \sum_{n=1}^\infty \omega_n
+\vert \omega_n\vert^{-s}.</math>
+
+In the end, the limit <math>s\to 0</math> is to be taken. Here ''s'' is just a [[complex number]], not to be confused with the shape discussed previously. This integral/sum is finite for ''s'' [[real number|real]] and larger than 3. The sum has a [[pole (complex analysis)|pole]] at ''s'' = 3, but may be [[analytic continuation|analytically continued]] to ''s'' = 0, where the expression is finite. The above expression simplifies to:
+
+:<math>\frac{\langle E(s) \rangle}{A} = 
+\frac{\hbar c^{1-s}}{4\pi^2} \sum_n \int_0^\infty 2\pi qdq
+\left \vert q^2 + \frac{\pi^2 n^2}{a^2} \right\vert^{(1-s)/2}</math>
+
+where [[Polar coordinate system|polar coordinates]] <math>q^2 = k_x^2+k_y^2</math> were introduced to turn the [[Multiple integral|double integral]] into a single integral. The <math>q</math> in front is the Jacobian, and the <math>2\pi</math> comes from the angular integration. The integral converges if Re[''s''] > 3, resulting in
+
+:<math>\frac{\langle E(s) \rangle}{A} = 
+-\frac {\hbar c^{1-s} \pi^{2-s}}{2a^{3-s}} \frac{1}{3-s}
+\sum_n \vert n\vert ^{3-s}.</math>
+
+The sum diverges at ''s'' in the neighborhood of zero, but if the damping of large-frequency excitations corresponding to analytic continuation of the [[Riemann zeta function]] to ''s'' = 0 is assumed to make sense physically in some way, then one has
+
+:<math>\frac{\langle E \rangle}{A} = 
+\lim_{s\to 0} \frac{\langle E(s) \rangle}{A} = 
+-\frac {\hbar c \pi^{2}}{6a^{3}} \zeta (-3).</math>
+
+But <math>\zeta(-3)=1/120</math> and so one obtains
+
+:<math>\frac{\langle E \rangle}{A} = 
+\frac {-\hbar c \pi^{2}}{3 \cdot 240 a^{3}}.</math>
+
+The analytic continuation has evidently lost an additive positive infinity, somehow exactly accounting for the zero-point energy (not included above) outside the slot between the plates, but which changes upon plate movement within a closed system.  The Casimir force per unit area <math>F_c / A</math> for idealized, perfectly conducting plates with vacuum between them is
+
+:<math>{F_c \over A} = -
+\frac{d}{da} \frac{\langle E \rangle}{A} =
+-\frac {\hbar c \pi^2} {240 a^4}</math>
+
+where
+
+:<math>\hbar</math> (hbar, ħ) is the [[reduced Planck constant]],
+:<math>c</math> is the [[speed of light]],
+:<math>a</math> is the [[distance]] between the two plates.
+
+The force is negative, indicating that the force is attractive: by moving the two plates closer together, the energy is lowered. The presence of <math>\hbar</math> shows that the Casimir force per unit area <math>F_c / A</math> is very small, and that furthermore, the force is inherently of quantum-mechanical origin.
+
+NOTE: In Casimir's original derivation [http://www.dwc.knaw.nl/DL/publications/PU00018547.pdf], a moveable conductive plate is positioned at a short distance ''a'' from one of two widely separated plates (distance ''L'' apart). The 0-point energy on ''both'' sides of the plate is considered. Instead of the above ''ad hoc'' analytic continuation assumption, non-convergent sums and integrals are computed using [[Euler-Maclaurin summation]] with a regularizing function (e.g., exponential regularization) not so anomalous as <math>\vert\omega_n\vert^{-s}</math>  in the above.
+
+===More recent theory===
+Casimir's analysis of idealized metal plates was generalized to arbitrary dielectric and realistic metal plates by [[Evgeny Lifshitz|Lifshitz]] and his students.<ref>{{cite journal|last1=Dzyaloshinskii|first1=I E|last2=Lifshitz|first2=E M|last3=Pitaevskii|first3=Lev P|title=GENERAL THEORY OF VAN DER WAALS' FORCES|journal=Soviet Physics Uspekhi|volume=4|pages=153|year=1961|doi=10.1070/PU1961v004n02ABEH003330|issue=2|bibcode = 1961SvPhU...4..153D }}</ref><ref>{{cite journal|last1=Dzyaloshinskii|first1=I E|last2=Kats|first2=E I|title=Casimir forces in modulated systems|arxiv=cond-mat/0408348|journal=Journal of Physics: Condensed Matter|volume=16|pages=5659|year=2004 |doi=10.1088/0953-8984/16/32/003|issue=32|bibcode = 2004JPCM...16.5659D }}</ref> Using this approach, complications of the bounding surfaces, such as the modifications to the Casimir force due to finite conductivity, can be calculated numerically using the tabulated complex dielectric functions of the bounding materials. Lifshitz' theory for two metal plates reduces to Casimir's idealized 1/''a''<sup>4</sup> force law for large separations ''a'' much greater than the [[skin depth]] of the metal, and conversely reduces to the 1/''a''<sup>3</sup> force law of the [[London dispersion force]] (with a coefficient called a [[Hamaker constant]]) for small ''a'', with a more complicated dependence on ''a'' for intermediate separations determined by the [[Dispersion (optics)|dispersion]] of the materials.<ref>V. A. Parsegian, ''Van der Waals Forces: A Handbook for Biologists, Chemists, Engineers, and Physicists'' (Cambridge Univ. Press, 2006).</ref>
+
+Lifshitz' result was subsequently generalized to arbitrary multilayer planar geometries as well as to anisotropic and magnetic materials, but for several decades the calculation of Casimir forces for non-planar geometries remained limited to a few idealized cases admitting analytical solutions.<ref name=Rodriguez11-review/>  For example, the force in the experimental sphere–plate geometry was computed with an approximation (due to Derjaguin) that the sphere radius ''R'' is much larger than the separation ''a'', in which case the nearby surfaces are nearly parallel and the parallel-plate result can be adapted to obtain an approximate ''R''/''a''<sup>3</sup> force (neglecting both skin-depth and [[Orders of approximation|higher-order]] curvature effects).<ref name=Rodriguez11-review/><ref>B. V. Derjaguin, I. I. Abrikosova, and E. M. Lifshitz, ''Quarterly Reviews, Chemical Society'', vol. 10, 295–329 (1956).</ref>  However, in the 2000s a number of authors developed and demonstrated a variety of numerical techniques, in many cases adapted from classical [[computational electromagnetics]], that are capable of accurately calculating Casimir forces for arbitrary geometries and materials, from simple finite-size effects of finite plates to more complicated phenomena arising for patterned surfaces or objects of various shapes.<ref name=Rodriguez11-review>{{cite journal|first1=A. W.|last1=Rodriguez|first2=F.|last2=Capasso|title=The Casimir effect in microstructured geometries|journal=Nature Photonics|volume=5|pages=211–221|year=2011|doi=10.1038/nphoton.2011.39|last3=Johnson|first3=Steven G.|issue=4|bibcode = 2011NaPho...5..211R }} Review article.</ref>
+
+==Measurement==
+One of the first experimental tests was conducted by Marcus Sparnaay at Philips in Eindhoven, in 1958, in a delicate and difficult experiment with parallel plates, obtaining results not in contradiction with the Casimir theory,<ref>{{cite journal|last1=Sparnaay|first1=M. J.|title=Attractive Forces between Flat Plates|journal=Nature|volume=180|pages=334|year=1957|doi=10.1038/180334b0|issue=4581|bibcode = 1957Natur.180..334S }}</ref><ref>{{cite journal|last1=Sparnaay|first1=M|title=Measurements of attractive forces between flat plates|journal=Physica|volume=24|pages=751|year=1958|doi=10.1016/S0031-8914(58)80090-7|issue=6–10|bibcode = 1958Phy....24..751S }}</ref> but with large experimental errors. Some of the experimental details as well as some background information on how Casimir, Polder and Sparnaay arrived at this point<ref>[http://www.draschan.com/gallery/casimir-sparnaay-werner.mov Movie]</ref> are highlighted in a 2007 interview with Marcus Sparnaay.
+
+The Casimir effect was measured more accurately in 1997 by Steve K. Lamoreaux of [[Los Alamos National Laboratory]],<ref>{{cite journal|last1=Lamoreaux|first1=S. K.|title=Demonstration of the Casimir Force in the 0.6 to 6 μm Range|journal=Physical Review Letters|volume=78|pages=5|year=1997|doi=10.1103/PhysRevLett.78.5|bibcode = 1997PhRvL..78....5L }}</ref> and by Umar Mohideen and Anushree Roy of the [[University of California at Riverside]].<ref>{{cite journal|doi=10.1103/PhysRevLett.81.4549|last1=Mohideen|first1=U.|year=1998|pages=4549|volume=81|journal=Physical Review Letters|last2=Roy|first2=Anushree|title= Precision Measurement of the Casimir Force from 0.1 to 0.9 µm|issue=21|arxiv = physics/9805038 |bibcode = 1998PhRvL..81.4549M }}</ref> In practice, rather than using two parallel plates, which would require phenomenally accurate alignment to ensure they were parallel, the experiments use one plate that is flat and another plate that is a part of a [[sphere]] with a large [[radius]].
+
+In 2001, a group (Giacomo Bressi, Gianni Carugno, Roberto Onofrio and Giuseppe Ruoso) at the [[University of Padua|University of Padua (Italy)]] finally succeeded in measuring the Casimir force between parallel plates using [[Microelectromechanical system oscillator#Resonators|microresonators]].<ref>{{cite journal|last1=Bressi|first1=G.|last2=Carugno|first2=G.|last3=Onofrio|first3=R.|last4=Ruoso|first4=G.|title=Measurement of the Casimir Force between Parallel Metallic Surfaces|journal=Physical Review Letters|volume=88|pages=041804|year=2002|doi=10.1103/PhysRevLett.88.041804|issue=4|pmid=11801108|arxiv = quant-ph/0203002 |bibcode = 2002PhRvL..88d1804B }}</ref>
+
+==Regularisation==
+In order to be able to perform calculations in the general case, it is convenient to introduce a [[regularization (physics)|regulator]] in the summations. This is an artificial device, used to make the sums finite so that they can be more easily manipulated, followed by the taking of a limit so as to remove the regulator.
+
+The [[heat kernel regularization|heat kernel]] or [[Exponential function|exponentially]] regulated sum is
+:<math>\langle E(t) \rangle = \frac{1}{2} \sum_n \hbar |\omega_n| 
+\exp (-t|\omega_n|)</math>
+
+where the limit <math>t\to 0^+</math> is taken in the end. The divergence of the sum is typically manifested as
+
+:<math>\langle E(t) \rangle = \frac{C}{t^3} + \textrm{finite}\,</math>
+
+for three-dimensional cavities. The infinite part of the sum is associated with the bulk constant ''C'' which ''does not'' depend on the shape of the cavity. The interesting part of the sum is the finite part, which is shape-dependent. The [[Gaussian function|Gaussian]] regulator
+
+:<math>\langle E(t) \rangle = \frac{1}{2} \sum_n \hbar |\omega_n| 
+\exp (-t^2|\omega_n|^2)</math>
+
+is better suited to numerical calculations because of its superior convergence properties, but is more difficult to use in theoretical calculations. Other, suitably smooth, regulators may be used as well. The [[zeta function regulator]]
+
+:<math>\langle E(s) \rangle = \frac{1}{2} \sum_n \hbar |\omega_n| |\omega_n|^{-s}</math>
+
+is completely unsuited for numerical calculations, but is quite useful in theoretical calculations. In particular, divergences show up as poles in the [[complex plane|complex ''s'' plane]], with the bulk divergence at ''s'' = 4. This sum may be [[analytic continuation|analytically continued]] past this pole, to obtain a finite part at ''s'' = 0.
+
+Not every cavity configuration necessarily leads to a finite part (the lack of a pole at ''s'' = 0) or shape-independent infinite parts. In this case, it should be understood that additional physics has to be taken into account. In particular, at extremely large frequencies (above the [[plasma frequency]]), metals become transparent to [[photon]]s (such as [[X-ray]]s), and dielectrics show a frequency-dependent cutoff as well. This frequency dependence acts as a natural regulator. There are a variety of bulk effects in [[solid state physics]], mathematically very similar to the Casimir effect, where the [[cutoff frequency]] comes into explicit play to keep expressions finite. (These are discussed in greater detail in ''Landau and Lifshitz'', "Theory of Continuous Media".)
+
+==Generalities==
+The Casimir effect can also be computed using the mathematical mechanisms of [[functional integral]]s of quantum field theory, although such calculations are considerably more abstract, and thus difficult to comprehend. In addition, they can be carried out only for the simplest of geometries. However, the formalism of quantum field theory makes it clear that the vacuum expectation value summations are in a certain sense summations over so-called "[[virtual particle]]s".
+
+More interesting is the understanding that the sums over the energies of standing waves should be formally understood as sums over the [[eigenvalue]]s of a [[Hamiltonian (quantum mechanics)|Hamiltonian]]. This allows atomic and molecular effects, such as the [[van der Waals force]], to be understood as a variation on the theme of the Casimir effect. Thus one considers the Hamiltonian of a system as a function of the arrangement of objects, such as atoms, in [[configuration space]]. The change in the zero-point energy as a function of changes of the configuration can be understood to result in forces acting between the objects.
+
+In the [[chiral bag model]] of the nucleon, the Casimir energy plays an important role in showing the mass of the nucleon is independent of the bag radius. In addition, the [[spectral asymmetry]] is interpreted as a non-zero vacuum expectation value of the [[baryon number]], cancelling the [[topological winding number]] of the [[pion]] field surrounding the nucleon.
+
+==Dynamical Casimir effect==
+The dynamical Casimir effect is the production of particles and energy from an accelerated ''moving mirror''. This reaction was predicted by certain numerical solutions to [[quantum mechanics]] equations made in the 1970s.<ref>{{cite journal|last1=Fulling|first1=S. A.|last2=Davies|first2=P. C. W.|title=Radiation from a Moving Mirror in Two Dimensional Space-Time: Conformal Anomaly|journal=Proceedings of the Royal Society A|volume=348|pages=393|year=1976|doi=10.1098/rspa.1976.0045|issue=1654 |bibcode = 1976RSPSA.348..393F }}</ref> In May 2011 an announcement was made by researchers at the [[Chalmers University of Technology]], in Gothenburg, Sweden, of the detection of the dynamical Casimir effect. In their experiment, microwave photons were generated out of the vacuum in a superconducting microwave resonator. These researchers used a modified [[SQUID]] to change the effective length of the resonator in time, mimicking a mirror moving at the required [[Speed of light|relativistic]] velocity. If confirmed this would be the first experimental verification of the dynamical Casimir effect.<ref>{{cite news|url=http://www.technologyreview.com/blog/arxiv/26813/|title=First Observation of the Dynamical Casimir Effect|publisher=Technology Review}}</ref>
+<ref>{{cite journal|last1=Wilson|first1=C. M.|title=Observation of the Dynamical Casimir Effect in a Superconducting Circuit|journal=Nature|volume=479|pages=376–379|year=2011|doi=10.1038/nature10561|arxiv = 1105.4714 |bibcode = 2011Natur.479..376W|last2=Johansson|first2=G.|last3=Pourkabirian|first3=A.|last4=Simoen|first4=M.|last5=Johansson|first5=J. R.|last6=Duty|first6=T.|last7=Nori|first7=F.|last8=Delsing|first8=P.|issue=7373|pmid=22094697 }}</ref>
+
+===Analogies===
+A similar analysis can be used to explain [[Hawking radiation]] that causes the slow "[[Hawking_radiation#Black_hole_evaporation|evaporation]]" of [[black hole]]s (although this is generally visualized as the escape of one particle from a [[virtual particle]]-[[antiparticle]] pair, the other particle having been captured by the black hole).{{Citation needed|date=January 2013}}
+
+Constructed within the framework of [[quantum field theory in curved spacetime]], the dynamical Casimir effect has been used to better understand acceleration radiation such as the [[Unruh effect]].{{Citation needed|date=January 2013}}
+
+==Repulsive forces==
+There are few instances wherein the Casimir effect can give rise to repulsive forces between uncharged objects. [[Evgeny Lifshitz]] showed (theoretically) that in certain circumstances (most commonly involving liquids), repulsive forces can arise.<ref name=DLP>{{cite journal|last1=Dzyaloshinskii|first1=I.E.|last2=Lifshitz|first2=E.M.|last3=Pitaevskii|first3=L.P.|title=The general theory of van der Waals forces†|journal=Advances in Physics|volume=10|pages=165|year=1961|doi=10.1080/00018736100101281|issue=38|bibcode = 1961AdPhy..10..165D }}</ref> This has sparked interest in applications of the Casimir effect toward the development of levitating devices. An experimental demonstration of the Casimir-based repulsion predicted by Lifshitz was recently carried out by Munday et al.<ref>{{cite journal|last1=Munday|first1=J.N.|last2=Capasso|first2=F.|last3=Parsegian |first3=V.A.|title=Measured long-range repulsive Casimir-Lifshitz forces |journal=Nature|volume=457|pages=170–3|year=2009|doi=10.1038/nature07610|pmid=19129843|issue=7226|bibcode = 2009Natur.457..170M }}</ref> Other scientists have also suggested the use of [[gain media]] to achieve a similar levitation effect,<ref>{{Cite news| url=http://www.telegraph.co.uk/news/1559579/Physicists-have-%27solved%27-mystery-of-levitation.html|work=The Daily Telegraph|location=London|title=Physicists have 'solved' mystery of levitation|first=Roger|last=Highfield|date=6 August 2007|accessdate=28 April 2010}}</ref> though this is controversial because these materials seem to violate fundamental causality constraints and the requirement of thermodynamic equilibrium ([[Kramers-Kronig relations]]).  Casimir and Casimir-Polder repulsion can in fact occur for sufficiently anisotropic electrical bodies; for a review of the issues involved with repulsion see Milton et al.<ref>{{cite journal |last1=Milton |first1=K. A. |last2=Abalo |first2=E. K. |last3=Parashar |first3=Prachi |last4=Pourtolami |first4=Nima |last5=Brevik |first5=Iver |last6=Ellingsen |first6=Simen A. |title=Repulsive Casimir and Casimir-Polder Forces |arxiv=1202.6415v2 |journal= J. Phys. A
+|bibcode=2012JPhA...45K4006M
+|volume=45
+|year=2012
+|pages=4006
+|doi=10.1088/1751-8113/45/37/374006
+|issue=37}}</ref>
+
+==Applications==
+It has been suggested that the Casimir forces have application in nanotechnology,<ref>{{cite journal|last1=Capasso|first1=F.|last2=Munday|first2=J.N.|last3=Iannuzzi|first3=D.|last4=Chan|first4=H.B.|title=Casimir forces and quantum electrodynamical torques: physics and nanomechanics|journal=IEEE Journal of Selected Topics in Quantum Electronics|volume=13|pages=400|year=2007|doi=10.1109/JSTQE.2007.893082|issue=2}}</ref> in particular silicon integrated circuit technology based micro- and nanoelectromechanical systems, silicon array propulsion for space drives, and so-called Casimir oscillators.<ref>{{cite journal|last1=Serry|first1=F.M.|last2=Walliser|first2=D.|last3=MacLay|first3=G.J.|title=The anharmonic Casimir oscillator (ACO)-the Casimir effect in a model microelectromechanical system|url=http://www.quantumfields.com/IEEEJMEMSACO.pdf|journal=Journal of Microelectromechanical Systems|volume=4|pages=193|year=1995|doi=10.1109/84.475546|issue=4}}</ref>
+
+On 4 June 2013 it was reported<ref>{{cite web |url=http://www.sciencecodex.com/chip_harnesses_mysterious_casimir_effect_force-113394 |title=Chip harnesses mysterious Casimir effect force |date=4 June 2013 |accessdate=4 June 2013}}</ref> that a conglomerate of scientists from [[Hong Kong University of Science and Technology]], [[University of Florida]], [[Harvard University]], [[Massachusetts Institute of Technology]], and [[Oak Ridge National Laboratory]] have for the first time demonstrated a compact integrated silicon chip that harnesses the power of the Casimir effect.<ref>{{cite journal|last1=Zao|first1=J. et al|title=Casimir forces on a silicon micromechanical chip|url=http://www.nature.com/ncomms/journal/v4/n5/full/ncomms2842.html|journal=Nature Communications|volume=4|date=14 May 2013|doi=10.1038/ncomms2842|accessdate=5 June 2013|arxiv = 1207.6163 |bibcode = 2013NatCo...4E1845Z|last2=Marcet|first2=Z.|last3=Rodriguez|first3=A. W.|last4=Reid|first4=M. T. H.|last5=McCauley|first5=A. P.|last6=Kravchenko|first6=I. I.|last7=Lu|first7=T.|last8=Bao|first8=Y.|last9=Johnson|first9=S. G.|last10=Chan|first10=H. B.|pages=1845|pmid=23673630 }}</ref>
+
+==See also==
+{{Portal|Physics}}
+*[[Casimir pressure]]
+*[[Scharnhorst effect]]
+*[[Stochastic electrodynamics]]
+*[[Van der Waals force]]
+
+==References==
+{{Reflist|colwidth=30em}}
+
+==Further reading==
+<!-- try to order from introductory to advanced -->
+
+===Introductory readings===
+* [http://math.ucr.edu/home/baez/physics/Quantum/casimir.html Casimir effect description] from [[University of California, Riverside]]'s version of the [http://math.ucr.edu/home/baez/physics/index.html Usenet physics FAQ].
+* A. Lambrecht, [http://physicsworld.com/cws/article/print/9747 The Casimir effect: a force from nothing], ''Physics World'', September 2002.
+* [http://antwrp.gsfc.nasa.gov/apod/ap061217.html Casimir effect] on Astronomy Picture of the Day
+
+===Papers, books and lectures===
+* [[Hendrik Casimir|H. B. G. Casimir]], and [[Dirk Polder|D. Polder]], [http://prola.aps.org/abstract/PR/v73/i4/p360_1 "The Influence of Retardation on the London-van der Waals Forces"], ''Phys. Rev.'' '''73''', 360–372 (1948).
+* {{cite journal | last1 = Casimir | first1 = H. B. G. | authorlink = Hendrik Casimir  | year = 1948| title = On the attraction between two perfectly conducting plates | url = http://www.historyofscience.nl/search/detail.cfm?pubid=2642&view=image&startrow=1 | journal = Proc. Kon. Nederland. Akad. Wetensch. | volume = B51 | page = 793 }}
+* S. K. Lamoreaux, "[http://link.aps.org/abstract/PRL/v78/p5 Demonstration of the Casimir Force in the 0.6 to 6 µm Range]", ''Phys. Rev. Lett.'' '''78''', 5–8 (1997)
+* M. Bordag, U. Mohideen, V.M. Mostepanenko, "[http://dx.doi.org/10.1016/S0370-1573(01)00015-1 New Developments in the Casimir Effect]", ''Phys. Rep.'' '''353''', 1–205 (2001), [http://arxiv.org/abs/quant-ph/0106045 arXiv]. ''(200+ page review paper.)''
+*Kimball A.Milton: "The Casimir effect", World Scientific, Singapore 2001,ISBN 981-02-4397-9
+* Diego Dalvit, et al.: ''[http://dx.doi.org/doi:10.1007/978-3-642-20288-9 Casimir Physics]''. Springer, Berlin 2011, ISBN 978-3-642-20287-2
+* {{cite journal | doi = 10.1103/PhysRevLett.88.041804 | title = Measurement of the Casimir Force between Parallel Metallic Surfaces | year = 2002 | last1 = Bressi | first1 = G. | last2 = Carugno | first2 = G. | last3 = Onofrio | first3 = R. | last4 = Ruoso | first4 = G. | journal = Physical Review Letters | volume = 88 | issue = 4 | pmid=11801108 | pages = 041804 | bibcode=2002PhRvL..88d1804B|arxiv = quant-ph/0203002 }}
+* {{cite journal | doi = 10.1103/PhysRevLett.89.033001 | title = Repulsive Casimir Forces | year = 2002 | last1 = Kenneth | first1 = O. | last2 = Klich | first2 = I. | last3 = Mann | first3 = A. | last4 = Revzen | first4 = M. | journal = Physical Review Letters | volume = 89 | issue = 3 |  pages = 033001 |arxiv = quant-ph/0202114 | bibcode=2002PhRvL..89c3001K | pmid = 12144387}}
+* J. D. Barrow, "[http://www.gresham.ac.uk/event.asp?PageId=4&EventId=258 Much ado about nothing]", (2005) Lecture at [[Gresham College]]. ''(Includes discussion of French naval analogy.)''
+* {{Cite book| first=John D.|last=Barrow|authorlink=John D. Barrow|year=2000|title=The book of nothing: vacuums, voids, and the latest ideas about the origins of the universe|edition=1st American|publisher=Pantheon Books|location=New York|isbn=0-09-928845-1}} (Also includes discussion of French naval analogy.)
+* [[Jonathan P. Dowling]], "The Mathematics of the Casimir Effect", ''[[Mathematics Magazine|Math. Mag.]]'' '''62''', 324–331 (1989).
+* Patent № PCT/RU2011/000847 Author Urmatskih.
+
+===Temperature dependence===
+* [http://www.nist.gov/public_affairs/newsfromnist_casimir-polder.htm Measurements Recast Usual View of Elusive Force] from [[NIST]]
+* V.V. Nesterenko, G. Lambiase, G. Scarpetta, [http://arxiv.org/abs/hep-th/0503100 Calculation of the Casimir energy at zero and finite temperature: some recent results], arXiv:hep-th/0503100 v2 13 May 2005
+
+==External links==
+*[http://xstructure.inr.ac.ru/x-bin/theme3.py?level=3&index1=313011 Casimir effect article search] on arxiv.org
+*G. Lang, [http://www.casimir.rl.ac.uk/default.htm The Casimir Force] web site, 2002
+*J. Babb, [http://www.cfa.harvard.edu/~babb/casimir-bib.html bibliography on the Casimir Effect] web site, 2009
+
+{{DEFAULTSORT:Casimir Effect}}
+[[Category:Quantum field theory]]
+[[Category:Physical phenomena]]
+[[Category:Force]]
+[[Category:Levitation]]
+[[Category:Faster-than-light travel]]

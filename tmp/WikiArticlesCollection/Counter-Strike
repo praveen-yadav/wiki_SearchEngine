@@ -1,0 +1,184 @@
+{{Other uses|Counterstrike (disambiguation){{!}}Counterstrike}}
+{{Infobox video game
+| title = Counter-Strike
+| image = [[Image:Counter-Strike Box.jpg|250px|Box art for the Windows stand-alone release]]
+| developer = [[Valve Corporation]]
+[[Turtle Rock Studios]] (Xbox)
+| publisher = [[Valve Corporation]]<br />[[Sierra Entertainment|Sierra Studios]] <small>(former)</small><br />[[Microsoft Game Studios]] <small>(Xbox)</small>
+| distributor = [[Steam (software)|Steam]] {{small|(online)}}
+Valve Corporation (1.0-1.5 retail)
+| designer = [[Minh Le|Minh "Gooseman" Le]]<br />[[Jess Cliffe]]
+| version = 1.6 (September 9, 2003)<ref>Valve Corporation : [http://www.steampowered.com/platform/update_history/Counter-Strike.html ''Counter-Strike'' version history.]</ref>
+| engine = [[GoldSrc]] ([[Half-Life (video game)|Half-Life]])
+| released = '''Windows'''<br />{{vgrelease|WW=June 19, 1999 <small>(Mod)</small>}}{{vgrelease|NA=November 8, 2000 <small>(Retail)</small>}}{{vgrelease|WW=September 9, 2003 <small>(Download)</small>}}'''Xbox'''{{vgrelease|NA=November 18, 2003|EU=December 5, 2003}}'''OS X, Linux'''{{vgrelease|WW=January 24, 2013}}
+| genre = [[First-person shooter]]
+| modes = [[Multiplayer video game|Multiplayer]]
+| platforms = [[Microsoft Windows]], [[Xbox (console)|Xbox]], [[OS X]], [[Linux]]
+| media = [[CD-ROM]], [[digital distribution]]
+}}
+
+'''''Counter-Strike''''' is a [[tactical shooter|tactical]] [[first-person shooter]] [[video game]] developed by [[Valve Corporation]] which originated from a ''[[Half-Life (video game)|Half-Life]]'' [[Game mod|modification]] by [[Minh Le|Minh "Gooseman" Le]] and [[Jess Cliffe|Jess "Cliffe" Cliffe]]. By the fourth beta version, Valve Software, the [[video game developer|developer]] who created ''Half-Life'', began assisting in the development of ''Counter-Strike''.<ref name="RH 01">{{cite web | url=http://www.redherring.com/Home/3717 |title=Development a la mod |work=[[Red Herring (magazine)]] |date=2001-05-08 |accessdate=2009-09-28}}{{Dead link|date=November 2013}}</ref> In 2000, Valve bought the rights to ''Counter-Strike'', and would publish the title for [[Microsoft Windows]] that year, and later in 2003 for the [[Xbox (console)|Xbox]].  [[OS X]] and [[Linux]] ports were available in January 2013.<ref>{{cite web | url  =http://www.destructoid.com/counter-strike-1-6-now-available-on-linux-and-mac-243246.phtml  | title = Counter-Strike 1.6 now available on Linux and Mac | first =Harry | last = Monogenis | date = 2013-01-26 | accessdate = 2013-01-26 | publisher = [[Destructoid]] }}</ref>
+
+The game has been expanded into a series since its original release, which currently includes ''[[Counter-Strike: Condition Zero]]'', ''[[Counter-Strike: Source]]'', and ''[[Counter-Strike: Global Offensive]]''. ''Counter-Strike'' pits a team of [[terrorism|terrorists]] against a team of [[counter-terrorist]]s in a series of rounds. Each round is won by either completing the mission objective or eliminating the opposing force.
+
+The game was the most played ''Half-Life'' modification in terms of players, according to [[GameSpy]] in 2008.<ref>{{cite web|accessdate=2008-06-12 |url=http://archive.gamespy.com/stats/mods.asp?id=15&s=1 |title=Top Mods For Half Life By Players |publisher=[[GameSpy]]}}{{Dead link|date=December 2010}}</ref>
+
+As of August 2011, the ''Counter-Strike'' franchise has sold over 25 million units.<ref name="Eddie Makuch">{{cite web |url=http://www.gamespot.com/pc/action/counter-strike-global-offensive/news/6328645/counter-strike-global-offensive-firing-up-early-2012 |title=Counter-Strike: Global Offensive firing up early 2012 |author=Eddie Makuch |date=12 August 2011 |work=[[GameSpot]] |publisher=[[CBS Interactive|CBS Interactive Inc.]] |accessdate=13 August 2011}}</ref>
+
+
+
+==Gameplay==
+[[File:Counter-Strike screenshot.png|thumb|left|The player is standing in the terrorist starting zone of de_dust using a CV-47 ([[AK-47]]).]]
+''Counter-Strike'' is a first-person shooter in which players join either the terrorist team, the counter-terrorist team, or become spectators. Each team attempts to complete their mission objective and/or eliminate the opposing team. Each round starts with the two teams [[spawning (computer gaming)|spawning]] simultaneously.
+
+A player can choose to play as one of eight different default character models (four for each side, although ''[[Counter-Strike: Condition Zero]]'' added two extra models, bringing the total to ten). Players are generally given a few seconds before the round begins (known as "freeze time") to prepare and buy equipment, during which they cannot attack or move (one notable exception is that a player may receive damage during freeze time. This happens when a map is changed to spawn players at a certain height above the ground, thus causing fall damage to the player. This is a method map designers use to alter the starting "[[Health (gaming)|HP]]" of players on a map). They can return to the buy area within a set amount of time to buy more equipment (some custom maps included neutral "buy zones" that could be used by both teams). Once the round has ended, surviving players retain their equipment for use in the next round; players who were killed begin the next round with the basic default starting equipment.
+
+Standard monetary bonuses are awarded for winning a round, losing a round, killing an enemy, being the first to instruct a hostage to follow, rescuing a hostage or planting (Terrorist) /defusing (Counter Terrorist)the bomb(C4)in the bomb site.
+
+The scoreboard displays team scores in addition to statistics for each player: name, kills, deaths, and [[Ping (video gaming)|ping]] (in milliseconds). The scoreboard also indicates whether a player is dead, carrying the bomb (on bomb maps), or is the VIP (on assassination maps), although information on players on the opposing team is hidden from a player until his/her death, as this information can be important.
+
+Killed players become "spectators" for the duration of the round; they cannot change their names before their next spawn, text chat cannot be sent to or received from live players, and voice chat can only be received from live players and not sent to them (unless the [[CVAR|console variable]] <tt>sv_alltalk</tt> is set to 1). Spectators are generally able to watch the rest of the round from multiple selectable views, although some servers disable some of these views to prevent dead players from relaying information about living players to their teammates through alternative media (most notably voice in the case of [[Internet cafe]]s and [[Voice over IP]] programs such as [[TeamSpeak]] or [[Ventrilo]]). This form of cheating is known as "ghosting."
+
+==Development== 
+{{Video game requirements
+|caption      = System requirements
+|useminandrec = yes
+|platform1    = [[Microsoft Windows]], [[Mac OS|Mac]], [[Linux]]<ref name="steamapp10">{{cite web|url=http://store.steampowered.com/app/10/|title=Counter-Strike on Steam|work=[[Steam (software)|Steam]]|publisher=[[Valve Corporation]]|accessdate=2012-04-01}}</ref>
+|os1          = Windows XP
+|os1rec       =
+|cpu1         = 500 MHz processor 
+|cpu1rec      = 800 MHz processor
+|memory1      = 96 MB
+|memory1rec   = 128 MB
+|gpu1         = 16 MB video card
+|gpu1rec      = 32 MB video card
+|sound1       =
+|sound1rec    =
+|network1     = Internet connection required for online multiplayer connection
+|network1rec  =
+|hdspace1     = 
+|hdspace1rec  = 
+}}
+''Counter-Strike'' is itself a mod, and it has developed its own community of script writers and mod creators. Some mods add [[Computer game bot|bots]], while others remove features of the game, and others create different modes of play. Some mods, often called "admin plugins", give server administrators more flexible and efficient control over his or her server. There are some mods which affect gameplay heavily, such as Gun Game, where players start with a basic pistol and must score kills to receive better weapons, and Zombie Mod, where one team consists of zombies and must "spread the infection" by killing the other team (using only the knife). There are also the Superhero and mods which mix the first-person gameplay of ''Counter-Strike'' with an experience system, allowing a player to become more powerful as they continue to play. The game is also highly customizable on the player's end, allowing the user to install or even create their own custom skins, HUDs, spray graphics, sprites, and sound effects, given the proper tools.
+
+===Cheating===
+''Counter Strike'' has been a prime target for exploitation by cheaters since its release. In-game, cheating is often referred to as "[[hacker (computer security)|hacking]]" in reference to programs or "[[hacker (hobbyist)|hacks]]" executed by the client.
+
+* '''Wallhacks''' allows players to see through walls. These work by displaying objects that are normally obscured or by replacing opaque game textures with translucent ones. As the engine [[Potentially visible set|renders only the immediate area]] around the player, this does not allow a player to see the entire level at once.
+* '''Speedhacks''' give the player increased foot speed. These work by sending false synchronization data to the server.
+* '''No recoil''' removes any recoil (and thus improves accuracy) from a player's weapon.
+* '''No spread''' is used to remove the random deviation normally experienced when the player shoots. This is similar to the recoil hack.
+* '''[[Aimbot]]s''' help the player aim at enemies, by auto-targeting other players. These work by using the game client library to calculate an enemy player's 2D coordinates from 3D space and automatically moving the player's mouse to the enemy target. It also consists of headshot aiming where a player shoots a bullet at the enemy which directly hits the enemy's head resulting in a one hit kill.
+* '''[[Extrasensory perception|ESP]]''' shows textual information about the enemy; such as health, name and distance; also information about weapons lying around the map, which could be missed without the hack. Most ESP cheats show info through walls.
+* '''Barrel hack''' depicts an enemy's gaze as a visible line, this is also visible in the killcam.<!-- Deleted image removed:  [[File:Barrel hack.jpg|thumb|right|Example of Barrel hack in a deathmatch server.]] -->
+* '''Anti-flash''' and '''anti-smoke''' remove the effects of the [[Flashbangs|flashbang]] and [[smoke grenade]]. Implementation is derived from the wall hack.
+
+* Unlimited HP and ammo are not hacks, but are server side modifications.
+* '''strafe hack''' allows players to jump longer.
+
+
+
+
+
+Valve has implemented an anti-cheat system called [[Valve Anti-Cheat]] (VAC). Players cheating on a VAC-enabled server risk having their account permanently banned from all VAC-secured servers.
+
+With the first version of VAC, a ban took hold almost instantly after being detected and the cheater had to wait 2 years to have the account unbanned.<ref>{{cite web|url=http://www.scribd.com/doc/2346665/Counter-Strike?query2=cs%20skin%20nazi |title=Counter Strike - Complete Noobs Guide to Not-so-Noob |accessdate=2011-11-07 }}</ref> Since VAC's second version, cheaters are not banned automatically. With the second version, Valve instituted a policy of 'delayed bans,' the theory being that if a new hack is developed which circumvents the VAC system, it will spread amongst the 'cheating' community. By delaying the initial ban, Valve hopes to identify (and ban) as many cheaters as possible. Like any software detection system, some cheats are not detected by VAC and at times, the only effective anti-cheat solution is a human administrator watching an online game. Some servers implement a voting system, in which case players can call for a vote to kick or ban the accused cheater. VAC's success at identifying cheats and banning those who use them has also provided a boost in the purchasing of private cheats.<ref>{{cite web |url=https://support.steampowered.com/kb_article.php?ref=7849-RADZ-6869 |title=Valve Anti-Cheat System (VAC) |accessdate=2011-01-21 |publisher=[[Steam (software)|Steam]]}}</ref> These cheats are updated frequently to minimize the risk of detection, and are generally only available to a trusted list of recipients who collectively promise not to reveal the underlying design.
+
+==Release==
+When ''Counter-Strike'' was published by [[Sierra Entertainment]]/[[Vivendi Games|Vivendi Universal Games]], it was bundled with ''[[Team Fortress Classic]]'', ''[[Half-Life: Opposing Force|Opposing Force]]'' multiplayer, and the ''Wanted'', ''Half-Life: Absolute Redemption'' and ''[[Firearms (video game)|Firearms]]'' mods."<ref name="old bundle">{{cite web| title= IGN: Counter-Strike Review | url= http://pc.ign.com/articles/165/165191p1.html | publisher=IGN | accessdate= May 17, 2007 }}</ref>
+
+On March 24, 1999, [[Planet Half-Life]] opened its ''Counter-Strike'' section. Within two weeks, the site had received 10,000 hits. On June 19, 1999, the first public beta of ''Counter-Strike'' was released, followed by numerous further "beta" releases. On April 12, 2000, [[Valve Corporation|Valve]] announced that the ''Counter-Strike'' developers and Valve had teamed up.
+
+Counter-Strike's primary beta release dates occurred on:<ref>[http://eisbaer.essentrix.net/history.html Counter-Strike Changelog]</ref>
+
+* Beta 1: June 19, 1999
+* Beta 2: August 13, 1999
+* Beta 3: September 14, 1999
+* Beta 4: November 5, 1999
+* Beta 5: December 23, 1999
+* Beta 6: March 10, 2000
+* Beta 7: August 26, 2000
+
+The non-beta public release dates of ''Counter-Strike'' are as follows:<ref>[http://www.cstrike-planet.com/view.php/csinfo/history/ Counter-Strike – CS info » history]</ref>
+
+* Version 1.0: November 1, 2000
+* Version 1.1: March 13, 2001
+* Version 1.3: September 12, 2001
+* Version 1.4: April 24, 2002
+* Version 1.5: June 12, 2002
+* Version 1.6: September 9, 2003
+
+'''Note:''' Version 1.6 effectively coincided with the release of [[Steam (software)|Valve Software's Steam content delivery system]] on September 12, 2003. All further updates and bug fixes have been dynamically delivered via Steam, without any specific new version numbers. The name or abbreviation "1.6" is often used to differentiate it from the later versions ''Counter-Strike: Source'' and ''Counter-Strike: Global Offensive''.
+
+In March 2007, Valve implemented mandatory advertisements through Steam in official maps and in the game's GUI overhead. Customers have expressed frustration with the ads, including an over 200 page thread on Valve's official forums, saying that they violate original terms of service and distract from the game.<ref name="csads">{{cite web| title= Ads Now In CS1.6 | url= http://www.csnation.net/comments.php?id=8645 | publisher=CSNation | date=2007-03-05|accessdate=2007-06-20 |archiveurl = http://web.archive.org/web/20070316175637/http://www.csnation.net/comments.php?id=8645 |archivedate = March 16, 2007}}</ref> The thread was later deleted by an unknown moderator.
+
+In January 2013, Valve began a Beta of 1.6 for targeting Linux and OS X users. The updates are available for Windows users via the Beta opt-in tab as part of the properties of the game within Steam.<ref>http://steamcommunity.com/games/10/announcements/detail/1010199179645672708</ref> These changes were later rolled into an update of the standard (non-Beta) game in April 2013.<ref>http://steamcommunity.com/games/10/announcements/detail/1802838328069953132</ref>
+
+===''Counter-Strike: Condition Zero''===
+{{Main|Counter-Strike: Condition Zero}}
+''Counter-Strike'' Game Counter-Strike: Condition Zero (also known by the abbreviation CS:CZ, CSCZ or just CZ) - continuation of the story of the famous Counter-Strike, designed for both single and multiplayer games. 
+On the creation of Condition Zero, which has been mistaken for Counter-Strike 2{{says who?|date=September 2013}}, worked the game industry giants such as: Rogue Entertainment,Gearbox Software, Ritual Entertainment, Turtle Rock Studio itself Valve Software from 2002 to 2004. 
+Condition Zero is a combination of the original Counter-Strike, new maps, weapons, improved textures, models, sounds, and gameplay. 
+Taken from the Counter-Strike player models have been enhanced with new: kontrterroristov the camp, in addition to the existing SEAL Team 6, GSG 9, SAS and GIGN, was added Spetsnaz - Russian special forces, to their opponents joined by far-right extremist movement Midwest Militia, adding to the next row terrorist organizations: Phoenix Connexion, Elite Crew, Arctic Avengers and Guerilla Warfare. 
+Some game items appeared in Counter-Strike 1.6 was originally presented only in Condition Zero, for example: weapons FAMAS, IMI Galil and Tactical Shield. 
+No less pleasant addition to Condition Zero, is a new artificial intelligence hostages, who even rewarded them with emotions. They run away, if left unprotected, panicking when they hear shooting, &quot;talk&quot; with terrorists and special forces, can move around the map using the stairs, etc.
+The disc or digital distribution steam as there is an extra set of single missions, called Deleted Scenes.It is also played online on a large scale in countries like Brazil, Indonesia, India and other countries of Asia. Cheating on online servers (also known as sv's )may result in permanent ban of the player.
+
+===''Counter-Strike: Source''===
+{{Main|Counter-Strike: Source}}
+''Counter-Strike'' received a major technology update and refresh on November 1, 2004 with the release of ''Counter-Strike: Source'', which was heavily updated using [[Source engine|Valve's Source game engine]] to take advantage of more modern graphics and audio hardware. However, the original ''Counter-Strike'' is still available and played by many people via [[Steam (software)|Steam]], as the two variants are quite different, and players inevitably prefer one variant over the other. Moreover, the system requirements of the original game are lower, which makes it accessible to a larger portion of the gaming populace. Both versions continue to co-exist today.
+
+===''Counter-Strike Online''===
+{{Main|Counter-Strike Online}}
+''Counter-Strike Online'' is available in [[South Korea]], [[Japan]], [[Taiwan]], [[China]]/[[Hong Kong]], [[Singapore]], [[Malaysia]], [[Indonesia]] and [[Turkey]] and is now fully online.  It is developed by [[Nexon Corporation]] with oversight from license-holder [[Valve Corporation]], and is an attempt to increase market share of Valve's games in the Asian gaming market.
+
+===''Counter-Strike: Global Offensive ''===
+''Main article'': [[Counter-Strike: Global Offensive]]
+
+Counter-Strike Global Offensive was the 5th release in the Counter-Strike Franchise.<ref>{{cite web|title=How many Counter Strike game are there?|url=http://answers.yahoo.com/question/index?qid=20110320132141AAG57Ad|accessdate=4 August 2013}}</ref> The game was built using the latest Source engine. Valve intended the game for casual and the competitive community. The game features more weapons, game mode and maps in the game.
+
+==Reception==
+{{VG Reviews
+|GR = 89.20%<ref>{{cite web |url=http://www.gamerankings.com/pc/429818-half-life-counter-strike/index.html |title=Half-Life: Counter-Strike |accessdate=2011-01-21 |publisher=[[GameRankings]]}}</ref>
+|MC = 88/100<ref>{{cite web |url=http://www.metacritic.com/game/pc/half-life-counter-strike |title=Half-Life: Counter-Strike |accessdate=2011-01-21 |publisher=[[Metacritic]]}}</ref>
+}}
+{{Expand section|date=February 2009}}
+
+''Counter-Strike'' received generally favorable reviews.<ref>{{cite web |url=http://www.gamespot.com/counter-strike/reviews/counter-strike-review-6083702/|title=Counter-Strike Review |accessdate=2012-06-27 |publisher=[[GameSpot]]}}</ref> The [[New York Times]] reported that E-Sports Entertainment [[ESEA League]] started the first professional fantasy e-sports league in 2004 <ref>{{cite web |url=http://www.nytimes.com/2006/02/05/magazine/05wwln_consumed.html|title=Double Fantasy |accessdate=2012-06-27 |publisher=[[The New York Times]]}}</ref> around the game of Counter-Strike.<ref>{{cite web |url=http://www.sk-gaming.com/content/8354-ESEAs_Fantasy_ESports_League_Opens|title=ESEA's Fantasy E-Sports League Opens |accessdate=2012-06-27 |publisher=[[SK-Gaming]]}}</ref> Some credit the move into professional competitive team play with prizes as a major factor in Counter-Strike's longevity and success.<ref>{{cite web |url=http://www.gameguru.in/pc/2010/10/counter-strike-success-unlimited/|title=Counter-Strike:Success Unlimited |accessdate=2012-06-27 |publisher=[[GameGuru]]}}</ref>
+
+==Controversy==
+{{See also|l1=Video game controversy|Video game controversy}}
+''Counter-Strike'' faced controversy in April 2007 when [[Jack Thompson (attorney)|Jack Thompson]], a now-disbarred attorney from Florida, predicted that the perpetrator of the [[Virginia Tech Massacre]] had been trained to kill in the game, well before [[Seung-Hui Cho]] (the shooter) was identified. News sources originally stated that Seung-Hui Cho only played the game in high school, however no video games whatsoever were found in the gunman's dorm room, and there is no evidence that he ever played ''Counter-Strike''.<ref>[http://www.msnbc.msn.com/id/18220228 Were video games to blame for massacre?]</ref><ref name="msnbc.msn.com">[http://www.msnbc.msn.com/id/23204875 Playing the blame game]</ref> Thompson also blamed ''Counter-Strike'' for the February 14, 2008 [[Northern Illinois University shooting]] perpetrated by [[Steven Kazmierczak]] on the day after the shooting. It is reported that Kazmierczak did play ''Counter-Strike'' in college.
+
+On January 17, 2008, a Brazilian federal court order prohibiting all sales of ''Counter-Strike'' and ''[[EverQuest]]'' and imposing the immediate withdrawal of these from all stores began to be enforced. The federal Brazilian judge Carlos Alberto Simões de Tomaz, of the [[Minas Gerais]] judiciary section, ordered the ban in October 2007 because, according to him, the games "bring imminent stimulus to the subversion of the social order, attempting against the democratic and rightful state and against the public safety."<ref>[http://kotaku.com/346800/brazilian-government-bans-counter+strike-everquest-fun Only In Brazil: Brazilian Government Bans Counter-Strike, EverQuest, Fun]</ref><ref>[http://news.yahoo.com/s/afp/20080118/tc_afp/brazilcomputergamelaw Brazil bans popular video games seen to incite violence – Yahoo! News]</ref><ref>[http://news.my.msn.com/sci-tech/article.aspx?cp-documentid=1197105 Brazil bans popular video games seen to incite violence – Science & Technology – MSN Malaysia News – News]</ref><ref>[http://www1.folha.uol.com.br/folha/informatica/ult124u364924.shtml Folha Online – Informática – Justiça proíbe Counter Strike em todo Brasil; Procon tenta recolher jogos – 18 January 2008]</ref> The move has been described by media as a publicity stunt on the regulation of video game violence and sexually explicit content, and also as a hasty decision that ignored much more violent games. As all versions of Counter-Strike were very popular in Brazil at the time, the decision was met with considerable uproar by the Brazilian gaming community. Some media have reported that the game tested by the judge contained mods likening the scenario to Rio de Janeiro's favelas and adding Brazilian Military Police uniforms to player models, which might have worsened the case for Counter-Strike. The game's developer Valve did not comment on the episode. As of June 18, 2009, a [[Regional Federal Courts|regional federal court]] order lifting the prohibition on the sale of ''Counter-Strike'' was published. The game is now being sold again in Brazil.<ref>[http://g1.globo.com/Noticias/Games/0,,MUL1199747-9666,00-JUSTICA+LIBERA+VENDA+DO+GAME+COUNTERSTRIKE+NO+BRASIL.html {{pt icon}} G1 – Games – Justiça libera venda do game 'Counter-Strike' no Brasil – 18 June 2009]</ref>
+
+==References==
+{{reflist|2}}
+
+==External links==
+* [http://www.valvesoftware.com/games.html Valve Games]
+* [http://www.hannygamez.net/2010/06/counter-strike-16.html Counter Strike 1.6] Review
+* [http://www.steampowered.com/css/ Steam Store]
+{{Valve games}}
+
+[[Category:1999 video games]]
+[[Category:Counter-Strike| ]]
+[[Category:Electronic sports games]]
+[[Category:First-person shooters]]
+[[Category:First-person shooter multiplayer online games]]
+[[Category:Half-Life mods]]
+[[Category:Microsoft games]]
+[[Category:Multiplayer online games]]
+[[Category:Tactical shooter video games]]
+[[Category:Valve Corporation games]]
+[[Category:Video game censorship]]
+[[Category:Video games set in Cuba]]
+[[Category:Video games set in Italy]]
+[[Category:Video games set in Mexico]]
+[[Category:War video games set in the United States]]
+[[Category:Windows games]]
+[[Category:Xbox games]]
+[[Category:Video game franchises introduced in 2000]]
+
+{{Link GA|es}}
+{{Link FA|fr}}

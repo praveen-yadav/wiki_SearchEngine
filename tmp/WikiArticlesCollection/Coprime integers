@@ -1,0 +1,87 @@
+{{wiktionary|coprime}}
+
+In [[number theory]], two [[integer]]s ''a'' and ''b'' are said to be '''relatively prime''', '''mutually prime''', or '''coprime''' (also spelled '''co-prime''')<ref>Eaton, James S. Treatise on Arithmetic. 1872. May be downloaded from: http://archive.org/details/atreatiseonarit05eatogoog</ref> if the only positive integer that evenly divides both of them is 1 - they have no common positive factors other than 1. This is equivalent to their [[greatest common divisor]] being 1.<ref>{{cite book | author=G.H. Hardy | authorlink=G. H. Hardy | coauthors=[[E. M. Wright]] | title=An Introduction to the Theory of Numbers | edition=6th ed. | publisher=[[Oxford University Press]] | year=2008 | isbn=978-0-19-921986-5| page=6 }}</ref> In addition to <math>\gcd(a, b) = 1\;</math> and <math>(a, b) = 1,\;</math> the notation <math>a\perp b</math> is sometimes used to indicate that ''a'' and ''b'' are relatively prime.<ref>{{citation|first1=R. L.|last1=Graham|first2=D. E.|last2=Knuth|first3=O.|last3=Patashnik|title=Concrete Mathematics|publisher=Addison-Wesley|year=1989}}</ref>
+
+For example, 14 and 15 are coprime, being commonly divisible by only 1, but 14 and 21 are not, because they are both divisible by 7. The numbers 1 and −1 are coprime to every integer, and they are the only integers to be coprime with 0.
+
+A fast way to determine whether two numbers are coprime is given by the [[Euclidean algorithm]].
+
+The number of integers coprime to a positive integer ''n'', between 1 and ''n'', is given by [[Euler's totient function]] (or Euler's phi function) ''φ''(''n'').
+
+A [[Set (mathematics)|set]] of integers can also be called '''coprime''' if its elements share no common positive factor except 1.
+
+== Properties ==
+
+[[Image:coprime-lattice.svg|thumb|right|300px|Figure 1. The numbers 4 and 9 are coprime. Therefore, the diagonal of a 4 x 9 lattice does not intersect any other [[square lattice|lattice points]]]]
+
+There are a number of conditions which are equivalent to ''a'' and ''b'' being coprime:
+*No [[prime number]] divides both ''a'' and ''b''.
+*There exist integers ''x'' and ''y'' such that ''ax'' + ''by'' = 1 (see [[Bézout's identity]]).
+*The integer ''b'' has a [[modular multiplicative inverse|multiplicative inverse]] modulo ''a'': there exists an integer ''y'' such that ''by'' ≡ 1 (mod ''a''). In other words, ''b'' is a [[unit (ring theory)|unit]] in the [[ring (mathematics)|ring]] '''Z'''/''a'''''Z''' of [[modular arithmetic|integers modulo]] ''a''.
+*Every pair of [[congruence relation]]s for an unknown integer ''x'', of the form ''x'' &equiv; ''k'' (mod ''a'') and ''x'' &equiv; ''l'' (mod ''b''), has a solution, as stated by the [[Chinese remainder theorem]]; in fact the solutions are described by a single congruence relation modulo ''ab''.
+
+As a consequence of the third point, if ''a'' and ''b'' are coprime and ''br'' &equiv; ''bs'' ([[modular arithmetic|mod]] ''a''), then ''r'' &equiv; ''s'' (mod ''a'') (because we may "divide by ''b''" when working modulo ''a''). Furthermore, if ''b''<sub>1</sub> and ''b''<sub>2</sub> are both coprime with ''a'', then so is their product ''b''<sub>1</sub>''b''<sub>2</sub> (modulo ''a'' it is a product of invertible elements, and therefore invertible); this also follows from the first point by [[Euclid's lemma]], which states that if a prime number ''p'' divides a product ''bc'', then ''p'' divides at least one of the factors ''b'', ''c''.
+
+As a consequence of the first point, if ''a'' and ''b'' are coprime, then so are any powers ''a''<sup>''k''</sup> and ''b''<sup>''l''</sup>.
+
+If ''a'' and ''b'' are coprime and ''a'' divides the product ''bc'', then ''a'' divides ''c''. This can be viewed as a generalization of Euclid's lemma.
+
+The two integers ''a'' and ''b'' are coprime if and only if the point with coordinates (''a'', ''b'') in a [[Cartesian coordinate system]] is "visible" from the origin (0,0), in the sense that there is no point with integer coordinates between the origin and (''a'', ''b''). (See figure 1.)
+
+In a sense that can be made precise, the [[probability]] that two randomly chosen integers are coprime is 6/π<sup>2</sup> (see [[pi]]), which is about 61%. See below.
+
+Two [[natural number]]s ''a'' and ''b'' are coprime if and only if the numbers 2<sup>''a''</sup> &minus; 1 and 2<sup>''b''</sup> &minus; 1 are coprime. As a generalization of this, following easily from [[Euclidean algorithm]] in [[Radix|base]] ''n''&nbsp;>&nbsp;1:
+
+: <math>\gcd (n^a-1,n^b-1)=n^{\gcd(a,b)}-1.</math>
+
+== Coprimality in sets ==
+
+A [[Set (mathematics)|set]] of integers ''S'' = {''a''<sub>1</sub>, ''a''<sub>2</sub>, .... ''a''<sub>''n''</sub>} can also be called ''coprime'' or ''setwise coprime'' if the [[greatest common divisor]] of all the elements of the set is 1. If every pair in a (finite or [[infinite set|infinite]]) set of integers is coprime, then the set is said to be ''pairwise coprime'' (or ''pairwise relatively prime'', ''mutually coprime'' or ''mutually relatively prime''). Pairwise coprimality is a stronger condition than setwise coprimality; every pairwise coprime finite set is also setwise coprime, but the reverse is not true. For example, the integers 6, 10, 15 are coprime (because the only positive integer dividing ''all'' of them is 1), but they are not ''pairwise'' coprime because the gcd(6, 10) = 2, gcd(10, 15) = 5 and gcd(6, 15) = 3. 
+
+The concept of pairwise coprimality is important as a hypothesis in many results in number theory, such as the [[Chinese remainder theorem]].
+
+=== Infinite set examples ===
+The set of all primes is pairwise coprime, as is the set of elements in [[Sylvester's sequence]], and the set of all [[Fermat numbers]].
+
+== Coprimality in ring ideals ==
+
+Two [[ring ideal|ideals]] ''A'' and ''B'' in the [[commutative ring]] ''R'' are called '''coprime''' (or '''comaximal''') if ''A'' + ''B'' = ''R''. This generalizes [[Bézout's identity]]: with this definition, two [[principal ideal]]s (''a'') and (''b'') in the ring of integers '''Z''' are coprime if and only if ''a'' and ''b'' are coprime. If the ideals ''A'' and ''B'' of ''R'' are coprime, then ''AB'' = ''A''∩''B''; furthermore, if ''C'' is a third ideal such that ''A'' contains ''BC'', then ''A'' contains ''C''. The [[Chinese remainder theorem]] is an important statement about coprime ideals.
+
+==Cross notation, group==
+{{See also|multiplicative group of integers modulo n}}
+If ''n''≥1 and is an [[integer]], the numbers coprime to ''n'', taken [[modular arithmetic|modulo]] ''n'', form a [[group (mathematics)|group]] with multiplication as operation; it is written as ('''Z'''/''n'''''Z''')<sup>&times;</sup> or '''Z'''<sub>n</sub><sup>*</sup>.
+
+==Probabilities==
+
+Given two randomly chosen integers ''a'' and ''b'', it is reasonable to ask how likely it is that ''a'' and ''b'' are coprime. In this determination, it is convenient to use the characterization that ''a'' and ''b'' are coprime if and only if no prime number divides both of them (see [[Fundamental theorem of arithmetic]]).
+
+Informally, the probability that any number is divisible by a prime (or in fact any integer) <math>p</math> is <math>1/p</math>; for example, every 7th integer is divisible by 7. Hence the probability that two numbers are both divisible by this prime is <math>1/p^2</math>, and the probability that at least one of them is not is <math>1-1/p^2</math>.  For distinct primes, these divisibility events are mutually independent.  For example, in the case of two events, a number is divisible by ''p'' and ''q'' if and only if it is divisible by ''pq''; the latter event has probability 1/''pq''.  (Independence does not hold for numbers in general, but holds for prime numbers.)  Thus the probability that two numbers are coprime is given by a product over all primes,
+
+: <math>\prod_p^{\infty} \left(1-\frac{1}{p^2}\right) = \left( \prod_p^{\infty} \frac{1}{1-p^{-2}} \right)^{-1} = \frac{1}{\zeta(2)} = \frac{6}{\pi^2} \approx 0.607927102 \approx 61\%. </math>
+
+Here ''&zeta;'' refers to the [[Riemann zeta function]], the identity relating the product over primes to ''&zeta;''(2) is an example of an [[Euler product]], and the evaluation of ''&zeta;''(2) as ''&pi;''<sup>2</sup>/6 is the [[Basel problem]], solved by [[Leonhard Euler]] in 1735. In general, the probability of ''k'' randomly chosen integers being coprime is 1/''&zeta;''(''k'').
+
+The notion of a "randomly chosen integer" in the preceding paragraphs is not rigorous.  One rigorous formalization is the notion of ''[[natural density]]'': choose the integers ''a'' and ''b'' randomly between 1 and an integer&nbsp;''N''. Then, for each upper bound ''N'', there is a probability ''P''<sub>''N''</sub> that two randomly chosen numbers are coprime. This will never be exactly <math>6/\pi^2</math>, but in the limit as <math>N \to \infty</math>, the probability <math>P_N</math> approaches <math>6/\pi^2</math>.<ref>This theorem was proved by [[Ernesto Cesàro]] in 1881. For a more rigorous proof than the intuitive and informal one given here, see {{cite book | author=G.H. Hardy | authorlink=G. H. Hardy | coauthors=[[E. M. Wright]] | title=An Introduction to the Theory of Numbers | edition=6th ed. | publisher=[[Oxford University Press]] | year=2008 | isbn=978-0-19-921986-5}}, theorem 332.</ref>
+
+==Generating all coprime pairs==
+[[File:Coprime8.svg|300px|thumb|The order of generation of coprime pairs by this algorithm. First node (2,1) is marked red, its three children are shown in orange, third generation is yellow, and so on in the rainbow order.]]
+All pairs of coprime numbers <math>m, n</math> can be arranged in a pair of disjoint complete ternary trees, starting from <math>(2,1)</math> (for even-odd or odd-even pairs)<ref>{{Citation |last=Saunders |first=Robert |lastauthoramp=yes |last2=Randall |first2=Trevor |title=The family tree of the Pythagorean triplets revisited |journal=Mathematical Gazette |volume=78 |month=July |year=1994 |pages=190–193 }}.</ref> or from <math>(3,1)</math> (for odd-odd pairs).<ref>{{Citation |last=Mitchell |first=Douglas W. |title=An alternative characterisation of all primitive Pythagorean triples |journal=Mathematical Gazette |volume=85 |month=July |year=2001 |pages= 273–275 }}.</ref> The children of each vertex <math>(m,n)</math> are generated as follows:
+
+Branch 1: <math>(2m-n,m)</math>
+
+Branch 2: <math>(2m+n,m)</math>
+
+Branch 3: <math>(m+2n,n)</math>
+
+This scheme is exhaustive and non-redundant with no invalid members.
+
+==See also==
+*[[Superpartient number]]
+
+==References==
+{{Reflist}}
+
+==Further reading==
+*{{Citation |last=Lord |first=Nick |title=A uniform construction of some infinite coprime sequences |journal=Mathematical Gazette |volume=92 |month=March |year=2008 |pages=66–70 }}.
+
+[[Category:Number theory]]

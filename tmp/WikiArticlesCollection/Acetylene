@@ -1,0 +1,193 @@
+{{Redirect|HCCH}}
+{{chembox
+| Watchedfields = changed
+| verifiedrevid = 477240406
+| Name = Acetylene
+| ImageFile = Acetylene-CRC-IR-dimensions-2D.png
+|   ImageSize = 150px
+|   ImageName = Acetylene
+| ImageFile1 = Acetylene-CRC-IR-3D-balls.png
+|   ImageSize1 = 150px
+|   ImageName1 = Acetylene
+| ImageFile2 = Acetylene-3D-vdW.png
+|   ImageSize2 = 150px
+|   ImageName2 = Acetylene – space-filling model
+| ImageFile3 = Acetylene-xtal-3D-vdW-111.png
+|   ImageSize3 = 200px
+|   ImageName3 = space-filling model of solid acetylene
+| IUPACName = Acetylene
+| SystematicName = Ethyne<ref>[http://www.acdlabs.com/iupac/nomenclature/79/r79_53.htm Acyclic Hydrocarbons. Rule A-3. Unsaturated Compounds and Univalent Radicals], IUPAC Nomenclature of Organic Chemistry</ref>
+| Section1 = {{Chembox Identifiers
+|   ChemSpiderID_Ref = {{chemspidercite|correct|chemspider}}
+| ChemSpiderID = 6086
+| UNII_Ref = {{fdacite|correct|FDA}}
+| UNII = OC7TV75O83
+| KEGG_Ref = {{keggcite|correct|kegg}}
+| KEGG = C01548
+| InChI = 1/C2H2/c1-2/h1-2H
+| InChIKey = HSFWRNGVRCDJHI-UHFFFAOYAY
+| ChEMBL_Ref = {{ebicite|correct|EBI}}
+| ChEMBL = 116336
+| StdInChI_Ref = {{stdinchicite|correct|chemspider}}
+| StdInChI = 1S/C2H2/c1-2/h1-2H
+| StdInChIKey_Ref = {{stdinchicite|correct|chemspider}}
+| StdInChIKey = HSFWRNGVRCDJHI-UHFFFAOYSA-N
+| CASNo = 74-86-2
+|    CASNo_Ref = {{cascite|correct|CAS}}
+|   UNNumber = [[List of UN Numbers 1001 to 1100|1001]] (dissolved)<br />[[List of UN Numbers 3101 to 3200|3138]] (in mixture with [[ethylene]] and [[propylene]])
+|   ChEBI_Ref = {{ebicite|correct|EBI}}
+| ChEBI = 27518
+| SMILES = C#C
+  }}
+| Section2 = {{Chembox Properties
+|   C=2|H=2
+|   Density = 1.097 g/L = 1.097 kg/m<sup>3</sup>
+|   MeltingPt = −80.8&nbsp;°C, 192.4 K, −113.4&nbsp;°F
+|   Melting_notes = [[Triple point]] at 1.27 atm
+|   BoilingPtC = −84
+|   Boiling_notes= [[Sublimation point]] at 1 atm
+|   Triple_point K=192.3
+|   Triple_point kPa=0.1274
+|  critical point K=308,.9
+|  critical point MPa=6.138
+|   Solubility = slightly soluble
+|   pKa = 25
+  }}
+<ref>[http://encyclopedia.airliquide.com/Encyclopedia.asp?GasID=1#MajorApplications], Gas Encyclopaedia, Air Liquide</ref>
+| Section3 = {{Chembox Structure
+| MolShape = [[Linear (chemistry)|Linear]]
+  }}
+| Section4 = {{Chembox Thermochemistry
+|   DeltaHf =  +226.88 kJ/mol
+|   Entropy = 201&nbsp;J·mol<sup>−1</sup>·K<sup>−1</sup>
+ }}
+| Section7 = {{Chembox Hazards
+|   EUClass =
+|   EUIndex =
+|   MainHazards =
+|   NFPA-H = 1
+|   NFPA-F = 4
+|   NFPA-R = 3
+|   NFPA-O =
+|   Autoignition = {{convert|300|C|F}}
+|   ExpoLimits = 3–82%
+  }}
+}}
+
+'''Acetylene''' ([[Chemical nomenclature|systematic name]]: '''ethyne''') is the [[chemical compound]] with the formula C<sub>2</sub>H<sub>2</sub>. It is a [[hydrocarbon]] and the simplest [[alkyne]].<ref>R.H.Petrucci, W.S.Harwood and F.G.Herring "General Chemistry", 8th edn.(Prentice-Hall 2002), p.1072</ref> This colorless gas is widely used as a fuel and a chemical building block. It is unstable in pure form and thus is usually handled as a solution.<ref name=Ullmann/> Pure acetylene is odorless, but commercial grades usually have a marked odor due to impurities.<ref name=msds>Compressed Gas Association (1995) [http://www.stoodyind.com/safety/msds/Acetylene.pdf Material Safety and Data Sheet – Acetylene].</ref>
+
+As an alkyne, acetylene is [[Saturation (chemistry)|unsaturated]] because its two carbon atoms are [[Chemical bond|bonded]] together in a [[triple bond]]. The carbon–carbon triple bond places all four atoms in the same straight line, with CCH bond angles of 180°. Since acetylene is a linear symmetrical molecule, it possesses the D<sub>∞h</sub> [[point group]].<ref>{{Housecroft3rd|pages=94–95}}</ref>
+
+==Discovery==
+Acetylene was discovered in 1836 by [[Edmund Davy]] who identified it as a "new carburet of hydrogen".<ref>{{cite book
+ |title=Acetylene: Its Properties, Manufacture and Uses
+ |last1=Miller
+ |first1=S.A.
+ |year=1965
+ |publisher=Academic Press Inc.
+ |volume=1
+ |url=http://books.google.co.uk/books/about/Acetylene.html?id=-u1GAQAAIAAJ
+}}</ref> It was rediscovered in 1860 by French chemist [[Marcellin Berthelot]], who coined the name "acetylene". Berthelot was able to prepare this gas by passing vapours of organic compounds (methanol, ethanol, etc.) through a red-hot tube and collecting the [[effluent]]. He also found acetylene was formed by sparking electricity through mixed [[cyanogen]] and [[hydrogen]] gases. Berthelot later obtained acetylene directly by passing hydrogen between the poles of a [[arc lamp|carbon arc]].<ref>[http://chestofbooks.com/crafts/metal/Welding-Cutting/Acetylene.html Acetylene]</ref> Commercially available acetylene gas could smell foul due to the common impurities [[hydrogen sulphide]] and [[phosphine]]. However, acetylene gas with high purity would generate a light and sweet smell.
+
+==Preparation==
+Today acetylene is mainly manufactured by the partial [[combustion]] of [[methane]] or appears as a side product in the [[ethylene]] stream from [[Cracking (chemistry)|cracking]] of [[hydrocarbon]]s. Approximately 400,000 tonnes are produced by this method annually.<ref name=Ullmann>{{Cite journal|doi=10.1002/14356007.a01_097.pub3|chapter=Acetylene|title=Ullmann's Encyclopedia of Industrial Chemistry|year=2008|last1=Pässler|first1=Peter|last2=Hefner|first2=Werner|last3=Buckl|first3=Klaus|last4=Meinass|first4=Helmut|last5=Meiswinkel|first5=Andreas|last6=Wernicke|first6=Hans-Jürgen|last7=Ebersberg|first7=Günter|last8=Müller|first8=Richard|last9=Bässler|first9=Jürgen|last10=Behringer|first10=Hartmut|last11=Mayer|first11=Dieter|isbn=3527306730}}. Article Online Posting Date: 15 October 2008</ref>  Its presence in ethylene is usually undesirable because of its explosive character and its ability to poison [[Ziegler-Natta catalyst]]s. It is selectively hydrogenated into [[ethylene]], usually using Pd–Ag catalysts.<ref>[http://science.enotes.com/how-products-encyclopedia/acetylene Acetylene: How Products are Made]</ref>
+
+Until the 1950s, when oil supplanted coal as the chief source of carbon, acetylene (and the aromatic fraction from [[coal tar]]) was the main source of organic chemicals in the chemical industry. It was prepared by the [[hydrolysis]] of [[calcium carbide]], a reaction discovered by [[Friedrich Wöhler]] in 1862 and still familiar to students:
+: CaC<sub>2</sub> + 2H<sub>2</sub>O → Ca(OH)<sub>2</sub> + C<sub>2</sub>H<sub>2</sub>
+
+Calcium carbide production requires extremely high temperatures, ~2000&nbsp;°C, necessitating the use of an [[electric arc furnace]]. In the US, this process was an important part of the late-19th century revolution in chemistry enabled by the massive [[hydroelectric power]] project at [[Niagara Falls]]. {{citation needed|date=December 2011}}
+
+==Bonding==
+In terms of [[valence bond theory]], in each carbon atom the 2s [[Atomic orbital|orbital]] [[Orbital hybridisation|hybridizes]] with one 2p orbital thus forming an sp hybrid. The other two 2p orbitals remain unhybridized. The two ends of the two sp hybrid [[orbital overlap]] to form a strong [[Sigma bond|σ valence bond]] between the carbons, while on each of the other two ends hydrogen atoms attach also by σ bonds. The two unchanged 2p orbitals form a pair of weaker [[pi bond|π valence bonds]].<ref>Organic Chemistry 7th ed. by J. McMurry, Thomson 2008</ref>
+
+==Physical properties==
+
+===Changes of state===
+At atmospheric pressure, acetylene cannot exist as a liquid and does not have a melting point. The [[triple point]] on the [[phase diagram]] corresponds to the melting point (−80.8&nbsp;°C) at the minimum pressure at which liquid acetylene can exist (1.27 atm). At temperatures below the triple point, solid acetylene can change directly to the [[vapor]] (gas) by [[Sublimation (phase transition)|sublimation]]. The sublimation point at atmospheric pressure is −84&nbsp;°C.
+
+==Other==
+The [[adiabatic]] flame temperature in air at [[atmospheric pressure]] is 2534&nbsp;°C.
+
+Acetylene gas can be dissolved in [[acetone]] or [[dimethylformamide]] in room temperature and 1 atm.
+
+==Reactions==
+{{Main|Alkyne}}
+One new application is the conversion of acetylene to ethylene for use in making a variety of [[polyethylene]] plastics. An important reaction of acetylene is its combustion, the basis of the acetylene welding technologies. Otherwise, its major applications involve its conversion to acrylic acid derivatives.<ref name=Ullmann/>
+
+Compared to most [[hydrocarbon]]s, acetylene is relatively acidic, though it is still much less acidic than water or [[ethanol]]. Thus it reacts with strong bases to form [[acetylide]] salts. For example, acetylene reacts with [[sodium amide]] in liquid [[ammonia]] to form sodium acetylide, and with [[butyllithium]] in cold [[tetrahydrofuran|THF]] to give lithium acetylide.<ref name=Midland1990>{{OrgSynth
+    |author=Midland, M. M.; McLoughlin, J. I.; Werley, Ralph T. (Jr.)
+    |year=1990
+    |title=Preparation and Use of Lithium Acetylide: 1-Methyl-2-ethynyl-''endo''-3,3-dimethyl-2-norbornanol 
+    |volume=68
+    |pages=14
+    |collvol=8
+    |collvolpages=391
+    |prep=CV8P0391}}</ref>
+
+:[[File:LithiumAcetylideFormation.png|left|350px|Formation of lithium acetylide from acetylene + BuLi]]
+<div style="clear:left;">
+[[Acetylide]]s of [[heavy metal (chemistry)|heavy metals]] are easily formed by reaction of acetylene with the metal ions. Several, e.g., [[silver acetylide]] (Ag<sub>2</sub>C<sub>2</sub>) and [[copper acetylide]] (Cu<sub>2</sub>C<sub>2</sub>), are powerful and very dangerous explosives.<ref>{{Greenwood&Earnshaw2nd}}</ref>
+
+===Reppe chemistry===
+[[Walter Reppe]] discovered that in the presence of metal [[catalyst]]s, acetylene can react to give a wide range of industrially significant chemicals. {{citation needed|date=December 2011}}
+* With [[alcohol]]s, [[hydrogen cyanide]], [[hydrogen chloride]], or [[carboxylic acid]]s to give [[vinyl]] compounds:<ref name=Ullmann/>
+:[[File:Reppe-chemnistry-vinylization.png|300px]]
+* With [[aldehyde]]s to give ethynyl diols,<ref name=Ullmann/> in the [[Favorskii reaction]].
+:[[File:Reppe-chemistry-endiol.png|300px]]
+:[[1,4-Butynediol]] is produced industrially in this way from [[formaldehyde]] and acetylene.
+* With [[carbon monoxide]] to give [[acrylic acid]], or acrylic esters, which can be used to produce [[acrylic glass]].{{citation needed|date=December 2011}}
+:[[File:Reppe-chemistry-carbonmonoxide-01.png|400px]]
+:[[File:Reppe-chemistry-carbonmonoxide-02.png|400px]]
+* Cyclicization to give [[benzene]] and [[cyclooctatetraene]]:<ref name=Ullmann/>
+:[[File:Reppe-chemistry-benzene.png|240px]]
+:[[File:Reppe-chemistry-cyclooctatetraene.png|240px]]
+
+===Welding===
+Approximately 20 percent of acetylene is supplied by the [[Industrial gas|industrial gases industry]] for [[oxyacetylene]] [[gas welding]] and [[Oxy-fuel welding and cutting|cutting]] due to the high temperature of the flame; combustion of acetylene with oxygen produces a flame of over 3600&nbsp;K (3300&nbsp;°C, 6000&nbsp;°F), releasing 11.8&nbsp;[[Kilojoule|kJ]]/g. Oxyacetylene is the hottest burning common fuel gas.<ref name=Linde2013>{{cite web |url=http://www.linde-gas.com/en/products_and_supply/gases_fuel/acetylene.html |title=Acetylene |accessdate=November 30, 2013 |publisher=Linde |website=Products and Supply > Fuel Gases }}</ref>  Acetylene is the third hottest natural chemical flame after [[dicyanoacetylene]]'s 5260&nbsp;K (4990&nbsp;°C, 9010&nbsp;°F) and [[cyanogen]] at 4798&nbsp;K (4525&nbsp;°C, 8180&nbsp;°F). [[Oxy-fuel welding and cutting|Oxy-acetylene welding]] was a very popular welding process in previous decades; however, the development and advantages of [[arc welding|arc-based welding processes]] have made oxy-fuel welding nearly extinct for many applications. Acetylene usage for welding has dropped significantly. On the other hand, oxy-acetylene welding ''equipment'' is quite versatile – not only because the torch is preferred for some sorts of iron or steel welding (as in certain artistic applications), but also because it lends itself easily to brazing, braze-welding, metal heating (for annealing or tempering, bending or forming), the loosening of corroded nuts and bolts, and other applications. [[Bell Canada]] cable repair technicians still use portable acetylene fueled torch kits as a [[soldering]] tool for sealing lead sleeve splices in [[manhole]]s and in some aerial locations. Oxyacetylene welding may also be used in areas where electricity is not readily accessible. As well, oxy-fuel cutting is still very popular and oxy-acetylene cutting is utilized in nearly every metal fabrication shop. For use in welding and cutting, the working pressures must be controlled by a regulator, since above 15 psi<ref>http://www.c-f-c.com/specgas_products/acetylene.htm</ref> acetylene will [[decompose]] explosively into [[hydrogen]] and [[carbon]]. [[File:Laskarbit.jpg|thumb|200px|Acetylene fuel container/burner as used in the island of [[Bali]]]]
+
+===Niche applications===
+In 1881, the Russian chemist Mikhail Kucherov<ref>{{Cite journal|doi=10.1002/cber.188101401320|title=Ueber eine neue Methode direkter Addition von Wasser (Hydratation) an die Kohlenwasserstoffe der Acetylenreihe|year=1881|last1=Kutscheroff|first1=M.|journal=Berichte der deutschen chemischen Gesellschaft|volume=14|pages=1540-1542}}</ref> described the [[Hydration reaction|hydration]] of acetylene to [[acetaldehyde]] using catalysts such as [[mercury(II) bromide]]. Before the advent of the [[Wacker process]], this reaction was conducted on an industrial scale.<ref>{{cite journal | title = Hydration of Acetylene: A 125th Anniversary | author = Dmitry A. Ponomarev and Sergey M. Shevchenko | journal = [[J. Chem. Ed.]] | volume = 84 | issue = 10 | year = 2007 | pages = 1725 | url = http://jchemed.chem.wisc.edu/HS/Journal/Issues/2007/OctACS/ACSSub/p1725.pdf | doi = 10.1021/ed084p1725}}</ref>
+
+The [[polymerization]] of acetylene with [[Ziegler-Natta catalyst]]s produces [[polyacetylene]] films. Polyacetylene, a chain of CH centres with alternating single and double bonds, was the one of first discovered [[organic semiconductor]]s. Its reaction with [[iodine]] produces a highly electrically conducting material. Although such materials are not useful, these discoveries led to the developments of [[organic semiconductor]]s, as recognized by the [[Nobel Prize in Chemistry]] in 2000 to [[Alan J. Heeger]], [[Alan G MacDiarmid]], and [[Hideki Shirakawa]].<ref name=Ullmann/>
+
+In the early 20th Century acetylene was widely used for illumination, including street lighting in some towns.<ref>[http://books.google.com/books?id=0AnJU-hralEC The 100 most important chemical compounds: a reference guide]</ref> Most early automobiles used [[carbide lamp]]s before the adoption of electric headlights.
+
+Acetylene is sometimes used for [[carburization]] (that is, hardening) of steel when the object is too large to fit into a furnace.<ref name=BOC2006>{{cite web |url=http://boc.com/products_and_services/by_product/acetylene/index.asp |title=Acetylene |publisher=BOC |website=Products and Services |archiveurl=https://web.archive.org/web/20060517074022/http://boc.com/products_and_services/by_product/acetylene/index.asp |archivedate=May 17, 2006 }}</ref>
+
+Acetylene is used to volatilize carbon in [[radiocarbon dating]]. The carbonaceous material in an archeological sample is treated with [[lithium]] metal in a small specialized research furnace to form [[lithium carbide]] (also known as lithium acetylide). The carbide can then be reacted with water, as usual, to form acetylene gas to be fed into [[mass spectrometer]] to sort out the isotopic ratio of carbon-14 to carbon-12. {{citation needed|date=December 2011}}
+
+==Natural occurrence==
+Acetylene is a moderately common chemical in the universe, often associated with the atmospheres of [[gas giant]]s.<ref>{{cite press release | publisher = [[W. M. Keck Observatory]] | title = Precursor to Proteins and DNA found in Stellar Disk | date = 20 December 2005 | url = http://www.keckobservatory.org/article.php?id=39}}</ref> One curious discovery of acetylene is on [[Enceladus (moon)|Enceladus]], a moon of [[Saturn]]. Natural acetylene is believed to form from either [[catalytic]] decomposition of long chain hydrocarbons at temperatures of 1,770&nbsp;K and above. Since such temperatures are highly unlikely on such a small distant body, this discovery is potentially suggestive of catalytic reactions within that moon, making it a promising site to search for prebiotic chemistry.<ref>{{cite web | publisher = [[The Planetary Society]] | author = Emily Lakdawalla | title = LPSC: Wednesday afternoon: Cassini at Enceladus | date = 17 March 2006 | url =http://www.planetary.org/blog/article/00000498/}}</ref><ref>{{cite journal|journal=[[Nature (journal)|Nature]] | volume=445 | pages=376–377| date= 25 January 2007| doi = 10.1038/445376b| title= Planetary science: Inside Enceladus| author=John Spencer and David Grinspoon|pmid=17251967|issue=7126}}</ref>
+
+==Safety and handling==
+Acetylene is not especially toxic but when generated from calcium carbide it can contain toxic impurities such as traces of [[phosphine]] and [[arsine]]. It is also highly flammable (hence its use in welding). Its singular hazard is associated with its intrinsic instability, especially when it is pressurized. Samples of concentrated or pure acetylene can easily react in an addition-type reaction to form a number of products, typically [[benzene]] and/or [[vinylacetylene]]. These reactions are exothermic, and unlike other common flammables, do not require oxygen to proceed. Consequently, acetylene can explode with extreme violence if the absolute pressure of the gas exceeds about 200&nbsp;kPa (29&nbsp;psi). Most regulators and pressure gauges on equipment report [[gauge pressure]] and the safe limit for acetylene therefore is 101 kPa<sub>gage</sub> or 15 psig.<ref>{{cite book
+|first=Mikołaj
+|last=Korzun
+|title=1000 słów o materiałach wybuchowych i wybuchu
+|isbn=83-11-07044-X
+|year=1986
+|location=Warszawa
+|publisher=Wydawnictwo Ministerstwa Obrony Narodowej
+|oclc=69535236
+}}</ref><ref>{{cite web | url = http://www.c-f-c.com/specgas_products/acetylene.htm | title = Acetylene Specification | accessdate = 2012-05-02 | publisher = CFC StarTec LLC}}</ref> It is therefore shipped and stored dissolved in [[acetone]] or [[dimethylformamide]] (DMF),<ref name='Industrial Gases'>{{cite book | last1 = Downie | first1 = N. A. | title = Industrial Gases | publisher = Blackie Academic & Professional | year = 1997 | location = London; New York | accessdate = 2012-05-02 | isbn = 978-0-7514-0352-7}}</ref> contained in a [[gas cylinder]] with a porous filling ([[Agamassan]]), which renders it safe to transport and use, given proper handling.
+[[Copper]] catalyses the decomposition of acetylene and as a result acetylene should not be transported in copper pipes. [[Brass]] pipe fittings should also be avoided.
+
+==Portable lighting==
+[[Calcium carbide]] was used to generate acetylene used in the head lamps for miners and cavers before the widespread use of [[Incandescent light bulb|incandescent lighting]]; or many years later low-power/high-lumen LED lighting; and is still used by mining industries in some nations without workplace safety laws.
+
+==References==
+{{Reflist|33em}}
+
+==External links==
+* [http://jchemed.chem.wisc.edu/JCESoft/CCA/CCA5/MAIN/1ORGANIC/ORG07/MENU.HTM Acetylene at Chemistry Comes Alive!]
+* {{Gutenberg|name=Acetylene, the Principles of Its Generation and Use|no=8144}}
+* [http://www.youtube.com/watch?v=KXh7__ri1VQ Movie explaining acetylene formation from calcium carbide and the explosive limits forming fire hazards]
+* [http://www.periodicvideos.com/videos/mv_calcium_carbide.htm Calcium Carbide & Acetylene] at ''[[The Periodic Table of Videos]]'' (University of Nottingham)
+* [http://www.cdc.gov/niosh/npg/npgd0008.html CDC - NIOSH Pocket Guide to Chemical Hazards - Acetylene]
+
+{{Alkynes}}
+{{Use dmy dates|date=June 2013}}
+
+[[Category:Alkynes]]
+[[Category:Gases]]
+[[Category:Fuel gas]]

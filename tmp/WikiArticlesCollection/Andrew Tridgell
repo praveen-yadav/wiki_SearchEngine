@@ -1,0 +1,91 @@
+{{Infobox person
+|name=Andrew Tridgell
+|image=Andrew Tridgell.jpg
+|birth_date={{birth date and age|df=yes|1967|02|28}}
+|occupation=Programmer
+|known_for=[[rsync]], [[Samba software|Samba]]
+|nationality=Australian
+|employer=[[IBM]]
+|other_names=Tridge
+}}
+'''Andrew "Tridge" Tridgell''' (born 28 February 1967) is an [[Australia]]n [[computer programmer]] best known as the author of and contributor to the [[Samba (software)|Samba]] [[file server]], and co-inventor of the [[rsync]] algorithm.
+
+He is known for his analysis of complex [[proprietary protocol]]s and [[proprietary software|algorithms]], to allow compatible [[free and open source software]] implementations.
+
+==Projects==
+Tridgell was a major developer of the Samba software, analysing the [[Server Message Block]] protocol used for [[Workgroup (computer networking)|workgroup]] and network file sharing by [[Microsoft Windows]] products. He developed the [[talloc]] hierarchical memory allocator, originally as part of Samba.
+
+For his PhD thesis, he co-developed [[rsync]], including the rsync algorithm, a highly efficient [[List of file transfer protocols|file transfer]] and [[File synchronization|synchronization]] tool. He also was the original author of [[rzip]], which uses a similar algorithm to rsync.
+
+He is the author of [http://samba.org/KnightCap/ KnightCap], a [[reinforcement learning|reinforcement-learning]] based [[chess engine]].
+
+Tridgell was also a leader in [[Hacker (hobbyist)|hacking]] the [[TiVo]] to make it work in Australia, which uses the [[PAL]] video format.<ref>http://www.samba.org/~tridge/tivo-ethernet/</ref>
+
+In April 2005, Tridgell tried to produce free software (now known as SourcePuller) that interoperated with the [[BitKeeper]] source code repository. This was cited<ref>[http://lwn.net/Articles/169178/ git [LWN.net&#93;<!-- Bot generated title -->]</ref> as the reason that BitMover revoked a license allowing [[Linux]] developers free use of their BitKeeper product. [[Linus Torvalds]], the creator of the Linux kernel, and Tridgell were thus involved in a public debate about the events, in which Tridgell stated that, not having bought or owned BitKeeper and agreeing to its license, he couldn't violate it, and was merely analysing the protocol ethically, as he had done with Samba. Tridgell's involvement in the project resulted in Linus accusing him of playing dirty tricks with BitKeeper.<ref>{{Cite news |url=http://www.theregister.co.uk/2005/04/14/torvalds_attacks_tridgell/ |title=Torvalds knifes Tridgell: Kernel source row turns nasty |first= Andrew |last=Orlowski |date=14 April 2005 |work=[[The Register]]}}</ref> Tridgell claimed his analysis started with simply [[telnet]]ing to a BitKeeper server and typing <code>HELP</code>.<ref>[http://www.groklaw.net/articlebasic.php?story=20050421023821174 Groklaw - Tridge Speaks<!-- Bot generated title -->]</ref>
+
+In 2011 Tridgell got involved with the software development of ArduPilot Mega,<ref>[http://diydrones.com/profile/AndrewTridgell Andrew Tridgell's Page]. DIY Drones. Retrieved on 2013-09-19.</ref> an open source Arduino-based UAV controller board, working on an entry for the [[UAV Outback Challenge|UAV Challenge Outback Rescue]].<ref>[http://www.uavoutbackchallenge.com.au/ UAV Challenge - Outback Rescue 2013 - Home]. Uavoutbackchallenge.com.au. Retrieved on 2013-09-19.</ref>
+
+==Academic achievements==
+{{BLP unsourced section|date=December 2009}}
+Attending [[Barker College]] Hornsby, NSW, Tridgell completed his [[Higher School Certificate (New South Wales)|Higher School Certificate]] in 1984. Tridgell completed a [[Bachelor's degree|degree]] with majors in [[applied mathematics]] and [[physics]] at the [[University of Sydney]] in 1988, before moving to [[Canberra]] to complete an [[Honours degree]] at the [[Australian National University]], in which he received first class honours in [[theoretical physics]].
+
+Tridgell completed a [[PhD]] at the Computer Sciences Laboratory of the [[Australian National University]]. His original doctorate work was in the area of [[speech recognition]] but was never completed. His submitted thesis 'Efficient Algorithms for Sorting and Synchronization' was based on his work on the [[rsync]] algorithm.
+
+==Employment==
+Tridgell started his career working for Efam Resources from 1987 to 1988, designing [[computer modeling|computer models]] of [[financial market]]s. His work led to a product named The Options Analyst, which he marketed and sold for five years.
+
+From 1988 to 1989, Tridgell worked as a software developer for a company named Sonartech Pty Ltd (now Sonartech Atlas), which developed [[sonar]] technologies for Australian [[submarine]]s. He worked on [[passive sonar]] technology.
+
+Between 1989 and 1990, Tridgell was employed at the Research School of Biological Sciences in the Australian National University, making computer models of physical and biological events and environments such as bushfire spread and [[population dynamics]].
+
+From 1991 to 1999, Tridgell held various other positions at the Australian National University, such as [[UNIX]] administration, [[satellite]] control, and [[supercomputer]] research.  During this period he was seconded to the Cooperative Research Centre for Advanced Computational Systems, where he headed the PIOuS (Parallel Input/Output System) project—later HiDIOS (High-performance Distributed Input/Output System)—for parallel file systems on the Fujitsu AP1000 and AP+ supercomputers. Tridgell also went on to lecture, first as an associate lecturer, and then as a casual lecturer, in the university's Computer Science division. He remains a Visiting Fellow of the University.
+
+In mid-1999, Tridgell joined the [[Levanta|LinuxCare]] company's office in Canberra as their first Australian employee. He helped to assemble 14 staff for a research and development team known as OzLabs. [[Linux]] and open-source companies were quite a new concept at this stage. Tridgell was made a research fellow of LinuxCare in 2000.
+
+In March 2001, Tridgell joined [[VA Software|VA Linux Systems]].  He worked in the [[network attached storage]] division for VA Linux Systems, making enhancements to Samba and the [[Linux kernel]] to provide enhanced performance for their network-attached storage device range.
+
+Tridgell continued his work with network-attached storage technologies when he joined [[Quantum Corporation]] as a Senior Engineer in the Storage Systems Group. His role once again involved developing functionality and efficiency modifications into Samba to enhance Quantum's GuardianOS-powered [[Snap Server]] network-attached storage device. One of the features that he added to Samba at this time was support for [[Microsoft]]'s [[Active Directory]] technology, a new authentication system introduced with Microsoft's [[Windows 2000|Windows 2000 Server]] product range.
+
+In 2004, Tridgell was employed by [[IBM]] working remotely for the [[Almaden Research Center]]. In January 2005, he joined the [[OSDL]] on a one-year fellowship;<ref>[http://www.osdl.org/newsroom/press_releases/2005/2005_01_17_beaverton.html News & Media | The Linux Foundation]. Osdl.org. Retrieved on 2013-09-19.</ref> he then returned to IBM.<ref>[http://www.osdl.org/newsroom/press_releases/2006/2006_Feb_01_beaverton.html News & Media | The Linux Foundation]. Osdl.org. Retrieved on 2013-09-19.</ref>
+
+Every year since 2009 Tridgell (with Bob Edwards) has taught a course titled [http://cs.anu.edu.au/student/comp8440/ COMP8440 Free and Open Source Software Development] at the [[Australian National University]].<ref>[http://cs.anu.edu.au/student/comp8440/ COMP8440 - ANU - College of Engineering and Computer Science]. Cs.anu.edu.au. Retrieved on 2013-09-19.</ref> This course is running for the fifth time in 2013.
+
+==Awards and honours==
+* In October 2003, [[The Bulletin]] magazine judged Tridgell to be Australia's smartest [[Information and Communications Technology]] person.<ref>[http://sites.ninemsn.com.au/smart100/default.asp The Bulletin Smart 100<!-- Bot generated title -->]</ref><ref>[http://bulletin.ninemsn.com.au/article.aspx?id=135066 The Bulletin publishes for the last time<!-- Bot generated title -->]</ref>
+* In January 2006, the [[Free Software Foundation]] awarded Tridgell its 2005 [[Award for the Advancement of Free Software]], for his work on Samba, the Linux kernel, and rsync. Tridgell was considered to have furthered an important goal of the free software movement since the founding of [[GNU]], analyzing ways for free software to interact with widespread proprietary systems to allow people to more easily move away from those systems.
+* In July 2008, Tridgell was named "Best Interoperator" at the [[Google-O'Reilly Open Source Awards]], for his work on [[Samba (software)|Samba]] and [[Rsync]].<ref>[http://google-opensource.blogspot.com/2008/07/and-winners-of-2008-google-oreilly-open.html Google Open Source Blog: ... and the winners of the 2008 Google-O'Reilly Open Source Awards are<!-- Bot generated title -->]</ref>
+
+*Tridgell (along with [[Jeremy Allison]] and Volker Lendecke) has been called a "[[guru]] in its traditional Indian meaning" by IT writer, Sam Varghese.<ref>[http://www.itwire.com/opinion-and-analysis/open-sauce/15896-foss-folk-who-make-us-proud FOSS folk who make us proud], Sam Varghese, [[iTWire]], 2007-12-25, accessed 2009-09-27</ref>
+
+==References==
+{{Reflist|30em}}
+
+==External links==
+{{Portal|Free software}}
+* [http://www.samba.org/~tridge/ Andrew Tridgell's website]
+* [http://samba.org/~tridge/phd_thesis.pdf Efficient Algorithms for Sorting and Synchronization (PhD thesis)] - (406kB PDF)
+* [http://www.itwire.com/content/view/22773/1090/ Active Directory in Samba 4 'an old story']
+* [http://www.itwire.com/opinion-and-analysis/open-sauce/15896-foss-folk-who-make-us-proud FOSS folk who make us proud]
+* [http://news.swpat.org/2010/03/transcript-tridgell-patents/ Patent Defence for Free Software], January 2010 presentation transcript
+
+<!-- Metadata: see [[Wikipedia:Persondata]] -->
+{{Persondata
+|NAME= Tridgell, Andrew
+|ALTERNATIVE NAMES=
+|SHORT DESCRIPTION=[[Australia]]n [[computer programmer]]
+|DATE OF BIRTH=28 February 1967
+|PLACE OF BIRTH=
+|DATE OF DEATH=
+|PLACE OF DEATH=
+}}
+{{DEFAULTSORT:Tridgell, Andrew}}
+[[Category:Australian computer programmers]]
+[[Category:Free software programmers]]
+[[Category:IBM employees]]
+[[Category:1967 births]]
+[[Category:Living people]]
+[[Category:People from the Australian Capital Territory]]
+[[Category:University of Sydney alumni]]
+[[Category:Australian National University alumni]]
+[[Category:Geeknet]]
+[[Category:People educated at Barker College]]

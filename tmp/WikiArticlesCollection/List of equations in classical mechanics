@@ -1,0 +1,685 @@
+[[Classical mechanics]] is the branch of [[physics]] used to describe the motion of [[macroscopic]] objects.<ref>{{Harvnb|Mayer|Sussman|Wisdom|2001|p=xiii}}</ref> It is the most familiar of the theories of physics. The concepts it covers, such as [[mass]], [[acceleration]], and [[force]], are commonly used and known.<ref>{{Harvnb|Berkshire|Kibble|2004|p=1}}</ref> The subject is based upon a [[three-dimensional space|three-dimensional]] [[Euclidean space]] with fixed axes, called a frame of reference. The point of [[concurrent lines|concurrency]] of the three axes is known as the origin of the particular space.<ref>{{Harvnb|Berkshire|Kibble|2004|p=2}}</ref>
+
+Classical mechanics utilises many [[equation]]s&mdash;as well as other [[mathematics|mathematical]] concepts&mdash;which relate various physical quantities to one another. These include [[differential equations]], [[manifold]]s, [[Lie group]]s, and [[ergodic theory]].<ref>{{Harvnb|Arnold|1989|p=v}}</ref> This page gives a summary of the most important of these.
+
+This article lists equations from [[Newtonian mechanics]], see [[analytical mechanics]] for the more general formulation of classical mechanics (which includes [[Lagrangian mechanics|Lagrangian]] and [[Hamiltonian mechanics]]).
+
+==Classical mechanics==
+
+===Mass and inertia===
+
+{| class="Nivesh Sharma"
+|-
+! scope="col" width="100" | Quantity (common name/s)
+! scope="col" width="100" | (Common) symbol/s
+! scope="col" width="300" | Defining equation
+! scope="col" width="125" | SI units
+! scope="col" width="100" | Dimension
+
+|-
+| Linear, surface, volumetric mass density
+| ''λ'' or ''μ'' (especially in [[acoustics]], see below) for Linear, ''σ'' for surface, ''ρ'' for volume.
+| <math> m = \int \lambda \mathrm{d} \ell</math>
+<math> m = \iint \sigma \mathrm{d} S </math>
+
+<math> m = \iiint \rho \mathrm{d} V \,\!</math>
+| kg m<sup>&minus;''n''</sup>, ''n'' = 1, 2, 3
+| [M][L]<sup>&minus;''n''</sup>
+|-
+| Moment of mass<ref>http://www.ltcconline.net/greenl/courses/202/multipleIntegration/MassMoments.htm, ''Section: Moments and center of mass''</ref>
+| '''m''' (No common symbol)
+| Point mass: <br />
+<math> \mathbf{m} = \mathbf{r}m \,\!</math>
+
+Discrete masses about an axis <math> x_i \,\!</math>: <br />
+<math> \mathbf{m} = \sum_{i=1}^N \mathbf{r}_\mathrm{i} m_i \,\!</math>
+
+Continuum of mass about an axis <math> x_i \,\!</math>: <br />
+<math> \mathbf{m} = \int \rho \left ( \mathbf{r} \right ) x_i \mathrm{d} \mathbf{r} \,\!</math>
+|| kg m
+|| [M][L]
+|-
+| [[Centre of mass]] || '''r'''<sub>com</sub>
+(Symbols vary)
+|| ''i''<sup>th</sup> moment of mass <math> \mathbf{m}_\mathrm{i} = \mathbf{r}_\mathrm{i} m_i \,\!</math>
+
+Discrete masses:<br />
+<math> \mathbf{r}_\mathrm{com} = \frac{1}{M}\sum_i \mathbf{r}_\mathrm{i} m_i = \frac{1}{M}\sum_i \mathbf{m}_\mathrm{i} \,\!</math>
+
+Mass continuum: <br />
+<math> \mathbf{r}_\mathrm{com} = \frac{1}{M}\int \mathrm{d}\mathbf{m} = \frac{1}{M}\int \mathbf{r} \mathrm{d}m = \frac{1}{M}\int \mathbf{r} \rho \mathrm{d}V \,\!</math>
+|| m
+|| [L]
+|-
+| 2-Body reduced mass
+|| ''m''<sub>12</sub>, ''μ'' Pair of masses = ''m''<sub>1</sub> and ''m''<sub>2</sub>
+|| <math> \mu = \left (m_1m_2 \right )/\left ( m_1 + m_2 \right) \,\!</math>
+|| kg
+|| [M]
+|-
+| Moment of inertia (MOI)
+|| ''I''
+|| Discrete Masses:<br />
+<math> I = \sum_i \mathbf{m}_\mathrm{i} \cdot \mathbf{r}_\mathrm{i} = \sum_i \left | \mathbf{r}_\mathrm{i} \right | ^2 m \,\!</math>
+
+Mass continuum: <br />
+<math> I = \int \left | \mathbf{r} \right | ^2 \mathrm{d} m = \int \mathbf{r} \cdot \mathrm{d} \mathbf{m}  = \int \left | \mathbf{r} \right | ^2 \rho \mathrm{d}V \,\!</math>
+|| kg m<sup>2</sup>
+|| [M][L]<sup>2</sup>
+|-
+|}
+
+===Derived kinematic quantities===
+
+[[File:Kinematics.svg|thumb|300px|Kinematic quantities of a classical particle: mass ''m'', position '''r''', velocity '''v''', acceleration '''a'''.]]
+
+{| class="wikitable"
+|-
+! scope="col" width="100" | Quantity (common name/s)
+! scope="col" width="100" | (Common) symbol/s
+! scope="col" width="300" | Defining equation
+! scope="col" width="125" | SI units
+! scope="col" width="100" | Dimension
+|-
+| [[Velocity]] || '''v''' || <math> \mathbf{v} = \mathrm{d} \mathbf{r}/\mathrm{d} t \,\!</math> || m s<sup>−1</sup> || [L][T]<sup>−1</sup>
+|-
+| [[Acceleration]] || '''a''' || <math> \mathbf{a} = \mathrm{d} \mathbf{v}/\mathrm{d} t = \mathrm{d}^2 \mathbf{r}/\mathrm{d} t^2  \,\!</math> || m s<sup>−2</sup> || [L][T]<sup>−2</sup>
+|-
+| [[Jerk (physics)|Jerk]] || '''j''' || <math> \mathbf{j} = \mathrm{d} \mathbf{a}/\mathrm{d} t = \mathrm{d}^3 \mathbf{r}/\mathrm{d} t^3 \,\!</math> || m s<sup>−3</sup> || [L][T]<sup>−3</sup>
+|-
+| [[Angular velocity]] || '''ω''' || <math> \boldsymbol{\omega} = \mathbf{\hat{n}} \left ( \mathrm{d} \theta /\mathrm{d} t \right ) \,\!</math> || rad s<sup>−1</sup> || [T]<sup>−1</sup>
+|-
+| [[Angular acceleration|Angular Acceleration]] || '''α''' || <math> \boldsymbol{\alpha} = \mathrm{d} \boldsymbol{\omega}/\mathrm{d} t = \mathbf{\hat{n}} \left ( \mathrm{d}^2 \theta / \mathrm{d} t^2 \right ) \,\!</math> || rad s<sup>−2</sup> || [T]<sup>−2</sup>
+|-
+|}
+
+===Derived dynamic quantities===
+
+[[File:Classical angular momentum.svg|350px|thumb|Angular momenta of a classical object.<p>'''Left:''' intrinsic "spin" angular momentum '''S''' is really orbital angular momentum of the object at every point,</p><p>'''right:''' extrinsic orbital angular momentum '''L''' about an axis,</p><p>'''top:''' the [[moment of inertia tensor]] '''I''' and angular velocity '''ω''' ('''L''' is not always parallel to '''ω''')<ref>{{cite book|title=Feynman's Lectures on Physics (volume 2)|author=R.P. Feynman, R.B. Leighton, M. Sands|publisher=Addison-Wesley|year=1964|pages=31–7|isbn=9-780-201-021172}}</ref></p><p>'''bottom:''' momentum '''p''' and it's radial position '''r''' from the axis.</p> The total angular momentum (spin + orbital) is '''J'''.]]
+
+{| class="wikitable"
+|-
+! scope="col" width="100" | Quantity (common name/s)
+! scope="col" width="100" | (Common) symbol/s
+! scope="col" width="300" | Defining equation
+! scope="col" width="125" | SI units
+! scope="col" width="100" | Dimension
+|-
+| [[Momentum]] || '''p''' || <math> \mathbf{p}=m\mathbf{v} \,\!</math> || kg m s<sup>−1</sup> || [M][L][T]<sup>−1</sup>
+|-
+| [[Force]] || '''F''' || <math> \mathbf{F} = \mathrm{d} \mathbf{p}/\mathrm{d} t \,\!</math>
+|| N = kg m s<sup>−2</sup> || [M][L][T]<sup>−2</sup>
+|-
+| [[Impulse (physics)|Impulse]] || Δ'''p''', '''I''' || <math> \mathbf{I} = \Delta \mathbf{p} = \int_{t_1}^{t_2} \mathbf{F}\mathrm{d} t \,\!</math> || kg m s<sup>−1</sup> || [M][L][T]<sup>−1</sup>
+|-
+| [[Angular momentum]] about a position point '''r'''<sub>0</sub>,
+|| '''L''', '''J''', '''S''' || <math> \mathbf{L} = \left ( \mathbf{r} - \mathbf{r}_0 \right ) \times \mathbf{p} \,\!</math>
+
+Most of the time we can set '''r'''<sub>0</sub> = '''0''' if particles are orbiting about axes intersecting at a common point.
+|| kg m<sup>2</sup> s<sup>−1</sup> || [M][L]<sup>2</sup>[T]<sup>−1</sup>
+|-
+| Moment of a force about a position point '''r'''<sub>0</sub>,
+[[Torque]]
+|| '''τ''', '''M''' || <math> \boldsymbol{\tau} = \left ( \mathbf{r} - \mathbf{r}_0 \right ) \times \mathbf{F} = \mathrm{d} \mathbf{L}/\mathrm{d} t \,\!</math> || N m = kg m<sup>2</sup> s<sup>−2</sup> || [M][L]<sup>2</sup>[T]<sup>−2</sup>
+|-
+| Angular impulse || Δ'''L''' (no common symbol)
+|| <math> \Delta \mathbf{L} = \int_{t_1}^{t_2} \boldsymbol{\tau}\mathrm{d} t \,\!</math> || kg m<sup>2</sup> s<sup>−1</sup> || [M][L]<sup>2</sup>[T]<sup>−1</sup>
+|-
+|}
+
+===General energy definitions===
+
+{{Main|Mechanical energy}}
+
+{| class="wikitable"
+|-
+! scope="col" width="100" | Quantity (common name/s)
+! scope="col" width="100" | (Common) symbol/s
+! scope="col" width="300" | Defining equation
+! scope="col" width="125" | SI units
+! scope="col" width="100" | Dimension
+|-
+| [[Work (physics)|Mechanical work]] due
+to a Resultant Force
+|| ''W'' || <math> W = \int_C \mathbf{F} \cdot \mathrm{d} \mathbf{r} \,\!</math> || J = N m = kg m<sup>2</sup> s<sup>−2</sup> || [M][L]<sup>2</sup>[T]<sup>−2</sup>
+|-
+| Work done ON mechanical
+system, Work done BY
+|| ''W''<sub>ON</sub>, ''W''<sub>BY</sub> || <math> \Delta W_\mathrm{ON} = - \Delta W_\mathrm{BY} \,\!</math> || J = N m = kg m<sup>2</sup> s<sup>−2</sup> || [M][L]<sup>2</sup>[T]<sup>−2</sup>
+|-
+| [[Potential energy]]|| ''φ, Φ, U, V, E<sub>p</sub>'' || <math> \Delta W = - \Delta V \,\!</math> || J = N m = kg m<sup>2</sup> s<sup>−2</sup> || [M][L]<sup>2</sup>[T]<sup>−2</sup>
+|-
+| Mechanical [[Power (physics)|power]]
+|| ''P'' || <math> P = \mathrm{d}E/\mathrm{d}t \,\!</math> || W = J s<sup>−1</sup> || [M][L]<sup>2</sup>[T]<sup>−3</sup>
+|-
+|}
+
+Every [[conservative force]] has a [[potential energy]]. By following two principles one can consistently assign a non-relative value to ''U'':
+
+* Wherever the force is zero, its potential energy is defined to be zero as well.
+* Whenever the force does work, potential energy is lost.
+
+===Generalized mechanics===
+{{main|Analytical mechanics|Lagrangian mechanics|Hamiltonian mechanics|}}
+
+[[File:Generalized coordinates 1df.svg|right|300px|"350px"|thumb|[[Generalized coordinates]] for one degree of freedom (of a particle moving in a complicated path). Instead of using all three [[Cartesian coordinates]] ''x, y, z'' (or other standard [[coordinate systems]]), only one is needed and is completely arbitrary to define the position. Four possibilities are shown.]]
+
+{| class="wikitable"
+|-
+! scope="col" width="100" | Quantity (common name/s)
+! scope="col" width="100" | (Common) symbol/s
+! scope="col" width="300" | Defining equation
+! scope="col" width="125" | SI units
+! scope="col" width="100" | Dimension
+|-
+|[[Generalized coordinates]]
+|| ''q, Q''
+||
+|| varies with choice
+|| varies with choice
+|-
+|[[Generalized velocities]]
+|| <math>\dot{q},\dot{Q} \,\!</math>
+|| <math>\dot{q}\equiv \mathrm{d}q/\mathrm{d}t \,\!</math>
+|| varies with choice
+|| varies with choice
+|-
+|[[Canonical coordinates|Generalized momenta]]
+|| ''p, P''
+||<math> p = \partial L /\partial \dot{q} \,\!</math>
+|| varies with choice
+|| varies with choice
+|-
+| [[Lagrangian]]
+|| ''L''
+|| <math> L(\mathbf{q},\mathbf{\dot{q}},t) = T(\mathbf{\dot{q}})-V(\mathbf{q},\mathbf{\dot{q}},t) \,\!</math>
+
+where <math> \mathbf{q}=\mathbf{q}(t) \,\!</math> and '''p''' = '''p'''(''t'') are vectors of the generalized coords and momenta, as functions of time
+|| J
+|| [M][L]<sup>2</sup>[T]<sup>−2</sup>
+|-
+| [[Hamiltonian mechanics|Hamiltonian]]
+|| ''H''
+|| <math> H(\mathbf{p},\mathbf{q},t) = \mathbf{p}\cdot\mathbf{\dot{q}} - L(\mathbf{q},\mathbf{\dot{q}},t) \,\!</math>
+|| J
+|| [M][L]<sup>2</sup>[T]<sup>−2</sup>
+|-
+| [[Action (physics)|Action]], Hamilton's principle function
+|| ''S'', <math> \scriptstyle{\mathcal{S}} \,\!</math>
+|| <math> \mathcal{S} = \int_{t_1}^{t_2} L(\mathbf{q},\mathbf{\dot{q}},t) \mathrm{d}t \,\!</math>
+|| J s
+|| [M][L]<sup>2</sup>[T]<sup>−1</sup>
+|-
+|}
+
+==Kinematics==
+
+In the following rotational definitions, the angle can be any angle about the specified axis of rotation. It is customary to use ''θ'', but this does not have to be the polar angle used in polar coordinate systems. The unit axial vector
+
+:<math>\bold{\hat{n}} = \bold{\hat{e}}_r\times\bold{\hat{e}}_\theta \,\!</math>
+
+defines the axis of rotation, <math> \scriptstyle \bold{\hat{e}}_r \,\!</math> = unit vector in direction of '''r''', <math> \scriptstyle \bold{\hat{e}}_\theta \,\!</math> = unit vector tangential to the angle.
+
+{| class="wikitable"
+|-
+!
+! Translation
+! Rotation
+|-valign="top"
+![[Velocity]]
+|Average:
+:<math>\mathbf{v}_{\mathrm{average}} = {\Delta \mathbf{r} \over \Delta t}</math>
+Instantaneous:
+:<math>\mathbf{v} = {d\mathbf{r} \over dt}</math>
+|[[Angular velocity]]
+:<math> \boldsymbol{\omega} = \bold{\hat{n}}\frac{{\rm d} \theta}{{\rm d} t}\,\!</math>
+
+Rotating [[rigid body]]:
+
+:<math> \mathbf{v} = \boldsymbol{\omega} \times \mathbf{r} \,\!</math>
+|-valign="top"
+![[Acceleration]]
+|Average:
+:<math>\mathbf{a}_{\mathrm{average}} = \frac{\Delta\mathbf{v}}{\Delta t} </math>
+
+Instantaneous:
+
+:<math>\mathbf{a} = \frac{d\mathbf{v}}{dt} = \frac{d^2\mathbf{r}}{dt^2} </math>
+
+|[[Angular acceleration]]
+
+:<math>\boldsymbol{\alpha} = \frac{{\rm d} \boldsymbol{\omega}}{{\rm d} t} = \bold{\hat{n}}\frac{{\rm d}^2 \theta}{{\rm d} t^2} \,\!</math>
+
+Rotating rigid body:
+
+:<math> \mathbf{a} = \boldsymbol{\alpha} \times \mathbf{r} + \boldsymbol{\omega} \times \mathbf{v} \,\!</math>
+
+|-valign="top"
+![[Jerk (physics)|Jerk]]
+|Average:
+:<math>\mathbf{j}_{\mathrm{average}} = \frac{\Delta\mathbf{a}}{\Delta t} </math>
+
+Instantaneous:
+
+:<math>\mathbf{j} = \frac{d\mathbf{a}}{dt} = \frac{d^2\mathbf{v}}{dt^2} = \frac{d^3\mathbf{r}}{dt^3} </math>
+|[[Angular jerk]]
+
+:<math>\boldsymbol{\zeta} = \frac{{\rm d} \boldsymbol{\alpha}}{{\rm d} t} = \bold{\hat{n}}\frac{{\rm d}^2 \omega}{{\rm d} t^2} = \bold{\hat{n}}\frac{{\rm d}^3 \theta}{{\rm d} t^3} \,\!</math>
+
+Rotating rigid body:
+
+:<math> \mathbf{j} = \boldsymbol{\zeta} \times \mathbf{r} + \boldsymbol{\alpha} \times \mathbf{a} \,\!</math>
+|-
+|}
+
+==Dynamics==
+
+{| class="wikitable"
+|-
+!
+! scope="col" width="450px" | Translation
+! scope="col" width="450px" | Rotation
+|-valign="top"
+![[Momentum]]
+|Momentum is the "amount of translation"
+
+: <math>\mathbf{p} = m\mathbf{v}</math>
+
+For a rotating rigid body:
+
+:<math> \mathbf{p} = \boldsymbol{\omega} \times \mathbf{m} \,\!</math>
+|[[Angular momentum]]
+
+Angular momentum is the "amount of rotation":
+
+:<math> \mathbf{L} = \mathbf{r} \times \mathbf{p} = \mathbf{I} \cdot \boldsymbol{\omega} </math>
+
+and the cross-product is a [[pseudovector]] i.e. if '''r''' and '''p''' are reversed in direction (negative), '''L''' is not.
+
+In general '''I''' is an order-2 [[tensor]], see above for its components. The dot '''·''' indicates [[tensor contraction]].
+|-valign="top"
+![[Force]] and [[Newton's 2nd law]]
+|Resultant force acts on a system at the center of mass, equal to the rate of change of momentum:
+
+:<math> \begin{align} \mathbf{F} & = \frac{d\mathbf{p}}{dt} = \frac{d(m\mathbf{v})}{dt} \\
+& = m\mathbf{a} + \mathbf{v}\frac{{\rm d}m}{{\rm d}t} \\
+\end{align} \,\!</math>
+
+For a number of particles, the equation of motion for one particle ''i'' is:<ref>"Relativity, J.R. Forshaw 2009"</ref>
+
+:<math> \frac{\mathrm{d}\mathbf{p}_i}{\mathrm{d}t} = \mathbf{F}_{E} + \sum_{i \neq j} \mathbf{F}_{ij} \,\!</math>
+
+where '''p'''<sub>''i''</sub> = momentum of particle ''i'', '''F'''<sub>''ij''</sub> = force '''''on''''' particle ''i'' '''''by''''' particle ''j'', and '''F'''<sub>''E''</sub> = resultant external force (due to any agent not part of system). Particle ''i'' does not exert a force on itself.
+|[[Torque]]
+
+Torque '''τ''' is also called moment of a force, because it is the rotational analogue to force:<ref>"Mechanics, D. Kleppner 2010"</ref>
+
+:<math> \boldsymbol{\tau} = \frac{{\rm d}\mathbf{L}}{{\rm d}t} = \mathbf{r}\times\mathbf{F} = \frac{{\rm d}(\mathbf{I} \cdot \boldsymbol{\omega})}{{\rm d}t} \,\!</math>
+
+For rigid bodies, Newton's 2nd law for rotation takes the same form as for translation:
+
+:<math> \begin{align} 
+\boldsymbol{\tau} & = \frac{{\rm d}\bold{L}}{{\rm d}t} = \frac{{\rm d}(\bold{I}\cdot\boldsymbol{\omega})}{{\rm d}t} \\
+& = \frac{{\rm d}\bold{I}}{{\rm d}t}\cdot\boldsymbol{\omega} + \bold{I}\cdot\boldsymbol{\alpha} \\
+\end{align} \,\!</math>
+
+Likewise, for a number of particles, the equation of motion for one particle ''i'' is:<ref>"Relativity, J.R. Forshaw 2009"</ref>
+
+:<math> \frac{\mathrm{d}\mathbf{L}_i}{\mathrm{d}t} = \boldsymbol{\tau}_E + \sum_{i \neq j} \boldsymbol{\tau}_{ij} \,\!</math>
+|-valign="top"|-valign="top"
+![[Yank (physics)|Yank]]
+|Yank is rate of change of force:
+
+:<math> \begin{align} \mathbf{Y} & = \frac{d\mathbf{F}}{dt}  = \frac{d^2\mathbf{p}}{dt^2} = \frac{d^2(m\mathbf{v})}{dt^2} \\
+& = m\mathbf{j} + \mathbf{2a}\frac{{\rm d}m}{{\rm d}t} + \mathbf{v}\frac{{\rm d^2}m}{{\rm d}t^2} \\
+\end{align} \,\!</math>
+
+For constant mass, it becomes;
+:<math>\mathbf{Y} = m\mathbf{j}</math>
+|[[Rotatum]]
+
+Rotatum '''Ρ''' is also called moment of a Yank, becuause it is the rotational analogue to yank:
+
+:<math> \boldsymbol{\Rho} = \frac{{\rm d}\mathbf{\tau}}{{\rm d}t} = \mathbf{r}\times\mathbf{Y} = \frac{{\rm d}(\mathbf{I} \cdot \boldsymbol{\alpha})}{{\rm d}t} \,\!</math>
+|-valign="top"|-valign="top"
+![[Impulse (physics)|Impulse]]
+
+|Impulse is the change in momentum:
+
+:<math> \Delta \mathbf{p} = \int \mathbf{F} dt </math>
+
+For constant force '''F''':
+
+:<math> \Delta \mathbf{p} = \mathbf{F} \Delta t </math>
+|Angular impulse is the change in angular momentum:
+
+:<math> \Delta \mathbf{L} = \int \boldsymbol{\tau} dt </math>
+
+For constant torque '''τ''':
+
+:<math> \Delta \mathbf{L} = \boldsymbol{\tau} \Delta t </math>
+|-
+|}
+
+=== Precession ===
+
+The precession angular speed of a [[spinning top]] is given by:
+
+:<math> \boldsymbol{\Omega} = \frac{wr}{I\boldsymbol{\omega}} </math>
+
+where ''w'' is the weight of the spinning flywheel.
+
+== Energy ==
+
+The mechanical work done by an external agent on a system is equal to the change in kinetic energy of the system:
+
+;General [[work-energy theorem]] (translation and rotation)
+
+The work done ''W'' by an external agent which exerts a force '''F''' (at '''r''') and torque '''τ''' on an object along a curved path ''C'' is:
+
+:<math>  W = \Delta T = \int_C \left ( \mathbf{F} \cdot \mathrm{d} \mathbf{r} + \boldsymbol{\tau} \cdot \mathbf{n} {\mathrm{d} \theta} \right ) \,\!</math>
+
+where θ is the angle of rotation about an axis defined by a [[unit vector]] '''n'''.
+
+;[[Kinetic energy]]
+
+:<math> \Delta E_k = W = \frac{1}{2} m(v^2 - {v_0}^2) </math>
+
+;[[Elastic potential energy]]
+
+For a stretched spring fixed at one end obeying [[Hooke's law]]:
+
+:<math> \Delta E_p =  \frac{1}{2} k(r_2-r_1)^2 \,\!</math>
+
+where ''r''<sub>2</sub> and ''r''<sub>1</sub> are collinear coordinates of the free end of the spring, in the direction of the extension/compression, and k is the spring constant.
+
+==Euler's equations for rigid body dynamics==
+
+{{main|Euler's equations (rigid body dynamics)}}
+
+[[Euler]] also worked out analogous laws of motion to those of Newton, see [[Euler's laws of motion]]. These extend the scope of Newton's laws to rigid bodies, but are essentially the same as above. A new equation Euler formulated is:<ref>"Relativity, J.R. Forshaw 2009"</ref>
+
+:<math> \mathbf{I} \cdot \boldsymbol{\alpha} + \boldsymbol{\omega} \times \left ( \mathbf{I} \cdot \boldsymbol{\omega} \right ) = \boldsymbol{\tau} \,\!</math>
+
+where '''I''' is the [[moment of inertia]] [[tensor]].
+
+==General planar motion==
+
+{{see also|Polar coordinate system#Vector calculus|label 1=Polar coordinate system (section: vector calculus)}}
+
+The previous equations for planar motion can be used here: corollaries of momentum, angular momentum etc. can immediately follow by applying the above definitions. For any object moving in any path in a plane,
+
+:<math> \mathbf{r}= \bold{r}(t) = r\bold{\hat{e}}_r  \,\!</math>
+
+the following general results apply to the particle.
+
+{| class="wikitable"
+|-
+! Kinematics
+! Dynamics
+|-
+| Position
+<math> \mathbf{r} =\bold{r}\left ( r,\theta, t \right ) = r \bold{\hat{e}}_r </math>
+|
+|-
+| Velocity
+
+:<math> \mathbf{v} = \bold{\hat{e}}_r \frac{\mathrm{d} r}{\mathrm{d}t} + r \omega \bold{\hat{e}}_\theta </math>
+| Momentum
+:<math> \mathbf{p} = m \left(\bold{\hat{e}}_r \frac{\mathrm{d}^2 r}{\mathrm{d}t^2} + r \omega \bold{\hat{e}}_\theta \right) </math>
+
+Angular momenta
+<math>\mathbf{L} = m \bold{r}\times \left(\bold{\hat{e}}_r \frac{\mathrm{d}^2 r}{\mathrm{d}t^2} + r \omega \bold{\hat{e}}_\theta \right) </math>
+|-
+| Acceleration
+
+:<math> \mathbf{a} =\left ( \frac{\mathrm{d}^2 r}{\mathrm{d}t^2} - r\omega^2\right )\bold{\hat{e}}_r + \left ( r \alpha + 2 \omega \frac{\mathrm{d}r}{{\rm d}t} \right )\bold{\hat{e}}_\theta </math>
+| The [[centripetal force]] is
+
+:<math> \mathbf{F}_\bot = - m \omega^2 R \bold{\hat{e}}_r= - \omega^2 \mathbf{m} \,\!</math>
+
+where again '''m''' is the mass moment, and the [[coriolis force]] is
+
+:<math> \mathbf{F}_c = 2\omega \frac{{\rm d}r}{{\rm d}t} \bold{\hat{e}}_\theta = 2\omega v \bold{\hat{e}}_\theta \,\!</math>
+
+The [[Coriolis effect|Coriolis acceleration and force]] can also be written:
+
+:<math>\mathbf{F}_c = m\mathbf{a}_c = -2 m \boldsymbol{ \omega \times v}</math>
+|}
+
+=== Central force motion ===
+
+For a massive body moving in a [[central potential]] due to another object, which depends only on the radial separation between the centres of masses of the two objects, the equation of motion is:
+
+: <math>\frac{d^2}{d\theta^2}\left(\frac{1}{\mathbf{r}}\right) + \frac{1}{\mathbf{r}} = -\frac{\mu\mathbf{r}^2}{\mathbf{l}^2}\mathbf{F}(\mathbf{r})</math>
+
+== Equations of motion (constant acceleration) ==
+These equations can be used only when acceleration is constant. If acceleration is not constant then the general [[calculus]] equations above must be used, found by integrating the definitions of position, velocity and acceleration (see above).
+
+{| class="wikitable"
+|-
+!Linear motion
+!Angular motion
+|-
+|<math>v = v_0+at \,</math>
+|<math> \omega _1 = \omega _0 + \alpha t \,</math>
+|-
+|<math>s = \frac {1} {2}(v_0+v) t </math>
+|<math> \theta = \frac{1}{2}(\omega _0 + \omega _1)t</math>
+|-
+|<math>s = v_0 t + \frac {1} {2} a t^2 </math>
+|<math> \theta = \omega _0 t + \frac{1}{2} \alpha t^2</math>
+|-
+|<math>v^2 = v_0^2 + 2 a s \,</math>
+|<math> \omega _1^2 = \omega _0^2 + 2\alpha\theta</math>
+|-
+|<math> s = v t - \frac{1}{2} a t^2</math>
+|<math> \theta = \omega _1 t - \frac{1}{2} \alpha t^2</math>
+|}
+
+==Galilean frame transforms==
+
+For classical (Galileo-Newtonian) mechanics, the transformation law from one inertial or accelerating (including rotation) frame (reference frame traveling at constant velocity - including zero) to another is the Galilean transform.
+
+Unprimed quantities refer to position, velocity and acceleration in one frame F; primed quantities refer to position, velocity and acceleration in another frame F' moving at translational velocity '''V''' or angular velocity '''Ω''' relative to F. Conversely F moves at velocity (—'''V''' or —'''Ω''') relative to F'. The situation is similar for relative accelerations.
+
+{| class="wikitable"
+|-
+! scope="col" width="250" | Motion of entities
+! scope="col" width="200" | Inertial frames
+! scope="col" width="200" | Accelerating frames
+|-
+|'''Translation'''
+
+'''V''' = Constant relative velocity between two inertial frames F and F'.<br />
+'''A''' = (Variable) relative acceleration between two accelerating frames F and F'.<br />
+|Relative position<br /><math> \mathbf{r}' = \mathbf{r} + \mathbf{V}t \,\!</math><br/>
+Relative velocity<br /><math> \mathbf{v}' = \mathbf{v} + \mathbf{V} \,\!</math><br />
+Equivalent accelerations<br /><math> \mathbf{a}' = \mathbf{a} </math>
+|Relative accelerations<br /><math> \mathbf{a}' = \mathbf{a} + \mathbf{A} </math><br />
+Apparent/fictitious forces<br /><math> \mathbf{F}' = \mathbf{F} - \mathbf{F}_\mathrm{app} </math><br />
+|-
+|rowspan="2" |'''Rotation'''
+
+'''Ω''' = Constant relative angular velocity between two frames F and F'.<br />
+'''Λ''' = (Variable) relative angular acceleration between two accelerating frames F and F'.
+
+|Relative angular position<br /><math> \theta' = \theta + \Omega t \,\!</math><br/>
+Relative velocity<br /><math> \boldsymbol{\omega}' = \boldsymbol{\omega} + \boldsymbol{\Omega} \,\!</math><br />
+Equivalent accelerations<br /><math> \boldsymbol{\alpha}' = \boldsymbol{\alpha} </math><br />
+| Relative accelerations<br /><math> \boldsymbol{\alpha}' = \boldsymbol{\alpha} + \boldsymbol{\Lambda} </math><br />
+Apparent/fictitious torques<br /><math> \boldsymbol{\tau}' = \boldsymbol{\tau} - \boldsymbol{\tau}_\mathrm{app} </math><br />
+|-
+|colspan="2"| Transformation of any vector '''T''' to a rotating frame<br />
+<math> \frac{{\rm d}\mathbf{T}'}{{\rm d}t} = \frac{{\rm d}\mathbf{T}}{{\rm d}t} - \boldsymbol{\Omega} \times \mathbf{T} </math>
+|-
+|}
+
+==Mechanical oscillators==
+
+SHM, DHM, SHO, and DHO refer to simple harmonic motion, damped harmonic motion, simple harmonic oscillator and damped harmonic oscillator respectively.
+
+{| class="wikitable"
+|+ Equations of motion
+|-
+! scope="col" width="100" | Physical situation
+! scope="col" width="250" | Nomenclature
+! scope="col" width="10" | Translational equations
+! scope="col" width="10" | Angular equations
+|-
+! scope="row" | SHM
+| <div class="plainlist">
+* ''x'' = Transverse displacement
+* ''θ'' = Angular displacement
+* ''A'' = Transverse amplitude
+* Θ = Angular amplitude
+</div>
+| <math>\frac{\mathrm{d}^2 x}{\mathrm{d}t^2} = - \omega^2 x \,\!</math>
+
+Solution:<br />
+<math> x = A \sin\left ( \omega t + \phi \right ) \,\!</math>
+| <math>\frac{\mathrm{d}^2 \theta}{\mathrm{d}t^2} = - \omega^2 \theta \,\!</math>
+
+Solution:<br />
+<math> \theta = \Theta \sin\left ( \omega t + \phi \right ) \,\!</math>
+|-
+! scope="row" | Unforced DHM
+| <div class="plainlist">
+* ''b'' = damping constant
+* ''κ'' = torsion constant
+</div>
+| <math>\frac{\mathrm{d}^2 x}{\mathrm{d}t^2} + b \frac{\mathrm{d}x}{\mathrm{d}t} + \omega^2 x = 0 \,\!</math>
+
+Solution (see below for ''ω'''):<br />
+<math>x=Ae^{-bt/2m}\cos\left ( \omega' \right )\,\!</math>
+
+Resonant frequency:<br />
+<math>\omega_\mathrm{res} = \sqrt{\omega^2 - \left ( \frac{b}{4m} \right )^2 } \,\!</math>
+
+Damping rate:<br/ >
+<math>\gamma = b/m \,\!</math>
+
+Expected lifetime of excitation:<br />
+<math>\tau = 1/\gamma\,\!</math>
+| <math>\frac{\mathrm{d}^2 \theta}{\mathrm{d}t^2} + b \frac{\mathrm{d}\theta}{\mathrm{d}t} + \omega^2 \theta = 0 \,\!</math>
+
+Solution:<br />
+<math>\theta=\Theta e^{-\kappa t/2m}\cos\left ( \omega \right )\,\!</math>
+
+Resonant frequency:<br />
+<math>\omega_\mathrm{res} = \sqrt{\omega^2 - \left ( \frac{\kappa}{4m} \right )^2 } \,\!</math>
+
+Damping rate:<br/ >
+<math>\gamma = \kappa/m \,\!</math>
+
+Expected lifetime of excitation:<br />
+<math>\tau = 1/\gamma\,\!</math>
+|}
+{| class="wikitable"
+|+ Angular frequencies
+|-
+! scope="col" width="100" | Physical situation
+! scope="col" width="250" | Nomenclature
+! scope="col" width="10" | Equations
+|-
+! scope="row" | Linear undamped unforced SHO
+| <div class="plainlist">
+* ''k'' = spring constant
+* ''m'' = mass of oscillating bob
+</div>
+| <math>\omega = \sqrt{\frac{k}{m}} \,\!</math>
+|-
+! scope="row" | Linear unforced DHO
+| <div class="plainlist">
+* ''k'' = spring constant
+* ''b'' = Damping coefficient
+</div>
+| <math>\omega' = \sqrt{\frac{k}{m}-\left ( \frac{b}{2m} \right )^2 } \,\!</math>
+|-
+! scope="row" | Low amplitude angular SHO
+| <div class="plainlist">
+* ''I'' = Moment of inertia about oscillating axis
+* ''κ'' = torsion constant
+</div>
+| <math>\omega = \sqrt{\frac{I}{\kappa}}\,\!</math>
+|-
+! scope="row" | Low amplitude simple pendulum
+| <div class="plainlist">
+* ''L'' = Length of pendulum
+* ''g'' = Gravitational acceleration
+* Θ = Angular amplitude
+</div>
+| Approximate value<br />
+<math>\omega = \sqrt{\frac{g}{L}}\,\!</math>
+
+Exact value can be shown to be:<br />
+<math>\omega = \sqrt{\frac{g}{L}} \left [ 1 + \sum_{k=1}^\infty \frac{\prod_{n=1}^k \left ( 2n-1 \right )}{\prod_{n=1}^m \left ( 2n \right )} \sin^{2n} \Theta \right ]\,\!</math>
+|}
+{| class="wikitable"
+|+ Energy in mechanical oscillations
+|-
+! scope="col" width="100" | Physical situation
+! scope="col" width="250" | Nomenclature
+! scope="col" width="10" | Equations
+|-
+! scope="row" | SHM energy
+| <div class="plainlist">
+* ''T'' = kinetic energy
+* ''U'' = potential energy
+* ''E'' = total energy
+</div>
+| Potential energy<br />
+<math>U = \frac{m}{2} \left ( x \right )^2 = \frac{m \left( \omega A \right )^2}{2} \cos^2(\omega t + \phi)\,\!</math>
+Maximum value at x = A:<br />
+<math>U_\mathrm{max} \frac{m}{2} \left ( \omega A \right )^2  \,\!</math>
+
+Kinetic energy<br />
+<math>T = \frac{\omega^2 m}{2} \left ( \frac{\mathrm{d} x}{\mathrm{d} t} \right )^2 = \frac{m \left ( \omega A \right )^2}{2}\sin^2\left ( \omega t + \phi \right )\,\!</math>
+
+Total energy<br />
+<math>E = T + U \,\!</math>
+|-
+! scope="row" | DHM energy
+|
+| <math>E = \frac{m \left ( \omega A \right )^2}{2}e^{-bt/m} \,\!</math>
+|}
+
+==See also==
+{{multicol}}
+*[[List of physics formulae]]
+*[[List of relativistic equations]]
+*[[Defining equation (physics)]]
+*[[Defining equation (physical chemistry)]]
+*[[Constitutive equation]]
+*[[Mechanics]]
+*[[Optics]]
+*[[Electromagnetism]]
+*[[Thermodynamics]]
+*[[Acoustics]]
+{{multicol-break}}
+*[[List of equations in wave theory]]
+*[[List of relativistic equations]]
+*[[List of equations in fluid mechanics]]
+*[[List of equations in gravitation]]
+*[[List of electromagnetism equations]]
+*[[List of photonics equations]]
+*[[List of equations in quantum mechanics]]
+*[[List of equations in nuclear and particle physics]]
+{{multicol-end}}
+
+==Notes==
+{{reflist}}
+
+==References==
+*{{citation|title=Mathematical Methods of Classical Mechanics|last=Arnold|first=Vladimir I.|publisher=Springer|year=1989|isbn=978-0-387-96890-2|edition=2nd}}
+*{{citation|title=Classical Mechanics|last1=Berkshire|last2=Kibble|first1=Frank H.|first2=T. W. B.|edition=5th|publisher=Imperial College Press|year=2004|isbn=978-1-86094-435-2}}
+*{{citation|title=Structure and Interpretation of Classical Mechanics|last1=Mayer|last2=Sussman|last3=Wisdom|first1=Meinhard E.|first2=Gerard J.|first3=Jack|publisher=MIT Press|year=2001|isbn=978-0-262-19455-6}}
+
+==External links==
+*[http://www.astro.uvic.ca/~tatum/classmechs.html Lectures on classical mechanics]
+*[http://scienceworld.wolfram.com/biography/Newton.html Biography of Isaac Newton, a key contributor to classical mechanics]
+
+{{DEFAULTSORT:List Of Equations In Classical Mechanics}}
+[[Category:Classical mechanics]]
+[[Category:Mathematics-related lists|Equations in classical mechanics]]
+[[Category:Equations of physics]]

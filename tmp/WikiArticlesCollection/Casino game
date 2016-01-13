@@ -1,0 +1,63 @@
+{{distinguish|Cassino (card game)}}
+{{refimprove|date=January 2013|bot=yes}}
+[[Game]]s available in most [[casino]]s are commonly called '''casino games'''. In a casino game, the players [[gambling|gamble]] [[casino token|casino chips]] on various possible [[random]] outcomes or combinations of outcomes. Casino games are available in [[online casino]]s, where permitted by law.{{citation needed|date=May 2009}} Casino games can also be played outside of casinos for entertainment purposes, some on machines that simulate gambling.
+
+==Categories==
+There are three general categories of casino games: table games, [[slot machines|electronic gaming machines]], and random number ticket games such as [[Keno]] and simulated racing. Gaming machines, such as [[slot machine]]s and [[pachinko]], are usually played by one player at a time and do not require the involvement of casino employees to play. [[Random number generation|Random number]] games are based upon the selection of random numbers, either from a computerized [[random number generator]] or from other gaming equipment. Random number games may be played at a table, such as [[roulette]], or through the purchase of paper tickets or cards, such as [[keno]] or [[Bingo (U.S.)|bingo]].
+
+==Table games==
+{{main|Table game}}
+
+==Common non-table games==
+===Gaming machines===
+* [[Pachinko]]
+* [[Slot machine]]
+* [[Video Lottery Terminal]]
+* [[Video poker]]
+
+===Random numbers===
+* [[Bingo (US)|Bingo]]
+* [[Keno]]
+
+==House advantage <!-- Redirect target heading --> ==
+Casino games generally provide a predictable long-term advantage to the casino, or "house", while offering the player the possibility of a large short-term payout. Some casino games have a skill element, where the player makes decisions; such games are called "random with a tactical element". While it is possible through skillful play to minimize the house advantage, it is extremely rare that a player has sufficient skill to completely eliminate his inherent long-term disadvantage (the '''house edge''' (HE) or house [[vigorish]]) in a casino game. Such a skill set would involve years of training, an extraordinary memory and numeracy, and/or acute visual or even aural observation, as in the case of [[Eudaemons|wheel clocking]] in Roulette.
+
+The player's disadvantage is a result of the casino not paying winning wagers according to the game's "true odds", which are the payouts that would be expected considering the odds of a wager either winning or losing. For example, if a game is played by wagering on the number that would result from the roll of one die, true odds would be 5 times the amount wagered since there is a 1 in 6 chance of any single number appearing, assuming that you get the original amount wagered back. However, the casino may only pay 4 times the amount wagered for a winning wager. 
+
+The house edge or vigorish is defined as the casino profit expressed as the percentage of the player's original bet. (In games such as [[Blackjack]] or [[Spanish 21]], the final bet may be several times the original bet, if the player double and splits.) 
+
+Example: In American [[Roulette]], there are two zeroes and 36 non-zero numbers (18 red and 18 black). If a player bets 1 unit on red, his chance of winning 1 unit is therefore 18/38 and his chance of losing 1 unit (or 1-winning) is 20/38. 
+
+The player's expected value, EV = (18/38 x 1) + (20/38 x -1) = 18/38 - 20/38 = -2/38 = -5.26%. Therefore, the house edge is 5.26%. After 10 rounds, play 1 per round, the average house profit will be 10 x 1 x 5.26% = 0.53. Of course, the casino may not win exactly 53 cents; this figure is the average casino profit from each player if it had millions of players each betting 10 rounds at 1 unit per round.
+
+Poker has become one of the most popular games in the casino. It is a game of skill and the only game where the players are competing against each other and not the house. There are several variations of poker that played in the casino card rooms. 
+
+The house edge of casino games vary greatly with the game. [[Keno]] can have house edges up to 25%, slot machines can have up to 15%, while most [[Pontoon (card game)|Australian Pontoon]] games have house edges between 0.3% and 0.4%.
+
+The calculation of the Roulette house edge was a trivial exercise; for other games, this is not usually the case. Combinatorial analysis and/or computer simulation is necessary to complete the task.
+
+In games which have a skill element, such as [[Blackjack]] or [[Spanish 21]], the house edge is defined as the house advantage from optimal play (without the use of advanced techniques such as [[card counting]]), on the first hand of the shoe (the container that holds the cards). The set of the optimal plays for all possible hands is known as "[[Blackjack#Basic_strategy|basic strategy]]" and is highly dependent on the specific rules, and even the number of decks used. Good [[Blackjack]] and [[Spanish 21]] games have house edges below 0.5%.
+
+Traditionally the majority casinos have refused to reveal the house edge information for their slots games and due to the unknown number of symbols and weightings of the reels, in most cases this is a lot more difficult to calculate than for other casino games. However due to some online properties revealing this information<ref> {{cite web |url=http://thepogg.com/slots/ |title=ThePOGG Slots RTP list |author=ThePOGG }}</ref> and some independent research conducted by [[Michael Shackleford]] in the offline sector, this pattern is slowly changing. <ref> {{cite web |url=http://wizardofodds.com/games/slots/appendix/3a/ |title=The Wizard of Odds - Slots Machine Odds in Las Vegas |date=13 February 2003  |author=Michael Shackleford }}</ref><ref> {{cite web |url=http://wizardofodds.com/games/slots/appendix/3b/ |title=The Wizard of Odds - Slots Machine Odds in Jean and Primm |date=3 May 2002  |author=Michael Shackleford }}</ref><ref> {{cite web |url=http://wizardofodds.com/games/slots/appendix/3d/ |title=The Wizard of Odds - Slots Machine Odds in Henderson and Lake Mead |date=3 May 2002  |author=Michael Shackleford }}</ref><ref> {{cite web |url=http://wizardofodds.com/games/slots/appendix/3e/ |title=The Wizard of Odds - Relationship between coins played and RTP |date=3 May 2002  |author=Michael Shackleford }}</ref><ref> {{cite web |url=http://wizardofodds.com/games/slots/appendix/3c/ |title=The Wizard of Odds - Slots Machine Odds in Tunica |date=3 May 2002 |author=Michael Shackleford }}</ref>
+
+===Standard deviation===
+The luck factor in a casino game is quantified using [[standard deviations]] (SD). The standard deviation of a simple game like Roulette can be calculated using the [[binomial distribution]]. In the binomial distribution, SD = sqrt (''npq'' ), where ''n'' = number of rounds played, ''p'' = probability of winning, and ''q'' = probability of losing. The binomial distribution assumes a result of 1 unit for a win, and 0 units for a loss, rather than -1 units for a loss, which doubles the range of possible outcomes. Furthermore, if we flat bet at 10 units per round instead of 1 unit, the range of possible outcomes increases 10 fold. 
+
+SD (Roulette, even-money bet) = 2''b'' sqrt(''npq'' ), where ''b'' = flat bet per round, ''n'' = number of rounds, ''p'' = 18/38, and ''q'' = 20/38.
+
+For example, after 10 rounds at 1 unit per round, the standard deviation will be 2 x 1 x sqrt(10 x 18/38 x 20/38) = 3.16 units. After 10 rounds, the expected loss will be 10 x 1 x 5.26% = 0.53. As you can see, standard deviation is many times the magnitude of the expected loss. 
+
+The standard deviation for [[Pai Gow poker]] is the lowest out of all common casinos. Many, particularly slots, have extremely high standard deviations. As the size of the potential payouts increase, so does the standard deviation.
+
+As the number of rounds increases, eventually, the expected loss will exceed the standard deviation, many times over. From the formula, we can see the standard deviation is proportional to the square root of the number of rounds played, while the expected loss is proportional to the number of rounds played. As the number of rounds increases, the expected loss increases at a much faster rate. This is why it is impossible for a gambler to win in the long term. It is the high ratio of short-term standard deviation to expected loss that fools gamblers into thinking that they can win. 
+
+It is important for a casino to know both the house edge and variance for all of their games. The house edge tells them what kind of profit they will make as percentage of turnover, and the variance tells them how much they need in the way of cash reserves. The mathematicians and computer programmers that do this kind of work are called [[gaming mathematics|gaming mathematicians]] and gaming analysts. Casinos do not have in-house expertise in this field, so outsource their requirements to experts in the gaming analysis field.
+
+==See also==
+* [[Gambler's fallacy]]
+
+==References==
+{{reflist}}
+
+{{DEFAULTSORT:Casino Game}}
+[[Category:Casinos]]

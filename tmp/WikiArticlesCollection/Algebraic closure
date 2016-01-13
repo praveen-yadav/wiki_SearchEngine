@@ -1,0 +1,42 @@
+{{Other uses|Closure (disambiguation)}}
+{{Refimprove|date=November 2008}}
+
+In [[mathematics]], particularly [[abstract algebra]], an '''algebraic closure''' of a [[field (mathematics)|field]] ''K'' is an [[algebraic extension]] of ''K'' that is [[algebraically closed field|algebraically closed]].  It is one of many [[closure (mathematics)|closures]] in mathematics.
+
+Using [[Zorn's lemma]], it can be shown that every field has an algebraic closure,<ref>M. F. Atiyah and I. G. Macdonald (1969). ''Introduction to commutative algebra''. Addison-Wesley publishing Company. pp. 11-12.</ref> and that the algebraic closure of a field ''K'' is unique [[up to]] an [[isomorphism]] that [[fixed point (mathematics)|fixes]] every member of ''K''. Because of this essential uniqueness, we often speak of ''the'' algebraic closure of ''K'', rather than ''an'' algebraic closure of ''K''.
+
+The algebraic closure of a field ''K'' can be thought of as the largest algebraic extension of ''K''.
+To see this, note that if ''L'' is any algebraic extension of ''K'', then the algebraic closure of ''L'' is also an algebraic closure of ''K'', and so ''L'' is contained within the algebraic closure of ''K''.
+The algebraic closure of ''K'' is also the smallest algebraically closed field containing ''K'',
+because if ''M'' is any algebraically closed field containing ''K'', then the elements of ''M'' which are [[algebraic extension|algebraic over]] ''K'' form an algebraic closure of ''K''.
+
+The algebraic closure of a field ''K'' has the same [[cardinal number|cardinality]] as ''K'' if ''K'' is infinite, and is [[countably infinite]] if ''K'' is finite.
+
+==Examples==
+*The [[fundamental theorem of algebra]] states that the algebraic closure of the field of [[real number]]s is the field of [[complex number]]s.
+
+*The algebraic closure of the field of [[rational number]]s is the field of [[algebraic number]]s.
+
+*There are many countable algebraically closed fields within the complex numbers, and strictly containing the field of algebraic numbers; these are the algebraic closures of transcendental extensions of the rational numbers, e.g. the algebraic closure of '''Q'''(π).
+
+*For a [[finite field]] of [[prime number|prime]] order ''p'', the algebraic closure is a [[countably infinite]] field which contains a copy of the field of order ''p''<sup>''n''</sup> for each positive [[integer]] ''n'' (and is in fact the union of these copies).<ref>{{citation|title=Infinite Algebraic Extensions of Finite Fields|volume=95|series=Contemporary Mathematics|first1=Joel V.|last1=Brawley|first2=George E.|last2=Schnibben|publisher=American Mathematical Society|year=1989|isbn=9780821854280|contribution=2.2 The Algebraic Closure of a FInite Field|pages=22–23|url=http://books.google.com/books?id=0HNfpAsMXhUC&pg=PA22}}.</ref>
+
+*See also [[Puiseux expansion]].
+
+==Separable closure==
+An algebraic closure ''K<sup>alg</sup>'' of ''K'' contains a unique [[separable extension]] ''K<sup>sep</sup>'' of ''K'' containing all (algebraic) [[separable extension]]s of ''K'' within ''K<sup>alg</sup>''.  This subextension is called a '''separable closure''' of ''K''. Since a separable extension of a separable extension is again separable, there are no finite separable extensions of ''K<sup>sep</sup>'', of degree > 1. Saying this another way, ''K'' is contained in a ''separably-closed'' algebraic extension field. It is essentially unique ([[up to]] isomorphism).
+
+The separable closure is the full algebraic closure if and only if ''K'' is a [[perfect field]]. For example, if ''K'' is a field of characteristic ''p'' and if ''X'' is transcendental over ''K'', <math>K(X)(\sqrt[p]{X}) \supset K(X)</math> is a non-separable algebraic field extension.
+
+In general, the [[absolute Galois group]] of ''K'' is the Galois group of ''K<sup>sep</sup>'' over ''K''.
+
+== See also==
+{{portal|Mathematics}}
+* [[Algebraically closed field]]
+* [[Algebraic extension]]
+
+==Notes==
+{{reflist}}
+
+{{DEFAULTSORT:Algebraic Closure}}
+[[Category:Field extensions]]

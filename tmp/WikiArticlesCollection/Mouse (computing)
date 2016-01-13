@@ -1,0 +1,318 @@
+{{pp-move-indef|small=yes}}
+[[File:3-Tastenmaus Microsoft.jpg|thumb|A computer mouse with the most common standard features: two buttons and a scroll wheel, which can also act as a third button.]]
+
+In [[computing]], a '''mouse''' is a [[pointing device]] that functions by detecting [[Two-dimensional space|two-dimensional]]  motion relative to its supporting surface. Physically, a mouse consists of an object held under one of the user's hands, with one or more buttons.
+
+The mouse sometimes features other elements, such as "wheels", which allow the user to perform various system-dependent operations, or extra buttons or features that can add more control or dimensional input. The mouse's motion typically translates into the motion of a [[Pointer (graphical user interfaces)|pointer]] on a [[Computer monitor|display]], which allows for fine control of a [[graphical user interface]].
+
+== Naming ==
+The earliest known publication of the term ''mouse'' as a computer pointing device is in [[William English (computer engineer)|Bill English's]] 1965 publication "Computer-Aided Display Control".<ref>Oxford English Dictionary, "mouse", sense 13</ref>
+
+The online ''Oxford Dictionaries'' entry for ''mouse'' states the plural for the small rodent is ''mice'', while the plural for the small computer connected device is either ''mice'' or ''mouses''. However, in the use section of the entry it states that the more common plural is ''mice'', and that the first recorded use of the term in the plural is ''mice'' as well<ref>{{cite web |url=http://oxforddictionaries.com/definition/mouse |title=Definition for Mouse |year=2011 |accessdate=2011-07-06}}</ref> (though it cites a 1984 use of ''mice'' when there were actually several earlier ones, such as [[J. C. R. Licklider]]'s "The Computer as a Communication Device" of 1968<ref>{{cite web | url = http://memex.org/licklider.pdf | title = The Computer as a Communication Device | author = J. C. R. Licklider | work = Science and Technology | date = April 1968}}</ref>). According to the fifth edition of ''[[The American Heritage Dictionary of the English Language]]''  the plural can be either "mice" or "mouses".<ref>{{cite web|title=mouse|url=http://ahdictionary.com/word/search.html?q=mouse&submit.x=29&submit.y=27|publisher=Houghton Mifflin Harcourt|accessdate=25 August 2013}}</ref>
+
+== History{{anchor|Rollkugel|X-Y Position Indicator}} ==
+<!-- The section header is used in redirects to this article -->
+[[File:Mouse-patents-englebart-rid.png|thumb|left|Early mouse patents. From left to right: Opposing track wheels by Engelbart, Nov. 1970, {{US Patent|3541541}}. Ball and wheel by ''Rider'', Sept. 1974, {{US Patent|3835464}}. Ball and two rollers with spring by Opocensky, Oct. 1976, {{US Patent|3987685}}]]
+[[Image:DATAR trackball.jpg|thumb|The [[trackball]] developed by Tom Cranston, Fred Longstaff and [[Kenyon Taylor]] working on the [[Royal Canadian Navy|Royal Canadian Navy's]] [[DATAR]] project in 1952. It used a standard Canadian [[five-pin bowling|five-pin bowling ball]].]]
+
+The [[trackball]], a related pointing device, was invented as part of a post-[[World War II]]-era radar plotting system called [[Comprehensive Display System]] (CDS) by [[Ralph Benjamin]] when working for the British [[Royal Navy]] Scientific Service in 1946. Benjamin's project used [[analog computer]]s to calculate the future position of target aircraft based on several initial input points provided by a user with a [[joystick]]. Benjamin felt that a more elegant input device was needed and invented a [[Ball tracker (pointing device)|ball tracker]]<ref name=Copping_2013_Benjamin/> called ''[[Roller ball (pointing device)|roller ball]]''<ref name="Hill_2005_Benjamin"/> for this purpose. Whilst patented in 1947,<ref name="Hill_2005_Benjamin">{{cite web | title=RALPH BENJAMIN: An Interview Conducted by Peter C. J. Hill | first=Peter C. J. | last=Hill | publisher=IEEE History Center, The Institute of Electrical and Electronics Engineers, Inc. | date=2005-09-16 | url=http://www.ieeeghn.org/wiki/index.php/Oral-History:Ralph_Benjamin | type=Interview | series=Interview #465 | accessdate=2013-07-18}}</ref> only a prototype was built<ref name=Copping_2013_Benjamin/> and the device instead kept as a secret outside military.<ref name=Copping_2013_Benjamin>{{cite web | title=Briton: 'I invented the computer mouse 20 years before the Americans' | first=Jasper | last=Copping | publisher=[[Telegraph Media Group Limited|The Telegraph]] | url=http://www.telegraph.co.uk/technology/news/10174366/Briton-I-invented-the-computer-mouse-20-years-before-the-Americans.html | date=2013-07-11 | accessdate=2013-07-18}}</ref>
+
+Another early trackball was built by Tom Cranston, Fred Longstaff and [[Kenyon Taylor]] as part of the [[Royal Canadian Navy|Royal Canadian Navy's]] [[DATAR]] (Digital Automated Tracking and Resolving) system in 1952.<ref name="Vardalas_1994_DATAR">{{Cite web | url = http://ewh.ieee.org/reg/7/millennium/fp6000/fp6000_datar.html | title = From DATAR To The FP-6000 Computer: Technological Change In A Canadian Industrial Context | accessdate = 2007-10-15 | last = Vardalas | first = John | year = 1994 | volume = 16 | series = 2 | work = IEEE Annals of the History of Computing | publisher = IEEE}}</ref> DATAR was similar in concept to Benjamin's display, but used a [[digital computer]] to calculate tracks, and sent the resulting data to other ships in a task force using [[pulse-code modulation]] radio signals. This trackball used a standard Canadian [[five-pin bowling]] ball. It was not patented, as it was a secret military project as well.<ref>''[http://books.google.com/books?id=CrzgS5SoMzcC&printsec=frontcover&dq=intitle:%22Pioneers+in+Canadian+Electrical+Manufacturing%22&lr=&as_brr=0&ei=bvUPSK7vGIfWtgOmmdyaBg&sig=lq7kwJoiGEoVuZi4kmnLjuUqxmU#PPA228,M1 Ferranti-Packard: Pioneers in Canadian Electrical Manufacturing]'', Norman R. Ball, John N. Vardalas, McGill-Queen's Press, 1993</ref>
+
+Independently, [[Douglas Engelbart]] at the Stanford Research Institute (now [[SRI International]]) invented the first mouse prototype in 1963, with the assistance of his lead engineer [[William English (computer engineer)|Bill English]].<ref>{{cite web|url=http://www.macworld.com/article/137400/2008/12/mouse40.html|title=The computer mouse turns 40|work=[[Macworld]]|first=Benj|last=Edwards|date=2008-12-09|accessdate=2009-04-16}}</ref> They christened the device the ''mouse'' as early models had a cord attached to the rear part of the device looking like a tail and generally resembling the common [[mouse]].<ref>{{cite web|url=http://alt-usage-english.org/excerpts/fxmouses.html|title="Mouses" vs "mice"|work=alt.usage.english fast-access FAQ|accessdate = 2006-06-11}}</ref> Engelbart never received any royalties for it, as his employer SRI held the patent, which ran out before it became widely used in personal computers.<ref>{{cite news |first=Shiels |last=Maggie |title=Say goodbye to the computer mouse |url=http://news.bbc.co.uk/1/hi/technology/7508842.stm |publisher=BBC News |date=2008-07-17 |accessdate=2008-07-17 }}</ref> The invention of the mouse was just a small part of Engelbart's much larger project, aimed at augmenting human intellect via the [[Augmentation Research Center]].<ref>"Evolving Collective Intelligence" by Engelbart, Landau and Clegg</ref><ref>{{cite web|url=http://www.smithsonianmag.com/video/smithsonian-channel/The-Demo-That-Changed-the-World.html|title=The Demo That Changed the World|publisher=Smithsonian Channel|accessdate=3 January 2013}}</ref>
+
+[[File:firstmouseunderside.jpg|thumb|left|The first computer mouse, held by inventor [[Douglas Engelbart]], showing the wheels that make contact with the working surface]]
+Several other experimental pointing-devices developed for Engelbart's oN-Line System ([[NLS (computer system)|NLS]]) exploited different body movements{{spaced ndash}}for example, head-mounted devices attached to the chin or nose{{spaced ndash}}but ultimately the mouse won out because of its speed and convenience.<ref>{{citation | last = Engelbart | first = Douglas C. | title = Display-Selection Techniques for Text Manipulation | publisher = IEEE Transactions on Human Factors in Electronics | pages = 5–15 | date = March 1967 | url = http://dougengelbart.org/pubs/augment-133184.html | accessdate = 2013-03-26}}</ref> The first mouse, a bulky device (pictured) used two wheels perpendicular to each other: the rotation of each wheel translated into motion along one [[Coordinate system|axis]].
+
+Filed in 1967, Engelbart received [[patent]] US 3,541,541 on November 17, 1970 for an "[http://www.google.com/patents/US3541541?printsec=drawing#v=onepage&q&f=false X-Y Position Indicator for a Display System]".<ref>{{cite web|url=http://www.invent.org/hall_of_fame/53.html|title=Inventor Profile: Douglas Engelbart|publisher=[[National Inventors Hall of Fame]]|accessdate=2012-06-10}}</ref> At the time, Engelbart envisaged that users would hold the mouse continuously in one hand and type on a five-key [[chorded keyboard|chord keyset]] with the other.<ref>{{cite web|url=http://page.mi.fu-berlin.de/~encyclop/Engelbart.htm|title=Douglas Carl Engelbart|archiveurl=http://web.archive.org/web/20050312150416/http://page.mi.fu-berlin.de/~encyclop/Engelbart.htm|archivedate=2005-03-12|first=Raúl|last=Rojas|authorlink=Raúl Rojas|work=[http://web.archive.org/web/20060829125459/http://page.mi.fu-berlin.de/~encyclop/ Encyclopedia of Computers and Computer History]|publisher=[[Free University of Berlin]]|accessdate=2006-12-31}}</ref> The concept was preceded in the 19th century by the [[telautograph]], which also anticipated the [[fax|fax machine]].
+
+[[File:Telefunken Rollkugel RKS 100-86.jpg|thumb|right|The first ball-based computer mouse in 1968, [[Telefunken]] {{lang|de|Rollkugel}} ''RKS 100-86''<!-- actually, it is not clear, if the pictured model is the first produced model or a somewhat later variant. Some 1968 illustrations still show a device without central button. --> for their ''TR 86'' process computer system]]
+On 2 October 1968, just a few months before Engelbart released [[The mother of all demos|his demo]] on 9 December 1968, a mouse device named ''{{lang|de|Rollkugel}}'' (German for "rolling ball") was released that had been developed and published by the German company [[Telefunken]]. As the name suggests and unlike Engelbart's mouse, the Telefunken model already had a ball, as seen in most later mechanical models up to the present. It was based on an earlier trackball-like device (also named ''{{lang|de|[[Rollkugel (trackball device)|Rollkugel]]}}'') embedded into radar flight control desks, which had been developed around 1965<!-- exact year not known --> by a team led by {{lang|de|[[Rainer Mallebrein]]}} at Telefunken {{lang|de|Konstanz}} for the German ''{{lang|de|{{ill|de|Bundesanstalt für Flugsicherung}}}}'' as part of their [[Telefunken TR 86|TR&nbsp;86]] process computer system with its [[Telefunken SIG 100|SIG&nbsp;100-86]]<ref>{{cite web
+|title=SIG-100 video terminal and mouse
+|url=http://www.computerhistory.org/revolution/input-output/14/346/1874
+}}</ref> vector graphics terminal. When the development for the Telefunken main frame {{ill|de|Telefunken TR 440|TR 440|TR 440}} began in 1965, {{lang|de|Mallebrein}} and his team came up with the idea of "reversing" the existing {{lang|de|Rollkugel}} into a moveable mouse-like device, so that customers did not have to be bothered with mounting holes for the earlier trackball device. Together with light pens and trackballs, it was offered as optional input device for their system since 1968. Some samples, installed at the {{lang|de|{{ill|de|Leibniz-Rechenzentrum}}}} in Munich in 1972, are still well preserved.<ref name="Bülow_2009_Rollkugel">{{cite web|url=http://www.heise.de/newsticker/Auf-den-Spuren-der-deutschen-Computermaus--/meldung/136901 |title=Auf den Spuren der deutschen Computermaus |trans_title=In the footsteps of the German computer mouse |language=German |publisher=Heise Verlag|date=2009-04-28|accessdate=2013-01-07}}</ref><ref name="OldMouse_Telefunken">{{cite web|url=http://www.oldmouse.com/mouse/misc/telefunken.shtml|title=Telefunken's 'Rollkugel'|publisher=oldmouse.com}}</ref> Telefunken considered the invention too small to apply for a patent on their device.
+
+The [[Xerox Alto]] was one of the first computers designed for individual use in 1973, and is regarded as the grandfather of computers that utilize the mouse.<ref>http://en.wikipedia.org/wiki/Xerox_Alto</ref> Inspired by [[Palo Alto Research Center|PARC]]'s Alto, the [[Lilith (computer)|Lilith]], a computer, which had been developed by a team around {{lang|de|[[Niklaus Wirth]]}} at [[ETH Zürich]] between 1978 and 1980, provided a mouse as well. The third marketed version of an integrated mouse shipped as a part of a computer and intended for personal computer navigation came with the [[Xerox Star|Xerox 8010 Star Information System]] in 1981. In 1982, [[Microsoft]] made the decision to make the [[MS-DOS]] program [[Microsoft Word]] mouse-compatible and developed the first PC-compatible mouse. Microsoft's mouse shipped in 1983, thus beginning [[Microsoft Hardware]].<ref name="mshw">{{cite web|title=30 Years Of Microsoft Hardware|url=http://www.microsoft.com/hardware/en-us/30-years-of-hardware|publisher=Microsoft|accessdate=15 July 2012}}</ref> However, the mouse remained relatively obscure until the 1984 appearance of the [[Macintosh 128K]], which included an updated version of the original [[Apple Mouse#Lisa Mouse (A9M0050)|Lisa Mouse]]. In 1984 PC columnist [[John C. Dvorak]] stated the mouse as a reason the Macintosh would fail.<ref>{{cite news|first=John C|last=Dvorak|authorlink=John C. Dvorak|work=[[The San Francisco Examiner]]|title=The Mac Meets the Press|date=1984-02-19|url=http://books.google.com/books?id=mXnw5tM8QRwC&pg=PA119&dq=john+c+dvorak+san+francisco+examiner+1984&hl=en&sa=X&ei=Z6iMT7uZNcXmiAK349zdCA&ved=0CD4Q6AEwAQ#v=onepage&q=john%20c%20dvorak%20san%20francisco%20examiner%201984&f=false}}</ref>
+
+== Variants ==
+
+=== Mechanical mice ===
+
+{{infobox| imagestyle = text-align: left
+| image = [[File:Mouse mechanism diagram.svg|frameless]]
+| caption = Operating an opto-mechanical mouse.
+# moving the mouse turns the ball.
+# X and Y rollers grip the ball and transfer movement
+# Optical [[Incremental encoder|encoding]] disks include light holes.
+# Infrared [[Light-emitting diode|LEDs]] shine through the disks.
+# Sensors gather light pulses to convert to X and Y vectors.
+}}
+The German company [[Telefunken]] published on their early ball mouse on October 2, 1968.<ref name="Bülow_2009_Rollkugel" /> Telefunken's mouse was sold as optional equipment for their computer systems. [[William English (computer engineer)|Bill English]], builder of Engelbart's original mouse,<ref>{{cite web | url = http://www.superkids.com/aweb/pages/features/mouse/mouse.html | title = Doug Engelbart: Father of the Mouse (interview) | accessdate = 2007-09-08 }}</ref> created a ball mouse in 1972 while working for [[PARC (company)|Xerox PARC]].<ref>{{cite journal |last=Wadlow |first=Thomas A. |title=The Xerox Alto Computer |journal=Byte |date=September 1981 |volume=6 |issue=9 |pages=58–68 |url=<!-- http://www.guidebookgallery.org/articles/thexeroxaltocomputer --> }}</ref>
+
+The ball mouse replaced the external wheels with a single ball that could rotate in any direction. It came as part of the hardware package of the [[Xerox Alto]] computer. Perpendicular [[Optical chopper|chopper wheels]] housed inside the mouse's body chopped beams of light on the way to light sensors, thus detecting in their turn the motion of the ball. This variant of the mouse resembled an inverted [[trackball]] and became the predominant form used with [[personal computer]]s throughout the 1980s and 1990s. The Xerox PARC group also settled on the modern technique of using both hands to type on a full-size keyboard and grabbing the mouse when required.
+
+[[File:Logitechms48.jpg|thumb|left|Mechanical mouse, shown with the top cover removed. The scroll wheel is grey, to the right of the ball.]]
+
+The ball mouse has two freely rotating rollers. They are located 90 degrees apart. One roller detects the forward–backward motion of the mouse and other the left–right motion. Opposite the two rollers is a third one (white, in the photo, at 45 degrees) that is spring-loaded to push the ball against the other two rollers. Each roller is on the same shaft as an [[Incremental encoder|encoder]] wheel that has slotted edges; the slots interrupt infrared light beams to generate electrical pulses that represent wheel movement. Each wheel's disc, however, has a pair of light beams, located so that a given beam becomes interrupted, or again starts to pass light freely, when the other beam of the pair is about halfway between changes.
+
+Simple logic circuits interpret the relative timing to indicate which direction the wheel is rotating. This [[Incremental encoder|incremental rotary encoder]] scheme is sometimes called quadrature encoding of the wheel rotation, as the two optical sensor produce signals that are in approximately [[quadrature phase]]. The mouse sends these signals to the computer system via the mouse cable, directly as logic signals in very old mice such as the Xerox mice, and via a data-formatting IC in modern mice. The driver software in the system converts the signals into motion of the mouse cursor along X and Y axes on the computer screen.
+
+[[File:HawleyMarkIImice.jpg|thumb|left|Hawley Mark II Mice from the Mouse House]]
+
+The ball is mostly steel, with a precision spherical rubber surface. The weight of the ball, given an appropriate working surface under the mouse, provides a reliable grip so the mouse's movement is transmitted accurately. Ball mice and wheel mice were manufactured for Xerox by Jack Hawley, doing business as The Mouse House in Berkeley, California, starting in 1975.<ref name=hawley>{{cite web|url = http://library.stanford.edu/mac/primary/images/hawley1.html|title = The Xerox Mouse Commercialized|work = Making the Macintosh: Technology and Culture in Silicon Valley}}</ref><ref>{{cite web|url = http://www.oldmouse.com/mouse/hawley/|title = Hawley Mark II X063X Mouses|work = oldmouse.com}}</ref> Based on another invention by Jack Hawley, proprietor of the Mouse House, [[Honeywell]] produced another type of mechanical mouse.<ref>{{cite web|url=http://www.bergen.org/AAST/Projects/Engineering_Graphics/_EG2001/mouse/improvements.html#honeywell
+|title=Honeywell mechanical mouse|accessdate=2007-01-31 |archiveurl = http://web.archive.org/web/20070428032201/http://www.bergen.org/AAST/Projects/Engineering_Graphics/_EG2001/mouse/improvements.html#honeywell <!-- Bot retrieved archive --> |archivedate = 2007-04-28}}</ref><ref>{{cite web | url = http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=4628755.PN.&OS=PN/4628755&RS=PN/4628755 | title = Honeywell mouse patent | accessdate = 2007-09-11 }}</ref> Instead of a ball, it had two wheels rotating at off axes. [[Key Tronic]] later produced a similar product.<ref>{{cite web|url=http://www.keytronic.com/home/products/specs/2hw73-1es.htm|title=Keytronic 2HW73-1ES Mouse|accessdate=2007-01-31 }}</ref>
+
+Modern computer mice took form at the [[École Polytechnique Fédérale de Lausanne]] (EPFL) under the inspiration of Professor [[Jean-Daniel Nicoud]] and at the hands of [[engineer]] and [[watchmaker]] [[André Guignard]].<ref>{{cite web|url=http://news.softpedia.com/news/Of-Mice-and-Men-and-PCs-43129.shtml |title=Retrieved 31 December 2006 |publisher=News.softpedia.com |date=1970-11-17 |accessdate=2010-05-29}}</ref> This new design incorporated a single hard rubber mouseball and three buttons, and remained a common design until the mainstream adoption of the scroll-wheel mouse during the 1990s.<ref>{{cite web|url=http://www.cnn.com/SPECIALS/2004/explorers/interactive/profiles/computer.mouse/content.html|title=Inventions, computer mouse{{spaced ndash}}the CNN site|accessdate=2006-12-31|work= |archiveurl = http://web.archive.org/web/20050424150438/http://www.cnn.com/SPECIALS/2004/explorers/interactive/profiles/computer.mouse/content.html |archivedate = April 24, 2005}}</ref> In 1985, [[René Sommer]] added a [[microprocessor]] to Nicoud's and Guignard's design.<ref name=wrs>{{cite news|first= |last= |title= Computer mouse inventor dies in Vaud |url=http://worldradio.ch/wrs/news/wrsnews/computer-mouse-inventor-dies-in-vaud.shtml?16283|work=[[World Radio Switzerland]] |publisher=|date=2009-10-14 |accessdate=2009-10-28}}</ref> Through this innovation, Sommer is credited with inventing a significant component of the mouse, which made it more "intelligent;"<ref name=wrs/> though optical mice from Mouse Systems had incorporated microprocessors by 1984.<ref>{{cite journal | journal = InfoWorld | title = People | author = Denise Caruso | volume = 6 | issue = 20 | publisher = InfoWorld Media Group, Inc. | page = 16 | issn = 0199-6649 | date = May 14, 1984 | url = http://books.google.com/?id=sy4EAAAAMBAJ&pg=PA16&dq=optical-mouse+kirsch+microprocessor&cd=1#v=onepage&q=optical-mouse%20kirsch%20microprocessor }}</ref>
+
+Another type of mechanical mouse, the "analog mouse" (now generally regarded as obsolete), uses [[potentiometer]]s rather than encoder wheels, and is typically designed to be [[plug compatible]] with an analog joystick. The "Color Mouse", originally marketed by [[RadioShack]] for their [[TRS-80 Color Computer|Color Computer]] (but also usable on [[MS-DOS]] machines equipped with analog joystick ports, provided the software accepted joystick input) was the best-known example.
+
+=== Optical and laser mice ===
+[[File:WirelessMouse.JPG|thumb|left|A wireless optical mouse on a mousepad]]
+[[File:Microsmart Home and Office Wireless Mouse.jpg|thumb|A standard wireless mouse and its connector]]
+
+{{Main|Optical mouse}}
+
+Optical mice make use of one or more [[light-emitting diode]]s (LEDs) and an imaging array of [[photodiode]]s to detect movement relative to the underlying surface, rather than internal moving parts as does a mechanical mouse. A laser mouse is an optical mouse that uses coherent (laser) light.
+
+The earliest optical mice detected movement on pre-printed mousepad surfaces, whereas the modern optical mouse works on most opaque surfaces; it is usually unable to detect movement on specular surfaces like glass. Laser diodes are also used for better resolution and precision. Battery powered, wireless optical mice flash the LED intermittently to save power, and only glow steadily when movement is detected.
+
+=== Inertial and gyroscopic mice ===
+Often called "air mice" since they do not require a surface to operate, inertial mice use a tuning fork or other [[accelerometer]] ([http://www.freepatentsonline.com/4787051.html US Patent 4787051], published in 1988) to detect rotary movement for every axis supported. The most common models (manufactured by Logitech and Gyration) work using 2 degrees of rotational freedom and are insensitive to spatial translation. The user requires only small wrist rotations to move the cursor, reducing user fatigue or "[[gorilla arm]]".
+
+Usually cordless, they often have a switch to deactivate the movement circuitry between use, allowing the user freedom of movement without affecting the cursor position. A patent for an inertial mouse claims that such mice consume less power than optically based mice, and offer increased sensitivity, reduced weight and increased [[Usability|ease-of-use]].<ref>
+[http://www.freshpatents.com/Highly-sensitive-inertial-mouse-dt20060727ptan20060164393.php Fresh Patents&nbsp;– Highly Sensitive Inertial Mouse]. Retrieved 31 December 2006.</ref> In combination with a wireless keyboard an inertial mouse can offer alternative ergonomic arrangements which do not require a flat work surface, potentially alleviating some types of repetitive motion injuries related to workstation posture.
+
+=== 3D mice ===
+Also known as bats,<ref>{{cite book | title = 3D user interfaces | author = Doug A. Bowman, Ernst Kruijff and Ivan Poupyrev | publisher = Addison-Wesley | year = 2005 | isbn = 978-0-201-75867-2 | page = 111 | url = http://books.google.com/?id=It5QAAAAMAAJ&q=bat+3d-mouse&dq=bat+3d-mouse }}</ref> flying mice, or wands,<ref>{{cite book | title = Exploring advanced manufacturing technologies | author = Stephen F. Krar and Arthur Gill | publisher = Industrial Press Inc | year = 2003 | isbn = 978-0-8311-3150-0 | pages = 8–6–4 | url = http://books.google.com/?id=TGkfsC77pdwC&pg=PT247&dq=flying-mouse+3d+wand }}</ref> these devices generally function through [[ultrasound]] and provide at least three [[Degrees of freedom (mechanics)|degrees of freedom]]. Probably the best known example would be [[3Dconnexion]]/Logitech's SpaceMouse from the early 1990s. In the late 1990s Kantek introduced the 3D RingMouse. This wireless mouse was worn on a ring around a finger, which enabled the thumb to access three buttons. The mouse was tracked in three dimensions by a base station.<ref>{{cite web|url=http://www.byte.com/art/9602/sec17/art6.htm |title=Retrieved 31 December 2006 |publisher=Byte.com |date= |accessdate=2010-05-29}}</ref> Despite a certain appeal, it was finally discontinued because it did not provide sufficient resolution.
+
+A recent consumer 3D pointing device is the [[Wii Remote]]. While primarily a motion-sensing device (that is, it can determine its orientation and direction of movement), Wii Remote can also detect its spatial position by comparing the distance and position of the lights from the [[Infrared|IR]] emitter using its integrated IR camera (since the [[Wii Nunchuk|nunchuk]] accessory lacks a camera, it can only tell its current heading and orientation). The obvious drawback to this approach is that it can only produce spatial coordinates while its camera can see the sensor bar.
+
+A mouse-related controller called the SpaceBall<ref>{{cite web|url=http://www.vrlogic.com/html/3dconnexion/space_ball.html |title=Space Ball |publisher=Vrlogic.com |date= |accessdate=2010-05-29}}</ref> has a ball placed above the work surface that can easily be gripped. With spring-loaded centering, it sends both translational as well as angular displacements on all six axes, in both directions for each. In November 2010 a German Company called Axsotic introduced a new concept of 3D mouse called 3D Spheric Mouse. This new concept of a true six degree-of-freedom input device uses a ball to rotate in 3 axes without any limitations.<ref>{{cite web|url=http://www.axsotic.com|title=axsotic|publisher=axsotic.com |date= |accessdate=2011-02-09}}</ref>
+
+=== Tactile mice ===
+
+In 2000, [[Logitech]] introduced a "tactile mouse" that contained a small [[actuator]] to make the mouse vibrate. Such a mouse can augment user-interfaces with [[Haptic technology|haptic]] feedback, such as giving feedback when crossing a [[Window (computing)|window]] boundary. To surf by touch requires the user to be able to feel depth or hardness; this ability was realized with the first electrorheological tactile mice<ref>{{Cite journal | author8 = Heckner. T., C. Kessler, S. Egersdörfer, G. J. Monkman | title = Computer based platform for tactile actuator analysis | location = Actuator'06, Bremen | date = 14–16 June 2006 | postscript = <!--None--> }}</ref> but never marketed.
+
+=== Ergonomic mice ===
+As the name suggests, this type of mouse is intended to provide optimum comfort and avoid injuries such as [[carpal tunnel syndrome]], [[arthritis]] and other [[Repetitive strain injury|repetitive strain injuries]]. It is designed to fit natural hand position and movements, to reduce discomfort.
+
+=== Gaming mice ===
+These mice are specifically designed for use in [[PC game|computer games]]. They typically employ a wide array of controls and buttons and have designs that differ radically from traditional mice. It is also common for gaming mice, especially those designed for use in [[real-time strategy]] games such as ''[[StarCraft]]'' or ''[[League of Legends]]'', to have a relatively high sensitivity, measured in dots per inch (DPI). Some advanced mice from gaming manufacturers also allow users to customize the weight of the mouse by adding or subtracting weights to allow for easier control.<ref>{{cite web|url=http://superuser.com/questions/192648/proper-use-and-purpose-of-mouse-weights |title=Proper use and purpose of mouse weights |publisher=Super User |date= |accessdate=2013-03-10}}</ref> Ergonomic quality is also an important factor in gaming mice, as extended gameplay times may render further use of the mouse to be uncomfortable.<ref>{{cite web|url=http://www.best-gaming.org/5-tips-when-choosing-a-gaming-mouse/|title=5 Tips when Choosing a Gaming Mouse|publisher=Best-Gaming.org|accessdate=3 January 2013}}</ref> Gaming mice are held by [[gamer]]s in three styles of [[wikt:grip|grip]]:<ref>{{Cite web|url = http://www.gamezone.com/reviews/2013/07/11/peripheral-vision-logitech-g600-mmo-gaming-mouse|title = Peripheral Vision: Logitech G600 MMO Gaming Mouse|accessdate = 2013-08-09|website = [[GameZone]]|author = Thomas Adams}}</ref><ref>{{Cite web|url = http://www.digitalstormonline.com/unlocked/pc-gaming-101-mouse-grip-styles-idnum28/|title = PC Gaming 101: Mouse Grip Styles|website = [[Digital Storm Online, Inc.]]}}</ref>
+# Palm Grip: the hand rests on the mouse, with extended fingers.<ref>{{cite web | url=http://www.razerzone.com/mouseguide/ergonomic | title=The palm grip | publisher=Razer | work=Ergonomics guide | accessdate=12 August 2013}}</ref>
+# Claw Grip: palm rests on the mouse, bent fingers.<ref>{{cite web | url=http://www.razerzone.com/mouseguide/ergonomic/clawgrip | title=The claw grip | publisher=Razer | work=Ergonomics guide | accessdate=12 August 2013}}</ref>
+# Finger-Tip Grip: bent fingers, palm doesn't touch the mouse.<ref>{{cite web | url=http://www.razerzone.com/mouseguide/ergonomic/fingertipgrip | title=The fingertip grip | publisher=Razer | work=Ergonomics guide | accessdate=12 August 2013}}</ref>
+
+== Connectivity and communication protocols ==
+[[File:MS-Arc-Mouse.jpg|thumb|right|A Microsoft wireless Arc mouse]]
+To transmit their input, typical cabled mice use a thin electrical cord terminating in a standard connector, such as [[RS-232]]C, [[PS/2 connector|PS/2]], [[Apple Desktop Bus|ADB]] or [[Universal Serial Bus|USB]]. Cordless mice instead transmit data via [[infrared]] radiation (see [[Infrared Data Association|IrDA]]) or [[radio]] (including [[Bluetooth]]), although many such cordless interfaces are themselves connected through the aforementioned wired serial buses.
+
+While the electrical interface and the format of the data transmitted by commonly available mice is currently standardized on USB, in the past it varied between different manufacturers. A [[bus mouse]] used a dedicated interface card for connection to an [[IBM Personal Computer|IBM PC]] or compatible computer.
+
+Mouse use in DOS applications became more common after the introduction of the Microsoft mouse, largely because Microsoft provided an open standard for communication between applications and mouse driver software. Thus, any application written to use the Microsoft standard could use a mouse with a driver that implements the same API, even if the mouse hardware itself was incompatible with Microsoft's. This driver provides the state of the buttons and the distance the mouse has moved in units that its documentation calls "[[#Mouse speed|mickeys]]",<ref name="int33h">[http://gd.tuwien.ac.at/languages/c/programming-bbrown/advcw3.htm#mouse Interfacing to mouse.sys] Accessed 2011-10-08.</ref> as does the [[Allegro (software)|Allegro library]].<ref name="allegro_mouse_routines">Shawn Hargreaves et al. [http://alleg.sourceforge.net/latestdocs/en/alleg004.html Allegro manual: Mouse routines]. Accessed 2011-10-08.</ref>
+
+=== Serial interface and protocol ===
+Standard PC mice once used the [[RS-232]]C serial port via a [[D-subminiature]] connector, which provided power to run the mouse's circuits as well as data on mouse movements. The Mouse Systems Corporation version used a five-byte protocol and supported three buttons. The Microsoft version used a three-byte protocol and supported two buttons. Due to the incompatibility between the two protocols, some manufacturers sold serial mice with a mode switch: "PC" for MSC mode, "MS" for Microsoft mode.<ref>[http://freedos-32.sourceforge.net/showdoc.php?page=sermouse FreeDOS-32&nbsp;– Serial Mouse driver]{{Dead link|date=May 2010}}</ref>
+
+=== PS/2 interface and protocol ===
+{{details|PS/2 connector}}
+
+With the arrival of the [[IBM Personal System/2|IBM PS/2]] personal-computer series in 1987, IBM introduced the [[eponym]]ous PS/2 interface for mice and keyboards, which other manufacturers rapidly adopted. The most visible change was the use of a round 6-pin [[mini-DIN connector|mini-DIN]], in lieu of the former 5-pin connector. In default mode (called ''stream mode'') a PS/2 mouse communicates motion, and the state of each button, by means of 3-byte packets.<ref>{{cite web|author=Adam Chapweske |url=http://www.computer-engineering.org/ps2mouse/ |title=Computer Engineering Tips – PS/2 Mouse Interface |publisher=Computer-engineering.org |date= |accessdate=2013-03-10}}</ref> For any motion, button press or button release event, a PS/2 mouse sends, over a bi-directional serial port, a sequence of three bytes, with the following format:
+
+{|class="wikitable"
+|- align=center
+!||Bit 7||Bit 6||Bit 5||Bit 4||Bit 3||Bit 2||Bit 1||Bit 0
+|- align=center
+!Byte 1
+|YV||XV||YS||XS||1||MB||RB||LB
+|- style="text-align:center;"
+!Byte 2
+|colspan="8"|X movement
+|- style="text-align:center;"
+!Byte 3
+|colspan="8"|Y movement
+|}
+
+Here, XS and YS represent the sign bits of the movement vectors, XV and YV indicate an overflow in the respective vector component, and LB, MB and RB indicate the status of the left, middle and right [[mouse button]]s (1 = pressed). PS/2 mice also understand several commands for reset and self-test, switching between different operating modes, and changing the resolution of the reported motion vectors.
+
+A [[IntelliMouse|Microsoft IntelliMouse]] relies on an extension of the PS/2 protocol: the ImPS/2 or IMPS/2 protocol (the abbreviation combines the concepts of "IntelliMouse" and "PS/2"). It initially operates in standard PS/2 format, for backwards compatibility. After the host sends a special command sequence, it switches to an extended format in which a fourth byte carries information about wheel movements. The IntelliMouse Explorer works analogously, with the difference that its 4-byte packets also allow for two additional buttons (for a total of five).<ref>[http://www.microsoft.com/whdc/device/input/mcompat.mspx Retrieved 31 December 2006]{{Dead link|date=May 2010}}</ref>
+
+Mouse vendors also use other extended formats, often without providing public documentation. The Typhoon mouse uses 6-byte packets which can appear as a sequence of two standard 3-byte packets, such that an ordinary PS/2 [[device driver|driver]] can handle them.<ref>{{cite web|url=http://www.win.tue.nl/~aeb/linux/kbd/scancodes-13.html |title=Retrieved 31 December 2006 |publisher=Win.tue.nl |date= |accessdate=2010-05-29}}</ref> For 3-D (or 6-degree-of-freedom) input, vendors have made many extensions both to the hardware and to software. In the late 1990s Logitech created ultrasound based tracking which gave 3D input to a few millimetres accuracy, which worked well as an input device but failed as a profitable product. In 2008, Motion4U introduced its "OptiBurst" system using IR tracking for use as a Maya (graphics software) plugin.
+
+=== Apple Desktop Bus ===
+[[File:Apple Macintosh Plus mouse.jpg|thumb|[[Macintosh Plus|Apple Macintosh Plus]] mice: beige mouse (left), platinum mouse (right), 1986]]
+
+In 1986 [[Apple Inc.|Apple]] first implemented the [[Apple Desktop Bus]] allowing the daisy-chaining together of up to 16 devices, including arbitrarily many mice and other devices on the same bus with no configuration whatsoever. Featuring only a single data pin, the bus used a purely polled approach to computer/mouse communications and survived as the standard on mainstream models (including a number of non-Apple workstations) until 1998 when [[iMac]] joined the industry-wide switch to using [[Universal Serial Bus|USB]]. Beginning with t
+Bronze Keyboard" PowerBook G3 in May 1999, Apple dropped the external ADB port in favor of USB, but retained an internal ADB connection in the [[PowerBook G4]] for communication with its built-in keyboard and trackpad until early 2005.
+
+=== USB ===
+The industry-standard [[Universal Serial Bus|USB]] (Universal Serial Bus) protocol and its connector have become widely used for mice; it is among the most popular types.<ref>{{cite journal | date = November 2007 | title = USB: A Technological Success Story | author = Jon Gan | journal = HWM | issn = 0219-5607 | publisher = SPH Magazines | page = 114 | url = http://books.google.com/?id=MesDAAAAMBAJ&pg=RA1-PA49&dq=imac+usb+1998&cd=14#v=onepage&q=imac%20usb%201998 }}</ref>
+
+=== Cordless or wireless ===
+[[File:Microsoft-wireless-mouse.jpg|thumb|A wireless mouse made for notebook computers]]
+
+Cordless or wireless mice transmit data via [[infrared]] radiation (see [[Infrared Data Association|IrDA]]) or [[radio]] (including [[Bluetooth]] and [[Wi-Fi]]). The receiver is connected to the computer through a serial or USB port, or can be built in (as is sometimes the case with Bluetooth and WiFi<ref>[http://www.targus.com/us/productdetail.aspx?regionId=7&sku=AMW58US&PageName=Mice%20for%20Laptops%20by%20Targus&productCategoryId=20&bucketTypeId=0&searchedTerms=&navlevel1=products&cp=&bannertxt=Mice%20for%20Laptops Targus Wifi Mouse]</ref>).
+Modern non-Bluetooth and non-WiFi wireless mice use USB receivers. Some of these can be stored inside the mouse for safe transport while not in use, while other, newer mice use newer "[[List of wireless mice with nano receivers|nano]]" receivers, designed to be small enough to remain plugged into a laptop during transport, while still being large enough to easily remove.<ref>Lisa Johnston.  [http://peripherals.about.com/od/glossaryofpcterms/g/WhatIsANanoReceiver.htm What Is a Nano Wireless Receiver?] About.com. Accessed 2010-09-03</ref>
+
+=== Atari standard joystick connectivity ===
+The [[Amiga]] and the [[Atari ST]] use an Atari standard [[DE-9 connector]] for mice, the same connector that is used for [[Joystick#Electronic games|joysticks]] on the same computers and numerous 8-bit systems, such as the [[Commodore 64]] and the [[Atari 2600]]. However, the signals used for mice are different from those used for joysticks. As a result, plugging a mouse into a joystick port causes the "joystick" to continuously move in some direction, even if the mouse stays still, whereas plugging a joystick into a mouse port causes the "mouse" to only be able to move a single pixel in each direction.
+
+== Operation ==
+{{unreferenced section|date=August 2012}}
+A mouse typically controls the motion of a [[Pointer (graphical user interfaces)|pointer]] in two dimensions in a graphical user interface (GUI). Clicking or hovering (stopping movement while the cursor is within the bounds of an area) can select files, programs or actions from a list of names, or (in graphical interfaces) through small images called "icons" and other elements. For example, a text file might be represented by a picture of a paper notebook, and clicking while the cursor hovers this icon might cause a text editing program to open the file in a window. (See also [[Point and click]])
+
+Users can also employ mice ''gesturally''; meaning that a stylized motion of the mouse cursor itself, called a "[[Pointing device gesture|gesture]]", can issue a command or map to a specific action. For example, in a drawing program, moving the mouse in a rapid "x" motion over a shape might delete the shape.
+
+Gestural interfaces occur more rarely than plain pointing-and-clicking; and people often find them more difficult to use, because they require finer motor-control from the user. However, a few gestural conventions have become widespread, including the [[drag and drop]] gesture, in which:
+
+#The user presses the mouse button while the mouse cursor hovers over an interface object
+#The user moves the cursor to a different location while holding the button down
+#The user releases the mouse button
+
+For example, a user might drag-and-drop a picture representing a file onto a picture of a [[Trash (computing)|trash can]], thus instructing the system to delete the file.
+
+Other uses of the mouse's input occur commonly in special application-domains. In interactive [[3D computer graphics|three-dimensional graphics]], the mouse's motion often translates directly into changes in the virtual camera's orientation. For example, in the first-person shooter genre of games (see below), players usually employ the mouse to control the direction in which the virtual player's "head" faces: moving the mouse up will cause the player to look up, revealing the view above the player's head. A related function makes an image of an object rotate, so that all sides can be examined.
+
+When mice have more than one button, software may assign different functions to each button. Often, the primary (leftmost in a [[Handedness|right-handed]] configuration) button on the mouse will select items, and the secondary (rightmost in a right-handed) button will bring up a menu of alternative actions applicable to that item. For example, on platforms with more than one button, the [[Mozilla]] web browser will follow a link in response to a primary button click, will bring up a contextual menu of alternative actions for that link in response to a secondary-button click, and will often open the link in a new [[Tab (GUI)|tab]] or [[window (computing)|window]] in response to a click with the tertiary (middle) mouse button.
+
+Different ways of operating the mouse cause specific things to happen in the GUI:
+
+*Click: pressing and releasing a button.
+**(left) [[Point and click|Single-click]]: clicking the main button.
+**(left) [[Double-click]]: clicking the button two times in quick succession counts as a different gesture than two separate single clicks.
+**(left) [[Triple-click]]: clicking the button three times in quick succession.
+**(left) [[Quadruple-click]]: clicking the button four times in quick succession.
+**[[Right-click]]: clicking the secondary button.
+**[[Middle-click]]: clicking the tertiary button.
+*[[Left-drag|Drag]]: pressing and holding a button, then moving the mouse without releasing. (Use the command "[[Right-drag|drag with the right mouse button]]" instead of just "drag" when you instruct a user to drag an object while holding the right mouse button down instead of the more commonly used left mouse button.)
+*Button [[Mouse chording|chord]]ing (a.k.a. Rocker navigation).
+**Combination of right-click then left-click.
+**Combination of left-click then right-click or keyboard letter.
+**Combination of left or right-click and the mouse wheel.
+* Clicking while holding down a [[modifier key]].
+*Moving the pointer a long distance: When a practical limit of mouse movement is reached, one lifts up the mouse, brings it to the opposite edge of the working area while it is held above the surface, and then replaces it down onto the working surface. This is often not necessary, because acceleration software detects fast movement, and moves the pointer significantly faster in proportion than for slow mouse motion.
+
+Standard semantic gestures include:
+
+*[[Crossing-based interface|Crossing-based goal]]
+*[[Drag and drop]]
+*[[Menu (computing)|Menu]] traversal
+*Pointing
+*[[Rollover (web design)|Rollover]]
+*Selection
+
+== Multiple-mouse systems ==
+Some systems allow two or more mice to be used at once as input devices. 16-bit era [[home computer]]s such as the [[Amiga]] used this to allow computer games with two players interacting on the same computer. The same idea is sometimes used in [[collaborative software]], e.g. to simulate a [[whiteboard]] that multiple users can draw on without passing a single mouse around.
+
+[[Microsoft Windows]], since [[Windows 3.1x|Windows 3.1]], has supported multiple simultaneous pointing devices. Because Windows only provides a single screen cursor, using more than one device at the same time requires cooperation of users or applications designed for multiple input devices.
+
+Multiple mice are often used in multi-user gaming in addition to specially designed devices that provide several input interfaces.
+
+Windows also has full support for multiple input/mouse configurations for multiuser environments.
+
+Starting with Windows XP, Microsoft introduced a SDK for developing applications that allow multiple input devices to be used at the same time with independent cursors and independent input points.<ref>{{cite web|url=http://www.microsoft.com/multipoint/mouse-sdk/developer.aspx|title=Multipoint Mouse SDK|publisher=Microsoft|accessdate=2012-08-05}}</ref>
+
+The introduction of Vista and Microsoft Surface (now known as [[Microsoft PixelSense]]) introduced a new set of input APIs that were adopted into Windows 7, allowing for 50 points/cursors, all controlled by independent users. The new input points provide traditional mouse input; however, are designed for more advanced input technology like touch and image. They inherently offer 3D coordinates along with pressure, size, tilt, angle, mask, and even an image bitmap to see and recognize the input point/object on the screen.
+
+As of 2009, [[Linux]] distributions and other [[operating system]]s that use [[X.Org Server|X.Org]], such as [[OpenSolaris]] and [[FreeBSD]], support 255 cursors/input points through [[Multi-Pointer X]]. However, current no window managers support Multi-Pointer X leaving it relegated to custom software usage.
+
+There have also been propositions of having a single operator use two mice simultaneously as a more sophisticated means of controlling various graphics and multimedia applications.<ref>{{cite web|url=http://ieeexplore.ieee.org/Xplore/login.jsp?url=/iel5/7568/20620/00953558.pdf |title= Design and implementation of the double mouse system for a Window environment |publisher=IEEE Xplore |date= |accessdate=2010-05-29}}</ref>
+
+== Buttons ==
+{{Main|Mouse button}}
+
+Mouse buttons are [[Miniature snap-action switch|microswitch]]es which can be pressed to select or interact with an element of a [[graphical user interface]], producing a distinctive clicking sound.
+
+The three-button scrollmouse has become the most commonly available design. As of 2007 (and roughly since the late 1990s), users most commonly employ the second button to invoke a [[context menu|contextual menu]] in the computer's software user interface, which contains options specifically tailored to the interface element over which the mouse cursor currently sits. By default, the primary mouse button sits located on the left-hand side of the mouse, for the benefit of right-handed users; left-handed users can usually reverse this configuration via software.
+
+== Mouse speed ==
+Mickeys per second is a unit of measurement for the speed and movement direction of a computer mouse.<ref name="int33h"/>  But speed can also refer to the ratio between how many pixels the cursor moves on the screen and how far the mouse moves on the mouse pad, which may be expressed as pixels per Mickey, or pixels per inch, or pixels per cm. The directional movement is called the horizontal mickey count and the vertical mickey count.
+
+The computer industry often measures mouse sensitivity in terms of counts per inch (CPI), commonly expressed as dots per inch (DPI){{spaced ndash}}the number of steps the mouse will report when it moves one inch. In early mice, this specification was called pulses per inch (ppi).<ref name=hawley/>  The Mickey originally referred to one of these counts, or one resolvable step of motion.  If the default mouse-tracking condition involves moving the cursor by one screen-pixel or dot on-screen per reported step, then the CPI does equate to DPI: dots of cursor motion per inch of mouse motion. The CPI or DPI as reported by manufacturers depends on how they make the mouse; the higher the CPI, the faster the cursor moves with mouse movement. However, software can adjust the mouse sensitivity, making the cursor move faster or slower than its CPI. {{As of|2007|alt=Current}} software can change the speed of the cursor dynamically, taking into account the mouse's absolute speed and the movement from the last stop-point. In most software{{Specify|date=April 2009}} this setting is named "speed", referring to "cursor precision". However, some software{{Specify|date=April 2009}} names this setting "acceleration", but this term is in fact incorrect. The mouse acceleration, in the majority of mouse software, refers to the setting allowing the user to modify the cursor acceleration: the change in speed of the cursor over time while the mouse movement is constant.
+
+For simple software, when the mouse starts to move, the software will count the number of "counts" or "mickeys" received from the mouse and will move the cursor across the screen by that number of pixels (or multiplied by a rate factor, typically less than 1). The cursor will move slowly on the screen, having a good precision. When the movement of the mouse passes the value set for "threshold", the software will start to move the cursor more quickly, with a greater rate factor. Usually, the user can set the value of the second rate factor by changing the "acceleration" setting.
+
+Operating systems sometimes apply acceleration, referred to as "[[ballistics]]", to the motion reported by the mouse. For example, versions of [[Microsoft Windows|Windows]] prior to [[Windows XP]] doubled reported values above a configurable threshold, and then optionally doubled them again above a second configurable threshold. These doublings applied separately in the X and Y directions, resulting in very [[Nonlinear system|nonlinear]] response.<ref>{{cite web | title = Pointer ballistics for Windows XP | url = http://www.microsoft.com/whdc/archive/pointer-bal.mspx | work = Windows Hardware Developer Center Archive | publisher = [[Microsoft]] | year = 2002 | accessdate = April 29, 2010 }}</ref>
+
+== Mousepads ==
+{{Main|Mousepad}}
+
+Engelbart's original mouse did not require a mousepad;<ref>{{cite web|url = http://www.gruntville.com/reviews/mousepads/corepad_roundup/index.php|title = Corepad Victory & Deskpad XXXL|author = Eric "Unit24" Guy|accessdate = 2007-10-03}}</ref> the mouse had two large wheels which could roll on virtually any surface. However, most subsequent mechanical mice starting with the steel roller ball mouse have required a mousepad for optimal performance.
+
+The mousepad, the most common mouse accessory, appears most commonly in conjunction with mechanical mice, because to roll smoothly the ball requires more friction than common desk surfaces usually provide. So-called "hard mousepads" for gamers or optical/laser mice also exist.
+
+Most optical and laser mice do not require a pad. Whether to use a hard or soft mousepad with an optical mouse is largely a matter of personal preference. One exception occurs when the desk surface creates problems for the optical or laser tracking, for example, a transparent or reflective surface.
+
+== In the marketplace ==
+[[File:Assorted computer mice - MfK Bern.jpg|thumb|Computer mice built between 1986 and 2007]]
+Around 1981 Xerox included mice with its [[Xerox Star]], based on the mouse used in the 1970s on the Alto computer at [[PARC (company)|Xerox PARC]]. [[Sun Microsystems]], [[Symbolics]], [[Lisp Machines]] Inc., and [[Tektronix]] also shipped workstations with mice, starting in about 1981. Later, inspired by the Star, [[Apple Inc.|Apple Computer]] released the [[Apple Lisa]], which also used a mouse. However, none of these products achieved large-scale success. Only with the release of the [[Macintosh|Apple Macintosh]] in 1984 did the mouse see widespread use.<ref>{{cite journal| journal = HWM| title = The Macintosh Phenomenon: Celebrating Twenty Years of the World's Most Adored Desktop Computers| author = Andrew Chan| pages = 74–77| date = Nov. 2004| url = http://books.google.com/books?id=o-oDAAAAMBAJ&pg=PA76}}</ref>
+
+The Macintosh design,<ref>{{cite journal|last=Gladwell|first=Malcolm|title=Creation Myth – Xerox PARC, Apple, and the truth about innovation|journal=The New Yorker|date=May 16, 2011|url=http://www.newyorker.com/reporting/2011/05/16/110516fa_fact_gladwell?currentPage=all|accessdate=31 August 2011|quote=The mouse was conceived by the computer scientist Douglas Engelbart, developed by Xerox PARC, and made marketable by Apple}}</ref> commercially successful and technically influential, led many other vendors to begin producing mice or including them with their other computer products (by 1986, [[Atari ST]], [[Amiga]], [[Windows 1.0]], [[GEOS (8-bit operating system)|GEOS]] for the [[Commodore 64]], and the [[Apple IIGS]]).<ref>{{cite journal| journal = Popular Mechanics| title = Colorful New Apple|first= Stephen A.|last=Booth | volume = 164| issue = 1| publisher = | page = 16| issn = 0032-4558| date = Jan. 1987| url = http://books.google.com/books?id=GOMDAAAAMBAJ&pg=PA16}}</ref>
+
+The widespread adoption of graphical user interfaces in the software of the 1980s and 1990s made mice all but indispensable for controlling computers. In November 2008, [[Logitech]] built their billionth mouse.<ref>{{cite news|last=Shiels |first=Maggie |url=http://news.bbc.co.uk/1/low/technology/7751627.stm |title=Logitech's billionth mouse |publisher=BBC News |date=2008-12-03 |accessdate=2010-05-29}}</ref>
+
+== Use in games ==
+[[File:Logitech-G5-Mouse-Rust.jpg|thumb|[[Logitech G5]] [[laser mouse]] designed for gaming]]
+
+Mice often function as an interface for PC-based [[video game|computer game]]s and sometimes for [[video game console]]s.
+
+=== First-person shooters ===
+{{unreferenced section|date=August 2012}}
+Due to the cursor-like nature of the crosshairs in [[first-person shooter]]s, a combination of mouse and keyboard provides a popular way to play first person shooter games. Players use the X-axis of the mouse for looking (or turning) left and right, and the Y-axis for looking up and down. Many gamers prefer this primarily in first person shooter games over a [[gamepad]] or joypad because it provides a higher resolution for input, so they are able to make small, precise motions in the game more easily. The left button usually controls primary fire. If the game supports multiple fire modes, the right button often provides secondary fire from the selected weapon. Games with only a single fire mode will generally map secondary fire to ''[[Iron sight|ironsights]]''. In some games, the right button may also provide bonus options for a particular weapon, such as allowing access to the scope of a sniper rifle or allowing the mounting of a bayonet or silencer.
+
+Gamers can use a scroll wheel for changing weapons (or for controlling scope-zoom magnification, in older games). On most first person shooter games, programming may also assign more functions to additional buttons on mice with more than three controls. A keyboard usually controls movement (for example, [[WASD keys|WASD]] for moving forward, left, backward and right, respectively) and other functions such as changing posture. Since the mouse serves for aiming, a mouse that tracks movement accurately and with less lag (latency) will give a player an advantage over players with less accurate or slower mice.
+
+Many games provide players with the option of mapping their own choice of a key or button to a certain control.
+
+An early technique of players, [[circle strafing]], saw a player continuously strafing while aiming and shooting at an opponent by walking in circle around the opponent with the opponent at the center of the circle. Players could achieve this by holding down a key for strafing while continuously aiming the mouse towards the opponent.
+
+Games using mice for input are so popular that many manufacturers make mice specifically for gaming. Such mice may feature adjustable weights, high-resolution optical or laser components, additional buttons, ergonomic shape, and other features such as adjustable [[#Mouse speed|CPI]].
+
+Many games, such as first- or third-person shooters, have a setting named "invert mouse" or similar (not to be confused with "button inversion", sometimes performed by [[Handedness|left-handed]] users) which allows the user to look downward by moving the mouse forward and upward by moving the mouse backward (the opposite of non-inverted movement). This control system resembles that of aircraft control sticks, where pulling back causes pitch up and pushing forward causes pitch down; computer [[joystick]]s also typically emulate this control-configuration.
+
+After [[id Software]]'s ''[[Doom (video game)|Doom]]'', the game that popularized first person shooter games but which did not support vertical aiming with a mouse (the y-axis served for forward/backward movement), competitor [[3D Realms]]' ''[[Duke Nukem 3D]]'' became one of the first games that supported using the mouse to aim up and down. This and other games using the [[Build engine]] had an option to invert the Y-axis. The "invert" feature actually made the mouse behave in a manner that users {{As of|2006|alt=now}} regard as non-inverted (by default, moving mouse forward resulted in looking down). Soon after, id Software released ''[[Quake (video game)|Quake]]'', which introduced the invert feature as users {{As of|2007|alt=now}} know it. Other games using the [[Quake engine]] have come on the market following this standard, likely due to the overall popularity of ''Quake''.
+
+=== Home consoles ===
+In 1988, the educational video game system [[VTech Socrates]] featured a wireless mouse with an attached mouse pad as an optional controller used for some games. In the early 1990s the [[Super Nintendo Entertainment System]] video game system featured a [[SNES Mouse|mouse]] in addition to its controllers. The ''[[Mario Paint]]'' game in particular used the mouse's capabilities, as did its successor on the [[Nintendo 64]]. [[Sega]] released official mice for their [[Sega Genesis|Genesis/Mega Drive]], [[Sega Saturn|Saturn]] and [[Dreamcast]] consoles. [[NEC]] sold official mice for its [[TurboGrafx-16|PC Engine]] and [[PC-FX]] consoles. [[Sony Computer Entertainment]] released an official mouse product for the [[PlayStation]] console, and included one along with the [[Linux for PlayStation 2]] kit. However, users can attach virtually any [[Universal Serial Bus|USB]] mouse to the [[PlayStation 2]] console. In addition the [[PlayStation 3]] also fully supports [[Universal Serial Bus|USB]] mice. Recently the [[Wii]] also has this latest development added on in a recent software update.{{Citation needed|date=September 2012}}
+
+== See also ==
+{{Portal|Electronics}}
+{{div col|colwidth=40em}}
+* [[Computer accessibility]]
+* [[Footmouse]]
+* [[Graphics tablet]]
+* [[Gesture recognition]]
+* [[Human–computer interaction]] (HCI)
+* [[List of wireless mice with nano receivers]]
+* [[Mouse keys]]
+* [[Mouse tracking]]
+* [[Pointing stick]]
+* [[Rotational mouse]]
+* [[Trackball]]
+{{div col end}}
+
+== References ==
+{{Reflist|30em}}
+
+== Further reading ==
+* Pang, Alex Soojung-Kim, [http://alumni.stanford.edu/get/page/magazine/article/?article_id=37694 "Mighty Mouse: In 1980, Apple Computer asked a group of guys fresh from Stanford's product design program to take a $400 device and make it mass-producible, reliable and cheap. Their work transformed personal computing"], Stanford University Alumni Magazine, March/April 2002.
+* [http://sloan.stanford.edu/MouseSite/ Stanford University MouseSite] with stories and annotated archives from Doug Engelbart's work
+* [http://dougengelbart.org/firsts/mouse.html Doug Engelbart Institute mouse resources page] includes stories and links
+
+== External links ==
+{{Wikiversity | Mouse (computing)}}
+*{{Commons category-inline|Computer mouse}}
+*The video [https://www.youtube.com/watch?v=yJDv-zdhzMY&t=33m37s segment] of [[The Mother of All Demos]] with [[Doug Engelbart]] showing the device from 1968
+
+{{Basic computer components}}
+
+{{DEFAULTSORT:Mouse (Computing)}}
+[[Category:American inventions]]
+[[Category:Computing input devices]]
+[[Category:History of human–computer interaction]]
+[[Category:Pointing devices]]
+[[Category:Video game control methods]]
+[[Category:1964 introductions]]
+[[Category:Computer peripherals]]
+
+{{Link GA|de}}
+[[jbo:samsmacu]]

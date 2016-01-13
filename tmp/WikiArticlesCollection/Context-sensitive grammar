@@ -1,0 +1,90 @@
+A '''context-sensitive grammar''' ('''CSG''') is a [[formal grammar]] in which the left-hand sides and right-hand sides of any [[Production (computer science)|production rules]] may be surrounded by a context of [[terminal symbol|terminal]] and [[nonterminal symbol]]s. Context-sensitive grammars are more general than [[context-free grammar]]s but still orderly enough to be [[parsing|parsed]] by a [[linear bounded automaton]].
+
+[[Noam Chomsky]] introduced context-sensitive grammars in the 1950s as a way to describe the syntax of [[natural language]] where it is indeed often the case that a word may or may not be appropriate in a certain place depending upon the context. A [[formal language]] that can be described by a context-sensitive grammar is called a [[context-sensitive language]].
+
+
+==Formal definition==
+{{Disputed|date=August 2013}}
+A [[formal grammar]] ''G'' = (''N'', Σ, ''P'', ''S''), where ''N'' is a set of nonterminal symbols, Σ is a set of terminal symbols, ''P'' is a set of production rules, and ''S'' is the start symbol, is context-sensitive if all rules in ''P'' are of the form
+: α''A''β → αγβ
+where ''A'' ∈ ''N'' (i.e., ''A'' is a single [[nonterminal]]), α,β ∈ (''N'' U Σ)* (i.e., α and β are strings of nonterminals and [[Terminal symbol|terminal]]s) and γ ∈ (''N'' U Σ)<sup>+</sup> (i.e., γ is a nonempty string of nonterminals and terminals).
+
+Some definitions of a context-sensitive grammar only require that for any production rule of the form u → v, the length of u shall be less than or equal to the length of v.  This seemingly weaker requirement is claimed to be in fact equivalent.<ref>{{cite book|authors=John E. Hopcroft, Jeffrey D. Ullman|title=Introduction to Automata Theory, Languages, and Computation|publisher=Addison-Wesley|year=1979}}; p.223-224; Exercise 9, p.230. In the 2003 edition, the chapter on CSG has been omitted.</ref>
+
+In addition, a rule of the form
+: S → λ
+where λ represents the [[empty string]] and S does not appear on the right-hand side of any rule is permitted.  The addition of the empty string allows the statement that the context sensitive languages are a proper superset of the context free languages, rather than having to make the weaker statement that all context free grammars with no →λ productions are also context sensitive grammars.
+
+The name ''context-sensitive'' is explained by the α and β that form the context of ''A'' and determine whether ''A'' can be replaced with γ or not. This is different from a [[context-free grammar]] where the context of a nonterminal is not taken into consideration. (Indeed, every production of a context free grammar is of the form V → w where V is a ''single'' nonterminal symbol, and w is a string of terminals and/or nonterminals (w can be empty)).
+
+If the possibility of adding the empty string to a language is added to the strings recognized by the noncontracting grammars (which can never include the empty string) then the languages in these two definitions are identical.
+
+A formal language can be described by a context-sensitive grammar if and only if it is accepted by some linear bounded automaton.<ref>(Hopcroft, Ullman, 1979); Theorem 9.5, 9.6, p.225-226</ref>
+
+== Examples ==
+
+* This grammar generates the canonical non-[[context-free language]] { ''a''<sup>''n''</sup>''b''<sup>''n''</sup>''c''<sup>''n''</sup> : ''n'' ≥ 1 } :
+# ''S'' → ''aSBC''
+# ''S'' → ''aBC''
+# ''CB'' → ''HB''
+# ''HB'' → ''HC''
+# ''HC'' → ''BC''
+# ''aB'' → ''ab''
+# ''bB'' → ''bb''
+# ''bC'' → ''bc''
+# ''cC'' → ''cc''
+
+Rules 1 and 2 allow for blowing-up ''S'' to ''a''<sup>''n''</sup>(''BC'')<sup>''n''</sup>; rules 3 to 5 allow for successively exchanging each ''CB'' to ''BC'' (three rules are needed for that since a rule ''CB'' → ''BC'' wouldn't fit into the scheme α''A''β → αγβ); rules 6 to 9 allow for replacing a non-terminal ''B'' or ''C'' with its corresponding terminal ''b'' or ''c'', provided it is in the right place.
+The generation chain for aaabbbccc is:
+
+: ''S''
+: →<sub>1</sub> ''aSBC''
+: →<sub>1</sub> ''a''{{boldmono|aSBC}}''BC''
+: →<sub>2</sub> ''aa''{{boldmono|aBC}}BCBC''
+: →<sub>3</sub> ''aaaB''{{boldmono|HB}}CBC''
+: →<sub>4</sub> ''aaaB''{{boldmono|HC}}CBC''
+: →<sub>5</sub> ''aaaB''{{boldmono|BC}}CBC''
+: →<sub>3</sub> ''aaaBBC''{{boldmono|HB}}C''
+: →<sub>4</sub> ''aaaBBC''{{boldmono|HC}}C''
+: →<sub>5</sub> ''aaaBBC''{{boldmono|BC}}C''
+: →<sub>3</sub> ''aaaBB''{{boldmono|HB}}CC''
+: →<sub>4</sub> ''aaaBB''{{boldmono|HC}}CC''
+: →<sub>5</sub> ''aaaBB''{{boldmono|BC}}CC''
+: →<sub>6</sub> ''aa''{{boldmono|ab}}BBCCC''
+: →<sub>7</sub> ''aaa''{{boldmono|bb}}BCCC''
+: →<sub>7</sub> ''aaab''{{boldmono|bb}}CCC''
+: →<sub>8</sub> ''aaabb''{{boldmono|bc}}CC''
+: →<sub>9</sub> ''aaabbb''{{boldmono|cc}}C''
+: →<sub>9</sub> ''aaabbbc''{{boldmono|cc}}''
+
+More complicated grammars can be used to parse { ''a''<sup>''n''</sup>''b''<sup>''n''</sup>''c''<sup>''n''</sup>''d''<sup>''n''</sup>: ''n'' ≥ 1 }, and other languages with even more letters.
+
+A context-sensitive grammar for the language <math> \{ a^{2^i} : i \geq 1 \}</math> is constructed in Example 9.5 (p.224) of (Hopcroft, Ullman, 1979).
+
+== Normal forms ==
+Every context-sensitive grammar which does not generate the empty string can be transformed into an equivalent one in [[Kuroda normal form]]. "Equivalent" here means that the two grammars generate the same language. The normal form will not in general be context-sensitive, but will be a [[noncontracting grammar]].
+
+== Computational properties and uses ==
+The [[decision problem]] that asks whether a certain string ''s'' belongs to the language of a certain context-sensitive grammar ''G'', is [[PSPACE-complete]]. There are even some context-sensitive grammars whose fixed grammar recognition problem{{clarify|reason=What is a fixed grammar recognition problem? I couldn't find an article about that.|date=November 2013}} is PSPACE-complete.
+
+The emptiness problem for context-sensitive grammars (given a context-sensitive grammar ''G'', is ''L''(''G'')=∅ ?) is [[Undecidable language|undecidable]].
+
+It has been shown that nearly all [[natural language]]s may in general be characterized by context-sensitive grammars, but the whole class of CSG's seems to be much bigger than natural languages{{citation needed|date=November 2011}}.  Worse yet, since the aforementioned decision problem for CSG's is PSPACE-complete, that makes them totally unworkable for practical use, as a polynomial-time algorithm for a PSPACE-complete problem would imply [[P=NP problem|P=NP]]. Ongoing research on [[computational linguistics]] has focused on formulating other classes of languages that are "[[mildly context-sensitive language|mildly context-sensitive]]" whose decision problems are feasible, such as [[tree-adjoining grammar]]s, [[combinatory categorial grammar]]s, [[coupled context-free language]]s, and [[Generalized context-free grammar#Linear Context-free Rewriting Systems (LCFRSs)|linear context-free rewriting system]]s.  The languages generated by these formalisms properly lie between the context-free and context-sensitive languages.
+
+==See also==
+* [[Chomsky hierarchy]]
+* [[Growing context-sensitive grammar]]
+
+==References==
+*{{cite book|last=Martin|first=John C.|title=Introduction to Languages and the Theory of Computation|year=2010|publisher=McGraw-Hill|location=New York, NY|isbn=9780073191461|url=http://www.mhprofessional.com/product.php?cat=39&isbn=0073191469|edition=4th|accessdate=10 December 2012}}
+
+{{reflist}}
+
+==External links==
+* [http://danielmattosroberts.com/earley/context-sensitive-earley.pdf Earley Parsing for Context-Sensitive Grammars]
+
+{{Formal languages and grammars}}
+
+{{DEFAULTSORT:Context-Sensitive Grammar}}
+[[Category:Formal languages]]
+[[Category:Grammar frameworks]]

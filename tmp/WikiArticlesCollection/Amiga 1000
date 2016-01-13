@@ -1,0 +1,122 @@
+{{refimprove|date=August 2012}}
+
+{{Infobox computer
+| image              = [[File:Amiga 1000DP.jpg|frameless]]
+| caption            = Amiga 1000 (1985)
+| manufacturer       = [[Commodore International|Commodore]]
+| type               = [[Personal computer]]
+| releasedate        = {{Start date|1985|7|23}}
+| discontinued       = 1987
+| processor          = [[Motorola 68000]] {{nowrap|@ 7.16&nbsp;MHz ([[NTSC]])}} {{nowrap|7.09&nbsp;MHz ([[PAL]])}}
+| memory             = 256–512&nbsp;[[Kilobyte|KB]] (8.5 [[Megabyte|MB]] maximum)
+| graphics           = [[Original Amiga chipset|OCS]] 640 × 256 5-[[color depth|bpp]]
+| sound              = [[Original Amiga chipset#Paula|Paula]] {{nowrap|4 × 8-bit}} channels at max 28&nbsp;kHz in stereo
+| OS                 = [[AmigaOS]] 1.0
+| introductory price = {{US$|1,285}}
+| successor          = [[Amiga 2000]]
+}}
+
+The '''Commodore Amiga 1000''', also known as the '''A1000''' and originally simply as the '''Amiga''', was the first [[personal computer]] release by [[Commodore International]] in the [[Amiga]] line. It used one of the most powerful and [[Orthogonal instruction set|orthogonal]] CPUs for its time and also one of the most advanced graphics and sound hardware of its class with a [[preemption (computing)|preemptive]] [[computer multitasking|multitasking]] [[operating system]] that fit into {{nowrap|512 KB}} of memory.<ref>256&nbsp;KB [[Read-only memory|ROM]] + 256&nbsp;KB [[Random access memory|RAM]]</ref>
+
+== Design ==
+The A1000 has a number of characteristics that distinguish it from later Amiga models: It is the only model to feature the short-lived Amiga "check mark" logo on its case, the case is elevated slightly to give a storage area for the keyboard when not in use (a "keyboard garage"), and the inside of the case is engraved with the signatures of the Amiga designers (similar to the [[Macintosh 128K|Macintosh]]); including [[Jay Miner]] and the paw print of his dog Mitchy. The A1000's case was designed by [[Howard Stolz]].<ref>{{cite web | url=http://www.soe.ucsc.edu/classes/ism101/Winter05/abstracts/week1.html | title=ISM 101 Seminar: 13 January 2005 | work=USCS Engineering | accessdate=2009-03-14}}</ref>  As Senior Industrial Designer at Commodore, Stolz was the mechanical lead and primary interface with [[Sanyo]] in Japan, the contract manufacturer for the A1000 casing.<ref>{{cite web | url=http://www.linkedin.com/in/howardstolz | title=Howard Stolz profile | work=Howard Stolz LinkedIn profile | accessdate=2009-06-28}}</ref>
+
+The Amiga 1000 was manufactured in two variations:  One used the [[NTSC]] television standard and the other used the [[PAL]] television standard. The NTSC variant was the initial model manufactured and sold in [[North America]]. The later PAL model was manufactured in Germany and sold in countries using the PAL television standard. The first NTSC systems lack the [[Amiga Halfbrite mode|EHB video mode]] which is present in all later Amiga models.
+
+Because [[AmigaOS]] was rather [[computer bug|buggy]] at the time of the A1000's release, the OS was not placed in ROM. Instead, the A1000 included a [[daughterboard]] with 256&nbsp;[[kilobyte|KB]] of RAM, dubbed the "Writable Control Store" (WCS), into which the core of the operating system was loaded from floppy disk (this portion of the operating system was known as the "[[Kickstart (Amiga)|Kickstart]]"). The WCS was write-protected after loading, and system resets did not require a reload of the WCS. In Europe, the WCS was often referred to as WOM (Write Once Memory), a play on the more conventional term "ROM" (Read Only Memory).
+
+== Technical information ==
+The Amiga 1000 has a Motorola 68000 CPU running at 7.15909&nbsp;MHz (on [[NTSC]] systems) or 7.09379&nbsp;MHz ([[PAL]] systems), precisely double the video color carrier frequency for NTSC or 1.6 times the color carrier frequency for PAL. The system clock timings are derived from the video frequency, which simplifies [[glue logic]] and allows the Amiga 1000 to make do with a single [[crystal oscillator|crystal]]. The chipset was designed to synchronize CPU memory access and chipset [[Direct memory access|DMA]] so the hardware runs in real-time without wait-state delays.
+
+Though most units were sold with an analog [[RGB]] monitor, the A1000 also had a built-in [[composite video]] output which allowed the computer to be connected directly to monitors other than their standard [[RGB]] monitor.  The A1000 also had a "TV MOD" output, into which an RF Modulator could be plugged in, allowing connection to a standard [[TV]] or [[VCR]].
+
+The original 68000 CPU can be directly replaced with a [[68010]], which can execute instructions slightly faster than the 68000 but also introduces a small degree of software incompatibility. Third-party CPU upgrades, which mostly fit in the CPU socket, use faster 68020/68881 or 68030/68882 microprocessors and integrated memory. Such upgrades often have the option to revert to 68000 mode for full compatibility. Some boards have a socket to seat the original 68000, whereas the 68030 cards typically come with an on-board 68000.
+
+The original Amiga 1000 is the only model to have 256&nbsp;[[kilobyte|KB]] of [[Amiga Chip RAM]], which can be expanded to 512&nbsp;KB with the addition of a [[daughterboard]] under a cover in the centre front of the machine.<ref name="a1000_intro">{{Cite journal | url=http://www.bombjack.org/commodore/amiga/amiga-commodore/Amiga_1000_Introduction.pdf | title=Introduction to the Amiga | publisher=Commodore-Amiga, Inc. | year=1986 }}</ref>{{inconsistent citations}} RAM may also be upgraded via official and third-party upgrades, with a practical upper limit of about 9 [[Megabyte|MB]] of "fast" RAM due to the 68000's 24-bit [[address bus]]. This memory is accessible only by the CPU permitting faster code execution as DMA cycles are not shared with the chipset.
+
+The Amiga 1000 features an 86-pin expansion port (electrically identical to the later [[Amiga 500]] expansion port, though the A500's connector is inverted). This port was utilized by third-party expansions such as memory upgrades and [[SCSI]] adaptors. These resources are handled by the Amiga [[AutoConfig]] standard. Other expansion options were available including a bus expander which provided two [[Amiga Zorro II|Zorro-II]] slots.
+
+=== Specifications ===
+[[File:JayMiner Mitch.jpg|thumb|Jay Miner's signature from the top cover of a Commodore Amiga 1000 computer. The paw print is that of Mitchy, Miner's dog]]
+[[File:Amiga 1000 Back.jpg|thumb|Rear view of the A1000]]
+[[File:Amiga 1000 packaging.jpg|thumb|The A1000's retail box]]
+
+{| class="wikitable"
+|-
+! Attribute
+! Specification<ref name="a1000_intro"/>
+|-
+| [[Central processing unit|Processor]]
+| [[Motorola 68000]] at 7.16&nbsp;MHz ([[NTSC]]) or 7.09&nbsp;MHz ([[PAL]])
+|-
+| RAM
+| 256&nbsp;[[kilobyte|KB]] of Amiga Chip RAM; upgradeable with an additional 256&nbsp;KB by dedicated cartridge
+|-
+| ROM
+| 8&nbsp;KB [[bootstrap]] ROM. 256&nbsp;KB WCS reserved for OS (loaded from the [[AmigaOS#Kickstart|Kickstart]] [[Floppy disk#The 3½-inch microfloppy diskette|floppy disk]] at power-on)
+|-
+| Chipset
+| [[Original Chip Set]] (OCS)
+|-
+| Video
+| 12-bit color palette (4096&nbsp;colors). Graphic modes with up to 32, 64&nbsp;([[Amiga Halfbrite mode|EHB]] mode; Early NTSC models do not have the EHB mode) or 4096 ([[Hold-and-Modify|HAM]] mode) on-screen colors:
+
+* 320×200 to 320×400[[interlaced|i]] (NTSC)
+* 320×256 to 320×512i (PAL)
+
+Graphic modes with up to 16 on-screen colors:
+
+* 640×200 to 640×400i (NTSC)
+* 640×256 to 640×512i (PAL)
+|-
+| Audio
+| 4 × 8-bit [[Pulse Code Modulation|PCM]] channels (2 [[Stereophonic sound|stereo]] channels); 28&nbsp;kHz maximum [[Direct memory access|DMA]] [[sampling rate]]; 70 dB [[Signal-to-noise ratio|S/N ratio]]
+|-
+| Removable storage
+| 3.5" [[Double density|DD]] [[floppy disk]] drive (880&nbsp;KB capacity)
+|-
+| Audio/video out
+| Analog RGB video out ([[D-subminiature|DB-23M]]); TV MOD audio/video output (for Amiga RF Modulator TV connection); Composite video out ([[RCA connector|RCA]]); Audio out (2 × RCA)
+|-
+| Input/output ports
+| Keyboard port ([[RJ11]]); 2 × Mouse/Gamepad ports ([[D-subminiature|DE9]]); [[RS-232]] [[serial port]] (DB-25F); Centronics style [[parallel port]] (DB-25M); [[Floppy disk]] drive port (DB-23F)
+|-
+| Expansion slots
+| 86-pin expansion port
+|-
+| [[Operating system]]
+| [[AmigaOS]] 1 (Kickstart 1.0/1.1/1.2/1.3 and [[Amiga Workbench|Workbench]] 1.0/1.1/1.2/1.3)
+|}
+
+== Retail ==
+Introduced on July 23, 1985 at the [[Lincoln Center]] in [[New York City]], machines began shipping in September with a base configuration of 256&nbsp;KB of RAM at the retail price of {{US$|1,295}}. A {{convert|13|in|mm|adj=on}} analog [[RGB monitor]] was available for around {{US$|300}}, bringing the price of a complete Amiga system to 1,595 USD. Before the release of the [[Amiga 500]] and [[Amiga 2000]] models in 1987, the A1000 was simply called ''Amiga''.
+
+In the US, the A1000 was marketed as ''The Amiga from Commodore'', though the Commodore logo was omitted from the case. Additionally, the Amiga 1000 was sold exclusively in computer stores rather than the various non computer-dedicated department and toy stores through which the [[VIC20]] and [[Commodore 64]] were retailed. These measures were an effort to avoid Commodore's "toy-store" computer image created during the [[Jack Tramiel|Tramiel]] era.<ref>{{cite news | url =http://query.nytimes.com/gst/fullpage.html?sec=technology&res=9A01EFDC1038F93AA1575BC0A962948260&scp=5&sq=amiga&st=nyt | title = Amiga's High-Tech Gamble | accessdate = 2008-04-11 | first = Susan | last = Chira | work = New York Times, August 29, 1984 | date=1984-08-29}}</ref><ref>{{Cite news | last=Starfire | first=Brian | title=Commodore in tough market with new personal computer | newspaper=The Evening Independent (Dallas Morning News) | date=September 13, 1985| url=http://news.google.com/newspapers?nid=950&dat=19850913&id=5-cLAAAAIBAJ&sjid=ZFkDAAAAIBAJ&pg=5279,3001216 }}</ref>
+
+Along with the operating system, the machine came bundled with a version of [[AmigaBASIC]] developed by [[Microsoft]] and a speech synthesis library developed by [[Softvoice, Inc]].
+
+== Aftermarket upgrades ==
+Many A1000 owners remained attached to their machines long after newer models rendered the units technically obsolete, and it attracted numerous aftermarket upgrades. Many CPU upgrades that plugged into the [[Motorola 68000]] socket functioned in the A1000. Additionally, a line of products called the ''Rejuvenator'' series allowed the use of newer chipsets in the A1000, and an [[Australia]]n-designed replacement A1000 motherboard called ''The Phoenix'' utilized the same chipset as the A3000 and added an A2000-compatible video slot and onboard [[SCSI]] controller.
+
+== Impact ==
+In 1994, as Commodore filed for bankruptcy, [[Byte magazine]] called the Amiga 1000 "the first [[multimedia computer]]... so far ahead of its time that almost nobody—including Commodore's marketing department—could fully articulate what it was all about".<ref>[http://www.byte.com/art/9408/sec14/art1.htm ]{{dead link|date=July 2013}}</ref>
+
+In 2006, [[PC World (magazine)|PC World]] rated the Amiga 1000 as the 7th greatest PC of all time.<ref>{{cite web|last=Editors |first=The |url=http://www.pcworld.com/article/id,126692-page,8-c,systems/article.html |title=The 25 Greatest PCs of All Time &#124; TechHive |publisher=Pcworld.com |date= |accessdate=2013-07-24}}</ref> In 2007 it was rated by the same magazine as the 37th best tech product of all time.<ref>{{cite web|last=Null |first=Christopher |url=http://www.pcworld.com/article/id,130207-page,9-c,technology/article.html |title=The 50 Best Tech Products of All Time |publisher=PCWorld |date= |accessdate=2013-07-24}}</ref>
+
+== See also ==
+* [[Amiga models and variants]]
+* [[Amiga Sidecar]] - For using [[MS-DOS]] with [[Intel 8088]] @ 4.77&nbsp;MHz with 256&nbsp;KB RAM
+
+== References ==
+{{reflist|30em}}
+
+==External links==
+{{commons category}}
+* [http://www.old-computers.com/museum/computer.asp?st=1&c=28 The Commodore Amiga A1000 at OLD-COMPUTERS.COM]
+
+{{CBM computers}}
+{{Amiga hardware}}
+{{AmigaOS}}
+
+[[Category:Amiga]]
+[[Category:1985 introductions]]

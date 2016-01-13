@@ -1,0 +1,347 @@
+{{more footnotes|date=March 2013}}
+'''Diffie–Hellman key exchange''' ('''D–H''')<ref group="nb">Synonyms of Diffie–Hellman key exchange include:
+*Diffie–Hellman key agreement
+*Diffie–Hellman key establishment
+*Diffie–Hellman key negotiation
+*Exponential key exchange
+*Diffie–Hellman protocol
+*Diffie–Hellman handshake</ref> is a specific method of exchanging [[Key (cryptography)|cryptographic keys]].  It is one of the earliest practical examples of [[key exchange]] implemented within the field of [[cryptography]].  The Diffie–Hellman key exchange method allows two parties that have no prior knowledge of each other to jointly establish a [[shared secret]] key over an insecure [[communication]]s [[Channel (communications)|channel]]. This key can then be used to encrypt subsequent communications using a [[symmetric key]] [[cipher]].
+
+The scheme was first published by [[Whitfield Diffie]] and [[Martin Hellman]] in 1976, although it had been separately invented a few years earlier within [[GCHQ]], the British signals intelligence agency, by [[James H. Ellis]], [[Clifford Cocks]] and [[Malcolm J. Williamson]] but was kept classified. In 2002, Hellman suggested the algorithm be called '''Diffie–Hellman–Merkle key exchange''' in recognition of [[Ralph Merkle]]'s contribution to the invention of [[public-key cryptography]] (Hellman, 2002).
+
+Although Diffie–Hellman key agreement itself is an ''anonymous'' (non-''authenticated'') [[key-agreement protocol]], it provides the basis for a variety of authenticated protocols, and is used to provide [[perfect forward secrecy]] in [[Transport Layer Security]]'s ephemeral modes (referred to as EDH or DHE depending on the cipher suite).
+
+The method was followed shortly afterwards by [[RSA (algorithm)|RSA]], an implementation of public key cryptography using [[Public-key cryptography|asymmetric algorithms]].
+
+In 2002, Martin Hellman wrote: 
+<blockquote>The system...has since become known as Diffie–Hellman key exchange.  While that system was first described in a paper by Diffie and me, it is a public key distribution system, a concept developed by Merkle, and hence should be called 'Diffie–Hellman–Merkle key exchange' if names are to be associated with it.  I hope this small pulpit might help in that endeavor to recognize Merkle's equal contribution to the invention of public key cryptography.<ref>[http://www.comsoc.org/livepubs/ci1/public/anniv/pdfs/hellman.pdf IEEE Communications Magazine Homepage | IEEE Communications Society]. Comsoc.org. Retrieved on 2013-10-29.</ref></blockquote>
+
+{{US patent|4,200,770}}, from 1977 is now expired and describes the algorithm. It credits Hellman, Diffie, and Merkle as inventors.
+
+== Description ==
+Diffie–Hellman establishes a shared secret that can be used for secret communications while exchanging data over a public network. The following diagram illustrates the general idea of the key exchange by using colors instead of a very large number.  The crucial part of the process is that Alice and Bob exchange their secret colors in a mix only. Finally this generates an identical key that is mathematically difficult (impossible for modern [[supercomputers]] to do in a reasonable amount of time) to reverse for another party that might have been listening in on them. Alice and Bob now use this common secret to encrypt and decrypt their sent and received data. Note that the starting color (yellow) is arbitrary, but is agreed on in advance by Alice and Bob. The starting color is assumed to be known to any eavesdropping opponent. It may even be public.
+
+[[File:Diffie-Hellman Key Exchange.svg|center|380px|Illustration of the Diffie–Hellman Key Exchange]]
+
+
+===Explanation including encryption mathematics===
+
+<!-- Deleted image removed: [[Image:DiffieHellman.png|center|thumb|600px|Diffie–Hellman key exchange]] -->
+The simplest and the original implementation of the protocol uses the [[Multiplicative group of integers modulo n|multiplicative group of integers modulo]] ''p'', where ''p'' is [[prime number|prime]] and ''g'' is [[primitive root modulo n|primitive root]] mod ''p''. Here is an example of the protocol, with non-secret values in <span style="color:blue">blue</span>, and secret values in'''<span style="color:red"> red</span>'''. Small integers are used for clarity, but actual implementations require using much larger numbers to achieve security. ''See'' [[key length]].
+
+{| cellspacing="1" cellpadding="4" border="0"
+|-
+|
+{| class="wikitable"
+|-
+! colspan="3" | Alice
+| <br>
+| style="text-align:center;" colspan="3"| '''Bob'''<br>
+|-  style="font-size:90%; text-align:center; background:#d0d0d0;"
+|| Secret
+|| Public
+|| Calculates
+|| Sends<br>
+|| Calculates<br>
+|| Public<br>
+|| Secret<br>
+|- style="text-align:center;" 
+|| ''a''<br>
+|| ''p'', ''g''
+|| <br>
+|| ''p'',''g'''''<math>\rightarrow</math>'''
+|| <br>
+|| <br>
+|| ''b''<br>
+|-  style="text-align:center; background:#e0e0e0;"
+|| ''a''<br>
+|| ''p'', ''g'', ''A''<br>
+|| ''g<sup>a</sup>'' mod ''p'' = ''A''
+|| ''A'''''<math>\rightarrow</math>'''
+|| <br>
+|| ''p'', ''g''<br>
+|| ''b''<br>
+|- style="text-align:center;" 
+|| ''a''<br>
+|| ''p'', ''g'', ''A''<br>
+|| <br>
+|| '''<math>\leftarrow</math>''' ''B''<br>
+|| ''g<sup>b</sup>'' mod ''p'' = ''B''<br>
+|| ''p'', ''g'', ''A'', ''B''<br>
+|| ''b''<br>
+|-  style="text-align:center; background:#e0e0e0;"
+|| ''a'', '''''s'''''
+|| ''p'', ''g'', ''A'', ''B''<br>
+|| ''B<sup>a</sup>'' mod ''p'' = ''s''<br>
+|| <br>
+|| ''A<sup>b</sup>'' mod ''p'' = ''s''<br>
+|| ''p'', ''g'', ''A'', ''B''<br>
+|| ''b'', '''''s'''''<br>
+|}
+| style="vertical-align:bottom;"|
+|
+|}
+# [[Alice and Bob]] agree to use a prime number ''<span style="color:blue">p</span>'' = <span style="color:blue">23</span> and base ''<span style="color:blue">g</span>'' = <span style="color:blue">5</span>.
+# Alice chooses a secret integer '''''<span style="color:red">a</span>''''' = '''<span style="color:red">6</span>''', then sends Bob ''<span style="color:blue">A</span>'' = ''<span style="color:blue">g</span><sup>'''<span style="color:red">a</span>'''</sup>'' mod ''<span style="color:blue">p</span>''
+#* ''<span style="color:blue">A</span>'' = <span style="color:blue">5</span><sup>'''<span style="color:red">6</span>'''</sup> mod <span style="color:blue">23</span>
+#* ''<span style="color:blue">A</span>'' = '''<span style="color:red">15,625</span>''' mod <span style="color:blue">23</span>
+#* ''<span style="color:blue">A</span>'' = <span style="color:blue">8</span>
+# Bob chooses a secret integer '''''<span style="color:red">b</span>''''' = '''<span style="color:red">15</span>''', then sends Alice ''<span style="color:blue">B</span>'' = ''<span style="color:blue">g</span><sup>'''<span style="color:red">b</span>'''</sup>'' mod ''<span style="color:blue">p</span>''
+#* ''<span style="color:blue">B</span>'' = <span style="color:blue">5</span><sup>'''<span style="color:red">15</span>'''</sup> mod <span style="color:blue">23</span>
+#* ''<span style="color:blue">B</span>'' = '''<span style="color:red">30,517,578,125</span>''' mod <span style="color:blue">23</span>
+#* ''<span style="color:blue">B</span>'' = <span style="color:blue">19</span>
+# Alice computes '''''<span style="color:red">s</span>''''' = ''<span style="color:blue">B</span><sup>'''<span style="color:red">a</span>'''</sup>'' mod ''<span style="color:blue">p</span>''
+#* '''''<span style="color:red">s</span>''''' = <span style="color:blue">19</span><sup>'''<span style="color:red">6</span>'''</sup> mod <span style="color:blue">23</span>
+#* '''''<span style="color:red">s</span>''''' = '''<span style="color:red">47,045,881</span>''' mod <span style="color:blue">23</span>
+#* '''''<span style="color:red">s</span>''''' = '''<span style="color:red">2</span>'''
+# Bob computes '''''<span style="color:red">s</span>''''' = ''<span style="color:blue">A</span><sup>'''<span style="color:red">b</span>'''</sup>'' mod ''<span style="color:blue">p</span>''
+#* '''''<span style="color:red">s</span>''''' = <span style="color:blue">8</span><sup>'''<span style="color:red">15</span>'''</sup> mod <span style="color:blue">23</span>
+#* '''''<span style="color:red">s</span>''''' = '''<span style="color:red">35,184,372,088,832</span>''' mod <span style="color:blue">23</span>
+#* '''''<span style="color:red">s</span>''''' = '''<span style="color:red">2</span>'''
+# Alice and Bob now share a secret (the number '''<span style="color:red">2</span>''') because <span style="color:red">6</span> × <span style="color:red">15</span> is the same as <span style="color:red">15</span> × <span style="color:red">6</span>.
+
+Both Alice and Bob have arrived at the same value, because (''g<sup>a</sup>'')''<sup>b</sup>'' and (''g<sup>b</sup>'')''<sup>a</sup>'' are equal mod ''p''.  Note that only ''a'', ''b'', and ''(g<sup>ab</sup>'' = ''g<sup>ba</sup>'' mod ''p)'' are kept secret.  All the other values – ''p'', ''g'', ''g<sup>a</sup>'' mod ''p'', and ''g<sup>b</sup>'' mod ''p'' – are sent in the clear.  Once Alice and Bob compute the shared secret they can use it as an encryption key, known only to them, for sending messages across the same open communications channel.
+
+Of course, much larger values of ''a'', ''b'', and ''p'' would be needed to make this example secure, since there are only 23 possible results of ''n'' mod 23. However, if ''p'' is a prime of at least 300 digits, and ''a'' and ''b'' are at least 100 digits long, then even the fastest modern computers cannot find ''a'' given only ''g'', ''p'', ''g<sup>b</sup>'' mod ''p'' and ''g<sup>a</sup>'' mod ''p''. The problem such a computer needs to solve is called the [[discrete logarithm problem]].
+
+Note that ''g'' need not be large at all, and in practice is usually a small prime (like 2, 3, 5...) because primitive roots usually are quite numerous.
+
+Here's a more general description of the protocol, in which all the powers are computed modulo p:
+
+# Alice and Bob agree on a finite [[cyclic group]] ''G'' and a [[Generating set of a group|generating]] element ''g'' in ''G''.  (This is usually done long before the rest of the protocol; ''g'' is assumed to be known by all attackers.) We will write the group ''G'' multiplicatively.
+# Alice picks a random [[natural number]] ''a'' and sends ''g<sup>a</sup>'' to Bob.
+# Bob picks a random natural number ''b'' and sends ''g<sup>b</sup>'' to Alice.
+# Alice computes (''g<sup>b</sup>'')''<sup>a</sup>''.
+# Bob computes (''g<sup>a</sup>'')''<sup>b</sup>''.
+
+Both Alice and Bob are now in possession of the group element ''g<sup>ab</sup>'', which can serve as the shared secret key. The values of (''g<sup>b</sup>'')''<sup>a</sup>'' and (''g<sup>a</sup>'')''<sup>b</sup>'' are the same because groups are [[Power-associativity|power associative]].  (See also [[exponentiation]].)
+
+In order to decrypt a message ''m'', sent as ''mg<sup>ab</sup>'', Bob (or Alice) must first compute (''g<sup>ab</sup>'')<sup>−1</sup>, as follows:
+
+Bob knows |''G''|, ''b'', and ''g<sup>a</sup>''. [[Lagrange's theorem (group theory)|Lagrange's theorem]] in group theory establishes that from the construction of ''G'', ''x''<sup>|''G''|</sup> = 1 for all ''x'' in ''G''.
+
+Bob then calculates (''g<sup>a</sup>'')<sup>|''G''|−''b''</sup> = ''g''<sup>''a''(|''G''|−''b'')</sup> = ''g''<sup>''a''|''G''|−''ab''</sup> = ''g''<sup>''a''|''G''|</sup>''g''<sup>−''ab''</sup> = (''g''<sup>|''G''|</sup>)<sup>''a''</sup>''g''<sup>−''ab''</sup> = 1<sup>''a''</sup>''g''<sup>−''ab''</sup> = ''g''<sup>−''ab''</sup> = (''g<sup>ab</sup>'')<sup>−1</sup>.
+
+When Alice sends Bob the encrypted message, ''mg<sup>ab</sup>'', Bob applies (''g<sup>ab</sup>'')<sup>−1</sup> and recovers ''mg<sup>ab</sup>''(''g<sup>ab</sup>'')<sup>−1</sup> = ''m''(1) = ''m''.
+
+===Secrecy chart===
+The chart below depicts who knows what, again with non-secret values in <span style="color:blue">blue</span>, and secret values in'''<span style="color:red"> red</span>'''. Here Eve is an [[eavesdropper]]&mdash;she watches what is sent between Alice and Bob, but she does not alter the contents of their communications.
+
+* ''<span style="color:blue">g</span>'' = public (prime) base, known to Alice, Bob, and Eve. ''<span style="color:blue">g</span>'' = <span style="color:blue">5</span>
+* ''<span style="color:blue">p</span>'' = public (prime) number, known to Alice, Bob, and Eve. ''<span style="color:blue">p</span>'' = <span style="color:blue">23</span>
+
+* '''''<span style="color:red">a</span>''''' = Alice's private key, known only to Alice. '''''<span style="color:red">a</span>''''' = '''<span style="color:red">6</span>'''
+* '''''<span style="color:red">b</span>''''' = Bob's private key known only to Bob. '''''<span style="color:red">b</span>''''' = '''<span style="color:red">15</span>'''
+
+* ''<span style="color:blue">A</span>'' = Alice's public key, known to Alice, Bob, and Eve. ''<span style="color:blue">A</span>'' = ''<span style="color:blue">g</span><sup>'''<span style="color:red">a</span>'''</sup>'' mod ''<span style="color:blue">p</span>'' = <span style="color:blue">8</span>
+* ''<span style="color:blue">B</span>'' = Bob's public key, known to Alice, Bob, and Eve. ''<span style="color:blue">B</span>'' = ''<span style="color:blue">g</span><sup>'''<span style="color:red">b</span>'''</sup>'' mod ''<span style="color:blue">p</span>'' = <span style="color:blue">19</span>
+
+{| border="0" cellspacing="0" cellpadding="2"
+|-
+| valign="top" |
+{| class="wikitable"
+|-
+! colspan="2" | Alice
+|- style="text-align:center;" 
+|| knows 
+|| doesn't know
+|-
+| ''<span style="color:blue">p</span>'' = <span style="color:blue">23</span>
+| '''''<span style="color:red">b</span>''''' = '''<span style="color:red">?</span>'''
+|-
+| base ''<span style="color:blue">g</span>'' = <span style="color:blue">5</span>
+|
+|-
+| '''''<span style="color:red">a</span>''''' = '''<span style="color:red">6</span>'''
+| 
+|-
+| ''<span style="color:blue">A</span>'' = <span style="color:blue">5</span><sup>'''<span style="color:red">a</span>'''</sup> mod <span style="color:blue">23</span>
+|
+|-
+| ''<span style="color:blue">A</span>'' = <span style="color:blue">5</span><sup>'''<span style="color:red">6</span>'''</sup> mod <span style="color:blue">23</span> = <span style="color:blue">8</span>
+|
+|-
+| '''''<span style="color:blue">B</span>''''' = '''<span style="color:blue">19</span>'''
+| 
+|-
+| '''''<span style="color:red">s</span>''''' =  <span style="color:blue">B</span><sup>'''<span style="color:red">a</span>'''</sup> mod <span style="color:blue">23</span>'''
+|
+|-
+| '''''<span style="color:red">s</span>''''' = <span style="color:blue">19</span><sup>'''''<span style="color:red">6</span>'''''</sup> mod <span style="color:blue">23</span> = '''<span style="color:red">2</span>'''
+|
+|-
+| '''''<span style="color:red">s</span>''''' = '''<span style="color:red">2</span>'''
+|
+|}
+| valign="top" | 
+{| class="wikitable"
+|-
+! colspan="2" | Bob
+|- style="text-align:center;" 
+|| knows 
+|| doesn't know
+|-
+| ''<span style="color:blue">p</span>'' = <span style="color:blue">23</span>
+| '''''<span style="color:red">a</span>''''' = '''<span style="color:red">?</span>'''
+|-
+| base ''<span style="color:blue">g</span>'' = <span style="color:blue">5</span>
+|
+|-
+| '''''<span style="color:red">b</span>''''' = '''<span style="color:red">15</span>'''
+| 
+|-
+| ''<span style="color:blue">B</span>'' = <span style="color:blue">5</span><sup>'''''<span style="color:red">b</span>'''''</sup> mod <span style="color:blue">23</span>
+|
+|-
+| ''<span style="color:blue">B</span>'' = <span style="color:blue">5</span><sup>'''<span style="color:red">15</span>'''</sup> mod <span style="color:blue">23</span> = <span style="color:blue">19</span>
+|
+|-
+| '''''<span style="color:blue">A</span>''''' = '''<span style="color:blue">8</span>'''
+| 
+|-
+| '''''<span style="color:red">s</span>''''' = <span style="color:blue">A</span><sup>'''<span style="color:red">b</span>'''</sup> mod <span style="color:blue">23</span>'''
+|
+|-
+| '''''<span style="color:red">s</span>''''' = <span style="color:blue">8</span><sup>'''''<span style="color:red">15</span>'''''</sup> mod <span style="color:blue">23</span> = '''<span style="color:red">2</span>'''
+|
+|-
+| '''''<span style="color:red">s</span>''''' = '''<span style="color:red">2</span>'''
+|
+|}
+| valign="top" | 
+{| class="wikitable"
+|-
+! colspan="2" | Eve
+|- style="text-align:center;" 
+|| knows 
+|| doesn't know
+|-
+| ''<span style="color:blue">p</span>'' = <span style="color:blue">23</span>
+| '''''<span style="color:red">a</span>''''' = '''<span style="color:red">?</span>'''
+|-
+| base ''<span style="color:blue">g</span>'' = <span style="color:blue">5</span>
+| '''''<span style="color:red">b</span>''''' = '''<span style="color:red">?</span>'''
+|-
+|
+| '''''<span style="color:red">s</span>''''' = '''<span style="color:red">?</span>'''
+|-
+| ''<span style="color:blue">A</span>'' = <span style="color:blue">8</span>
+| 
+|-
+| ''<span style="color:blue">B</span>'' = <span style="color:blue">19</span>
+|
+|-
+| '''''<span style="color:red">s</span>''''' = <span style="color:blue">19</span><sup>'''''<span style="color:red">a</span>'''''</sup> mod <span style="color:blue">23</span> = <span style="color:blue">8</span><sup>'''''<span style="color:red">b</span>'''''</sup> mod <span style="color:blue">23</span>
+|
+|}
+|}
+
+* Now '''''<span style="color:red">s</span>''''' = the shared secret key and it is known to both Alice and Bob, but ''not'' to Eve. '''''<span style="color:red">s</span>''''' = '''<span style="color:red">2</span>'''
+
+Note: It should be difficult for Alice to solve for Bob's private key or for Bob to solve for Alice's private key. If it is not difficult for Alice to solve for Bob's private key (or vice versa), Eve may simply substitute her own private / public key pair, plug Bob's public key into her private key, produce a fake shared secret key, and solve for Bob's private key (and use that to solve for the shared secret key. Eve may attempt to choose a public / private key pair that will make it easy for her to solve for Bob's private key). Another demonstration of Diffie-Hellman (also using numbers too small for practical use) is given here <ref>http://buchananweb.co.uk/security02.aspx</ref>
+
+==Operation with more than two parties==
+Diffie-Hellman key agreement is not limited to negotiating a key shared by only two participants. Any number of users can take part in an agreement by performing iterations of the agreement protocol and exchanging intermediate data (which does not itself need to be kept secret). For example, Alice, Bob, and Carol could participate in a Diffie-Hellman agreement as follows, with all operations taken to be modulo <math>p</math>:
+
+# The parties agree on the algorithm parameters <math>p</math> and <math>g</math>.
+# The parties generate their private keys, named <math>a</math>, <math>b</math>, and <math>c</math>.
+# Alice computes <math>g^a</math> and sends it to Bob.
+# Bob computes <math>(g^a)^b = g^{ab}</math> and sends it to Carol.
+# Carol computes <math>(g^{ab})^c = g^{abc}</math> and uses it as her secret.
+# Bob computes <math>g^b</math> and sends it to Carol.
+# Carol computes <math>(g^b)^c = g^{bc}</math> and sends it to Alice.
+# Alice computes <math>(g^{bc})^a = g^{bca} = g^{abc}</math> and uses it as her secret.
+# Carol computes <math>g^c</math> and sends it to Alice.
+# Alice computes <math>(g^c)^a = g^{ca}</math> and sends it to Bob.
+# Bob computes <math>(g^{ca})^b = g^{cab} = g^{abc}</math> and uses it as his secret.
+
+An eavesdropper has been able to see <math>g^a</math>, <math>g^b</math>, <math>g^c</math>, <math>g^{ab}</math>, <math>g^{ac}</math>, and <math>g^{bc}</math>, but cannot use any combination of these to reproduce <math>g^{abc}</math>.
+
+To extend this mechanism to larger groups, two basic principles must be followed:
+* Starting with an “empty” key consisting only of <math>g</math>, the secret is made by raising the current value to every participant’s private exponent once, in any order (the first such exponentiation yields the participant’s own public key).
+* Any intermediate value (having up to <math>N-1</math> exponents applied, where <math>N</math> is the number of participants in the group) may be revealed publicly, but the final value (having had all <math>N</math> exponents applied) constitutes the shared secret and hence must never be revealed publicly. Thus, each user must obtain their copy of the secret by applying their own private key last (otherwise there would be no way for the last contributor to communicate the final key to its recipient, as that last contributor would have turned the key into the very secret the group wished to protect).
+
+These principles leave open various options for choosing in which order participants contribute to keys. The simplest and most obvious solution is to arrange the <math>N</math> participants in a circle and have <math>N</math> keys rotate around the circle, until eventually every key has been contributed to by all <math>N</math> participants (ending with its owner) and each participant has contributed to <math>N</math> keys (ending with their own). However, this requires that every participant perform <math>N</math> modular exponentiations.
+
+By choosing a more optimal order, and relying on the fact that keys can be duplicated, it is possible to reduce the number of modular exponentiations performed by each participant to <math>\log_2 (N) + 1</math> using a divide-and-conquer-style approach, given here for eight participants:
+
+# Participants A, B, C, and D each perform one exponentiation, yielding <math>g^{abcd}</math>; this value is sent to E, F, G, and H. In return, participants A, B, C, and D receive <math>g^{efgh}</math>.
+# Participants A and B each perform one exponentiation, yielding <math>g^{efghab}</math>, which they send to C and D, while C and D do the same, yielding <math>g^{efghcd}</math>, which they send to A and B.
+# Participant A performs an exponentiation, yielding <math>g^{efghcda}</math>, which it sends to B; similarly, B sends <math>g^{efghcdb}</math> to A. C and D do similarly.
+# Participant A performs one final exponentiation, yielding the secret <math>g^{efghcdba} = g^{abcdefgh}</math>, while B does the same to get <math>g^{efghcdab} = g^{abcdefgh}</math>; again, C and D do similarly.
+# Participants E through H simultaneously perform the same operations using <math>g^{abcd}</math> as their starting point.
+
+Once this operation has been completed all participants will possess the secret <math>g^{abcdefgh}</math>, but each participant will have performed only four modular exponentiations, rather than the eight implied by a simple circular arrangement.
+
+==Security==
+The protocol is considered secure against eavesdroppers if ''G'' and ''g'' are chosen properly.  The eavesdropper ("[[Alice and Bob|Eve]]") would have to solve the [[Diffie–Hellman problem]] to obtain ''g''<sup>''ab''</sup>.  This is currently considered difficult.  An efficient algorithm to solve the [[discrete logarithm problem]] would make it easy to compute ''a'' or ''b'' and solve the Diffie–Hellman problem, making this and many other public key cryptosystems insecure.
+
+The [[Glossary of group theory|order]] of ''G'' should have a large prime factor to prevent use of the [[Pohlig–Hellman algorithm]] to obtain ''a'' or ''b''.  For this reason, a [[Sophie Germain prime]] ''q'' is sometimes used to calculate {{nowrap|1=''p'' = 2''q'' + 1}}, called a [[safe prime]], since the order of ''G'' is then only divisible by 2 and ''q''.  ''g'' is then sometimes chosen to generate the order ''q'' subgroup of ''G'', rather than ''G'', so that the [[Legendre symbol]] of ''g<sup>a</sup>'' never reveals the low order bit of ''a''.
+
+If Alice and Bob use [[random number generator]]s whose outputs are not completely random and can be predicted to some extent, then Eve's task is much easier.
+
+The secret integers ''a'' and ''b'' are discarded at the end of the [[session (computer science)|session]].
+Therefore, Diffie–Hellman key exchange by itself trivially achieves [[perfect forward secrecy]] because no long-term private keying material exists to be disclosed.
+
+In the original description, the Diffie–Hellman exchange by itself does not provide [[authentication]] of the communicating parties and is thus vulnerable to a [[man-in-the-middle attack]]. [[Alice and Bob|Mallory]] may establish two distinct key exchanges, one with Alice and the other with Bob, effectively masquerading as Alice to Bob, and vice versa, allowing her to decrypt, then re-encrypt, the messages passed between them. Note that Mallory must continue to be in the middle, transferring messages every time Alice and Bob communicate. If she is ever absent, her previous presence is then revealed to Alice and Bob. They will know that all of their private conversations had been intercepted and decoded by someone in the channel.
+
+A method to authenticate the communicating parties to each other is generally needed to prevent this type of attack.  Variants of Diffie–Hellman, such as [[Station-to-Station protocol|STS]], may be used instead to avoid these types of attacks.
+
+==Other uses==
+
+===Password-authenticated key agreement===
+
+When Alice and Bob share a password, they may use a [[password-authenticated key agreement]] (PAKE) form of Diffie–Hellman to prevent man-in-the-middle attacks.  One simple scheme is to compare the [[Cryptographic_hash_function|hash]] of '''s''' concatenated with the password calculated independently on both ends of channel.  A feature of these schemes is that an attacker can only test one specific password on each iteration with the other party, and so the system provides good security with relatively weak passwords.  This approach is described in [[ITU-T]] Recommendation [[X.1035]], which is used by the [[G.hn]] home networking standard.
+
+===Public Key===
+It is also possible to use Diffie–Hellman as part of a [[public key infrastructure]].  Alice's public key is simply <math>(g^a \bmod{p}, g, p)</math>.  To send her a message Bob chooses a random ''b'', and then sends Alice <math>g^b \bmod p</math> (un-encrypted) together with the message encrypted with symmetric key <math>(g^a)^b \bmod{p}</math>.  Only Alice can decrypt the message because only she has ''a'' (the private key).  A preshared public key also prevents man-in-the-middle attacks.
+
+In practice, Diffie–Hellman is not used in this way, with [[RSA (algorithm)|RSA]] being the dominant public key algorithm.  This is largely for historical and commercial reasons, namely that [[RSA (security firm)|RSA]] created a certificate authority for key signing that became [[Verisign]].  Diffie–Hellman cannot be used to sign certificates. However, the [[ElGamal signature scheme|ElGamal]] and [[Digital Signature Algorithm|DSA]] signature algorithms are mathematically related to it, as well as [[MQV]], [[Station-to-Station protocol|STS]] and the [[Internet key exchange|IKE]] component of the [[IPsec]] protocol suite for securing [[Internet Protocol]] communications.
+
+==See also==
+* [[Key exchange]]
+* [[Portal:Cryptography|Cryptography portal]]
+* [[Modular arithmetic]]
+* [[Elliptic curve Diffie–Hellman]]
+* [[Public-key cryptography]]
+* [[ElGamal encryption]]
+* [[Diffie–Hellman problem]]
+* [[MQV]]
+* [[Password-authenticated key agreement]]
+* [[Secure Remote Password Protocol]]
+
+== Notes ==
+<references group="nb" />
+
+==References==
+{{Reflist}}
+* Dieter Gollmann (2006). ''Computer Security Second Edition'' West Sussex, England: John Wiley & Sons, Ltd.
+* [http://cryptocellar.web.cern.ch/cryptocellar/cesg/possnse.pdf The possibility of Non-Secret digital encryption] J. H. Ellis, January 1970.
+* [http://www.cesg.gov.uk/publications/Documents/secenc.pdf Non-Secret Encryption Using a Finite Field] MJ Williamson, January 21, 1974.
+* [http://www.fi.muni.cz/usr/matyas/lecture/paper3.pdf Thoughts on Cheaper Non-Secret Encryption] MJ Williamson, August 10, 1976.
+* {{cite doi|10.1109/TIT.1976.1055638}}
+* {{US patent|4200770|Cryptographic apparatus and method}} Martin E. Hellman, Bailey W. Diffie, and Ralph C. Merkle, U.S. Patent #4,200,770, 29 April 1980
+* [http://cryptocellar.web.cern.ch/cryptocellar/cesg/ellis.pdf The History of Non-Secret Encryption] [[James H. Ellis|JH Ellis]] 1987 (28K PDF file) ([http://www.jya.com/ellisdoc.htm HTML version]{{Dead link|date=August 2012}})
+* [http://cr.yp.to/bib/1988/diffie.pdf The First Ten Years of Public-Key Cryptography] Whitfield Diffie, Proceedings of the IEEE, vol. 76, no. 5, May 1988, pp: 560–577 (1.9MB PDF file)
+* [[Alfred Menezes|Menezes, Alfred]]; [[Paul van Oorschot|van Oorschot, Paul]]; [[Scott Vanstone|Vanstone, Scott]] (1997).  ''[[Handbook of Applied Cryptography]]'' Boca Raton, Florida: CRC Press. ISBN 0-8493-8523-7. ([http://www.cacr.math.uwaterloo.ca/hac/ Available online])
+* [[Simon Singh|Singh, Simon]] (1999) ''[[The Code Book: the evolution of secrecy from Mary Queen of Scots to quantum cryptography]]'' New York: Doubleday ISBN 0-385-49531-5
+* [http://dx.doi.org/10.1109/MCOM.2002.1006971 An Overview of Public Key Cryptography] Martin E. Hellman, IEEE Communications Magazine, May 2002, pp:42–49. (123kB PDF file)
+
+==External links==
+*[https://www.youtube.com/watch?v=3QnD2c4Xovk Diffie-Hellman key exchange explained in 5 minutes]
+*[http://purl.umn.edu/107353 Oral history interview with Martin Hellman], [[Charles Babbage Institute]], University of Minnesota.  Leading cryptography scholar [[Martin Hellman]] discusses the circumstances and fundamental insights of his invention of [[public key cryptography]] with collaborators [[Whitfield Diffie]] and [[Ralph Merkle]] at Stanford University in the mid-1970s.
+* RFC 2631 – ''Diffie–Hellman Key Agreement Method'' E. Rescorla June 1999.
+* [http://csrc.nist.gov/encryption/kms/summary-x9-42.pdf ''Summary of ANSI X9.42: Agreement of Symmetric Keys Using Discrete Logarithm Cryptography'']{{Dead link|date=November 2009}} (64K PDF file) ([http://www.rsasecurity.com/rsalabs/node.asp?id=2306 Description of ANSI 9 Standards])
+* [http://docs.google.com/viewer?a=v&pid=sites&srcid=bmV0aXAuY29tfGhvbWV8Z3g6NTA2NTM0YmNhZjRhZDYzZQ Diffie–Hellman Key Exchange – A Non-Mathematician’s Explanation] by Keith Palmgren
+* [https://metacpan.org/module/Crypt::DH Crypt::DH] [[Perl]] module from [[CPAN]]
+* [http://ds9a.nl/tmp/dh.html Hands-on Diffie–Hellman demonstration]
+* [http://oldpiewiki.yoonkn.com/cgi-bin/moin.cgi/DiffieHellmanKeyExchange C implementation using GNU Multiple Precision Arithmetic Library]{{Dead link|date=December 2010}}
+* [http://www.cypherspace.org/adam/rsa/perl-dh.html Diffie Hellman in 2 lines of Perl] (using [[dc (computer program)|dc]])
+* [http://code.google.com/p/sacct/ Smart Account Management (SAcct)] (using DH key exchange to derive session key)
+* [http://video.google.com/videoplay?docid=8991737124862867507 Talk by Martin Hellman in 2007, Google video] (broken link)
+
+{{Cryptography navbox | public-key}}
+
+{{DEFAULTSORT:Diffie-Hellman Key Exchange}}
+[[Category:Key-agreement protocols]]
+[[Category:Public-key cryptography]]

@@ -1,0 +1,93 @@
+{{Original research|article|date=June 2009}}
+In [[computing]], an '''applet''' is any small [[application (computing)|application]] that performs one specific task that runs within the scope of a larger [[program (computing)|program]], often as a [[plug-in (computing)|plug-in]].<ref>[http://www.askoxford.com/concise_oed/applet?view=uk "AskOxford: applet"], Oxford Dictionaries. Accessed on July 21, 2009</ref><ref name="answers.com">[http://www.answers.com/topic/applet "applet: Definition from Answers.com"], Answers.com. Accessed on July 21, 2009</ref>  The term is frequently used to refer to a [[Java applet]], a program written in the [[Java (programming language)|Java]] programming language that is designed to be placed on a [[web page]]. The word ''applet'' was first used in 1990 in PC Magazine.<ref name="Origin">{{cite web
+|url=http://www.oed.com
+|title=Oxford English Dictionary
+|year=2011
+|accessdate=2011-08-23
+| archiveurl= http://web.archive.org/web/20110720020117/http://www.oed.com//| archivedate= 20 July 2011 <!--DASHBot-->| deadurl= no}}</ref>
+
+==Applet as a standalone application==
+Provided that an applet is hosted by an [[operating system]], it can function as any other normal software application but performs only a small set of tasks. Examples of applications often classified as applets are all of the accessories bundled in [[Microsoft Windows]] (such as [[Windows Notepad]] or [[Microsoft Paint]]). Applets are not full-featured application programs, and are intended to be easily accessible.<ref name="answers.com"/>
+
+==Applet as an extension of other software==
+In some cases, an applet does not run independently. These applets must run either in a [[Container (data structure)|container]] provided by a host program, through a [[Plug-in (computing)|plugin]], or a variety of other applications including mobile devices that support the applet programming model.
+
+=== Web-based Applets ===
+Applets are used to provide interactive features to web applications that cannot be provided by [[HTML]] alone. They can capture [[Mouse (computing)|mouse input]] and also have controls like [[Button (computing)|buttons]] or [[check box]]es. In response to the user action an applet can change the provided graphic content. This makes applets well suitable for demonstration, visualization, and teaching. There are online applet collections for studying various subjects, from physics<ref>[http://www.falstad.com/mathphysics.html Paul Falstad online applet portal]</ref> to heart physiology.<ref name='hear'>[http://thevirtualheart.org/CAPindex.html The virtual hearth]</ref> Applets are also used to create online game collections that allow players to compete against live opponents in real-time.
+
+An applet can also be a text area only, providing, for instance, a cross platform [[command-line interface]] to some remote system.<ref>[http://www.jcraft.com/jcterm/ Jraft.com]</ref> If needed, an applet can leave the dedicated area and run as a separate window. However, applets have very little control over web page content outside the applet dedicated area, so they are less useful for improving the site appearance in general (while applets like [[news ticker]]s<ref>[http://www.objectplanet.com/newsticker/ ObjectPlanet.com], an applet that works as news ticker</ref> or [[WYSIWYG]] editors<ref>[http://www.sferyx.com/ Sferyx.com], a company that produces applets acting as [[WYSWYG]] editor.</ref> are also known). Applets can also play media in formats that are not natively supported by the browser<ref>[[Cortado (software)|Cortado applet to play ogg format]]</ref>
+
+HTML pages may embed parameters that are passed to the applet. Hence the same applet may appear differently depending on the parameters that were passed. 
+
+Examples of Web-based Applets include:{{citation needed|date=August 2012}}
+
+* [[QuickTime|QuickTime movies]]
+* [[SWF|Flash movies]]
+* [[Windows Media Player]] applets, used to display embedded video files in [[Internet Explorer]] (and other [[Web browser|browsers]] that support the plugin)
+* [[3D modeling]] display applets, used to rotate and zoom a model
+* [[Browser game]]s can be applet-based, though some may develop into fully functional applications that require installation.
+
+===Applet vs. Subroutine===
+A larger application distinguishes its applets through several features:{{Citation needed|date=July 2009}}
+
+* Applets execute only on the "client" platform environment of a system, as contrasted from "[[Java Servlet|servlet]]". As such, an applet provides functionality or performance beyond the default capabilities of its container (the browser).
+* The container restricts applets' capabilities.
+* Applets are written in a language different from the scripting or [[HTML]] language that invokes it. The applet is written in a compiled language, whereas the scripting language of the container is an interpreted language, hence the greater performance or functionality of the applet. Unlike a "subroutine", a complete web component can be implemented as an applet.
+
+==Java Applet==
+{{Main|Java Applet}}
+
+Java Applets can provide web applications with interactive features that cannot be provided by [[HTML]]. Since Java's [[bytecode]] is platform-independent, Java applets can be executed by browsers running under many platforms, including [[Microsoft Windows|Windows]], [[Unix]], [[Mac OS]], and [[Linux]]. When a Java technology-enabled [[web browser]] processes a page that contains an applet, the applet's [[code]] is transferred to the client's system and executed by the browser's [[Java Virtual Machine]] (JVM).<ref>[http://java.sun.com/applets/ "Applets"], Sun Developer Network. Accessed on July 21, 2009</ref> An HTML page references an applet either via the deprecated [[HTML element#applet|<applet> tag]] or via its replacement, the [[HTML element#object|<object> tag]].<ref>[http://www.w3schools.com/TAGS/tag_applet.asp "HTML applet tag"], W3Schools. Access on July 21, 2009
+</ref>
+
+==Security==
+Recent developments in the coding of applications including mobile and [[embedded system]]s have led to the awareness of the security of applets.
+
+===Open Platform Applets===
+Applets in an [[open platform]] environment should provide secure interactions between different applications. A compositional approach can be used to provide security for [[open platform]] applets.<ref name="Compositional">{{cite web
+|title=Compositional Verification of Secure Applet Interactions
+|url=http://www.springerlink.com/index/bmfqlufe1mfekdbp.pdf
+|last1=Barthe
+|first1=Gilles
+|last2=Gurov
+|first2=Dilian
+|last3=Huisman
+|first3=Marieke
+|year=2002
+|accessdate=2010-04-10
+|id={{citeseerx|10.1.1.16.1254}}
+}}</ref>  Advanced compositional verification methods have been developed for secure applet interactions.<ref name="Compositional"/>
+
+===Java Applets===
+A [[Java applet]] contains different security models:  [[Java_applet#Unsigned|unsigned Java applet security]], [[Java_applet#Signed|signed Java applet security]], and [[Java_applet#Self_signed|self signed Java applet security]].
+
+===Web-based Applets===
+In an applet-enabled [[web browser]], many methods can be used to provide applet security for malicious applets. A malicious applet can infect a computer system in many ways, including denial of service, invasion of privacy, and annoyance.<ref name="Controlling">{{cite web
+|url=http://ieeexplore.ieee.org/iel4/5961/15949/00738594.pdf
+|title=Controlling Applets' Behavior in a Browser
+|last1=Hassler
+|first1=Vesna
+|last2=Then
+|first2=Oliver
+|year=1998
+|accessdate=2010-04-10
+}}</ref>  A typical solution for malicious applets is to make the web browser to monitor applets' activities. This will result in a web browser that will enable the manual or automatic stopping of malicious applets. To illustrate this method, AppletGuard was used to observe and control any applet in a browser successfully.<ref name="Controlling"/>
+
+== See also ==
+{{Portal|Java}} 
+* [[Bookmarklet]]
+* [[Java applet]]
+* [[Widget engine]]
+* [[Abstract Window Toolkit]]
+
+== References ==
+{{Reflist|30em}}
+
+==External links==
+{{Wiktionary|  applet}}
+* [http://java.sun.com/applets/ Applets API] (Sun Developer Network)
+* [http://java.sun.com/docs/books/tutorial/deployment/applet/index.html Applets Tutorial] (Sun Microsystems)
+
+[[Category:Technology neologisms]]
+[[Category:Component-based software engineering]]
+[[Category:Java libraries]]

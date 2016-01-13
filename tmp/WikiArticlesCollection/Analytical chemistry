@@ -1,0 +1,210 @@
+{{For|the journal|Analytical Chemistry (journal)}}
+'''Analytical chemistry''' is the study of the [[Separation process|separation]], identification, and [[quantification]] of the [[chemical]] components of natural and artificial [[materials]].<ref name="isbn0-03-005938-0">{{cite book |author=Holler, F. James; Skoog, Douglas A.; West, Donald M. |title=Fundamentals of analytical chemistry |publisher=Saunders College Pub |location=Philadelphia |year=1996 |pages= |isbn=0-03-005938-0 |oclc= |doi= |accessdate=}}</ref> [[Qualitative analysis]] gives an indication of the identity of the chemical species in the sample, and [[Quantitative analysis (chemistry)|quantitative analysis]] determines the amount of certain components in the substance. The separation of components is often performed prior to analysis.
+
+Analytical methods can be separated into classical and instrumental.<ref name="isbn0-03-002078-6">{{cite book |author=Nieman, Timothy A.; Skoog, Douglas A.; Holler, F. James |title=Principles of instrumental analysis |publisher=Brooks/Cole |location=Pacific Grove, CA |year=1998 |pages= |isbn=0-03-002078-6 |oclc= |doi= |accessdate=}}</ref> Classical methods (also known as [[wet chemistry]] methods) use separations such as [[Precipitation (chemistry)|precipitation]], [[Extraction (chemistry)|extraction]], and [[distillation]] and qualitative analysis by color, odor, or melting point. Quantitative analysis is achieved by measurement of weight or volume. Instrumental methods use an apparatus to measure physical quantities of the analyte such as [[Absorption (electromagnetic radiation)|light absorption]], [[fluorescence]], or [[Electrical conductivity|conductivity]]. The separation of materials is accomplished using [[chromatography]], [[electrophoresis]] or [[Field Flow Fractionation]] methods.
+
+Analytical chemistry is also focused on improvements in [[experimental design]], [[chemometrics]], and the creation of new measurement tools to provide better chemical information. Analytical chemistry has applications in [[forensics]], [[bioanalysis]], [[Clinical chemistry|clinical]] analysis, [[environmental analysis]], and [[List of materials analysis methods|materials analysis]].
+
+==History==
+[[File:Bunsen-Kirchhoff.jpg|thumb|right|200 px|Gustav Kirchhoff (left) and Robert Bunsen (right)]]
+Analytical chemistry has been important since the early days of chemistry, providing methods for determining which elements and chemicals are present in the object in question.  During this period significant analytical contributions to chemistry include the development of systematic [[elemental analysis]] by [[Justus von Liebig]] and systematized organic analysis based on the specific reactions of functional groups.
+
+The first instrumental analysis was flame emissive spectrometry developed by [[Robert Bunsen]] and [[Gustav Kirchhoff]] who discovered [[rubidium]] (Rb) and [[caesium]] (Cs) in 1860.<ref>ANALYTICAL SCIENCES 2001, VOL.17 SUPPLEMENT [http://wwwsoc.nii.ac.jp/jsac/analsci/ICAS2001/pdfs/0500/0571_3i05n.pdf], Basic Education in Analytical Chemistry</ref>
+
+Most of the major developments in analytical chemistry take place after 1900. During this period instrumental analysis becomes progressively dominant in the field. In particular many of the basic spectroscopic and spectrometric techniques were discovered in the early 20th century and refined in the late 20th century.<ref>[[Talanta]] Volume 51, Issue 5, p921-933 [http://dx.doi.org/10.1016/S0039-9140(99)00358-6], Review of analytical next term measurements facilitated by drop formation technology</ref>
+
+The [[separation processes|separation sciences]] follow a similar time line of development and also become increasingly transformed into high performance instruments.<ref>TrAC Trends in Analytical Chemistry Volume 21, Issues 9-10, Pages 547-557 [http://dx.doi.org/10.1016/S0165-9936(02)00806-3], History of gas chromatography</ref> In the 1970s many of these techniques began to be used together to achieve a complete characterization of samples.
+
+Starting in approximately the 1970s into the present day analytical chemistry has progressively become more inclusive of biological questions (bioanalytical chemistry), whereas it had previously been largely focused on inorganic or [[Small molecule|small organic molecules]]. Lasers have been increasingly used in chemistry as probes and even to start and influence a wide variety of reactions. The late 20th century also saw an expansion of the application of analytical chemistry from somewhat academic chemical questions to [[Forensic chemistry|forensic]], [[Environmental chemistry|environmental]], [[Chemical industry|industrial]] and [[clinical chemistry|medical]] questions, such as in [[histology]].<ref>[[Talanta]], Volume 36, Issues 1-2, January–February 1989, Pages 1-9 [http://dx.doi.org/10.1016/0039-9140(89)80077-3] History of analytical chemistry in the U.S.A.</ref>
+
+Modern analytical chemistry is dominated by instrumental analysis. Many analytical chemists focus on a single type of instrument. Academics tend to either focus on new applications and discoveries or on new methods of analysis. The discovery of a chemical present in blood that increases the risk of cancer would be a discovery that an analytical chemist might be involved in. An effort to develop a new method might involve the use of a [[tunable laser]] to increase the specificity and sensitivity of a spectrometric method. Many methods, once developed, are kept purposely static so that data can be compared over long periods of time. This is particularly true in industrial [[Quality Assurance|quality assurance]] (QA), forensic and environmental applications. Analytical chemistry plays an increasingly important role in the pharmaceutical industry where, aside from QA, it is used in discovery of new drug candidates and in clinical applications where understanding the interactions between the drug and the patient are critical.
+
+==Classical methods==
+[[Image:Flame test.jpg|thumb|right|200px|The presence of [[copper]] in this qualitative analysis is indicated by the bluish-green color of the flame.]]
+Although modern analytical chemistry is dominated by sophisticated instrumentation, the roots of analytical chemistry and some of the principles used in modern instruments are from traditional techniques many of which are still used today. These techniques also tend to form the backbone of most undergraduate analytical chemistry educational labs.
+
+===Qualitative analysis===
+A qualitative analysis determines the presence or absence of a particular compound, but not the mass or concentration. By definition, qualitative analyses do not measure quantity.
+
+====Chemical tests====
+{{details|Chemical test}}
+There are numerous qualitative chemical tests, for example, the [[acid test (gold)|acid test]] for [[gold]] and the [[Kastle-Meyer test]] for the presence of [[blood]].
+
+====Flame test====
+{{details| Flame test}}
+Inorganic qualitative analysis generally refers to a systematic scheme to confirm the presence of certain, usually aqueous, ions or elements by performing a series of reactions that eliminate ranges of possibilities and then confirms suspected ions with a confirming test. Sometimes small carbon containing ions are included in such schemes. With modern instrumentation these tests are rarely used but can be useful for educational purposes and in field work or other situations where access to state-of-the-art instruments are not available or expedient.
+
+===Gravimetric analysis===
+{{details| Gravimetric analysis}}
+Gravimetric analysis involves determining the amount of material present by weighing the sample before and/or after some transformation. A common example used in undergraduate education is the determination of the amount of water in a hydrate by heating the sample to remove the water such that the difference in weight is due to the loss of water.
+
+===Volumetric analysis===
+{{details| Titration}}
+Titration involves the addition of a reactant to a solution being analyzed until some equivalence point is reached. Often the amount of material in the solution being analyzed may be determined. Most familiar to those who have taken chemistry during secondary education is the acid-base titration involving a color changing indicator. There are many other types of titrations, for example potentiometric titrations.
+These titrations may use different types of indicators to reach some equivalence point.
+
+==Instrumental methods==
+{{Main|Instrumental analysis}}
+[[Image:Analytical instrument.gif|right|thumb|300 px|Block diagram of an analytical instrument showing the stimulus and measurement of response]]
+
+===Spectroscopy===
+{{details| Spectroscopy}}
+Spectroscopy measures the interaction of the molecules with [[electromagnetic spectrum|electromagnetic radiation]]. Spectroscopy consists of many different applications such as [[atomic absorption spectroscopy]], [[emission spectroscopy|atomic emission spectroscopy]], [[ultraviolet-visible spectroscopy]], [[x-ray fluorescence spectroscopy]], [[infrared spectroscopy]], [[Raman spectroscopy]], [[dual polarisation interferometry]], [[nuclear magnetic resonance spectroscopy]], [[photoemission spectroscopy]], [[Mössbauer spectroscopy]] and so on.
+
+===Mass spectrometry===
+{{details| Mass spectrometry}}
+[[File:1 MV accelerator mass spectrometer.jpg|left|thumb|200 px|An [[Accelerator mass spectrometry|accelerator mass spectrometer]] used for [[radiocarbon dating]] and other analysis.]]
+Mass spectrometry measures [[mass-to-charge ratio]] of molecules using [[Electric field|electric]] and [[magnetic field]]s. There are several ionization methods: electron impact, [[chemical ionization]], electrospray, fast atom bombardment, matrix assisted laser desorption ionization, and others. Also, mass spectrometry is categorized by approaches of mass analyzers: [[magnetic-sector]], [[quadrupole mass analyzer]], [[quadrupole ion trap]], [[time-of-flight mass spectrometry|time-of-flight]], [[Fourier transform ion cyclotron resonance]], and so on.
+
+===Electrochemical analysis===
+{{details|Electroanalytical method}}
+Electroanalytical methods measure the [[electric potential|potential]] ([[volts]]) and/or [[electric current|current]] ([[Ampere|amps]]) in an [[electrochemical cell]] containing the analyte.<ref>Bard, A.J.; Faulkner, L.R. '''Electrochemical Methods: Fundamentals and Applications.''' New York: John Wiley & Sons, 2nd Edition, '''2000'''.</ref><ref>Skoog, D.A.; West, D.M.; Holler, F.J. '''Fundamentals of Analytical Chemistry''' New York: Saunders College Publishing, 5th Edition, '''1988'''.</ref>  These methods can be categorized according to which aspects of the cell are controlled and which are measured.  The three main categories are [[Ion selective electrode|potentiometry]] (the difference in electrode potentials is measured), [[coulometry]] (the cell's current is measured over time), and [[voltammetry]] (the cell's current is measured while actively altering the cell's potential).
+
+===Thermal analysis===
+{{Further2|[[Calorimetry]], [[thermal analysis]]}}
+Calorimetry and thermogravimetric analysis measure the interaction of a material and [[heat]].
+
+===Separation===
+[[File:TLC black ink.jpg|thumb|right|200 px|Separation of black ink on a [[thin layer chromatography]] plate.]]
+{{Further2|[[Separation process]], [[Chromatography]], [[electrophoresis]]}}
+Separation processes are used to decrease the complexity of material mixtures.  [[Chromatography]], [[electrophoresis]] and  [[Field Flow Fractionation]] are representative of this field.
+
+===Hybrid techniques===
+Combinations of the above techniques produce a "hybrid" or "hyphenated" technique.<ref name="pmid6353577">{{cite journal |author=Wilkins CL |title=Hyphenated techniques for analysis of complex organic mixtures |journal=Science |volume=222 |issue=4621 |pages=291–6 |year=1983 |pmid=6353577 |doi=10.1126/science.6353577|bibcode = 1983Sci...222..291W }}</ref><ref name="pmid9008869">{{cite journal |author=Holt RM, Newman MJ, Pullen FS, Richards DS, Swanson AG |title=High-performance liquid chromatography/NMR spectrometry/mass spectrometry: further advances in hyphenated technology |journal=Journal of mass spectrometry : JMS |volume=32 |issue=1 |pages=64–70 |year=1997 |pmid=9008869 |doi=10.1002/(SICI)1096-9888(199701)32:1<64::AID-JMS450>3.0.CO;2-7}}</ref><ref name="pmid9253184">{{cite journal |author=Ellis LA, Roberts DJ |title=Chromatographic and hyphenated methods for elemental speciation analysis in environmental media |journal=Journal of Chromatography A |volume=774 |issue=1–2 |pages=3–19 |year=1997 |pmid=9253184 |doi=10.1016/S0021-9673(97)00325-7}}</ref><ref name="pmid12462614">{{cite journal |author=Guetens G, De Boeck G, Wood M, Maes RA, Eggermont AA, Highley MS, van Oosterom AT, de Bruijn EA, Tjaden UR |title=Hyphenated techniques in anticancer drug monitoring. I. Capillary gas chromatography-mass spectrometry |journal=Journal of Chromatography A |volume=976 |issue=1–2 |pages=229–38 |year=2002 |pmid=12462614 |doi=10.1016/S0021-9673(02)01228-1}}</ref><ref name="pmid12462615">{{cite journal |author=Guetens G, De Boeck G, Highley MS, Wood M, Maes RA, Eggermont AA, Hanauske A, de Bruijn EA, Tjaden UR |title=Hyphenated techniques in anticancer drug monitoring. II. Liquid chromatography-mass spectrometry and capillary electrophoresis-mass spectrometry |journal=Journal of Chromatography A |volume=976 |issue=1–2 |pages=239–47 |year=2002 |pmid=12462615 |doi=10.1016/S0021-9673(02)01227-X}}</ref>  Several examples are in popular use today and new hybrid techniques are under development. For example, [[gas chromatography-mass spectrometry]], gas chromatography-[[infrared spectroscopy]], [[liquid chromatography-mass spectrometry]], liquid chromatography-[[NMR spectroscopy]]. liquid chromagraphy-infrared spectroscopy and capillary electrophoresis-mass spectrometry.
+
+Hyphenated separation techniques refers to a combination of two (or more) techniques to detect and separate chemicals from solutions. Most often the other technique is some form of [[chromatography]]. Hyphenated techniques are widely used in [[chemistry]] and [[biochemistry]]. A [[Slash (punctuation)|slash]] is sometimes used instead of [[hyphen]], especially if the name of one of the methods contains a hyphen itself.
+
+===Microscopy===
+[[File:3D-SIM-3 Prophase 3 color.jpg|thumb|right|200 px|[[Fluorescence microscope]] image of two mouse cell nuclei in [[prophase]] (scale bar is 5 µm).<ref>{{Cite journal | doi = 10.1126/science.1156947 | title = Subdiffraction Multicolor Imaging of the Nuclear Periphery with 3D Structured Illumination Microscopy | year = 2008 | last1 = Schermelleh | first1 = L. | last2 = Carlton | first2 = P. M. | last3 = Haase | first3 = S. | last4 = Shao | first4 = L. | last5 = Winoto | pmc = 2916659 | first5 = L. | last6 = Kner | first6 = P. | last7 = Burke | first7 = B. | last8 = Cardoso | first8 = M. C. | last9 = Agard | first9 = D. A. | journal = Science | volume = 320 | pages = 1332 | pmid = 18535242 | issue = 5881|bibcode = 2008Sci...320.1332S }}</ref>]]
+{{details|Microscopy}}
+The visualization of single molecules, single cells, biological tissues and [[nanomaterial]]s is an important and attractive approach in analytical science.  Also, hybridization with other traditional analytical tools is revolutionizing analytical science.  [[Microscopy]] can be categorized into three different fields: [[optical microscopy]], [[electron microscopy]], and [[scanning probe microscopy]].  Recently, this field is rapidly progressing because of the rapid development of the computer and camera industries.
+
+===Lab-on-a-chip===
+[[File:Glass-microreactor-chip-micronit.jpg|thumb|left|200 px|A glass [[microreactor]]]]
+{{Further2|[[microfluidics]], [[lab-on-a-chip]]}}
+Devices that integrate (multiple) laboratory functions on a single chip of only millimeters to a few square centimeters in size and that are capable of handling extremely small fluid volumes down to less than pico liters.
+
+==Standards==
+{{see also|Analytical quality control}}
+
+===Standard curve===
+[[Image:Calibration curve.gif|thumb|right|200 px|A calibration curve plot showing [[Detection limit|limit of detection]] (LOD), [[Detection limit|limit of quantification]] (LOQ), dynamic range, and limit of linearity (LOL).]]
+A general method for analysis of concentration involves the creation of a [[calibration curve]]. This allows for determination of the amount of a chemical in a material by comparing the results of unknown sample to those of a series of known standards. If the concentration of element or compound in a sample is too high for the detection range of the technique, it can simply be diluted in a pure solvent. If the amount in the sample is below an instrument's range of measurement, the method of addition can be used. In this method a known quantity of the element or compound under study is added, and the difference between the concentration added, and the concentration observed is the amount actually in the sample.
+
+===Internal standards===
+Sometimes an [[internal standard]] is added at a known concentration directly to an analytical sample to aid in quantitation. The amount of analyte present is then determined relative to the internal standard as a calibrant. An ideal internal standard is isotopically-enriched analyte which gives rise to the method of [[isotope dilution]].
+
+===Standard addition===
+The method of [[standard addition]] is used in instrumental analysis to determine concentration of a substance ([[analyte]]) in an unknown sample by comparison to a set of samples of known concentration, similar to using a [[calibration curve]]. Standard addition can be applied to most analytical techniques and is used instead of a [[calibration curve]] to solve the [[matrix effect]] problem.
+
+==Signals and noise==
+One of the most important components of analytical chemistry is maximizing the desired signal while minimizing the associated [[Noise (electronics)|noise]].<ref name="isbn0-495-01201-7">{{cite book |author=Crouch, Stanley; Skoog, Douglas A. |title=Principles of instrumental analysis |publisher=Thomson Brooks/Cole |location=Australia |year=2007 |pages= |isbn=0-495-01201-7 |oclc= |doi= |accessdate=}}</ref> The analytical figure of merit is known as the [[signal-to-noise ratio]] (S/N or SNR).
+
+Noise can arise from environmental factors as well as from fundamental physical processes.
+
+===Thermal noise===
+{{Main|Johnson–Nyquist noise}}
+Thermal noise results from the motion of charge carriers (usually electrons) in an electrical circuit generated by their thermal motion. Thermal noise is [[white noise]] meaning that the power [[spectral density]] is constant throughout the [[frequency spectrum]].
+
+The [[root mean square]] value of the thermal noise in a resistor is given by<ref name="isbn0-495-01201-7" />
+
+:<math>v_{{RMS}} = \sqrt { 4 k_B T R \Delta f },</math>
+
+where ''k<sub>B</sub>'' is [[Boltzmann's constant]], ''T'' is the [[temperature]], ''R'' is the resistance, and <math>\Delta f</math> is the [[Bandwidth (signal processing)|bandwidth]] of the frequency <math> f</math>.
+
+===Shot noise===
+{{Main|Shot noise}}
+Shot noise is a type of [[electronic noise]] that occurs when the finite number of particles (such as [[electron]]s in an electronic circuit or [[photon]]s in an optical device) is small enough to give rise to statistical fluctuations in a signal.
+
+Shot noise is a [[Poisson process]] and the charge carriers that make up the current follow a [[Poisson distribution]].  The root mean square current fluctuation is given by<ref name="isbn0-495-01201-7" />
+
+:<math>i_{{RMS}}=\sqrt{2\,e\,I\,\Delta f}</math>
+
+where ''e'' is the [[elementary charge]] and ''I'' is the average current. Shot noise is white noise.
+
+===Flicker noise===
+{{Main|flicker noise}}
+Flicker noise is electronic noise with a 1/''ƒ'' frequency spectrum; as ''f'' increases, the noise decreases. Flicker noise arises from a variety of sources, such as impurities in a conductive channel, generation and [[Carrier generation and recombination|recombination]] noise in a [[transistor]] due to base current, and so on. This noise can be avoided by [[modulation]] of the signal at a higher frequency, for example through the use of a [[lock-in amplifier]].
+
+===Environmental noise===
+[[File:Analyse thermo gravimetrique bruit.png|thumb|right|200 px|Noise in a [[thermogravimetric analysis]]; lower noise in the middle of the plot results from less human activity (and environmental noise) at night.]]
+[[Environmental noise]] arises from the surroundings of the analytical instrument. Sources of electromagnetic noise are [[power lines]], radio and television stations, [[wireless device]]s, [[Compact fluorescent lamp]]s<ref>{{Cite web| title=Health Concerns associated with Energy Efficient Lighting and their Electromagnetic Emissions | publisher=Trent University, Peterborough, ON, Canada
+ | accessdate=2011-11-12 | url=http://www.emrpolicy.org/science/forum/08_havas_cfl_scenihr.pdf}}</ref> and [[electric motor]]s. Many of these noise sources are narrow bandwidth and therefore can be avoided. Temperature and [[vibration isolation]] may be required for some instruments.
+
+===Noise reduction===
+Noise reduction can be accomplished either in [[computer hardware]] or [[software]]. Examples of hardware noise reduction are the use of [[shielded cable]], [[analog filter]]ing, and signal modulation. Examples of software noise reduction are [[digital filter]]ing, [[ensemble average]], [[boxcar average]], and [[correlation]] methods.<ref name="isbn0-495-01201-7" />
+
+==Applications==
+Analytical chemistry research is largely driven by performance (sensitivity, selectivity, robustness, [[linear range]], accuracy, precision, and speed), and cost (purchase, operation, training, time, and space). Among the main branches of contemporary analytical atomic spectrometry, the most widespread and universal are optical and mass spectrometry.<ref>{{Cite journal | doi = 10.1070/RC2006v075n04ABEH001174|arxiv=physics/0607078 | title = Prospects in analytical atomic spectrometry | year = 2006 | last1 = Bol'shakov | first1 = Aleksandr A | last2 = Ganeev | first2 = Aleksandr A | last3 = Nemets | first3 = Valerii M | journal = Russian Chemical Reviews | volume = 75 | pages = 289 | issue = 4|bibcode = 2006RuCRv..75..289B }}</ref> In the direct elemental analysis of solid samples, the new leaders are [[laser-induced breakdown spectroscopy|laser-induced breakdown]] and [[laser ablation]] mass spectrometry, and the related techniques with transfer of the laser ablation products into [[inductively coupled plasma]]. Advances in design of diode lasers and optical parametric oscillators promote developments in fluorescence and ionization spectrometry and also in absorption techniques where uses of optical cavities for increased effective absorption pathlength are expected to expand. The use of  plasma- and laser-based methods is increasing. An interest towards absolute (standardless) analysis has revived, particularly in   emission spectrometry.{{citation needed |date=March 2013}} 
+
+great effort is put in shrinking the analysis techniques to [[Integrated circuit|chip]] size.  Although there are few examples of such systems competitive with traditional analysis techniques, potential advantages include size/portability, speed, and cost. (micro [[Total Analysis System]] (µTAS) or [[Lab-on-a-chip]]). [[Microscale chemistry]] reduces the amounts of chemicals used.
+
+Many developments  improve the analysis of  biological systems.  Examples of rapidly expanding fields in this area are:
+*[[Genomics]] - [[DNA sequencing]] and its related research. [[Genetic fingerprinting]] and [[DNA microarray]] are important   tools and research fields.
+*[[Proteomics]] - the analysis of protein concentrations and modifications, especially in response to various stressors, at various developmental stages, or in various parts of the body.
+*[[Metabolomics]] - similar to proteomics, but dealing with metabolites.
+*[[Transcriptomics]] - mRNA and its associated field
+*[[Lipidomics]] - lipids and its associated field
+*Peptidomics - peptides and its associated field
+*Metalomics - similar to proteomics and metabolomics, but dealing with metal concentrations and especially with their binding to proteins and other molecules.
+
+Analytical chemistry has played critical roles in the understanding of basic science to a variety of practical applications, such as biomedical applications, environmental monitoring, quality control of industrial manufacturing, forensic science and so on.
+
+The recent developments of computer automation and information technologies have extended analytical chemistry into a number of new biological fields. For example, automated DNA sequencing machines were the basis to complete human genome projects leading to the birth of [[genomics]]. Protein identification and peptide sequencing by mass spectrometry opened a new field of [[proteomics]]. 
+
+Analytical chemistry has been an indispensable area in the development of [[nanotechnology]]. Surface characterization instruments, [[electron microscopes]] and scanning probe microscopes enables scientists to visualize atomic structures with chemical characterizations.
+
+==See also==
+{{Portal|Analytical chemistry}}
+* [[Analytical Chemistry Insights]] - journal
+* [[AutoAnalyzer]]
+* [[List of chemical analysis methods]]
+* [[List of materials analysis methods]]
+* [[List of important publications in chemistry#Analytical chemistry|Important publications in analytical chemistry]]
+* [[Measurement Science and Technology]] - journal
+* [[Sensory analysis]] - in the field of [[Food science]]
+* [[Virtual instrumentation]]
+* [[Water chemistry analysis]]
+* [[Working range]]
+* [[Metrology]]
+* [[Measurement uncertainty]]
+* [[Microanalysis]]
+* [[infrared spectroscopy of metal carbonyls]]
+* [[Quality of analytical results]]
+
+==References==
+{{Reflist}}
+^ Skoog, D.A.; West, D.M.; Holler, F.J. Fundamentals of Analytical Chemistry New York: Saunders College Publishing, 5th Edition, 1988.
+^ Bard, A.J.; Faulkner, L.R. Electrochemical Methods: Fundamentals and Applications. New York: John Wiley & Sons, 2nd Edition, 2000.
+^ Bettencourt da Silva, R; Bulska, E; Godlewska-Zylkiewicz, B; Hedrich, M; Majcen, N; Magnusson, B; Marincic, S; Papadakis, I; Patriarca, M; Vassileva, E; Taylor, P; Analytical measurement: measurement uncertainty and statistics, 2012, [http://bookshop.europa.eu/en/analytical-measurement-pbLANA25207/ ISBN978-92-79-23070-7].
+
+==External links==
+{{Prone to spam|date=January 2013}}
+{{Z148}}<!--     {{No more links}}
+
+       Please be cautious adding more external links.
+
+Wikipedia is not a collection of links and should not be used for advertising. 
+
+     Excessive or inappropriate links will be removed.   
+
+ See [[Wikipedia:External links]] and [[Wikipedia:Spam]] for details.
+
+If there are already suitable links, propose additions or replacements on
+the article's talk page, or submit your link to the relevant category at 
+the Open Directory Project (dmoz.org) and link there using {{Dmoz}}.
+
+-->
+{{WVD}}
+{{Commons category|Analytical chemistry}}
+*{{Dmoz|Science/Chemistry/Analytical|Analytical Chemistry}}
+
+{{Analytical chemistry}}
+{{BranchesofChemistry}}
+
+<!--[[ya:Alisa]]-->
+
+{{DEFAULTSORT:Analytical Chemistry}}
+[[Category:Analytical chemistry|*]]
+[[Category:Materials science]]
+[[Category:Science-related lists|Materials analysis methods]]

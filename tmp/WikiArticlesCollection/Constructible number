@@ -1,0 +1,84 @@
+{{for|numbers "constructible" in the sense of [[set theory]]|Constructible universe}}
+[[File:Academ existence of square root of 2.svg|thumb|upright=1.5|For example, [[square root of 2]] is '''constructible''':<br/>from the length unit, we can construct [[Line segment|a&nbsp;line&nbsp;segment]] of&nbsp;length&nbsp;√{{Overline|2}}&nbsp; with straightedge and&nbsp;compass.]]
+A [[point (geometry)|point]] in the [[Euclidean plane]] is a '''constructible point''' if, given a fixed [[coordinate system]] (or a fixed [[line segment]] of unit [[length]]), the point can be constructed with [[Compass and straightedge constructions|unruled straightedge and compass]]. A [[complex number]] is a '''constructible number''' if its corresponding point in the Euclidean plane is constructible from the usual ''x''- and ''y''-coordinate axes.
+
+It can then be shown that a [[real number]] ''r'' is constructible [[if and only if]], given a line segment of unit length, a line segment of length |''r'' | can be constructed with compass and straightedge.<ref>John A. Beachy, William D. Blair; ''Abstract Algebra''; [http://www.math.niu.edu/~beachy/abstract_algebra/study_guide/63.html Definition 6.3.1]</ref> It can also be shown that a complex number is constructible if and only if its [[real part|real]] and [[imaginary part]]s are constructible.
+
+The set of constructible numbers can be completely [[characterization (mathematics)|characterized]] in the language of [[field (algebra)|field theory]]: the constructible numbers form the [[quadratic closure]] of the [[rational number]]s: the smallest [[field extension]] of which is closed under [[square root]] and [[complex conjugate|complex conjugation]].  This has the effect of transforming geometric questions about compass and straightedge constructions into [[abstract algebra|algebra]]. This transformation leads to the solutions of many famous mathematical problems, which defied centuries of attack.
+
+== Geometric definitions ==
+
+The geometric definition of a constructible point is as follows. First, for any two distinct points ''P'' and ''Q'' in the plane, let ''L''(''P'', ''Q'' ) denote the unique line through ''P'' and ''Q'', and let ''C'' (''P'', ''Q'' ) denote the unique circle with center ''P'', passing through ''Q''. (Note that the order of ''P'' and ''Q'' matters for the circle.) By convention, ''L''(''P'', ''P'' ) = ''C'' (''P'', ''P'' ) = {''P'' }. Then a point ''Z'' is ''constructible from E, F, G and H'' if either
+
+#''Z'' is in the [[Line-line intersection|intersection]] of ''L''(''E'', ''F'' ) and ''L''(''G'', ''H'' ), where ''L''(''E'', ''F'' ) ≠ ''L''(''G'', ''H'' );
+#''Z'' is in the intersection of ''C'' (''E'', ''F'' ) and ''C'' (''G'', ''H'' ), where ''C'' (''E'', ''F'' ) ≠ ''C'' (''G'', ''H'' );
+#''Z'' is in the intersection of ''L''(''E'', ''F'' ) and ''C'' (''G'', ''H'' ).
+
+Since the order of ''E'', ''F'', ''G'', and ''H'' in the above definition is irrelevant, the four letters may be [[permutation|permuted]] in any way. Put simply, ''Z'' is constructible from ''E'', ''F'', ''G'' and ''H'' if it lies in the intersection of any two distinct lines, or of any two distinct circles, or of a line and a circle, where these lines and/or circles can be determined by ''E'', ''F'', ''G'', and ''H'', in the above sense.
+
+Now, let ''A'' and ''A''&prime; be any two distinct fixed points in the plane. A point ''Z'' is ''constructible'' if either
+
+#''Z'' = ''A'';
+#''Z'' = ''A''&prime;;
+#there exist points ''P''<sub>1</sub>, ..., ''P''<sub>''n''</sub>, with ''Z'' = ''P''<sub>''n''</sub>, such that for all ''j'' ≥ 1, ''P''<sub>''j'' + 1</sub> is constructible from points in the set {''A'', ''A''&prime;, ''P''<sub>1</sub>, ..., ''P''<sub>''j''</sub> }.
+
+Put simply, ''Z'' is constructible if it is either ''A'' or ''A''&prime;, or if it is obtainable from a finite sequence of points starting with ''A'' and ''A''&prime;, where each new point is constructible from previous points in the sequence.
+
+For example, the center point of ''A'' and ''A''&prime; is defined as follows. The circles ''C'' (''A'', ''A''&prime;) and ''C'' (''A''&prime;, ''A'') intersect in two distinct points; these points determine a unique line, and the center is defined to be the intersection of this line with ''L''(''A'', ''A''&prime;).
+
+== Transformation into algebra ==
+
+All [[rational number]]s are constructible, and all constructible numbers are [[algebraic number]]s. Also, if ''a'' and ''b'' are constructible numbers with ''b'' ≠ 0, then {{nowrap|''a'' &minus; ''b''}} and ''a''/''b'' are constructible. Thus, the set ''K'' of all constructible complex numbers forms a [[field (algebra)|field]], a subfield of the field of algebraic numbers.
+
+Furthermore, ''K'' is closed under square roots and [[complex conjugation]]. These facts can be used to characterize the field of constructible numbers, because, in essence, the equations defining lines and circles are no worse than quadratic. The characterization is the following: a complex number is constructible [[if and only if]] it lies in a field at the top of a [[finite tower of fields|finite tower]] of [[quadratic extension]]s, starting with the rational field '''Q'''. More precisely, ''z'' is constructible if and only if there exists a [[tower of fields]]
+
+<math>\mathbb{Q} = K_0 \subseteq K_1 \subseteq \dots \subseteq K_n</math>
+
+where ''z'' is in ''K''<sub>''n''</sub> and for all 0 ≤ ''j'' < ''n'', the dimension [''K''<sub>''j'' + 1</sub> : ''K''<sub>''j''</sub> ] = 2.
+
+== Impossible constructions ==
+
+The algebraic characterization of constructible numbers provides an important ''necessary'' condition for constructibility: if ''z'' is constructible, then it is algebraic, and its minimal irreducible polynomial has degree a power of 2, or equivalently, the field extension '''Q'''(''z'')/'''Q''' has dimension a power of 2. One should note that it is true, (but not obvious to show) that the converse is false &mdash; this is not a ''sufficient'' condition for constructibility. However, this defect can be remedied by considering the normal closure of '''Q'''(''z'')/'''Q'''.
+
+The non-constructibility of certain numbers proves the impossibility of [[Compass and straightedge constructions|certain problems]] attempted by the philosophers of [[ancient Greece]]. In the following chart, each row represents a specific ancient construction problem. The left column gives the name of the problem. The second column gives an equivalent algebraic formulation of the problem. In other words, the solution to the problem is affirmative [[if and only if]] each number in the given set of numbers is constructible. Finally, the last column provides the simplest known [[counterexample]]. In other words, the number in the last column is an element of the set in the same row, but is not constructible.
+
+{| border="1" cellpadding="2" cellspacing="0"
+! style="background:#efefef;"|Construction problem
+! style="background:#efefef;"|Associated set of numbers
+! style="background:#efefef;"|Counterexample
+|-
+|[[Doubling the cube]]
+|<math>\left \{ \sqrt[3]{x} : x \mbox{ is constructible} \right \}</math>
+|<math>\sqrt[3]{2}</math> is not constructible, because its [[minimal polynomial (field theory)|minimal polynomial]] has degree 3 over '''Q'''
+|-
+|[[Trisecting the angle]]
+|<math>\left \{ \cos \left( \frac{\arccos x}{3} \right) : x \mbox{ is constructible} \right \}</math>
+|<math>\cos \left( \frac{\arccos (1/2)}{3} \right) = \frac{1}{2} \left( 2\cos \left( \frac{\pi}{9} \right) \right)</math> is not constructible, because <math>2\cos \left( \frac{\pi}{9} \right)</math> has minimal polynomial of degree 3 over '''Q'''
+|-
+|[[Squaring the circle]]
+|<math>\left \{ \sqrt{\pi} \right \}</math>
+|<math>\sqrt{\pi}</math> is not constructible, because it is not algebraic over '''Q'''
+|-
+|[[Constructible polygon|Constructing all regular polygons]]
+|<math>\left \{ e^{2\pi i/n} : n \in \mathbb{N}, n \geq 3 \right \}</math>
+|<math>e^{2\pi i/7}</math> is not constructible, because 7 is not a [[Fermat prime]], nor is 7 the product of <math>2^k</math> and one or more Fermat primes
+|}
+
+==See also==
+
+*[[Computable number]]
+*[[Definable real number]]
+*[[Compass and straightedge constructions]]
+
+==Notes==
+{{reflist}}
+
+==References==
+{{refbegin}}
+* [http://www.encyclopediaofmath.org/index.php/Constructive_real_number ''Constructive real number'' at Encyclopaedia of Mathematics]
+* {{MathWorld |title=Constructible Number |urlname=ConstructibleNumber}}
+* [http://www.cut-the-knot.org/arithmetic/rational.shtml Constructible Numbers] at [[Cut-the-knot]]
+{{refend}}
+
+[[Category:Euclidean plane geometry]]
+[[Category:Algebraic numbers]]

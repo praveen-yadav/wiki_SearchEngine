@@ -1,0 +1,83 @@
+{{distinguish|Command-line Interface}}
+
+The '''Common Language Infrastructure''' ('''CLI''') is an open [[specification]] developed by [[Microsoft]] and standardized by [[International Organization for Standardization|ISO]]<ref name="iso_iec_23271_2012">[http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=58046 ISO/IEC 23271:2012 - Information technology -- Common Language Infrastructure (CLI)]</ref> and [[Ecma International|ECMA]]<ref name="ecma_355_2012">[http://www.ecma-international.org/publications/standards/Ecma-335.htm Standard ECMA-335 - 6th edition (June 2012)]</ref> that describes the executable code and runtime environment that form the core of the Microsoft [[.NET Framework]] and the [[free and open source software|free and open source]] implementations [[Mono (software)|Mono]] and [[Portable.NET]]. The specification defines an environment that allows multiple high-level languages to be used on different computer platforms without being rewritten for specific architectures.
+
+==Overview==
+[[File:Overview of the Common Language Infrastructure.svg|thumb|280px|Visual overview of the Common Language Infrastructure (CLI)]]
+Among other things, the CLI specification describes the following four aspects:
+
+; The [[Common Type System]] (CTS) : A set of [[data type]]s and operations that are shared by all CTS-compliant [[programming language]]s.
+; [[Metadata (CLI)|Metadata]]: Information about program structure is [[Language-independent specification|language-agnostic]], so that it can be referenced between languages and tools, making it easy to work with code written in a language you are not using.
+; Common Language Specification (CLS) : A set of base rules to which any language targeting the CLI should conform in order to interoperate with other CLS-compliant languages. The CLS rules define a subset of the Common Type System.
+; [[Virtual Execution System]] (VES) : The VES loads and executes CLI-compatible programs, using the metadata to combine separately generated pieces of code at runtime.
+
+All compatible languages compile to [[Common Intermediate Language]] (CIL), which is an [[intermediate language]] that is abstracted from the platform hardware.  When the code is executed, the platform-specific VES will compile the CIL to the [[machine language]] according to the specific hardware and operating system.
+
+== Standardization and licensing ==
+In August 2000, [[Microsoft]], [[Hewlett-Packard]], [[Intel]], and others worked to standardize CLI.  By December 2001, it was ratified by the [[Ecma International|ECMA]], with [[International Organization for Standardization|ISO]] standardization following in April 2003.
+
+Microsoft and its partners hold patents for CLI{{citation needed|date=January 2013}}. ECMA and ISO require that all patents essential to implementation be made available under "[[Reasonable and Non Discriminatory Licensing|reasonable and non-discriminatory (RAND) terms]]."  It is common for RAND licensing to require some royalty payment, which could be a cause for concern with Mono.  As of January 2013, neither Microsoft nor its partners have identified any patents essential to CLI implementations subject to RAND terms.
+
+As of July 2009,<ref>{{cite web
+| url=http://port25.technet.com/archive/2009/07/06/the-ecma-c-and-cli-standards.aspx
+| title=The ECMA C# and CLI Standards - Port 25: The Open Source Community at Microsoft
+| date=2009-07-06}}</ref> [[Microsoft]] added [[C Sharp (programming language)|C#]] and CLI to the list of specifications that the [[Microsoft Community Promise|Community Promise]] applies to,<ref name="mcp_covered_specifications">[http://www.microsoft.com/openspecifications/en/us/programs/community-promise/covered-specifications/default.aspx Covered Specifications | Microsoft Open Specifications]</ref> so anyone can safely implement specified editions of the standards without fearing a patent lawsuit from Microsoft. To implement the CLI standard requires conformance to one of the supported and defined profiles of the standard, the minimum of which is the kernel profile. The kernel profile is actually a very small set of types to support in comparison to the well known core library of default .NET installations. However, the conformance clause of the CLI allows for extending the supported profile by adding new methods and types to classes, as well as deriving from new namespaces. But it does not allow for adding new members to interfaces. This means that the features of the CLI can be used and extended, as long as the conforming profile implementation does not change the behavior of a program intended to run on that profile, while allowing for unspecified behavior from programs written specifically for that implementation.
+
+In 2012, ECMA and ISO published the new edition of the CLI standard,<ref name="iso_iec_23271_2012" /><ref name="ecma_355_2012"/> which isn't covered by the Community Promise.<ref name="mcp_covered_specifications" />
+
+== Support for dynamic languages ==
+{{main|List of CLI languages}}
+{{Further|.NET Framework#.NET Framework 4}}
+Early versions of the Common Language Infrastructure had no built-in support for [[Type system#Dynamic typing|Dynamically typed languages]] because the [[Common Intermediate Language]] was [[Type system#Static typing|statically typed]].<ref>{{cite web
+| url=http://blogs.msdn.com/joelpob/archive/2005/07/01/434728.aspx
+| title=CLR Dynamic languages under the hood
+| date=2007-01-03
+|last=Pobar|first=Joel
+| accessdate=2008-01-26}}</ref>
+
+The [[Dynamic Language Runtime]] introduced in .NET Framework version 4 added support for dynamic languages to the [[Common Language Runtime|CLR]].
+
+== Implementations ==
+* The [[.NET Framework]] is built on the [[Common Language Runtime]], Microsoft's commercial implementation of the CLI for desktop and server systems, and also encompasses a large collection of programming frameworks and libraries.
+* [[Shared Source Common Language Infrastructure]] is a reference implementation of the CLI available from Microsoft, under the [[Shared source]] licensing program.
+* [[.NET Compact Framework]] is Microsoft's commercial implementation of the CLI for portable devices and [[Xbox 360]].
+* [[Microsoft Silverlight]], an implementation for use in web browsers - for [[Microsoft Windows]] and [[Mac OS X]].
+* [[Mono (software)|Mono development platform]] is an [[open source]] implementation of CLI and accompanying technologies, sponsored by [[Xamarin]].
+* [[Portable.NET]], part of the [[dotGNU]] project, is a [[Free Software]] implementation of ECMA-335 by [[Free Software Foundation]].
+* [[VMKit]]<ref>{{cite web | url=http://vmkit.llvm.org/ | title=VMKit: a substrate for virtual machines}}</ref> part of [[Low Level Virtual Machine]] toolkit as of version 2.3. Implements very incomplete and alpha stage support of a [[Virtual Execution System]]. It is based on [[DotGNU]], [[Portable.NET]] corelib and class libraries.
+
+== See also ==
+* [[Base Class Library]] (BCL)
+* [[Framework Class Library]] (FCL)
+
+== Notes ==
+{{reflist|2}}
+
+== References ==
+* {{cite web
+ | title = Standard ECMA-335, Common Language Infrastructure (CLI)
+ | work = ECMA International
+ | url = http://www.ecma-international.org/publications/standards/Ecma-335.htm
+ | accessdate = August 31, 2005
+ }}
+* {{cite web
+ | title = ISO/IEC 23271, Common Language Infrastructure
+ | work = ISO
+ | url = http://www.iso.org/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=42927
+ | accessdate = September 27, 2006
+ }}
+* {{cite web
+ | title = ECMA C# and Common Language Infrastructure Standards
+ | work = Microsoft Corporation
+ | url = http://msdn.microsoft.com/en-us/netframework/aa569283.aspx
+ | accessdate = October 13, 2009
+ }}
+
+{{DotNET}}
+{{Ecma International Standards}}
+{{ISO standards}}
+
+[[Category:.NET framework]]
+[[Category:ISO standards]]
+[[Category:IEC standards]]
+[[Category:Ecma standards]]

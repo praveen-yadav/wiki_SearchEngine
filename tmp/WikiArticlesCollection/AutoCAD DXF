@@ -1,0 +1,87 @@
+{{ref improve|date=October 2012}}
+{{Infobox file format
+| name = Drawing Interchange Format
+| icon =
+| logo =
+| screenshot =
+| caption =
+| extension = .dxf
+| mime =
+| type code =
+| uniform type =
+| magic =
+| owner = [[Autodesk]]
+| released = December 1982
+| latest release version =
+| latest release date =
+| genre = [[CAD data exchange]]
+| container for =
+| contained by =
+| extended from =
+| extended to =
+| standard =
+| url =
+}}
+
+'''AutoCAD DXF''' (Drawing Interchange Format, or Drawing Exchange Format) is a [[Computer-aided design|CAD]] data [[file format]] developed by [[Autodesk]]<ref>[http://www.faqs.org/faqs/graphics/fileformats-faq/part3/section-45.html FAQS.org]</ref> for enabling [[CAD data exchange|data interoperability]] between [[AutoCAD]] and other programs.
+
+DXF was originally introduced in December 1982 as part of AutoCAD 1.0, and was intended to provide an exact representation of the data in the AutoCAD native file format, [[.dwg|DWG]] (Drawing), for which Autodesk for many years did not publish specifications. Because of this, correct imports of DXF files have been difficult. Autodesk now publishes the DXF specifications<ref>{{Citation
+  | title = DXF specifications
+  | url=http://usa.autodesk.com/adsk/servlet/item?siteID=123112&id=12272454&linkID=10809853 }}</ref> on its website for versions of DXF dating from AutoCAD Release 13 to AutoCAD 2014.
+
+Versions of AutoCAD from Release 10 (October 1988) and up support both [[ASCII]] and [[binary file|binary]] forms of DXF.  Earlier versions support only ASCII.
+
+As AutoCAD has become more powerful, supporting more complex object types, DXF has become less useful. Certain object types, including [[ACIS]] solids and regions, are not documented. Other object types, including AutoCAD 2006's dynamic blocks, and all of the objects specific to the [[vertical market]] versions of AutoCAD, are partially documented, but not well enough to allow other developers to support them. For these reasons many CAD applications use the [[.dwg|DWG]] format which can be licensed from [[AutoDesk]] or non-natively from the [[Open Design Alliance]].
+
+== File structure ==
+ASCII versions of DXF can be read with a text-editor. The basic organization of a DXF file is as follows:
+
+*'''HEADER''' section – General information about the drawing. Each parameter has a variable name and an associated value.
+*'''CLASSES''' section – Holds the information for application-defined classes whose instances appear in the BLOCKS, ENTITIES, and OBJECTS sections of the database. Generally does not provide sufficient information to allow interoperability with other programs.
+*'''TABLES''' section – This section contains definitions of named items.
+:Application ID (APPID) table
+:Block Record (BLOCK_RECORD) table
+:Dimension Style (DIMSTYPE) table
+:Layer (LAYER) table
+:Linetype (LTYPE) table
+:Text style (STYLE) table
+:User Coordinate System (UCS) table
+:View (VIEW) table
+:Viewport configuration (VPORT) table
+*'''BLOCKS''' section – This section contains Block Definition entities describing the entities comprising each Block in the drawing.
+*'''ENTITIES''' section – This section contains the drawing entities, including any Block References.
+*'''OBJECTS''' section – Contains the data that apply to nongraphical objects, used by AutoLISP and ObjectARX applications.
+*'''THUMBNAILIMAGE''' section – Contains the preview image for the DXF file.
+*'''END OF FILE'''
+
+The data format of a DXF is called a "tagged data" format which "means that each data element in the file is preceded by an integer number that is called a group code. A group code's value indicates what type of data element follows. This value also indicates the meaning of a data element for a given object (or record) type. Virtually all user-specified information in a drawing file can be represented in DXF format."<ref>"Chapter 1 -- DXF Format" [http://www.autodesk.com/techpubs/autocad/acad2000/dxf/dxf_format.htm Autodesk.com]</ref>
+
+== See also ==
+*[[LibreDWG]]
+*[[.dwg]] (DWG)
+*[[ArcMap]]
+*[[Autodesk]]
+*[[AutoCAD]]
+*[[FreeCAD]]
+*[[CAD]]
+*[[Design Web Format|DWF]]
+*[[LibreCAD]]
+*[[List of EDA companies]]
+*[[OpenDWG]]
+*[[QCad]]
+*[[VoluMill]]
+
+== References ==
+<references/>
+
+== External links ==
+* [http://usa.autodesk.com/adsk/servlet/item?siteID=123112&id=12272454&linkID=10809853 DXF Specifications] – Autodesk documentation on versions of DXF from Release 13 to current.
+* [http://www.fileinfo.com/extension/dxf .DXF File Extension] 
+
+{{Graphics file formats}}
+{{AutoCAD related articles}}
+
+{{DEFAULTSORT:Autocad Dxf}}
+[[Category:AutoCAD|DXF]]
+[[Category:Autodesk]]
+[[Category:CAD file formats|D]]

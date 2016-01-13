@@ -1,0 +1,110 @@
+{{for|a list of character entity references|List of XML and HTML character entity references}}
+{{Hatnote|For fixing links within Wikipedia, see [[Help:Percent-encoding#Fixing links with unsupported characters|Help:Percent-encoding (the section Fixing Links with Unsupported Characters)]].}}
+{{Html series}}
+[[HTML]] (<u>H</u>yper<u>t</u>ext <u>M</u>arkup <u>L</u>anguage) has been in use since 1991, but HTML 4.0 (December 1997) was the first standardized version where international [[character (computing)|character]]s were given reasonably complete treatment. When an HTML document includes special characters outside the range of seven-bit [[ASCII]] two goals are worth considering: the information's [[integrity]], and universal [[Web browser|browser]] display.
+
+==Specifying the document's character encoding==
+There are several ways to specify which character encoding is used in the document. First, the [[web server]] can include the character encoding or "<code>charset</code>" in the [[Hypertext Transfer Protocol]] (HTTP) <code>Content-Type</code> header, which would typically look like this:<ref>{{citation |url=http://tools.ietf.org/html/rfc2616#section-14.17 |chapter=Content-Type |title=Hypertext Transfer Protocol – HTTP/1.1 |first1=R. |last1=Fielding |authorlink1=Roy Fielding |first2=J. |last2=Gettys |authorlink2=Jim Gettys |first3=J. |last3=Mogul |first4=H. |last4=Frystyk |authorlink4=Henrik Frystyk Nielsen |first5=L. |last5=Masinter |first6=P. |last6=Leach |first7=T. |last7=Berners-Lee |authorlink7=Tim Berners-Lee |publisher=[[IETF]] |date=June 1999 |accessdate=8 March 2010}}</ref>
+ Content-Type: text/html; charset=ISO-8859-1
+This method gives the HTTP server a convenient way to alter document's encoding according to [[content negotiation]]; certain HTTP server software can do it, for example Apache with the [[List of Apache modules|module]] mod_charset_lite.<ref>[http://httpd.apache.org/docs/2.0/en/mod/mod_charset_lite.html Apache Module mod_charset_lite]</ref>
+
+For HTML it is possible to include this information inside the <code>head</code> element near the top of the document:<ref name=html5charset/>
+<!-- Please don't add a closing "/": that is incorrect here. -->
+<source lang=html4strict>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</source>
+
+[[HTML5]] also allows the following syntax to mean exactly the same:<ref name=html5charset>{{citation |url=http://www.whatwg.org/html/#charset |chapter=Specifying the document's character encoding |title=HTML5 |first=I. |last=Hickson |authorlink=Ian Hickson |publisher=[[WHATWG]] |date=5 March 2010 |accessdate=8 March 2010}}</ref>
+<!-- Please don't add a closing "/": that is unnecessary here. -->
+<source lang=html4strict>
+<meta charset="utf-8">
+</source>
+
+[[XHTML]] documents have a third option: to express the character encoding via [[XML]] declaration, as follows:<ref>{{citation |url=http://www.w3.org/TR/REC-xml/#sec-prolog-dtd |chapter=Prolog and Document Type Declaration |title=XML |first1=T. |last1=Bray |authorlink1=Tim Bray |first2=J. |last2=Paoli |first3=C. |last3=Sperberg-McQueen |authorlink3=Michael Sperberg-McQueen |first4=E. |last4=Maler |first5=F. |last5=Yergeau |publisher=[[W3C]] |date=26 November 2008 |accessdate=8 March 2010}}</ref>
+<source lang=xml>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+</source>
+
+<tt>&lt;meta http-equiv="Content-Type"&gt;</tt> may be interpreted directly by a browser, like an ordinary HTML tag,{{citation needed|date=October 2011}} or it may be used by the HTTP server to generate corresponding [[header (computing)|headers]] when it serves the document.<ref>[http://www.w3.org/TR/html401/struct/global.html#edef-META The global structure of an HTML document: The META element]</ref> The [[HTTP/1.1]] header specification for a HTML document must label an appropriate encoding in the Content-Type header,<ref>RFC 2616 [http://tools.ietf.org/html/rfc2616#section-3.7.1 3.7.1 Canonicalization and Text Defaults]</ref> missing <tt>charset=</tt> parameter results in acceptance of [[ISO-8859-1]] (so HTTP/1.1 formally does not offer such option as an unspecified character encoding), and this specification supersedes all HTML (or XHTML) meta element ones. This can pose a problem if the server generates an incorrect header and one does not have the access or the knowledge to change them.
+
+As each of these methods explain to the receiver how the file being sent should be interpreted, it would be inappropriate for these declarations not to match the actual character encoding used. Because a server usually{{Citation needed|date=January 2012}} does not know how a document is encoded—especially if documents are created on different platforms or in different regions—many servers{{Citation needed|date=March 2010}} simply do not include a reference to the "<code>charset</code>" in the <code>Content-Type</code> header, thus avoiding making false promises. However, if the document does not specify the encoding either, this may result in the equally bad situation where the [[user agent]] displays [[mojibake]] because it cannot find out which character encoding was used. Due to widespread and persistent ignorance of HTTP <tt>charset=</tt> over the Internet (at its server side), WWW Consortium disappointed in HTTP/1.1’s strict approach<ref>[http://www.w3.org/TR/html4/charset.html#h-5.2.2 HTML 4, HTML Document Representation: Specifying the character encoding]</ref> and encourages browser developers to use some fixes in violation of RFC 2616.
+
+If a user agent reads a document with no character encoding information, it can fall back to using some other information. For example, it can rely on the user's settings, either browser-wide or specific for a given document, or it can pick a default encoding based on the user's language. For Western European languages, it is typical and fairly safe to assume [[Windows-1252]], which is similar to ISO-8859-1 but has printable characters in place of some control codes. The consequence of choosing incorrectly is that characters outside the printable ASCII range (32 to 126) usually appear incorrectly. This presents few problems for [[English language|English]]-speaking users, but other languages regularly—in some cases, always—require characters outside that range. In [[CJK]] environments where there are several different multi-byte encodings in use, auto-detection is also often employed. Finally, browsers usually permit the user to override ''incorrect'' charset label manually as well.
+
+It is increasingly common for multilingual websites and websites in non-Western languages to use [[UTF-8]], which allows use of the same encoding for all languages. [[UTF-16]] or [[UTF-32]], which can be used for all languages as well, are less widely used because they can be harder to handle in programming languages that assume a [[byte-oriented]] ASCII superset encoding, and they are less efficient for text with a high frequency of ASCII characters, which is usually the case for HTML documents.
+
+Successful viewing of a page is not necessarily an indication that its encoding is specified correctly. If the page's creator and reader are both assuming some platform-specific character encoding, and the server does not send any identifying information, then the reader will nonetheless see the page as the creator intended, but other readers on different platforms or with different native languages will not see the page as intended.
+
+==Character references==
+{{Main|Character entity reference|Numeric character reference}}
+{{merge from|HTML decimal character rendering|date=September 2012|discuss=talk: Character encodings in HTML #HTML decimal(sic) character rendering}}
+
+In addition to native character encodings, characters can also be encoded as ''character references'', which can be ''numeric character references'' ([[decimal]] or [[hexadecimal]]) or ''character entity references''. Character entity references are also sometimes referred to as ''named entities'', or ''HTML entities'' for HTML. HTML's usage of character references derives from [[SGML]].
+
+===HTML character references===
+A ''numeric character reference'' in HTML refers to a character by its [[Universal Character Set]]/[[Unicode]] ''code point'', and uses the format
+
+:<code>&#</code>''nnnn''<code>;</code>
+or
+:<code>&#x</code>''hhhh''<code>;</code>
+
+where ''nnnn'' is the code point in [[decimal]] form, and ''hhhh'' is the code point in [[hexadecimal]] form. The ''x'' must be lowercase in XML documents. The ''nnnn'' or ''hhhh'' may be any number of digits and may include leading zeros. The ''hhhh'' may mix uppercase and lowercase, though uppercase is the usual style.
+
+Not all [[web browser]]s or [[email client]]s used by receivers of HTML documents, or [[text editor]]s used by authors of HTML documents, will be able to render all HTML characters. Most modern software is able to display most or all of the characters for the user's language, and will draw a box or other clear indicator for characters they cannot render.
+
+For codes from 0 to 127, the original 7-bit [[ASCII]] standard set, most of these characters can be used without a character reference. Codes from 160 to 255 can all be created using [[List of XML and HTML character entity references|character entity names]]. Only a few higher-numbered codes can be created using entity names, but all can be created by decimal number character reference.
+
+Character entity references can also have the format <code>&amp;''name'';</code> where ''name'' is a case-sensitive alphanumeric string. For example, "λ" can also be encoded as <code>&amp;lambda;</code> in an HTML document. The character entity references <code>&amp;lt;</code>, <code>&amp;gt;</code>, <code>&amp;quot;</code> and <code>&amp;amp;</code> are predefined in HTML and SGML, because <code>&lt;</code>, <code>&gt;</code>, <code>"</code>  and <code>&amp;</code> are already used to delimit markup. This notably does not include XML's <code>&amp;apos;</code> (') entity. For a list of all named HTML character entity references (about 250), see [[List of XML and HTML character entity references]].
+
+Unnecessary use of HTML character references may significantly reduce HTML readability. If the character encoding for a web page is chosen appropriately, then HTML character references are usually only required for markup delimiting characters as mentioned above, and for a few special characters (or none at all if a native [[Unicode]] encoding like [[UTF-8]] is used). Incorrect HTML entity escaping may also open up security vulnerabilities for injection attacks such as [[cross-site scripting]]. If HTML attributes are left unquoted, certain characters, most importantly [[whitespace character|whitespace]], such as space and tab, must be escaped using entities. Other languages related to HTML have their own methods of escaping characters.
+
+===Illegal characters===
+
+HTML forbids<ref>http://www.w3.org/TR/REC-html40/sgml/sgmldecl.html</ref> the use of the characters with [[Universal Character Set]]/[[Unicode]] code points
+
+* 0 to 31, except 9, 10, and 13 (C0 [[control characters]])
+* 127 (DEL character)
+* 128 to 159 (x80 – x9F, C1 [[control characters]])
+* 55296 to 57343 (xD800 – xDFFF, the [[UTF-16]] surrogate halves)
+The Unicode standard also forbids:
+* 65534 and 65535 (xFFFE – xFFFF), non-characters, related to xFEFF, the [[byte order mark]].
+
+These characters are ''not even allowed by reference''. That is, you should not even write them as [[numeric character reference]]s. However, references to characters 128–159 are commonly interpreted by lenient web browsers as if they were references to the characters assigned to ''bytes'' 128–159 (decimal) in the [[Windows-1252]] character encoding. This is in violation of HTML and SGML standards, and the characters are already assigned to higher code points, so HTML document authors should always use the higher code points. For example, for the trademark sign (™), use <code>&amp;#8482;</code>, not <code>&amp;#153;</code>.
+
+The characters 9 (tab), 10 (linefeed), and 13 (carriage return) are allowed in HTML documents, but, along with 32 (space) are all considered "[[whitespace (computer science)|whitespace]]".<ref>http://www.w3.org/TR/REC-html40/struct/text.html#h-9.1</ref> The "form feed" control character, which would be at 12, is not allowed in HTML documents, but is also mentioned as being one of the "white space" characters – perhaps an oversight in the specifications. In HTML, most consecutive occurrences of white space characters, except in a <code>&lt;pre&gt;</code> block, are interpreted as comprising a single "word separator" for rendering purposes. A word separator is typically rendered a single en-width space in European languages, but not in all the others.
+
+===XML character references===
+Unlike traditional HTML with its large range of character entity references, in [[XML]] there are only five predefined character entity references. These are used to escape characters that are markup sensitive in certain contexts:<ref>{{citation |url=http://www.w3.org/TR/REC-xml/#sec-references |chapter=Character and Entity References |title=XML |first1=T. |last1=Bray |authorlink1=Tim Bray |first2=J. |last2=Paoli |first3=C. |last3=Sperberg-McQueen |authorlink3=Michael Sperberg-McQueen |first4=E. |last4=Maler |first5=F. |last5=Yergeau |publisher=[[W3C]] |date=26 November 2008 |accessdate=8 March 2010}}</ref>
+
+*<code>&amp;amp;</code>  → & ([[ampersand]], U+0026)
+*<code>&amp;lt;</code>   → < (less-than sign, U+003C)
+*<code>&amp;gt;</code>   → > (greater-than sign, U+003E)
+*<code>&amp;quot;</code> → " (quotation mark, U+0022)
+*<code>&amp;apos;</code> → ' (apostrophe, U+0027)
+
+All other character entity references have to be defined before they can be used. For example, use of <code>&amp;eacute;</code> (which gives é, Latin lower-case E with acute accent, U+00E9 in Unicode) in an XML document will generate an error unless the entity has already been defined. XML also requires that the <code>x</code> in hexadecimal numeric references be in lowercase: for example <code>&amp;#xA1b</code> rather than <code>&amp;#XA1b</code>. [[XHTML]], which is an XML application, supports the HTML entity set, along with XML's predefined entities.
+
+However, use of <code>&amp;apos;</code> in XHTML should generally be avoided for compatibility reasons. <code>&amp;#39;</code> or <code>&amp;#x0027;</code> may be used instead.
+
+<code>&amp;amp;</code> has the special problem that it starts with the character to be escaped. A simple Internet search finds millions of sequences <code>&amp;amp;amp;amp;amp; ...</code> in HTML pages for which the algorithm to replace an ampersand by the corresponding character entity reference was probably applied repeatedly{{citation | url=http://www.google.co.uk/search?q=%22%26amp%3Bamp%3Bamp%3Bamp%3B%22}}.
+
+== See also ==
+* [[Charset sniffing]] – used by many browsers when character encoding metadata is not available
+* [[Unicode and HTML]]
+* [[Language code]]
+* [[List of XML and HTML character entity references]]
+
+== References ==
+{{Reflist}}
+
+== External links ==
+* [http://www.w3.org/TR/REC-html40/sgml/entities.html Character entity references in HTML4]
+* [http://www.sitepoint.com/article/guide-web-character-encoding/ The Definitive Guide to Web Character Encoding]
+* [http://html-codes.net/html/url-encode/ Online HTML special characters encoder]
+* [http://code.google.com/p/browsersec/wiki/Part1#HTML_entity_encoding HTML Entity Encoding chapter of Browser Security Handbook - more information about current browsers and their entity handling]
+* [http://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet The Open Web Application Security Project's wiki article on cross-site scripting (XSS)]
+{{Use dmy dates|date=August 2011}}
+
+{{DEFAULTSORT:Character Encodings In Html}}
+[[Category:HTML]]
+[[Category:World Wide Web Consortium standards]]

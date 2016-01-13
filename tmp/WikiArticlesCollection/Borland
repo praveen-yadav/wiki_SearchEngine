@@ -1,0 +1,203 @@
+{{Other uses}}
+
+{{Infobox company
+| name   = Borland Software Corporation
+| logo   = [[Image:Borland logo.svg|150px]]
+| type   = [[Subsidiary]]
+| company_slogan = The Open ALM Company
+| foundation     = [[California]] ({{Start date|1983}})
+| fate           =
+| parent         = [[Micro Focus]]
+| defunct        =
+| location       = [[Austin, Texas]]
+| key_people     = Erik Prusch – Acting CEO,<br />Niels Jensen,<br />Ole Henriksen,<br />Mogens Glad,<br />[[Philippe Kahn]] – Founders
+| num_employees  = approximately 1,100<ref>As of January 31, 2008, [http://finance.google.com/finance?q=BORL Google Finance] reports 1,168 employees, and [http://finance.yahoo.com/q/pr?s=BORL Yahoo Finance] reports 1,097.</ref>
+| industry       = [[Computer software]]
+| products       =  [[SilkTest|Borland SilkTest]], [[StarTeam|Borland StarTeam]], [[Borland Together]], Others
+| revenue        = {{loss}}$172 million [[United States dollar|USD]] (2008)<ref>{{cite web |url=http://zenobank.com/index.php?symbol=BORL&page=quotesearch |title=Company Profile for Borland Software Corp (BORL) |accessdate=2009-08-07}}</ref>
+| homepage       = {{URL |borland.com}}
+}}
+'''Borland Software Corporation''' is a [[Computer software|software]] company that facilitates [[software deployment]] projects.  Borland was first headquartered in [[Scotts Valley, California]], then in [[Cupertino, California]], and finally in [[Austin, Texas]].<ref name="austinhq">{{cite pressrelease|url=http://www.borland.com/us/company/news/press_releases/2007/04_16_07_borland_to_relocate_corporate_headquarters.html|date=April 16, 2007|publisher=Borland|title=Borland to Relocate Corporate Headquarters to Austin}}</ref> It is now a [[Micro Focus]] subsidiary. It was founded in 1983 by Niels Jensen, Ole Henriksen, Mogens Glad and [[Philippe Kahn]].
+
+==History==
+{{tone|section|date=March 2013}}
+
+===The 1980s: Foundations===
+Three Danish citizens, Niels Jensen, Ole Henriksen, and Mogens Glad, founded Borland Ltd. in August 1981 to develop products like Word Index for the [[CP/M]] operating system using an [[off-the-shelf company]]. However, response to the company's products at the CP/M-82 show in San Francisco showed that a U.S. company would be needed to reach the American market. They met [[Philippe Kahn]], who had just moved to Silicon Valley, and who had been a key developer of the [[Micral]]. The three Danes had embarked, at first successfully, on marketing software first from Denmark, and later from Ireland, before running into some challenges at the time when they met Philippe Kahn. The partnership seems to have benefited all involved.{{Citation needed|date=April 2010}} Philippe Kahn was at all times Chairman, President, and CEO of Borland Inc. from its inception in 1983 until he left in 1995. Main shareholders at the incorporation of Borland were Niels Jensen (250,000 shares), Ole Henriksen (160,000), Mogens Glad (100,000), and Philippe Kahn (80,000).{{Citation needed|date=April 2010}}
+
+Borland developed a series of well-regarded software development tools. Its first product was [[Turbo Pascal]] in 1983, developed by [[Anders Hejlsberg]] (who later developed .NET and C# for Microsoft) and before Borland acquired the product sold in Scandinavia under the name of Compas Pascal. 1984 saw the launch of Sidekick, a time organization, notebook, and calculator utility, notable for being a [[Terminate and Stay Resident]] (TSR) program.
+
+By 1985 the company had become so successful that it had the third-largest exhibit at the 1985 [[West Coast Computer Faire]] other than IBM or AT&T.<ref name="pournelle198508">{{cite news | url=https://archive.org/stream/byte-magazine-1985-08/1985_08_BYTE_10-08_Declarative_Languages#page/n299/mode/2up | title=The West Coast Computer Faire | work=BYTE | date=1985-08 | accessdate=27 October 2013 | author=Pournelle, Jerry | pages=293}}</ref> After Turbo Pascal and Sidekick it successfully launched other applications such as SuperKey and Lightning, all developed in Denmark. While the Danes remained majority shareholders, board members included Philippe Kahn, Tim Berry, John Nash, and David Heller. With the assistance of John Nash and David Heller, both British members of the Borland Board, the company was taken public on London's Unlisted Securities Market (USM) in 1986. [[Schroders]] was the lead investment banker. According to the London IPO filings, the management team was Philippe Kahn as President, Spencer Ozawa as VP of Operations, Marie Bourget as CFO, and Spencer Leyton as VP of business development, while all software development was continuing to take place in Denmark and later London as the Danish co-founders moved there. A first US IPO followed in 1989 after Ben Rosen joined the Borland board with [[Goldman Sachs]] as the lead banker and a second offering in 1991 with Lazard as the lead banker. All offerings were very successful and over-subscribed.
+
+In 1985 Borland acquired Analytica and its Reflex database product. The engineering team of Analytica, managed by [[Brad Silverberg]] and including Reflex co-founder [[Adam Bosworth]], became the core of Borland's engineering team in the USA. Brad Silverberg was VP of engineering until he left in early 1990 to head up the Personal Systems division at [[Microsoft]]. Adam Bosworth initiated and headed up the [[Quattro Pro|Quattro]] project until moving to Microsoft later in 1990 to take over the project which eventually became [[Microsoft Access|Access]].
+
+In 1987 Borland purchased Wizard Systems and incorporated portions of the Wizard C technology into [[Turbo C]]. Bob Jervis, the author of Wizard C became a Borland employee. Turbo C was released on May 18, 1987, and an estimated 100,000 copies were shipped in the first month of its release. This apparently drove a wedge between Borland and Niels Jensen and the other members of his team who had been working on a brand new series of compilers at their London development centre. An agreement was reached and they spun off a company called Jensen & Partners International(JPI), later [[TopSpeed]]. JPI first launched a MS-DOS compiler named JPI Modula-2, that later became TopSpeed Modula-2, and followed up with TopSpeed C, TopSpeed C++ and TopSpeed Pascal compilers for both the MS-DOS and OS/2 operating systems. The TopSpeed compiler technology exists today as the underlying technology of the [[Clarion (programming language)|Clarion]] 4GL programming language, a Windows development tool.
+
+In September 1987 Borland purchased Ansa-Software, including their [[Borland Paradox|Paradox]] (version 2.0) [[database]] management tool. Richard Schwartz, CEO of Ansa, became Borland's CTO and Ben Rosen joined the Borland board.
+
+The [[Quattro Pro]] spreadsheet was launched in 1989 with, at the time, a notable improvement and charting capabilities. Lotus Development, under the leadership of [[Jim Manzi]] sued Borland for copyright infringement (see "[[look and feel]]"). The litigation, ''[[Lotus Dev. Corp. v. Borland Int'l, Inc.]]'',<ref name=LotusVBorland>{{cite web |url=http://scholar.google.com/scholar_case?case=18208011207990458376&hl=en&as_sdt=2&as_vis=1&oi=scholarr |title=Lotus Dev. Corp. v. Borland Int'l, Inc., 516 U.S. 233|accessdate=April 24, 2012}}</ref> brought forward Borland's open standards position as opposed to Lotus' closed approach. Borland, under Kahn's leadership took a position of principle and announced that they would defend against Lotus' legal position and "fight for programmer's rights".{{Citation needed|date=February 2007}}  After a decision in favor of Borland by the [[First Circuit Court of Appeals]], the case went to the United States Supreme Court.  Because Justice [[John Paul Stevens]] had recused himself, only eight Justices heard the case, and it ended in a 4–4 tie.<ref name=LotusVBorland/> As a result, the First Circuit decision remained standing, but the Supreme Court result, being a tie, did not bind any other court and set no national precedent.<ref>{{cite journal |last1=Black |first1=Ryan |last2=Epstein |first2=Lee |title=Recusal and the "Problem" of an Equally Divided Supreme Court |journal=Journal of Appellate Practice and Process |date=Spring 2005 |volume=7 |issue=1 |pages=75–99, 81 |url=http://epstein.usc.edu/research/recusal.html |accessdate=April 12, 2012}}</ref>
+
+Additionally, Borland was known for its practical and creative approach towards [[Copyright infringement of software|software piracy]] and [[intellectual property]] (IP), introducing its "Borland no-nonsense license agreement". This allowed the developer/user to utilize its products "just like a book"; he or she was allowed to make multiple copies of a program, as long as only one copy was in use at any point in time.
+
+===The 1990s: Rise and change===
+In September 1991 Borland purchased [[Ashton-Tate]], bringing the [[dBase]] and [[InterBase]] databases to the house, in an all stock transaction. Competition with Microsoft was fierce. [[Microsoft]] launched the competing database [[Microsoft Access]] and bought the dBase clone [[FoxPro]] in 1992, undercutting Borland's prices. During the early 1990s Borland's implementation of [[C (programming language)|C]] and [[C++]] outsold Microsoft's. Borland survived as a company, but no longer had the dominance in software tools that it once had. It has gone through a radical transition in products, financing, and staff, now a very different company from the one which challenged Microsoft and Lotus in the early 1990s.
+
+The internal problems that arose with the Ashton-Tate merger were a large part of the fall. Ashton-Tate's product portfolio proved to be weak, with no provision for evolution into the GUI environment of Windows. Almost all product lines were discontinued. The consolidation of duplicate support and development offices was costly and disruptive. Worst of all, the highest revenue earner of the combined company was dBASE with no Windows version ready.<ref>[http://www.compuvision.info/delayed-graphical-products-put-dent-in-borlands-image.html Delayed Graphical Products Put Dent in Borland’s Image], PC Week, April 20, 1992</ref> Borland had had an internal project to clone dBASE which was intended to run on Windows and was part of the strategy of the acquisition, but by late 1992 this was abandoned due to technical flaws and the company had to constitute a replacement team (the [[ObjectVision]] team, redeployed) headed by [[Bill Turpin]] to redo the job. Borland lacked the financial strength to project its marketing and move internal resources off other products to shore up the dBASE/W effort. Layoffs occurred in 1993 to keep the company afloat, the third instance of this in five years. By the time dBASE for Windows eventually shipped, the developer community had moved on to other products such as Clipper or FoxBase and dBASE never regained significant share of Ashton-Tate's former market. This happened against the backdrop of the rise in Microsoft's combined Office product marketing.{{Citation needed|date=February 2007}}
+
+A change in market conditions also contributed to Borland's fall from prominence. In the 1980s, companies had few people who understood the growing personal computer phenomenon, and so most technical people were given free rein to purchase whatever software they thought they needed. Borland had done an excellent job marketing to those with a highly technical bent. By the mid-1990s, however, companies were beginning to ask what the return was on the investment they had made in this loosely controlled PC software buying spree. Company executives were starting to ask questions that were hard for technically minded staff to answer, and so corporate standards began to be created. This required new kinds of marketing and support materials from software vendors, but Borland remained focused on the technical side of its products.
+
+During 1993 Borland explored ties with [[WordPerfect]] as a possible way to form a suite of programs to rival Microsoft's nascent integration strategy. WordPerfect itself was struggling with a late and troubled transition to Windows. The eventual joint company effort, named Borland Office for Windows (a combination of the WordPerfect word processor, Quattro Pro spreadsheet and Paradox database) was introduced at the 1993 Comdex computer show. Borland Office never made significant in-roads against Microsoft Office. WordPerfect was then bought by Novell. In October 1994, Borland sold Quattro Pro and rights to sell up to million copies of Paradox to [[Novell]] for $140 million in cash, repositioning the company on its core software development tools and the Interbase database engine and shifting toward client-server scenarios in corporate applications. This later proved a good foundation for the shift to web development tools.
+
+[[Philippe Kahn]] and the Borland board came to a disagreement on how to focus the company, and Philippe Kahn resigned as Chairman, CEO and President of Borland, a position he had held for 12 years, in January 1995. However, the parting was amicable as Kahn remained on the Borland board until November 7, 1996, when he resigned from that position.<ref name="KahnBoard">{{cite press release
+ |publisher=Borland
+ |date=1996-11-07
+ |url=http://web.archive.org/web/20010618010852/http://www.borland.com/about/press/1996/pkresign.html
+ |title=Kahn Resigns as Borland Director – Cites Increasing Demands of New Business
+ |accessdate=2006-04-21
+}}</ref> Borland named [[Gary Wetsel]] as CEO, but he resigned in July 1996. [[William F. Miller]] was interim CEO until September of that year, when [[Whitney G. Lynn]] became interim president and CEO and then continued to have a succession of CEOs including [[Dale Fuller]] and [[Tod Nielsen]].
+
+The [[Borland Delphi|Delphi 1]] [[rapid application development]] (RAD) environment was launched in 1995, under the leadership of [[Anders Hejlsberg]].
+
+In 1996 Borland acquired Open Environment Corp (OEC),<ref>[http://www.highbeam.com/doc/1G1-18275531.html Borland to Acquire Open Environment Corporation] ''Business Wire'', May 13, 1996</ref> a Cambridge based company founded by [[John J. Donovan]].<ref>[http://www.secinfo.com/dsVQy.93Hk.c.htm Acquisition Press Release] ''SEC'', May 13, 1996</ref>
+
+===The Inprise years, and name changes===
+On November 25, 1996, [[Del Yocam]] was hired as Borland CEO and Chairman.
+
+In 1997, Borland sold [[Paradox (database)|Paradox]] to [[Corel]], but – importantly – retained all development rights for the core [[BDE]].  In November 1997, Borland acquired [[Visigenic]], a middleware company that was focused on implementations of [[CORBA]].
+
+On April 29, 1998, Borland refocused its efforts on targeting enterprise applications development. Borland hired marketing firm [[Lexicon Branding]] to come up with a new name for the company. Borland CEO [[Del Yocam]] explained at the time that the new name, Inprise, was meant to evoke "integrating the enterprise".<ref>{{cite news |title=Borland sheds past with new name, game |first=Jamie |last=Beckett |newspaper=[[San Francisco Chronicle]] |date=30 Apr 1998}}</ref> The idea was to integrate Borland's tools, [[Borland Delphi|Delphi]], [[C++ Builder]], and [[JBuilder]] with enterprise environment software, including Visigenic's implementations of CORBA, [[Visibroker]] for C++ and Java, and the new emerging product, [[Application Server]].
+
+For a number of years (both before and during the Inprise name) Borland suffered from serious financial losses and very poor public image. When the name was changed to Inprise, many thought Borland had gone out of business.
+In March 1999, dBase was sold to KSoft, Inc. which was soon renamed to dBASE Inc. (In 2004 dBASE Inc. was renamed to dataBased Intelligence, Inc.).
+
+In 1999, in the middle of Borland's identity crisis, Dale L. Fuller replaced Yocam. At this time Fuller's title was "interim president and CEO." The "interim" was dropped in December 2000.  [[Keith Gottfried]] served in senior executive positions with the company from 2000 to 2004.
+
+A proposed merger between Inprise and Corel was announced in February 2000, aimed at producing [[Linux]] based products. The scheme was abandoned when Corel's shares fell and it became clear that there was really no strategic fit.
+
+[[InterBase|InterBase 6.0]] was made available as an [[open source]] product in July 2000.
+
+===Later Borland years===
+In January 2001, the Inprise name was abandoned and the company became "Borland" once more.
+
+Under the Borland name and a new management team headed by President and CEO Dale L. Fuller, a now-smaller and profitable Borland refocused on Delphi, and created a version of Delphi and C++ Builder for Linux, both under the name [[Kylix programming tool|Kylix]]. This brought Borland's expertise in [[Integrated Development Environment]]s to the Linux platform for the first time. Kylix was launched in 2001.
+
+Plans to spin off the [[InterBase]] division as a separate company were abandoned after Borland and the people who were to run the new company could not agree on terms for the separation. Borland stopped open source releases of InterBase and has developed and sold new versions at a fast pace.
+
+Delphi 6 became the first Integrated Development Environment to support web services. All of the company's development platforms now support web services.
+
+[[CSharpBuilder|C#Builder]] was released in 2003 as a native [[C Sharp (programming language)|C#]] development tool, competing with [[Visual Studio .NET]]. As of the 2005 release, C#Builder, Delphi for Win32, and Delphi for .NET have been combined into a single IDE called "Borland Developer Studio" (though the combined IDE is still popularly known as "Delphi"). In late 2002 Borland purchased design tool vendor TogetherSoft and tool publisher [[Starbase Corporation|Starbase]], makers of the [[StarTeam]] configuration management tool and the [[CaliberRM]] requirements management tool. The latest releases of [[JBuilder]] and Delphi integrate these tools to give developers a broader set of tools for development.
+
+Former CEO Dale Fuller quit in July 2005,<ref>http://www.forbes.com/2005/07/08/0708autofacescan02.html</ref> but remained on the board of directors. Former COO Scott Arnold took the title of interim president and chief executive officer until November 8, 2005, when it was announced that [[Tod Nielsen]] would take over as CEO effective November 9, 2005.  Nielsen remained with the company until January 2009, when he accepted the position of [[Chief Operating Officer]] at [[VMware]];<ref name=cnetnews20090106>[http://news.cnet.com/8301-10787_3-10133309-60.html ''VMware hires away Borland CEO''], CNet News, January 6, 2008</ref>  CFO Erik Prusch then took over as Acting President and CEO.<ref name=cnetnews20090106/>
+
+In October 2005, Borland acquired Legadero, in order to add its IT Management and Governance (ITM&G) suite, called Tempo, to the Borland product line.
+
+On February 8, 2006, Borland announced the divestiture of their [[Integrated development environment|IDE]] division, including [[Borland Delphi|Delphi]], [[JBuilder]], and [[InterBase]]. At the same time they announced the planned acquisition of [[Segue Software]], a maker of software test and quality tools, in order to concentrate on Application Lifecycle Management (ALM). The new spinoff is called [[CodeGear]].
+
+On March 20, 2006, Borland announced its acquisition of Gauntlet Systems, a provider of technology that screens software under development for quality and security.
+
+On November 14, 2006, Borland announced its decision to separate the Developer Tools Group into a wholly owned subsidiary focused on maximizing developer productivity. The newly formed operation, CodeGear, will be responsible for advancing the four primary product lines formerly associated with Borland's Integrated Development Environment (IDE) business.
+
+In early 2007 Borland rolled out a new company tagline, branding and go to market focus around Open Application Lifecycle Management (ALM) – defining it as the segment of the ALM market in which vendors' solutions are flexible enough to support a customer's specific processes, tools and platforms.
+
+In April 2007, Borland announced that it would be relocating its headquarters and R&D facilities to [[Austin, Texas]].<ref name="austinhq" /> It also has development centers at [[Singapore]], [[Santa Ana, California]], and [[Linz]], Austria.
+
+On May 7, 2008, Borland announced the sale of CodeGear division to [[Embarcadero Technologies]] for an expected $23 million price and $7 million in CodeGear accounts receivables retained by Borland.
+
+On May 6, 2009, the company announced it was to be acquired by [[Micro Focus]] for $75 million.<ref name="foxbusiness.com">[http://www.foxbusiness.com/story/markets/industries/technology/borland-bought-micro-focus--mln/ Foxbusiness.com]</ref>  The transaction was approved by Borland shareholders on July 22, 2009, with Micro Focus acquiring the company for $1.50/share.<ref name="shareholderapproval">{{cite pressrelease|url=http://www.businesswire.com/portal/site/home/permalink/?ndmViewId=news_view&newsId=20090722006307&newsLang=en|date=July 22, 2009|publisher=BusinessWire|title=Borland Announces Stockholder Approval of Micro Focus Merger Agreement}}</ref>  Following Micro Focus shareholder approval and the required corporate filings, the transaction was completed in late July 2009.<ref>[http://microfocus.com/Solutions/TestingASQ/WelcomeBorlandCustomers/PressRelease.asp ''Micro Focus International plc completes acquisition of Borland Software Corporation''] Micro Focus press release, undated, retrieved July 27, 2009</ref> The ''San Jose Mercury News'' reported that, "Philippe Kahn, who founded the company in 1983 and headed it until 1994, called the deal a 'great fit and synergism for both companies and excellent outcome for employees, customers and shareholders.'"<ref name=MercuryNews>[http://www.mercurynews.com/centralcoast/ci_12309355 ''Borland bought by Micro Focus for $75M''], ''San Jose Mercury News'', May 6, 2009</ref>
+
+== Products ==
+{{prose|section|date=March 2013}}
+
+Borland's current product line includes:
+
+* [[Borland AppServer]]
+* [[Borland Caliber DefineIT]]
+* [[Borland CaliberRM]]
+* [[Borland Enterprise Server]]
+* [[Borland Enterprise Studio]], for C++, Mobile and Java
+* [[Borland Gauntlet]]
+* [[Silk Central]]
+* [[Silk Performer]]
+* [[SilkTest]]
+* [[Silk mobile]]
+* [[StarTeam]]
+* [[Borland Tempo]]
+* [[Borland Together|Borland Together for Eclipse]]
+* [[Visibroker]]
+
+Old software, no longer actively sold by Borland, includes:
+
+* [[Borland C++]]
+* [[Borland Delphi]]
+* [[Brief (text editor)]]
+* [[C++Builder]]
+* [[C++BuilderX]]
+* [[CSharpBuilder|C#Builder]]
+* [[CodeWright]]
+* [[Entera]] (Acquired from OEC)
+* [[IntraBuilder]]
+* [[JBuilder]]
+* [[Kylix programming tool|Kylix]]
+* [[ObjectVision]]
+* [[Turbo Assembler]]
+* [[Turbo BASIC]] (now [[PowerBASIC]])
+* [[Turbo C]]
+* [[Turbo C++]]
+* [[Turbo Debugger]]
+* [[Turbo Delphi]]
+* [[Turbo Modula-2]]
+* [[Turbo Pascal]]
+* [[Turbo Pascal Database Toolbox]]
+* [[Turbo Pascal Editor Toolbox]]
+* [[Turbo Pascal Graphix Toolbox]]
+* [[Turbo Pascal Numerical Methods Toolbox]]
+* [[Turbo Pascal Tutor]]
+* [[Turbo Profiler]]
+* [[Turbo Prolog]] (now [[Visual Prolog]])
+* [[DBASE|dBase]]
+* [[InterBase]]
+* [[Borland Paradox]]
+* [[Borland Sidekick|Sidekick]]
+* [[Sidekick Plus]]
+* [[SuperKey]]
+* [[Turbo Lightning]] ([[Terminate and Stay Resident|TSR]] spell checker)
+* [[Borland Eureka the Solver]]
+* [[Borland Reflex]]
+* [[Quattro Pro|Quattro]]
+* [[Quattro Pro]]
+* [[Sprint (word processor)|Sprint]]
+* [[Turbo GameWorks]] (Turbo Pascal Source and Executables for Bridge, Go-Moku, and Chess)
+* [[Word Wizard]] (Requires Turbo Lightning)
+
+==See also==
+* [[List of file formats (alphabetical)]]
+* [[Lotus Dev. Corp. v. Borland Int'l, Inc.]]
+
+== Notes ==
+
+{{reflist|30em}}
+
+== References ==
+
+{{refbegin|colwidth = 30em}}
+* {{ cite news | last = Maney | first = Kevin | url = http://www.usatoday.com/tech/columnist/kevinmaney/2007-01-23-kahn-cellphone-camera_x.htm | title = Baby's arrival inspires birth of cellphone camera – and societal evolution | publisher = USA Today | date = 2007-01-23 | accessdate = 2007-12-25 }}
+* {{ cite web | url = http://bdn1.borland.com/article/0,1410,10195,0.html | work = Borland – A Little History of the Name | title = Inprise Corporation – Integrating the Enterprise | author = David Intersimone }}
+* {{ cite news | first = Michelle | last = Jeffers | url = http://www.forbes.com/asap/2000/1127/103.html | title = Getting Chance To Dance | work = Forbes | accessdate = 2006-04-21 | date = November 27, 2000 }}
+* {{ cite news | last = Kellner | first = Tomas | title = Survivor | work = [[Fortune (magazine)|Fortune]] | url = http://www.forbes.com/forbes/2001/0709/128.html | accessdate = August 30, 2005 | date = September 7, 2001 }}
+* {{ cite news | first = Michael | last = Krey | url = http://www.lightsurf.com/news/articles/ibd070502.html | title = Borland Founder Kahn Focuses On Sending Photos Over Cell Phones | work = Investor's Business Daily | accessdate = 2006-04-21 }}
+* {{ cite web | last = Parks | first = Bob | month = October | year = 2000 | url = http://www.wired.com/wired/archive/8.10/kahn.html | title = Wired Magazine, The Big Picture – Borland International Inc.'s Philippe Kahn | accessdate = April 20, 2006 }}
+* {{ cite web | publisher = eWeek | last = Taft | first = Darryl | month = November | year = 2006 | url = http://www.eweek.com/article2/0,1895,2059084,00.asp | title = Borland Launches CodeGear to Supply Developers with Tools of the Trade | accessdate = November 14, 2006 }}
+* {{ cite web | url = http://dn.codegear.com/article/0,1410,20283,00.html | work = Borland History | title = Will The Real Frank Borland Please Stand Up? | author = David Intersimone }}
+{{refend}}
+
+== External links ==
+* {{Official website|http://www.borland.com/}}
+* Micro Focus [http://www.microfocus.com/ official site]
+* Borland Software Corporation, U.S. Securities and Exchange Commission [http://www.sec.gov/Archives/edgar/data/853273/000095012309026327/d68533e8vk.htm Form 8-K filing], July 27, 2009 (formally notifying SEC of the Change of Control under which Borland became a Micro Focus subsidiary)
+
+[[Category:Borland| ]]
+[[Category:Companies based in Austin, Texas]]
+[[Category:Companies established in 1983]]
+[[Category:Computer companies of the United States]]
+[[Category:Development software companies]]
+[[Category:1983 establishments in California]]

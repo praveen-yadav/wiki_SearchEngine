@@ -1,0 +1,76 @@
+[[File:Center of Dihedral group of order 8 subgroup of S4.svg|thumb|[[Cayley table]] of [[Dihedral group of order 8|Dih<sub>4</sub>]]<br>The center is {0,7}: The row starting with 7 is the [[transpose]] of the column starting with 7. The entries 7 are symmetric to the main diagonal. (Only for the neutral element this is granted in all groups.)]]
+In [[abstract algebra]], the '''center''' of a [[group (mathematics)|group]] ''G'', denoted ''Z''(''G''),<ref group="note">The notation ''Z'' is from German ''[[wikt:Zentrum|Zentrum]],'' meaning "center".</ref> is the [[set (mathematics)|set]] of elements that [[Commutative|commute]] with every element of ''G''.  In [[set-builder notation]],
+
+:<math>Z(G) = \{z \in G \mid \forall g\in G, zg = gz \}</math>.
+
+The center is a [[subgroup]] of ''G'', which by definition is [[abelian group|abelian]] (that is commutative).  As a subgroup, it is always [[normal subgroup|normal]], and indeed [[characteristic subgroup|characteristic]], but it need not be [[fully characteristic subgroup|fully characteristic]].  The [[quotient group]] ''G''&nbsp;/&nbsp;''Z''(''G'') is [[group isomorphism|isomorphic]] to the group of [[inner automorphism]]s of ''G''.
+
+A group ''G'' is abelian if and only if ''Z''(''G'')&nbsp;=&nbsp;''G''.  At the other extreme, a group is said to be '''centerless''' if ''Z''(''G'') is trivial, i.e. consists only of the [[identity element]].
+
+The elements of the center are sometimes called '''central'''.
+
+==As a subgroup==
+The center of ''G'' is always a [[subgroup]] of ''G''.  In particular:
+#''Z''(''G'') contains ''e'', the [[identity element]] of ''G'', because ''eg'' = ''g'' = ''ge'' for all ''g'' ∈ G by definition of ''e'', so by definition of ''Z''(''G''), ''e'' ∈ ''Z''(''G'');
+#If ''x'' and ''y'' are in ''Z''(''G''), then (''xy'')''g'' = ''x''(''yg'') = ''x''(''gy'') = (''xg'')''y'' = (''gx'')''y'' = ''g''(''xy'') for each ''g'' ∈ ''G'', and so ''xy'' is in ''Z''(''G'') as well (i.e., ''Z''(''G'') exhibits closure);
+#If ''x'' is in ''Z''(''G''), then ''gx'' = ''xg'', and multiplying twice, once on the left and once on the right, by ''x''<sup>−1</sup>, gives ''x''<sup>−1</sup>''g'' = ''gx''<sup>−1</sup> — so ''x''<sup>−1</sup> ∈ ''Z''(''G'').
+Furthermore the center of ''G'' is always a [[normal subgroup]] of ''G'', as it is closed under [[Conjugate closure|conjugation]].
+
+==Conjugacy classes and centralisers==
+By definition, the center is the set of elements for which the [[conjugacy class]] of each element is the element itself, i.e. ccl(g) = {g}.
+
+The center is also the [[intersection (set theory)|intersection]] of all the [[Centralizer and normalizer|centralizers]] of each element of G. As centralizers are subgroups, this again shows that the center is a subgroup.
+
+==Conjugation==
+Consider the map ''f'': ''G'' → Aut(''G'') from ''G'' to the [[automorphism group]] of ''G'' defined by ''f''(''g'') = ϕ<sub>''g''</sub>, where ϕ<sub>''g''</sub> is the automorphism of ''G'' defined by 
+:<math>\phi_g(h) = ghg^{-1} \,</math>.
+The function ''f'' is a [[group homomorphism]], and its [[kernel (algebra)|kernel]] is precisely the center of ''G'', and its image is called the [[inner automorphism group]] of ''G'', denoted Inn(''G''). By the [[first isomorphism theorem]] we get
+:<math>G/Z(G)\cong \rm{Inn}(G).</math>
+The [[cokernel]] of this map is the group <math>\operatorname{Out}(G)</math> of [[outer automorphism]]s, and these form the [[exact sequence]]
+:<math>1 \to Z(G) \to G \to \operatorname{Aut}(G) \to \operatorname{Out}(G) \to 1.</math>
+
+==Examples==
+* The center of an [[abelian group]] ''G'' is all of ''G''.
+* The center of the [[Heisenberg group]] ''G'' are all matrices of the form :<math>\begin{pmatrix}
+ 1 & 0 & z\\
+ 0 & 1 & 0\\
+ 0 & 0 & 1\\
+\end{pmatrix}</math>
+* The center of a [[Nonabelian group|nonabelian]] [[simple group]] is trivial.
+* The center of the [[dihedral group]] D<sub>''n''</sub> is trivial when ''n'' is odd.  When ''n'' is even, the center consists of the identity element together with the 180° rotation of the [[polygon]].
+* The center of the [[quaternion group]] <math>Q_8 = \{1, -1, i, -i, j, -j, k, -k\}</math> is <math>\{1, -1\}</math>.
+* The center of the [[symmetric group]] ''S''<sub>''n''</sub> is trivial for ''n''&nbsp;≥&nbsp;3.
+* The center of the [[alternating group]] ''A''<sub>''n''</sub> is trivial for ''n''&nbsp;≥&nbsp;4.
+* The center of the [[general linear group]] <math>\mbox{GL}_n(F)</math> is the collection of [[Diagonal matrix|scalar matrices]] <math>\{ sI_n | s \in F\setminus\{0\} \}</math>.
+* The center of the [[orthogonal group]] <math>O(n, F)</math> is <math>\{ I_n,-I_n \}</math>.
+* The center of the multiplicative group of non-zero [[quaternion]]s is the multiplicative group of non-zero real numbers.
+* Using the [[class equation]] one can prove that the center of any non-trivial [[finite group|finite]] [[p-group]] is non-trivial.
+* If the [[quotient group]] <math>G/Z(G)</math> is [[cyclic group|cyclic]], G is [[abelian group|abelian]] (and so G = Z(G), and <math>G/Z(G)</math> is trivial).
+* The [[quotient group]] <math>G/Z(G)</math> is not isomorphic to the [[quaternion group]] <math>Q_8</math>.
+
+==Higher centers==
+Quotienting out by the center of a group yields a sequence of groups called the '''[[upper central series]]''':
+:<math>G_0 = G \to G_1 = G_0/Z(G_0) \to G_2 = G_1/Z(G_1) \to \cdots</math>
+The kernel of the map <math>G \to G_i</math> is the '''''i''th center''' of ''G'' ('''second center''', '''third center''', etc.), and is denoted <math>Z^i(G).</math> Concretely, the <math>(i+1)</math>-st center are the terms that commute with all elements up to an element of the ''i''th center. Following this definition, one can define the 0th center of a group to be the identity subgroup. This can be continued to [[transfinite ordinals]] by [[transfinite induction]]; the union of all the higher centers is called the '''[[hypercenter]]'''.<ref group="note">This union will include transfinite terms if the UCS does not stabilize at a finite stage.</ref>
+
+The ascending chain of subgroups
+:<math>1 \leq Z(G) \leq Z^2(G) \leq \cdots</math>
+stabilizes at ''i'' (equivalently, <math>Z^i(G) = Z^{i+1}(G)</math>) [[if and only if]] <math>G_i</math> is centerless.
+
+===Examples===
+*For a centerless group, all higher centers are zero, which is the case <math>Z^0(G)=Z^1(G)</math> of stabilization.
+*By [[Grün's lemma]], the quotient of a [[perfect group]] by its center is centerless, hence all higher centers equal the center. This is a case of stabilization at <math>Z^1(G)=Z^2(G)</math>.
+
+==See also==
+*[[center (algebra)]]
+*[[centralizer and normalizer]]
+*[[conjugacy class]]
+
+==Notes==
+{{reflist|group=note}}
+
+==External links==
+* {{springer|title=Centre of a group|id=p/c021250}}
+
+[[Category:Group theory]]
+[[Category:Functional subgroups]]

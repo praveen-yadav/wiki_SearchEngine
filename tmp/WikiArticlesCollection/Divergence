@@ -1,0 +1,226 @@
+{{other uses}}
+{{Calculus |Vector}}
+
+In [[vector calculus]], '''divergence''' is a [[vector operator]] that measures the magnitude of a [[vector field]]'s [[Current sources and sinks|source or sink]] at a given point, in terms of a signed scalar. More technically, the divergence represents the volume density of the outward [[flux]] of a vector field from an infinitesimal volume around a given point.
+
+For example, consider air as it is heated or cooled. The relevant vector field for this example is the [[velocity]] of the moving air at a point.  If air is heated in a region it will expand in all directions such that the velocity field points outward from that region.  Therefore the divergence of the velocity field in that region would have a positive value, as the region is a source. If the air cools and contracts, the divergence has a negative value, as the region is a sink.
+
+== Definition of divergence ==
+
+In physical terms, the divergence of a three dimensional vector field is the extent to which the vector field flow behaves like a source or a sink at a given point. It is a local measure of its "outgoingness"&mdash;the extent to which there is more exiting an infinitesimal region of space than entering it. If the divergence is nonzero at some point then there must be a source or sink at that position.<ref>[http://musr.phas.ubc.ca/~jess/hr/skept/Gradient/node4.html DIVERGENCE of a Vector Field<!-- Bot generated title -->]</ref> (Note that we are imagining the vector field to be like the velocity vector field of a fluid (in motion) when we use the terms flow, sink and so on.)
+
+More rigorously, the divergence of a vector field '''F''' at a point ''p'' is defined as the limit of the net flow of '''F''' across the smooth boundary of a three dimensional region ''V'' divided by the volume of ''V'' as ''V'' shrinks to ''p''. Formally,
+
+:<math>\operatorname{div}\,\mathbf{F}(p) = 
+\lim_{V \rightarrow \{p\}}
+\iint_{S(V)} {\mathbf{F}\cdot\mathbf{n} \over |V| } \; dS </math>
+
+where |''V'' | is the volume of ''V'', ''S''(''V'') is the boundary of ''V'', and the integral is a [[surface integral]] with '''n''' being the outward unit normal to that surface.  The result, div '''F''', is a function of ''p''.  From this definition it also becomes explicitly visible that div '''F''' can be seen as the ''source density'' of the flux of '''F'''.
+
+In light of the physical interpretation, a vector field with constant zero divergence is called ''incompressible'' or ''[[solenoidal vector field|solenoidal]]'' &ndash; in this case, no net flow can occur across any closed surface.
+
+The intuition that the sum of all sources minus the sum of all sinks should give the net flow outwards of a region is made precise by the [[divergence theorem]].
+
+=== Application in Cartesian coordinates ===
+
+Let  ''x, y, z'' be a system of [[Cartesian coordinates]] in 3-dimensional [[Euclidean space]], and let '''i''',&nbsp;'''j''',&nbsp;'''k''' be the corresponding [[Basis (linear algebra)|basis]] of [[unit vector]]s.
+
+The divergence of a [[continuously differentiable]] [[vector field]] '''F''' = ''U'' '''i''' + ''V'' '''j''' + ''W'' '''k''' is equal to the [[scalar (mathematics)|scalar]]-valued function:
+
+:<math>\operatorname{div}\,\mathbf{F} = \nabla\cdot\mathbf{F}
+=\frac{\partial U}{\partial x}
++\frac{\partial V}{\partial y}
++\frac{\partial W}{\partial z
+}. </math>
+Although expressed in terms of coordinates, the result is invariant under [[Orthogonal matrix|orthogonal transformation]]s, as the physical interpretation suggests.
+
+The common notation for the divergence {{nowrap|∇ · '''F'''}} is a convenient mnemonic, where the dot denotes an operation reminiscent of the [[dot product]]: take the components of ∇ (see [[del]]), apply them to the components of '''F''', and sum the results. Because applying an operator is different from multiplying the components, this is considered an [[abuse of notation]].
+
+The divergence of a continuously differentiable second-order [[tensor]] field <math> \underline{\underline{\epsilon}} </math> is a first-order tensor field:<ref>http://www.foamcfd.org/Nabla/guides/ProgrammersGuidese6.html#x10-230002.1.2</ref>
+
+:<math>\overrightarrow{\operatorname{div}}\,(\mathbf{\underline{\underline{\epsilon}}}) = 
+\begin{bmatrix}
+\frac{\partial \epsilon_{xx}}{\partial x} +\frac{\partial \epsilon_{xy}}{\partial y} +\frac{\partial \epsilon_{xz}}{\partial z} \\[6pt]
+\frac{\partial \epsilon_{yx}}{\partial x} +\frac{\partial \epsilon_{yy}}{\partial y} +\frac{\partial \epsilon_{yz}}{\partial z} \\[6pt]
+\frac{\partial \epsilon_{zx}}{\partial x} +\frac{\partial \epsilon_{zy}}{\partial y} +\frac{\partial \epsilon_{zz}}{\partial z}
+\end{bmatrix}
+</math>
+
+=== Cylindrical coordinates ===
+For a vector expressed in cylindrical coordinates as
+:<math>\mathbf F = \mathbf e_r F_r + \mathbf e_z F_z + \mathbf e_\theta F_{\theta},</math>
+where '''e'''<sub>a</sub> is the unit vector in direction a, the divergence is<ref>[http://mathworld.wolfram.com/CylindricalCoordinates.html Cylindrical coordinates] at Wolfram Mathworld</ref>
+:<math>\operatorname{div}\, \mathbf F 
+= \nabla\cdot\mathbf F 
+= \frac1r \frac{\partial}{\partial r} (rF_r) + \frac1r \frac{\partial F_\theta}{\partial\theta} + \frac{\partial F_z}{\partial z}\, .
+</math>
+
+=== Spherical coordinates ===
+In [[spherical coordinates]], with <math>\theta</math> the angle with the ''z'' axis and <math>\phi</math> the rotation around the ''z'' axis, the divergence reads<ref>[http://mathworld.wolfram.com/SphericalCoordinates.html Spherical coordinates] at Wolfram Mathworld</ref>
+:<math> \operatorname{div}\, \mathbf F 
+= \nabla\cdot\mathbf F 
+= \frac1{r^2} \frac{\partial}{\partial r}(r^2 F_r) + \frac1{r\sin\theta} \frac{\partial}{\partial \theta} (\sin\theta\, F_\theta) + \frac1{r\sin\theta} \frac{\partial F_\phi}{\partial \phi}.
+</math>
+
+== Decomposition theorem==
+{{main|Helmholtz decomposition}}
+It can be shown that any stationary flux '''v'''('''r''') which is at least two times continuously differentiable in <math> {\mathbb R}^3</math> and vanishes sufficiently fast for {{nowrap|{{!}}'''r'''{{!}} &rarr; ∞}} can be decomposed into an ''irrotational part'' '''E'''('''r''') and a ''source-free part'' '''B'''('''r'''). Moreover, these parts are explicitly determined by the respective ''source-densities'' (see above) and ''circulation densities'' (see the article [[Curl (mathematics)|Curl]]):
+
+For the irrotational part one has
+
+:<math> \mathbf E=-\nabla \Phi(\mathbf r)\, ,</math>
+with
+:<math>\Phi (\mathbf{r})=\int_{\mathbb R^3}\,{\rm d}^3\mathbf r'\;\frac{\operatorname{div}\,\mathbf{v}(\mathbf{r}')}{4\pi|\mathbf{r}-\mathbf{r}'|}\,.</math>
+
+The source-free part, '''B''', can be similarly written: one only has to replace the ''scalar potential'' Φ('''r''') by a ''vector potential'' '''A'''('''r''') and the terms &minus;'''∇'''Φ by +'''∇'''×'''A''', and the source-density {{nowrap|div&thinsp;'''v'''}}
+by the circulation-density '''∇'''×'''v'''.
+
+This "decomposition theorem" is in fact a by-product of the stationary case of [[electrodynamics]].  It is a special case of the more general [[Helmholtz decomposition]] which works in dimensions greater than three as well.
+
+== Properties ==
+{{main|Vector calculus identities}}
+
+The following properties can all be derived from the ordinary differentiation rules of [[calculus]]. Most importantly, the divergence is a [[linear operator]], i.e.
+
+:<math>\operatorname{div}( a\mathbf{F} + b\mathbf{G} ) 
+= a\;\operatorname{div}( \mathbf{F} ) 
++ b\;\operatorname{div}( \mathbf{G} ) </math>
+
+for all vector fields '''F''' and '''G''' and all [[real number]]s ''a'' and ''b''.
+
+There is a [[product rule]] of the following type: if <math>\varphi</math> is a scalar valued function and '''F''' is a vector field, then
+
+:<math>\operatorname{div}(\varphi \mathbf{F}) 
+= \operatorname{grad}(\varphi) \cdot \mathbf{F} 
++ \varphi \;\operatorname{div}(\mathbf{F}), </math>
+
+or in more suggestive notation
+
+:<math>\nabla\cdot(\varphi \mathbf{F}) 
+= (\nabla\varphi) \cdot \mathbf{F} 
++ \varphi \;(\nabla\cdot\mathbf{F}). </math>
+
+Another product rule for the [[cross product]] of two vector fields '''F''' and '''G''' in three dimensions involves the [[Curl (mathematics)|curl]] and reads as follows:
+
+:<math>\operatorname{div}(\mathbf{F}\times\mathbf{G}) 
+= \operatorname{curl}(\mathbf{F})\cdot\mathbf{G} 
+\;-\; \mathbf{F} \cdot \operatorname{curl}(\mathbf{G}),</math>
+
+or
+
+:<math>\nabla\cdot(\mathbf{F}\times\mathbf{G})
+= (\nabla\times\mathbf{F})\cdot\mathbf{G}
+- \mathbf{F}\cdot(\nabla\times\mathbf{G}).</math>
+
+The [[Laplacian]] of a [[scalar field]] is the divergence of the field's gradient:
+:<math>
+\operatorname{div}(\nabla\varphi) = \Delta\varphi.
+</math>
+
+The divergence of the [[Curl (mathematics)|curl]] of any vector field (in three dimensions) is equal to zero: 
+:<math>\nabla\cdot(\nabla\times\mathbf{F})=0</math>
+
+If a vector field '''F''' with zero divergence is defined on a ball in '''R'''<sup>3</sup>, then there exists some vector field '''G''' on the ball with '''F''' = curl('''G'''). For regions in '''R'''<sup>3</sup> more complicated than this, the latter statement might be false (see [[Poincaré lemma]]). The degree of ''failure'' of the truth of the statement, measured by the [[homology (mathematics)|homology]] of the [[chain complex]]
+
+:<math>    \{\mbox{scalar fields on }U\} \;</math>
+::<math> \to\{\mbox{vector fields on }U\} \;</math>
+:::<math> \to\{\mbox{vector fields on }U\} \;</math>
+::::<math> \to\{\mbox{scalar fields on }U\} \;</math>
+
+(where the first map is the gradient, the second is the curl, the third is the divergence) serves as a nice quantification of the complicatedness of the underlying region ''U''. These are the beginnings and main motivations of [[de Rham cohomology]].
+
+==Relation with the exterior derivative==
+One can express the divergence as a particular case of the exterior derivative, which takes a 2-form to a 3-form in '''R'''<sup>3</sup>.
+Define the current two form 
+:<math>j =F_1\ dy\wedge dz + F_2\ dz\wedge dx + F_3\ dx\wedge dy</math>.
+It measures the amount of "stuff" flowing through a surface per unit time in a "stuff fluid" of density <math>\rho = 1 dx\wedge dy\wedge dz</math> moving with local velocity '''F'''. Its [[exterior derivative]] <math>d j</math> is then given  by
+:<math>d j = \left( \frac{\partial F_1}{\partial x}
++\frac{\partial F_2}{\partial y}
++\frac{\partial F_3}{\partial z} \right) dx\wedge dy\wedge dz  
+      = (\nabla\cdot \mathbf{F}) \rho</math>
+
+Thus, the divergence of the vector field '''F''' can be expressed as:
+:<math> \nabla \cdot \mathbf{F} = \star {\mathbf d} {\star {\mathbf{F}^\flat}} </math>
+Here the superscript <math> \flat </math> is one of the two [[musical isomorphism]]s, and <math> \star </math> is the [[Hodge dual]]. Note however that working with the current two form itself and the exterior derivative is usually easier than working with the vector field and divergence, because unlike the divergence, the exterior derivative commutes with a change of (curvilinear) coordinate system.
+
+==Generalizations==
+
+The divergence of a vector field can be defined in any number of dimensions. If 
+:<math>\mathbf{F}=(F_1, F_2, \dots, F_n),</math>
+
+in a Euclidean coordinate system where <math>\mathbf{x}=(x_1, x_2, \dots, x_n)</math> and <math>d\mathbf{x}=(dx_1, dx_2, \dots, dx_n)</math>, define
+
+:<math>\operatorname{div}\,\mathbf{F} = \nabla\cdot\mathbf{F}
+=\frac{\partial F_1}{\partial x_1}
++\frac{\partial F_2}{\partial x_2}+\cdots 
++\frac{\partial F_n}{\partial x_n}. </math>
+The appropriate expression is more complicated in [[Curvilinear coordinates#Grad, curl, div, Laplacian|curvilinear coordinates]].
+
+In the case of one dimension, a "vector field" is simply a regular function, and the divergence is simply the derivative.
+
+For any ''n'', the divergence is a linear operator, and it satisfies the "product rule"
+
+:<math>\nabla\cdot(\varphi \mathbf{F}) 
+= (\nabla\varphi) \cdot \mathbf{F}
++ \varphi \;(\nabla\cdot\mathbf{F}). </math>
+
+for any scalar-valued function <math>\varphi </math>.
+
+The divergence can be defined on any manifold of dimension ''n'' with a [[volume form]] (or [[density on a manifold|density]]) <math>\mu</math> e.g. a [[Riemannian manifold|Riemannian]] or [[Lorentzian manifold]]. Generalising the construction of a two form for a vector field on <math> \mathbb{R}^3</math>, on such a manifold a vector field ''X'' defines a ''n''−1 form <math>j = i_X \mu</math> obtained by contracting ''X'' with <math>\mu</math>. The divergence is then the function defined by
+
+:<math> d j = \operatorname{div}(X) \mu</math>
+
+Standard formulas for the [[Lie derivative]] allow us to reformulate this as
+
+:<math> \mathcal{L}_X \mu = \operatorname{div}(X) \mu </math>
+
+This means that the divergence measures the rate of expansion of a volume element as we let it 
+flow with the vector field.
+
+On a Riemannian or Lorentzian manifold the divergence with respect to the metric volume form
+can be computed in terms of the [[Levi Civita connection]] <math>\nabla </math>
+
+:<math> \operatorname{div}(X) = \nabla\cdot X = X^a_{;a} </math>
+
+where the second expression is the contraction of the vector field valued 1-form <math> \nabla X</math> with itself and the last expression is the traditional coordinate expression used by physicists.
+
+An equivalent expression without using connection is
+
+:<math> \operatorname{div}(X) = \frac{1}{\sqrt{\operatorname{det} g}} \partial_a (\sqrt{\operatorname{det} g} X^a)</math>
+
+where <math>g</math> is the metric and <math>\partial_a</math> denotes partial derivative with respect to coordinate <math>a</math>.
+
+Divergence can also be generalised to [[tensors]]. In [[Einstein notation]], the divergence of a [[contravariant vector]] <math>F^\mu</math> is given by
+
+:<math> \nabla\cdot\mathbf{F}=\nabla_\mu F^\mu </math>
+
+where <math>\nabla_\mu</math> is the [[covariant derivative]].
+
+Equivalently, some authors define the divergence of any [[mixed tensor]] by using the "musical notation #":
+
+If ''T'' is a (''p'',''q'')-[[tensor]] (''p'' for the contravariant vector and ''q'' for the covariant one), then we define the ''divergence of T'' to be the (''p'',''q''−1)-tensor
+
+<math>(\operatorname{div} T)(Y_1,...,Y_{q-1}) = \operatorname{trace}(X\mapsto \#( \nabla T)(X,\cdot,Y_1,...,Y_{q-1} ))</math>
+
+that is we trace the covariant derivative on the ''first two'' covariant indices.
+
+==See also==
+*[[Curl (mathematics)|Curl]]
+*[[Del in cylindrical and spherical coordinates]]
+*[[Divergence theorem]]
+*[[Gradient]]
+*[[Laplacian]]
+
+==Notes==
+{{reflist}}<references/>
+
+==References==
+# {{cite web| last = Brewer | first = Jess H.| title = DIVERGENCE of a Vector Field  | work = Vector Calculus | date = 1999-04-07 | url = http://musr.phas.ubc.ca/~jess/hr/skept/Gradient/node4.html   | accessdate = 2007-09-28 }}
+# {{cite book |author=Theresa M. Korn; Korn, Granino Arthur |title=Mathematical Handbook for Scientists and Engineers: Definitions, Theorems, and Formulas for Reference and Review |publisher=Dover Publications |location=New York |year= |pages=157–160 |isbn=0-486-41147-8 |oclc= |doi=}}
+
+== External links ==
+* [http://mathinsight.org/divergence_idea The idea of divergence of a vector field]
+* [http://www.khanacademy.org/video/divergence-1?playlist=Calculus Khan Academy: Divergence video lesson]
+
+[[Category:Linear operators in calculus]]
+[[Category:Vector calculus]]

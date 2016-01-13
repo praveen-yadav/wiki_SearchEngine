@@ -1,0 +1,341 @@
+{{redirect|Disjunction|the logic gate|OR gate|separation of chromosomes|Meiosis|disjunctions in distribution|Disjunct distribution}}
+[[File:Venn0111.svg|220px|thumb|[[Venn diagram]] of <math>\scriptstyle A \or B</math>]]
+[[File:Venn 0111 1111.svg|220px|thumb|Venn diagram of <math>\scriptstyle A \or B \or C</math>]]
+
+In [[logic]] and [[mathematics]], '''or''' is a truth-functional operator also known as ('''inclusive''') '''disjunction''' and '''alternation'''. The logical connective that represents this operator is also known as "or", and typically written as <math>\lor</math> or <math> +</math>. The "or" operator produces a result of true whenever ''one or more'' of its operands are true. For example, in this context, "''A'' or ''B''" is true if ''A'' is true, or if ''B'' is true, or if both ''A'' and ''B'' are true. In [[grammar]], '''or''' is a [[Grammatical conjunction|coordinating conjunction]]. An operand of a disjunction is called a '''disjunct'''.
+
+The "or" operator differs from the [[exclusive or]] in that the latter returns false when both of its inputs are true, while "or" returns true. In ordinary language, outside of contexts such as formal logic, mathematics and programming, "or" sometimes has the meaning of "exclusive or". For example, "Please ring me or send an email" likely means "do one or the other, but not both". On the other hand, "Her grades are so good that she's either very bright or studies hard" allows for the possibility that the person is both bright and works hard. In other words, in ordinary language "or" can mean inclusive or exclusive or. Usually the intended meaning is clear from the context.
+
+==Notation==
+
+'''Or''' is usually expressed with the prefix operator '''A''', or with an infix operator. In mathematics and logic, the infix operator is usually '''∨'''; in electronics, '''+'''; and in programming languages, '''|''' or '''or'''. Some programming languages have a related [[control structure]], the [[short-circuit evaluation|short-circuit or]], written '''||''', '''or else''', etc.
+
+==Definition==
+
+'''Logical disjunction''' is an [[logical operation|operation]] on two [[logical value]]s, typically the values of two [[proposition]]s, that produces a value of ''false'' if and only if both of its operands are false. More generally a disjunction is a logical formula that can have one or more [[literal (mathematical logic)|literal]]s separated only by ORs. A single literal is often considered to be a degenerate disjunction.
+
+The disjunctive [[identity element|identity]] is 0, which is to say that OR-ing an expression with 0 will never change the value of the expression. In keeping with the concept of [[vacuous truth]], when disjunction is defined as an operator or function of arbitrary [[arity]], the empty disjunction (OR-ing over an empty set of operands) is often defined as having the result 0.
+
+===Truth table===
+[[File:Multigrade operator OR.svg|thumb|Disjunctions of the arguments on the left<br>The [[truth value|false]] [[bit]]<nowiki>s</nowiki> form a [[Sierpinski triangle]]]]
+
+The [[truth table]] of <math>~A \or B</math>:
+
+{| class="wikitable" style="margin: 0 0 1em 1em"
+|- bgcolor="#ddeeff align="center"
+|colspan=2|'''INPUT''' || '''OUTPUT'''
+|- bgcolor="#ddeeff align="center"
+| A || B || A OR B
+|- bgcolor="#ddeeff align="center"
+|0 || 0 || 0
+|- bgcolor="#ddeeff align="center"
+|0 || 1 || 1
+|- bgcolor="#ddeeff align="center"
+|1 || 0 || 1
+|- bgcolor="#ddeeff align="center"
+|1 || 1 || 1
+|}
+
+==Properties==
+
+* '''[[Commutative property|Commutativity]]'''
+{| style="text-align: center; border: 1px solid darkgray;"
+|-
+|<math>A \or B</math>
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|<math>B \or A</math>
+|-
+|[[File:Venn0111.svg|50px]]
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|[[File:Venn0111.svg|50px]]
+|}
+
+* '''[[Associative property|Associativity]]'''
+{| style="text-align: center; border: 1px solid darkgray;"
+|-
+|<math>~A</math>
+|<math>~~~\or~~~</math>
+|<math>(B \or C)</math>
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|
+|
+|<math>(A \or B)</math>
+|<math>~~~\or~~~</math>
+|<math>~C</math>
+|-
+|[[File:Venn 0101 0101.svg|50px]]
+|<math>~~~\or~~~</math>
+|[[File:Venn 0011 1111.svg|50px]]
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|[[File:Venn 0111 1111.svg|50px]]
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|[[File:Venn 0111 0111.svg|50px]]
+|<math>~~~\or~~~</math>
+|[[File:Venn 0000 1111.svg|50px]]
+|}
+
+* '''[[Distributive property|Distributivity]]''' with various operations, especially with ''[[logical conjunction|and]]''
+{| style="text-align: center; border: 1px solid darkgray;"
+|-
+|<math>~A</math>
+|<math>\or</math>
+|<math>(B \and C)</math>
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|
+|
+|<math>(A \or B)</math>
+|<math>\and</math>
+|<math>(A \or C)</math>
+|-
+|-
+|[[File:Venn 0101 0101.svg|50px]]
+|<math>\or</math>
+|[[File:Venn 0000 0011.svg|50px]]
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|[[File:Venn 0101 0111.svg|50px]]
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|[[File:Venn 0111 0111.svg|50px]]
+|<math>\and</math>
+|[[File:Venn 0101 1111.svg|50px]]
+|}
+
+{| class="collapsible collapsed" style="width: 100%; border: 1px solid #aaaaaa;"
+! bgcolor="#ccccff"|others
+|-
+| 
+with [[logical biconditional|biconditional]]:
+{| style="text-align: center; border: 1px solid darkgray;"
+|-
+|<math>~A</math>
+|<math>\or</math>
+|<math>(B \leftrightarrow C)</math>
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|
+|
+|<math>(A \or B)</math>
+|<math>\leftrightarrow</math>
+|<math>(A \or C)</math>
+|-
+|-
+|[[File:Venn 0101 0101.svg|50px]]
+|<math>\or</math>
+|[[File:Venn 1100 0011.svg|50px]]
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|[[File:Venn 1101 0111.svg|50px]]
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|[[File:Venn 0111 0111.svg|50px]]
+|<math>\leftrightarrow</math>
+|[[File:Venn 0101 1111.svg|50px]]
+|}
+
+with [[material implication (rule of inference)|material implication]]:
+{| style="text-align: center; border: 1px solid darkgray;"
+|-
+|<math>~A</math>
+|<math>\or</math>
+|<math>(B \rightarrow C)</math>
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|
+|
+|<math>(A \or B)</math>
+|<math>\rightarrow</math>
+|<math>(A \or C)</math>
+|-
+|-
+|[[File:Venn 0101 0101.svg|50px]]
+|<math>\or</math>
+|[[File:Venn 1100 1111.svg|50px]]
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|[[File:Venn 1101 1111.svg|50px]]
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|[[File:Venn 0111 0111.svg|50px]]
+|<math>\rightarrow</math>
+|[[File:Venn 0101 1111.svg|50px]]
+|}
+
+with itself:
+{| style="text-align: center; border: 1px solid darkgray;"
+|-
+|<math>~A</math>
+|<math>\or</math>
+|<math>(B \or C)</math>
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|
+|
+|<math>(A \or B)</math>
+|<math>\or</math>
+|<math>(A \or C)</math>
+|-
+|-
+|[[File:Venn 0101 0101.svg|50px]]
+|<math>\or</math>
+|[[File:Venn 0011 1111.svg|50px]]
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|[[File:Venn 0111 1111.svg|50px]]
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|[[File:Venn 0111 0111.svg|50px]]
+|<math>\or</math>
+|[[File:Venn 0101 1111.svg|50px]]
+|}
+|}
+
+* '''[[Idempotence|Idempotency]]'''
+{| style="text-align: center; border: 1px solid darkgray;"
+|-
+|<math>~A~</math>
+|<math>~\or~</math>
+|<math>~A~</math>
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|<math>A~</math>
+|-
+|[[File:Venn01.svg|36px]]
+|<math>~\or~</math>
+|[[File:Venn01.svg|36px]]
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|[[File:Venn01.svg|36px]]
+|}
+
+* '''[[Monotonic function#Boolean_functions|Monotonicity]]'''
+{| style="text-align: center; border: 1px solid darkgray;"
+|-
+|<math>A \rightarrow B</math>
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Rightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|
+|
+|<math>(A \or C)</math>
+|<math>\rightarrow</math>
+|<math>(B \or C)</math>
+|-
+||[[File:Venn 1011 1011.svg|50px]]
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Rightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|[[File:Venn 1011 1111.svg|50px]]
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Leftrightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+||[[File:Venn 0101 1111.svg|50px]]
+|<math>\rightarrow</math>
+||[[File:Venn 0011 1111.svg|50px]]
+|}
+
+* '''[[Validity#Preservation|Truth-preserving validity]]'''
+When all inputs are true, the output is true.
+{| style="text-align: center; border: 1px solid darkgray;"
+|-
+|<math>A \and B</math>
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Rightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|<math>A \or B</math>
+|-
+|[[File:Venn0001.svg|50px]]
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Rightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|[[File:Venn0111.svg|60px]]
+|-
+|
+|
+|<small>(to be tested)</small>
+|}
+
+* '''[[Validity#Preservation|False-preserving validity]]'''
+When all inputs are false, the output is false.
+{| style="text-align: center; border: 1px solid darkgray;"
+|-
+|<math>A \or B</math>
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Rightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|<math>A \or B</math>
+|-
+|[[File:Venn0111.svg|60px]]
+|&nbsp;&nbsp;&nbsp;&nbsp;<math>\Rightarrow</math>&nbsp;&nbsp;&nbsp;&nbsp;
+|[[File:Venn0111.svg|50px]]
+|-
+|<small>(to be tested)</small>
+|
+|
+|}
+
+* '''[[Hadamard transform|Walsh spectrum]]: (3,-1,-1,-1)'''
+
+* '''[[Linear#Boolean functions|Nonlinearity]]: 1''' (the function is [[bent function|bent]])
+
+If using [[binary numeral system|binary]] values for true (1) and false (0), then ''logical disjunction'' works almost like [[binary addition]]. The only difference is that <math>1\or 1=1</math>, while <math>1+1=10</math>.
+
+==Symbol==
+The mathematical symbol for logical disjunction varies in the literature. In addition to the word "or", and the formula "A''pq''", the symbol "<math>\or</math>", deriving from the Latin word ''[[wikt:en:vel#Latin|vel]]'' (“either”, “or”) is commonly used for disjunction. For example: "''A'' <math>\or</math> ''B''&nbsp;" is read as "''A'' or ''B''&nbsp;". Such a disjunction is false if both ''A'' and ''B'' are false. In all other cases it is true.
+
+All of the following are disjunctions:
+: <math>A \or B</math>
+: <math>\neg A \or B</math>
+: <math>A \or \neg B \or \neg C \or D \or \neg E.</math>
+
+The corresponding operation in set theory is the [[union (set theory)|set-theoretic union]].
+
+==Applications in computer science==
+[[File:Or-gate-en.svg|thumb|right|150px|OR [[logic gate]]]]
+[[Operator (programming)|Operators]] corresponding to logical disjunction exist in most [[programming language]]s.
+
+===Bitwise operation===
+Disjunction is often used for bitwise operations. Examples:
+
+* 0 or 0 = 0
+* 0 or 1 = 1
+* 1 or 0 = 1
+* 1 or 1 = 1
+* 1010 or 1100 = 1110
+
+The <code>or</code> operator can be used to set bits in a [[bit field]] to 1, by <code>or</code>-ing the field with a constant field with the relevant bits set to 1. For example, <code>x = x | 0b00000001</code> will force the final bit to 1 while leaving other bits unchanged.
+
+===Logical operation===
+Many languages distinguish between bitwise and logical disjunction by providing two distinct operators; in languages following C, bitwise disjunction is performed with the single pipe (<code>|</code>) and logical disjunction with the double pipe (<code>||</code>) operators.
+
+Logical disjunction is usually [[Short-circuit evaluation|short-circuited]]; that is, if the first (left) operand evaluates to <code>true</code> then the second (right) operand is not evaluated. The logical disjunction operator thus usually constitutes a [[sequence point]].
+
+{{anchor|parallel-or}}
+In a parallel (concurrent) language, it is possible to short-circuit both sides: they are evaluated in parallel,
+and if one terminates with value true, the other is interrupted. This operator is thus called the '''parallel or'''.
+
+Although in most languages the type of a logical disjunction expression is boolean and thus can only have the value <code>true</code> or <code>false</code>, in some (such as [[Python programming language|Python]] and [[JavaScript]]) the logical disjunction operator returns one of its operands: the first operand if it evaluates to a true value, and the second operand otherwise.
+
+===Constructive disjunction===
+The [[Curry–Howard correspondence]] relates a [[constructivism (mathematics)|constructivist]] form of disjunction to [[tagged union]] types.
+
+==Union==
+The [[Element (mathematics)|membership]] of an element of an [[union (set theory)|union set]] in [[set theory]] is defined in terms of a logical disjunction: ''x'' ∈ ''A'' ∪ ''B'' if and only if (''x'' ∈ ''A'') ∨ (''x'' ∈ ''B''). Because of this, logical disjunction satisfies many of the same identities as set-theoretic union, such as associativity, commutativity, distributivity, and [[de Morgan's laws]].
+
+==See also==
+{{col-begin}}
+{{col-break}}
+* [[Logical conjunction]]
+* [[Logical negation]]
+* [[Exclusive disjunction]]
+* [[Affirming a disjunct]]
+* [[Bitwise OR]]
+* [[Boolean algebra (logic)]]
+* [[Boolean algebra topics]]
+* [[Boolean domain]]
+{{col-break}}
+* [[Boolean function]]
+* [[Boolean-valued function]]
+* [[Disjunctive syllogism]]
+* [[Disjunction elimination]]
+* [[Disjunction introduction]]
+* [[First-order logic]]
+* [[Fréchet inequalities]]
+{{col-break}}
+* [[Logical graph]]
+* [[Logical value]]
+* [[Operation (mathematics)|Operation]]
+* [[Operator (programming)]]
+* [[OR gate]]
+* [[Propositional calculus]]
+{{col-end}}
+
+==Notes==
+* [[George Boole]], closely following analogy with ordinary mathematics, premised, as a necessary condition to the definition of "x + y", that x and y were mutually exclusive. [[William Stanley Jevons|Jevons]], and practically all mathematical logicians after him, advocated, on various grounds, the definition of "logical addition" in a form which does not necessitate mutual exclusiveness.
+
+==External links==
+* {{springer|title=Disjunction|id=p/d033260}}
+* [http://plato.stanford.edu/entries/disjunction/ Stanford Encyclopedia of Philosophy entry]
+* [http://mathworld.wolfram.com/Disjunction.html Eric W. Weisstein. "Disjunction." From MathWorld--A Wolfram Web Resource]
+
+== References ==
+{{reflist}}
+
+{{Logical connectives}}
+
+[[Category:Logical connectives]]

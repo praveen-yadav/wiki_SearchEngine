@@ -1,0 +1,94 @@
+{{Infobox scientist
+| name              = Bjarne Stroustrup
+| image             = BjarneStroustrup.jpg
+| image_size        = 220px 
+| alt               = 
+| caption           = Bjarne Stroustrup
+| birth_date        =  {{birth date and age|1950|12|30|63}}
+| birth_place       =  [[Aarhus]], [[Denmark]]
+| death_date        = <!-- {{Death date and age|YYYY|MM|DD|YYYY|MM|DD}} (death date then birth date) -->
+| death_place       = 
+| resting_place             = 
+| resting_place_coordinates = <!-- {{Coord|LAT|LONG|type:landmark|display=inline,title}} -->
+| residence         = [[Danes|Danish]]   
+| citizenship       = 
+| nationality       = 
+| fields            = 
+| workplaces        =  [[Aarhus University]]<br>[[University of Cambridge]]<br>[[Texas A&M University]] <br>[[Bell Labs]]
+| alma_mater        = [[Aarhus University]] (MSc)<br>[[Churchill College, Cambridge]] (PhD)
+| thesis_title      = Communication and control in distributed computer systems
+| thesis_url        = http://ulmss-newton.lib.cam.ac.uk/vwebv/holdingsInfo?bibId=14260
+| thesis_year       = 1979
+| doctoral_advisor  = [[David Wheeler (computer scientist)|David Wheeler]]
+| academic_advisors = 
+| notable_students  = 
+| known_for         =  Creating [[C++]]
+| author_abbrev_bot = 
+| author_abbrev_zoo = 
+| influences        = 
+| influenced        = 
+| awards            = [[Grace Murray Hopper Award]] (1993)<br>
+IEEE Computer Society Computer Entrepreneur Award (2004)<br>
+[[William Procter Prize for Scientific Achievement]] (2005)<br>
+[[Dr. Dobb's Journal|Dr. Dobb's]] Excellence in Programming award (2008)
+| signature         = <!--(filename only)-->
+| signature_alt     = 
+| website           =  {{URL|http://www.stroustrup.com}}<br>{{URL|https://parasol.tamu.edu/people/bs}}
+| footnotes         = 
+| spouse            = 
+}}'''Bjarne Stroustrup''' ({{IPA-da|ˈbjɑːnə ˈsdʁʌʊ̯ˀsdʁɔb|lang}};<ref>[http://www.stroustrup.com/pronounciation.wav Bjarne Stroustrup pronounces his name]</ref> born 30 December 1950) is a Danish [[computer scientist]], most notable for the creation and the development of the widely used [[C++]] programming language. He is currently Professor and holder of the College of Engineering Chair in Computer Science at [[Texas A&M University]].<ref>[http://www.research.att.com/~bs/homepage.html Bjarne Stroustrup's Homepage]</ref><ref>{{cite doi| 10.1145/1629175.1629192}}</ref><ref>{{cite doi| 10.1109/MC.1998.683014}}</ref><ref>{{cite doi|10.1109/MC.2011.353}}</ref>
+
+==Education==
+Stroustrup has a [[master's degree]] in [[mathematics]] and [[computer science]] (1975) from [[Aarhus University]], [[Denmark]], and a [[Doctor of Philosophy|Ph.D.]] in computer science (1979)<ref name="stroustrupphd">{{cite thesis |degree=PhD |first=Bjarne|last=Stroustrup |title=Communication and control in distributed computer systems |publisher=University of Cambridge |date=1979 |url= http://ulmss-newton.lib.cam.ac.uk/vwebv/holdingsInfo?bibId=14260|authorlink=Bjarne Stroustrup}}</ref> from the [[University of Cambridge]], England, where he was a student at [[Churchill College, Cambridge|Churchill College]]. His thesis advisor in Cambridge was [[David Wheeler (computer scientist)|David Wheeler]].<ref>{{cite web|url=http://www.stroustrup.com/bio.html|title=Stroustrup: Biographical Information}}</ref>
+
+==Career==
+Stroustrup began developing C++ in 1978 (then called "[[C (programming language)|C]] with Classes"), and, in his own words, "invented C++, wrote its early definitions, and produced its first implementation... chose and formulated the design criteria for C++, designed all its major facilities, and was responsible for the processing of extension proposals in the C++ standards committee."<ref>''The C++ Programming Language'', B. Stroustrup, p.10</ref> Stroustrup also wrote what many consider to be the standard textbook for the language, ''[[The C++ Programming Language]]''.
+
+Stroustrup was the head of [[Bell Labs|AT&T Lab's]] Large-scale Programming Research department, from its creation until late 2002. Stroustrup was elected member of the [[National Academy of Engineering]] in 2004. He is a Fellow of the [[Association for Computing Machinery|ACM]] (1994) and an [[Institute of Electrical and Electronics Engineers|IEEE]] Fellow. He currently works at [[Texas A&M University]], [[United States]], as a Distinguished Professor where he holds the College of Engineering Endowed Chair in [[Computer Science]].<ref>[http://www.research.att.com/~bs/bio.html Bjarne Stroustrup: Some Information about Bjorne Stroustrup.]</ref><ref>[http://www.cse.tamu.edu/people/faculty  Texas A&M CSE Department's Faculty Directory]</ref>
+
+==Publications==
+Stroustrup has authored or co-authored a number of publications<ref name="dblp">{{DBLP|id=Stroustrup:Bjarne}}</ref><ref name="microsoft">{{AcademicSearch|901644}}</ref><ref name="googlescholar">Stroustrup in Google Scholar http://scholar.google.com/scholar?q=bjarne+stroustrup</ref> including the following books.
+* ''Programming: Principles and Practice Using C++'' by Bjarne Stroustrup – [[Addison-Wesley]] Professional; 1st edition (29 December 2008); ISBN 0-321-54372-6
+* ''[[The C++ Programming Language]]'' by Bjarne Stroustrup – [[Addison-Wesley]] Pub Co; 4th edition (23 May 2013); ISBN 0-321-563840
+* ''[[The Design and Evolution of C++]]'' by Bjarne Stroustrup – Addison-Wesley Pub Co; 1st edition (29 March 1994); ISBN 0-201-54330-3
+* ''The Annotated C++ Reference Manual'' by [[Margaret A. Ellis]] & Bjarne Stroustrup – Addison-Wesley Pub Co; (1 January 1990); ISBN 0-201-51459-1
+
+==References==
+{{reflist|2}}
+
+==External links==
+{{Commons category}}
+* {{wikiquote-inline}}	 
+* [http://www.att.com/attlabs/other/stroustrup_sm.mov Meet Bjarne Stroustrup (Video)]	
+* [http://www.stroustrup.com/interviews.html List of interviews with Bjarne Stroustrup]
+* [http://harmful.cat-v.org/software/c++/I_did_it_for_you_all A hoax interview transcript with IEEE's ''Computer'' magazine.]
+* [http://www.computerworld.com.au/index.php/id;408408016;fp;4194304;fpid;1 Computerworld Interview with Bjarne Stroustrup]
+* [http://www.stroustrup.com/bs_faq.html#class Bjarne Stroustrup's FAQ, Class]
+
+{{Hopper winners}}
+{{Authority control |VIAF=22176466 |LCCN=n/85/175053}}
+{{Persondata <!-- Metadata: see [[Wikipedia:Persondata]]. -->
+| NAME              = Stroustrup, Bjarne
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Danish computer scientist
+| DATE OF BIRTH     = 30 December 1950
+| PLACE OF BIRTH    = [[Aarhus]], [[Denmark]]
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Stroustrup, Bjarne}}
+[[Category:C++]]
+[[Category:Danish computer scientists]]
+[[Category:Fellows of the Association for Computing Machinery]]
+[[Category:Fellow Members of the IEEE]]
+[[Category:Scientists at Bell Labs]]
+[[Category:Grace Murray Hopper Award laureates]]
+[[Category:Programming language designers]]
+[[Category:Aarhus University alumni]]
+[[Category:Alumni of Churchill College, Cambridge]]
+[[Category:1950 births]]
+[[Category:Living people]]
+[[Category:Texas A&M University faculty]]
+[[Category:People from Aarhus]]
+[[Category:Danish expatriates in the United States]]
+[[Category:Members of the United States National Academy of Engineering]]

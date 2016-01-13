@@ -1,0 +1,179 @@
+{{original research|date=July 2013}}
+{{ref improve|date=July 2013}}
+'''On-base plus slugging (OPS)''' is a [[Sabermetrics|sabermetric]] [[baseball statistics|baseball statistic]] calculated as the sum of a player's [[on-base percentage]] and [[slugging percentage|slugging average]].<ref>See [http://www.baseballprospectus.com/glossary/index.php?mode=viewstat&stat=118 www.baseballprospectus.com] or [http://www.baseball1.com/faqs/glossary.html#O rec.sport.baseball].</ref> The ability of a player to both get on base and to hit for power, two important hitting skills, are represented. An OPS of .900 or higher in [[Major League Baseball]] puts the player in the upper echelon of hitters. Typically, the league leader in OPS will score near, and sometimes above, the 1.000 mark.
+
+==Equation==
+The basic equation is
+
+<math>OPS = OBP + SLG \,</math>
+<!-- Please retain \, above for proper rendering -->
+
+where OBP is [[on-base percentage]] and SLG is [[Slugging percentage|slugging average]]. These averages are defined
+
+<math>SLG = \frac{TB} {AB}</math>
+
+and
+
+<math>OBP = \frac{H+BB+HBP} {AB+BB+SF+HBP}</math>
+
+where:
+* ''H'' = [[Hit (baseball)|Hits]]
+* ''BB'' = [[Base on balls]]
+* ''HBP'' = Times [[hit by pitch]]
+* ''AB'' = [[At bats]]
+* ''SF'' = [[Sacrifice fly|Sacrifice flies]]
+* ''TB'' = [[Total bases]]
+
+
+In one equation, OPS can be represented as:
+
+<math>OPS = \frac{AB*(H+BB+HBP)+TB*(AB+BB+SF+HBP)}{AB*(AB+BB+SF+HBP)}</math>
+
+==Interpretation of OPS==
+
+OPS does not present a complete picture of a player's offensive contributions.  Factors such as [[baserunning]], [[stolen base|basestealing]], and the [[clutch hitter| leverage/timeliness of performance]] are not considered.
+
+More expansive sabermetric measurements do attempt to incorporate some or all of the abovementioned factors.  Nonetheless, even though it does not include them, OPS correlates quite well with team run scoring.
+
+Other sabermetric stats, such as [[runs created]] and [[Wins Above Replacement]], attempt to express a player's contribution directly in terms of runs and/or wins.  However, a player's OPS does not have a simple intrinsic meaning.
+
+OPS weighs on-base percentage and slugging average equally.  However, on-base percentage correlates better with scoring runs.<ref>Lewis, Michael. <u>Moneyball: The Art of Winning an Unfair Game</u>, 2003.</ref> Statistics such as [[wOBA]] build on this distinction using [[linear weights]], avoiding OPS' flaws. Magnifying this fault is that the numerical parts of OPS are not themselves typically equal (league-average slugging percentages are usually 75-100 points higher than league-average on-base percentages). As a point of reference, the OPS for all of Major League Baseball in 2008 was .749.<ref>http://www.baseball-reference.com/leagues/MLB/2008-standard-batting.shtml</ref>
+
+OPS has the advantage of being based on two already well-established stats whose legitimacy within baseball is uncontroversial.  And if those stats are known, it is extremely easy to calculate, as one need only add the two numbers together.
+
+==An OPS scale==
+[[Bill James]], in his essay titled "The 96 Families of Hitters"<ref>James, Bill. ''The 96 Families of Hitters''. <u>The Bill James Gold Mine</u>, 2009, p.24.</ref> uses seven different categories for classification by OPS:
+
+{| class="wikitable"
+|-
+! Category !! Classification !! OPS Range
+|-
+| A || Great || .9000 and Higher
+|-
+| B || Very Good || .8333 to .8999
+|-
+| C || Above Average || .7667 to .8333
+|-
+| D || Average || .7000 to .7666
+|-
+| E || Below Average || .6334 to .6999
+|-
+| F || Poor || .5667 to .6333
+|-
+| G || Atrocious || .5666 and Lower
+|}
+
+This effectively transforms OPS into a 7-point ordinal scale. Substituting quality labels such as Excellent (A), Very Good (B), Good (C), Average (D), Fair (E), Poor (F) and Very Poor (G) for the A-G categories creates a subjective reference for OPS values.
+
+==History==
+On-base plus slugging was first popularized in 1984 by [[John Thorn]] and [[Pete Palmer]]'s book, ''The Hidden Game of Baseball''.<ref>John Thorn and Pete Palmer, ''The Hidden Game of Baseball,'' pp. 69-70.</ref> ''[[The New York Times]]'' then began carrying the leaders in this statistic in its weekly "By the Numbers" box, a feature that continued for four years. Baseball journalist [[Peter Gammons]] used and evangelized the statistic, and other writers and broadcasters picked it up. The popularity of OPS gradually spread, and by 2004 it began appearing on [[Topps]] baseball cards.<ref>[[Alan Schwarz]], ''The Numbers Game,'' pp. 165, 233.</ref>
+
+OPS was formerly sometimes known as "Production", for instance in early versions of Thorn's [[Total Baseball]] encyclopedia, and in the [[Strat-O-Matic]] computer baseball game.  This term has fallen out of use.
+
+==Leaders==
+The Top 10 [[Major League Baseball]] players in lifetime OPS, with at least 3,000 plate appearances
+through September 29, [[2013 in baseball|2013]] are (active players in bold):
+
+# [[Babe Ruth]], 1.1638
+# [[Ted Williams]], 1.1155
+# [[Lou Gehrig]], 1.0798
+# [[Barry Bonds]], 1.0512
+# [[Jimmie Foxx]], 1.0376
+# [[Hank Greenberg]], 1.0169
+# [[Rogers Hornsby]], 1.0103
+# '''[[Albert Pujols]]''', 1.0085
+# [[Manny Ramírez]], 0.9960
+# [[Mark McGwire]], 0.9823
+
+The top four were all left-handed batters. [[Jimmie Foxx]] has the highest career OPS for a right-handed batter.
+
+Source: [http://www.baseball-reference.com/leaders/OPS_career.shtml Baseball-Reference.com - Career Leaders & Records for OPS]
+
+The Top 10 single-season performances in MLB are (all left-handed hitters):
+
+# Barry Bonds, 1.4217 ({{mlby|2004}})
+# Babe Ruth, 1.3818 ({{mlby|1920}})
+# Barry Bonds, 1.3807 ({{mlby|2002}})
+# Barry Bonds, 1.3785 ({{mlby|2001}})
+# Babe Ruth, 1.3586 ({{mlby|1921}})
+# Babe Ruth, 1.3089 ({{mlby|1923}})
+# Ted Williams, 1.2875 ({{mlby|1941}})
+# Barry Bonds, 1.2778 ({{mlby|2003}})
+# Babe Ruth, 1.2582 ({{mlby|1927}})
+# Ted Williams, 1.2566 ({{mlby|1957}})
+
+The highest single-season mark for a right-handed hitter was 1.2449 by [[Rogers Hornsby]] in ({{mlby|1925}}), (13th on the all-time list). Since 1925, the highest single-season OPS for a right-hander is 1.2224 by [[Mark McGwire]] in ({{mlby|1998}}), which is good for 16th all-time.
+
+Source: [http://www.baseball-reference.com/leaders/OPS_season.shtml Baseball-Reference.com - Single-Season Records for OPS]
+
+==Adjusted OPS (OPS+)==
+OPS+, Adjusted OPS, is a closely related statistic. OPS+ is OPS adjusted for the park and the league in which the player played, but not for fielding position. An OPS+ of 100 is defined to be the league average. An OPS+ of 150 or more is excellent and 125 very good, while an OPS+ of 75 or below is poor.
+
+The basic equation for OPS+ is
+
+<math>OPS+ = 100 * (\frac{OBP} {*lgOBP} + \frac{SLG} {*lgSLG} - 1)</math>
+
+where *lgOBP is the park adjusted OBP of the league (not counting pitchers hitting) and *lgSLG is the park adjusted SLG of the league.
+
+A common misconception is that OPS+ closely matches the ratio of a player's OPS to that of the league. In fact, due to the additive nature of the two components in OPS+, a player with an OBP and SLG both 50% better than league average in those metrics will have an OPS+ of 200 (twice the league average OPS+) while still having an OPS that is only 50% better than the average OPS of the league.  It would be a better (although not exact) approximation to say that a player with an OPS+ of 150 produces 50% more ''runs'', in a given set of plate appearances, as a player with an OPS+ of 100.
+
+===Leaders in OPS+===
+Through September 29, 2013, the career leaders in OPS+ (minimum 3,000 plate appearances, active players in bold) were
+
+&nbsp; 1. [[Babe Ruth]], 206 <br>
+&nbsp; 2. [[Ted Williams]], 190 <br>
+&nbsp; 3. [[Barry Bonds]], 181 <br>
+&nbsp; 4. [[Lou Gehrig]], 178 <br>
+&nbsp; 5. [[Rogers Hornsby]], 175 <br>
+&nbsp; 6. [[Mickey Mantle]], 172 <br>
+&nbsp; 7. [[Dan Brouthers]], 170 <br>
+&nbsp; 8. [[Shoeless Joe Jackson|Joe Jackson]], 169 <br>
+&nbsp; 9. [[Ty Cobb]], 168 <br>
+&nbsp;10. '''[[Albert Pujols]]''', 165 <br>
+11. [[Pete Browning]], 163 <br>
+12. [[Jimmie Foxx]], 163
+
+Source: [http://www.baseball-reference.com/leaders/onbase_plus_slugging_plus_career.shtml Baseball-Reference.com - Career Leaders & Records for Adjusted OPS+].
+
+The only purely right-handed batters to appear on this list are Hornsby, Pujols, and Foxx. Mantle is the only switch-hitter in the group.
+
+The highest single-season performances were:
+
+# [[Barry Bonds]], 268 ({{mlby|2002}})
+# [[Barry Bonds]], 263 ({{mlby|2004}})
+# [[Barry Bonds]], 259 ({{mlby|2001}})
+# [[Fred Dunlap]], 258 ([[1884 in baseball|1884]]) *
+# [[Babe Ruth]], 256 ({{mlby|1920}})
+# [[Babe Ruth]], 239 ({{mlby|1921}})
+# [[Babe Ruth]], 239 ({{mlby|1923}})
+# [[Ted Williams]], 235 ({{mlby|1941}})
+# [[Ted Williams]], 233 ({{mlby|1957}})
+# [[Ross Barnes]], 231 ([[1876 in baseball|1876]]) **
+# [[Barry Bonds]], 231 ({{mlby|2003}})
+
+Source: [http://www.baseball-reference.com/leaders/onbase_plus_slugging_plus_season.shtml Baseball-Reference.com - Single-Season Leaders & Records for Adjusted OPS+]
+
+<nowiki>*</nowiki> - Fred Dunlap's historic 1884 season came in the [[Union Association]], which some baseball experts consider not to be a true major league
+
+<nowiki>**</nowiki> - Ross Barnes may have been aided by a rule that made a bunt fair if it first rolled in fair territory. He did not play nearly so well when this rule was removed, although injuries may have been mostly to blame, as his fielding statistics similarly declined.
+
+If Dunlap's and Barnes' seasons were to be eliminated from the list, two other Ruth seasons (1926 and 1927) would be on the list. This would also eliminate the only right-handed batter in the list, Barnes.
+
+==See also==
+{{Portal|Baseball}}
+* [[On-base percentage]]
+* [[Slugging percentage]]
+* [[Sabermetrics]]
+* [[Gross Production Average]]
+
+==Notes==
+<references />
+
+==References==
+* {{Cite book|last=Thorn|first=John|coauthors=Pete Palmer|title=The Hidden Game of Baseball|year=1984|publisher=Doubleday & Company|isbn=0-385-18283-X}}
+* {{Cite book|last=Schwarz|first=Alan|authorlink=Alan Schwarz|title=The Numbers Game|year=2004|publisher=Thomas Dunne Books|isbn=0-312-32222-4}}
+
+{{Baseball statistics}}
+
+{{DEFAULTSORT:On-Base Plus Slugging}}
+[[Category:Batting statistics]]

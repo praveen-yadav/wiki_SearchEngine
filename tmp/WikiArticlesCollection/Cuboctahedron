@@ -1,0 +1,142 @@
+{{More footnotes|date=September 2013}}
+{{Semireg polyhedra db|Semireg polyhedron stat table|CO}}
+In [[geometry]], a '''cuboctahedron''' is a [[polyhedron]] with eight triangular faces and six square faces. A cuboctahedron has 12 identical vertices, with two triangles and two squares meeting at each, and 24 identical edges, each separating a triangle from a square. As such it is a [[quasiregular polyhedron]], i.e. an [[Archimedean solid]], being [[vertex-transitive]] and [[edge-transitive]].
+
+Its [[dual polyhedron]] is the [[rhombic dodecahedron]].
+
+==Other names==
+*''Heptaparallelohedron'' ([[Buckminster Fuller]])
+**Fuller applied the name "[[Dymaxion]]" to this shape, used in an early version of the [[Dymaxion map]].
+*With O<sub>h</sub> symmetry, it is a ''[[Rectification (geometry)|rectified]] [[cube]]'' or ''rectified octahedron'' ([[Norman Johnson (mathematician)|Norman Johnson]])
+*With T<sub>d</sub> symmetry, it is a ''[[Cantellation (geometry)|cantellated]] [[tetrahedron]]''.
+*With D<sub>3d</sub> symmetry, it is a ''triangular [[gyrobicupola]]''.
+
+==Area and volume==
+The area ''A'' and the volume ''V'' of the cuboctahedron of edge length ''a'' are:
+:<math>A = (6+2\sqrt{3})a^2 \approx 9.4641016a^2</math>
+:<math>V = \frac{5}{3} \sqrt{2}a^3 \approx 2.3570226a^3.</math>
+
+==Orthogonal projections==
+The ''cuboctahedron'' has four special [[orthogonal projection]]s, centered on a vertex, an edge, and the two types of faces, triangular and square. The last two correspond to the B<sub>2</sub> and A<sub>2</sub> [[Coxeter plane]]s. The skew projections show a square and hexagon passing through the center of the cuboctahedron.
+{|class=wikitable
+|+ Orthogonal projections
+|-
+!Centered by
+!Square<br>Face
+!Triangular<br>Face
+|- align=center
+!Face plane<BR>projections
+|[[File:3-cube t1 B2.svg|100px]]
+|[[File:3-cube t1.svg|100px]]
+|- align=center
+!Projective<BR>symmetry
+|[4]
+|[6]
+|- align=center
+!Skew<BR>projections
+|[[File:Cuboctahedron B2 planes.png|90px]]
+|[[File:Cuboctahedron 3 planes.png|100px]]
+|- align=center
+!Vertex/edge<BR>projections
+||[[File:Cube t1 v.png|100px]]
+|[[File:Cube t1 e.png|100px]]
+|}
+
+==Cartesian coordinates==
+The [[Cartesian coordinates]] for the vertices of a cuboctahedron (of edge length √2) centered at the origin are:
+:(±1,±1,0)
+:(±1,0,±1)
+:(0,±1,±1)
+
+An alternate set of coordinates can be made in 4-space, as 12 permutations of:
+:(0,1,1,2)
+
+This construction exists as one of 16 [[orthant]] [[Facet (geometry)|facets]] of the [[cantellated 16-cell]].
+
+===Root vectors===
+The cuboctahedron's 12 vertices can represent the root vectors of the [[simple Lie group]] A<sub>3</sub>. With the addition of 6 vertices of the [[octahedron]], these vertices represent the 18 root vectors of the [[simple Lie group]] B<sub>3</sub>.
+
+==Geometric relations==
+A cuboctahedron can be obtained by taking an appropriate [[cross section (geometry)|cross section]] of a four-dimensional [[16-cell]].
+
+A cuboctahedron has octahedral symmetry. Its first [[stellation]] is the [[polyhedral compound|compound]] of a [[cube (geometry)|cube]] and its dual [[octahedron]], with the vertices of the cuboctahedron located at the midpoints of the edges of either. 
+
+The cuboctahedron is a [[Rectification (geometry)|rectified]] [[cube]] and also a rectified [[octahedron]]. 
+
+It is also a [[Cantellation (geometry)|cantellated]] [[tetrahedron]]. With this construction it is given the [[Wythoff symbol]]: {{nowrap|3 3 {{!}} 2}}. [[Image:Cantellated tetrahedron.png|50px]]
+
+A skew cantellation of the tetrahedron produces a solid with faces parallel to those of the cuboctahedron, namely eight triangles of two sizes, and six rectangles. While its edges are unequal, this solid remains ''vertex-uniform'': the solid has the full tetrahedral [[symmetry group]] and its vertices are equivalent under that group.
+
+The edges of a cuboctahedron form four regular [[hexagon]]s. If the cuboctahedron is cut in the plane of one of these hexagons, each half is a [[triangular cupola]], one of the [[Johnson solid]]s; the cuboctahedron itself thus can also be called a triangular [[bicupola (geometry)|gyrobicupola]], the simplest of a series (other than the [[gyrobifastigium]] or "digonal gyrobicupola"). If the halves are put back together with a twist, so that triangles meet triangles and squares meet squares, the result is another Johnson solid, the [[triangular orthobicupola]], also called an anticuboctahedron.
+
+Both triangular bicupolae are important in [[sphere packing]]. The distance from the solid's center to its vertices is equal to its edge length. Each central [[sphere]] can have up to twelve neighbors, and in a face-centered cubic lattice these take the positions of a cuboctahedron's vertices. In a [[hexagon]]al close-packed lattice they correspond to the corners of the triangular orthobicupola. In both cases the central sphere takes the position of the solid's center.
+
+Cuboctahedra appear as cells in three of the [[convex uniform honeycomb]]s and in nine of the convex [[uniform polychoron|uniform polychora]].
+
+The volume of the cuboctahedron is 5/6 of that of the enclosing cube and 5/8 of that of the enclosing octahedron.
+=== Vertex arrangement ===
+The cuboctahedron shares its edges and vertex arrangement with two [[nonconvex uniform polyhedron|nonconvex uniform polyhedra]]: the [[cubohemioctahedron]] (having the square faces in common) and the [[octahemioctahedron]] (having the triangular faces in common). It also serves as a cantellated [[tetrahedron]], as being a rectified [[tetratetrahedron]].
+
+{| class="wikitable" width="400" style="vertical-align:top;text-align:center"
+|[[Image:cuboctahedron.png|100px]]<br>Cuboctahedron
+|[[Image:cubohemioctahedron.png|100px]]<br>[[Cubohemioctahedron]]
+|[[Image:octahemioctahedron.png|100px]]<br>[[Octahemioctahedron]]
+|}
+
+The cuboctahedron [[covering space|2-covers]] the [[tetrahemihexahedron]],<ref name="richter">{{Harv|Richter}}</ref> which accordingly has the same [[abstract polytope|abstract]] [[vertex figure]] (two triangles and two squares: 3.4.3.4) and half the vertices, edges, and faces. (The actual vertex figure of the tetrahemihexahedron is 3.4.3/2.4, with the ''a''/2 factor due to the cross.)
+{|class="wikitable" width="400" style="vertical-align:top;text-align:center"
+|[[Image:cuboctahedron.png|100px]]<br>Cuboctahedron
+|[[Image:tetrahemihexahedron.png|100px]]<br>[[Tetrahemihexahedron]]
+|}
+
+==Related polyhedra==
+The cuboctahedron is one of a family of uniform polyhedra related to the cube and regular octahedron.
+
+{{Tetrahedron family}}
+
+{{Octahedral truncations}}
+
+The cuboctahedron can be seen in a sequence of [[quasiregular polyhedron]]s and tilings:
+{{Quasiregular figure table}}
+
+{{Quasiregular4 table}}
+
+This polyhedron is topologically related as a part of sequence of [[Cantellation (geometry)|cantellated]] polyhedra with vertex figure (3.4.n.4), and continues as tilings of the [[Hyperbolic space|hyperbolic plane]]. These [[vertex-transitive]] figures have (*n32) reflectional [[Orbifold notation|symmetry]].
+
+{{Expanded table}}
+
+==Related polytopes==
+The cuboctahedron can be decomposed into a regular [[octahedron]] and eight irregular but equal octahedra in the shape of the convex hull of a cube with two opposite vertices removed. This decomposition of the cuboctahedron corresponds with the cell-first parallel projection of the [[24-cell]] into three dimensions. Under this projection, the cuboctahedron forms the projection envelope, which can be decomposed into six square faces, a regular octahedron, and eight irregular octahedra. These elements correspond with the images of six of the octahedral cells in the 24-cell, the nearest and farthest cells from the 4D viewpoint, and the remaining eight pairs of cells, respectively.
+
+==Cultural occurrences==
+[[File:Two cuboctahedrons 2.jpg|200px|thumbnail|Two cuboctahedra on a chimney. [[Israel]].]]
+*In the ''[[Star Trek]]'' episode "[[By Any Other Name]]", aliens seize the [[Starship Enterprise|Enterprise]] by transforming crew members into inanimate cuboctahedra.
+*The "Geo Twister" fidget toy [http://www.trainerswarehouse.com/prodinfo.asp?number=FIGEO] is a flexible cuboctahedron.
+
+==See also==
+*[[Icosidodecahedron]]
+*[[Rhombicuboctahedron]]
+*[[Truncated cuboctahedron]]
+
+==References==
+{{reflist}}
+{{refbegin}}
+*{{cite book|last=Ghyka|first=Matila|title=The geometry of art and life.|year=1977|publisher=Dover Publications|location=New York|isbn=9780486235424|pages=51&ndash;56, 81&ndash;84|edition=[Nachdr.]}}
+*{{citation |ref={{harvid|Richter}} |first=David A. |last=Richter |url=http://homepages.wmich.edu/~drichter/rptwo.htm |title=Two Models of the Real Projective Plane}}
+*{{cite encyclopedia|title=Cuboctahedron|last=Weisstein|first=Eric W.|encyclopedia=CRC Concise Encyclopedia of Mathematics.|year=2002|publisher=CRC Press|location=Hoboken|isbn=9781420035223|pages=620&ndash;621|edition=2nd}}
+*{{The Geometrical Foundation of Natural Structure (book)}} (Section 3-9)
+* Cromwell, P. ''Polyhedra'', CUP hbk (1997), pbk. (1999). Ch.2 p.79-86 ''Archimedean solids''
+{{refend}}
+
+==External links==
+*[http://www.mathconsult.ch/showroom/unipoly/ The Uniform Polyhedra]
+*[http://www.georgehart.com/virtual-polyhedra/vp.html Virtual Reality Polyhedra] The Encyclopedia of Polyhedra
+*{{mathworld2 |urlname=Cuboctahedron |title=Cuboctahedron |urlname2=ArchimedeanSolid |title2=Archimedean solid}}
+*{{KlitzingPolytopes|polyhedra.htm|3D convex uniform polyhedra|o3x4o - co}}
+*[http://www.dr-mikes-math-games-for-kids.com/polyhedral-nets.html?net=dYI7PStK037OedkFHPiwHK2fbnxjxylGZCjWfNh0UwMgy82zEaWFzVL3PBfYB9SDz8RMvhNkpb8sS9R&name=Cuboctahedron#applet Editable printable net of a Cuboctahedron with interactive 3D view]
+
+{{Archimedean solids}}
+{{Polyhedron navigator}}
+
+[[Category:Archimedean solids]]
+[[Category:Quasiregular polyhedra]]

@@ -1,0 +1,76 @@
+{{Infobox software
+| name                   = ArgoUML
+| logo                   =
+| screenshot             = [[Image:ArgoUML.png|250px]]
+| caption                = ArgoUML screenshot
+| developer              = 
+| released               = April 1999
+| latest release version = 0.34
+| latest release date    = {{release date and age|2011|12|14}}
+| latest preview version = 
+| latest preview date    = 
+| operating system       = cross-platform (Java)
+| genre                  = [[Software development]], [[UML Tool]]
+| license                = [[Eclipse Public License|Eclipse Public License 1.0]]
+| website                = http://argouml.tigris.org
+| file_ext               = .zargo
+ }}
+'''ArgoUML''' is an [[Unified Modeling Language|UML]] diagramming application written in Java and released under the [[open source]] [[Eclipse Public License]].  By virtue of being a [[Java (programming language)|Java]] application, it is available on any platform supported by Java.
+
+ArgoUML does not yet completely implement the UML standard.<ref>{{cite web | url = http://argouml.tigris.org/documentation/umlsupport/index.html | work = ArgoUML documentation | title = UML Specification Incompatibility list }}</ref>
+
+==History==
+ArgoUML was originally developed at [[University of California, Irvine|UC Irvine]] by Jason E. Robbins, leading to his [[Doctor of Philosophy|Ph.D.]] It is now an open source project hosted by [[Tigris.org]]. The ArgoUML project now includes more than 19,000 registered users and over 150 developers.<ref>{{cite web | url = http://www.isr.uci.edu/tech-transition.html | title = Tech Transitions at ISR UCI}}</ref>
+
+In 2003, ArgoUML won the Software Development Magazine's annual Readers' Choice Award in the “Design and Analysis Tools” category.<ref>{{cite web | url = http://www.ddj.com/architect/184414997#designtools | title = Dr. Dobb's Readers' Choice Awards, 2003 }}</ref>
+
+ArgoUML development has suffered from lack of manpower. For example, ''Undo'' has been a perpetually requested feature since 2003 but has not been implemented yet.{{Citation needed|date=January 2011}}
+
+==Features==
+{{unreferenced section|date=November 2010}}
+*All 9 UML 1.4 diagrams supported though not yet implemented. Only class diagram and use-case diagrams are more or less fully implemented.
+*Closely follows the UML standard.
+*Platform independent – Java 1.5+.
+*Click and Go! with Java Web Start (no setup required, starts from your web browser).
+*Standard UML 1.4 Metamodel.
+*[[XML Metadata Interchange|XMI]] support.
+*Export diagrams as [[GIF]], [[Portable Network Graphics|PNG]], [[PostScript|PS]], [[Encapsulated PostScript|EPS]], [[PGML]] and [[SVG]].
+*Available in ten languages: EN, EN-GB, DE, ES, IT, RU, FR, NB, PT, ZH.
+*Advanced diagram editing and zoom.
+*Built-in design critics provide unobtrusive review of design and suggestions for improvements.
+*Extensible modules interface.
+*[[Object Constraint Language|OCL]] support.
+*Forward engineering (code generation supports C++ and C#, Java, PHP&nbsp;4, PHP&nbsp;5, Python, Ruby and, with less mature modules, Ada, Delphi and SQL).
+*Reverse engineering / [[JAR (file format)|JAR]]/class file import.
+
+==Weaknesses==
+* Partial undo feature (working for graphics edits <ref>{{cite web
+|url=http://argouml.tigris.org/servlets/NewsItemView?newsItemID=1228
+|title=ArgoUML 0.19.3 released
+}} Undo working for graphics edits (this is mostly a GEF addition).</ref><ref>{{cite web
+|url=http://argouml.tigris.org/issues/show_bug.cgi?id=1834
+|title=Issue 1834. Implement undo
+}} Undo working for graphics edits (this is mostly a GEF addition).</ref>)
+* support UML 2
+
+==See also==
+*[[List of UML tools]]
+*[[MetaCASE tool]]
+*[[Poseidon for UML]] – a commercial descendant of ArgoUML
+
+==References ==
+{{reflist|2}}
+
+==External links==
+{{commons category}}
+*[http://argouml.tigris.org Official ArgoUML website]
+*[http://www.argouml-users.net ArgoUML-Users wiki and forums]
+*[http://www.methodsandtools.com/tools/tools.php?argouml ArgoUML evaluation]
+
+{{DEFAULTSORT:Argouml}}
+[[Category:Java platform software]]
+[[Category:Free UML tools]]
+[[Category:1999 software]]
+[[Category:Software using the Eclipse license]]
+
+{{Uml-stub}}
