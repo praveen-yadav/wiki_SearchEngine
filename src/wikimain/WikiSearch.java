@@ -8,8 +8,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class WikiSearch {
-
-    ArrayList<String> corpus = new ArrayList<String>();
+    String corpus;
     Scanner cin;
 
     public void showMenu() throws FileNotFoundException, UnsupportedEncodingException, IOException {
@@ -21,29 +20,18 @@ public class WikiSearch {
         choiceI = Integer.parseInt(choiceS);
         if (choiceI == 1) {
             {
-                do {
-                    System.out.println("Enter next file/folder address or press enter otherwise");
+                    System.out.println("Enter xml dump address");
                     String document;
                     document = cin.nextLine();
                     if (document.isEmpty()) {
-                        corpus.add("/home/praveeny/wikidump/");
-                        break;
+                        corpus=new String("/home/praveeny/wikidump/wiki-dump.xml");                        
                     }
-                    corpus.add(document);
-                } while (choiceI == 1);
-                if (corpus.isEmpty()) {
-                    System.out.println("No corpus selected!");
-                    return;
-                }
-                SimpleCollection collection = new SimpleCollection(corpus);
-                collection.addtoCollection();
-                collection.processDocuments();
+                    else corpus=(document);
                 
-                File f = new File("./tmp/WikiArticlesCollection/Anarchism");
-                tokenizer tok = new tokenizer(f);
-                tok.openfile();
-                tok.removetags();
-                tok.closefile();
+                    SimpleCollection collection = new SimpleCollection(corpus);
+                    collection.addtoCollection();
+                    collection.processDocuments();
+                
             }
         } else if (choiceI == 2) {
         } else {
